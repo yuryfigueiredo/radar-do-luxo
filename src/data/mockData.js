@@ -116,6 +116,54 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-zurique-e-londres-o-aporte-histo-9971",
+    "slug": "zurique-e-londres-o-aporte-historico-de-35-em-ouro-fisico-e-ativos-irreprodutiveis-blindados-contra-a-erosao-cambial-9961",
+    "title": "Zurique e Londres: O Aporte Histórico de 35% em Ouro Físico e Ativos Irreprodutíveis Blindados Contra a Erosão Cambial",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "25 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Em meio à instabilidade crônica dos títulos de dívida soberana, gestores de fortunas multigeracionais abandonam a liquidez sintética em favor de cofres subterrâneos e refúgios de soberania patrimonial absoluta.",
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nos cofres blindados situados nas rochas suíças de Zurique e nos subsolos confidenciais de Londres, uma mudança tectônica opera-se sem alarde publicitário. Family offices de arquitetura secular elevaram em trinta e cinco por cento a custódia direta de metais preciosos e peças únicas de alta manufatura, ignorando as promessas de rendimento volátil dos mercados globais de dívida soberana.",
+      "A erosão cambial das moedas fiduciárias impôs uma rigorosa reavaliação de risco aos comitês de governança dinástica. Quando a inflação estrutural corrói os alicerces dos títulos públicos e a volatilidade geopolítica compromete os corredores tradicionais de liquidez, o capital soberano migra para a tangibilidade atemporal. Lingotes pesados de nove noves e artefatos de colecionismo histórico tornam-se a única âncora imune às flutuações algorítmicas dos mercados acionários.",
+      "Neste ecossistema de preservação de valor, cada quilograma de ouro depositado e cada obra mestra adquirida em leilões fechados operam como apólices definitivas de imunidade temporal. Não há otimização fiscal agressiva ou engenharia financeira sofisticada que substitua o peso incompressível da matéria-prima primordial guardada sob jurisdições políticas neutras e seguras contra confisco.",
+      "O veredito das mesas de gestão é definitivo. O futuro imediato pertence àqueles que convertem números voláteis de telas digitais em ativos palpáveis, garantindo que gerações futuras recebam não apenas riqueza acumulada, mas a própria soberania intacta sobre o tempo e a matéria."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nos cofres blindados situados nas rochas suíças de Zurique e nos subsolos confidenciais de Londres, uma mudança tectônica opera-se sem alarde publicitário. Family offices de arquitetura secular elevaram em trinta e cinco por cento a custódia direta de metais preciosos e peças únicas de alta manufatura, ignorando as promessas de rendimento volátil dos mercados globais de dívida soberana.",
+      "A erosão cambial das moedas fiduciárias impôs uma rigorosa reavaliação de risco aos comitês de governança dinástica. Quando a inflação estrutural corrói os alicerces dos títulos públicos e a volatilidade geopolítica compromete os corredores tradicionais de liquidez, o capital soberano migra para a tangibilidade atemporal. Lingotes pesados de nove noves e artefatos de colecionismo histórico tornam-se a única âncora imune às flutuações algorítmicas dos mercados acionários.",
+      "Neste ecossistema de preservação de valor, cada quilograma de ouro depositado e cada obra mestra adquirida em leilões fechados operam como apólices definitivas de imunidade temporal. Não há otimização fiscal agressiva ou engenharia financeira sofisticada que substitua o peso incompressível da matéria-prima primordial guardada sob jurisdições políticas neutras e seguras contra confisco.",
+      "O veredito das mesas de gestão é definitivo. O futuro imediato pertence àqueles que convertem números voláteis de telas digitais em ativos palpáveis, garantindo que gerações futuras recebam não apenas riqueza acumulada, mas a própria soberania intacta sobre o tempo e a matéria."
+    ],
+    "specs": {
+      "Aumento de Custódia": "35% em ativos físicos tangíveis",
+      "Principais Jurisdições": "Zurique, Genebra, Londres e São Paulo",
+      "Classe de Ativo Principal": "Ouro em barras de 400 onças e peças únicas",
+      "Perfil de Governança": "Family Offices multigeracionais de custódia fiduciária"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 94,
+    "ranking_score": 94,
+    "publishedAt": "2026-10-25T23:12:09.971Z",
+    "published_at": "2026-10-25T23:12:09.971Z"
+  },
+  {
     "id": "art-bvlgari-cofres-suicos-o-aporte-d-6429",
     "slug": "bvlgari-cofres-suicos-o-aporte-de-35-em-ouro-fisico-e-pecas-unicas-que-blindam-a-soberania-patrimonial-contra-a-erosao-cambial-6414",
     "title": "Bvlgari & Cofres Suíços: O Aporte de 35% em Ouro Físico e Peças Únicas que Blindam a Soberania Patrimonial Contra a Erosão Cambial",
@@ -152,10 +200,10 @@ export const ARTICLES = [
       "Governanca": "Trusts multigeracionais e custódia fiduciária"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 94,
@@ -828,10 +876,10 @@ export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
     category: 'ARQUITETURA',
-    title: 'Bvlgari & Cofres Suíços: O Aporte de 3...',
+    title: 'Zurique e Londres: O Aporte Histórico ...',
     image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=max&q=80&w=1400',
     tag: 'DESTAQUE MUNDIAL',
-    slug: 'bvlgari-cofres-suicos-o-aporte-de-35-em-ouro-fisico-e-pecas-unicas-que-blindam-a-soberania-patrimonial-contra-a-erosao-cambial-6414'
+    slug: 'zurique-e-londres-o-aporte-historico-de-35-em-ouro-fisico-e-ativos-irreprodutiveis-blindados-contra-a-erosao-cambial-9961'
   },
   {
     id: 'film-2',
