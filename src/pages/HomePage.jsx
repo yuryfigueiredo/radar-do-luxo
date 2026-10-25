@@ -4,6 +4,7 @@ import WeeklyDropsBar from '../components/WeeklyDropsBar';
 import FilmstripReel from '../components/FilmstripReel';
 import FeedSection from '../components/FeedSection';
 import NewsletterSection from '../components/NewsletterSection';
+import AdSenseSlot from '../components/AdSenseSlot';
 
 export default function HomePage({ onQuickView }) {
   return (
@@ -31,7 +32,16 @@ export default function HomePage({ onQuickView }) {
       {/* 4. Feed Section with FLIP Category Filter Animations */}
       <FeedSection onQuickView={onQuickView} />
 
-      {/* 5. Newsletter VIP / Radar Privado */}
+      {/* 5. Quiet Luxury Maison Showcase / Billboard Ad Placement */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-4 mb-4">
+        <AdSenseSlot
+          format="billboard"
+          slot="1029384756"
+          priorityIndex={4}
+        />
+      </div>
+
+      {/* 6. Newsletter VIP / Radar Privado */}
       <NewsletterSection />
     </div>
   );

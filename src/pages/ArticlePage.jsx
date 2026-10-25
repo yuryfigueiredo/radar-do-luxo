@@ -423,6 +423,8 @@ export default function ArticlePage({ onQuickView }) {
                     <AdSenseSlot 
                       format="in-article" 
                       slot="1234567890" 
+                      categorySlug={article.categorySlug}
+                      priorityIndex={0}
                     />
                   )}
                 </React.Fragment>
@@ -545,6 +547,7 @@ export default function ArticlePage({ onQuickView }) {
               <AdSenseSlot 
                 format="sidebar" 
                 slot="0987654321" 
+                priorityIndex={1}
               />
 
               {/* Category Quick Explore Pill */}

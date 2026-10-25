@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Clock, Eye, Sparkles, Play, ArrowRight } from 'lucide-react';
 import { CATEGORIES, ARTICLES, AUTHORS } from '../data/mockData';
 import { fetchArticles } from '../services/radarService';
+import AdSenseSlot from './AdSenseSlot';
 
 export default function FeedSection({ onQuickView }) {
   const [activeCategory, setActiveCategory] = useState('todos');
@@ -83,86 +84,106 @@ export default function FeedSection({ onQuickView }) {
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8"
         >
           <AnimatePresence>
-            {filteredItems.map((item) => {
+            {filteredItems.map((item, index) => {
               const author = AUTHORS[item.authorSlug] || AUTHORS['henrique-vianna'];
               return (
-                <motion.article
-                  layout
-                  key={item.id}
-                  initial={{ opacity: 0, scale: 0.95 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  exit={{ opacity: 0, scale: 0.95 }}
-                  transition={{ duration: 0.35, ease: 'easeOut' }}
-                  className="group spotlight-card bg-white dark:bg-lux-bg-cardDark rounded-lg border border-lux-border-light dark:border-lux-border-dark overflow-hidden shadow-lux hover:shadow-lux-hover flex flex-col justify-between"
-                >
-                  {/* Image Frame */}
-                  <div className="relative aspect-[16/10] overflow-hidden bg-black/10">
-                    <Link to={`/artigo/${item.slug}`}>
-                      <img
-                        src={item.image}
-                        alt={item.title}
-                        loading="lazy"
-                        decoding="async"
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
-                      />
-                    </Link>
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
-                    
-                    {/* Category & Badge */}
-                    <div className="absolute top-3 left-3 flex items-center gap-1.5">
-                      <span className="text-[9px] font-bold tracking-widest uppercase bg-black/75 backdrop-blur-md text-white px-2.5 py-1 rounded">
-                        {item.category}
-                      </span>
-                      {item.type === 'video' && (
-                        <span className="text-[9px] font-bold uppercase bg-lux-gold text-black px-2 py-1 rounded flex items-center gap-1">
-                          <Play className="w-2.5 h-2.5 fill-black" /> Vídeo
-                        </span>
-                      )}
-                    </div>
-
-                    {/* Quick View Button on Hover */}
-                    <button
-                      onClick={(e) => {
-                        e.preventDefault();
-                        e.stopPropagation();
-                        onQuickView && onQuickView(item);
-                      }}
-                      className="absolute bottom-3 right-3 opacity-0 group-hover:opacity-100 transition-all duration-300 bg-white/95 dark:bg-black/90 backdrop-blur-md text-xs font-semibold px-3 py-1.5 rounded text-lux-text-primary dark:text-white flex items-center gap-1.5 hover:bg-lux-gold hover:text-black shadow-md"
-                    >
-                      <Eye className="w-3.5 h-3.5" />
-                      <span>Ficha Rápida</span>
-                    </button>
-                  </div>
-
-                  {/* Content */}
-                  <div className="p-5 sm:p-6 flex-1 flex flex-col justify-between">
-                    <div>
-                      <h3 className="font-serif text-lg sm:text-xl font-bold leading-snug text-lux-text-primary dark:text-lux-text-darkPrimary group-hover:text-lux-gold transition-colors">
-                        <Link to={`/artigo/${item.slug}`}>
-                          {item.title}
-                        </Link>
-                      </h3>
-                      <p className="mt-2.5 text-xs sm:text-sm text-lux-text-secondary dark:text-lux-text-darkSecondary line-clamp-3 leading-relaxed font-light">
-                        {item.excerpt}
-                      </p>
-                    </div>
-
-                    {/* Author & Read Time */}
-                    <div className="mt-5 pt-4 border-t border-lux-border-light dark:border-lux-border-dark flex items-center justify-between text-xs text-lux-text-muted">
-                      <Link 
-                        to={`/autor/${author.slug}`}
-                        className="font-medium text-lux-text-primary dark:text-white hover:text-lux-gold transition-colors"
-                      >
-                        {author.name}
+                <React.Fragment key={item.id}>
+                  <motion.article
+                    layout
+                    initial={{ opacity: 0, scale: 0.95 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    exit={{ opacity: 0, scale: 0.95 }}
+                    transition={{ duration: 0.35, ease: 'easeOut' }}
+                    className="group spotlight-card bg-white dark:bg-lux-bg-cardDark rounded-lg border border-lux-border-light dark:border-lux-border-dark overflow-hidden shadow-lux hover:shadow-lux-hover flex flex-col justify-between"
+                  >
+                    {/* Image Frame */}
+                    <div className="relative aspect-[16/10] overflow-hidden bg-black/10">
+                      <Link to={`/artigo/${item.slug}`}>
+                        <img
+                          src={item.image}
+                          alt={item.title}
+                          loading="lazy"
+                          decoding="async"
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                        />
                       </Link>
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
+                      
+                      {/* Category & Badge */}
+                      <div className="absolute top-3 left-3 flex items-center gap-1.5">
+                        <span className="text-[9px] font-bold tracking-widest uppercase bg-black/75 backdrop-blur-md text-white px-2.5 py-1 rounded">
+                          {item.category}
+                        </span>
+                        {item.type === 'video' && (
+                          <span className="text-[9px] font-bold uppercase bg-lux-gold text-black px-2 py-1 rounded flex items-center gap-1">
+                            <Play className="w-2.5 h-2.5 fill-black" /> Vídeo
+                          </span>
+                        )}
+                      </div>
 
-                      <div className="flex items-center gap-1">
-                        <Clock className="w-3 h-3" />
-                        <span>{item.readTime}</span>
+                      {/* Quick View Button on Hover */}
+                      <button
+                        onClick={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          onQuickView && onQuickView(item);
+                        }}
+                        className="absolute bottom-3 right-3 opacity-0 group-hover:opacity-100 transition-all duration-300 bg-white/95 dark:bg-black/90 backdrop-blur-md text-xs font-semibold px-3 py-1.5 rounded text-lux-text-primary dark:text-white flex items-center gap-1.5 hover:bg-lux-gold hover:text-black shadow-md"
+                      >
+                        <Eye className="w-3.5 h-3.5" />
+                        <span>Ficha Rápida</span>
+                      </button>
+                    </div>
+
+                    {/* Content */}
+                    <div className="p-5 sm:p-6 flex-1 flex flex-col justify-between">
+                      <div>
+                        <h3 className="font-serif text-lg sm:text-xl font-bold leading-snug text-lux-text-primary dark:text-lux-text-darkPrimary group-hover:text-lux-gold transition-colors">
+                          <Link to={`/artigo/${item.slug}`}>
+                            {item.title}
+                          </Link>
+                        </h3>
+                        <p className="mt-2.5 text-xs sm:text-sm text-lux-text-secondary dark:text-lux-text-darkSecondary line-clamp-3 leading-relaxed font-light">
+                          {item.excerpt}
+                        </p>
+                      </div>
+
+                      {/* Author & Read Time */}
+                      <div className="mt-5 pt-4 border-t border-lux-border-light dark:border-lux-border-dark flex items-center justify-between text-xs text-lux-text-muted">
+                        <Link 
+                          to={`/autor/${author.slug}`}
+                          className="font-medium text-lux-text-primary dark:text-white hover:text-lux-gold transition-colors"
+                        >
+                          {author.name}
+                        </Link>
+
+                        <div className="flex items-center gap-1">
+                          <Clock className="w-3 h-3" />
+                          <span>{item.readTime}</span>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </motion.article>
+                  </motion.article>
+
+                  {/* Alocação Nativa de Publicidade Quiet Luxury no Feed */}
+                  {index === 2 && (
+                    <motion.div
+                      layout
+                      key="feed-sponsor-slot"
+                      initial={{ opacity: 0, scale: 0.95 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      exit={{ opacity: 0, scale: 0.95 }}
+                      transition={{ duration: 0.35, ease: 'easeOut' }}
+                    >
+                      <AdSenseSlot
+                        format="feed"
+                        slot="5678901234"
+                        categorySlug={activeCategory !== 'todos' ? activeCategory : null}
+                        priorityIndex={2}
+                      />
+                    </motion.div>
+                  )}
+                </React.Fragment>
               );
             })}
           </AnimatePresence>
