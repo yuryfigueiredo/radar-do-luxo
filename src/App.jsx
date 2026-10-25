@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
+import AnalyticsProvider from './components/AnalyticsProvider';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import QuickViewModal from './components/QuickViewModal';
@@ -51,6 +52,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
+      <AnalyticsProvider />
       <div className="min-h-screen flex flex-col bg-lux-bg-light dark:bg-lux-bg-dark text-lux-text-primary dark:text-lux-text-darkPrimary transition-colors duration-300">
         
         {/* Global Navigation Header */}

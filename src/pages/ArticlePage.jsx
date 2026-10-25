@@ -23,6 +23,7 @@ import { ARTICLES, AUTHORS } from '../data/mockData';
 import { fetchArticleBySlug } from '../services/radarService';
 import ConciergeModal from '../components/ConciergeModal';
 import AdSenseSlot from '../components/AdSenseSlot';
+import { trackEvent } from '../services/analyticsService';
 
 export default function ArticlePage({ onQuickView }) {
   const { slug } = useParams();
@@ -42,6 +43,12 @@ export default function ArticlePage({ onQuickView }) {
       const found = await fetchArticleBySlug(slug);
       if (isMounted && found) {
         setArticle(found);
+        trackEvent('article_viewed', {
+          title: found.title,
+          category: found.category,
+          author: found.author,
+          slug,
+        });
       }
     }
     loadArticle();

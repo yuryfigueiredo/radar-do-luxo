@@ -1,5 +1,5 @@
 # 💎 RADAR DO LUXO — BLUEPRINT MESTRE DO PROJETO (SSOT)
-**Versão:** 2.3.0  
+**Versão:** 2.4.0  
 **Data de Atualização:** 25/10/2026  
 **Status:** Produção Ativa & Homologada (`https://www.radardoluxo.com.br`)  
 **Repositório Oficial:** `https://github.com/yuryfigueiredo/radar-do-luxo`  
@@ -222,7 +222,30 @@ Para conferência visual e desenvolvimento, o componente `AdSenseSlot.jsx` permi
 
 ---
 
-## 12. Guia para Próximos Chats / Agentes de IA
+## 12. Arquitetura de Analytics & Métricas de Audiência
+
+O Radar do Luxo utiliza uma abordagem híbrida de alta performance e custo zero:
+
+* **Vercel Web Analytics (`@vercel/analytics`):**
+  * Coleta de acessos em tempo real, visitantes únicos, páginas mais acessadas, países e dispositivos.
+  * *Franquia Gratuita Vercel Hobby:* 2.500 eventos por mês. Quando atinge o limite, a Vercel apenas congela temporariamente a coleta de novas métricas até o próximo ciclo. **Nunca derruba o site e nunca gera cobrança surpresa.**
+* **Vercel Speed Insights (`@vercel/speed-insights`):**
+  * Monitoramento contínuo de Core Web Vitals reais de usuários (LCP, INP, CLS, TTFB).
+  * *Franquia Gratuita Vercel Hobby:* 10.000 pontos de dados por mês.
+* **Google Analytics 4 (GA4):**
+  * Suporte nativo em SPA via componente `AnalyticsProvider.jsx` e `useLocation()`.
+  * *Franquia:* 100% Gratuito e Ilimitado (até 10 milhões de eventos/mês).
+  * *Integração:* Ativado automaticamente ao preencher `VITE_GA_MEASUREMENT_ID=G-XXXXXXXXXX` nas variáveis de ambiente.
+  * Conecta diretamente com o inventário do Google AdSense para cruzar faturamento e audiência HNWI.
+* **Rastreamento de Eventos Customizados de Alto Valor (`analyticsService.js`):**
+  * `vip_newsletter_signup` (Credencial VIP emitida com código de protocolo)
+  * `mediakit_modal_opened` e `mediakit_cta_clicked` (Interesse de marcas de prestígio)
+  * `article_viewed` (Consumo aprofundado com título, categoria e autor)
+  * `sponsor_link_clicked` (Engajamento com anunciantes Maison)
+
+---
+
+## 13. Guia para Próximos Chats / Agentes de IA
 
 > [!IMPORTANT]
 > **Instruções Obrigatórias para Qualquer Modelo de IA que Atue no Repositório:**

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { ExternalLink, Sparkles, Shield, ChevronRight, Info, Eye, Layers } from 'lucide-react';
 import { LUXURY_SPONSORS, getSponsorForCategory } from '../data/sponsorsData';
 import MediaKitModal from './MediaKitModal';
+import { trackEvent } from '../services/analyticsService';
 
 /**
  * ==============================================================================

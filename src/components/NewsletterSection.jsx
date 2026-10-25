@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Mail, CheckCircle2, ArrowRight, Lock, Loader2, Sparkles, ShieldCheck, RefreshCw } from 'lucide-react';
 import { subscribeNewsletter } from '../services/radarService';
+import { trackEvent } from '../services/analyticsService';
 
 export default function NewsletterSection() {
   const [email, setEmail] = useState('');
@@ -20,10 +21,12 @@ export default function NewsletterSection() {
     try {
       const result = await subscribeNewsletter(email);
       if (result.success) {
+        const assignedProtocol = result.protocol || `RD-${Math.floor(100000 + Math.random() * 900000)}`;
         setSubscribed(true);
         setSubscribedEmail(email.trim().toLowerCase());
-        setProtocol(result.protocol || `RD-${Math.floor(100000 + Math.random() * 900000)}`);
+        setProtocol(assignedProtocol);
         setEmail('');
+        trackEvent('vip_newsletter_signup', { protocol: assignedProtocol });
       } else {
         setErrorMsg(result.error || 'Não foi possível cadastrar seu e-mail. Verifique a digitação.');
       }

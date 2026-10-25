@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, ShieldCheck, Mail, Sparkles, Building2, TrendingUp, Compass, Award } from 'lucide-react';
 import { MEDIA_KIT_DATA } from '../data/sponsorsData';
+import { trackEvent } from '../services/analyticsService';
 
 export default function MediaKitModal({ isOpen, onClose }) {
+  useEffect(() => {
+    if (isOpen) {
+      trackEvent('mediakit_modal_opened');
+    }
+  }, [isOpen]);
+
   if (!isOpen) return null;
 
   return (
@@ -156,6 +163,7 @@ export default function MediaKitModal({ isOpen, onClose }) {
 
               <a
                 href="mailto:comercial@radardoluxo.com.br?subject=Solicitacao%20de%20Midia%20Kit%20-%20Radar%20do%20Luxo"
+                onClick={() => trackEvent('mediakit_cta_clicked')}
                 className="w-full sm:w-auto px-6 py-2.5 rounded-full bg-lux-gold hover:bg-lux-gold-light text-black text-xs font-bold uppercase tracking-wider transition-colors text-center shadow"
               >
                 Solicitar Tabela de Alocações
