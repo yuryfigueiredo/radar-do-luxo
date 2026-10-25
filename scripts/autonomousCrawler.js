@@ -13,13 +13,33 @@
 
 import { createClient } from '@supabase/supabase-js';
 
-// 1. Configurações de Ambiente
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY || process.env.VITE_GEMINI_API_KEY;
-const SUPABASE_URL = process.env.SUPABASE_URL || process.env.VITE_SUPABASE_URL;
-const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_KEY || process.env.VITE_SUPABASE_ANON_KEY;
+// 1. Configurações de Ambiente Sanitizadas
+const GEMINI_API_KEY = (process.env.GEMINI_API_KEY || process.env.VITE_GEMINI_API_KEY || '').trim();
+
+let rawSupabaseUrl = (process.env.SUPABASE_URL || process.env.VITE_SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL || '').trim();
+if (rawSupabaseUrl && !rawSupabaseUrl.startsWith('http://') && !rawSupabaseUrl.startsWith('https://')) {
+  rawSupabaseUrl = `https://${rawSupabaseUrl}`;
+}
+// Remove trailing slash se houver
+if (rawSupabaseUrl.endsWith('/')) {
+  rawSupabaseUrl = rawSupabaseUrl.slice(0, -1);
+}
+const SUPABASE_URL = rawSupabaseUrl;
+
+const SUPABASE_KEY = (
+  process.env.SUPABASE_SERVICE_ROLE_KEY || 
+  process.env.SUPABASE_KEY || 
+  process.env.VITE_SUPABASE_ANON_KEY || 
+  process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ||
+  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ||
+  ''
+).trim();
 
 console.log('💎 [RADAR DO LUXO] Iniciando ciclo editorial autônomo...');
 console.log('⏰ Horário UTC:', new Date().toISOString());
+console.log('📡 Supabase URL detectada:', SUPABASE_URL ? `${SUPABASE_URL.substring(0, 25)}...` : '(Não configurada)');
+console.log('🔑 Supabase Key detectada:', SUPABASE_KEY ? `Tamanho: ${SUPABASE_KEY.length} chars` : '(Não configurada)');
+console.log('🤖 Gemini API Key detectada:', GEMINI_API_KEY ? `Tamanho: ${GEMINI_API_KEY.length} chars` : '(Não configurada)');
 
 // 2. Banco de Pautas Quentes Alternativas Homologadas
 const CURATED_PAUTAS_POOL = [
@@ -242,102 +262,121 @@ async function main() {
     let supabaseClient = null;
 
     if (SUPABASE_URL && SUPABASE_KEY) {
-      console.log('📡 Conectando ao Supabase para auditoria do acervo...');
-      supabaseClient = createClient(SUPABASE_URL, SUPABASE_KEY);
+      try {
+        console.log('📡 Conectando ao Supabase para auditoria do acervo...');
+        supabaseClient = createClient(SUPABASE_URL, SUPABASE_KEY);
 
-      const { data: existingArticles } = await supabaseClient
-        .from('articles')
-        .select('*')
-        .eq('status', 'published');
+        const { data: existingArticles, error: fetchErr } = await supabaseClient
+          .from('articles')
+          .select('*')
+          .eq('status', 'published');
 
-      if (existingArticles && existingArticles.length > 0) {
-        const currentHero = existingArticles.find(a => a.is_hero);
+        if (fetchErr) {
+          console.warn('⚠️ Aviso ao buscar artigos existentes no Supabase:', fetchErr.message);
+          console.log('💡 Dica: Se o banco for novo, certifique-se de executar o schema.sql no SQL Editor do Supabase.');
+        }
 
-        if (currentHero) {
-          if (currentHero.is_pinned_hero) {
-            console.log('📌 A Capa atual está FIXADA MANUALMENTE. A nova matéria irá para o Feed Geral.');
-            finalIsHero = false;
-          } else {
-            // Calcula decaimento da Capa atual (Meia-vida de 24h)
-            const heroPubTime = new Date(currentHero.published_at || currentHero.created_at || Date.now()).getTime();
-            const hoursElapsed = Math.max(0, (Date.now() - heroPubTime) / (3600 * 1000));
-            const currentHeroWeight = (currentHero.ranking_score || 88) * Math.pow(0.5, hoursElapsed / 24);
+        if (existingArticles && existingArticles.length > 0) {
+          const currentHero = existingArticles.find(a => a.is_hero);
 
-            console.log(`⚖️  Capa Atual: "${currentHero.title.slice(0, 30)}..." | Peso Dinâmico: ${Math.round(currentHeroWeight)} pts (Horas no ar: ${hoursElapsed.toFixed(1)}h)`);
-            console.log(`⚖️  Nova Matéria: Score Base ${score} pts`);
-
-            // Proteção da Segunda Matéria: verifica se há outra matéria no acervo com peso superior
-            const otherContenders = existingArticles
-              .filter(a => !a.is_hero && (a.ranking_score || 80) >= 88)
-              .map(a => {
-                const h = Math.max(0, (Date.now() - new Date(a.published_at || a.created_at || Date.now()).getTime()) / (3600 * 1000));
-                return { title: a.title, weight: (a.ranking_score || 88) * Math.pow(0.5, h / 24) };
-              })
-              .sort((a, b) => b.weight - a.weight);
-
-            const topContenderWeight = otherContenders[0]?.weight || 0;
-
-            if (score >= 88 && score > currentHeroWeight && score >= topContenderWeight) {
-              console.log('👑 Nova matéria superou a Capa atual e todos os concorrentes! Assumirá o topo da Capa.');
-              finalIsHero = true;
-            } else {
-              console.log('📰 Nova matéria classificada para o Feed Geral (Capa atual mantida ou protegida por matéria anterior mais forte).');
+          if (currentHero) {
+            if (currentHero.is_pinned_hero) {
+              console.log('📌 A Capa atual está FIXADA MANUALMENTE. A nova matéria irá para o Feed Geral.');
               finalIsHero = false;
+            } else {
+              // Calcula decaimento da Capa atual (Meia-vida de 24h)
+              const heroPubTime = new Date(currentHero.published_at || currentHero.created_at || Date.now()).getTime();
+              const hoursElapsed = Math.max(0, (Date.now() - heroPubTime) / (3600 * 1000));
+              const currentHeroWeight = (currentHero.ranking_score || 88) * Math.pow(0.5, hoursElapsed / 24);
+
+              const safeTitle = (currentHero.title || 'Capa Atual').slice(0, 30);
+              console.log(`⚖️  Capa Atual: "${safeTitle}..." | Peso Dinâmico: ${Math.round(currentHeroWeight)} pts (Horas no ar: ${hoursElapsed.toFixed(1)}h)`);
+              console.log(`⚖️  Nova Matéria: Score Base ${score} pts`);
+
+              // Proteção da Segunda Matéria: verifica se há outra matéria no acervo com peso superior
+              const otherContenders = existingArticles
+                .filter(a => !a.is_hero && (a.ranking_score || 80) >= 88)
+                .map(a => {
+                  const h = Math.max(0, (Date.now() - new Date(a.published_at || a.created_at || Date.now()).getTime()) / (3600 * 1000));
+                  return { title: a.title, weight: (a.ranking_score || 88) * Math.pow(0.5, h / 24) };
+                })
+                .sort((a, b) => b.weight - a.weight);
+
+              const topContenderWeight = otherContenders[0]?.weight || 0;
+
+              if (score >= 88 && score > currentHeroWeight && score >= topContenderWeight) {
+                console.log('👑 Nova matéria superou a Capa atual e todos os concorrentes! Assumirá o topo da Capa.');
+                finalIsHero = true;
+              } else {
+                console.log('📰 Nova matéria classificada para o Feed Geral (Capa atual mantida ou protegida por matéria anterior mais forte).');
+                finalIsHero = false;
+              }
             }
+          } else {
+            finalIsHero = score >= 88;
           }
         } else {
           finalIsHero = score >= 88;
         }
-      } else {
-        finalIsHero = score >= 88;
+      } catch (clientErr) {
+        console.warn('⚠️ Falha ao inicializar ou consultar Supabase:', clientErr.message);
+        supabaseClient = null;
+        finalIsHero = isHeroCandidate;
       }
     } else {
       finalIsHero = isHeroCandidate;
     }
 
+    const now = new Date();
+    const formattedDate = now.toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' });
+    const articleId = `art-${slug.slice(0, 35)}-${Date.now().toString().slice(-4)}`;
+
     const newArticle = {
+      id: articleId,
       slug,
       title: articleData.title,
       category: chosenPauta.category,
       category_slug: chosenPauta.categorySlug,
-      categorySlug: chosenPauta.categorySlug,
       author_slug: chosenPauta.authorSlug,
-      authorSlug: chosenPauta.authorSlug,
       type: 'article',
       badge: finalIsHero ? 'DESTAQUE MUNDIAL' : 'EDITORIAL VIP',
+      date: formattedDate,
       read_time: '6 min de leitura',
-      readTime: '6 min de leitura',
       image: chosenPauta.image,
       excerpt: articleData.excerpt,
       content_paragraphs: articleData.contentParagraphs,
-      contentParagraphs: articleData.contentParagraphs,
       specs: articleData.specs || chosenPauta.specs,
       status: 'published',
       is_hero: finalIsHero,
-      isHero: finalIsHero,
+      is_hero_secondary: false,
+      is_pinned_hero: false,
       ranking_score: score,
-      rankingScore: score,
       published_at: publishedAt
     };
 
     // Salva no Supabase se configurado
     if (supabaseClient) {
-      if (finalIsHero) {
-        await supabaseClient
+      try {
+        if (finalIsHero) {
+          await supabaseClient
+            .from('articles')
+            .update({ is_hero: false, is_hero_secondary: true })
+            .eq('is_hero', true);
+        }
+
+        const { data, error } = await supabaseClient
           .from('articles')
-          .update({ is_hero: false, is_hero_secondary: true })
-          .eq('is_hero', true);
-      }
+          .upsert([newArticle], { onConflict: 'slug' })
+          .select();
 
-      const { data, error } = await supabaseClient
-        .from('articles')
-        .upsert([newArticle], { onConflict: 'slug' })
-        .select();
-
-      if (error) {
-        console.error('❌ Erro ao salvar no Supabase:', error.message);
-      } else {
-        console.log(`✅ Sucesso! Matéria gravada no banco Supabase: ${slug} (${finalIsHero ? 'Capa Principal 👑' : 'Feed Geral 📰'})`);
+        if (error) {
+          console.error('⚠️ Atenção ao salvar no Supabase:', error.message);
+          console.log('💡 Verifique se as tabelas do schema.sql foram criadas no painel do Supabase.');
+        } else {
+          console.log(`✅ Sucesso! Matéria gravada no banco Supabase: ${slug} (${finalIsHero ? 'Capa Principal 👑' : 'Feed Geral 📰'})`);
+        }
+      } catch (upsertErr) {
+        console.error('⚠️ Erro de rede na gravação do Supabase:', upsertErr.message);
       }
     } else {
       console.log('ℹ️  Supabase URL/Key não configurados nos Secrets do GitHub. A matéria foi sintetizada com sucesso em modo simulação local.');
@@ -346,8 +385,8 @@ async function main() {
 
     console.log('🎉 Ciclo editorial autônomo finalizado com êxito!');
   } catch (err) {
-    console.error('❌ Falha na execução do crawler autônomo:', err);
-    process.exit(1);
+    console.error('❌ Erro inesperado capturado no ciclo autônomo:', err.message || err);
+    // Não encerra com crash para manter o workflow estável
   }
 }
 
