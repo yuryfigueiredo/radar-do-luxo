@@ -39,3 +39,10 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL || secrets.VITE_SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY || secrets.VITE_SUPABASE_ANON_KEY }}
         run: node scripts/autonomousCrawler.js
+
+      - name: 💾 Publicar atualizações de acervo no GitHub e Vercel
+        run: |
+          git config --global user.name "Radar Editorial Bot"
+          git config --global user.email "editorial@radardoluxo.com.br"
+          git add src/data/mockData.js
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(editorial): autonomous drop publication [skip ci]" && git push)
