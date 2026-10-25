@@ -116,6 +116,55 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-cofres-suicos-de-alta-seguranca--1254",
+    "slug": "cofres-suicos-de-alta-seguranca-o-aporte-de-35-em-ouro-fisico-e-artefato-unico-que-blindam-fortunas-dinasticas-contra-a-desordem-cambial-1240",
+    "title": "Cofres Suíços de Alta Segurança: O Aporte de 35% em Ouro Físico e Artefato Único que Blindam Fortunas Dinásticas contra a Desordem Cambial",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "25 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Em Zurique e Londres, os comitês de governança dinástica reescrevem as regras da custódia fiduciária diante da erosão dos títulos públicos.",
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nos escritórios subterrâneos de Zurique, os gráficos de volatilidade da dívida soberana acionaram protocolos de emergência que ignoram qualquer otimismo de mercado. Gestores de fortunas se afastam dos ativos sintéticos para recomprar a materialidade do mundo tangível. A soberania patrimonial exige paredes de aço de alta densidade.",
+      "A alocação em barras de ouro numeradas individualmente cresceu exatamente trinta e cinco por cento nos últimos doze meses. Não se trata de especulação cambial. Trata-se de uma fuga cirúrgica rumo à imunidade temporal. Cada quilo de metal refinado em fundições suíças certificadas representa um ponto de ancoragem contra a inflação estrutural e a degradação sistêmica das moedas fiduciárias globais.",
+      "Paralelamente, peças únicas de alta relojoaria e telas de mestres antigos migram para cofres blindados sob temperatura e umidade controladas por nitrogênio. Esses ativos não sofrem correlação com os balanços bancários. Eles carregam valor intrínseco, histórico e inalienável. Enquanto os algoritmos de alta frequency trading queimam capital em frações de microssegundo, os cofres de Genebra acumulam refúgios de liquidez intransponíveis.",
+      "A arquitetura invisível dos family offices modernos prioriza a blindagem perpétua sobre o crescimento artificial. Quando o papel moeda se desfaz em promessas vazias, o travertino romano navona e as barras fundidas restam como os únicos guardiões da civilização financeira. O futuro pertence apenas a quem domina a arte de possuir o que não pode ser impresso."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nos escritórios subterrâneos de Zurique, os gráficos de volatilidade da dívida soberana acionaram protocolos de emergência que ignoram qualquer otimismo de mercado. Gestores de fortunas se afastam dos ativos sintéticos para recomprar a materialidade do mundo tangível. A soberania patrimonial exige paredes de aço de alta densidade.",
+      "A alocação em barras de ouro numeradas individualmente cresceu exatamente trinta e cinco por cento nos últimos doze meses. Não se trata de especulação cambial. Trata-se de uma fuga cirúrgica rumo à imunidade temporal. Cada quilo de metal refinado em fundições suíças certificadas representa um ponto de ancoragem contra a inflação estrutural e a degradação sistêmica das moedas fiduciárias globais.",
+      "Paralelamente, peças únicas de alta relojoaria e telas de mestres antigos migram para cofres blindados sob temperatura e umidade controladas por nitrogênio. Esses ativos não sofrem correlação com os balanços bancários. Eles carregam valor intrínseco, histórico e inalienável. Enquanto os algoritmos de alta frequency trading queimam capital em frações de microssegundo, os cofres de Genebra acumulam refúgios de liquidez intransponíveis.",
+      "A arquitetura invisível dos family offices modernos prioriza a blindagem perpétua sobre o crescimento artificial. Quando o papel moeda se desfaz em promessas vazias, o travertino romano navona e as barras fundidas restam como os únicos guardiões da civilização financeira. O futuro pertence apenas a quem domina a arte de possuir o que não pode ser impresso."
+    ],
+    "specs": {
+      "Custódia Principal": "Barras de Ouro 999.9 Good Delivery",
+      "Localização dos Cofres": "Subsolos de Alta Segurança em Zurique e Genebra",
+      "Variação de Alocação": "Mais 35% em ativos tangíveis e artefatos únicos",
+      "Governança": "Family Offices Multigeracionais de Zurique e Londres",
+      "Avaliação": "Proteção Fiduciária contra Erosão Cambial"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 94,
+    "ranking_score": 94,
+    "publishedAt": "2026-10-25T22:23:21.254Z",
+    "published_at": "2026-10-25T22:23:21.254Z"
+  },
+  {
     "id": "art-porsche-911-gt3-rs-manthey-racin-9152",
     "slug": "porsche-911-gt3-rs-manthey-racing-o-monstro-aspirado-de-6min43s-em-nurburgring-com-calotas-de-carbono-e-pressao-de-860-kg-a-285-kmh-9137",
     "title": "Porsche 911 GT3 RS Manthey Racing: O Monstro Aspirado de 6min43s em Nürburgring com Calotas de Carbono e Pressão de 860 kg a 285 km/h",
@@ -152,10 +201,10 @@ export const ARTICLES = [
       "Avaliação": "Homologado para Pista e Rodovia"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 94,
@@ -730,11 +779,11 @@ export const ARTICLES = [
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'SUPERCARROS',
-    title: 'Porsche 911 GT3 RS Manthey Racing: O M...',
-    image: 'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&q=80&w=1400',
+    category: 'ARQUITETURA',
+    title: 'Cofres Suíços de Alta Segurança: O Apo...',
+    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=max&q=80&w=1400',
     tag: 'DESTAQUE MUNDIAL',
-    slug: 'porsche-911-gt3-rs-manthey-racing-o-monstro-aspirado-de-6min43s-em-nurburgring-com-calotas-de-carbono-e-pressao-de-860-kg-a-285-kmh-9137'
+    slug: 'cofres-suicos-de-alta-seguranca-o-aporte-de-35-em-ouro-fisico-e-artefato-unico-que-blindam-fortunas-dinasticas-contra-a-desordem-cambial-1240'
   },
   {
     id: 'film-2',

@@ -12,6 +12,7 @@ import {
   Volume2, 
   VolumeX, 
   Maximize, 
+  Maximize2,
   ChevronRight, 
   Check, 
   MessageSquare, 

@@ -247,9 +247,9 @@ async function runPublicationCycle() {
       }
     }
 
-    // Atraso orgânico real (human jitter de 1 a 3 minutos) sem queimar a cota da nuvem
+    // Atraso orgânico real sem travar a execução no GitHub Actions
     if (!process.env.CI_TEST_NO_DELAY) {
-      const organicDelaySeconds = Math.floor(Math.random() * 120) + 45; // Entre 45s e 165s
+      const organicDelaySeconds = process.env.GITHUB_ACTIONS ? 5 : Math.floor(Math.random() * 20) + 5;
       console.log(`⏱️ Sincronizando pulso editorial com ateliês internacionais (+${organicDelaySeconds}s)...`);
       await new Promise(r => setTimeout(r, organicDelaySeconds * 1000));
     }
