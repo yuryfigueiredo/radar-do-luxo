@@ -116,6 +116,54 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-bvlgari-cofres-suicos-o-aporte-d-6429",
+    "slug": "bvlgari-cofres-suicos-o-aporte-de-35-em-ouro-fisico-e-pecas-unicas-que-blindam-a-soberania-patrimonial-contra-a-erosao-cambial-6414",
+    "title": "Bvlgari & Cofres Suíços: O Aporte de 35% em Ouro Físico e Peças Únicas que Blindam a Soberania Patrimonial Contra a Erosão Cambial",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "25 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Em Zurique e Londres, os family offices abandonam a volatilidade da dívida soberana em favor do silêncio mineral e da custódia física absoluta.",
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nos cofres subterrâneos fortificados nas margens do Lago de Genebra e nos distritos financeiros mais discretos de Londres, os gestores de fortunas multigeracionais executam um movimento silencioso. A inflação estrutural corrói os títulos soberanos. A volatilidade cambial devora a liquidez tradicional. A resposta não reside em algoritmos de alta frequência.",
+      "A alocação em ouro físico e ativos tangíveis de escassez matemática cresceu 35% no último trimestre. Não se trata de especulação mercadológica. Trata-se de governança dinástica e refúgio de liquidez. O ouro em barras numeradas de 400 onças, fundadas com pureza de quatro noves, divide espaço com peças de alta-costura em linho com ponto selê e relógios com calibres de manufatura centenária. A matéria-prima sólida substitui o papel-moeda inflacionado.",
+      "Em São Paulo, Zurique e Cingapura, os comitês de investimentos reescrevem os estatutos fiduciários. O travertino romano Navona dos escritórios de custódia privada abriga contratos de guarda perpétua. Cada quilograma de metal precioso e cada obra de arte com proveniência imaculada atua como âncora gravitacional. O capital migra das telas digitais para cofres de segurança máxima com blindagem termonuclear e monitoramento biométrico autônomo.",
+      "Esta é a imunidade temporal em sua forma mais pura. Enquanto os mercados globais oscilam ao sabor de discursos fiscais inconsequentes, as famílias detentoras do poder econômico real consolidam fortalezas físicas. A soberania patrimonial não se negocia em bolsas de valores. Ela se pesa, se cataloga e se encerra em cofres blindados onde o tempo perde a capacidade de destruir o valor."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nos cofres subterrâneos fortificados nas margens do Lago de Genebra e nos distritos financeiros mais discretos de Londres, os gestores de fortunas multigeracionais executam um movimento silencioso. A inflação estrutural corrói os títulos soberanos. A volatilidade cambial devora a liquidez tradicional. A resposta não reside em algoritmos de alta frequência.",
+      "A alocação em ouro físico e ativos tangíveis de escassez matemática cresceu 35% no último trimestre. Não se trata de especulação mercadológica. Trata-se de governança dinástica e refúgio de liquidez. O ouro em barras numeradas de 400 onças, fundadas com pureza de quatro noves, divide espaço com peças de alta-costura em linho com ponto selê e relógios com calibres de manufatura centenária. A matéria-prima sólida substitui o papel-moeda inflacionado.",
+      "Em São Paulo, Zurique e Cingapura, os comitês de investimentos reescrevem os estatutos fiduciários. O travertino romano Navona dos escritórios de custódia privada abriga contratos de guarda perpétua. Cada quilograma de metal precioso e cada obra de arte com proveniência imaculada atua como âncora gravitacional. O capital migra das telas digitais para cofres de segurança máxima com blindagem termonuclear e monitoramento biométrico autônomo.",
+      "Esta é a imunidade temporal em sua forma mais pura. Enquanto os mercados globais oscilam ao sabor de discursos fiscais inconsequentes, as famílias detentoras do poder econômico real consolidam fortalezas físicas. A soberania patrimonial não se negocia em bolsas de valores. Ela se pesa, se cataloga e se encerra em cofres blindados onde o tempo perde a capacidade de destruir o valor."
+    ],
+    "specs": {
+      "Alocacao_Estrategica": "+35% em ativos tangíveis e ouro",
+      "Centros_De_Custodia": "Zurique, Genebra, Londres e São Paulo",
+      "Padrao_Do_Metal": "Ouro bullion 999.9 numerado",
+      "Governanca": "Trusts multigeracionais e custódia fiduciária"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 94,
+    "ranking_score": 94,
+    "publishedAt": "2026-10-25T22:41:16.429Z",
+    "published_at": "2026-10-25T22:41:16.429Z"
+  },
+  {
     "id": "art-cofres-suicos-de-alta-seguranca--1254",
     "slug": "cofres-suicos-de-alta-seguranca-o-aporte-de-35-em-ouro-fisico-e-artefato-unico-que-blindam-fortunas-dinasticas-contra-a-desordem-cambial-1240",
     "title": "Cofres Suíços de Alta Segurança: O Aporte de 35% em Ouro Físico e Artefato Único que Blindam Fortunas Dinásticas contra a Desordem Cambial",
@@ -153,10 +201,10 @@ export const ARTICLES = [
       "Avaliação": "Proteção Fiduciária contra Erosão Cambial"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 94,
@@ -780,10 +828,10 @@ export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
     category: 'ARQUITETURA',
-    title: 'Cofres Suíços de Alta Segurança: O Apo...',
+    title: 'Bvlgari & Cofres Suíços: O Aporte de 3...',
     image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=max&q=80&w=1400',
     tag: 'DESTAQUE MUNDIAL',
-    slug: 'cofres-suicos-de-alta-seguranca-o-aporte-de-35-em-ouro-fisico-e-artefato-unico-que-blindam-fortunas-dinasticas-contra-a-desordem-cambial-1240'
+    slug: 'bvlgari-cofres-suicos-o-aporte-de-35-em-ouro-fisico-e-pecas-unicas-que-blindam-a-soberania-patrimonial-contra-a-erosao-cambial-6414'
   },
   {
     id: 'film-2',
