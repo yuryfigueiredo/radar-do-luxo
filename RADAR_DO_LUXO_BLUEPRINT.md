@@ -1,7 +1,8 @@
-# 💎 RADAR DO LUXO — BLUEPRINT MESTRE DO PROJETO
-**Versão:** 1.0.0  
-**Data de Criação:** 24/10/2026  
-**Status:** Especificação Consensual & Aprovada  
+# 💎 RADAR DO LUXO — BLUEPRINT MESTRE DO PROJETO (SSOT)
+**Versão:** 2.3.0  
+**Data de Atualização:** 25/10/2026  
+**Status:** Produção Ativa & Homologada (`https://www.radardoluxo.com.br`)  
+**Repositório Oficial:** `https://github.com/yuryfigueiredo/radar-do-luxo`  
 **Localização:** `C:\Users\Yury\Documents\Projetos Yury\Site radardoluxo\RADAR_DO_LUXO_BLUEPRINT.md`
 
 ---
@@ -20,7 +21,7 @@ A plataforma monitora, filtra e apresenta o ápice mundial em:
 
 ### 1.2 O Posicionamento de Mercado: O "Novo Luxo"
 O projeto não segue o caminho dos blogs comuns, nem o estilo caótico/psicodélico de fanzines de arte experimental. O Radar do Luxo se posiciona no **equilíbrio perfeito** entre:
-* **A solidez, prestígio e autoridade** dos maiores impérios editoriais (como *Robb Report* e *Hodinkee*).
+* **A solidez, prestígio e autoridade** dos maiores impérios editoriais (como *Robb Report*, *Hodinkee* e *Financial Times HTSI*).
 * **A estética contemporânea e dinâmica de galeria** do design de ponta internacional (como o conceito *VoidMag* de Polina Dubenko e marcas como *Bottega Veneta* e *Kinfolk*).
 * **A precisão tátil do mundo tech** (micro-interações inspiradas na elegância de *Linear*, *Stripe* e *Apple*).
 
@@ -84,11 +85,9 @@ O design da plataforma foi estruturado para acolher simultaneamente dois perfis 
 
 ### 4.2 Tipografia
 * **Títulos, Manchetes e Capa (Headings & Statement):**  
-  * Família: Tipografia Serifada de alto contraste, moderna e imponente.
-  * Exemplos recomendados: *Playfair Display*, *Cinzel*, *Cormorant Garamond* ou *Bodoni Moda*.
+  * Família: Tipografia Serifada de alto contraste, moderna e imponente (*Playfair Display* / *Cormorant Garamond*).
 * **Corpo de Texto, Menus e Dados Técnicos (Body & UI):**  
-  * Família: Sans-serif geométrica, limpa e de extrema legibilidade.
-  * Exemplos recomendados: *Inter*, *Plus Jakarta Sans* ou *General Sans*.
+  * Família: Sans-serif geométrica, limpa e de extrema legibilidade (*Plus Jakarta Sans* / *Inter*).
 
 ### 4.3 Princípio do *Broken Grid* (Fora das Linhas)
 * Evitar o padrão uniforme de "vitrine de loja virtual".
@@ -97,90 +96,138 @@ O design da plataforma foi estruturado para acolher simultaneamente dois perfis 
 
 ---
 
-## 5. Reatividade & Micro-Interações Tech (Ranking Oficial)
-
-As interações foram selecionadas para tornar a experiência **tátil, responsiva e viva**, sem poluir a leitura:
+## 5. Reatividade & Micro-Interações Tech
 
 | Posição | Efeito | Como Funciona no Radar do Luxo |
 | :---: | :--- | :--- |
-| **1º Lugar (Ouro)** | **Reorganização Fluida de Filtros (*FLIP Layout Animation*)** | Ao clicar em uma categoria (*#Relógios, #Supercarros, #Casas*), os cards na tela se reorganizam instantaneamente deslizando suavemente para suas novas posições como um baralho, sem nenhum recarregamento de página. |
-| **2º Lugar (Prata - Empate)** | **Live Pulse do Radar** | Indicador suave no topo ao lado do logo: `● RADAR ATIVO • 12 NOVOS ITENS ESTA SEMANA`, transmitindo o pulso em tempo real do mercado. |
-| **2º Lugar (Prata - Empate)** | **Micro Tilt 3D nos Cards** | Ao passar o mouse sobre a imagem de um relógio ou carro, o card inclina sutilmente (3º a 5º) acompanhando o cursor, dando profundidade tangível de cartão de metal. |
-| **3º Lugar (Bronze - Empate)** | **Spotlight Glow Reflexivo** | Um reflexo de luz sutil e translúcido que segue a posição do cursor sobre as bordas do card, simulando o acabamento de vidro polido ou titânio. |
-| **3º Lugar (Bronze - Empate)** | **Cursor Magnético Inteligente** | Sobre as galerias, o cursor padrão se torna uma elegante lente circular com a inscrição `[ Explorar ]` ou `[ Ver ]`. |
+| **1º Lugar** | **Reorganização Fluida de Filtros (*FLIP Layout Animation*)** | Ao clicar em uma categoria, os cards na tela se reorganizam instantaneamente deslizando suavemente para suas novas posições como um baralho, sem recarregamento de página. |
+| **2º Lugar** | **Live Pulse do Radar** | Indicador suave no topo ao lado do logo: `● RADAR ATIVO • SERVIDORES EM ZURICH`, transmitindo o pulso em tempo real do mercado. |
+| **2º Lugar** | **Micro Tilt 3D nos Cards** | Ao passar o mouse sobre a imagem de um relógio ou carro, o card inclina sutilmente acompanhando o cursor, dando profundidade tangível. |
+| **3º Lugar** | **Spotlight Glow Reflexivo** | Um reflexo de luz sutil e translúcido que segue a posição do cursor sobre as bordas do card. |
 
 ---
 
 ## 6. Arquitetura das Telas Principais
 
 ### 6.1 Página Inicial (Home / Capa)
-
-```
-[ HEADER SUPERIOR ]
-• Logo: "RADAR DO LUXO" (Tipografia espaçada)
-• Navegação: Relógios • Automóveis • Arquitetura • Estilo • Destinos
-• Status: "● RADAR ATIVO" | Ícone de Busca | Botão "Edição Impressa / VIP"
-
-[ BLOCO 1: O TRILHO DO RADAR (Inspirado no VoidMag) ]
-• Título da seção: "NEW IN / RADAR EM TEMPO REAL" + Indicadores de layout
-• Trilho horizontal fluido com cards de novidades em proporções assimétricas:
-  - Card 1 (Vertical): Patek Philippe Grand Complications (foto macro + tag)
-  - Card 2 (Quadrado): Aston Martin Valkyrie em pista
-  - Card 3 (Vertical): Villa contemporânea sobre falésias em Mallorca
-• Título de Capa Imponente na dobra: "RADAR DO LUXO — EDIÇÃO 01"
-
-[ BLOCO 2: HERO EDITORIAL (Inspirado em Sportline & Robb Report) ]
-• Layout bipartido com foco no destaque da semana:
-  - Lado Esquerdo: Badge "TRENDING / DESTAQUE DA SEMANA", Título de peso,
-    resumo refinado em 2 linhas, autor com badge de verificado e tempo de leitura ("8 min read").
-  - Lado Direito: Fotografia cinematográfica com legenda artística no rodapé.
-• Barra Inferior da Hero ("Radar Drops da Semana"):
-  - 3 mini-cards com cotações de leilões, lançamentos ou datas de drops.
-
-[ BLOCO 3: O FEED PRINCIPAL COM FILTROS FLUIDOS ]
-• Barra de Filtros: [ Todos ] [ Alta Relojoaria ] [ Supercarros ] [ Arquitetura ] [ Estilo ]
-• Grid com Broken Grid e animação fluida de transição.
-• Cards com Micro Tilt 3D e Spotlight Glow ao passar o mouse.
-
-[ BLOCO 4: O DEEP DIVE (Para os Leitores) ]
-• Destaque para um artigo em profundidade com diagramação de revista clássica.
-• "Como uma manufatura suíça leva 9 meses para montar um único mostrador".
-
-[ BLOCO 5: NEWSLETTER VIP & CLUBE PRIVADO ]
-• Bloco com fundo grafite `#121214`, tipografia champanhe e caixa de e-mail discreta:
-  "O Radar Semanal: Curadoria fechada com os lançamentos mais exclusivos do planeta".
-
-[ FOOTER ]
-• Logotipo, manifesto editorial, índice de categorias, direitos e redes sociais.
-```
+1. **Header Superior:** Logotipo, status do radar em Zurich, modal de busca, troca de tema claro/escuro e link para Concierge VIP.
+2. **Hero Section:** A grande matéria de capa da edição com badge de impacto (*"DESTAQUE MUNDIAL"*), autor verificado e botão para leitura.
+3. **Weekly Drops & Ticker Bar:** 4 indicadores em tempo real com leilões históricos, cotação do Ouro Fino e novidades automotivas.
+4. **Filmstrip Reel (VoidMag Rail):** Carrossel horizontal de exploração visual com cards assimétricos e botão de Ficha Rápida (*QuickView*).
+5. **Feed Section:** Grid dinâmico animado com filtros por categoria e alocação do **Native Feed Feature Ad Card** após o 3º artigo.
+6. **Billboard Sponsor Bar:** Faixa panorâmica institucional antes do rodapé.
+7. **Newsletter VIP / Radar Privado:** Caixa discreta de assinatura com criptografia de ponta a ponta.
+8. **Footer:** Logomarca, manifesto editorial, índice de categorias, conformidade legal, atalho para o Mesa Editorial VIP e link para o **Mídia Kit & Patrocínios Quiet Luxury**.
 
 ### 6.2 Página de Artigo / Leitura (Editorial Post)
 * **Barra de Leitura:** Linha dourada minimalista de 1px no topo indicando o progresso da página.
-* **Cabeçalho:** Categoria em caixa alta, título nobre serifado, subtítulo elegante, data e autor.
 * **Corpo do Texto:**
   * Letra Capitular (*Drop Cap*) no primeiro parágrafo.
-  * Citações destacadas em bloco (*Pull Quotes*) com aspas estilizadas.
-  * Imagens *full-bleed* (de ponta a ponta) intercaladas com parágrafos bem espaçados.
-  * **Caixa Lateral de Especificações / Ficha Técnica:** Preço estimado, tiragem/unidades fabricadas, material e onde encontrar.
-* **Rodapé do Post:** Matérias relacionadas do Radar e botões discretos de compartilhamento.
+  * Citações destacadas (*Pull Quotes*) com a voz autoral do colunista responsável.
+  * Card de Recomendação Cruzada (*In-Article Drop*).
+  * **In-Article Ad Slot:** Banner horizontal integrado entre os parágrafos 2 e 3 (com alternância entre Quadradinho AdSense e Maison Showcase).
+* **Sidebar Sticky:**
+  * Ficha Técnica Homologada com dados de motor, tiragem, ligas e cotação.
+  * Cartão de Ação do Concierge VIP (Mesa de Alocação Privada).
+  * **Sidebar Ad Slot:** Banner vertical 300x600 Half-Page.
+* **Assinatura Editorial:** Box biográfico aprofundado do colunista com link para o seu acervo completo.
 
 ---
 
-## 7. Stack Tecnológica Recomendada
+## 7. Corpo Editorial & As 3 Personas Vivas
 
-Para entregar a performance ultra-rápida e a fluidez exigida:
-* **Core:** **React** com **Next.js** (ou **Vite** para desenvolvimento ágil de protótipos de alta performance).
-* **Estilização:** **Tailwind CSS** (configurado com a paleta de cores e tipografia deste blueprint).
-* **Motor de Animação:** **Framer Motion** (essencial para o efeito FLIP da reorganização de filtros, o trilho horizontal do VoidMag e o tilt 3D suave).
-* **Iconografia:** **Lucide React** (linhas finas de 1.5px, elegantes e minimalistas).
+O Radar do Luxo conta com três vozes autorais autônomas e profundamente especializadas:
+
+### 7.1 Henrique Vianna — *Editor-Chefe & Curador de Patrimônio Imune*
+* **Formação & Background:** Economista e pesquisador de governança patrimonial pela PUC-Rio e LSE, com 18 anos de interlocução com Single Family Offices em Mayfair, Bahnhofstrasse (Zurique) e Genebra.
+* **Tese Central:** *"O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. A pedra, a terra e o concreto não falham."*
+* **Termos Banidos:** Ostentação, chique, badalado, hype, influenciador, status symbol, lifestyle.
+
+### 7.2 Gabriel Fontes — *Editor de Hipercarros & Engenharia Naval*
+* **Formação & Background:** Engenheiro mecatrônico e especialista em compósitos aeroespaciais pelo Politécnico de Milão, com passagens pelos ateliês esportivos de Maranello e Sant'Agata. Mais de 1.200 voltas de telemetria no Nürburgring Nordschleife.
+* **Tese Central:** *"Em uma era de telas táteis descartáveis, o verdadeiro ato de rebeldia humana é um motor V16 aspirado rugindo a 9.000 RPM. A velocidade é a pura expressão da física mecânica."*
+* **Termos Banidos:** Possante, nave, carrão, máquina dos sonhos, tecnologia de ponta, design futurista.
+
+### 7.3 Clara Meirelles — *Editora de Alta Relojoaria & Ateliês Históricos*
+* **Formação & Background:** Historiadora da arte e gemologista pela Sorbonne e Gemological Institute of America (GIA), com residência de pesquisa na Vallée de Joux e Neuchâtel. Auditou coleções privadas e leilões na Christie's Genebra.
+* **Tese Central:** *"O tempo digital é efêmero e impessoal; a alta relojoaria mecânica é a captura física da eternidade. A alma do objeto reside nas tolerâncias microscópicas acabadas à mão."*
+* **Termos Banidos:** Acessório, reloginho, na moda, brilho ostensivo, look do dia, investimento do momento.
 
 ---
 
-## 8. Guia para Próximos Chats / Agentes de IA
+## 8. O Robô Editorial Autônomo & Ciclo na Nuvem
+
+O site publica matérias de forma 100% autônoma, sem necessidade de computador ligado:
+* **Fluxo no GitHub Actions:** `.github/workflows/luxury-crawler.yml` configurado para os 7 horários nobres de leitura: **08h, 10h, 12h, 14h, 16h, 18h e 20h** (Horário de Brasília).
+* **Script do Robô:** `scripts/autonomousCrawler.js`.
+* **Motor de IA:** Google Gemini API (`gemini-2.5-flash` / `gemini-flash-latest`) com sintetizador semântico local homologado como fallback seguro (evitando qualquer quebra caso a rede oscile).
+* **Proteções & Blindagem:**
+  * Sanitização de URL do Supabase (remove barras extras, garante `https://`).
+  * Geração automática de `id` único e data formal em português.
+  * Cálculo de pontuação de relevância (Ranking Tier S+ / Tier A).
+  * Jitter orgânico de minutos (evita publicações no minuto exato para manter aspecto humano).
+  * Gravação direta no Supabase Cloud DB.
+
+---
+
+## 9. Painel Administrativo VIP (`/admin`)
+
+* **Acesso:** Rota protegida com senha de mesa editorial (`radar2026`).
+* **Funcionalidades:**
+  * Publicação manual de novas pautas com pré-visualização em tempo real.
+  * Gestão de Capa: Pino de Hero Master (`is_pinned_hero`) e Hero Secundário.
+  * Auditoria de status de matérias (Publicado / Rascunho / Arquivado).
+  * Integração com motor de ranking editorial.
+
+---
+
+## 10. Arquitetura de Publicidade Quiet Luxury & Google AdSense
+
+### 10.1 A Filosofia de Monetização do Radar
+Recusa completa a formatos agressivos de portais comuns (sem popups, sem banners piscantes, sem áudio automático). A publicidade é apresentada como **Patrocínio Institucional de Maisons** e **Alocação Programática Homologada**.
+
+### 10.2 Os 4 Slots Homologados
+1. **In-Article Fluido (`format="in-article"`):** Banner horizontal entre parágrafos 2 e 3.
+2. **Sticky Half-Page Sidebar (`format="sidebar"`):** Unidade vertical 300x600 ou 300x250.
+3. **Native Feed Feature Card (`format="feed"`):** Card perfeitamente integrado no grid da Home após o 3º artigo.
+4. **Super Leaderboard Panorâmico (`format="billboard"`):** Faixa 728x90 / 970x250 antes do rodapé.
+
+### 10.3 Curadoria de Maisons Nativas
+Quando o inventário do AdSense não estiver ativo, os slots exibem campanhas institucionais reais de 5 Maisons históricas:
+* **Patek Philippe** (Alta Relojoaria — Genebra)
+* **Riva 1920** (Engenharia Naval — Sarnico, Itália)
+* **Bugatti Molsheim Atelier** (Hipercarros — França)
+* **Sotheby’s Private Treaty** (Leilões Fechados & Joias Raras — Londres/Genebra)
+* **Aman Sanctuaries** (Hospitalidade Soberana & Arquitetura — Japão/Utah)
+
+### 10.4 Modo de Visualização dos Quadradinhos AdSense
+Para conferência visual e desenvolvimento, o componente `AdSenseSlot.jsx` permite alternar instantaneamente entre o **Modo Quadradinho do Google AdSense** (com identificação visual das dimensões, slot ID e simulação de anúncio de banco suíço / jatos privados) e o **Modo Maison Quiet Luxury**.
+
+### 10.5 Ativação do Google AdSense Oficial
+1. Variável de ambiente na Vercel:
+   ```env
+   VITE_ADSENSE_CLIENT=ca-pub-XXXXXXXXXXXXXXXX
+   ```
+2. O sistema injeta automaticamente os anúncios oficiais do Google nas molduras de alto padrão do Radar com reserva de espaço pré-calculada (Zero Layout Shift).
+
+---
+
+## 11. Infraestrutura em Nuvem & Produção $0
+
+* **Hospedagem & CDN Edge:** **Vercel** com deployment contínuo ligado ao branch `main` do GitHub.
+* **Domínio Oficial de Produção:** `https://www.radardoluxo.com.br` (com redirecionamento 308 permanente de `radardoluxo.com.br` e SSL automático Let's Encrypt).
+* **Banco de Dados:** **Supabase PostgreSQL** (Free Tier perpétuo).
+* **Automação Agendada:** **GitHub Actions** (Crons gratuitos ilimitados via GitHub Student Developer Pack).
+* **Custo Total de Operação:** **R$ 0,00 / mês**.
+
+---
+
+## 12. Guia para Próximos Chats / Agentes de IA
 
 > [!IMPORTANT]
-> **Instrução para qualquer modelo ou assistente que assuma este projeto:**
-> 1. Este documento é a **ÚNICA FONTE DA VERDADE (SSOT)** do projeto *Site Radar do Luxo*.
-> 2. Não reinvente a arquitetura sem consultar o usuário.
-> 3. Respeite as escolhas estéticas: o topo em fita assimétrica inspirado no *VoidMag*, o ranking de reações tech (1º Filtros Fluidos, 2º Live Pulse e Tilt 3D), e a paleta de cores off-white/grafite/ouro.
-> 4. Quando for instruído a codificar, construa componentes modulares seguindo fielmente este arquivo.
+> **Instruções Obrigatórias para Qualquer Modelo de IA que Atue no Repositório:**
+> 1. Este documento é a **ÚNICA FONTE DA VERDADE (SSOT)** do projeto *Radar do Luxo*.
+> 2. **Preserve a Elegância Quiet Luxury:** Nunca adicione popups, modais intrusivos de anúncio, termos banidos ou botões neon chamativos.
+> 3. **Preserve as 3 Personas Editoriais:** Todo conteúdo novo deve ser atribuído a Henrique Vianna, Gabriel Fontes ou Clara Meirelles, respeitando suas respectivas teses, vocabulário e especialidades.
+> 4. **Respeite o Zero Custo:** Qualquer nova integração de nuvem ou banco de dados deve se manter dentro do plano gratuito sem gerar cobranças ao usuário.
+> 5. **Deploy Contínuo:** Qualquer alteração no branch `main` é automaticamente construída e enviada para produção na Vercel em segundos. Realize sempre `npm run build` local antes de efetuar commits.

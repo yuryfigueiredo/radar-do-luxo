@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { ExternalLink, Sparkles, Shield, ChevronRight, Info } from 'lucide-react';
+import { ExternalLink, Sparkles, Shield, ChevronRight, Info, Eye, Layers } from 'lucide-react';
 import { LUXURY_SPONSORS, getSponsorForCategory } from '../data/sponsorsData';
 import MediaKitModal from './MediaKitModal';
 
@@ -7,20 +7,19 @@ import MediaKitModal from './MediaKitModal';
  * ==============================================================================
  * 💎 RADAR DO LUXO — COMPONENTE DE ANÚNCIOS QUIET LUXURY & GOOGLE ADSENSE
  * ==============================================================================
- * Arquitetura de publicidade de alto padrão:
- * 1. Formatos suportados:
- *    - 'in-article': Banner editorial horizontal entre os parágrafos 2 e 3.
- *    - 'sidebar': Display vertical elegante (300x600 / 300x250) na coluna lateral.
- *    - 'feed': Card nativo perfeitamente integrado ao grid da Home.
- *    - 'billboard': Faixa horizontal panorâmica antes do rodapé ou após o Hero.
- *
- * 2. Inteligência Quiet Luxury:
- *    - Sem popups, sem cores berrantes, sem quebras de layout (Zero CLS).
- *    - Se o AdSense estiver ativo com ID homologado, renderiza o anúncio Google
- *      dentro de uma moldura refinada em ouro e carvão.
- *    - Se o AdSense estiver vazio ou em aprovação, exibe uma campanha de prestígio
- *      das Maisons de Alta Relojoaria, Náutica, Hipercarros ou Arte Museológica,
- *      mantendo o site com aparência de uma revista internacional multimilionária.
+ * Modos de Operação:
+ * 1. MODO PRODUÇÃO REAL:
+ *    Quando import.meta.env.VITE_ADSENSE_CLIENT estiver configurado com a conta
+ *    aprovada do Google, renderiza o código oficial <ins className="adsbygoogle" />.
+ * 
+ * 2. MODO PRÉ-VISUALIZAÇÃO DE SLOTS ("OS QUADRADINHOS DO ADSENSE"):
+ *    Exibe com fidelidade cirúrgica as dimensões oficiais do Google AdSense
+ *    (300x600, 300x250, 728x90, In-Article Fluido e Native In-Feed) com os
+ *    indicadores oficiais do Google ("Anúncios Google", "AdChoices").
+ * 
+ * 3. MODO PATROCÍNIO MAISON QUIET LUXURY:
+ *    Alternável com 1 clique, exibe a curadoria refinada de marcas de prestígio
+ *    (Patek Philippe, Riva, Bugatti, Sotheby's, Aman).
  * ==============================================================================
  */
 export default function AdSenseSlot({
@@ -32,10 +31,12 @@ export default function AdSenseSlot({
   priorityIndex = 0
 }) {
   const [isMediaKitOpen, setIsMediaKitOpen] = useState(false);
+  // Por padrão, exibimos a visualização dos "quadradinhos" para conferência visual dos slots do AdSense
+  const [viewMode, setViewMode] = useState('adsense-mock'); // 'adsense-mock' | 'maison'
+
   const adClient = import.meta.env.VITE_ADSENSE_CLIENT || import.meta.env.NEXT_PUBLIC_ADSENSE_CLIENT || '';
   const isAdSenseActive = import.meta.env.PROD && Boolean(adClient) && Boolean(slot);
 
-  // Seleciona a Maison correspondente
   const selectedSponsor = sponsorId 
     ? LUXURY_SPONSORS.find(s => s.id === sponsorId) || LUXURY_SPONSORS[0]
     : categorySlug
@@ -55,7 +56,7 @@ export default function AdSenseSlot({
   }, [isAdSenseActive, slot]);
 
   // ============================================================================
-  // MODO 1: GOOGLE ADSENSE EM PRODUÇÃO COM MOLDURA QUIET LUXURY
+  // CASO 1: GOOGLE ADSENSE OFICIAL COM SCRIPT ATIVO EM PRODUÇÃO
   // ============================================================================
   if (isAdSenseActive) {
     if (format === 'in-article') {
@@ -143,12 +144,241 @@ export default function AdSenseSlot({
   }
 
   // ============================================================================
-  // MODO 2: CURADORIA NATIVA DE MAISONS (QUIET LUXURY SPONSOR SHOWCASE)
+  // CASO 2: MODO PRÉ-VISUALIZAÇÃO DE SLOTS ("OS QUADRADINHOS DO ADSENSE")
   // ============================================================================
-  // Exibido com dignidade aristocrática em todos os ambientes até o AdSense
-  // aprovar inventário programático de mesmo nível estético.
+  // Se o usuário selecionou 'adsense-mock', exibe a representação gráfica
+  // das dimensões e formato do banner Google AdSense com chave de alternância.
 
-  // 1. FORMATO: IN-ARTICLE (Horizontal entre parágrafos)
+  if (viewMode === 'adsense-mock') {
+    // 1. IN-ARTICLE QUADRADINHO / RETÂNGULO FLUIDO
+    if (format === 'in-article') {
+      return (
+        <div className={`my-10 p-5 rounded-xl bg-[#FBFBFA] dark:bg-[#161619] border-2 border-dashed border-lux-gold/40 text-center relative overflow-hidden shadow-lux transition-all ${className}`}>
+          {/* Top Bar com Identificação do Google AdSense e Toggle */}
+          <div className="flex items-center justify-between pb-3 mb-4 border-b border-black/5 dark:border-white/5 text-[10px]">
+            <div className="flex items-center gap-2">
+              <span className="px-2 py-0.5 rounded bg-amber-500/10 text-amber-700 dark:text-amber-400 font-bold font-mono uppercase tracking-wider">
+                Google AdSense • In-Article Fluido
+              </span>
+              <span className="text-lux-text-muted hidden sm:inline font-mono">
+                Slot ID: {slot || '1234567890'}
+              </span>
+            </div>
+
+            <button
+              onClick={() => setViewMode('maison')}
+              className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-lux-gold/15 hover:bg-lux-gold text-lux-gold-dark hover:text-black dark:text-lux-gold dark:hover:text-black text-[10px] font-bold uppercase tracking-wider transition-colors"
+            >
+              <Sparkles className="w-3 h-3" />
+              <span>Ver como Maison Quiet Luxury</span>
+            </button>
+          </div>
+
+          {/* Área do Anúncio Simulado (Layout In-Article) */}
+          <div className="py-6 px-4 bg-white dark:bg-[#1E1E23] rounded-lg border border-black/5 dark:border-white/10 max-w-xl mx-auto text-left relative">
+            <div className="absolute top-2 right-2.5 flex items-center gap-1 text-[9px] text-gray-400 font-sans">
+              <span>Anúncios Google</span>
+              <span className="w-3 h-3 rounded-full border border-gray-400 flex items-center justify-center text-[8px] font-serif">i</span>
+            </div>
+
+            <div className="flex flex-col sm:flex-row items-center gap-4">
+              <div className="w-24 h-24 rounded-lg bg-gradient-to-br from-lux-gold/20 to-lux-gold/5 flex-shrink-0 flex items-center justify-center border border-lux-gold/20">
+                <Sparkles className="w-8 h-8 text-lux-gold" />
+              </div>
+
+              <div className="flex-1 space-y-1">
+                <span className="text-[10px] uppercase tracking-wider font-semibold text-blue-600 dark:text-blue-400">
+                  patrimonio-suico.ch/private-banking
+                </span>
+                <h4 className="font-serif text-base font-bold text-lux-text-primary dark:text-white leading-tight">
+                  Custódia Internacional & Family Office em Genebra
+                </h4>
+                <p className="text-xs text-lux-text-secondary dark:text-lux-text-darkSecondary line-clamp-2">
+                  Gestão discricionária e alocação patrimonial soberana para famílias de alto patrimônio líquido.
+                </p>
+                <div className="pt-2">
+                  <span className="inline-block px-3 py-1 bg-blue-600 text-white rounded text-[11px] font-semibold hover:bg-blue-700">
+                    Visitar Site Oficial
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-3 flex items-center justify-between text-[10px] text-lux-text-muted font-mono">
+            <span>Dimensão: Responsivo Fluido (Auto-adaptável ao leitor)</span>
+            <button onClick={() => setIsMediaKitOpen(true)} className="hover:text-lux-gold underline">
+              Mídia Kit & Tabela de Valores
+            </button>
+          </div>
+
+          <MediaKitModal isOpen={isMediaKitOpen} onClose={() => setIsMediaKitOpen(false)} />
+        </div>
+      );
+    }
+
+    // 2. SIDEBAR QUADRADINHO (300x250 / 300x600)
+    if (format === 'sidebar') {
+      return (
+        <div className={`p-5 rounded-xl bg-[#FBFBFA] dark:bg-[#161619] border-2 border-dashed border-lux-gold/40 text-center relative overflow-hidden shadow-lux space-y-4 ${className}`}>
+          {/* Header */}
+          <div className="flex items-center justify-between pb-2 border-b border-black/5 dark:border-white/5 text-[10px]">
+            <span className="px-2 py-0.5 rounded bg-amber-500/10 text-amber-700 dark:text-amber-400 font-bold font-mono uppercase tracking-wider">
+              AdSense • 300x600 / 300x250
+            </span>
+            <button
+              onClick={() => setViewMode('maison')}
+              className="text-lux-gold hover:underline font-bold text-[10px]"
+            >
+              Modo Maison ↔
+            </button>
+          </div>
+
+          {/* Banner Box */}
+          <div className="min-h-[300px] p-5 bg-white dark:bg-[#1E1E23] rounded-lg border border-black/5 dark:border-white/10 flex flex-col justify-between text-left relative">
+            <div className="flex items-center justify-between text-[9px] text-gray-400">
+              <span className="font-mono">DISPLAY RESPONSIVO</span>
+              <div className="flex items-center gap-1">
+                <span>Anúncios Google</span>
+                <span className="w-3 h-3 rounded-full border border-gray-400 flex items-center justify-center text-[8px]">i</span>
+              </div>
+            </div>
+
+            <div className="my-auto text-center space-y-3 py-4">
+              <div className="w-16 h-16 rounded-full bg-lux-gold/15 text-lux-gold mx-auto flex items-center justify-center">
+                <Sparkles className="w-8 h-8" />
+              </div>
+              <span className="text-[10px] text-blue-600 dark:text-blue-400 font-mono block">
+                ad.sothebys.com/auctions
+              </span>
+              <h4 className="font-serif text-lg font-bold text-lux-text-primary dark:text-white leading-snug">
+                Sotheby's Genebra: Leilão de Joias Reais
+              </h4>
+              <p className="text-xs text-lux-text-secondary dark:text-lux-text-darkSecondary">
+                Lotes fechados e diamantes Type IIb sob protocolo suíço.
+              </p>
+              <button className="w-full py-2 bg-blue-600 text-white rounded text-xs font-semibold hover:bg-blue-700 transition-colors">
+                Participar do Pregão Privado
+              </button>
+            </div>
+
+            <div className="pt-2 border-t border-black/5 dark:border-white/5 text-center text-[9px] text-lux-text-muted font-mono">
+              Largura padrão: 300px (Desktop Sticky)
+            </div>
+          </div>
+
+          <div className="text-center">
+            <button onClick={() => setIsMediaKitOpen(true)} className="text-[10px] text-lux-text-muted hover:text-lux-gold underline">
+              Consultar Mídia Kit do Radar
+            </button>
+          </div>
+
+          <MediaKitModal isOpen={isMediaKitOpen} onClose={() => setIsMediaKitOpen(false)} />
+        </div>
+      );
+    }
+
+    // 3. FEED NATIVE QUADRADINHO (Grid da Home)
+    if (format === 'feed') {
+      return (
+        <article className={`group spotlight-card bg-[#FBFBFA] dark:bg-[#161619] rounded-lg border-2 border-dashed border-lux-gold/40 p-5 overflow-hidden shadow-lux flex flex-col justify-between transition-all ${className}`}>
+          <div>
+            <div className="flex items-center justify-between pb-3 mb-3 border-b border-black/5 dark:border-white/5 text-[10px]">
+              <span className="px-2 py-0.5 rounded bg-amber-500/10 text-amber-700 dark:text-amber-400 font-bold font-mono uppercase tracking-wider">
+                Google AdSense • Native In-Feed
+              </span>
+              <button
+                onClick={() => setViewMode('maison')}
+                className="text-lux-gold hover:underline font-bold text-[10px]"
+              >
+                Modo Maison ↔
+              </button>
+            </div>
+
+            <div className="relative aspect-[16/10] rounded-lg overflow-hidden bg-white dark:bg-[#1E1E23] border border-black/5 dark:border-white/10 flex flex-col items-center justify-center text-center p-4">
+              <div className="absolute top-2 right-2 flex items-center gap-1 text-[8px] text-gray-400">
+                <span>Anúncios Google</span>
+                <span className="w-2.5 h-2.5 rounded-full border border-gray-400 flex items-center justify-center text-[7px]">i</span>
+              </div>
+              <Sparkles className="w-10 h-10 text-lux-gold mb-2" />
+              <span className="text-[10px] uppercase font-bold text-blue-600 dark:text-blue-400 tracking-wider">
+                aviation-charter.ch
+              </span>
+              <h4 className="font-serif text-base font-bold text-lux-text-primary dark:text-white mt-1">
+                Gulfstream G700 • Fretamento Privado
+              </h4>
+            </div>
+
+            <div className="mt-4 space-y-2">
+              <p className="text-xs text-lux-text-secondary dark:text-lux-text-darkSecondary leading-relaxed">
+                Rotas intercontinentais diretas sem escalas para clientes corporativos e Family Offices.
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-5 pt-3 border-t border-black/5 dark:border-white/5 flex items-center justify-between text-xs text-lux-text-muted">
+            <span className="font-mono text-[9px]">Card Integrado no Grid</span>
+            <button
+              onClick={() => setIsMediaKitOpen(true)}
+              className="text-lux-gold hover:underline text-[11px] font-semibold"
+            >
+              Mídia Kit
+            </button>
+          </div>
+
+          <MediaKitModal isOpen={isMediaKitOpen} onClose={() => setIsMediaKitOpen(false)} />
+        </article>
+      );
+    }
+
+    // 4. BILLBOARD QUADRADINHO (970x250 ou 728x90)
+    return (
+      <div className={`my-8 p-5 rounded-xl bg-[#FBFBFA] dark:bg-[#161619] border-2 border-dashed border-lux-gold/40 text-center relative overflow-hidden shadow-lux ${className}`}>
+        <div className="flex items-center justify-between pb-2 mb-3 border-b border-black/5 dark:border-white/5 text-[10px]">
+          <span className="px-2 py-0.5 rounded bg-amber-500/10 text-amber-700 dark:text-amber-400 font-bold font-mono uppercase tracking-wider">
+            Google AdSense • Super Leaderboard 728x90 / 970x250
+          </span>
+          <button
+            onClick={() => setViewMode('maison')}
+            className="text-lux-gold hover:underline font-bold text-[10px]"
+          >
+            Modo Maison ↔
+          </button>
+        </div>
+
+        <div className="py-4 px-6 bg-white dark:bg-[#1E1E23] rounded-lg border border-black/5 dark:border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-left">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-full bg-lux-gold/15 text-lux-gold flex items-center justify-center flex-shrink-0">
+              <Sparkles className="w-5 h-5" />
+            </div>
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="text-[9px] uppercase font-bold text-blue-600 dark:text-blue-400">
+                  yacht-charter.mc • Mônaco
+                </span>
+                <span className="text-[9px] text-gray-400">Anúncios Google ⓘ</span>
+              </div>
+              <h4 className="font-serif text-sm font-bold text-lux-text-primary dark:text-white">
+                Temporada de Megaiates no Mediterrâneo: Reserve seu Posto em Porto Cervo
+              </h4>
+            </div>
+          </div>
+
+          <button className="px-4 py-2 bg-blue-600 text-white rounded text-xs font-semibold hover:bg-blue-700 transition-colors flex-shrink-0">
+            Consultar Disponibilidade
+          </button>
+        </div>
+
+        <MediaKitModal isOpen={isMediaKitOpen} onClose={() => setIsMediaKitOpen(false)} />
+      </div>
+    );
+  }
+
+  // ============================================================================
+  // CASO 3: MODO PATROCÍNIO MAISON QUIET LUXURY (Campanhas Patek, Riva, Bugatti)
+  // ============================================================================
+
+  // 1. FORMATO: IN-ARTICLE MAISON
   if (format === 'in-article') {
     return (
       <>
@@ -159,13 +389,22 @@ export default function AdSenseSlot({
               <Sparkles className="w-3 h-3 text-lux-gold" />
               <span>PARCERIA EDITORIAL • {selectedSponsor.category}</span>
             </div>
-            <button
-              onClick={() => setIsMediaKitOpen(true)}
-              className="hover:text-lux-gold transition-colors flex items-center gap-1 text-[9px] font-mono lowercase"
-            >
-              <span>anuncie no radar</span>
-              <ChevronRight className="w-2.5 h-2.5" />
-            </button>
+
+            <div className="flex items-center gap-3">
+              <button
+                onClick={() => setViewMode('adsense-mock')}
+                className="text-[9px] text-amber-700 dark:text-amber-400 hover:underline font-mono font-bold"
+              >
+                [Ver Quadradinho AdSense]
+              </button>
+              <button
+                onClick={() => setIsMediaKitOpen(true)}
+                className="hover:text-lux-gold transition-colors flex items-center gap-1 text-[9px] font-mono lowercase"
+              >
+                <span>anuncie no radar</span>
+                <ChevronRight className="w-2.5 h-2.5" />
+              </button>
+            </div>
           </div>
 
           {/* Main Showcase Layout */}
@@ -230,7 +469,7 @@ export default function AdSenseSlot({
     );
   }
 
-  // 2. FORMATO: SIDEBAR (Vertical 300x600 Half-Page)
+  // 2. FORMATO: SIDEBAR MAISON
   if (format === 'sidebar') {
     return (
       <>
@@ -241,12 +480,20 @@ export default function AdSenseSlot({
               <Sparkles className="w-3 h-3 text-lux-gold" />
               Maison Patrocinadora
             </span>
-            <button
-              onClick={() => setIsMediaKitOpen(true)}
-              className="hover:text-lux-gold transition-colors"
-            >
-              Mídia Kit
-            </button>
+            <div className="flex items-center gap-2">
+              <button
+                onClick={() => setViewMode('adsense-mock')}
+                className="text-amber-700 dark:text-amber-400 hover:underline font-mono"
+              >
+                [Quadradinho]
+              </button>
+              <button
+                onClick={() => setIsMediaKitOpen(true)}
+                className="hover:text-lux-gold transition-colors"
+              >
+                Mídia Kit
+              </button>
+            </div>
           </div>
 
           {/* Image */}
@@ -302,7 +549,7 @@ export default function AdSenseSlot({
     );
   }
 
-  // 3. FORMATO: FEED NATIVE CARD (Para o grid da Homepage)
+  // 3. FORMATO: FEED NATIVE MAISON
   if (format === 'feed') {
     return (
       <>
@@ -350,10 +597,10 @@ export default function AdSenseSlot({
             {/* Footer with Attribution and CTA */}
             <div className="mt-5 pt-4 border-t border-lux-border-light dark:border-lux-border-dark flex items-center justify-between text-xs text-lux-text-muted">
               <button
-                onClick={() => setIsMediaKitOpen(true)}
-                className="hover:text-lux-gold transition-colors font-mono text-[10px] uppercase tracking-wider"
+                onClick={() => setViewMode('adsense-mock')}
+                className="text-[9px] text-amber-700 dark:text-amber-400 hover:underline font-mono"
               >
-                Parceria Editorial
+                [Ver Quadradinho]
               </button>
 
               <a
@@ -374,7 +621,7 @@ export default function AdSenseSlot({
     );
   }
 
-  // 4. FORMATO: BILLBOARD / LEADERBOARD (Horizontal Panorâmico)
+  // 4. FORMATO: BILLBOARD MAISON
   return (
     <>
       <div className={`my-8 py-4 px-6 rounded-xl bg-white dark:bg-[#141416] border border-lux-gold/25 shadow-lux flex flex-col sm:flex-row items-center justify-between gap-4 ${className}`}>
@@ -395,6 +642,12 @@ export default function AdSenseSlot({
         </div>
 
         <div className="flex items-center gap-3 flex-shrink-0">
+          <button
+            onClick={() => setViewMode('adsense-mock')}
+            className="text-[10px] text-amber-700 dark:text-amber-400 hover:underline font-mono"
+          >
+            [Ver Quadradinho]
+          </button>
           <a
             href={selectedSponsor.destinationUrl}
             target="_blank"
