@@ -1,5 +1,5 @@
 # 💎 RADAR DO LUXO — BLUEPRINT MESTRE DO PROJETO (SSOT)
-**Versão:** 2.5.0  
+**Versão:** 2.6.0  
 **Data de Atualização:** 25/10/2026  
 **Status:** Produção Ativa & Homologada (`https://www.radardoluxo.com.br`)  
 **Repositório Oficial:** `https://github.com/yuryfigueiredo/radar-do-luxo`  
@@ -339,6 +339,7 @@ Para conferência visual e desenvolvimento, o componente `AdSenseSlot.jsx` permi
   2. Tabela `newsletter_subscribers` no Supabase Cloud DB.
   3. `localStorage` de contingência.
 * **Interface Quiet Luxury:** Ao se inscrever, o leitor recebe instantaneamente o **Passaporte Digital / Credencial VIP** com código de protocolo exclusivo (ex: `RD-749103`), selo dourado e sem jargões de desenvolvimento.
+* **Alerta Imediato ao Fundador por E-mail:** A cada nova inscrição legítima, a API serverless dispara automaticamente uma notificação formatada para `yury@radardoluxo.com.br` via Resend API, contendo o e-mail do assinante, protocolo VIP gerado e timestamp de Brasília. Permite que o fundador não precise consultar o banco manualmente.
 
 ### 11.3 Disparo da Edição Semanal de Quinta-Feira
 * **Plataforma de Disparo Transacional:** **Resend API** (3.000 envios/mês gratuitos).
@@ -351,6 +352,15 @@ Para conferência visual e desenvolvimento, o componente `AdSenseSlot.jsx` permi
 
 O Radar do Luxo utiliza uma abordagem híbrida de alta performance e custo zero:
 
+### 12.1 Filtro de Tráfego Interno & Proteção de Cota (Modo Fundador)
+Para evitar que os acessos residenciais e testes do desenvolvedor/fundador consumam a cota gratuita mensal da Vercel (2.500 eventos) ou poluam as estatísticas do Google Analytics:
+1. **Ativação Automática via `/admin`:** Ao carregar o Painel Administrativo, o sistema armazena automaticamente a flag `radar_founder_mode=true` no `localStorage` daquele navegador.
+2. **Ativação por Parâmetro Secreto:** Acessar o site com `https://www.radardoluxo.com.br?founder=1` ou `?ignore_analytics=1` ativa a proteção em qualquer smartphone ou computador pessoal.
+3. **Interceptação na Borda (`beforeSend`):** No componente `AnalyticsProvider.jsx`, os componentes `<Analytics beforeSend={...} />` e `<SpeedInsights beforeSend={...} />` interceptam os eventos e retornam `null` quando o Modo Fundador ou ambiente local (`localhost`) é detectado. A Vercel descarta o envio antes de processar, resultando em **consumo ZERO** da franquia de eventos.
+4. **Supressão do GA4:** Quando em Modo Fundador, o script do Google Analytics 4 nem sequer é carregado no DOM, e nenhuma chamada `trackPageView` ou `trackEvent` é disparada.
+5. **Controle Visual no Painel:** O `/admin` exibe um banner de status informando que a proteção está ativa e permite alternar o modo com 1 clique.
+
+### 12.2 Provedores de Métricas
 * **Vercel Web Analytics (`@vercel/analytics`):**
   * Coleta de acessos em tempo real, visitantes únicos, páginas mais acessadas, países e dispositivos.
   * *Franquia Gratuita Vercel Hobby:* 2.500 eventos por mês. Quando atinge o limite, a Vercel apenas congela temporariamente a coleta de novas métricas até o próximo ciclo. **Nunca derruba o site e nunca gera cobrança surpresa.**

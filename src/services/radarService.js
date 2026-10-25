@@ -7,7 +7,7 @@ const LOCAL_STORAGE_DROPS_KEY = 'radar_custom_drops';
 const LOCAL_STORAGE_SUBSCRIBERS_KEY = 'radar_newsletter_subscribers';
 const LOCAL_STORAGE_CONCIERGE_KEY = 'radar_concierge_inquiries';
 const LOCAL_STORAGE_VERSION_KEY = 'radar_content_version';
-const CURRENT_CONTENT_VERSION = 'v2.2_deep_writers_manifesto';
+export const CURRENT_CONTENT_VERSION = 'v3.0_1792961479153';
 
 /**
  * Helper to get locally stored articles
@@ -17,36 +17,32 @@ function getLocalArticles() {
     const currentVersion = localStorage.getItem(LOCAL_STORAGE_VERSION_KEY);
     const saved = localStorage.getItem(LOCAL_STORAGE_ARTICLES_KEY);
 
-    // Se a versão de conteúdo mudou, atualiza os artigos homologados de mockData
-    // preservando apenas artigos customizados que o usuário criou manualmente
-    if (currentVersion !== CURRENT_CONTENT_VERSION) {
-      let customArticles = [];
+    // Se a versão de conteúdo mudou OU se o acervo local está ausente
+    if (currentVersion !== CURRENT_CONTENT_VERSION || !saved) {
+      let userCreated = [];
       if (saved) {
         try {
           const list = JSON.parse(saved);
-          const homologatedSlugs = new Set(ARTICLES.map(a => a.slug));
-          customArticles = list.filter(a => !homologatedSlugs.has(a.slug) && !a.id?.startsWith('art-'));
+          // Preserva apenas matérias criadas manualmente pelo usuário via painel
+          userCreated = list.filter(a => a.isUserCreated === true || a.id?.startsWith('user-created-'));
         } catch (e) {
-          customArticles = [];
+          userCreated = [];
         }
       }
-      const refreshedList = [...ARTICLES, ...customArticles];
+      const refreshedList = [...userCreated, ...ARTICLES];
       localStorage.setItem(LOCAL_STORAGE_ARTICLES_KEY, JSON.stringify(refreshedList));
       localStorage.setItem(LOCAL_STORAGE_VERSION_KEY, CURRENT_CONTENT_VERSION);
       return refreshedList;
     }
 
-    if (!saved) {
-      localStorage.setItem(LOCAL_STORAGE_VERSION_KEY, CURRENT_CONTENT_VERSION);
-      return ARTICLES;
-    }
     let list = JSON.parse(saved);
 
-    // Se o acervo salvo estiver defasado (sem o Bugatti Tourbillon ou com poucos artigos), mescla os homologados
-    const existingSlugs = new Set(list.map(a => a.slug));
-    const missingHomologated = ARTICLES.filter(a => !existingSlugs.has(a.slug));
-    if (missingHomologated.length > 0) {
-      list = [...list, ...missingHomologated];
+    // Verificação de integridade: se a lista local estiver sem os artigos homologados vigentes
+    const containsLeadingHomologated = list.some(a => a.slug === ARTICLES[0]?.slug);
+    if (!containsLeadingHomologated) {
+      localStorage.setItem(LOCAL_STORAGE_ARTICLES_KEY, JSON.stringify(ARTICLES));
+      localStorage.setItem(LOCAL_STORAGE_VERSION_KEY, CURRENT_CONTENT_VERSION);
+      return ARTICLES;
     }
 
     // Auto-sanitiza artigos de bilionários/Forbes e calcula rankingScore se ausente

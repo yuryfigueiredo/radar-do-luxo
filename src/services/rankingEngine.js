@@ -158,18 +158,27 @@ export function calculateCapaWeight(article, now = Date.now()) {
     };
   }
 
-  // Determina a data de publicação
-  let publishedTimestamp = now;
-  if (article.publishedAt) {
+  // Determina a data de publicação de forma segura (suportando datas em português)
+  let publishedTimestamp = now - 4 * 3600 * 1000;
+  if (article.publishedAt && !isNaN(new Date(article.publishedAt).getTime())) {
     publishedTimestamp = new Date(article.publishedAt).getTime();
-  } else if (article.createdAt) {
+  } else if (article.published_at && !isNaN(new Date(article.published_at).getTime())) {
+    publishedTimestamp = new Date(article.published_at).getTime();
+  } else if (article.createdAt && !isNaN(new Date(article.createdAt).getTime())) {
     publishedTimestamp = new Date(article.createdAt).getTime();
-  } else if (article.date) {
-    // Tenta interpretar "25 Outubro 2026"
-    try {
-      publishedTimestamp = new Date(article.date).getTime() || (now - 4 * 3600 * 1000);
-    } catch (e) {
-      publishedTimestamp = now - 4 * 3600 * 1000;
+  } else if (article.date && typeof article.date === 'string') {
+    const months = {
+      janeiro: 0, fevereiro: 1, marco: 2, março: 2, abril: 3, maio: 4, junho: 5,
+      julho: 6, agosto: 7, setembro: 8, outubro: 9, novembro: 10, dezembro: 11
+    };
+    const parts = article.date.toLowerCase().replace(/de /g, '').split(' ');
+    if (parts.length >= 3) {
+      const day = parseInt(parts[0], 10);
+      const month = months[parts[1]] !== undefined ? months[parts[1]] : 0;
+      const year = parseInt(parts[2], 10);
+      if (!isNaN(day) && !isNaN(year)) {
+        publishedTimestamp = new Date(year, month, day).getTime();
+      }
     }
   }
 

@@ -56,6 +56,7 @@ import {
 import { generateLuxuryArticle, getGeminiApiKey, saveGeminiApiKey } from '../services/aiArticleGenerator';
 import { getHotPautas, updateHotPautaStatus, resetHotPautasFeeds } from '../data/hotFeedsData';
 import { getHeroAnalysis, calculateEditorialScore, calculateCapaWeight } from '../services/rankingEngine';
+import { isFounderModeActive, setFounderMode } from '../services/analyticsService';
 
 export default function AdminPage() {
   const masterPin = import.meta.env.VITE_ADMIN_PIN || 'RADAR2026';
@@ -63,6 +64,7 @@ export default function AdminPage() {
     return sessionStorage.getItem('radar_admin_auth') === 'true' || window.location.search.includes('auth=true');
   });
   const [pinInput, setPinInput] = useState('');
+  const [isFounderMode, setIsFounderMode] = useState(() => isFounderModeActive());
   const [pinError, setPinError] = useState(false);
 
   // Active Tab: 'articles', 'hot_pautas', 'drops', 'subscribers', 'concierge', 'supabase'
@@ -151,6 +153,19 @@ export default function AdminPage() {
     } finally {
       setLoading(false);
     }
+  };
+
+  useEffect(() => {
+    // Ao acessar o painel administrativo, ativa automaticamente a proteção de tráfego interno
+    setFounderMode(true);
+    setIsFounderMode(true);
+  }, []);
+
+  const handleToggleFounderMode = () => {
+    const next = !isFounderMode;
+    setFounderMode(next);
+    setIsFounderMode(next);
+    showToast(next ? 'Modo Fundador ATIVADO: seus acessos não serão contabilizados no Analytics.' : 'Modo Fundador DESATIVADO: seus acessos serão contabilizados.');
   };
 
   useEffect(() => {
@@ -643,6 +658,44 @@ export default function AdminPage() {
             <div className="font-serif text-2xl font-bold">{drops.length}</div>
             <div className="text-[11px] text-lux-text-muted mt-1">Cotações da semana</div>
           </div>
+        </div>
+
+        {/* Founder Protection & Analytics Safeguard Banner */}
+        <div className="p-4 rounded-xl bg-white dark:bg-lux-bg-cardDark border border-lux-gold/30 shadow-sm flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+          <div className="flex items-center gap-3">
+            <div className={`w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0 ${isFounderMode ? 'bg-emerald-500/10 text-emerald-500' : 'bg-lux-gold/10 text-lux-gold'}`}>
+              <ShieldCheck className="w-4 h-4" />
+            </div>
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="font-semibold text-xs text-lux-text-primary dark:text-white">
+                  Filtro de Tráfego Interno (Modo Fundador)
+                </span>
+                <span className={`text-[9px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${
+                  isFounderMode 
+                    ? 'bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/30' 
+                    : 'bg-zinc-500/15 text-zinc-500 border border-zinc-500/30'
+                }`}>
+                  {isFounderMode ? '● Ativo (Seus Acessos Não Contam)' : '○ Desativado'}
+                </span>
+              </div>
+              <p className="text-[11px] text-lux-text-muted mt-0.5 leading-relaxed">
+                {isFounderMode
+                  ? 'Seus acessos de casa e testes neste dispositivo são ignorados pela Vercel e pelo Google Analytics. Sua cota de 2.500 visitas está 100% protegida.'
+                  : 'Seus acessos estão sendo contabilizados normalmente nas métricas da revista.'}
+              </p>
+            </div>
+          </div>
+          <button
+            onClick={handleToggleFounderMode}
+            className={`px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all flex-shrink-0 ${
+              isFounderMode
+                ? 'bg-emerald-600 hover:bg-emerald-700 text-white'
+                : 'bg-lux-gold hover:bg-lux-gold-light text-black'
+            }`}
+          >
+            {isFounderMode ? '✓ Proteção Ativa' : 'Ativar Proteção'}
+          </button>
         </div>
 
         {/* Tab Navigation */}

@@ -115,378 +115,613 @@ export const WEEKLY_DROPS = [
 ];
 
 export const ARTICLES = [
-  // 1. SUPERCARROS — DESTAQUE PRINCIPAL (HERO)
   {
-    id: 'art-bugatti-tourbillon',
-    slug: 'bugatti-tourbillon-monstro-hibrido-v16-1800cv-relogios-suicos',
-    category: 'Supercarros',
-    categorySlug: 'supercarros',
-    type: 'article',
-    badge: 'DESTAQUE MUNDIAL',
-    title: 'Bugatti Tourbillon: O Monstro Híbrido V16 de 1.800 cv que Rejeitou as Telas Digitais por Relógios Suíços',
-    excerpt: 'Com motor V16 naturalmente aspirado de 8.3 litros desenvolvido pela Cosworth e painel de instrumentos analógico com 600 componentes de titânio e safira, a nova máquina de Molsheim declara guerra à obsolescência digital.',
-    image: 'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&q=80&w=1400',
-    authorSlug: 'gabriel-fontes',
-    date: '25 Outubro 2026',
-    readTime: '7 min de leitura',
-    isHero: true,
-    specs: {
-      motor: 'Cosworth V16 8.3L Naturalmente Aspirado + 3 Motores Elétricos Axiais',
-      potencia: '1.800 cv combinados (1.000 cv combustão pura + 800 cv elétricos)',
-      aceleracao: '0-100 km/h em 2,0s | 0-400 km/h em menos de 25s | Velocidade máxima 445 km/h',
-      painel: 'Cluster analógico esqueletizado em titânio e safira projetado por mestres relojoeiros suíços',
-      tiragem: '250 unidades numeradas sob convite estrito da fábrica de Molsheim',
-      valor: '€ 3.800.000 (preço base homologado)'
+    "id": "art-porsche-911-gt3-rs-manthey-racin-9152",
+    "slug": "porsche-911-gt3-rs-manthey-racing-o-monstro-aspirado-de-6min43s-em-nurburgring-com-calotas-de-carbono-e-pressao-de-860-kg-a-285-kmh-9137",
+    "title": "Porsche 911 GT3 RS Manthey Racing: O Monstro Aspirado de 6min43s em Nürburgring com Calotas de Carbono e Pressão de 860 kg a 285 km/h",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "25 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&q=80&w=1400",
+    "excerpt": "A divisão de competições em Meuspath elevou a telemetria do GT3 RS a um patamar cirúrgico, aplicando aerodinâmica de efeito solo e tolerâncias de mícrons para domar o asfalto da Nordschleife.",
+    "contentParagraphs": [
+      "O cronômetro travou em 6 minutos e 43 segundos exatos na brutalidade verde de Nürburgring. O asfalto da Nordschleife exige precisão absoluta de engenharia. Em Meuspath, a divisão de competição da Porsche refinou a telemetria mecânica pura. Cada componente foi redesenhado sob forças G laterais extremas.",
+      "As rodas traseiras receberam calotas aerodinâmicas de fibra de carbono para laminar o fluxo turbulento de ar. A suspensão de 4 vias permite ajustes milimétricos na compressão e no retorno. O monocoque trabalha em perfeita harmonia com os dutos de Venturi. A carga aerodinâmica atinge patamares absurdos de downforce em alta velocidade.",
+      "Sob o capô traseiro, o motor de aspiração natural grita até as 9.000 rotações por minuto. A resposta do acelerador é imediata, sem o atraso cinético dos turbocompressores. O escape em ligas nobres dissipa o calor com eficiência implacável. O chassi reage instantaneamente aos comandos milimétricos do piloto.",
+      "Este não é um veículo destinado à contemplação estática em garagens blindadas. Trata-se de um instrumento cirúrgico de telemetria inercial. A Manthey Racing provou que a pureza mecânica ainda supera a ditadura digital dos hipercarros contemporâneos."
+    ],
+    "content_paragraphs": [
+      "O cronômetro travou em 6 minutos e 43 segundos exatos na brutalidade verde de Nürburgring. O asfalto da Nordschleife exige precisão absoluta de engenharia. Em Meuspath, a divisão de competição da Porsche refinou a telemetria mecânica pura. Cada componente foi redesenhado sob forças G laterais extremas.",
+      "As rodas traseiras receberam calotas aerodinâmicas de fibra de carbono para laminar o fluxo turbulento de ar. A suspensão de 4 vias permite ajustes milimétricos na compressão e no retorno. O monocoque trabalha em perfeita harmonia com os dutos de Venturi. A carga aerodinâmica atinge patamares absurdos de downforce em alta velocidade.",
+      "Sob o capô traseiro, o motor de aspiração natural grita até as 9.000 rotações por minuto. A resposta do acelerador é imediata, sem o atraso cinético dos turbocompressores. O escape em ligas nobres dissipa o calor com eficiência implacável. O chassi reage instantaneamente aos comandos milimétricos do piloto.",
+      "Este não é um veículo destinado à contemplação estática em garagens blindadas. Trata-se de um instrumento cirúrgico de telemetria inercial. A Manthey Racing provou que a pureza mecânica ainda supera a ditadura digital dos hipercarros contemporâneos."
+    ],
+    "specs": {
+      "Tempo em Nürburgring": "6:43.300",
+      "Motor": "Boxer 6 cilindros 4.0 aspirado",
+      "Downforce a 285 km/h": "860 kg",
+      "Aerodinâmica": "Calotas em fibra de carbono e Venturi traseiro",
+      "Suspensão": "Calibragem Manthey de 4 vias",
+      "Avaliação": "Homologado para Pista e Rodovia"
     },
-    inArticleDrop: {
-      title: 'Patek Philippe Grandmaster Chime Ouro Branco',
-      category: 'Alta Relojoaria',
-      slug: 'patek-philippe-grandmaster-chime-ouro-branco',
-      val: 'US$ 2.800.000',
-      reason: 'A obra-prima mecânica genebrina que serviu de referência estética direta para Mate Rimac e os relojoeiros do Jura suíço conceberem o cluster do Tourbillon.'
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 94,
+    "ranking_score": 94,
+    "publishedAt": "2026-10-25T20:33:19.151Z",
+    "published_at": "2026-10-25T20:33:19.151Z"
+  },
+  {
+    "id": "art-christies-genebra-o-diamante-blu-5824",
+    "slug": "christies-genebra-o-diamante-blue-royal-de-1761-quilates-arrematado-por-us-44-milhoes-apos-duelo-telefonico-de-sete-minutos-5806",
+    "title": "Christie's Genebra: O Diamante Blue Royal de 17,61 Quilates Arrematado por US$ 44 Milhões após Duelo Telefônico de Sete Minutos",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "HOMOLOGADO PELO RADAR",
+    "date": "25 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1400",
+    "excerpt": "Nas margens gélidas do Lago Léman, uma gema de pureza absoluta reescreve as leis da soberania financeira em um leilão de intensidade milimétrica.",
+    "contentParagraphs": [
+      "O silêncio na sala de leilões da Christie's foi denso. Sete minutos bastaram para que o diamante Blue Royal mudasse de mãos por US$ 44 milhões. Coberto por cinco décadas de isolamento em um cofre particular, o monólito de 17,61 quilates emergiu com a força de um artefato dinástico intocável.",
+      "Classificado pelo Instituto Gemológico da América como Fancy Vivid Blue, o cristal exibe uma saturação molecular sem tratamento térmico. Sua estrutura cristalina tipo IIb abriga traços infinitesimais de boro, conferindo-lhe uma coloração azul profunda que desafia a dispersão da luz natural e impõe respeito absoluto aos lapidários mais exigentes da Vallée de Joux.",
+      "Enquanto fundos soberanos e family offices disputavam cada segundo do pregão telefônico, a gema reafirmava sua imunidade contra a volatilidade monetária contemporânea. Não se trata de um ornamento passageiro, mas de um ativo tangível de liquidez soberana, esculpido pelas eras geológicas e preservado com rigor fiduciário.",
+      "Ao final do duelo de lances, o Blue Royal consolidou seu destino nas mãos de um colecionador anônimo. O martelo desceu sobre o mogno com a precisão de um calibre de manufatura, selando o destino de um tesouro que transcende o tempo e coroa a aristocracia dos grandes leilões internacionais."
+    ],
+    "content_paragraphs": [
+      "O silêncio na sala de leilões da Christie's foi denso. Sete minutos bastaram para que o diamante Blue Royal mudasse de mãos por US$ 44 milhões. Coberto por cinco décadas de isolamento em um cofre particular, o monólito de 17,61 quilates emergiu com a força de um artefato dinástico intocável.",
+      "Classificado pelo Instituto Gemológico da América como Fancy Vivid Blue, o cristal exibe uma saturação molecular sem tratamento térmico. Sua estrutura cristalina tipo IIb abriga traços infinitesimais de boro, conferindo-lhe uma coloração azul profunda que desafia a dispersão da luz natural e impõe respeito absoluto aos lapidários mais exigentes da Vallée de Joux.",
+      "Enquanto fundos soberanos e family offices disputavam cada segundo do pregão telefônico, a gema reafirmava sua imunidade contra a volatilidade monetária contemporânea. Não se trata de um ornamento passageiro, mas de um ativo tangível de liquidez soberana, esculpido pelas eras geológicas e preservado com rigor fiduciário.",
+      "Ao final do duelo de lances, o Blue Royal consolidou seu destino nas mãos de um colecionador anônimo. O martelo desceu sobre o mogno com a precisão de um calibre de manufatura, selando o destino de um tesouro que transcende o tempo e coroa a aristocracia dos grandes leilões internacionais."
+    ],
+    "specs": {
+      "Peso da Gema": "17,61 quilates",
+      "Classificação GIA": "Fancy Vivid Blue",
+      "Tipo Cristalino": "Tipo IIb com traços de boro",
+      "Tempo de Pregão": "7 minutos de duelo telefônico",
+      "Valor de Arremate": "US$ 43,8 milhões (Christie's Genebra)"
     },
-    contentParagraphs: [
-      'Em uma era em que a indústria automotiva global se rendeu cegamente à tirania de telas táteis capacitivas destinadas à obsolescência programada em menos de uma década, a Bugatti respondeu com o mais audacioso gesto de rebeldia estética dos últimos cinquenta anos. O Tourbillon não é apenas o sucessor do Chiron; é uma declaração de imortalidade mecânica que recusa a pasteurização digital.',
-      'No coração do habitáculo minimalista, não há visores de cristal líquido que se apagarão quando os processadores envelhecerem. O condutor depara-se com um cluster de instrumentos analógico esqueletizado, desenvolvido em colaboração estrita com mestres relojoeiros da Vallée de Joux: mais de 600 componentes usinados em titânio grau 5, rubis sintéticos de atrito e cristais de safira lapidados a diamante. O cubo do volante permanece rigorosamente estacionário enquanto o aro gira ao seu redor, garantindo que os mostradores permaneçam visíveis em qualquer ângulo de esterçamento.',
-      'Atrás do monocoque estrutural em compósito de carbono T1000 repousa uma catedral termodinâmica: um motor V16 de 8.3 litros naturalmente aspirado, concebido em parceria técnica com a lendária Cosworth, capaz de girar a estrondosos 9.000 RPM sem auxílio de turbocompressores. Acoplado a três motores elétricos de fluxo axial que injetam 800 cv instantâneos nas quatro rodas, o conjunto entrega 1.800 cavalos de potência visceral e linear.',
-      'O sistema de escape em liga de Inconel 625 soldado à mão dissipa o calor violento da queima estequiométrica enquanto produz uma assinatura sonora orgânica, reminiscência dos lendários Type 35 que dominaram as pistas europeias na década de 1920. Para os 250 proprietários mundiais convocados pessoalmente ao Château Saint-Jean em Molsheim, o Bugatti Tourbillon representa a certeza de que as maiores criações da engenharia humana devem permanecer deslumbrantes daqui a um século.'
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 96,
+    "ranking_score": 96,
+    "publishedAt": "2026-10-25T20:33:25.824Z",
+    "published_at": "2026-10-25T20:33:25.824Z"
+  },
+  {
+    "id": "art-koenigsegg-jesko-absolut-o-monst-1000",
+    "slug": "koenigsegg-jesko-absolut-o-monstro-aerodinamico-de-1600-cv-que-esmagou-o-marco-0-400-0-kmh-em-2783-segundos-com-tolerancias-de-microns",
+    "title": "Koenigsegg Jesko Absolut: O Monstro Aerodinâmico de 1.600 cv que Esmagou o Marco 0-400-0 km/h em 27,83 Segundos com Tolerâncias de Mícrons",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "excerpt": "A soberania patrimonial não tolera ruídos efêmeros; exige a brutalidade mecânica contida de um motor V8 biturbo esculpido para redefinir a física da velocidade absoluta em cofres de liquidez inegociável.",
+    "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&q=80&w=1400",
+    "authorSlug": "gabriel-fontes",
+    "date": "25 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "isHero": false,
+    "isHeroSecondary": true,
+    "rankingScore": 86,
+    "specs": {
+      "motorizacao": "Koenigsegg V8 5.0L Biturbo (1.600 cv em E85)",
+      "transmissao": "Koenigsegg LST de 9 marchas com 7 embreagens",
+      "coeficiente": "Cx 0.278 de penetração aerodinâmica com aletas traseiras estabilizadoras",
+      "recorde_homologado": "0-400-0 km/h em 27,83 segundos em pista militar na Suécia",
+      "motor": "V8 biturbo de 5,0 litros com virabrequim plano a 180 graus",
+      "potencia": "1.600 cv com combustível E85",
+      "aerodinamica": "Coeficiente de arrasto (Cx) de 0,278",
+      "feito_historico": "0-400-0 km/h em 27,83 segundos",
+      "custodia": "Alocação restrita para colecionadores selecionados via governança dinástica"
+    },
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Enquanto fundos especulativos apostam em algoritmos voláteis, a verdadeira aristocracia industrial consolida sua imunidade temporal através de ativos cinéticos com tiragem estritamente limitada. A engenharia sueca de Ängelholm não produz meros veículos; manufatura refúgios de liquidez lastreados em titânio e fibra de carbono curada em autoclave. Cada Jesko Absolut opera como um cofre blindado sobre rodas, onde a escassez matemática garante a valorização perpétua longe dos humores das bolsas globais.",
+      "Sob a cobertura de monocoque em carbo-titânio, respira um motor V8 biturbo de 5,0 litros calibrado para entregar 1.600 cavalos de potência quando alimentado por E85. A transmissão Light Speed Transmission prescinde de volantes de inércia convencionais, utilizando nove marchas e sete embreagens molhadas para eliminar qualquer intervalo na entrega de torque. O coeficiente de arrasto aerodinâmico de apenas 0,278 Cx permite uma penetração cirúrgica na atmosfera, desafiando limites que antes pertenciam exclusivamente à aviação militar de alta performance.",
+      "A marca histórica de zero a quatrocentos e novamente a zero quilômetros por hora em exatos 27,83 segundos não representa um mero recorde de cronômetro. Trata-se de uma demonstração cabal de soberania mecânica que reescreve os manuais de aerodinâmica global. A força G lateral e a desaceleração brutal imposta pelos freios de cerâmica de carbono exigem tolerâncias de mícrons que fariam qualquer linha de montagem convencional entrar em colapso estrutural imediato.",
+      "No tabuleiro dos grandes leilões internacionais fechados, exemplares com esta densidade técnica não sofrem depreciação; convertem-se em moedas de troca soberanas entre family offices. Adquirir um Jesko Absolut é assinar um contrato irrevogável com a eternidade material. Aqui reside o verdadeiro luxo contemporâneo: a posse incontestável de um artefato raro que zomba do tempo e das modas efêmeras da modernidade líquida."
+    ],
+    "is_hero": false,
+    "is_hero_secondary": true
+  },
+  {
+    "id": "art-gma-t50s-niki-lauda-o-bolido-de--1001",
+    "slug": "gma-t50s-niki-lauda-o-bolido-de-pista-de-852-kg-com-turbina-de-vacuo-traseira-e-v12-cosworth-de-12100-rpm",
+    "title": "GMA T.50s Niki Lauda: O Bólido de Pista de 852 kg com Turbina de Vácuo Traseira e V12 Cosworth de 12.100 RPM",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "type": "article",
+    "badge": "ENGENHARIA PURA",
+    "excerpt": "Uma obra-prima da engenharia analógica de pista, unindo carga aerodinâmica ativa e um motor aspirado de rotações estratosféricas sem concessões digitais.",
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=1400",
+    "authorSlug": "gabriel-fontes",
+    "date": "25 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "isHero": false,
+    "isHeroSecondary": true,
+    "rankingScore": 78,
+    "specs": {
+      "motorizacao": "Cosworth GMA V12 3.9L Naturalmente Aspirado (12.100 RPM)",
+      "peso_a_seco": "852 kg em fibra de carbono de graduação aeroespacial",
+      "aerodinamica": "Ventoinha traseira de 400 mm gerando 1.500 kg de downforce ativo",
+      "tiragem_mundial": "25 exemplares numerados para uso exclusivo em circuito fechado",
+      "Motor": "Cosworth V12 3.9L aspirado naturalmente",
+      "Potência Máxima": "735 cavalos a 11.500 RPM (chegando a 12.100 RPM)",
+      "Peso Seco": "852 kg",
+      "Aerodinâmica": "Turbina de vácuo traseira com efeito solo ativo",
+      "Tiragem": "25 unidades homologadas exclusivamente para pista"
+    },
+    "contentParagraphs": [
+      "A inércia não perdoa erros de cálculo estrutural. O monocoque em carbo-titânio curado em autoclave a 6 bar abriga apenas o essencial para a sobrevivência a 3G de força G lateral contínua. Cada componente foi purgado de supérfluos digitais. A telemetria inercial substitui telas coloridas por dados brutos transmitidos diretamente ao capacete do piloto. A leveza extrema dita o ritmo cinético.",
+      "Sob a cobertura traseira, o motor V12 de 3,9 litros desenvolvido pela Cosworth atinge o limite mecânico de 12.100 RPM. A combustão interna grita em frequências agudas de carros de F1 históricos. O escape em Inconel 625 dissipa calor incandescente enquanto os pistões forjados operam com tolerâncias de mícrons. A resposta ao acelerador é instantânea e brutal.",
+      "Atrás, a turbina de vácuo de 400 mm suga o ar sob o assoalho em milissegundos. Este fluxo de Venturi de efeito solo sela o bólido ao asfalto independentemente da velocidade nas curvas de alta. A aerodinâmica ativa elimina o arrasto parasita enquanto gera downforce equivalente ao próprio peso do veículo. A física cedeu à genialidade pura de Gordon Murray.",
+      "Exemplares limitados a um seleto grupo de colecionadores evidenciam o repúdio à obsolescência programada. Enquanto o mercado massifica a eletrificação pesada, esta máquina permanece como o ápice da combustão mecânica pura. O asfalto absorve a fúria de trezentos quilos de carga aerodinâmica. O silêncio da pista é rasgado pelo triunfo da engenharia intransigente."
     ]
   },
-
-  // 2. ALTA RELOJOARIA — HERO SECUNDÁRIO 1
   {
-    id: 'art-patek-grandmaster',
-    slug: 'patek-philippe-grandmaster-chime-ouro-branco',
-    category: 'Alta Relojoaria',
-    categorySlug: 'relogios',
-    type: 'article',
-    badge: 'PEÇA HISTÓRICA',
-    title: 'Patek Philippe Grandmaster Chime: A Mecânica de 20 Complicações em Ouro Branco com Caixa Gravada à Mão ao Longo de 100 Horas',
-    excerpt: 'Duas faces reversíveis, cinco funções de carrilhão acústico e uma caixa inteiramente gravada à mão com motivos de louros, demandando mais de 100 horas ininterruptas de buril nos ateliês genebrinos.',
-    image: 'https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&q=80&w=1400',
-    authorSlug: 'clara-meirelles',
-    date: '24 Outubro 2026',
-    readTime: '6 min de leitura',
-    isHeroSecondary: true,
-    specs: {
-      complicacoes: '20 complicações ativas independentes com patente genebrina',
-      movimento: 'Calibre 300 GS AL 36-750 QIS FUS IRM manual composto por 1.366 componentes',
-      caixa: 'Ouro branco 18k reversível com mecanismo de rotação de 360° e gravação manual de louros',
-      sonnerie: '5 modos de carrilhão acústico com 3 gongos afinados artesanalmente pelo presidente da maison',
-      valor: 'Estimado em US$ 2.800.000 (mercado primário sob alocação restrita)'
+    "id": "art-pagani-huayra-r-evo-o-monstro-lo-1002",
+    "slug": "pagani-huayra-r-evo-o-monstro-longtail-de-900-cv-com-v12-aspirado-de-9200-rpm-e-monocoque-de-carbo-titanio",
+    "title": "Pagani Huayra R Evo: O Monstro Longtail de 900 cv com V12 Aspirado de 9.200 RPM e Monocoque de Carbo-Titânio",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "type": "article",
+    "badge": "PISTA & TELEMETRIA",
+    "excerpt": "Em uma indústria anestesiada por baterias pesadas, Horacio Pagani assina um manifesto térmico que desafia as leis da física através de rotações extremas e aerodinâmica ativa de pista.",
+    "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&q=80&w=1400",
+    "authorSlug": "gabriel-fontes",
+    "date": "25 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "isHero": false,
+    "isHeroSecondary": false,
+    "rankingScore": 77,
+    "specs": {
+      "motorizacao": "V12-R Evo HWA 6.0L Aspirado (900 cv a 8.750 RPM)",
+      "chassi": "Monocoque em Carbo-Titânio HP62 G2 curado em autoclave sob 6 bar",
+      "carroceria": "Codalunga Longtail esticada em 190 mm para estabilidade a 320 km/h",
+      "coletor_escape": "Inconel 625 soldado à mão com revestimento cerâmico",
+      "motor": "V12 aspirado de 6.0 litros desenvolvido pela HWA AG",
+      "potencia_maxima": "900 cv a 8.250 RPM (corte em 9.200 RPM)",
+      "torque": "770 Nm entre 5.800 e 8.200 RPM",
+      "chassis": "Monocoque em carbo-titânio HP62-G2 com subchassis em aço cromo-molibdênio",
+      "aerodinamica": "Configuração Longtail com ganho de 45% em downforce total",
+      "transmissao": "Sequencial de 6 marchas não-sincronizada com acionamento dog-ring"
     },
-    inArticleDrop: {
-      title: 'Rolex Daytona Paul Newman Panda',
-      category: 'Alta Relojoaria',
-      slug: 'rolex-daytona-paul-newman-recorde-leilao',
-      val: 'US$ 4.850.000',
-      reason: 'O outro marco histórico de leilões que rege a liquidez de relógios colecionáveis mecânicos no mercado secundário.'
-    },
-    contentParagraphs: [
-      'Existe uma fronteira sagrada e intransponível entre um mero marcador de horas e uma escultura cinética concebida para desafiar a entropia universal. Nos ateliês silenciosos da Patek Philippe em Plan-les-Ouates, nas cercanias de Genebra, o Grandmaster Chime habita solitário e soberano esse segundo território da existência humana.',
-      'Desenvolvido para celebrar o aniversário de 175 anos da manufatura sob custódia ininterrupta da família Stern, o modelo reúne nada menos que vinte complicações ativas distribuídas em dois mostradores distintos em esmalte opalino branco e preto. O mecanismo de rotação da caixa — protegido por quatro patentes de microengenharia — permite que o colecionador alterne a face exibida com o toque suave de uma trava de báscula, sem interromper o avanço milimétrico das engrenagens internas.',
-      'O coração acústico da peça é uma proeza da metalurgia clássica: cinco modos sonoros de carrilhão, incluindo uma Grande Sonnerie que toca automaticamente as horas e os quartos a cada quarto de hora, uma Petite Sonnerie, uma repetição de minutos clássica, um alarme acústico que dispara a melodia programada e uma repetição de data inédita que soa as dezenas e unidades do dia do mês sobre os gongos de aço afinados à mão.',
-      'Ao observar através da lupa de aumento o acabamento dos chanfros polidos a espelho com pedaços secos de madeira de sabugueiro silvestre — técnica que nenhuma fresadora de cinco eixos moderna consegue replicar —, compreende-se por que a alta relojoaria mecânica genebrina continua sendo o mais impenetrável refúgio de liquidez e patrimônio espiritual do mundo.'
+    "contentParagraphs": [
+      "O ar corta o difusor traseiro com violência mecânica. A fibra de carbono exposta vibra em harmonia com a frequência de rotação dos pistões forçados a suportar forças extremas. Horacio Pagani recusou o caminho fácil da eletrificação em massa. Ele preferiu esculpir um bloco de doze cilindros em V capaz de rasgar a atmosfera a 9.200 RPM.",
+      "Cada curva do monocoque em carbo-titânio curado em autoclave a 6 bar foi desenhada para gerar downforce bruto sem comprometer a agilidade inercial. Os canais Venturi inferiores aceleram o fluxo de ar comprimindo o chassi contra o asfalto. A força G lateral atinge patamares reservados exclusivamente a monopostos de competição enquanto o escape em Inconel 625 incandesce sob carga máxima.",
+      "A aerodinâmica longtail estende a silhueta em proporções que lembram os protótipos de Le Mans dos anos setenta. Não há espaço para concessões digitais ou assistências eletrônicas anestesiantes. O piloto interage diretamente com o chassi através de um volante removível em alumínio usinado que transmite cada imperfeição do piso com precisão cirúrgica.",
+      "Este Huayra R Evo não busca a aprovação do mercado generalista. Ele consolida um refúgio para colecionadores que ainda entendem o perfume do óleo aquecido e o som metálico de uma transmissão sequencial de garfos em aço dog-ring. É a engenharia mecânica elevada ao seu estado mais puro e implacável."
     ]
   },
-
-  // 3. ARQUITETURA — HERO SECUNDÁRIO 2
   {
-    id: 'art-villa-sole',
-    slug: 'villa-sole-refugio-brutalista-falecias-capri',
-    category: 'Arquitetura',
-    categorySlug: 'arquitetura',
-    type: 'article',
-    badge: 'RESIDÊNCIA DO ANO',
-    title: 'Villa Sole: O Refúgio Brutalista Suspenso sobre as Falésias de Capri com Travertino Romano e Falésia Privativa de € 42M',
-    excerpt: 'Concreto aparente tonalizado em areia, vidro estrutural do piso ao teto e uma piscina de borda infinita que se funde com o azul profundo do Mar Tirreno em Anacapri.',
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1400',
-    authorSlug: 'henrique-vianna',
-    date: '23 Outubro 2026',
-    readTime: '6 min de leitura',
-    isHeroSecondary: true,
-    specs: {
-      arquiteto: 'Studio Matteo Rossi Milano & Associados',
-      areaConstruida: '1.450 m² úteis distribuídos em 3 níveis escalonados na rocha',
-      terreno: '12.000 m² de falésia privativa com acesso marítimo exclusivo',
-      materiais: 'Concreto pigmentado com calcário local, Travertino Romano Navona e Nogueira Canaletto',
-      valor: 'Avaliada em € 42.000.000 sob governança de Family Office suíço'
+    "id": "art-lurssen-kismet-o-megaiate-de-122-1003",
+    "slug": "lurssen-kismet-o-megaiate-de-122-metros-e-3-milhoes-de-euros-semanais-com-casco-acustico-isolado",
+    "title": "Lürssen Kismet: O Megaiate de 122 Metros e 3 Milhões de Euros Semanais com Casco Acústico Isolado",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "type": "article",
+    "badge": "ENGENHARIA NAVAL",
+    "excerpt": "A soberania patrimonial encontra seu refúgio definitivo nas águas internacionais, onde a arquitetura naval de 122 metros redefine a imunidade temporal e a custódia fiduciária móvel.",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=1400",
+    "authorSlug": "gabriel-fontes",
+    "date": "25 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "isHero": false,
+    "isHeroSecondary": false,
+    "rankingScore": 80,
+    "specs": {
+      "comprimento": "122 metros (400 ft) de casco oceânico em aço naval de alta resistência",
+      "estaleiro": "Lürssen Werft, Bremen, Alemanha (Design Nuvolari Lenard)",
+      "propulsao": "Sistema híbrido elétrico de alta eficiência com autonomia transoceânica",
+      "amenidades": "Heliponto duplo para aeronaves executivas e câmara de crioterapia a -110°C",
+      "Comprimento Total": "122 metros (400 pés)",
+      "Estaleiro Naval": "Lürssen Yachts, Alemanha",
+      "Design Exterior": "Nuvolari Lenard",
+      "Tarifa de Afretamento": "EUR 3.000.000 por semana",
+      "Autonomia Transoceânica": "6.000 milhas náuticas a 15 nós"
     },
-    inArticleDrop: {
-      title: 'Riva 130\' Bellissima: O Superiate Flybridge',
-      category: 'Destinos & Iates',
-      slug: 'riva-130-bellissima-superiate-riviera',
-      val: '€ 24.500.000',
-      reason: 'A embarcação de design italiano que atraca diretamente no píer privativo esculpido na rocha calcária da Villa Sole.'
-    },
-    contentParagraphs: [
-      'Empoleirada em uma escarpa de rocha calcária onde durante séculos apenas as gaivotas do Tirreno encontravam abrigo, a Villa Sole é um manifesto construído de como a arquitetura contemporânea pode dialogar com a monumentalidade bruta do Mediterrâneo sem jamais tentar domesticá-la. Localizada no ponto mais reservado de Anacapri, a propriedade rejeita o pastiche neoclássico para abraçar um brutalismo mineral de rara pureza.',
-      'O arquiteto responsável utilizou uma formulação estrutural sob medida: cimento branco misturado a agregados de pedra calcária triturada retirada da própria escavação da falésia. O resultado é uma matéria mineral que respira e muda de tom conforme a inclinação do sol ao longo do dia — do ocre pálido das primeiras horas da manhã ao rosa profundo que precede o cair da noite caprese.',
-      'Os interiores privilegiam o silêncio e o isolamento térmico natural. Lajes em balanço com mais de doze metros projetam-se no vazio sobre o mar, abrigando uma piscina de raia com borda infinita cujo espelho d\'água se funde visualmente ao horizonte azul. Os pisos são em placas contínuas de travertino romano navona aquecido, enquanto as paredes internas recebem painéis acústicos de nogueira canaletto fosca que silenciam completamente as rajadas do vento marítimo.',
-      'A residência conta com uma adega climatizada escavada na rocha viva com controle de umidade passivo e um elevador panorâmico embutido no poço de pedra que conduz diretamente a um píer privativo com calado suficiente para atracar iates de até 40 metros. Na visão dos comitês patrimoniais que gerenciam a propriedade, a Villa Sole não é um refúgio de veraneio; é uma fortaleza de paz que atravessará os séculos imune aos ruídos do mundo.'
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Nas docas de Wewelsfleth, o Lürssen Kismet ergue-se não como um mero exercício de ostentação vulgar, mas como uma fortaleza flutuante de aço balístico e alumínio marinho. Suas linhas exteriores, desenhadas com precisão cirúrgica por Nuvolari Lenard, escondem um deslocamento bruto capaz de desafiar as intempéries mais severas do Atlântico Norte. Aqui, a privacidade não é negociada; ela é garantida por engenharia naval de nível militar.",
+      "Sob o convés teca, a acústica do casco foi rigorosamente tratada para eliminar qualquer vibração mecânica perceptível aos sentidos humanos. O propulsor principal, acoplado a sistemas de posicionamento dinâmico avançados, permite que a embarcação permaneça estática em alto-mar sem o uso de âncoras físicas, preservando ecossistemas submarinos delicados enquanto os ocupantes desfrutam de uma atmosfera de serenidade absoluta. Cada antepara interna foi concebida para resistir a torções estruturais extremas, garantindo que o mármore travertino romano permaneça perfeitamente alinhado sob força G lateral severa.",
+      "Com tarifas de afretamento fixadas em três milhões de euros semanais, o Kismet opera como um ativo de liquidez restrita, acessível apenas a um seleto grupo de family offices globais. Sua infraestrutura inclui helipontos duplos certificados para aeronaves de grande porte e um sistema proprietário de crioterapia submarina, integrando bem-estar físico de alta performance à navegação transoceânica. Trata-se de um refúgio de soberania absoluta, onde o tempo perde sua urgência mecânica e a discrição é mantida por tripulações submetidas a acordos de confidencialidade perpétua.",
+      "A aquisição ou o aluguel desta embarcação transcende o consumo recreativo; constitui um movimento tático de preservação de capital em ativos tangíveis de altíssima resiliência. Enquanto os mercados tradicionais flutuam ao sabor da volatilidade macroeconômica, o Kismet permanece ancorado em sua própria categoria de valor inegociável. Henrique Vianna assina este veredito: para aqueles que compreendem a verdadeira geometria do poder, o oceano é a última fronteira onde a lei do silêncio soberano ainda impera."
     ]
   },
-
-  // 4. SUPERCARROS — FERRARI F80
   {
-    id: 'art-ferrari-f80',
-    slug: 'ferrari-f80-hipercarro-hibrido-maranello',
-    category: 'Supercarros',
-    categorySlug: 'supercarros',
-    type: 'article',
-    badge: 'ENGENHARIA PURA',
-    title: 'Ferrari F80: O Hipercarro Híbrido de 1.200 cv que Redefine a Engenharia de Maranello com Aerodinâmica de Le Mans',
-    excerpt: 'Apenas 799 exemplares mundiais serão produzidos. Com motor V6 biturbo derivado do protótipo bicampeão das 24 Horas de Le Mans e três propulsores elétricos, a nova máquina italiana gera mais de uma tonelada de downforce.',
-    image: 'https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&q=80&w=1400',
-    authorSlug: 'gabriel-fontes',
-    date: '22 Outubro 2026',
-    readTime: '6 min de leitura',
-    specs: {
-      potencia: '1.200 cv combinados (900 cv V6 biturbo a 120° + 300 cv elétricos)',
-      aceleracao: '0-100 km/h em 2,15s | 0-200 km/h em 5,75s | Máxima de 350 km/h',
-      downforce: '1.050 kg de pressão descendente vertical a 250 km/h',
-      chassi: 'Monocoque em fibra de carbono e titânio com células assimétricas',
-      tiragem: '799 unidades esgotadas antes da revelação oficial aos clientes VIP',
-      valor: '€ 3.600.000 (preço base homologado)'
+    "id": "art-feadship-obsidian-o-superiate-hi-1004",
+    "slug": "feadship-obsidian-o-superiate-hibrido-de-84-metros-com-banco-de-baterias-de-45-mwh-e-casco-gerado-por-algoritmos",
+    "title": "Feadship Obsidian: O Superiate Híbrido de 84 Metros com Banco de Baterias de 4.5 MWh e Casco Gerado por Algoritmos",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "type": "article",
+    "badge": "NÁUTICA DO FUTURO",
+    "excerpt": "A arquitetura naval contemporânea atinge um ápice de silêncio cinético. A Feadship entrega uma embarcação onde a autonomia elétrica absoluta redefine a aerodinâmica oceânica.",
+    "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&q=80&w=1400",
+    "authorSlug": "gabriel-fontes",
+    "date": "25 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "isHero": false,
+    "isHeroSecondary": false,
+    "rankingScore": 77,
+    "specs": {
+      "comprimento": "84.2 metros com casco de deslocamento em aço naval holandês",
+      "estaleiro": "Feadship De Vries, Haarlem, Países Baixos",
+      "banco_baterias": "4.5 MWh em células de fosfato de ferro-lítio para navegação silenciosa",
+      "autonomia": "5.500 milhas náuticas a 12 nós com redução de 35% de combustível fóssil",
+      "Comprimento Total": "84,2 metros",
+      "Banco de Baterias": "4,5 MWh",
+      "Material do Casco": "Alumínio otimizado por IA",
+      "Estaleiro": "Feadship De Voogt Naval Architects",
+      "Autonomia Elétrica": "Até 35 milhas náuticas em silêncio total"
     },
-    contentParagraphs: [
-      'Quando a sede de Maranello decide gravar em um novo chassi a linhagem dos números redondos sagrados — a dinastia que conecta a 288 GTO, a F40, a F50, a Enzo e a LaFerrari —, o universo automotivo silencia para observar. A Ferrari F80 não representa uma mera atualização técnica; é a transposição sem concessões da telemetria vitoriosa do hipercarro 499P, bicampeão das 24 Horas de Le Mans, para um veículo devidamente homologado para vias públicas.',
-      'A arquitetura mecânica adota a mesma configuração que venceu no Circuit de la Sarthe: um bloco V6 a 120 graus com 3.0 litros e dois turbocompressores elétricos com tecnologia MGU-H que eliminam qualquer atraso de resposta do acelerador. Girando até 9.200 RPM e entregando uma potência específica estarrecedora de 300 cv por litro, a unidade térmica trabalha em sinergia com três motores elétricos de desenvolvimento próprio que operam sob uma rede de 800 volts.',
-      'O grande triunfo de Maranello, contudo, repousa na aerodinâmica subterrânea. O chassi é esculpido com gigantescos túneis Venturi laterais de efeito solo que criam uma pressão de sucção de mais de 1.050 kg de downforce a 250 km/h. Sob a orientação de uma suspensão ativa com quatro atuadores elétricos independentes de 48 volts, a altura em relação ao solo varia milimetricamente para manter a plataforma estável mesmo sob forças laterais que superam 1.8G.',
-      'A cabine adota uma configuração denominada "1+", onde o banco do passageiro é discretamente recuado e camuflado nos tons do acabamento, deixando o piloto no epicentro gravitacional do veículo. Para os 799 colecionadores selecionados por convite lacrado da diretoria de Maranello, a F80 é a materialização do domínio absoluto do homem sobre a velocidade.'
+    "contentParagraphs": [
+      "O casco corta o mar aberto sem gerar ondulação perceptível. Uma escultura de alumínio e vidro estrutural moldada por algoritmos de aprendizado de máquina elimina o arrasto hidrodinâmico residual. A proa reta penetra o Atlântico Norte com precisão cirúrgica de mícrons, enquanto o fluxo de água sob a quilha alimenta os túneis de propulsão silenciosa. A marinha mercante tradicional assiste impotente à obsolescência de seus motores térmicos.",
+      "O coração energético reside em um banco de baterias de 4.5 MWh alojado no ventre do navio. Os geradores a diesel operam apenas como suporte secundário para travessias transatlânticas prolongadas. Sensores de telemetria inercial monitoram o balanço lateral, ajustando estabilizadores giroscópicos em frações de milissegundo. A força G lateral nas curvas fechadas de alta velocidade dissipa-se suavemente através de anteparas estruturais em fibra de carbono.",
+      "No salão principal, o uso de superfícies espelhadas e painéis solares integrados ao deck redefine a relação entre habitabilidade e eficiência termodinâmica. A energia gerada durante as manobras de desaceleração é recuperada por sistemas de regeneração direta, alimentando os servidores de bordo e o sistema de climatização sem emitir um único decibel de ruído mecânico. É a engenharia naval convertida em monólito flutuante.",
+      "A soberania deste projeto reside na recusa intransigente aos velhos padrões de consumo fóssil. Gabriel Fontes valida: o verdadeiro luxo marítimo contemporâneo não é a ostentação de milhas náuticas a vapor, mas a capacidade de navegar em silêncio absoluto, impulsionado por densidade energética pura e inteligência algorítmica."
     ]
   },
-
-  // 5. PATRIMÔNIO & BILIONÁRIOS — CENSO FORBES CAPITAL SOBERANO
   {
-    id: 'art-forbes-capital-soberano',
-    slug: 'censo-forbes-capital-soberano-family-offices-ativos-fisicos',
-    category: 'Arquitetura',
-    categorySlug: 'arquitetura',
-    type: 'article',
-    badge: 'MERCADO FINANCEIRO',
-    title: 'O Censo Forbes do Capital Soberano 2026: Por Que os Family Offices Estão Drenando Ativos Líquidos para Ativos Físicos e Obras Museológicas',
-    excerpt: 'Uma radiografia exclusiva dos maiores conglomerados patrimoniais do planeta revela que 42% do novo capital de fortunas multigeracionais foi alocado em terras produtivas, ouro de alta pureza e acervos de arte com liquidez soberana.',
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1400',
-    authorSlug: 'henrique-vianna',
-    date: '21 Outubro 2026',
-    readTime: '8 min de leitura',
-    specs: {
-      segmento: 'Ultra High Net Worth Individuals (UHNWI com patrimônio superior a US$ 250M)',
-      jurisdicoes: 'Zurique, Genebra, Londres (Mayfair), Cingapura, Mônaco e São Paulo',
-      alocacao: 'Migração de 42% de novas reservas líquidas para ativos reais tangíveis',
-      custodia: 'Cofres privados de alta segurança e portos francos fora do sistema bancário convencional',
-      relatorio: 'Auditoria de Soberania Patrimonial Radar do Luxo & Global Wealth Monitor'
+    "id": "art-fp-journe-chronometre-bleu-o-rar-1005",
+    "slug": "fp-journe-chronometre-bleu-o-rarissimo-metal-de-transicao-de-40mm-com-calibre-em-ouro-rosa-e-mostrador-azul-klein-monolitico",
+    "title": "F.P. Journe Chronomètre Bleu: O Raríssimo Metal de Transição de 40mm com Calibre em Ouro Rosa e Mostrador Azul Klein Monolítico",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "type": "article",
+    "badge": "ALTA HOROLOGIA",
+    "excerpt": "Na Vallée de Joux, a pressa é uma heresia mecânica. O Chronomètre Bleu encarna a soberania do tântalo polido, unindo a resistência mineral intransigente à suavidade térmica do ouro rosa 18 quilates esculpido à mão.",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=1400",
+    "authorSlug": "clara-meirelles",
+    "date": "24 de outubro de 2026",
+    "readTime": "6 min de leitura",
+    "isHero": false,
+    "isHeroSecondary": true,
+    "rankingScore": 79,
+    "specs": {
+      "caixa": "Tântalo polido de densidade mineral extrema fundido a 3.000°C",
+      "calibre": "1304 em Ouro Rosa 18k sólido com duplo tambor de corda",
+      "mostrador": "Azul cromático espelhado com tratamento de reflexão multicamadas",
+      "reserva_de_marcha": "56 horas de precisão cronométrica ininterrupta",
+      "Manufatura": "F.P. Journe, Genebra, Suíça",
+      "Calibre": "Calibre manual 1304 em ouro rosa 18k",
+      "Material da Caixa": "Tântalo polido e escovado",
+      "Diâmetro": "39 milímetros",
+      "Reserva de Marcha": "56 horas",
+      "Mostrador": "Azul Klein laqueado com numerais prateados"
     },
-    contentParagraphs: [
-      'A análise detalhada dos fluxos de alocação de capital que governam as dinastias mais antigas da Europa, da América do Norte e da Ásia aponta para um movimento tectônico, silencioso e inexorável: a retirada sistemática de liquidez puramente digital e títulos soberanos em direção à solidez inabalável de bens físicos irremovíveis.',
-      'Os memorandos confidenciais que circularam nos comitês de governança durante o último trimestre revelam que a preservação de capital que pensa em séculos não aceita mais a volatilidade inflacionária e a insegurança jurídica de moedas fiduciárias. Quarenta e dois por cento do excedente de caixa gerado por conglomerados industriais familiares foi redirecionado para três pilares: terras agricultáveis contínuas, obras de arte de mestres pós-guerra com procedência homologada e ativos residenciais troféu em falésias e orlas com escassez geográfica absoluta.',
-      'Há uma sabedoria secular gravada nesse comportamento: governos, bancos centrais e ciclos monetários se transformam ou entram em colapso a cada duas ou três gerações, mas a posse direta de matéria nobre — o calcário sobre o mar, a tela de um mestre moderno com pedigree museológico e o metal precioso sob custódia física — permanece imune à erosão política.',
-      'Como costumam sussurrar os banqueiros privados da Rue du Rhône em Genebra, o dinheiro recente gasta para ser aplaudido pela plateia; o patrimônio dinástico investe para garantir que, daqui a duzentos anos, seus herdeiros mantenham a mesma autonomia soberana de seus fundadores.'
+    "contentParagraphs": [
+      "O tântalo não obedece aos caprichos da luz ambiente. Ele a absorve, devolvendo um cinza profundo com reflexos azulados que desafiam qualquer padronização industrial. François-Paul Journe escolheu este metal refratário, de altíssimo ponto de fusão, sabendo perfeitamente que sua usinagem destruiria ferramentas comuns. Cada caixa de quarenta milímetros exige paciência infinita e ferramentas diamantadas operadas com precisão cirúrgica em Genebra.",
+      "Sob o fundo de safira transparente, o calibre manual 1304 revela sua arquitetura em ouro rosa 18k sólido. As pontes exibem o chanfro manual executado com limas de aço e polidas com pasta de diamante, enquanto as cabeças dos parafusos recebem polimento espelhado impecável. Não há redundâncias estéticas. Cada engrenagem cumpre uma função matemática rigorosa, garantindo uma reserva de marcha de cinquenta e seis horas através de um sistema de duplo tambor em série.",
+      "O mostrador monocromático em azul Klein utiliza um processo de aplicação de verniz laqueado que cria uma textura sutilmente granulada, onde os numerais arábicos prateados flutuam com serenidade atemporal. As horas deslizam sem o ruído do mundo moderno. As marcações brancas são impressas com relevo quase imperceptível, exigindo lupas de alta magnificação para revelar a perfeição geométrica dos traços criados nos ateliês independentes.",
+      "A pulseira em couro de aligátor azul marinho, costurada à mão com fio de linho encerado, completa a simbiose tátil entre o pulso e a alta relojoaria independente. O fecho de pin em tântalo espelha o rigor da caixa, fechando o ciclo de uma obra que recusa a produção em série em favor da exclusividade absoluta ditada por cotas anuais severamente restritas.",
+      "Possuir um Chronomètre Bleu com caixa de tântalo não representa um acúmulo de bens, mas a custódia temporária de um testamento mecânico. Ele permanece inalterado pelo tempo, imune às tendências passageiras, aguardando pacientemente a próxima geração para lembrar que a verdadeira riqueza reside na precisão silenciosa e no trabalho humano intransigente."
     ]
   },
-
-  // 6. ALTA RELOJOARIA — VÍDEO NATIVO EXCLUSIVO (COM FOTO REAL DE RELOJOARIA)
   {
-    id: 'art-inside-the-atelier',
-    slug: 'inside-the-atelier-gravacao-manual-le-brassus',
-    category: 'Alta Relojoaria',
-    categorySlug: 'relogios',
-    type: 'video',
-    badge: '▶ VÍDEO EXCLUSIVO',
-    title: 'Inside the Atelier: O Nível Milimétrico da Gravação Manual e Chanfro com Sabugueiro em Le Brassus',
-    excerpt: 'Um registro cinematográfico exclusivo de 4 minutos acompanhando mestres gravadores polindo chanfros e esculpindo pontes de ouro sob microscópios de precisão suíços nas montanhas do Jura.',
-    image: 'https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?auto=format&fit=crop&q=80&w=1400',
-    videoUrl: 'https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-watchmaker-repairing-a-watch-41857-large.mp4',
-    videoDuration: '04:18',
-    authorSlug: 'clara-meirelles',
-    date: '20 Outubro 2026',
-    readTime: '4 min de vídeo',
-    specs: {
-      formato: 'Mini-Documentário 4K Cinema com captação macro óptica',
-      localizacao: 'Le Brassus, Vallée de Joux, Cantão de Vaud, Suíça',
-      duracao: '04 minutos e 18 segundos de silêncio e som mecânico puro',
-      acesso: 'Produção Exclusiva da Redação do Radar do Luxo com autorização especial de manufatura'
+    "id": "art-a-lange-sohne-datograph-honeygol-1006",
+    "slug": "a-lange-sohne-datograph-honeygold-lumen-a-manufatura-saxonica-de-57-graus-que-fundiu-safira-fume-e-parada-de-segundos-em-ouro-honeygold",
+    "title": "A. Lange & Söhne Datograph Honeygold Lumen: A Manufatura Saxônica de 57 Graus que Fundiu Safira Fumê e Parada de Segundos em Ouro Honeygold",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "type": "article",
+    "badge": "OBRA-PRIMA SAXÔNICA",
+    "excerpt": "Na quietude de Glashütte, o tempo cessa. A rara liga Honeygold abraça a luminescência verde da safira tratada para revelar engrenagens que desafiam a física mecânica.",
+    "image": "https://images.unsplash.com/photo-1547996160-71dfabb1a7b1?auto=format&fit=crop&q=80&w=1400",
+    "authorSlug": "clara-meirelles",
+    "date": "24 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "isHero": false,
+    "isHeroSecondary": false,
+    "rankingScore": 82,
+    "specs": {
+      "liga_metalica": "Honeygold 18k patenteado de dureza superior ao ouro convencional",
+      "calibre": "L952.4 de manufatura saxônica com 516 componentes acabados à mão",
+      "complicacoes": "Cronógrafo Flyback, Calendário Perpétuo e Turbilhão com parada patenteada",
+      "tiragem_fechada": "50 exemplares numerados para o circuito mundial de colecionadores",
+      "Calibre de Manufatura": "Lange L951.7 de corda manual",
+      "Material da Caixa": "Honeygold de 18 quilates exclusivo",
+      "Diâmetro e Espessura": "41 mm por 14,4 mm",
+      "Reserva de Marcha": "50 horas com cronógrafo acionado",
+      "Tiragem Global": "Edição limitada de 200 exemplares numéricos"
     },
-    contentParagraphs: [
-      'Neste mini-documentário capturado em película digital de altíssima sensibilidade com lentes macro anamórficas, nossas câmeras tiveram acesso inédito e sem restrições à bancada dos artesãos de acabamento decorativo em Le Brassus, nas montanhas do Jura suíço.',
-      'Acompanhe o momento exato em que a pressão calculada de um buril de aço temperado esculpe o chanfro (*anglage*) na borda de uma ponte de platina. Para alcançar o brilho especular perfeito, o mestre relojoeiro utiliza lascas da medula de galhos de sabugueiro silvestre umedecidas com pasta diamantada fina, esfregadas manualmente com paciência meditativa ao longo de três dias de trabalho contínuo.',
-      'É nesse limiar invisível aos olhos destreinados que a ciência exata da mecânica de engrenagens se dissolve na mais pura expressão da arte e da devoção humana.'
+    "contentParagraphs": [
+      "O silêncio de Glashütte possui uma densidade particular. Ali, onde o nevoeiro matinal bebe os pinhais da Saxônia, o metal não apenas se molda; ele obedece a uma disciplina secular de tolerâncias infinitesimais. A caixa em Honeygold de 41 milímetros exibe uma tonalidade morna, distante do brilho ostentoso do ouro amarelo comum, guardando em sua estrutura uma liga patenteada de dureza superior e toque aveludado. Não há concessões ao supérfluo.",
+      "Sob o mostrador de safira fumê com tratamento especial, o calibre L951.7 desdobra sua arquitetura monumental em 684 componentes polidos à mão. A luz ultravioleta desperta o composto luminescente por trás da placa translúcida, expondo a dança matemática da roda de pilares e o mecanismo flyback do cronógrafo de minutos saltantes. Cada chanfro em anglage recebe o atrito paciente de pastas de diamante e polidores de feltro, enquanto o balanço oscila com a respiração firme de uma espiral desenvolvida in-house.",
+      "A genialidade técnica atinge seu ápice invisível na complicação do turbilhão combinado com a parada de segundos. Puxar a coroa não apenas suspende o balanço através de uma mola microscópica em forma de V; o próprio eixo do turbilhão congela instantaneamente, permitindo o acerto temporal com precisão absoluta de frações de segundo. Esta proeza de engenharia exige um cálculo exato de massas, onde o equilíbrio dinâmico não tolera desvios superiores a mícron.",
+      "Limitado estritamente a duzentos exemplares para colecionadores que compreendem a soberania do tempo mecânico, este relógio rejeita o efêmero. Ele representa a vitória definitiva do trabalho artesanal sobre a obsolescência digital, um monumento portátil forjado para atravessar dinastias sem perder a cadência perfeita de seu pulsar."
     ]
   },
-
-  // 7. GRANDES LEILÕES & RECORDES — SOTHEBY'S FERRARI 250 GTO
   {
-    id: 'art-ferrari-250-gto',
-    slug: 'rm-sothebys-ferrari-250-gto-1962-recorde-51-milhoes',
-    category: 'Supercarros',
-    categorySlug: 'supercarros',
-    type: 'article',
-    badge: 'RECORDE DE LEILÃO',
-    title: 'RM Sotheby\'s: Ferrari 250 GTO 1962 de US$ 51.7 Milhões Sacramenta o Refúgio de Ativos Físicos Contra a Volatilidade',
-    excerpt: 'Sob o martelo solene de Nova York, o lendário chassi 3765 tornou-se a segunda Ferrari mais valiosa já vendida na história dos leilões mundiais, disputada por lances anônimos de bilionários internacionais.',
-    image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=1400',
-    authorSlug: 'henrique-vianna',
-    date: '19 Outubro 2026',
-    readTime: '5 min de leitura',
-    specs: {
-      lote: 'Ferrari 330 LM / 250 GTO 1962 Chassi Scuderia nº 3765',
-      arremate: 'US$ 51.705.000 sob o martelo solene de Nova York',
-      martelo: 'RM Sotheby\'s Manhattan Autumn Flagship Auction',
-      procedencia: 'Ex-Scuderia Ferrari oficial nos 1.000 km de Nürburgring de 1962 e 24 Horas de Le Mans',
-      motor: 'Tipo 163 V12 de 4.0 litros com seis carburadores Weber de corpo duplo'
+    "id": "art-vacheron-constantin-les-cabinoti-1007",
+    "slug": "vacheron-constantin-les-cabinotiers-o-gigante-em-platina-de-40-complicacoes-astronomicas-que-exigiu-8-anos-de-calculo-na-vallee-de-joux",
+    "title": "Vacheron Constantin Les Cabinotiers: O Gigante em Platina de 40 Complicações Astronômicas que Exigiu 8 Anos de Cálculo na Vallée de Joux",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "type": "article",
+    "badge": "PIÈCE UNIQUE",
+    "excerpt": "Um marco intransponível na microengenharia suíça que une o esmalte Grand Feu ao silêncio paciente de um calibre com dois mostradores e mais de duzentas engrenagens invisíveis.",
+    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&q=80&w=1400",
+    "authorSlug": "clara-meirelles",
+    "date": "24 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "isHero": false,
+    "isHeroSecondary": false,
+    "rankingScore": 77,
+    "specs": {
+      "complicacoes": "40 funções astronômicas e calendáricas",
+      "caixa": "Platina 950 com gravura manual burilada nas oficinas históricas de Genebra",
+      "componentes": "1.120 peças acabadas à mão com chanfros de sabugueiro silvestre",
+      "status": "Encomenda sob medida confidencial homologada pela manufatura",
+      "calibre": "Movimento mecânico de corda manual desenvolvido internamente",
+      "materiais": "Platina 950 e mostradores em esmalte Grand Feu",
+      "desenvolvimento": "8 anos de pesquisa e engenharia de ateliê",
+      "tiragem": "Peça única exclusiva Les Cabinotiers"
     },
-    contentParagraphs: [
-      'Quando o martelo da RM Sotheby\'s ressoou com eco solene no salão de leilões da Avenida York em Manhattan para selar a arrematação da Ferrari 250 GTO por mais de cinquenta e um milhões de dólares, o mercado financeiro global recebeu um recado inequívoco: certas obras de arte com motor a combustão jamais perdem liquidez.',
-      'Comprovada nos registros originais de Maranello como o único exemplar oficial da Scuderia Ferrari equipado de fábrica com motor de 4.0 litros para disputar a vitória na categoria nos 1.000 km de Nürburgring de 1962, a peça conservou componentes mecânicos originais e documentos de trânsito históricos com mais de seis décadas de preservação contínua nas mãos de colecionadores obstinados.',
-      'A disputa foi travada durante quase vinte minutos entre lances telefônicos anônimos operados por mesas de private banking em Zurique e Londres, demonstrando como o capital dinástico enxerga em bólidos históricos de pedigree inquestionável uma reserva de valor comparável às telas mais raras de Cézanne ou Modigliani.',
-      'Para a dinastia familiar que assegurou o lote 23, o valor monetário desembolsado reflete a certeza inabalável de que a história automobilística tem peso de patrimônio perpétuo: a Ferrari não pode ser duplicada, não pode ser inflacionada por bancos centrais e continuará sendo um monumento da civilização mecânica.'
+    "contentParagraphs": [
+      "O tempo não se mede em segundos quando a matéria é dobrada à vontade do homem. Na Vallée de Joux, a umidade corta as pedras e o silêncio dita a lei da física em miniatura. A Vacheron Constantin entrega ao mundo a soberania mecânica em sua forma mais extrema. Quarenta complicações habitam uma caixa dupla face esculpida em platina pesada. Oito anos de cálculo puro antecederam o primeiro corte no latão virgem dos componentes. Não há espaço para o acaso onde a tolerância é medida em frações invisíveis de mícrons.",
+      "No interior da arquitetura, o calibre de manufatura opera com 2.877 peças individuais que exigiram novas ligas metálicas e ajustes térmicos específicos. Cada ponte recebe o anglage com sabugueiro silvestre e polimento manual em espelho. As rodas de escape de silício trabalham em harmonia silenciosa com indicações astronômicas complexas. Cartas celestes em tempo real, equações do tempo e calendários perpétuos se desdobram sob o vidro de safira sem o menor sinal de atrito excessivo. A energia é distribuída por barriletes duplos calibrados com precisão milimétrica.",
+      "Colecionadores de alta-costura mecânica compreendem que a raridade reside na impossibilidade de replicação em escala industrial. A oficina Les Cabinotiers opera fora do tempo comercial, respondendo apenas ao rigor dos mestres relojoeiros que nunca viram pressa como virtude. O mostrador exibe esmalte Grand Feu curado a 820°C em fornos de atmosfera controlada. Cada índice aplicado à mão pontua a escuridão do fundo com a frieza nobre do metal precioso.",
+      "Este exemplar não figura nos catálogos tradicionais e jamais integrará o circuito efêmero das tendências de consumo. Sua custódia é fiduciária, destinada a cofres blindados onde a herança familiar se perpetua sem ruído. A Vacheron Constantin reafirma, com este monumento cinético, que a verdadeira riqueza é a paciência elevada à categoria de arte mecânica incorruptível."
     ]
   },
-
-  // 8. DESTINOS & IATES — RIVA 130 BELLISSIMA (COM FOTO REAL DE SUPERYACHT)
   {
-    id: 'art-riva-130-bellissima',
-    slug: 'riva-130-bellissima-superiate-riviera',
-    category: 'Destinos & Iates',
-    categorySlug: 'destinos',
-    type: 'article',
-    badge: 'LANÇAMENTO NÁUTICO',
-    title: 'Riva 130\' Bellissima: O Superiate Flybridge de 40 Metros com Convés em Madeira Nobre e Dois Motores MTU de 2.638 cv na Riviera Italiana',
-    excerpt: 'Quarenta metros de elegância italiana contemporânea com convés em madeira nobre polida à mão, estabilizadores giroscópicos de ancoragem e suíte master com vista panorâmica para o oceano.',
-    image: 'https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&q=80&w=1400',
-    authorSlug: 'gabriel-fontes',
-    date: '18 Outubro 2026',
-    readTime: '6 min de leitura',
-    specs: {
-      comprimento: '40,00 metros (131 ft 3 in) de comprimento total',
-      motores: '2x MTU 16V 2000 M96L entregando 2.638 mhp cada a 2.450 RPM',
-      velocidadeCruzeiro: '23 nós em cruzeiro contínuo | Velocidade máxima homologada de 26 nós',
-      estaleiro: 'La Spezia Superyacht Yard, Grupo Ferretti, Ligúria, Itália',
-      design: 'Officina Italiana Design por Mauro Micheli e Sergio Beretta',
-      valor: '€ 24.500.000 (configuração sob medida)'
+    "id": "art-rexhep-rexhepi-chronometre-conte-1008",
+    "slug": "rexhep-rexhepi-chronometre-contemporain-ii-o-calibre-de-manufatura-com-38-horas-e-acabamento-em-anglage-executado-com-sabugueiro-silvestre",
+    "title": "Rexhep Rexhepi Chronomètre Contemporain II: O Calibre de Manufatura com 38 Horas e Acabamento em Anglage Executado com Sabugueiro Silvestre",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "type": "article",
+    "badge": "ATELIÊ INDEPENDENTE",
+    "excerpt": "Na quietude de Genebra, o Akrivia RRCC II ergue a microengenharia suíça a um patamar onde a tolerância de mícrons encontra a arte ancestral do polimento manual.",
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=1400",
+    "authorSlug": "clara-meirelles",
+    "date": "24 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "isHero": false,
+    "isHeroSecondary": false,
+    "rankingScore": 72,
+    "specs": {
+      "calibre": "RR02 de corda manual com balanço simétrico e segundos mortos",
+      "mostrador": "Esmalte Grand Feu vítreo branco queimado sucessivas vezes a 820°C",
+      "caixa": "Ouro Rosa 18k forjada artesanalmente pelo lendário Jean-Pierre Hagmann",
+      "producao": "Lista de espera de 7 anos com alocação restrita sob aprovação pessoal",
+      "Ateliê": "Akrivia, Genebra",
+      "Calibre": "RRCC II de manufactura própria com zero-reset",
+      "Acabamento": "Anglage manual com sabugueiro silvestre e polimento espelhado",
+      "Mostrador": "Esmalte Grand Feu com marcação sectorial",
+      "Tiragem": "Limitada a dezenas de unidades anuais"
     },
-    contentParagraphs: [
-      'Nascido na mesma prancheta mítica do estúdio Officina Italiana Design em Milão — os mestres que herdaram o legado de Carlo Riva —, o Riva 130 Bellissima representa o apogeu da linha de megaiates flybridge construídos em compósito de fibra de carbono e vidro estrutural nos estaleiros navais de La Spezia.',
-      'Com mais de sessenta metros quadrados de flybridge panorâmico aberto sob a brisa mediterrânea e estabilizadores giroscópicos Seakeeper de última geração, a embarcação proporciona ancoragem com oscilação zero mesmo nas enseadas mais movimentadas de Saint-Tropez ou no ancoradouro das falésias de Capri.',
-      'O salão principal integra painéis de madeira nobre polida com vernizes marítimos de vinte e quatro demãos manuais, detalhes em aço inoxidável naval polido a espelho e estofamentos em couro impermeabilizado, unindo o perfume do artesanato marítimo clássico ao isolamento acústico absoluto que reduz o nível de ruído interno a menos de 45 decibéis em velocidade de cruzeiro.',
-      'Impulsionado pela força brutal de dois motores MTU de 16 cilindros que totalizam mais de 5.200 cavalos de potência, o casco em V profundo corta as ondas do Mar Lígure com a precisão de um bisturi hidrodinâmico, oferecendo aos proprietários a mais pura sensação de soberania sobre os mares.'
+    "contentParagraphs": [
+      "O silêncio do ateliê em Genebra contrasta com a violência estética de sua precisão. A platina trabalhada à mão desafia o olhar desatento. Aqui, o tempo não se mede em segundos úteis. Mede-se na resistência de um balanço que oscila sob rigor térmico absoluto. Cada engrenagem passa por dezenas de horas de fricção controlada. A alma mecânica pulsa sem concessões digitais.",
+      "O calibre de manufatura exige tolerâncias inferiores a dois mícrons em seus eixos de aço temperado. O mostrador em esmalte Grand Feu exibe numeração romana pintada à mão com pigmentos calcinados a oitocentos graus Celsius. A ponte do balanço duplo, simétrica e monumental, distribui o torque com precisão cirúrgica. Não há espaço para excessos ornamentais na platina principal.",
+      "Enquanto conglomerados entregam volumes industriais pasteurizados, a Akrivia aposta na escassez matemática e na soberania do ateliê independente. A repetição exata do ciclo de zero-reset, que sincroniza o ponteiro dos segundos instantaneamente ao puxar a coroa, revela uma complexidade invisível aos leigos. É a engenharia mecânica elevada a uma forma de arquitetura portátil, livre de obsolescência programada.",
+      "O veredito da alta relojoaria é unânime diante de tal disciplina construtiva. O Chronomètre Contemporain II não serve para exibir pressa nos salões financeiros. Ele permanece como um testamento de resistência física e estética contra a obsolescência digital, destinado exclusivamente a colecionadores que compreendem o verdadeiro valor da permanência material."
     ]
   },
-
-  // 9. ALTA RELOJOARIA — AUDEMARS PIGUET ROYAL OAK (COM FOTO REAL VERIFICADA)
   {
-    id: 'art-ap-royal-oak-ceramica',
-    slug: 'audemars-piguet-royal-oak-perpetual-calendar-ceramica',
-    category: 'Alta Relojoaria',
-    categorySlug: 'relogios',
-    type: 'article',
-    badge: 'ALTA COMPLICAÇÃO',
-    title: 'Audemars Piguet Royal Oak Concept Turbilhão: A Caixa de Cerâmica Azul Noturna Forjada a 1.400°C com Tolerância Micrométrica',
-    excerpt: 'A manufatura de Le Brassus eleva o patamar dos materiais avançados com uma caixa de cerâmica resistente a arranhões e acabamento escovado à mão que desafia as ferramentas diamantadas.',
-    image: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Audemars_Piguet_Royal_Oak_ref._15202.jpg/1920px-Audemars_Piguet_Royal_Oak_ref._15202.jpg',
-    authorSlug: 'clara-meirelles',
-    date: '17 Outubro 2026',
-    readTime: '5 min de leitura',
-    specs: {
-      materialCaixa: 'Cerâmica azul de alta densidade sinterizada em forno a 1.400°C',
-      calibre: 'Calibre 2954 de manufatura a corda manual com turbilhão volante de 3 Hz',
-      mostrador: 'Arquitetura esqueletizada tridimensional em titânio com pontes tratadas em PVD azul',
-      reservaMarcha: '237 horas ininterruptas (aproximadamente 10 dias) com duplo barrilete de corda',
-      valor: 'CHF 220.000 (preço homologado sob alocação nominal)'
+    "id": "art-hermes-faubourg-saint-honore-30--1009",
+    "slug": "hermes-faubourg-saint-honore-30-mestres-artesaos-costuram-couro-barenia-com-ponto-sele-ancestral-de-1837",
+    "title": "Hermès Faubourg Saint-Honoré: 30 Mestres Artesãos Costuram Couro Barenia com Ponto Selê Ancestral de 1837",
+    "category": "Alta-Costura",
+    "categorySlug": "estilo",
+    "type": "article",
+    "badge": "SAVOIR-FAIRE ANCESTRAL",
+    "excerpt": "Nos andares silenciosos do número 24, a lentidão do linho encerado desafia o mercado de consumo rápido. Um manifesto contra a obsolescência.",
+    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&q=80&w=1400",
+    "authorSlug": "clara-meirelles",
+    "date": "24 de outubro de 2026",
+    "readTime": "6 min de leitura",
+    "isHero": false,
+    "isHeroSecondary": false,
+    "rankingScore": 85,
+    "specs": {
+      "couros": "Box Calf e Barenia com curtimento vegetal lento à base de cascas de mimosa",
+      "costura": "Ponto selê legítimo com linha de linho encerada em cera virgem de abelha",
+      "tempo_manufatura": "Mínimo de 32 horas de trabalho manual contínuo por uma única artesã",
+      "procedencia": "Ateliê do 5º andar do número 24 da Rue du Faubourg Saint-Honoré, Paris",
+      "Ateliê": "Faubourg Saint-Honoré, Paris",
+      "Matéria-prima": "Couro Barenia de curtição lenta",
+      "Técnica": "Ponto selê duplo com agulha e linho encerado",
+      "Herança": "Tradição equestre iniciada em 1837",
+      "Guarda": "Custódia vitalícia em ateliê próprio"
     },
-    contentParagraphs: [
-      'A usinagem e o acabamento decorativo de cerâmica técnica de alta densidade constituem um dos maiores desafios da microengenharia contemporânea: o composto mineral é sete vezes mais duro que o aço cirúrgico 316L e desgasta brocas diamantadas a cada poucas horas de operação de fresagem.',
-      'Para criar a tonalidade azul noturna profunda desta edição do Royal Oak Concept, os químicos de materiais da Audemars Piguet passaram mais de três anos desenvolvendo a combinação precisa de óxido de zircônio e pigmentos minerais submetidos a sinterização sob altíssima pressão em fornos industriais a 1.400°C.',
-      'Mesmo após a dureza impenetrável obtida pelo cozimento térmico, a superfície octogonal do bisel recebe o célebre acabamento satinado vertical da manufatura e chanfros polidos à mão com pastas abrasivas especiais, criando um jogo óptico de reflexos vivos que jamais perderá o brilho ou sofrerá arranhões com o passar das décadas.',
-      'No pulso, a peça surpreende pela leveza e pela neutralidade térmica do material, enquanto o turbilhão volante dança em um ciclo hipnótico de sessenta segundos, reafirmando a coragem de Le Brassus em empurrar a tradição mecânica para o futuro.'
+    "contentParagraphs": [
+      "A luz natural banha as bancadas de carvalho maciço no coração de Paris. Trinta artesãos respiram no mesmo ritmo cadenciado, ignorando o frenesi exterior da rue du Faubourg Saint-Honoré. Ali, a pressa é uma heresia administrativa.",
+      "O couro Barenia exige respeito tátil absoluto. Ele absorve os óleos da pele humana, transformando-se ao longo das décadas em um documento vivo de uso, cicatrizes nobres e patina dourada. Cada pele passa por curtimento lento em tanques de extratos vegetais por semanas a fio.",
+      "A agulha dupla de aço penetra o orifício pré-marcado com precisão milimétrica. O ponto selê, herdado diretamente dos mestres seleiros de 1837, utiliza linho encerado em cera virgem. O nó duplo interno garante que, se um fio romper após meio século de uso, a estrutura inteira permanece intacta e indestrutível.",
+      "Nenhum motor elétrico auxilia o fecho. Apenas a tração equilibrada dos braços e a sensibilidade dos dedos calejados pelo atrito constante determinam a tensão ideal do fio. É a antítese absoluta da produção em massa automatizada, um refúgio de soberania artesanal onde o tempo deixa de ser uma métrica financeira.",
+      "A conclusão de uma única bolsa exige dezenas de horas de silêncio contemplativo. O objeto resultante não ostenta logotipos estridentes, mas carrega o peso invisível de uma linhagem inegociável. A verdadeira opulência reside na paciência inabalável de quem recusa o efêmero."
     ]
   },
-
-  // 10. ARQUITETURA — PENTHOUSE LEBLON
   {
-    id: 'art-penthouse-leblon',
-    slug: 'penthouse-triplex-leblon-120-milhoes-vista-arpoador',
-    category: 'Arquitetura',
-    categorySlug: 'arquitetura',
-    type: 'article',
-    badge: 'MANSÃO SUSPENSA',
-    title: 'Penthouse no Leblon de R$ 120 Milhões: O Mirante Triplex de 1.800 m² com Vista 360° para o Arpoador e Piscina em Balanço',
-    excerpt: 'Na orla mais cobiçada da América Latina, a residência suspensa combina mármore travertino navona, heliponto privativo homologado e piscina de vidro com vista panorâmica para o Dois Irmãos.',
-    image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1400',
-    authorSlug: 'henrique-vianna',
-    date: '16 Outubro 2026',
-    readTime: '6 min de leitura',
-    specs: {
-      area: '1.800 m² de área privativa útil distribuídos em 3 pavimentos conectados por elevador privativo',
-      localizacao: 'Avenida Delfim Moreira, Posto 12, Leblon, Rio de Janeiro',
-      seguranca: 'Vidros estruturais laminados com blindagem acústica quádrupla e acesso biométrico cifrado',
-      materiais: 'Travertino Romano Navona, painéis em jacarandá da Bahia certificado e concreto arquitetônico',
-      valor: 'R$ 120.000.000 sob custódia de Family Office'
+    "id": "art-rm-sothebys-the-white-collection-1010",
+    "slug": "rm-sothebys-the-white-collection-o-acervo-secreto-de-56-porsches-brancos-intactos-arrematado-por-us-305-milhoes-em-custodia-fiduciaria",
+    "title": "RM Sotheby's The White Collection: O Acervo Secreto de 56 Porsches Brancos Intactos Arrematado por US$ 30,5 Milhões em Custódia Fiduciária",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "type": "article",
+    "badge": "RECORDE DE LEILÃO",
+    "excerpt": "A liquidação cirúrgica de um santuário monocromático na Flórida prova que a escassez absoluta e a uniformidade cromática operam como soberania patrimonial longe das volatilidades do mercado de capitais.",
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=1400",
+    "authorSlug": "henrique-vianna",
+    "date": "24 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "isHero": false,
+    "isHeroSecondary": false,
+    "rankingScore": 85,
+    "specs": {
+      "volume_total": "US$ 30.540.000 sob o martelo da RM Sotheby's em Houston",
+      "lote_principal": "Porsche 918 Spyder Weissach Package com interior azul iate sob encomenda",
+      "proveniencia": "Coleção privada mantida por 25 anos em ambiente com umidade controlada",
+      "custodia": "Certidão contínua de fábrica e zero quilômetros registrados no hodômetro",
+      "Volume do Acervo": "56 automóveis da marca Porsche",
+      "Especificação Cromática": "Tonalidade única Grand Prix White",
+      "Faturamento Total": "US$ 30.581.400 em lances homologados",
+      "Destaque de Leilão": "Porsche 911 RSR (1993) com 10 km originais",
+      "Chancelamento": "RM Sotheby's Private Division"
     },
-    contentParagraphs: [
-      'A geografia monumental da Zona Sul carioca encontra sua máxima expressão residencial neste mirante suspenso sobre a praia do Leblon. Projetada para garantir privacidade absoluta em meio a uma das orlas residenciais de maior valor por metro quadrado do hemisfério sul, a cobertura opera como um santuário de contemplação mineral.',
-      'O terceiro pavimento é coroado por uma piscina de raia em balanço estrutural com laterais e fundo em vidro estrutural laminado de 60 mm de espessura. Do interior da água cristalina, os nadadores desfrutam da sensação vertiginosa de flutuar livremente sobre a arrebentação das ondas do Oceano Atlântico, com o Morro Dois Irmãos desenhando a silhueta poética no horizonte.',
-      'A marcenaria autoral foi executada inteiramente em jacarandá da Bahia de manejo florestal histórico certificado, combinada a pisos em placas contínuas de mármore travertino navona desprovido de brilho reflexivo, priorizando uma textura tátil aveludada sob os pés descalços.',
-      'Com um sistema de filtragem de ar passivo e vidros que atenuam em 52 decibéis o som do tráfego litorâneo, o triplex comprova que o ápice do luxo urbano não é o excesso ornamental, mas a capacidade de habitar o coração da cidade em um estado de silêncio monástico.'
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Em um hangar isolado nos arredores de Houston, a RM Sotheby's conduziu o leilão de The White Collection, reunindo cinquenta e seis exemplares da casa de Stuttgart rigorosamente especificados na tonalidade Grand Prix White. Não havia espaço para concessões estéticas. Cada chassi representava uma tese intransigente de curadoria, onde a ausência de cor funcionava como um manifesto contra a vulgaridade do efêmero.",
+      "A transação fechada em exatos 30.581.400 dólares revelou a resiliência implacável de ativos intocados. Entre os lotes disputados por fundações privadas e family offices, o raro Porsche 911 RSR de 1993, com apenas dez quilômetros originais em seu odômetro, atingiu cifras que desafiam a lógica convencional de depreciação automotiva. A carroçaria imaculada repousava sobre pneumáticos de época perfeitamente preservados, atestando um rigor de conservação museológica que transcende a simples posse mecânica.",
+      "Os mercados tradicionais oscilam conforme os humores da macroeconomia global. O colecionismo de altíssimo nível, contudo, opera sob a égide da imunidade temporal. Adquirir um bloco monolítico de veículos com especificações idênticas e histórico imaculado não é um ato de consumo, mas de alocação patrimonial defensiva. A liquidez migra para ativos tangíveis que acumulam valor intrínseco, imunes a modismos, decretos fiscais e inflação fiduciária.",
+      "O martelo bateu pela última vez. O acervo dispersou-se para cofres blindados ao redor do globo, mantendo intacta a aura de exclusividade que define a elite da custódia internacional. Para Henrique Vianna, a operação consolida uma verdade incontestável: quando a matéria-prima atinge a perfeição e a raridade estatística, o preço torna-se apenas um detalhe secundário diante da perenidade histórica."
     ]
   },
-
-  // 11. ALTA-COSTURA — HERMÈS SELLE 1837
   {
-    id: 'art-hermes-selle',
-    slug: 'arte-costura-selle-hermes-1837',
-    category: 'Alta-Costura',
-    categorySlug: 'estilo',
-    type: 'article',
-    badge: 'MANUFATURA',
-    title: 'A Arte da Costura \'Selle\': Por Que a Hermès Mantém Processos Manuais de 1837 em Paris com Linho Encerado e Fio Duplo',
-    excerpt: 'Dois fios de linho encerado com cera de abelha e duas agulhas cruzadas: a técnica ancestral que impede que uma bolsa se desfaça mesmo se um ponto se romper.',
-    image: 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&q=80&w=1400',
-    authorSlug: 'henrique-vianna',
-    date: '15 Outubro 2026',
-    readTime: '7 min de leitura',
-    specs: {
-      origem: 'Ateliê Histórico de Pantin, arredores de Paris, França',
-      tempoManufatura: 'De 18 a 24 horas ininterruptas de trabalho manual por peça individual',
-      materiais: 'Couro Box Calf francês com curtimento vegetal à base de cascas de mimosa e linho encerado',
-      assinatura: 'Um único artesão é responsável pela peça integral, do corte da pele à punção da numeração'
+    "id": "art-family-offices-globais-35-de-aum-1011",
+    "slug": "family-offices-globais-35-de-aumento-na-guarda-de-ouro-fisico-em-cofres-suicos-blindados-contra-a-degradacao-fiduciaria",
+    "title": "Family Offices Globais: 35% de Aumento na Guarda de Ouro Físico em Cofres Suíços Blindados contra a Degradação Fiduciária",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "type": "article",
+    "badge": "GOVERNANÇA PATRIMONIAL",
+    "excerpt": "Um raio-x confidencial nas estratégias de preservação patrimonial revela o êxodo maciço de ativos digitais voláteis em direção ao silêncio mineral dos lingotes puros.",
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1400",
+    "authorSlug": "henrique-vianna",
+    "date": "23 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "isHero": false,
+    "isHeroSecondary": false,
+    "rankingScore": 86,
+    "specs": {
+      "movimentacao": "Migração de 35% de ativos líquidos para ouro fino e propriedades troféu",
+      "jurisdicoes": "Portos francos de segurança máxima em Zurique, Genebra e Liechtenstein",
+      "finalidade": "Blindagem de governança dinástica multigeracional contra volatilidade cambial",
+      "fonte": "Global Single Family Office Asset Allocation Benchmark 2026",
+      "Crescimento de Alocação": "+35% em ouro físico inalcançável",
+      "Padrão de Pureza": "999,9 Good Delivery London Bullion Market",
+      "Jurisdição de Guarda": "Cofres subterrâneos em Zurique e Genebra",
+      "Perfil do Ativo": "Lingotes castrados de 400 onças troy",
+      "Horizonte Temporal": "Governança dinástica superior a 50 anos"
     },
-    contentParagraphs: [
-      'Em um mundo dominado pela velocidade da automação fabril e linhas de produção mecanizadas que produzem milhares de itens por hora, nos ateliês da Hermès em Pantin reina um silêncio paciente e solene, entrecortado apenas pelo som compassado do martelo de buxo e o atrito suave do fio de linho atravessando o couro.',
-      'A lendária costura selê (*point sellier*) foi concebida na década de 1830 para fabricar arneses e selas de montaria para a nobreza europeia, que precisavam resistir à força física violenta de corcéis de tração sem nunca se romperem. O método exige que o artesão utilize duas agulhas conectadas a um único fio longo de linho, embebido previamente em cera virgem de abelha natural para impermeabilização.',
-      'As duas agulhas se cruzam no interior do orifício perfurado manualmente por uma sovela, formando um nó de travamento autônomo a cada passada. Enquanto uma costura de máquina moderna se desfaz inteiramente como um zíper se um único elo arrebentar, no ponto selê cada nó é autossuficiente: a peça sobrevive intacta por gerações de uma mesma linhagem familiar.',
-      'O couro empregado — o mítico Box Calf com acabamento liso e toque untuoso — adquire com o uso contínuo uma pátina natural que reflete a vida do proprietário. É a demonstração definitiva de que a nobreza da matéria-prima e o respeito devoto ao tempo manual permanecem imbatíveis diante da efemeridade do consumo em massa.'
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Enquanto os mercados globais celebram volatilidades algorítmicas, os gabinetes de gestão privada operam uma mutação tectônica em seus balanços. A soberania patrimonial não admite promessas digitais lastreadas no vazio. Há uma corrida metódica pelo isolamento físico de lingotes de alta densidade em cofres blindados nas profundezas dos Alpes helvéticos.",
+      "A alocação em barras de 400 onças de pureza 999,9 disparou trinta e cinco por cento nos portfólios monitorados por este conselho. Trata-se de uma fuga cirúrgica da inflação sistêmica emitida por bancos centrais insolventes. Cada tonelada transferida para custódia fiduciária representa um manifesto contra a fragilidade dos derivativos. A matéria-prima física responde ao toque com o peso exato da eternidade, anulando o risco de contraparte que corrói fortunas seculares desde a última década.",
+      "A governança dinástica exige imunidade temporal. Nossos consultores em Genebra e Zurique mapearam a transição de títulos soberanos depreciados para ativos tangíveis de liquidez atemporal. O ouro não oscila ao sabor de discursos geopolíticos ou crises de liquidez bancária. Ele apenas repousa. Sua densidade de dezenove vírgula trinta e dois gramas por centímetro cúbico é a única métrica aceitável para quem planeja a sobrevivência de clãs por mais de três gerações.",
+      "O veredito das mesas de comando patrimonial é definitivo e irrevogável. A era da ilusão baseada em papel fiat chegou ao seu crepúsculo. Quem não assegurar reservas físicas isoladas do sistema bancário tradicional estará vulnerável ao colapso sistêmico iminente. No radar dos grandes capitais, o refúgio seguro deixou de ser uma tese teórica para se converter na única trincheira viável."
     ]
   },
-
-  // 12. DESTINOS & IATES — LÜRSSEN MADSUMMER (COM FOTO REAL DE MEGAIATE OCEÂNICO)
   {
-    id: 'art-lurssen-madsummer',
-    slug: 'lurssen-madsummer-megaiate-95-metros-spa-fogo-gelo',
-    category: 'Destinos & Iates',
-    categorySlug: 'destinos',
-    type: 'article',
-    badge: 'NAVEGAÇÃO SOBERANA',
-    title: 'Lürssen Madsummer: O Gigante de 95 Metros e US$ 250 Milhões com Spa de Fogo e Gelo no Meio do Atlântico',
-    excerpt: 'Construído na Alemanha com heliponto certificado para aeronaves executivas e piscina de 12 metros no convés principal, o megaiate navega 6.000 milhas náuticas em autonomia oceânica total.',
-    image: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Nautilus_73-meter_%28239_ft%29_long_motor_yacht._Location_Poole_Quay._Dorset.jpg/1920px-Nautilus_73-meter_%28239_ft%29_long_motor_yacht._Location_Poole_Quay._Dorset.jpg',
-    authorSlug: 'gabriel-fontes',
-    date: '14 Outubro 2026',
-    readTime: '6 min de leitura',
-    specs: {
-      comprimento: '95,00 metros (311 ft 8 in) com boca de 14,00 metros',
-      estaleiro: 'Lürssen Yachts, Rendsburg, norte da Alemanha',
-      autonomia: '6.000 milhas náuticas a 12 nós de velocidade contínua sem reabastecimento',
-      acomodacoes: '20 convidados em 10 suítes de alto padrão + 30 tripulantes técnicos',
-      heliponto: 'Plataforma certificada na proa com capacidade para helicópteros bimotores pesados',
-      valor: 'US$ 250.000.000 sob bandeira internacional privada'
+    "id": "art-bleu-royal-o-diamante-azul-de-17-1012",
+    "slug": "bleu-royal-o-diamante-azul-de-1761-quilates-que-redefiniu-os-limites-da-geologia-e-da-soberania-patrimonial",
+    "title": "Bleu Royal: O Diamante Azul de 17,61 Quilates que Redefiniu os Limites da Geologia e da Soberania Patrimonial",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "type": "article",
+    "badge": "TESOURO HISTÓRICO",
+    "excerpt": "Arrematado por 44 milhões de dólares em Genebra, este exemplar absoluto de pureza Type IIb consolida a imortalidade do silêncio mineral diante das turbulências fiduciárias globais.",
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1400",
+    "authorSlug": "henrique-vianna",
+    "date": "23 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "isHero": false,
+    "isHeroSecondary": false,
+    "rankingScore": 85,
+    "specs": {
+      "quilates": "17.61 quilates lapidação pêra Fancy Vivid Blue de saturação perfeita",
+      "pureza": "Internally Flawless (IF) atestado pelo Gemological Institute of America",
+      "arremate": "US$ 43.800.000 após duelo de lances telefônicos fechados em Genebra",
+      "proveniencia": "Acervo particular aristocrático suíço preservado sem intervenção por 50 anos",
+      "Peso": "17,61 quilates",
+      "Classificação de Cor": "Fancy Vivid Blue",
+      "Tipo Químico": "Type IIb (presença de boro)",
+      "Lapidação": "Pera simétrica",
+      "Valor de Arremate": "USD 44.279.500",
+      "Casa de Leilões": "Christie's Genebra"
     },
-    contentParagraphs: [
-      'Quando o estaleiro naval alemão Lürssen aceitou o briefing sob sigilo estrito para conceber o Madsummer, a determinação do armador foi categórica: a embarcação deveria operar não como um iate convencional, mas como uma residência autônoma e soberana capaz de atravessar tempestades transatlânticas com o mesmo isolamento acústico de uma mansão construída em terra firme.',
-      'O centro de bem-estar a bordo, situado no convés inferior com acesso direto ao mar por meio de uma plataforma dobrável em teca birmanesa, combina uma sauna finlandesa tradicional aquecida a lenha e uma sala criogênica de gelo com geração de neve artificial, permitindo aos hóspedes alternar entre temperaturas extremas enquanto o iate navega pelas águas quentes do Caribe ou pelos fiordes da Patagônia.',
-      'No convés principal, uma piscina de doze metros de comprimento revestida em mosaicos de vidro veneziano integra um fundo de vidro estrutural que funciona como claraboia luminosa para o spa localizado no nível inferior, inundando os ambientes fechados com a refração da luz solar sob as águas oceânicas.',
-      'Com casco de aço de alta resistência e superestrutura em alumínio naval modelados sob simulações hidrodinâmicas avançadas, os dois motores marítimos Caterpillar propulsionam o colosso com baixíssima vibração, garantindo 6.000 milhas náuticas de autonomia e sacramentando o Madsummer como um refúgio absoluto no coração dos oceanos.'
+    "contentParagraphs": [
+      "A luz não atravessa a gema; ela se curva diante de sua soberania. Em uma sala de leilões onde o dinheiro recente busca apenas o eco efêmero de sua própria pressa, o martelo caiu sobre um silêncio absoluto. Tratava-se do Bleu Royal, um diamante azul vívido de 17,61 quilates que desafia a própria lógica da raridade geológica terrestre. Cada fração de quilate esculpida carrega o peso de eras incontáveis, confinando a volatilidade dos mercados modernos a uma irrelevância matemática.",
+      "Classificado na imaculada categoria Type IIb, o diamante contém traços milimétricos de boro, responsáveis por sua coloração magnética e condutividade elétrica atípica. A lapidação simétrica em pera exige uma precisão de corte comparável à regulação de um calibre de alta complicação na Vallée de Joux. O lapidário trabalhou meses sob luz polarizada, eliminando tensões internas invisíveis ao microscópio para garantir que o retorno de luz atingisse um fulgor quase alucinógeno. A tolerância de erro tolerada era inferior à espessura de uma célula sanguínea.",
+      "Famílias dinásticas e fundações soberanas enxergam nestes ativos corpóreos o verdadeiro refúgio contra a erosão inflacionária e a obsolescência digital. Enquanto corporações de tecnologia acumulam silício volátil, o capital de raiz histórica migra para o carbono puro e inalterável. Os 44 milhões de dólares desembolsados em Genebra não representam uma transação de mercado tradicional, mas sim a custódia fiduciária de um fragmento atemporal que continuará a existir e a ditar valor séculos após o colapso das moedas correntes.",
+      "O Bleu Royal abandona os holofotes e recolhe-se agora aos cofres blindados de uma coleção privada, reafirmando a máxima de que o luxo verdadeiro nunca grita sua presença. Ele apenas permanece. Como um relógio mecânico sem rotor que aguarda paciente a intervenção humana para pulsar, esta gema aguarda em trevas absolutas o próximo ciclo da história da civilização, indiferente às métricas da contemporaneidade."
+    ]
+  },
+  {
+    "id": "art-sheats-goldstein-residence-a-obr-1013",
+    "slug": "sheats-goldstein-residence-a-obra-prima-brutalista-de-100-milhoes-de-dolares-em-concreto-angular-e-vidro-que-desafia-a-gravidade-em-los-angeles",
+    "title": "Sheats-Goldstein Residence: A Obra-Prima Brutalista de 100 Milhões de Dólares em Concreto Angular e Vidro que Desafia a Gravidade em Los Angeles",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "type": "article",
+    "badge": "MONUMENTO BRUTALISTA",
+    "excerpt": "Uma análise profunda sobre a arquitetura brutalista californiana onde o concreto aparente e a geometria sem paredes encontram o absoluto silêncio estrutural.",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1400",
+    "authorSlug": "henrique-vianna",
+    "date": "23 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "isHero": false,
+    "isHeroSecondary": false,
+    "rankingScore": 87,
+    "specs": {
+      "arquiteto": "John Lautner",
+      "concepcao": "Concreto protendido incrustado na rocha com teto perfurado por 750 discos de vidro",
+      "area_construida": "1.200 m² suspensos sobre os cânions de Crestwood Hills, Beverly Hills",
+      "patrimonio": "Imóvel troféu doado formalmente ao LACMA para preservação perpétua",
+      "localizacao": "Beverly Crest, Los Angeles",
+      "materialidade": "Concreto aparente, vidro estrutural e madeira",
+      "avaliacao_patrimonial": "US$ 100.000.000"
+    },
+    "contentParagraphs": [
+      "O concreto desponta bruto. Nenhuma concessão à ornamentação supérflua habita as curvas angulares projetadas por John Lautner nas encostas de Beverly Crest. A luz da Califórnia penetra através de caixilhos invisíveis, rasgando o espaço com precisão cirúrgica. A estrutura repousa sobre a rocha viva, fundindo geologia e engenharia em uma simbiose permanente.",
+      "Cada metro quadrado desta residência opera com tolerâncias milimétricas comparáveis aos complexos trens de engrenagem de um calibre suíço de grande complicação. O teto em caixotão de concreto armado exige o mesmo rigor de acabamento manual dedicado a uma anglage executada com sabugueiro silvestre. A madeira coffered ceiling encontra o vidro monolítico sem juntas aparentes, criando uma acústica interna onde o ruído urbano dissipa-se por completo.",
+      "A avaliação de cem milhões de dólares não reflete apenas a localização privilegiada acima de Benedict Canyon, mas a raridade de uma custódia imobiliária intocada. O design orgânico rejeita as convenções residenciais tradicionais. O piso de terrazzo flutua sobre vigas tensionadas, enquanto a piscina de borda infinita mimetiza o horizonte cinza e dourado da bacia de Los Angeles.",
+      "O tempo nesta arquitetura monumental não corre pelo relógio utilitário. Ele se acomoda na textura áspera do concreto e na transparência absoluta do vidro estrutural. Permanecer sob a cobertura inclinada de Lautner é reconhecer a soberania do espaço construído como refúgio definitivo contra a volatilidade do mundo moderno."
+    ]
+  },
+  {
+    "id": "art-villa-sa-caleta-38-milhoes-de-eu-1014",
+    "slug": "villa-sa-caleta-38-milhoes-de-euros-em-travertino-romano-navona-suspenso-sobre-a-falesia-balear",
+    "title": "Villa sa Caleta: 38 Milhões de Euros em Travertino Romano Navona Suspenso sobre a Falésia Balear",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "type": "article",
+    "badge": "REFÚGIO MEDITERRÂNEO",
+    "excerpt": "A soberania patrimonial encontra seu refúgio definitivo nas Baleares, onde 1.400 toneladas de rocha monumental desafiam a maresia mediterrânea.",
+    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=1400",
+    "authorSlug": "henrique-vianna",
+    "date": "23 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "isHero": false,
+    "isHeroSecondary": false,
+    "rankingScore": 85,
+    "specs": {
+      "area": "1.850 m² de lajes em balanço projetadas sobre falésia de rocha calcária mãe",
+      "materiais": "Travertino Romano Navona polido a osso e concreto tonalizado no tom das areias",
+      "privacidade": "Acesso privativo por píer submarino talhado na pedra e heliponto homologado",
+      "cotacao": "€ 38.000.000 (Transação sob sigilo no mercado fechado europeu)",
+      "Arquitetura e Matéria": "Travertino Romano Navona e Concreto Aparente",
+      "Localização": "Falésia Balear, Maiorca",
+      "Estrutura de Fundação": "Estacas passantes em rocha calcária a 30 metros",
+      "Avaliação Patrimonial": "38 milhões de euros em transação fechada",
+      "Tiragem": "Peça Única (Edição Arquitetônica Exclusiva)"
+    },
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Na costa de Maiorca, a Villa sa Caleta ergue-se como um bastião de imunidade temporal, desdenhando as modas e os efêmeros refúgios de verão. Cada bloco de travertino romano Navona foi cortado sob especificação cirúrgica, assentado a seco para garantir que a expansão térmica não deforme a geometria da fachada.",
+      "A engenharia estrutural exigiu estacas cravadas a 30 metros de profundidade na falésia calcária, suportando lajes de concreto aparente moldadas in loco com fôrmas de pinho silvestre. O resultado é um monólito cinético que dialoga com o abismo azul sem concessões ao verniz decorativo. A custódia fiduciária deste ativo garante que seu valor intrínseco permaneça imune à volatilidade dos mercados globais de capitais.",
+      "No interior, o silêncio é absoluto. O isolamento acústico de dupla cavidade elimina qualquer sussurro do vento de Tramontana, enquanto o piso radiante mantém a inércia térmica estável durante os invernos rigorosos da ilha. Não há ostentação nas paredes de cal virgem; apenas a textura crua da matéria nobre que resistirá aos próximos séculos sem perda de dignidade estrutural.",
+      "A transação foi conduzida em leilão fechado, longe dos olhos famintos da especulação imobiliária de massa. Quem adquiriu sa Caleta não comprou uma casa de praia, mas um cofre-forte geológico disfarçado de residência de verão. Um monumento intocável ancorado nas rochas da história."
     ]
   }
 ];
@@ -494,50 +729,50 @@ export const ARTICLES = [
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'HYPERCARS',
-    title: 'Bugatti Tourbillon V16 1.800 cv',
-    image: 'https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&q=80&w=600',
+    category: 'SUPERCARROS',
+    title: 'Porsche 911 GT3 RS Manthey Racing: O M...',
+    image: 'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&q=80&w=1400',
     tag: 'DESTAQUE MUNDIAL',
-    slug: 'bugatti-tourbillon-monstro-hibrido-v16-1800cv-relogios-suicos'
+    slug: 'porsche-911-gt3-rs-manthey-racing-o-monstro-aspirado-de-6min43s-em-nurburgring-com-calotas-de-carbono-e-pressao-de-860-kg-a-285-kmh-9137'
   },
   {
     id: 'film-2',
-    category: 'HOROLOGY',
-    title: 'Patek Grandmaster Chime 20 Complicações',
-    image: 'https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&q=80&w=600',
-    tag: 'PEÇA HISTÓRICA',
-    slug: 'patek-philippe-grandmaster-chime-ouro-branco'
+    category: 'HYPERCARS',
+    title: 'Koenigsegg Jesko Absolut 1.600 cv',
+    image: 'https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&q=80&w=600',
+    tag: 'RECORDE MUNDIAL',
+    slug: 'koenigsegg-jesko-absolut-o-monstro-aerodinamico-de-1600-cv-que-esmagou-o-marco-0-400-0-kmh-em-2783-segundos-com-tolerancias-de-microns'
   },
   {
     id: 'film-3',
-    category: 'VILLAS',
-    title: 'Villa Sole Brutalista em Capri',
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=600',
-    tag: 'DESIGN PREMIADO',
-    slug: 'villa-sole-refugio-brutalista-falecias-capri'
+    category: 'HOROLOGY',
+    title: 'F.P. Journe Chronomètre Bleu Tântalo',
+    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=600',
+    tag: 'OURO ROSA 18K',
+    slug: 'fp-journe-chronometre-bleu-a-alquimia-do-tantalo-e-ouro-rosa-18k-que-redefiniu-a-alta-horologia-independente-com-listas-de-espera-de-sete-anos'
   },
   {
     id: 'film-4',
-    category: 'FERRARI',
-    title: 'Ferrari F80 1.200 cv Híbrida',
-    image: 'https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&q=80&w=600',
-    tag: 'NOVO NO RADAR',
-    slug: 'ferrari-f80-hipercarro-hibrido-maranello'
+    category: 'VILLAS',
+    title: 'Villa sa Caleta em Maiorca',
+    image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=600',
+    tag: 'TRAVERTINO NAVONA',
+    slug: 'villa-sa-caleta-maiorca-o-refugio-brutalista-ancorado-em-rocha-calcaria-venda-privada-45m'
   },
   {
     id: 'film-5',
-    category: 'YACHTS',
-    title: 'Riva 130 Bellissima Flybridge',
-    image: 'https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&q=80&w=600',
-    tag: 'RIVIERA ITALIANA',
-    slug: 'riva-130-bellissima-superiate-riviera'
+    category: 'CIRCUITO',
+    title: 'GMA T.50s Niki Lauda 12.100 RPM',
+    image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=600',
+    tag: 'COSWORTH V12',
+    slug: 'gma-t50s-niki-lauda-o-bolido-de-pista-de-852-kg-com-turbina-de-vacuo-traseira-e-v12-cosworth-de-12100-rpm-que-resgata-a-era-de-ouro-do-automobilismo'
   },
   {
     id: 'film-6',
     category: 'WEALTH',
-    title: 'Censo Forbes: Fortunas & Ativos Físicos',
+    title: 'Family Offices & Ouro Físico Suíço',
     image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=600',
     tag: 'CAPITAL SOBERANO',
-    slug: 'censo-forbes-capital-soberano-family-offices-ativos-fisicos'
+    slug: 'o-relatorio-reservado-de-family-offices-por-que-as-dinastias-globais-estao-trocando-ativos-digitais-por-ouro-fisico-em-bunkers-suicos'
   }
 ];

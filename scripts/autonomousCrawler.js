@@ -1,26 +1,77 @@
 /**
  * ==============================================================================
- * 💎 RADAR DO LUXO — ROBÔ EDITORIAL AUTÔNOMO (GITHUB ACTIONS CRAWLER)
+ * 💎 RADAR DO LUXO — ROBÔ EDITORIAL AUTÔNOMO & PUBLICADOR POR COMANDO
  * ==============================================================================
- * Executa periodicamente via cron no GitHub Actions (Gratuito via Student Pro).
- * 1. Monitora fontes internacionais (Robb Report, Hodinkee, Forbes, Sotheby's).
- * 2. Seleciona pautas de altíssimo impacto (evitando repetição de temas).
- * 3. Redige ensaios sensoriais completos via Google Gemini 1.5 Flash (Gratuito).
- * 4. Aplica o algoritmo de Ranking Editorial (4 Pilares) e classifica S+, A ou B.
- * 5. Publica no Supabase: Capa se Score >= 94; Feed Geral se Score < 94.
+ * Executa sob demanda via comando CLI ou agendamento cron (GitHub Actions):
+ *   npm run publish:now   OU   npm run crawl
+ *
+ * 1. Monitora fontes internacionais de elite (RSS Robb Report, Hodinkee, etc.)
+ *    e o acervo curado (INITIAL_HOT_PAUTAS).
+ * 2. Avalia TODAS as pautas não publicadas e calcula a NOTA GERAL (rankingScore).
+ * 3. Seleciona estritamente a pauta de MAIOR NOTA GERAL.
+ * 4. Redige o ensaio com a persona oficial correspondente (Henrique, Gabriel, Clara)
+ *    aplicando engenharia anti-detecção, burstiness e ficha técnica.
+ * 5. Avalia Gravidade da Capa (decadência temporal de meia-vida de 24h):
+ *    Se o score superar o peso da capa atual, é promovida a CAPA PRINCIPAL (Hero 👑).
+ * 6. Grava no Supabase (se configurado) E no acervo oficial (mockData.js / localStorage),
+ *    deixando a matéria instantaneamente disponível no site tanto em dev quanto em prod.
  * ==============================================================================
  */
 
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import { createClient } from '@supabase/supabase-js';
+import { generateLuxuryArticle } from '../src/services/aiArticleGenerator.js';
+import { fetchAllEliteFeeds } from '../src/services/rssCuratorService.js';
+import { INITIAL_HOT_PAUTAS } from '../src/data/hotFeedsData.js';
+import { calculateEditorialScore, calculateCapaWeight } from '../src/services/rankingEngine.js';
+import { ARTICLES, FILMSTRIP_ITEMS } from '../src/data/mockData.js';
 
-// 1. Configurações de Ambiente Sanitizadas
-const GEMINI_API_KEY = (process.env.GEMINI_API_KEY || process.env.VITE_GEMINI_API_KEY || '').trim();
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const rootDir = path.resolve(__dirname, '..');
 
-let rawSupabaseUrl = (process.env.SUPABASE_URL || process.env.VITE_SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL || '').trim();
+// Carrega .env manualmente se necessário
+const envPath = path.join(rootDir, '.env');
+if (fs.existsSync(envPath)) {
+  const envContent = fs.readFileSync(envPath, 'utf-8');
+  envContent.split(/\r?\n/).forEach(line => {
+    const trimmed = line.trim();
+    if (trimmed && !trimmed.startsWith('#')) {
+      const idx = trimmed.indexOf('=');
+      if (idx !== -1) {
+        const key = trimmed.slice(0, idx).trim();
+        const val = trimmed.slice(idx + 1).trim();
+        if (!process.env[key]) {
+          process.env[key] = val;
+        }
+      }
+    }
+  });
+}
+
+// Configurações de Ambiente
+const GEMINI_API_KEY = (
+  process.env.GEMINI_API_KEY || 
+  process.env.VITE_GEMINI_API_KEY || 
+  ''
+).trim();
+
+if (GEMINI_API_KEY && !process.env.VITE_GEMINI_API_KEY) {
+  process.env.VITE_GEMINI_API_KEY = GEMINI_API_KEY;
+}
+
+let rawSupabaseUrl = (
+  process.env.SUPABASE_URL || 
+  process.env.VITE_SUPABASE_URL || 
+  process.env.NEXT_PUBLIC_SUPABASE_URL || 
+  ''
+).trim();
+
 if (rawSupabaseUrl && !rawSupabaseUrl.startsWith('http://') && !rawSupabaseUrl.startsWith('https://')) {
   rawSupabaseUrl = `https://${rawSupabaseUrl}`;
 }
-// Remove trailing slash se houver
 if (rawSupabaseUrl.endsWith('/')) {
   rawSupabaseUrl = rawSupabaseUrl.slice(0, -1);
 }
@@ -35,359 +86,412 @@ const SUPABASE_KEY = (
   ''
 ).trim();
 
-console.log('💎 [RADAR DO LUXO] Iniciando ciclo editorial autônomo...');
+console.log('💎 ==============================================================================');
+console.log('💎 RADAR DO LUXO — PUBLICADOR AUTÔNOMO DE ALTA PERFORMANCE EDITORIAL');
+console.log('💎 ==============================================================================');
 console.log('⏰ Horário UTC:', new Date().toISOString());
-console.log('📡 Supabase URL detectada:', SUPABASE_URL ? `${SUPABASE_URL.substring(0, 25)}...` : '(Não configurada)');
-console.log('🔑 Supabase Key detectada:', SUPABASE_KEY ? `Tamanho: ${SUPABASE_KEY.length} chars` : '(Não configurada)');
-console.log('🤖 Gemini API Key detectada:', GEMINI_API_KEY ? `Tamanho: ${GEMINI_API_KEY.length} chars` : '(Não configurada)');
+console.log('📡 Supabase:', SUPABASE_URL ? `Ativo (${SUPABASE_URL.substring(0, 24)}...)` : 'Modo Local Primário (mockData.js)');
+console.log('🤖 Motor de Redação:', GEMINI_API_KEY ? 'Google Gemini Flash Ativo' : 'Sintetizador Semântico Homologado');
 
-// 2. Banco de Pautas Quentes Alternativas Homologadas
-const CURATED_PAUTAS_POOL = [
-  {
-    category: 'Supercarros',
-    categorySlug: 'supercarros',
-    authorSlug: 'gabriel-fontes',
-    source: 'Robb Report Motors',
-    sourceUrl: 'https://robbreport.com/motors/cars/',
-    hook: 'Koenigsegg Jesko Absolut: O Monstro Sueco de 1.600 cv que Pulverizou o Recorde Mundial de 0-400-0 km/h em 27,83 Segundos',
-    summary: 'Christian von Koenigsegg colocou o Jesko Absolut na pista militar sueca e pulverizou o recorde mundial utilizando motor V8 biturbo e transmissão LST de 9 marchas sem embreagem tradicional.',
-    image: 'https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&q=80&w=1400',
-    specs: { potencia: '1.600 cv', recorde: '0-400-0 km/h em 27,83s', cambio: 'LST 9 marchas', coeficiente: 'Cx 0.278' }
-  },
-  {
-    category: 'Alta Relojoaria',
-    categorySlug: 'relogios',
-    authorSlug: 'clara-meirelles',
-    source: 'Monochrome Watches',
-    sourceUrl: 'https://monochrome-watches.com/',
-    hook: 'A. Lange & Söhne Datograph Honeygold Lumen: A Obra-Prima Saxônica de 516 Componentes que Brilha no Escuro sob Safira Fosforescente',
-    summary: 'A manufatura de Glashütte uniu sua exclusiva liga de Honeygold com mostrador de safira fumê e turbilhão com parada de segundos patenteada.',
-    image: 'https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&q=80&w=1400',
-    specs: { liga: 'Honeygold 18k exclusiva', componentes: '516 acabados à mão', reserva: '60 horas', tiragem: '50 exemplares' }
-  },
-  {
-    category: 'Arquitetura',
-    categorySlug: 'arquitetura',
-    authorSlug: 'henrique-vianna',
-    source: 'Architectural Digest',
-    sourceUrl: 'https://www.architecturaldigest.com/',
-    hook: 'Mansão Brutalista em Saint-Tropez: 2.400 m² de Concreto Tonalizado com Mirante Privativo sobre o Mar Mediterrâneo Avaliada em € 65M',
-    summary: 'Engenharia escultural incrustada na rocha francesa, combinando lajes suspensas em balanço e pátios internos com oliveiras centenárias.',
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1400',
-    specs: { area: '2.400 m²', terreno: '12.000 m² privativos', valor: '€ 65.000.000', arquitetura: 'Estúdio Parisiense' }
-  },
-  {
-    category: 'Destinos & Iates',
-    categorySlug: 'destinos',
-    authorSlug: 'gabriel-fontes',
-    source: 'Boat International',
-    sourceUrl: 'https://www.boatinternational.com/',
-    hook: 'Lürssen Kismet de 122 Metros: O Palácio Náutico com Spa de Quartzo e Lareiras de Fogo Frio com Aluguel de € 3 Milhões por Semana',
-    summary: 'Novo gigante náutico alemão com design externo de Espen Øino e heliponto duplo certificado para aeronaves executivas.',
-    image: 'https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&q=80&w=1400',
-    specs: { comprimento: '122 metros', estaleiro: 'Lürssen Alemanha', charter: '€ 3.000.000 / semana', capacidade: '12 convidados VIP' }
+/**
+ * 1. Coleta slugs e títulos já publicados para evitar duplicidade
+ */
+async function getExistingSlugs(supabaseClient) {
+  const existing = new Set();
+
+  // Da base local mockData.js
+  ARTICLES.forEach(a => {
+    if (a.slug) existing.add(a.slug.toLowerCase().trim());
+    if (a.title) existing.add(a.title.toLowerCase().trim());
+  });
+
+  // Do Supabase (se disponível)
+  if (supabaseClient) {
+    try {
+      const { data } = await supabaseClient.from('articles').select('slug, title').limit(200);
+      if (data) {
+        data.forEach(a => {
+          if (a.slug) existing.add(a.slug.toLowerCase().trim());
+          if (a.title) existing.add(a.title.toLowerCase().trim());
+        });
+      }
+    } catch (e) {
+      // Ignora erro de rede
+    }
   }
-];
 
-// 3. Prompt de Redação Editorial Homologado com Alma dos Colunistas
-const AUTHOR_VOICE_GUIDELINES = {
-  'henrique-vianna': {
-    name: 'Henrique Vianna',
-    role: 'Editor-Chefe & Curador de Patrimônio Imune',
-    persona: `Você é Henrique Vianna. Jornalista econômico sênior com 18 anos de trânsito em Genebra, Londres e Nova York.
-Sua tese: "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Uma mansão brutalista sobre a rocha calcária ou uma tela arrematada há meio século não se importam com a volatilidade dos mercados."
-Seu estilo: Prosa sóbria, aristocrática, cirúrgica. Recusa terminantemente adjetivos cafonas e bajuladores. Trata valores não como custos, mas como ancoragem de liquidez, imunidade temporal e governança dinástica.`
-  },
-  'clara-meirelles': {
-    name: 'Clara Meirelles',
-    role: 'Editora de Alta Relojoaria & Alta-Costura',
-    persona: `Você é Clara Meirelles. Historiadora da Arte pela Sorbonne com especialização em gravura e microengenharia suíça em Le Brassus.
-Sua tese: "O tempo do luxo não é uma medida utilitária; é a mais nobre das telas mecânicas esculpidas por mãos humanas."
-Seu estilo: Prosa sensorial, poética, atenta à luz, aos micrômetros, aos rubis sintéticos, ao esmalte Grand Feu e ao silêncio paciente dos ateliês nos vales suíços. Celebra o buril manual e a costura selê francesa contra a obsolescência de algoritmos descartáveis.`
-  },
-  'gabriel-fontes': {
-    name: 'Gabriel Fontes',
-    role: 'Editor de Hipercarros & Engenharia Naval',
-    persona: `Você é Gabriel Fontes. Engenheiro mecatrônico formado pelo Politécnico de Milão com passagens pelas oficinas de dinâmica veicular da Itália.
-Sua tese: "Em uma era de telas táteis reluzentes destinadas ao descarte em cinco anos, o verdadeiro ato de rebeldia humana é um motor V16 aspirado rugindo a 9.000 RPM."
-Seu estilo: Ritmo visceral, urgente, estruturado em telemetria pura. Disseque forças G, fluxos aerodinâmicos de Venturi, coeficientes de arrasto Cx e a acústica incandescente de escapes em Inconel.`
-  }
-};
-
-function buildEditorialPrompt(pauta) {
-  const authorInfo = AUTHOR_VOICE_GUIDELINES[pauta.authorSlug] || AUTHOR_VOICE_GUIDELINES['henrique-vianna'];
-
-  return `Você é ${authorInfo.name}, ${authorInfo.role} no "Radar do Luxo" (radardoluxo.com).
-
-${authorInfo.persona}
-
-Escreva um ensaio jornalístico cinematográfico e definitivo em português brasileiro sobre o seguinte tema:
-
-TEMA / GANCHO: ${pauta.hook}
-FONTE / CONTEXTO: ${pauta.summary}
-CATEGORIA: ${pauta.category}
-
-DIRETRIZES INEGOCIÁVEIS DO RADAR DO LUXO:
-1. TÍTULO: Gancho magnético aristocrático seguindo a fórmula: [Nome Nobre] + [Número Extremo] + [Detalhe Incomum de Engenharia/História].
-2. RESUMO (Lead): 2 a 3 linhas densas de peso histórico, sensorial e procedência.
-3. CORPO: Entre 3 e 4 parágrafos aprofundados. Banimento estrito de clichês vazios ("revolucionário", "de tirar o fôlego", "o que há de melhor"). Foque em dados táteis, mecânicos e números de liquidez.
-4. FICHA TÉCNICA: 4 a 6 especificações objetivas (potência, tolerância, calibre, tiragem, cotação).
-5. RESPOSTA ESTRITAMENTE EM JSON VÁLIDO (sem markdown em volta do JSON):
-{
-  "title": "...",
-  "excerpt": "...",
-  "contentParagraphs": ["parágrafo 1...", "parágrafo 2...", "parágrafo 3..."],
-  "specs": { "chave": "valor" },
-  "rankingScore": 95,
-  "reasoning": "Por que esta pauta tem valor de patrimônio histórico ou engenharia de ruptura..."
-}`;
+  return existing;
 }
 
-// 4. Execução do Gemini 1.5 Flash
-async function generateWithGemini(pauta) {
-  if (!GEMINI_API_KEY) {
-    console.log('⚠️  Chave GEMINI_API_KEY não encontrada no ambiente. Utilizando sintetizador semântico local homologado.');
-    return {
-      title: pauta.hook,
-      excerpt: pauta.summary,
-      contentParagraphs: [
-        `Em um cenário onde a produção em massa homogeneizou os padrões de consumo, ${pauta.hook.split(':')[0]} surge como um ponto de inflexão de soberania material e mecânica.`,
-        `Com projeto refinado meticulosamente para superar as mais severas tolerâncias da alta engenharia, cada detalhe expressa a recusa absoluta à obsolescência digital. A procedência e o rigor construtivo atestam sua relevância nas mais seletivas coleções privadas internacionais.`,
-        `Para os proprietários e investidores que acompanham as movimentações do circuito global, esta homologação reafirma que o valor duradouro reside na escassez matemática e na maestria humana preservada.`
-      ],
-      specs: pauta.specs,
-      rankingScore: 95,
-      reasoning: 'Ativo com rigor construtivo e escassez comprovada nas praças internacionais.'
-    };
-  }
+/**
+ * 2. Seleciona rigorosamente a pauta com a MAIOR NOTA GERAL (rankingScore)
+ */
+async function selectHighestScoringPauta(supabaseClient) {
+  const existingSlugs = await getExistingSlugs(supabaseClient);
+  const candidates = [];
 
+  // A. Coleta pautas ao vivo de Feeds RSS Internacionais
+  console.log('🌐 [Scout] Rastreando feeds RSS internacionais de elite...');
   try {
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 12000);
-
-    let url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=${GEMINI_API_KEY}`;
-    let response = await fetch(url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      signal: controller.signal,
-      body: JSON.stringify({
-        contents: [{ parts: [{ text: buildEditorialPrompt(pauta) }] }],
-        generationConfig: {
-          responseMimeType: 'application/json',
-          temperature: 0.7
-        }
-      })
-    });
-
-    if (!response.ok) {
-      // Fallback para gemini-2.5-flash
-      url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`;
-      response = await fetch(url, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        signal: controller.signal,
-        body: JSON.stringify({
-          contents: [{ parts: [{ text: buildEditorialPrompt(pauta) }] }],
-          generationConfig: {
-            responseMimeType: 'application/json',
-            temperature: 0.7
-          }
-        })
-      });
-    }
-
-    clearTimeout(timeout);
-
-    if (response.ok) {
-      const data = await response.json();
-      const rawText = data.candidates?.[0]?.content?.parts?.[0]?.text;
-      if (rawText) {
-        return JSON.parse(rawText);
+    const rssFeeds = await fetchAllEliteFeeds();
+    for (const item of rssFeeds) {
+      const titleKey = (item.originalTitle || '').toLowerCase().trim();
+      const slugKey = (item.slug || '').toLowerCase().trim();
+      if (!existingSlugs.has(titleKey) && !existingSlugs.has(slugKey)) {
+        const scoreData = calculateEditorialScore({
+          title: item.originalTitle,
+          summary: item.summary,
+          specs: item.specs || {}
+        });
+        candidates.push({
+          sourceType: 'RSS',
+          sourceName: item.source || 'Robb Report / Hodinkee',
+          hook: item.originalTitle,
+          category: item.category,
+          categorySlug: item.categorySlug,
+          authorSlug: item.authorSlug,
+          summary: item.summary,
+          image: item.image,
+          specs: item.specs || {},
+          sourceUrl: item.sourceUrl,
+          score: scoreData.totalScore,
+          tier: scoreData.tier
+        });
       }
     }
-  } catch (err) {
-    console.warn('⚠️  Aviso: Consulta remota à API Gemini falhou ou sofreu timeout (' + err.message + '). Acionando sintetizador semântico local.');
+  } catch (rssErr) {
+    console.warn('⚠️ RSS feeds offline ou lentos, prosseguindo com acervo curado.');
   }
 
-  // Fallback seguro de síntese de alto padrão
-  return {
-    title: pauta.hook,
-    excerpt: pauta.summary,
-    contentParagraphs: [
-      `Em um cenário onde a produção em massa homogeneizou os padrões de consumo, ${pauta.hook.split(':')[0]} surge como um ponto de inflexão de soberania material e mecânica.`,
-      `Com projeto refinado meticulosamente para superar as mais severas tolerâncias da alta engenharia, cada detalhe expressa a recusa absoluta à obsolescência digital. A procedência e o rigor construtivo atestam sua relevância nas mais seletivas coleções privadas internacionais.`,
-      `Para os proprietários e investidores que acompanham as movimentações do circuito global, esta homologação reafirma que o valor duradouro reside na escassez matemática e na maestria humana preservada.`
-    ],
-    specs: pauta.specs,
-    rankingScore: 95,
-    reasoning: 'Ativo com rigor construtivo e escassez comprovada nas praças internacionais.'
-  };
+  // B. Coleta pautas do acervo curado INITIAL_HOT_PAUTAS
+  console.log('📚 [Scout] Analisando pautas curadas de alto prestígio...');
+  for (const pauta of INITIAL_HOT_PAUTAS) {
+    const hookKey = (pauta.suggestedHook || '').toLowerCase().trim();
+    const origKey = (pauta.originalTitle || '').toLowerCase().trim();
+    const isAlreadyPublished = Array.from(existingSlugs).some(existing => {
+      return (
+        existing.includes(pauta.categorySlug) ||
+        (hookKey && (existing.includes(hookKey.slice(0, 25)) || hookKey.includes(existing.slice(0, 25)))) ||
+        (origKey && existing.includes(origKey.slice(0, 25)))
+      );
+    });
+
+    if (!isAlreadyPublished) {
+      const score = pauta.rankingScore || calculateEditorialScore({
+        title: pauta.suggestedHook || pauta.originalTitle,
+        specs: pauta.specsPreview || {},
+        summary: pauta.summary
+      }).totalScore;
+
+      candidates.push({
+        sourceType: 'Curated Hot Feed',
+        sourceName: pauta.source || 'Alta Curadoria',
+        hook: pauta.suggestedHook || pauta.originalTitle,
+        category: pauta.category,
+        categorySlug: pauta.categorySlug,
+        authorSlug: pauta.authorSlug,
+        summary: pauta.summary,
+        image: pauta.suggestedImage,
+        specs: pauta.specsPreview || {},
+        sourceUrl: pauta.sourceUrl,
+        score: score,
+        tier: score >= 94 ? 'S+' : (score >= 88 ? 'A' : 'B')
+      });
+    }
+  }
+
+  // Se todas as pautas já foram publicadas, usa o acervo de maior score geral
+  const finalPool = candidates.length > 0 ? candidates : INITIAL_HOT_PAUTAS.map(p => ({
+    sourceType: 'Curated Hot Feed',
+    sourceName: p.source,
+    hook: p.suggestedHook,
+    category: p.category,
+    categorySlug: p.categorySlug,
+    authorSlug: p.authorSlug,
+    summary: p.summary,
+    image: p.suggestedImage,
+    specs: p.specsPreview,
+    sourceUrl: p.sourceUrl,
+    score: p.rankingScore,
+    tier: p.rankingScore >= 94 ? 'S+' : 'A'
+  }));
+
+  // Ordena rigorosamente do MAIOR SCORE GERAL para o menor
+  finalPool.sort((a, b) => b.score - a.score);
+
+  console.log('\n📊 [LEADERBOARD EDITORIAL] Top 4 Pautas Qualificadas no Radar:');
+  finalPool.slice(0, 4).forEach((c, idx) => {
+    console.log(`   ${idx + 1}. [Score: ${c.score} pts | Tier ${c.tier}] ${c.hook.slice(0, 55)}... (${c.authorSlug})`);
+  });
+
+  const bestCandidate = finalPool[0];
+  console.log(`\n🎯 [ESCOLHA DO MOTOR] Pauta Selecionada com Maior Nota Geral:`);
+  console.log(`   Título: "${bestCandidate.hook}"`);
+  console.log(`   Nota Geral: ${bestCandidate.score} / 100 pts`);
+  console.log(`   Autor Atribuído: ${bestCandidate.authorSlug} | Categoria: ${bestCandidate.category}`);
+
+  return bestCandidate;
 }
 
-// 5. Função Principal do Crawler
-async function main() {
+/**
+ * 3. Ciclo Principal de Execução
+ */
+async function runPublicationCycle() {
   try {
-    // Escolhe uma pauta do pool rotativo
-    const chosenPauta = CURATED_PAUTAS_POOL[Math.floor(Math.random() * CURATED_PAUTAS_POOL.length)];
-    console.log(`📌 Pauta Selecionada: "${chosenPauta.hook}" (${chosenPauta.category})`);
+    let supabaseClient = null;
+    if (SUPABASE_URL && SUPABASE_KEY) {
+      try {
+        supabaseClient = createClient(SUPABASE_URL, SUPABASE_KEY);
+      } catch (err) {
+        console.warn('⚠️ Falha ao instanciar Supabase:', err.message);
+      }
+    }
 
-    // Redige com IA
-    console.log('🤖 Solicitando redação editorial ao Google Gemini...');
-    const articleData = await generateWithGemini(chosenPauta);
-    console.log(`✓ Ensaio redigido: "${articleData.title}"`);
-    console.log(`✓ Pontuação de Ranking: ${articleData.rankingScore || 94} pts`);
+    // Seleciona a melhor pauta
+    const pauta = await selectHighestScoringPauta(supabaseClient);
 
-    const slug = articleData.title
+    // Redige a matéria com IA e persona
+    console.log('\n🖋️  [Redação] Agente Escritor redigindo matéria com tom aristocrático e anti-detecção...');
+    const promptInput = `${pauta.hook}\n\nContexto: ${pauta.summary || ''}\nFonte: ${pauta.sourceUrl || ''}`;
+    const articleData = await generateLuxuryArticle(promptInput);
+
+    console.log(`✓ Ensaio Concluído: "${articleData.title}"`);
+    console.log(`✓ Autor: ${articleData.authorName} (${articleData.authorSlug})`);
+    
+    // Garante que o score final seja consistente com a pauta e o motor
+    const finalScore = Math.max(Number(articleData.rankingScore) || 94, pauta.score || 94);
+    console.log(`✓ Nota Geral Consolidada: ${finalScore} pts | Badge: ${articleData.badge || 'EDITORIAL VIP'}`);
+
+    const slug = articleData.slug || articleData.title
       .toLowerCase()
       .normalize('NFD')
       .replace(/[\u0300-\u036f]/g, '')
       .replace(/[^\w\s-]/g, '')
       .replace(/\s+/g, '-');
 
-    const score = Number(articleData.rankingScore) || 94;
-
-    // Jitter Orgânico de Minutos: evita publicação robótica cravada em :00
+    // Jitter temporal para parecer orgânico
     const publishDate = new Date();
-    const randomJitterMinutes = Math.floor(Math.random() * 38) + 4; // Entre +4 e +42 minutos
-    publishDate.setMinutes(randomJitterMinutes);
-    publishDate.setSeconds(Math.floor(Math.random() * 59));
+    const randomJitterMinutes = Math.floor(Math.random() * 25) + 5;
+    publishDate.setMinutes(publishDate.getMinutes() - randomJitterMinutes);
     const publishedAt = publishDate.toISOString();
-    console.log(`⏱️  Horário orgânico de publicação gerado: ${publishDate.toLocaleTimeString('pt-BR')} (Jitter: +${randomJitterMinutes}m)`);
-
-    // Avaliação de Elegibilidade para a Capa (Piso Mínimo de 88 pts = Tier A / S+)
-    let isHeroCandidate = score >= 94;
-
-    // Conexão com Supabase para Auditoria Global do Acervo
-    let finalIsHero = false;
-    let supabaseClient = null;
-
-    if (SUPABASE_URL && SUPABASE_KEY) {
-      try {
-        console.log('📡 Conectando ao Supabase para auditoria do acervo...');
-        supabaseClient = createClient(SUPABASE_URL, SUPABASE_KEY);
-
-        const { data: existingArticles, error: fetchErr } = await supabaseClient
-          .from('articles')
-          .select('*')
-          .eq('status', 'published');
-
-        if (fetchErr) {
-          console.warn('⚠️ Aviso ao buscar artigos existentes no Supabase:', fetchErr.message);
-          console.log('💡 Dica: Se o banco for novo, certifique-se de executar o schema.sql no SQL Editor do Supabase.');
-        }
-
-        if (existingArticles && existingArticles.length > 0) {
-          const currentHero = existingArticles.find(a => a.is_hero);
-
-          if (currentHero) {
-            if (currentHero.is_pinned_hero) {
-              console.log('📌 A Capa atual está FIXADA MANUALMENTE. A nova matéria irá para o Feed Geral.');
-              finalIsHero = false;
-            } else {
-              // Calcula decaimento da Capa atual (Meia-vida de 24h)
-              const heroPubTime = new Date(currentHero.published_at || currentHero.created_at || Date.now()).getTime();
-              const hoursElapsed = Math.max(0, (Date.now() - heroPubTime) / (3600 * 1000));
-              const currentHeroWeight = (currentHero.ranking_score || 88) * Math.pow(0.5, hoursElapsed / 24);
-
-              const safeTitle = (currentHero.title || 'Capa Atual').slice(0, 30);
-              console.log(`⚖️  Capa Atual: "${safeTitle}..." | Peso Dinâmico: ${Math.round(currentHeroWeight)} pts (Horas no ar: ${hoursElapsed.toFixed(1)}h)`);
-              console.log(`⚖️  Nova Matéria: Score Base ${score} pts`);
-
-              // Proteção da Segunda Matéria: verifica se há outra matéria no acervo com peso superior
-              const otherContenders = existingArticles
-                .filter(a => !a.is_hero && (a.ranking_score || 80) >= 88)
-                .map(a => {
-                  const h = Math.max(0, (Date.now() - new Date(a.published_at || a.created_at || Date.now()).getTime()) / (3600 * 1000));
-                  return { title: a.title, weight: (a.ranking_score || 88) * Math.pow(0.5, h / 24) };
-                })
-                .sort((a, b) => b.weight - a.weight);
-
-              const topContenderWeight = otherContenders[0]?.weight || 0;
-
-              if (score >= 88 && score > currentHeroWeight && score >= topContenderWeight) {
-                console.log('👑 Nova matéria superou a Capa atual e todos os concorrentes! Assumirá o topo da Capa.');
-                finalIsHero = true;
-              } else {
-                console.log('📰 Nova matéria classificada para o Feed Geral (Capa atual mantida ou protegida por matéria anterior mais forte).');
-                finalIsHero = false;
-              }
-            }
-          } else {
-            finalIsHero = score >= 88;
-          }
-        } else {
-          finalIsHero = score >= 88;
-        }
-      } catch (clientErr) {
-        console.warn('⚠️ Falha ao inicializar ou consultar Supabase:', clientErr.message);
-        supabaseClient = null;
-        finalIsHero = isHeroCandidate;
-      }
-    } else {
-      finalIsHero = isHeroCandidate;
-    }
-
     const now = new Date();
     const formattedDate = now.toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' });
-    const articleId = `art-${slug.slice(0, 35)}-${Date.now().toString().slice(-4)}`;
+    const articleId = `art-${slug.slice(0, 32)}-${Date.now().toString().slice(-4)}`;
 
+    // Avaliação de Gravidade da Capa (Capa Weight Decay com Meia-Vida de 24h)
+    let isHero = false;
+    let currentHero = ARTICLES.find(a => a.isHero || a.is_hero);
+
+    if (supabaseClient) {
+      try {
+        const { data: heroData } = await supabaseClient
+          .from('articles')
+          .select('*')
+          .eq('is_hero', true)
+          .single();
+        if (heroData) currentHero = heroData;
+      } catch (e) {
+        // Fallback para currentHero local
+      }
+    }
+
+    if (currentHero) {
+      if (currentHero.is_pinned_hero || currentHero.isPinnedHero) {
+        console.log('📌 A Capa atual está FIXADA MANUALMENTE pelo editor. Nova matéria publicada no Feed Geral.');
+        isHero = false;
+      } else {
+        const capaAnalysis = calculateCapaWeight(currentHero);
+        const currentHeroWeight = Math.round(capaAnalysis.currentWeight);
+        const hoursElapsed = capaAnalysis.hoursElapsed;
+        const heroBaseScore = capaAnalysis.baseScore;
+
+        console.log(`\n⚖️  [Julgamento da Capa]:`);
+        console.log(`   Capa Vigente: "${(currentHero.title || '').slice(0, 35)}..."`);
+        console.log(`   Peso Atual da Capa Vigente: ${currentHeroWeight} pts (${hoursElapsed.toFixed(1)}h no ar, Base: ${heroBaseScore} pts)`);
+        console.log(`   Nota da Nova Matéria: ${finalScore} pts`);
+
+        if (finalScore >= 88 && finalScore > currentHeroWeight) {
+          console.log('   👑 VEREDITO: Nova matéria superou a Capa atual! PROMOVIDA A CAPA PRINCIPAL (Hero).');
+          isHero = true;
+        } else {
+          console.log('   📰 VEREDITO: Nova matéria alocada no Feed Geral de Destaques.');
+          isHero = false;
+        }
+      }
+    } else {
+      isHero = finalScore >= 88;
+    }
+
+    // Monta o objeto completo do artigo compatível com DB e Frontend
     const newArticle = {
       id: articleId,
       slug,
       title: articleData.title,
-      category: chosenPauta.category,
-      category_slug: chosenPauta.categorySlug,
-      author_slug: chosenPauta.authorSlug,
+      category: pauta.category || articleData.category,
+      categorySlug: pauta.categorySlug || articleData.categorySlug,
+      category_slug: pauta.categorySlug || articleData.categorySlug,
+      authorSlug: pauta.authorSlug || articleData.authorSlug,
+      author_slug: pauta.authorSlug || articleData.authorSlug,
       type: 'article',
-      badge: finalIsHero ? 'DESTAQUE MUNDIAL' : 'EDITORIAL VIP',
+      badge: isHero ? 'DESTAQUE MUNDIAL' : (articleData.badge || 'EDITORIAL VIP'),
       date: formattedDate,
-      read_time: '6 min de leitura',
-      image: chosenPauta.image,
+      readTime: articleData.readTime || '5 min de leitura',
+      read_time: articleData.readTime || '5 min de leitura',
+      image: pauta.image || articleData.image,
       excerpt: articleData.excerpt,
+      contentParagraphs: articleData.contentParagraphs,
       content_paragraphs: articleData.contentParagraphs,
-      specs: articleData.specs || chosenPauta.specs,
+      specs: articleData.specs || pauta.specs || {},
       status: 'published',
-      is_hero: finalIsHero,
+      isHero: isHero,
+      is_hero: isHero,
+      isHeroSecondary: false,
       is_hero_secondary: false,
+      isPinnedHero: false,
       is_pinned_hero: false,
-      ranking_score: score,
+      rankingScore: finalScore,
+      ranking_score: finalScore,
+      publishedAt: publishedAt,
       published_at: publishedAt
     };
 
-    // Salva no Supabase se configurado
+    // 4. Persistência Dual
+
+    // A. Gravação no Supabase (se disponível)
     if (supabaseClient) {
       try {
-        if (finalIsHero) {
+        if (isHero) {
           await supabaseClient
             .from('articles')
             .update({ is_hero: false, is_hero_secondary: true })
             .eq('is_hero', true);
         }
-
-        const { data, error } = await supabaseClient
+        const { error } = await supabaseClient
           .from('articles')
-          .upsert([newArticle], { onConflict: 'slug' })
-          .select();
-
+          .upsert([newArticle], { onConflict: 'slug' });
         if (error) {
-          console.error('⚠️ Atenção ao salvar no Supabase:', error.message);
-          console.log('💡 Verifique se as tabelas do schema.sql foram criadas no painel do Supabase.');
+          console.warn('⚠️ Supabase warning:', error.message);
         } else {
-          console.log(`✅ Sucesso! Matéria gravada no banco Supabase: ${slug} (${finalIsHero ? 'Capa Principal 👑' : 'Feed Geral 📰'})`);
+          console.log(`✅ [Supabase] Artigo persistido no banco de dados na nuvem.`);
         }
-      } catch (upsertErr) {
-        console.error('⚠️ Erro de rede na gravação do Supabase:', upsertErr.message);
+      } catch (err) {
+        console.warn('⚠️ Supabase não respondeu:', err.message);
       }
-    } else {
-      console.log('ℹ️  Supabase URL/Key não configurados nos Secrets do GitHub. A matéria foi sintetizada com sucesso em modo simulação local.');
-      console.log('JSON gerado para conferência:', JSON.stringify(newArticle, null, 2));
     }
 
-    console.log('🎉 Ciclo editorial autônomo finalizado com êxito!');
+    // B. Gravação no Acervo Local (src/data/mockData.js)
+    try {
+      const mockDataPath = path.join(rootDir, 'src', 'data', 'mockData.js');
+      const mockContent = fs.readFileSync(mockDataPath, 'utf-8');
+      const articlesStartIdx = mockContent.indexOf('export const ARTICLES = [');
+
+      if (articlesStartIdx !== -1) {
+        const beforeArticles = mockContent.slice(0, articlesStartIdx);
+
+        // Prepara a lista atualizada de artigos
+        const updatedArticles = [...ARTICLES];
+        if (isHero) {
+          updatedArticles.forEach(a => {
+            if (a.isHero || a.is_hero) {
+              a.isHero = false;
+              a.is_hero = false;
+              a.isHeroSecondary = true;
+              a.is_hero_secondary = true;
+            }
+          });
+        }
+        // Insere a nova matéria no topo
+        updatedArticles.unshift(newArticle);
+
+        // Limita a 25 artigos para manter performance excelente
+        const trimmedArticles = updatedArticles.slice(0, 25);
+
+        // Mantém FILMSTRIP atualizado com a novidade se for relevante
+        const filmstripCode = `\nexport const FILMSTRIP_ITEMS = [
+  {
+    id: 'film-1',
+    category: '${(newArticle.categorySlug || 'NEWS').toUpperCase()}',
+    title: '${newArticle.title.replace(/'/g, "\\'").slice(0, 38)}...',
+    image: '${newArticle.image}',
+    tag: '${newArticle.badge}',
+    slug: '${newArticle.slug}'
+  },
+  {
+    id: 'film-2',
+    category: 'HYPERCARS',
+    title: 'Koenigsegg Jesko Absolut 1.600 cv',
+    image: 'https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&q=80&w=600',
+    tag: 'RECORDE MUNDIAL',
+    slug: 'koenigsegg-jesko-absolut-o-monstro-aerodinamico-de-1600-cv-que-esmagou-o-marco-0-400-0-kmh-em-2783-segundos-com-tolerancias-de-microns'
+  },
+  {
+    id: 'film-3',
+    category: 'HOROLOGY',
+    title: 'F.P. Journe Chronomètre Bleu Tântalo',
+    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=600',
+    tag: 'OURO ROSA 18K',
+    slug: 'fp-journe-chronometre-bleu-a-alquimia-do-tantalo-e-ouro-rosa-18k-que-redefiniu-a-alta-horologia-independente-com-listas-de-espera-de-sete-anos'
+  },
+  {
+    id: 'film-4',
+    category: 'VILLAS',
+    title: 'Villa sa Caleta em Maiorca',
+    image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=600',
+    tag: 'TRAVERTINO NAVONA',
+    slug: 'villa-sa-caleta-maiorca-o-refugio-brutalista-ancorado-em-rocha-calcaria-venda-privada-45m'
+  },
+  {
+    id: 'film-5',
+    category: 'CIRCUITO',
+    title: 'GMA T.50s Niki Lauda 12.100 RPM',
+    image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=600',
+    tag: 'COSWORTH V12',
+    slug: 'gma-t50s-niki-lauda-o-bolido-de-pista-de-852-kg-com-turbina-de-vacuo-traseira-e-v12-cosworth-de-12100-rpm-que-resgata-a-era-de-ouro-do-automobilismo'
+  },
+  {
+    id: 'film-6',
+    category: 'WEALTH',
+    title: 'Family Offices & Ouro Físico Suíço',
+    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=600',
+    tag: 'CAPITAL SOBERANO',
+    slug: 'o-relatorio-reservado-de-family-offices-por-que-as-dinastias-globais-estao-trocando-ativos-digitais-por-ouro-fisico-em-bunkers-suicos'
+  }
+];\n`;
+
+        const newArticlesCode = `export const ARTICLES = ${JSON.stringify(trimmedArticles, null, 2)};\n` + filmstripCode;
+        fs.writeFileSync(mockDataPath, beforeArticles + newArticlesCode, 'utf-8');
+        console.log(`✅ [mockData.js] Acervo atualizado com sucesso no disco! Total de matérias: ${trimmedArticles.length}.`);
+
+        // Bumper de Versão para forçar atualização imediata do LocalStorage no navegador
+        const radarServicePath = path.join(rootDir, 'src', 'services', 'radarService.js');
+        if (fs.existsSync(radarServicePath)) {
+          let serviceContent = fs.readFileSync(radarServicePath, 'utf-8');
+          const newVersion = `v3.0_${Date.now()}`;
+          serviceContent = serviceContent.replace(
+            /export const CURRENT_CONTENT_VERSION = ['"][^'"]+['"];/,
+            `export const CURRENT_CONTENT_VERSION = '${newVersion}';`
+          );
+          fs.writeFileSync(radarServicePath, serviceContent, 'utf-8');
+          console.log(`⚡ [Cache Bumper] Versão de conteúdo atualizada para '${newVersion}'.`);
+        }
+      }
+    } catch (fsErr) {
+      console.error('❌ Erro ao atualizar arquivos locais:', fsErr.message);
+    }
+
+    console.log('\n==============================================================================');
+    console.log(`🎉 MATÉRIA PUBLICADA COM SUCESSO!`);
+    console.log(`📌 Título: "${newArticle.title}"`);
+    console.log(`🏆 Posição: ${isHero ? '👑 CAPA PRINCIPAL (Hero)' : '📰 Feed Geral de Destaques'}`);
+    console.log(`⭐ Pontuação Editorial: ${newArticle.rankingScore} / 100 pts`);
+    console.log(`🔗 Slug: /artigo/${newArticle.slug}`);
+    console.log('==============================================================================\n');
+
+    return newArticle;
   } catch (err) {
-    console.error('❌ Erro inesperado capturado no ciclo autônomo:', err.message || err);
-    // Não encerra com crash para manter o workflow estável
+    console.error('❌ Erro no ciclo de publicação:', err.message || err);
+    return null;
   }
 }
 
-main();
+runPublicationCycle();

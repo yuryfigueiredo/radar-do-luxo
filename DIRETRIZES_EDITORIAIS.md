@@ -1,7 +1,9 @@
 # 💎 RADAR DO LUXO — MANUAL DEFINITIVO DE DIRETRIZES EDITORIAIS & MANIFESTO DOS ESCRITORES
 
-> **DOCUMENTO OFICIAL DE GOVERNANÇA EDITORIAL, COGNITIVA & ESTÉTICA**  
-> Homologado para a Redação, Colunistas Residentes e Motores de Inteligência Artificial do *Radar do Luxo*.
+> [!IMPORTANT]
+> 💎 **DOCUMENTO EXCLUSIVO (PROJETO RADAR DO LUXO):**  
+> Este manual é o documento oficial e restrito ao *Radar do Luxo*. Define as 3 personas residentes (Henrique Vianna, Gabriel Fontes e Clara Meirelles), suas biografias, teses imutáveis, vocabulário "Quiet Luxury", fórmulas de hook e regras de pontuação da Capa deste site.  
+> *Para o guia universal ("geralzão") aplicável a qualquer nicho ou outro projeto, consulte:* [GUIA_MESTRE_BOTS_ESCRITORES_IA.md](file:///c:/Users/Yury/Documents/Projetos%20Yury/Site%20radardoluxo/GUIA_MESTRE_BOTS_ESCRITORES_IA.md).
 
 ---
 
