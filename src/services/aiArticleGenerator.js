@@ -19,14 +19,14 @@ export function getGeminiApiKey() {
   try {
     return (
       (typeof localStorage !== 'undefined' && localStorage.getItem('radar_gemini_api_key')) ||
-      (typeof import.meta !== 'undefined' && import.meta?.env?.VITE_GEMINI_API_KEY) ||
-      (typeof process !== 'undefined' && process?.env?.VITE_GEMINI_API_KEY) ||
+      (typeof import.meta !== 'undefined' && (import.meta?.env?.VITE_GEMINI_API_KEY || import.meta?.env?.GEMINI_API_KEY)) ||
+      (typeof process !== 'undefined' && (process?.env?.VITE_GEMINI_API_KEY || process?.env?.GEMINI_API_KEY)) ||
       ''
     );
   } catch (e) {
     return (
-      (typeof import.meta !== 'undefined' && import.meta?.env?.VITE_GEMINI_API_KEY) ||
-      (typeof process !== 'undefined' && process?.env?.VITE_GEMINI_API_KEY) ||
+      (typeof import.meta !== 'undefined' && (import.meta?.env?.VITE_GEMINI_API_KEY || import.meta?.env?.GEMINI_API_KEY)) ||
+      (typeof process !== 'undefined' && (process?.env?.VITE_GEMINI_API_KEY || process?.env?.GEMINI_API_KEY)) ||
       ''
     );
   }
