@@ -2,16 +2,22 @@ name: 💎 Radar do Luxo — Publicação Editorial Autônoma
 
 on:
   schedule:
-    # 7 Ciclos Diários nos Horários Nobres de Leitura (Horário de Brasília: UTC-3):
-    # - 08h da manhã (Café / Abertura de Mercado) -> 11h UTC
-    # - 10h da manhã (Briefing Executivo)          -> 13h UTC
-    # - 12h do meio-dia (Almoço Executivo)         -> 15h UTC
-    # - 14h da tarde (Abertura de Leilões NY)     -> 17h UTC
-    # - 16h da tarde (Fechamento Europa)           -> 19h UTC
-    # - 18h da tarde (Happy Hour / Coquetéis)      -> 21h UTC
-    # - 20h da noite (Leitura Noturna VIP)         -> 23h UTC
-    # O minuto 17 com jitter interno garante que nunca publique em minuto cravado
-    - cron: '17 11,13,15,17,19,21,23 * * *'
+    # Ciclos Editoriais Orgânicos (Horário de Brasília: UTC-3)
+    # Minutos intencionalmente alternados para cada dia da semana (Elimina qualquer aspecto robotizado):
+    # - Segunda-feira : Minuto 03 (08h03, 10h03, 12h03, 14h03, 16h03, 18h03, 20h03 BRT)
+    - cron: '3 11,13,15,17,19,21,23 * * 1'
+    # - Terça-feira   : Minuto 19 (08h19, 10h19, 12h19, 14h19, 16h19, 18h19, 20h19 BRT)
+    - cron: '19 11,13,15,17,19,21,23 * * 2'
+    # - Quarta-feira  : Minuto 07 (08h07, 10h07, 12h07, 14h07, 16h07, 18h07, 20h07 BRT)
+    - cron: '7 11,13,15,17,19,21,23 * * 3'
+    # - Quinta-feira  : Minuto 24 (08h24, 10h24, 12h24, 14h24, 16h24, 18h24, 20h24 BRT)
+    - cron: '24 11,13,15,17,19,21,23 * * 4'
+    # - Sexta-feira   : Minuto 11 (08h11, 10h11, 12h11, 14h11, 16h11, 18h11, 20h11 BRT)
+    - cron: '11 11,13,15,17,19,21,23 * * 5'
+    # - Sábado        : Minuto 32 (08h32, 10h32, 12h32, 14h32, 16h32, 18h32, 20h32 BRT)
+    - cron: '32 11,13,15,17,19,21,23 * * 6'
+    # - Domingo       : Minuto 14 (08h14, 10h14, 12h14, 14h14, 16h14, 18h14, 20h14 BRT)
+    - cron: '14 11,13,15,17,19,21,23 * * 0'
   # Permite acionar manualmente a qualquer momento pelo botão "Run workflow" no GitHub
   workflow_dispatch:
 

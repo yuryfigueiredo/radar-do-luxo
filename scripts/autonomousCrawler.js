@@ -247,6 +247,13 @@ async function runPublicationCycle() {
       }
     }
 
+    // Atraso orgânico de segundos (human jitter) para evitar execução no segundo zero cravado
+    if (!process.env.CI_TEST_NO_DELAY) {
+      const organicDelaySeconds = Math.floor(Math.random() * 35) + 5;
+      console.log(`⏱️ Sincronizando pulso editorial com ateliês internacionais (+${organicDelaySeconds}s)...`);
+      await new Promise(r => setTimeout(r, organicDelaySeconds * 1000));
+    }
+
     // Seleciona a melhor pauta
     const pauta = await selectHighestScoringPauta(supabaseClient);
 

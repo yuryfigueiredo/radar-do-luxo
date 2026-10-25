@@ -1,5 +1,5 @@
 # 💎 RADAR DO LUXO — BLUEPRINT MESTRE DO PROJETO (SSOT)
-**Versão:** 2.7.0  
+**Versão:** 2.8.0  
 **Data de Atualização:** 25/10/2026  
 **Status:** Produção Ativa & Homologada (`https://www.radardoluxo.com.br`)  
 **Repositório Oficial:** `https://github.com/yuryfigueiredo/radar-do-luxo`  
@@ -275,15 +275,22 @@ Para garantir que a estrela da matéria (o hipercarro, o turbilhão do relógio 
 ## 8. O Robô Editorial Autônomo & Ciclo na Nuvem
 
 O site publica matérias de forma 100% autônoma, sem necessidade de computador ligado:
-* **Fluxo no GitHub Actions:** `.github/workflows/luxury-crawler.yml` configurado para os 7 horários nobres de leitura: **08h, 10h, 12h, 14h, 16h, 18h e 20h** (Horário de Brasília).
+* **Cron com Rotação Semanal Orgânica (Anti-Robô):** O arquivo `.github/workflows/luxury-crawler.yml` alterna os minutos diariamente para que a publicação nunca ocorra no mesmo minuto cravado, replicando o comportamento humano de uma redação:
+  * **Segunda-feira:** Minuto 03 (`08h03`, `10h03`, `12h03`, `14h03`, `16h03`, `18h03`, `20h03`)
+  * **Terça-feira:** Minuto 19 (`08h19`, `10h19`, `12h19`, `14h19`, `16h19`, `18h19`, `20h19`)
+  * **Quarta-feira:** Minuto 07 (`08h07`, `10h07`, `12h07`, `14h07`, `16h07`, `18h07`, `20h07`)
+  * **Quinta-feira:** Minuto 24 (`08h24`, `10h24`, `12h24`, `14h24`, `16h24`, `18h24`, `20h24`)
+  * **Sexta-feira:** Minuto 11 (`08h11`, `10h11`, `12h11`, `14h11`, `16h11`, `18h11`, `20h11`)
+  * **Sábado:** Minuto 32 (`08h32`, `10h32`, `12h32`, `14h32`, `16h32`, `18h32`, `20h32`)
+  * **Domingo:** Minuto 14 (`08h14`, `10h14`, `12h14`, `14h14`, `16h14`, `18h14`, `20h14`)
+* **Jitter em Segundos:** O script `autonomousCrawler.js` injeta um atraso aleatório de 5 a 40 segundos antes do processamento, evitando sincronismo robótico no segundo `:00`.
 * **Script do Robô:** `scripts/autonomousCrawler.js`.
 * **Motor de IA:** Google Gemini API (`gemini-2.5-flash` / `gemini-flash-latest`) com sintetizador semântico local homologado como fallback seguro.
 * **Proteções & Blindagem:**
   * Sanitização de URL do Supabase (remove barras extras, garante `https://`).
   * Geração automática de `id` único e data formal em português.
   * Cálculo de pontuação de relevância (Ranking Tier S+ / Tier A).
-  * Jitter orgânico de minutos (evita publicações no minuto exato para manter aspecto humano).
-  * Gravação direta no Supabase Cloud DB.
+  * Gravação direta no Supabase Cloud DB e commit de sincronização no `mockData.js`.
 
 ---
 
