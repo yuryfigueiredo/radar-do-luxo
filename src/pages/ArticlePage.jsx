@@ -23,6 +23,7 @@ import { ARTICLES, AUTHORS } from '../data/mockData';
 import { fetchArticleBySlug } from '../services/radarService';
 import ConciergeModal from '../components/ConciergeModal';
 import AdSenseSlot from '../components/AdSenseSlot';
+import ImageLightboxModal from '../components/ImageLightboxModal';
 import { trackEvent } from '../services/analyticsService';
 
 export default function ArticlePage({ onQuickView }) {
@@ -33,6 +34,7 @@ export default function ArticlePage({ onQuickView }) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
   const [isConciergeOpen, setIsConciergeOpen] = useState(false);
+  const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const [article, setArticle] = useState(() => ARTICLES.find(a => a.slug === slug) || null);
   const videoRef = useRef(null);
 
@@ -340,17 +342,47 @@ export default function ArticlePage({ onQuickView }) {
               </div>
             </div>
           ) : (
-            /* High-Res Hero Image */
-            <div className="rounded-xl overflow-hidden border border-lux-border-light dark:border-lux-border-dark shadow-xl bg-black">
-              <img
-                src={article.image}
-                alt={article.title}
-                fetchpriority="high"
-                decoding="async"
-                className="w-full aspect-[16/9] object-cover"
+            /* High-Res Hero Image with Adaptive Proportions & Click-to-Zoom */
+            <div 
+              onClick={() => {
+                setIsLightboxOpen(true);
+                trackEvent('image_lightbox_opened', { title: article.title, slug });
+              }}
+              className="relative rounded-2xl overflow-hidden border border-lux-border-light dark:border-lux-border-dark shadow-2xl bg-[#09090C] group cursor-zoom-in transition-all duration-300 hover:border-lux-gold/40"
+            >
+              {/* Ambient Glow: Background soft blur to ensure full photo looks cinematic without black letterboxing */}
+              <div 
+                className="absolute inset-0 bg-cover bg-center opacity-25 blur-3xl scale-110 pointer-events-none"
+                style={{ backgroundImage: `url(${article.image})` }}
               />
-              <div className="p-3 bg-white dark:bg-lux-bg-cardDark border-t border-lux-border-light dark:border-lux-border-dark text-[11px] text-lux-text-muted flex justify-between">
-                <span>Fotografia oficial com verificação de autenticidade</span>
+
+              {/* Main Image: uncropped, natural proportion with responsive height */}
+              <div className="relative z-10 flex items-center justify-center min-h-[300px] max-h-[72vh] sm:max-h-[660px] overflow-hidden">
+                <img
+                  src={article.image}
+                  alt={article.title}
+                  fetchpriority="high"
+                  decoding="async"
+                  className={`w-full h-auto max-h-[72vh] sm:max-h-[660px] ${
+                    article.imageFocus === 'bottom' || article.categorySlug === 'supercarros'
+                      ? 'object-cover object-bottom sm:object-contain'
+                      : 'object-cover sm:object-contain'
+                  } mx-auto transition-transform duration-700 ease-out group-hover:scale-[1.015]`}
+                />
+
+                {/* Floating Zoom Indicator Pill */}
+                <div className="absolute bottom-3 right-3 z-20 flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-black/80 backdrop-blur-md text-white text-[11px] font-medium border border-lux-gold/30 shadow-lg group-hover:bg-lux-gold group-hover:text-black transition-all">
+                  <Maximize2 className="w-3.5 h-3.5 text-lux-gold group-hover:text-black transition-colors" />
+                  <span>Toque para Zoom 4K</span>
+                </div>
+              </div>
+
+              {/* Photo Caption Bar */}
+              <div className="relative z-10 p-3.5 bg-white/95 dark:bg-[#121215]/95 backdrop-blur-md border-t border-lux-border-light dark:border-lux-border-dark text-[11px] text-lux-text-muted flex items-center justify-between">
+                <span className="flex items-center gap-1.5">
+                  <Sparkles className="w-3 h-3 text-lux-gold" />
+                  Fotografia oficial com verificação de autenticidade • Alta Resolução
+                </span>
                 <span className="text-lux-gold font-medium">Acervo Radar do Luxo</span>
               </div>
             </div>
@@ -639,6 +671,15 @@ export default function ArticlePage({ onQuickView }) {
         isOpen={isConciergeOpen}
         onClose={() => setIsConciergeOpen(false)}
         article={article}
+      />
+
+      {/* Modal de Zoom em Alta Resolução (Lightbox com Pinch-to-Zoom) */}
+      <ImageLightboxModal
+        isOpen={isLightboxOpen}
+        src={article?.image}
+        alt={article?.title}
+        title={article?.title}
+        onClose={() => setIsLightboxOpen(false)}
       />
     </article>
   );

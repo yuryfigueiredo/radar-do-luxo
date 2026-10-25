@@ -93,7 +93,8 @@ export const INITIAL_HOT_PAUTAS = [
       chassi: 'Carbo-Titânio HP62 G2 em autoclave a 6 bar',
       downforce: '1.000 kg a 320 km/h'
     },
-    suggestedImage: 'https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&q=80&w=1400',
+    suggestedImage: 'https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=max&q=85&w=1800',
+    imageFocus: 'bottom',
     status: 'available'
   },
   {

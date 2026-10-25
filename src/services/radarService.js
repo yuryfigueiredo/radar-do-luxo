@@ -53,6 +53,12 @@ function getLocalArticles() {
       if (!updated.rankingScore) {
         updated.rankingScore = calculateEditorialScore(updated).totalScore;
       }
+      if (updated.image && updated.image.includes('unsplash.com') && updated.image.includes('fit=crop')) {
+        updated.image = updated.image.replace('fit=crop', 'fit=max');
+      }
+      if (!updated.imageFocus) {
+        updated.imageFocus = updated.categorySlug === 'supercarros' ? 'bottom' : 'center';
+      }
       if (isBillionaire) {
         updated = {
           ...updated,
@@ -154,8 +160,14 @@ export async function fetchArticleBySlug(slug) {
         .single();
 
       if (!error && data) {
+        let cleanImage = data.image || '';
+        if (cleanImage.includes('unsplash.com') && cleanImage.includes('fit=crop')) {
+          cleanImage = cleanImage.replace('fit=crop', 'fit=max');
+        }
         return {
           ...data,
+          image: cleanImage,
+          imageFocus: data.image_focus || (data.category_slug === 'supercarros' ? 'bottom' : 'center'),
           categorySlug: data.category_slug,
           authorSlug: data.author_slug,
           readTime: data.read_time,
@@ -174,7 +186,19 @@ export async function fetchArticleBySlug(slug) {
 
   // Fallback
   const articles = getLocalArticles();
-  return articles.find(a => a.slug === slug) || null;
+  const found = articles.find(a => a.slug === slug);
+  if (found) {
+    let cleanImage = found.image || '';
+    if (cleanImage.includes('unsplash.com') && cleanImage.includes('fit=crop')) {
+      cleanImage = cleanImage.replace('fit=crop', 'fit=max');
+    }
+    return {
+      ...found,
+      image: cleanImage,
+      imageFocus: found.imageFocus || (found.categorySlug === 'supercarros' ? 'bottom' : 'center')
+    };
+  }
+  return null;
 }
 
 export async function saveArticle(articleData) {

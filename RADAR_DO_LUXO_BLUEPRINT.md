@@ -1,5 +1,5 @@
 # 💎 RADAR DO LUXO — BLUEPRINT MESTRE DO PROJETO (SSOT)
-**Versão:** 2.6.0  
+**Versão:** 2.7.0  
 **Data de Atualização:** 25/10/2026  
 **Status:** Produção Ativa & Homologada (`https://www.radardoluxo.com.br`)  
 **Repositório Oficial:** `https://github.com/yuryfigueiredo/radar-do-luxo`  
@@ -116,6 +116,10 @@ O design da plataforma acolhe simultaneamente dois perfis de comportamento:
 
 ### 6.2 Página de Artigo / Leitura (Editorial Post)
 * **Barra de Leitura:** Linha dourada minimalista de 1px no topo indicando o progresso da página.
+* **Hero Image Adaptativa (Zero-Crop Architecture):**
+  * Moldura cinematográfica sem cortes bruscos: abandona o corte rígido 16:9 em favor de altura adaptativa (`max-h-[660px]`) e alinhamento focal dinâmico (`imageFocus: 'bottom'` para supercarros/pista, garantindo que parachoques e rodas nunca sejam fatiados).
+  * **Backdrop com Desfoque Ambiente (*Ambient Glow*):** Reflexo suave da própria foto no fundo (`opacity-25 blur-3xl scale-110`) para eliminar barras pretas e conferir imersão de cinema.
+  * **Galeria Lightbox 4K com Pinch-to-Zoom:** Ao tocar ou clicar na imagem, ela se expande em tela cheia com suporte a gestos de pinça multitoque (*pinch-to-zoom* nativo no celular), duplo toque para zoom rápido (1x a 2.5x), arrasto (*pan*) e scroll de mouse no desktop.
 * **Corpo do Texto:**
   * Letra Capitular (*Drop Cap*) no primeiro parágrafo.
   * Citações destacadas (*Pull Quotes*) com a voz autoral do colunista responsável.
@@ -256,6 +260,15 @@ Os seguintes termos estão **terminantemente banidos** da redação de qualquer 
   }
   ```
 * **Fallback Semântico Local Determinístico:** Caso a API externa ou a conexão oscilem, o motor possui um gerador semântico local que extrai entidades (ano, leiloeira, moeda, cidade) e compõe a matéria com a mesma sofisticação literária sem falhar.
+
+### 7.7 Curadoria de Fotografia & Arquitetura Zero-Crop do Robô
+Para garantir que a estrela da matéria (o hipercarro, o turbilhão do relógio ou a falésia da mansão) nunca seja cortada ou fatiada:
+1. **Padrão de CDN `fit=max`:** Todas as imagens homologadas do robô utilizam `fit=max&q=85&w=1800` (e nunca `fit=crop`), garantindo que o servidor de imagens entregue a fotografia inteira sem aparar margens.
+2. **Ponto Focal Inteligente (`imageFocus`):** O robô atribui automaticamente a propriedade focal ao artigo:
+   * `bottom`: Para supercarros, hipercarros e iates, ancorando o corte no asfalto e na linha d'água (impedindo que o parachoque ou rodas sejam cortados).
+   * `center`: Para alta relojoaria, alta joalheria e ateliês de moda.
+   * `top`: Para arranha-céus e penthouses monumentais.
+3. **Resolução Dinâmica sem Faixas Pretas:** No CSS, a foto é exibida com altura adaptativa (`max-h-[660px]`) e um reflexo difuso da própria imagem no fundo (*Ambient Glow* a 25% de opacidade e desfoque de 48px), acolhendo fotografias horizontais, quadradas ou verticais com visual cinematográfico.
 
 ---
 

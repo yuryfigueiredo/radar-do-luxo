@@ -79,36 +79,36 @@ export const BANNED_CLICHES = [
   'divisor de águas'
 ];
 
-// Imagens de acervo selecionadas e verificadas por vertical
+// Imagens de acervo selecionadas e verificadas por vertical (fit=max preserva 100% do sujeito sem corte forçado de bordas)
 export const HOMOLOGATED_IMAGES = {
   supercarros: [
-    'https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&q=80&w=1400'
+    'https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800',
+    'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=max&q=85&w=1800',
+    'https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=max&q=85&w=1800',
+    'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=max&q=85&w=1800'
   ],
   relogios: [
-    'https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1547996160-71dfabb1a7b1?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=1400'
+    'https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=max&q=85&w=1800',
+    'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=max&q=85&w=1800',
+    'https://images.unsplash.com/photo-1547996160-71dfabb1a7b1?auto=format&fit=max&q=85&w=1800',
+    'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=max&q=85&w=1800'
   ],
   arquitetura: [
-    'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1400'
+    'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=85&w=1800',
+    'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800',
+    'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800'
   ],
   wealth: [
-    'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=1400'
+    'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=max&q=85&w=1800',
+    'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=max&q=85&w=1800'
   ],
   estilo: [
-    'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=1400'
+    'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=max&q=85&w=1800',
+    'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=max&q=85&w=1800'
   ],
   destinos: [
-    'https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=1400'
+    'https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800',
+    'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800'
   ]
 };
 
@@ -402,6 +402,7 @@ function synthesizeLocally(rawInput, context, gravitas) {
     date: new Date().toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' }),
     status: 'published',
     rankingScore: 94,
+    imageFocus: context.categorySlug === 'supercarros' ? 'bottom' : 'center',
     engineSource: 'local-synthesizer'
   };
 }
@@ -675,6 +676,7 @@ RETORNE EXCLUSIVAMENTE UM OBJETO JSON VÁLIDO (sem markdown em volta do JSON):
     readTime: `${Math.max(4, (parsed.contentParagraphs || []).length + 1)} min de leitura`,
     date: new Date().toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' }),
     status: 'published',
+    imageFocus: parsed.imageFocus || (context.categorySlug === 'supercarros' ? 'bottom' : 'center'),
     engineSource: 'gemini-flash'
   };
 
