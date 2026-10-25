@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      try {
+        const saved = localStorage.getItem("color-scheme");
+        if (saved === "dark") {
+          document.documentElement.classList.add("dark");
+          document.querySelector('meta[name="color-scheme"]').content = "dark";
+        } else {
+          document.documentElement.classList.remove("dark");
+          document.querySelector('meta[name="color-scheme"]').content = "light";
+        }
+      } catch (e) {}
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Radar do Luxo — Digital Magazine & Trend Radar</title>
+  </head>
+  <body class="bg-lux-bg-light dark:bg-lux-bg-dark text-lux-text-primary dark:text-lux-text-darkPrimary transition-colors duration-300 antialiased font-sans selection:bg-lux-gold selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

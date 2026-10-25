@@ -1,0 +1,41 @@
+name: 💎 Radar do Luxo — Publicação Editorial Autônoma
+
+on:
+  schedule:
+    # 7 Ciclos Diários nos Horários Nobres de Leitura (Horário de Brasília: UTC-3):
+    # - 08h da manhã (Café / Abertura de Mercado) -> 11h UTC
+    # - 10h da manhã (Briefing Executivo)          -> 13h UTC
+    # - 12h do meio-dia (Almoço Executivo)         -> 15h UTC
+    # - 14h da tarde (Abertura de Leilões NY)     -> 17h UTC
+    # - 16h da tarde (Fechamento Europa)           -> 19h UTC
+    # - 18h da tarde (Happy Hour / Coquetéis)      -> 21h UTC
+    # - 20h da noite (Leitura Noturna VIP)         -> 23h UTC
+    # O minuto 17 com jitter interno garante que nunca publique em minuto cravado
+    - cron: '17 11,13,15,17,19,21,23 * * *'
+  # Permite acionar manualmente a qualquer momento pelo botão "Run workflow" no GitHub
+  workflow_dispatch:
+
+jobs:
+  autonomous-editorial-cycle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: 📥 Clonar repositório
+        uses: actions/checkout@v4
+
+      - name: ⚙️ Configurar ambiente Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: 📦 Instalar dependências
+        run: npm ci
+
+      - name: 🚀 Executar Robô Editorial Autônomo com IA & Supabase
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY || secrets.VITE_GEMINI_API_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL || secrets.VITE_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY || secrets.VITE_SUPABASE_ANON_KEY }}
+        run: node scripts/autonomousCrawler.js
