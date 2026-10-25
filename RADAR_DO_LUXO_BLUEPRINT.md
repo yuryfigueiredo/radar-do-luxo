@@ -283,7 +283,7 @@ O site publica matérias de forma 100% autônoma, sem necessidade de computador 
   * **Sexta-feira:** Minuto 11 (`08h11`, `10h11`, `12h11`, `14h11`, `16h11`, `18h11`, `20h11`)
   * **Sábado:** Minuto 32 (`08h32`, `10h32`, `12h32`, `14h32`, `16h32`, `18h32`, `20h32`)
   * **Domingo:** Minuto 14 (`08h14`, `10h14`, `12h14`, `14h14`, `16h14`, `18h14`, `20h14`)
-* **Jitter em Segundos:** O script `autonomousCrawler.js` injeta um atraso aleatório de 5 a 40 segundos antes do processamento, evitando sincronismo robótico no segundo `:00`.
+* **Jitter Orgânico Inteligente:** O script `autonomousCrawler.js` injeta um atraso real de 45 a 165 segundos antes da execução e espalha a assinatura temporal da publicação em uma janela orgânica de até 15 minutos, garantindo total aspecto humano sem queimar a cota gratuita de execução da nuvem.
 * **Script do Robô:** `scripts/autonomousCrawler.js`.
 * **Motor de IA:** Google Gemini API (`gemini-2.5-flash` / `gemini-flash-latest`) com sintetizador semântico local homologado como fallback seguro.
 * **Proteções & Blindagem:**

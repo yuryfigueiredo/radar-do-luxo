@@ -247,9 +247,9 @@ async function runPublicationCycle() {
       }
     }
 
-    // Atraso orgânico de segundos (human jitter) para evitar execução no segundo zero cravado
+    // Atraso orgânico real (human jitter de 1 a 3 minutos) sem queimar a cota da nuvem
     if (!process.env.CI_TEST_NO_DELAY) {
-      const organicDelaySeconds = Math.floor(Math.random() * 35) + 5;
+      const organicDelaySeconds = Math.floor(Math.random() * 120) + 45; // Entre 45s e 165s
       console.log(`⏱️ Sincronizando pulso editorial com ateliês internacionais (+${organicDelaySeconds}s)...`);
       await new Promise(r => setTimeout(r, organicDelaySeconds * 1000));
     }
@@ -276,9 +276,9 @@ async function runPublicationCycle() {
       .replace(/[^\w\s-]/g, '')
       .replace(/\s+/g, '-');
 
-    // Jitter temporal para parecer orgânico
+    // Jitter temporal para parecer orgânico (espalhamento em janela de até 15 minutos)
     const publishDate = new Date();
-    const randomJitterMinutes = Math.floor(Math.random() * 25) + 5;
+    const randomJitterMinutes = Math.floor(Math.random() * 15) + 1;
     publishDate.setMinutes(publishDate.getMinutes() - randomJitterMinutes);
     const publishedAt = publishDate.toISOString();
     const now = new Date();
