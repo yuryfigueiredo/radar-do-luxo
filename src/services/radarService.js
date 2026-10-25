@@ -7,7 +7,7 @@ const LOCAL_STORAGE_DROPS_KEY = 'radar_custom_drops';
 const LOCAL_STORAGE_SUBSCRIBERS_KEY = 'radar_newsletter_subscribers';
 const LOCAL_STORAGE_CONCIERGE_KEY = 'radar_concierge_inquiries';
 const LOCAL_STORAGE_VERSION_KEY = 'radar_content_version';
-export const CURRENT_CONTENT_VERSION = 'v3.0_1792967541258';
+export const CURRENT_CONTENT_VERSION = 'v3.0_1792972189431';
 
 /**
  * Helper to get locally stored articles
@@ -66,8 +66,7 @@ function getLocalArticles() {
           author_slug: 'henrique-vianna',
           category: 'Arquitetura',
           categorySlug: 'arquitetura',
-          category_slug: 'arquitetura',
-          image: (updated.image && updated.image.includes('1592198084033')) ? 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1400' : (updated.image || 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1400')
+          category_slug: 'arquitetura'
         };
       }
       return updated;

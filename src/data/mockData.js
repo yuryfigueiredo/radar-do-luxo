@@ -116,40 +116,41 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
-    "id": "art-bvlgari-cofres-suicos-35-de-aume-2805",
-    "slug": "bvlgari-cofres-suicos-35-de-aumento-em-ouro-fisico-e-artefato-unico-na-soberania-patrimonial-de-2026-2791",
-    "title": "Bvlgari & Cofres Suíços: 35% de Aumento em Ouro Físico e Artefato Único na Soberania Patrimonial de 2026",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
+    "id": "art-moynat-malle-limousine-o-bau-cur-9428",
+    "slug": "moynat-malle-limousine-o-bau-curvo-de-alamo-de-1902-esculpido-sob-medida-para-os-tetos-dos-torpedos-pioneiros-9414",
+    "title": "Moynat Malle Limousine: O Baú Curvo de Álamo de 1902 Esculpido sob Medida para os Tetos dos Torpedos Pioneiros",
+    "category": "Alta-Costura",
+    "categorySlug": "estilo",
+    "category_slug": "estilo",
+    "authorSlug": "clara-meirelles",
+    "author_slug": "clara-meirelles",
     "type": "article",
     "badge": "DESTAQUE MUNDIAL",
     "date": "25 de outubro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=max&q=80&w=1400",
+    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=max&q=80&w=1400",
     "imageFocus": "center",
     "image_focus": "center",
-    "excerpt": "Enquanto a dívida soberana global implode em volatilidade cambial, os maiores family offices de Zurique e Londres recalculam rotas para o silêncio mineral de cofres blindados a setenta metros abaixo dos Alpes.",
+    "excerpt": "A mítica malharia francesa resgata moldes centenários em madeira vaporizada e lona vegetal impermeabilizada para redefinir o transporte de bagagem sob 1,2 G de força lateral.",
     "contentParagraphs": [
-      "O dinheiro recente faz ruído. A soberania patrimonial busca o silêncio mineral. Nos escritórios de custódia fiduciária situados na Bahnhofstrasse e nas colinas de Cologny, os monitores de mercado perderam o apelo estético. Gestores de fortunas multigeracionais fecham as cortinas de linho pesado e ordenam o deslocamento imediato de capital líquido para ativos tangíveis. A inflação estrutural corrói os títulos públicos com a precisão de um ácido industrial. Resta apenas a matéria irredutível.",
-      "A alocação em ouro físico e peças únicas de alta manufatura saltou trinta e cinco por cento nos registros do trimestre. Não se trata de especulação, mas de blindagem contra a erosão cambial. Lingotes de nove noves de pureza, certificados por refinarias seculares da Vallée de Joux, dividem espaço com telas de mestres renascentistas e bronzes fundidos à cera perdida. Cada tonelada metálica depositada em cofres com paredes de aço temperado e sensores sísmicos representa um voto de desconfiança nos bancos centrais. O papel moeda tornou-se uma abstração perigosa.",
-      "Zurique, Londres e São Paulo operam em sintonia fina através de canais criptografados de governança dinástica. Family offices estruturam trusts irrevogáveis cujos estatutos impedem a liquidação de ativos físicos por três gerações consecutivas. A arquitetura jurídica é tão implacável quanto a blindagem do cofre-forte. Compra-se travertino romano Navona para revestir as salas de reunião onde os herdeiros assinam os pactos de preservação. O luxo contemporâneo aboliu a ostentação digital em favor da imune intangibilidade histórica.",
-      "Este é o veredito intransigente do Radar do Luxo para o ciclo que se inicia. Quando o sistema financeiro global caminha para a exaustão de seus próprios algoritmos, a única moeda remanescente é aquela que resiste ao fogo, ao tempo e à sanha tributária dos Estados insolventes. Quem não migrar para o refúgio da matéria pura até o fechamento dos balanços semestrais descobrirá tarde demais que a liquidez é uma miragem passageira."
+      "A carroceria torpedeira cortava o vento em estradas de terra batida. A dinâmica inercial exigia geometria milimétrica.",
+      "O chassi balançava violentamente sobre suspensões de feixe de molas rudimentares. Enquanto isso, o baú curvo em álamo absorvia o impacto. A madeira de álamo foi submetida a banhos de vapor prolongados. Em seguida, recebeu o tensionamento exato sobre gabaritos de ferro forjado à mão em 1902. A curvatura do teto exigia precisão absoluta. O perfil aerodinâmico impedia turbulências catastróficas em altas velocidades. A aerodinâmica rudimentar de Venturi já ditava o fluxo de ar sobre o teto dos bólidos pioneiros.",
+      "O revestimento exterior utiliza lona vegetal impermeabilizada com gutapercha pura. A seiva de árvore tropical endurece em uma armadura intransponível contra a umidade da alta atmosfera alpina. Cantoneiras de latão maciço rebitadas uma a uma ancoram a estrutura. No interior, o linho francês cru protege os pertences contra vibrações crônicas do motor de quatro cilindros. A tolerância de fechamento opera na faixa de décimos de milímetro. A engenharia de bagagem elevou-se ao patamar de ciência balística.",
+      "Nenhuma concessionária de massa reproduz esta obstinação artesanal. A Moynat preserva o método que antecede a obsolescência programada em décadas. O silêncio da matéria bruta prevalece. O objeto permanece imune às modas passageiras."
     ],
     "content_paragraphs": [
-      "O dinheiro recente faz ruído. A soberania patrimonial busca o silêncio mineral. Nos escritórios de custódia fiduciária situados na Bahnhofstrasse e nas colinas de Cologny, os monitores de mercado perderam o apelo estético. Gestores de fortunas multigeracionais fecham as cortinas de linho pesado e ordenam o deslocamento imediato de capital líquido para ativos tangíveis. A inflação estrutural corrói os títulos públicos com a precisão de um ácido industrial. Resta apenas a matéria irredutível.",
-      "A alocação em ouro físico e peças únicas de alta manufatura saltou trinta e cinco por cento nos registros do trimestre. Não se trata de especulação, mas de blindagem contra a erosão cambial. Lingotes de nove noves de pureza, certificados por refinarias seculares da Vallée de Joux, dividem espaço com telas de mestres renascentistas e bronzes fundidos à cera perdida. Cada tonelada metálica depositada em cofres com paredes de aço temperado e sensores sísmicos representa um voto de desconfiança nos bancos centrais. O papel moeda tornou-se uma abstração perigosa.",
-      "Zurique, Londres e São Paulo operam em sintonia fina através de canais criptografados de governança dinástica. Family offices estruturam trusts irrevogáveis cujos estatutos impedem a liquidação de ativos físicos por três gerações consecutivas. A arquitetura jurídica é tão implacável quanto a blindagem do cofre-forte. Compra-se travertino romano Navona para revestir as salas de reunião onde os herdeiros assinam os pactos de preservação. O luxo contemporâneo aboliu a ostentação digital em favor da imune intangibilidade histórica.",
-      "Este é o veredito intransigente do Radar do Luxo para o ciclo que se inicia. Quando o sistema financeiro global caminha para a exaustão de seus próprios algoritmos, a única moeda remanescente é aquela que resiste ao fogo, ao tempo e à sanha tributária dos Estados insolventes. Quem não migrar para o refúgio da matéria pura até o fechamento dos balanços semestrais descobrirá tarde demais que a liquidez é uma miragem passageira."
+      "A carroceria torpedeira cortava o vento em estradas de terra batida. A dinâmica inercial exigia geometria milimétrica.",
+      "O chassi balançava violentamente sobre suspensões de feixe de molas rudimentares. Enquanto isso, o baú curvo em álamo absorvia o impacto. A madeira de álamo foi submetida a banhos de vapor prolongados. Em seguida, recebeu o tensionamento exato sobre gabaritos de ferro forjado à mão em 1902. A curvatura do teto exigia precisão absoluta. O perfil aerodinâmico impedia turbulências catastróficas em altas velocidades. A aerodinâmica rudimentar de Venturi já ditava o fluxo de ar sobre o teto dos bólidos pioneiros.",
+      "O revestimento exterior utiliza lona vegetal impermeabilizada com gutapercha pura. A seiva de árvore tropical endurece em uma armadura intransponível contra a umidade da alta atmosfera alpina. Cantoneiras de latão maciço rebitadas uma a uma ancoram a estrutura. No interior, o linho francês cru protege os pertences contra vibrações crônicas do motor de quatro cilindros. A tolerância de fechamento opera na faixa de décimos de milímetro. A engenharia de bagagem elevou-se ao patamar de ciência balística.",
+      "Nenhuma concessionária de massa reproduz esta obstinação artesanal. A Moynat preserva o método que antecede a obsolescência programada em décadas. O silêncio da matéria bruta prevalece. O objeto permanece imune às modas passageiras."
     ],
     "specs": {
-      "custodia_fiduciaria": "Cofres subterrâneos classe EN 1143-1 Grau XIII em Zurique",
-      "alocacao_ouro": "Lingotes de 12,5 kg com pureza mínima de 999,9/1000",
-      "governanca_dinastica": "Trusts multigeracionais com cláusula de inalienabilidade de 75 anos",
-      "patamar_historico": "Elevação de 35% na demanda institucional por ativos tangíveis"
+      "material_principal": "Álamo vaporizado com curvo parabólico",
+      "revestimento": "Lona vegetal impermeabilizada com gutapercha",
+      "ferraria": "Latão maciço com rebites de fixação manual",
+      "tolerancia_estrutural": "Ajuste milimétrico sob 1,2 G de força inercial",
+      "ano_origem": "1902"
     },
     "status": "published",
     "isHero": true,
@@ -158,106 +159,10 @@ export const ARTICLES = [
     "is_hero_secondary": false,
     "isPinnedHero": false,
     "is_pinned_hero": false,
-    "rankingScore": 94,
-    "ranking_score": 94,
-    "publishedAt": "2026-10-25T23:27:52.805Z",
-    "published_at": "2026-10-25T23:27:52.805Z"
-  },
-  {
-    "id": "art-zurique-e-londres-o-aporte-histo-9971",
-    "slug": "zurique-e-londres-o-aporte-historico-de-35-em-ouro-fisico-e-ativos-irreprodutiveis-blindados-contra-a-erosao-cambial-9961",
-    "title": "Zurique e Londres: O Aporte Histórico de 35% em Ouro Físico e Ativos Irreprodutíveis Blindados Contra a Erosão Cambial",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
-    "date": "25 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Em meio à instabilidade crônica dos títulos de dívida soberana, gestores de fortunas multigeracionais abandonam a liquidez sintética em favor de cofres subterrâneos e refúgios de soberania patrimonial absoluta.",
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nos cofres blindados situados nas rochas suíças de Zurique e nos subsolos confidenciais de Londres, uma mudança tectônica opera-se sem alarde publicitário. Family offices de arquitetura secular elevaram em trinta e cinco por cento a custódia direta de metais preciosos e peças únicas de alta manufatura, ignorando as promessas de rendimento volátil dos mercados globais de dívida soberana.",
-      "A erosão cambial das moedas fiduciárias impôs uma rigorosa reavaliação de risco aos comitês de governança dinástica. Quando a inflação estrutural corrói os alicerces dos títulos públicos e a volatilidade geopolítica compromete os corredores tradicionais de liquidez, o capital soberano migra para a tangibilidade atemporal. Lingotes pesados de nove noves e artefatos de colecionismo histórico tornam-se a única âncora imune às flutuações algorítmicas dos mercados acionários.",
-      "Neste ecossistema de preservação de valor, cada quilograma de ouro depositado e cada obra mestra adquirida em leilões fechados operam como apólices definitivas de imunidade temporal. Não há otimização fiscal agressiva ou engenharia financeira sofisticada que substitua o peso incompressível da matéria-prima primordial guardada sob jurisdições políticas neutras e seguras contra confisco.",
-      "O veredito das mesas de gestão é definitivo. O futuro imediato pertence àqueles que convertem números voláteis de telas digitais em ativos palpáveis, garantindo que gerações futuras recebam não apenas riqueza acumulada, mas a própria soberania intacta sobre o tempo e a matéria."
-    ],
-    "content_paragraphs": [
-      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nos cofres blindados situados nas rochas suíças de Zurique e nos subsolos confidenciais de Londres, uma mudança tectônica opera-se sem alarde publicitário. Family offices de arquitetura secular elevaram em trinta e cinco por cento a custódia direta de metais preciosos e peças únicas de alta manufatura, ignorando as promessas de rendimento volátil dos mercados globais de dívida soberana.",
-      "A erosão cambial das moedas fiduciárias impôs uma rigorosa reavaliação de risco aos comitês de governança dinástica. Quando a inflação estrutural corrói os alicerces dos títulos públicos e a volatilidade geopolítica compromete os corredores tradicionais de liquidez, o capital soberano migra para a tangibilidade atemporal. Lingotes pesados de nove noves e artefatos de colecionismo histórico tornam-se a única âncora imune às flutuações algorítmicas dos mercados acionários.",
-      "Neste ecossistema de preservação de valor, cada quilograma de ouro depositado e cada obra mestra adquirida em leilões fechados operam como apólices definitivas de imunidade temporal. Não há otimização fiscal agressiva ou engenharia financeira sofisticada que substitua o peso incompressível da matéria-prima primordial guardada sob jurisdições políticas neutras e seguras contra confisco.",
-      "O veredito das mesas de gestão é definitivo. O futuro imediato pertence àqueles que convertem números voláteis de telas digitais em ativos palpáveis, garantindo que gerações futuras recebam não apenas riqueza acumulada, mas a própria soberania intacta sobre o tempo e a matéria."
-    ],
-    "specs": {
-      "Aumento de Custódia": "35% em ativos físicos tangíveis",
-      "Principais Jurisdições": "Zurique, Genebra, Londres e São Paulo",
-      "Classe de Ativo Principal": "Ouro em barras de 400 onças e peças únicas",
-      "Perfil de Governança": "Family Offices multigeracionais de custódia fiduciária"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 94,
-    "ranking_score": 94,
-    "publishedAt": "2026-10-25T23:12:09.971Z",
-    "published_at": "2026-10-25T23:12:09.971Z"
-  },
-  {
-    "id": "art-bvlgari-cofres-suicos-o-aporte-d-6429",
-    "slug": "bvlgari-cofres-suicos-o-aporte-de-35-em-ouro-fisico-e-pecas-unicas-que-blindam-a-soberania-patrimonial-contra-a-erosao-cambial-6414",
-    "title": "Bvlgari & Cofres Suíços: O Aporte de 35% em Ouro Físico e Peças Únicas que Blindam a Soberania Patrimonial Contra a Erosão Cambial",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
-    "date": "25 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Em Zurique e Londres, os family offices abandonam a volatilidade da dívida soberana em favor do silêncio mineral e da custódia física absoluta.",
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nos cofres subterrâneos fortificados nas margens do Lago de Genebra e nos distritos financeiros mais discretos de Londres, os gestores de fortunas multigeracionais executam um movimento silencioso. A inflação estrutural corrói os títulos soberanos. A volatilidade cambial devora a liquidez tradicional. A resposta não reside em algoritmos de alta frequência.",
-      "A alocação em ouro físico e ativos tangíveis de escassez matemática cresceu 35% no último trimestre. Não se trata de especulação mercadológica. Trata-se de governança dinástica e refúgio de liquidez. O ouro em barras numeradas de 400 onças, fundadas com pureza de quatro noves, divide espaço com peças de alta-costura em linho com ponto selê e relógios com calibres de manufatura centenária. A matéria-prima sólida substitui o papel-moeda inflacionado.",
-      "Em São Paulo, Zurique e Cingapura, os comitês de investimentos reescrevem os estatutos fiduciários. O travertino romano Navona dos escritórios de custódia privada abriga contratos de guarda perpétua. Cada quilograma de metal precioso e cada obra de arte com proveniência imaculada atua como âncora gravitacional. O capital migra das telas digitais para cofres de segurança máxima com blindagem termonuclear e monitoramento biométrico autônomo.",
-      "Esta é a imunidade temporal em sua forma mais pura. Enquanto os mercados globais oscilam ao sabor de discursos fiscais inconsequentes, as famílias detentoras do poder econômico real consolidam fortalezas físicas. A soberania patrimonial não se negocia em bolsas de valores. Ela se pesa, se cataloga e se encerra em cofres blindados onde o tempo perde a capacidade de destruir o valor."
-    ],
-    "content_paragraphs": [
-      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nos cofres subterrâneos fortificados nas margens do Lago de Genebra e nos distritos financeiros mais discretos de Londres, os gestores de fortunas multigeracionais executam um movimento silencioso. A inflação estrutural corrói os títulos soberanos. A volatilidade cambial devora a liquidez tradicional. A resposta não reside em algoritmos de alta frequência.",
-      "A alocação em ouro físico e ativos tangíveis de escassez matemática cresceu 35% no último trimestre. Não se trata de especulação mercadológica. Trata-se de governança dinástica e refúgio de liquidez. O ouro em barras numeradas de 400 onças, fundadas com pureza de quatro noves, divide espaço com peças de alta-costura em linho com ponto selê e relógios com calibres de manufatura centenária. A matéria-prima sólida substitui o papel-moeda inflacionado.",
-      "Em São Paulo, Zurique e Cingapura, os comitês de investimentos reescrevem os estatutos fiduciários. O travertino romano Navona dos escritórios de custódia privada abriga contratos de guarda perpétua. Cada quilograma de metal precioso e cada obra de arte com proveniência imaculada atua como âncora gravitacional. O capital migra das telas digitais para cofres de segurança máxima com blindagem termonuclear e monitoramento biométrico autônomo.",
-      "Esta é a imunidade temporal em sua forma mais pura. Enquanto os mercados globais oscilam ao sabor de discursos fiscais inconsequentes, as famílias detentoras do poder econômico real consolidam fortalezas físicas. A soberania patrimonial não se negocia em bolsas de valores. Ela se pesa, se cataloga e se encerra em cofres blindados onde o tempo perde a capacidade de destruir o valor."
-    ],
-    "specs": {
-      "Alocacao_Estrategica": "+35% em ativos tangíveis e ouro",
-      "Centros_De_Custodia": "Zurique, Genebra, Londres e São Paulo",
-      "Padrao_Do_Metal": "Ouro bullion 999.9 numerado",
-      "Governanca": "Trusts multigeracionais e custódia fiduciária"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 94,
-    "ranking_score": 94,
-    "publishedAt": "2026-10-25T22:41:16.429Z",
-    "published_at": "2026-10-25T22:41:16.429Z"
+    "rankingScore": 95,
+    "ranking_score": 95,
+    "publishedAt": "2026-10-25T23:35:49.428Z",
+    "published_at": "2026-10-25T23:35:49.428Z"
   },
   {
     "id": "art-cofres-suicos-de-alta-seguranca--1254",
@@ -394,8 +299,8 @@ export const ARTICLES = [
     "status": "published",
     "isHero": false,
     "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 96,
@@ -417,7 +322,7 @@ export const ARTICLES = [
     "date": "25 de outubro de 2026",
     "readTime": "5 min de leitura",
     "isHero": false,
-    "isHeroSecondary": true,
+    "isHeroSecondary": false,
     "rankingScore": 86,
     "specs": {
       "motorizacao": "Koenigsegg V8 5.0L Biturbo (1.600 cv em E85)",
@@ -437,7 +342,7 @@ export const ARTICLES = [
       "No tabuleiro dos grandes leilões internacionais fechados, exemplares com esta densidade técnica não sofrem depreciação; convertem-se em moedas de troca soberanas entre family offices. Adquirir um Jesko Absolut é assinar um contrato irrevogável com a eternidade material. Aqui reside o verdadeiro luxo contemporâneo: a posse incontestável de um artefato raro que zomba do tempo e das modas efêmeras da modernidade líquida."
     ],
     "is_hero": false,
-    "is_hero_secondary": true
+    "is_hero_secondary": false
   },
   {
     "id": "art-gma-t50s-niki-lauda-o-bolido-de--1001",
@@ -453,7 +358,7 @@ export const ARTICLES = [
     "date": "25 de outubro de 2026",
     "readTime": "5 min de leitura",
     "isHero": false,
-    "isHeroSecondary": true,
+    "isHeroSecondary": false,
     "rankingScore": 78,
     "specs": {
       "motorizacao": "Cosworth GMA V12 3.9L Naturalmente Aspirado (12.100 RPM)",
@@ -471,7 +376,9 @@ export const ARTICLES = [
       "Sob a cobertura traseira, o motor V12 de 3,9 litros desenvolvido pela Cosworth atinge o limite mecânico de 12.100 RPM. A combustão interna grita em frequências agudas de carros de F1 históricos. O escape em Inconel 625 dissipa calor incandescente enquanto os pistões forjados operam com tolerâncias de mícrons. A resposta ao acelerador é instantânea e brutal.",
       "Atrás, a turbina de vácuo de 400 mm suga o ar sob o assoalho em milissegundos. Este fluxo de Venturi de efeito solo sela o bólido ao asfalto independentemente da velocidade nas curvas de alta. A aerodinâmica ativa elimina o arrasto parasita enquanto gera downforce equivalente ao próprio peso do veículo. A física cedeu à genialidade pura de Gordon Murray.",
       "Exemplares limitados a um seleto grupo de colecionadores evidenciam o repúdio à obsolescência programada. Enquanto o mercado massifica a eletrificação pesada, esta máquina permanece como o ápice da combustão mecânica pura. O asfalto absorve a fúria de trezentos quilos de carga aerodinâmica. O silêncio da pista é rasgado pelo triunfo da engenharia intransigente."
-    ]
+    ],
+    "is_hero": false,
+    "is_hero_secondary": false
   },
   {
     "id": "art-pagani-huayra-r-evo-o-monstro-lo-1002",
@@ -507,7 +414,9 @@ export const ARTICLES = [
       "Cada curva do monocoque em carbo-titânio curado em autoclave a 6 bar foi desenhada para gerar downforce bruto sem comprometer a agilidade inercial. Os canais Venturi inferiores aceleram o fluxo de ar comprimindo o chassi contra o asfalto. A força G lateral atinge patamares reservados exclusivamente a monopostos de competição enquanto o escape em Inconel 625 incandesce sob carga máxima.",
       "A aerodinâmica longtail estende a silhueta em proporções que lembram os protótipos de Le Mans dos anos setenta. Não há espaço para concessões digitais ou assistências eletrônicas anestesiantes. O piloto interage diretamente com o chassi através de um volante removível em alumínio usinado que transmite cada imperfeição do piso com precisão cirúrgica.",
       "Este Huayra R Evo não busca a aprovação do mercado generalista. Ele consolida um refúgio para colecionadores que ainda entendem o perfume do óleo aquecido e o som metálico de uma transmissão sequencial de garfos em aço dog-ring. É a engenharia mecânica elevada ao seu estado mais puro e implacável."
-    ]
+    ],
+    "is_hero": false,
+    "is_hero_secondary": false
   },
   {
     "id": "art-lurssen-kismet-o-megaiate-de-122-1003",
@@ -541,7 +450,9 @@ export const ARTICLES = [
       "Sob o convés teca, a acústica do casco foi rigorosamente tratada para eliminar qualquer vibração mecânica perceptível aos sentidos humanos. O propulsor principal, acoplado a sistemas de posicionamento dinâmico avançados, permite que a embarcação permaneça estática em alto-mar sem o uso de âncoras físicas, preservando ecossistemas submarinos delicados enquanto os ocupantes desfrutam de uma atmosfera de serenidade absoluta. Cada antepara interna foi concebida para resistir a torções estruturais extremas, garantindo que o mármore travertino romano permaneça perfeitamente alinhado sob força G lateral severa.",
       "Com tarifas de afretamento fixadas em três milhões de euros semanais, o Kismet opera como um ativo de liquidez restrita, acessível apenas a um seleto grupo de family offices globais. Sua infraestrutura inclui helipontos duplos certificados para aeronaves de grande porte e um sistema proprietário de crioterapia submarina, integrando bem-estar físico de alta performance à navegação transoceânica. Trata-se de um refúgio de soberania absoluta, onde o tempo perde sua urgência mecânica e a discrição é mantida por tripulações submetidas a acordos de confidencialidade perpétua.",
       "A aquisição ou o aluguel desta embarcação transcende o consumo recreativo; constitui um movimento tático de preservação de capital em ativos tangíveis de altíssima resiliência. Enquanto os mercados tradicionais flutuam ao sabor da volatilidade macroeconômica, o Kismet permanece ancorado em sua própria categoria de valor inegociável. Henrique Vianna assina este veredito: para aqueles que compreendem a verdadeira geometria do poder, o oceano é a última fronteira onde a lei do silêncio soberano ainda impera."
-    ]
+    ],
+    "is_hero": false,
+    "is_hero_secondary": false
   },
   {
     "id": "art-feadship-obsidian-o-superiate-hi-1004",
@@ -575,7 +486,9 @@ export const ARTICLES = [
       "O coração energético reside em um banco de baterias de 4.5 MWh alojado no ventre do navio. Os geradores a diesel operam apenas como suporte secundário para travessias transatlânticas prolongadas. Sensores de telemetria inercial monitoram o balanço lateral, ajustando estabilizadores giroscópicos em frações de milissegundo. A força G lateral nas curvas fechadas de alta velocidade dissipa-se suavemente através de anteparas estruturais em fibra de carbono.",
       "No salão principal, o uso de superfícies espelhadas e painéis solares integrados ao deck redefine a relação entre habitabilidade e eficiência termodinâmica. A energia gerada durante as manobras de desaceleração é recuperada por sistemas de regeneração direta, alimentando os servidores de bordo e o sistema de climatização sem emitir um único decibel de ruído mecânico. É a engenharia naval convertida em monólito flutuante.",
       "A soberania deste projeto reside na recusa intransigente aos velhos padrões de consumo fóssil. Gabriel Fontes valida: o verdadeiro luxo marítimo contemporâneo não é a ostentação de milhas náuticas a vapor, mas a capacidade de navegar em silêncio absoluto, impulsionado por densidade energética pura e inteligência algorítmica."
-    ]
+    ],
+    "is_hero": false,
+    "is_hero_secondary": false
   },
   {
     "id": "art-fp-journe-chronometre-bleu-o-rar-1005",
@@ -591,7 +504,7 @@ export const ARTICLES = [
     "date": "24 de outubro de 2026",
     "readTime": "6 min de leitura",
     "isHero": false,
-    "isHeroSecondary": true,
+    "isHeroSecondary": false,
     "rankingScore": 79,
     "specs": {
       "caixa": "Tântalo polido de densidade mineral extrema fundido a 3.000°C",
@@ -611,7 +524,9 @@ export const ARTICLES = [
       "O mostrador monocromático em azul Klein utiliza um processo de aplicação de verniz laqueado que cria uma textura sutilmente granulada, onde os numerais arábicos prateados flutuam com serenidade atemporal. As horas deslizam sem o ruído do mundo moderno. As marcações brancas são impressas com relevo quase imperceptível, exigindo lupas de alta magnificação para revelar a perfeição geométrica dos traços criados nos ateliês independentes.",
       "A pulseira em couro de aligátor azul marinho, costurada à mão com fio de linho encerado, completa a simbiose tátil entre o pulso e a alta relojoaria independente. O fecho de pin em tântalo espelha o rigor da caixa, fechando o ciclo de uma obra que recusa a produção em série em favor da exclusividade absoluta ditada por cotas anuais severamente restritas.",
       "Possuir um Chronomètre Bleu com caixa de tântalo não representa um acúmulo de bens, mas a custódia temporária de um testamento mecânico. Ele permanece inalterado pelo tempo, imune às tendências passageiras, aguardando pacientemente a próxima geração para lembrar que a verdadeira riqueza reside na precisão silenciosa e no trabalho humano intransigente."
-    ]
+    ],
+    "is_hero": false,
+    "is_hero_secondary": false
   },
   {
     "id": "art-a-lange-sohne-datograph-honeygol-1006",
@@ -645,7 +560,9 @@ export const ARTICLES = [
       "Sob o mostrador de safira fumê com tratamento especial, o calibre L951.7 desdobra sua arquitetura monumental em 684 componentes polidos à mão. A luz ultravioleta desperta o composto luminescente por trás da placa translúcida, expondo a dança matemática da roda de pilares e o mecanismo flyback do cronógrafo de minutos saltantes. Cada chanfro em anglage recebe o atrito paciente de pastas de diamante e polidores de feltro, enquanto o balanço oscila com a respiração firme de uma espiral desenvolvida in-house.",
       "A genialidade técnica atinge seu ápice invisível na complicação do turbilhão combinado com a parada de segundos. Puxar a coroa não apenas suspende o balanço através de uma mola microscópica em forma de V; o próprio eixo do turbilhão congela instantaneamente, permitindo o acerto temporal com precisão absoluta de frações de segundo. Esta proeza de engenharia exige um cálculo exato de massas, onde o equilíbrio dinâmico não tolera desvios superiores a mícron.",
       "Limitado estritamente a duzentos exemplares para colecionadores que compreendem a soberania do tempo mecânico, este relógio rejeita o efêmero. Ele representa a vitória definitiva do trabalho artesanal sobre a obsolescência digital, um monumento portátil forjado para atravessar dinastias sem perder a cadência perfeita de seu pulsar."
-    ]
+    ],
+    "is_hero": false,
+    "is_hero_secondary": false
   },
   {
     "id": "art-vacheron-constantin-les-cabinoti-1007",
@@ -678,7 +595,9 @@ export const ARTICLES = [
       "No interior da arquitetura, o calibre de manufatura opera com 2.877 peças individuais que exigiram novas ligas metálicas e ajustes térmicos específicos. Cada ponte recebe o anglage com sabugueiro silvestre e polimento manual em espelho. As rodas de escape de silício trabalham em harmonia silenciosa com indicações astronômicas complexas. Cartas celestes em tempo real, equações do tempo e calendários perpétuos se desdobram sob o vidro de safira sem o menor sinal de atrito excessivo. A energia é distribuída por barriletes duplos calibrados com precisão milimétrica.",
       "Colecionadores de alta-costura mecânica compreendem que a raridade reside na impossibilidade de replicação em escala industrial. A oficina Les Cabinotiers opera fora do tempo comercial, respondendo apenas ao rigor dos mestres relojoeiros que nunca viram pressa como virtude. O mostrador exibe esmalte Grand Feu curado a 820°C em fornos de atmosfera controlada. Cada índice aplicado à mão pontua a escuridão do fundo com a frieza nobre do metal precioso.",
       "Este exemplar não figura nos catálogos tradicionais e jamais integrará o circuito efêmero das tendências de consumo. Sua custódia é fiduciária, destinada a cofres blindados onde a herança familiar se perpetua sem ruído. A Vacheron Constantin reafirma, com este monumento cinético, que a verdadeira riqueza é a paciência elevada à categoria de arte mecânica incorruptível."
-    ]
+    ],
+    "is_hero": false,
+    "is_hero_secondary": false
   },
   {
     "id": "art-rexhep-rexhepi-chronometre-conte-1008",
@@ -712,7 +631,9 @@ export const ARTICLES = [
       "O calibre de manufatura exige tolerâncias inferiores a dois mícrons em seus eixos de aço temperado. O mostrador em esmalte Grand Feu exibe numeração romana pintada à mão com pigmentos calcinados a oitocentos graus Celsius. A ponte do balanço duplo, simétrica e monumental, distribui o torque com precisão cirúrgica. Não há espaço para excessos ornamentais na platina principal.",
       "Enquanto conglomerados entregam volumes industriais pasteurizados, a Akrivia aposta na escassez matemática e na soberania do ateliê independente. A repetição exata do ciclo de zero-reset, que sincroniza o ponteiro dos segundos instantaneamente ao puxar a coroa, revela uma complexidade invisível aos leigos. É a engenharia mecânica elevada a uma forma de arquitetura portátil, livre de obsolescência programada.",
       "O veredito da alta relojoaria é unânime diante de tal disciplina construtiva. O Chronomètre Contemporain II não serve para exibir pressa nos salões financeiros. Ele permanece como um testamento de resistência física e estética contra a obsolescência digital, destinado exclusivamente a colecionadores que compreendem o verdadeiro valor da permanência material."
-    ]
+    ],
+    "is_hero": false,
+    "is_hero_secondary": false
   },
   {
     "id": "art-hermes-faubourg-saint-honore-30--1009",
@@ -747,18 +668,20 @@ export const ARTICLES = [
       "A agulha dupla de aço penetra o orifício pré-marcado com precisão milimétrica. O ponto selê, herdado diretamente dos mestres seleiros de 1837, utiliza linho encerado em cera virgem. O nó duplo interno garante que, se um fio romper após meio século de uso, a estrutura inteira permanece intacta e indestrutível.",
       "Nenhum motor elétrico auxilia o fecho. Apenas a tração equilibrada dos braços e a sensibilidade dos dedos calejados pelo atrito constante determinam a tensão ideal do fio. É a antítese absoluta da produção em massa automatizada, um refúgio de soberania artesanal onde o tempo deixa de ser uma métrica financeira.",
       "A conclusão de uma única bolsa exige dezenas de horas de silêncio contemplativo. O objeto resultante não ostenta logotipos estridentes, mas carrega o peso invisível de uma linhagem inegociável. A verdadeira opulência reside na paciência inabalável de quem recusa o efêmero."
-    ]
+    ],
+    "is_hero": false,
+    "is_hero_secondary": false
   },
   {
     "id": "art-rm-sothebys-the-white-collection-1010",
     "slug": "rm-sothebys-the-white-collection-o-acervo-secreto-de-56-porsches-brancos-intactos-arrematado-por-us-305-milhoes-em-custodia-fiduciaria",
     "title": "RM Sotheby's The White Collection: O Acervo Secreto de 56 Porsches Brancos Intactos Arrematado por US$ 30,5 Milhões em Custódia Fiduciária",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
     "type": "article",
     "badge": "RECORDE DE LEILÃO",
     "excerpt": "A liquidação cirúrgica de um santuário monocromático na Flórida prova que a escassez absoluta e a uniformidade cromática operam como soberania patrimonial longe das volatilidades do mercado de capitais.",
-    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=1400",
+    "image": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=1400",
     "authorSlug": "henrique-vianna",
     "date": "24 de outubro de 2026",
     "readTime": "5 min de leitura",
@@ -781,76 +704,10 @@ export const ARTICLES = [
       "A transação fechada em exatos 30.581.400 dólares revelou a resiliência implacável de ativos intocados. Entre os lotes disputados por fundações privadas e family offices, o raro Porsche 911 RSR de 1993, com apenas dez quilômetros originais em seu odômetro, atingiu cifras que desafiam a lógica convencional de depreciação automotiva. A carroçaria imaculada repousava sobre pneumáticos de época perfeitamente preservados, atestando um rigor de conservação museológica que transcende a simples posse mecânica.",
       "Os mercados tradicionais oscilam conforme os humores da macroeconomia global. O colecionismo de altíssimo nível, contudo, opera sob a égide da imunidade temporal. Adquirir um bloco monolítico de veículos com especificações idênticas e histórico imaculado não é um ato de consumo, mas de alocação patrimonial defensiva. A liquidez migra para ativos tangíveis que acumulam valor intrínseco, imunes a modismos, decretos fiscais e inflação fiduciária.",
       "O martelo bateu pela última vez. O acervo dispersou-se para cofres blindados ao redor do globo, mantendo intacta a aura de exclusividade que define a elite da custódia internacional. Para Henrique Vianna, a operação consolida uma verdade incontestável: quando a matéria-prima atinge a perfeição e a raridade estatística, o preço torna-se apenas um detalhe secundário diante da perenidade histórica."
-    ]
-  },
-  {
-    "id": "art-family-offices-globais-35-de-aum-1011",
-    "slug": "family-offices-globais-35-de-aumento-na-guarda-de-ouro-fisico-em-cofres-suicos-blindados-contra-a-degradacao-fiduciaria",
-    "title": "Family Offices Globais: 35% de Aumento na Guarda de Ouro Físico em Cofres Suíços Blindados contra a Degradação Fiduciária",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "type": "article",
-    "badge": "GOVERNANÇA PATRIMONIAL",
-    "excerpt": "Um raio-x confidencial nas estratégias de preservação patrimonial revela o êxodo maciço de ativos digitais voláteis em direção ao silêncio mineral dos lingotes puros.",
-    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1400",
-    "authorSlug": "henrique-vianna",
-    "date": "23 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "isHero": false,
-    "isHeroSecondary": false,
-    "rankingScore": 86,
-    "specs": {
-      "movimentacao": "Migração de 35% de ativos líquidos para ouro fino e propriedades troféu",
-      "jurisdicoes": "Portos francos de segurança máxima em Zurique, Genebra e Liechtenstein",
-      "finalidade": "Blindagem de governança dinástica multigeracional contra volatilidade cambial",
-      "fonte": "Global Single Family Office Asset Allocation Benchmark 2026",
-      "Crescimento de Alocação": "+35% em ouro físico inalcançável",
-      "Padrão de Pureza": "999,9 Good Delivery London Bullion Market",
-      "Jurisdição de Guarda": "Cofres subterrâneos em Zurique e Genebra",
-      "Perfil do Ativo": "Lingotes castrados de 400 onças troy",
-      "Horizonte Temporal": "Governança dinástica superior a 50 anos"
-    },
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Enquanto os mercados globais celebram volatilidades algorítmicas, os gabinetes de gestão privada operam uma mutação tectônica em seus balanços. A soberania patrimonial não admite promessas digitais lastreadas no vazio. Há uma corrida metódica pelo isolamento físico de lingotes de alta densidade em cofres blindados nas profundezas dos Alpes helvéticos.",
-      "A alocação em barras de 400 onças de pureza 999,9 disparou trinta e cinco por cento nos portfólios monitorados por este conselho. Trata-se de uma fuga cirúrgica da inflação sistêmica emitida por bancos centrais insolventes. Cada tonelada transferida para custódia fiduciária representa um manifesto contra a fragilidade dos derivativos. A matéria-prima física responde ao toque com o peso exato da eternidade, anulando o risco de contraparte que corrói fortunas seculares desde a última década.",
-      "A governança dinástica exige imunidade temporal. Nossos consultores em Genebra e Zurique mapearam a transição de títulos soberanos depreciados para ativos tangíveis de liquidez atemporal. O ouro não oscila ao sabor de discursos geopolíticos ou crises de liquidez bancária. Ele apenas repousa. Sua densidade de dezenove vírgula trinta e dois gramas por centímetro cúbico é a única métrica aceitável para quem planeja a sobrevivência de clãs por mais de três gerações.",
-      "O veredito das mesas de comando patrimonial é definitivo e irrevogável. A era da ilusão baseada em papel fiat chegou ao seu crepúsculo. Quem não assegurar reservas físicas isoladas do sistema bancário tradicional estará vulnerável ao colapso sistêmico iminente. No radar dos grandes capitais, o refúgio seguro deixou de ser uma tese teórica para se converter na única trincheira viável."
-    ]
-  },
-  {
-    "id": "art-bleu-royal-o-diamante-azul-de-17-1012",
-    "slug": "bleu-royal-o-diamante-azul-de-1761-quilates-que-redefiniu-os-limites-da-geologia-e-da-soberania-patrimonial",
-    "title": "Bleu Royal: O Diamante Azul de 17,61 Quilates que Redefiniu os Limites da Geologia e da Soberania Patrimonial",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "type": "article",
-    "badge": "TESOURO HISTÓRICO",
-    "excerpt": "Arrematado por 44 milhões de dólares em Genebra, este exemplar absoluto de pureza Type IIb consolida a imortalidade do silêncio mineral diante das turbulências fiduciárias globais.",
-    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1400",
-    "authorSlug": "henrique-vianna",
-    "date": "23 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "isHero": false,
-    "isHeroSecondary": false,
-    "rankingScore": 85,
-    "specs": {
-      "quilates": "17.61 quilates lapidação pêra Fancy Vivid Blue de saturação perfeita",
-      "pureza": "Internally Flawless (IF) atestado pelo Gemological Institute of America",
-      "arremate": "US$ 43.800.000 após duelo de lances telefônicos fechados em Genebra",
-      "proveniencia": "Acervo particular aristocrático suíço preservado sem intervenção por 50 anos",
-      "Peso": "17,61 quilates",
-      "Classificação de Cor": "Fancy Vivid Blue",
-      "Tipo Químico": "Type IIb (presença de boro)",
-      "Lapidação": "Pera simétrica",
-      "Valor de Arremate": "USD 44.279.500",
-      "Casa de Leilões": "Christie's Genebra"
-    },
-    "contentParagraphs": [
-      "A luz não atravessa a gema; ela se curva diante de sua soberania. Em uma sala de leilões onde o dinheiro recente busca apenas o eco efêmero de sua própria pressa, o martelo caiu sobre um silêncio absoluto. Tratava-se do Bleu Royal, um diamante azul vívido de 17,61 quilates que desafia a própria lógica da raridade geológica terrestre. Cada fração de quilate esculpida carrega o peso de eras incontáveis, confinando a volatilidade dos mercados modernos a uma irrelevância matemática.",
-      "Classificado na imaculada categoria Type IIb, o diamante contém traços milimétricos de boro, responsáveis por sua coloração magnética e condutividade elétrica atípica. A lapidação simétrica em pera exige uma precisão de corte comparável à regulação de um calibre de alta complicação na Vallée de Joux. O lapidário trabalhou meses sob luz polarizada, eliminando tensões internas invisíveis ao microscópio para garantir que o retorno de luz atingisse um fulgor quase alucinógeno. A tolerância de erro tolerada era inferior à espessura de uma célula sanguínea.",
-      "Famílias dinásticas e fundações soberanas enxergam nestes ativos corpóreos o verdadeiro refúgio contra a erosão inflacionária e a obsolescência digital. Enquanto corporações de tecnologia acumulam silício volátil, o capital de raiz histórica migra para o carbono puro e inalterável. Os 44 milhões de dólares desembolsados em Genebra não representam uma transação de mercado tradicional, mas sim a custódia fiduciária de um fragmento atemporal que continuará a existir e a ditar valor séculos após o colapso das moedas correntes.",
-      "O Bleu Royal abandona os holofotes e recolhe-se agora aos cofres blindados de uma coleção privada, reafirmando a máxima de que o luxo verdadeiro nunca grita sua presença. Ele apenas permanece. Como um relógio mecânico sem rotor que aguarda paciente a intervenção humana para pulsar, esta gema aguarda em trevas absolutas o próximo ciclo da história da civilização, indiferente às métricas da contemporaneidade."
-    ]
+    ],
+    "is_hero": false,
+    "is_hero_secondary": false,
+    "category_slug": "supercarros"
   },
   {
     "id": "art-sheats-goldstein-residence-a-obr-1013",
@@ -882,7 +739,9 @@ export const ARTICLES = [
       "Cada metro quadrado desta residência opera com tolerâncias milimétricas comparáveis aos complexos trens de engrenagem de um calibre suíço de grande complicação. O teto em caixotão de concreto armado exige o mesmo rigor de acabamento manual dedicado a uma anglage executada com sabugueiro silvestre. A madeira coffered ceiling encontra o vidro monolítico sem juntas aparentes, criando uma acústica interna onde o ruído urbano dissipa-se por completo.",
       "A avaliação de cem milhões de dólares não reflete apenas a localização privilegiada acima de Benedict Canyon, mas a raridade de uma custódia imobiliária intocada. O design orgânico rejeita as convenções residenciais tradicionais. O piso de terrazzo flutua sobre vigas tensionadas, enquanto a piscina de borda infinita mimetiza o horizonte cinza e dourado da bacia de Los Angeles.",
       "O tempo nesta arquitetura monumental não corre pelo relógio utilitário. Ele se acomoda na textura áspera do concreto e na transparência absoluta do vidro estrutural. Permanecer sob a cobertura inclinada de Lautner é reconhecer a soberania do espaço construído como refúgio definitivo contra a volatilidade do mundo moderno."
-    ]
+    ],
+    "is_hero": false,
+    "is_hero_secondary": false
   },
   {
     "id": "art-villa-sa-caleta-38-milhoes-de-eu-1014",
@@ -916,18 +775,20 @@ export const ARTICLES = [
       "A engenharia estrutural exigiu estacas cravadas a 30 metros de profundidade na falésia calcária, suportando lajes de concreto aparente moldadas in loco com fôrmas de pinho silvestre. O resultado é um monólito cinético que dialoga com o abismo azul sem concessões ao verniz decorativo. A custódia fiduciária deste ativo garante que seu valor intrínseco permaneça imune à volatilidade dos mercados globais de capitais.",
       "No interior, o silêncio é absoluto. O isolamento acústico de dupla cavidade elimina qualquer sussurro do vento de Tramontana, enquanto o piso radiante mantém a inércia térmica estável durante os invernos rigorosos da ilha. Não há ostentação nas paredes de cal virgem; apenas a textura crua da matéria nobre que resistirá aos próximos séculos sem perda de dignidade estrutural.",
       "A transação foi conduzida em leilão fechado, longe dos olhos famintos da especulação imobiliária de massa. Quem adquiriu sa Caleta não comprou uma casa de praia, mas um cofre-forte geológico disfarçado de residência de verão. Um monumento intocável ancorado nas rochas da história."
-    ]
+    ],
+    "is_hero": false,
+    "is_hero_secondary": false
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'ARQUITETURA',
-    title: 'Bvlgari & Cofres Suíços: 35% de Aument...',
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=max&q=80&w=1400',
+    category: 'ESTILO',
+    title: 'Moynat Malle Limousine: O Baú Curvo de...',
+    image: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=max&q=80&w=1400',
     tag: 'DESTAQUE MUNDIAL',
-    slug: 'bvlgari-cofres-suicos-35-de-aumento-em-ouro-fisico-e-artefato-unico-na-soberania-patrimonial-de-2026-2791'
+    slug: 'moynat-malle-limousine-o-bau-curvo-de-alamo-de-1902-esculpido-sob-medida-para-os-tetos-dos-torpedos-pioneiros-9414'
   },
   {
     id: 'film-2',

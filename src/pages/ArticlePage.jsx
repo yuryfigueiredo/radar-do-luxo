@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { 
   Clock, 
@@ -140,8 +140,78 @@ export default function ArticlePage({ onQuickView }) {
     );
   }
 
-  // Related articles (excluding current)
-  const relatedArticles = ARTICLES.filter(a => a.id !== article.id).slice(0, 3);
+  // Related articles with cross-category diversity and zero image/topic collisions
+  const relatedArticles = useMemo(() => {
+    if (!article || !Array.isArray(ARTICLES)) return [];
+
+    const getImageKey = (img) => {
+      if (!img) return '';
+      const match = img.match(/photo-[a-z0-9\-]+/i);
+      return match ? match[0] : img.split('?')[0];
+    };
+
+    const currentImgKey = getImageKey(article.image);
+    const pool = ARTICLES.filter(a => a && a.id !== article.id && a.slug !== article.slug);
+
+    const categories = ['supercarros', 'relogios', 'arquitetura', 'destinos', 'estilo'];
+    const preferredCategories = categories.filter(c => c !== article.categorySlug);
+
+    const selected = [];
+    const selectedImageKeys = new Set([currentImgKey]);
+    const selectedCategorySlugs = new Set();
+
+    // 1. Pick 1 article from each distinct category different from current
+    for (const cat of preferredCategories) {
+      if (selected.length >= 3) break;
+      const candidate = pool.find(a => 
+        a.categorySlug === cat && 
+        !selectedImageKeys.has(getImageKey(a.image)) &&
+        !selected.some(s => s.id === a.id)
+      );
+      if (candidate) {
+        selected.push(candidate);
+        selectedImageKeys.add(getImageKey(candidate.image));
+        selectedCategorySlugs.add(candidate.categorySlug);
+      }
+    }
+
+    // 2. Pick remaining slots from any category not yet chosen
+    if (selected.length < 3) {
+      for (const item of pool) {
+        if (selected.length >= 3) break;
+        const imgKey = getImageKey(item.image);
+        if (!selected.some(s => s.id === item.id) && !selectedImageKeys.has(imgKey) && !selectedCategorySlugs.has(item.categorySlug)) {
+          selected.push(item);
+          selectedImageKeys.add(imgKey);
+          selectedCategorySlugs.add(item.categorySlug);
+        }
+      }
+    }
+
+    // 3. Fallback with unique images
+    if (selected.length < 3) {
+      for (const item of pool) {
+        if (selected.length >= 3) break;
+        const imgKey = getImageKey(item.image);
+        if (!selected.some(s => s.id === item.id) && !selectedImageKeys.has(imgKey)) {
+          selected.push(item);
+          selectedImageKeys.add(imgKey);
+        }
+      }
+    }
+
+    // 4. Ultimate safety fallback
+    if (selected.length < 3) {
+      for (const item of pool) {
+        if (selected.length >= 3) break;
+        if (!selected.some(s => s.id === item.id)) {
+          selected.push(item);
+        }
+      }
+    }
+
+    return selected.slice(0, 3);
+  }, [article]);
 
   return (
     <article className="relative min-h-screen">

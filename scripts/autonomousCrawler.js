@@ -94,25 +94,51 @@ console.log('📡 Supabase:', SUPABASE_URL ? `Ativo (${SUPABASE_URL.substring(0,
 console.log('🤖 Motor de Redação:', GEMINI_API_KEY ? 'Google Gemini Flash Ativo' : 'Sintetizador Semântico Homologado');
 
 /**
- * 1. Coleta slugs e títulos já publicados para evitar duplicidade
+ * 1. Coleta metadados de artigos já publicados para evitar rigorosamente qualquer duplicidade
  */
-async function getExistingSlugs(supabaseClient) {
-  const existing = new Set();
+function getPhotoId(url) {
+  if (!url) return '';
+  const m = url.match(/photo-[a-z0-9\-]+/i);
+  return m ? m[0] : '';
+}
+
+function keywordsMatch(text1, text2) {
+  if (!text1 || !text2) return false;
+  const words1 = text1.toLowerCase().replace(/[^a-z0-9áéíóúãõâêîôûç]/g, ' ').split(/\s+/).filter(w => w.length >= 5);
+  const words2 = text2.toLowerCase().replace(/[^a-z0-9áéíóúãõâêîôûç]/g, ' ').split(/\s+/).filter(w => w.length >= 5);
+  const common = words1.filter(w => words2.includes(w));
+  return common.length >= 2;
+}
+
+async function getExistingArticlesMetadata(supabaseClient) {
+  const existingSlugs = new Set();
+  const existingTitles = [];
+  const existingPhotoIds = new Set();
+  const existingSourceUrls = new Set();
+  const recentCategories = [];
 
   // Da base local mockData.js
-  ARTICLES.forEach(a => {
-    if (a.slug) existing.add(a.slug.toLowerCase().trim());
-    if (a.title) existing.add(a.title.toLowerCase().trim());
+  ARTICLES.forEach((a, idx) => {
+    if (a.slug) existingSlugs.add(a.slug.toLowerCase().trim());
+    if (a.title) existingTitles.push(a.title.toLowerCase().trim());
+    const pid = getPhotoId(a.image);
+    if (pid) existingPhotoIds.add(pid);
+    if (a.sourceUrl) existingSourceUrls.add(a.sourceUrl.trim());
+    if (idx < 5 && a.categorySlug) recentCategories.push(a.categorySlug);
   });
 
   // Do Supabase (se disponível)
   if (supabaseClient) {
     try {
-      const { data } = await supabaseClient.from('articles').select('slug, title').limit(200);
+      const { data } = await supabaseClient.from('articles').select('slug, title, image, source_url, category_slug').limit(200);
       if (data) {
-        data.forEach(a => {
-          if (a.slug) existing.add(a.slug.toLowerCase().trim());
-          if (a.title) existing.add(a.title.toLowerCase().trim());
+        data.forEach((a, idx) => {
+          if (a.slug) existingSlugs.add(a.slug.toLowerCase().trim());
+          if (a.title) existingTitles.push(a.title.toLowerCase().trim());
+          const pid = getPhotoId(a.image);
+          if (pid) existingPhotoIds.add(pid);
+          if (a.source_url) existingSourceUrls.add(a.source_url.trim());
+          if (idx < 5 && a.category_slug) recentCategories.push(a.category_slug);
         });
       }
     } catch (e) {
@@ -120,14 +146,14 @@ async function getExistingSlugs(supabaseClient) {
     }
   }
 
-  return existing;
+  return { existingSlugs, existingTitles, existingPhotoIds, existingSourceUrls, recentCategories };
 }
 
 /**
- * 2. Seleciona rigorosamente a pauta com a MAIOR NOTA GERAL (rankingScore)
+ * 2. Seleciona rigorosamente a pauta com a MAIOR NOTA GERAL e DIVERSIDADE EDITORIAL
  */
 async function selectHighestScoringPauta(supabaseClient) {
-  const existingSlugs = await getExistingSlugs(supabaseClient);
+  const meta = await getExistingArticlesMetadata(supabaseClient);
   const candidates = [];
 
   // A. Coleta pautas ao vivo de Feeds RSS Internacionais
@@ -137,7 +163,13 @@ async function selectHighestScoringPauta(supabaseClient) {
     for (const item of rssFeeds) {
       const titleKey = (item.originalTitle || '').toLowerCase().trim();
       const slugKey = (item.slug || '').toLowerCase().trim();
-      if (!existingSlugs.has(titleKey) && !existingSlugs.has(slugKey)) {
+      const photoId = getPhotoId(item.image);
+
+      const hasExact = meta.existingSlugs.has(titleKey) || meta.existingSlugs.has(slugKey);
+      const hasPhoto = photoId && meta.existingPhotoIds.has(photoId);
+      const hasTopic = meta.existingTitles.some(t => keywordsMatch(titleKey, t));
+
+      if (!hasExact && !hasPhoto && !hasTopic) {
         const scoreData = calculateEditorialScore({
           title: item.originalTitle,
           summary: item.summary,
@@ -168,20 +200,26 @@ async function selectHighestScoringPauta(supabaseClient) {
   for (const pauta of INITIAL_HOT_PAUTAS) {
     const hookKey = (pauta.suggestedHook || '').toLowerCase().trim();
     const origKey = (pauta.originalTitle || '').toLowerCase().trim();
-    const isAlreadyPublished = Array.from(existingSlugs).some(existing => {
-      return (
-        existing.includes(pauta.categorySlug) ||
-        (hookKey && (existing.includes(hookKey.slice(0, 25)) || hookKey.includes(existing.slice(0, 25)))) ||
-        (origKey && existing.includes(origKey.slice(0, 25)))
-      );
-    });
+    const photoId = getPhotoId(pauta.suggestedImage);
+
+    const hasExact = meta.existingSlugs.has(hookKey) || meta.existingSlugs.has(origKey);
+    const hasPhoto = photoId && meta.existingPhotoIds.has(photoId);
+    const hasTopic = meta.existingTitles.some(t => keywordsMatch(hookKey, t) || keywordsMatch(origKey, t));
+    const hasUrl = pauta.sourceUrl && meta.existingSourceUrls.has(pauta.sourceUrl.trim());
+
+    const isAlreadyPublished = hasExact || hasPhoto || hasTopic || hasUrl;
 
     if (!isAlreadyPublished) {
-      const score = pauta.rankingScore || calculateEditorialScore({
+      let score = pauta.rankingScore || calculateEditorialScore({
         title: pauta.suggestedHook || pauta.originalTitle,
         specs: pauta.specsPreview || {},
         summary: pauta.summary
       }).totalScore;
+
+      // Bônus de diversidade: Se a categoria não foi publicada recentemente, valoriza a alternância
+      if (!meta.recentCategories.slice(0, 2).includes(pauta.categorySlug)) {
+        score += 3;
+      }
 
       candidates.push({
         sourceType: 'Curated Hot Feed',
@@ -200,7 +238,7 @@ async function selectHighestScoringPauta(supabaseClient) {
     }
   }
 
-  // Se todas as pautas já foram publicadas, usa o acervo de maior score geral
+  // Se todas as pautas já foram publicadas, usa o acervo de maior score geral com foto única
   const finalPool = candidates.length > 0 ? candidates : INITIAL_HOT_PAUTAS.map(p => ({
     sourceType: 'Curated Hot Feed',
     sourceName: p.source,
