@@ -116,6 +116,54 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-bvlgari-cofres-suicos-35-de-aume-2805",
+    "slug": "bvlgari-cofres-suicos-35-de-aumento-em-ouro-fisico-e-artefato-unico-na-soberania-patrimonial-de-2026-2791",
+    "title": "Bvlgari & Cofres Suíços: 35% de Aumento em Ouro Físico e Artefato Único na Soberania Patrimonial de 2026",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "25 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Enquanto a dívida soberana global implode em volatilidade cambial, os maiores family offices de Zurique e Londres recalculam rotas para o silêncio mineral de cofres blindados a setenta metros abaixo dos Alpes.",
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído. A soberania patrimonial busca o silêncio mineral. Nos escritórios de custódia fiduciária situados na Bahnhofstrasse e nas colinas de Cologny, os monitores de mercado perderam o apelo estético. Gestores de fortunas multigeracionais fecham as cortinas de linho pesado e ordenam o deslocamento imediato de capital líquido para ativos tangíveis. A inflação estrutural corrói os títulos públicos com a precisão de um ácido industrial. Resta apenas a matéria irredutível.",
+      "A alocação em ouro físico e peças únicas de alta manufatura saltou trinta e cinco por cento nos registros do trimestre. Não se trata de especulação, mas de blindagem contra a erosão cambial. Lingotes de nove noves de pureza, certificados por refinarias seculares da Vallée de Joux, dividem espaço com telas de mestres renascentistas e bronzes fundidos à cera perdida. Cada tonelada metálica depositada em cofres com paredes de aço temperado e sensores sísmicos representa um voto de desconfiança nos bancos centrais. O papel moeda tornou-se uma abstração perigosa.",
+      "Zurique, Londres e São Paulo operam em sintonia fina através de canais criptografados de governança dinástica. Family offices estruturam trusts irrevogáveis cujos estatutos impedem a liquidação de ativos físicos por três gerações consecutivas. A arquitetura jurídica é tão implacável quanto a blindagem do cofre-forte. Compra-se travertino romano Navona para revestir as salas de reunião onde os herdeiros assinam os pactos de preservação. O luxo contemporâneo aboliu a ostentação digital em favor da imune intangibilidade histórica.",
+      "Este é o veredito intransigente do Radar do Luxo para o ciclo que se inicia. Quando o sistema financeiro global caminha para a exaustão de seus próprios algoritmos, a única moeda remanescente é aquela que resiste ao fogo, ao tempo e à sanha tributária dos Estados insolventes. Quem não migrar para o refúgio da matéria pura até o fechamento dos balanços semestrais descobrirá tarde demais que a liquidez é uma miragem passageira."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente faz ruído. A soberania patrimonial busca o silêncio mineral. Nos escritórios de custódia fiduciária situados na Bahnhofstrasse e nas colinas de Cologny, os monitores de mercado perderam o apelo estético. Gestores de fortunas multigeracionais fecham as cortinas de linho pesado e ordenam o deslocamento imediato de capital líquido para ativos tangíveis. A inflação estrutural corrói os títulos públicos com a precisão de um ácido industrial. Resta apenas a matéria irredutível.",
+      "A alocação em ouro físico e peças únicas de alta manufatura saltou trinta e cinco por cento nos registros do trimestre. Não se trata de especulação, mas de blindagem contra a erosão cambial. Lingotes de nove noves de pureza, certificados por refinarias seculares da Vallée de Joux, dividem espaço com telas de mestres renascentistas e bronzes fundidos à cera perdida. Cada tonelada metálica depositada em cofres com paredes de aço temperado e sensores sísmicos representa um voto de desconfiança nos bancos centrais. O papel moeda tornou-se uma abstração perigosa.",
+      "Zurique, Londres e São Paulo operam em sintonia fina através de canais criptografados de governança dinástica. Family offices estruturam trusts irrevogáveis cujos estatutos impedem a liquidação de ativos físicos por três gerações consecutivas. A arquitetura jurídica é tão implacável quanto a blindagem do cofre-forte. Compra-se travertino romano Navona para revestir as salas de reunião onde os herdeiros assinam os pactos de preservação. O luxo contemporâneo aboliu a ostentação digital em favor da imune intangibilidade histórica.",
+      "Este é o veredito intransigente do Radar do Luxo para o ciclo que se inicia. Quando o sistema financeiro global caminha para a exaustão de seus próprios algoritmos, a única moeda remanescente é aquela que resiste ao fogo, ao tempo e à sanha tributária dos Estados insolventes. Quem não migrar para o refúgio da matéria pura até o fechamento dos balanços semestrais descobrirá tarde demais que a liquidez é uma miragem passageira."
+    ],
+    "specs": {
+      "custodia_fiduciaria": "Cofres subterrâneos classe EN 1143-1 Grau XIII em Zurique",
+      "alocacao_ouro": "Lingotes de 12,5 kg com pureza mínima de 999,9/1000",
+      "governanca_dinastica": "Trusts multigeracionais com cláusula de inalienabilidade de 75 anos",
+      "patamar_historico": "Elevação de 35% na demanda institucional por ativos tangíveis"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 94,
+    "ranking_score": 94,
+    "publishedAt": "2026-10-25T23:27:52.805Z",
+    "published_at": "2026-10-25T23:27:52.805Z"
+  },
+  {
     "id": "art-zurique-e-londres-o-aporte-histo-9971",
     "slug": "zurique-e-londres-o-aporte-historico-de-35-em-ouro-fisico-e-ativos-irreprodutiveis-blindados-contra-a-erosao-cambial-9961",
     "title": "Zurique e Londres: O Aporte Histórico de 35% em Ouro Físico e Ativos Irreprodutíveis Blindados Contra a Erosão Cambial",
@@ -152,10 +200,10 @@ export const ARTICLES = [
       "Perfil de Governança": "Family Offices multigeracionais de custódia fiduciária"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 94,
@@ -876,10 +924,10 @@ export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
     category: 'ARQUITETURA',
-    title: 'Zurique e Londres: O Aporte Histórico ...',
+    title: 'Bvlgari & Cofres Suíços: 35% de Aument...',
     image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=max&q=80&w=1400',
     tag: 'DESTAQUE MUNDIAL',
-    slug: 'zurique-e-londres-o-aporte-historico-de-35-em-ouro-fisico-e-ativos-irreprodutiveis-blindados-contra-a-erosao-cambial-9961'
+    slug: 'bvlgari-cofres-suicos-35-de-aumento-em-ouro-fisico-e-artefato-unico-na-soberania-patrimonial-de-2026-2791'
   },
   {
     id: 'film-2',
