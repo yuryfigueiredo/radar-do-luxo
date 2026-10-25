@@ -38,6 +38,9 @@ CREATE TABLE IF NOT EXISTS public.articles (
     read_time TEXT NOT NULL,
     is_hero BOOLEAN DEFAULT false,
     is_hero_secondary BOOLEAN DEFAULT false,
+    is_pinned_hero BOOLEAN DEFAULT false,
+    ranking_score INTEGER DEFAULT 88,
+    published_at TIMESTAMPTZ DEFAULT now(),
     specs JSONB DEFAULT '{}'::jsonb,
     in_article_drop JSONB DEFAULT '{}'::jsonb,
     video_url TEXT,
@@ -45,6 +48,11 @@ CREATE TABLE IF NOT EXISTS public.articles (
     status TEXT NOT NULL DEFAULT 'published', -- 'published' | 'draft'
     created_at TIMESTAMPTZ DEFAULT now()
 );
+
+-- Garantir colunas adicionais para tabelas já existentes
+ALTER TABLE public.articles ADD COLUMN IF NOT EXISTS ranking_score INTEGER DEFAULT 88;
+ALTER TABLE public.articles ADD COLUMN IF NOT EXISTS is_pinned_hero BOOLEAN DEFAULT false;
+ALTER TABLE public.articles ADD COLUMN IF NOT EXISTS published_at TIMESTAMPTZ DEFAULT now();
 
 -- 3. TABELA DE DROPS DA SEMANA & COTAÇÕES RÁPIDAS
 CREATE TABLE IF NOT EXISTS public.weekly_drops (
