@@ -45,6 +45,7 @@ import {
   fetchArticles, 
   saveArticle, 
   deleteArticle, 
+  checkArticleDuplicate,
   fetchWeeklyDrops, 
   updateWeeklyDrop, 
   fetchNewsletterSubscribers, 
@@ -235,6 +236,17 @@ export default function AdminPage() {
       isHero: destination === 'hero'
     };
 
+    // 🛡️ Auditoria Extra de Duplicidade
+    const dupCheck = checkArticleDuplicate(payload, articles);
+    if (dupCheck.isDuplicate) {
+      const msg = dupCheck.isCapaCollision
+        ? `⚠️ ALERTA EDITORIAL (CAPA ATUAL):\n\n${dupCheck.reason}.\nMatéria na Capa: "${dupCheck.matchedArticle?.title}"\n\nDeseja publicar mesmo assim?`
+        : `⚠️ ALERTA EDITORIAL (DUPLICIDADE):\n\n${dupCheck.reason}.\nMatéria existente: "${dupCheck.matchedArticle?.title}"\n\nDeseja publicar mesmo assim?`;
+      if (!window.confirm(msg)) {
+        return;
+      }
+    }
+
     const res = await saveArticle(payload);
     if (res.success) {
       if (destination === 'hero') {
@@ -340,6 +352,19 @@ export default function AdminPage() {
       isHero: formData.isHero,
       isHeroSecondary: formData.isHeroSecondary
     };
+
+    // 🛡️ Auditoria Extra de Duplicidade (apenas para matérias novas ou com alteração de título/imagem)
+    if (!editingArticle || editingArticle.title !== payload.title || editingArticle.image !== payload.image) {
+      const dupCheck = checkArticleDuplicate(payload, articles);
+      if (dupCheck.isDuplicate) {
+        const msg = dupCheck.isCapaCollision
+          ? `⚠️ ALERTA EDITORIAL (CAPA ATUAL):\n\n${dupCheck.reason}.\nMatéria na Capa: "${dupCheck.matchedArticle?.title}"\n\nDeseja publicar mesmo assim?`
+          : `⚠️ ALERTA EDITORIAL (DUPLICIDADE):\n\n${dupCheck.reason}.\nMatéria existente: "${dupCheck.matchedArticle?.title}"\n\nDeseja publicar mesmo assim?`;
+        if (!window.confirm(msg)) {
+          return;
+        }
+      }
+    }
 
     const res = await saveArticle(payload);
     if (res.success) {

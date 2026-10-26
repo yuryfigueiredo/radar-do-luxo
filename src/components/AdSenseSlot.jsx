@@ -198,7 +198,10 @@ export default function AdSenseSlot({
                   Gestão discricionária e alocação patrimonial soberana para famílias de alto patrimônio líquido.
                 </p>
                 <div className="pt-2">
-                  <span className="inline-block px-3 py-1 bg-blue-600 text-white rounded text-[11px] font-semibold hover:bg-blue-700">
+                  <span 
+                    aria-disabled="true"
+                    className="inline-block px-3 py-1 bg-blue-900/30 dark:bg-blue-950/40 text-blue-300/70 border border-blue-500/20 rounded text-[11px] font-medium cursor-default select-none pointer-events-none"
+                  >
                     Visitar Site Oficial
                   </span>
                 </div>
@@ -258,7 +261,11 @@ export default function AdSenseSlot({
               <p className="text-xs text-lux-text-secondary dark:text-lux-text-darkSecondary">
                 Lotes fechados e diamantes Type IIb sob protocolo suíço.
               </p>
-              <button className="w-full py-2 bg-blue-600 text-white rounded text-xs font-semibold hover:bg-blue-700 transition-colors">
+              <button 
+                disabled
+                aria-disabled="true"
+                className="w-full py-2 bg-blue-900/30 dark:bg-blue-950/40 text-blue-300/70 border border-blue-500/20 rounded text-xs font-medium cursor-default select-none pointer-events-none"
+              >
                 Participar do Pregão Privado
               </button>
             </div>
@@ -365,7 +372,11 @@ export default function AdSenseSlot({
             </div>
           </div>
 
-          <button className="px-4 py-2 bg-blue-600 text-white rounded text-xs font-semibold hover:bg-blue-700 transition-colors flex-shrink-0">
+          <button 
+            disabled
+            aria-disabled="true"
+            className="px-4 py-2 bg-blue-900/30 dark:bg-blue-950/40 text-blue-300/70 border border-blue-500/20 rounded text-xs font-medium cursor-default select-none pointer-events-none flex-shrink-0"
+          >
             Consultar Disponibilidade
           </button>
         </div>

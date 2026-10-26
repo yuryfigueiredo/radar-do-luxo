@@ -314,6 +314,37 @@ async function runPublicationCycle() {
       .replace(/[^\w\s-]/g, '')
       .replace(/\s+/g, '-');
 
+    // 🛡️ VERIFICAÇÃO EXTRA DE DUPLICIDADE (Site & Capa Atual)
+    console.log('\n🛡️  [Auditoria Extra Anti-Duplicidade] Verificando se já existe matéria similar no site ou na Capa...');
+    const candidatePhotoId = getPhotoId(articleData.image || pauta.image);
+    const candidateTitle = (articleData.title || '').trim().toLowerCase();
+    
+    // 1. Verifica contra a Capa atual
+    let currentHero = ARTICLES.find(a => a.isHero || a.is_hero);
+    if (currentHero) {
+      const heroPhotoId = getPhotoId(currentHero.image);
+      const heroTitle = (currentHero.title || '').trim().toLowerCase();
+      if ((candidatePhotoId && heroPhotoId && candidatePhotoId === heroPhotoId) || keywordsMatch(candidateTitle, heroTitle)) {
+        console.warn(`🛑 [Bloqueio Editorial] Matéria abortada! Conflito temático/visual com a Capa vigente: "${currentHero.title}".`);
+        console.log('🔄 O robô preserva a exclusividade da Capa e não publicará redundâncias.');
+        return;
+      }
+    }
+
+    // 2. Verifica contra todo o acervo do site
+    const conflictArticle = ARTICLES.find(a => {
+      const aPhotoId = getPhotoId(a.image);
+      const aTitle = (a.title || '').trim().toLowerCase();
+      return (candidatePhotoId && aPhotoId && candidatePhotoId === aPhotoId) || keywordsMatch(candidateTitle, aTitle);
+    });
+
+    if (conflictArticle) {
+      console.warn(`🛑 [Bloqueio Editorial] Matéria abortada! Matéria similar já existente no site: "${conflictArticle.title}".`);
+      console.log('🔄 O robô preserva o acervo limpo e não publicará redundâncias.');
+      return;
+    }
+    console.log('✅ [Auditoria Aprovada] Nenhuma colisão com o acervo ou com a Capa.');
+
     // Jitter temporal para parecer orgânico (espalhamento em janela de até 15 minutos)
     const publishDate = new Date();
     const randomJitterMinutes = Math.floor(Math.random() * 15) + 1;

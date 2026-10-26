@@ -1,13 +1,13 @@
-import { supabase, isSupabaseConfigured } from '../lib/supabase';
-import { ARTICLES, AUTHORS, WEEKLY_DROPS } from '../data/mockData';
-import { calculateEditorialScore, calculateCapaWeight } from './rankingEngine';
+import { supabase, isSupabaseConfigured } from '../lib/supabase.js';
+import { ARTICLES, AUTHORS, WEEKLY_DROPS } from '../data/mockData.js';
+import { calculateEditorialScore, calculateCapaWeight } from './rankingEngine.js';
 
 const LOCAL_STORAGE_ARTICLES_KEY = 'radar_custom_articles';
 const LOCAL_STORAGE_DROPS_KEY = 'radar_custom_drops';
 const LOCAL_STORAGE_SUBSCRIBERS_KEY = 'radar_newsletter_subscribers';
 const LOCAL_STORAGE_CONCIERGE_KEY = 'radar_concierge_inquiries';
 const LOCAL_STORAGE_VERSION_KEY = 'radar_content_version';
-export const CURRENT_CONTENT_VERSION = 'v3.0_1792972189431';
+export const CURRENT_CONTENT_VERSION = 'v3.3_1792977500000';
 
 /**
  * Helper to get locally stored articles
@@ -198,6 +198,127 @@ export async function fetchArticleBySlug(slug) {
     };
   }
   return null;
+}
+
+/**
+ * 🛡️ AUDITORIA EXTRA ANTI-DUPLICIDADE
+ * Verifica rigorosamente se uma matéria já existe no acervo ou na Capa (Hero)
+ * antes de permitir a publicação, analisando:
+ * 1. Imagem idêntica (ID Unsplash)
+ * 2. Slug ou Título idêntico
+ * 3. Colisão temática por palavras-chave (2+ termos substantivos)
+ * 4. Colisão direta com a Capa vigente
+ */
+export function checkArticleDuplicate(candidate, existingArticles = [], currentCapa = null) {
+  if (!candidate) return { isDuplicate: false, severity: 'none', reason: '', matchedArticle: null, isCapaCollision: false };
+
+  const getPhotoId = (url) => {
+    if (!url) return '';
+    const m = url.match(/photo-[a-z0-9\-]+/i);
+    return m ? m[0] : '';
+  };
+
+  const extractKeywords = (text) => {
+    if (!text) return [];
+    return text
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9\s]/g, ' ')
+      .split(/\s+/)
+      .filter(w => w.length >= 5 && !['sobre', 'contra', 'entre', 'pelos', 'pelas', 'muito', 'muita', 'todos', 'todas', 'quando', 'como', 'mais', 'para', 'sendo', 'estao', 'desta'].includes(w));
+  };
+
+  const candidatePhotoId = getPhotoId(candidate.image);
+  const candidateTitle = (candidate.title || '').trim().toLowerCase();
+  const candidateSlug = (candidate.slug || '').trim().toLowerCase();
+  const candidateKeywords = extractKeywords(candidateTitle + ' ' + candidateSlug);
+
+  const activeCapa = currentCapa || existingArticles.find(a => a && (a.isHero || a.is_hero));
+
+  // 1. Verificação prioritária com a Capa atual
+  if (activeCapa && activeCapa.id !== candidate.id) {
+    const capaPhotoId = getPhotoId(activeCapa.image);
+    const capaTitle = (activeCapa.title || '').trim().toLowerCase();
+    const capaKeywords = extractKeywords(capaTitle);
+
+    if (candidatePhotoId && capaPhotoId && candidatePhotoId === capaPhotoId) {
+      return {
+        isDuplicate: true,
+        severity: 'critical',
+        reason: 'Foto idêntica à matéria da Capa Principal',
+        matchedArticle: activeCapa,
+        isCapaCollision: true
+      };
+    }
+
+    if (candidateTitle === capaTitle) {
+      return {
+        isDuplicate: true,
+        severity: 'critical',
+        reason: 'Título idêntico à matéria da Capa Principal',
+        matchedArticle: activeCapa,
+        isCapaCollision: true
+      };
+    }
+
+    const commonCapaKeywords = candidateKeywords.filter(k => capaKeywords.includes(k));
+    if (commonCapaKeywords.length >= 2) {
+      return {
+        isDuplicate: true,
+        severity: 'warning',
+        reason: `Tema muito semelhante à Capa atual (Termos: ${commonCapaKeywords.join(', ')})`,
+        matchedArticle: activeCapa,
+        isCapaCollision: true
+      };
+    }
+  }
+
+  // 2. Verificação com o acervo completo do site
+  for (const existing of existingArticles) {
+    if (!existing || existing.id === candidate.id) continue;
+
+    const existingPhotoId = getPhotoId(existing.image);
+    const existingTitle = (existing.title || '').trim().toLowerCase();
+    const existingSlug = (existing.slug || '').trim().toLowerCase();
+
+    // Mesma foto
+    if (candidatePhotoId && existingPhotoId && candidatePhotoId === existingPhotoId) {
+      return {
+        isDuplicate: true,
+        severity: 'critical',
+        reason: 'Mesma imagem já em uso no acervo',
+        matchedArticle: existing,
+        isCapaCollision: false
+      };
+    }
+
+    // Mesmo slug ou título exato
+    if ((candidateSlug && existingSlug && candidateSlug === existingSlug) || (candidateTitle && existingTitle && candidateTitle === existingTitle)) {
+      return {
+        isDuplicate: true,
+        severity: 'critical',
+        reason: 'Título ou slug idêntico a outra matéria do site',
+        matchedArticle: existing,
+        isCapaCollision: false
+      };
+    }
+
+    // Sobreposição temática (2+ palavras-chave significativas)
+    const existingKeywords = extractKeywords(existingTitle + ' ' + existingSlug);
+    const commonKeywords = candidateKeywords.filter(k => existingKeywords.includes(k));
+    if (commonKeywords.length >= 2) {
+      return {
+        isDuplicate: true,
+        severity: 'warning',
+        reason: `Tema coincidente com matéria já publicada (Termos: ${commonKeywords.join(', ')})`,
+        matchedArticle: existing,
+        isCapaCollision: false
+      };
+    }
+  }
+
+  return { isDuplicate: false, severity: 'none', reason: '', matchedArticle: null, isCapaCollision: false };
 }
 
 export async function saveArticle(articleData) {
