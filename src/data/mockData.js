@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-vacheron-constantin-les-cabinoti-0905",
+    "slug": "vacheron-constantin-les-cabinotiers-a-obra-mestra-de-40-complicacoes-em-platina-que-exigiu-8-anos-de-calculo-astronomico-em-genebra-0895",
+    "title": "Vacheron Constantin Les Cabinotiers: A Obra-Mestra de 40 Complicações em Platina que Exigiu 8 Anos de Cálculo Astronômico em Genebra",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "category_slug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "author_slug": "clara-meirelles",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "26 de outubro de 2026",
+    "readTime": "6 min de leitura",
+    "read_time": "6 min de leitura",
+    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "No santuário reservado do Les Cabinotiers, a mais antiga manufatura contínua do mundo ergue um monumento de platina onde o tempo sideral e as marés gravitacionais obedecem a uma arquitetura mecânica de quarenta complicações.",
+    "contentParagraphs": [
+      "O silêncio do ateliê é cortado apenas pelo tique-taque metódico de duzentos componentes microscópicos dançando em absoluta harmonia. Foram necessários exatos oito anos de cálculos astronômicos e puras equações solares para traduzir a mecânica celeste em engrenagens visíveis. A matéria-prima escolhida foi a platina sólida, pesada e fria ao toque, abrigando um calibre de manufatura que desafia os limites históricos da microengenharia suíça.",
+      "Cada uma das quarenta complicações exige uma coreografia invisível de molas e barriletes duplos. O mostrador duplo expõe gráficos complexos de equações do tempo, cartas celestes ajustadas para coordenadas geográficas específicas e o balé perpétuo do turbilhão. A precisão não admite desvios. O erro tolerado é inferior ao sopro do vento sobre o lago Lemano, garantindo imunidade temporal absoluta a esta peça única.",
+      "As pontes de latão banhado a ródio recebem o tratamento manual de anglage com sabugueiro silvestre e polimento de cantos vivos executado com buril de aço. Nenhuma máquina moderna consegue replicar a irregularidade artística que o toque humano imprime nas superfícies internas. O esmalte Grand Feu aplicado no mostrador passa por sucessivas queimas a 820°C, vitrificando o azul profundo que simula a imensidão do cosmos.",
+      "Trata-se de uma soberania patrimonial que recusa a pressa do mundo contemporâneo e o descarte digital. O comprador desta peça não adquire um instrumento de medição, mas a custódia fiduciária de um legado secular guardado na Vallée de Joux. Aqui, o tempo deixa de ser um recurso escasso para se tornar uma tela mecânica esculpida pelas mãos mais pacientes da Europa.",
+      "O enceramento do couro Box Calf que reveste a caixa de apresentação sela o pacto entre a tradição de Genebra e a eternidade. Quando o relógio for entregue ao seu legítimo guardião, as engrenagens em aço temperado continuarão a registrar o pulso do universo, imunes às modas efêmeras e aos ruídos da modernidade líquida."
+    ],
+    "content_paragraphs": [
+      "O silêncio do ateliê é cortado apenas pelo tique-taque metódico de duzentos componentes microscópicos dançando em absoluta harmonia. Foram necessários exatos oito anos de cálculos astronômicos e puras equações solares para traduzir a mecânica celeste em engrenagens visíveis. A matéria-prima escolhida foi a platina sólida, pesada e fria ao toque, abrigando um calibre de manufatura que desafia os limites históricos da microengenharia suíça.",
+      "Cada uma das quarenta complicações exige uma coreografia invisível de molas e barriletes duplos. O mostrador duplo expõe gráficos complexos de equações do tempo, cartas celestes ajustadas para coordenadas geográficas específicas e o balé perpétuo do turbilhão. A precisão não admite desvios. O erro tolerado é inferior ao sopro do vento sobre o lago Lemano, garantindo imunidade temporal absoluta a esta peça única.",
+      "As pontes de latão banhado a ródio recebem o tratamento manual de anglage com sabugueiro silvestre e polimento de cantos vivos executado com buril de aço. Nenhuma máquina moderna consegue replicar a irregularidade artística que o toque humano imprime nas superfícies internas. O esmalte Grand Feu aplicado no mostrador passa por sucessivas queimas a 820°C, vitrificando o azul profundo que simula a imensidão do cosmos.",
+      "Trata-se de uma soberania patrimonial que recusa a pressa do mundo contemporâneo e o descarte digital. O comprador desta peça não adquire um instrumento de medição, mas a custódia fiduciária de um legado secular guardado na Vallée de Joux. Aqui, o tempo deixa de ser um recurso escasso para se tornar uma tela mecânica esculpida pelas mãos mais pacientes da Europa.",
+      "O enceramento do couro Box Calf que reveste a caixa de apresentação sela o pacto entre a tradição de Genebra e a eternidade. Quando o relógio for entregue ao seu legítimo guardião, as engrenagens em aço temperado continuarão a registrar o pulso do universo, imunes às modas efêmeras e aos ruídos da modernidade líquida."
+    ],
+    "specs": {
+      "Manufatura": "Vacheron Constantin Les Cabinotiers, Genebra",
+      "Calibre": "Movimento mecânico de corda manual com 40 complicações",
+      "Material da Caixa": "Platina 950 com diâmetro sob medida",
+      "Acabamento": "Anglage manual, biselamento e polimento a buril",
+      "Tiragem": "Peça única (Unique Piece)",
+      "Avaliação Patrimonial": "Confidencial sob consulta privada"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 97,
+    "ranking_score": 97,
+    "publishedAt": "2026-10-26T00:52:10.905Z",
+    "published_at": "2026-10-26T00:52:10.905Z"
+  },
+  {
     "id": "art-vacheron-constantin-les-cabinoti-4377",
     "slug": "vacheron-constantin-les-cabinotiers-o-opus-de-40-complicacoes-em-platina-que-exigiu-8-anos-de-silencio-astronomico-em-genebra-4364",
     "title": "Vacheron Constantin Les Cabinotiers: O Opus de 40 Complicações em Platina que Exigiu 8 Anos de Silêncio Astronômico em Genebra",
@@ -155,10 +207,10 @@ export const ARTICLES = [
       "Tiragem": "Peça única exclusiva para encomenda soberana"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 97,
@@ -836,10 +888,10 @@ export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
     category: 'RELOGIOS',
-    title: 'Vacheron Constantin Les Cabinotiers: O...',
+    title: 'Vacheron Constantin Les Cabinotiers: A...',
     image: 'https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=max&q=80&w=1400',
     tag: 'DESTAQUE MUNDIAL',
-    slug: 'vacheron-constantin-les-cabinotiers-o-opus-de-40-complicacoes-em-platina-que-exigiu-8-anos-de-silencio-astronomico-em-genebra-4364'
+    slug: 'vacheron-constantin-les-cabinotiers-a-obra-mestra-de-40-complicacoes-em-platina-que-exigiu-8-anos-de-calculo-astronomico-em-genebra-0895'
   },
   {
     id: 'film-2',
