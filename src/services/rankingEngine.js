@@ -22,65 +22,65 @@ export function calculateEditorialScore(item) {
   const text = `${item.title || ''} ${item.suggestedHook || ''} ${item.excerpt || ''} ${item.summary || ''} ${item.originalTitle || ''} ${item.description || ''} ${specsStr}`.toLowerCase();
   
   // 1. Pilar Econômico & Liquidez (0 a 30 pts)
-  let economicScore = 20; // base sólida de luxo
-  let economicReason = 'Ativo de alto valor agregado com liquidez estável no mercado privado.';
+  let economicScore = 22; // base sólida de luxo internacional
+  let economicReason = 'Ativo de alto valor agregado com liquidez global e forte demanda no mercado secundário de prestígio.';
   
-  if (text.includes('51m') || text.includes('51.7') || text.includes('100 milhões') || text.includes('120 milhões') || text.includes('250 milhões')) {
+  if (text.includes('51m') || text.includes('51.7') || text.includes('100 milhões') || text.includes('120 milhões') || text.includes('250 milhões') || text.includes('$100m') || text.includes('$50m') || text.includes('billion') || text.includes('bilion')) {
     economicScore = 30;
     economicReason = 'Transação monumental no patamar de dezenas ou centenas de milhões de dólares/euros; refúgio patrimonial absoluto.';
-  } else if (text.includes('milhões') || text.includes('milhoes') || text.includes('leilão') || text.includes('sotheby') || text.includes('recorde')) {
+  } else if (text.includes('milhões') || text.includes('milhoes') || text.includes('million') || text.includes('leilão') || text.includes('auction') || text.includes('sotheby') || text.includes('christie') || text.includes('record') || text.includes('recorde')) {
     economicScore = 28;
     economicReason = 'Forte atratividade de liquidez em leilões internacionais e valorização histórica acima dos índices de mercado.';
-  } else if (text.includes('family office') || text.includes('bilion') || text.includes('forbes') || text.includes('ouro')) {
+  } else if (text.includes('family office') || text.includes('forbes') || text.includes('ouro') || text.includes('gold') || text.includes('estate') || text.includes('lists for') || text.includes('sold for') || text.includes('billionaire')) {
     economicScore = 27;
     economicReason = 'Movimentação estratégica de alocação patrimonial ligada a comitês de family offices e fortunas soberanas.';
-  } else if (text.includes('€') || text.includes('us$') || text.includes('r$') || text.includes('milhão') || text.includes('milhao')) {
-    economicScore = 24;
+  } else if (text.includes('€') || text.includes('us$') || text.includes('r$') || text.includes('$') || text.includes('£') || text.includes('milhão') || text.includes('milhao') || text.includes('price')) {
+    economicScore = 25;
     economicReason = 'Avaliação monetária substancial em moeda forte com demanda qualificada de colecionadores.';
   }
 
   // 2. Pilar Social, Dinástico & Reputacional (0 a 25 pts)
-  let socialScore = 18;
-  let socialReason = 'Prestígio estabelecido entre círculos refinados de colecionismo.';
+  let socialScore = 19;
+  let socialReason = 'Prestígio estabelecido entre círculos refinados de colecionismo internacional.';
   
-  if (text.includes('censo forbes') || text.includes('family offices') || text.includes('dinastia') || text.includes('capital soberano')) {
+  if (text.includes('censo forbes') || text.includes('family offices') || text.includes('dinastia') || text.includes('dynasty') || text.includes('capital soberano') || text.includes('royal')) {
     socialScore = 25;
     socialReason = 'Pauta de altíssima relevância institucional que mapeia a governança das maiores fortunas multigeracionais globais.';
-  } else if (text.includes('patek philippe') || text.includes('bugatti') || text.includes('hermès') || text.includes('ferrari') || text.includes('koenigsegg')) {
+  } else if (text.includes('patek') || text.includes('bugatti') || text.includes('hermès') || text.includes('hermes') || text.includes('ferrari') || text.includes('koenigsegg') || text.includes('pagani') || text.includes('rolls-royce') || text.includes('bentley') || text.includes('rolex') || text.includes('audemars') || text.includes('lange') || text.includes('richard mille')) {
     socialScore = 24;
     socialReason = 'Símbolo máximo de autoridade dinástica, tradição secular e prestígio inquestionável no circuito internacional.';
-  } else if (text.includes('anônimo') || text.includes('colecionador') || text.includes('convite estrito')) {
+  } else if (text.includes('anônimo') || text.includes('colecionador') || text.includes('convite estrito') || text.includes('collector') || text.includes('concours') || text.includes('monaco') || text.includes('geneva')) {
     socialScore = 22;
     socialReason = 'Chancela de acesso ultra-exclusivo restrito à lista fechada de clientes históricos da maison.';
   }
 
   // 3. Pilar Engenharia, Técnica & Manufatura (0 a 25 pts)
-  let engineeringScore = 19;
-  let engineeringReason = 'Excelência construtiva e aplicação de materiais nobres de alta especificação.';
+  let engineeringScore = 20;
+  let engineeringReason = 'Excelência construtiva e aplicação de materiais nobres de altíssima especificação.';
   
-  if (text.includes('0-400-0') || text.includes('1.800 cv') || text.includes('12.100 rpm') || text.includes('1.600 cv') || text.includes('20 complicações')) {
+  if (text.includes('0-400-0') || text.includes('1.800 cv') || text.includes('12.100 rpm') || text.includes('1.600 cv') || text.includes('20 complicações') || text.includes('tourbillon') || text.includes('minute repeater') || text.includes('grand complication')) {
     engineeringScore = 25;
     engineeringReason = 'Ponto de inflexão na engenharia mecânica mundial: recorde de telemetria ou calibre de micro-mecânica histórica.';
-  } else if (text.includes('le mans') || text.includes('v16') || text.includes('v12') || text.includes('cerâmica') || text.includes('brutalista') || text.includes('absolut')) {
+  } else if (text.includes('le mans') || text.includes('v16') || text.includes('v12') || text.includes('v8') || text.includes('twin-turbo') || text.includes('cerâmica') || text.includes('titanium') || text.includes('carbon fiber') || text.includes('supercar') || text.includes('hypercar') || text.includes('superyacht') || text.includes('megayacht') || text.includes('brutalista') || text.includes('absolut')) {
     engineeringScore = 24;
     engineeringReason = 'Engenharia de ponta que combina aerodinâmica ativa aeroespacial, materiais avançados e tolerâncias milimétricas.';
-  } else if (text.includes('buril') || text.includes('gravado à mão') || text.includes('costura selê') || text.includes('point sellier')) {
+  } else if (text.includes('buril') || text.includes('gravado à mão') || text.includes('costura selê') || text.includes('point sellier') || text.includes('calibre') || text.includes('chronograph') || text.includes('hand-finished') || text.includes('bespoke')) {
     engineeringScore = 23;
     engineeringReason = 'Manufatura puramente artesanal preservada há séculos contra a obsolescência digital e robótica.';
   }
 
   // 4. Pilar Escassez & Acesso (0 a 20 pts)
-  let scarcityScore = 15;
-  let scarcityReason = 'Distribuição controlada com tempo de espera padrão de ateliê.';
+  let scarcityScore = 16;
+  let scarcityReason = 'Distribuição controlada com tempo de espera padrão de ateliê internacional.';
   
-  if (text.includes('chassi 3765') || text.includes('lote estrela') || text.includes('peça única') || text.includes('15 unidades') || text.includes('25 exemplares')) {
+  if (text.includes('chassi 3765') || text.includes('lote estrela') || text.includes('peça única') || text.includes('15 unidades') || text.includes('25 exemplares') || text.includes('one-of-a-kind') || text.includes('one-off') || text.includes('unique piece')) {
     scarcityScore = 20;
     scarcityReason = 'Escassez matemática extrema: exemplar único no mundo ou tiragem menor que 25 unidades homologadas.';
-  } else if (text.includes('50 exemplares') || text.includes('250 unidades') || text.includes('799 unidades') || text.includes('sob convite') || text.includes('sueco')) {
+  } else if (text.includes('50 exemplares') || text.includes('250 unidades') || text.includes('799 unidades') || text.includes('sob convite') || text.includes('sueco') || text.includes('limited edition') || text.includes('only ') || text.includes('rare') || text.includes('unveils') || text.includes('first look')) {
     scarcityScore = 19;
-    scarcityReason = 'Tiragem rigorosamente numerada já esgotada antes do anúncio público formal.';
-  } else if (text.includes('lista de espera') || text.includes('alocação restrita')) {
-    scarcityScore = 17;
+    scarcityReason = 'Tiragem rigorosamente numerada já esgotada antes do anúncio público formal ou revelação mundial restrita.';
+  } else if (text.includes('lista de espera') || text.includes('alocação restrita') || text.includes('waitlist') || text.includes('allocation') || text.includes('invitation-only')) {
+    scarcityScore = 18;
     scarcityReason = 'Acesso condicionado a relacionamento prévio homologado pela diretoria da marca.';
   }
 

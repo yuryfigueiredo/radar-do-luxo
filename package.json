@@ -10,6 +10,8 @@
     "crawl": "node scripts/autonomousCrawler.js",
     "publish": "node scripts/autonomousCrawler.js",
     "publish:now": "node scripts/autonomousCrawler.js",
+    "scout": "node scripts/curateHotFeeds.js",
+    "curate": "node scripts/curateHotFeeds.js",
     "populate": "node scripts/populateEditorialBatch.js"
   },
   "dependencies": {

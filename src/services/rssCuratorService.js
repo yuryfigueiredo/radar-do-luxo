@@ -9,73 +9,90 @@
  * ==============================================================================
  */
 
-// Feeds homologados por vertical editorial
+// Feeds homologados por vertical editorial (Endpoints Oficiais Ativos)
 export const ELITE_RSS_FEEDS = [
   {
     category: 'Supercarros',
     categorySlug: 'supercarros',
     authorSlug: 'gabriel-fontes',
-    source: 'Robb Report Automobiles',
-    url: 'https://robbreport.com/rss-automobiles'
+    source: 'Robb Report Global',
+    url: 'https://robbreport.com/feed/'
   },
   {
     category: 'Alta Relojoaria',
     categorySlug: 'relogios',
     authorSlug: 'clara-meirelles',
-    source: 'Robb Report Watches',
-    url: 'https://robbreport.com/rss-watches'
+    source: 'Hodinkee',
+    url: 'https://www.hodinkee.com/articles/rss.xml'
+  },
+  {
+    category: 'Alta Relojoaria',
+    categorySlug: 'relogios',
+    authorSlug: 'clara-meirelles',
+    source: 'Monochrome Watches',
+    url: 'https://monochrome-watches.com/feed/'
+  },
+  {
+    category: 'Supercarros',
+    categorySlug: 'supercarros',
+    authorSlug: 'gabriel-fontes',
+    source: 'Google News Motors (Ferrari/Bugatti)',
+    url: 'https://news.google.com/rss/search?q=hypercar+OR+Ferrari+OR+Bugatti+when:3d&hl=en-US&gl=US&ceid=US:en'
   },
   {
     category: 'Destinos & Iates',
     categorySlug: 'destinos',
     authorSlug: 'gabriel-fontes',
-    source: 'Robb Report Boating & Yachting',
-    url: 'https://robbreport.com/rss-boating-yachting'
+    source: 'Google News Superyachts',
+    url: 'https://news.google.com/rss/search?q=superyacht+OR+megayacht+when:3d&hl=en-US&gl=US&ceid=US:en'
   },
   {
     category: 'Arquitetura',
     categorySlug: 'arquitetura',
     authorSlug: 'henrique-vianna',
-    source: 'Robb Report Real Estate',
-    url: 'https://robbreport.com/rss-real-estate'
+    source: 'Google News Architecture & Mansions',
+    url: 'https://news.google.com/rss/search?q=mansion+architecture+penthouse+record+when:3d&hl=en-US&gl=US&ceid=US:en'
   },
   {
     category: 'Arquitetura',
     categorySlug: 'arquitetura',
     authorSlug: 'henrique-vianna',
-    source: 'Robb Report Art & Collectibles',
-    url: 'https://robbreport.com/rss-art-collectibles'
+    source: 'Sotheby\'s & Christie\'s Auctions',
+    url: 'https://news.google.com/rss/search?q=Sothebys+OR+Christies+auction+record+jewel+when:3d&hl=en-US&gl=US&ceid=US:en'
   }
 ];
 
-// Banco de imagens de alta resolução curadas por categoria
+// Banco de imagens de alta resolução curadas por categoria (Garantidamente exclusivas)
 const FALLBACK_CATEGORY_IMAGES = {
   supercarros: [
-    'https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&q=80&w=1400'
+    'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80&w=1400',
+    'https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&q=80&w=1400',
+    'https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&q=80&w=1400',
+    'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80&w=1400'
   ],
   relogios: [
-    'https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1547996160-71dfabb1a7b1?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=1400'
+    'https://images.unsplash.com/photo-1508615039623-a25605d2b022?auto=format&fit=crop&q=80&w=1400',
+    'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&q=80&w=1400',
+    'https://images.unsplash.com/photo-1517463767939-0d293d0f7a0c?auto=format&fit=crop&q=80&w=1400',
+    'https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&q=80&w=1400'
   ],
   arquitetura: [
-    'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1400'
+    'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1400',
+    'https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&q=80&w=1400',
+    'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=1400',
+    'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&q=80&w=1400'
   ],
   destinos: [
-    'https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=1400'
+    'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=1400',
+    'https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&q=80&w=1400',
+    'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80&w=1400',
+    'https://images.unsplash.com/photo-1569263979104-865ab7cd8d17?auto=format&fit=crop&q=80&w=1400'
   ],
   estilo: [
-    'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=1400'
+    'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&q=80&w=1400',
+    'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&q=80&w=1400',
+    'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&q=80&w=1400',
+    'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&q=80&w=1400'
   ]
 };
 

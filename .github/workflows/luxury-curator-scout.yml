@@ -1,0 +1,40 @@
+name: 🌐 Radar do Luxo — Scout & Curadoria Global de Pautas (Pré-Postagem)
+
+on:
+  schedule:
+    # Scout diário automatizado em duas janelas estratégicas de notícias internacionais:
+    # - 06h30 BRT (09h30 UTC): Prévia da abertura dos mercados europeus e leilões
+    # - 15h30 BRT (18h30 UTC): Fechamento de pregões em NY e lançamentos globais
+    - cron: '30 9,18 * * *'
+  # Permite forçar a curadoria e rastreamento a qualquer momento com 1 clique no GitHub Actions:
+  workflow_dispatch:
+
+jobs:
+  scout-and-curate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+
+    steps:
+      - name: 📥 Clonar repositório
+        uses: actions/checkout@v4
+
+      - name: ⚙️ Configurar ambiente Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: 📦 Instalar dependências
+        run: npm ci
+
+      - name: 🌐 Executar Scout Internacional e Ingestão de Pautas
+        run: node scripts/curateHotFeeds.js
+
+      - name: 💾 Persistir novas pautas na Central de Pré-Postagem
+        run: |
+          git config --global user.name "Radar Curator Scout"
+          git config --global user.email "curator@radardoluxo.com.br"
+          git add src/data/hotFeedsData.js
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(curation): scout global luxury feeds [skip ci]" && git push)

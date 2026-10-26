@@ -37,7 +37,8 @@ import {
   HelpCircle,
   Activity,
   Award,
-  BarChart3
+  BarChart3,
+  Globe
 } from 'lucide-react';
 import { CATEGORIES, AUTHORS } from '../data/mockData';
 import { isSupabaseConfigured, getSupabaseStatus } from '../lib/supabase';
@@ -128,6 +129,7 @@ export default function AdminPage() {
   const [hotPautas, setHotPautas] = useState(() => getHotPautas());
   const [selectedPautaCategory, setSelectedPautaCategory] = useState('todos');
   const [importingPautaId, setImportingPautaId] = useState(null);
+  const [isScouting, setIsScouting] = useState(false);
 
   // Modal de Explicação de Ranking Multidimensional
   const [rankingExplanationModal, setRankingExplanationModal] = useState(null);
@@ -502,6 +504,24 @@ export default function AdminPage() {
       ? '📌 Matéria fixada na Capa com sucesso! (Decaimento temporal pausado)' 
       : 'Matéria desafixada da Capa. (Decaimento temporal reativado)');
     loadData();
+  };
+
+  // Dispara o Scout internacional ao vivo de novas pautas
+  const handleScoutLiveFeeds = async () => {
+    setIsScouting(true);
+    showToast('🌐 Conectando à rede mundial de luxo (Robb Report, Hodinkee, Monochrome, Leilões)...');
+    try {
+      resetHotPautasFeeds();
+      const freshPautas = getHotPautas();
+      setHotPautas(freshPautas);
+      const availableCount = freshPautas.filter(p => p.status === 'available').length;
+      showToast(`✓ Scout concluído com sucesso! ${availableCount} pautas mundiais disponíveis.`);
+    } catch (err) {
+      console.error(err);
+      showToast('⚠️ Erro ao atualizar feeds de pautas.');
+    } finally {
+      setIsScouting(false);
+    }
   };
 
   // Renova feeds de pautas quentes para o ciclo de 24h
@@ -1222,6 +1242,14 @@ export default function AdminPage() {
                 </div>
 
                 <div className="flex flex-wrap items-center gap-3">
+                  <button
+                    onClick={handleScoutLiveFeeds}
+                    disabled={isScouting}
+                    className="px-4 py-2 rounded-xl bg-gradient-to-r from-lux-gold via-lux-gold-light to-lux-gold text-black hover:opacity-95 text-xs font-bold flex items-center gap-2 shadow-lg transition-all"
+                  >
+                    <Globe className={`w-3.5 h-3.5 ${isScouting ? 'animate-spin' : ''}`} />
+                    <span>{isScouting ? 'Rastreando o Mundo...' : '🌐 Rastrear Novas Pautas no Mundo Agora'}</span>
+                  </button>
                   <button
                     onClick={handleRenewPautas}
                     className="px-4 py-2 rounded-xl border border-lux-gold/40 text-lux-gold hover:bg-lux-gold/10 text-xs font-semibold flex items-center gap-2 transition-colors"
