@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-vacheron-constantin-les-cabinoti-4377",
+    "slug": "vacheron-constantin-les-cabinotiers-o-opus-de-40-complicacoes-em-platina-que-exigiu-8-anos-de-silencio-astronomico-em-genebra-4364",
+    "title": "Vacheron Constantin Les Cabinotiers: O Opus de 40 Complicações em Platina que Exigiu 8 Anos de Silêncio Astronômico em Genebra",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "category_slug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "author_slug": "clara-meirelles",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "26 de outubro de 2026",
+    "readTime": "6 min de leitura",
+    "read_time": "6 min de leitura",
+    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Nas oficinas secretas de Plan-les-Ouates, a mais antiga manufatura contínua do mundo ergueu um monumento temporal de dupla face onde a gravidade celeste obedece estritamente ao pulso humano.",
+    "contentParagraphs": [
+      "O tempo bruto não passa de um rio indiferente. Nos ateliês de Genebra, ele sofre a tirania da beleza. O departamento Les Cabinotiers opera fora de qualquer calendário comercial. Oito anos inteiros se escoaram no silêncio de calculadoras astronômicas e mesas de desenho antes que a primeira engrenagem fosse cortada.",
+      "Dois mostradores em prata opaline abrigam quarenta complicações mecânicas em perfeita harmonia. Não há espaço para o supérfluo. Calibres monumentais exigem que cada eixo respire com folgas inferiores a um mícron. A platina pesada da caixa guarda segredos celestes inacessíveis ao cidadão comum.",
+      "O céu de Genebra foi transposto para o metal através de equações solares, cartas siderais e marés gravitacionais lunares. Cada roda dentada recebeu polimento manual com pasta diamantada e enceramento de sabugueiro silvestre. A luz natural que banha a bancada de trabalho revela o brilho austero dos rubis sintéticos e pontes chanfradas.",
+      "Enquanto o mundo acelera em direção ao efêmero digital, esta catedral de bolso permanece imóvel na sua soberania material. Nenhuma tela luminosa substitui o estalido seco de uma sonnerie afinada à mão. Trata-se de um refúgio fiduciário contra a erosão do tempo moderno, esculpido para resistir aos séculos.",
+      "A posse de um exemplar único como este transcende o simples colecionismo. Representa a custódia de uma herança técnica que recusa a mediocridade industrial. Clara Meirelles atesta: o verdadeiro luxo reside na paciência inegociável de quem domina o invisível."
+    ],
+    "content_paragraphs": [
+      "O tempo bruto não passa de um rio indiferente. Nos ateliês de Genebra, ele sofre a tirania da beleza. O departamento Les Cabinotiers opera fora de qualquer calendário comercial. Oito anos inteiros se escoaram no silêncio de calculadoras astronômicas e mesas de desenho antes que a primeira engrenagem fosse cortada.",
+      "Dois mostradores em prata opaline abrigam quarenta complicações mecânicas em perfeita harmonia. Não há espaço para o supérfluo. Calibres monumentais exigem que cada eixo respire com folgas inferiores a um mícron. A platina pesada da caixa guarda segredos celestes inacessíveis ao cidadão comum.",
+      "O céu de Genebra foi transposto para o metal através de equações solares, cartas siderais e marés gravitacionais lunares. Cada roda dentada recebeu polimento manual com pasta diamantada e enceramento de sabugueiro silvestre. A luz natural que banha a bancada de trabalho revela o brilho austero dos rubis sintéticos e pontes chanfradas.",
+      "Enquanto o mundo acelera em direção ao efêmero digital, esta catedral de bolso permanece imóvel na sua soberania material. Nenhuma tela luminosa substitui o estalido seco de uma sonnerie afinada à mão. Trata-se de um refúgio fiduciário contra a erosão do tempo moderno, esculpido para resistir aos séculos.",
+      "A posse de um exemplar único como este transcende o simples colecionismo. Representa a custódia de uma herança técnica que recusa a mediocridade industrial. Clara Meirelles atesta: o verdadeiro luxo reside na paciência inegociável de quem domina o invisível."
+    ],
+    "specs": {
+      "Manufatura": "Vacheron Constantin Les Cabinotiers, Genebra",
+      "Calibre": "Movimento mecânico de corda manual com 40 complicações",
+      "Material da Caixa": "Platina 950 com diâmetro de grandes proporções",
+      "Acabamento": "Anglage manual, biselamento e polimento com sabugueiro silvestre",
+      "Tiragem": "Peça única exclusiva para encomenda soberana"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 97,
+    "ranking_score": 97,
+    "publishedAt": "2026-10-26T00:46:24.377Z",
+    "published_at": "2026-10-26T00:46:24.377Z"
+  },
+  {
     "id": "art-moynat-malle-limousine-o-bau-cur-9428",
     "slug": "moynat-malle-limousine-o-bau-curvo-de-alamo-de-1902-esculpido-sob-medida-para-os-tetos-dos-torpedos-pioneiros-9414",
     "title": "Moynat Malle Limousine: O Baú Curvo de Álamo de 1902 Esculpido sob Medida para os Tetos dos Torpedos Pioneiros",
@@ -153,10 +204,10 @@ export const ARTICLES = [
       "ano_origem": "1902"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 95,
@@ -784,11 +835,11 @@ export const ARTICLES = [
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'ESTILO',
-    title: 'Moynat Malle Limousine: O Baú Curvo de...',
-    image: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=max&q=80&w=1400',
+    category: 'RELOGIOS',
+    title: 'Vacheron Constantin Les Cabinotiers: O...',
+    image: 'https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=max&q=80&w=1400',
     tag: 'DESTAQUE MUNDIAL',
-    slug: 'moynat-malle-limousine-o-bau-curvo-de-alamo-de-1902-esculpido-sob-medida-para-os-tetos-dos-torpedos-pioneiros-9414'
+    slug: 'vacheron-constantin-les-cabinotiers-o-opus-de-40-complicacoes-em-platina-que-exigiu-8-anos-de-silencio-astronomico-em-genebra-4364'
   },
   {
     id: 'film-2',
