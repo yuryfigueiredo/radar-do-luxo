@@ -885,6 +885,18 @@ export default function AdminPage() {
 
                 <button
                   onClick={() => {
+                    setActiveTab('hot_pautas');
+                    handleScoutLiveFeeds();
+                  }}
+                  className="px-3.5 py-2 rounded-lg border border-amber-500/50 bg-gradient-to-r from-amber-500/15 via-lux-gold/20 to-amber-500/15 text-amber-300 hover:text-black hover:bg-lux-gold font-bold text-xs flex items-center gap-2 transition-all shadow-sm"
+                  title="Abre a Central de Pautas Quentes e busca pautas internacionais no mundo agora"
+                >
+                  <Globe className={`w-3.5 h-3.5 ${isScouting ? 'animate-spin' : ''}`} />
+                  <span>🌐 Rastrear Pautas Quentes</span>
+                </button>
+
+                <button
+                  onClick={() => {
                     setIsAIGeneratorOpen(true);
                     setGeneratedArticle(null);
                     setAiError('');
