@@ -470,7 +470,7 @@ export default function ArticlePage({ onQuickView }) {
               // Apply drop-cap styling to the very first paragraph
               if (index === 0) {
                 return (
-                  <p key={index} className="text-base sm:text-lg leading-relaxed font-light text-lux-text-secondary dark:text-lux-text-darkSecondary">
+                  <p key={index} className="text-base sm:text-lg leading-relaxed font-normal text-lux-text-primary/90 dark:text-lux-text-darkPrimary/90">
                     <span className="float-left text-5xl sm:text-6xl font-serif font-bold text-lux-gold pr-3 pt-1 leading-none uppercase">
                       {paragraph.charAt(0)}
                     </span>
@@ -482,16 +482,27 @@ export default function ArticlePage({ onQuickView }) {
               // After 2nd paragraph, render mid-article pull quote or the inArticleDrop
               return (
                 <React.Fragment key={index}>
-                  <p className="text-base sm:text-lg leading-relaxed font-light text-lux-text-secondary dark:text-lux-text-darkSecondary">
+                  <p className="text-base sm:text-lg leading-relaxed font-normal text-lux-text-primary/90 dark:text-lux-text-darkPrimary/90">
                     {paragraph}
                   </p>
 
-                  {/* Mid-Article Pull Quote after paragraph 1 */}
+                  {/* Mid-Article Pull Quote after paragraph 1 (Comfortable, accessible luxury typography) */}
                   {index === 1 && author.quote && (
-                    <blockquote className="my-8 pl-6 border-l-2 border-lux-gold italic font-serif text-lg sm:text-xl text-lux-text-primary dark:text-lux-text-darkPrimary leading-snug">
-                      "{author.quote}"
-                      <footer className="text-xs font-sans not-italic font-bold tracking-widest text-lux-gold uppercase mt-2">
-                        — {author.name}, {author.role}
+                    <blockquote className="my-10 relative pl-6 sm:pl-8 pr-6 py-6 rounded-r-xl border-l-4 border-lux-gold bg-lux-gold/[0.04] dark:bg-lux-bg-cardDark/70 backdrop-blur-sm border-t border-r border-b border-lux-gold/10 dark:border-white/5 shadow-sm">
+                      <span 
+                        aria-hidden="true" 
+                        className="block font-serif text-4xl sm:text-5xl text-lux-gold/60 leading-none select-none mb-1 -ml-1"
+                      >
+                        “
+                      </span>
+                      <p className="font-serif text-lg sm:text-xl font-normal text-lux-text-primary dark:text-lux-text-darkPrimary leading-relaxed tracking-normal">
+                        {author.quote}
+                      </p>
+                      <footer className="text-xs font-sans font-semibold tracking-widest text-lux-gold uppercase mt-4 pt-3 border-t border-lux-gold/20 flex flex-wrap items-center gap-2">
+                        <span className="w-4 h-[1px] bg-lux-gold/60 inline-block" />
+                        <span>{author.name}</span>
+                        <span className="text-lux-text-muted font-normal">•</span>
+                        <span className="text-lux-text-muted font-normal normal-case">{author.role}</span>
                       </footer>
                     </blockquote>
                   )}
