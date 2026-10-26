@@ -19,7 +19,7 @@ import { calculateEditorialScore } from '../services/rankingEngine.js';
 
 export const INITIAL_HOT_PAUTAS = [
   {
-    "id": "pauta-live-supercarros-mvpgj4fz-pott",
+    "id": "pauta-live-supercarros-mvpulywu-5ezr",
     "source": "Google News Motors (Ferrari/Bugatti)",
     "sourceCategory": "Supercarros",
     "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
@@ -33,7 +33,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "A maison de Molsheim expande sua engenharia aerodinâmica para a arquitetura residencial de Miami, permitindo que colecionadores estacionem seus bólidos na própria sala.",
     "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdXRWVV9WWVJMZ3Q0ZUxmTHZwbDcxR3kxS1BPS0l5V1E5ZGQwUW5LWXYzdFRST251THV6dXh6TVFya1NmMHRfcGltNDZuaktZQTFDcjEwTTVMbHo3bm44NmVMSVVXdzdSTUxheWxUYmVpR0c0S2wwODFTcHZuR2RoeHREVjI5SGlhc3U3Vmd1RmpSMHVCb1N1Z1U4RWFkdHh6cmF2dll1bnRLOXVVOXdGWFNEOGNMcTNzZkhILTFONFZXSUM4WFdqeFVOMWRlRWMtZGxCZVNkZkY1aXNKSDNoX1FlaXBQTW5udjJ4dWs2Mms?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-26T16:14:43.007Z",
+    "createdAt": "2026-10-26T22:48:50.430Z",
     "validityHours": 24,
     "specsPreview": {
       "investimento": "Torre de US$ 1 Bilhão",
@@ -45,7 +45,7 @@ export const INITIAL_HOT_PAUTAS = [
     "status": "available"
   },
   {
-    "id": "pauta-live-relogios-mvpgj4fa-b78z",
+    "id": "pauta-live-relogios-mvpulywf-yhvv",
     "source": "Hodinkee",
     "sourceCategory": "Alta Relojoaria",
     "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
@@ -59,7 +59,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Movimento de manufatura independente e detalhes de acabamento artesanal examinados sob a ótica de Clara Meirelles.",
     "sourceUrl": "https://www.hodinkee.com/articles/audemars-piguet-unveils-the-watch-keepers-a-digital-platform-offering-certified-pre-owned-watches",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-26T16:14:42.982Z",
+    "createdAt": "2026-10-26T22:48:50.415Z",
     "validityHours": 24,
     "specsPreview": {
       "calibre": "Mecânico de alta complicação",
@@ -71,7 +71,7 @@ export const INITIAL_HOT_PAUTAS = [
     "status": "available"
   },
   {
-    "id": "pauta-live-supercarros-mvpgj4fj-l8u2",
+    "id": "pauta-live-supercarros-mvpulywk-hq04",
     "source": "Google News Motors (Ferrari/Bugatti)",
     "sourceCategory": "Supercarros",
     "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
@@ -85,7 +85,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Engenharia de precisão, telemetria inercial e desempenho de pista sob a análise de Gabriel Fontes.",
     "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRlpfQWR4c2FjQ2ptWHp5bm1Zb2F1bjVFYk9VNDU5am1MMWRLSU5NZVVPZ3duc181bFoxOWczSVBaVmxOMmR5VS1tNTNMT3JHM3U0TzViZHkyVUYtSTdNaTVUMDVzbzVLNTVmTVJTd3FtNmVESUJUOVkwSWJVSVVWZWwxN0tuYzY5OFBVQ2dJVmYxT2tQZHlobmNkQkZUYTY3bHpOd3k0cWR2b1UxbjlzNDBR?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-26T16:14:42.991Z",
+    "createdAt": "2026-10-26T22:48:50.420Z",
     "validityHours": 24,
     "specsPreview": {
       "categoria": "Hipercarro de Colecionismo",
@@ -96,7 +96,7 @@ export const INITIAL_HOT_PAUTAS = [
     "status": "available"
   },
   {
-    "id": "pauta-live-supercarros-mvpgj4fk-hu24",
+    "id": "pauta-live-supercarros-mvpulywm-6w5f",
     "source": "Google News Motors (Ferrari/Bugatti)",
     "sourceCategory": "Supercarros",
     "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
@@ -110,7 +110,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "A Ferrari coloca em teste o apetite de seus clientes tradicionais em uma encruzilhada mecânica onde o rugido de 12 cilindros em 9.000 RPM permanece como o supremo refúgio tátil.",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5BSnJxV3c1U1lBSkN6eTVYaEZaNFExVHQxTUFRdTE1TVRGMHp4VUdLbGUwbU9ZU3BYem1SSndSbGVkYVVOY0Q5OEp3bjVaeWltVnlTSUdOdE93N3U0V0ZSZnNXMHlLbFpm?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-26T16:14:42.992Z",
+    "createdAt": "2026-10-26T22:48:50.422Z",
     "validityHours": 24,
     "specsPreview": {
       "avaliacao": "Faixa de US$ 450.000 a US$ 550.000",
@@ -118,11 +118,11 @@ export const INITIAL_HOT_PAUTAS = [
       "peso": "Alívio extensivo com fibra de carbono",
       "telemetria": "Maranello Pure Dynamics"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80&w=1400",
     "status": "available"
   },
   {
-    "id": "pauta-live-relogios-mvpgj4ff-8ham",
+    "id": "pauta-live-relogios-mvpulywh-grop",
     "source": "Monochrome Watches",
     "sourceCategory": "Alta Relojoaria",
     "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
@@ -136,7 +136,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Movimento de manufatura independente e detalhes de acabamento artesanal examinados sob a ótica de Clara Meirelles.",
     "sourceUrl": "https://monochrome-watches.com/audemars-piguet-launches-the-watch-keepers-its-online-platform-for-certified-pre-owned-watches/",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-26T16:14:42.987Z",
+    "createdAt": "2026-10-26T22:48:50.417Z",
     "validityHours": 24,
     "specsPreview": {
       "calibre": "Mecânico de alta complicação",
@@ -148,7 +148,7 @@ export const INITIAL_HOT_PAUTAS = [
     "status": "available"
   },
   {
-    "id": "pauta-live-arquitetura-mvpgj4fo-lxjl",
+    "id": "pauta-live-arquitetura-mvpulywr-sn3b",
     "source": "Google News Motors (Ferrari/Bugatti)",
     "sourceCategory": "Arquitetura",
     "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
@@ -162,7 +162,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Movimentação estratégica de alocação patrimonial e ativos físicos imunes à volatilidade dos mercados de ações.",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWmJDXzQxd0I3eWNNV2Y4ZWlJb09PdVh0YWtNUGpKczVuNEdlRkN0M0dKZkVYTllaYm5aMk1EeEdNOHgwTkQzZVJPczc3bzFvYlJtRnlSMXpyOFFNUE5NdUQ2TEdjdHZETXNoajJQN2lfNmpzb3gyOXJ2d3c0RlBPN1BpWDdMZk1vUFctUVZZRkU2VElGcF80YllmN0F6d2hLV1Z2dEl0RWFfQQ?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-26T16:14:42.996Z",
+    "createdAt": "2026-10-26T22:48:50.427Z",
     "validityHours": 24,
     "specsPreview": {
       "mercado": "Grandes Leilões Internacionais",
@@ -170,11 +170,11 @@ export const INITIAL_HOT_PAUTAS = [
       "perfil": "Family Offices & Colecionadores",
       "curadoria": "Henrique Vianna"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80&w=1400",
     "status": "available"
   },
   {
-    "id": "pauta-live-arquitetura-mvpgj4gn-4bne",
+    "id": "pauta-live-arquitetura-mvpulyx7-zw5j",
     "source": "Sotheby's & Christie's Auctions",
     "sourceCategory": "Arquitetura",
     "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
@@ -188,7 +188,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Movimentação estratégica de alocação patrimonial e ativos físicos imunes à volatilidade dos mercados de ações.",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaWdoUGlnRkNZczM1WmZTVDZWdjVrNGhUQmVUclNwN1dKRGxMcGxrcUpIMEkzM255RGdVSG1xTm9TM2hJajJwc2tOSktDS0JYWmpvbzA3Y0hDMldBMW8tOGY4cWxnR1ZPcW5fSExhaUNnSmV3YkFMcTkzejRCVzQyTnNCWlJDWmNXRE9kMkxNa3YxLThsYjVWamxOVkJGLTJPQ0hqTFBFRlFBYTQ?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-26T16:14:43.031Z",
+    "createdAt": "2026-10-26T22:48:50.443Z",
     "validityHours": 24,
     "specsPreview": {
       "mercado": "Grandes Leilões Internacionais",
@@ -200,7 +200,7 @@ export const INITIAL_HOT_PAUTAS = [
     "status": "available"
   },
   {
-    "id": "pauta-live-destinos-mvpgj4gc-69y7",
+    "id": "pauta-live-destinos-mvpulyx1-vqk4",
     "source": "Google News Superyachts",
     "sourceCategory": "Destinos & Iates",
     "badgeColor": "border-purple-500/40 text-purple-400 bg-purple-500/10",
@@ -214,7 +214,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Dinâmica de fluidos computacional e hidrodinâmica oceânica de alto luxo sob a análise de Gabriel Fontes.",
     "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOFBHcWhRellsR1hCNnQtcDZjUVk3YVlmUU1OZmZ1Z252bVVzTUw5SU81ckZ4OXVqZHpLOFc0UXJqSWVLNDBxd002MXJ4cVhncHZmRzlCOGVCdU5HcmhJX3FOSzR0YnRuVXA4MEdvWjRobzRGbUNybTN2V3hoMnctRXlVOHZCaUtUQjdSRmpqOTNyQ2tSamdCSGxfV2VpNHpuRlIzYWFEZ2M2QkNmbWhEMl9YY2dNaURSTDFvNw?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-26T16:14:43.020Z",
+    "createdAt": "2026-10-26T22:48:50.437Z",
     "validityHours": 24,
     "specsPreview": {
       "categoria": "Superiate Transoceânico",
@@ -222,6 +222,108 @@ export const INITIAL_HOT_PAUTAS = [
       "curadoria": "Gabriel Fontes"
     },
     "suggestedImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=1400",
+    "status": "available"
+  },
+  {
+    "id": "pauta-live-destinos-mvpulyx1-ch54",
+    "source": "Google News Superyachts",
+    "sourceCategory": "Destinos & Iates",
+    "badgeColor": "border-purple-500/40 text-purple-400 bg-purple-500/10",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "rankingScore": 84,
+    "rankingTier": "B",
+    "originalTitle": "First look inside Nolimits Yachts' first 45m superyacht Gemini - BOAT International",
+    "suggestedHook": "First look inside Nolimits Yachts' first 45m Superiate Gemini",
+    "summary": "Dinâmica de fluidos computacional e hidrodinâmica oceânica de alto luxo sob a análise de Gabriel Fontes.",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWFA2Sy1VNS1NTHRfOHRHSm10MExicmUxOFVfMzl6bzRuQjdJc1MzNkdXLXhDYWMtejNaWmd6TW9KbW0xMDg0SFJEdmxiOUhvM3RGS3lZMHY2dEw5alI5cmo2cGZmSGw3b190LWU2UGZIU0NaV2toNnJ5ZFNXcUliWnZDQVJmLVBGM1FkMmg5TTZCSV8wRlhNRjRVZUc3akQyejV5MWVJQQ?oc=5",
+    "publishedTime": "Detectado ao vivo nas últimas 24h",
+    "createdAt": "2026-10-26T22:48:50.437Z",
+    "validityHours": 24,
+    "specsPreview": {
+      "categoria": "Superiate Transoceânico",
+      "engenharia": "Casco de aço naval e compósitos",
+      "curadoria": "Gabriel Fontes"
+    },
+    "suggestedImage": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80&w=1400",
+    "status": "available"
+  },
+  {
+    "id": "pauta-live-destinos-mvpulyx3-ebi4",
+    "source": "Google News Superyachts",
+    "sourceCategory": "Destinos & Iates",
+    "badgeColor": "border-purple-500/40 text-purple-400 bg-purple-500/10",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "rankingScore": 84,
+    "rankingTier": "B",
+    "originalTitle": "Superyacht supplier in Powys boosted export sales by $5m since US subsidiary opened - County Times",
+    "suggestedHook": "Superiate supplier in Powys boosted export sales by $5m since US subsidiary opened",
+    "summary": "Dinâmica de fluidos computacional e hidrodinâmica oceânica de alto luxo sob a análise de Gabriel Fontes.",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZUE0VTFTdDNfSGtzOXlKc3Q3dGFLa3BNZDVSMk8xX0dNY0gyS1FPM1ppUVhwaWw0cF92UG04RlpTdVNrMkJkeEFuSnZtejEzRmp4Tk0yRl9lWHVmLWVqMnh4dVpBUkF5SzVwcDhBd0FtT0prMzhIbFY4UDZxSmNBY0lmamp3R1dPZHNkcHBUbVVfam4tWkJkU2tzNjdQSEtWNHRqY3R2TQ?oc=5",
+    "publishedTime": "Detectado ao vivo nas últimas 24h",
+    "createdAt": "2026-10-26T22:48:50.439Z",
+    "validityHours": 24,
+    "specsPreview": {
+      "categoria": "Superiate Transoceânico",
+      "engenharia": "Casco de aço naval e compósitos",
+      "curadoria": "Gabriel Fontes"
+    },
+    "suggestedImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=1400",
+    "status": "available"
+  },
+  {
+    "id": "pauta-live-relogios-mvpulywg-0eh4",
+    "source": "Hodinkee",
+    "sourceCategory": "Alta Relojoaria",
+    "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "rankingScore": 83,
+    "rankingTier": "B",
+    "originalTitle": "Auctions: Ten Watches I Actually Care About This Fall Auction Season",
+    "suggestedHook": "Monaco Legend Group: O Leilão de Outono que Reúne Peças Históricas da Patek Philippe e Rolex Vintage",
+    "summary": "O principado de Mônaco recebe colecionadores globais para um pregão com lotes de proveniência intocada, incluindo referências raras de cronógrafos dos anos 1950.",
+    "sourceUrl": "https://www.hodinkee.com/articles/ten-watches-i-actually-care-about-this-fall-auction-season",
+    "publishedTime": "Detectado ao vivo nas últimas 24h",
+    "createdAt": "2026-10-26T22:48:50.416Z",
+    "validityHours": 24,
+    "specsPreview": {
+      "pregao": "Monaco Legend Group Fall Auction",
+      "lotes_estrela": "Patek Philippe & Rolex Pré-Daytona",
+      "proveniencia": "Coleções privadas de alta estirpe",
+      "local": "Hotel Hermitage, Mônaco"
+    },
+    "suggestedImage": "https://hodinkee.imgix.net/uploads/images/bf0b60f5-cd4a-4585-80d8-729b5a797374/b10-h.jpg?ixlib=rails-1.1.0&amp;fm=jpg&amp;q=55&amp;auto=format&amp;usm=12&amp;w=2000",
+    "status": "available"
+  },
+  {
+    "id": "pauta-live-arquitetura-mvpulyx7-w0p8",
+    "source": "Sotheby's & Christie's Auctions",
+    "sourceCategory": "Arquitetura",
+    "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "rankingScore": 83,
+    "rankingTier": "B",
+    "originalTitle": "Sotheby’s Deepens Abu Dhabi Relationship With Inaugural Fine Art Auction in December - ARTnews.com",
+    "suggestedHook": "Sotheby’s Deepens Abu Dhabi Relationship With Inaugural Fine Art Auction in December",
+    "summary": "Movimentação estratégica de alocação patrimonial e ativos físicos imunes à volatilidade dos mercados de ações.",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcm41TE9rdzdFTWJ6VmNwUWNtb0lNeXl2SnNGZ3ZxMS1rTXJCNzVQTllYTWNULUFnX1ZFakdUNHlwVjNRZTFKOEdpc2xzTVBVeE5OWkJxeDdIYnBOQjRiRmExM1VUTk5hZDRGemNrUmR0dVZNSnpwR2NhZmRONjNReF9PWEg5M0laWUNTeWRWamtqZmZNUjlCVFBmR0VuNnBVZ0E?oc=5",
+    "publishedTime": "Detectado ao vivo nas últimas 24h",
+    "createdAt": "2026-10-26T22:48:50.443Z",
+    "validityHours": 24,
+    "specsPreview": {
+      "mercado": "Grandes Leilões Internacionais",
+      "custodia": "Refúgio de Liquidez Soberana",
+      "perfil": "Family Offices & Colecionadores",
+      "curadoria": "Henrique Vianna"
+    },
+    "suggestedImage": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1400",
     "status": "available"
   },
   {
@@ -247,57 +349,6 @@ export const INITIAL_HOT_PAUTAS = [
       "curadoria": "Gabriel Fontes"
     },
     "suggestedImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=1400",
-    "status": "available"
-  },
-  {
-    "id": "pauta-live-destinos-mvpgj4gg-ieg5",
-    "source": "Google News Superyachts",
-    "sourceCategory": "Destinos & Iates",
-    "badgeColor": "border-purple-500/40 text-purple-400 bg-purple-500/10",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "rankingScore": 84,
-    "rankingTier": "B",
-    "originalTitle": "Superyacht supplier in Powys boosted export sales by $5m since US subsidiary opened - County Times",
-    "suggestedHook": "Superiate supplier in Powys boosted export sales by $5m since US subsidiary opened",
-    "summary": "Dinâmica de fluidos computacional e hidrodinâmica oceânica de alto luxo sob a análise de Gabriel Fontes.",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZUE0VTFTdDNfSGtzOXlKc3Q3dGFLa3BNZDVSMk8xX0dNY0gyS1FPM1ppUVhwaWw0cF92UG04RlpTdVNrMkJkeEFuSnZtejEzRmp4Tk0yRl9lWHVmLWVqMnh4dVpBUkF5SzVwcDhBd0FtT0prMzhIbFY4UDZxSmNBY0lmamp3R1dPZHNkcHBUbVVfam4tWkJkU2tzNjdQSEtWNHRqY3R2TQ?oc=5",
-    "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-26T16:14:43.024Z",
-    "validityHours": 24,
-    "specsPreview": {
-      "categoria": "Superiate Transoceânico",
-      "engenharia": "Casco de aço naval e compósitos",
-      "curadoria": "Gabriel Fontes"
-    },
-    "suggestedImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=1400",
-    "status": "available"
-  },
-  {
-    "id": "pauta-live-relogios-mvpgj4fe-4f3z",
-    "source": "Hodinkee",
-    "sourceCategory": "Alta Relojoaria",
-    "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "authorSlug": "clara-meirelles",
-    "rankingScore": 83,
-    "rankingTier": "B",
-    "originalTitle": "Auctions: Ten Watches I Actually Care About This Fall Auction Season",
-    "suggestedHook": "Monaco Legend Group: O Leilão de Outono que Reúne Peças Históricas da Patek Philippe e Rolex Vintage",
-    "summary": "O principado de Mônaco recebe colecionadores globais para um pregão com lotes de proveniência intocada, incluindo referências raras de cronógrafos dos anos 1950.",
-    "sourceUrl": "https://www.hodinkee.com/articles/ten-watches-i-actually-care-about-this-fall-auction-season",
-    "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-26T16:14:42.986Z",
-    "validityHours": 24,
-    "specsPreview": {
-      "pregao": "Monaco Legend Group Fall Auction",
-      "lotes_estrela": "Patek Philippe & Rolex Pré-Daytona",
-      "proveniencia": "Coleções privadas de alta estirpe",
-      "local": "Hotel Hermitage, Mônaco"
-    },
-    "suggestedImage": "https://hodinkee.imgix.net/uploads/images/bf0b60f5-cd4a-4585-80d8-729b5a797374/b10-h.jpg?ixlib=rails-1.1.0&amp;fm=jpg&amp;q=55&amp;auto=format&amp;usm=12&amp;w=2000",
     "status": "available"
   },
   {
