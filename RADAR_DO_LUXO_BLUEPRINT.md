@@ -410,7 +410,27 @@ Para evitar que os acessos residenciais e testes do desenvolvedor/fundador consu
 
 ---
 
-## 14. Guia para Próximos Chats / Agentes de IA
+## 15. Roadmap de Arquitetura da Capa (Esteira Cascata Top 5)
+
+> [!NOTE]
+> **Conceito Oficial Registrado pelo Fundador (Backlog Estratégico):**  
+> Este modelo foi aprovado arquiteturalmente para implementação futura, visando a eliminação de duplicidades e uma rotação 100% orgânica entre a vitrine de Capa e o Feed.
+
+### 15.1 O Princípio da Cascata Histórica (FIFO de 5 Níveis)
+O bloco do Topo da revista funciona como uma **esteira temporal de capas**:
+1. **Entrada na Posição 1 (Hero Central):** Quando uma matéria é promovida ou publicada com a opção `[ Publicar na Capa ]`, ela assume imediatamente a manchete 21:9 cinematográfica.
+2. **Efeito Cascata (Degradação Orgânica de Posição):**
+   * A matéria que estava na Capa 1 desce para o *Destaque Secundário 1*;
+   * A 2 desce para o *Destaque Secundário 2*;
+   * A 3 desce para o *Destaque Secundário 3*;
+   * A 4 desce para o *Destaque Secundário 4*;
+   * A 5ª matéria conclui seu ciclo de honra no topo e é empurrada definitivamente para o **"Feed do Radar" normal**.
+3. **Fluxo do Feed Direto:** Matérias publicadas com a opção `[ Publicar no Feed ]` entram diretamente no feed cronológico inferior e **nunca sobem para o topo**, mantendo o topo estritamente reservado às 5 últimas capas da revista.
+4. **Resolução de Duplicidade:** Como as 5 do topo formam um grupo fechado de capas recentes e apenas a 6ª em diante compõe o Feed inicial, **elimina-se qualquer repetição visual de cards na mesma página**.
+
+---
+
+## 16. Guia para Próximos Chats / Agentes de IA
 
 > [!IMPORTANT]
 > **Instruções Obrigatórias para Qualquer Modelo de IA que Atue no Repositório:**
@@ -419,3 +439,4 @@ Para evitar que os acessos residenciais e testes do desenvolvedor/fundador consu
 > 3. **Preserve as 3 Personas Editoriais:** Todo conteúdo novo deve ser atribuído a Henrique Vianna, Gabriel Fontes ou Clara Meirelles, respeitando suas respectivas teses, vocabulário e especialidades (conforme detalhado na Seção 7).
 > 4. **Respeite o Zero Custo:** Qualquer nova integração de nuvem ou banco de dados deve se manter dentro do plano gratuito sem gerar cobranças ao usuário.
 > 5. **Deploy Contínuo:** Qualquer alteração no branch `main` é automaticamente construída e enviada para produção na Vercel em segundos. Realize sempre `npm run build` local antes de efetuar commits.
+
