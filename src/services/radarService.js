@@ -7,7 +7,7 @@ const LOCAL_STORAGE_DROPS_KEY = 'radar_custom_drops';
 const LOCAL_STORAGE_SUBSCRIBERS_KEY = 'radar_newsletter_subscribers';
 const LOCAL_STORAGE_CONCIERGE_KEY = 'radar_concierge_inquiries';
 const LOCAL_STORAGE_VERSION_KEY = 'radar_content_version';
-export const CURRENT_CONTENT_VERSION = 'v3.3_1792977500000';
+export const CURRENT_CONTENT_VERSION = 'v3.5_1792982500000';
 
 /**
  * Helper to get locally stored articles
@@ -36,6 +36,41 @@ function getLocalArticles() {
     }
 
     let list = JSON.parse(saved);
+
+    // 🛡️ DEDUPLICAÇÃO RIGOROSA EM TEMPO REAL (Por Foto, Slug, Título e ID)
+    const getPhotoIdHelper = (url) => {
+      if (!url) return '';
+      const m = url.match(/photo-[a-z0-9\-]+/i);
+      return m ? m[0] : '';
+    };
+
+    const seenIds = new Set();
+    const seenSlugs = new Set();
+    const seenPhotoIds = new Set();
+    const cleanList = [];
+
+    for (const art of list) {
+      if (!art) continue;
+      const idKey = (art.id || '').trim();
+      const slugKey = (art.slug || '').trim().toLowerCase();
+      const photoId = getPhotoIdHelper(art.image);
+
+      if (idKey && seenIds.has(idKey)) continue;
+      if (slugKey && seenSlugs.has(slugKey)) continue;
+      if (photoId && seenPhotoIds.has(photoId)) continue;
+
+      if (idKey) seenIds.add(idKey);
+      if (slugKey) seenSlugs.add(slugKey);
+      if (photoId) seenPhotoIds.add(photoId);
+
+      cleanList.push(art);
+    }
+
+    if (cleanList.length !== list.length) {
+      console.log('🧹 Auto-removidas ' + (list.length - cleanList.length) + ' matérias duplicadas do armazenamento local.');
+      list = cleanList;
+      localStorage.setItem(LOCAL_STORAGE_ARTICLES_KEY, JSON.stringify(cleanList));
+    }
 
     // Verificação de integridade: se a lista local estiver sem os artigos homologados vigentes
     const containsLeadingHomologated = list.some(a => a.slug === ARTICLES[0]?.slug);
@@ -80,6 +115,17 @@ function getLocalArticles() {
 /**
  * Restaura o acervo para o conjunto homologado equilibrado original
  */
+export function purgeDuplicatesAndRestore() {
+  try {
+    localStorage.removeItem(LOCAL_STORAGE_ARTICLES_KEY);
+    localStorage.setItem(LOCAL_STORAGE_VERSION_KEY, CURRENT_CONTENT_VERSION);
+    window.dispatchEvent(new CustomEvent('radar-data-changed', { detail: { action: 'purge' } }));
+    return ARTICLES;
+  } catch (e) {
+    return ARTICLES;
+  }
+}
+
 export function resetToHomologatedArticles() {
   try {
     localStorage.removeItem(LOCAL_STORAGE_ARTICLES_KEY);
@@ -419,7 +465,20 @@ export async function saveArticle(articleData) {
     videoDuration: formattedArticle.video_duration
   };
 
-  const existingIndex = articles.findIndex(a => a.id === id || a.slug === slug);
+  const getPhotoIdSave = (url) => {
+    if (!url) return '';
+    const m = url.match(/photo-[a-z0-9\-]+/i);
+    return m ? m[0] : '';
+  };
+
+  const existingIndex = articles.findIndex(a => {
+    if (a.id === id || a.slug === slug) return true;
+    const aPhoto = getPhotoIdSave(a.image);
+    const candidatePhoto = getPhotoIdSave(clientArticle.image);
+    if (aPhoto && candidatePhoto && aPhoto === candidatePhoto) return true;
+    if (a.title && clientArticle.title && a.title.toLowerCase().trim() === clientArticle.title.toLowerCase().trim()) return true;
+    return false;
+  });
   let updatedArticles;
   if (existingIndex >= 0) {
     updatedArticles = [...articles];

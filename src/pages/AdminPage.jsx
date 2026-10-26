@@ -51,6 +51,7 @@ import {
   fetchNewsletterSubscribers, 
   fetchConciergeInquiries,
   resetToHomologatedArticles,
+  purgeDuplicatesAndRestore,
   promoteToHero,
   togglePinHero
 } from '../services/radarService';
@@ -420,6 +421,31 @@ export default function AdminPage() {
   // Central de Pautas Quentes: Importação e Redação com IA em 1 clique
   // Aceita destino: 'hero' (publica na capa) ou 'feed' (publica no site sem alterar a capa)
   const handleImportPauta = async (pauta, placement = 'hero') => {
+    // 🛡️ VERIFICAÇÃO ANTES DE IMPORTAR
+    const getPhotoId = (url) => {
+      if (!url) return '';
+      const m = url.match(/photo-[a-z0-9\-]+/i);
+      return m ? m[0] : '';
+    };
+
+    const pautaPhoto = getPhotoId(pauta.suggestedImage);
+    const pautaTitle = (pauta.suggestedHook || pauta.originalTitle || '').toLowerCase();
+
+    const alreadyExists = articles.find(a => {
+      const aPhoto = getPhotoId(a.image);
+      const aTitle = (a.title || '').toLowerCase();
+      if (pautaPhoto && aPhoto && pautaPhoto === aPhoto) return true;
+      if (pautaTitle && aTitle && (aTitle.includes(pautaTitle.slice(0, 22)) || pautaTitle.includes(aTitle.slice(0, 22)))) return true;
+      return false;
+    });
+
+    if (alreadyExists) {
+      alert(`⚠️ Esta pauta já está publicada no Radar!\n\nMatéria existente: "${alreadyExists.title}".\n\nO sistema impediu a criação de duplicatas para manter o acervo exclusivo.`);
+      updateHotPautaStatus(pauta.id, 'imported');
+      setHotPautas(getHotPautas());
+      return;
+    }
+
     setImportingPautaId(pauta.id);
     const destLabel = placement === 'hero' ? 'Capa Principal' : 'Feed Geral (Capa Mantida)';
     showToast(`Redigindo ensaio editorial com IA a partir de ${pauta.source} (Destino: ${destLabel})...`);
@@ -813,6 +839,21 @@ export default function AdminPage() {
               </div>
 
               <div className="flex flex-wrap items-center gap-2.5 w-full sm:w-auto">
+                <button
+                  onClick={() => {
+                    if (window.confirm('Deseja eliminar todas as matérias duplicadas do site e manter apenas os artigos oficiais únicos?')) {
+                      purgeDuplicatesAndRestore();
+                      loadData();
+                      showToast('🧹 Todas as duplicatas foram eliminadas e o acervo foi restaurado com sucesso!');
+                    }
+                  }}
+                  title="Remove imediatamente todas as duplicatas geradas por cliques repetidos e restaura o acervo limpo"
+                  className="px-3 py-2 rounded-lg border border-amber-500/40 bg-amber-500/10 text-amber-300 hover:bg-amber-500/20 text-xs font-semibold flex items-center gap-1.5 transition-colors shadow-sm"
+                >
+                  <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+                  <span>Limpar Duplicatas</span>
+                </button>
+
                 <button
                   onClick={handleResetHomologated}
                   title="Restaura a coleção homologada equilibrada com 12 matérias divididas por temas"
@@ -1244,7 +1285,21 @@ export default function AdminPage() {
                 .map(pauta => {
                   const author = AUTHORS[pauta.authorSlug] || AUTHORS['henrique-vianna'];
                   const isImporting = importingPautaId === pauta.id;
-                  const isImported = pauta.status === 'imported';
+                  const getPhotoIdHelper = (url) => {
+                    if (!url) return '';
+                    const m = url.match(/photo-[a-z0-9\-]+/i);
+                    return m ? m[0] : '';
+                  };
+                  const pPhoto = getPhotoIdHelper(pauta.suggestedImage);
+                  const pTitle = (pauta.suggestedHook || pauta.originalTitle || '').toLowerCase();
+                  const isAlreadyOnSite = articles.some(a => {
+                    const aPhoto = getPhotoIdHelper(a.image);
+                    const aTitle = (a.title || '').toLowerCase();
+                    if (pPhoto && aPhoto && pPhoto === aPhoto) return true;
+                    if (pTitle && aTitle && (aTitle.includes(pTitle.slice(0, 22)) || pTitle.includes(aTitle.slice(0, 22)))) return true;
+                    return false;
+                  });
+                  const isImported = pauta.status === 'imported' || isAlreadyOnSite;
 
                   return (
                     <div
