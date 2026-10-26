@@ -130,14 +130,14 @@ async function getExistingArticlesMetadata(supabaseClient) {
   // Do Supabase (se disponível)
   if (supabaseClient) {
     try {
-      const { data } = await supabaseClient.from('articles').select('slug, title, image, source_url, category_slug').limit(200);
+      const { data, error } = await supabaseClient.from('articles').select('slug, title, image, category_slug').limit(200);
+      if (error) throw error;
       if (data) {
         data.forEach((a, idx) => {
           if (a.slug) existingSlugs.add(a.slug.toLowerCase().trim());
           if (a.title) existingTitles.push(a.title.toLowerCase().trim());
           const pid = getPhotoId(a.image);
           if (pid) existingPhotoIds.add(pid);
-          if (a.source_url) existingSourceUrls.add(a.source_url.trim());
           if (idx < 5 && a.category_slug) recentCategories.push(a.category_slug);
         });
       }
@@ -238,21 +238,12 @@ async function selectHighestScoringPauta(supabaseClient) {
     }
   }
 
-  // Se todas as pautas já foram publicadas, usa o acervo de maior score geral com foto única
-  const finalPool = candidates.length > 0 ? candidates : INITIAL_HOT_PAUTAS.map(p => ({
-    sourceType: 'Curated Hot Feed',
-    sourceName: p.source,
-    hook: p.suggestedHook,
-    category: p.category,
-    categorySlug: p.categorySlug,
-    authorSlug: p.authorSlug,
-    summary: p.summary,
-    image: p.suggestedImage,
-    specs: p.specsPreview,
-    sourceUrl: p.sourceUrl,
-    score: p.rankingScore,
-    tier: p.rankingScore >= 94 ? 'S+' : 'A'
-  }));
+  if (candidates.length === 0) {
+    console.log('ℹ️ Nenhuma pauta inédita disponível neste ciclo.');
+    return null;
+  }
+
+  const finalPool = candidates;
 
   // Ordena rigorosamente do MAIOR SCORE GERAL para o menor
   finalPool.sort((a, b) => b.score - a.score);
@@ -294,6 +285,7 @@ async function runPublicationCycle() {
 
     // Seleciona a melhor pauta
     const pauta = await selectHighestScoringPauta(supabaseClient);
+    if (!pauta) return null;
 
     // Redige a matéria com IA e persona
     console.log('\n🖋️  [Redação] Agente Escritor redigindo matéria com tom aristocrático e anti-detecção...');
@@ -356,8 +348,6 @@ async function runPublicationCycle() {
 
     // Avaliação de Gravidade da Capa (Capa Weight Decay com Meia-Vida de 24h)
     let isHero = false;
-    let currentHero = ARTICLES.find(a => a.isHero || a.is_hero);
-
     if (supabaseClient) {
       try {
         const { data: heroData } = await supabaseClient
@@ -444,9 +434,31 @@ async function runPublicationCycle() {
             .update({ is_hero: false, is_hero_secondary: true })
             .eq('is_hero', true);
         }
+        const databaseArticle = {
+          id: newArticle.id,
+          slug: newArticle.slug,
+          title: newArticle.title,
+          category: newArticle.category,
+          category_slug: newArticle.category_slug,
+          author_slug: newArticle.author_slug,
+          type: newArticle.type,
+          badge: newArticle.badge,
+          date: newArticle.date,
+          read_time: newArticle.read_time,
+          image: newArticle.image,
+          excerpt: newArticle.excerpt,
+          content_paragraphs: newArticle.content_paragraphs,
+          specs: newArticle.specs,
+          status: newArticle.status,
+          is_hero: newArticle.is_hero,
+          is_hero_secondary: newArticle.is_hero_secondary,
+          is_pinned_hero: newArticle.is_pinned_hero,
+          ranking_score: newArticle.ranking_score,
+          published_at: newArticle.published_at
+        };
         const { error } = await supabaseClient
           .from('articles')
-          .upsert([newArticle], { onConflict: 'slug' });
+          .upsert([databaseArticle], { onConflict: 'slug' });
         if (error) {
           console.warn('⚠️ Supabase warning:', error.message);
         } else {
@@ -552,9 +564,12 @@ async function runPublicationCycle() {
           fs.writeFileSync(radarServicePath, serviceContent, 'utf-8');
           console.log(`⚡ [Cache Bumper] Versão de conteúdo atualizada para '${newVersion}'.`);
         }
+      } else {
+        throw new Error('Marcador ARTICLES não encontrado em mockData.js');
       }
     } catch (fsErr) {
       console.error('❌ Erro ao atualizar arquivos locais:', fsErr.message);
+      throw fsErr;
     }
 
     console.log('\n==============================================================================');
@@ -568,6 +583,7 @@ async function runPublicationCycle() {
     return newArticle;
   } catch (err) {
     console.error('❌ Erro no ciclo de publicação:', err.message || err);
+    process.exitCode = 1;
     return null;
   }
 }

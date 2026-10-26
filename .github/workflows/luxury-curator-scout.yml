@@ -9,6 +9,10 @@ on:
   # Permite forçar a curadoria e rastreamento a qualquer momento com 1 clique no GitHub Actions:
   workflow_dispatch:
 
+concurrency:
+  group: radar-editorial-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   scout-and-curate:
     runs-on: ubuntu-latest
@@ -18,10 +22,10 @@ jobs:
 
     steps:
       - name: 📥 Clonar repositório
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: ⚙️ Configurar ambiente Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 20
           cache: 'npm'
@@ -37,4 +41,7 @@ jobs:
           git config --global user.name "Radar Curator Scout"
           git config --global user.email "curator@radardoluxo.com.br"
           git add src/data/hotFeedsData.js
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(curation): scout global luxury feeds [skip ci]" && git push)
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(curation): scout global luxury feeds [skip ci]"
+            git push
+          fi

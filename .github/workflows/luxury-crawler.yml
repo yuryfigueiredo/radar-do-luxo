@@ -21,6 +21,10 @@ on:
   # Permite acionar manualmente a qualquer momento pelo botão "Run workflow" no GitHub
   workflow_dispatch:
 
+concurrency:
+  group: radar-editorial-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   autonomous-editorial-cycle:
     runs-on: ubuntu-latest
@@ -30,10 +34,10 @@ jobs:
 
     steps:
       - name: 📥 Clonar repositório
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: ⚙️ Configurar ambiente Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 20
           cache: 'npm'
@@ -52,5 +56,8 @@ jobs:
         run: |
           git config --global user.name "Radar Editorial Bot"
           git config --global user.email "editorial@radardoluxo.com.br"
-          git add src/data/mockData.js
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(editorial): autonomous drop publication [skip ci]" && git push)
+          git add src/data/mockData.js src/services/radarService.js
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(editorial): autonomous drop publication [skip ci]"
+            git push
+          fi

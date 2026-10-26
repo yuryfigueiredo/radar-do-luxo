@@ -1,5 +1,6 @@
 import { supabase, isSupabaseConfigured } from '../lib/supabase.js';
 import { ARTICLES, AUTHORS, WEEKLY_DROPS } from '../data/mockData.js';
+import { INITIAL_HOT_PAUTAS } from '../data/hotFeedsData.js';
 import { calculateEditorialScore, calculateCapaWeight } from './rankingEngine.js';
 
 const LOCAL_STORAGE_ARTICLES_KEY = 'radar_custom_articles';
@@ -8,6 +9,71 @@ const LOCAL_STORAGE_SUBSCRIBERS_KEY = 'radar_newsletter_subscribers';
 const LOCAL_STORAGE_CONCIERGE_KEY = 'radar_concierge_inquiries';
 const LOCAL_STORAGE_VERSION_KEY = 'radar_content_version';
 export const CURRENT_CONTENT_VERSION = 'v3.5_1792982500000';
+
+function slugifyArticlePart(value) {
+  return String(value || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^\w\s-]/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
+function getHotPautaFallback(slug) {
+  const requestedSlug = slugifyArticlePart(slug).replace(/-\d{4}$/, '');
+  const pauta = INITIAL_HOT_PAUTAS.find(item => {
+    const candidates = [item.suggestedHook, item.originalTitle]
+      .filter(Boolean)
+      .map(slugifyArticlePart)
+      .map(value => value.replace(/-\d{4}$/, ''));
+    return candidates.some(candidate => {
+      if (
+        candidate === requestedSlug ||
+        requestedSlug.startsWith(`${candidate}-`) ||
+        candidate.startsWith(`${requestedSlug}-`)
+      ) {
+        return true;
+      }
+
+      const requestedTokens = new Set(requestedSlug.split('-').filter(token => token.length >= 4));
+      const sharedTokens = candidate
+        .split('-')
+        .filter(token => token.length >= 4 && requestedTokens.has(token));
+      return sharedTokens.length >= 4;
+    });
+  });
+
+  if (!pauta) return null;
+
+  const contentParagraphs = [
+    pauta.summary,
+    `O projeto combina ${pauta.specsPreview?.comprimento || 'escala oceânica'} com uma proposta de permanência no mar, aproximando arquitetura naval, autonomia e conforto sem transformar a embarcação em um catálogo de excessos.`,
+    `A assinatura da ${pauta.specsPreview?.estaleiro || pauta.source || 'equipe responsável'} aparece na relação entre desenho, eficiência e uso prolongado. A pauta interessa menos pelo tamanho isolado do que pelas decisões que tornam possível viver e circular a bordo por longos períodos.`,
+    `O Radar acompanha o desenvolvimento porque o projeto reúne engenharia, design e novos modos de habitar o oceano — um recorte editorial que merece contexto antes de qualquer promessa de exclusividade.`
+  ].filter(Boolean);
+
+  return {
+    id: `fallback-${pauta.id}`,
+    slug,
+    title: pauta.suggestedHook || pauta.originalTitle,
+    excerpt: pauta.summary,
+    contentParagraphs,
+    image: pauta.suggestedImage,
+    category: pauta.category,
+    categorySlug: pauta.categorySlug,
+    type: 'article',
+    badge: 'PAUTA DO RADAR',
+    authorSlug: pauta.authorSlug || 'gabriel-fontes',
+    date: pauta.publishedTime || 'Atualização editorial',
+    readTime: '4 min de leitura',
+    specs: pauta.specsPreview || {},
+    sourceUrl: pauta.sourceUrl,
+    status: 'published',
+    imageFocus: 'center'
+  };
+}
 
 /**
  * Helper to get locally stored articles
@@ -243,7 +309,10 @@ export async function fetchArticleBySlug(slug) {
       imageFocus: found.imageFocus || (found.categorySlug === 'supercarros' ? 'bottom' : 'center')
     };
   }
-  return null;
+
+  // Permite abrir links gerados pelo scout enquanto a persistência definitiva
+  // no Supabase ou no acervo versionado ainda está sendo concluída.
+  return getHotPautaFallback(slug);
 }
 
 /**

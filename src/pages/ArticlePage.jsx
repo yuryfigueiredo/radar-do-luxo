@@ -116,30 +116,6 @@ export default function ArticlePage({ onQuickView }) {
     }
   };
 
-  // If article not found, render elegant 404
-  if (!article) {
-    return (
-      <div className="min-h-[70vh] flex flex-col items-center justify-center px-4 text-center">
-        <span className="text-lux-gold text-xs font-bold tracking-[0.25em] uppercase mb-3">
-          404 • REGISTRO NÃO ENCONTRADO
-        </span>
-        <h1 className="font-serif text-3xl sm:text-4xl font-bold mb-4 text-lux-text-primary dark:text-lux-text-darkPrimary">
-          Este artigo não está disponível no Radar
-        </h1>
-        <p className="max-w-md text-sm text-lux-text-muted mb-8 leading-relaxed">
-          O registro solicitado pode ter sido remanejado ou sua alocação de acesso expirou.
-        </p>
-        <Link
-          to="/"
-          className="inline-flex items-center gap-2 bg-lux-text-primary dark:bg-white text-white dark:text-black font-semibold text-xs tracking-widest uppercase px-6 py-3 rounded hover:bg-lux-gold dark:hover:bg-lux-gold transition-colors"
-        >
-          <ArrowLeft className="w-4 h-4" />
-          Retornar à Página Inicial
-        </Link>
-      </div>
-    );
-  }
-
   // Related articles with cross-category diversity and zero image/topic collisions
   const relatedArticles = useMemo(() => {
     if (!article || !Array.isArray(ARTICLES)) return [];
@@ -212,6 +188,31 @@ export default function ArticlePage({ onQuickView }) {
 
     return selected.slice(0, 3);
   }, [article]);
+
+  // Keep hooks unconditional: the article may arrive asynchronously from Supabase/local storage.
+  if (!article) {
+    return (
+      <div className="min-h-[70vh] flex flex-col items-center justify-center px-4 py-16 text-center bg-lux-bg-light dark:bg-lux-bg-dark">
+        <span className="text-lux-gold text-xs font-bold tracking-[0.25em] uppercase mb-3">
+          404 • REGISTRO NÃO ENCONTRADO
+        </span>
+        <h1 className="font-serif text-3xl sm:text-4xl font-bold mb-4 text-lux-text-primary dark:text-lux-text-darkPrimary">
+          Este artigo não está disponível no Radar
+        </h1>
+        <p className="max-w-md text-sm text-lux-text-secondary dark:text-lux-text-darkSecondary mb-8 leading-relaxed">
+          Este link pode ter sido gerado pelo scout antes da publicação definitiva. Volte à
+          capa para acessar as matérias disponíveis no Radar.
+        </p>
+        <Link
+          to="/"
+          className="inline-flex items-center gap-2 bg-lux-text-primary dark:bg-white text-white dark:text-black font-semibold text-xs tracking-widest uppercase px-6 py-3 rounded hover:bg-lux-gold dark:hover:bg-lux-gold transition-colors"
+        >
+          <ArrowLeft className="w-4 h-4" />
+          Retornar à Página Inicial
+        </Link>
+      </div>
+    );
+  }
 
   return (
     <article className="relative min-h-screen">

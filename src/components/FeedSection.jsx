@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Clock, Eye, Sparkles, Play, ArrowRight } from 'lucide-react';
 import { CATEGORIES, ARTICLES, AUTHORS } from '../data/mockData';
 import { fetchArticles } from '../services/radarService';
+import { getVisibleFeedArticles } from '../services/feedPolicy';
 import AdSenseSlot from './AdSenseSlot';
 
 export default function FeedSection({ onQuickView }) {
@@ -26,12 +27,7 @@ export default function FeedSection({ onQuickView }) {
     };
   }, []);
 
-  // Filter out drafts and the hero article from the main feed
-  const feedItems = allArticles.filter(a => !a.isHero && a.status !== 'draft');
-
-  const filteredItems = activeCategory === 'todos'
-    ? feedItems
-    : feedItems.filter(item => item.categorySlug === activeCategory);
+  const filteredItems = getVisibleFeedArticles(allArticles, activeCategory);
 
   return (
     <section className="py-12 lg:py-16 border-b border-lux-border-light dark:border-lux-border-dark">
