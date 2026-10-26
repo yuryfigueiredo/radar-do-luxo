@@ -24,7 +24,7 @@ function getLocalArticles() {
         try {
           const list = JSON.parse(saved);
           // Preserva apenas matérias criadas manualmente pelo usuário via painel
-          userCreated = list.filter(a => a.isUserCreated === true || a.id?.startsWith('user-created-'));
+          userCreated = list.filter(a => a.isUserCreated === true || a.id?.startsWith('user-created-') || a.id?.startsWith('art-') || a.placement || a.isHero);
         } catch (e) {
           userCreated = [];
         }
@@ -473,9 +473,6 @@ export async function saveArticle(articleData) {
 
   const existingIndex = articles.findIndex(a => {
     if (a.id === id || a.slug === slug) return true;
-    const aPhoto = getPhotoIdSave(a.image);
-    const candidatePhoto = getPhotoIdSave(clientArticle.image);
-    if (aPhoto && candidatePhoto && aPhoto === candidatePhoto) return true;
     if (a.title && clientArticle.title && a.title.toLowerCase().trim() === clientArticle.title.toLowerCase().trim()) return true;
     return false;
   });

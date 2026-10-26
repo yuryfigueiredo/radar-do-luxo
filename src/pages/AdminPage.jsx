@@ -434,10 +434,9 @@ export default function AdminPage() {
     const pautaTitle = (pauta.suggestedHook || pauta.originalTitle || '').toLowerCase();
 
     const alreadyExists = articles.find(a => {
-      const aPhoto = getPhotoId(a.image);
-      const aTitle = (a.title || '').toLowerCase();
-      if (pautaPhoto && aPhoto && pautaPhoto === aPhoto) return true;
-      if (pautaTitle && aTitle && (aTitle.includes(pautaTitle.slice(0, 22)) || pautaTitle.includes(aTitle.slice(0, 22)))) return true;
+      const aTitle = (a.title || "").toLowerCase().trim();
+      if (pautaTitle && aTitle && pautaTitle === aTitle) return true;
+      if (pauta.sourceUrl && a.sourceUrl && pauta.sourceUrl === a.sourceUrl) return true;
       return false;
     });
 
@@ -457,7 +456,7 @@ export default function AdminPage() {
       const result = await generateLuxuryArticle(inputContext);
 
       // Garante a imagem cinematográfica da pauta se não houver outra específica
-      if (pauta.suggestedImage && (!result.image || result.image.includes('1592198084033'))) {
+      if (pauta.suggestedImage) {
         result.image = pauta.suggestedImage;
       }
 
@@ -1333,10 +1332,9 @@ export default function AdminPage() {
                   const pPhoto = getPhotoIdHelper(pauta.suggestedImage);
                   const pTitle = (pauta.suggestedHook || pauta.originalTitle || '').toLowerCase();
                   const isAlreadyOnSite = articles.some(a => {
-                    const aPhoto = getPhotoIdHelper(a.image);
-                    const aTitle = (a.title || '').toLowerCase();
-                    if (pPhoto && aPhoto && pPhoto === aPhoto) return true;
-                    if (pTitle && aTitle && (aTitle.includes(pTitle.slice(0, 22)) || pTitle.includes(aTitle.slice(0, 22)))) return true;
+                    const aTitle = (a.title || "").toLowerCase().trim();
+                    if (pTitle && aTitle && pTitle === aTitle) return true;
+                    if (pauta.sourceUrl && a.sourceUrl && pauta.sourceUrl === a.sourceUrl) return true;
                     return false;
                   });
                   const isImported = pauta.status === 'imported' || isAlreadyOnSite;
