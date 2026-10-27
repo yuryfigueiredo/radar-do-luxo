@@ -116,6 +116,59 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-audemars-piguet-o-ecossistema-th-4662",
+    "slug": "audemars-piguet-o-ecossistema-the-watch-keepers-e-a-criptografia-fiduciaria-de-850-pecas-certificadas-na-vallee-de-joux-4646",
+    "title": "Audemars Piguet: O Ecossistema 'The Watch Keepers' e a Criptografia Fiduciária de 850 Peças Certificadas na Vallée de Joux",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "category_slug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "author_slug": "clara-meirelles",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "27 de outubro de 2026",
+    "readTime": "6 min de leitura",
+    "read_time": "6 min de leitura",
+    "image": "https://hodinkee.imgix.net/uploads/images/6e4490ef-be24-4879-bfcc-f05780554f82/TheWatchKeepers_Library.jpg?ixlib=rails-1.1.0&amp;fm=jpg&amp;q=55&amp;auto=format&amp;usm=12&amp;w=2000",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A manufatura independente consolida sua soberania secundária ao lançar uma plataforma digital exclusiva que audita cronógrafos históricos diretamente na fonte de Le Brassus.",
+    "contentParagraphs": [
+      "O tempo mecânico exige silêncio. A nova plataforma 'The Watch Keepers' da Audemars Piguet não é um mero catálogo comercial. É um manifesto contra a volatilidade do mercado cinza. Cada calibre de manufatura que retorna a Le Brassus passa por um rigoroso escrutínio forense nas mãos dos mesmos mestres relojoeiros que outrora o moldaram. A herança não se perde. Ela se reata através de protocolos digitais rigorosos que garantem a autenticidade absoluta de cronógrafos históricos, estabelecendo um novo padrão de custódia para colecionadores exigentes.",
+      "Sob a luz natural dos ateliês suíços, a matéria-prima revela sua geometria implacável. Os componentes de aço e ouro passam por processos de anglage manual realizados com sabugueiro silvestre e pastas diamantadas de granulação micrométrica. Não há espaço para o acaso. Cada chanfro reflete a luz com uma precisão cirúrgica, enquanto o balanço oscila em sua frequência sagrada de 21.600 alternâncias por hora. A engenharia interna dialoga diretamente com a estética exterior, onde a pulseira em couro Box Calf abraça o pulso com a suavidade de uma segunda pele tratada por mãos humanas.",
+      "O mercado secundário de alta-relojoaria testemunha uma mudança tectônica de paradigma. Enquanto especuladores buscam liquidez rápida em plataformas genéricas, os verdadeiros colecionadores exigem governança dinástica e rastreabilidade documental inquestionável. A iniciativa da manufatura familiar de Le Brassus protege o seu próprio legado histórico contra falsificações sofisticadas e adulterações nocivas. Trata-se de uma estratégia de preservação patrimonial que assegura a imunidade temporal das peças mais raras já concebidas pelo gênio humano.",
+      "A curadoria digital opera com a mesma paciência mineral exigida na construção de um calendário perpétuo. As peças disponíveis são rigorosamente limitadas, refletindo a escassez matemática que rege o verdadeiro luxo contemporâneo. Cada transação é validada por certificados físicos e digitais de inegociável valor fiduciário. O passado da maison é resgatado, purificado e devolvido ao presente com a dignidade de uma obra de arte intocável pelo desgaste dos anos.",
+      "No silêncio solene dos cofres e das bibliotecas de colecionadores, o tique-taque destes relógios recuperados ecoa como uma vitória da permanência. A Audemars Piguet reafirma que um grande relógio nunca morre; ele apenas descansa antes de iniciar um novo ciclo sob a custódia de um guardião digno de sua linhagem. É a consagração definitiva de que a alta-relojoaria transcende o comércio para se tornar a mais pura forma de arquitetura do tempo."
+    ],
+    "content_paragraphs": [
+      "O tempo mecânico exige silêncio. A nova plataforma 'The Watch Keepers' da Audemars Piguet não é um mero catálogo comercial. É um manifesto contra a volatilidade do mercado cinza. Cada calibre de manufatura que retorna a Le Brassus passa por um rigoroso escrutínio forense nas mãos dos mesmos mestres relojoeiros que outrora o moldaram. A herança não se perde. Ela se reata através de protocolos digitais rigorosos que garantem a autenticidade absoluta de cronógrafos históricos, estabelecendo um novo padrão de custódia para colecionadores exigentes.",
+      "Sob a luz natural dos ateliês suíços, a matéria-prima revela sua geometria implacável. Os componentes de aço e ouro passam por processos de anglage manual realizados com sabugueiro silvestre e pastas diamantadas de granulação micrométrica. Não há espaço para o acaso. Cada chanfro reflete a luz com uma precisão cirúrgica, enquanto o balanço oscila em sua frequência sagrada de 21.600 alternâncias por hora. A engenharia interna dialoga diretamente com a estética exterior, onde a pulseira em couro Box Calf abraça o pulso com a suavidade de uma segunda pele tratada por mãos humanas.",
+      "O mercado secundário de alta-relojoaria testemunha uma mudança tectônica de paradigma. Enquanto especuladores buscam liquidez rápida em plataformas genéricas, os verdadeiros colecionadores exigem governança dinástica e rastreabilidade documental inquestionável. A iniciativa da manufatura familiar de Le Brassus protege o seu próprio legado histórico contra falsificações sofisticadas e adulterações nocivas. Trata-se de uma estratégia de preservação patrimonial que assegura a imunidade temporal das peças mais raras já concebidas pelo gênio humano.",
+      "A curadoria digital opera com a mesma paciência mineral exigida na construção de um calendário perpétuo. As peças disponíveis são rigorosamente limitadas, refletindo a escassez matemática que rege o verdadeiro luxo contemporâneo. Cada transação é validada por certificados físicos e digitais de inegociável valor fiduciário. O passado da maison é resgatado, purificado e devolvido ao presente com a dignidade de uma obra de arte intocável pelo desgaste dos anos.",
+      "No silêncio solene dos cofres e das bibliotecas de colecionadores, o tique-taque destes relógios recuperados ecoa como uma vitória da permanência. A Audemars Piguet reafirma que um grande relógio nunca morre; ele apenas descansa antes de iniciar um novo ciclo sob a custódia de um guardião digno de sua linhagem. É a consagração definitiva de que a alta-relojoaria transcende o comércio para se tornar a mais pura forma de arquitetura do tempo."
+    ],
+    "specs": {
+      "Plataforma": "The Watch Keepers por Audemars Piguet",
+      "Origem da Auditoria": "Ateliês de Le Brassus, Vallée de Joux, Suíça",
+      "Garantia": "Certificação Oficial de Manufatura Estendida",
+      "Tiragem Inicial": "Lote restrito a 850 peças históricas selecionadas",
+      "Acabamento": "Anglage manual com sabugueiro silvestre e buril de aço"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 94,
+    "ranking_score": 94,
+    "publishedAt": "2026-10-27T18:09:24.662Z",
+    "published_at": "2026-10-27T18:09:24.662Z",
+    "sourceUrl": "https://www.hodinkee.com/articles/audemars-piguet-unveils-the-watch-keepers-a-digital-platform-offering-certified-pre-owned-watches",
+    "source_url": "https://www.hodinkee.com/articles/audemars-piguet-unveils-the-watch-keepers-a-digital-platform-offering-certified-pre-owned-watches"
+  },
+  {
     "id": "art-tommy-chiabra-o-marco-de-1-bilha-1517",
     "slug": "tommy-chiabra-o-marco-de-1-bilhao-e-a-nova-dinamica-de-gigaiates-em-ligas-de-aluminio-titanio-1501",
     "title": "Tommy Chiabra: O Marco de € 1 Bilhão e a Nova Dinâmica de Gigaiates em Ligas de Alumínio-Titânio",
@@ -153,10 +206,10 @@ export const ARTICLES = [
       "autonomia_transoceanica": "Mais de 8.000 milhas náuticas"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 92,
@@ -989,11 +1042,11 @@ export const ARTICLES = [
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'DESTINOS',
-    title: 'Tommy Chiabra: O Marco de € 1 Bilhão e...',
-    image: 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=max&q=80&w=1400',
+    category: 'RELOGIOS',
+    title: 'Audemars Piguet: O Ecossistema \'The W...',
+    image: 'https://hodinkee.imgix.net/uploads/images/6e4490ef-be24-4879-bfcc-f05780554f82/TheWatchKeepers_Library.jpg?ixlib=rails-1.1.0&amp;fm=jpg&amp;q=55&amp;auto=format&amp;usm=12&amp;w=2000',
     tag: 'DESTAQUE MUNDIAL',
-    slug: 'tommy-chiabra-o-marco-de-1-bilhao-e-a-nova-dinamica-de-gigaiates-em-ligas-de-aluminio-titanio-1501'
+    slug: 'audemars-piguet-o-ecossistema-the-watch-keepers-e-a-criptografia-fiduciaria-de-850-pecas-certificadas-na-vallee-de-joux-4646'
   },
   {
     id: 'film-2',
