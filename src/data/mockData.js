@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-tommy-chiabra-o-marco-de-1-bilha-1517",
+    "slug": "tommy-chiabra-o-marco-de-1-bilhao-e-a-nova-dinamica-de-gigaiates-em-ligas-de-aluminio-titanio-1501",
+    "title": "Tommy Chiabra: O Marco de € 1 Bilhão e a Nova Dinâmica de Gigaiates em Ligas de Alumínio-Titânio",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "27 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A corretagem naval atinge o limiar das dez cifras, impulsionada por cascos personalizados que exigem tolerâncias de mícrons e propulsão híbrida de alta autonomia.",
+    "contentParagraphs": [
+      "O oceano não tolera amadorismo estrutural. O mercado de brokerage naval cruza uma fronteira financeira inédita, onde encomendar uma embarcação de noventa metros já não satisfaz os herdeiros de fortunas globais. A corrida pelo primeiro superiate de € 1 bilhão reescreve os manuais de arquitetura naval em estaleiros na Alemanha e na Itália. Cada casco demanda engenharia de fluidos extrema, transformando o transporte aquático em uma demonstração de supremacia técnica absoluta.",
+      "A dinâmica impulsionada por Tommy Chiabra evidencia uma mudança drástica nas especificações solicitadas pelos proprietários. Monocoques em aço naval e superestruturas em ligas compostas de alumínio e titânio suportam esforços torcionais extremos sob vagas de sete metros. Os projetos agora integram propulsão híbrida com células de combustível de hidrogênio e baterias de íon-lítio de alta densidade energética, garantindo operação silenciosa em áreas de preservação marinha. O fluxo de Venturi subaquático é calculado milimetricamente para mitigar a assinatura hidrodinâmica, enquanto estabilizadores giroscópicos massivos eliminam completamente a força G lateral em velocidade de cruzeiro.",
+      "Dinastias industriais tratam estes ativos flutuantes como refúgios soberanos de longo curso. O valor de construção reflete a complexidade dos sistemas de bordo: helipontos certificados para aeronaves de trinta toneladas, docas internas inundáveis para submersíveis de pesquisa científica e blindagens balísticas integradas nas anteparas principais. Trata-se de engenharia civil pesada adaptada ao ambiente marinho mais agressivo do planeta, garantindo imunidade temporal e refúgio intransponível longe das costas continentais.",
+      "Nenhum centavo deste orçamento colossal é direcionado ao supérfluo efêmero. Cada euro investido justifica-se pela redundância mecânica tripla, sistemas de navegação inercial militar e autonomia transoceânica sem reabastecimento. A arquitetura naval de dez cifras coroa a era onde a verdadeira riqueza se traduz em soberania móvel, desafiando a física das ondas com a precisão inegociável de um ateliê centenário."
+    ],
+    "content_paragraphs": [
+      "O oceano não tolera amadorismo estrutural. O mercado de brokerage naval cruza uma fronteira financeira inédita, onde encomendar uma embarcação de noventa metros já não satisfaz os herdeiros de fortunas globais. A corrida pelo primeiro superiate de € 1 bilhão reescreve os manuais de arquitetura naval em estaleiros na Alemanha e na Itália. Cada casco demanda engenharia de fluidos extrema, transformando o transporte aquático em uma demonstração de supremacia técnica absoluta.",
+      "A dinâmica impulsionada por Tommy Chiabra evidencia uma mudança drástica nas especificações solicitadas pelos proprietários. Monocoques em aço naval e superestruturas em ligas compostas de alumínio e titânio suportam esforços torcionais extremos sob vagas de sete metros. Os projetos agora integram propulsão híbrida com células de combustível de hidrogênio e baterias de íon-lítio de alta densidade energética, garantindo operação silenciosa em áreas de preservação marinha. O fluxo de Venturi subaquático é calculado milimetricamente para mitigar a assinatura hidrodinâmica, enquanto estabilizadores giroscópicos massivos eliminam completamente a força G lateral em velocidade de cruzeiro.",
+      "Dinastias industriais tratam estes ativos flutuantes como refúgios soberanos de longo curso. O valor de construção reflete a complexidade dos sistemas de bordo: helipontos certificados para aeronaves de trinta toneladas, docas internas inundáveis para submersíveis de pesquisa científica e blindagens balísticas integradas nas anteparas principais. Trata-se de engenharia civil pesada adaptada ao ambiente marinho mais agressivo do planeta, garantindo imunidade temporal e refúgio intransponível longe das costas continentais.",
+      "Nenhum centavo deste orçamento colossal é direcionado ao supérfluo efêmero. Cada euro investido justifica-se pela redundância mecânica tripla, sistemas de navegação inercial militar e autonomia transoceânica sem reabastecimento. A arquitetura naval de dez cifras coroa a era onde a verdadeira riqueza se traduz em soberania móvel, desafiando a física das ondas com a precisão inegociável de um ateliê centenário."
+    ],
+    "specs": {
+      "comprimento_estrutural": "Acima de 140 metros",
+      "material_do_casco": "Aço naval e compósitos de titânio",
+      "sistema_propulsivo": "Híbrido diesel-elétrico com células de hidrogênio",
+      "investimento_estimado": "€ 1.000.000.000+",
+      "autonomia_transoceanica": "Mais de 8.000 milhas náuticas"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 92,
+    "ranking_score": 92,
+    "publishedAt": "2026-10-27T15:19:31.517Z",
+    "published_at": "2026-10-27T15:19:31.517Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQlRaa2ZyamlkS1Naa2tKdEdQX0huWDdKckR6d3JXdG1NSmZJWTdJVnY1SmFpb21MWmNTMlZBVnRjZy12TWhvYUxXaDVGNjRIZEV0aDhSc1Q0SFNvZDVyb2hxTmVrZWpXdUZUVHNoMTUyTEl6b0NwSWN6dmstYW1GdlhUTFBoc1puQTFTakljUk9NVUkwcDd5NkkwbzMya1U0Y0lxeUlzQ2ZmNUZfV21FbEZsOA?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQlRaa2ZyamlkS1Naa2tKdEdQX0huWDdKckR6d3JXdG1NSmZJWTdJVnY1SmFpb21MWmNTMlZBVnRjZy12TWhvYUxXaDVGNjRIZEV0aDhSc1Q0SFNvZDVyb2hxTmVrZWpXdUZUVHNoMTUyTEl6b0NwSWN6dmstYW1GdlhUTFBoc1puQTFTakljUk9NVUkwcDd5NkkwbzMya1U0Y0lxeUlzQ2ZmNUZfV21FbEZsOA?oc=5"
+  },
+  {
     "id": "art-bugatti-residences-miami-a-torre-7537",
     "slug": "bugatti-residences-miami-a-torre-de-52-andares-com-sky-lifts-hidraulicos-que-elevam-hipercarros-ate-a-cobertura-privativa-7521",
     "title": "Bugatti Residences Miami: A Torre de 52 Andares com Sky-Lifts Hidráulicos que Elevam Hipercarros até a Cobertura Privativa",
@@ -153,10 +204,10 @@ export const ARTICLES = [
       "unidades_exclusivas": "146 residências com garagens privativas elevadas"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 94,
@@ -938,11 +989,11 @@ export const ARTICLES = [
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'SUPERCARROS',
-    title: 'Bugatti Residences Miami: A Torre de 5...',
-    image: 'https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400',
+    category: 'DESTINOS',
+    title: 'Tommy Chiabra: O Marco de € 1 Bilhão e...',
+    image: 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=max&q=80&w=1400',
     tag: 'DESTAQUE MUNDIAL',
-    slug: 'bugatti-residences-miami-a-torre-de-52-andares-com-sky-lifts-hidraulicos-que-elevam-hipercarros-ate-a-cobertura-privativa-7521'
+    slug: 'tommy-chiabra-o-marco-de-1-bilhao-e-a-nova-dinamica-de-gigaiates-em-ligas-de-aluminio-titanio-1501'
   },
   {
     id: 'film-2',
