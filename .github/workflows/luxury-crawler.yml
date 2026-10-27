@@ -1,9 +1,21 @@
 name: 💎 Radar do Luxo — Publicação Editorial Autônoma
 
 on:
+  schedule:
+    # Publicação Diária Autônoma em 4 Janelas Estratégicas (Horário de Brasília: UTC-3):
+    # - 07h15 BRT (10h15 UTC): Matéria matinal logo após o Scout das 06h30
+    - cron: '15 10 * * *'
+    # - 12h15 BRT (15h15 UTC): Matéria nobre do almoço
+    - cron: '15 15 * * *'
+    # - 16h15 BRT (19h15 UTC): Matéria vespertina logo após o Scout das 15h30
+    - cron: '15 19 * * *'
+    # - 20h30 BRT (23h30 UTC): Matéria noturna de fechamento
+    - cron: '30 23 * * *'
+  # Também dispara imediatamente quando o Scout de Pautas é concluído com sucesso:
   workflow_run:
     workflows: ["🌐 Radar do Luxo — Scout & Curadoria Global de Pautas (Pré-Postagem)"]
     types: [completed]
+  # Permite acionamento manual a qualquer momento no GitHub ou via terminal:
   workflow_dispatch:
 
 concurrency:
@@ -12,7 +24,7 @@ concurrency:
 
 jobs:
   autonomous-editorial-cycle:
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
@@ -37,7 +49,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY || secrets.VITE_GEMINI_API_KEY }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL || secrets.VITE_SUPABASE_URL }}
-          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY || secrets.VITE_SUPABASE_ANON_KEY }}
         run: node scripts/autonomousCrawler.js
 
       - name: 💾 Publicar atualizações de acervo no GitHub e Vercel
