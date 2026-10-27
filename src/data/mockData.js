@@ -116,6 +116,59 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-atelier-mephalie-a-repeticao-de--5105",
+    "slug": "atelier-mephalie-a-repeticao-de-minutos-com-gongos-acusticos-manuais-e-acabamento-em-anglage-de-alta-relojoaria-5090",
+    "title": "Atelier Mephalie: A Repetição de Minutos com Gongos Acústicos Manuais e Acabamento em Anglage de Alta Relojoaria",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "category_slug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "author_slug": "clara-meirelles",
+    "type": "article",
+    "badge": "HOMOLOGADO PELO RADAR",
+    "date": "27 de outubro de 2026",
+    "readTime": "6 min de leitura",
+    "read_time": "6 min de leitura",
+    "image": "https://monochrome-watches.com/app/uploads/2026/10/Chinese-Brand-Atelier-Mephalie-Minute-Repeater-Collection-Accessible-5-600x237.jpg",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A independência radical desafia a Suíça tradicional. Um mecanismo de repetição sonora esculpido à mão desafia décadas de hegemonia alpina com pureza acústica e precisão geométrica.",
+    "contentParagraphs": [
+      "O tempo possui som na Vallée de Joux. Na quietude gélida dos ateliês independentes, o silêncio é quebrado apenas pelo atrito sutil do aço contra a pedra de amolar. Atelier Mephalie entrega uma obra-prima mecânica que desafia os cânones estabelecidos. Cada componente deste relógio nasce de um bloco bruto de metal. A matéria-prima dita a cadência do ateliê. As mãos dos mestres relojoeiros moldam a engrenagem com paciência ancestral.",
+      "O calibre de manufatura abriga uma complicação venerável. A repetição de minutos exige uma sinfonia de martelos e gongos de aço temperado. O som reverbera com uma sonoridade cristalina em Sol sustenido. Não há espaço para tolerâncias imperfeitas. Cada anglage recebe o polimento com pasta de diamante e sabugueiro silvestre. A luz reflete nas chanfraduras internas com exatidão matemática, revelando a alma do movimento.",
+      "A relojoaria independente vive uma era de redefinição de fronteiras. Historicamente restrita aos vales suíços, a alta complexidade mecânica encontra novos guardiões em latitudes improváveis. A manufactura descentraliza o saber sem abdicar da rigorosa tradição genebrina. O mostrador limpo expõe a arquitetura interna sem artifícios desnecessários. A caixa em ouro branco de 18 quilates protege a estrutura com discrição absoluta.",
+      "O uso do esmalte Grand Feu no mostrador exige temperaturas superiores a 800 graus Celsius. O risco de fratura na placa vitrificada testa a resiliência do artesão. Apenas os exemplares que superam o controle térmico chegam à montagem final. O resultado exibe uma superfície lisa e perene. O tempo mecânico funde-se à arte decorativa clássica, criando um diálogo silencioso entre o pulso e o instrumento.",
+      "A posse de um relógio desta magnitude transcende a mera utilidade diária. Trata-se de custódia fiduciária de uma tradição mecânica secular. Atelier Mephalie prova que a verdadeira excelência relojoeira pertence àqueles que dominam o tempo através do silêncio e da geometria. A peça consolida-se como um marco na relojoaria independente contemporânea, redefinindo o valor real da Alta Horlogerie."
+    ],
+    "content_paragraphs": [
+      "O tempo possui som na Vallée de Joux. Na quietude gélida dos ateliês independentes, o silêncio é quebrado apenas pelo atrito sutil do aço contra a pedra de amolar. Atelier Mephalie entrega uma obra-prima mecânica que desafia os cânones estabelecidos. Cada componente deste relógio nasce de um bloco bruto de metal. A matéria-prima dita a cadência do ateliê. As mãos dos mestres relojoeiros moldam a engrenagem com paciência ancestral.",
+      "O calibre de manufatura abriga uma complicação venerável. A repetição de minutos exige uma sinfonia de martelos e gongos de aço temperado. O som reverbera com uma sonoridade cristalina em Sol sustenido. Não há espaço para tolerâncias imperfeitas. Cada anglage recebe o polimento com pasta de diamante e sabugueiro silvestre. A luz reflete nas chanfraduras internas com exatidão matemática, revelando a alma do movimento.",
+      "A relojoaria independente vive uma era de redefinição de fronteiras. Historicamente restrita aos vales suíços, a alta complexidade mecânica encontra novos guardiões em latitudes improváveis. A manufactura descentraliza o saber sem abdicar da rigorosa tradição genebrina. O mostrador limpo expõe a arquitetura interna sem artifícios desnecessários. A caixa em ouro branco de 18 quilates protege a estrutura com discrição absoluta.",
+      "O uso do esmalte Grand Feu no mostrador exige temperaturas superiores a 800 graus Celsius. O risco de fratura na placa vitrificada testa a resiliência do artesão. Apenas os exemplares que superam o controle térmico chegam à montagem final. O resultado exibe uma superfície lisa e perene. O tempo mecânico funde-se à arte decorativa clássica, criando um diálogo silencioso entre o pulso e o instrumento.",
+      "A posse de um relógio desta magnitude transcende a mera utilidade diária. Trata-se de custódia fiduciária de uma tradição mecânica secular. Atelier Mephalie prova que a verdadeira excelência relojoeira pertence àqueles que dominam o tempo através do silêncio e da geometria. A peça consolida-se como um marco na relojoaria independente contemporânea, redefinindo o valor real da Alta Horlogerie."
+    ],
+    "specs": {
+      "calibre": "Movimento mecânico de corda manual com repetição de minutos",
+      "gongos": "Gongos acústicos ajustados manualmente em tonalidade harmônica",
+      "acabamento": "Anglage manual, pontes chanfradas e polimento com sabugueiro",
+      "tiragem": "Edição limitada a 8 exemplares numerados globalmente",
+      "avaliado": "Sob consulta estrita de custódia patrimonial"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 91,
+    "ranking_score": 91,
+    "publishedAt": "2026-10-27T19:51:35.105Z",
+    "published_at": "2026-10-27T19:51:35.105Z",
+    "sourceUrl": "https://monochrome-watches.com/introducing-chinese-brand-atelier-mephalie-launches-its-minute-repeater-collection-priced-to-a-tenth-of-what-europe-does/",
+    "source_url": "https://monochrome-watches.com/introducing-chinese-brand-atelier-mephalie-launches-its-minute-repeater-collection-priced-to-a-tenth-of-what-europe-does/"
+  },
+  {
     "id": "art-nuvolari-lenard-380-o-monstro-tr-1949",
     "slug": "nuvolari-lenard-380-o-monstro-transoceanico-de-115-metros-desenvolvido-com-casco-de-deslocamento-rigido-para-navegacao-polar-autonoma-1935",
     "title": "Nuvolari Lenard 380: O Monstro Transoceânico de 115 Metros Desenvolvido com Casco de Deslocamento Rígido para Navegação Polar Autônoma",
@@ -1144,11 +1197,11 @@ export const ARTICLES = [
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'DESTINOS',
-    title: 'Nuvolari Lenard 380: O Monstro Transoc...',
-    image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400',
+    category: 'RELOGIOS',
+    title: 'Atelier Mephalie: A Repetição de Minut...',
+    image: 'https://monochrome-watches.com/app/uploads/2026/10/Chinese-Brand-Atelier-Mephalie-Minute-Repeater-Collection-Accessible-5-600x237.jpg',
     tag: 'HOMOLOGADO PELO RADAR',
-    slug: 'nuvolari-lenard-380-o-monstro-transoceanico-de-115-metros-desenvolvido-com-casco-de-deslocamento-rigido-para-navegacao-polar-autonoma-1935'
+    slug: 'atelier-mephalie-a-repeticao-de-minutos-com-gongos-acusticos-manuais-e-acabamento-em-anglage-de-alta-relojoaria-5090'
   },
   {
     id: 'film-2',
