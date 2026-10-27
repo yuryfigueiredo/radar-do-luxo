@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-bugatti-tourbillon-o-motor-v16-a-1653",
+    "slug": "bugatti-tourbillon-o-motor-v16-aspirado-de-83-litros-que-rejeita-a-hibridizacao-futura-em-nome-da-pureza-mecanica-1630",
+    "title": "Bugatti Tourbillon: O Motor V16 Aspirado de 8,3 Litros que Rejeita a Hibridização Futura em Nome da Pureza Mecânica",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "27 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "Mate Rimac desafia o dogma da eletrificação total ao projetar uma arquitetura purista derivada do Tourbillon, priorizando a visceralidade inercial e o câmbio manual sobre a conveniência digital.",
+    "contentParagraphs": [
+      "A combustão interna não aceita o esquecimento. Em um cenário automotivo dominado por baterias de íon-lítio pesadas e interfaces sem alma, a engenharia de Molsheim avança na contramão da esterilização digital. O monocoque em carbo-titânio curado em autoclave a 6 bar abriga um bloco monumental. A atmosfera absorvida é comprimida com violência até atingir o limite físico das 9.000 RPM. A força G lateral gerada nas curvas de alta velocidade exige mais do piloto do que qualquer algoritmo de estabilidade jamais exigiria.",
+      "A aerodinâmica ativa trabalha em silêncio absoluto sob o assoalho. Os fluxos de Venturi de efeito solo colam o chassi ao asfalto com uma precisão cirúrgica de mícrons. Cada canal do difusor traseiro foi esculpido para gerenciar a pressão estática sem recorrer a aerofólios espalhafatosos. O escape em Inconel 625 dissipa o calor extremo transformando gases residuais em uma sinfonia metálica pura. Aqui, a telemetria inercial substitui a assistência eletrônica invasiva, devolvendo ao condutor o controle total da trajetória.",
+      "A especulação técnica em torno de uma transmissão manual e da remoção completa do sistema híbrido revela uma obsessão quase herética pelo peso mínimo. Eliminar motores elétricos e baterias reduz centenas de quilogramas da massa suspensa, alterando drasticamente o comportamento dinâmico em circuitos fechados. A resistência ao torque brutal exige engrenagens forjadas em ligas especiais capazes de suportar cargas térmicas monumentais sem deformação estrutural.",
+      "O verdadeiro luxo contemporâneo reside na resistência à obsolescência programada. Enquanto o mercado consome utilitários híbridos descartáveis, a Bugatti consolida um reduto para colecionadores que exigem a brutalidade mecânica sem filtros. Este não é um veículo de transição energética. É o manifesto definitivo de que a combustão aspirada de altíssima cilindrada encontrou na engenharia de Mate Rimac seu testamento mais intransigente e definitivo."
+    ],
+    "content_paragraphs": [
+      "A combustão interna não aceita o esquecimento. Em um cenário automotivo dominado por baterias de íon-lítio pesadas e interfaces sem alma, a engenharia de Molsheim avança na contramão da esterilização digital. O monocoque em carbo-titânio curado em autoclave a 6 bar abriga um bloco monumental. A atmosfera absorvida é comprimida com violência até atingir o limite físico das 9.000 RPM. A força G lateral gerada nas curvas de alta velocidade exige mais do piloto do que qualquer algoritmo de estabilidade jamais exigiria.",
+      "A aerodinâmica ativa trabalha em silêncio absoluto sob o assoalho. Os fluxos de Venturi de efeito solo colam o chassi ao asfalto com uma precisão cirúrgica de mícrons. Cada canal do difusor traseiro foi esculpido para gerenciar a pressão estática sem recorrer a aerofólios espalhafatosos. O escape em Inconel 625 dissipa o calor extremo transformando gases residuais em uma sinfonia metálica pura. Aqui, a telemetria inercial substitui a assistência eletrônica invasiva, devolvendo ao condutor o controle total da trajetória.",
+      "A especulação técnica em torno de uma transmissão manual e da remoção completa do sistema híbrido revela uma obsessão quase herética pelo peso mínimo. Eliminar motores elétricos e baterias reduz centenas de quilogramas da massa suspensa, alterando drasticamente o comportamento dinâmico em circuitos fechados. A resistência ao torque brutal exige engrenagens forjadas em ligas especiais capazes de suportar cargas térmicas monumentais sem deformação estrutural.",
+      "O verdadeiro luxo contemporâneo reside na resistência à obsolescência programada. Enquanto o mercado consome utilitários híbridos descartáveis, a Bugatti consolida um reduto para colecionadores que exigem a brutalidade mecânica sem filtros. Este não é um veículo de transição energética. É o manifesto definitivo de que a combustão aspirada de altíssima cilindrada encontrou na engenharia de Mate Rimac seu testamento mais intransigente e definitivo."
+    ],
+    "specs": {
+      "Arquitetura": "V16 aspirado naturalmente",
+      "Cinthurao Estrutural": "Monocoque em carbo-titânio",
+      "Linha de Escape": "Inconel 625 de alta temperatura",
+      "Geração de Downforce": "Canais Venturi de efeito solo",
+      "Tolerância de Usinagem": "Mícrons calibrados em autoclave"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 93,
+    "ranking_score": 93,
+    "publishedAt": "2026-10-27T20:03:01.653Z",
+    "published_at": "2026-10-27T20:03:01.653Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRlpfQWR4c2FjQ2ptWHp5bm1Zb2F1bjVFYk9VNDU5am1MMWRLSU5NZVVPZ3duc181bFoxOWczSVBaVmxOMmR5VS1tNTNMT3JHM3U0TzViZHkyVUYtSTdNaTVUMDVzbzVLNTVmTVJTd3FtNmVESUJUOVkwSWJVSVVWZWwxN0tuYzY5OFBVQ2dJVmYxT2tQZHlobmNkQkZUYTY3bHpOd3k0cWR2b1UxbjlzNDBR?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRlpfQWR4c2FjQ2ptWHp5bm1Zb2F1bjVFYk9VNDU5am1MMWRLSU5NZVVPZ3duc181bFoxOWczSVBaVmxOMmR5VS1tNTNMT3JHM3U0TzViZHkyVUYtSTdNaTVUMDVzbzVLNTVmTVJTd3FtNmVESUJUOVkwSWJVSVVWZWwxN0tuYzY5OFBVQ2dJVmYxT2tQZHlobmNkQkZUYTY3bHpOd3k0cWR2b1UxbjlzNDBR?oc=5"
+  },
+  {
     "id": "art-audemars-piguet-o-ecossistema-th-4662",
     "slug": "audemars-piguet-o-ecossistema-the-watch-keepers-e-a-criptografia-fiduciaria-de-850-pecas-certificadas-na-vallee-de-joux-4646",
     "title": "Audemars Piguet: O Ecossistema 'The Watch Keepers' e a Criptografia Fiduciária de 850 Peças Certificadas na Vallée de Joux",
@@ -155,10 +206,10 @@ export const ARTICLES = [
       "Acabamento": "Anglage manual com sabugueiro silvestre e buril de aço"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 94,
@@ -1042,11 +1093,11 @@ export const ARTICLES = [
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'RELOGIOS',
-    title: 'Audemars Piguet: O Ecossistema \'The W...',
-    image: 'https://hodinkee.imgix.net/uploads/images/6e4490ef-be24-4879-bfcc-f05780554f82/TheWatchKeepers_Library.jpg?ixlib=rails-1.1.0&amp;fm=jpg&amp;q=55&amp;auto=format&amp;usm=12&amp;w=2000',
+    category: 'SUPERCARROS',
+    title: 'Bugatti Tourbillon: O Motor V16 Aspira...',
+    image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400',
     tag: 'DESTAQUE MUNDIAL',
-    slug: 'audemars-piguet-o-ecossistema-the-watch-keepers-e-a-criptografia-fiduciaria-de-850-pecas-certificadas-na-vallee-de-joux-4646'
+    slug: 'bugatti-tourbillon-o-motor-v16-aspirado-de-83-litros-que-rejeita-a-hibridizacao-futura-em-nome-da-pureza-mecanica-1630'
   },
   {
     id: 'film-2',
