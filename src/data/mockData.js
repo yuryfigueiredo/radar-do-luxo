@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-bugatti-residences-miami-a-torre-7537",
+    "slug": "bugatti-residences-miami-a-torre-de-52-andares-com-sky-lifts-hidraulicos-que-elevam-hipercarros-ate-a-cobertura-privativa-7521",
+    "title": "Bugatti Residences Miami: A Torre de 52 Andares com Sky-Lifts Hidráulicos que Elevam Hipercarros até a Cobertura Privativa",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "27 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "A engenharia aerodinâmica de Molsheim cruza o Atlântico para erguer um monstro residencial em Miami, onde a força G lateral dá lugar à elevação vertical de bólidos milionários diretamente para a sala de estar.",
+    "contentParagraphs": [
+      "O asfalto cede lugar ao concreto armado. A velocidade pura agora desafia a gravidade. A Bugatti transpôs sua obsessão por tolerâncias de mícrons e fluxos de Venturi para o skyline de Miami, concebendo uma torre residencial onde o aço estrutural suporta cargas dinâmicas inimagináveis na arquitetura convencional.",
+      "Dois elevadores hidráulicos de alta capacidade operam como pistões de um motor W16, içando veículos com exatidão milimétrica através do núcleo da torre. Cada sky-lift foi projetado para absorver vibrações inerciais, garantindo que o monocoque em carbo-titânio e o escape em Inconel estacionem silenciosamente ao lado do mobiliário de living.",
+      "A aerodinâmica não se restringe mais às pistas de Nürburgring. O perfil arquitetônico do edifício manipula o fluxo laminar dos ventos costeiros da Flórida, reduzindo o arrasto estrutural enquanto os terraços em balanço oferecem um refúgio térmico moldado em vidro blindado de alta densidade e pedra natural.",
+      "Em um mercado imobiliário saturado por torres efêmeras cobertas de vidro espelhado, esta obra-prima estabelece um novo patamar de imunidade temporal. Não estamos diante de um endereço residencial comum, mas de um santuário mecânico intransigente onde a engenharia extrema finalmente encontra seu endereço permanente."
+    ],
+    "content_paragraphs": [
+      "O asfalto cede lugar ao concreto armado. A velocidade pura agora desafia a gravidade. A Bugatti transpôs sua obsessão por tolerâncias de mícrons e fluxos de Venturi para o skyline de Miami, concebendo uma torre residencial onde o aço estrutural suporta cargas dinâmicas inimagináveis na arquitetura convencional.",
+      "Dois elevadores hidráulicos de alta capacidade operam como pistões de um motor W16, içando veículos com exatidão milimétrica através do núcleo da torre. Cada sky-lift foi projetado para absorver vibrações inerciais, garantindo que o monocoque em carbo-titânio e o escape em Inconel estacionem silenciosamente ao lado do mobiliário de living.",
+      "A aerodinâmica não se restringe mais às pistas de Nürburgring. O perfil arquitetônico do edifício manipula o fluxo laminar dos ventos costeiros da Flórida, reduzindo o arrasto estrutural enquanto os terraços em balanço oferecem um refúgio térmico moldado em vidro blindado de alta densidade e pedra natural.",
+      "Em um mercado imobiliário saturado por torres efêmeras cobertas de vidro espelhado, esta obra-prima estabelece um novo patamar de imunidade temporal. Não estamos diante de um endereço residencial comum, mas de um santuário mecânico intransigente onde a engenharia extrema finalmente encontra seu endereço permanente."
+    ],
+    "specs": {
+      "arquitetura": "Zaha Hadid Architects",
+      "mecanica_elevacao": "Sky-Lifts hidráulicos de alta precisão",
+      "estrutura": "Concreto de ultra-alto desempenho e carbo-titânio",
+      "localizacao": "South Miami Beach, Flórida",
+      "unidades_exclusivas": "146 residências com garagens privativas elevadas"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 94,
+    "ranking_score": 94,
+    "publishedAt": "2026-10-27T00:25:57.536Z",
+    "published_at": "2026-10-27T00:25:57.536Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdXRWVV9WWVJMZ3Q0ZUxmTHZwbDcxR3kxS1BPS0l5V1E5ZGQwUW5LWXYzdFRST251THV6dXh6TVFya1NmMHRfcGltNDZuaktZQTFDcjEwTTVMbHo3bm44NmVMSVVXdzdSTUxheWxUYmVpR0c0S2wwODFTcHZuR2RoeHREVjI5SGlhc3U3Vmd1RmpSMHVCb1N1Z1U4RWFkdHh6cmF2dll1bnRLOXVVOXdGWFNEOGNMcTNzZkhILTFONFZXSUM4WFdqeFVOMWRlRWMtZGxCZVNkZkY1aXNKSDNoX1FlaXBQTW5udjJ4dWs2Mms?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdXRWVV9WWVJMZ3Q0ZUxmTHZwbDcxR3kxS1BPS0l5V1E5ZGQwUW5LWXYzdFRST251THV6dXh6TVFya1NmMHRfcGltNDZuaktZQTFDcjEwTTVMbHo3bm44NmVMSVVXdzdSTUxheWxUYmVpR0c0S2wwODFTcHZuR2RoeHREVjI5SGlhc3U3Vmd1RmpSMHVCb1N1Z1U4RWFkdHh6cmF2dll1bnRLOXVVOXdGWFNEOGNMcTNzZkhILTFONFZXSUM4WFdqeFVOMWRlRWMtZGxCZVNkZkY1aXNKSDNoX1FlaXBQTW5udjJ4dWs2Mms?oc=5"
+  },
+  {
     "id": "art-vacheron-constantin-les-cabinoti-0905",
     "slug": "vacheron-constantin-les-cabinotiers-a-obra-mestra-de-40-complicacoes-em-platina-que-exigiu-8-anos-de-calculo-astronomico-em-genebra-0895",
     "title": "Vacheron Constantin Les Cabinotiers: A Obra-Mestra de 40 Complicações em Platina que Exigiu 8 Anos de Cálculo Astronômico em Genebra",
@@ -156,10 +207,10 @@ export const ARTICLES = [
       "Avaliação Patrimonial": "Confidencial sob consulta privada"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 97,
@@ -887,11 +938,11 @@ export const ARTICLES = [
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'RELOGIOS',
-    title: 'Vacheron Constantin Les Cabinotiers: A...',
-    image: 'https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=max&q=80&w=1400',
+    category: 'SUPERCARROS',
+    title: 'Bugatti Residences Miami: A Torre de 5...',
+    image: 'https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400',
     tag: 'DESTAQUE MUNDIAL',
-    slug: 'vacheron-constantin-les-cabinotiers-a-obra-mestra-de-40-complicacoes-em-platina-que-exigiu-8-anos-de-calculo-astronomico-em-genebra-0895'
+    slug: 'bugatti-residences-miami-a-torre-de-52-andares-com-sky-lifts-hidraulicos-que-elevam-hipercarros-ate-a-cobertura-privativa-7521'
   },
   {
     id: 'film-2',
