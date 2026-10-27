@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-nuvolari-lenard-380-o-monstro-tr-1949",
+    "slug": "nuvolari-lenard-380-o-monstro-transoceanico-de-115-metros-desenvolvido-com-casco-de-deslocamento-rigido-para-navegacao-polar-autonoma-1935",
+    "title": "Nuvolari Lenard 380: O Monstro Transoceânico de 115 Metros Desenvolvido com Casco de Deslocamento Rígido para Navegação Polar Autônoma",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "HOMOLOGADO PELO RADAR",
+    "date": "27 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A arquitetura naval italiana atinge um novo patamar de brutalidade oceânica com 380 pés de aço estrutural, propulsão híbrida de longo curso e autonomia ininterrupta em mares revoltos.",
+    "contentParagraphs": [
+      "O aço naval não tolera hesitações quando o Atlântico Norte impõe ondas de doze metros contra a proa. A Nuvolari Lenard consolida sua soberania no design oceânico apresentando o projeto de 115 metros que redefine os limites da engenharia de superiates. Sob a direção de Carlo Nuvolari e Dan Lenard, cada linha mestra foi desenhada para cortar a água com resistência hidrodinâmica mínima. Não há concessões estéticas gratuitas aqui. Apenas funcionalidade brutal disfarçada sob proporções monumentais.",
+      "A estrutura primária baseia-se em um casco de deslocamento total forjado em ligas metálicas de alta resistência, projetado para suportar o esforço torsional de travessias intercontinentais sem reabastecimento. A engenharia interna abriga geradores de última geração acoplados a propulsão híbrida, garantindo que o navio opere em silêncio acústico absoluto durante aproximações a reservas ecológicas remotas. A força G lateral experimentada no passadiço durante manobras de emergência é anulada por sistemas giroscópicos de estabilização ativa. Cada antepara soldada cumpre tolerâncias de mícrons para eliminar vibrações estruturais.",
+      "Enquanto o casco racha o gelo flutuante com precisão cirúrgica, os interiores oferecem um santuário térmico e acústico isolado do caos exterior. O convés principal integra um spa privativo alimentado por sistemas de dessalinização de alta vazão, além de tanques lastro inteligentes que redistribuem toneladas de água em segundos para contrabalançar rajadas de vento laterais. A autonomia transatlântica não é apenas uma métrica de marketing; é o resultado de cálculos termodinâmicos rigorosos que otimizam o consumo específico de combustível em cada nó de velocidade.",
+      "A herança dos grandes transatlânticos do século XX encontra a telemetria inercial do século XXI neste projeto colossal. Para o armador que exige soberania absoluta sobre os oceanos, o Nuvolari Lenard 380 opera como uma fortaleza flutuante intransponível. A engenharia naval atinge, mais uma vez, o ápice da intransigência mecânica."
+    ],
+    "content_paragraphs": [
+      "O aço naval não tolera hesitações quando o Atlântico Norte impõe ondas de doze metros contra a proa. A Nuvolari Lenard consolida sua soberania no design oceânico apresentando o projeto de 115 metros que redefine os limites da engenharia de superiates. Sob a direção de Carlo Nuvolari e Dan Lenard, cada linha mestra foi desenhada para cortar a água com resistência hidrodinâmica mínima. Não há concessões estéticas gratuitas aqui. Apenas funcionalidade brutal disfarçada sob proporções monumentais.",
+      "A estrutura primária baseia-se em um casco de deslocamento total forjado em ligas metálicas de alta resistência, projetado para suportar o esforço torsional de travessias intercontinentais sem reabastecimento. A engenharia interna abriga geradores de última geração acoplados a propulsão híbrida, garantindo que o navio opere em silêncio acústico absoluto durante aproximações a reservas ecológicas remotas. A força G lateral experimentada no passadiço durante manobras de emergência é anulada por sistemas giroscópicos de estabilização ativa. Cada antepara soldada cumpre tolerâncias de mícrons para eliminar vibrações estruturais.",
+      "Enquanto o casco racha o gelo flutuante com precisão cirúrgica, os interiores oferecem um santuário térmico e acústico isolado do caos exterior. O convés principal integra um spa privativo alimentado por sistemas de dessalinização de alta vazão, além de tanques lastro inteligentes que redistribuem toneladas de água em segundos para contrabalançar rajadas de vento laterais. A autonomia transatlântica não é apenas uma métrica de marketing; é o resultado de cálculos termodinâmicos rigorosos que otimizam o consumo específico de combustível em cada nó de velocidade.",
+      "A herança dos grandes transatlânticos do século XX encontra a telemetria inercial do século XXI neste projeto colossal. Para o armador que exige soberania absoluta sobre os oceanos, o Nuvolari Lenard 380 opera como uma fortaleza flutuante intransponível. A engenharia naval atinge, mais uma vez, o ápice da intransigência mecânica."
+    ],
+    "specs": {
+      "Comprimento Total (LOA)": "115 metros (380 pés)",
+      "Arquitetura Naval": "Nuvolari Lenard Design Studio",
+      "Material do Casco": "Aço de Alta Resistência Naval com Superestrutura em Alumínio",
+      "Autonomia": "Transatlântica ininterrupta para expedições polares",
+      "Propulsão": "Sistema híbrido de geradores acoplados a eixos de alta tolerância"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 92,
+    "ranking_score": 92,
+    "publishedAt": "2026-10-27T19:49:41.949Z",
+    "published_at": "2026-10-27T19:49:41.949Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOR0lZcFo5dGozRnhwT0dVT1NWNll0b0dtSDlGa21UNUktMXBOZGxvaGI0Zjdack9uWnllX1diRWFRSTQ2Ukt3VzdRbHhaRk9TS0hFMHRVS0d6RmFxQ3hLR0tsY2FLM3BpYVppU0hyc0E3MGFrQVJzVWt1RnIwNlpLamdSb3hhb21MbTY0MS1UbVhnR25FRklIZXcyYmNmUVhQYmxhSnRWdVpMVFlvVnhCSFJLa1NxUTdnNkpKY3NoX2xKX3VE?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOR0lZcFo5dGozRnhwT0dVT1NWNll0b0dtSDlGa21UNUktMXBOZGxvaGI0Zjdack9uWnllX1diRWFRSTQ2Ukt3VzdRbHhaRk9TS0hFMHRVS0d6RmFxQ3hLR0tsY2FLM3BpYVppU0hyc0E3MGFrQVJzVWt1RnIwNlpLamdSb3hhb21MbTY0MS1UbVhnR25FRklIZXcyYmNmUVhQYmxhSnRWdVpMVFlvVnhCSFJLa1NxUTdnNkpKY3NoX2xKX3VE?oc=5"
+  },
+  {
     "id": "art-bugatti-tourbillon-o-motor-v16-a-1653",
     "slug": "bugatti-tourbillon-o-motor-v16-aspirado-de-83-litros-que-rejeita-a-hibridizacao-futura-em-nome-da-pureza-mecanica-1630",
     "title": "Bugatti Tourbillon: O Motor V16 Aspirado de 8,3 Litros que Rejeita a Hibridização Futura em Nome da Pureza Mecânica",
@@ -1093,11 +1144,11 @@ export const ARTICLES = [
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'SUPERCARROS',
-    title: 'Bugatti Tourbillon: O Motor V16 Aspira...',
-    image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400',
-    tag: 'DESTAQUE MUNDIAL',
-    slug: 'bugatti-tourbillon-o-motor-v16-aspirado-de-83-litros-que-rejeita-a-hibridizacao-futura-em-nome-da-pureza-mecanica-1630'
+    category: 'DESTINOS',
+    title: 'Nuvolari Lenard 380: O Monstro Transoc...',
+    image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400',
+    tag: 'HOMOLOGADO PELO RADAR',
+    slug: 'nuvolari-lenard-380-o-monstro-transoceanico-de-115-metros-desenvolvido-com-casco-de-deslocamento-rigido-para-navegacao-polar-autonoma-1935'
   },
   {
     id: 'film-2',
