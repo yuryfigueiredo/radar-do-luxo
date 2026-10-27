@@ -236,6 +236,35 @@ export function analyzeEditorialContext(rawInput) {
   };
 }
 
+const VALID_AUTHOR_SLUGS = ['henrique-vianna', 'gabriel-fontes', 'clara-meirelles'];
+
+/**
+ * Usa a persona atribuída pela pauta como fonte única quando ela foi informada.
+ * A análise semântica continua sendo o fallback para o gerador usado diretamente
+ * no painel administrativo, sem uma pauta previamente curada.
+ */
+function resolveEditorialContext(rawInput, authorSlug) {
+  const analyzedContext = analyzeEditorialContext(rawInput);
+  if (!VALID_AUTHOR_SLUGS.includes(authorSlug)) {
+    return analyzedContext;
+  }
+
+  const author = AUTHORS[authorSlug];
+  const themeType = authorSlug === 'clara-meirelles'
+    ? 'watch'
+    : authorSlug === 'gabriel-fontes'
+      ? 'automotive'
+      : 'wealth';
+
+  return {
+    ...analyzedContext,
+    authorSlug,
+    author,
+    themeType,
+    reasoning: `Persona editorial previamente atribuída pela curadoria: ${author.name}. ${author.role}.`
+  };
+}
+
 /**
  * Avalia o nível de gravidade e cadência narrativa (Gravitas)
  */
@@ -687,7 +716,7 @@ RETORNE EXCLUSIVAMENTE UM OBJETO JSON VÁLIDO (sem markdown em volta do JSON):
 /**
  * FUNÇÃO PRINCIPAL: Gera matéria com IA (com extração Jina, Gemini Flash e Fallback Local)
  */
-export async function generateLuxuryArticle(rawInput) {
+export async function generateLuxuryArticle(rawInput, options = {}) {
   const trimmed = rawInput.trim();
   if (!trimmed) {
     throw new Error('Por favor, informe um link de notícia ou tema a ser investigado.');
@@ -705,7 +734,7 @@ export async function generateLuxuryArticle(rawInput) {
 
   const analysisTarget = extractedContent ? `${trimmed}\n\nCONTEÚDO EXTRAÍDO DA MATÉRIA:\n${extractedContent}` : trimmed;
 
-  const context = analyzeEditorialContext(analysisTarget);
+  const context = resolveEditorialContext(analysisTarget, options.authorSlug);
   const gravitas = assessEditorialGravitas(analysisTarget);
   const apiKey = getGeminiApiKey();
 
@@ -719,5 +748,9 @@ export async function generateLuxuryArticle(rawInput) {
   }
 
   const localDraft = synthesizeLocally(trimmed, context, gravitas);
-  return auditAndCleanArticle(localDraft, context.authorSlug);
+  return {
+    ...auditAndCleanArticle(localDraft, context.authorSlug),
+    generationStatus: 'fallback_pending',
+    needsRegeneration: true
+  };
 }

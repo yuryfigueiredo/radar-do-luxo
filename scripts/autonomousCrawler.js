@@ -5,8 +5,8 @@
  * Executa sob demanda via comando CLI ou agendamento cron (GitHub Actions):
  *   npm run publish:now   OU   npm run crawl
  *
- * 1. Monitora fontes internacionais de elite (RSS Robb Report, Hodinkee, etc.)
- *    e o acervo curado (INITIAL_HOT_PAUTAS).
+ * 1. Consome exclusivamente o acervo curado (INITIAL_HOT_PAUTAS), produzido
+ *    pelo workflow de Scout antes deste ciclo.
  * 2. Avalia TODAS as pautas não publicadas e calcula a NOTA GERAL (rankingScore).
  * 3. Seleciona estritamente a pauta de MAIOR NOTA GERAL.
  * 4. Redige o ensaio com a persona oficial correspondente (Henrique, Gabriel, Clara)
@@ -23,7 +23,6 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { createClient } from '@supabase/supabase-js';
 import { generateLuxuryArticle } from '../src/services/aiArticleGenerator.js';
-import { fetchAllEliteFeeds } from '../src/services/rssCuratorService.js';
 import { INITIAL_HOT_PAUTAS } from '../src/data/hotFeedsData.js';
 import { calculateEditorialScore, calculateCapaWeight } from '../src/services/rankingEngine.js';
 import { ARTICLES, FILMSTRIP_ITEMS } from '../src/data/mockData.js';
@@ -31,6 +30,7 @@ import { ARTICLES, FILMSTRIP_ITEMS } from '../src/data/mockData.js';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
+const retryQueuePath = path.join(rootDir, 'src', 'data', 'editorialRetryQueue.js');
 
 // Carrega .env manualmente se necessário
 const envPath = path.join(rootDir, '.env');
@@ -107,7 +107,41 @@ function keywordsMatch(text1, text2) {
   const words1 = text1.toLowerCase().replace(/[^a-z0-9áéíóúãõâêîôûç]/g, ' ').split(/\s+/).filter(w => w.length >= 5);
   const words2 = text2.toLowerCase().replace(/[^a-z0-9áéíóúãõâêîôûç]/g, ' ').split(/\s+/).filter(w => w.length >= 5);
   const common = words1.filter(w => words2.includes(w));
-  return common.length >= 2;
+  return common.length >= 3;
+}
+
+function readRetryQueue() {
+  if (!fs.existsSync(retryQueuePath)) return [];
+  const content = fs.readFileSync(retryQueuePath, 'utf8');
+  const match = content.match(/export const EDITORIAL_RETRY_QUEUE = (\[[\s\S]*\]);/);
+  if (!match) throw new Error('Fila de reprocessamento editorial inválida.');
+  return JSON.parse(match[1]);
+}
+
+function writeRetryQueue(queue) {
+  fs.writeFileSync(
+    retryQueuePath,
+    `export const EDITORIAL_RETRY_QUEUE = ${JSON.stringify(queue, null, 2)};\n`,
+    'utf8'
+  );
+}
+
+function enqueueForRegeneration(pauta, promptInput) {
+  const queue = readRetryQueue();
+  if (!queue.some(item => item.pautaId === pauta.id)) {
+    queue.push({
+      pautaId: pauta.id,
+      promptInput,
+      authorSlug: pauta.authorSlug,
+      category: pauta.category,
+      categorySlug: pauta.categorySlug,
+      sourceUrl: pauta.sourceUrl,
+      image: pauta.image,
+      queuedAt: new Date().toISOString(),
+      attempts: 1
+    });
+    writeRetryQueue(queue);
+  }
 }
 
 async function getExistingArticlesMetadata(supabaseClient) {
@@ -156,48 +190,12 @@ async function selectHighestScoringPauta(supabaseClient) {
   const meta = await getExistingArticlesMetadata(supabaseClient);
   const candidates = [];
 
-  // A. Coleta pautas ao vivo de Feeds RSS Internacionais
-  console.log('🌐 [Scout] Rastreando feeds RSS internacionais de elite...');
-  try {
-    const rssFeeds = await fetchAllEliteFeeds();
-    for (const item of rssFeeds) {
-      const titleKey = (item.originalTitle || '').toLowerCase().trim();
-      const slugKey = (item.slug || '').toLowerCase().trim();
-      const photoId = getPhotoId(item.image);
-
-      const hasExact = meta.existingSlugs.has(titleKey) || meta.existingSlugs.has(slugKey);
-      const hasPhoto = photoId && meta.existingPhotoIds.has(photoId);
-      const hasTopic = meta.existingTitles.some(t => keywordsMatch(titleKey, t));
-
-      if (!hasExact && !hasPhoto && !hasTopic) {
-        const scoreData = calculateEditorialScore({
-          title: item.originalTitle,
-          summary: item.summary,
-          specs: item.specs || {}
-        });
-        candidates.push({
-          sourceType: 'RSS',
-          sourceName: item.source || 'Robb Report / Hodinkee',
-          hook: item.originalTitle,
-          category: item.category,
-          categorySlug: item.categorySlug,
-          authorSlug: item.authorSlug,
-          summary: item.summary,
-          image: item.image,
-          specs: item.specs || {},
-          sourceUrl: item.sourceUrl,
-          score: scoreData.totalScore,
-          tier: scoreData.tier
-        });
-      }
-    }
-  } catch (rssErr) {
-    console.warn('⚠️ RSS feeds offline ou lentos, prosseguindo com acervo curado.');
-  }
-
-  // B. Coleta pautas do acervo curado INITIAL_HOT_PAUTAS
+  // Coleta pautas do acervo curado INITIAL_HOT_PAUTAS
   console.log('📚 [Scout] Analisando pautas curadas de alto prestígio...');
   for (const pauta of INITIAL_HOT_PAUTAS) {
+    if (pauta.status && pauta.status !== 'available') {
+      continue;
+    }
     const hookKey = (pauta.suggestedHook || '').toLowerCase().trim();
     const origKey = (pauta.originalTitle || '').toLowerCase().trim();
     const photoId = getPhotoId(pauta.suggestedImage);
@@ -284,13 +282,25 @@ async function runPublicationCycle() {
     }
 
     // Seleciona a melhor pauta
-    const pauta = await selectHighestScoringPauta(supabaseClient);
+    const retryQueue = readRetryQueue();
+    const queuedPauta = retryQueue[0];
+    const pauta = queuedPauta || await selectHighestScoringPauta(supabaseClient);
     if (!pauta) return null;
 
     // Redige a matéria com IA e persona
     console.log('\n🖋️  [Redação] Agente Escritor redigindo matéria com tom aristocrático e anti-detecção...');
-    const promptInput = `${pauta.hook}\n\nContexto: ${pauta.summary || ''}\nFonte: ${pauta.sourceUrl || ''}`;
-    const articleData = await generateLuxuryArticle(promptInput);
+    const promptInput = queuedPauta
+      ? queuedPauta.promptInput
+      : `${pauta.hook}\n\nContexto: ${pauta.summary || ''}\nFonte: ${pauta.sourceUrl || ''}`;
+    const articleData = await generateLuxuryArticle(promptInput, {
+      authorSlug: pauta.authorSlug
+    });
+
+    if (articleData.needsRegeneration || articleData.generationStatus === 'fallback_pending') {
+      enqueueForRegeneration(pauta, promptInput);
+      console.warn('⚠️ Gemini indisponível: matéria mantida na fila para regeneração posterior.');
+      return null;
+    }
 
     console.log(`✓ Ensaio Concluído: "${articleData.title}"`);
     console.log(`✓ Autor: ${articleData.authorName} (${articleData.authorSlug})`);
@@ -308,7 +318,7 @@ async function runPublicationCycle() {
 
     // 🛡️ VERIFICAÇÃO EXTRA DE DUPLICIDADE (Site & Capa Atual)
     console.log('\n🛡️  [Auditoria Extra Anti-Duplicidade] Verificando se já existe matéria similar no site ou na Capa...');
-    const candidatePhotoId = getPhotoId(articleData.image || pauta.image);
+    const candidatePhotoId = getPhotoId(pauta.image || articleData.image);
     const candidateTitle = (articleData.title || '').trim().toLowerCase();
     
     // 1. Verifica contra a Capa atual
@@ -420,7 +430,9 @@ async function runPublicationCycle() {
       rankingScore: finalScore,
       ranking_score: finalScore,
       publishedAt: publishedAt,
-      published_at: publishedAt
+      published_at: publishedAt,
+      sourceUrl: pauta.sourceUrl,
+      source_url: pauta.sourceUrl
     };
 
     // 4. Persistência Dual
@@ -563,6 +575,11 @@ async function runPublicationCycle() {
           );
           fs.writeFileSync(radarServicePath, serviceContent, 'utf-8');
           console.log(`⚡ [Cache Bumper] Versão de conteúdo atualizada para '${newVersion}'.`);
+        }
+
+        if (queuedPauta) {
+          writeRetryQueue(retryQueue.filter(item => item.pautaId !== queuedPauta.pautaId));
+          console.log('✅ [Retry Queue] Pauta regenerada com Gemini e removida da fila.');
         }
       } else {
         throw new Error('Marcador ARTICLES não encontrado em mockData.js');

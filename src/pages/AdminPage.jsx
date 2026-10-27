@@ -217,10 +217,14 @@ export default function AdminPage() {
       if (autoPublish) {
         await saveArticle({
           ...result,
-          status: 'published',
-          isHero: true
+          status: result.needsRegeneration ? 'draft' : 'published',
+          isHero: !result.needsRegeneration,
+          needsRegeneration: Boolean(result.needsRegeneration),
+          generationStatus: result.generationStatus || 'gemini'
         });
-        showToast('✦ Matéria gerada e publicada diretamente na Capa!');
+        showToast(result.needsRegeneration
+          ? '⚠️ Gemini indisponível: matéria salva como rascunho para regeneração.'
+          : '✦ Matéria gerada e publicada diretamente na Capa!');
         loadData();
       }
     } catch (err) {
@@ -453,7 +457,9 @@ export default function AdminPage() {
 
     try {
       const inputContext = `${pauta.suggestedHook}\n\nResumo: ${pauta.summary}\nFonte: ${pauta.source}\nURL: ${pauta.sourceUrl}`;
-      const result = await generateLuxuryArticle(inputContext);
+      const result = await generateLuxuryArticle(inputContext, {
+        authorSlug: pauta.authorSlug
+      });
 
       // Garante a imagem cinematográfica da pauta se não houver outra específica
       if (pauta.suggestedImage) {
@@ -466,13 +472,17 @@ export default function AdminPage() {
       if (autoPublish) {
         await saveArticle({
           ...result,
-          status: 'published',
+          status: result.needsRegeneration ? 'draft' : 'published',
           placement,
-          isHero: placement === 'hero'
+          isHero: result.needsRegeneration ? false : placement === 'hero',
+          needsRegeneration: Boolean(result.needsRegeneration),
+          generationStatus: result.generationStatus || 'gemini'
         });
         updateHotPautaStatus(pauta.id, 'imported');
         setHotPautas(getHotPautas());
-        showToast(placement === 'hero' 
+        showToast(result.needsRegeneration
+          ? '⚠️ Gemini indisponível: matéria salva como rascunho para regeneração.'
+          : placement === 'hero'
           ? '✦ Matéria redigida com sucesso e publicada no topo da Capa!' 
           : '✦ Matéria publicada no Feed com sucesso (Capa atual mantida intacta)!');
         loadData();
