@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-patek-philippe-de-joe-dimaggio-o-1985",
+    "slug": "patek-philippe-de-joe-dimaggio-o-calendario-perpetuo-em-ouro-amarelo-de-1957-que-exige-12-milhao-de-dolares-em-custodia-fiduciaria-1969",
+    "title": "Patek Philippe de Joe DiMaggio: O Calendário Perpétuo em Ouro Amarelo de 1957 que Exige 1,2 milhão de Dólares em Custódia Fiduciária",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "category_slug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "author_slug": "clara-meirelles",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "27 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://robbreport.com/wp-content/uploads/2026/10/joe-dimaggio-patek-phillipe-watch.jpg",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Um testemunho mecânico da era de ouro de Nova York emerge no mercado secundário, unindo a precisão intransigente da Vallée de Joux à herança inconfundível de um ícone do esporte americano.",
+    "contentParagraphs": [
+      "O tempo nesta caixa em ouro amarelo de dezoito quilates não marcha; ele suspende o fôlego. Joe DiMaggio, o homem cujo silêncio impenetrável em campo ecoava a serenidade de um mostrador perfeitamente limpo, carregava no pulso este Patek Philippe como um manifesto invisível. Não há gritos visuais nesta arquitetura horológica. Apenas a geometria austera dos anos cinquenta, esculpida para resistir às décadas com a mesma altivez com que seu proprietário cruzava o home plate. A matéria-prima guarda a memória do toque humano, do atrito paciente do metal contra a pele de um titã que desprezava a efemeridade.",
+      "Sob o vidro hesalite abaulado respira um calibre de manufatura concebido quando a relojoaria ainda pertencia ao reino da alquimia pura. Cada roda dentada recebeu dezenas de horas de polimento manual com pasta diamantada, transformando atritos mecânicos microscópicos em pura poesia cinética. Os cantos das pontes ostentam o biselamento em anglage, executado com o auxílio de hastes de sabugueiro silvestre para obter aquele brilho espelhado que rejeita o níquel industrial. É a busca obstinada pela perfeição invisible, onde o dono de um tesouro assim jamais precisará abrir o fundo da caixa para saber que habita o topo absoluto da pirâmide.",
+      "O mostrador prateado opalino exibe índices aplicados em ouro e marcadores de fases da lua que desafiam o horizonte dos anos. A complicação do calendário perpétuo opera como um microcosmo astronômico em miniatura, calculando silenciosamente os saltos dos anos bissextos sem que o usuário perceba o esforço titânico das alavancas internas. Esta não é uma ferramenta utilitária para medir reuniões corporativas. Trata-se de um refúgio de liquidez tangível, uma reserva de valor soberana destinada a colecionadores que compreendem a diferença abissal entre preço e imunidade temporal.",
+      "Por um milhão e duzentos mil dólares, o adquirente não leva apenas a proveniência documentada de uma lenda dos Yankees de Nova York. Adquire o direito de custódia sobre um fragmento intocado do século vinte, onde o rigor técnico suíço encontrou a elegância despojada de um gentleman que entendia o valor da discrição. Enquanto o mercado moderno agoniza sob o peso de relógios emborrachados e modismos passageiros, este Patek Philippe permanece como um monolito de estabilidade emocional, aguardando pacientemente pelo próximo guardião capaz de escutar o sussurro constante de seu escape."
+    ],
+    "content_paragraphs": [
+      "O tempo nesta caixa em ouro amarelo de dezoito quilates não marcha; ele suspende o fôlego. Joe DiMaggio, o homem cujo silêncio impenetrável em campo ecoava a serenidade de um mostrador perfeitamente limpo, carregava no pulso este Patek Philippe como um manifesto invisível. Não há gritos visuais nesta arquitetura horológica. Apenas a geometria austera dos anos cinquenta, esculpida para resistir às décadas com a mesma altivez com que seu proprietário cruzava o home plate. A matéria-prima guarda a memória do toque humano, do atrito paciente do metal contra a pele de um titã que desprezava a efemeridade.",
+      "Sob o vidro hesalite abaulado respira um calibre de manufatura concebido quando a relojoaria ainda pertencia ao reino da alquimia pura. Cada roda dentada recebeu dezenas de horas de polimento manual com pasta diamantada, transformando atritos mecânicos microscópicos em pura poesia cinética. Os cantos das pontes ostentam o biselamento em anglage, executado com o auxílio de hastes de sabugueiro silvestre para obter aquele brilho espelhado que rejeita o níquel industrial. É a busca obstinada pela perfeição invisible, onde o dono de um tesouro assim jamais precisará abrir o fundo da caixa para saber que habita o topo absoluto da pirâmide.",
+      "O mostrador prateado opalino exibe índices aplicados em ouro e marcadores de fases da lua que desafiam o horizonte dos anos. A complicação do calendário perpétuo opera como um microcosmo astronômico em miniatura, calculando silenciosamente os saltos dos anos bissextos sem que o usuário perceba o esforço titânico das alavancas internas. Esta não é uma ferramenta utilitária para medir reuniões corporativas. Trata-se de um refúgio de liquidez tangível, uma reserva de valor soberana destinada a colecionadores que compreendem a diferença abissal entre preço e imunidade temporal.",
+      "Por um milhão e duzentos mil dólares, o adquirente não leva apenas a proveniência documentada de uma lenda dos Yankees de Nova York. Adquire o direito de custódia sobre um fragmento intocado do século vinte, onde o rigor técnico suíço encontrou a elegância despojada de um gentleman que entendia o valor da discrição. Enquanto o mercado moderno agoniza sob o peso de relógios emborrachados e modismos passageiros, este Patek Philippe permanece como um monolito de estabilidade emocional, aguardando pacientemente pelo próximo guardião capaz de escutar o sussurro constante de seu escape."
+    ],
+    "specs": {
+      "fabricante": "Patek Philippe & Co., Genebra",
+      "ano_de_fabricacion": "1957",
+      "material_da_caixa": "Ouro amarelo 18k",
+      "proviniencia": "Coleção particular de Joe DiMaggio",
+      "valor_estimado": "USD 1.200.000"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 94,
+    "ranking_score": 94,
+    "publishedAt": "2026-10-27T22:45:01.985Z",
+    "published_at": "2026-10-27T22:45:01.985Z",
+    "sourceUrl": "https://robbreport.com/style/watch-collector/joe-dimaggio-patek-philippe-watch-sale-1238794923/",
+    "source_url": "https://robbreport.com/style/watch-collector/joe-dimaggio-patek-philippe-watch-sale-1238794923/"
+  },
+  {
     "id": "art-villa-sa-caleta-a-laje-monolitic-5419",
     "slug": "villa-sa-caleta-a-laje-monolitica-de-concreto-e-travertino-de-38-milhoes-que-suspende-o-tempo-sobre-as-baleares-5403",
     "title": "Villa sa Caleta: A Laje Monolítica de Concreto e Travertino de € 38 Milhões que Suspende o Tempo sobre as Baleares",
@@ -153,10 +204,10 @@ export const ARTICLES = [
       "Jurisdição/Localização": "Falésia de Sa Caleta, Maiorca, Ilhas Baleares"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 95,
@@ -1187,54 +1238,17 @@ export const ARTICLES = [
     ],
     "is_hero": false,
     "is_hero_secondary": false
-  },
-  {
-    "id": "art-rm-sothebys-the-white-collection-1010",
-    "slug": "rm-sothebys-the-white-collection-o-acervo-secreto-de-56-porsches-brancos-intactos-arrematado-por-us-305-milhoes-em-custodia-fiduciaria",
-    "title": "RM Sotheby's The White Collection: O Acervo Secreto de 56 Porsches Brancos Intactos Arrematado por US$ 30,5 Milhões em Custódia Fiduciária",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "type": "article",
-    "badge": "RECORDE DE LEILÃO",
-    "excerpt": "A liquidação cirúrgica de um santuário monocromático na Flórida prova que a escassez absoluta e a uniformidade cromática operam como soberania patrimonial longe das volatilidades do mercado de capitais.",
-    "image": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=1400",
-    "authorSlug": "henrique-vianna",
-    "date": "24 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "isHero": false,
-    "isHeroSecondary": false,
-    "rankingScore": 85,
-    "specs": {
-      "volume_total": "US$ 30.540.000 sob o martelo da RM Sotheby's em Houston",
-      "lote_principal": "Porsche 918 Spyder Weissach Package com interior azul iate sob encomenda",
-      "proveniencia": "Coleção privada mantida por 25 anos em ambiente com umidade controlada",
-      "custodia": "Certidão contínua de fábrica e zero quilômetros registrados no hodômetro",
-      "Volume do Acervo": "56 automóveis da marca Porsche",
-      "Especificação Cromática": "Tonalidade única Grand Prix White",
-      "Faturamento Total": "US$ 30.581.400 em lances homologados",
-      "Destaque de Leilão": "Porsche 911 RSR (1993) com 10 km originais",
-      "Chancelamento": "RM Sotheby's Private Division"
-    },
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Em um hangar isolado nos arredores de Houston, a RM Sotheby's conduziu o leilão de The White Collection, reunindo cinquenta e seis exemplares da casa de Stuttgart rigorosamente especificados na tonalidade Grand Prix White. Não havia espaço para concessões estéticas. Cada chassi representava uma tese intransigente de curadoria, onde a ausência de cor funcionava como um manifesto contra a vulgaridade do efêmero.",
-      "A transação fechada em exatos 30.581.400 dólares revelou a resiliência implacável de ativos intocados. Entre os lotes disputados por fundações privadas e family offices, o raro Porsche 911 RSR de 1993, com apenas dez quilômetros originais em seu odômetro, atingiu cifras que desafiam a lógica convencional de depreciação automotiva. A carroçaria imaculada repousava sobre pneumáticos de época perfeitamente preservados, atestando um rigor de conservação museológica que transcende a simples posse mecânica.",
-      "Os mercados tradicionais oscilam conforme os humores da macroeconomia global. O colecionismo de altíssimo nível, contudo, opera sob a égide da imunidade temporal. Adquirir um bloco monolítico de veículos com especificações idênticas e histórico imaculado não é um ato de consumo, mas de alocação patrimonial defensiva. A liquidez migra para ativos tangíveis que acumulam valor intrínseco, imunes a modismos, decretos fiscais e inflação fiduciária.",
-      "O martelo bateu pela última vez. O acervo dispersou-se para cofres blindados ao redor do globo, mantendo intacta a aura de exclusividade que define a elite da custódia internacional. Para Henrique Vianna, a operação consolida uma verdade incontestável: quando a matéria-prima atinge a perfeição e a raridade estatística, o preço torna-se apenas um detalhe secundário diante da perenidade histórica."
-    ],
-    "is_hero": false,
-    "is_hero_secondary": false,
-    "category_slug": "supercarros"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'ARQUITETURA',
-    title: 'Villa sa Caleta: A Laje Monolítica de ...',
-    image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=80&w=1400',
+    category: 'RELOGIOS',
+    title: 'Patek Philippe de Joe DiMaggio: O Cale...',
+    image: 'https://robbreport.com/wp-content/uploads/2026/10/joe-dimaggio-patek-phillipe-watch.jpg',
     tag: 'DESTAQUE MUNDIAL',
-    slug: 'villa-sa-caleta-a-laje-monolitica-de-concreto-e-travertino-de-38-milhoes-que-suspende-o-tempo-sobre-as-baleares-5403'
+    slug: 'patek-philippe-de-joe-dimaggio-o-calendario-perpetuo-em-ouro-amarelo-de-1957-que-exige-12-milhao-de-dolares-em-custodia-fiduciaria-1969'
   },
   {
     id: 'film-2',
