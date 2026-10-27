@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-villa-sa-caleta-a-laje-monolitic-5419",
+    "slug": "villa-sa-caleta-a-laje-monolitica-de-concreto-e-travertino-de-38-milhoes-que-suspende-o-tempo-sobre-as-baleares-5403",
+    "title": "Villa sa Caleta: A Laje Monolítica de Concreto e Travertino de € 38 Milhões que Suspende o Tempo sobre as Baleares",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "27 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A soberania patrimonial encontra seu refúgio definitivo na imensidão calcária de Maiorca, onde uma estrutura de 45 metros desafia a gravidade mediterrânea.",
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Na costa escarpada de Maiorca, a arquitetura deixa de ser abrigo para se converter em refúgio de liquidez tangível. A Villa sa Caleta ergue-se como um monólito inexpugnável. Cada metro quadrado desta estrutura de € 38 milhões foi concebido para imunizar o capital contra as volatilidades macroeconômicas globais.",
+      "A engenharia civil aqui dialoga diretamente com a geologia balear. O projeto suspende uma laje de 45 metros sobre o abismo turquesa, utilizando concreto aparente de cura lenta e blocos maciços de travertino romano Navona. Brises em teca envelhecida filtram a luz implacável do sol de verão, enquanto pátios internos sombreados por oliveiras centenárias estabilizam a temperatura térmica interna sem recorrer a artifícios mecânicos grosseiros.",
+      "Esta residência não visa o consumo efêmero. Ela estabelece uma custódia fiduciária sobre a paisagem, garantindo herdeiros e fundações familiares contra a obsolescência estética. A opulência se manifesta na ausência absoluta de ornamentos redundantes, priorizando a espessura das paredes de pedra e a acústica perfeita gerada pelo choque do mar contra a base rochosa da falésia.",
+      "A arquitetura brutalista encontra sua face mais nobre quando ancorada na eternidade da pedra. Vinte metros acima das ondas, a morada permanece impassível, testemunha silenciosa de dinastias que entendem o verdadeiro significado de possuir o espaço e o tempo."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Na costa escarpada de Maiorca, a arquitetura deixa de ser abrigo para se converter em refúgio de liquidez tangível. A Villa sa Caleta ergue-se como um monólito inexpugnável. Cada metro quadrado desta estrutura de € 38 milhões foi concebido para imunizar o capital contra as volatilidades macroeconômicas globais.",
+      "A engenharia civil aqui dialoga diretamente com a geologia balear. O projeto suspende uma laje de 45 metros sobre o abismo turquesa, utilizando concreto aparente de cura lenta e blocos maciços de travertino romano Navona. Brises em teca envelhecida filtram a luz implacável do sol de verão, enquanto pátios internos sombreados por oliveiras centenárias estabilizam a temperatura térmica interna sem recorrer a artifícios mecânicos grosseiros.",
+      "Esta residência não visa o consumo efêmero. Ela estabelece uma custódia fiduciária sobre a paisagem, garantindo herdeiros e fundações familiares contra a obsolescência estética. A opulência se manifesta na ausência absoluta de ornamentos redundantes, priorizando a espessura das paredes de pedra e a acústica perfeita gerada pelo choque do mar contra a base rochosa da falésia.",
+      "A arquitetura brutalista encontra sua face mais nobre quando ancorada na eternidade da pedra. Vinte metros acima das ondas, a morada permanece impassível, testemunha silenciosa de dinastias que entendem o verdadeiro significado de possuir o espaço e o tempo."
+    ],
+    "specs": {
+      "Avaliação Patrimonial": "€ 38 Milhões",
+      "Estrutura Principal": "Laje monolítica de 45 metros em concreto aparente e travertino romano",
+      "Materialidade": "Teca envelhecida, aço estrutural galvanizado e pedra calcária balear",
+      "Paisagismo": "Ciprestes e oliveiras centenárias em encosta protegida",
+      "Jurisdição/Localização": "Falésia de Sa Caleta, Maiorca, Ilhas Baleares"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 95,
+    "ranking_score": 95,
+    "publishedAt": "2026-10-27T22:18:35.419Z",
+    "published_at": "2026-10-27T22:18:35.419Z",
+    "sourceUrl": "https://www.wallpaper.com/architecture/villa-mallorca-clifftop",
+    "source_url": "https://www.wallpaper.com/architecture/villa-mallorca-clifftop"
+  },
+  {
     "id": "art-ferrari-499p-modificata-o-protot-4387",
     "slug": "ferrari-499p-modificata-o-prototipo-de-endurance-de-870-cv-com-aerodinamica-ativa-em-fibra-de-carbono-e-telemetria-de-maranello-4373",
     "title": "Ferrari 499P Modificata: O Protótipo de Endurance de 870 cv com Aerodinâmica Ativa em Fibra de Carbono e Telemetria de Maranello",
@@ -309,10 +360,10 @@ export const ARTICLES = [
       "Tolerância de Usinagem": "Mícrons calibrados em autoclave"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 93,
@@ -1173,51 +1224,17 @@ export const ARTICLES = [
     "is_hero": false,
     "is_hero_secondary": false,
     "category_slug": "supercarros"
-  },
-  {
-    "id": "art-sheats-goldstein-residence-a-obr-1013",
-    "slug": "sheats-goldstein-residence-a-obra-prima-brutalista-de-100-milhoes-de-dolares-em-concreto-angular-e-vidro-que-desafia-a-gravidade-em-los-angeles",
-    "title": "Sheats-Goldstein Residence: A Obra-Prima Brutalista de 100 Milhões de Dólares em Concreto Angular e Vidro que Desafia a Gravidade em Los Angeles",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "type": "article",
-    "badge": "MONUMENTO BRUTALISTA",
-    "excerpt": "Uma análise profunda sobre a arquitetura brutalista californiana onde o concreto aparente e a geometria sem paredes encontram o absoluto silêncio estrutural.",
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1400",
-    "authorSlug": "henrique-vianna",
-    "date": "23 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "isHero": false,
-    "isHeroSecondary": false,
-    "rankingScore": 87,
-    "specs": {
-      "arquiteto": "John Lautner",
-      "concepcao": "Concreto protendido incrustado na rocha com teto perfurado por 750 discos de vidro",
-      "area_construida": "1.200 m² suspensos sobre os cânions de Crestwood Hills, Beverly Hills",
-      "patrimonio": "Imóvel troféu doado formalmente ao LACMA para preservação perpétua",
-      "localizacao": "Beverly Crest, Los Angeles",
-      "materialidade": "Concreto aparente, vidro estrutural e madeira",
-      "avaliacao_patrimonial": "US$ 100.000.000"
-    },
-    "contentParagraphs": [
-      "O concreto desponta bruto. Nenhuma concessão à ornamentação supérflua habita as curvas angulares projetadas por John Lautner nas encostas de Beverly Crest. A luz da Califórnia penetra através de caixilhos invisíveis, rasgando o espaço com precisão cirúrgica. A estrutura repousa sobre a rocha viva, fundindo geologia e engenharia em uma simbiose permanente.",
-      "Cada metro quadrado desta residência opera com tolerâncias milimétricas comparáveis aos complexos trens de engrenagem de um calibre suíço de grande complicação. O teto em caixotão de concreto armado exige o mesmo rigor de acabamento manual dedicado a uma anglage executada com sabugueiro silvestre. A madeira coffered ceiling encontra o vidro monolítico sem juntas aparentes, criando uma acústica interna onde o ruído urbano dissipa-se por completo.",
-      "A avaliação de cem milhões de dólares não reflete apenas a localização privilegiada acima de Benedict Canyon, mas a raridade de uma custódia imobiliária intocada. O design orgânico rejeita as convenções residenciais tradicionais. O piso de terrazzo flutua sobre vigas tensionadas, enquanto a piscina de borda infinita mimetiza o horizonte cinza e dourado da bacia de Los Angeles.",
-      "O tempo nesta arquitetura monumental não corre pelo relógio utilitário. Ele se acomoda na textura áspera do concreto e na transparência absoluta do vidro estrutural. Permanecer sob a cobertura inclinada de Lautner é reconhecer a soberania do espaço construído como refúgio definitivo contra a volatilidade do mundo moderno."
-    ],
-    "is_hero": false,
-    "is_hero_secondary": false
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'SUPERCARROS',
-    title: 'Ferrari 499P Modificata: O Protótipo d...',
-    image: 'https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400',
-    tag: 'HOMOLOGADO PELO RADAR',
-    slug: 'ferrari-499p-modificata-o-prototipo-de-endurance-de-870-cv-com-aerodinamica-ativa-em-fibra-de-carbono-e-telemetria-de-maranello-4373'
+    category: 'ARQUITETURA',
+    title: 'Villa sa Caleta: A Laje Monolítica de ...',
+    image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=80&w=1400',
+    tag: 'DESTAQUE MUNDIAL',
+    slug: 'villa-sa-caleta-a-laje-monolitica-de-concreto-e-travertino-de-38-milhoes-que-suspende-o-tempo-sobre-as-baleares-5403'
   },
   {
     id: 'film-2',
