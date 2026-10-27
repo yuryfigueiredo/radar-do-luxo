@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-ferrari-499p-modificata-o-protot-4387",
+    "slug": "ferrari-499p-modificata-o-prototipo-de-endurance-de-870-cv-com-aerodinamica-ativa-em-fibra-de-carbono-e-telemetria-de-maranello-4373",
+    "title": "Ferrari 499P Modificata: O Protótipo de Endurance de 870 cv com Aerodinâmica Ativa em Fibra de Carbono e Telemetria de Maranello",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "HOMOLOGADO PELO RADAR",
+    "date": "27 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "A divisão de competições privadas da Ferrari transfere a aerodinâmica vencedora de Le Mans para as pistas do Asian Le Mans Series com o bólido 499P vestido em libré Cetilar Racing.",
+    "contentParagraphs": [
+      "O asfalto exige precisão absoluta. A telemetria inercial não perdoa hesitações. Sob o influxo aerodinâmico da pintura Cetilar Racing, a Ferrari 499P emerge como um monólito de engenharia cinemática pura nas curvas de alta velocidade. O monocoque em fibra de carbono curado em autoclave suporta cargas extremas sem torção estrutural perceptível. Cada centímetro quadrado da carroçaria foi esculpido em túnel de vento para ditar o fluxo de Venturi do efeito solo.",
+      "Sob a tampa traseira, o motor V6 biturbo de 3 litros trabalha em sinergia simbiótica com o sistema híbrido no eixo dianteiro. A potência combinada atinge 870 cv de fúria mecânica pura. Os discos de freio em carbono-cerâmica dissipam calor brutal gerado por desacelerações de mais de três forças G. O piloto gerencia a entrega de torque por meio de um volante multifuncional derivado diretamente da Fórmula 1, onde cada milissegundo de resposta do acelerador define a linha de tangência perfeita na zebra.",
+      "A suspensão push-rod com amortecedores ajustáveis de quatro vias absorve as ondulações do asfalto com rigidez cirúrgica. A telemetria coleta mais de cem canais de dados por segundo, transmitindo telemetria cifrada diretamente para os engenheiros nos boxes. O escape em Inconel expulsa gases incandescentes que cortam o ar com um urro metálico característico, rompendo a barreira do silêncio nas retas principais das pistas asiáticas.",
+      "Não há concessões ao conforto ou à futilidade digital neste protótipo de endurance. O cockpit minimalista abriga apenas os instrumentos vitais para a sobrevivência a 300 quilômetros por hora. Trata-se de um artefato de competição implacável, construído unicamente para dominar o cronômetro e preservar a herança competitiva do Cavallino Rampante nas pistas mais exigentes do planeta."
+    ],
+    "content_paragraphs": [
+      "O asfalto exige precisão absoluta. A telemetria inercial não perdoa hesitações. Sob o influxo aerodinâmico da pintura Cetilar Racing, a Ferrari 499P emerge como um monólito de engenharia cinemática pura nas curvas de alta velocidade. O monocoque em fibra de carbono curado em autoclave suporta cargas extremas sem torção estrutural perceptível. Cada centímetro quadrado da carroçaria foi esculpido em túnel de vento para ditar o fluxo de Venturi do efeito solo.",
+      "Sob a tampa traseira, o motor V6 biturbo de 3 litros trabalha em sinergia simbiótica com o sistema híbrido no eixo dianteiro. A potência combinada atinge 870 cv de fúria mecânica pura. Os discos de freio em carbono-cerâmica dissipam calor brutal gerado por desacelerações de mais de três forças G. O piloto gerencia a entrega de torque por meio de um volante multifuncional derivado diretamente da Fórmula 1, onde cada milissegundo de resposta do acelerador define a linha de tangência perfeita na zebra.",
+      "A suspensão push-rod com amortecedores ajustáveis de quatro vias absorve as ondulações do asfalto com rigidez cirúrgica. A telemetria coleta mais de cem canais de dados por segundo, transmitindo telemetria cifrada diretamente para os engenheiros nos boxes. O escape em Inconel expulsa gases incandescentes que cortam o ar com um urro metálico característico, rompendo a barreira do silêncio nas retas principais das pistas asiáticas.",
+      "Não há concessões ao conforto ou à futilidade digital neste protótipo de endurance. O cockpit minimalista abriga apenas os instrumentos vitais para a sobrevivência a 300 quilômetros por hora. Trata-se de um artefato de competição implacável, construído unicamente para dominar o cronômetro e preservar a herança competitiva do Cavallino Rampante nas pistas mais exigentes do planeta."
+    ],
+    "specs": {
+      "motorizacao": "V6 biturbo 3.0L + Sistema Híbrido",
+      "potencia_total": "870 cv",
+      "chassi": "Monocoque em fibra de carbono e favo de mel de alumínio",
+      "transmissao": "Sequencial transversal de 7 marchas operada por borboletas",
+      "sistema_de_freios": "Discos ventilados em carbono-cerâmica com controle by-wire",
+      "peso_a_seco": "1.030 kg"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 92,
+    "ranking_score": 92,
+    "publishedAt": "2026-10-27T20:20:44.387Z",
+    "published_at": "2026-10-27T20:20:44.387Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbDVwSndmLUs5cjQ0MFJDckkwVW5hMElkZlVNUWE3UGpPbV9hVUE2a0RaQVhjd0YwUDJwTzNNZGZ4VU1rRHJ1RlNES0I5emd0VGV4WDV2NkRjSmNodTZENVVzMjhDdFgyV0JlRUE5ZDVYQjZnN2F3UldnbU1xVlFmM0QtVUFEMlIzTDRDSzVnTWdsTnFfTi0zYUliUjhLQVdTSHBXcmFQZFlsZG1S?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbDVwSndmLUs5cjQ0MFJDckkwVW5hMElkZlVNUWE3UGpPbV9hVUE2a0RaQVhjd0YwUDJwTzNNZGZ4VU1rRHJ1RlNES0I5emd0VGV4WDV2NkRjSmNodTZENVVzMjhDdFgyV0JlRUE5ZDVYQjZnN2F3UldnbU1xVlFmM0QtVUFEMlIzTDRDSzVnTWdsTnFfTi0zYUliUjhLQVdTSHBXcmFQZFlsZG1S?oc=5"
+  },
+  {
     "id": "art-atelier-mephalie-a-repeticao-de--5105",
     "slug": "atelier-mephalie-a-repeticao-de-minutos-com-gongos-acusticos-manuais-e-acabamento-em-anglage-de-alta-relojoaria-5090",
     "title": "Atelier Mephalie: A Repetição de Minutos com Gongos Acústicos Manuais e Acabamento em Anglage de Alta Relojoaria",
@@ -1155,53 +1207,17 @@ export const ARTICLES = [
     ],
     "is_hero": false,
     "is_hero_secondary": false
-  },
-  {
-    "id": "art-villa-sa-caleta-38-milhoes-de-eu-1014",
-    "slug": "villa-sa-caleta-38-milhoes-de-euros-em-travertino-romano-navona-suspenso-sobre-a-falesia-balear",
-    "title": "Villa sa Caleta: 38 Milhões de Euros em Travertino Romano Navona Suspenso sobre a Falésia Balear",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "type": "article",
-    "badge": "REFÚGIO MEDITERRÂNEO",
-    "excerpt": "A soberania patrimonial encontra seu refúgio definitivo nas Baleares, onde 1.400 toneladas de rocha monumental desafiam a maresia mediterrânea.",
-    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=1400",
-    "authorSlug": "henrique-vianna",
-    "date": "23 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "isHero": false,
-    "isHeroSecondary": false,
-    "rankingScore": 85,
-    "specs": {
-      "area": "1.850 m² de lajes em balanço projetadas sobre falésia de rocha calcária mãe",
-      "materiais": "Travertino Romano Navona polido a osso e concreto tonalizado no tom das areias",
-      "privacidade": "Acesso privativo por píer submarino talhado na pedra e heliponto homologado",
-      "cotacao": "€ 38.000.000 (Transação sob sigilo no mercado fechado europeu)",
-      "Arquitetura e Matéria": "Travertino Romano Navona e Concreto Aparente",
-      "Localização": "Falésia Balear, Maiorca",
-      "Estrutura de Fundação": "Estacas passantes em rocha calcária a 30 metros",
-      "Avaliação Patrimonial": "38 milhões de euros em transação fechada",
-      "Tiragem": "Peça Única (Edição Arquitetônica Exclusiva)"
-    },
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Na costa de Maiorca, a Villa sa Caleta ergue-se como um bastião de imunidade temporal, desdenhando as modas e os efêmeros refúgios de verão. Cada bloco de travertino romano Navona foi cortado sob especificação cirúrgica, assentado a seco para garantir que a expansão térmica não deforme a geometria da fachada.",
-      "A engenharia estrutural exigiu estacas cravadas a 30 metros de profundidade na falésia calcária, suportando lajes de concreto aparente moldadas in loco com fôrmas de pinho silvestre. O resultado é um monólito cinético que dialoga com o abismo azul sem concessões ao verniz decorativo. A custódia fiduciária deste ativo garante que seu valor intrínseco permaneça imune à volatilidade dos mercados globais de capitais.",
-      "No interior, o silêncio é absoluto. O isolamento acústico de dupla cavidade elimina qualquer sussurro do vento de Tramontana, enquanto o piso radiante mantém a inércia térmica estável durante os invernos rigorosos da ilha. Não há ostentação nas paredes de cal virgem; apenas a textura crua da matéria nobre que resistirá aos próximos séculos sem perda de dignidade estrutural.",
-      "A transação foi conduzida em leilão fechado, longe dos olhos famintos da especulação imobiliária de massa. Quem adquiriu sa Caleta não comprou uma casa de praia, mas um cofre-forte geológico disfarçado de residência de verão. Um monumento intocável ancorado nas rochas da história."
-    ],
-    "is_hero": false,
-    "is_hero_secondary": false
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'RELOGIOS',
-    title: 'Atelier Mephalie: A Repetição de Minut...',
-    image: 'https://monochrome-watches.com/app/uploads/2026/10/Chinese-Brand-Atelier-Mephalie-Minute-Repeater-Collection-Accessible-5-600x237.jpg',
+    category: 'SUPERCARROS',
+    title: 'Ferrari 499P Modificata: O Protótipo d...',
+    image: 'https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400',
     tag: 'HOMOLOGADO PELO RADAR',
-    slug: 'atelier-mephalie-a-repeticao-de-minutos-com-gongos-acusticos-manuais-e-acabamento-em-anglage-de-alta-relojoaria-5090'
+    slug: 'ferrari-499p-modificata-o-prototipo-de-endurance-de-870-cv-com-aerodinamica-ativa-em-fibra-de-carbono-e-telemetria-de-maranello-4373'
   },
   {
     id: 'film-2',
