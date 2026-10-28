@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-fp-journe-chronometre-bleu-a-rar-9385",
+    "slug": "fp-journe-chronometre-bleu-a-rara-caixa-de-tantalo-de-ponto-de-fusao-a-3000c-que-valorizou-400-no-mercado-secundario-9369",
+    "title": "F.P. Journe Chronomètre Bleu: A Rara Caixa de Tântalo de Ponto de Fusão a 3.000°C que Valorizou 400% no Mercado Secundário",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "category_slug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "author_slug": "clara-meirelles",
+    "type": "article",
+    "badge": "HOMOLOGADO PELO RADAR",
+    "date": "28 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "François-Paul Journe subjugou o metal mais intratável da tabela periódica para esculpir uma obra-prima de calibre mecânico puro e esmalte cromático absoluto.",
+    "contentParagraphs": [
+      "O tântalo não aceita a submissão comum. Suas propriedades físicas exigem temperaturas superiores a 3.000 graus Celsius para qualquer tentativa rudimentar de fundição, destruindo brocas de aço temperado e desafiando os mestres relojoeiros mais recalcitrantes. Na manufatura de Genebra, no entanto, a resistência da matéria-prima serve apenas como medida preliminar de valor. Nenhuma concessão foi feita à facilidade produtiva.",
+      "O mostrador exibe um azul espelhado profundo, obtido por camadas sucessivas aplicadas sobre uma base tratada à mão, criando reflexos cinza-azulado sob a luz natural da Vallée de Joux. Sob a tampa de safira bate o calibre de manufatura em ouro amarelo de 18 quilates, revelando pontes chanfradas e polidas com o tradicional sabugueiro silvestre. A espessura total permanece contida em exatos 8,6 milímetros de pura soberania mecânica.",
+      "Colecionadores discretos disputam cada exemplar remanescente em leilões fechados e mesas de negociação privada em Genebra. A escassez matemática imposta pela dificuldade intrínseca de usinagem do tântalo catapultou as cotações em quatro vezes o valor original de varejo. Não se trata de especulação efêmera, mas da consolidação de um ativo imune às oscilações do mercado financeiro tradicional.",
+      "A posse de um exemplar transcende a mera acumulação de bens. É o reconhecimento silencioso de que o tempo verdadeiro pertence apenas aos poucos que compreendem a paciência exigida pelo metal bruto. A precisão cronométrica atesta a soberania da alta-relojoaria independente contra a obsolescência programada do mundo contemporâneo."
+    ],
+    "content_paragraphs": [
+      "O tântalo não aceita a submissão comum. Suas propriedades físicas exigem temperaturas superiores a 3.000 graus Celsius para qualquer tentativa rudimentar de fundição, destruindo brocas de aço temperado e desafiando os mestres relojoeiros mais recalcitrantes. Na manufatura de Genebra, no entanto, a resistência da matéria-prima serve apenas como medida preliminar de valor. Nenhuma concessão foi feita à facilidade produtiva.",
+      "O mostrador exibe um azul espelhado profundo, obtido por camadas sucessivas aplicadas sobre uma base tratada à mão, criando reflexos cinza-azulado sob a luz natural da Vallée de Joux. Sob a tampa de safira bate o calibre de manufatura em ouro amarelo de 18 quilates, revelando pontes chanfradas e polidas com o tradicional sabugueiro silvestre. A espessura total permanece contida em exatos 8,6 milímetros de pura soberania mecânica.",
+      "Colecionadores discretos disputam cada exemplar remanescente em leilões fechados e mesas de negociação privada em Genebra. A escassez matemática imposta pela dificuldade intrínseca de usinagem do tântalo catapultou as cotações em quatro vezes o valor original de varejo. Não se trata de especulação efêmera, mas da consolidação de um ativo imune às oscilações do mercado financeiro tradicional.",
+      "A posse de um exemplar transcende a mera acumulação de bens. É o reconhecimento silencioso de que o tempo verdadeiro pertence apenas aos poucos que compreendem a paciência exigida pelo metal bruto. A precisão cronométrica atesta a soberania da alta-relojoaria independente contra a obsolescência programada do mundo contemporâneo."
+    ],
+    "specs": {
+      "Calibre": "Calibre 1304 de Manufatura em Ouro Amarelo de 18k",
+      "Material da Caixa": "Tântalo Puro com Acabamento Escovado e Polido",
+      "Diâmetro": "39 mm com Espessura de 8,6 mm",
+      "Mostrador": "Azul Espelhado com Numerais Arábicos Gravados",
+      "Reserva de Marcha": "56 horas com Barrilete Duplo"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 94,
+    "ranking_score": 94,
+    "publishedAt": "2026-10-28T23:03:59.385Z",
+    "published_at": "2026-10-28T23:03:59.385Z",
+    "sourceUrl": "https://www.hodinkee.com/articles/fp-journe-chronometre-bleu-hands-on",
+    "source_url": "https://www.hodinkee.com/articles/fp-journe-chronometre-bleu-hands-on"
+  },
+  {
     "id": "art-a-lange-sohne-datograph-honeygol-9091",
     "slug": "a-lange-sohne-datograph-honeygold-lumen-a-obra-prima-saxonica-de-516-componentes-sob-safira-fosforescente-9075",
     "title": "A. Lange & Söhne Datograph Honeygold Lumen: A Obra-Prima Saxônica de 516 Componentes sob Safira Fosforescente",
@@ -1276,42 +1327,6 @@ export const ARTICLES = [
     ],
     "is_hero": false,
     "is_hero_secondary": false
-  },
-  {
-    "id": "art-feadship-obsidian-o-superiate-hi-1004",
-    "slug": "feadship-obsidian-o-superiate-hibrido-de-84-metros-com-banco-de-baterias-de-45-mwh-e-casco-gerado-por-algoritmos",
-    "title": "Feadship Obsidian: O Superiate Híbrido de 84 Metros com Banco de Baterias de 4.5 MWh e Casco Gerado por Algoritmos",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "type": "article",
-    "badge": "NÁUTICA DO FUTURO",
-    "excerpt": "A arquitetura naval contemporânea atinge um ápice de silêncio cinético. A Feadship entrega uma embarcação onde a autonomia elétrica absoluta redefine a aerodinâmica oceânica.",
-    "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&q=80&w=1400",
-    "authorSlug": "gabriel-fontes",
-    "date": "25 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "isHero": false,
-    "isHeroSecondary": false,
-    "rankingScore": 77,
-    "specs": {
-      "comprimento": "84.2 metros com casco de deslocamento em aço naval holandês",
-      "estaleiro": "Feadship De Vries, Haarlem, Países Baixos",
-      "banco_baterias": "4.5 MWh em células de fosfato de ferro-lítio para navegação silenciosa",
-      "autonomia": "5.500 milhas náuticas a 12 nós com redução de 35% de combustível fóssil",
-      "Comprimento Total": "84,2 metros",
-      "Banco de Baterias": "4,5 MWh",
-      "Material do Casco": "Alumínio otimizado por IA",
-      "Estaleiro": "Feadship De Voogt Naval Architects",
-      "Autonomia Elétrica": "Até 35 milhas náuticas em silêncio total"
-    },
-    "contentParagraphs": [
-      "O casco corta o mar aberto sem gerar ondulação perceptível. Uma escultura de alumínio e vidro estrutural moldada por algoritmos de aprendizado de máquina elimina o arrasto hidrodinâmico residual. A proa reta penetra o Atlântico Norte com precisão cirúrgica de mícrons, enquanto o fluxo de água sob a quilha alimenta os túneis de propulsão silenciosa. A marinha mercante tradicional assiste impotente à obsolescência de seus motores térmicos.",
-      "O coração energético reside em um banco de baterias de 4.5 MWh alojado no ventre do navio. Os geradores a diesel operam apenas como suporte secundário para travessias transatlânticas prolongadas. Sensores de telemetria inercial monitoram o balanço lateral, ajustando estabilizadores giroscópicos em frações de milissegundo. A força G lateral nas curvas fechadas de alta velocidade dissipa-se suavemente através de anteparas estruturais em fibra de carbono.",
-      "No salão principal, o uso de superfícies espelhadas e painéis solares integrados ao deck redefine a relação entre habitabilidade e eficiência termodinâmica. A energia gerada durante as manobras de desaceleração é recuperada por sistemas de regeneração direta, alimentando os servidores de bordo e o sistema de climatização sem emitir um único decibel de ruído mecânico. É a engenharia naval convertida em monólito flutuante.",
-      "A soberania deste projeto reside na recusa intransigente aos velhos padrões de consumo fóssil. Gabriel Fontes valida: o verdadeiro luxo marítimo contemporâneo não é a ostentação de milhas náuticas a vapor, mas a capacidade de navegar em silêncio absoluto, impulsionado por densidade energética pura e inteligência algorítmica."
-    ],
-    "is_hero": false,
-    "is_hero_secondary": false
   }
 ];
 
@@ -1319,10 +1334,10 @@ export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
     category: 'RELOGIOS',
-    title: 'A. Lange & Söhne Datograph Honeygold L...',
-    image: 'https://images.unsplash.com/photo-1547996160-71dfabb1a7b1?auto=format&fit=max&q=80&w=1400',
-    tag: 'DESTAQUE MUNDIAL',
-    slug: 'a-lange-sohne-datograph-honeygold-lumen-a-obra-prima-saxonica-de-516-componentes-sob-safira-fosforescente-9075'
+    title: 'F.P. Journe Chronomètre Bleu: A Rara C...',
+    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=max&q=80&w=1400',
+    tag: 'HOMOLOGADO PELO RADAR',
+    slug: 'fp-journe-chronometre-bleu-a-rara-caixa-de-tantalo-de-ponto-de-fusao-a-3000c-que-valorizou-400-no-mercado-secundario-9369'
   },
   {
     id: 'film-2',
