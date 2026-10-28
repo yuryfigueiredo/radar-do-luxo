@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-sheats-goldstein-residence-a-for-4318",
+    "slug": "sheats-goldstein-residence-a-fortaleza-brutalista-de-concreto-angular-com-750-oculos-de-vidro-engastados-na-laje-4302",
+    "title": "Sheats-Goldstein Residence: A Fortaleza Brutalista de Concreto Angular com 750 Óculos de Vidro Engastados na Laje",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "28 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A soberania patrimonial encontra seu refúgio no cume de Beverly Hills, onde a arquitetura de John Lautner desafia a gravidade e o tempo com blocos monolíticos de concreto bruto e o silêncio mineral das colinas.",
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído estridente nas planícies de Los Angeles. O patrimônio dinástico, contudo, busca o silêncio mineral e a imunidade temporal incrustada nas encostas íngremes de Beverly Hills. A Sheats-Goldstein Residence ergue-se não como mera habitação, mas como um manifesto de governança dinástica e arquitetura brutalista moldada por John Lautner em 1963.",
+      "A estrutura recusa o ornamento supérfluo. O teto da sala de estar estende-se sem colunas de sustentação, perfurado com precisão milimétrica por 750 pequenos discos de vidro que capturam a luz implacável da Califórnia, projetando constelações geométricas sobre o travertino romano Navona no piso. Tolerâncias construtivas rigorosas unem o concreto aparente e o vidro estrutural em uma união perpétua com a paisagem.",
+      "Comprar um ativo desta magnitude transcende a mera aquisição imobiliária; trata-se de exercer custódia fiduciária sobre uma obra-prima de relevância cultural inquestionável. Avaliada em cem milhões de dólares americanos, a propriedade funciona como um refúgio de liquidez tangível, imune às flutuações voláteis dos mercados financeiros globais e blindada contra a obsolescência estética.",
+      "Nenhuma concessionária de luxo ou penthouses efêmeras replicam a gravidade estática deste refúgio. O legado de Lautner permanece intacto na intersecção exata entre a brutalidade da matéria e a leveza da luz solar, consolidando um monumento definitivo para colecionadores de patrimônios imunes."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente faz ruído estridente nas planícies de Los Angeles. O patrimônio dinástico, contudo, busca o silêncio mineral e a imunidade temporal incrustada nas encostas íngremes de Beverly Hills. A Sheats-Goldstein Residence ergue-se não como mera habitação, mas como um manifesto de governança dinástica e arquitetura brutalista moldada por John Lautner em 1963.",
+      "A estrutura recusa o ornamento supérfluo. O teto da sala de estar estende-se sem colunas de sustentação, perfurado com precisão milimétrica por 750 pequenos discos de vidro que capturam a luz implacável da Califórnia, projetando constelações geométricas sobre o travertino romano Navona no piso. Tolerâncias construtivas rigorosas unem o concreto aparente e o vidro estrutural em uma união perpétua com a paisagem.",
+      "Comprar um ativo desta magnitude transcende a mera aquisição imobiliária; trata-se de exercer custódia fiduciária sobre uma obra-prima de relevância cultural inquestionável. Avaliada em cem milhões de dólares americanos, a propriedade funciona como um refúgio de liquidez tangível, imune às flutuações voláteis dos mercados financeiros globais e blindada contra a obsolescência estética.",
+      "Nenhuma concessionária de luxo ou penthouses efêmeras replicam a gravidade estática deste refúgio. O legado de Lautner permanece intacto na intersecção exata entre a brutalidade da matéria e a leveza da luz solar, consolidando um monumento definitivo para colecionadores de patrimônios imunes."
+    ],
+    "specs": {
+      "arquiteto": "John Lautner",
+      "localizacao": "Beverly Hills, Los Angeles",
+      "materiais": "Concreto aparente, vidro laminado e travertino romano Navona",
+      "elementos_estruturais": "750 aberturas com discos de vidro no teto da sala principal",
+      "avaliacao_patrimonial": "US$ 100 Milhões"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 94,
+    "ranking_score": 94,
+    "publishedAt": "2026-10-28T20:06:14.318Z",
+    "published_at": "2026-10-28T20:06:14.318Z",
+    "sourceUrl": "https://www.architecturaldigest.com/story/sheats-goldstein-residence-john-lautner",
+    "source_url": "https://www.architecturaldigest.com/story/sheats-goldstein-residence-john-lautner"
+  },
+  {
     "id": "art-rexhep-rexhepi-chronometre-conte-9752",
     "slug": "rexhep-rexhepi-chronometre-contemporain-ii-o-atelie-independente-de-genebra-com-lista-de-espera-de-7-anos-e-chanfro-manual-absoluto-9736",
     "title": "Rexhep Rexhepi Chronomètre Contemporain II: O Ateliê Independente de Genebra com Lista de Espera de 7 Anos e Chanfro Manual Absoluto",
@@ -204,10 +255,10 @@ export const ARTICLES = [
       "Insumo de Costura": "Linho tratado com cera virgem de abelha"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 97,
@@ -1247,53 +1298,17 @@ export const ARTICLES = [
     ],
     "is_hero": false,
     "is_hero_secondary": false
-  },
-  {
-    "id": "art-a-lange-sohne-datograph-honeygol-1006",
-    "slug": "a-lange-sohne-datograph-honeygold-lumen-a-manufatura-saxonica-de-57-graus-que-fundiu-safira-fume-e-parada-de-segundos-em-ouro-honeygold",
-    "title": "A. Lange & Söhne Datograph Honeygold Lumen: A Manufatura Saxônica de 57 Graus que Fundiu Safira Fumê e Parada de Segundos em Ouro Honeygold",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "type": "article",
-    "badge": "OBRA-PRIMA SAXÔNICA",
-    "excerpt": "Na quietude de Glashütte, o tempo cessa. A rara liga Honeygold abraça a luminescência verde da safira tratada para revelar engrenagens que desafiam a física mecânica.",
-    "image": "https://images.unsplash.com/photo-1547996160-71dfabb1a7b1?auto=format&fit=crop&q=80&w=1400",
-    "authorSlug": "clara-meirelles",
-    "date": "24 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "isHero": false,
-    "isHeroSecondary": false,
-    "rankingScore": 82,
-    "specs": {
-      "liga_metalica": "Honeygold 18k patenteado de dureza superior ao ouro convencional",
-      "calibre": "L952.4 de manufatura saxônica com 516 componentes acabados à mão",
-      "complicacoes": "Cronógrafo Flyback, Calendário Perpétuo e Turbilhão com parada patenteada",
-      "tiragem_fechada": "50 exemplares numerados para o circuito mundial de colecionadores",
-      "Calibre de Manufatura": "Lange L951.7 de corda manual",
-      "Material da Caixa": "Honeygold de 18 quilates exclusivo",
-      "Diâmetro e Espessura": "41 mm por 14,4 mm",
-      "Reserva de Marcha": "50 horas com cronógrafo acionado",
-      "Tiragem Global": "Edição limitada de 200 exemplares numéricos"
-    },
-    "contentParagraphs": [
-      "O silêncio de Glashütte possui uma densidade particular. Ali, onde o nevoeiro matinal bebe os pinhais da Saxônia, o metal não apenas se molda; ele obedece a uma disciplina secular de tolerâncias infinitesimais. A caixa em Honeygold de 41 milímetros exibe uma tonalidade morna, distante do brilho ostentoso do ouro amarelo comum, guardando em sua estrutura uma liga patenteada de dureza superior e toque aveludado. Não há concessões ao supérfluo.",
-      "Sob o mostrador de safira fumê com tratamento especial, o calibre L951.7 desdobra sua arquitetura monumental em 684 componentes polidos à mão. A luz ultravioleta desperta o composto luminescente por trás da placa translúcida, expondo a dança matemática da roda de pilares e o mecanismo flyback do cronógrafo de minutos saltantes. Cada chanfro em anglage recebe o atrito paciente de pastas de diamante e polidores de feltro, enquanto o balanço oscila com a respiração firme de uma espiral desenvolvida in-house.",
-      "A genialidade técnica atinge seu ápice invisível na complicação do turbilhão combinado com a parada de segundos. Puxar a coroa não apenas suspende o balanço através de uma mola microscópica em forma de V; o próprio eixo do turbilhão congela instantaneamente, permitindo o acerto temporal com precisão absoluta de frações de segundo. Esta proeza de engenharia exige um cálculo exato de massas, onde o equilíbrio dinâmico não tolera desvios superiores a mícron.",
-      "Limitado estritamente a duzentos exemplares para colecionadores que compreendem a soberania do tempo mecânico, este relógio rejeita o efêmero. Ele representa a vitória definitiva do trabalho artesanal sobre a obsolescência digital, um monumento portátil forjado para atravessar dinastias sem perder a cadência perfeita de seu pulsar."
-    ],
-    "is_hero": false,
-    "is_hero_secondary": false
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'RELOGIOS',
-    title: 'Rexhep Rexhepi Chronomètre Contemporai...',
-    image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=max&q=80&w=1400',
-    tag: 'HOMOLOGADO PELO RADAR',
-    slug: 'rexhep-rexhepi-chronometre-contemporain-ii-o-atelie-independente-de-genebra-com-lista-de-espera-de-7-anos-e-chanfro-manual-absoluto-9736'
+    category: 'ARQUITETURA',
+    title: 'Sheats-Goldstein Residence: A Fortalez...',
+    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=80&w=1400',
+    tag: 'DESTAQUE MUNDIAL',
+    slug: 'sheats-goldstein-residence-a-fortaleza-brutalista-de-concreto-angular-com-750-oculos-de-vidro-engastados-na-laje-4302'
   },
   {
     id: 'film-2',
