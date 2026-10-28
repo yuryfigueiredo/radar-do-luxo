@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-a-lange-sohne-datograph-honeygol-9091",
+    "slug": "a-lange-sohne-datograph-honeygold-lumen-a-obra-prima-saxonica-de-516-componentes-sob-safira-fosforescente-9075",
+    "title": "A. Lange & Söhne Datograph Honeygold Lumen: A Obra-Prima Saxônica de 516 Componentes sob Safira Fosforescente",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "category_slug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "author_slug": "clara-meirelles",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "28 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1547996160-71dfabb1a7b1?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Na quietude de Glashütte, a manufatura alemã funde sua liga patenteada de ouro mel a um mostrador transparente que revela a engenharia implacável do tempo na mais absoluta escuridão.",
+    "contentParagraphs": [
+      "O tempo saxônio não corre. O tempo saxônio repousa sobre a geometria exata de pontes de três quartos em alpaca não tratada. Na penumbra rigorosa do ateliê, o metal ganha uma temperatura morna que apenas a liga Honeygold consegue sustentar. Cada aresta é chanfrada à mão com limas de precisão antes de receber o polimento espelhado. O silêncio da Vallée de Glashütte penetra nas lentes dos relojoeiros enquanto eles ajustam tolerâncias inferiores a um mícron. Há uma solenidade mineral em cada engrenagem que escapa completamente ao observador desatento.",
+      "Sob o mostrador de safira fumê com tratamento luminescente integral, a mecânica complexa respira. O calibre de manufatura abriga 516 componentes dispostos em uma arquitetura tridimensional que desafia o espaço. A parada de segundos do turbilhão estabiliza a oscilação com uma precisão cirúrgica, permitindo o acerto instantâneo sem perda de energia acumulada. A luz ultravioleta absorvida pelo revestimento especial desperta um tom esverdeado espectral. A indicação do cronógrafo com saltos saltitantes opera em perfeita harmonia com o calendário perpétuo integrado.",
+      "A escolha da liga Honeygold não é um capricho estético efêmero. Trata-se de um manifesto contra a volatilidade das tendências. Sua dureza superior à do ouro amarelo tradicional protege a caixa contra as injúrias do uso cotidiano, mantendo o brilho acetinado intacto por gerações. O trabalho de gravação manual na ponte do balanço transforma cada exemplar em um objeto único. Nenhum traço do buril é idêntico ao anterior. A assinatura do artesão reside na imperfeição milimétrica que atesta a intervenção humana direta.",
+      "Enquanto o mercado de consumo em massa aposta na obsolescência programada, esta peça opera em outra dimensão temporal. A custódia fiduciária de um relógio desta magnitude exige a mesma reverência dedicada a uma propriedade histórica. O couro de aligátor costurado à mão com fio encerado sela o compromisso com a durabilidade absoluta. Não há espaço para o supérfluo quando a própria estrutura do mecanismo serve de ornamento. O datógrafo luminescente consolida o triunfo da paciência sobre a pressa contemporânea."
+    ],
+    "content_paragraphs": [
+      "O tempo saxônio não corre. O tempo saxônio repousa sobre a geometria exata de pontes de três quartos em alpaca não tratada. Na penumbra rigorosa do ateliê, o metal ganha uma temperatura morna que apenas a liga Honeygold consegue sustentar. Cada aresta é chanfrada à mão com limas de precisão antes de receber o polimento espelhado. O silêncio da Vallée de Glashütte penetra nas lentes dos relojoeiros enquanto eles ajustam tolerâncias inferiores a um mícron. Há uma solenidade mineral em cada engrenagem que escapa completamente ao observador desatento.",
+      "Sob o mostrador de safira fumê com tratamento luminescente integral, a mecânica complexa respira. O calibre de manufatura abriga 516 componentes dispostos em uma arquitetura tridimensional que desafia o espaço. A parada de segundos do turbilhão estabiliza a oscilação com uma precisão cirúrgica, permitindo o acerto instantâneo sem perda de energia acumulada. A luz ultravioleta absorvida pelo revestimento especial desperta um tom esverdeado espectral. A indicação do cronógrafo com saltos saltitantes opera em perfeita harmonia com o calendário perpétuo integrado.",
+      "A escolha da liga Honeygold não é um capricho estético efêmero. Trata-se de um manifesto contra a volatilidade das tendências. Sua dureza superior à do ouro amarelo tradicional protege a caixa contra as injúrias do uso cotidiano, mantendo o brilho acetinado intacto por gerações. O trabalho de gravação manual na ponte do balanço transforma cada exemplar em um objeto único. Nenhum traço do buril é idêntico ao anterior. A assinatura do artesão reside na imperfeição milimétrica que atesta a intervenção humana direta.",
+      "Enquanto o mercado de consumo em massa aposta na obsolescência programada, esta peça opera em outra dimensão temporal. A custódia fiduciária de um relógio desta magnitude exige a mesma reverência dedicada a uma propriedade histórica. O couro de aligátor costurado à mão com fio encerado sela o compromisso com a durabilidade absoluta. Não há espaço para o supérfluo quando a própria estrutura do mecanismo serve de ornamento. O datógrafo luminescente consolida o triunfo da paciência sobre a pressa contemporânea."
+    ],
+    "specs": {
+      "Manufatura": "A. Lange & Söhne, Glashütte i/SA",
+      "Calibre": "Movimento mecânico de corda manual com 516 componentes",
+      "Material da Caixa": "Honeygold de 18 quilates proprietário",
+      "Mostrador": "Safira fumê com revestimento luminescente",
+      "Complicações": "Turbilhão com parada de segundos e cronógrafo flyback",
+      "Tiragem": "Edição limitada a 50 exemplares numerados"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 95,
+    "ranking_score": 95,
+    "publishedAt": "2026-10-28T22:39:49.091Z",
+    "published_at": "2026-10-28T22:39:49.091Z",
+    "sourceUrl": "https://monochrome-watches.com/a-lange-sohne-datograph-perpetual-tourbillon-honeygold-lumen/",
+    "source_url": "https://monochrome-watches.com/a-lange-sohne-datograph-perpetual-tourbillon-honeygold-lumen/"
+  },
+  {
     "id": "art-sheats-goldstein-residence-a-for-4318",
     "slug": "sheats-goldstein-residence-a-fortaleza-brutalista-de-concreto-angular-com-750-oculos-de-vidro-engastados-na-laje-4302",
     "title": "Sheats-Goldstein Residence: A Fortaleza Brutalista de Concreto Angular com 750 Óculos de Vidro Engastados na Laje",
@@ -153,10 +205,10 @@ export const ARTICLES = [
       "avaliacao_patrimonial": "US$ 100 Milhões"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 94,
@@ -1260,55 +1312,17 @@ export const ARTICLES = [
     ],
     "is_hero": false,
     "is_hero_secondary": false
-  },
-  {
-    "id": "art-fp-journe-chronometre-bleu-o-rar-1005",
-    "slug": "fp-journe-chronometre-bleu-o-rarissimo-metal-de-transicao-de-40mm-com-calibre-em-ouro-rosa-e-mostrador-azul-klein-monolitico",
-    "title": "F.P. Journe Chronomètre Bleu: O Raríssimo Metal de Transição de 40mm com Calibre em Ouro Rosa e Mostrador Azul Klein Monolítico",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "type": "article",
-    "badge": "ALTA HOROLOGIA",
-    "excerpt": "Na Vallée de Joux, a pressa é uma heresia mecânica. O Chronomètre Bleu encarna a soberania do tântalo polido, unindo a resistência mineral intransigente à suavidade térmica do ouro rosa 18 quilates esculpido à mão.",
-    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=1400",
-    "authorSlug": "clara-meirelles",
-    "date": "24 de outubro de 2026",
-    "readTime": "6 min de leitura",
-    "isHero": false,
-    "isHeroSecondary": false,
-    "rankingScore": 79,
-    "specs": {
-      "caixa": "Tântalo polido de densidade mineral extrema fundido a 3.000°C",
-      "calibre": "1304 em Ouro Rosa 18k sólido com duplo tambor de corda",
-      "mostrador": "Azul cromático espelhado com tratamento de reflexão multicamadas",
-      "reserva_de_marcha": "56 horas de precisão cronométrica ininterrupta",
-      "Manufatura": "F.P. Journe, Genebra, Suíça",
-      "Calibre": "Calibre manual 1304 em ouro rosa 18k",
-      "Material da Caixa": "Tântalo polido e escovado",
-      "Diâmetro": "39 milímetros",
-      "Reserva de Marcha": "56 horas",
-      "Mostrador": "Azul Klein laqueado com numerais prateados"
-    },
-    "contentParagraphs": [
-      "O tântalo não obedece aos caprichos da luz ambiente. Ele a absorve, devolvendo um cinza profundo com reflexos azulados que desafiam qualquer padronização industrial. François-Paul Journe escolheu este metal refratário, de altíssimo ponto de fusão, sabendo perfeitamente que sua usinagem destruiria ferramentas comuns. Cada caixa de quarenta milímetros exige paciência infinita e ferramentas diamantadas operadas com precisão cirúrgica em Genebra.",
-      "Sob o fundo de safira transparente, o calibre manual 1304 revela sua arquitetura em ouro rosa 18k sólido. As pontes exibem o chanfro manual executado com limas de aço e polidas com pasta de diamante, enquanto as cabeças dos parafusos recebem polimento espelhado impecável. Não há redundâncias estéticas. Cada engrenagem cumpre uma função matemática rigorosa, garantindo uma reserva de marcha de cinquenta e seis horas através de um sistema de duplo tambor em série.",
-      "O mostrador monocromático em azul Klein utiliza um processo de aplicação de verniz laqueado que cria uma textura sutilmente granulada, onde os numerais arábicos prateados flutuam com serenidade atemporal. As horas deslizam sem o ruído do mundo moderno. As marcações brancas são impressas com relevo quase imperceptível, exigindo lupas de alta magnificação para revelar a perfeição geométrica dos traços criados nos ateliês independentes.",
-      "A pulseira em couro de aligátor azul marinho, costurada à mão com fio de linho encerado, completa a simbiose tátil entre o pulso e a alta relojoaria independente. O fecho de pin em tântalo espelha o rigor da caixa, fechando o ciclo de uma obra que recusa a produção em série em favor da exclusividade absoluta ditada por cotas anuais severamente restritas.",
-      "Possuir um Chronomètre Bleu com caixa de tântalo não representa um acúmulo de bens, mas a custódia temporária de um testamento mecânico. Ele permanece inalterado pelo tempo, imune às tendências passageiras, aguardando pacientemente a próxima geração para lembrar que a verdadeira riqueza reside na precisão silenciosa e no trabalho humano intransigente."
-    ],
-    "is_hero": false,
-    "is_hero_secondary": false
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'ARQUITETURA',
-    title: 'Sheats-Goldstein Residence: A Fortalez...',
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=80&w=1400',
+    category: 'RELOGIOS',
+    title: 'A. Lange & Söhne Datograph Honeygold L...',
+    image: 'https://images.unsplash.com/photo-1547996160-71dfabb1a7b1?auto=format&fit=max&q=80&w=1400',
     tag: 'DESTAQUE MUNDIAL',
-    slug: 'sheats-goldstein-residence-a-fortaleza-brutalista-de-concreto-angular-com-750-oculos-de-vidro-engastados-na-laje-4302'
+    slug: 'a-lange-sohne-datograph-honeygold-lumen-a-obra-prima-saxonica-de-516-componentes-sob-safira-fosforescente-9075'
   },
   {
     id: 'film-2',
