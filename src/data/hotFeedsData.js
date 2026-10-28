@@ -19,7 +19,7 @@ import { calculateEditorialScore } from '../services/rankingEngine.js';
 
 export const INITIAL_HOT_PAUTAS = [
   {
-    "id": "pauta-live-supercarros-mvsbb59b-9ya0",
+    "id": "pauta-live-supercarros-mvspbx4m-ocih",
     "source": "Sotheby's & Christie's Auctions",
     "sourceCategory": "Supercarros",
     "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
@@ -33,18 +33,18 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Engenharia de precisão, telemetria inercial e desempenho de pista sob a análise de Gabriel Fontes.",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiiANBVV95cUxNLWVxWlRXQ3lWcGJnX1dOS1BpVUhRM2JOYUh3WGd1bGNQNk0wRmthRjFfZVEwMWJLVmZUX3loNnlJOWo5MjVHQ0hnTU1yY3RsNG5SSWc0ZzVUd1RIeHpYOEpOd0M3NlFFbHJvN3VHLVdDRE9YaDNQeng0M1ZEMlFoSV83UVZ1SjdTNkhkSVFSLU9pUkxabHRmWm9YcEp2RS1VdjA2cmlKV0w3WVdNM0RqYmh3RjQtNHZBM0xyNUNaTy1CUWwwZEstenVjSFUwekU0V0ZubnBZLTB4Q2VXdFV1VGdzNzdiSllYaTNtRmlmWWJZTjZSbVBVVW8xWkVDTnF5bnpqX3YycU1wcUlxdzVUaUxyaFdDTlpDUV9YT0RHZVVsY2VGdElMY3NMMDB1aGNTTnFwWmdwMXF1Vm0zYjF3TWVISDhlQ18xWkRIVVdVWVVtTUd4d2xqcF9lcEF4S3Z2Z25CNUozZV9TbTlON003RUVBNzFrVFA1VkNSSDdGSmNkLV92blpjZtIBjgNBVV95cUxPTHR1aHJxT0Y4UDJVWi1ZWVlOSHp5dlZpVEctYk1tMnZSSzFvY3dTTzI1NWhyS0xVallGU0psVEIzdzhacDVCbjRCbnV6LUhPbWJnYkQwdmY5aEt5V2RPb181b0xLOXZMZzkzRlBOa0NHNWxfRm9QSXk5Q3FXV01uXzFnUTFmcUc1RXJZeVl3VmVDSFJ0ZHJkN09ia2NGQkkyYmNKSVktbnVJQ3Q0QWdhT0EzZGwzS3oybzJhOGVDYlViSjJIcHc2cUk3U2pLajcxS05zeTBHSWRjOW5ZSHMtM3RwVnNhMFFrYWdWaHVNWnVreVpjVzhPV2pmc2JXUmFlczI3MFBKZ0VZS00wT1l3eEd1NUJQbTBweHBEbFY4a2JYSzdSaGdJNE1PRE93UF93bWoxUkJDWVpyX3VpRFZad0tUT0FzejB3ZVB6ODhUM0l6RTIxR2ZHMkJXTG1YZDZ6aEVpZE9Qb3hTckg5ZWQ3a0VycVFsWEpYVUtpdVNBTWhGOG02YngtaXZyYkRwdw?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-28T16:11:51.263Z",
+    "createdAt": "2026-10-28T22:44:22.006Z",
     "validityHours": 24,
     "specsPreview": {
       "categoria": "Hipercarro de Colecionismo",
       "telemetria": "Calibração de pista homologada",
       "curadoria": "Gabriel Fontes"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&q=80&w=1400",
     "status": "available"
   },
   {
-    "id": "pauta-live-destinos-mvsbb58b-l391",
+    "id": "pauta-live-destinos-mvspbx3j-wxk2",
     "source": "Google News Superyachts",
     "sourceCategory": "Destinos & Iates",
     "badgeColor": "border-purple-500/40 text-purple-400 bg-purple-500/10",
@@ -58,7 +58,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "O influente broker náutico analisa a ascensão dos gigaiates personalizados encomendados por dinastias globais, atingindo patamares orçamentários de 10 dígitos.",
     "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCQTBRNG1adHRQTzdXUjgzU3NrZnNxZ0d5OGprUE53TWFpbHFUYWlUUHZwbHM3V1dKeUNldzJYamlqYVdDOEFwaXRSdk9qS2tSZnhxNWNrMW1jWGNwTlA3MXZGTlhDTXJ4aUNGZWs3Rld6R1QxUTlSS1lnY2htZ0E?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-28T16:11:51.227Z",
+    "createdAt": "2026-10-28T22:44:21.967Z",
     "validityHours": 24,
     "specsPreview": {
       "projecao": "Projetos navais acima de € 1.000.000.000",
@@ -70,7 +70,32 @@ export const INITIAL_HOT_PAUTAS = [
     "status": "available"
   },
   {
-    "id": "pauta-live-supercarros-mvsbb573-1tqa",
+    "id": "pauta-live-destinos-mvspbx49-99bc",
+    "source": "Google News Superyachts",
+    "sourceCategory": "Destinos & Iates",
+    "badgeColor": "border-purple-500/40 text-purple-400 bg-purple-500/10",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "rankingScore": 87,
+    "rankingTier": "B",
+    "originalTitle": "Venduto da Royal Yacht International un nuovo Benetti Motopanfilo 37M - SuperYacht24",
+    "suggestedHook": "Venduto da Royal Yacht International un nuovo Benetti Motopanfilo 37M",
+    "summary": "Dinâmica de fluidos computacional e hidrodinâmica oceânica de alto luxo sob a análise de Gabriel Fontes.",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNN0dSZDBpMXFfUFI3V2dNRVFHRHJpRVF5WFl0T0JLR2lGRmtrT05NSWgtekFDUDZuZFM3UzR3Y3dLOU5TdmRUSDZTOHRRWkdRaFgySFVRZnBhR3NFbFVzYko4dGxtUFY1bW1xbVlrNFN6bUJXSVRDTzFiTkJWb0xJR0ZFeVAyM3NLeHJZWmZQMmtpaUNEZVZjUDBUUU1SeS03cmV6bi1PM0RrTzU3VVFJUdIBugFBVV95cUxObFVxM08yUDZaVmloY003V2NnWlNqUWUtUF9uYzlJSUk2WWx1TjE5RWVFYkFJME5mdVpwUkFDV2V3TXY4NXpMX1Z6eVBqS0hyYmNBX21FSVpKclkzUFRuQjRmZjI1RXhPQWE2ZTYtY3U1NVltSjVOWXBYOTVsaTI0c1p2YUowTzdWX1BJeHE3VEJDUG9fazJ1Zm1LQVRVMjc5YUVUNFFSUnQ3Z3AwcVJCckxBREkwNXBBdkE?oc=5",
+    "publishedTime": "Detectado ao vivo nas últimas 24h",
+    "createdAt": "2026-10-28T22:44:21.993Z",
+    "validityHours": 24,
+    "specsPreview": {
+      "categoria": "Superiate Transoceânico",
+      "engenharia": "Casco de aço naval e compósitos",
+      "curadoria": "Gabriel Fontes"
+    },
+    "suggestedImage": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80&w=1400",
+    "status": "available"
+  },
+  {
+    "id": "pauta-live-supercarros-mvspbx2d-di1h",
     "source": "Robb Report Global",
     "sourceCategory": "Supercarros",
     "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
@@ -84,7 +109,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Engenharia de precisão, telemetria inercial e desempenho de pista sob a análise de Gabriel Fontes.",
     "sourceUrl": "https://robbreport.com/shelter/art-collectibles/dinosaur-jodi-sale-sothebys-auction-1238796643/",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-28T16:11:51.183Z",
+    "createdAt": "2026-10-28T22:44:21.925Z",
     "validityHours": 24,
     "specsPreview": {
       "categoria": "Hipercarro de Colecionismo",
@@ -95,7 +120,7 @@ export const INITIAL_HOT_PAUTAS = [
     "status": "available"
   },
   {
-    "id": "pauta-live-supercarros-mvsbb575-2eoe",
+    "id": "pauta-live-supercarros-mvspbx2f-e50u",
     "source": "Robb Report Global",
     "sourceCategory": "Supercarros",
     "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
@@ -109,7 +134,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Engenharia de precisão, telemetria inercial e desempenho de pista sob a análise de Gabriel Fontes.",
     "sourceUrl": "https://robbreport.com/motors/cars/1956-jaguar-d-type-gooding-christies-auction-1238795342/",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-28T16:11:51.185Z",
+    "createdAt": "2026-10-28T22:44:21.927Z",
     "validityHours": 24,
     "specsPreview": {
       "categoria": "Hipercarro de Colecionismo",
@@ -117,6 +142,110 @@ export const INITIAL_HOT_PAUTAS = [
       "curadoria": "Gabriel Fontes"
     },
     "suggestedImage": "https://robbreport.com/wp-content/uploads/2026/10/1956-Jaguar-D-Type-opener.jpg",
+    "status": "available"
+  },
+  {
+    "id": "pauta-live-arquitetura-mvspbx4i-l5qt",
+    "source": "Sotheby's & Christie's Auctions",
+    "sourceCategory": "Arquitetura",
+    "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "rankingScore": 86,
+    "rankingTier": "B",
+    "originalTitle": "Sotheby’s Collectors’ Week Returns to Abu Dhabi With Fine Art Auction - CairoScene",
+    "suggestedHook": "Sotheby’s Collectors’ Week Returns to Abu Dhabi With Fine Art Auction",
+    "summary": "Movimentação estratégica de alocação patrimonial e ativos físicos imunes à volatilidade dos mercados de ações.",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX1FLUWxvZWkxMkdDSmdhLTdtOGs2VFdZQnI5ZkpJRWFLUG1yRVRPenZ1Um4zejg1clpnV3llWWpPWjVLYkZjSDVEUi1FT2d1bVJneEJBUVRxaWhleUQ0ci1Hb2hwX1ZXS2NoU2RyeFU2UXJwMzRrTEZmNzBpeHJYTnpaYU9OYzRxNU1tOGZUaGJxdzZ4a1ZQTWphM0RIQlh3RzN3N3hhTUozUQ?oc=5",
+    "publishedTime": "Detectado ao vivo nas últimas 24h",
+    "createdAt": "2026-10-28T22:44:22.002Z",
+    "validityHours": 24,
+    "specsPreview": {
+      "mercado": "Grandes Leilões Internacionais",
+      "custodia": "Refúgio de Liquidez Soberana",
+      "perfil": "Family Offices & Colecionadores",
+      "curadoria": "Henrique Vianna"
+    },
+    "suggestedImage": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1400",
+    "status": "available"
+  },
+  {
+    "id": "pauta-live-arquitetura-mvspbx4j-pazb",
+    "source": "Sotheby's & Christie's Auctions",
+    "sourceCategory": "Arquitetura",
+    "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "rankingScore": 86,
+    "rankingTier": "B",
+    "originalTitle": "From $14.7M to $80M: Rare Klimt Landscape Headlines Christie’s Evening Sale - ArtDependence",
+    "suggestedHook": "From $14.7M to $80M: Rare Klimt Landscape Headlines Christie’s Evening Sale",
+    "summary": "Movimentação estratégica de alocação patrimonial e ativos físicos imunes à volatilidade dos mercados de ações.",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaWdoUGlnRkNZczM1WmZTVDZWdjVrNGhUQmVUclNwN1dKRGxMcGxrcUpIMEkzM255RGdVSG1xTm9TM2hJajJwc2tOSktDS0JYWmpvbzA3Y0hDMldBMW8tOGY4cWxnR1ZPcW5fSExhaUNnSmV3YkFMcTkzejRCVzQyTnNCWlJDWmNXRE9kMkxNa3YxLThsYjVWamxOVkJGLTJPQ0hqTFBFRlFBYTQ?oc=5",
+    "publishedTime": "Detectado ao vivo nas últimas 24h",
+    "createdAt": "2026-10-28T22:44:22.003Z",
+    "validityHours": 24,
+    "specsPreview": {
+      "mercado": "Grandes Leilões Internacionais",
+      "custodia": "Refúgio de Liquidez Soberana",
+      "perfil": "Family Offices & Colecionadores",
+      "curadoria": "Henrique Vianna"
+    },
+    "suggestedImage": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&q=80&w=1400",
+    "status": "available"
+  },
+  {
+    "id": "pauta-live-relogios-mvspbx2l-vpi2",
+    "source": "Monochrome Watches",
+    "sourceCategory": "Alta Relojoaria",
+    "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "rankingScore": 85,
+    "rankingTier": "B",
+    "originalTitle": "First Look – The Laurent Ferrier Grand Sport Tourbillon Iceberg",
+    "suggestedHook": "Alta Relojoaria: First Look – The Laurent Ferrier Grand Sport Tourbillon Iceberg",
+    "summary": "Movimento de manufatura independente e detalhes de acabamento artesanal examinados sob a ótica de Clara Meirelles.",
+    "sourceUrl": "https://monochrome-watches.com/laurent-ferrier-grand-sport-tourbillon-iceberg-titanium-integrated-sports-watch-review-price/",
+    "publishedTime": "Detectado ao vivo nas últimas 24h",
+    "createdAt": "2026-10-28T22:44:21.933Z",
+    "validityHours": 24,
+    "specsPreview": {
+      "calibre": "Mecânico de alta complicação",
+      "acabamento": "Tradição artesanal suíça",
+      "curadoria": "Mesa de Alta Horologia",
+      "estilo": "Peça de Colecionador"
+    },
+    "suggestedImage": "https://monochrome-watches.com/app/uploads/2026/10/Laurent-Ferrier-Grand-Sport-Tourbillon-Iceberg-Titanium-review-8-600x237.jpg",
+    "status": "available"
+  },
+  {
+    "id": "pauta-live-arquitetura-mvspbx2a-trdz",
+    "source": "Robb Report Global",
+    "sourceCategory": "Arquitetura",
+    "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "rankingScore": 83,
+    "rankingTier": "B",
+    "originalTitle": "Former L.A. Dodgers Owner Frank McCourt Asks $125 Million for His Boca Raton Mansion",
+    "suggestedHook": "Former L.A. Dodgers Owner Frank McCourt Asks $125 Million for His Boca Raton Mansão",
+    "summary": "Movimentação estratégica de alocação patrimonial e ativos físicos imunes à volatilidade dos mercados de ações.",
+    "sourceUrl": "https://robbreport.com/shelter/celebrity-homes/frank-mccourt-house-south-florida-boca-raton-1238793613/",
+    "publishedTime": "Detectado ao vivo nas últimas 24h",
+    "createdAt": "2026-10-28T22:44:21.922Z",
+    "validityHours": 24,
+    "specsPreview": {
+      "mercado": "Grandes Leilões Internacionais",
+      "custodia": "Refúgio de Liquidez Soberana",
+      "perfil": "Family Offices & Colecionadores",
+      "curadoria": "Henrique Vianna"
+    },
+    "suggestedImage": "https://robbreport.com/wp-content/uploads/2026/10/FrankMcCourtHouse_FL_FI.jpg",
     "status": "available"
   },
   {
@@ -142,84 +271,6 @@ export const INITIAL_HOT_PAUTAS = [
       "curadoria": "Gabriel Fontes"
     },
     "suggestedImage": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80&w=1400",
-    "status": "available"
-  },
-  {
-    "id": "pauta-live-arquitetura-mvsbb599-7rk0",
-    "source": "Sotheby's & Christie's Auctions",
-    "sourceCategory": "Arquitetura",
-    "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "rankingScore": 86,
-    "rankingTier": "B",
-    "originalTitle": "From $14.7M to $80M: Rare Klimt Landscape Headlines Christie’s Evening Sale - ArtDependence",
-    "suggestedHook": "From $14.7M to $80M: Rare Klimt Landscape Headlines Christie’s Evening Sale",
-    "summary": "Movimentação estratégica de alocação patrimonial e ativos físicos imunes à volatilidade dos mercados de ações.",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaWdoUGlnRkNZczM1WmZTVDZWdjVrNGhUQmVUclNwN1dKRGxMcGxrcUpIMEkzM255RGdVSG1xTm9TM2hJajJwc2tOSktDS0JYWmpvbzA3Y0hDMldBMW8tOGY4cWxnR1ZPcW5fSExhaUNnSmV3YkFMcTkzejRCVzQyTnNCWlJDWmNXRE9kMkxNa3YxLThsYjVWamxOVkJGLTJPQ0hqTFBFRlFBYTQ?oc=5",
-    "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-28T16:11:51.261Z",
-    "validityHours": 24,
-    "specsPreview": {
-      "mercado": "Grandes Leilões Internacionais",
-      "custodia": "Refúgio de Liquidez Soberana",
-      "perfil": "Family Offices & Colecionadores",
-      "curadoria": "Henrique Vianna"
-    },
-    "suggestedImage": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1400",
-    "status": "available"
-  },
-  {
-    "id": "pauta-live-arquitetura-mvsbb59d-zf22",
-    "source": "Sotheby's & Christie's Auctions",
-    "sourceCategory": "Arquitetura",
-    "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "rankingScore": 86,
-    "rankingTier": "B",
-    "originalTitle": "Sotheby’s Collectors’ Week Returns to Abu Dhabi With Fine Art Auction - CairoScene",
-    "suggestedHook": "Sotheby’s Collectors’ Week Returns to Abu Dhabi With Fine Art Auction",
-    "summary": "Movimentação estratégica de alocação patrimonial e ativos físicos imunes à volatilidade dos mercados de ações.",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX1FLUWxvZWkxMkdDSmdhLTdtOGs2VFdZQnI5ZkpJRWFLUG1yRVRPenZ1Um4zejg1clpnV3llWWpPWjVLYkZjSDVEUi1FT2d1bVJneEJBUVRxaWhleUQ0ci1Hb2hwX1ZXS2NoU2RyeFU2UXJwMzRrTEZmNzBpeHJYTnpaYU9OYzRxNU1tOGZUaGJxdzZ4a1ZQTWphM0RIQlh3RzN3N3hhTUozUQ?oc=5",
-    "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-28T16:11:51.265Z",
-    "validityHours": 24,
-    "specsPreview": {
-      "mercado": "Grandes Leilões Internacionais",
-      "custodia": "Refúgio de Liquidez Soberana",
-      "perfil": "Family Offices & Colecionadores",
-      "curadoria": "Henrique Vianna"
-    },
-    "suggestedImage": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&q=80&w=1400",
-    "status": "available"
-  },
-  {
-    "id": "pauta-live-relogios-mvsbb57d-9ru0",
-    "source": "Monochrome Watches",
-    "sourceCategory": "Alta Relojoaria",
-    "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "authorSlug": "clara-meirelles",
-    "rankingScore": 85,
-    "rankingTier": "B",
-    "originalTitle": "First Look – The Laurent Ferrier Grand Sport Tourbillon Iceberg",
-    "suggestedHook": "Alta Relojoaria: First Look – The Laurent Ferrier Grand Sport Tourbillon Iceberg",
-    "summary": "Movimento de manufatura independente e detalhes de acabamento artesanal examinados sob a ótica de Clara Meirelles.",
-    "sourceUrl": "https://monochrome-watches.com/laurent-ferrier-grand-sport-tourbillon-iceberg-titanium-integrated-sports-watch-review-price/",
-    "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-28T16:11:51.193Z",
-    "validityHours": 24,
-    "specsPreview": {
-      "calibre": "Mecânico de alta complicação",
-      "acabamento": "Tradição artesanal suíça",
-      "curadoria": "Mesa de Alta Horologia",
-      "estilo": "Peça de Colecionador"
-    },
-    "suggestedImage": "https://monochrome-watches.com/app/uploads/2026/10/Laurent-Ferrier-Grand-Sport-Tourbillon-Iceberg-Titanium-review-8-600x237.jpg",
     "status": "available"
   },
   {
