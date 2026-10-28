@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-ferrari-e-building-o-monstro-ele-8435",
+    "slug": "ferrari-e-building-o-monstro-eletrico-de-us-560800-que-desafia-os-v12-aspirados-com-celulas-de-ion-litio-montadas-em-maranello-8425",
+    "title": "Ferrari E-Building: O Monstro Elétrico de US$ 560.800 que Desafia os V12 Aspirados com Células de Íon-Lítio Montadas em Maranello",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "28 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "A fortaleza sagrada de Enzo Ferrari abandona o ronco mecânico tradicional para erguer uma nova catedral industrial focada em propulsão elétrica de altíssima tensão, avaliada em mais de meio milhão de dólares.",
+    "contentParagraphs": [
+      "Maranello silenciou os pistões. A linha de montagem mais famosa do mundo agora abriga o E-Building, uma estrutura de alta precisão dedicada inteiramente aos elétricos que custam meio milhão de dólares. O cheiro de gasolina evaporada cedeu espaço ao ar estéril de salas limpas onde robôs de última geração manipulam baterias de alta densidade energética. A transição não é sutil. É uma ruptura cirúrgica na tradição mais rígida da indústria automobilística italiana.",
+      "O torque instantâneo desafia a física dos compostos emborrachados. Estamos falando de módulos de íon-lítio montados diretamente no piso de compósito para abaixar o centro de gravidade até o limite do asfalto. A força G lateral nas curvas de alta velocidade exige braços de suspensão recalibrados e dutos NACA esculpidos para direcionar fluxos de Venturi de efeito solo sem o auxílio de gases de escape tradicionais. Cada célula de energia é monitorada por telemetria inercial em tempo real, garantindo resfriamento líquido sob pressões extremas.",
+      "Os puristas torcem o nariz para a ausência de tubos de escape em Inconel incandescente. No entanto, a engenharia aplicada neste chassi curado em autoclave ignora o sentimentalismo em prol de tempos de volta implacáveis. A aerodinâmica ativa manipulam o coeficiente de arrasto Cx com a mesma precisão cirúrgica vista nos protótipos de Endurance. A aerodinâmica não apenas cola o bólido ao solo; ela respira, gerencia calor e alimenta inversores de carboneto de silício.",
+      "Esta máquina redefine o patamar financeiro e tecnológico da marca do Cavallino Rampante no século XXI. Por US$ 560.800, os colecionadores não compram apenas um veículo de alta performance. Adquirem um manifesto industrial, um ponto de inflexão onde a eletrificação de alta voltagem substitui o ritual de rotação pura, mantendo intacta a obsessão absoluta por décimos de segundo."
+    ],
+    "content_paragraphs": [
+      "Maranello silenciou os pistões. A linha de montagem mais famosa do mundo agora abriga o E-Building, uma estrutura de alta precisão dedicada inteiramente aos elétricos que custam meio milhão de dólares. O cheiro de gasolina evaporada cedeu espaço ao ar estéril de salas limpas onde robôs de última geração manipulam baterias de alta densidade energética. A transição não é sutil. É uma ruptura cirúrgica na tradição mais rígida da indústria automobilística italiana.",
+      "O torque instantâneo desafia a física dos compostos emborrachados. Estamos falando de módulos de íon-lítio montados diretamente no piso de compósito para abaixar o centro de gravidade até o limite do asfalto. A força G lateral nas curvas de alta velocidade exige braços de suspensão recalibrados e dutos NACA esculpidos para direcionar fluxos de Venturi de efeito solo sem o auxílio de gases de escape tradicionais. Cada célula de energia é monitorada por telemetria inercial em tempo real, garantindo resfriamento líquido sob pressões extremas.",
+      "Os puristas torcem o nariz para a ausência de tubos de escape em Inconel incandescente. No entanto, a engenharia aplicada neste chassi curado em autoclave ignora o sentimentalismo em prol de tempos de volta implacáveis. A aerodinâmica ativa manipulam o coeficiente de arrasto Cx com a mesma precisão cirúrgica vista nos protótipos de Endurance. A aerodinâmica não apenas cola o bólido ao solo; ela respira, gerencia calor e alimenta inversores de carboneto de silício.",
+      "Esta máquina redefine o patamar financeiro e tecnológico da marca do Cavallino Rampante no século XXI. Por US$ 560.800, os colecionadores não compram apenas um veículo de alta performance. Adquirem um manifesto industrial, um ponto de inflexão onde a eletrificação de alta voltagem substitui o ritual de rotação pura, mantendo intacta a obsessão absoluta por décimos de segundo."
+    ],
+    "specs": {
+      "Propulsão": "100% Elétrica de Alta Voltagem",
+      "Preço Base": "US$ 560.800",
+      "Chassi": "Monocoque em carbo-titânio e alumínio aeroespacial",
+      "Ateliê de Produção": "E-Building, Maranello, Itália",
+      "Gerenciamento Térmico": "Arrefecimento líquido de alta vazão para células de íon-lítio"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 92,
+    "ranking_score": 92,
+    "publishedAt": "2026-10-28T02:17:48.434Z",
+    "published_at": "2026-10-28T02:17:48.434Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNSGJLZXdsa3BWQlJRMHZzZUl6NGdCcGQwYjRGemY1ZFh2Y2U3WVRESU1OSGFNekIzOFZJRDVpZkd4RXJaWnZ6OC1GZi11bWtjbTZMajFIdzBCQWgzY0xxcnpYeUFLOEh0NDFldQ?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNSGJLZXdsa3BWQlJRMHZzZUl6NGdCcGQwYjRGemY1ZFh2Y2U3WVRESU1OSGFNekIzOFZJRDVpZkd4RXJaWnZ6OC1GZi11bWtjbTZMajFIdzBCQWgzY0xxcnpYeUFLOEh0NDFldQ?oc=5"
+  },
+  {
     "id": "art-patek-philippe-de-joe-dimaggio-o-1985",
     "slug": "patek-philippe-de-joe-dimaggio-o-calendario-perpetuo-em-ouro-amarelo-de-1957-que-exige-12-milhao-de-dolares-em-custodia-fiduciaria-1969",
     "title": "Patek Philippe de Joe DiMaggio: O Calendário Perpétuo em Ouro Amarelo de 1957 que Exige 1,2 milhão de Dólares em Custódia Fiduciária",
@@ -153,10 +204,10 @@ export const ARTICLES = [
       "valor_estimado": "USD 1.200.000"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 94,
@@ -1201,54 +1252,17 @@ export const ARTICLES = [
     ],
     "is_hero": false,
     "is_hero_secondary": false
-  },
-  {
-    "id": "art-hermes-faubourg-saint-honore-30--1009",
-    "slug": "hermes-faubourg-saint-honore-30-mestres-artesaos-costuram-couro-barenia-com-ponto-sele-ancestral-de-1837",
-    "title": "Hermès Faubourg Saint-Honoré: 30 Mestres Artesãos Costuram Couro Barenia com Ponto Selê Ancestral de 1837",
-    "category": "Alta-Costura",
-    "categorySlug": "estilo",
-    "type": "article",
-    "badge": "SAVOIR-FAIRE ANCESTRAL",
-    "excerpt": "Nos andares silenciosos do número 24, a lentidão do linho encerado desafia o mercado de consumo rápido. Um manifesto contra a obsolescência.",
-    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&q=80&w=1400",
-    "authorSlug": "clara-meirelles",
-    "date": "24 de outubro de 2026",
-    "readTime": "6 min de leitura",
-    "isHero": false,
-    "isHeroSecondary": false,
-    "rankingScore": 85,
-    "specs": {
-      "couros": "Box Calf e Barenia com curtimento vegetal lento à base de cascas de mimosa",
-      "costura": "Ponto selê legítimo com linha de linho encerada em cera virgem de abelha",
-      "tempo_manufatura": "Mínimo de 32 horas de trabalho manual contínuo por uma única artesã",
-      "procedencia": "Ateliê do 5º andar do número 24 da Rue du Faubourg Saint-Honoré, Paris",
-      "Ateliê": "Faubourg Saint-Honoré, Paris",
-      "Matéria-prima": "Couro Barenia de curtição lenta",
-      "Técnica": "Ponto selê duplo com agulha e linho encerado",
-      "Herança": "Tradição equestre iniciada em 1837",
-      "Guarda": "Custódia vitalícia em ateliê próprio"
-    },
-    "contentParagraphs": [
-      "A luz natural banha as bancadas de carvalho maciço no coração de Paris. Trinta artesãos respiram no mesmo ritmo cadenciado, ignorando o frenesi exterior da rue du Faubourg Saint-Honoré. Ali, a pressa é uma heresia administrativa.",
-      "O couro Barenia exige respeito tátil absoluto. Ele absorve os óleos da pele humana, transformando-se ao longo das décadas em um documento vivo de uso, cicatrizes nobres e patina dourada. Cada pele passa por curtimento lento em tanques de extratos vegetais por semanas a fio.",
-      "A agulha dupla de aço penetra o orifício pré-marcado com precisão milimétrica. O ponto selê, herdado diretamente dos mestres seleiros de 1837, utiliza linho encerado em cera virgem. O nó duplo interno garante que, se um fio romper após meio século de uso, a estrutura inteira permanece intacta e indestrutível.",
-      "Nenhum motor elétrico auxilia o fecho. Apenas a tração equilibrada dos braços e a sensibilidade dos dedos calejados pelo atrito constante determinam a tensão ideal do fio. É a antítese absoluta da produção em massa automatizada, um refúgio de soberania artesanal onde o tempo deixa de ser uma métrica financeira.",
-      "A conclusão de uma única bolsa exige dezenas de horas de silêncio contemplativo. O objeto resultante não ostenta logotipos estridentes, mas carrega o peso invisível de uma linhagem inegociável. A verdadeira opulência reside na paciência inabalável de quem recusa o efêmero."
-    ],
-    "is_hero": false,
-    "is_hero_secondary": false
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'RELOGIOS',
-    title: 'Patek Philippe de Joe DiMaggio: O Cale...',
-    image: 'https://robbreport.com/wp-content/uploads/2026/10/joe-dimaggio-patek-phillipe-watch.jpg',
+    category: 'SUPERCARROS',
+    title: 'Ferrari E-Building: O Monstro Elétrico...',
+    image: 'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400',
     tag: 'DESTAQUE MUNDIAL',
-    slug: 'patek-philippe-de-joe-dimaggio-o-calendario-perpetuo-em-ouro-amarelo-de-1957-que-exige-12-milhao-de-dolares-em-custodia-fiduciaria-1969'
+    slug: 'ferrari-e-building-o-monstro-eletrico-de-us-560800-que-desafia-os-v12-aspirados-com-celulas-de-ion-litio-montadas-em-maranello-8425'
   },
   {
     id: 'film-2',
