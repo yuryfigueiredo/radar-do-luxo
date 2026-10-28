@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-hermes-faubourg-o-atelie-secreto-3341",
+    "slug": "hermes-faubourg-o-atelie-secreto-em-paris-onde-30-mestres-costuram-selas-em-couro-barenia-sob-linho-encerado-a-mao-desde-1837-3331",
+    "title": "Hermès Faubourg: O Ateliê Secreto em Paris Onde 30 Mestres Costuram Selas em Couro Barenia sob Linho Encerado a Mão desde 1837",
+    "category": "Alta-Costura",
+    "categorySlug": "estilo",
+    "category_slug": "estilo",
+    "authorSlug": "clara-meirelles",
+    "author_slug": "clara-meirelles",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "28 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Sob a claraboia parisiense, trinta artesãos perpetuam o ponto selê de duas agulhas com cera virgem e couro Barenia, desafiando a obsolescência da era industrial.",
+    "contentParagraphs": [
+      "A luz natural penetra na claraboia do número 24 do Faubourg Saint-Honoré carregando o peso de quase dois séculos. Ali, o tempo não se mede em frações decimais, mas na resistência paciente do couro Barenia sob a ponta dos dedos calejados. Nenhuma máquina do mundo moderno jamais compreendeu a tensão exata que une duas agulhas em direções opostas sem romper a alma da fibra. O silêncio do ateliê é cortado apenas pelo atrito rítmico do linho contra a cera virgem de abelha. Trinta mestres guardam esta liturgia diária. A matéria-prima exige respeito absoluto e conhecimento ancestral.",
+      "Cada peça nasce de um diálogo tátil entre o polegar e a pele curtida lentamente em taninos vegetais. O ponto selê francês permanece inalterado desde 1837, garantindo uma integridade estrutural que desafia decênios de uso contínuo. As mãos que moldam o arreio são as mesmas que costuram a alta-costura da casa, aplicando nós invisíveis reforçados por linho encerado manualmente. A precisão reside na imperfeição humana, no milésimo de variação que confere a cada criação sua assinatura irrepetível. O luxo aqui dispensa logotipos, pois a própria costura sela a soberania da manufatura.",
+      "O cheiro do ateliê evoca bosques úmidos, selaria equestre e a promessa de permanência em um mundo obcecado pelo descarte rápido. Enquanto conglomerados globais aceleram a produção em série, o Faubourg cultiva a escassez matemática como forma suprema de aristocracia estética. Não há pressa para finalizar uma bolsa ou uma sela; o ritmo é ditado pela secagem natural da cera e pela respiração do artesão. Esta imunidade temporal transforma cada objeto em refúgio de liquidez tangível. O verdadeiro valor reside na quantidade exata de horas humanas investidas longe dos olhares públicos.",
+      "Ao fechar a porta de carvalho do sótão parisiense, compreende-se a verdadeira essência da herança Hermès. Nenhuma tecnologia digital substituirá a intuição de quem reconhece a densidade ideal da pele ao primeiro toque. O patrimônio dinástico não se ostenta; ele se veste com a sobriedade silenciosa de um ponto perfeitamente executado à mão. A Alta-Costura encontra na selaria sua raiz mais profunda, provando que a excelência mecânica e manual sobrevive apenas onde há devoção intransigente ao detalhe invisível."
+    ],
+    "content_paragraphs": [
+      "A luz natural penetra na claraboia do número 24 do Faubourg Saint-Honoré carregando o peso de quase dois séculos. Ali, o tempo não se mede em frações decimais, mas na resistência paciente do couro Barenia sob a ponta dos dedos calejados. Nenhuma máquina do mundo moderno jamais compreendeu a tensão exata que une duas agulhas em direções opostas sem romper a alma da fibra. O silêncio do ateliê é cortado apenas pelo atrito rítmico do linho contra a cera virgem de abelha. Trinta mestres guardam esta liturgia diária. A matéria-prima exige respeito absoluto e conhecimento ancestral.",
+      "Cada peça nasce de um diálogo tátil entre o polegar e a pele curtida lentamente em taninos vegetais. O ponto selê francês permanece inalterado desde 1837, garantindo uma integridade estrutural que desafia decênios de uso contínuo. As mãos que moldam o arreio são as mesmas que costuram a alta-costura da casa, aplicando nós invisíveis reforçados por linho encerado manualmente. A precisão reside na imperfeição humana, no milésimo de variação que confere a cada criação sua assinatura irrepetível. O luxo aqui dispensa logotipos, pois a própria costura sela a soberania da manufatura.",
+      "O cheiro do ateliê evoca bosques úmidos, selaria equestre e a promessa de permanência em um mundo obcecado pelo descarte rápido. Enquanto conglomerados globais aceleram a produção em série, o Faubourg cultiva a escassez matemática como forma suprema de aristocracia estética. Não há pressa para finalizar uma bolsa ou uma sela; o ritmo é ditado pela secagem natural da cera e pela respiração do artesão. Esta imunidade temporal transforma cada objeto em refúgio de liquidez tangível. O verdadeiro valor reside na quantidade exata de horas humanas investidas longe dos olhares públicos.",
+      "Ao fechar a porta de carvalho do sótão parisiense, compreende-se a verdadeira essência da herança Hermès. Nenhuma tecnologia digital substituirá a intuição de quem reconhece a densidade ideal da pele ao primeiro toque. O patrimônio dinástico não se ostenta; ele se veste com a sobriedade silenciosa de um ponto perfeitamente executado à mão. A Alta-Costura encontra na selaria sua raiz mais profunda, provando que a excelência mecânica e manual sobrevive apenas onde há devoção intransigente ao detalhe invisível."
+    ],
+    "specs": {
+      "Endereco Historico": "24 Rue du Faubourg Saint-Honoré, Paris",
+      "Fundacao do Ateliê": "1837 por Thierry Hermès",
+      "Tecnica de Uniao": "Ponto selê de duas agulhas cruzadas",
+      "Materia-Prima Primaria": "Couro Barenia com curtimento vegetal",
+      "Insumo de Costura": "Linho tratado com cera virgem de abelha"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 97,
+    "ranking_score": 97,
+    "publishedAt": "2026-10-28T16:05:33.341Z",
+    "published_at": "2026-10-28T16:05:33.341Z",
+    "sourceUrl": "https://www.voguebusiness.com/fashion/inside-hermes-secret-saddlery",
+    "source_url": "https://www.voguebusiness.com/fashion/inside-hermes-secret-saddlery"
+  },
+  {
     "id": "art-ferrari-e-building-o-monstro-ele-8435",
     "slug": "ferrari-e-building-o-monstro-eletrico-de-us-560800-que-desafia-os-v12-aspirados-com-celulas-de-ion-litio-montadas-em-maranello-8425",
     "title": "Ferrari E-Building: O Monstro Elétrico de US$ 560.800 que Desafia os V12 Aspirados com Células de Íon-Lítio Montadas em Maranello",
@@ -153,10 +204,10 @@ export const ARTICLES = [
       "Gerenciamento Térmico": "Arrefecimento líquido de alta vazão para células de íon-lítio"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 92,
@@ -1216,53 +1267,17 @@ export const ARTICLES = [
     ],
     "is_hero": false,
     "is_hero_secondary": false
-  },
-  {
-    "id": "art-rexhep-rexhepi-chronometre-conte-1008",
-    "slug": "rexhep-rexhepi-chronometre-contemporain-ii-o-calibre-de-manufatura-com-38-horas-e-acabamento-em-anglage-executado-com-sabugueiro-silvestre",
-    "title": "Rexhep Rexhepi Chronomètre Contemporain II: O Calibre de Manufatura com 38 Horas e Acabamento em Anglage Executado com Sabugueiro Silvestre",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "type": "article",
-    "badge": "ATELIÊ INDEPENDENTE",
-    "excerpt": "Na quietude de Genebra, o Akrivia RRCC II ergue a microengenharia suíça a um patamar onde a tolerância de mícrons encontra a arte ancestral do polimento manual.",
-    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=1400",
-    "authorSlug": "clara-meirelles",
-    "date": "24 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "isHero": false,
-    "isHeroSecondary": false,
-    "rankingScore": 72,
-    "specs": {
-      "calibre": "RR02 de corda manual com balanço simétrico e segundos mortos",
-      "mostrador": "Esmalte Grand Feu vítreo branco queimado sucessivas vezes a 820°C",
-      "caixa": "Ouro Rosa 18k forjada artesanalmente pelo lendário Jean-Pierre Hagmann",
-      "producao": "Lista de espera de 7 anos com alocação restrita sob aprovação pessoal",
-      "Ateliê": "Akrivia, Genebra",
-      "Calibre": "RRCC II de manufactura própria com zero-reset",
-      "Acabamento": "Anglage manual com sabugueiro silvestre e polimento espelhado",
-      "Mostrador": "Esmalte Grand Feu com marcação sectorial",
-      "Tiragem": "Limitada a dezenas de unidades anuais"
-    },
-    "contentParagraphs": [
-      "O silêncio do ateliê em Genebra contrasta com a violência estética de sua precisão. A platina trabalhada à mão desafia o olhar desatento. Aqui, o tempo não se mede em segundos úteis. Mede-se na resistência de um balanço que oscila sob rigor térmico absoluto. Cada engrenagem passa por dezenas de horas de fricção controlada. A alma mecânica pulsa sem concessões digitais.",
-      "O calibre de manufatura exige tolerâncias inferiores a dois mícrons em seus eixos de aço temperado. O mostrador em esmalte Grand Feu exibe numeração romana pintada à mão com pigmentos calcinados a oitocentos graus Celsius. A ponte do balanço duplo, simétrica e monumental, distribui o torque com precisão cirúrgica. Não há espaço para excessos ornamentais na platina principal.",
-      "Enquanto conglomerados entregam volumes industriais pasteurizados, a Akrivia aposta na escassez matemática e na soberania do ateliê independente. A repetição exata do ciclo de zero-reset, que sincroniza o ponteiro dos segundos instantaneamente ao puxar a coroa, revela uma complexidade invisível aos leigos. É a engenharia mecânica elevada a uma forma de arquitetura portátil, livre de obsolescência programada.",
-      "O veredito da alta relojoaria é unânime diante de tal disciplina construtiva. O Chronomètre Contemporain II não serve para exibir pressa nos salões financeiros. Ele permanece como um testamento de resistência física e estética contra a obsolescência digital, destinado exclusivamente a colecionadores que compreendem o verdadeiro valor da permanência material."
-    ],
-    "is_hero": false,
-    "is_hero_secondary": false
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'SUPERCARROS',
-    title: 'Ferrari E-Building: O Monstro Elétrico...',
-    image: 'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400',
+    category: 'ESTILO',
+    title: 'Hermès Faubourg: O Ateliê Secreto em P...',
+    image: 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=max&q=80&w=1400',
     tag: 'DESTAQUE MUNDIAL',
-    slug: 'ferrari-e-building-o-monstro-eletrico-de-us-560800-que-desafia-os-v12-aspirados-com-celulas-de-ion-litio-montadas-em-maranello-8425'
+    slug: 'hermes-faubourg-o-atelie-secreto-em-paris-onde-30-mestres-costuram-selas-em-couro-barenia-sob-linho-encerado-a-mao-desde-1837-3331'
   },
   {
     id: 'film-2',
