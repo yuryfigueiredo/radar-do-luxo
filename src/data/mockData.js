@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-rexhep-rexhepi-chronometre-conte-9752",
+    "slug": "rexhep-rexhepi-chronometre-contemporain-ii-o-atelie-independente-de-genebra-com-lista-de-espera-de-7-anos-e-chanfro-manual-absoluto-9736",
+    "title": "Rexhep Rexhepi Chronomètre Contemporain II: O Ateliê Independente de Genebra com Lista de Espera de 7 Anos e Chanfro Manual Absoluto",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "category_slug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "author_slug": "clara-meirelles",
+    "type": "article",
+    "badge": "HOMOLOGADO PELO RADAR",
+    "date": "28 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Aos 36 anos, Rexhep Rexhepi comanda o ateliê Akrivia e esculpe pontes com medula de sabugueiro silvestre, atraindo comitês de bilionários que trocaram marcas seculares pela pureza mecânica de sua bancada.",
+    "contentParagraphs": [
+      "A bancada de montagem é um santuário de luz difusa e silêncio absoluto. Ali, o tempo não se mede em segundos úteis, mas na persistência do aço submetido ao buril. Rexhep Rexhepi rejeita a pressa industrial que corrompe a Alta Relojoaria contemporânea. Cada componente do Chronomètre Contemporain II recebe centenas de horas de atenção cirúrgica antes de tocar o mostrador.",
+      "O calibre de manufatura pulsa com uma arquitetura de pontes duplas simétricas, herdada dos cronômetros de observatório do século XIX. O acabamento exige a aplicação rigorosa de anglage com sabugueiro silvestre e pasta de diamante, gerando arestas vivas que refletem a luz de maneira estritamente geométrica. Não há concessões automatizadas neste ateliê da Vallée de Joux e Genebra.",
+      "Comitês de colecionadores globais aguardam por períodos que superam meia década para assegurar uma unidade desta tiragem estritamente escassa. A soberania patrimonial reside exatamente nesta rejeição calculada ao volume. Enquanto conglomerados de luxo inundam o mercado com novidades efêmeras, a Akrivia consolida um refúgio de liquidez baseado na precisão cronométrica absoluta.",
+      "O mostrador em esmalte Grand Feu, disparado a temperaturas superiores a 820°C, exibe numerais pintados à mão com uma pureza mineral inconfundível. Trata-se de uma obra-prima que ignora modismos e desafia a obsolescência programada. A posse desta escultura mecânica não representa apenas um investimento financeiro, mas a preservação da mais alta excelência humana."
+    ],
+    "content_paragraphs": [
+      "A bancada de montagem é um santuário de luz difusa e silêncio absoluto. Ali, o tempo não se mede em segundos úteis, mas na persistência do aço submetido ao buril. Rexhep Rexhepi rejeita a pressa industrial que corrompe a Alta Relojoaria contemporânea. Cada componente do Chronomètre Contemporain II recebe centenas de horas de atenção cirúrgica antes de tocar o mostrador.",
+      "O calibre de manufatura pulsa com uma arquitetura de pontes duplas simétricas, herdada dos cronômetros de observatório do século XIX. O acabamento exige a aplicação rigorosa de anglage com sabugueiro silvestre e pasta de diamante, gerando arestas vivas que refletem a luz de maneira estritamente geométrica. Não há concessões automatizadas neste ateliê da Vallée de Joux e Genebra.",
+      "Comitês de colecionadores globais aguardam por períodos que superam meia década para assegurar uma unidade desta tiragem estritamente escassa. A soberania patrimonial reside exatamente nesta rejeição calculada ao volume. Enquanto conglomerados de luxo inundam o mercado com novidades efêmeras, a Akrivia consolida um refúgio de liquidez baseado na precisão cronométrica absoluta.",
+      "O mostrador em esmalte Grand Feu, disparado a temperaturas superiores a 820°C, exibe numerais pintados à mão com uma pureza mineral inconfundível. Trata-se de uma obra-prima que ignora modismos e desafia a obsolescência programada. A posse desta escultura mecânica não representa apenas um investimento financeiro, mas a preservação da mais alta excelência humana."
+    ],
+    "specs": {
+      "calibre": "Movimento mecânico de corda manual RR02",
+      "ateliê": "Akrivia, Genebra, Suíça",
+      "acabamento": "Chanfro manual absoluto com sabugueiro silvestre",
+      "tiragem": "Produção anual extremamente restrita",
+      "avaliação": "Cotação sob consulta em comitê privado"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 96,
+    "ranking_score": 96,
+    "publishedAt": "2026-10-28T16:35:19.751Z",
+    "published_at": "2026-10-28T16:35:19.751Z",
+    "sourceUrl": "https://quillandpad.com/rexhep-rexhepi-ccii",
+    "source_url": "https://quillandpad.com/rexhep-rexhepi-ccii"
+  },
+  {
     "id": "art-hermes-faubourg-o-atelie-secreto-3341",
     "slug": "hermes-faubourg-o-atelie-secreto-em-paris-onde-30-mestres-costuram-selas-em-couro-barenia-sob-linho-encerado-a-mao-desde-1837-3331",
     "title": "Hermès Faubourg: O Ateliê Secreto em Paris Onde 30 Mestres Costuram Selas em Couro Barenia sob Linho Encerado a Mão desde 1837",
@@ -1232,52 +1283,17 @@ export const ARTICLES = [
     ],
     "is_hero": false,
     "is_hero_secondary": false
-  },
-  {
-    "id": "art-vacheron-constantin-les-cabinoti-1007",
-    "slug": "vacheron-constantin-les-cabinotiers-o-gigante-em-platina-de-40-complicacoes-astronomicas-que-exigiu-8-anos-de-calculo-na-vallee-de-joux",
-    "title": "Vacheron Constantin Les Cabinotiers: O Gigante em Platina de 40 Complicações Astronômicas que Exigiu 8 Anos de Cálculo na Vallée de Joux",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "type": "article",
-    "badge": "PIÈCE UNIQUE",
-    "excerpt": "Um marco intransponível na microengenharia suíça que une o esmalte Grand Feu ao silêncio paciente de um calibre com dois mostradores e mais de duzentas engrenagens invisíveis.",
-    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&q=80&w=1400",
-    "authorSlug": "clara-meirelles",
-    "date": "24 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "isHero": false,
-    "isHeroSecondary": false,
-    "rankingScore": 77,
-    "specs": {
-      "complicacoes": "40 funções astronômicas e calendáricas",
-      "caixa": "Platina 950 com gravura manual burilada nas oficinas históricas de Genebra",
-      "componentes": "1.120 peças acabadas à mão com chanfros de sabugueiro silvestre",
-      "status": "Encomenda sob medida confidencial homologada pela manufatura",
-      "calibre": "Movimento mecânico de corda manual desenvolvido internamente",
-      "materiais": "Platina 950 e mostradores em esmalte Grand Feu",
-      "desenvolvimento": "8 anos de pesquisa e engenharia de ateliê",
-      "tiragem": "Peça única exclusiva Les Cabinotiers"
-    },
-    "contentParagraphs": [
-      "O tempo não se mede em segundos quando a matéria é dobrada à vontade do homem. Na Vallée de Joux, a umidade corta as pedras e o silêncio dita a lei da física em miniatura. A Vacheron Constantin entrega ao mundo a soberania mecânica em sua forma mais extrema. Quarenta complicações habitam uma caixa dupla face esculpida em platina pesada. Oito anos de cálculo puro antecederam o primeiro corte no latão virgem dos componentes. Não há espaço para o acaso onde a tolerância é medida em frações invisíveis de mícrons.",
-      "No interior da arquitetura, o calibre de manufatura opera com 2.877 peças individuais que exigiram novas ligas metálicas e ajustes térmicos específicos. Cada ponte recebe o anglage com sabugueiro silvestre e polimento manual em espelho. As rodas de escape de silício trabalham em harmonia silenciosa com indicações astronômicas complexas. Cartas celestes em tempo real, equações do tempo e calendários perpétuos se desdobram sob o vidro de safira sem o menor sinal de atrito excessivo. A energia é distribuída por barriletes duplos calibrados com precisão milimétrica.",
-      "Colecionadores de alta-costura mecânica compreendem que a raridade reside na impossibilidade de replicação em escala industrial. A oficina Les Cabinotiers opera fora do tempo comercial, respondendo apenas ao rigor dos mestres relojoeiros que nunca viram pressa como virtude. O mostrador exibe esmalte Grand Feu curado a 820°C em fornos de atmosfera controlada. Cada índice aplicado à mão pontua a escuridão do fundo com a frieza nobre do metal precioso.",
-      "Este exemplar não figura nos catálogos tradicionais e jamais integrará o circuito efêmero das tendências de consumo. Sua custódia é fiduciária, destinada a cofres blindados onde a herança familiar se perpetua sem ruído. A Vacheron Constantin reafirma, com este monumento cinético, que a verdadeira riqueza é a paciência elevada à categoria de arte mecânica incorruptível."
-    ],
-    "is_hero": false,
-    "is_hero_secondary": false
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'ESTILO',
-    title: 'Hermès Faubourg: O Ateliê Secreto em P...',
-    image: 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=max&q=80&w=1400',
-    tag: 'DESTAQUE MUNDIAL',
-    slug: 'hermes-faubourg-o-atelie-secreto-em-paris-onde-30-mestres-costuram-selas-em-couro-barenia-sob-linho-encerado-a-mao-desde-1837-3331'
+    category: 'RELOGIOS',
+    title: 'Rexhep Rexhepi Chronomètre Contemporai...',
+    image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=max&q=80&w=1400',
+    tag: 'HOMOLOGADO PELO RADAR',
+    slug: 'rexhep-rexhepi-chronometre-contemporain-ii-o-atelie-independente-de-genebra-com-lista-de-espera-de-7-anos-e-chanfro-manual-absoluto-9736'
   },
   {
     id: 'film-2',
