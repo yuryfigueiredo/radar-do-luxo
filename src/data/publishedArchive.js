@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-alfa-romeo-tipo-33-stradale-o-mo-1456",
+    "slug": "alfa-romeo-tipo-33-stradale-o-monstro-v8-central-de-20-litros-forjado-em-aluminio-espacial-que-compartilha-a-alma-secreta-com-maranello-1443",
+    "title": "Alfa Romeo Tipo 33 Stradale: O Monstro V8 Central de 2.0 Litros Forjado em Alumínio Espacial que Compartilha a Alma Secreta com Maranello",
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=max&q=85&w=1800",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPel9oaVZtdjk1NkpzanljMkhrRFZPVWVWUktZZWNYam15V0tlZU1RZ2dVanppUEZ6Z3J1X3dTNWt2WmtlZUdLeV8tWkhVU0I1RzJlYTNGdk5GRHgzenRGWFpWQlhNVGhKRDMwMXYzcFcyODFxenQza2ZpcGZfM1RPZzd4d2t2R2lDMVpuVDZDaWc5RmNZYkFJ?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-10-29T22:45:11.456Z"
+  },
+  {
     "id": "art-diadema-romanov-o-tesouro-imperi-1670",
     "slug": "diadema-romanov-o-tesouro-imperial-de-15-milhao-de-libras-que-desafia-a-volatilidade-das-bolsas-globais-1653",
     "title": "Diadema Romanov: O Tesouro Imperial de 1,5 Milhão de Libras que Desafia a Volatilidade das Bolsas Globais",

@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-alfa-romeo-tipo-33-stradale-o-mo-1456",
+    "slug": "alfa-romeo-tipo-33-stradale-o-monstro-v8-central-de-20-litros-forjado-em-aluminio-espacial-que-compartilha-a-alma-secreta-com-maranello-1443",
+    "title": "Alfa Romeo Tipo 33 Stradale: O Monstro V8 Central de 2.0 Litros Forjado em Alumínio Espacial que Compartilha a Alma Secreta com Maranello",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "29 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=max&q=85&w=1800",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "Em um ecossistema dominado por telas táteis, o Alfa Romeo Tipo 33 Stradale permanece como o ápice inalcançável da combustão pura, unindo a engenharia de pista à brutalidade visceral de um chassi tubular em alumínio.",
+    "contentParagraphs": [
+      "O silêncio do asfalto cede lugar ao corte seco de um V8 aspirado a 8.800 RPM. A 18 milímetros do solo, a estrutura tubular em aço e alumínio pulsa. Este não é um mero automóvel de exposição. É a transposição direta da mecânica de competição para as ruas, concebida sob rigorosas tolerâncias de mícrons que desafiam a física mecânica da época.",
+      "Sob o capô traseiro em fibra de vidro e alumínio martelado à mão, respira um motor V8 de 2.0 litros derivado diretamente do programa de competição da marca. Os pistões forjados trabalham sob alta compressão. O fluxo de Venturi esculpido no assoalho gera downforce sem apelar para aerodinâmica ativa. O sistema de escape em aço inoxidável dissipa o calor enquanto ecoa uma sinfonia metálica estridente.",
+      "Apenas dezoito chassis completos deixaram o ateliê de Autodelta. Cada unidade exige inspeção estrutural minuciosa para preservar a integridade do monocoque original. Colecionadores globais disputam estas relíquias em leilões fechados, onde a liquidez é irrelevante diante da raridade matemática do exemplar.",
+      "Nenhum algoritmo substitui a conexão mecânica direta de uma caixa manual de seis marchas acoplada a um motor sem filtros eletrônicos. Gabriel Fontes assina este veredito: a pureza cinética do Tipo 33 Stradale jamais será replicada na era digital."
+    ],
+    "content_paragraphs": [
+      "O silêncio do asfalto cede lugar ao corte seco de um V8 aspirado a 8.800 RPM. A 18 milímetros do solo, a estrutura tubular em aço e alumínio pulsa. Este não é um mero automóvel de exposição. É a transposição direta da mecânica de competição para as ruas, concebida sob rigorosas tolerâncias de mícrons que desafiam a física mecânica da época.",
+      "Sob o capô traseiro em fibra de vidro e alumínio martelado à mão, respira um motor V8 de 2.0 litros derivado diretamente do programa de competição da marca. Os pistões forjados trabalham sob alta compressão. O fluxo de Venturi esculpido no assoalho gera downforce sem apelar para aerodinâmica ativa. O sistema de escape em aço inoxidável dissipa o calor enquanto ecoa uma sinfonia metálica estridente.",
+      "Apenas dezoito chassis completos deixaram o ateliê de Autodelta. Cada unidade exige inspeção estrutural minuciosa para preservar a integridade do monocoque original. Colecionadores globais disputam estas relíquias em leilões fechados, onde a liquidez é irrelevante diante da raridade matemática do exemplar.",
+      "Nenhum algoritmo substitui a conexão mecânica direta de uma caixa manual de seis marchas acoplada a um motor sem filtros eletrônicos. Gabriel Fontes assina este veredito: a pureza cinética do Tipo 33 Stradale jamais será replicada na era digital."
+    ],
+    "specs": {
+      "motor": "V8 2.0L Aspirado Natural",
+      "potencia": "230 cv a 8.800 RPM",
+      "chassi": "Tubular em aço com estrutura de alumínio e magnésio",
+      "producao": "18 unidades homologadas",
+      "transmissao": "Manual sincronizada Valverde de 6 marchas",
+      "peso": "700 kg"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 92,
+    "ranking_score": 92,
+    "publishedAt": "2026-10-29T22:45:11.456Z",
+    "published_at": "2026-10-29T22:45:11.456Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPel9oaVZtdjk1NkpzanljMkhrRFZPVWVWUktZZWNYam15V0tlZU1RZ2dVanppUEZ6Z3J1X3dTNWt2WmtlZUdLeV8tWkhVU0I1RzJlYTNGdk5GRHgzenRGWFpWQlhNVGhKRDMwMXYzcFcyODFxenQza2ZpcGZfM1RPZzd4d2t2R2lDMVpuVDZDaWc5RmNZYkFJ?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPel9oaVZtdjk1NkpzanljMkhrRFZPVWVWUktZZWNYam15V0tlZU1RZ2dVanppUEZ6Z3J1X3dTNWt2WmtlZUdLeV8tWkhVU0I1RzJlYTNGdk5GRHgzenRGWFpWQlhNVGhKRDMwMXYzcFcyODFxenQza2ZpcGZfM1RPZzd4d2t2R2lDMVpuVDZDaWc5RmNZYkFJ?oc=5"
+  },
+  {
     "id": "art-diadema-romanov-o-tesouro-imperi-1670",
     "slug": "diadema-romanov-o-tesouro-imperial-de-15-milhao-de-libras-que-desafia-a-volatilidade-das-bolsas-globais-1653",
     "title": "Diadema Romanov: O Tesouro Imperial de 1,5 Milhão de Libras que Desafia a Volatilidade das Bolsas Globais",
@@ -153,10 +205,10 @@ export const ARTICLES = [
       "custodia": "Certificado de proveniência fiduciária"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 92,
@@ -1334,53 +1386,17 @@ export const ARTICLES = [
     "ranking_score": 96,
     "publishedAt": "2026-10-25T20:33:25.824Z",
     "published_at": "2026-10-25T20:33:25.824Z"
-  },
-  {
-    "id": "art-koenigsegg-jesko-absolut-o-monst-1000",
-    "slug": "koenigsegg-jesko-absolut-o-monstro-aerodinamico-de-1600-cv-que-esmagou-o-marco-0-400-0-kmh-em-2783-segundos-com-tolerancias-de-microns",
-    "title": "Koenigsegg Jesko Absolut: O Monstro Aerodinâmico de 1.600 cv que Esmagou o Marco 0-400-0 km/h em 27,83 Segundos com Tolerâncias de Mícrons",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
-    "excerpt": "A soberania patrimonial não tolera ruídos efêmeros; exige a brutalidade mecânica contida de um motor V8 biturbo esculpido para redefinir a física da velocidade absoluta em cofres de liquidez inegociável.",
-    "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&q=80&w=1400",
-    "authorSlug": "gabriel-fontes",
-    "date": "25 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "isHero": false,
-    "isHeroSecondary": false,
-    "rankingScore": 86,
-    "specs": {
-      "motorizacao": "Koenigsegg V8 5.0L Biturbo (1.600 cv em E85)",
-      "transmissao": "Koenigsegg LST de 9 marchas com 7 embreagens",
-      "coeficiente": "Cx 0.278 de penetração aerodinâmica com aletas traseiras estabilizadoras",
-      "recorde_homologado": "0-400-0 km/h em 27,83 segundos em pista militar na Suécia",
-      "motor": "V8 biturbo de 5,0 litros com virabrequim plano a 180 graus",
-      "potencia": "1.600 cv com combustível E85",
-      "aerodinamica": "Coeficiente de arrasto (Cx) de 0,278",
-      "feito_historico": "0-400-0 km/h em 27,83 segundos",
-      "custodia": "Alocação restrita para colecionadores selecionados via governança dinástica"
-    },
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Enquanto fundos especulativos apostam em algoritmos voláteis, a verdadeira aristocracia industrial consolida sua imunidade temporal através de ativos cinéticos com tiragem estritamente limitada. A engenharia sueca de Ängelholm não produz meros veículos; manufatura refúgios de liquidez lastreados em titânio e fibra de carbono curada em autoclave. Cada Jesko Absolut opera como um cofre blindado sobre rodas, onde a escassez matemática garante a valorização perpétua longe dos humores das bolsas globais.",
-      "Sob a cobertura de monocoque em carbo-titânio, respira um motor V8 biturbo de 5,0 litros calibrado para entregar 1.600 cavalos de potência quando alimentado por E85. A transmissão Light Speed Transmission prescinde de volantes de inércia convencionais, utilizando nove marchas e sete embreagens molhadas para eliminar qualquer intervalo na entrega de torque. O coeficiente de arrasto aerodinâmico de apenas 0,278 Cx permite uma penetração cirúrgica na atmosfera, desafiando limites que antes pertenciam exclusivamente à aviação militar de alta performance.",
-      "A marca histórica de zero a quatrocentos e novamente a zero quilômetros por hora em exatos 27,83 segundos não representa um mero recorde de cronômetro. Trata-se de uma demonstração cabal de soberania mecânica que reescreve os manuais de aerodinâmica global. A força G lateral e a desaceleração brutal imposta pelos freios de cerâmica de carbono exigem tolerâncias de mícrons que fariam qualquer linha de montagem convencional entrar em colapso estrutural imediato.",
-      "No tabuleiro dos grandes leilões internacionais fechados, exemplares com esta densidade técnica não sofrem depreciação; convertem-se em moedas de troca soberanas entre family offices. Adquirir um Jesko Absolut é assinar um contrato irrevogável com a eternidade material. Aqui reside o verdadeiro luxo contemporâneo: a posse incontestável de um artefato raro que zomba do tempo e das modas efêmeras da modernidade líquida."
-    ],
-    "is_hero": false,
-    "is_hero_secondary": false
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'ARQUITETURA',
-    title: 'Diadema Romanov: O Tesouro Imperial de...',
-    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400',
+    category: 'SUPERCARROS',
+    title: 'Alfa Romeo Tipo 33 Stradale: O Monstro...',
+    image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=max&q=85&w=1800',
     tag: 'DESTAQUE MUNDIAL',
-    slug: 'diadema-romanov-o-tesouro-imperial-de-15-milhao-de-libras-que-desafia-a-volatilidade-das-bolsas-globais-1653'
+    slug: 'alfa-romeo-tipo-33-stradale-o-monstro-v8-central-de-20-litros-forjado-em-aluminio-espacial-que-compartilha-a-alma-secreta-com-maranello-1443'
   },
   {
     id: 'film-2',
@@ -1423,6 +1439,7 @@ export const FILMSTRIP_ITEMS = [
     slug: 'o-relatorio-reservado-de-family-offices-por-que-as-dinastias-globais-estao-trocando-ativos-digitais-por-ouro-fisico-em-bunkers-suicos'
   }
 ];
+
 
 
 
