@@ -174,7 +174,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "available"
+    "status": "duplicate"
   },
   {
     "id": "pauta-live-destinos-mvtqzlez-qwzh",
@@ -513,7 +513,7 @@ export const INITIAL_HOT_PAUTAS = [
       "fonte": "Global Family Office Wealth Benchmark"
     },
     "suggestedImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1400",
-    "status": "available"
+    "status": "duplicate"
   },
   {
     "id": "pauta-boat-1",
@@ -538,7 +538,7 @@ export const INITIAL_HOT_PAUTAS = [
       "diferencial": "Spa balinês completo e câmara de crioterapia a -110°C"
     },
     "suggestedImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=1400",
-    "status": "available"
+    "status": "duplicate"
   },
   {
     "id": "pauta-boat-2",
@@ -563,7 +563,7 @@ export const INITIAL_HOT_PAUTAS = [
       "autonomia": "5.500 milhas náuticas a 12 nós"
     },
     "suggestedImage": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&q=80&w=1400",
-    "status": "available"
+    "status": "duplicate"
   }
 ];
 
