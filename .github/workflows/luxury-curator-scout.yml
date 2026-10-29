@@ -42,6 +42,7 @@ jobs:
           git config --global user.email "curator@radardoluxo.com.br"
           git add src/data/hotFeedsData.js
           if ! git diff --cached --quiet; then
-            git commit -m "chore(curation): scout global luxury feeds [skip ci]"
+            git commit -m "chore(curation): scout global luxury feeds"
+            git pull --rebase --autostash origin main
             git push
           fi

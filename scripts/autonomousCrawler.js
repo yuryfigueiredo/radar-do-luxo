@@ -5,16 +5,27 @@
  * Executa sob demanda via comando CLI ou agendamento cron (GitHub Actions):
  *   npm run publish:now   OU   npm run crawl
  *
- * 1. Consome exclusivamente o acervo curado (INITIAL_HOT_PAUTAS), produzido
- *    pelo workflow de Scout antes deste ciclo.
- * 2. Avalia TODAS as pautas não publicadas e calcula a NOTA GERAL (rankingScore).
- * 3. Seleciona estritamente a pauta de MAIOR NOTA GERAL.
- * 4. Redige o ensaio com a persona oficial correspondente (Henrique, Gabriel, Clara)
- *    aplicando engenharia anti-detecção, burstiness e ficha técnica.
- * 5. Avalia Gravidade da Capa (decadência temporal de meia-vida de 24h):
- *    Se o score superar o peso da capa atual, é promovida a CAPA PRINCIPAL (Hero 👑).
- * 6. Grava no Supabase (se configurado) E no acervo oficial (mockData.js / localStorage),
- *    deixando a matéria instantaneamente disponível no site tanto em dev quanto em prod.
+ * 1. Consome o acervo curado (INITIAL_HOT_PAUTAS) produzido pelo Scout.
+ * 2. Monta um POOL de candidatas inéditas, com memória editorial permanente
+ *    (publishedArchive.js) + acervo local + Supabase, e deduplicação semântica.
+ * 3. Tenta primeiro a fila de regeneração (limitada), depois até N candidatas
+ *    frescas, publicando a primeira que passar em todas as auditorias.
+ * 4. Marca a pauta como published/duplicate/expired no hotFeedsData.js, para
+ *    que o mesmo item bloqueado não seja reavaliado para sempre.
+ * 5. Grava no Supabase (se configurado) e no acervo local (mockData.js),
+ *    com bumper de versão para atualização imediata do navegador.
+ *
+ * MODOS DE OPERAÇÃO:
+ *   node scripts/autonomousCrawler.js --dry-run   → apenas diagnóstico, não
+ *   chama Gemini e não grava arquivos.
+ *
+ * VARIÁVEIS DE AMBIENTE (opcionais):
+ *   MAX_ARTICLES=25                  itens mantidos em mockData.js
+ *   MAX_CANDIDATES=4                 candidatas frescas avaliadas por ciclo
+ *   MAX_QUEUE_ITEMS=2                itens da fila de retry tentados por ciclo
+ *   MAX_RETRY_ATTEMPTS=3             tentativas antes de descartar item da fila
+ *   PAUTA_MAX_AGE_HOURS=24           validade de pautas ao vivo (pauta-live-*)
+ *   MIN_PUBLICATION_INTERVAL_HOURS=0 intervalo mínimo entre publicações
  * ==============================================================================
  */
 
@@ -22,15 +33,23 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { createClient } from '@supabase/supabase-js';
-import { generateLuxuryArticle } from '../src/services/aiArticleGenerator.js';
+import { generateLuxuryArticle, HOMOLOGATED_IMAGES } from '../src/services/aiArticleGenerator.js';
+import { FALLBACK_CATEGORY_IMAGES } from '../src/services/rssCuratorService.js';
 import { INITIAL_HOT_PAUTAS } from '../src/data/hotFeedsData.js';
+import { PUBLISHED_ARCHIVE } from '../src/data/publishedArchive.js';
 import { calculateEditorialScore, calculateCapaWeight } from '../src/services/rankingEngine.js';
-import { ARTICLES, FILMSTRIP_ITEMS } from '../src/data/mockData.js';
+import { ARTICLES } from '../src/data/mockData.js';
+import { getPhotoId, sameStory, storyKey, slugify } from '../src/services/editorialDedupe.js';
+import { findNegativeTerm } from '../src/services/editorialFilters.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
 const retryQueuePath = path.join(rootDir, 'src', 'data', 'editorialRetryQueue.js');
+const hotPautasPath = path.join(rootDir, 'src', 'data', 'hotFeedsData.js');
+const archivePath = path.join(rootDir, 'src', 'data', 'publishedArchive.js');
+const mockDataPath = path.join(rootDir, 'src', 'data', 'mockData.js');
+const radarServicePath = path.join(rootDir, 'src', 'services', 'radarService.js');
 
 // Carrega .env manualmente se necessário
 const envPath = path.join(rootDir, '.env');
@@ -86,39 +105,108 @@ const SUPABASE_KEY = (
   ''
 ).trim();
 
+// -----------------------------------------------------------------------------
+// Parâmetros de operação
+// -----------------------------------------------------------------------------
+function envNumber(name, fallback) {
+  const parsed = Number(process.env[name]);
+  return Number.isFinite(parsed) ? parsed : fallback;
+}
+
+const DRY_RUN = process.env.DRY_RUN === '1' || process.argv.includes('--dry-run');
+const MAX_ARTICLES = envNumber('MAX_ARTICLES', 25);
+const MAX_CANDIDATES = Math.max(1, envNumber('MAX_CANDIDATES', 4));
+const MAX_QUEUE_ITEMS = Math.max(0, envNumber('MAX_QUEUE_ITEMS', 2));
+const MAX_RETRY_ATTEMPTS = Math.max(1, envNumber('MAX_RETRY_ATTEMPTS', 3));
+const PAUTA_MAX_AGE_HOURS = Math.max(1, envNumber('PAUTA_MAX_AGE_HOURS', 24));
+const MIN_PUBLICATION_INTERVAL_HOURS = Math.max(0, envNumber('MIN_PUBLICATION_INTERVAL_HOURS', 0));
+
+// Imagens de banco (genéricas) não identificam uma história: nunca bloqueiam publicação.
+const GENERIC_PHOTO_IDS = new Set();
+[FALLBACK_CATEGORY_IMAGES, HOMOLOGATED_IMAGES].forEach(source => {
+  Object.values(source || {}).forEach(gallery => {
+    (gallery || []).forEach(url => {
+      const id = getPhotoId(url);
+      if (id) GENERIC_PHOTO_IDS.add(id);
+    });
+  });
+});
+
 console.log('💎 ==============================================================================');
 console.log('💎 RADAR DO LUXO — PUBLICADOR AUTÔNOMO DE ALTA PERFORMANCE EDITORIAL');
 console.log('💎 ==============================================================================');
 console.log('⏰ Horário UTC:', new Date().toISOString());
 console.log('📡 Supabase:', SUPABASE_URL ? `Ativo (${SUPABASE_URL.substring(0, 24)}...)` : 'Modo Local Primário (mockData.js)');
 console.log('🤖 Motor de Redação:', GEMINI_API_KEY ? 'Google Gemini Flash Ativo' : 'Sintetizador Semântico Homologado');
+if (DRY_RUN) {
+  console.log('🧪 MODO DRY-RUN: nenhuma chamada ao Gemini e nenhuma gravação em disco.');
+}
+console.log(`⚙️  Parâmetros: MAX_ARTICLES=${MAX_ARTICLES} · MAX_CANDIDATES=${MAX_CANDIDATES} · MAX_QUEUE_ITEMS=${MAX_QUEUE_ITEMS} · PAUTA_MAX_AGE_HOURS=${PAUTA_MAX_AGE_HOURS} · MIN_INTERVAL_HOURS=${MIN_PUBLICATION_INTERVAL_HOURS}`);
 
-/**
- * 1. Coleta metadados de artigos já publicados para evitar rigorosamente qualquer duplicidade
- */
-function getPhotoId(url) {
-  if (!url) return '';
-  const m = url.match(/photo-[a-z0-9\-]+/i);
-  return m ? m[0] : '';
+// -----------------------------------------------------------------------------
+// Utilidades
+// -----------------------------------------------------------------------------
+function parseDateMs(value) {
+  if (!value) return 0;
+  if (value instanceof Date) return value.getTime();
+  const parsed = Date.parse(value);
+  return Number.isFinite(parsed) ? parsed : 0;
 }
 
-function keywordsMatch(text1, text2) {
-  if (!text1 || !text2) return false;
-  const words1 = text1.toLowerCase().replace(/[^a-z0-9áéíóúãõâêîôûç]/g, ' ').split(/\s+/).filter(w => w.length >= 5);
-  const words2 = text2.toLowerCase().replace(/[^a-z0-9áéíóúãõâêîôûç]/g, ' ').split(/\s+/).filter(w => w.length >= 5);
-  const common = words1.filter(w => words2.includes(w));
-  return common.length >= 3;
+function getPautaKey(pauta) {
+  return (pauta && (pauta.pautaId || pauta.id)) || null;
 }
 
+function isLivePauta(pauta) {
+  return Boolean(pauta && String(pauta.id || '').startsWith('pauta-live-'));
+}
+
+function isPautaExpired(pauta) {
+  if (!isLivePauta(pauta)) return false;
+  const created = parseDateMs(pauta.createdAt);
+  if (!created) return false; // sem data confiável, não expira por engano
+  const maxAgeHours = Number(pauta.validityHours) > 0 ? Number(pauta.validityHours) : PAUTA_MAX_AGE_HOURS;
+  return (Date.now() - created) / 3_600_000 > maxAgeHours;
+}
+
+function tierFor(score) {
+  if (score >= 94) return 'S+';
+  if (score >= 88) return 'A';
+  return 'B';
+}
+
+function promptForCandidate(candidate) {
+  return `${candidate.hook}\n\nContexto: ${candidate.summary || ''}\nFonte: ${candidate.sourceUrl || ''}`;
+}
+
+function announceNoPublication(reason) {
+  const message = `Nenhuma matéria publicada neste ciclo: ${reason}`;
+  console.log(`::warning::${message}`);
+  console.log(`ℹ️ ${message}`);
+}
+
+// -----------------------------------------------------------------------------
+// Fila de regeneração
+// -----------------------------------------------------------------------------
 function readRetryQueue() {
   if (!fs.existsSync(retryQueuePath)) return [];
   const content = fs.readFileSync(retryQueuePath, 'utf8');
   const match = content.match(/export const EDITORIAL_RETRY_QUEUE = (\[[\s\S]*\]);/);
-  if (!match) throw new Error('Fila de reprocessamento editorial inválida.');
-  return JSON.parse(match[1]);
+  if (!match) {
+    console.warn('⚠️ [Retry Queue] Arquivo sem marcador reconhecível; assumindo fila vazia.');
+    return [];
+  }
+  try {
+    const parsed = JSON.parse(match[1]);
+    return Array.isArray(parsed) ? parsed.map(item => ({ ...item, pautaId: item.pautaId || item.id || null })) : [];
+  } catch (err) {
+    console.warn(`⚠️ [Retry Queue] JSON inválido (${err.message}); assumindo fila vazia.`);
+    return [];
+  }
 }
 
 function writeRetryQueue(queue) {
+  if (DRY_RUN) return;
   fs.writeFileSync(
     retryQueuePath,
     `export const EDITORIAL_RETRY_QUEUE = ${JSON.stringify(queue, null, 2)};\n`,
@@ -126,393 +214,582 @@ function writeRetryQueue(queue) {
   );
 }
 
-function enqueueForRegeneration(pauta, promptInput) {
+function candidateFromQueueItem(item) {
+  const promptInput = item.promptInput || '';
+  const hook = item.hook || promptInput.split('\n')[0] || 'Pauta em regeneração';
+  return {
+    sourceType: 'Retry Queue',
+    key: item.pautaId || null,
+    hook,
+    category: item.category || 'Supercarros',
+    categorySlug: item.categorySlug || 'supercarros',
+    authorSlug: item.authorSlug || 'henrique-vianna',
+    summary: item.summary || '',
+    image: item.image || '',
+    specs: item.specs || {},
+    sourceUrl: item.sourceUrl || '',
+    score: Number(item.score) || 90,
+    tier: tierFor(Number(item.score) || 90),
+    promptInput,
+    attempts: Number(item.attempts) || 1,
+    pauta: null
+  };
+}
+
+function enqueueForRegeneration(candidate, promptInput) {
+  if (DRY_RUN) return;
+  const key = candidate.key;
+  if (!key) {
+    console.warn('⚠️ [Retry Queue] Candidata sem identificador; não será enfileirada.');
+    return;
+  }
+
   const queue = readRetryQueue();
-  if (!queue.some(item => item.pautaId === pauta.id)) {
-    queue.push({
-      pautaId: pauta.id,
-      promptInput,
-      authorSlug: pauta.authorSlug,
-      category: pauta.category,
-      categorySlug: pauta.categorySlug,
-      sourceUrl: pauta.sourceUrl,
-      image: pauta.image,
-      queuedAt: new Date().toISOString(),
-      attempts: 1
-    });
-    writeRetryQueue(queue);
+  const index = queue.findIndex(item => (item.pautaId || item.id) === key);
+  const record = {
+    pautaId: key,
+    promptInput,
+    hook: candidate.hook,
+    summary: candidate.summary,
+    score: candidate.score,
+    authorSlug: candidate.authorSlug,
+    category: candidate.category,
+    categorySlug: candidate.categorySlug,
+    sourceUrl: candidate.sourceUrl,
+    image: candidate.image,
+    specs: candidate.specs || {},
+    lastAttemptAt: new Date().toISOString()
+  };
+
+  if (index >= 0) {
+    queue[index] = {
+      ...queue[index],
+      ...record,
+      attempts: (Number(queue[index].attempts) || 1) + 1
+    };
+  } else {
+    queue.push({ ...record, queuedAt: new Date().toISOString(), attempts: 1 });
+  }
+  writeRetryQueue(queue);
+  console.log(`🗂️  [Retry Queue] Pauta "${candidate.hook.slice(0, 50)}..." enfileirada para regeneração.`);
+}
+
+function registerQueueFailure(queueItem) {
+  if (!queueItem) return;
+  const queue = readRetryQueue();
+  const key = queueItem.pautaId || queueItem.id;
+  if (!key) return;
+  const index = queue.findIndex(item => (item.pautaId || item.id) === key);
+  if (index === -1) return;
+
+  const attempts = (Number(queue[index].attempts) || 1) + 1;
+  if (attempts >= MAX_RETRY_ATTEMPTS) {
+    queue.splice(index, 1);
+    console.warn(`⚠️ [Retry Queue] Pauta ${key} descartada após ${attempts} tentativas sem IA.`);
+  } else {
+    queue[index].attempts = attempts;
+    queue[index].lastAttemptAt = new Date().toISOString();
+    console.warn(`⚠️ [Retry Queue] Nova falha na pauta ${key} (tentativa ${attempts}/${MAX_RETRY_ATTEMPTS}).`);
+  }
+  writeRetryQueue(queue);
+}
+
+function removeFromRetryQueue(key) {
+  if (!key) return;
+  const queue = readRetryQueue();
+  const filtered = queue.filter(item => (item.pautaId || item.id) !== key);
+  if (filtered.length !== queue.length) {
+    writeRetryQueue(filtered);
+    console.log('✅ [Retry Queue] Item removido da fila.');
   }
 }
 
+// -----------------------------------------------------------------------------
+// Memória editorial (arquivo permanente + acervo local + Supabase)
+// -----------------------------------------------------------------------------
 async function getExistingArticlesMetadata(supabaseClient) {
-  const existingSlugs = new Set();
-  const existingTitles = [];
-  const existingPhotoIds = new Set();
-  const existingSourceUrls = new Set();
-  const recentCategories = [];
+  const records = [];
+  const seenSlugs = new Set();
 
-  // Da base local mockData.js
-  ARTICLES.forEach((a, idx) => {
-    if (a.slug) existingSlugs.add(a.slug.toLowerCase().trim());
-    if (a.title) existingTitles.push(a.title.toLowerCase().trim());
-    const pid = getPhotoId(a.image);
-    if (pid) existingPhotoIds.add(pid);
-    if (a.sourceUrl) existingSourceUrls.add(a.sourceUrl.trim());
-    if (idx < 5 && a.categorySlug) recentCategories.push(a.categorySlug);
-  });
+  const addRecord = record => {
+    const slug = String(record.slug || '').toLowerCase().trim();
+    if (slug) {
+      if (seenSlugs.has(slug)) return;
+      seenSlugs.add(slug);
+    }
+    records.push({
+      slug,
+      title: String(record.title || '').trim(),
+      image: record.image || '',
+      sourceUrl: String(record.sourceUrl || '').trim(),
+      categorySlug: record.categorySlug || '',
+      publishedAt: parseDateMs(record.publishedAt)
+    });
+  };
 
-  // Do Supabase (se disponível)
   if (supabaseClient) {
     try {
-      const { data, error } = await supabaseClient.from('articles').select('slug, title, image, category_slug').limit(200);
+      const { data, error } = await supabaseClient
+        .from('articles')
+        .select('slug, title, image, category_slug, published_at')
+        .order('published_at', { ascending: false })
+        .limit(500);
       if (error) throw error;
-      if (data) {
-        data.forEach((a, idx) => {
-          if (a.slug) existingSlugs.add(a.slug.toLowerCase().trim());
-          if (a.title) existingTitles.push(a.title.toLowerCase().trim());
-          const pid = getPhotoId(a.image);
-          if (pid) existingPhotoIds.add(pid);
-          if (idx < 5 && a.category_slug) recentCategories.push(a.category_slug);
-        });
-      }
-    } catch (e) {
-      // Ignora erro de rede
+      (data || []).forEach(row => addRecord({
+        slug: row.slug,
+        title: row.title,
+        image: row.image,
+        categorySlug: row.category_slug,
+        publishedAt: row.published_at
+      }));
+    } catch (err) {
+      console.warn(`⚠️ [Memória] Supabase indisponível para leitura (${err.message}). Usando arquivo + acervo local.`);
     }
   }
 
-  return { existingSlugs, existingTitles, existingPhotoIds, existingSourceUrls, recentCategories };
+  PUBLISHED_ARCHIVE.forEach(addRecord);
+  ARTICLES.forEach(article => addRecord({
+    ...article,
+    publishedAt: article.publishedAt || article.published_at
+  }));
+
+  records.sort((a, b) => b.publishedAt - a.publishedAt);
+
+  const existingSlugs = new Set(records.map(r => r.slug).filter(Boolean));
+  const existingTitles = records.map(r => r.title).filter(Boolean);
+  const existingSourceUrls = new Set(records.map(r => r.sourceUrl).filter(Boolean));
+  const photoLastUsed = new Map();
+  records.forEach(r => {
+    const id = getPhotoId(r.image);
+    if (id) photoLastUsed.set(id, Math.max(photoLastUsed.get(id) || 0, r.publishedAt || 0));
+  });
+  const usedPhotoIds = new Set(photoLastUsed.keys());
+  const recentCategories = records.filter(r => r.categorySlug).slice(0, 5).map(r => r.categorySlug);
+  const latestPublishedAt = records.reduce((max, r) => Math.max(max, r.publishedAt), 0);
+
+  console.log(`🧠 [Memória] ${records.length} matérias conhecidas (${PUBLISHED_ARCHIVE.length} no arquivo permanente, ${ARTICLES.length} no acervo local).`);
+  return { existingSlugs, existingTitles, existingSourceUrls, usedPhotoIds, photoLastUsed, recentCategories, latestPublishedAt };
+}
+
+function getDuplicateReason(pauta, meta) {
+  const hook = (pauta.suggestedHook || pauta.originalTitle || '').trim();
+  const original = (pauta.originalTitle || hook).trim();
+  if (!hook) return 'pauta sem título';
+
+  const candidateUrl = (pauta.sourceUrl || '').trim();
+  if (candidateUrl && meta.existingSourceUrls.has(candidateUrl)) {
+    return 'URL de origem já publicada';
+  }
+
+  const candidateSlug = slugify(hook);
+  if (candidateSlug && meta.existingSlugs.has(candidateSlug)) {
+    return `slug já publicado (${candidateSlug})`;
+  }
+
+  const titleHit = meta.existingTitles.find(title => sameStory(hook, title) || sameStory(original, title));
+  if (titleHit) {
+    return `tema já publicado ("${titleHit.slice(0, 60)}...")`;
+  }
+
+  return null;
 }
 
 /**
- * 2. Seleciona rigorosamente a pauta com a MAIOR NOTA GERAL e DIVERSIDADE EDITORIAL
+ * Monta o pool de candidatas frescas, com deduplicação semântica e diversidade.
  */
-async function selectHighestScoringPauta(supabaseClient) {
-  const meta = await getExistingArticlesMetadata(supabaseClient);
+function buildCandidatePool(meta) {
   const candidates = [];
+  const duplicateKeys = [];
+  const expiredKeys = [];
+  const rejectedKeys = [];
+  const internalStories = [];
 
-  // Coleta pautas do acervo curado INITIAL_HOT_PAUTAS
-  console.log('📚 [Scout] Analisando pautas curadas de alto prestígio...');
+  console.log('\n📚 [Pool] Analisando pautas curadas de alto prestígio...');
+
   for (const pauta of INITIAL_HOT_PAUTAS) {
-    if (pauta.status && pauta.status !== 'available') {
+    if (!pauta || !pauta.id) continue;
+    if (pauta.status && pauta.status !== 'available') continue;
+
+    if (isPautaExpired(pauta)) {
+      expiredKeys.push(pauta.id);
       continue;
     }
-    const hookKey = (pauta.suggestedHook || '').toLowerCase().trim();
-    const origKey = (pauta.originalTitle || '').toLowerCase().trim();
-    const photoId = getPhotoId(pauta.suggestedImage);
 
-    const hasExact = meta.existingSlugs.has(hookKey) || meta.existingSlugs.has(origKey);
-    const hasPhoto = photoId && meta.existingPhotoIds.has(photoId);
-    const hasTopic = meta.existingTitles.some(t => keywordsMatch(hookKey, t) || keywordsMatch(origKey, t));
-    const hasUrl = pauta.sourceUrl && meta.existingSourceUrls.has(pauta.sourceUrl.trim());
-
-    const isAlreadyPublished = hasExact || hasPhoto || hasTopic || hasUrl;
-
-    if (!isAlreadyPublished) {
-      let score = pauta.rankingScore || calculateEditorialScore({
-        title: pauta.suggestedHook || pauta.originalTitle,
-        specs: pauta.specsPreview || {},
-        summary: pauta.summary
-      }).totalScore;
-
-      // Bônus de diversidade: Se a categoria não foi publicada recentemente, valoriza a alternância
-      if (!meta.recentCategories.slice(0, 2).includes(pauta.categorySlug)) {
-        score += 3;
-      }
-
-      candidates.push({
-        sourceType: 'Curated Hot Feed',
-        sourceName: pauta.source || 'Alta Curadoria',
-        hook: pauta.suggestedHook || pauta.originalTitle,
-        category: pauta.category,
-        categorySlug: pauta.categorySlug,
-        authorSlug: pauta.authorSlug,
-        summary: pauta.summary,
-        image: pauta.suggestedImage,
-        specs: pauta.specsPreview || {},
-        sourceUrl: pauta.sourceUrl,
-        score: score,
-        tier: score >= 94 ? 'S+' : (score >= 88 ? 'A' : 'B')
-      });
+    const hook = (pauta.suggestedHook || pauta.originalTitle || '').trim();
+    if (!hook) {
+      duplicateKeys.push(pauta.id);
+      continue;
     }
+
+    // Defesa em profundidade: o Publicador repete o crivo negativo do Scout.
+    // Se o Scout falhar ou o acervo tiver resíduos antigos, nada impróprio passa.
+    const negativeHit = findNegativeTerm(`${hook} ${pauta.originalTitle || ''}`);
+    if (negativeHit) {
+      console.log(`🚫 [Pool] Descartada por termo negativo ("${negativeHit}"): ${hook.slice(0, 70)}...`);
+      rejectedKeys.push(pauta.id);
+      continue;
+    }
+
+    const duplicateReason = getDuplicateReason(pauta, meta);
+    if (duplicateReason) {
+      duplicateKeys.push(pauta.id);
+      continue;
+    }
+
+    const story = storyKey(hook) || hook.toLowerCase();
+    if (internalStories.some(existing => sameStory(existing, hook) || storyKey(existing) === story)) {
+      duplicateKeys.push(pauta.id);
+      continue;
+    }
+    internalStories.push(hook);
+
+    const baseScore = Number(pauta.rankingScore) || calculateEditorialScore({
+      title: hook,
+      specs: pauta.specsPreview || {},
+      summary: pauta.summary
+    }).totalScore;
+
+    // Diversidade: valoriza categoria que não ocupou as duas últimas publicações
+    const score = baseScore + (meta.recentCategories.slice(0, 2).includes(pauta.categorySlug) ? 0 : 3);
+
+    candidates.push({
+      sourceType: 'Curated Hot Feed',
+      key: pauta.id,
+      hook,
+      category: pauta.category || 'Supercarros',
+      categorySlug: pauta.categorySlug || 'supercarros',
+      authorSlug: pauta.authorSlug || 'henrique-vianna',
+      summary: pauta.summary || '',
+      image: pauta.suggestedImage || '',
+      specs: pauta.specsPreview || {},
+      sourceUrl: pauta.sourceUrl || '',
+      score,
+      tier: tierFor(score),
+      promptInput: '',
+      attempts: 0,
+      pauta
+    });
   }
 
-  if (candidates.length === 0) {
-    console.log('ℹ️ Nenhuma pauta inédita disponível neste ciclo.');
-    return null;
+  candidates.sort((a, b) => b.score - a.score);
+
+  console.log(`📊 [Pool] ${candidates.length} elegíveis · ${duplicateKeys.length} bloqueadas por duplicidade · ${rejectedKeys.length} fora do padrão · ${expiredKeys.length} expiradas.`);
+
+  if (candidates.length) {
+    console.log('\n📊 [LEADERBOARD EDITORIAL] Top 4 Pautas Qualificadas no Radar:');
+    candidates.slice(0, 4).forEach((c, idx) => {
+      console.log(`   ${idx + 1}. [Score: ${c.score} pts | Tier ${c.tier}] ${c.hook.slice(0, 55)}... (${c.authorSlug})`);
+    });
   }
 
-  const finalPool = candidates;
-
-  // Ordena rigorosamente do MAIOR SCORE GERAL para o menor
-  finalPool.sort((a, b) => b.score - a.score);
-
-  console.log('\n📊 [LEADERBOARD EDITORIAL] Top 4 Pautas Qualificadas no Radar:');
-  finalPool.slice(0, 4).forEach((c, idx) => {
-    console.log(`   ${idx + 1}. [Score: ${c.score} pts | Tier ${c.tier}] ${c.hook.slice(0, 55)}... (${c.authorSlug})`);
-  });
-
-  const bestCandidate = finalPool[0];
-  console.log(`\n🎯 [ESCOLHA DO MOTOR] Pauta Selecionada com Maior Nota Geral:`);
-  console.log(`   Título: "${bestCandidate.hook}"`);
-  console.log(`   Nota Geral: ${bestCandidate.score} / 100 pts`);
-  console.log(`   Autor Atribuído: ${bestCandidate.authorSlug} | Categoria: ${bestCandidate.category}`);
-
-  return bestCandidate;
+  return { candidates, duplicateKeys, expiredKeys, rejectedKeys };
 }
 
-/**
- * 3. Ciclo Principal de Execução
- */
-async function runPublicationCycle() {
+// -----------------------------------------------------------------------------
+// Auditoria pós-redação
+// -----------------------------------------------------------------------------
+function findPublicationConflict(articleData, candidate, meta) {
+  const title = String(articleData.title || '').trim();
+  if (!title) return 'matéria sem título';
+
+  const url = (candidate.sourceUrl || '').trim();
+  if (url && meta.existingSourceUrls.has(url)) {
+    return 'URL de origem já publicada';
+  }
+
+  const currentHero = ARTICLES.find(a => a.isHero || a.is_hero);
+  if (currentHero && sameStory(title, currentHero.title)) {
+    return `conflito temático com a Capa vigente ("${currentHero.title.slice(0, 60)}...")`;
+  }
+
+  const titleHit = meta.existingTitles.find(existing => sameStory(title, existing));
+  if (titleHit) {
+    return `tema já publicado ("${titleHit.slice(0, 60)}...")`;
+  }
+
+  const candidatePhotoId = getPhotoId(candidate.image || articleData.image);
+  if (candidatePhotoId && !GENERIC_PHOTO_IDS.has(candidatePhotoId) && meta.usedPhotoIds.has(candidatePhotoId)) {
+    return 'imagem de origem já utilizada em outra matéria';
+  }
+
+  return null;
+}
+
+function pickArticleImage(candidate, meta) {
+  const source = String(candidate.image || '').trim();
+  const sourceId = getPhotoId(source);
+  const sourceIsGeneric = sourceId ? GENERIC_PHOTO_IDS.has(sourceId) : false;
+
+  if (source && !sourceIsGeneric && !meta.usedPhotoIds.has(sourceId)) {
+    return source.replace('fit=crop', 'fit=max');
+  }
+
+  const gallery = [...new Set([
+    ...(HOMOLOGATED_IMAGES[candidate.categorySlug] || []),
+    ...(FALLBACK_CATEGORY_IMAGES[candidate.categorySlug] || [])
+  ])];
+  const pool = gallery.length ? gallery : [source].filter(Boolean);
+  if (!pool.length) return source;
+
+  // Escolhe a imagem do banco usada há mais tempo (distribui melhor o acervo)
+  let best = pool[0];
+  let bestUsedAt = Infinity;
+  for (const url of pool) {
+    const id = getPhotoId(url);
+    const usedAt = meta.photoLastUsed.get(id) || 0;
+    if (usedAt < bestUsedAt) {
+      bestUsedAt = usedAt;
+      best = url;
+    }
+  }
+  return best.replace('fit=crop', 'fit=max');
+}
+
+// -----------------------------------------------------------------------------
+// Escrita de estado (pautas e arquivo permanente)
+// -----------------------------------------------------------------------------
+function readHotPautasArray(content) {
+  const start = content.indexOf('export const INITIAL_HOT_PAUTAS = [');
+  if (start === -1) return null;
+  const arrayStart = content.indexOf('[', start);
+  const endMarker = content.indexOf('const LOCAL_STORAGE_HOT_PAUTAS_KEY', start);
+  const end = endMarker === -1 ? content.length : endMarker;
+  const arrayEnd = content.lastIndexOf(']', end);
+  if (arrayStart === -1 || arrayEnd === -1) return null;
+  return {
+    arrayStart,
+    arrayEnd: arrayEnd + 1,
+    list: JSON.parse(content.slice(arrayStart, arrayEnd + 1))
+  };
+}
+
+function flushStatusUpdates(statusUpdates) {
+  if (DRY_RUN || !statusUpdates || statusUpdates.size === 0) return;
+  if (!fs.existsSync(hotPautasPath)) return;
+
+  const content = fs.readFileSync(hotPautasPath, 'utf8');
+  const parsed = readHotPautasArray(content);
+  if (!parsed) {
+    console.warn('⚠️ [hotFeedsData] Marcador INITIAL_HOT_PAUTAS não encontrado; status não gravado.');
+    return;
+  }
+
+  let changed = 0;
+  parsed.list.forEach(pauta => {
+    const nextStatus = statusUpdates.get(pauta.id);
+    if (nextStatus && pauta.status !== nextStatus) {
+      pauta.status = nextStatus;
+      changed += 1;
+    }
+  });
+
+  if (!changed) return;
+  const updated = `${content.slice(0, parsed.arrayStart)}${JSON.stringify(parsed.list, null, 2)}${content.slice(parsed.arrayEnd)}`;
+  fs.writeFileSync(hotPautasPath, updated, 'utf8');
+  console.log(`✅ [hotFeedsData] ${changed} pauta(s) marcada(s) com novo status.`);
+}
+
+function appendToPublishedArchive(article) {
+  if (DRY_RUN) return;
+  const entry = {
+    id: article.id,
+    slug: article.slug,
+    title: article.title,
+    image: article.image,
+    sourceUrl: article.sourceUrl || '',
+    categorySlug: article.categorySlug,
+    authorSlug: article.authorSlug,
+    publishedAt: article.publishedAt
+  };
+
   try {
-    let supabaseClient = null;
-    if (SUPABASE_URL && SUPABASE_KEY) {
-      try {
-        supabaseClient = createClient(SUPABASE_URL, SUPABASE_KEY);
-      } catch (err) {
-        console.warn('⚠️ Falha ao instanciar Supabase:', err.message);
-      }
-    }
-
-    // Atraso orgânico real sem travar a execução no GitHub Actions
-    if (!process.env.CI_TEST_NO_DELAY) {
-      const organicDelaySeconds = process.env.GITHUB_ACTIONS ? 5 : Math.floor(Math.random() * 20) + 5;
-      console.log(`⏱️ Sincronizando pulso editorial com ateliês internacionais (+${organicDelaySeconds}s)...`);
-      await new Promise(r => setTimeout(r, organicDelaySeconds * 1000));
-    }
-
-    // Seleciona a melhor pauta
-    const retryQueue = readRetryQueue();
-    const queuedPauta = retryQueue[0];
-    const pauta = queuedPauta || await selectHighestScoringPauta(supabaseClient);
-    if (!pauta) return null;
-
-    // Redige a matéria com IA e persona
-    console.log('\n🖋️  [Redação] Agente Escritor redigindo matéria com tom aristocrático e anti-detecção...');
-    const promptInput = queuedPauta
-      ? queuedPauta.promptInput
-      : `${pauta.hook}\n\nContexto: ${pauta.summary || ''}\nFonte: ${pauta.sourceUrl || ''}`;
-    const articleData = await generateLuxuryArticle(promptInput, {
-      authorSlug: pauta.authorSlug
-    });
-
-    if (articleData.needsRegeneration || articleData.generationStatus === 'fallback_pending') {
-      enqueueForRegeneration(pauta, promptInput);
-      console.warn('⚠️ Gemini indisponível: matéria mantida na fila para regeneração posterior.');
-      return null;
-    }
-
-    console.log(`✓ Ensaio Concluído: "${articleData.title}"`);
-    console.log(`✓ Autor: ${articleData.authorName} (${articleData.authorSlug})`);
-    
-    // Garante que o score final seja consistente com a pauta e o motor
-    const finalScore = Math.max(Number(articleData.rankingScore) || 94, pauta.score || 94);
-    console.log(`✓ Nota Geral Consolidada: ${finalScore} pts | Badge: ${articleData.badge || 'EDITORIAL VIP'}`);
-
-    const slug = articleData.slug || articleData.title
-      .toLowerCase()
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .replace(/[^\w\s-]/g, '')
-      .replace(/\s+/g, '-');
-
-    // 🛡️ VERIFICAÇÃO EXTRA DE DUPLICIDADE (Site & Capa Atual)
-    console.log('\n🛡️  [Auditoria Extra Anti-Duplicidade] Verificando se já existe matéria similar no site ou na Capa...');
-    const candidatePhotoId = getPhotoId(pauta.image || articleData.image);
-    const candidateTitle = (articleData.title || '').trim().toLowerCase();
-    
-    // 1. Verifica contra a Capa atual
-    let currentHero = ARTICLES.find(a => a.isHero || a.is_hero);
-    if (currentHero) {
-      const heroPhotoId = getPhotoId(currentHero.image);
-      const heroTitle = (currentHero.title || '').trim().toLowerCase();
-      if ((candidatePhotoId && heroPhotoId && candidatePhotoId === heroPhotoId) || keywordsMatch(candidateTitle, heroTitle)) {
-        console.warn(`🛑 [Bloqueio Editorial] Matéria abortada! Conflito temático/visual com a Capa vigente: "${currentHero.title}".`);
-        console.log('🔄 O robô preserva a exclusividade da Capa e não publicará redundâncias.');
-        return;
-      }
-    }
-
-    // 2. Verifica contra todo o acervo do site
-    const conflictArticle = ARTICLES.find(a => {
-      const aPhotoId = getPhotoId(a.image);
-      const aTitle = (a.title || '').trim().toLowerCase();
-      return (candidatePhotoId && aPhotoId && candidatePhotoId === aPhotoId) || keywordsMatch(candidateTitle, aTitle);
-    });
-
-    if (conflictArticle) {
-      console.warn(`🛑 [Bloqueio Editorial] Matéria abortada! Matéria similar já existente no site: "${conflictArticle.title}".`);
-      console.log('🔄 O robô preserva o acervo limpo e não publicará redundâncias.');
+    const content = fs.readFileSync(archivePath, 'utf8');
+    const match = content.match(/export const PUBLISHED_ARCHIVE = (\[[\s\S]*\]);/);
+    if (!match) {
+      console.warn('⚠️ [Arquivo Editorial] Marcador PUBLISHED_ARCHIVE não encontrado; registro não gravado.');
       return;
     }
-    console.log('✅ [Auditoria Aprovada] Nenhuma colisão com o acervo ou com a Capa.');
-
-    // Jitter temporal para parecer orgânico (espalhamento em janela de até 15 minutos)
-    const publishDate = new Date();
-    const randomJitterMinutes = Math.floor(Math.random() * 15) + 1;
-    publishDate.setMinutes(publishDate.getMinutes() - randomJitterMinutes);
-    const publishedAt = publishDate.toISOString();
-    const now = new Date();
-    const formattedDate = now.toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' });
-    const articleId = `art-${slug.slice(0, 32)}-${Date.now().toString().slice(-4)}`;
-
-    // Avaliação de Gravidade da Capa (Capa Weight Decay com Meia-Vida de 24h)
-    let isHero = false;
-    if (supabaseClient) {
-      try {
-        const { data: heroData } = await supabaseClient
-          .from('articles')
-          .select('*')
-          .eq('is_hero', true)
-          .single();
-        if (heroData) currentHero = heroData;
-      } catch (e) {
-        // Fallback para currentHero local
-      }
+    const list = JSON.parse(match[1]);
+    if (!list.some(item => item.slug === entry.slug)) {
+      list.unshift(entry);
+      fs.writeFileSync(archivePath, content.replace(match[0], `export const PUBLISHED_ARCHIVE = ${JSON.stringify(list, null, 2)};`), 'utf8');
+      console.log(`🗄️  [Arquivo Editorial] ${list.length} matérias na memória permanente.`);
     }
+  } catch (err) {
+    console.warn(`⚠️ [Arquivo Editorial] Falha ao registrar publicação: ${err.message}`);
+  }
+}
 
-    if (currentHero) {
-      if (currentHero.is_pinned_hero || currentHero.isPinnedHero) {
-        console.log('📌 A Capa atual está FIXADA MANUALMENTE pelo editor. Nova matéria publicada no Feed Geral.');
-        isHero = false;
-      } else {
-        const capaAnalysis = calculateCapaWeight(currentHero);
-        const currentHeroWeight = Math.round(capaAnalysis.currentWeight);
-        const hoursElapsed = capaAnalysis.hoursElapsed;
-        const heroBaseScore = capaAnalysis.baseScore;
+// -----------------------------------------------------------------------------
+// Publicação
+// -----------------------------------------------------------------------------
+async function publishArticle(articleData, candidate, meta, supabaseClient) {
+  console.log(`✓ Ensaio Concluído: "${articleData.title}"`);
+  console.log(`✓ Autor: ${articleData.authorName || candidate.authorSlug} (${articleData.authorSlug || candidate.authorSlug})`);
 
-        console.log(`\n⚖️  [Julgamento da Capa]:`);
-        console.log(`   Capa Vigente: "${(currentHero.title || '').slice(0, 35)}..."`);
-        console.log(`   Peso Atual da Capa Vigente: ${currentHeroWeight} pts (${hoursElapsed.toFixed(1)}h no ar, Base: ${heroBaseScore} pts)`);
-        console.log(`   Nota da Nova Matéria: ${finalScore} pts`);
+  const finalScore = Math.max(Number(articleData.rankingScore) || 94, candidate.score || 94);
+  console.log(`✓ Nota Geral Consolidada: ${finalScore} pts | Badge: ${articleData.badge || 'EDITORIAL VIP'}`);
 
-        if (finalScore >= 88 && finalScore > currentHeroWeight) {
-          console.log('   👑 VEREDITO: Nova matéria superou a Capa atual! PROMOVIDA A CAPA PRINCIPAL (Hero).');
-          isHero = true;
-        } else {
-          console.log('   📰 VEREDITO: Nova matéria alocada no Feed Geral de Destaques.');
-          isHero = false;
-        }
-      }
-    } else {
-      isHero = finalScore >= 88;
-    }
+  let slug = String(articleData.slug || slugify(articleData.title)).trim().replace(/^-+|-+$/g, '');
+  if (!slug) slug = `artigo-${Date.now()}`;
+  let uniqueSlug = slug;
+  let suffix = 2;
+  while (meta.existingSlugs.has(uniqueSlug) || ARTICLES.some(a => a.slug === uniqueSlug)) {
+    uniqueSlug = `${slug}-${suffix}`;
+    suffix += 1;
+  }
+  slug = uniqueSlug;
 
-    // Monta o objeto completo do artigo compatível com DB e Frontend
-    const newArticle = {
-      id: articleId,
-      slug,
-      title: articleData.title,
-      category: pauta.category || articleData.category,
-      categorySlug: pauta.categorySlug || articleData.categorySlug,
-      category_slug: pauta.categorySlug || articleData.categorySlug,
-      authorSlug: pauta.authorSlug || articleData.authorSlug,
-      author_slug: pauta.authorSlug || articleData.authorSlug,
-      type: 'article',
-      badge: isHero ? 'DESTAQUE MUNDIAL' : (articleData.badge || 'EDITORIAL VIP'),
-      date: formattedDate,
-      readTime: articleData.readTime || '5 min de leitura',
-      read_time: articleData.readTime || '5 min de leitura',
-      image: (pauta.image || articleData.image || '').replace('fit=crop', 'fit=max'),
-      imageFocus: pauta.imageFocus || (pauta.categorySlug === 'supercarros' ? 'bottom' : 'center'),
-      image_focus: pauta.imageFocus || (pauta.categorySlug === 'supercarros' ? 'bottom' : 'center'),
-      excerpt: articleData.excerpt,
-      contentParagraphs: articleData.contentParagraphs,
-      content_paragraphs: articleData.contentParagraphs,
-      specs: articleData.specs || pauta.specs || {},
-      status: 'published',
-      isHero: isHero,
-      is_hero: isHero,
-      isHeroSecondary: false,
-      is_hero_secondary: false,
-      isPinnedHero: false,
-      is_pinned_hero: false,
-      rankingScore: finalScore,
-      ranking_score: finalScore,
-      publishedAt: publishedAt,
-      published_at: publishedAt,
-      sourceUrl: pauta.sourceUrl,
-      source_url: pauta.sourceUrl
-    };
+  // Jitter temporal para parecer orgânico (espalhamento em janela de até 15 minutos)
+  const publishDate = new Date();
+  const randomJitterMinutes = Math.floor(Math.random() * 15) + 1;
+  publishDate.setMinutes(publishDate.getMinutes() - randomJitterMinutes);
+  const publishedAt = publishDate.toISOString();
+  const now = new Date();
+  const formattedDate = now.toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' });
+  const articleId = `art-${slug.slice(0, 32)}-${Date.now().toString().slice(-4)}`;
 
-    // 4. Persistência Dual
-
-    // A. Gravação no Supabase (se disponível)
-    if (supabaseClient) {
-      try {
-        if (isHero) {
-          await supabaseClient
-            .from('articles')
-            .update({ is_hero: false, is_hero_secondary: true })
-            .eq('is_hero', true);
-        }
-        const databaseArticle = {
-          id: newArticle.id,
-          slug: newArticle.slug,
-          title: newArticle.title,
-          category: newArticle.category,
-          category_slug: newArticle.category_slug,
-          author_slug: newArticle.author_slug,
-          type: newArticle.type,
-          badge: newArticle.badge,
-          date: newArticle.date,
-          read_time: newArticle.read_time,
-          image: newArticle.image,
-          excerpt: newArticle.excerpt,
-          content_paragraphs: newArticle.content_paragraphs,
-          specs: newArticle.specs,
-          status: newArticle.status,
-          is_hero: newArticle.is_hero,
-          is_hero_secondary: newArticle.is_hero_secondary,
-          is_pinned_hero: newArticle.is_pinned_hero,
-          ranking_score: newArticle.ranking_score,
-          published_at: newArticle.published_at
-        };
-        const { error } = await supabaseClient
-          .from('articles')
-          .upsert([databaseArticle], { onConflict: 'slug' });
-        if (error) {
-          console.warn('⚠️ Supabase warning:', error.message);
-        } else {
-          console.log(`✅ [Supabase] Artigo persistido no banco de dados na nuvem.`);
-        }
-      } catch (err) {
-        console.warn('⚠️ Supabase não respondeu:', err.message);
-      }
-    }
-
-    // B. Gravação no Acervo Local (src/data/mockData.js)
+  // Avaliação de Gravidade da Capa (meia-vida de 24h)
+  let currentHero = ARTICLES.find(a => a.isHero || a.is_hero) || null;
+  if (supabaseClient) {
     try {
-      const mockDataPath = path.join(rootDir, 'src', 'data', 'mockData.js');
-      const mockContent = fs.readFileSync(mockDataPath, 'utf-8');
-      const articlesStartIdx = mockContent.indexOf('export const ARTICLES = [');
+      const { data: heroData } = await supabaseClient
+        .from('articles')
+        .select('*')
+        .eq('is_hero', true)
+        .maybeSingle();
+      if (heroData) currentHero = heroData;
+    } catch {
+      // Fallback para a capa local
+    }
+  }
 
-      if (articlesStartIdx !== -1) {
-        const beforeArticles = mockContent.slice(0, articlesStartIdx);
+  let isHero = false;
+  if (currentHero) {
+    if (currentHero.is_pinned_hero || currentHero.isPinnedHero) {
+      console.log('📌 A Capa atual está FIXADA MANUALMENTE pelo editor. Nova matéria publicada no Feed Geral.');
+      isHero = false;
+    } else {
+      const capaAnalysis = calculateCapaWeight(currentHero);
+      console.log('\n⚖️  [Julgamento da Capa]:');
+      console.log(`   Capa Vigente: "${(currentHero.title || '').slice(0, 35)}..."`);
+      console.log(`   Peso Atual: ${Math.round(capaAnalysis.currentWeight)} pts (${capaAnalysis.hoursElapsed.toFixed(1)}h no ar, Base: ${capaAnalysis.baseScore} pts)`);
+      console.log(`   Nota da Nova Matéria: ${finalScore} pts`);
+      isHero = finalScore >= 88 && finalScore > capaAnalysis.currentWeight;
+      console.log(`   ${isHero ? '👑 VEREDITO: PROMOVIDA A CAPA PRINCIPAL (Hero).' : '📰 VEREDITO: alocada no Feed Geral de Destaques.'}`);
+    }
+  } else {
+    isHero = finalScore >= 88;
+  }
 
-        // Prepara a lista atualizada de artigos
-        const updatedArticles = [...ARTICLES];
-        if (isHero) {
-          updatedArticles.forEach(a => {
-            if (a.isHero || a.is_hero) {
-              a.isHero = false;
-              a.is_hero = false;
-              a.isHeroSecondary = true;
-              a.is_hero_secondary = true;
-            }
-          });
-        }
-        // Insere a nova matéria no topo
-        updatedArticles.unshift(newArticle);
+  const categorySlug = candidate.categorySlug || articleData.categorySlug || 'supercarros';
 
-        // Limita a 25 artigos para manter performance excelente
-        const trimmedArticles = updatedArticles.slice(0, 25);
+  const newArticle = {
+    id: articleId,
+    slug,
+    title: articleData.title,
+    category: candidate.category || articleData.category,
+    categorySlug,
+    category_slug: categorySlug,
+    authorSlug: candidate.authorSlug || articleData.authorSlug,
+    author_slug: candidate.authorSlug || articleData.authorSlug,
+    type: 'article',
+    badge: isHero ? 'DESTAQUE MUNDIAL' : (articleData.badge || 'EDITORIAL VIP'),
+    date: formattedDate,
+    readTime: articleData.readTime || '5 min de leitura',
+    read_time: articleData.readTime || '5 min de leitura',
+    image: pickArticleImage(candidate, meta),
+    imageFocus: candidate.pauta?.imageFocus || (categorySlug === 'supercarros' ? 'bottom' : 'center'),
+    image_focus: candidate.pauta?.imageFocus || (categorySlug === 'supercarros' ? 'bottom' : 'center'),
+    excerpt: articleData.excerpt,
+    contentParagraphs: articleData.contentParagraphs,
+    content_paragraphs: articleData.contentParagraphs,
+    specs: articleData.specs || candidate.specs || {},
+    status: 'published',
+    isHero,
+    is_hero: isHero,
+    isHeroSecondary: false,
+    is_hero_secondary: false,
+    isPinnedHero: false,
+    is_pinned_hero: false,
+    rankingScore: finalScore,
+    ranking_score: finalScore,
+    publishedAt,
+    published_at: publishedAt,
+    sourceUrl: candidate.sourceUrl,
+    source_url: candidate.sourceUrl
+  };
 
-        // Mantém FILMSTRIP atualizado com a novidade se for relevante
-        const filmstripCode = `\nexport const FILMSTRIP_ITEMS = [
+  // A. Supabase (se configurado)
+  if (supabaseClient) {
+    try {
+      if (isHero) {
+        await supabaseClient
+          .from('articles')
+          .update({ is_hero: false, is_hero_secondary: true })
+          .eq('is_hero', true);
+      }
+      const databaseArticle = {
+        id: newArticle.id,
+        slug: newArticle.slug,
+        title: newArticle.title,
+        category: newArticle.category,
+        category_slug: newArticle.category_slug,
+        author_slug: newArticle.author_slug,
+        type: newArticle.type,
+        badge: newArticle.badge,
+        date: newArticle.date,
+        read_time: newArticle.read_time,
+        image: newArticle.image,
+        excerpt: newArticle.excerpt,
+        content_paragraphs: newArticle.content_paragraphs,
+        specs: newArticle.specs,
+        status: newArticle.status,
+        is_hero: newArticle.is_hero,
+        is_hero_secondary: newArticle.is_hero_secondary,
+        is_pinned_hero: newArticle.is_pinned_hero,
+        ranking_score: newArticle.ranking_score,
+        published_at: newArticle.published_at
+      };
+      const { error } = await supabaseClient
+        .from('articles')
+        .upsert([databaseArticle], { onConflict: 'slug' });
+      if (error) {
+        console.warn('⚠️ Supabase warning:', error.message);
+      } else {
+        console.log('✅ [Supabase] Artigo persistido no banco de dados na nuvem.');
+      }
+    } catch (err) {
+      console.warn('⚠️ Supabase não respondeu:', err.message);
+    }
+  }
+
+  // B. Acervo local (mockData.js) + bumper de versão
+  const mockContent = fs.readFileSync(mockDataPath, 'utf-8');
+  const articlesStartIdx = mockContent.indexOf('export const ARTICLES = [');
+  if (articlesStartIdx === -1) {
+    throw new Error('Marcador ARTICLES não encontrado em mockData.js');
+  }
+
+  const beforeArticles = mockContent.slice(0, articlesStartIdx);
+  const updatedArticles = [...ARTICLES];
+  if (isHero) {
+    updatedArticles.forEach(a => {
+      if (a.isHero || a.is_hero) {
+        a.isHero = false;
+        a.is_hero = false;
+        a.isHeroSecondary = true;
+        a.is_hero_secondary = true;
+      }
+    });
+  }
+  updatedArticles.unshift(newArticle);
+  const trimmedArticles = updatedArticles.slice(0, MAX_ARTICLES);
+
+  const filmstripCode = `\nexport const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: '${(newArticle.categorySlug || 'NEWS').toUpperCase()}',
+    category: '${(categorySlug || 'NEWS').toUpperCase()}',
     title: '${newArticle.title.replace(/'/g, "\\'").slice(0, 38)}...',
     image: '${newArticle.image}',
     tag: '${newArticle.badge}',
@@ -560,48 +837,167 @@ async function runPublicationCycle() {
   }
 ];\n`;
 
-        const newArticlesCode = `export const ARTICLES = ${JSON.stringify(trimmedArticles, null, 2)};\n` + filmstripCode;
-        fs.writeFileSync(mockDataPath, beforeArticles + newArticlesCode, 'utf-8');
-        console.log(`✅ [mockData.js] Acervo atualizado com sucesso no disco! Total de matérias: ${trimmedArticles.length}.`);
+  // Preserva qualquer conteúdo que exista DEPOIS do array de filmstrip.
+  // Sem isso, uma futura exportação adicionada ao fim do mockData.js seria
+  // silenciosamente apagada pelo robô em produção.
+  const filmstripStart = mockContent.indexOf('export const FILMSTRIP_ITEMS = [');
+  let trailingContent = '';
+  if (filmstripStart !== -1) {
+    const filmstripEnd = mockContent.indexOf('];', filmstripStart);
+    if (filmstripEnd !== -1) {
+      trailingContent = mockContent.slice(filmstripEnd + 2);
+    }
+  } else {
+    console.warn('⚠️ [mockData.js] FILMSTRIP_ITEMS não encontrado; conteúdo posterior pode ser preservado apenas parcialmente.');
+  }
 
-        // Bumper de Versão para forçar atualização imediata do LocalStorage no navegador
-        const radarServicePath = path.join(rootDir, 'src', 'services', 'radarService.js');
-        if (fs.existsSync(radarServicePath)) {
-          let serviceContent = fs.readFileSync(radarServicePath, 'utf-8');
-          const newVersion = `v3.0_${Date.now()}`;
-          serviceContent = serviceContent.replace(
-            /export const CURRENT_CONTENT_VERSION = ['"][^'"]+['"];/,
-            `export const CURRENT_CONTENT_VERSION = '${newVersion}';`
-          );
-          fs.writeFileSync(radarServicePath, serviceContent, 'utf-8');
-          console.log(`⚡ [Cache Bumper] Versão de conteúdo atualizada para '${newVersion}'.`);
-        }
+  const newArticlesCode = `export const ARTICLES = ${JSON.stringify(trimmedArticles, null, 2)};\n` + filmstripCode;
+  fs.writeFileSync(mockDataPath, beforeArticles + newArticlesCode + trailingContent, 'utf-8');
+  console.log(`✅ [mockData.js] Acervo atualizado no disco! Total de matérias: ${trimmedArticles.length}.`);
 
-        if (queuedPauta) {
-          writeRetryQueue(retryQueue.filter(item => item.pautaId !== queuedPauta.pautaId));
-          console.log('✅ [Retry Queue] Pauta regenerada com Gemini e removida da fila.');
-        }
-      } else {
-        throw new Error('Marcador ARTICLES não encontrado em mockData.js');
+  if (fs.existsSync(radarServicePath)) {
+    const serviceContent = fs.readFileSync(radarServicePath, 'utf-8');
+    const newVersion = `v3.0_${Date.now()}`;
+    const updatedService = serviceContent.replace(
+      /export const CURRENT_CONTENT_VERSION = ['"][^'"]+['"];/,
+      `export const CURRENT_CONTENT_VERSION = '${newVersion}';`
+    );
+    fs.writeFileSync(radarServicePath, updatedService, 'utf-8');
+    console.log(`⚡ [Cache Bumper] Versão de conteúdo atualizada para '${newVersion}'.`);
+  }
+
+  console.log('\n==============================================================================');
+  console.log('🎉 MATÉRIA PUBLICADA COM SUCESSO!');
+  console.log(`📌 Título: "${newArticle.title}"`);
+  console.log(`🏆 Posição: ${isHero ? '👑 CAPA PRINCIPAL (Hero)' : '📰 Feed Geral de Destaques'}`);
+  console.log(`⭐ Pontuação Editorial: ${newArticle.rankingScore} / 100 pts`);
+  console.log(`🔗 Slug: /artigo/${newArticle.slug}`);
+  console.log('==============================================================================\n');
+
+  return newArticle;
+}
+
+// -----------------------------------------------------------------------------
+// Ciclo principal
+// -----------------------------------------------------------------------------
+async function runPublicationCycle() {
+  let statusUpdates = new Map();
+
+  try {
+    let supabaseClient = null;
+    if (SUPABASE_URL && SUPABASE_KEY) {
+      try {
+        supabaseClient = createClient(SUPABASE_URL, SUPABASE_KEY);
+      } catch (err) {
+        console.warn('⚠️ Falha ao instanciar Supabase:', err.message);
       }
-    } catch (fsErr) {
-      console.error('❌ Erro ao atualizar arquivos locais:', fsErr.message);
-      throw fsErr;
     }
 
-    console.log('\n==============================================================================');
-    console.log(`🎉 MATÉRIA PUBLICADA COM SUCESSO!`);
-    console.log(`📌 Título: "${newArticle.title}"`);
-    console.log(`🏆 Posição: ${isHero ? '👑 CAPA PRINCIPAL (Hero)' : '📰 Feed Geral de Destaques'}`);
-    console.log(`⭐ Pontuação Editorial: ${newArticle.rankingScore} / 100 pts`);
-    console.log(`🔗 Slug: /artigo/${newArticle.slug}`);
-    console.log('==============================================================================\n');
+    if (!DRY_RUN && !process.env.CI_TEST_NO_DELAY) {
+      const organicDelaySeconds = process.env.GITHUB_ACTIONS ? 5 : Math.floor(Math.random() * 20) + 5;
+      console.log(`⏱️ Sincronizando pulso editorial com ateliês internacionais (+${organicDelaySeconds}s)...`);
+      await new Promise(resolve => setTimeout(resolve, organicDelaySeconds * 1000));
+    }
 
-    return newArticle;
+    const meta = await getExistingArticlesMetadata(supabaseClient);
+
+    // Intervalo mínimo entre publicações (0 = desativado)
+    if (MIN_PUBLICATION_INTERVAL_HOURS > 0 && meta.latestPublishedAt) {
+      const elapsedHours = (Date.now() - meta.latestPublishedAt) / 3_600_000;
+      if (elapsedHours < MIN_PUBLICATION_INTERVAL_HOURS) {
+        announceNoPublication(`intervalo mínimo de ${MIN_PUBLICATION_INTERVAL_HOURS}h não atingido (última publicação há ${elapsedHours.toFixed(1)}h)`);
+        return null;
+      }
+    }
+
+    const queue = readRetryQueue();
+    const queueCandidates = queue.slice(0, MAX_QUEUE_ITEMS).map(candidateFromQueueItem);
+    const { candidates, duplicateKeys, expiredKeys, rejectedKeys = [] } = buildCandidatePool(meta);
+
+    duplicateKeys.forEach(key => statusUpdates.set(key, 'duplicate'));
+    expiredKeys.forEach(key => statusUpdates.set(key, 'expired'));
+    rejectedKeys.forEach(key => statusUpdates.set(key, 'rejected'));
+
+    const attempts = [
+      ...queueCandidates.map(candidate => ({ candidate, fromQueue: true, queueItem: queue.find(item => item.pautaId === candidate.key) })),
+      ...candidates.slice(0, MAX_CANDIDATES).map(candidate => ({ candidate, fromQueue: false, queueItem: null }))
+    ];
+
+    if (!attempts.length) {
+      announceNoPublication('nenhuma pauta inédita disponível (fila vazia, acervo todo publicado ou pautas expiradas)');
+      return null;
+    }
+
+    if (DRY_RUN) {
+      console.log('\n🧪 [DRY RUN] Candidatas que seriam tentadas neste ciclo:');
+      attempts.forEach(({ candidate, fromQueue }, idx) => {
+        console.log(`   ${idx + 1}. ${fromQueue ? '[RETRY] ' : ''}[${candidate.score} pts | ${candidate.categorySlug}] ${candidate.hook.slice(0, 70)}... (${candidate.authorSlug})`);
+      });
+      console.log(`   Pautas marcadas como duplicate: ${duplicateKeys.length}`);
+      console.log(`   Pautas marcadas como rejected: ${rejectedKeys.length}`);
+      console.log(`   Pautas marcadas como expired: ${expiredKeys.length}`);
+      console.log('🧪 [DRY RUN] Nada foi gerado ou gravado.');
+      return null;
+    }
+
+    let published = null;
+    let generatedAttempts = 0;
+
+    for (const attempt of attempts) {
+      const { candidate, fromQueue, queueItem } = attempt;
+      console.log(`\n🖋️  [Redação] Tentando ${fromQueue ? 'fila de retry' : 'candidata fresca'}: "${candidate.hook.slice(0, 70)}..."`);
+
+      let articleData;
+      try {
+        articleData = await generateLuxuryArticle(candidate.promptInput || promptForCandidate(candidate), {
+          authorSlug: candidate.authorSlug
+        });
+      } catch (err) {
+        console.warn(`⚠️ [Redação] Falha ao gerar matéria: ${err.message}`);
+        articleData = { needsRegeneration: true, generationStatus: 'error' };
+      }
+      generatedAttempts += 1;
+
+      if (articleData.needsRegeneration || articleData.generationStatus === 'fallback_pending' || articleData.generationStatus === 'error') {
+        if (fromQueue) {
+          registerQueueFailure(queueItem);
+          continue;
+        }
+        enqueueForRegeneration(candidate, promptForCandidate(candidate));
+        console.warn('⚠️ Gemini indisponível: pauta enfileirada para regeneração. Encerrando as tentativas frescas deste ciclo.');
+        break;
+      }
+
+      const conflict = findPublicationConflict(articleData, candidate, meta);
+      if (conflict) {
+        console.warn(`🛑 [Bloqueio Editorial] Matéria abortada: ${conflict}.`);
+        if (candidate.key) statusUpdates.set(candidate.key, 'duplicate');
+        if (fromQueue) removeFromRetryQueue(candidate.key);
+        continue;
+      }
+      console.log('✅ [Auditoria Aprovada] Nenhuma colisão com o acervo, arquivo permanente ou Capa.');
+
+      published = await publishArticle(articleData, candidate, meta, supabaseClient);
+
+      if (published) {
+        if (candidate.key) statusUpdates.set(candidate.key, 'published');
+        if (fromQueue) removeFromRetryQueue(candidate.key);
+        appendToPublishedArchive(published);
+        break;
+      }
+    }
+
+    if (!published) {
+      announceNoPublication(`todas as ${generatedAttempts} tentativas foram bloqueadas ou falharam`);
+    }
+
+    return published;
   } catch (err) {
     console.error('❌ Erro no ciclo de publicação:', err.message || err);
     process.exitCode = 1;
     return null;
+  } finally {
+    flushStatusUpdates(statusUpdates);
   }
 }
 

@@ -16,6 +16,7 @@ export const ELITE_RSS_FEEDS = [
     categorySlug: 'supercarros',
     authorSlug: 'gabriel-fontes',
     source: 'Robb Report Global',
+    imageOffset: 0,
     url: 'https://robbreport.com/feed/'
   },
   {
@@ -23,6 +24,7 @@ export const ELITE_RSS_FEEDS = [
     categorySlug: 'relogios',
     authorSlug: 'clara-meirelles',
     source: 'Hodinkee',
+    imageOffset: 0,
     url: 'https://www.hodinkee.com/articles/rss.xml'
   },
   {
@@ -30,6 +32,7 @@ export const ELITE_RSS_FEEDS = [
     categorySlug: 'relogios',
     authorSlug: 'clara-meirelles',
     source: 'Monochrome Watches',
+    imageOffset: 1,
     url: 'https://monochrome-watches.com/feed/'
   },
   {
@@ -37,6 +40,7 @@ export const ELITE_RSS_FEEDS = [
     categorySlug: 'supercarros',
     authorSlug: 'gabriel-fontes',
     source: 'Google News Motors (Ferrari/Bugatti)',
+    imageOffset: 1,
     url: 'https://news.google.com/rss/search?q=hypercar+OR+Ferrari+OR+Bugatti+when:3d&hl=en-US&gl=US&ceid=US:en'
   },
   {
@@ -44,6 +48,7 @@ export const ELITE_RSS_FEEDS = [
     categorySlug: 'destinos',
     authorSlug: 'gabriel-fontes',
     source: 'Google News Superyachts',
+    imageOffset: 0,
     url: 'https://news.google.com/rss/search?q=superyacht+OR+megayacht+when:3d&hl=en-US&gl=US&ceid=US:en'
   },
   {
@@ -51,6 +56,7 @@ export const ELITE_RSS_FEEDS = [
     categorySlug: 'arquitetura',
     authorSlug: 'henrique-vianna',
     source: 'Google News Architecture & Mansions',
+    imageOffset: 0,
     url: 'https://news.google.com/rss/search?q=mansion+architecture+penthouse+record+when:3d&hl=en-US&gl=US&ceid=US:en'
   },
   {
@@ -58,12 +64,13 @@ export const ELITE_RSS_FEEDS = [
     categorySlug: 'arquitetura',
     authorSlug: 'henrique-vianna',
     source: 'Sotheby\'s & Christie\'s Auctions',
+    imageOffset: 1,
     url: 'https://news.google.com/rss/search?q=Sothebys+OR+Christies+auction+record+jewel+when:3d&hl=en-US&gl=US&ceid=US:en'
   }
 ];
 
 // Banco de imagens de alta resolução curadas por categoria (Garantidamente exclusivas)
-const FALLBACK_CATEGORY_IMAGES = {
+export const FALLBACK_CATEGORY_IMAGES = {
   supercarros: [
     'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80&w=1400',
     'https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&q=80&w=1400',
@@ -71,10 +78,10 @@ const FALLBACK_CATEGORY_IMAGES = {
     'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80&w=1400'
   ],
   relogios: [
-    'https://images.unsplash.com/photo-1508615039623-a25605d2b022?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1517463767939-0d293d0f7a0c?auto=format&fit=crop&q=80&w=1400',
-    'https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&q=80&w=1400'
+    'https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?auto=format&fit=crop&q=80&w=1400',
+    'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&q=80&w=1400',
+    'https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?auto=format&fit=crop&q=80&w=1400',
+    'https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?auto=format&fit=crop&q=80&w=1400'
   ],
   arquitetura: [
     'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1400',
@@ -185,7 +192,7 @@ export async function fetchFeedItems(feedConfig, timeoutMs = 8000) {
       // Seleciona imagem de galeria se não vier no feed
       const catKey = feedConfig.categorySlug || 'supercarros';
       const gallery = FALLBACK_CATEGORY_IMAGES[catKey] || FALLBACK_CATEGORY_IMAGES.supercarros;
-      const fallbackImg = gallery[index % gallery.length];
+      const fallbackImg = gallery[(index + (feedConfig.imageOffset || 0)) % gallery.length];
 
       return {
         id: `rss-${feedConfig.categorySlug}-${Date.now().toString(36)}-${index}`,
@@ -198,7 +205,8 @@ export async function fetchFeedItems(feedConfig, timeoutMs = 8000) {
         suggestedHook: item.title,
         summary: item.description ? item.description.slice(0, 320) : 'Lançamento internacional homologado pela mesa do Radar.',
         publishedTime: item.pubDate || new Date().toISOString(),
-        image: item.imageUrl || fallbackImg
+        image: item.imageUrl || fallbackImg,
+        imageIsFallback: !item.imageUrl
       };
     });
   } catch (err) {

@@ -161,7 +161,7 @@ const BATCH_TOPICS = [
     categorySlug: 'relogios',
     authorSlug: 'clara-meirelles',
     badge: 'OBRA-PRIMA SAXÔNICA',
-    image: 'https://images.unsplash.com/photo-1547996160-71dfabb1a7b1?auto=format&fit=crop&q=80&w=1400',
+    image: 'https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?auto=format&fit=crop&q=80&w=1400',
     specs: {
       liga_metalica: 'Honeygold 18k patenteado de dureza superior ao ouro convencional',
       calibre: 'L952.4 de manufatura saxônica com 516 componentes acabados à mão',
@@ -189,7 +189,7 @@ const BATCH_TOPICS = [
     categorySlug: 'relogios',
     authorSlug: 'clara-meirelles',
     badge: 'ATELIÊ INDEPENDENTE',
-    image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=1400',
+    image: 'https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?auto=format&fit=crop&q=80&w=1400',
     specs: {
       calibre: 'RR02 de corda manual com balanço simétrico e segundos mortos',
       mostrador: 'Esmalte Grand Feu vítreo branco queimado sucessivas vezes a 820°C',
