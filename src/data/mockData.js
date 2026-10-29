@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-superiate-omega-wellness-249-a-f-1667",
+    "slug": "superiate-omega-wellness-249-a-fortaleza-flutuante-de-75-metros-com-camaras-criogenicas-e-monocoque-em-aluminio-naval-1665",
+    "title": "Superiate Omega Wellness 249: A Fortaleza Flutuante de 75 Metros com Câmaras Criogênicas e Monocoque em Alumínio Naval",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "29 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Em águas internacionais, a arquitetura naval cede espaço à biometria extrema. Um projeto de 249 pés que transforma o casco em um refúgio hermético de longevidade celular.",
+    "contentParagraphs": [
+      "O casco corta as ondas com precisão cirúrgica. Sete dezenas e meia de pés em alumínio naval estruturado para suportar força G lateral em manobras de emergência. A engenharia naval abandona o mero hedonismo para abraçar a criogenia de alta performance. Câmaras de descompressão celular flutuam sobre amortecedores de titânio. Cada antepara foi calculada para mitigar microvibrações.",
+      "O fluxo de Venturi subaquático estabiliza a plataforma enquanto o protocolo de longevidade opera a bordo. O sistema de filtragem de ar atinge padrão cirúrgico ISO 1. Salas de infusão intravenosa utilizam gravidade zero simulada para otimizar a absorção de NAD+. Sensores inerciais monitoram a frequência cardíaca dos passageiros em tempo real enquanto os motores diesel-elétricos gemem em silêncio abissal.",
+      "Billionaires como Bryan Johnson exigem redundância absoluta nos sistemas vitais. A arquitetura interna repele radiação eletromagnética e vibrações de baixa frequência. Tubulações em Inconel 625 garantem fluxo estéril de água purificada por osmose reversa tripla. Aqui, o tempo não passa. O casco foi concebido para desafiar a oxidação biológica e mecânica por décadas de navegação transoceânica ininterrupta.",
+      "Nenhum centímetro quadrado tolera excessos puramente estéticos. A estética é ditada pela telemetria médica e pela aerodinâmica do superesporte marinho. O resultado é um monstro flutuante de 75 metros que redefine a soberania pessoal. Um laboratório de imortalidade móvel, blindado contra o caos do mundo exterior e ancorado na exatidão matemática dos materiais."
+    ],
+    "content_paragraphs": [
+      "O casco corta as ondas com precisão cirúrgica. Sete dezenas e meia de pés em alumínio naval estruturado para suportar força G lateral em manobras de emergência. A engenharia naval abandona o mero hedonismo para abraçar a criogenia de alta performance. Câmaras de descompressão celular flutuam sobre amortecedores de titânio. Cada antepara foi calculada para mitigar microvibrações.",
+      "O fluxo de Venturi subaquático estabiliza a plataforma enquanto o protocolo de longevidade opera a bordo. O sistema de filtragem de ar atinge padrão cirúrgico ISO 1. Salas de infusão intravenosa utilizam gravidade zero simulada para otimizar a absorção de NAD+. Sensores inerciais monitoram a frequência cardíaca dos passageiros em tempo real enquanto os motores diesel-elétricos gemem em silêncio abissal.",
+      "Billionaires como Bryan Johnson exigem redundância absoluta nos sistemas vitais. A arquitetura interna repele radiação eletromagnética e vibrações de baixa frequência. Tubulações em Inconel 625 garantem fluxo estéril de água purificada por osmose reversa tripla. Aqui, o tempo não passa. O casco foi concebido para desafiar a oxidação biológica e mecânica por décadas de navegação transoceânica ininterrupta.",
+      "Nenhum centímetro quadrado tolera excessos puramente estéticos. A estética é ditada pela telemetria médica e pela aerodinâmica do superesporte marinho. O resultado é um monstro flutuante de 75 metros que redefine a soberania pessoal. Um laboratório de imortalidade móvel, blindado contra o caos do mundo exterior e ancorado na exatidão matemática dos materiais."
+    ],
+    "specs": {
+      "Comprimento Total": "249 pés (75,8 metros)",
+      "Material do Casco": "Liga de Alumínio Naval Tratado",
+      "Propulsão": "Sistema Híbrido Diesel-Elétrico Azimutal",
+      "Autonomia Operacional": "6.500 milhas náuticas em velocidade de cruzeiro",
+      "Sistemas de Saúde": "Módulos NASA-Inspired Biohacking e IV Lounges"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 92,
+    "ranking_score": 92,
+    "publishedAt": "2026-10-29T16:49:01.666Z",
+    "published_at": "2026-10-29T16:49:01.666Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCQTBRNG1adHRQTzdXUjgzU3NrZnNxZ0d5OGprUE53TWFpbHFUYWlUUHZwbHM3V1dKeUNldzJYamlqYVdDOEFwaXRSdk9qS2tSZnhxNWNrMW1jWGNwTlA3MXZGTlhDTXJ4aUNGZWs3Rld6R1QxUTlSS1lnY2htZ0E?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCQTBRNG1adHRQTzdXUjgzU3NrZnNxZ0d5OGprUE53TWFpbHFUYWlUUHZwbHM3V1dKeUNldzJYamlqYVdDOEFwaXRSdk9qS2tSZnhxNWNrMW1jWGNwTlA3MXZGTlhDTXJ4aUNGZWs3Rld6R1QxUTlSS1lnY2htZ0E?oc=5"
+  },
+  {
     "id": "art-ferrari-spa-o-marco-historico-de-8637",
     "slug": "ferrari-spa-o-marco-historico-de-20-bilhoes-de-dolares-que-sustenta-sua-soberania-em-maranello-8634",
     "title": "Ferrari S.p.A.: O Marco Histórico de 20 Bilhões de Dólares que Sustenta sua Soberania em Maranello",
@@ -153,10 +204,10 @@ export const ARTICLES = [
       "Liga de Exaustão": "Inconel 625"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 93,
@@ -1304,55 +1355,17 @@ export const ARTICLES = [
     ],
     "is_hero": false,
     "is_hero_secondary": false
-  },
-  {
-    "id": "art-pagani-huayra-r-evo-o-monstro-lo-1002",
-    "slug": "pagani-huayra-r-evo-o-monstro-longtail-de-900-cv-com-v12-aspirado-de-9200-rpm-e-monocoque-de-carbo-titanio",
-    "title": "Pagani Huayra R Evo: O Monstro Longtail de 900 cv com V12 Aspirado de 9.200 RPM e Monocoque de Carbo-Titânio",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "type": "article",
-    "badge": "PISTA & TELEMETRIA",
-    "excerpt": "Em uma indústria anestesiada por baterias pesadas, Horacio Pagani assina um manifesto térmico que desafia as leis da física através de rotações extremas e aerodinâmica ativa de pista.",
-    "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=max&q=85&w=1800",
-    "imageFocus": "bottom",
-    "authorSlug": "gabriel-fontes",
-    "date": "25 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "isHero": false,
-    "isHeroSecondary": false,
-    "rankingScore": 77,
-    "specs": {
-      "motorizacao": "V12-R Evo HWA 6.0L Aspirado (900 cv a 8.750 RPM)",
-      "chassi": "Monocoque em Carbo-Titânio HP62 G2 curado em autoclave sob 6 bar",
-      "carroceria": "Codalunga Longtail esticada em 190 mm para estabilidade a 320 km/h",
-      "coletor_escape": "Inconel 625 soldado à mão com revestimento cerâmico",
-      "motor": "V12 aspirado de 6.0 litros desenvolvido pela HWA AG",
-      "potencia_maxima": "900 cv a 8.250 RPM (corte em 9.200 RPM)",
-      "torque": "770 Nm entre 5.800 e 8.200 RPM",
-      "chassis": "Monocoque em carbo-titânio HP62-G2 com subchassis em aço cromo-molibdênio",
-      "aerodinamica": "Configuração Longtail com ganho de 45% em downforce total",
-      "transmissao": "Sequencial de 6 marchas não-sincronizada com acionamento dog-ring"
-    },
-    "contentParagraphs": [
-      "O ar corta o difusor traseiro com violência mecânica. A fibra de carbono exposta vibra em harmonia com a frequência de rotação dos pistões forçados a suportar forças extremas. Horacio Pagani recusou o caminho fácil da eletrificação em massa. Ele preferiu esculpir um bloco de doze cilindros em V capaz de rasgar a atmosfera a 9.200 RPM.",
-      "Cada curva do monocoque em carbo-titânio curado em autoclave a 6 bar foi desenhada para gerar downforce bruto sem comprometer a agilidade inercial. Os canais Venturi inferiores aceleram o fluxo de ar comprimindo o chassi contra o asfalto. A força G lateral atinge patamares reservados exclusivamente a monopostos de competição enquanto o escape em Inconel 625 incandesce sob carga máxima.",
-      "A aerodinâmica longtail estende a silhueta em proporções que lembram os protótipos de Le Mans dos anos setenta. Não há espaço para concessões digitais ou assistências eletrônicas anestesiantes. O piloto interage diretamente com o chassi através de um volante removível em alumínio usinado que transmite cada imperfeição do piso com precisão cirúrgica.",
-      "Este Huayra R Evo não busca a aprovação do mercado generalista. Ele consolida um refúgio para colecionadores que ainda entendem o perfume do óleo aquecido e o som metálico de uma transmissão sequencial de garfos em aço dog-ring. É a engenharia mecânica elevada ao seu estado mais puro e implacável."
-    ],
-    "is_hero": false,
-    "is_hero_secondary": false
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'SUPERCARROS',
-    title: 'Ferrari S.p.A.: O Marco Histórico de 2...',
-    image: 'https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800',
+    category: 'DESTINOS',
+    title: 'Superiate Omega Wellness 249: A Fortal...',
+    image: 'https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800',
     tag: 'DESTAQUE MUNDIAL',
-    slug: 'ferrari-spa-o-marco-historico-de-20-bilhoes-de-dolares-que-sustenta-sua-soberania-em-maranello-8634'
+    slug: 'superiate-omega-wellness-249-a-fortaleza-flutuante-de-75-metros-com-camaras-criogenicas-e-monocoque-em-aluminio-naval-1665'
   },
   {
     id: 'film-2',
@@ -1395,4 +1408,5 @@ export const FILMSTRIP_ITEMS = [
     slug: 'o-relatorio-reservado-de-family-offices-por-que-as-dinastias-globais-estao-trocando-ativos-digitais-por-ouro-fisico-em-bunkers-suicos'
   }
 ];
+
 

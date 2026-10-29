@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-superiate-omega-wellness-249-a-f-1667",
+    "slug": "superiate-omega-wellness-249-a-fortaleza-flutuante-de-75-metros-com-camaras-criogenicas-e-monocoque-em-aluminio-naval-1665",
+    "title": "Superiate Omega Wellness 249: A Fortaleza Flutuante de 75 Metros com Câmaras Criogênicas e Monocoque em Alumínio Naval",
+    "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCQTBRNG1adHRQTzdXUjgzU3NrZnNxZ0d5OGprUE53TWFpbHFUYWlUUHZwbHM3V1dKeUNldzJYamlqYVdDOEFwaXRSdk9qS2tSZnhxNWNrMW1jWGNwTlA3MXZGTlhDTXJ4aUNGZWs3Rld6R1QxUTlSS1lnY2htZ0E?oc=5",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-10-29T16:49:01.666Z"
+  },
+  {
     "id": "art-ferrari-spa-o-marco-historico-de-8637",
     "slug": "ferrari-spa-o-marco-historico-de-20-bilhoes-de-dolares-que-sustenta-sua-soberania-em-maranello-8634",
     "title": "Ferrari S.p.A.: O Marco Histórico de 20 Bilhões de Dólares que Sustenta sua Soberania em Maranello",
