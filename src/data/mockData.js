@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-australian-superyachts-o-novo-sa-4477",
+    "slug": "australian-superyachts-o-novo-santuario-naval-em-newport-que-redefine-a-hidrodinamica-oceanica-de-alta-performance-4461",
+    "title": "Australian Superyachts: O Novo Santuário Naval em Newport que Redefine a Hidrodinâmica Oceânica de Alta Performance",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "HOMOLOGADO PELO RADAR",
+    "date": "29 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A mudança estratégica para o Royal Motor Yacht Club consolida a soberania técnica e o refúgio estrutural para cascos compostos de longo curso.",
+    "contentParagraphs": [
+      "A geometria das águas profundas exige precisão absoluta. O deslocamento de um casco de superiate não tolera margens de erro estrutural quando submetido a gradientes severos de maré e rajadas transversais em mar aberto. A transição operacional da Australian Superyachts para o Royal Motor Yacht Club, em Newport, representa uma mudança sísmica na logística de manutenção naval do hemisfério sul. Trata-se de um alinhamento cirúrgico entre infraestrutura portuária de altíssima densidade e estaleiros capazes de operar tolerâncias de mícrons em ligas marinhas complexas.",
+      "Sob a ótica da dinâmica de fluidos computacional, cada linha de flutuação e cada túnel de propulsão exigem calibração milimétrica. As novas instalações em Pittwater oferecem o calado necessário para receber embarcações com monocoques em fibra de carbono estrutural e superestruturas em alumínio naval da série 5083. Quando analisamos o arrasto hidrodinâmico em velocidades de cruzeiro prolongadas, a eficiência do fluxo laminar sobre os apêndices do casco dita a autonomia oceânica e a integridade dos eixos propulsores em Inconel 625.",
+      "O mercado global de grandes embarcações privadas busca refúgios de liquidez e manutenção que eliminem o atrito burocrático e técnico. Newport agora abriga um ecossistema onde a telemetria inercial de bordo e os sistemas de estabilização giroscópica de zero velocidade encontram suporte de engenharia imediata. Não há espaço para improvisos quando estamos lidando com plataformas navais avaliadas em dezenas de milhões de dólares, projetadas para cruzar oceanos sob cargas cíclicas implacáveis e pressões hidrostáticas extremas.",
+      "A engenharia naval de elite não tolera o efêmero. Enquanto estaleiros comerciais priorizam volumes industriais, este novo polo em solo australiano reafirma a supremacia do trabalho artesanal aliado a simulações hidrodinâmicas avançadas. É o triunfo da mecânica pura e do projeto estrutural intransigente sobre a volatilidade das modas náuticas."
+    ],
+    "content_paragraphs": [
+      "A geometria das águas profundas exige precisão absoluta. O deslocamento de um casco de superiate não tolera margens de erro estrutural quando submetido a gradientes severos de maré e rajadas transversais em mar aberto. A transição operacional da Australian Superyachts para o Royal Motor Yacht Club, em Newport, representa uma mudança sísmica na logística de manutenção naval do hemisfério sul. Trata-se de um alinhamento cirúrgico entre infraestrutura portuária de altíssima densidade e estaleiros capazes de operar tolerâncias de mícrons em ligas marinhas complexas.",
+      "Sob a ótica da dinâmica de fluidos computacional, cada linha de flutuação e cada túnel de propulsão exigem calibração milimétrica. As novas instalações em Pittwater oferecem o calado necessário para receber embarcações com monocoques em fibra de carbono estrutural e superestruturas em alumínio naval da série 5083. Quando analisamos o arrasto hidrodinâmico em velocidades de cruzeiro prolongadas, a eficiência do fluxo laminar sobre os apêndices do casco dita a autonomia oceânica e a integridade dos eixos propulsores em Inconel 625.",
+      "O mercado global de grandes embarcações privadas busca refúgios de liquidez e manutenção que eliminem o atrito burocrático e técnico. Newport agora abriga um ecossistema onde a telemetria inercial de bordo e os sistemas de estabilização giroscópica de zero velocidade encontram suporte de engenharia imediata. Não há espaço para improvisos quando estamos lidando com plataformas navais avaliadas em dezenas de milhões de dólares, projetadas para cruzar oceanos sob cargas cíclicas implacáveis e pressões hidrostáticas extremas.",
+      "A engenharia naval de elite não tolera o efêmero. Enquanto estaleiros comerciais priorizam volumes industriais, este novo polo em solo australiano reafirma a supremacia do trabalho artesanal aliado a simulações hidrodinâmicas avançadas. É o triunfo da mecânica pura e do projeto estrutural intransigente sobre a volatilidade das modas náuticas."
+    ],
+    "specs": {
+      "Localizacao": "Royal Motor Yacht Club, Newport, Pittwater, Austrália",
+      "Capacidade": "Superiates de até 60 metros de LOA",
+      "Infraestrutura": "Guindastes de alta capacidade e dique seco especializado",
+      "Materiais Alvo": "Liga de alumínio série 5083 e compósitos de carbo-titânio",
+      "Engenharia": "Dinâmica de fluidos computacional e calibração de eixos em Inconel"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 90,
+    "ranking_score": 90,
+    "publishedAt": "2026-10-29T23:12:34.477Z",
+    "published_at": "2026-10-29T23:12:34.477Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcC1IUzZTcjNZZmRVa2dUQTU0cU50cmtuQXRSMVFIa3Q4bllJQ2FWOFJCZDhCZmxWeVIxUVZRaVVXelcyOXpoS3NIdzZtU05kVl9UN2NuVU1RaHJfNXI5ak9QWkc0OUtjOEd0RjdlVHdoS3I0QU5HRnFZZlgycFAzREdSa3RERURzMkRCR2toVnNiTEVtRHp4c3lMbUhIc2ZJam1ObG02djR5ODlabUh0MjNLRGNFQTlBX0VFZU5STWZfMEFXNXdv?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcC1IUzZTcjNZZmRVa2dUQTU0cU50cmtuQXRSMVFIa3Q4bllJQ2FWOFJCZDhCZmxWeVIxUVZRaVVXelcyOXpoS3NIdzZtU05kVl9UN2NuVU1RaHJfNXI5ak9QWkc0OUtjOEd0RjdlVHdoS3I0QU5HRnFZZlgycFAzREdSa3RERURzMkRCR2toVnNiTEVtRHp4c3lMbUhIc2ZJam1ObG02djR5ODlabUh0MjNLRGNFQTlBX0VFZU5STWZfMEFXNXdv?oc=5"
+  },
+  {
     "id": "art-alfa-romeo-tipo-33-stradale-o-mo-1456",
     "slug": "alfa-romeo-tipo-33-stradale-o-monstro-v8-central-de-20-litros-forjado-em-aluminio-espacial-que-compartilha-a-alma-secreta-com-maranello-1443",
     "title": "Alfa Romeo Tipo 33 Stradale: O Monstro V8 Central de 2.0 Litros Forjado em Alumínio Espacial que Compartilha a Alma Secreta com Maranello",
@@ -1339,64 +1390,17 @@ export const ARTICLES = [
     "ranking_score": 94,
     "publishedAt": "2026-10-25T20:33:19.151Z",
     "published_at": "2026-10-25T20:33:19.151Z"
-  },
-  {
-    "id": "art-christies-genebra-o-diamante-blu-5824",
-    "slug": "christies-genebra-o-diamante-blue-royal-de-1761-quilates-arrematado-por-us-44-milhoes-apos-duelo-telefonico-de-sete-minutos-5806",
-    "title": "Christie's Genebra: O Diamante Blue Royal de 17,61 Quilates Arrematado por US$ 44 Milhões após Duelo Telefônico de Sete Minutos",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "HOMOLOGADO PELO RADAR",
-    "date": "25 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1400",
-    "excerpt": "Nas margens gélidas do Lago Léman, uma gema de pureza absoluta reescreve as leis da soberania financeira em um leilão de intensidade milimétrica.",
-    "contentParagraphs": [
-      "O silêncio na sala de leilões da Christie's foi denso. Sete minutos bastaram para que o diamante Blue Royal mudasse de mãos por US$ 44 milhões. Coberto por cinco décadas de isolamento em um cofre particular, o monólito de 17,61 quilates emergiu com a força de um artefato dinástico intocável.",
-      "Classificado pelo Instituto Gemológico da América como Fancy Vivid Blue, o cristal exibe uma saturação molecular sem tratamento térmico. Sua estrutura cristalina tipo IIb abriga traços infinitesimais de boro, conferindo-lhe uma coloração azul profunda que desafia a dispersão da luz natural e impõe respeito absoluto aos lapidários mais exigentes da Vallée de Joux.",
-      "Enquanto fundos soberanos e family offices disputavam cada segundo do pregão telefônico, a gema reafirmava sua imunidade contra a volatilidade monetária contemporânea. Não se trata de um ornamento passageiro, mas de um ativo tangível de liquidez soberana, esculpido pelas eras geológicas e preservado com rigor fiduciário.",
-      "Ao final do duelo de lances, o Blue Royal consolidou seu destino nas mãos de um colecionador anônimo. O martelo desceu sobre o mogno com a precisão de um calibre de manufatura, selando o destino de um tesouro que transcende o tempo e coroa a aristocracia dos grandes leilões internacionais."
-    ],
-    "content_paragraphs": [
-      "O silêncio na sala de leilões da Christie's foi denso. Sete minutos bastaram para que o diamante Blue Royal mudasse de mãos por US$ 44 milhões. Coberto por cinco décadas de isolamento em um cofre particular, o monólito de 17,61 quilates emergiu com a força de um artefato dinástico intocável.",
-      "Classificado pelo Instituto Gemológico da América como Fancy Vivid Blue, o cristal exibe uma saturação molecular sem tratamento térmico. Sua estrutura cristalina tipo IIb abriga traços infinitesimais de boro, conferindo-lhe uma coloração azul profunda que desafia a dispersão da luz natural e impõe respeito absoluto aos lapidários mais exigentes da Vallée de Joux.",
-      "Enquanto fundos soberanos e family offices disputavam cada segundo do pregão telefônico, a gema reafirmava sua imunidade contra a volatilidade monetária contemporânea. Não se trata de um ornamento passageiro, mas de um ativo tangível de liquidez soberana, esculpido pelas eras geológicas e preservado com rigor fiduciário.",
-      "Ao final do duelo de lances, o Blue Royal consolidou seu destino nas mãos de um colecionador anônimo. O martelo desceu sobre o mogno com a precisão de um calibre de manufatura, selando o destino de um tesouro que transcende o tempo e coroa a aristocracia dos grandes leilões internacionais."
-    ],
-    "specs": {
-      "Peso da Gema": "17,61 quilates",
-      "Classificação GIA": "Fancy Vivid Blue",
-      "Tipo Cristalino": "Tipo IIb com traços de boro",
-      "Tempo de Pregão": "7 minutos de duelo telefônico",
-      "Valor de Arremate": "US$ 43,8 milhões (Christie's Genebra)"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 96,
-    "ranking_score": 96,
-    "publishedAt": "2026-10-25T20:33:25.824Z",
-    "published_at": "2026-10-25T20:33:25.824Z"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'SUPERCARROS',
-    title: 'Alfa Romeo Tipo 33 Stradale: O Monstro...',
-    image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=max&q=85&w=1800',
-    tag: 'DESTAQUE MUNDIAL',
-    slug: 'alfa-romeo-tipo-33-stradale-o-monstro-v8-central-de-20-litros-forjado-em-aluminio-espacial-que-compartilha-a-alma-secreta-com-maranello-1443'
+    category: 'DESTINOS',
+    title: 'Australian Superyachts: O Novo Santuár...',
+    image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800',
+    tag: 'HOMOLOGADO PELO RADAR',
+    slug: 'australian-superyachts-o-novo-santuario-naval-em-newport-que-redefine-a-hidrodinamica-oceanica-de-alta-performance-4461'
   },
   {
     id: 'film-2',
@@ -1439,6 +1443,7 @@ export const FILMSTRIP_ITEMS = [
     slug: 'o-relatorio-reservado-de-family-offices-por-que-as-dinastias-globais-estao-trocando-ativos-digitais-por-ouro-fisico-em-bunkers-suicos'
   }
 ];
+
 
 
 

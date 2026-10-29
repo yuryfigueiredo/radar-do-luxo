@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-australian-superyachts-o-novo-sa-4477",
+    "slug": "australian-superyachts-o-novo-santuario-naval-em-newport-que-redefine-a-hidrodinamica-oceanica-de-alta-performance-4461",
+    "title": "Australian Superyachts: O Novo Santuário Naval em Newport que Redefine a Hidrodinâmica Oceânica de Alta Performance",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcC1IUzZTcjNZZmRVa2dUQTU0cU50cmtuQXRSMVFIa3Q4bllJQ2FWOFJCZDhCZmxWeVIxUVZRaVVXelcyOXpoS3NIdzZtU05kVl9UN2NuVU1RaHJfNXI5ak9QWkc0OUtjOEd0RjdlVHdoS3I0QU5HRnFZZlgycFAzREdSa3RERURzMkRCR2toVnNiTEVtRHp4c3lMbUhIc2ZJam1ObG02djR5ODlabUh0MjNLRGNFQTlBX0VFZU5STWZfMEFXNXdv?oc=5",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-10-29T23:12:34.477Z"
+  },
+  {
     "id": "art-alfa-romeo-tipo-33-stradale-o-mo-1456",
     "slug": "alfa-romeo-tipo-33-stradale-o-monstro-v8-central-de-20-litros-forjado-em-aluminio-espacial-que-compartilha-a-alma-secreta-com-maranello-1443",
     "title": "Alfa Romeo Tipo 33 Stradale: O Monstro V8 Central de 2.0 Litros Forjado em Alumínio Espacial que Compartilha a Alma Secreta com Maranello",
