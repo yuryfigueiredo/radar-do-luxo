@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-diadema-romanov-o-tesouro-imperi-1670",
+    "slug": "diadema-romanov-o-tesouro-imperial-de-15-milhao-de-libras-que-desafia-a-volatilidade-das-bolsas-globais-1653",
+    "title": "Diadema Romanov: O Tesouro Imperial de 1,5 Milhão de Libras que Desafia a Volatilidade das Bolsas Globais",
+    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOakw5Ny0xeGRzV1pjcGlfUGpteUwxZmM3RTNWckE0WDNCZ2ZBX0lfeWJHVzVEbDN2d0htQzBHMVpkVmpsSnJoOWd6U1lvSTk1eWIzSFEzZXFLdFFCYzdJdlNyMmxXNDVkbVE5VWNsdldUazFvREVFNkhCNlROUWx0N1g2S2R6WHZPTDJEMGJqaXo1SVl1ZEpEWVBlM3A2Qlo4QUhDVTl0VVZvbVQ1VlZoa0JyMHl4NVk?oc=5",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "publishedAt": "2026-10-29T20:17:41.670Z"
+  },
+  {
     "id": "art-superiate-omega-wellness-249-a-f-1667",
     "slug": "superiate-omega-wellness-249-a-fortaleza-flutuante-de-75-metros-com-camaras-criogenicas-e-monocoque-em-aluminio-naval-1665",
     "title": "Superiate Omega Wellness 249: A Fortaleza Flutuante de 75 Metros com Câmaras Criogênicas e Monocoque em Alumínio Naval",

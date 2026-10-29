@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-diadema-romanov-o-tesouro-imperi-1670",
+    "slug": "diadema-romanov-o-tesouro-imperial-de-15-milhao-de-libras-que-desafia-a-volatilidade-das-bolsas-globais-1653",
+    "title": "Diadema Romanov: O Tesouro Imperial de 1,5 Milhão de Libras que Desafia a Volatilidade das Bolsas Globais",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "29 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Em um cenário de ruído fiduciário e depreciação sistêmica, a soberania patrimonial encontra refúgio no silêncio mineral das gemas com procedência dinástica intocada.",
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Enquanto os mercados globais oscilam ao sabor de algoritmos de alta freqüência, os ativos físicos de origem imperial estabelecem um novo padrão de imunidade temporal. A iminente praça de leilões que cataloga a diadema da dinastia Romanov não apenas avalia uma peça de alta joalheria. Ela consolida a alocação de liquidez em refúgios tangíveis que resistem a séculos de revoluções e colapsos cambiais.",
+      "A custódia fiduciária destas relíquias exige mais do que capital; exige reverência histórica. Cada diamante cravado em prata e ouro amarelo carrega a herança de uma corte que compreendia a arquitetura do poder soberano. A estimativa conservadora de 1,5 milhão de libras reflete não a volatilidade do mercado de luxo, mas a escassez matemática de artefatos imperiais russos que sobreviveram intactos ao desmantelamento de um império.",
+      "Family offices e colecionadores de pulso firme enxergam nestes leilões a verdadeira preservação de valor transgeracional. O ouro e as gemas não dependem de balanços trimestrais ou de promessas de bancos centrais. Eles oferecem proteção contra a inflação por meio de sua imutabilidade física. É a materialização da soberania patrimonial em sua forma mais pura.",
+      "No Radar do Luxo, a equação é cristalina. A posse de um testemuho da dinastia Romanov transcende o colecionismo; é um ato de governança dinástica. Quem domina a arte de adquirir ativos imunes não apenas protege seu legado contra as tempestades econômicas. Garante a perpetuidade de sua história através dos séculos."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Enquanto os mercados globais oscilam ao sabor de algoritmos de alta freqüência, os ativos físicos de origem imperial estabelecem um novo padrão de imunidade temporal. A iminente praça de leilões que cataloga a diadema da dinastia Romanov não apenas avalia uma peça de alta joalheria. Ela consolida a alocação de liquidez em refúgios tangíveis que resistem a séculos de revoluções e colapsos cambiais.",
+      "A custódia fiduciária destas relíquias exige mais do que capital; exige reverência histórica. Cada diamante cravado em prata e ouro amarelo carrega a herança de uma corte que compreendia a arquitetura do poder soberano. A estimativa conservadora de 1,5 milhão de libras reflete não a volatilidade do mercado de luxo, mas a escassez matemática de artefatos imperiais russos que sobreviveram intactos ao desmantelamento de um império.",
+      "Family offices e colecionadores de pulso firme enxergam nestes leilões a verdadeira preservação de valor transgeracional. O ouro e as gemas não dependem de balanços trimestrais ou de promessas de bancos centrais. Eles oferecem proteção contra a inflação por meio de sua imutabilidade física. É a materialização da soberania patrimonial em sua forma mais pura.",
+      "No Radar do Luxo, a equação é cristalina. A posse de um testemuho da dinastia Romanov transcende o colecionismo; é um ato de governança dinástica. Quem domina a arte de adquirir ativos imunes não apenas protege seu legado contra as tempestades econômicas. Garante a perpetuidade de sua história através dos séculos."
+    ],
+    "specs": {
+      "procedencia": "Dinastia Romanov, Império Russo",
+      "estimativa_leilao": "£ 1.500.000",
+      "materiais": "Diamantes antigos, prata e ouro amarelo 14k",
+      "tipologia": "Diadema de corte imperial",
+      "custodia": "Certificado de proveniência fiduciária"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 92,
+    "ranking_score": 92,
+    "publishedAt": "2026-10-29T20:17:41.670Z",
+    "published_at": "2026-10-29T20:17:41.670Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOakw5Ny0xeGRzV1pjcGlfUGpteUwxZmM3RTNWckE0WDNCZ2ZBX0lfeWJHVzVEbDN2d0htQzBHMVpkVmpsSnJoOWd6U1lvSTk1eWIzSFEzZXFLdFFCYzdJdlNyMmxXNDVkbVE5VWNsdldUazFvREVFNkhCNlROUWx0N1g2S2R6WHZPTDJEMGJqaXo1SVl1ZEpEWVBlM3A2Qlo4QUhDVTl0VVZvbVQ1VlZoa0JyMHl4NVk?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOakw5Ny0xeGRzV1pjcGlfUGpteUwxZmM3RTNWckE0WDNCZ2ZBX0lfeWJHVzVEbDN2d0htQzBHMVpkVmpsSnJoOWd6U1lvSTk1eWIzSFEzZXFLdFFCYzdJdlNyMmxXNDVkbVE5VWNsdldUazFvREVFNkhCNlROUWx0N1g2S2R6WHZPTDJEMGJqaXo1SVl1ZEpEWVBlM3A2Qlo4QUhDVTl0VVZvbVQ1VlZoa0JyMHl4NVk?oc=5"
+  },
+  {
     "id": "art-superiate-omega-wellness-249-a-f-1667",
     "slug": "superiate-omega-wellness-249-a-fortaleza-flutuante-de-75-metros-com-camaras-criogenicas-e-monocoque-em-aluminio-naval-1665",
     "title": "Superiate Omega Wellness 249: A Fortaleza Flutuante de 75 Metros com Câmaras Criogênicas e Monocoque em Alumínio Naval",
@@ -153,10 +204,10 @@ export const ARTICLES = [
       "Sistemas de Saúde": "Módulos NASA-Inspired Biohacking e IV Lounges"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 92,
@@ -1319,53 +1370,17 @@ export const ARTICLES = [
     ],
     "is_hero": false,
     "is_hero_secondary": false
-  },
-  {
-    "id": "art-gma-t50s-niki-lauda-o-bolido-de--1001",
-    "slug": "gma-t50s-niki-lauda-o-bolido-de-pista-de-852-kg-com-turbina-de-vacuo-traseira-e-v12-cosworth-de-12100-rpm",
-    "title": "GMA T.50s Niki Lauda: O Bólido de Pista de 852 kg com Turbina de Vácuo Traseira e V12 Cosworth de 12.100 RPM",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "type": "article",
-    "badge": "ENGENHARIA PURA",
-    "excerpt": "Uma obra-prima da engenharia analógica de pista, unindo carga aerodinâmica ativa e um motor aspirado de rotações estratosféricas sem concessões digitais.",
-    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=1400",
-    "authorSlug": "gabriel-fontes",
-    "date": "25 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "isHero": false,
-    "isHeroSecondary": false,
-    "rankingScore": 78,
-    "specs": {
-      "motorizacao": "Cosworth GMA V12 3.9L Naturalmente Aspirado (12.100 RPM)",
-      "peso_a_seco": "852 kg em fibra de carbono de graduação aeroespacial",
-      "aerodinamica": "Ventoinha traseira de 400 mm gerando 1.500 kg de downforce ativo",
-      "tiragem_mundial": "25 exemplares numerados para uso exclusivo em circuito fechado",
-      "Motor": "Cosworth V12 3.9L aspirado naturalmente",
-      "Potência Máxima": "735 cavalos a 11.500 RPM (chegando a 12.100 RPM)",
-      "Peso Seco": "852 kg",
-      "Aerodinâmica": "Turbina de vácuo traseira com efeito solo ativo",
-      "Tiragem": "25 unidades homologadas exclusivamente para pista"
-    },
-    "contentParagraphs": [
-      "A inércia não perdoa erros de cálculo estrutural. O monocoque em carbo-titânio curado em autoclave a 6 bar abriga apenas o essencial para a sobrevivência a 3G de força G lateral contínua. Cada componente foi purgado de supérfluos digitais. A telemetria inercial substitui telas coloridas por dados brutos transmitidos diretamente ao capacete do piloto. A leveza extrema dita o ritmo cinético.",
-      "Sob a cobertura traseira, o motor V12 de 3,9 litros desenvolvido pela Cosworth atinge o limite mecânico de 12.100 RPM. A combustão interna grita em frequências agudas de carros de F1 históricos. O escape em Inconel 625 dissipa calor incandescente enquanto os pistões forjados operam com tolerâncias de mícrons. A resposta ao acelerador é instantânea e brutal.",
-      "Atrás, a turbina de vácuo de 400 mm suga o ar sob o assoalho em milissegundos. Este fluxo de Venturi de efeito solo sela o bólido ao asfalto independentemente da velocidade nas curvas de alta. A aerodinâmica ativa elimina o arrasto parasita enquanto gera downforce equivalente ao próprio peso do veículo. A física cedeu à genialidade pura de Gordon Murray.",
-      "Exemplares limitados a um seleto grupo de colecionadores evidenciam o repúdio à obsolescência programada. Enquanto o mercado massifica a eletrificação pesada, esta máquina permanece como o ápice da combustão mecânica pura. O asfalto absorve a fúria de trezentos quilos de carga aerodinâmica. O silêncio da pista é rasgado pelo triunfo da engenharia intransigente."
-    ],
-    "is_hero": false,
-    "is_hero_secondary": false
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'DESTINOS',
-    title: 'Superiate Omega Wellness 249: A Fortal...',
-    image: 'https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800',
+    category: 'ARQUITETURA',
+    title: 'Diadema Romanov: O Tesouro Imperial de...',
+    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400',
     tag: 'DESTAQUE MUNDIAL',
-    slug: 'superiate-omega-wellness-249-a-fortaleza-flutuante-de-75-metros-com-camaras-criogenicas-e-monocoque-em-aluminio-naval-1665'
+    slug: 'diadema-romanov-o-tesouro-imperial-de-15-milhao-de-libras-que-desafia-a-volatilidade-das-bolsas-globais-1653'
   },
   {
     id: 'film-2',
@@ -1408,5 +1423,6 @@ export const FILMSTRIP_ITEMS = [
     slug: 'o-relatorio-reservado-de-family-offices-por-que-as-dinastias-globais-estao-trocando-ativos-digitais-por-ouro-fisico-em-bunkers-suicos'
   }
 ];
+
 
 
