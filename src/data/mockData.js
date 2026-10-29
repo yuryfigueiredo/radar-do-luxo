@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-ferrari-spa-o-marco-historico-de-8637",
+    "slug": "ferrari-spa-o-marco-historico-de-20-bilhoes-de-dolares-que-sustenta-sua-soberania-em-maranello-8634",
+    "title": "Ferrari S.p.A.: O Marco Histórico de 20 Bilhões de Dólares que Sustenta sua Soberania em Maranello",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "29 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "A avaliação de mercado da escuderia atinge patamares astronômicos enquanto a engenharia de Maranello resiste à obsolescência digital com blocos V12 aspirados.",
+    "contentParagraphs": [
+      "O capital flui para Maranello. A avaliação de mercado ultrapassou a barreira dos 20 bilhões de dólares. Trata-se de uma soberania financeira incontestável.",
+      "Sob o capô, a tolerância de mícrons dita a regra. O monocoque em carbo-titânio curado em autoclave a 6 bar suporta forças G laterais brutais. O fluxo de Venturi e o efeito solo colam o chassi ao asfalto. O escape em Inconel 625 incandescente ruge telemetria inercial pura a cada retomada de marcha.",
+      "A escassez matemática protege o patrimônio. Enquanto fabricantes generalistas inundam o mercado com telas táteis descartáveis, a Ferrari restringe a produção para blindar sua custódia fiduciária. O mercado reconhece a raridade mecânica como o último refúgio de liquidez.",
+      "O veredito de Gabriel Fontes é definitivo. Vinte bilhões de dólares não compram apenas ações em bolsa; financiam a obstinação humana contra a mediocridade digital."
+    ],
+    "content_paragraphs": [
+      "O capital flui para Maranello. A avaliação de mercado ultrapassou a barreira dos 20 bilhões de dólares. Trata-se de uma soberania financeira incontestável.",
+      "Sob o capô, a tolerância de mícrons dita a regra. O monocoque em carbo-titânio curado em autoclave a 6 bar suporta forças G laterais brutais. O fluxo de Venturi e o efeito solo colam o chassi ao asfalto. O escape em Inconel 625 incandescente ruge telemetria inercial pura a cada retomada de marcha.",
+      "A escassez matemática protege o patrimônio. Enquanto fabricantes generalistas inundam o mercado com telas táteis descartáveis, a Ferrari restringe a produção para blindar sua custódia fiduciária. O mercado reconhece a raridade mecânica como o último refúgio de liquidez.",
+      "O veredito de Gabriel Fontes é definitivo. Vinte bilhões de dólares não compram apenas ações em bolsa; financiam a obstinação humana contra a mediocridade digital."
+    ],
+    "specs": {
+      "Avaliação de Mercado": "US$ 20 Bilhões",
+      "Sede da Manufatura": "Maranello, Itália",
+      "Arquitetura Mecânica": "V12 Aspirado / Híbrido de Alta Performance",
+      "Tolerância Estrutural": "Mícrons em Autoclave a 6 bar",
+      "Liga de Exaustão": "Inconel 625"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 93,
+    "ranking_score": 93,
+    "publishedAt": "2026-10-29T16:16:18.637Z",
+    "published_at": "2026-10-29T16:16:18.637Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNXzJERWdrUmYzOGRxZ0RkUnpZNS11R0RNd19zSEQxRVhwdlY0OERkUnJRU2NFT0R1V0VFNURZQ2Fzb3BtcW1sb0wxbnl3SUFZaHpMQVM1YUsyRE95bldhOGtaQkZzNWJURnhJajVid29ZWUhUTG5yRnlXb1RkQUlGbUctR0RXT0UtMC1LSVFVMWNCanRtWHNqZFlZLUc?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNXzJERWdrUmYzOGRxZ0RkUnpZNS11R0RNd19zSEQxRVhwdlY0OERkUnJRU2NFT0R1V0VFNURZQ2Fzb3BtcW1sb0wxbnl3SUFZaHpMQVM1YUsyRE95bldhOGtaQkZzNWJURnhJajVid29ZWUhUTG5yRnlXb1RkQUlGbUctR0RXT0UtMC1LSVFVMWNCanRtWHNqZFlZLUc?oc=5"
+  },
+  {
     "id": "art-fp-journe-chronometre-bleu-a-rar-9385",
     "slug": "fp-journe-chronometre-bleu-a-rara-caixa-de-tantalo-de-ponto-de-fusao-a-3000c-que-valorizou-400-no-mercado-secundario-9369",
     "title": "F.P. Journe Chronomètre Bleu: A Rara Caixa de Tântalo de Ponto de Fusão a 3.000°C que Valorizou 400% no Mercado Secundário",
@@ -205,10 +256,10 @@ export const ARTICLES = [
       "Tiragem": "Edição limitada a 50 exemplares numerados"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 95,
@@ -1291,53 +1342,17 @@ export const ARTICLES = [
     ],
     "is_hero": false,
     "is_hero_secondary": false
-  },
-  {
-    "id": "art-lurssen-kismet-o-megaiate-de-122-1003",
-    "slug": "lurssen-kismet-o-megaiate-de-122-metros-e-3-milhoes-de-euros-semanais-com-casco-acustico-isolado",
-    "title": "Lürssen Kismet: O Megaiate de 122 Metros e 3 Milhões de Euros Semanais com Casco Acústico Isolado",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "type": "article",
-    "badge": "ENGENHARIA NAVAL",
-    "excerpt": "A soberania patrimonial encontra seu refúgio definitivo nas águas internacionais, onde a arquitetura naval de 122 metros redefine a imunidade temporal e a custódia fiduciária móvel.",
-    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=1400",
-    "authorSlug": "gabriel-fontes",
-    "date": "25 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "isHero": false,
-    "isHeroSecondary": false,
-    "rankingScore": 80,
-    "specs": {
-      "comprimento": "122 metros (400 ft) de casco oceânico em aço naval de alta resistência",
-      "estaleiro": "Lürssen Werft, Bremen, Alemanha (Design Nuvolari Lenard)",
-      "propulsao": "Sistema híbrido elétrico de alta eficiência com autonomia transoceânica",
-      "amenidades": "Heliponto duplo para aeronaves executivas e câmara de crioterapia a -110°C",
-      "Comprimento Total": "122 metros (400 pés)",
-      "Estaleiro Naval": "Lürssen Yachts, Alemanha",
-      "Design Exterior": "Nuvolari Lenard",
-      "Tarifa de Afretamento": "EUR 3.000.000 por semana",
-      "Autonomia Transoceânica": "6.000 milhas náuticas a 15 nós"
-    },
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Nas docas de Wewelsfleth, o Lürssen Kismet ergue-se não como um mero exercício de ostentação vulgar, mas como uma fortaleza flutuante de aço balístico e alumínio marinho. Suas linhas exteriores, desenhadas com precisão cirúrgica por Nuvolari Lenard, escondem um deslocamento bruto capaz de desafiar as intempéries mais severas do Atlântico Norte. Aqui, a privacidade não é negociada; ela é garantida por engenharia naval de nível militar.",
-      "Sob o convés teca, a acústica do casco foi rigorosamente tratada para eliminar qualquer vibração mecânica perceptível aos sentidos humanos. O propulsor principal, acoplado a sistemas de posicionamento dinâmico avançados, permite que a embarcação permaneça estática em alto-mar sem o uso de âncoras físicas, preservando ecossistemas submarinos delicados enquanto os ocupantes desfrutam de uma atmosfera de serenidade absoluta. Cada antepara interna foi concebida para resistir a torções estruturais extremas, garantindo que o mármore travertino romano permaneça perfeitamente alinhado sob força G lateral severa.",
-      "Com tarifas de afretamento fixadas em três milhões de euros semanais, o Kismet opera como um ativo de liquidez restrita, acessível apenas a um seleto grupo de family offices globais. Sua infraestrutura inclui helipontos duplos certificados para aeronaves de grande porte e um sistema proprietário de crioterapia submarina, integrando bem-estar físico de alta performance à navegação transoceânica. Trata-se de um refúgio de soberania absoluta, onde o tempo perde sua urgência mecânica e a discrição é mantida por tripulações submetidas a acordos de confidencialidade perpétua.",
-      "A aquisição ou o aluguel desta embarcação transcende o consumo recreativo; constitui um movimento tático de preservação de capital em ativos tangíveis de altíssima resiliência. Enquanto os mercados tradicionais flutuam ao sabor da volatilidade macroeconômica, o Kismet permanece ancorado em sua própria categoria de valor inegociável. Henrique Vianna assina este veredito: para aqueles que compreendem a verdadeira geometria do poder, o oceano é a última fronteira onde a lei do silêncio soberano ainda impera."
-    ],
-    "is_hero": false,
-    "is_hero_secondary": false
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'RELOGIOS',
-    title: 'F.P. Journe Chronomètre Bleu: A Rara C...',
-    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=max&q=80&w=1400',
-    tag: 'HOMOLOGADO PELO RADAR',
-    slug: 'fp-journe-chronometre-bleu-a-rara-caixa-de-tantalo-de-ponto-de-fusao-a-3000c-que-valorizou-400-no-mercado-secundario-9369'
+    category: 'SUPERCARROS',
+    title: 'Ferrari S.p.A.: O Marco Histórico de 2...',
+    image: 'https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800',
+    tag: 'DESTAQUE MUNDIAL',
+    slug: 'ferrari-spa-o-marco-historico-de-20-bilhoes-de-dolares-que-sustenta-sua-soberania-em-maranello-8634'
   },
   {
     id: 'film-2',
@@ -1380,3 +1395,4 @@ export const FILMSTRIP_ITEMS = [
     slug: 'o-relatorio-reservado-de-family-offices-por-que-as-dinastias-globais-estao-trocando-ativos-digitais-por-ouro-fisico-em-bunkers-suicos'
   }
 ];
+

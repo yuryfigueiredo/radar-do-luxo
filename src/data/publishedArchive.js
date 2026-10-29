@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-ferrari-spa-o-marco-historico-de-8637",
+    "slug": "ferrari-spa-o-marco-historico-de-20-bilhoes-de-dolares-que-sustenta-sua-soberania-em-maranello-8634",
+    "title": "Ferrari S.p.A.: O Marco Histórico de 20 Bilhões de Dólares que Sustenta sua Soberania em Maranello",
+    "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNXzJERWdrUmYzOGRxZ0RkUnpZNS11R0RNd19zSEQxRVhwdlY0OERkUnJRU2NFT0R1V0VFNURZQ2Fzb3BtcW1sb0wxbnl3SUFZaHpMQVM1YUsyRE95bldhOGtaQkZzNWJURnhJajVid29ZWUhUTG5yRnlXb1RkQUlGbUctR0RXT0UtMC1LSVFVMWNCanRtWHNqZFlZLUc?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-10-29T16:16:18.637Z"
+  },
+  {
     "id": "art-fp-journe-chronometre-bleu-a-rar-9385",
     "slug": "fp-journe-chronometre-bleu-a-rara-caixa-de-tantalo-de-ponto-de-fusao-a-3000c-que-valorizou-400-no-mercado-secundario-9369",
     "title": "F.P. Journe Chronomètre Bleu: A Rara Caixa de Tântalo de Ponto de Fusão a 3.000°C que Valorizou 400% no Mercado Secundário",

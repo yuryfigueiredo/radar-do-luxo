@@ -15,8 +15,8 @@ export const EDITORIAL_RETRY_QUEUE = [
       "telemetria": "Calibração de pista homologada",
       "curadoria": "Gabriel Fontes"
     },
-    "lastAttemptAt": "2026-10-29T16:19:47.995Z",
+    "lastAttemptAt": "2026-10-29T16:22:55.505Z",
     "queuedAt": "2026-10-29T16:19:47.995Z",
-    "attempts": 1
+    "attempts": 2
   }
 ];
