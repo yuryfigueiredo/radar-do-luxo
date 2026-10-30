@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-houston-mansion-a-soberana-propr-8357",
+    "slug": "houston-mansion-a-soberana-propriedade-neoclassica-de-219-milhoes-que-abrigou-o-barao-enrico-di-portanova-e-sua-piscina-de-vidro-monumental-8338",
+    "title": "Houston Mansion: A Soberana Propriedade Neoclássica de $21,9 Milhões que Abrigou o Barão Enrico di Portanova e Sua Piscina de Vidro Monumental",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "HOMOLOGADO PELO RADAR",
+    "date": "30 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://robbreport.com/wp-content/uploads/2026/10/2115-River-Oaks-Boulevard_Pavilion.jpg",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Um testamento arquitetônico em travertino romano navona e custódia fiduciária onde a soberania patrimonial encontra o silêncio mineral da opulência dinástica.",
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído estridente. O patrimônio dinástico, por sua vez, busca o silêncio mineral de uma fachada neoclássica projetada para resistir aos séculos. Esta propriedade de 21,9 milhões de dólares em Houston não é um mero refúgio de liquidez imobiliária. Trata-se de um monumento erguido pela excentricidade calculada do Barão Enrico di Portanova, onde a governança familiar encontrou o hedonismo arquitetônico das grandes lendas europeias.",
+      "A estrutura abriga um pavilhão de entretenimento e uma piscina monumental envidraçada que desafia os cânones construtivos do Texas. Sob o rigor de colunas monumentais e pisos em mármore polido à mão, cada metro quadrado respira a herança de uma era em que os salões recebiam figuras da magnitude de James Bond e a realeza internacional. A engenharia do espaço combina paredes estruturais de espessura imponente com caixilhamentos de aço reforçado, garantindo imunidade temporal absoluta.",
+      "Enquanto os mercados flutuam e os ativos digitais evaporam em milissegundos, o refúgio do Barão permanece imune às intempéries da especulação moderna. A propriedade consolida-se como um ativo de preservação de capital intransigível, inserida nos enclaves mais restritos do Texas. Famílias com visão de longo prazo reconhecem que a raridade de tal loteamento urbano jamais será replicada pelas construtoras contemporâneas.",
+      "Adquirir este patrimônio é assinar um contrato com a eternidade. Henrique Vianna chancela a transação não como uma aquisição residencial, mas como a absorção de um artefato histórico de soberania inegociável. Aqui, o passado aristocrático e o futuro da custódia fiduciária fundem-se em uma única e definitiva linha de horizonte."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente faz ruído estridente. O patrimônio dinástico, por sua vez, busca o silêncio mineral de uma fachada neoclássica projetada para resistir aos séculos. Esta propriedade de 21,9 milhões de dólares em Houston não é um mero refúgio de liquidez imobiliária. Trata-se de um monumento erguido pela excentricidade calculada do Barão Enrico di Portanova, onde a governança familiar encontrou o hedonismo arquitetônico das grandes lendas europeias.",
+      "A estrutura abriga um pavilhão de entretenimento e uma piscina monumental envidraçada que desafia os cânones construtivos do Texas. Sob o rigor de colunas monumentais e pisos em mármore polido à mão, cada metro quadrado respira a herança de uma era em que os salões recebiam figuras da magnitude de James Bond e a realeza internacional. A engenharia do espaço combina paredes estruturais de espessura imponente com caixilhamentos de aço reforçado, garantindo imunidade temporal absoluta.",
+      "Enquanto os mercados flutuam e os ativos digitais evaporam em milissegundos, o refúgio do Barão permanece imune às intempéries da especulação moderna. A propriedade consolida-se como um ativo de preservação de capital intransigível, inserida nos enclaves mais restritos do Texas. Famílias com visão de longo prazo reconhecem que a raridade de tal loteamento urbano jamais será replicada pelas construtoras contemporâneas.",
+      "Adquirir este patrimônio é assinar um contrato com a eternidade. Henrique Vianna chancela a transação não como uma aquisição residencial, mas como a absorção de um artefato histórico de soberania inegociável. Aqui, o passado aristocrático e o futuro da custódia fiduciária fundem-se em uma única e definitiva linha de horizonte."
+    ],
+    "specs": {
+      "Avaliação Patrimonial": "$21.900.000 USD",
+      "Arquitetura": "Neoclássico Europeu",
+      "Acabamento Estrutural": "Travertino Romano Navona",
+      "Ativo Exclusivo": "Pavilhão de Piscina Envidados",
+      "Custódia": "Governança Dinástica"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 86,
+    "ranking_score": 86,
+    "publishedAt": "2026-10-30T16:36:48.357Z",
+    "published_at": "2026-10-30T16:36:48.357Z",
+    "sourceUrl": "https://robbreport.com/shelter/homes-for-sale/baron-ricky-di-portanova-houston-mansion-1238796678/",
+    "source_url": "https://robbreport.com/shelter/homes-for-sale/baron-ricky-di-portanova-houston-mansion-1238796678/"
+  },
+  {
     "id": "art-girard-perregaux-laureato-fifty--7511",
     "slug": "girard-perregaux-laureato-fifty-three-gold-bridges-a-trilogia-de-pontes-em-ouro-macico-forjada-na-vallee-de-joux-com-53-micrometros-de-tolerancia-7498",
     "title": "Girard-Perregaux Laureato Fifty Three Gold Bridges: A Trilogia de Pontes em Ouro Maciço Forjada na Vallée de Joux com 53 Micrômetros de Tolerância",
@@ -1344,66 +1395,17 @@ export const ARTICLES = [
     "ranking_score": 95,
     "publishedAt": "2026-10-25T23:35:49.428Z",
     "published_at": "2026-10-25T23:35:49.428Z"
-  },
-  {
-    "id": "art-cofres-suicos-de-alta-seguranca--1254",
-    "slug": "cofres-suicos-de-alta-seguranca-o-aporte-de-35-em-ouro-fisico-e-artefato-unico-que-blindam-fortunas-dinasticas-contra-a-desordem-cambial-1240",
-    "title": "Cofres Suíços de Alta Segurança: O Aporte de 35% em Ouro Físico e Artefato Único que Blindam Fortunas Dinásticas contra a Desordem Cambial",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
-    "date": "25 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Em Zurique e Londres, os comitês de governança dinástica reescrevem as regras da custódia fiduciária diante da erosão dos títulos públicos.",
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nos escritórios subterrâneos de Zurique, os gráficos de volatilidade da dívida soberana acionaram protocolos de emergência que ignoram qualquer otimismo de mercado. Gestores de fortunas se afastam dos ativos sintéticos para recomprar a materialidade do mundo tangível. A soberania patrimonial exige paredes de aço de alta densidade.",
-      "A alocação em barras de ouro numeradas individualmente cresceu exatamente trinta e cinco por cento nos últimos doze meses. Não se trata de especulação cambial. Trata-se de uma fuga cirúrgica rumo à imunidade temporal. Cada quilo de metal refinado em fundições suíças certificadas representa um ponto de ancoragem contra a inflação estrutural e a degradação sistêmica das moedas fiduciárias globais.",
-      "Paralelamente, peças únicas de alta relojoaria e telas de mestres antigos migram para cofres blindados sob temperatura e umidade controladas por nitrogênio. Esses ativos não sofrem correlação com os balanços bancários. Eles carregam valor intrínseco, histórico e inalienável. Enquanto os algoritmos de alta frequency trading queimam capital em frações de microssegundo, os cofres de Genebra acumulam refúgios de liquidez intransponíveis.",
-      "A arquitetura invisível dos family offices modernos prioriza a blindagem perpétua sobre o crescimento artificial. Quando o papel moeda se desfaz em promessas vazias, o travertino romano navona e as barras fundidas restam como os únicos guardiões da civilização financeira. O futuro pertence apenas a quem domina a arte de possuir o que não pode ser impresso."
-    ],
-    "content_paragraphs": [
-      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nos escritórios subterrâneos de Zurique, os gráficos de volatilidade da dívida soberana acionaram protocolos de emergência que ignoram qualquer otimismo de mercado. Gestores de fortunas se afastam dos ativos sintéticos para recomprar a materialidade do mundo tangível. A soberania patrimonial exige paredes de aço de alta densidade.",
-      "A alocação em barras de ouro numeradas individualmente cresceu exatamente trinta e cinco por cento nos últimos doze meses. Não se trata de especulação cambial. Trata-se de uma fuga cirúrgica rumo à imunidade temporal. Cada quilo de metal refinado em fundições suíças certificadas representa um ponto de ancoragem contra a inflação estrutural e a degradação sistêmica das moedas fiduciárias globais.",
-      "Paralelamente, peças únicas de alta relojoaria e telas de mestres antigos migram para cofres blindados sob temperatura e umidade controladas por nitrogênio. Esses ativos não sofrem correlação com os balanços bancários. Eles carregam valor intrínseco, histórico e inalienável. Enquanto os algoritmos de alta frequency trading queimam capital em frações de microssegundo, os cofres de Genebra acumulam refúgios de liquidez intransponíveis.",
-      "A arquitetura invisível dos family offices modernos prioriza a blindagem perpétua sobre o crescimento artificial. Quando o papel moeda se desfaz em promessas vazias, o travertino romano navona e as barras fundidas restam como os únicos guardiões da civilização financeira. O futuro pertence apenas a quem domina a arte de possuir o que não pode ser impresso."
-    ],
-    "specs": {
-      "Custódia Principal": "Barras de Ouro 999.9 Good Delivery",
-      "Localização dos Cofres": "Subsolos de Alta Segurança em Zurique e Genebra",
-      "Variação de Alocação": "Mais 35% em ativos tangíveis e artefatos únicos",
-      "Governança": "Family Offices Multigeracionais de Zurique e Londres",
-      "Avaliação": "Proteção Fiduciária contra Erosão Cambial"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 94,
-    "ranking_score": 94,
-    "publishedAt": "2026-10-25T22:23:21.254Z",
-    "published_at": "2026-10-25T22:23:21.254Z"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'RELOGIOS',
-    title: 'Girard-Perregaux Laureato Fifty Three ...',
-    image: 'https://monochrome-watches.com/app/uploads/2026/10/Girard-Perragaux-Laureato-Fifty-Three-Gold-Bridges-permanent-collection-review-1-600x237.jpg',
-    tag: 'DESTAQUE MUNDIAL',
-    slug: 'girard-perregaux-laureato-fifty-three-gold-bridges-a-trilogia-de-pontes-em-ouro-macico-forjada-na-vallee-de-joux-com-53-micrometros-de-tolerancia-7498'
+    category: 'ARQUITETURA',
+    title: 'Houston Mansion: A Soberana Propriedad...',
+    image: 'https://robbreport.com/wp-content/uploads/2026/10/2115-River-Oaks-Boulevard_Pavilion.jpg',
+    tag: 'HOMOLOGADO PELO RADAR',
+    slug: 'houston-mansion-a-soberana-propriedade-neoclassica-de-219-milhoes-que-abrigou-o-barao-enrico-di-portanova-e-sua-piscina-de-vidro-monumental-8338'
   },
   {
     id: 'film-2',
@@ -1446,6 +1448,7 @@ export const FILMSTRIP_ITEMS = [
     slug: 'o-relatorio-reservado-de-family-offices-por-que-as-dinastias-globais-estao-trocando-ativos-digitais-por-ouro-fisico-em-bunkers-suicos'
   }
 ];
+
 
 
 

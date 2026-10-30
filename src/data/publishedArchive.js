@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-houston-mansion-a-soberana-propr-8357",
+    "slug": "houston-mansion-a-soberana-propriedade-neoclassica-de-219-milhoes-que-abrigou-o-barao-enrico-di-portanova-e-sua-piscina-de-vidro-monumental-8338",
+    "title": "Houston Mansion: A Soberana Propriedade Neoclássica de $21,9 Milhões que Abrigou o Barão Enrico di Portanova e Sua Piscina de Vidro Monumental",
+    "image": "https://robbreport.com/wp-content/uploads/2026/10/2115-River-Oaks-Boulevard_Pavilion.jpg",
+    "sourceUrl": "https://robbreport.com/shelter/homes-for-sale/baron-ricky-di-portanova-houston-mansion-1238796678/",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "publishedAt": "2026-10-30T16:36:48.357Z"
+  },
+  {
     "id": "art-girard-perregaux-laureato-fifty--7511",
     "slug": "girard-perregaux-laureato-fifty-three-gold-bridges-a-trilogia-de-pontes-em-ouro-macico-forjada-na-vallee-de-joux-com-53-micrometros-de-tolerancia-7498",
     "title": "Girard-Perregaux Laureato Fifty Three Gold Bridges: A Trilogia de Pontes em Ouro Maciço Forjada na Vallée de Joux com 53 Micrômetros de Tolerância",

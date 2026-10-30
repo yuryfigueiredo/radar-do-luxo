@@ -229,7 +229,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://robbreport.com/wp-content/uploads/2026/10/2115-River-Oaks-Boulevard_Pavilion.jpg",
     "imageIsFallback": false,
-    "status": "available"
+    "status": "published"
   },
   {
     "id": "pauta-live-relogios-mvu53tih-bnmh",
@@ -283,7 +283,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://monochrome-watches.com/app/uploads/2026/10/Nomos-Club-38-new-larger-size-review-1-600x237.jpg",
     "imageIsFallback": false,
-    "status": "available"
+    "status": "expired"
   },
   {
     "id": "pauta-live-arquitetura-mvtqzlbu-laz3",
@@ -310,7 +310,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://robbreport.com/wp-content/uploads/2026/10/the-rolling-stones-recruitment-letter-brian-jones-charlie-watts-3.jpg",
     "imageIsFallback": false,
-    "status": "available"
+    "status": "expired"
   },
   {
     "id": "pauta-live-arquitetura-mvtqzlbv-9qzr",
@@ -337,7 +337,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://robbreport.com/wp-content/uploads/2026/10/david-hasselhoff-kitt-tour-car-01.jpg",
     "imageIsFallback": false,
-    "status": "available"
+    "status": "expired"
   }
 ];
 
