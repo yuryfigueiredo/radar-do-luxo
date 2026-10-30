@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-sothebys-os-10-milhoes-de-dolare-5644",
+    "slug": "sothebys-os-10-milhoes-de-dolares-da-colecao-pauline-karpidas-e-a-soberania-patrimonial-de-ativos-fisicos-raros-5641",
+    "title": "Sotheby's: Os 10 Milhões de Dólares da Coleção Pauline Karpidas e a Soberania Patrimonial de Ativos Físicos Raros",
+    "image": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWnFOQ25JbnpweWlPamVXeERiX2labjNFcW1VQ2pNbTlIMG5tYWhQNFI0d3M2RnRxcmF2MXBKdi01X05iaHZBSXljRjZ4MUJicF80VENDMWhkOXJTaWpCOHBScWl3YVJ4OHNCbUJvUWdINVdJeHNOQkxNWWRTLTRkeHlNRlM0bXNCSVprc2gxcmZtSUFudHpXN3lGUmFiZEhJZ0xDMWU0eFA3dTVG?oc=5",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "publishedAt": "2026-10-30T22:57:05.644Z"
+  },
+  {
     "id": "art-benetti-motopanfilo-37m-o-casco--4274",
     "slug": "benetti-motopanfilo-37m-o-casco-semidislocante-de-37-metros-que-domina-a-hidrodinamica-com-efeito-solo-e-fibra-de-vidro-infundida-a-vacuo-4272",
     "title": "Benetti Motopanfilo 37M: O Casco Semidislocante de 37 Metros que Domina a Hidrodinâmica com Efeito Solo e Fibra de Vidro Infundida a Vácuo",

@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-sothebys-os-10-milhoes-de-dolare-5644",
+    "slug": "sothebys-os-10-milhoes-de-dolares-da-colecao-pauline-karpidas-e-a-soberania-patrimonial-de-ativos-fisicos-raros-5641",
+    "title": "Sotheby's: Os 10 Milhões de Dólares da Coleção Pauline Karpidas e a Soberania Patrimonial de Ativos Físicos Raros",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "HOMOLOGADO PELO RADAR",
+    "date": "30 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A iminente dispersão da custódia fiduciária de Pauline Karpidas na Sotheby's revela o triunfo definitivo de ativos tangíveis diante da volatilidade crônica dos mercados globais de ações.",
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nas capitais financeiras, a liquidez digital consome a si mesma em ciclos efêmeros de volatilidade bursátil. Enquanto algoritmos de alta frequência dizimam carteiras de ações em frações de segundo, os colecionadores de soberania patrimonial redirecionam seus family offices para refúgios de densidade absoluta. A iminente hasta pública de joias históricas reunidas por Pauline Karpidas na Sotheby's opera como uma cátedra sobre a imunidade temporal que apenas a matéria-prima intocada consegue sustentar diante dos colapsos sistêmicos.",
+      "Avaliada conservadoramente em dez milhões de dólares, esta curadoria privada transcende o mero ornamento corporativo. Estamos diante de ativos físicos que ignoram a inflação de fiat currencies e as flutuações especulativas de índices acionários. Cada gema de proveniência imaculada e cada montura arquitetônica em platina e ouro amarelo representam uma reserva de valor testada pelos séculos. A custódia fiduciária destas peças exige governança dinástica, blindando o capital contra a obsolescência programada do papel-moeda e garantindo transmissão transgeracional sem atrito fiscal.",
+      "Os leilões de alta curadoria funcionam como o termômetro mais rigoroso da arquitetura de grandes fortunas. Quando colecionadores de pulso firme decidem desmobilizar frações de seus portfólios para adquirir metais e gemas formados nas entranhas da Terra há eras, enviam uma mensagem inequívoca aos mercados. O valor real reside na escassez geológica e na manufatura humana irreplicável. Nenhuma tese macroeconômica sobrevive a uma quebra de confiança institucional, mas um diamante de corte antigo ou uma safira cachemira intacta permanecem inabaláveis nas fundações de um cofre fortificado.",
+      "Henrique Vianna assina este diagnóstico a partir da observação fria dos movimentos que moldam a aristocracia financeira contemporânea. A venda Karpidas consolida o ecossistema dos grandes leilões internacionais não como um espaço de vaidades, mas como o principal baluarte de preservação patrimonial da Europa e das Américas. Enquanto o capital volátil evapora em derivativos digitais, os verdadeiros guardiões da riqueza estruturam o porvir com o peso intransponível da história esculpida em joias de proveniência soberana."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nas capitais financeiras, a liquidez digital consome a si mesma em ciclos efêmeros de volatilidade bursátil. Enquanto algoritmos de alta frequência dizimam carteiras de ações em frações de segundo, os colecionadores de soberania patrimonial redirecionam seus family offices para refúgios de densidade absoluta. A iminente hasta pública de joias históricas reunidas por Pauline Karpidas na Sotheby's opera como uma cátedra sobre a imunidade temporal que apenas a matéria-prima intocada consegue sustentar diante dos colapsos sistêmicos.",
+      "Avaliada conservadoramente em dez milhões de dólares, esta curadoria privada transcende o mero ornamento corporativo. Estamos diante de ativos físicos que ignoram a inflação de fiat currencies e as flutuações especulativas de índices acionários. Cada gema de proveniência imaculada e cada montura arquitetônica em platina e ouro amarelo representam uma reserva de valor testada pelos séculos. A custódia fiduciária destas peças exige governança dinástica, blindando o capital contra a obsolescência programada do papel-moeda e garantindo transmissão transgeracional sem atrito fiscal.",
+      "Os leilões de alta curadoria funcionam como o termômetro mais rigoroso da arquitetura de grandes fortunas. Quando colecionadores de pulso firme decidem desmobilizar frações de seus portfólios para adquirir metais e gemas formados nas entranhas da Terra há eras, enviam uma mensagem inequívoca aos mercados. O valor real reside na escassez geológica e na manufatura humana irreplicável. Nenhuma tese macroeconômica sobrevive a uma quebra de confiança institucional, mas um diamante de corte antigo ou uma safira cachemira intacta permanecem inabaláveis nas fundações de um cofre fortificado.",
+      "Henrique Vianna assina este diagnóstico a partir da observação fria dos movimentos que moldam a aristocracia financeira contemporânea. A venda Karpidas consolida o ecossistema dos grandes leilões internacionais não como um espaço de vaidades, mas como o principal baluarte de preservação patrimonial da Europa e das Américas. Enquanto o capital volátil evapora em derivativos digitais, os verdadeiros guardiões da riqueza estruturam o porvir com o peso intransponível da história esculpida em joias de proveniência soberana."
+    ],
+    "specs": {
+      "casa_de_leiloes": "Sotheby's",
+      "colecao": "Pauline Karpidas Jewelry Collection",
+      "avaliacao_fiduciaria": "USD 10 Milhões",
+      "natureza_do_ativo": "Ativo Físico de Custódia Fiduciária",
+      "perfil_de_alocacao": "Reserva de Valor Imune à Volatilidade Bursátil"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 86,
+    "ranking_score": 86,
+    "publishedAt": "2026-10-30T22:57:05.644Z",
+    "published_at": "2026-10-30T22:57:05.644Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWnFOQ25JbnpweWlPamVXeERiX2labjNFcW1VQ2pNbTlIMG5tYWhQNFI0d3M2RnRxcmF2MXBKdi01X05iaHZBSXljRjZ4MUJicF80VENDMWhkOXJTaWpCOHBScWl3YVJ4OHNCbUJvUWdINVdJeHNOQkxNWWRTLTRkeHlNRlM0bXNCSVprc2gxcmZtSUFudHpXN3lGUmFiZEhJZ0xDMWU0eFA3dTVG?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWnFOQ25JbnpweWlPamVXeERiX2labjNFcW1VQ2pNbTlIMG5tYWhQNFI0d3M2RnRxcmF2MXBKdi01X05iaHZBSXljRjZ4MUJicF80VENDMWhkOXJTaWpCOHBScWl3YVJ4OHNCbUJvUWdINVdJeHNOQkxNWWRTLTRkeHlNRlM0bXNCSVprc2gxcmZtSUFudHpXN3lGUmFiZEhJZ0xDMWU0eFA3dTVG?oc=5"
+  },
+  {
     "id": "art-benetti-motopanfilo-37m-o-casco--4274",
     "slug": "benetti-motopanfilo-37m-o-casco-semidislocante-de-37-metros-que-domina-a-hidrodinamica-com-efeito-solo-e-fibra-de-vidro-infundida-a-vacuo-4272",
     "title": "Benetti Motopanfilo 37M: O Casco Semidislocante de 37 Metros que Domina a Hidrodinâmica com Efeito Solo e Fibra de Vidro Infundida a Vácuo",
@@ -1347,69 +1398,17 @@ export const ARTICLES = [
     "published_at": "2026-10-27T00:25:57.536Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdXRWVV9WWVJMZ3Q0ZUxmTHZwbDcxR3kxS1BPS0l5V1E5ZGQwUW5LWXYzdFRST251THV6dXh6TVFya1NmMHRfcGltNDZuaktZQTFDcjEwTTVMbHo3bm44NmVMSVVXdzdSTUxheWxUYmVpR0c0S2wwODFTcHZuR2RoeHREVjI5SGlhc3U3Vmd1RmpSMHVCb1N1Z1U4RWFkdHh6cmF2dll1bnRLOXVVOXdGWFNEOGNMcTNzZkhILTFONFZXSUM4WFdqeFVOMWRlRWMtZGxCZVNkZkY1aXNKSDNoX1FlaXBQTW5udjJ4dWs2Mms?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdXRWVV9WWVJMZ3Q0ZUxmTHZwbDcxR3kxS1BPS0l5V1E5ZGQwUW5LWXYzdFRST251THV6dXh6TVFya1NmMHRfcGltNDZuaktZQTFDcjEwTTVMbHo3bm44NmVMSVVXdzdSTUxheWxUYmVpR0c0S2wwODFTcHZuR2RoeHREVjI5SGlhc3U3Vmd1RmpSMHVCb1N1Z1U4RWFkdHh6cmF2dll1bnRLOXVVOXdGWFNEOGNMcTNzZkhILTFONFZXSUM4WFdqeFVOMWRlRWMtZGxCZVNkZkY1aXNKSDNoX1FlaXBQTW5udjJ4dWs2Mms?oc=5"
-  },
-  {
-    "id": "art-vacheron-constantin-les-cabinoti-0905",
-    "slug": "vacheron-constantin-les-cabinotiers-a-obra-mestra-de-40-complicacoes-em-platina-que-exigiu-8-anos-de-calculo-astronomico-em-genebra-0895",
-    "title": "Vacheron Constantin Les Cabinotiers: A Obra-Mestra de 40 Complicações em Platina que Exigiu 8 Anos de Cálculo Astronômico em Genebra",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "category_slug": "relogios",
-    "authorSlug": "clara-meirelles",
-    "author_slug": "clara-meirelles",
-    "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
-    "date": "26 de outubro de 2026",
-    "readTime": "6 min de leitura",
-    "read_time": "6 min de leitura",
-    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "No santuário reservado do Les Cabinotiers, a mais antiga manufatura contínua do mundo ergue um monumento de platina onde o tempo sideral e as marés gravitacionais obedecem a uma arquitetura mecânica de quarenta complicações.",
-    "contentParagraphs": [
-      "O silêncio do ateliê é cortado apenas pelo tique-taque metódico de duzentos componentes microscópicos dançando em absoluta harmonia. Foram necessários exatos oito anos de cálculos astronômicos e puras equações solares para traduzir a mecânica celeste em engrenagens visíveis. A matéria-prima escolhida foi a platina sólida, pesada e fria ao toque, abrigando um calibre de manufatura que desafia os limites históricos da microengenharia suíça.",
-      "Cada uma das quarenta complicações exige uma coreografia invisível de molas e barriletes duplos. O mostrador duplo expõe gráficos complexos de equações do tempo, cartas celestes ajustadas para coordenadas geográficas específicas e o balé perpétuo do turbilhão. A precisão não admite desvios. O erro tolerado é inferior ao sopro do vento sobre o lago Lemano, garantindo imunidade temporal absoluta a esta peça única.",
-      "As pontes de latão banhado a ródio recebem o tratamento manual de anglage com sabugueiro silvestre e polimento de cantos vivos executado com buril de aço. Nenhuma máquina moderna consegue replicar a irregularidade artística que o toque humano imprime nas superfícies internas. O esmalte Grand Feu aplicado no mostrador passa por sucessivas queimas a 820°C, vitrificando o azul profundo que simula a imensidão do cosmos.",
-      "Trata-se de uma soberania patrimonial que recusa a pressa do mundo contemporâneo e o descarte digital. O comprador desta peça não adquire um instrumento de medição, mas a custódia fiduciária de um legado secular guardado na Vallée de Joux. Aqui, o tempo deixa de ser um recurso escasso para se tornar uma tela mecânica esculpida pelas mãos mais pacientes da Europa.",
-      "O enceramento do couro Box Calf que reveste a caixa de apresentação sela o pacto entre a tradição de Genebra e a eternidade. Quando o relógio for entregue ao seu legítimo guardião, as engrenagens em aço temperado continuarão a registrar o pulso do universo, imunes às modas efêmeras e aos ruídos da modernidade líquida."
-    ],
-    "content_paragraphs": [
-      "O silêncio do ateliê é cortado apenas pelo tique-taque metódico de duzentos componentes microscópicos dançando em absoluta harmonia. Foram necessários exatos oito anos de cálculos astronômicos e puras equações solares para traduzir a mecânica celeste em engrenagens visíveis. A matéria-prima escolhida foi a platina sólida, pesada e fria ao toque, abrigando um calibre de manufatura que desafia os limites históricos da microengenharia suíça.",
-      "Cada uma das quarenta complicações exige uma coreografia invisível de molas e barriletes duplos. O mostrador duplo expõe gráficos complexos de equações do tempo, cartas celestes ajustadas para coordenadas geográficas específicas e o balé perpétuo do turbilhão. A precisão não admite desvios. O erro tolerado é inferior ao sopro do vento sobre o lago Lemano, garantindo imunidade temporal absoluta a esta peça única.",
-      "As pontes de latão banhado a ródio recebem o tratamento manual de anglage com sabugueiro silvestre e polimento de cantos vivos executado com buril de aço. Nenhuma máquina moderna consegue replicar a irregularidade artística que o toque humano imprime nas superfícies internas. O esmalte Grand Feu aplicado no mostrador passa por sucessivas queimas a 820°C, vitrificando o azul profundo que simula a imensidão do cosmos.",
-      "Trata-se de uma soberania patrimonial que recusa a pressa do mundo contemporâneo e o descarte digital. O comprador desta peça não adquire um instrumento de medição, mas a custódia fiduciária de um legado secular guardado na Vallée de Joux. Aqui, o tempo deixa de ser um recurso escasso para se tornar uma tela mecânica esculpida pelas mãos mais pacientes da Europa.",
-      "O enceramento do couro Box Calf que reveste a caixa de apresentação sela o pacto entre a tradição de Genebra e a eternidade. Quando o relógio for entregue ao seu legítimo guardião, as engrenagens em aço temperado continuarão a registrar o pulso do universo, imunes às modas efêmeras e aos ruídos da modernidade líquida."
-    ],
-    "specs": {
-      "Manufatura": "Vacheron Constantin Les Cabinotiers, Genebra",
-      "Calibre": "Movimento mecânico de corda manual com 40 complicações",
-      "Material da Caixa": "Platina 950 com diâmetro sob medida",
-      "Acabamento": "Anglage manual, biselamento e polimento a buril",
-      "Tiragem": "Peça única (Unique Piece)",
-      "Avaliação Patrimonial": "Confidencial sob consulta privada"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 97,
-    "ranking_score": 97,
-    "publishedAt": "2026-10-26T00:52:10.905Z",
-    "published_at": "2026-10-26T00:52:10.905Z"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'DESTINOS',
-    title: 'Benetti Motopanfilo 37M: O Casco Semid...',
-    image: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=max&q=80&w=1400',
-    tag: 'DESTAQUE MUNDIAL',
-    slug: 'benetti-motopanfilo-37m-o-casco-semidislocante-de-37-metros-que-domina-a-hidrodinamica-com-efeito-solo-e-fibra-de-vidro-infundida-a-vacuo-4272'
+    category: 'ARQUITETURA',
+    title: 'Sotheby\'s: Os 10 Milhões de Dólares d...',
+    image: 'https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=max&q=80&w=1400',
+    tag: 'HOMOLOGADO PELO RADAR',
+    slug: 'sothebys-os-10-milhoes-de-dolares-da-colecao-pauline-karpidas-e-a-soberania-patrimonial-de-ativos-fisicos-raros-5641'
   },
   {
     id: 'film-2',
@@ -1452,6 +1451,7 @@ export const FILMSTRIP_ITEMS = [
     slug: 'o-relatorio-reservado-de-family-offices-por-que-as-dinastias-globais-estao-trocando-ativos-digitais-por-ouro-fisico-em-bunkers-suicos'
   }
 ];
+
 
 
 
