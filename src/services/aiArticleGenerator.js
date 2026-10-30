@@ -90,7 +90,7 @@ export const HOMOLOGATED_IMAGES = {
   relogios: [
     'https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=max&q=85&w=1800',
     'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=max&q=85&w=1800',
-    'https://images.unsplash.com/photo-1547996160-71dfabb1a7b1?auto=format&fit=max&q=85&w=1800',
+    'https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=max&q=85&w=1800',
     'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=max&q=85&w=1800'
   ],
   arquitetura: [

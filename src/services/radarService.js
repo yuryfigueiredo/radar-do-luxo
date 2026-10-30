@@ -2,13 +2,14 @@ import { supabase, isSupabaseConfigured } from '../lib/supabase.js';
 import { ARTICLES, AUTHORS, WEEKLY_DROPS } from '../data/mockData.js';
 import { INITIAL_HOT_PAUTAS } from '../data/hotFeedsData.js';
 import { calculateEditorialScore, calculateCapaWeight } from './rankingEngine.js';
+import { sameStory } from './editorialDedupe.js';
 
 const LOCAL_STORAGE_ARTICLES_KEY = 'radar_custom_articles';
 const LOCAL_STORAGE_DROPS_KEY = 'radar_custom_drops';
 const LOCAL_STORAGE_SUBSCRIBERS_KEY = 'radar_newsletter_subscribers';
 const LOCAL_STORAGE_CONCIERGE_KEY = 'radar_concierge_inquiries';
 const LOCAL_STORAGE_VERSION_KEY = 'radar_content_version';
-export const CURRENT_CONTENT_VERSION = 'v3.0_1793378568361';
+export const CURRENT_CONTENT_VERSION = 'v3.0_1793381507293';
 
 function slugifyArticlePart(value) {
   return String(value || '')
@@ -75,6 +76,73 @@ function getHotPautaFallback(slug) {
   };
 }
 
+function getPhotoIdFromUrl(url) {
+  if (!url) return '';
+  const match = String(url).match(/photo-[a-z0-9\-]+/i);
+  return match ? match[0] : '';
+}
+
+/**
+ * Remove repetições do acervo: mesmo id, slug, título, foto ou mesma história
+ * republicada com outro título. Precisa rodar em TODA saída do acervo, inclusive
+ * logo após uma troca de versão de conteúdo — é aí que as duplicatas antigas
+ * voltavam a aparecer.
+ */
+function dedupeArticles(list) {
+  if (!Array.isArray(list)) return [];
+
+  const seenIds = new Set();
+  const seenSlugs = new Set();
+  const seenTitles = new Set();
+  const seenPhotoIds = new Set();
+  const keptTitles = [];
+  const cleanList = [];
+
+  for (const art of list) {
+    if (!art) continue;
+    const idKey = (art.id || '').trim();
+    const slugKey = (art.slug || '').trim().toLowerCase();
+    const titleKey = (art.title || '').trim().toLowerCase();
+    const photoId = getPhotoIdFromUrl(art.image);
+
+    if (idKey && seenIds.has(idKey)) continue;
+    if (slugKey && seenSlugs.has(slugKey)) continue;
+    if (titleKey && seenTitles.has(titleKey)) continue;
+    if (photoId && seenPhotoIds.has(photoId)) continue;
+    if (titleKey && keptTitles.some(keptTitle => sameStory(keptTitle, art.title))) continue;
+
+    if (idKey) seenIds.add(idKey);
+    if (slugKey) seenSlugs.add(slugKey);
+    if (titleKey) {
+      seenTitles.add(titleKey);
+      keptTitles.push(art.title);
+    }
+    if (photoId) seenPhotoIds.add(photoId);
+    cleanList.push(art);
+  }
+
+  return cleanList;
+}
+
+/**
+ * Separa o que o usuário criou/editou no painel do acervo homologado.
+ * Matérias homologadas (mesmo id ou slug de ARTICLES) NÃO podem ser preservadas
+ * como "criação do usuário": é assim que duplicatas antigas sobreviviam a purgas
+ * e trocas de versão.
+ */
+function extractUserCreatedArticles(list) {
+  if (!Array.isArray(list)) return [];
+  const homologatedIds = new Set(ARTICLES.map(a => a.id).filter(Boolean));
+  const homologatedSlugs = new Set(ARTICLES.map(a => a.slug).filter(Boolean));
+
+  return list.filter(a => {
+    if (!a) return false;
+    if (a.isUserCreated === true || a.id?.startsWith('user-created-')) return true;
+    const isHomologated = (a.id && homologatedIds.has(a.id)) || (a.slug && homologatedSlugs.has(a.slug));
+    return !isHomologated && Boolean(a.placement || a.isHero);
+  });
+}
+
 /**
  * Helper to get locally stored articles
  */
@@ -88,14 +156,12 @@ function getLocalArticles() {
       let userCreated = [];
       if (saved) {
         try {
-          const list = JSON.parse(saved);
-          // Preserva apenas matérias criadas manualmente pelo usuário via painel
-          userCreated = list.filter(a => a.isUserCreated === true || a.id?.startsWith('user-created-') || a.id?.startsWith('art-') || a.placement || a.isHero);
+          userCreated = extractUserCreatedArticles(JSON.parse(saved));
         } catch (e) {
           userCreated = [];
         }
       }
-      const refreshedList = [...userCreated, ...ARTICLES];
+      const refreshedList = dedupeArticles([...userCreated, ...ARTICLES]);
       localStorage.setItem(LOCAL_STORAGE_ARTICLES_KEY, JSON.stringify(refreshedList));
       localStorage.setItem(LOCAL_STORAGE_VERSION_KEY, CURRENT_CONTENT_VERSION);
       return refreshedList;
@@ -103,35 +169,8 @@ function getLocalArticles() {
 
     let list = JSON.parse(saved);
 
-    // 🛡️ DEDUPLICAÇÃO RIGOROSA EM TEMPO REAL (Por Foto, Slug, Título e ID)
-    const getPhotoIdHelper = (url) => {
-      if (!url) return '';
-      const m = url.match(/photo-[a-z0-9\-]+/i);
-      return m ? m[0] : '';
-    };
-
-    const seenIds = new Set();
-    const seenSlugs = new Set();
-    const seenPhotoIds = new Set();
-    const cleanList = [];
-
-    for (const art of list) {
-      if (!art) continue;
-      const idKey = (art.id || '').trim();
-      const slugKey = (art.slug || '').trim().toLowerCase();
-      const photoId = getPhotoIdHelper(art.image);
-
-      if (idKey && seenIds.has(idKey)) continue;
-      if (slugKey && seenSlugs.has(slugKey)) continue;
-      if (photoId && seenPhotoIds.has(photoId)) continue;
-
-      if (idKey) seenIds.add(idKey);
-      if (slugKey) seenSlugs.add(slugKey);
-      if (photoId) seenPhotoIds.add(photoId);
-
-      cleanList.push(art);
-    }
-
+    // 🛡️ DEDUPLICAÇÃO RIGOROSA (id, slug, título, foto e mesma história)
+    const cleanList = dedupeArticles(list);
     if (cleanList.length !== list.length) {
       console.log('🧹 Auto-removidas ' + (list.length - cleanList.length) + ' matérias duplicadas do armazenamento local.');
       list = cleanList;
@@ -141,9 +180,10 @@ function getLocalArticles() {
     // Verificação de integridade: se a lista local estiver sem os artigos homologados vigentes
     const containsLeadingHomologated = list.some(a => a.slug === ARTICLES[0]?.slug);
     if (!containsLeadingHomologated) {
-      localStorage.setItem(LOCAL_STORAGE_ARTICLES_KEY, JSON.stringify(ARTICLES));
+      const homologatedList = dedupeArticles(ARTICLES);
+      localStorage.setItem(LOCAL_STORAGE_ARTICLES_KEY, JSON.stringify(homologatedList));
       localStorage.setItem(LOCAL_STORAGE_VERSION_KEY, CURRENT_CONTENT_VERSION);
-      return ARTICLES;
+      return homologatedList;
     }
 
     // Auto-sanitiza artigos de bilionários/Forbes e calcula rankingScore se ausente
@@ -174,7 +214,7 @@ function getLocalArticles() {
     });
     return list;
   } catch (e) {
-    return ARTICLES;
+    return dedupeArticles(ARTICLES);
   }
 }
 
@@ -183,22 +223,32 @@ function getLocalArticles() {
  */
 export function purgeDuplicatesAndRestore() {
   try {
-    localStorage.removeItem(LOCAL_STORAGE_ARTICLES_KEY);
+    let userCreated = [];
+    try {
+      const saved = localStorage.getItem(LOCAL_STORAGE_ARTICLES_KEY);
+      if (saved) userCreated = extractUserCreatedArticles(JSON.parse(saved));
+    } catch (e) {
+      userCreated = [];
+    }
+
+    const homologatedList = dedupeArticles([...userCreated, ...ARTICLES]);
+    localStorage.setItem(LOCAL_STORAGE_ARTICLES_KEY, JSON.stringify(homologatedList));
     localStorage.setItem(LOCAL_STORAGE_VERSION_KEY, CURRENT_CONTENT_VERSION);
     window.dispatchEvent(new CustomEvent('radar-data-changed', { detail: { action: 'purge' } }));
-    return ARTICLES;
+    return homologatedList;
   } catch (e) {
-    return ARTICLES;
+    return dedupeArticles(ARTICLES);
   }
 }
 
 export function resetToHomologatedArticles() {
   try {
     localStorage.removeItem(LOCAL_STORAGE_ARTICLES_KEY);
+    localStorage.setItem(LOCAL_STORAGE_VERSION_KEY, CURRENT_CONTENT_VERSION);
     window.dispatchEvent(new CustomEvent('radar-data-changed', { detail: { action: 'reset' } }));
-    return ARTICLES;
+    return dedupeArticles(ARTICLES);
   } catch (e) {
-    return ARTICLES;
+    return dedupeArticles(ARTICLES);
   }
 }
 
@@ -235,7 +285,7 @@ export async function fetchArticles(categorySlug = null) {
       const { data, error } = await query;
       if (!error && data && data.length > 0) {
         // Map database columns to app schema
-        return data.map(item => ({
+        const mapped = data.map(item => ({
           ...item,
           categorySlug: item.category_slug,
           authorSlug: item.author_slug,
@@ -247,6 +297,7 @@ export async function fetchArticles(categorySlug = null) {
           videoUrl: item.video_url,
           videoDuration: item.video_duration
         }));
+        return dedupeArticles(mapped);
       }
     } catch (err) {
       console.warn('Falha na consulta ao Supabase, alternando para local:', err);
