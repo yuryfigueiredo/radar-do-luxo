@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-girard-perregaux-laureato-fifty--7511",
+    "slug": "girard-perregaux-laureato-fifty-three-gold-bridges-a-trilogia-de-pontes-em-ouro-macico-forjada-na-vallee-de-joux-com-53-micrometros-de-tolerancia-7498",
+    "title": "Girard-Perregaux Laureato Fifty Three Gold Bridges: A Trilogia de Pontes em Ouro Maciço Forjada na Vallée de Joux com 53 Micrômetros de Tolerância",
+    "image": "https://monochrome-watches.com/app/uploads/2026/10/Girard-Perragaux-Laureato-Fifty-Three-Gold-Bridges-permanent-collection-review-1-600x237.jpg",
+    "sourceUrl": "https://monochrome-watches.com/2026-girard-perragaux-laureato-fifty-three-gold-bridges-permanent-collection-review-price/",
+    "categorySlug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "publishedAt": "2026-10-30T02:35:37.511Z"
+  },
+  {
     "id": "art-australian-superyachts-o-novo-sa-4477",
     "slug": "australian-superyachts-o-novo-santuario-naval-em-newport-que-redefine-a-hidrodinamica-oceanica-de-alta-performance-4461",
     "title": "Australian Superyachts: O Novo Santuário Naval em Newport que Redefine a Hidrodinâmica Oceânica de Alta Performance",

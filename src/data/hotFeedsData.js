@@ -43,7 +43,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://monochrome-watches.com/app/uploads/2026/10/Girard-Perragaux-Laureato-Fifty-Three-Gold-Bridges-permanent-collection-review-1-600x237.jpg",
     "imageIsFallback": false,
-    "status": "available"
+    "status": "published"
   },
   {
     "id": "pauta-live-relogios-mvu53tih-bnmh",

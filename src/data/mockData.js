@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-girard-perregaux-laureato-fifty--7511",
+    "slug": "girard-perregaux-laureato-fifty-three-gold-bridges-a-trilogia-de-pontes-em-ouro-macico-forjada-na-vallee-de-joux-com-53-micrometros-de-tolerancia-7498",
+    "title": "Girard-Perregaux Laureato Fifty Three Gold Bridges: A Trilogia de Pontes em Ouro Maciço Forjada na Vallée de Joux com 53 Micrômetros de Tolerância",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "category_slug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "author_slug": "clara-meirelles",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "30 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://monochrome-watches.com/app/uploads/2026/10/Girard-Perragaux-Laureato-Fifty-Three-Gold-Bridges-permanent-collection-review-1-600x237.jpg",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A manufatura suíça redefine os limites da arquitetura integrada ao consagrar três pontes de ouro polidas à mão sobre uma caixa esculpida para resistir ao tempo.",
+    "contentParagraphs": [
+      "O tempo não se mede em segundos frios. Ele pulsa através do silêncio mecânico da Vallée de Joux. Na bancada de montagem, o mestre relojoeiro segura o buril de aço. Cada anglage exige paciência milimétrica com sabugueiro silvestre.",
+      "A caixa integrada de aço e ouro equilibra geometria angulosa e escovação acetinada vertical. O calibre de manufatura abriga as três pontes icônicas suspensas no vazio. Tolerâncias mecânicas operam abaixo de 53 micrômetros de desvio absoluto.",
+      "Lançado originalmente em 1975, o Laureato antecipou a era dos relógios esportivos de luxo com braceletes integrados. Hoje, esta nova edição permanente eleva o design a um patamar de soberania estética incontestável.",
+      "Nenhum algoritmo substitui o esmalte Grand Feu fundido a 820°C no mostrador. O resultado é um refúgio de liquidez e permanência mecânica para colecionadores que rejeitam a obsolescência digital."
+    ],
+    "content_paragraphs": [
+      "O tempo não se mede em segundos frios. Ele pulsa através do silêncio mecânico da Vallée de Joux. Na bancada de montagem, o mestre relojoeiro segura o buril de aço. Cada anglage exige paciência milimétrica com sabugueiro silvestre.",
+      "A caixa integrada de aço e ouro equilibra geometria angulosa e escovação acetinada vertical. O calibre de manufatura abriga as três pontes icônicas suspensas no vazio. Tolerâncias mecânicas operam abaixo de 53 micrômetros de desvio absoluto.",
+      "Lançado originalmente em 1975, o Laureato antecipou a era dos relógios esportivos de luxo com braceletes integrados. Hoje, esta nova edição permanente eleva o design a um patamar de soberania estética incontestável.",
+      "Nenhum algoritmo substitui o esmalte Grand Feu fundido a 820°C no mostrador. O resultado é um refúgio de liquidez e permanência mecânica para colecionadores que rejeitam a obsolescência digital."
+    ],
+    "specs": {
+      "calibre": "Movimento mecânico de corda automática com Três Pontes de Ouro",
+      "material": "Aço inoxidável e detalhes em ouro amarelo 18k",
+      "ateliê": "Manufatura Girard-Perregaux, La Chaux-de-Fonds, Suíça",
+      "acabamento": "Anglage manual, biselamento e polimento espelhado",
+      "coleção": "Linha permanente Laureato Fifty"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 88,
+    "ranking_score": 88,
+    "publishedAt": "2026-10-30T02:35:37.511Z",
+    "published_at": "2026-10-30T02:35:37.511Z",
+    "sourceUrl": "https://monochrome-watches.com/2026-girard-perragaux-laureato-fifty-three-gold-bridges-permanent-collection-review-price/",
+    "source_url": "https://monochrome-watches.com/2026-girard-perragaux-laureato-fifty-three-gold-bridges-permanent-collection-review-price/"
+  },
+  {
     "id": "art-australian-superyachts-o-novo-sa-4477",
     "slug": "australian-superyachts-o-novo-santuario-naval-em-newport-que-redefine-a-hidrodinamica-oceanica-de-alta-performance-4461",
     "title": "Australian Superyachts: O Novo Santuário Naval em Newport que Redefine a Hidrodinâmica Oceânica de Alta Performance",
@@ -205,10 +256,10 @@ export const ARTICLES = [
       "peso": "700 kg"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 92,
@@ -1342,65 +1393,17 @@ export const ARTICLES = [
     "ranking_score": 94,
     "publishedAt": "2026-10-25T22:23:21.254Z",
     "published_at": "2026-10-25T22:23:21.254Z"
-  },
-  {
-    "id": "art-porsche-911-gt3-rs-manthey-racin-9152",
-    "slug": "porsche-911-gt3-rs-manthey-racing-o-monstro-aspirado-de-6min43s-em-nurburgring-com-calotas-de-carbono-e-pressao-de-860-kg-a-285-kmh-9137",
-    "title": "Porsche 911 GT3 RS Manthey Racing: O Monstro Aspirado de 6min43s em Nürburgring com Calotas de Carbono e Pressão de 860 kg a 285 km/h",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
-    "date": "25 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&q=80&w=1400",
-    "excerpt": "A divisão de competições em Meuspath elevou a telemetria do GT3 RS a um patamar cirúrgico, aplicando aerodinâmica de efeito solo e tolerâncias de mícrons para domar o asfalto da Nordschleife.",
-    "contentParagraphs": [
-      "O cronômetro travou em 6 minutos e 43 segundos exatos na brutalidade verde de Nürburgring. O asfalto da Nordschleife exige precisão absoluta de engenharia. Em Meuspath, a divisão de competição da Porsche refinou a telemetria mecânica pura. Cada componente foi redesenhado sob forças G laterais extremas.",
-      "As rodas traseiras receberam calotas aerodinâmicas de fibra de carbono para laminar o fluxo turbulento de ar. A suspensão de 4 vias permite ajustes milimétricos na compressão e no retorno. O monocoque trabalha em perfeita harmonia com os dutos de Venturi. A carga aerodinâmica atinge patamares absurdos de downforce em alta velocidade.",
-      "Sob o capô traseiro, o motor de aspiração natural grita até as 9.000 rotações por minuto. A resposta do acelerador é imediata, sem o atraso cinético dos turbocompressores. O escape em ligas nobres dissipa o calor com eficiência implacável. O chassi reage instantaneamente aos comandos milimétricos do piloto.",
-      "Este não é um veículo destinado à contemplação estática em garagens blindadas. Trata-se de um instrumento cirúrgico de telemetria inercial. A Manthey Racing provou que a pureza mecânica ainda supera a ditadura digital dos hipercarros contemporâneos."
-    ],
-    "content_paragraphs": [
-      "O cronômetro travou em 6 minutos e 43 segundos exatos na brutalidade verde de Nürburgring. O asfalto da Nordschleife exige precisão absoluta de engenharia. Em Meuspath, a divisão de competição da Porsche refinou a telemetria mecânica pura. Cada componente foi redesenhado sob forças G laterais extremas.",
-      "As rodas traseiras receberam calotas aerodinâmicas de fibra de carbono para laminar o fluxo turbulento de ar. A suspensão de 4 vias permite ajustes milimétricos na compressão e no retorno. O monocoque trabalha em perfeita harmonia com os dutos de Venturi. A carga aerodinâmica atinge patamares absurdos de downforce em alta velocidade.",
-      "Sob o capô traseiro, o motor de aspiração natural grita até as 9.000 rotações por minuto. A resposta do acelerador é imediata, sem o atraso cinético dos turbocompressores. O escape em ligas nobres dissipa o calor com eficiência implacável. O chassi reage instantaneamente aos comandos milimétricos do piloto.",
-      "Este não é um veículo destinado à contemplação estática em garagens blindadas. Trata-se de um instrumento cirúrgico de telemetria inercial. A Manthey Racing provou que a pureza mecânica ainda supera a ditadura digital dos hipercarros contemporâneos."
-    ],
-    "specs": {
-      "Tempo em Nürburgring": "6:43.300",
-      "Motor": "Boxer 6 cilindros 4.0 aspirado",
-      "Downforce a 285 km/h": "860 kg",
-      "Aerodinâmica": "Calotas em fibra de carbono e Venturi traseiro",
-      "Suspensão": "Calibragem Manthey de 4 vias",
-      "Avaliação": "Homologado para Pista e Rodovia"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 94,
-    "ranking_score": 94,
-    "publishedAt": "2026-10-25T20:33:19.151Z",
-    "published_at": "2026-10-25T20:33:19.151Z"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'DESTINOS',
-    title: 'Australian Superyachts: O Novo Santuár...',
-    image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800',
-    tag: 'HOMOLOGADO PELO RADAR',
-    slug: 'australian-superyachts-o-novo-santuario-naval-em-newport-que-redefine-a-hidrodinamica-oceanica-de-alta-performance-4461'
+    category: 'RELOGIOS',
+    title: 'Girard-Perregaux Laureato Fifty Three ...',
+    image: 'https://monochrome-watches.com/app/uploads/2026/10/Girard-Perragaux-Laureato-Fifty-Three-Gold-Bridges-permanent-collection-review-1-600x237.jpg',
+    tag: 'DESTAQUE MUNDIAL',
+    slug: 'girard-perregaux-laureato-fifty-three-gold-bridges-a-trilogia-de-pontes-em-ouro-macico-forjada-na-vallee-de-joux-com-53-micrometros-de-tolerancia-7498'
   },
   {
     id: 'film-2',
@@ -1443,6 +1446,7 @@ export const FILMSTRIP_ITEMS = [
     slug: 'o-relatorio-reservado-de-family-offices-por-que-as-dinastias-globais-estao-trocando-ativos-digitais-por-ouro-fisico-em-bunkers-suicos'
   }
 ];
+
 
 
 
