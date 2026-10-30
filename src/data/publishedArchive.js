@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-laurent-ferrier-grand-sport-tour-7895",
+    "slug": "laurent-ferrier-grand-sport-tourbillon-iceberg-o-cronometro-de-titanio-grao-selado-de-44mm-com-tourbillon-de-duplo-balanco-inverso-7884",
+    "title": "Laurent Ferrier Grand Sport Tourbillon Iceberg: O Cronômetro de Titânio Grão-Selado de 44mm com Tourbillon de Duplo Balanço Inverso",
+    "image": "https://monochrome-watches.com/app/uploads/2026/10/Laurent-Ferrier-Grand-Sport-Tourbillon-Iceberg-Titanium-review-8-600x237.jpg",
+    "sourceUrl": "https://monochrome-watches.com/laurent-ferrier-grand-sport-tourbillon-iceberg-titanium-integrated-sports-watch-review-price/",
+    "categorySlug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "publishedAt": "2026-10-30T19:45:17.895Z"
+  },
+  {
     "id": "art-houston-mansion-a-soberana-propr-8357",
     "slug": "houston-mansion-a-soberana-propriedade-neoclassica-de-219-milhoes-que-abrigou-o-barao-enrico-di-portanova-e-sua-piscina-de-vidro-monumental-8338",
     "title": "Houston Mansion: A Soberana Propriedade Neoclássica de $21,9 Milhões que Abrigou o Barão Enrico di Portanova e Sua Piscina de Vidro Monumental",

@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-laurent-ferrier-grand-sport-tour-7895",
+    "slug": "laurent-ferrier-grand-sport-tourbillon-iceberg-o-cronometro-de-titanio-grao-selado-de-44mm-com-tourbillon-de-duplo-balanco-inverso-7884",
+    "title": "Laurent Ferrier Grand Sport Tourbillon Iceberg: O Cronômetro de Titânio Grão-Selado de 44mm com Tourbillon de Duplo Balanço Inverso",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "category_slug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "author_slug": "clara-meirelles",
+    "type": "article",
+    "badge": "HOMOLOGADO PELO RADAR",
+    "date": "30 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://monochrome-watches.com/app/uploads/2026/10/Laurent-Ferrier-Grand-Sport-Tourbillon-Iceberg-Titanium-review-8-600x237.jpg",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A manufatura de La Chaux-de-Fonds redesenha os limites da alta relojoaria mecânica com uma caixa monolítica em titânio Grade 5 e mostrador em gradiente opalino que desafia a obsolescência temporal.",
+    "contentParagraphs": [
+      "O tempo da mecânica pura não tolera concessões digitais. Nas profundezas silenciosas da Vallée de Joux, a precisão absoluta nasce do atrito milimetricamente calculado entre engrenagens de aço polido à mão. A caixa de 44 milímetros em titânio Grade 5 do Grand Sport Tourbillon Iceberg não busca a discrição vazia, mas impõe a presença mineral de um bloco forjado para resistir aos rigores térmicos e cinéticos das pistas de corrida. Cada superfície curva revela o rigor de um acabamento acetinado vertical contrastando com chanfros polidos a espelho.",
+      "Sob o vidro de safira abaulado, o mostrador opalino com gradiente azul-gelo evoca as geleiras alpinas intocadas. No coração desta arquitetura, o calibre de manufatura LF619.01 abriga um tourbillon de dupla espiral que desafia a gravidade com uma frequência de 21.600 alternâncias por hora. A ponte do tourbillon, visível apenas através do fundo transparente da caixa, exige mais de oitenta horas de trabalho manual contínuo em anglage com sabugueiro silvestre e polimento com pasta diamantada.",
+      "A ergonomia de pulso é ditada por uma pulseira integrada de titânio com elos esculpidos em relevo curvo ou, alternadamente, por uma correia em borracha técnica com fecho desdobrável em aço. A reserva de marcha de oitenta horas, assegurada por um sistema de corda manual com roquete de lâmina longa, garante imunidade temporal prolongada para o colecionador que recusa a tirania do ajuste diário. Aqui, a herança das 24 Horas de Le Mans funde-se com a elegância de um relógio de corte clássico.",
+      "O verdadeiro luxo contemporâneo foge do ruído estridente do consumo efêmero e refugia-se na escassez matemática de tiragens limitadas a poucas dezenas de exemplares mundiais. Laurent Ferrier entrega não apenas um instrumento de medição, mas um portal para a soberania mecânica onde o tempo deixa de ser um recurso escasso e passa a ser uma obra de arte cinética sob custódia perpétua."
+    ],
+    "content_paragraphs": [
+      "O tempo da mecânica pura não tolera concessões digitais. Nas profundezas silenciosas da Vallée de Joux, a precisão absoluta nasce do atrito milimetricamente calculado entre engrenagens de aço polido à mão. A caixa de 44 milímetros em titânio Grade 5 do Grand Sport Tourbillon Iceberg não busca a discrição vazia, mas impõe a presença mineral de um bloco forjado para resistir aos rigores térmicos e cinéticos das pistas de corrida. Cada superfície curva revela o rigor de um acabamento acetinado vertical contrastando com chanfros polidos a espelho.",
+      "Sob o vidro de safira abaulado, o mostrador opalino com gradiente azul-gelo evoca as geleiras alpinas intocadas. No coração desta arquitetura, o calibre de manufatura LF619.01 abriga um tourbillon de dupla espiral que desafia a gravidade com uma frequência de 21.600 alternâncias por hora. A ponte do tourbillon, visível apenas através do fundo transparente da caixa, exige mais de oitenta horas de trabalho manual contínuo em anglage com sabugueiro silvestre e polimento com pasta diamantada.",
+      "A ergonomia de pulso é ditada por uma pulseira integrada de titânio com elos esculpidos em relevo curvo ou, alternadamente, por uma correia em borracha técnica com fecho desdobrável em aço. A reserva de marcha de oitenta horas, assegurada por um sistema de corda manual com roquete de lâmina longa, garante imunidade temporal prolongada para o colecionador que recusa a tirania do ajuste diário. Aqui, a herança das 24 Horas de Le Mans funde-se com a elegância de um relógio de corte clássico.",
+      "O verdadeiro luxo contemporâneo foge do ruído estridente do consumo efêmero e refugia-se na escassez matemática de tiragens limitadas a poucas dezenas de exemplares mundiais. Laurent Ferrier entrega não apenas um instrumento de medição, mas um portal para a soberania mecânica onde o tempo deixa de ser um recurso escasso e passa a ser uma obra de arte cinética sob custódia perpétua."
+    ],
+    "specs": {
+      "calibre": "LF619.01 de corda manual com tourbillon",
+      "caixa": "Titânio Grade 5 com 44mm de diâmetro",
+      "mostrador": "Opalino em gradiente azul-gelo com índices em ouro branco 18k",
+      "reserva_de_marcha": "80 horas com indicação no verso",
+      "tiragem": "Edição limitada de 12 exemplares mundiais",
+      "avali_em_moeda_forte": "CHF 175.000 (ex impostos)"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 87,
+    "ranking_score": 87,
+    "publishedAt": "2026-10-30T19:45:17.895Z",
+    "published_at": "2026-10-30T19:45:17.895Z",
+    "sourceUrl": "https://monochrome-watches.com/laurent-ferrier-grand-sport-tourbillon-iceberg-titanium-integrated-sports-watch-review-price/",
+    "source_url": "https://monochrome-watches.com/laurent-ferrier-grand-sport-tourbillon-iceberg-titanium-integrated-sports-watch-review-price/"
+  },
+  {
     "id": "art-houston-mansion-a-soberana-propr-8357",
     "slug": "houston-mansion-a-soberana-propriedade-neoclassica-de-219-milhoes-que-abrigou-o-barao-enrico-di-portanova-e-sua-piscina-de-vidro-monumental-8338",
     "title": "Houston Mansion: A Soberana Propriedade Neoclássica de $21,9 Milhões que Abrigou o Barão Enrico di Portanova e Sua Piscina de Vidro Monumental",
@@ -1350,11 +1402,11 @@ export const ARTICLES = [
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'ARQUITETURA',
-    title: 'Houston Mansion: A Soberana Propriedad...',
-    image: 'https://robbreport.com/wp-content/uploads/2026/10/2115-River-Oaks-Boulevard_Pavilion.jpg',
+    category: 'RELOGIOS',
+    title: 'Laurent Ferrier Grand Sport Tourbillon...',
+    image: 'https://monochrome-watches.com/app/uploads/2026/10/Laurent-Ferrier-Grand-Sport-Tourbillon-Iceberg-Titanium-review-8-600x237.jpg',
     tag: 'HOMOLOGADO PELO RADAR',
-    slug: 'houston-mansion-a-soberana-propriedade-neoclassica-de-219-milhoes-que-abrigou-o-barao-enrico-di-portanova-e-sua-piscina-de-vidro-monumental-8338'
+    slug: 'laurent-ferrier-grand-sport-tourbillon-iceberg-o-cronometro-de-titanio-grao-selado-de-44mm-com-tourbillon-de-duplo-balanco-inverso-7884'
   },
   {
     id: 'film-2',
@@ -1397,6 +1449,7 @@ export const FILMSTRIP_ITEMS = [
     slug: 'o-relatorio-reservado-de-family-offices-por-que-as-dinastias-globais-estao-trocando-ativos-digitais-por-ouro-fisico-em-bunkers-suicos'
   }
 ];
+
 
 
 
