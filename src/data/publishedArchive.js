@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-benetti-motopanfilo-37m-o-casco--4274",
+    "slug": "benetti-motopanfilo-37m-o-casco-semidislocante-de-37-metros-que-domina-a-hidrodinamica-com-efeito-solo-e-fibra-de-vidro-infundida-a-vacuo-4272",
+    "title": "Benetti Motopanfilo 37M: O Casco Semidislocante de 37 Metros que Domina a Hidrodinâmica com Efeito Solo e Fibra de Vidro Infundida a Vácuo",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNN0dSZDBpMXFfUFI3V2dNRVFHRHJpRVF5WFl0T0JLR2lGRmtrT05NSWgtekFDUDZuZFM3UzR3Y3dLOU5TdmRUSDZTOHRRWkdRaFgySFVRZnBhR3NFbFVzYko4dGxtUFY1bW1xbVlrNFN6bUJXSVRDTzFiTkJWb0xJR0ZFeVAyM3NLeHJZWmZQMmtpaUNEZVZjUDBUUU1SeS03cmV6bi1PM0RrTzU3VVFJUdIBugFBVV95cUxObFVxM08yUDZaVmloY003V2NnWlNqUWUtUF9uYzlJSUk2WWx1TjE5RWVFYkFJME5mdVpwUkFDV2V3TXY4NXpMX1Z6eVBqS0hyYmNBX21FSVpKclkzUFRuQjRmZjI1RXhPQWE2ZTYtY3U1NVltSjVOWXBYOTVsaTI0c1p2YUowTzdWX1BJeHE3VEJDUG9fazJ1Zm1LQVRVMjc5YUVUNFFSUnQ3Z3AwcVJCckxBREkwNXBBdkE?oc=5",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-10-30T22:24:44.274Z"
+  },
+  {
     "id": "art-laurent-ferrier-grand-sport-tour-7895",
     "slug": "laurent-ferrier-grand-sport-tourbillon-iceberg-o-cronometro-de-titanio-grao-selado-de-44mm-com-tourbillon-de-duplo-balanco-inverso-7884",
     "title": "Laurent Ferrier Grand Sport Tourbillon Iceberg: O Cronômetro de Titânio Grão-Selado de 44mm com Tourbillon de Duplo Balanço Inverso",

@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-benetti-motopanfilo-37m-o-casco--4274",
+    "slug": "benetti-motopanfilo-37m-o-casco-semidislocante-de-37-metros-que-domina-a-hidrodinamica-com-efeito-solo-e-fibra-de-vidro-infundida-a-vacuo-4272",
+    "title": "Benetti Motopanfilo 37M: O Casco Semidislocante de 37 Metros que Domina a Hidrodinâmica com Efeito Solo e Fibra de Vidro Infundida a Vácuo",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "30 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A Royal Yacht International sela a transação de mais uma obra-prima naval onde a dinâmica de fluidos computacional redefine a eficiência oceânica e o isolamento acústico absoluto.",
+    "contentParagraphs": [
+      "A água resiste. O casco avança. O Benetti Motopanfilo 37M corta o Atlântico com uma precisão cirúrgica calculada milímetro a milímetro em canais hidrodinâmicos avançados. A Royal Yacht International registrou a venda desta unidade, consolidando o triunfo de uma engenharia que rejeita o supérfluo para abraçar a pura mecânica de fluidos.",
+      "Sob a linha d'água, a arquitetura naval opera em frequências de silêncio estrutural. Os motores duplos MAN V12 entregam autonomia transoceânica enquanto coxins hidráulicos de alta densidade absorvem qualquer vibração residual. A proa bulbosa integrada suaviza a entrada na onda, gerando forças de arrasto mínimas mesmo a velocidades de cruzeiro prolongadas.",
+      "A superestrutura em compósito de fibra de vidro emprega resinas epóxi curadas sob controle térmico rigoroso. No interior, o design evoca os grandes iates clássicos dos anos 1960 reinterpretados por geometrias limpas, marcenaria em carvalho escovado e painéis de vidro laminado com tratamento acústico multicamada.",
+      "Não há concessões à efemeridade comercial neste projeto. Cada antepara soldada, cada canalização de exaustão em aço inoxidável marinho e cada curva do fluxo de Venturi do casco garantem soberania náutica absoluta para o armador que exige estóica resistência mecânica sobre as ondas."
+    ],
+    "content_paragraphs": [
+      "A água resiste. O casco avança. O Benetti Motopanfilo 37M corta o Atlântico com uma precisão cirúrgica calculada milímetro a milímetro em canais hidrodinâmicos avançados. A Royal Yacht International registrou a venda desta unidade, consolidando o triunfo de uma engenharia que rejeita o supérfluo para abraçar a pura mecânica de fluidos.",
+      "Sob a linha d'água, a arquitetura naval opera em frequências de silêncio estrutural. Os motores duplos MAN V12 entregam autonomia transoceânica enquanto coxins hidráulicos de alta densidade absorvem qualquer vibração residual. A proa bulbosa integrada suaviza a entrada na onda, gerando forças de arrasto mínimas mesmo a velocidades de cruzeiro prolongadas.",
+      "A superestrutura em compósito de fibra de vidro emprega resinas epóxi curadas sob controle térmico rigoroso. No interior, o design evoca os grandes iates clássicos dos anos 1960 reinterpretados por geometrias limpas, marcenaria em carvalho escovado e painéis de vidro laminado com tratamento acústico multicamada.",
+      "Não há concessões à efemeridade comercial neste projeto. Cada antepara soldada, cada canalização de exaustão em aço inoxidável marinho e cada curva do fluxo de Venturi do casco garantem soberania náutica absoluta para o armador que exige estóica resistência mecânica sobre as ondas."
+    ],
+    "specs": {
+      "Comprimento Total": "36,8 metros",
+      "Material do Casco": "Compósito de fibra de vidro e resina epóxi",
+      "Motorização": "2x MAN V12 (1.400 hp cada)",
+      "Velocidade de Cruzeiro": "15 nós",
+      "Autonomia": "3.800 milhas náuticas a 10 nós",
+      "Brokeragem": "Royal Yacht International"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 90,
+    "ranking_score": 90,
+    "publishedAt": "2026-10-30T22:24:44.274Z",
+    "published_at": "2026-10-30T22:24:44.274Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNN0dSZDBpMXFfUFI3V2dNRVFHRHJpRVF5WFl0T0JLR2lGRmtrT05NSWgtekFDUDZuZFM3UzR3Y3dLOU5TdmRUSDZTOHRRWkdRaFgySFVRZnBhR3NFbFVzYko4dGxtUFY1bW1xbVlrNFN6bUJXSVRDTzFiTkJWb0xJR0ZFeVAyM3NLeHJZWmZQMmtpaUNEZVZjUDBUUU1SeS03cmV6bi1PM0RrTzU3VVFJUdIBugFBVV95cUxObFVxM08yUDZaVmloY003V2NnWlNqUWUtUF9uYzlJSUk2WWx1TjE5RWVFYkFJME5mdVpwUkFDV2V3TXY4NXpMX1Z6eVBqS0hyYmNBX21FSVpKclkzUFRuQjRmZjI1RXhPQWE2ZTYtY3U1NVltSjVOWXBYOTVsaTI0c1p2YUowTzdWX1BJeHE3VEJDUG9fazJ1Zm1LQVRVMjc5YUVUNFFSUnQ3Z3AwcVJCckxBREkwNXBBdkE?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNN0dSZDBpMXFfUFI3V2dNRVFHRHJpRVF5WFl0T0JLR2lGRmtrT05NSWgtekFDUDZuZFM3UzR3Y3dLOU5TdmRUSDZTOHRRWkdRaFgySFVRZnBhR3NFbFVzYko4dGxtUFY1bW1xbVlrNFN6bUJXSVRDTzFiTkJWb0xJR0ZFeVAyM3NLeHJZWmZQMmtpaUNEZVZjUDBUUU1SeS03cmV6bi1PM0RrTzU3VVFJUdIBugFBVV95cUxObFVxM08yUDZaVmloY003V2NnWlNqUWUtUF9uYzlJSUk2WWx1TjE5RWVFYkFJME5mdVpwUkFDV2V3TXY4NXpMX1Z6eVBqS0hyYmNBX21FSVpKclkzUFRuQjRmZjI1RXhPQWE2ZTYtY3U1NVltSjVOWXBYOTVsaTI0c1p2YUowTzdWX1BJeHE3VEJDUG9fazJ1Zm1LQVRVMjc5YUVUNFFSUnQ3Z3AwcVJCckxBREkwNXBBdkE?oc=5"
+  },
+  {
     "id": "art-laurent-ferrier-grand-sport-tour-7895",
     "slug": "laurent-ferrier-grand-sport-tourbillon-iceberg-o-cronometro-de-titanio-grao-selado-de-44mm-com-tourbillon-de-duplo-balanco-inverso-7884",
     "title": "Laurent Ferrier Grand Sport Tourbillon Iceberg: O Cronômetro de Titânio Grão-Selado de 44mm com Tourbillon de Duplo Balanço Inverso",
@@ -256,10 +308,10 @@ export const ARTICLES = [
       "coleção": "Linha permanente Laureato Fifty"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 88,
@@ -1347,66 +1399,17 @@ export const ARTICLES = [
     "ranking_score": 97,
     "publishedAt": "2026-10-26T00:52:10.905Z",
     "published_at": "2026-10-26T00:52:10.905Z"
-  },
-  {
-    "id": "art-moynat-malle-limousine-o-bau-cur-9428",
-    "slug": "moynat-malle-limousine-o-bau-curvo-de-alamo-de-1902-esculpido-sob-medida-para-os-tetos-dos-torpedos-pioneiros-9414",
-    "title": "Moynat Malle Limousine: O Baú Curvo de Álamo de 1902 Esculpido sob Medida para os Tetos dos Torpedos Pioneiros",
-    "category": "Alta-Costura",
-    "categorySlug": "estilo",
-    "category_slug": "estilo",
-    "authorSlug": "clara-meirelles",
-    "author_slug": "clara-meirelles",
-    "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
-    "date": "25 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A mítica malharia francesa resgata moldes centenários em madeira vaporizada e lona vegetal impermeabilizada para redefinir o transporte de bagagem sob 1,2 G de força lateral.",
-    "contentParagraphs": [
-      "A carroceria torpedeira cortava o vento em estradas de terra batida. A dinâmica inercial exigia geometria milimétrica.",
-      "O chassi balançava violentamente sobre suspensões de feixe de molas rudimentares. Enquanto isso, o baú curvo em álamo absorvia o impacto. A madeira de álamo foi submetida a banhos de vapor prolongados. Em seguida, recebeu o tensionamento exato sobre gabaritos de ferro forjado à mão em 1902. A curvatura do teto exigia precisão absoluta. O perfil aerodinâmico impedia turbulências catastróficas em altas velocidades. A aerodinâmica rudimentar de Venturi já ditava o fluxo de ar sobre o teto dos bólidos pioneiros.",
-      "O revestimento exterior utiliza lona vegetal impermeabilizada com gutapercha pura. A seiva de árvore tropical endurece em uma armadura intransponível contra a umidade da alta atmosfera alpina. Cantoneiras de latão maciço rebitadas uma a uma ancoram a estrutura. No interior, o linho francês cru protege os pertences contra vibrações crônicas do motor de quatro cilindros. A tolerância de fechamento opera na faixa de décimos de milímetro. A engenharia de bagagem elevou-se ao patamar de ciência balística.",
-      "Nenhuma concessionária de massa reproduz esta obstinação artesanal. A Moynat preserva o método que antecede a obsolescência programada em décadas. O silêncio da matéria bruta prevalece. O objeto permanece imune às modas passageiras."
-    ],
-    "content_paragraphs": [
-      "A carroceria torpedeira cortava o vento em estradas de terra batida. A dinâmica inercial exigia geometria milimétrica.",
-      "O chassi balançava violentamente sobre suspensões de feixe de molas rudimentares. Enquanto isso, o baú curvo em álamo absorvia o impacto. A madeira de álamo foi submetida a banhos de vapor prolongados. Em seguida, recebeu o tensionamento exato sobre gabaritos de ferro forjado à mão em 1902. A curvatura do teto exigia precisão absoluta. O perfil aerodinâmico impedia turbulências catastróficas em altas velocidades. A aerodinâmica rudimentar de Venturi já ditava o fluxo de ar sobre o teto dos bólidos pioneiros.",
-      "O revestimento exterior utiliza lona vegetal impermeabilizada com gutapercha pura. A seiva de árvore tropical endurece em uma armadura intransponível contra a umidade da alta atmosfera alpina. Cantoneiras de latão maciço rebitadas uma a uma ancoram a estrutura. No interior, o linho francês cru protege os pertences contra vibrações crônicas do motor de quatro cilindros. A tolerância de fechamento opera na faixa de décimos de milímetro. A engenharia de bagagem elevou-se ao patamar de ciência balística.",
-      "Nenhuma concessionária de massa reproduz esta obstinação artesanal. A Moynat preserva o método que antecede a obsolescência programada em décadas. O silêncio da matéria bruta prevalece. O objeto permanece imune às modas passageiras."
-    ],
-    "specs": {
-      "material_principal": "Álamo vaporizado com curvo parabólico",
-      "revestimento": "Lona vegetal impermeabilizada com gutapercha",
-      "ferraria": "Latão maciço com rebites de fixação manual",
-      "tolerancia_estrutural": "Ajuste milimétrico sob 1,2 G de força inercial",
-      "ano_origem": "1902"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 95,
-    "ranking_score": 95,
-    "publishedAt": "2026-10-25T23:35:49.428Z",
-    "published_at": "2026-10-25T23:35:49.428Z"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     id: 'film-1',
-    category: 'RELOGIOS',
-    title: 'Laurent Ferrier Grand Sport Tourbillon...',
-    image: 'https://monochrome-watches.com/app/uploads/2026/10/Laurent-Ferrier-Grand-Sport-Tourbillon-Iceberg-Titanium-review-8-600x237.jpg',
-    tag: 'HOMOLOGADO PELO RADAR',
-    slug: 'laurent-ferrier-grand-sport-tourbillon-iceberg-o-cronometro-de-titanio-grao-selado-de-44mm-com-tourbillon-de-duplo-balanco-inverso-7884'
+    category: 'DESTINOS',
+    title: 'Benetti Motopanfilo 37M: O Casco Semid...',
+    image: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=max&q=80&w=1400',
+    tag: 'DESTAQUE MUNDIAL',
+    slug: 'benetti-motopanfilo-37m-o-casco-semidislocante-de-37-metros-que-domina-a-hidrodinamica-com-efeito-solo-e-fibra-de-vidro-infundida-a-vacuo-4272'
   },
   {
     id: 'film-2',
@@ -1449,6 +1452,7 @@ export const FILMSTRIP_ITEMS = [
     slug: 'o-relatorio-reservado-de-family-offices-por-que-as-dinastias-globais-estao-trocando-ativos-digitais-por-ouro-fisico-em-bunkers-suicos'
   }
 ];
+
 
 
 
