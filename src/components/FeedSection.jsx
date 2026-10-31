@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Clock, Eye, Sparkles, Play, ArrowRight } from 'lucide-react';
 import { CATEGORIES, ARTICLES, AUTHORS } from '../data/mockData';
 import { fetchArticles } from '../services/radarService';
-import { getVisibleFeedArticles } from '../services/feedPolicy';
+import { getVisibleFeedArticles, publishedArticles } from '../services/feedPolicy';
 import AdSenseSlot from './AdSenseSlot';
 
 export default function FeedSection({ onQuickView }) {
@@ -15,7 +15,9 @@ export default function FeedSection({ onQuickView }) {
     let isMounted = true;
     async function load() {
       const data = await fetchArticles();
-      if (isMounted && data && data.length > 0) {
+      // Array vazio é resposta: acervo esvaziado pelo editor não pode fazer o feed
+      // recair no bundle congelado do repositório.
+      if (isMounted && Array.isArray(data)) {
         setAllArticles(data);
       }
     }
@@ -28,6 +30,12 @@ export default function FeedSection({ onQuickView }) {
   }, []);
 
   const filteredItems = getVisibleFeedArticles(allArticles, activeCategory);
+  const activeCategoryName = CATEGORIES.find(cat => cat.slug === activeCategory)?.name || 'esta categoria';
+  // Dizer "já estão na capa" para uma editoria que não tem nenhuma matéria é a
+  // mentira do feed vazio: a tela precisa saber se existe algo publicado ali.
+  const categoryTotal = activeCategory === 'todos'
+    ? publishedArticles(allArticles).length
+    : publishedArticles(allArticles).filter(article => article.categorySlug === activeCategory).length;
 
   return (
     <section className="py-12 lg:py-16 border-b border-lux-border-light dark:border-lux-border-dark">
@@ -38,7 +46,7 @@ export default function FeedSection({ onQuickView }) {
           <div>
             <div className="flex items-center gap-2 text-lux-gold font-semibold text-xs tracking-[0.2em] uppercase mb-1">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>ACERVO EM TEMPO REAL</span>
+              <span>ÚLTIMAS PUBLICAÇÕES</span>
             </div>
             <h2 className="font-serif text-3xl sm:text-4xl font-bold tracking-tight text-lux-text-primary dark:text-lux-text-darkPrimary">
               O Feed do Radar
@@ -184,6 +192,33 @@ export default function FeedSection({ onQuickView }) {
             })}
           </AnimatePresence>
         </motion.div>
+
+        {/* Nada sobra quando a categoria inteira já foi consumida pela capa e pela roleta. */}
+        {filteredItems.length === 0 && (
+          <div className="mt-8 border border-dashed border-lux-border-light dark:border-lux-border-dark rounded-lg px-6 py-10 text-center">
+            <h3 className="font-serif text-lg font-semibold text-lux-text-primary dark:text-lux-text-darkPrimary">
+              {activeCategory === 'todos'
+                ? 'Ainda não há matérias publicadas fora da capa'
+                : categoryTotal === 0
+                  ? `${activeCategoryName} ainda não tem matéria publicada`
+                  : `As matérias de ${activeCategoryName} já estão na capa ou na curadoria rápida`}
+            </h3>
+            <p className="mt-2 text-sm text-lux-text-secondary dark:text-lux-text-darkSecondary">
+              {categoryTotal === 0 && activeCategory !== 'todos'
+                ? 'A curadoria publica novas edições todos os dias. Enquanto esta editoria não tem nada no ar, veja o que já saiu no Radar.'
+                : 'A curadoria publica novas edições todos os dias. Enquanto isso, você pode rever o que a home já colocou em destaque.'}
+            </p>
+            {activeCategory !== 'todos' && (
+              <button
+                onClick={() => setActiveCategory('todos')}
+                className="mt-5 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-lux-text-primary dark:text-white hover:text-lux-gold transition-colors"
+              >
+                <ArrowRight className="w-3.5 h-3.5 rotate-90" />
+                Ver todas as publicações
+              </button>
+            )}
+          </div>
+        )}
 
       </div>
     </section>

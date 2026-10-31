@@ -1497,7 +1497,7 @@ export default function AdminPage() {
           <div className="space-y-4">
             <div className="flex items-center justify-between">
               <p className="text-xs text-lux-text-muted">
-                Edite os 4 índices e cotações da barra superior em tempo real. As alterações refletem instantaneamente no site.
+                Edite os 4 índices e cotações da barra superior. Sem o banco conectado, a alteração fica salva apenas neste navegador e não aparece para os outros visitantes.
               </p>
               <button
                 onClick={loadData}

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
@@ -12,19 +12,40 @@ import {
   SlidersHorizontal 
 } from 'lucide-react';
 import { CATEGORIES, ARTICLES, AUTHORS } from '../data/mockData';
+import { fetchArticles } from '../services/radarService';
+import { publishedArticles } from '../services/feedPolicy';
 
 export default function CategoryPage({ onQuickView }) {
   const { slug } = useParams();
   const [filterType, setFilterType] = useState('all'); // 'all', 'article', 'video'
 
+  // A rota filha de /categoria mostrava o bundle do repositório: purga, rascunho e
+  // matéria nova do painel só apareciam na home. Aqui ela passa a ouvir o mesmo
+  // acervo vivo que as outras telas.
+  const [liveArticles, setLiveArticles] = useState(null);
+
+  useEffect(() => {
+    let isMounted = true;
+    const reload = () => {
+      fetchArticles(slug).then(data => {
+        // Array vazio é resposta válida: acervo esvaziado pelo editor não pode
+        // fazer a página recair no bundle congelado.
+        if (isMounted && Array.isArray(data)) setLiveArticles(data);
+      }).catch(() => {});
+    };
+    reload();
+    window.addEventListener('radar-data-changed', reload);
+    return () => {
+      isMounted = false;
+      window.removeEventListener('radar-data-changed', reload);
+    };
+  }, [slug]);
+
   // Look up category
   const category = CATEGORIES.find(c => c.slug === slug);
 
   // Filter articles belonging to this category
-  const categoryArticles = ARTICLES.filter(a => {
-    if (slug === 'todos') return true;
-    return a.categorySlug === slug;
-  });
+  const categoryArticles = publishedArticles(liveArticles === null ? ARTICLES : liveArticles);
 
   // Apply subfilter (articles vs videos)
   const displayedArticles = categoryArticles.filter(item => {
@@ -233,7 +254,9 @@ export default function CategoryPage({ onQuickView }) {
         ) : (
           <div className="p-12 text-center bg-white dark:bg-lux-bg-cardDark rounded-lg border border-lux-border-light dark:border-lux-border-dark">
             <p className="text-sm text-lux-text-muted mb-4">
-              Nenhum item com este formato foi encontrado nesta categoria.
+              {categoryArticles.length === 0
+                ? 'Esta editoria ainda não tem matéria publicada no acervo do Radar.'
+                : 'Nenhum item com este formato foi encontrado nesta categoria.'}
             </p>
             <button
               onClick={() => setFilterType('all')}

@@ -1,10 +1,64 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronLeft, ChevronRight, Sparkles, ArrowRight } from 'lucide-react';
 import { FILMSTRIP_ITEMS } from '../data/mockData';
+import { fetchArticles } from '../services/radarService';
+import { getFilmstripSelection } from '../services/feedPolicy';
+
+// Cabe na célula de 350px e não usa reticência como enfeite: só corta quem
+// realmente passa do tamanho, senão título curto aparece truncado sem estar.
+const REEL_TITLE_LIMIT = 38;
+
+const toReelItem = (article, index) => {
+  const title = String(article.title || '');
+  const truncated = title.length > REEL_TITLE_LIMIT;
+  return {
+    id: `film-${index + 1}`,
+    category: String(article.categorySlug || 'DESTAQUES').toUpperCase(),
+    title: truncated ? `${title.slice(0, REEL_TITLE_LIMIT - 1).trimEnd()}…` : title,
+    image: article.image,
+    tag: article.badge || 'CURADORIA RADAR',
+    // O bundle antigo guardava o atalho em `id`; o acervo vivo usa `slug`. Sem
+    // essa ponte o item sem slug viraria card morto (rota /artigo/undefined).
+    slug: article.slug || (typeof article.id === 'string' ? article.id : '')
+  };
+};
+
+// Uma roleta é uma vitrine de atalhos: card sem destino ou sem imagem não é
+// curadoria, é o link morto que o dono do site já viu. Filtra-se antes de contar
+// a banda, senão ela continua no ar exibindo o que não abre.
+const isOpenable = (item) => Boolean(item && item.slug && item.image);
 
 export default function FilmstripReel({ onSelectItem }) {
   const scrollContainerRef = useRef(null);
+  const [items, setItems] = useState(() => FILMSTRIP_ITEMS.filter(isOpenable));
+
+  useEffect(() => {
+    let isMounted = true;
+    const reload = () => {
+      fetchArticles().then(data => {
+        // Array vazio É resposta: com o acervo esvaziado pelo editor, a roleta não
+        // tem direito de continuar exibindo os atalhos do bundle congelado.
+        if (!isMounted || !Array.isArray(data)) return;
+        // Chegou o acervo vivo: a roleta passa a obedecer à política dele, inclusive
+        // quando não sobra nada. Manter o bundle nesse caso é repetir na tela a
+        // matéria que a home já mostrou em outra banda.
+        setItems(getFilmstripSelection(data).map(toReelItem).filter(isOpenable));
+      }).catch(() => {
+        // Consulta quebrada: a banda continua no que o repositório já mostrou.
+      });
+    };
+    reload();
+    window.addEventListener('radar-data-changed', reload);
+    return () => {
+      isMounted = false;
+      window.removeEventListener('radar-data-changed', reload);
+    };
+  }, []);
+
+  // Sem matéria sobrando para a roleta, a banda some: título e setas de uma
+  // vitrine vazia seriam outra promessa sem lastro.
+  if (items.length === 0) return null;
 
   const scroll = (direction) => {
     if (scrollContainerRef.current) {
@@ -48,9 +102,9 @@ export default function FilmstripReel({ onSelectItem }) {
         className="flex gap-5 overflow-x-auto px-4 sm:px-6 lg:px-8 pb-3 scrollbar-none no-scrollbar scroll-smooth"
         style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
       >
-        {FILMSTRIP_ITEMS.map((item) => (
+        {items.map((item, index) => (
           <Link
-            key={item.id}
+            key={`${item.slug}-${index}`}
             to={`/artigo/${item.slug}`}
             className="group flex-shrink-0 w-[260px] sm:w-[290px] bg-white dark:bg-lux-bg-cardDark rounded-lg overflow-hidden border border-lux-border-light dark:border-lux-border-dark shadow-sm hover:shadow-lux-hover transition-all duration-300"
           >
