@@ -19,7 +19,7 @@ import { calculateEditorialScore } from '../services/rankingEngine.js';
 
 export const INITIAL_HOT_PAUTAS = [
   {
-    "id": "pauta-live-supercarros-mvwk0vgk-900p",
+    "id": "pauta-live-supercarros-mvwxlm90-q7r8",
     "source": "Google News Motors (Ferrari/Bugatti)",
     "sourceCategory": "Supercarros",
     "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
@@ -33,19 +33,19 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Exclusive! Ferrari 296 Challenge Stradale debut date & price info The Supercar Blog",
     "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQall3Q1IwbFZsbFNhQWcyblJGYjFiSkdXMUtHRHQzaUQ3MENJbUV6OVllS2FkU2ljQzZHUjJNa1ZSN0Y2clJscy1INjFIS2NJYUFkVmR1QXBMQlhqOEhtSzNwdkZoeC1rZkFrbzlKenhIMDRKYXF2SWhCS3IzMWZuMHE5Q1pEZGxPLW1FZmxNZ0diQkc2TTk5amFfSUZ6Rlln?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-31T15:26:53.252Z",
+    "createdAt": "2026-10-31T21:46:56.100Z",
     "validityHours": 24,
     "specsPreview": {
       "categoria": "Hipercarro de Colecionismo",
       "telemetria": "Calibração de pista",
       "curadoria": "Gabriel Fontes"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-supercarros-mvwk0vgl-8sna",
+    "id": "pauta-live-supercarros-mvwxlm94-knxc",
     "source": "Google News Motors (Ferrari/Bugatti)",
     "sourceCategory": "Supercarros",
     "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
@@ -59,71 +59,19 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "AF Corse unveils its Hypercar: the Ferrari 499P for the Asian Le Mans Series SPEEDWEEK.com",
     "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQVpCdGpSUUc1UEFEQmFJdnVGeHFXVGRIc2JDVW5rUEw2R0Q4UGVLY215aG5iOGcxTWJISXMzaDI1bmxtR3RQWnVPTEgwR2QyTWU1aEtpX01vS3dKRHVqTHNldHhDbXBieE16ZE1QTHFWZlBsQzNVcFhIdzJiQ1BfUTBtTzkta1diVDdiTC1EZ21wN1E?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-31T15:26:53.253Z",
+    "createdAt": "2026-10-31T21:46:56.104Z",
     "validityHours": 24,
     "specsPreview": {
       "categoria": "Hipercarro de Colecionismo",
       "telemetria": "Calibração de pista",
       "curadoria": "Gabriel Fontes"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-destinos-mvwk0vhr-34q8",
-    "source": "Google News Superyachts",
-    "sourceCategory": "Destinos & Iates",
-    "badgeColor": "border-purple-500/40 text-purple-400 bg-purple-500/10",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "rankingScore": 89,
-    "rankingTier": "A",
-    "originalTitle": "Yacht LADY MARINA - 2016-08-31 - Billionaire Superyacht Showdown at the Cannes Film Festival 2016 - Forbes",
-    "suggestedHook": "Yacht LADY MARINA - 2016-08-31 - Billionaire Superiate Showdown at the Cannes Film Festival 2016",
-    "summary": "Yacht LADY MARINA - 2016-08-31 - Billionaire Superyacht Showdown at the Cannes Film Festival 2016 Forbes",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBSUUNDSTRCclJVQUJISUM2WDNON2k1cFRGd09OeUdsQVpwZVVkVHNJOVJGcjhad3dNeUZ4SE80a3FIajZZallHTTliQUREUXNyYXgzV2lGbEp3bjRxakpPMkxJX094b0hiajctLWRR?oc=5",
-    "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-31T15:26:53.295Z",
-    "validityHours": 24,
-    "specsPreview": {
-      "categoria": "Superiate Transoceânico",
-      "engenharia": "Casco de aço naval e compósitos",
-      "curadoria": "Gabriel Fontes"
-    },
-    "suggestedImage": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80&w=1400",
-    "imageIsFallback": true,
-    "status": "published"
-  },
-  {
-    "id": "pauta-live-destinos-mvwk0vid-wmic",
-    "source": "Google News Superyachts",
-    "sourceCategory": "Destinos & Iates",
-    "badgeColor": "border-purple-500/40 text-purple-400 bg-purple-500/10",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "rankingScore": 89,
-    "rankingTier": "A",
-    "originalTitle": "Billionaire’s $300m superyacht spotted in Cairns - The Cairns Post",
-    "suggestedHook": "Náutica de Elite: Billionaire’s $300m Superiate spotted in Cairns",
-    "summary": "Billionaire’s $300m superyacht spotted in Cairns The Cairns Post",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVW1BZUg3TVpabWtJS0xUVFZISkZNN1BwZjRrR2tUWlR5V1RNekdGTUpsblBOYnN4VjVEeGp1SWNDcFdYRS1hQUJrZk96VFZKVFhWVGVud0VQTFdiWFhmaXMxWWhPUjhWY2l2ckJPVk1OVVRCTzV0MzV6UC00RFIxODJkeDQxZnJEM19YNC1GeWswM2pHdDZuNXVqb1FZcFNJZUN6MDFqRTIwbnQxd1d4ZUI2bDk0aGxoQWozMHEtUkxoX0RLTFVrTGNSSE5fVlZqRUJuSWVPTzdjNDQwdDNzZnNVclFBMWVfUnZ2cDNzdU4?oc=5",
-    "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-31T15:26:53.317Z",
-    "validityHours": 24,
-    "specsPreview": {
-      "categoria": "Superiate Transoceânico",
-      "engenharia": "Casco de aço naval e compósitos",
-      "curadoria": "Gabriel Fontes"
-    },
-    "suggestedImage": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d17?auto=format&fit=crop&q=80&w=1400",
-    "imageIsFallback": true,
-    "status": "published"
-  },
-  {
-    "id": "pauta-live-arquitetura-mvwk0vjr-zw1m",
+    "id": "pauta-live-arquitetura-mvwxlmc1-3ur6",
     "source": "Sotheby's & Christie's Auctions",
     "sourceCategory": "Arquitetura",
     "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
@@ -137,7 +85,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Russian crown jewel from Romanov dynasty could fetch £1.5m at auction Ilford Recorder",
     "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQb2EwTWFXR3JONjRjOWlHbFIyV3E2ZWVHSndYLVlRZkV2THFmU1hMeU9iUUdja2VrajBBN29aV3o1TVFfYTVYSF9JQ3UwVXBRYi1meDVYUjFmYXQ3T3dRYWh6WXNFajNobTJUU2tKZTU0RmdmcmV0cktDUWdEeVNRcms2V2t5NmRPUXlvTWI2cDJWRlB3VkNydmdDZVNBWjRDLXp3RVBRNDVfdHoxVWQ4bnJ1ZHI?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-31T15:26:53.367Z",
+    "createdAt": "2026-10-31T21:46:56.209Z",
     "validityHours": 24,
     "specsPreview": {
       "mercado": "Grandes Leilões Internacionais",
@@ -145,12 +93,38 @@ export const INITIAL_HOT_PAUTAS = [
       "perfil": "Family Offices & Colecionadores",
       "curadoria": "Henrique Vianna"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-supercarros-mvwk0vgc-lnut",
+    "id": "pauta-live-destinos-mvwxlma9-0uqk",
+    "source": "Google News Superyachts",
+    "sourceCategory": "Destinos & Iates",
+    "badgeColor": "border-purple-500/40 text-purple-400 bg-purple-500/10",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "rankingScore": 87,
+    "rankingTier": "B",
+    "originalTitle": "Injured deck officer's $35,000 pay claim strands a $39 million superyacht in Italy - The Cool Down",
+    "suggestedHook": "Náutica de Elite: Injured deck officer's $35,000 pay claim strands a $39 million Superiate in Italy",
+    "summary": "Injured deck officer's $35,000 pay claim strands a $39 million superyacht in Italy The Cool Down",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVmpVcWF2ckY4eGZSQmFQa2VCMDM3bWNVMTVpUmFCaEJXUlFHOVMtWWZ2VjM3THRrTUE2WWZ5TE1qZFVfYzhIXzdSbWdwTTVQYkd6dU1pX2Q2ZGpZVEhFRHIycGVCeS1WUl9PTllNTzRFTDdhYjRaNHBnLWNNZE5vWHN1cTgxNlVvYnBVMnVR?oc=5",
+    "publishedTime": "Detectado ao vivo nas últimas 24h",
+    "createdAt": "2026-10-31T21:46:56.145Z",
+    "validityHours": 24,
+    "specsPreview": {
+      "categoria": "Superiate Transoceânico",
+      "engenharia": "Casco de aço naval e compósitos",
+      "curadoria": "Gabriel Fontes"
+    },
+    "suggestedImage": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80&w=1400",
+    "imageIsFallback": true,
+    "status": "available"
+  },
+  {
+    "id": "pauta-live-supercarros-mvwxlm8w-g0mq",
     "source": "Google News Motors (Ferrari/Bugatti)",
     "sourceCategory": "Supercarros",
     "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
@@ -159,12 +133,12 @@ export const INITIAL_HOT_PAUTAS = [
     "authorSlug": "gabriel-fontes",
     "rankingScore": 86,
     "rankingTier": "B",
-    "originalTitle": "World’s first wide body Bugatti EB110 spotted arriving at Las Vegas Concours - The Supercar Blog",
-    "suggestedHook": "Hipercarros: World’s first wide body Bugatti EB110 spotted arriving at Las Vegas Concours",
-    "summary": "World’s first wide body Bugatti EB110 spotted arriving at Las Vegas Concours The Supercar Blog",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT0hHYU1OX0JNTlJGR19pMkFpbFZSMVhlS2huN1N4b1ZhVGR4WW9jVUZ5c1R4LU55U3dJSURjU1BKc1N4LXlOeTFLQXVubDV5QWRGXzhubzg2QUF2M3J6S3U5ZDdZNno2V200cGxyb0RHRHpKTTZ0V3RxREc4UFFtUmJlYno4MkxXcEFjVFh5SFZvckNYeFNHU3BTbnJXVGVSUW5URXlzdTZDZXRs?oc=5",
+    "originalTitle": "CGI Hypercar ICE Mode: Bugatti Mamba, Pagani Hoonigani, Genesis Revenant Are Unapologetic to EVs - autoevolution",
+    "suggestedHook": "CGI Hypercar ICE Mode: Bugatti Mamba, Pagani Hoonigani, Genesis Revenant Are Unapologetic to EVs",
+    "summary": "CGI Hypercar ICE Mode: Bugatti Mamba, Pagani Hoonigani, Genesis Revenant Are Unapologetic to EVs autoevolution",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVFhleDByUnNjYy0weElWNHVaaGRMcUFmUFpVS2xSUVhmekxBM3lxY19wVnJTX0ozZkFMX1NBLV9McDhwRFh5dkxsbDU3QlUtWFBidm8tak5NTnUwM3Z4bUpRS0tveXhjVWJSb1RVQTVSZU5kemZ3SEtOOEIzbTV6UGlTZ01uVlRySkFrOEZsZXZqNjFWUENGYWczUDdTT2gxOU1CNFhHY3pTVXcxQVdOMW1zbTM3Vk55a1lSMFgxMFQ5em0yREt0WnNqMmRBS3Z6dGZxcDh4QQ?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-31T15:26:53.244Z",
+    "createdAt": "2026-10-31T21:46:56.096Z",
     "validityHours": 24,
     "specsPreview": {
       "categoria": "Hipercarro de Colecionismo",
@@ -173,10 +147,10 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "published"
+    "status": "available"
   },
   {
-    "id": "pauta-live-relogios-mvwk0vg3-l7xn",
+    "id": "pauta-live-relogios-mvwxlm87-11p3",
     "source": "Monochrome Watches",
     "sourceCategory": "Alta Relojoaria",
     "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
@@ -190,7 +164,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Geneva Watch Days is always a treat, but 2026 held two collaboration surprises for the MONOCHROME team, both involving maverick French watchmaker Vianney Halter. Bulgari’s collaboration with Vianney Halter produced a bold Antiqua-inspired Octo Finissimo Dual Time. The second, revealed to us as a sneak preview by",
     "sourceUrl": "https://monochrome-watches.com/louis-erard-x-vianney-halter-futur-anterieur-antiqua-inspired-collab-review-price/",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-31T15:26:53.235Z",
+    "createdAt": "2026-10-31T21:46:56.071Z",
     "validityHours": 24,
     "specsPreview": {
       "calibre": "Mecânico de alta complicação",
@@ -203,7 +177,7 @@ export const INITIAL_HOT_PAUTAS = [
     "status": "available"
   },
   {
-    "id": "pauta-live-relogios-mvwk0vg5-nhj7",
+    "id": "pauta-live-relogios-mvwxlm89-oxrl",
     "source": "Monochrome Watches",
     "sourceCategory": "Alta Relojoaria",
     "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
@@ -217,7 +191,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "With its Series 8 collection of mechanical watches, Citizen has been delivering rather impressive models over the years, with the GMT collection being possibly the most appealing of them. Not only is it powered by a true GMT automatic movement (something rare in this price range), but Citizen has dared to bring",
     "sourceUrl": "https://monochrome-watches.com/citizen-series-8-gmt-damascus-steel-and-forged-carbon-nb6092-01e-introducing-price/",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-31T15:26:53.237Z",
+    "createdAt": "2026-10-31T21:46:56.073Z",
     "validityHours": 24,
     "specsPreview": {
       "calibre": "Mecânico de alta complicação",
@@ -230,7 +204,7 @@ export const INITIAL_HOT_PAUTAS = [
     "status": "available"
   },
   {
-    "id": "pauta-live-arquitetura-mvwk0vjp-94m7",
+    "id": "pauta-live-arquitetura-mvwxlmby-updp",
     "source": "Sotheby's & Christie's Auctions",
     "sourceCategory": "Arquitetura",
     "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
@@ -244,7 +218,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "A jewel of the Romanovs: Historic 197.80-carat sapphire heads to auction Qazinform",
     "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSU1tSjhLQ3g1MGVhUmNLSkpOUkVWbDhpcEpWX3lxU0xfbUlUTjU0UENqeDd3cGVKT3ZRNGRXSkpvelp3WkQ1dHdBWWx6MVZ5QVdWNVdxaG00OTJYYmh3ejNxLXBKYWRjQjBnTmlCajJOMnN5YVRXSHI3NW9PanVTUTlEMzJTck9SWDA0RjF3djFNTDFWeTV5ZktlUzljTHpRdkI5QmxzTdIBpwFBVV95cUxNSU1tSjhLQ3g1MGVhUmNLSkpOUkVWbDhpcEpWX3lxU0xfbUlUTjU0UENqeDd3cGVKT3ZRNGRXSkpvelp3WkQ1dHdBWWx6MVZ5QVdWNVdxaG00OTJYYmh3ejNxLXBKYWRjQjBnTmlCajJOMnN5YVRXSHI3NW9PanVTUTlEMzJTck9SWDA0RjF3djFNTDFWeTV5ZktlUzljTHpRdkI5QmxzTQ?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-31T15:26:53.365Z",
+    "createdAt": "2026-10-31T21:46:56.206Z",
     "validityHours": 24,
     "specsPreview": {
       "mercado": "Grandes Leilões Internacionais",
@@ -252,12 +226,12 @@ export const INITIAL_HOT_PAUTAS = [
       "perfil": "Family Offices & Colecionadores",
       "curadoria": "Henrique Vianna"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
     "status": "available"
   },
   {
-    "id": "pauta-live-relogios-mvwk0vft-k2w0",
+    "id": "pauta-live-relogios-mvwxlm7y-1szc",
     "source": "Hodinkee",
     "sourceCategory": "Alta Relojoaria",
     "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
@@ -271,7 +245,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "The exhibition is over, but for those who couldn't make it, here's what you missed.",
     "sourceUrl": "https://www.hodinkee.com/articles/patek-philippes-2026-milan-watch-art-grand-exhibition",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-31T15:26:53.225Z",
+    "createdAt": "2026-10-31T21:46:56.063Z",
     "validityHours": 24,
     "specsPreview": {
       "calibre": "Mecânico de alta complicação",
