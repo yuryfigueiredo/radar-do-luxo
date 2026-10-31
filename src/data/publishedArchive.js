@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-superiate-feadship-de-us-39-milh-6064",
+    "slug": "superiate-feadship-de-us-39-milhoes-o-arresto-judicial-na-costa-amalfitana-por-uma-falha-de-us-35000-em-salarios-6049",
+    "title": "Superiate Feadship de US$ 39 Milhões: O Arresto Judicial na Costa Amalfitana por Uma Falha de US$ 35.000 em Salários",
+    "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVmpVcWF2ckY4eGZSQmFQa2VCMDM3bWNVMTVpUmFCaEJXUlFHOVMtWWZ2VjM3THRrTUE2WWZ5TE1qZFVfYzhIXzdSbWdwTTVQYkd6dU1pX2Q2ZGpZVEhFRHIycGVCeS1WUl9PTllNTzRFTDdhYjRaNHBnLWNNZE5vWHN1cTgxNlVvYnBVMnVR?oc=5",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-10-31T22:28:16.064Z"
+  },
+  {
     "id": "art-ferrari-296-challenge-stradale-o-8500",
     "slug": "ferrari-296-challenge-stradale-o-v6-biturbo-de-830-cv-com-forca-g-extrema-nascido-nas-pistas-de-fiorano-8497",
     "title": "Ferrari 296 Challenge Stradale: O V6 Biturbo de 830 cv com Força G Extrema Nascido nas Pistas de Fiorano",

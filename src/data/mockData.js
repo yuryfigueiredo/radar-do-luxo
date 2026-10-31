@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-superiate-feadship-de-us-39-milh-6064",
+    "slug": "superiate-feadship-de-us-39-milhoes-o-arresto-judicial-na-costa-amalfitana-por-uma-falha-de-us-35000-em-salarios-6049",
+    "title": "Superiate Feadship de US$ 39 Milhões: O Arresto Judicial na Costa Amalfitana por Uma Falha de US$ 35.000 em Salários",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "31 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Uma disputa trabalhista de proporções mínimas paralisa um casco naval de US$ 39 milhões na Itália, evidenciando a fragilidade jurídica de ativos oceânicos de alto padrão.",
+    "contentParagraphs": [
+      "A náutica de elite ignora o óbvio. Um superiate avaliado em 39 milhões de dólares repousa imóvel nas águas da Itália. O motivo não é uma falha estrutural nos motores a diesel MTU ou uma avaria nos estabilizadores giroscópicos. O estopim foi uma demanda de trinta e cinco mil dólares em salários retidos de um oficial de convés ferido. A soberania de uma embarcação transoceânica curvou-se diante de uma ordem de arresto emitida por tribunais locais.",
+      "O casco em aço naval e superestrutura em alumínio, concebido para cortar ondas com tolerâncias de mícrons em soldas estruturais, agora enfrenta a inércia burocrática. Cada metro quadrado de teca birmanesa e cada painel de mármore calibrado nos salões principais tornam-se irrelevantes quando a lei marítima internacional é acionada por um tripulante marginalizado. A força G lateral que o navio suporta em manobras de mar aberto contrasta com a fragilidade de sua custódia legal.",
+      "Burocracias portuárias na Itália operam com rigor implacável em litígios trabalhistas. O proprietário, envolto em estruturas corporativas opacas em paraísos fiscais, descobre que o capital imobilizado perde liquidez instantaneamente quando bandeiras de conveniência colidem com direitos marítimos fundamentais. O sistema hidráulico de alta pressão das garagens de tenders e as plataformas de banho rebatíveis permanecem trancadas, reféns de uma petição protocolada por quem operava os guinchos de amarração.",
+      "Este episódio redefine os riscos invisíveis da náutica de grandes proporções. Não basta dominar os coeficientes de arrasto hidrodinâmico ou especificar linhas d'água otimizadas para transpor oceanos em velocidade de cruzeiro. A verdadeira engenharia naval exige governança jurídica impecável para evitar que um ativo de dezenas de milhões de dólares seja neutralizado por uma fração irrisória de seu valor venal."
+    ],
+    "content_paragraphs": [
+      "A náutica de elite ignora o óbvio. Um superiate avaliado em 39 milhões de dólares repousa imóvel nas águas da Itália. O motivo não é uma falha estrutural nos motores a diesel MTU ou uma avaria nos estabilizadores giroscópicos. O estopim foi uma demanda de trinta e cinco mil dólares em salários retidos de um oficial de convés ferido. A soberania de uma embarcação transoceânica curvou-se diante de uma ordem de arresto emitida por tribunais locais.",
+      "O casco em aço naval e superestrutura em alumínio, concebido para cortar ondas com tolerâncias de mícrons em soldas estruturais, agora enfrenta a inércia burocrática. Cada metro quadrado de teca birmanesa e cada painel de mármore calibrado nos salões principais tornam-se irrelevantes quando a lei marítima internacional é acionada por um tripulante marginalizado. A força G lateral que o navio suporta em manobras de mar aberto contrasta com a fragilidade de sua custódia legal.",
+      "Burocracias portuárias na Itália operam com rigor implacável em litígios trabalhistas. O proprietário, envolto em estruturas corporativas opacas em paraísos fiscais, descobre que o capital imobilizado perde liquidez instantaneamente quando bandeiras de conveniência colidem com direitos marítimos fundamentais. O sistema hidráulico de alta pressão das garagens de tenders e as plataformas de banho rebatíveis permanecem trancadas, reféns de uma petição protocolada por quem operava os guinchos de amarração.",
+      "Este episódio redefine os riscos invisíveis da náutica de grandes proporções. Não basta dominar os coeficientes de arrasto hidrodinâmico ou especificar linhas d'água otimizadas para transpor oceanos em velocidade de cruzeiro. A verdadeira engenharia naval exige governança jurídica impecável para evitar que um ativo de dezenas de milhões de dólares seja neutralizado por uma fração irrisória de seu valor venal."
+    ],
+    "specs": {
+      "Valor de Mercado": "US$ 39.000.000",
+      "Jurisdição do Arresto": "Costa Amalfitana, Itália",
+      "Motivo da Paralisação": "Reclamação trabalhista de US$ 35.000",
+      "Ativo Afetado": "Superiate de deslocamento completo",
+      "Instância Legal": "Tribunal Marítimo Local"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 90,
+    "ranking_score": 90,
+    "publishedAt": "2026-10-31T22:28:16.064Z",
+    "published_at": "2026-10-31T22:28:16.064Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVmpVcWF2ckY4eGZSQmFQa2VCMDM3bWNVMTVpUmFCaEJXUlFHOVMtWWZ2VjM3THRrTUE2WWZ5TE1qZFVfYzhIXzdSbWdwTTVQYkd6dU1pX2Q2ZGpZVEhFRHIycGVCeS1WUl9PTllNTzRFTDdhYjRaNHBnLWNNZE5vWHN1cTgxNlVvYnBVMnVR?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVmpVcWF2ckY4eGZSQmFQa2VCMDM3bWNVMTVpUmFCaEJXUlFHOVMtWWZ2VjM3THRrTUE2WWZ5TE1qZFVfYzhIXzdSbWdwTTVQYkd6dU1pX2Q2ZGpZVEhFRHIycGVCeS1WUl9PTllNTzRFTDdhYjRaNHBnLWNNZE5vWHN1cTgxNlVvYnBVMnVR?oc=5"
+  },
+  {
     "id": "art-ferrari-296-challenge-stradale-o-8500",
     "slug": "ferrari-296-challenge-stradale-o-v6-biturbo-de-830-cv-com-forca-g-extrema-nascido-nas-pistas-de-fiorano-8497",
     "title": "Ferrari 296 Challenge Stradale: O V6 Biturbo de 830 cv com Força G Extrema Nascido nas Pistas de Fiorano",
@@ -125,7 +176,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "31 de outubro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -154,10 +205,10 @@ export const ARTICLES = [
       "avaliação_patrimonial": "Sob consulta em Maranello para clientes selecionados"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 89,
@@ -1346,63 +1397,20 @@ export const ARTICLES = [
     "published_at": "2026-10-27T19:49:41.949Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOR0lZcFo5dGozRnhwT0dVT1NWNll0b0dtSDlGa21UNUktMXBOZGxvaGI0Zjdack9uWnllX1diRWFRSTQ2Ukt3VzdRbHhaRk9TS0hFMHRVS0d6RmFxQ3hLR0tsY2FLM3BpYVppU0hyc0E3MGFrQVJzVWt1RnIwNlpLamdSb3hhb21MbTY0MS1UbVhnR25FRklIZXcyYmNmUVhQYmxhSnRWdVpMVFlvVnhCSFJLa1NxUTdnNkpKY3NoX2xKX3VE?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOR0lZcFo5dGozRnhwT0dVT1NWNll0b0dtSDlGa21UNUktMXBOZGxvaGI0Zjdack9uWnllX1diRWFRSTQ2Ukt3VzdRbHhaRk9TS0hFMHRVS0d6RmFxQ3hLR0tsY2FLM3BpYVppU0hyc0E3MGFrQVJzVWt1RnIwNlpLamdSb3hhb21MbTY0MS1UbVhnR25FRklIZXcyYmNmUVhQYmxhSnRWdVpMVFlvVnhCSFJLa1NxUTdnNkpKY3NoX2xKX3VE?oc=5"
-  },
-  {
-    "id": "art-bugatti-tourbillon-o-motor-v16-a-1653",
-    "slug": "bugatti-tourbillon-o-motor-v16-aspirado-de-83-litros-que-rejeita-a-hibridizacao-futura-em-nome-da-pureza-mecanica-1630",
-    "title": "Bugatti Tourbillon: O Motor V16 Aspirado de 8,3 Litros que Rejeita a Hibridização Futura em Nome da Pureza Mecânica",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "27 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "Mate Rimac desafia o dogma da eletrificação total ao projetar uma arquitetura purista derivada do Tourbillon, priorizando a visceralidade inercial e o câmbio manual sobre a conveniência digital.",
-    "contentParagraphs": [
-      "A combustão interna não aceita o esquecimento. Em um cenário automotivo dominado por baterias de íon-lítio pesadas e interfaces sem alma, a engenharia de Molsheim avança na contramão da esterilização digital. O monocoque em carbo-titânio curado em autoclave a 6 bar abriga um bloco monumental. A atmosfera absorvida é comprimida com violência até atingir o limite físico das 9.000 RPM. A força G lateral gerada nas curvas de alta velocidade exige mais do piloto do que qualquer algoritmo de estabilidade jamais exigiria.",
-      "A aerodinâmica ativa trabalha em silêncio absoluto sob o assoalho. Os fluxos de Venturi de efeito solo colam o chassi ao asfalto com uma precisão cirúrgica de mícrons. Cada canal do difusor traseiro foi esculpido para gerenciar a pressão estática sem recorrer a aerofólios espalhafatosos. O escape em Inconel 625 dissipa o calor extremo transformando gases residuais em uma sinfonia metálica pura. Aqui, a telemetria inercial substitui a assistência eletrônica invasiva, devolvendo ao condutor o controle total da trajetória.",
-      "A especulação técnica em torno de uma transmissão manual e da remoção completa do sistema híbrido revela uma obsessão quase herética pelo peso mínimo. Eliminar motores elétricos e baterias reduz centenas de quilogramas da massa suspensa, alterando drasticamente o comportamento dinâmico em circuitos fechados. A resistência ao torque brutal exige engrenagens forjadas em ligas especiais capazes de suportar cargas térmicas monumentais sem deformação estrutural.",
-      "O verdadeiro luxo contemporâneo reside na resistência à obsolescência programada. Enquanto o mercado consome utilitários híbridos descartáveis, a Bugatti consolida um reduto para colecionadores que exigem a brutalidade mecânica sem filtros. Este não é um veículo de transição energética. É o manifesto definitivo de que a combustão aspirada de altíssima cilindrada encontrou na engenharia de Mate Rimac seu testamento mais intransigente e definitivo."
-    ],
-    "content_paragraphs": [
-      "A combustão interna não aceita o esquecimento. Em um cenário automotivo dominado por baterias de íon-lítio pesadas e interfaces sem alma, a engenharia de Molsheim avança na contramão da esterilização digital. O monocoque em carbo-titânio curado em autoclave a 6 bar abriga um bloco monumental. A atmosfera absorvida é comprimida com violência até atingir o limite físico das 9.000 RPM. A força G lateral gerada nas curvas de alta velocidade exige mais do piloto do que qualquer algoritmo de estabilidade jamais exigiria.",
-      "A aerodinâmica ativa trabalha em silêncio absoluto sob o assoalho. Os fluxos de Venturi de efeito solo colam o chassi ao asfalto com uma precisão cirúrgica de mícrons. Cada canal do difusor traseiro foi esculpido para gerenciar a pressão estática sem recorrer a aerofólios espalhafatosos. O escape em Inconel 625 dissipa o calor extremo transformando gases residuais em uma sinfonia metálica pura. Aqui, a telemetria inercial substitui a assistência eletrônica invasiva, devolvendo ao condutor o controle total da trajetória.",
-      "A especulação técnica em torno de uma transmissão manual e da remoção completa do sistema híbrido revela uma obsessão quase herética pelo peso mínimo. Eliminar motores elétricos e baterias reduz centenas de quilogramas da massa suspensa, alterando drasticamente o comportamento dinâmico em circuitos fechados. A resistência ao torque brutal exige engrenagens forjadas em ligas especiais capazes de suportar cargas térmicas monumentais sem deformação estrutural.",
-      "O verdadeiro luxo contemporâneo reside na resistência à obsolescência programada. Enquanto o mercado consome utilitários híbridos descartáveis, a Bugatti consolida um reduto para colecionadores que exigem a brutalidade mecânica sem filtros. Este não é um veículo de transição energética. É o manifesto definitivo de que a combustão aspirada de altíssima cilindrada encontrou na engenharia de Mate Rimac seu testamento mais intransigente e definitivo."
-    ],
-    "specs": {
-      "Arquitetura": "V16 aspirado naturalmente",
-      "Cinthurao Estrutural": "Monocoque em carbo-titânio",
-      "Linha de Escape": "Inconel 625 de alta temperatura",
-      "Geração de Downforce": "Canais Venturi de efeito solo",
-      "Tolerância de Usinagem": "Mícrons calibrados em autoclave"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 93,
-    "ranking_score": 93,
-    "publishedAt": "2026-10-27T20:03:01.653Z",
-    "published_at": "2026-10-27T20:03:01.653Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRlpfQWR4c2FjQ2ptWHp5bm1Zb2F1bjVFYk9VNDU5am1MMWRLSU5NZVVPZ3duc181bFoxOWczSVBaVmxOMmR5VS1tNTNMT3JHM3U0TzViZHkyVUYtSTdNaTVUMDVzbzVLNTVmTVJTd3FtNmVESUJUOVkwSWJVSVVWZWwxN0tuYzY5OFBVQ2dJVmYxT2tQZHlobmNkQkZUYTY3bHpOd3k0cWR2b1UxbjlzNDBR?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRlpfQWR4c2FjQ2ptWHp5bm1Zb2F1bjVFYk9VNDU5am1MMWRLSU5NZVVPZ3duc181bFoxOWczSVBaVmxOMmR5VS1tNTNMT3JHM3U0TzViZHkyVUYtSTdNaTVUMDVzbzVLNTVmTVJTd3FtNmVESUJUOVkwSWJVSVVWZWwxN0tuYzY5OFBVQ2dJVmYxT2tQZHlobmNkQkZUYTY3bHpOd3k0cWR2b1UxbjlzNDBR?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "RELOGIOS",
+    "title": "Rexhep Rexhepi Chronomètre Contemporai...",
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "rexhep-rexhepi-chronometre-contemporain-ii-o-atelie-independente-de-genebra-com-lista-de-espera-de-7-anos-e-chanfro-manual-absoluto-9736"
+  },
+  {
+    "id": "film-2",
     "category": "ESTILO",
     "title": "Hermès Faubourg: O Ateliê Secreto em P...",
     "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=max&q=80&w=1400",
@@ -1410,7 +1418,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "hermes-faubourg-o-atelie-secreto-em-paris-onde-30-mestres-costuram-selas-em-couro-barenia-sob-linho-encerado-a-mao-desde-1837-3331"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Ferrari E-Building: O Monstro Elétrico...",
     "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
@@ -1418,7 +1426,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-e-building-o-monstro-eletrico-de-us-560800-que-desafia-os-v12-aspirados-com-celulas-de-ion-litio-montadas-em-maranello-8425"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "RELOGIOS",
     "title": "Patek Philippe de Joe DiMaggio: O Cale...",
     "image": "https://robbreport.com/wp-content/uploads/2026/10/joe-dimaggio-patek-phillipe-watch.jpg",
@@ -1426,7 +1434,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "patek-philippe-de-joe-dimaggio-o-calendario-perpetuo-em-ouro-amarelo-de-1957-que-exige-12-milhao-de-dolares-em-custodia-fiduciaria-1969"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "ARQUITETURA",
     "title": "Villa sa Caleta: A Laje Monolítica de ...",
     "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=80&w=1400",
@@ -1434,20 +1442,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "villa-sa-caleta-a-laje-monolitica-de-concreto-e-travertino-de-38-milhoes-que-suspende-o-tempo-sobre-as-baleares-5403"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Ferrari 499P Modificata: O Protótipo d...",
     "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "ferrari-499p-modificata-o-prototipo-de-endurance-de-870-cv-com-aerodinamica-ativa-em-fibra-de-carbono-e-telemetria-de-maranello-4373"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Bugatti Tourbillon: O Motor V16 Aspira...",
-    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "bugatti-tourbillon-o-motor-v16-aspirado-de-83-litros-que-rejeita-a-hibridizacao-futura-em-nome-da-pureza-mecanica-1630"
   }
 ];
 
