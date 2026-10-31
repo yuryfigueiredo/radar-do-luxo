@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-superiate-oceanico-de-300-milhoe-0729",
+    "slug": "superiate-oceanico-de-300-milhoes-de-dolares-o-leviata-de-aluminio-e-aco-inoxidavel-que-dominou-as-aguas-de-cairns-com-precisao-militar-0726",
+    "title": "Superiate Oceânico de 300 Milhões de Dólares: O Leviatã de Alumínio e Aço Inoxidável que Dominou as Águas de Cairns com Precisão Militar",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "31 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A aparição do colosso naval de nove dígitos na costa australiana expõe a arquitetura flutuante definitiva, onde o design paramétrico encontra a propulsão diesel-elétrica de longo curso.",
+    "contentParagraphs": [
+      "As águas tropicais de Cairns testemunharam a chegada de um monstro cinético. Trêscentos milhões de dólares em engenharia naval pura ancorados na imensidão do Pacífico. O casco de deslocamento em aço naval suporta uma superestrutura em ligas de alumínio e titânio, projetada para absorver torções severas em mares revoltos sem emitir uma única vibração estrutural nos conveses privativos. A estética exterior recusa as curvas óbvias da indústria convencional, apostando em linhas tensas e superfícies facetadas que desafiam o arrasto hidrodinâmico.",
+      "Sob o convés principal, geradores MTU acoplados a propulsores azimutais garantem silêncio absoluto de operação, permitindo cruzeiros transoceânicos a velocidades de cruzeiro mantidas sem perda de eficiência térmica. A sala de máquinas não exibe apenas motores; abriga um ecossistema redundante de dessalinizadores por osmose reversa, sistemas de estabilização giroscópica de zero-speed e blindagem eletromagnética integrada. Cada antepara foi calculada para resistir a impactos de alta energia, enquanto o sistema de tratamento de esgoto opera com zero descarga em áreas protegidas.",
+      "Enquanto o mercado de embarcações comerciais prioriza o volume bruto, este projeto foca na autonomia de combustível e na pureza dos fluxos de ar interno, renovados a cada quatro minutos por compressores hospitalares. O heliponto certificado para aeronaves biturbinas e a doca inundável para tenders de alta performance demonstram a seriedade operacional do casco. Não há concessões decorativas superficiais; cada centímetro quadrado do layout reflete um rigor construtivo que atende às exigências das classes de inspeção mais severas do planeta.",
+      "A presença deste superiate nas águas australianas consolida a arquitetura naval privada como a verdadeira fronteira da engenharia de grande escala. Longe de ser um mero exercício de ostentação, o casco de nove dígitos opera como uma fortaleza flutuante autossuficiente. É a materialização exata de que o poder absoluto no mar exige física rigorosa, tolerâncias industriais intransigentes e uma rejeição implacável ao efêmero."
+    ],
+    "content_paragraphs": [
+      "As águas tropicais de Cairns testemunharam a chegada de um monstro cinético. Trêscentos milhões de dólares em engenharia naval pura ancorados na imensidão do Pacífico. O casco de deslocamento em aço naval suporta uma superestrutura em ligas de alumínio e titânio, projetada para absorver torções severas em mares revoltos sem emitir uma única vibração estrutural nos conveses privativos. A estética exterior recusa as curvas óbvias da indústria convencional, apostando em linhas tensas e superfícies facetadas que desafiam o arrasto hidrodinâmico.",
+      "Sob o convés principal, geradores MTU acoplados a propulsores azimutais garantem silêncio absoluto de operação, permitindo cruzeiros transoceânicos a velocidades de cruzeiro mantidas sem perda de eficiência térmica. A sala de máquinas não exibe apenas motores; abriga um ecossistema redundante de dessalinizadores por osmose reversa, sistemas de estabilização giroscópica de zero-speed e blindagem eletromagnética integrada. Cada antepara foi calculada para resistir a impactos de alta energia, enquanto o sistema de tratamento de esgoto opera com zero descarga em áreas protegidas.",
+      "Enquanto o mercado de embarcações comerciais prioriza o volume bruto, este projeto foca na autonomia de combustível e na pureza dos fluxos de ar interno, renovados a cada quatro minutos por compressores hospitalares. O heliponto certificado para aeronaves biturbinas e a doca inundável para tenders de alta performance demonstram a seriedade operacional do casco. Não há concessões decorativas superficiais; cada centímetro quadrado do layout reflete um rigor construtivo que atende às exigências das classes de inspeção mais severas do planeta.",
+      "A presença deste superiate nas águas australianas consolida a arquitetura naval privada como a verdadeira fronteira da engenharia de grande escala. Longe de ser um mero exercício de ostentação, o casco de nove dígitos opera como uma fortaleza flutuante autossuficiente. É a materialização exata de que o poder absoluto no mar exige física rigorosa, tolerâncias industriais intransigentes e uma rejeição implacável ao efêmero."
+    ],
+    "specs": {
+      "comprimento_total": "Metres variando entre 85m e 110m",
+      "casco": "Aço naval de alta resistência e superestrutura em alumínio",
+      "propulsao": "Sistema diesel-elétrico com propulsores azimutais",
+      "autonomia": "Mais de 5.000 milhas náuticas em velocidade de cruzeiro",
+      "classificacao": "Lloyd's Register Ice Class / SOLAS compliant"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "publishedAt": "2026-10-31T15:30:50.729Z",
+    "published_at": "2026-10-31T15:30:50.729Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVW1BZUg3TVpabWtJS0xUVFZISkZNN1BwZjRrR2tUWlR5V1RNekdGTUpsblBOYnN4VjVEeGp1SWNDcFdYRS1hQUJrZk96VFZKVFhWVGVud0VQTFdiWFhmaXMxWWhPUjhWY2l2ckJPVk1OVVRCTzV0MzV6UC00RFIxODJkeDQxZnJEM19YNC1GeWswM2pHdDZuNXVqb1FZcFNJZUN6MDFqRTIwbnQxd1d4ZUI2bDk0aGxoQWozMHEtUkxoX0RLTFVrTGNSSE5fVlZqRUJuSWVPTzdjNDQwdDNzZnNVclFBMWVfUnZ2cDNzdU4?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVW1BZUg3TVpabWtJS0xUVFZISkZNN1BwZjRrR2tUWlR5V1RNekdGTUpsblBOYnN4VjVEeGp1SWNDcFdYRS1hQUJrZk96VFZKVFhWVGVud0VQTFdiWFhmaXMxWWhPUjhWY2l2ckJPVk1OVVRCTzV0MzV6UC00RFIxODJkeDQxZnJEM19YNC1GeWswM2pHdDZuNXVqb1FZcFNJZUN6MDFqRTIwbnQxd1d4ZUI2bDk0aGxoQWozMHEtUkxoX0RLTFVrTGNSSE5fVlZqRUJuSWVPTzdjNDQwdDNzZnNVclFBMWVfUnZ2cDNzdU4?oc=5"
+  },
+  {
     "id": "art-lady-marina-a-navalha-de-aco-de--4037",
     "slug": "lady-marina-a-navalha-de-aco-de-64-metros-que-redefiniu-a-fisica-de-deslocamento-na-baia-de-cannes-4035",
     "title": "Lady Marina: A Navalha de Aço de 64 Metros que Redefiniu a Física de Deslocamento na Baía de Cannes",
@@ -1347,63 +1398,20 @@ export const ARTICLES = [
     "published_at": "2026-10-27T15:19:31.517Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQlRaa2ZyamlkS1Naa2tKdEdQX0huWDdKckR6d3JXdG1NSmZJWTdJVnY1SmFpb21MWmNTMlZBVnRjZy12TWhvYUxXaDVGNjRIZEV0aDhSc1Q0SFNvZDVyb2hxTmVrZWpXdUZUVHNoMTUyTEl6b0NwSWN6dmstYW1GdlhUTFBoc1puQTFTakljUk9NVUkwcDd5NkkwbzMya1U0Y0lxeUlzQ2ZmNUZfV21FbEZsOA?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQlRaa2ZyamlkS1Naa2tKdEdQX0huWDdKckR6d3JXdG1NSmZJWTdJVnY1SmFpb21MWmNTMlZBVnRjZy12TWhvYUxXaDVGNjRIZEV0aDhSc1Q0SFNvZDVyb2hxTmVrZWpXdUZUVHNoMTUyTEl6b0NwSWN6dmstYW1GdlhUTFBoc1puQTFTakljUk9NVUkwcDd5NkkwbzMya1U0Y0lxeUlzQ2ZmNUZfV21FbEZsOA?oc=5"
-  },
-  {
-    "id": "art-bugatti-residences-miami-a-torre-7537",
-    "slug": "bugatti-residences-miami-a-torre-de-52-andares-com-sky-lifts-hidraulicos-que-elevam-hipercarros-ate-a-cobertura-privativa-7521",
-    "title": "Bugatti Residences Miami: A Torre de 52 Andares com Sky-Lifts Hidráulicos que Elevam Hipercarros até a Cobertura Privativa",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "27 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "A engenharia aerodinâmica de Molsheim cruza o Atlântico para erguer um monstro residencial em Miami, onde a força G lateral dá lugar à elevação vertical de bólidos milionários diretamente para a sala de estar.",
-    "contentParagraphs": [
-      "O asfalto cede lugar ao concreto armado. A velocidade pura agora desafia a gravidade. A Bugatti transpôs sua obsessão por tolerâncias de mícrons e fluxos de Venturi para o skyline de Miami, concebendo uma torre residencial onde o aço estrutural suporta cargas dinâmicas inimagináveis na arquitetura convencional.",
-      "Dois elevadores hidráulicos de alta capacidade operam como pistões de um motor W16, içando veículos com exatidão milimétrica através do núcleo da torre. Cada sky-lift foi projetado para absorver vibrações inerciais, garantindo que o monocoque em carbo-titânio e o escape em Inconel estacionem silenciosamente ao lado do mobiliário de living.",
-      "A aerodinâmica não se restringe mais às pistas de Nürburgring. O perfil arquitetônico do edifício manipula o fluxo laminar dos ventos costeiros da Flórida, reduzindo o arrasto estrutural enquanto os terraços em balanço oferecem um refúgio térmico moldado em vidro blindado de alta densidade e pedra natural.",
-      "Em um mercado imobiliário saturado por torres efêmeras cobertas de vidro espelhado, esta obra-prima estabelece um novo patamar de imunidade temporal. Não estamos diante de um endereço residencial comum, mas de um santuário mecânico intransigente onde a engenharia extrema finalmente encontra seu endereço permanente."
-    ],
-    "content_paragraphs": [
-      "O asfalto cede lugar ao concreto armado. A velocidade pura agora desafia a gravidade. A Bugatti transpôs sua obsessão por tolerâncias de mícrons e fluxos de Venturi para o skyline de Miami, concebendo uma torre residencial onde o aço estrutural suporta cargas dinâmicas inimagináveis na arquitetura convencional.",
-      "Dois elevadores hidráulicos de alta capacidade operam como pistões de um motor W16, içando veículos com exatidão milimétrica através do núcleo da torre. Cada sky-lift foi projetado para absorver vibrações inerciais, garantindo que o monocoque em carbo-titânio e o escape em Inconel estacionem silenciosamente ao lado do mobiliário de living.",
-      "A aerodinâmica não se restringe mais às pistas de Nürburgring. O perfil arquitetônico do edifício manipula o fluxo laminar dos ventos costeiros da Flórida, reduzindo o arrasto estrutural enquanto os terraços em balanço oferecem um refúgio térmico moldado em vidro blindado de alta densidade e pedra natural.",
-      "Em um mercado imobiliário saturado por torres efêmeras cobertas de vidro espelhado, esta obra-prima estabelece um novo patamar de imunidade temporal. Não estamos diante de um endereço residencial comum, mas de um santuário mecânico intransigente onde a engenharia extrema finalmente encontra seu endereço permanente."
-    ],
-    "specs": {
-      "arquitetura": "Zaha Hadid Architects",
-      "mecanica_elevacao": "Sky-Lifts hidráulicos de alta precisão",
-      "estrutura": "Concreto de ultra-alto desempenho e carbo-titânio",
-      "localizacao": "South Miami Beach, Flórida",
-      "unidades_exclusivas": "146 residências com garagens privativas elevadas"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 94,
-    "ranking_score": 94,
-    "publishedAt": "2026-10-27T00:25:57.536Z",
-    "published_at": "2026-10-27T00:25:57.536Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdXRWVV9WWVJMZ3Q0ZUxmTHZwbDcxR3kxS1BPS0l5V1E5ZGQwUW5LWXYzdFRST251THV6dXh6TVFya1NmMHRfcGltNDZuaktZQTFDcjEwTTVMbHo3bm44NmVMSVVXdzdSTUxheWxUYmVpR0c0S2wwODFTcHZuR2RoeHREVjI5SGlhc3U3Vmd1RmpSMHVCb1N1Z1U4RWFkdHh6cmF2dll1bnRLOXVVOXdGWFNEOGNMcTNzZkhILTFONFZXSUM4WFdqeFVOMWRlRWMtZGxCZVNkZkY1aXNKSDNoX1FlaXBQTW5udjJ4dWs2Mms?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdXRWVV9WWVJMZ3Q0ZUxmTHZwbDcxR3kxS1BPS0l5V1E5ZGQwUW5LWXYzdFRST251THV6dXh6TVFya1NmMHRfcGltNDZuaktZQTFDcjEwTTVMbHo3bm44NmVMSVVXdzdSTUxheWxUYmVpR0c0S2wwODFTcHZuR2RoeHREVjI5SGlhc3U3Vmd1RmpSMHVCb1N1Z1U4RWFkdHh6cmF2dll1bnRLOXVVOXdGWFNEOGNMcTNzZkhILTFONFZXSUM4WFdqeFVOMWRlRWMtZGxCZVNkZkY1aXNKSDNoX1FlaXBQTW5udjJ4dWs2Mms?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "RELOGIOS",
+    "title": "Patek Philippe de Joe DiMaggio: O Cale...",
+    "image": "https://robbreport.com/wp-content/uploads/2026/10/joe-dimaggio-patek-phillipe-watch.jpg",
+    "tag": "CURADORIA RADAR",
+    "slug": "patek-philippe-de-joe-dimaggio-o-calendario-perpetuo-em-ouro-amarelo-de-1957-que-exige-12-milhao-de-dolares-em-custodia-fiduciaria-1969"
+  },
+  {
+    "id": "film-2",
     "category": "ARQUITETURA",
     "title": "Villa sa Caleta: A Laje Monolítica de ...",
     "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=80&w=1400",
@@ -1411,7 +1419,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "villa-sa-caleta-a-laje-monolitica-de-concreto-e-travertino-de-38-milhoes-que-suspende-o-tempo-sobre-as-baleares-5403"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Ferrari 499P Modificata: O Protótipo d...",
     "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
@@ -1419,7 +1427,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-499p-modificata-o-prototipo-de-endurance-de-870-cv-com-aerodinamica-ativa-em-fibra-de-carbono-e-telemetria-de-maranello-4373"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Bugatti Tourbillon: O Motor V16 Aspira...",
     "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
@@ -1427,7 +1435,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "bugatti-tourbillon-o-motor-v16-aspirado-de-83-litros-que-rejeita-a-hibridizacao-futura-em-nome-da-pureza-mecanica-1630"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "RELOGIOS",
     "title": "Atelier Mephalie: A Repetição de Minut...",
     "image": "https://monochrome-watches.com/app/uploads/2026/10/Chinese-Brand-Atelier-Mephalie-Minute-Repeater-Collection-Accessible-5.jpg",
@@ -1435,20 +1443,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "atelier-mephalie-a-repeticao-de-minutos-com-gongos-acusticos-manuais-e-acabamento-em-anglage-de-alta-relojoaria-5090"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "DESTINOS",
     "title": "Nuvolari Lenard 380: O Monstro Transoc...",
     "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "nuvolari-lenard-380-o-monstro-transoceanico-de-115-metros-desenvolvido-com-casco-de-deslocamento-rigido-para-navegacao-polar-autonoma-1935"
-  },
-  {
-    "id": "film-6",
-    "category": "RELOGIOS",
-    "title": "Audemars Piguet: O Ecossistema 'The Wa...",
-    "image": "https://hodinkee.imgix.net/uploads/images/6e4490ef-be24-4879-bfcc-f05780554f82/TheWatchKeepers_Library.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=2000",
-    "tag": "CURADORIA RADAR",
-    "slug": "audemars-piguet-o-ecossistema-the-watch-keepers-e-a-criptografia-fiduciaria-de-850-pecas-certificadas-na-vallee-de-joux-4646"
   }
 ];
 
