@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-lady-marina-a-navalha-de-aco-de--4037",
+    "slug": "lady-marina-a-navalha-de-aco-de-64-metros-que-redefiniu-a-fisica-de-deslocamento-na-baia-de-cannes-4035",
+    "title": "Lady Marina: A Navalha de Aço de 64 Metros que Redefiniu a Física de Deslocamento na Baía de Cannes",
+    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBSUUNDSTRCclJVQUJISUM2WDNON2k1cFRGd09OeUdsQVpwZVVkVHNJOVJGcjhad3dNeUZ4SE80a3FIajZZallHTTliQUREUXNyYXgzV2lGbEp3bjRxakpPMkxJX094b0hiajctLWRR?oc=5",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-10-31T15:15:24.037Z"
+  },
+  {
     "id": "art-ohorapictor-smoked-ocean-volcano-1180",
     "slug": "ohorapictor-smoked-ocean-volcano-grey-40-milimetros-de-esmalte-grand-feu-a-820c-com-calibre-suico-sellita-sw200-1162",
     "title": "O&HoraPictor Smoked Ocean Volcano Grey: 40 Milímetros de Esmalte Grand Feu a 820°C com Calibre Suíço Sellita SW200",

@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-lady-marina-a-navalha-de-aco-de--4037",
+    "slug": "lady-marina-a-navalha-de-aco-de-64-metros-que-redefiniu-a-fisica-de-deslocamento-na-baia-de-cannes-4035",
+    "title": "Lady Marina: A Navalha de Aço de 64 Metros que Redefiniu a Física de Deslocamento na Baía de Cannes",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "31 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Sob o sol cortante da Croisette, o casco cinza-metálico do Lady Marina desafiou a arquitetura naval contemporânea, impondo uma massa de 64 metros com a agilidade de um torpedo de propulsão iônica.",
+    "contentParagraphs": [
+      "A baía de Cannes tremeu. Duas mil toneladas de engenharia naval estelar cortaram a lâmina d'água sob o crivo de tolerâncias de mícrons. A proa invertida do Lady Marina rasgava o Mediterrâneo com precisão cirúrgica, enquanto suas turbinas geravam um ronco abafado abaixo da linha d'água. Não havia espaço para concessões estéticas. Apenas hidrodinâmica implacable.",
+      "O casco em aço balístico de alta resistência foi moldado para anular qualquer vibração estrutural em cruzeiro prolongado. O monocoque naval suporta forças de torção extremas, cortando o swell de través com um coeficiente de arrasto hidrodinâmico rigorosamente otimizado por supercomputadores. As linhas do convés superior esculpem o vento em túneis de efeito solo, canalizando o fluxo atmosférico com exatidão matemática para estabilizar o perfil dinâmico em altas velocidades de cruzeiro.",
+      "No interior da praça de máquinas, motores Caterpillar duplos entregavam torque bruto contínuo, alimentados por redundâncias dignas de um cruzador de combate. O escape isolado termicamente em ligas de Inconel mantinha o silêncio mineral nos conveses privativos, contrastando com o inferno termodinâmico operando a pleno vapor nas entranhas do navio. A telemetria inercial registrava um balanço lateral quase nulo, cortesia de estabilizadores giroscópicos de última geração.",
+      "Enquanto os oligarcas disputavam espaço na Croisette com embarcações de ostentação efêmera, o Lady Marina permaneceu como um monumento à engenharia sem concessões. Um predador de águas profundas construído para durar gerações, ignorando modismos em favor de uma soberania mecânica absoluta sobre os oceanos."
+    ],
+    "content_paragraphs": [
+      "A baía de Cannes tremeu. Duas mil toneladas de engenharia naval estelar cortaram a lâmina d'água sob o crivo de tolerâncias de mícrons. A proa invertida do Lady Marina rasgava o Mediterrâneo com precisão cirúrgica, enquanto suas turbinas geravam um ronco abafado abaixo da linha d'água. Não havia espaço para concessões estéticas. Apenas hidrodinâmica implacable.",
+      "O casco em aço balístico de alta resistência foi moldado para anular qualquer vibração estrutural em cruzeiro prolongado. O monocoque naval suporta forças de torção extremas, cortando o swell de través com um coeficiente de arrasto hidrodinâmico rigorosamente otimizado por supercomputadores. As linhas do convés superior esculpem o vento em túneis de efeito solo, canalizando o fluxo atmosférico com exatidão matemática para estabilizar o perfil dinâmico em altas velocidades de cruzeiro.",
+      "No interior da praça de máquinas, motores Caterpillar duplos entregavam torque bruto contínuo, alimentados por redundâncias dignas de um cruzador de combate. O escape isolado termicamente em ligas de Inconel mantinha o silêncio mineral nos conveses privativos, contrastando com o inferno termodinâmico operando a pleno vapor nas entranhas do navio. A telemetria inercial registrava um balanço lateral quase nulo, cortesia de estabilizadores giroscópicos de última geração.",
+      "Enquanto os oligarcas disputavam espaço na Croisette com embarcações de ostentação efêmera, o Lady Marina permaneceu como um monumento à engenharia sem concessões. Um predador de águas profundas construído para durar gerações, ignorando modismos em favor de uma soberania mecânica absoluta sobre os oceanos."
+    ],
+    "specs": {
+      "comprimento_total": "63,70 metros",
+      "construtor": "Royal Van Lent / De Vries Shipyard",
+      "propulsao": "Motores Caterpillar 3516B DITA SCAC",
+      "casco": "Aço balístico com superestrutura em alumínio",
+      "velocidade_maxima": "16 nós",
+      "autonomia": "5.000 milhas náuticas a 12 nós"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 92,
+    "ranking_score": 92,
+    "publishedAt": "2026-10-31T15:15:24.037Z",
+    "published_at": "2026-10-31T15:15:24.037Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBSUUNDSTRCclJVQUJISUM2WDNON2k1cFRGd09OeUdsQVpwZVVkVHNJOVJGcjhad3dNeUZ4SE80a3FIajZZallHTTliQUREUXNyYXgzV2lGbEp3bjRxakpPMkxJX094b0hiajctLWRR?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBSUUNDSTRCclJVQUJISUM2WDNON2k1cFRGd09OeUdsQVpwZVVkVHNJOVJGcjhad3dNeUZ4SE80a3FIajZZallHTTliQUREUXNyYXgzV2lGbEp3bjRxakpPMkxJX094b0hiajctLWRR?oc=5"
+  },
+  {
     "id": "art-ohorapictor-smoked-ocean-volcano-1180",
     "slug": "ohorapictor-smoked-ocean-volcano-grey-40-milimetros-de-esmalte-grand-feu-a-820c-com-calibre-suico-sellita-sw200-1162",
     "title": "O&HoraPictor Smoked Ocean Volcano Grey: 40 Milímetros de Esmalte Grand Feu a 820°C com Calibre Suíço Sellita SW200",
@@ -279,7 +331,7 @@ export const ARTICLES = [
     "authorSlug": "clara-meirelles",
     "author_slug": "clara-meirelles",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "30 de outubro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -307,10 +359,10 @@ export const ARTICLES = [
       "coleção": "Linha permanente Laureato Fifty"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 88,
@@ -1346,64 +1398,20 @@ export const ARTICLES = [
     "published_at": "2026-10-27T00:25:57.536Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdXRWVV9WWVJMZ3Q0ZUxmTHZwbDcxR3kxS1BPS0l5V1E5ZGQwUW5LWXYzdFRST251THV6dXh6TVFya1NmMHRfcGltNDZuaktZQTFDcjEwTTVMbHo3bm44NmVMSVVXdzdSTUxheWxUYmVpR0c0S2wwODFTcHZuR2RoeHREVjI5SGlhc3U3Vmd1RmpSMHVCb1N1Z1U4RWFkdHh6cmF2dll1bnRLOXVVOXdGWFNEOGNMcTNzZkhILTFONFZXSUM4WFdqeFVOMWRlRWMtZGxCZVNkZkY1aXNKSDNoX1FlaXBQTW5udjJ4dWs2Mms?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdXRWVV9WWVJMZ3Q0ZUxmTHZwbDcxR3kxS1BPS0l5V1E5ZGQwUW5LWXYzdFRST251THV6dXh6TVFya1NmMHRfcGltNDZuaktZQTFDcjEwTTVMbHo3bm44NmVMSVVXdzdSTUxheWxUYmVpR0c0S2wwODFTcHZuR2RoeHREVjI5SGlhc3U3Vmd1RmpSMHVCb1N1Z1U4RWFkdHh6cmF2dll1bnRLOXVVOXdGWFNEOGNMcTNzZkhILTFONFZXSUM4WFdqeFVOMWRlRWMtZGxCZVNkZkY1aXNKSDNoX1FlaXBQTW5udjJ4dWs2Mms?oc=5"
-  },
-  {
-    "id": "art-vacheron-constantin-les-cabinoti-0905",
-    "slug": "vacheron-constantin-les-cabinotiers-a-obra-mestra-de-40-complicacoes-em-platina-que-exigiu-8-anos-de-calculo-astronomico-em-genebra-0895",
-    "title": "Vacheron Constantin Les Cabinotiers: A Obra-Mestra de 40 Complicações em Platina que Exigiu 8 Anos de Cálculo Astronômico em Genebra",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "category_slug": "relogios",
-    "authorSlug": "clara-meirelles",
-    "author_slug": "clara-meirelles",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "26 de outubro de 2026",
-    "readTime": "6 min de leitura",
-    "read_time": "6 min de leitura",
-    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "No santuário reservado do Les Cabinotiers, a mais antiga manufatura contínua do mundo ergue um monumento de platina onde o tempo sideral e as marés gravitacionais obedecem a uma arquitetura mecânica de quarenta complicações.",
-    "contentParagraphs": [
-      "O silêncio do ateliê é cortado apenas pelo tique-taque metódico de duzentos componentes microscópicos dançando em absoluta harmonia. Foram necessários exatos oito anos de cálculos astronômicos e puras equações solares para traduzir a mecânica celeste em engrenagens visíveis. A matéria-prima escolhida foi a platina sólida, pesada e fria ao toque, abrigando um calibre de manufatura que desafia os limites históricos da microengenharia suíça.",
-      "Cada uma das quarenta complicações exige uma coreografia invisível de molas e barriletes duplos. O mostrador duplo expõe gráficos complexos de equações do tempo, cartas celestes ajustadas para coordenadas geográficas específicas e o balé perpétuo do turbilhão. A precisão não admite desvios. O erro tolerado é inferior ao sopro do vento sobre o lago Lemano, garantindo imunidade temporal absoluta a esta peça única.",
-      "As pontes de latão banhado a ródio recebem o tratamento manual de anglage com sabugueiro silvestre e polimento de cantos vivos executado com buril de aço. Nenhuma máquina moderna consegue replicar a irregularidade artística que o toque humano imprime nas superfícies internas. O esmalte Grand Feu aplicado no mostrador passa por sucessivas queimas a 820°C, vitrificando o azul profundo que simula a imensidão do cosmos.",
-      "Trata-se de uma soberania patrimonial que recusa a pressa do mundo contemporâneo e o descarte digital. O comprador desta peça não adquire um instrumento de medição, mas a custódia fiduciária de um legado secular guardado na Vallée de Joux. Aqui, o tempo deixa de ser um recurso escasso para se tornar uma tela mecânica esculpida pelas mãos mais pacientes da Europa.",
-      "O enceramento do couro Box Calf que reveste a caixa de apresentação sela o pacto entre a tradição de Genebra e a eternidade. Quando o relógio for entregue ao seu legítimo guardião, as engrenagens em aço temperado continuarão a registrar o pulso do universo, imunes às modas efêmeras e aos ruídos da modernidade líquida."
-    ],
-    "content_paragraphs": [
-      "O silêncio do ateliê é cortado apenas pelo tique-taque metódico de duzentos componentes microscópicos dançando em absoluta harmonia. Foram necessários exatos oito anos de cálculos astronômicos e puras equações solares para traduzir a mecânica celeste em engrenagens visíveis. A matéria-prima escolhida foi a platina sólida, pesada e fria ao toque, abrigando um calibre de manufatura que desafia os limites históricos da microengenharia suíça.",
-      "Cada uma das quarenta complicações exige uma coreografia invisível de molas e barriletes duplos. O mostrador duplo expõe gráficos complexos de equações do tempo, cartas celestes ajustadas para coordenadas geográficas específicas e o balé perpétuo do turbilhão. A precisão não admite desvios. O erro tolerado é inferior ao sopro do vento sobre o lago Lemano, garantindo imunidade temporal absoluta a esta peça única.",
-      "As pontes de latão banhado a ródio recebem o tratamento manual de anglage com sabugueiro silvestre e polimento de cantos vivos executado com buril de aço. Nenhuma máquina moderna consegue replicar a irregularidade artística que o toque humano imprime nas superfícies internas. O esmalte Grand Feu aplicado no mostrador passa por sucessivas queimas a 820°C, vitrificando o azul profundo que simula a imensidão do cosmos.",
-      "Trata-se de uma soberania patrimonial que recusa a pressa do mundo contemporâneo e o descarte digital. O comprador desta peça não adquire um instrumento de medição, mas a custódia fiduciária de um legado secular guardado na Vallée de Joux. Aqui, o tempo deixa de ser um recurso escasso para se tornar uma tela mecânica esculpida pelas mãos mais pacientes da Europa.",
-      "O enceramento do couro Box Calf que reveste a caixa de apresentação sela o pacto entre a tradição de Genebra e a eternidade. Quando o relógio for entregue ao seu legítimo guardião, as engrenagens em aço temperado continuarão a registrar o pulso do universo, imunes às modas efêmeras e aos ruídos da modernidade líquida."
-    ],
-    "specs": {
-      "Manufatura": "Vacheron Constantin Les Cabinotiers, Genebra",
-      "Calibre": "Movimento mecânico de corda manual com 40 complicações",
-      "Material da Caixa": "Platina 950 com diâmetro sob medida",
-      "Acabamento": "Anglage manual, biselamento e polimento a buril",
-      "Tiragem": "Peça única (Unique Piece)",
-      "Avaliação Patrimonial": "Confidencial sob consulta privada"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 97,
-    "ranking_score": 97,
-    "publishedAt": "2026-10-26T00:52:10.905Z",
-    "published_at": "2026-10-26T00:52:10.905Z"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "ARQUITETURA",
+    "title": "Villa sa Caleta: A Laje Monolítica de ...",
+    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "villa-sa-caleta-a-laje-monolitica-de-concreto-e-travertino-de-38-milhoes-que-suspende-o-tempo-sobre-as-baleares-5403"
+  },
+  {
+    "id": "film-2",
     "category": "SUPERCARROS",
     "title": "Ferrari 499P Modificata: O Protótipo d...",
     "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
@@ -1411,7 +1419,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-499p-modificata-o-prototipo-de-endurance-de-870-cv-com-aerodinamica-ativa-em-fibra-de-carbono-e-telemetria-de-maranello-4373"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Bugatti Tourbillon: O Motor V16 Aspira...",
     "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
@@ -1419,7 +1427,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "bugatti-tourbillon-o-motor-v16-aspirado-de-83-litros-que-rejeita-a-hibridizacao-futura-em-nome-da-pureza-mecanica-1630"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "RELOGIOS",
     "title": "Atelier Mephalie: A Repetição de Minut...",
     "image": "https://monochrome-watches.com/app/uploads/2026/10/Chinese-Brand-Atelier-Mephalie-Minute-Repeater-Collection-Accessible-5.jpg",
@@ -1427,7 +1435,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "atelier-mephalie-a-repeticao-de-minutos-com-gongos-acusticos-manuais-e-acabamento-em-anglage-de-alta-relojoaria-5090"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "DESTINOS",
     "title": "Nuvolari Lenard 380: O Monstro Transoc...",
     "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
@@ -1435,20 +1443,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "nuvolari-lenard-380-o-monstro-transoceanico-de-115-metros-desenvolvido-com-casco-de-deslocamento-rigido-para-navegacao-polar-autonoma-1935"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "RELOGIOS",
     "title": "Audemars Piguet: O Ecossistema 'The Wa...",
     "image": "https://hodinkee.imgix.net/uploads/images/6e4490ef-be24-4879-bfcc-f05780554f82/TheWatchKeepers_Library.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=2000",
     "tag": "CURADORIA RADAR",
     "slug": "audemars-piguet-o-ecossistema-the-watch-keepers-e-a-criptografia-fiduciaria-de-850-pecas-certificadas-na-vallee-de-joux-4646"
-  },
-  {
-    "id": "film-6",
-    "category": "DESTINOS",
-    "title": "Tommy Chiabra: O Marco de € 1 Bilhão e...",
-    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "tommy-chiabra-o-marco-de-1-bilhao-e-a-nova-dinamica-de-gigaiates-em-ligas-de-aluminio-titanio-1501"
   }
 ];
 
