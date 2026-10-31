@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-bugatti-eb110-widebody-o-primeir-7886",
+    "slug": "bugatti-eb110-widebody-o-primeiro-exemplar-modificado-do-planeta-que-aterrisou-no-concours-de-las-vegas-desafiando-a-ortodoxia-de-campogalliani-7868",
+    "title": "Bugatti EB110 Widebody: O Primeiro Exemplar Modificado do Planeta Que Aterrisou no Concours de Las Vegas Desafiando a Ortodoxia de Campogalliani",
+    "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=max&q=85&w=1800",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT0hHYU1OX0JNTlJGR19pMkFpbFZSMVhlS2huN1N4b1ZhVGR4WW9jVUZ5c1R4LU55U3dJSURjU1BKc1N4LXlOeTFLQXVubDV5QWRGXzhubzg2QUF2M3J6S3U5ZDdZNno2V200cGxyb0RHRHpKTTZ0V3RxREc4UFFtUmJlYno4MkxXcEFjVFh5SFZvckNYeFNHU3BTbnJXVGVSUW5URXlzdTZDZXRs?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-10-31T19:08:47.885Z"
+  },
+  {
     "id": "art-superiate-oceanico-de-300-milhoe-0729",
     "slug": "superiate-oceanico-de-300-milhoes-de-dolares-o-leviata-de-aluminio-e-aco-inoxidavel-que-dominou-as-aguas-de-cairns-com-precisao-militar-0726",
     "title": "Superiate Oceânico de 300 Milhões de Dólares: O Leviatã de Alumínio e Aço Inoxidável que Dominou as Águas de Cairns com Precisão Militar",

@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-bugatti-eb110-widebody-o-primeir-7886",
+    "slug": "bugatti-eb110-widebody-o-primeiro-exemplar-modificado-do-planeta-que-aterrisou-no-concours-de-las-vegas-desafiando-a-ortodoxia-de-campogalliani-7868",
+    "title": "Bugatti EB110 Widebody: O Primeiro Exemplar Modificado do Planeta Que Aterrisou no Concours de Las Vegas Desafiando a Ortodoxia de Campogalliani",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "31 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=max&q=85&w=1800",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "A aparição inédita do primeiro EB110 com alargamento estrutural de carroçaria nas areias de Nevada redefine os limites entre a preservação estática e a brutalidade mecânica dos anos 90.",
+    "contentParagraphs": [
+      "O silêncio do deserto de Nevada foi violentamente rasgado por um assobio metálico inconfundível. Quatro turbos IHI comprimindo ar em um V12 de 3,5 litros com cinco válvulas por cilindro. Não era apenas um clássico exibido sob luz artificial. Era o primeiro Bugatti EB110 widebody do mundo, descarregado diretamente para o asfalto do Las Vegas Concours com a fúria mecânica intacta dos anos dourados de Romano Artioli em Campogalliani.",
+      "As caixas de rodas alargadas em fibra de carbono artesanal abrigam bitolas significativamente expandidas. Esta intervenção cirúrgica altera o coeficiente de arrasto original Cx, mas reconfigura a dinâmica de rolagem para resistir a forças G laterais extremas que o projeto de Paolo Stanzani jamais imaginou suportar nas curvas de alta velocidade. Sob o monocoque em alumínio colado e rebitado, a tração integral permanente distribui o torque bruto para as quatro esquinas, mantendo a aspereza visceral da transmissão manual de seis marchas.",
+      "Puristas torcem o nariz diante da audácia de retocar um projeto assinado por Marcello Gandini. Colecionadores de mentalidade dinástica, contudo, reconhecem nesta conversão um ato de suprema rebeldia cinética. O chassi numerado deixa de ser um fóssil de museu climatizado. Transforma-se em um organismo pulsante que rasga o ar seco do deserto, alimentado por escapamentos redesenhados em ligas de alta temperatura e telemetria inercial adaptada ao século XXI.",
+      "Enquanto leilões globais acumulam exemplares intocados que nunca viram o corte de 8.250 RPM, este espécime único prova que a verdadeira herança mecânica não se preserva sob capas de veludo. Ela exige combustão, tolerâncias milimétricas ajustadas à mão e a coragem implacável de desafiar o dogma estético estabelecido há três décadas."
+    ],
+    "content_paragraphs": [
+      "O silêncio do deserto de Nevada foi violentamente rasgado por um assobio metálico inconfundível. Quatro turbos IHI comprimindo ar em um V12 de 3,5 litros com cinco válvulas por cilindro. Não era apenas um clássico exibido sob luz artificial. Era o primeiro Bugatti EB110 widebody do mundo, descarregado diretamente para o asfalto do Las Vegas Concours com a fúria mecânica intacta dos anos dourados de Romano Artioli em Campogalliani.",
+      "As caixas de rodas alargadas em fibra de carbono artesanal abrigam bitolas significativamente expandidas. Esta intervenção cirúrgica altera o coeficiente de arrasto original Cx, mas reconfigura a dinâmica de rolagem para resistir a forças G laterais extremas que o projeto de Paolo Stanzani jamais imaginou suportar nas curvas de alta velocidade. Sob o monocoque em alumínio colado e rebitado, a tração integral permanente distribui o torque bruto para as quatro esquinas, mantendo a aspereza visceral da transmissão manual de seis marchas.",
+      "Puristas torcem o nariz diante da audácia de retocar um projeto assinado por Marcello Gandini. Colecionadores de mentalidade dinástica, contudo, reconhecem nesta conversão um ato de suprema rebeldia cinética. O chassi numerado deixa de ser um fóssil de museu climatizado. Transforma-se em um organismo pulsante que rasga o ar seco do deserto, alimentado por escapamentos redesenhados em ligas de alta temperatura e telemetria inercial adaptada ao século XXI.",
+      "Enquanto leilões globais acumulam exemplares intocados que nunca viram o corte de 8.250 RPM, este espécime único prova que a verdadeira herança mecânica não se preserva sob capas de veludo. Ela exige combustão, tolerâncias milimétricas ajustadas à mão e a coragem implacável de desafiar o dogma estético estabelecido há três décadas."
+    ],
+    "specs": {
+      "motorizacao": "V12 3.5L Quad-Turboalimentado",
+      "potencia": "560 cv a 8.000 rpm",
+      "transmissao": "Manual de 6 velocidades com tração integral",
+      "modificacao": "Widebody estrutural em fibra de carbono artesanal",
+      "evento": "Las Vegas Concours d'Elegance"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "publishedAt": "2026-10-31T19:08:47.885Z",
+    "published_at": "2026-10-31T19:08:47.885Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT0hHYU1OX0JNTlJGR19pMkFpbFZSMVhlS2huN1N4b1ZhVGR4WW9jVUZ5c1R4LU55U3dJSURjU1BKc1N4LXlOeTFLQXVubDV5QWRGXzhubzg2QUF2M3J6S3U5ZDdZNno2V200cGxyb0RHRHpKTTZ0V3RxREc4UFFtUmJlYno4MkxXcEFjVFh5SFZvckNYeFNHU3BTbnJXVGVSUW5URXlzdTZDZXRs?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT0hHYU1OX0JNTlJGR19pMkFpbFZSMVhlS2huN1N4b1ZhVGR4WW9jVUZ5c1R4LU55U3dJSURjU1BKc1N4LXlOeTFLQXVubDV5QWRGXzhubzg2QUF2M3J6S3U5ZDdZNno2V200cGxyb0RHRHpKTTZ0V3RxREc4UFFtUmJlYno4MkxXcEFjVFh5SFZvckNYeFNHU3BTbnJXVGVSUW5URXlzdTZDZXRs?oc=5"
+  },
+  {
     "id": "art-superiate-oceanico-de-300-milhoe-0729",
     "slug": "superiate-oceanico-de-300-milhoes-de-dolares-o-leviata-de-aluminio-e-aco-inoxidavel-que-dominou-as-aguas-de-cairns-com-precisao-militar-0726",
     "title": "Superiate Oceânico de 300 Milhões de Dólares: O Leviatã de Alumínio e Aço Inoxidável que Dominou as Águas de Cairns com Precisão Militar",
@@ -176,7 +227,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "31 de outubro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -205,10 +256,10 @@ export const ARTICLES = [
       "autonomia": "5.000 milhas náuticas a 12 nós"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 92,
@@ -1347,63 +1398,20 @@ export const ARTICLES = [
     "published_at": "2026-10-27T18:09:24.662Z",
     "sourceUrl": "https://www.hodinkee.com/articles/audemars-piguet-unveils-the-watch-keepers-a-digital-platform-offering-certified-pre-owned-watches",
     "source_url": "https://www.hodinkee.com/articles/audemars-piguet-unveils-the-watch-keepers-a-digital-platform-offering-certified-pre-owned-watches"
-  },
-  {
-    "id": "art-tommy-chiabra-o-marco-de-1-bilha-1517",
-    "slug": "tommy-chiabra-o-marco-de-1-bilhao-e-a-nova-dinamica-de-gigaiates-em-ligas-de-aluminio-titanio-1501",
-    "title": "Tommy Chiabra: O Marco de € 1 Bilhão e a Nova Dinâmica de Gigaiates em Ligas de Alumínio-Titânio",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "27 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A corretagem naval atinge o limiar das dez cifras, impulsionada por cascos personalizados que exigem tolerâncias de mícrons e propulsão híbrida de alta autonomia.",
-    "contentParagraphs": [
-      "O oceano não tolera amadorismo estrutural. O mercado de brokerage naval cruza uma fronteira financeira inédita, onde encomendar uma embarcação de noventa metros já não satisfaz os herdeiros de fortunas globais. A corrida pelo primeiro superiate de € 1 bilhão reescreve os manuais de arquitetura naval em estaleiros na Alemanha e na Itália. Cada casco demanda engenharia de fluidos extrema, transformando o transporte aquático em uma demonstração de supremacia técnica absoluta.",
-      "A dinâmica impulsionada por Tommy Chiabra evidencia uma mudança drástica nas especificações solicitadas pelos proprietários. Monocoques em aço naval e superestruturas em ligas compostas de alumínio e titânio suportam esforços torcionais extremos sob vagas de sete metros. Os projetos agora integram propulsão híbrida com células de combustível de hidrogênio e baterias de íon-lítio de alta densidade energética, garantindo operação silenciosa em áreas de preservação marinha. O fluxo de Venturi subaquático é calculado milimetricamente para mitigar a assinatura hidrodinâmica, enquanto estabilizadores giroscópicos massivos eliminam completamente a força G lateral em velocidade de cruzeiro.",
-      "Dinastias industriais tratam estes ativos flutuantes como refúgios soberanos de longo curso. O valor de construção reflete a complexidade dos sistemas de bordo: helipontos certificados para aeronaves de trinta toneladas, docas internas inundáveis para submersíveis de pesquisa científica e blindagens balísticas integradas nas anteparas principais. Trata-se de engenharia civil pesada adaptada ao ambiente marinho mais agressivo do planeta, garantindo imunidade temporal e refúgio intransponível longe das costas continentais.",
-      "Nenhum centavo deste orçamento colossal é direcionado ao supérfluo efêmero. Cada euro investido justifica-se pela redundância mecânica tripla, sistemas de navegação inercial militar e autonomia transoceânica sem reabastecimento. A arquitetura naval de dez cifras coroa a era onde a verdadeira riqueza se traduz em soberania móvel, desafiando a física das ondas com a precisão inegociável de um ateliê centenário."
-    ],
-    "content_paragraphs": [
-      "O oceano não tolera amadorismo estrutural. O mercado de brokerage naval cruza uma fronteira financeira inédita, onde encomendar uma embarcação de noventa metros já não satisfaz os herdeiros de fortunas globais. A corrida pelo primeiro superiate de € 1 bilhão reescreve os manuais de arquitetura naval em estaleiros na Alemanha e na Itália. Cada casco demanda engenharia de fluidos extrema, transformando o transporte aquático em uma demonstração de supremacia técnica absoluta.",
-      "A dinâmica impulsionada por Tommy Chiabra evidencia uma mudança drástica nas especificações solicitadas pelos proprietários. Monocoques em aço naval e superestruturas em ligas compostas de alumínio e titânio suportam esforços torcionais extremos sob vagas de sete metros. Os projetos agora integram propulsão híbrida com células de combustível de hidrogênio e baterias de íon-lítio de alta densidade energética, garantindo operação silenciosa em áreas de preservação marinha. O fluxo de Venturi subaquático é calculado milimetricamente para mitigar a assinatura hidrodinâmica, enquanto estabilizadores giroscópicos massivos eliminam completamente a força G lateral em velocidade de cruzeiro.",
-      "Dinastias industriais tratam estes ativos flutuantes como refúgios soberanos de longo curso. O valor de construção reflete a complexidade dos sistemas de bordo: helipontos certificados para aeronaves de trinta toneladas, docas internas inundáveis para submersíveis de pesquisa científica e blindagens balísticas integradas nas anteparas principais. Trata-se de engenharia civil pesada adaptada ao ambiente marinho mais agressivo do planeta, garantindo imunidade temporal e refúgio intransponível longe das costas continentais.",
-      "Nenhum centavo deste orçamento colossal é direcionado ao supérfluo efêmero. Cada euro investido justifica-se pela redundância mecânica tripla, sistemas de navegação inercial militar e autonomia transoceânica sem reabastecimento. A arquitetura naval de dez cifras coroa a era onde a verdadeira riqueza se traduz em soberania móvel, desafiando a física das ondas com a precisão inegociável de um ateliê centenário."
-    ],
-    "specs": {
-      "comprimento_estrutural": "Acima de 140 metros",
-      "material_do_casco": "Aço naval e compósitos de titânio",
-      "sistema_propulsivo": "Híbrido diesel-elétrico com células de hidrogênio",
-      "investimento_estimado": "€ 1.000.000.000+",
-      "autonomia_transoceanica": "Mais de 8.000 milhas náuticas"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 92,
-    "ranking_score": 92,
-    "publishedAt": "2026-10-27T15:19:31.517Z",
-    "published_at": "2026-10-27T15:19:31.517Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQlRaa2ZyamlkS1Naa2tKdEdQX0huWDdKckR6d3JXdG1NSmZJWTdJVnY1SmFpb21MWmNTMlZBVnRjZy12TWhvYUxXaDVGNjRIZEV0aDhSc1Q0SFNvZDVyb2hxTmVrZWpXdUZUVHNoMTUyTEl6b0NwSWN6dmstYW1GdlhUTFBoc1puQTFTakljUk9NVUkwcDd5NkkwbzMya1U0Y0lxeUlzQ2ZmNUZfV21FbEZsOA?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQlRaa2ZyamlkS1Naa2tKdEdQX0huWDdKckR6d3JXdG1NSmZJWTdJVnY1SmFpb21MWmNTMlZBVnRjZy12TWhvYUxXaDVGNjRIZEV0aDhSc1Q0SFNvZDVyb2hxTmVrZWpXdUZUVHNoMTUyTEl6b0NwSWN6dmstYW1GdlhUTFBoc1puQTFTakljUk9NVUkwcDd5NkkwbzMya1U0Y0lxeUlzQ2ZmNUZfV21FbEZsOA?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "SUPERCARROS",
+    "title": "Ferrari E-Building: O Monstro Elétrico...",
+    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "ferrari-e-building-o-monstro-eletrico-de-us-560800-que-desafia-os-v12-aspirados-com-celulas-de-ion-litio-montadas-em-maranello-8425"
+  },
+  {
+    "id": "film-2",
     "category": "RELOGIOS",
     "title": "Patek Philippe de Joe DiMaggio: O Cale...",
     "image": "https://robbreport.com/wp-content/uploads/2026/10/joe-dimaggio-patek-phillipe-watch.jpg",
@@ -1411,7 +1419,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "patek-philippe-de-joe-dimaggio-o-calendario-perpetuo-em-ouro-amarelo-de-1957-que-exige-12-milhao-de-dolares-em-custodia-fiduciaria-1969"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "ARQUITETURA",
     "title": "Villa sa Caleta: A Laje Monolítica de ...",
     "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=80&w=1400",
@@ -1419,7 +1427,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "villa-sa-caleta-a-laje-monolitica-de-concreto-e-travertino-de-38-milhoes-que-suspende-o-tempo-sobre-as-baleares-5403"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Ferrari 499P Modificata: O Protótipo d...",
     "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
@@ -1427,7 +1435,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-499p-modificata-o-prototipo-de-endurance-de-870-cv-com-aerodinamica-ativa-em-fibra-de-carbono-e-telemetria-de-maranello-4373"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Bugatti Tourbillon: O Motor V16 Aspira...",
     "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
@@ -1435,20 +1443,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "bugatti-tourbillon-o-motor-v16-aspirado-de-83-litros-que-rejeita-a-hibridizacao-futura-em-nome-da-pureza-mecanica-1630"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "RELOGIOS",
     "title": "Atelier Mephalie: A Repetição de Minut...",
     "image": "https://monochrome-watches.com/app/uploads/2026/10/Chinese-Brand-Atelier-Mephalie-Minute-Repeater-Collection-Accessible-5.jpg",
     "tag": "CURADORIA RADAR",
     "slug": "atelier-mephalie-a-repeticao-de-minutos-com-gongos-acusticos-manuais-e-acabamento-em-anglage-de-alta-relojoaria-5090"
-  },
-  {
-    "id": "film-6",
-    "category": "DESTINOS",
-    "title": "Nuvolari Lenard 380: O Monstro Transoc...",
-    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "nuvolari-lenard-380-o-monstro-transoceanico-de-115-metros-desenvolvido-com-casco-de-deslocamento-rigido-para-navegacao-polar-autonoma-1935"
   }
 ];
 
