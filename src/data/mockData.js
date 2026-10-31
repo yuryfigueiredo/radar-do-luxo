@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-ferrari-296-challenge-stradale-o-8500",
+    "slug": "ferrari-296-challenge-stradale-o-v6-biturbo-de-830-cv-com-forca-g-extrema-nascido-nas-pistas-de-fiorano-8497",
+    "title": "Ferrari 296 Challenge Stradale: O V6 Biturbo de 830 cv com Força G Extrema Nascido nas Pistas de Fiorano",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "31 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=max&q=85&w=1800",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "A divisão de Maranello traduz a telemetria do campeonato monomarca para as ruas em um bólido esculpido em carbo-titânio, ignorando concessões ao conforto digital.",
+    "contentParagraphs": [
+      "O asfalto de Fiorano exige precisão milimétrica. A nova Ferrari 296 Challenge Stradale não aceita hesitações. Seu monocoque absorve a energia de curvas de alta velocidade enquanto o fluxo de Venturi sela o assoalho ao solo. Tolerâncias de mícrons definem o alinhamento aerodinâmico.",
+      "A combustão interna ruge implacável. Sob o capô traseiro, o motor V6 biturbo acoplado ao sistema híbrido entrega 830 cavalos de potência bruta. A força G lateral comprime o piloto contra os bancos de competição em fibra de carbono. Cada mudança de marcha ocorre em frações de segundo, gerenciada por atuadores hidráulicos derivados diretamente do programa de endurance da marca.",
+      "A redução de peso é obsessiva. Vidros traseiros em policarbonato e escapamento em Inconel 625 eliminam cada grama supérflua. A telemetria inercial registra o comportamento dinâmico em tempo real, enviando dados vitais para os engenheiros de Maranello analisarem após cada sessão na pista.",
+      "O bólido chega ao mercado com tiragem estritamente limitada e preço alinhado à sua exclusividade intransigente. Trata-se de um refúgio mecânico para colecionadores que rejeitam a obsolescência programada das telas táteis, preferindo a pureza brutal de um pedigree nascido para vencer."
+    ],
+    "content_paragraphs": [
+      "O asfalto de Fiorano exige precisão milimétrica. A nova Ferrari 296 Challenge Stradale não aceita hesitações. Seu monocoque absorve a energia de curvas de alta velocidade enquanto o fluxo de Venturi sela o assoalho ao solo. Tolerâncias de mícrons definem o alinhamento aerodinâmico.",
+      "A combustão interna ruge implacável. Sob o capô traseiro, o motor V6 biturbo acoplado ao sistema híbrido entrega 830 cavalos de potência bruta. A força G lateral comprime o piloto contra os bancos de competição em fibra de carbono. Cada mudança de marcha ocorre em frações de segundo, gerenciada por atuadores hidráulicos derivados diretamente do programa de endurance da marca.",
+      "A redução de peso é obsessiva. Vidros traseiros em policarbonato e escapamento em Inconel 625 eliminam cada grama supérflua. A telemetria inercial registra o comportamento dinâmico em tempo real, enviando dados vitais para os engenheiros de Maranello analisarem após cada sessão na pista.",
+      "O bólido chega ao mercado com tiragem estritamente limitada e preço alinhado à sua exclusividade intransigente. Trata-se de um refúgio mecânico para colecionadores que rejeitam a obsolescência programada das telas táteis, preferindo a pureza brutal de um pedigree nascido para vencer."
+    ],
+    "specs": {
+      "motorização": "V6 3.0 biturbo + motor elétrico (Plug-in)",
+      "potência_máxima": "830 cv a 8.500 RPM",
+      "materiais_construtivos": "Carbo-titânio, Alumínio aeroespacial e Inconel 625",
+      "aerodinâmica": "Assoalho com efeito solo e difusor ativo de alta carga",
+      "transmissão": "Dupla embreagem de 8 marchas específica para pista",
+      "avaliação_patrimonial": "Sob consulta em Maranello para clientes selecionados"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "publishedAt": "2026-10-31T21:45:28.500Z",
+    "published_at": "2026-10-31T21:45:28.500Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQall3Q1IwbFZsbFNhQWcyblJGYjFiSkdXMUtHRHQzaUQ3MENJbUV6OVllS2FkU2ljQzZHUjJNa1ZSN0Y2clJscy1INjFIS2NJYUFkVmR1QXBMQlhqOEhtSzNwdkZoeC1rZkFrbzlKenhIMDRKYXF2SWhCS3IzMWZuMHE5Q1pEZGxPLW1FZmxNZ0diQkc2TTk5amFfSUZ6Rlln?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQall3Q1IwbFZsbFNhQWcyblJGYjFiSkdXMUtHRHQzaUQ3MENJbUV6OVllS2FkU2ljQzZHUjJNa1ZSN0Y2clJscy1INjFIS2NJYUFkVmR1QXBMQlhqOEhtSzNwdkZoeC1rZkFrbzlKenhIMDRKYXF2SWhCS3IzMWZuMHE5Q1pEZGxPLW1FZmxNZ0diQkc2TTk5amFfSUZ6Rlln?oc=5"
+  },
+  {
     "id": "art-bugatti-eb110-widebody-o-primeir-7886",
     "slug": "bugatti-eb110-widebody-o-primeiro-exemplar-modificado-do-planeta-que-aterrisou-no-concours-de-las-vegas-desafiando-a-ortodoxia-de-campogalliani-7868",
     "title": "Bugatti EB110 Widebody: O Primeiro Exemplar Modificado do Planeta Que Aterrisou no Concours de Las Vegas Desafiando a Ortodoxia de Campogalliani",
@@ -125,7 +177,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "31 de outubro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -153,10 +205,10 @@ export const ARTICLES = [
       "evento": "Las Vegas Concours d'Elegance"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 89,
@@ -1345,65 +1397,20 @@ export const ARTICLES = [
     "published_at": "2026-10-27T20:03:01.653Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRlpfQWR4c2FjQ2ptWHp5bm1Zb2F1bjVFYk9VNDU5am1MMWRLSU5NZVVPZ3duc181bFoxOWczSVBaVmxOMmR5VS1tNTNMT3JHM3U0TzViZHkyVUYtSTdNaTVUMDVzbzVLNTVmTVJTd3FtNmVESUJUOVkwSWJVSVVWZWwxN0tuYzY5OFBVQ2dJVmYxT2tQZHlobmNkQkZUYTY3bHpOd3k0cWR2b1UxbjlzNDBR?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRlpfQWR4c2FjQ2ptWHp5bm1Zb2F1bjVFYk9VNDU5am1MMWRLSU5NZVVPZ3duc181bFoxOWczSVBaVmxOMmR5VS1tNTNMT3JHM3U0TzViZHkyVUYtSTdNaTVUMDVzbzVLNTVmTVJTd3FtNmVESUJUOVkwSWJVSVVWZWwxN0tuYzY5OFBVQ2dJVmYxT2tQZHlobmNkQkZUYTY3bHpOd3k0cWR2b1UxbjlzNDBR?oc=5"
-  },
-  {
-    "id": "art-audemars-piguet-o-ecossistema-th-4662",
-    "slug": "audemars-piguet-o-ecossistema-the-watch-keepers-e-a-criptografia-fiduciaria-de-850-pecas-certificadas-na-vallee-de-joux-4646",
-    "title": "Audemars Piguet: O Ecossistema 'The Watch Keepers' e a Criptografia Fiduciária de 850 Peças Certificadas na Vallée de Joux",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "category_slug": "relogios",
-    "authorSlug": "clara-meirelles",
-    "author_slug": "clara-meirelles",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "27 de outubro de 2026",
-    "readTime": "6 min de leitura",
-    "read_time": "6 min de leitura",
-    "image": "https://hodinkee.imgix.net/uploads/images/6e4490ef-be24-4879-bfcc-f05780554f82/TheWatchKeepers_Library.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=2000",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A manufatura independente consolida sua soberania secundária ao lançar uma plataforma digital exclusiva que audita cronógrafos históricos diretamente na fonte de Le Brassus.",
-    "contentParagraphs": [
-      "O tempo mecânico exige silêncio. A nova plataforma 'The Watch Keepers' da Audemars Piguet não é um mero catálogo comercial. É um manifesto contra a volatilidade do mercado cinza. Cada calibre de manufatura que retorna a Le Brassus passa por um rigoroso escrutínio forense nas mãos dos mesmos mestres relojoeiros que outrora o moldaram. A herança não se perde. Ela se reata através de protocolos digitais rigorosos que garantem a autenticidade absoluta de cronógrafos históricos, estabelecendo um novo padrão de custódia para colecionadores exigentes.",
-      "Sob a luz natural dos ateliês suíços, a matéria-prima revela sua geometria implacável. Os componentes de aço e ouro passam por processos de anglage manual realizados com sabugueiro silvestre e pastas diamantadas de granulação micrométrica. Não há espaço para o acaso. Cada chanfro reflete a luz com uma precisão cirúrgica, enquanto o balanço oscila em sua frequência sagrada de 21.600 alternâncias por hora. A engenharia interna dialoga diretamente com a estética exterior, onde a pulseira em couro Box Calf abraça o pulso com a suavidade de uma segunda pele tratada por mãos humanas.",
-      "O mercado secundário de alta-relojoaria testemunha uma mudança tectônica de paradigma. Enquanto especuladores buscam liquidez rápida em plataformas genéricas, os verdadeiros colecionadores exigem governança dinástica e rastreabilidade documental inquestionável. A iniciativa da manufatura familiar de Le Brassus protege o seu próprio legado histórico contra falsificações sofisticadas e adulterações nocivas. Trata-se de uma estratégia de preservação patrimonial que assegura a imunidade temporal das peças mais raras já concebidas pelo gênio humano.",
-      "A curadoria digital opera com a mesma paciência mineral exigida na construção de um calendário perpétuo. As peças disponíveis são rigorosamente limitadas, refletindo a escassez matemática que rege o verdadeiro luxo contemporâneo. Cada transação é validada por certificados físicos e digitais de inegociável valor fiduciário. O passado da maison é resgatado, purificado e devolvido ao presente com a dignidade de uma obra de arte intocável pelo desgaste dos anos.",
-      "No silêncio solene dos cofres e das bibliotecas de colecionadores, o tique-taque destes relógios recuperados ecoa como uma vitória da permanência. A Audemars Piguet reafirma que um grande relógio nunca morre; ele apenas descansa antes de iniciar um novo ciclo sob a custódia de um guardião digno de sua linhagem. É a consagração definitiva de que a alta-relojoaria transcende o comércio para se tornar a mais pura forma de arquitetura do tempo."
-    ],
-    "content_paragraphs": [
-      "O tempo mecânico exige silêncio. A nova plataforma 'The Watch Keepers' da Audemars Piguet não é um mero catálogo comercial. É um manifesto contra a volatilidade do mercado cinza. Cada calibre de manufatura que retorna a Le Brassus passa por um rigoroso escrutínio forense nas mãos dos mesmos mestres relojoeiros que outrora o moldaram. A herança não se perde. Ela se reata através de protocolos digitais rigorosos que garantem a autenticidade absoluta de cronógrafos históricos, estabelecendo um novo padrão de custódia para colecionadores exigentes.",
-      "Sob a luz natural dos ateliês suíços, a matéria-prima revela sua geometria implacável. Os componentes de aço e ouro passam por processos de anglage manual realizados com sabugueiro silvestre e pastas diamantadas de granulação micrométrica. Não há espaço para o acaso. Cada chanfro reflete a luz com uma precisão cirúrgica, enquanto o balanço oscila em sua frequência sagrada de 21.600 alternâncias por hora. A engenharia interna dialoga diretamente com a estética exterior, onde a pulseira em couro Box Calf abraça o pulso com a suavidade de uma segunda pele tratada por mãos humanas.",
-      "O mercado secundário de alta-relojoaria testemunha uma mudança tectônica de paradigma. Enquanto especuladores buscam liquidez rápida em plataformas genéricas, os verdadeiros colecionadores exigem governança dinástica e rastreabilidade documental inquestionável. A iniciativa da manufatura familiar de Le Brassus protege o seu próprio legado histórico contra falsificações sofisticadas e adulterações nocivas. Trata-se de uma estratégia de preservação patrimonial que assegura a imunidade temporal das peças mais raras já concebidas pelo gênio humano.",
-      "A curadoria digital opera com a mesma paciência mineral exigida na construção de um calendário perpétuo. As peças disponíveis são rigorosamente limitadas, refletindo a escassez matemática que rege o verdadeiro luxo contemporâneo. Cada transação é validada por certificados físicos e digitais de inegociável valor fiduciário. O passado da maison é resgatado, purificado e devolvido ao presente com a dignidade de uma obra de arte intocável pelo desgaste dos anos.",
-      "No silêncio solene dos cofres e das bibliotecas de colecionadores, o tique-taque destes relógios recuperados ecoa como uma vitória da permanência. A Audemars Piguet reafirma que um grande relógio nunca morre; ele apenas descansa antes de iniciar um novo ciclo sob a custódia de um guardião digno de sua linhagem. É a consagração definitiva de que a alta-relojoaria transcende o comércio para se tornar a mais pura forma de arquitetura do tempo."
-    ],
-    "specs": {
-      "Plataforma": "The Watch Keepers por Audemars Piguet",
-      "Origem da Auditoria": "Ateliês de Le Brassus, Vallée de Joux, Suíça",
-      "Garantia": "Certificação Oficial de Manufatura Estendida",
-      "Tiragem Inicial": "Lote restrito a 850 peças históricas selecionadas",
-      "Acabamento": "Anglage manual com sabugueiro silvestre e buril de aço"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 94,
-    "ranking_score": 94,
-    "publishedAt": "2026-10-27T18:09:24.662Z",
-    "published_at": "2026-10-27T18:09:24.662Z",
-    "sourceUrl": "https://www.hodinkee.com/articles/audemars-piguet-unveils-the-watch-keepers-a-digital-platform-offering-certified-pre-owned-watches",
-    "source_url": "https://www.hodinkee.com/articles/audemars-piguet-unveils-the-watch-keepers-a-digital-platform-offering-certified-pre-owned-watches"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "ESTILO",
+    "title": "Hermès Faubourg: O Ateliê Secreto em P...",
+    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "hermes-faubourg-o-atelie-secreto-em-paris-onde-30-mestres-costuram-selas-em-couro-barenia-sob-linho-encerado-a-mao-desde-1837-3331"
+  },
+  {
+    "id": "film-2",
     "category": "SUPERCARROS",
     "title": "Ferrari E-Building: O Monstro Elétrico...",
     "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
@@ -1411,7 +1418,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-e-building-o-monstro-eletrico-de-us-560800-que-desafia-os-v12-aspirados-com-celulas-de-ion-litio-montadas-em-maranello-8425"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "RELOGIOS",
     "title": "Patek Philippe de Joe DiMaggio: O Cale...",
     "image": "https://robbreport.com/wp-content/uploads/2026/10/joe-dimaggio-patek-phillipe-watch.jpg",
@@ -1419,7 +1426,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "patek-philippe-de-joe-dimaggio-o-calendario-perpetuo-em-ouro-amarelo-de-1957-que-exige-12-milhao-de-dolares-em-custodia-fiduciaria-1969"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "ARQUITETURA",
     "title": "Villa sa Caleta: A Laje Monolítica de ...",
     "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=80&w=1400",
@@ -1427,7 +1434,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "villa-sa-caleta-a-laje-monolitica-de-concreto-e-travertino-de-38-milhoes-que-suspende-o-tempo-sobre-as-baleares-5403"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Ferrari 499P Modificata: O Protótipo d...",
     "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
@@ -1435,20 +1442,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-499p-modificata-o-prototipo-de-endurance-de-870-cv-com-aerodinamica-ativa-em-fibra-de-carbono-e-telemetria-de-maranello-4373"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Bugatti Tourbillon: O Motor V16 Aspira...",
     "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "bugatti-tourbillon-o-motor-v16-aspirado-de-83-litros-que-rejeita-a-hibridizacao-futura-em-nome-da-pureza-mecanica-1630"
-  },
-  {
-    "id": "film-6",
-    "category": "RELOGIOS",
-    "title": "Atelier Mephalie: A Repetição de Minut...",
-    "image": "https://monochrome-watches.com/app/uploads/2026/10/Chinese-Brand-Atelier-Mephalie-Minute-Repeater-Collection-Accessible-5.jpg",
-    "tag": "CURADORIA RADAR",
-    "slug": "atelier-mephalie-a-repeticao-de-minutos-com-gongos-acusticos-manuais-e-acabamento-em-anglage-de-alta-relojoaria-5090"
   }
 ];
 

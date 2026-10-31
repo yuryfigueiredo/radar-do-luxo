@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-ferrari-296-challenge-stradale-o-8500",
+    "slug": "ferrari-296-challenge-stradale-o-v6-biturbo-de-830-cv-com-forca-g-extrema-nascido-nas-pistas-de-fiorano-8497",
+    "title": "Ferrari 296 Challenge Stradale: O V6 Biturbo de 830 cv com Força G Extrema Nascido nas Pistas de Fiorano",
+    "image": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=max&q=85&w=1800",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQall3Q1IwbFZsbFNhQWcyblJGYjFiSkdXMUtHRHQzaUQ3MENJbUV6OVllS2FkU2ljQzZHUjJNa1ZSN0Y2clJscy1INjFIS2NJYUFkVmR1QXBMQlhqOEhtSzNwdkZoeC1rZkFrbzlKenhIMDRKYXF2SWhCS3IzMWZuMHE5Q1pEZGxPLW1FZmxNZ0diQkc2TTk5amFfSUZ6Rlln?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-10-31T21:45:28.500Z"
+  },
+  {
     "id": "art-bugatti-eb110-widebody-o-primeir-7886",
     "slug": "bugatti-eb110-widebody-o-primeiro-exemplar-modificado-do-planeta-que-aterrisou-no-concours-de-las-vegas-desafiando-a-ortodoxia-de-campogalliani-7868",
     "title": "Bugatti EB110 Widebody: O Primeiro Exemplar Modificado do Planeta Que Aterrisou no Concours de Las Vegas Desafiando a Ortodoxia de Campogalliani",
