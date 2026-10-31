@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-ohorapictor-smoked-ocean-volcano-1180",
+    "slug": "ohorapictor-smoked-ocean-volcano-grey-40-milimetros-de-esmalte-grand-feu-a-820c-com-calibre-suico-sellita-sw200-1162",
+    "title": "O&HoraPictor Smoked Ocean Volcano Grey: 40 Milímetros de Esmalte Grand Feu a 820°C com Calibre Suíço Sellita SW200",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "category_slug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "author_slug": "clara-meirelles",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "31 de outubro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://monochrome-watches.com/app/uploads/2026/10/HoraPictor-Smoked-Ocean-Volcano-Grey-Enamel-Dial-Accessible-10.jpg",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A alta relojoaria independente desafia a inflação de preços com mostradores esmaltados à mão e texturas vulcânicas de precisão nanométrica.",
+    "contentParagraphs": [
+      "A luz natural incide sobre o mostrador. O cinza vulcânico revela profundidades minerais brutais. A superfície é vitrificada em fornos industriais a oitocentos e vinte graus Celsius. Cada mostrador exige horas de queima milimétrica e controle térmico absoluto. Não há espaço para o acaso.",
+      "Sob a tampa de safira bate um confiável calibre de manufatura Sellita SW200. A frequência de vinte e oito mil oitocentos alternâncias por hora garante estabilidade mecânica implacável. A caixa em aço inoxidável polido à mão absorve reflexos indesejados. O diâmetro de quarenta milímetros acomoda-se com rigidez cirúrgica no pulso.",
+      "O mercado de colecionadores cobiça a escassez matemática e a pureza artesanal. Marcas centenárias exigem fortunas por técnicas semelhantes de esmaltação. A O&HoraPictor descentraliza essa soberania estética e entrega precisão suíça pura. O luxo contemporâneo abdica do supérfluo para honrar o trabalho manual.",
+      "O tempo não pertence a quem o gasta, mas a quem o mede com rigor. O Smoked Ocean Volcano Grey consolida a independência criativa contra a padrismo corporativo. Restam poucos exemplares desta tiragem nos cofres da manufatura. A posse desta obra sela um pacto definitivo com a alta relojoaria."
+    ],
+    "content_paragraphs": [
+      "A luz natural incide sobre o mostrador. O cinza vulcânico revela profundidades minerais brutais. A superfície é vitrificada em fornos industriais a oitocentos e vinte graus Celsius. Cada mostrador exige horas de queima milimétrica e controle térmico absoluto. Não há espaço para o acaso.",
+      "Sob a tampa de safira bate um confiável calibre de manufatura Sellita SW200. A frequência de vinte e oito mil oitocentos alternâncias por hora garante estabilidade mecânica implacável. A caixa em aço inoxidável polido à mão absorve reflexos indesejados. O diâmetro de quarenta milímetros acomoda-se com rigidez cirúrgica no pulso.",
+      "O mercado de colecionadores cobiça a escassez matemática e a pureza artesanal. Marcas centenárias exigem fortunas por técnicas semelhantes de esmaltação. A O&HoraPictor descentraliza essa soberania estética e entrega precisão suíça pura. O luxo contemporâneo abdica do supérfluo para honrar o trabalho manual.",
+      "O tempo não pertence a quem o gasta, mas a quem o mede com rigor. O Smoked Ocean Volcano Grey consolida a independência criativa contra a padrismo corporativo. Restam poucos exemplares desta tiragem nos cofres da manufatura. A posse desta obra sela um pacto definitivo com a alta relojoaria."
+    ],
+    "specs": {
+      "Calibre": "Sellita SW200 automático com 38h de reserva de marcha",
+      "Mostrador": "Esmalte Grand Feu com textura Volcano Grey",
+      "Caixa": "Aço inoxidável 316L com 40mm de diâmetro",
+      "Vidro": "Safira cristal abaulada com tratamento antirreflexo interno",
+      "Tiragem": "Edição limitada numérica por lote de ateliê"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 86,
+    "ranking_score": 86,
+    "publishedAt": "2026-10-31T02:28:21.180Z",
+    "published_at": "2026-10-31T02:28:21.180Z",
+    "sourceUrl": "https://monochrome-watches.com/hands-on-review-o-horapictor-smoked-ocean-volcano-grey-enamel-dial-sellita-sw200-specs-price-live-pics/",
+    "source_url": "https://monochrome-watches.com/hands-on-review-o-horapictor-smoked-ocean-volcano-grey-enamel-dial-sellita-sw200-specs-price-live-pics/"
+  },
+  {
     "id": "art-laurent-ferrier-grand-sport-tour-7895",
     "slug": "laurent-ferrier-grand-sport-tourbillon-iceberg-o-cronometro-de-titanio-grao-selado-de-44mm-com-tourbillon-de-duplo-balanco-inverso-7884",
     "title": "Laurent Ferrier Grand Sport Tourbillon Iceberg: O Cronômetro de Titânio Grão-Selado de 44mm com Tourbillon de Duplo Balanço Inverso",
@@ -1347,62 +1398,20 @@ export const ARTICLES = [
     "ranking_score": 97,
     "publishedAt": "2026-10-26T00:52:10.905Z",
     "published_at": "2026-10-26T00:52:10.905Z"
-  },
-  {
-    "id": "art-moynat-malle-limousine-o-bau-cur-9428",
-    "slug": "moynat-malle-limousine-o-bau-curvo-de-alamo-de-1902-esculpido-sob-medida-para-os-tetos-dos-torpedos-pioneiros-9414",
-    "title": "Moynat Malle Limousine: O Baú Curvo de Álamo de 1902 Esculpido sob Medida para os Tetos dos Torpedos Pioneiros",
-    "category": "Alta-Costura",
-    "categorySlug": "estilo",
-    "category_slug": "estilo",
-    "authorSlug": "clara-meirelles",
-    "author_slug": "clara-meirelles",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "25 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A mítica malharia francesa resgata moldes centenários em madeira vaporizada e lona vegetal impermeabilizada para redefinir o transporte de bagagem sob 1,2 G de força lateral.",
-    "contentParagraphs": [
-      "A carroceria torpedeira cortava o vento em estradas de terra batida. A dinâmica inercial exigia geometria milimétrica.",
-      "O chassi balançava violentamente sobre suspensões de feixe de molas rudimentares. Enquanto isso, o baú curvo em álamo absorvia o impacto. A madeira de álamo foi submetida a banhos de vapor prolongados. Em seguida, recebeu o tensionamento exato sobre gabaritos de ferro forjado à mão em 1902. A curvatura do teto exigia precisão absoluta. O perfil aerodinâmico impedia turbulências catastróficas em altas velocidades. A aerodinâmica rudimentar de Venturi já ditava o fluxo de ar sobre o teto dos bólidos pioneiros.",
-      "O revestimento exterior utiliza lona vegetal impermeabilizada com gutapercha pura. A seiva de árvore tropical endurece em uma armadura intransponível contra a umidade da alta atmosfera alpina. Cantoneiras de latão maciço rebitadas uma a uma ancoram a estrutura. No interior, o linho francês cru protege os pertences contra vibrações crônicas do motor de quatro cilindros. A tolerância de fechamento opera na faixa de décimos de milímetro. A engenharia de bagagem elevou-se ao patamar de ciência balística.",
-      "Nenhuma concessionária de massa reproduz esta obstinação artesanal. A Moynat preserva o método que antecede a obsolescência programada em décadas. O silêncio da matéria bruta prevalece. O objeto permanece imune às modas passageiras."
-    ],
-    "content_paragraphs": [
-      "A carroceria torpedeira cortava o vento em estradas de terra batida. A dinâmica inercial exigia geometria milimétrica.",
-      "O chassi balançava violentamente sobre suspensões de feixe de molas rudimentares. Enquanto isso, o baú curvo em álamo absorvia o impacto. A madeira de álamo foi submetida a banhos de vapor prolongados. Em seguida, recebeu o tensionamento exato sobre gabaritos de ferro forjado à mão em 1902. A curvatura do teto exigia precisão absoluta. O perfil aerodinâmico impedia turbulências catastróficas em altas velocidades. A aerodinâmica rudimentar de Venturi já ditava o fluxo de ar sobre o teto dos bólidos pioneiros.",
-      "O revestimento exterior utiliza lona vegetal impermeabilizada com gutapercha pura. A seiva de árvore tropical endurece em uma armadura intransponível contra a umidade da alta atmosfera alpina. Cantoneiras de latão maciço rebitadas uma a uma ancoram a estrutura. No interior, o linho francês cru protege os pertences contra vibrações crônicas do motor de quatro cilindros. A tolerância de fechamento opera na faixa de décimos de milímetro. A engenharia de bagagem elevou-se ao patamar de ciência balística.",
-      "Nenhuma concessionária de massa reproduz esta obstinação artesanal. A Moynat preserva o método que antecede a obsolescência programada em décadas. O silêncio da matéria bruta prevalece. O objeto permanece imune às modas passageiras."
-    ],
-    "specs": {
-      "material_principal": "Álamo vaporizado com curvo parabólico",
-      "revestimento": "Lona vegetal impermeabilizada com gutapercha",
-      "ferraria": "Latão maciço com rebites de fixação manual",
-      "tolerancia_estrutural": "Ajuste milimétrico sob 1,2 G de força inercial",
-      "ano_origem": "1902"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 95,
-    "ranking_score": 95,
-    "publishedAt": "2026-10-25T23:35:49.428Z",
-    "published_at": "2026-10-25T23:35:49.428Z"
   }
 ];
-
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "SUPERCARROS",
+    "title": "Ferrari 499P Modificata: O Protótipo d...",
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "ferrari-499p-modificata-o-prototipo-de-endurance-de-870-cv-com-aerodinamica-ativa-em-fibra-de-carbono-e-telemetria-de-maranello-4373"
+  },
+  {
+    "id": "film-2",
     "category": "SUPERCARROS",
     "title": "Bugatti Tourbillon: O Motor V16 Aspira...",
     "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
@@ -1410,7 +1419,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "bugatti-tourbillon-o-motor-v16-aspirado-de-83-litros-que-rejeita-a-hibridizacao-futura-em-nome-da-pureza-mecanica-1630"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "RELOGIOS",
     "title": "Atelier Mephalie: A Repetição de Minut...",
     "image": "https://monochrome-watches.com/app/uploads/2026/10/Chinese-Brand-Atelier-Mephalie-Minute-Repeater-Collection-Accessible-5.jpg",
@@ -1418,7 +1427,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "atelier-mephalie-a-repeticao-de-minutos-com-gongos-acusticos-manuais-e-acabamento-em-anglage-de-alta-relojoaria-5090"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "DESTINOS",
     "title": "Nuvolari Lenard 380: O Monstro Transoc...",
     "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
@@ -1426,7 +1435,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "nuvolari-lenard-380-o-monstro-transoceanico-de-115-metros-desenvolvido-com-casco-de-deslocamento-rigido-para-navegacao-polar-autonoma-1935"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "RELOGIOS",
     "title": "Audemars Piguet: O Ecossistema 'The Wa...",
     "image": "https://hodinkee.imgix.net/uploads/images/6e4490ef-be24-4879-bfcc-f05780554f82/TheWatchKeepers_Library.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=2000",
@@ -1434,20 +1443,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "audemars-piguet-o-ecossistema-the-watch-keepers-e-a-criptografia-fiduciaria-de-850-pecas-certificadas-na-vallee-de-joux-4646"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "DESTINOS",
     "title": "Tommy Chiabra: O Marco de € 1 Bilhão e...",
     "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "tommy-chiabra-o-marco-de-1-bilhao-e-a-nova-dinamica-de-gigaiates-em-ligas-de-aluminio-titanio-1501"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Bugatti Residences Miami: A Torre de 5...",
-    "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "bugatti-residences-miami-a-torre-de-52-andares-com-sky-lifts-hidraulicos-que-elevam-hipercarros-ate-a-cobertura-privativa-7521"
   }
 ];
 

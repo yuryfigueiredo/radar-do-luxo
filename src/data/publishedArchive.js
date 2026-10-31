@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-ohorapictor-smoked-ocean-volcano-1180",
+    "slug": "ohorapictor-smoked-ocean-volcano-grey-40-milimetros-de-esmalte-grand-feu-a-820c-com-calibre-suico-sellita-sw200-1162",
+    "title": "O&HoraPictor Smoked Ocean Volcano Grey: 40 Milímetros de Esmalte Grand Feu a 820°C com Calibre Suíço Sellita SW200",
+    "image": "https://monochrome-watches.com/app/uploads/2026/10/HoraPictor-Smoked-Ocean-Volcano-Grey-Enamel-Dial-Accessible-10.jpg",
+    "sourceUrl": "https://monochrome-watches.com/hands-on-review-o-horapictor-smoked-ocean-volcano-grey-enamel-dial-sellita-sw200-specs-price-live-pics/",
+    "categorySlug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "publishedAt": "2026-10-31T02:28:21.180Z"
+  },
+  {
     "id": "art-sothebys-os-10-milhoes-de-dolare-5644",
     "slug": "sothebys-os-10-milhoes-de-dolares-da-colecao-pauline-karpidas-e-a-soberania-patrimonial-de-ativos-fisicos-raros-5641",
     "title": "Sotheby's: Os 10 Milhões de Dólares da Coleção Pauline Karpidas e a Soberania Patrimonial de Ativos Físicos Raros",

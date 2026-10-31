@@ -174,7 +174,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://monochrome-watches.com/app/uploads/2026/10/HoraPictor-Smoked-Ocean-Volcano-Grey-Enamel-Dial-Accessible-10-600x237.jpg",
     "imageIsFallback": false,
-    "status": "available"
+    "status": "published"
   },
   {
     "id": "pauta-live-relogios-mvvjt8ui-2wl1",
