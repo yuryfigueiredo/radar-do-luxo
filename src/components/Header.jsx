@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Sun, Moon, Search, Menu, X, ShieldCheck, Sparkles, Globe } from 'lucide-react';
-import { CATEGORIES } from '../data/mockData';
+import { CATEGORIES, ARTICLES } from '../data/mockData';
+import { fetchArticles, isLiveSourceDegraded } from '../services/radarService';
+
+const WEEK_MS = 7 * 24 * 60 * 60 * 1000;
 
 export default function Header({ isDark, onToggleTheme, onOpenSearch }) {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -17,6 +20,46 @@ export default function Header({ isDark, onToggleTheme, onOpenSearch }) {
 
   const navCategories = CATEGORIES.filter(c => c.slug !== 'todos');
 
+  // O selo "RADAR ATIVO" e a contagem da semana são uma promessa ao leitor: têm
+  // que sair do acervo vivo, não do bundle. Com dados do repositório um site
+  // congelado há duas semanas ainda se anunciaria como ativo.
+  const [liveArticles, setLiveArticles] = useState(null);
+  const [sourceDegraded, setSourceDegraded] = useState(false);
+
+  useEffect(() => {
+    let isMounted = true;
+    const reload = () => {
+      fetchArticles().then(data => {
+        if (!isMounted) return;
+        // Array vazio é resposta: se o editor esvaziou o acervo, o bundle congelado
+        // não pode voltar a sustentar o selo de "ativo".
+        if (Array.isArray(data)) setLiveArticles(data);
+        setSourceDegraded(isLiveSourceDegraded());
+      }).catch(() => {
+        // Rejeição sem tratamento deixava o selo preso no estado do bundle.
+        if (isMounted) setSourceDegraded(true);
+      });
+    };
+    reload();
+    window.addEventListener('radar-data-changed', reload);
+    return () => {
+      isMounted = false;
+      window.removeEventListener('radar-data-changed', reload);
+    };
+  }, []);
+
+  const publishedAt = article => Date.parse(article.publishedAt || article.published_at || '') || 0;
+  // Rascunho e linha sem slug não são leitura: nem contam como novidade, nem
+  // sustentam a promessa de que a redação está publicando agora.
+  const publishable = (liveArticles || ARTICLES)
+    .filter(article => article && article.status !== 'draft' && article.slug);
+  const stamps = publishable.map(publishedAt).filter(Boolean).sort((a, b) => b - a);
+  const newArrivalsThisWeek = stamps.filter(time => Date.now() - time < WEEK_MS).length;
+  // O selo "ativo" só pode aparecer enquanto a automação estiver entregando edições.
+  // Sem data nenhuma no acervo não há o que provar: o honesto é dizer pausado.
+  const isPublishing = !sourceDegraded && stamps.length > 0 && Date.now() - stamps[0] < 36 * 60 * 60 * 1000;
+  const chipLabel = sourceDegraded ? 'ACERVO LOCAL' : (isPublishing ? 'RADAR ATIVO' : 'CURADORIA PAUSADA');
+
   return (
     <header className="w-full z-50 transition-all duration-300">
       
@@ -28,13 +71,17 @@ export default function Header({ isDark, onToggleTheme, onOpenSearch }) {
           <div className="flex items-center space-x-3">
             <span className="flex items-center gap-2 font-medium tracking-wide">
               <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-lux-emerald opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-lux-emerald"></span>
+                {isPublishing && (
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-lux-emerald opacity-75"></span>
+                )}
+                <span className={`relative inline-flex rounded-full h-2 w-2 ${isPublishing ? 'bg-lux-emerald' : 'bg-lux-text-muted'}`}></span>
               </span>
-              <span className="text-lux-emerald font-semibold uppercase tracking-wider text-[10px]">RADAR ATIVO</span>
+              <span className={`${isPublishing ? 'text-lux-emerald' : 'text-lux-text-muted'} font-semibold uppercase tracking-wider text-[10px]`}>
+                {chipLabel}
+              </span>
               <span className="text-white/40 hidden sm:inline">•</span>
               <span className="text-white/80 hidden sm:inline font-light text-[11px]">
-                12 novos itens catalogados esta semana
+                {newArrivalsThisWeek} {newArrivalsThisWeek === 1 ? 'nova matéria' : 'novas matérias'} nesta semana
               </span>
             </span>
           </div>

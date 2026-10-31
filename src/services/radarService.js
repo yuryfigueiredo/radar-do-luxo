@@ -83,10 +83,12 @@ function getPhotoIdFromUrl(url) {
 }
 
 /**
- * Remove repetições do acervo: mesmo id, slug, título, foto ou mesma história
- * republicada com outro título. Precisa rodar em TODA saída do acervo, inclusive
- * logo após uma troca de versão de conteúdo — é aí que as duplicatas antigas
- * voltavam a aparecer.
+ * Remove repetições do acervo: mesmo id, slug, título, foto, mesma história ou a
+ * mesma fonte. A URL da origem é a identidade que o robô editorial usa para
+ * recusar pauta repetida — sem ela aqui, a mesma notícia publicada com dois slugs
+ * (reescrita, regeneração) sobrevivia à purga e voltava para a tela.
+ * Precisa rodar em TODA saída do acervo, inclusive logo após uma troca de versão
+ * de conteúdo — é aí que as duplicatas antigas reapareciam.
  */
 function dedupeArticles(list) {
   if (!Array.isArray(list)) return [];
@@ -95,6 +97,7 @@ function dedupeArticles(list) {
   const seenSlugs = new Set();
   const seenTitles = new Set();
   const seenPhotoIds = new Set();
+  const seenSources = new Set();
   const keptTitles = [];
   const cleanList = [];
 
@@ -103,12 +106,14 @@ function dedupeArticles(list) {
     const idKey = (art.id || '').trim();
     const slugKey = (art.slug || '').trim().toLowerCase();
     const titleKey = (art.title || '').trim().toLowerCase();
+    const sourceKey = String(art.sourceUrl || art.source_url || '').trim();
     const photoId = getPhotoIdFromUrl(art.image);
 
     if (idKey && seenIds.has(idKey)) continue;
     if (slugKey && seenSlugs.has(slugKey)) continue;
     if (titleKey && seenTitles.has(titleKey)) continue;
     if (photoId && seenPhotoIds.has(photoId)) continue;
+    if (sourceKey && seenSources.has(sourceKey)) continue;
     if (titleKey && keptTitles.some(keptTitle => sameStory(keptTitle, art.title))) continue;
 
     if (idKey) seenIds.add(idKey);
@@ -118,6 +123,7 @@ function dedupeArticles(list) {
       keptTitles.push(art.title);
     }
     if (photoId) seenPhotoIds.add(photoId);
+    if (sourceKey) seenSources.add(sourceKey);
     cleanList.push(art);
   }
 
@@ -169,7 +175,17 @@ function getLocalArticles() {
 
     let list = JSON.parse(saved);
 
-    // 🛡️ DEDUPLICAÇÃO RIGOROSA (id, slug, título, foto e mesma história)
+    // Valor corrompido (objeto, string, número) no armazenamento: reconstruir a
+    // partir do acervo homologado. Isso não ressuscita o que o editor apagou —
+    // apagar devolve um array válido; aqui não há array nenhum para respeitar.
+    if (!Array.isArray(list)) {
+      const rebuilt = dedupeArticles(ARTICLES);
+      localStorage.setItem(LOCAL_STORAGE_ARTICLES_KEY, JSON.stringify(rebuilt));
+      localStorage.setItem(LOCAL_STORAGE_VERSION_KEY, CURRENT_CONTENT_VERSION);
+      return rebuilt;
+    }
+
+    // 🛡️ DEDUPLICAÇÃO RIGOROSA (id, slug, título, foto, fonte e mesma história)
     const cleanList = dedupeArticles(list);
     if (cleanList.length !== list.length) {
       console.log('🧹 Auto-removidas ' + (list.length - cleanList.length) + ' matérias duplicadas do armazenamento local.');
@@ -177,14 +193,9 @@ function getLocalArticles() {
       localStorage.setItem(LOCAL_STORAGE_ARTICLES_KEY, JSON.stringify(cleanList));
     }
 
-    // Verificação de integridade: se a lista local estiver sem os artigos homologados vigentes
-    const containsLeadingHomologated = list.some(a => a.slug === ARTICLES[0]?.slug);
-    if (!containsLeadingHomologated) {
-      const homologatedList = dedupeArticles(ARTICLES);
-      localStorage.setItem(LOCAL_STORAGE_ARTICLES_KEY, JSON.stringify(homologatedList));
-      localStorage.setItem(LOCAL_STORAGE_VERSION_KEY, CURRENT_CONTENT_VERSION);
-      return homologatedList;
-    }
+    // Não reinstalar o bundle "por integridade": a troca de versão no topo já faz
+    // isso. Reinstalar sempre que a primeira matéria homologada faltava ressuscitava
+    // exatamente o que o editor apagou na véspera.
 
     // Auto-sanitiza artigos de bilionários/Forbes e calcula rankingScore se ausente
     list = list.map(a => {
@@ -222,6 +233,7 @@ function getLocalArticles() {
  * Restaura o acervo para o conjunto homologado equilibrado original
  */
 export function purgeDuplicatesAndRestore() {
+  invalidateLiveArticlesCache();
   try {
     let userCreated = [];
     try {
@@ -242,6 +254,7 @@ export function purgeDuplicatesAndRestore() {
 }
 
 export function resetToHomologatedArticles() {
+  invalidateLiveArticlesCache();
   try {
     localStorage.removeItem(LOCAL_STORAGE_ARTICLES_KEY);
     localStorage.setItem(LOCAL_STORAGE_VERSION_KEY, CURRENT_CONTENT_VERSION);
@@ -270,7 +283,65 @@ function getLocalDrops() {
  * ============================================================================
  */
 
+/**
+ * A home monta capa, faixa de destaques, roleta e feed. Cada banda pedia o acervo
+ * inteiro, então a mesma consulta de todos os artigos rodava quatro vezes por
+ * visita. Uma única requisição em voo alimenta todas; qualquer escrita no acervo
+ * invalida o cache, e o TTL curto segura a staleness quando a publicação vem de
+ * fora (robô).
+ */
+const LIVE_ARTICLES_TTL_MS = 15000;
+const liveArticlesCache = new Map();
+// Uma escrita durante uma consulta em voo não pode ser apagada pelo .then velho:
+// cada entrada carrega a geração vigente e entra com a consulta.
+let cacheGeneration = 0;
+// O selo do header promete publicação ao leitor. Quando o acervo vivo falha e a
+// tela cai no acervo local, essa promessa precisa mudar de texto — não de sumir.
+let liveSourceDegraded = false;
+
+export function isLiveSourceDegraded() {
+  return liveSourceDegraded;
+}
+
+function invalidateLiveArticlesCache() {
+  cacheGeneration += 1;
+  liveArticlesCache.clear();
+}
+
+function readLiveCache(key) {
+  const entry = liveArticlesCache.get(key);
+  if (!entry || entry.generation !== cacheGeneration) return null;
+  if (entry.promise) {
+    // Requisição pendurada (rede morta) não pode travar a home para sempre.
+    if (Date.now() - entry.startedAt <= LIVE_ARTICLES_TTL_MS) return entry.promise;
+    liveArticlesCache.delete(key);
+    return null;
+  }
+  if (Date.now() - entry.fetchedAt <= LIVE_ARTICLES_TTL_MS) return Promise.resolve(entry.articles);
+  liveArticlesCache.delete(key);
+  return null;
+}
+
 export async function fetchArticles(categorySlug = null) {
+  const key = categorySlug || 'todos';
+  const cached = readLiveCache(key);
+  if (cached) return cached;
+
+  const generation = cacheGeneration;
+  const request = loadArticles(categorySlug)
+    .then(articles => {
+      if (cacheGeneration === generation) liveArticlesCache.set(key, { articles, fetchedAt: Date.now(), generation });
+      return articles;
+    })
+    .catch(error => {
+      if (cacheGeneration === generation) liveArticlesCache.delete(key);
+      throw error;
+    });
+  liveArticlesCache.set(key, { promise: request, startedAt: Date.now(), generation });
+  return request;
+}
+
+async function loadArticles(categorySlug) {
   if (isSupabaseConfigured && supabase) {
     try {
       let query = supabase
@@ -284,6 +355,7 @@ export async function fetchArticles(categorySlug = null) {
 
       const { data, error } = await query;
       if (!error && data && data.length > 0) {
+        liveSourceDegraded = false;
         // Map database columns to app schema
         const mapped = data.map(item => ({
           ...item,
@@ -299,7 +371,11 @@ export async function fetchArticles(categorySlug = null) {
         }));
         return dedupeArticles(mapped);
       }
+      // Consulta respondeu com erro ou sem linhas: o que a tela vai mostrar é o
+      // acervo local, e dizer "ativo" sobre ele seria a mentira do selo de novo.
+      liveSourceDegraded = true;
     } catch (err) {
+      liveSourceDegraded = true;
       console.warn('Falha na consulta ao Supabase, alternando para local:', err);
     }
   }
@@ -488,6 +564,7 @@ export function checkArticleDuplicate(candidate, existingArticles = [], currentC
 }
 
 export async function saveArticle(articleData) {
+  invalidateLiveArticlesCache();
   const id = articleData.id || `art-${Date.now()}`;
   const slug = articleData.slug || articleData.title
     .toLowerCase()
@@ -560,6 +637,9 @@ export async function saveArticle(articleData) {
         .single();
 
       if (error) throw error;
+      // A home escuta este evento para largar a cache de 15 segundos. Sem ele, o
+      // painel mostrava a matéria nova e a tela continuava com o acervo antigo.
+      window.dispatchEvent(new Event('radar-data-changed'));
       return { success: true, article: data };
     } catch (err) {
       console.error('Erro ao salvar no Supabase:', err);
@@ -571,6 +651,10 @@ export async function saveArticle(articleData) {
   const articles = getLocalArticles();
   const clientArticle = {
     ...formattedArticle,
+    // O que sai do painel é criação do editor. Sem esta marca, uma matéria publicada
+    // como 'feed' (sem flags de destaque) não era reconhecida como local e sumia da
+    // tela na primeira purga de duplicatas.
+    isUserCreated: true,
     categorySlug: formattedArticle.category_slug,
     authorSlug: formattedArticle.author_slug,
     readTime: formattedArticle.read_time,
@@ -583,12 +667,6 @@ export async function saveArticle(articleData) {
     inArticleDrop: formattedArticle.in_article_drop,
     videoUrl: formattedArticle.video_url,
     videoDuration: formattedArticle.video_duration
-  };
-
-  const getPhotoIdSave = (url) => {
-    if (!url) return '';
-    const m = url.match(/photo-[a-z0-9\-]+/i);
-    return m ? m[0] : '';
   };
 
   const existingIndex = articles.findIndex(a => {
@@ -628,6 +706,7 @@ export async function saveArticle(articleData) {
  * Promove uma matéria imediatamente para Destaque Principal da Capa
  */
 export async function promoteToHero(articleId) {
+  invalidateLiveArticlesCache();
   const articles = getLocalArticles();
   const updatedArticles = articles.map(a => {
     if (a.id === articleId) {
@@ -648,6 +727,7 @@ export async function promoteToHero(articleId) {
  * Alterna a fixação manual da Capa (Pin)
  */
 export async function togglePinHero(articleId) {
+  invalidateLiveArticlesCache();
   const articles = getLocalArticles();
   const target = articles.find(a => a.id === articleId);
   const willPin = !target?.isPinnedHero;
@@ -674,6 +754,7 @@ export async function togglePinHero(articleId) {
 }
 
 export async function deleteArticle(articleId) {
+  invalidateLiveArticlesCache();
   if (isSupabaseConfigured && supabase) {
     try {
       const { error } = await supabase
@@ -690,6 +771,7 @@ export async function deleteArticle(articleId) {
   const articles = getLocalArticles().filter(a => a.id !== articleId);
   try {
     localStorage.setItem(LOCAL_STORAGE_ARTICLES_KEY, JSON.stringify(articles));
+    window.dispatchEvent(new CustomEvent('radar-data-changed', { detail: { action: 'delete' } }));
   } catch (e) {
     console.error(e);
   }

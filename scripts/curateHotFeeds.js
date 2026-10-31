@@ -29,7 +29,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { fetchAllEliteFeeds } from '../src/services/rssCuratorService.js';
+import { fetchAllEliteFeeds, stripHtml } from '../src/services/rssCuratorService.js';
 import { calculateEditorialScore } from '../src/services/rankingEngine.js';
 import { ARTICLES } from '../src/data/mockData.js';
 import { INITIAL_HOT_PAUTAS } from '../src/data/hotFeedsData.js';
@@ -46,26 +46,6 @@ const LIVE_PAUTA_TTL_HOURS = Number(process.env.SCOUT_LIVE_TTL_HOURS) > 0
   ? Number(process.env.SCOUT_LIVE_TTL_HOURS)
   : 24;
 const MIN_SCORE = 82;
-
-function stripHtml(html) {
-  if (!html) return '';
-  return html
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&#039;/g, "'")
-    .replace(/&#8211;/g, '–')
-    .replace(/&#8212;/g, '—')
-    .replace(/&#8216;/g, '‘')
-    .replace(/&#8217;/g, '’')
-    .replace(/&#8220;/g, '“')
-    .replace(/&#8221;/g, '”')
-    .replace(/&nbsp;/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim();
-}
 
 const BADGE_COLORS = {
   supercarros: 'border-amber-500/40 text-amber-400 bg-amber-500/10',
@@ -84,7 +64,7 @@ const VERTICALS = {
     summary: 'Engenharia de precisão, telemetria inercial e desempenho de pista sob a análise de Gabriel Fontes.',
     specs: {
       categoria: 'Hipercarro de Colecionismo',
-      telemetria: 'Calibração de pista homologada',
+      telemetria: 'Calibração de pista',
       curadoria: 'Gabriel Fontes'
     }
   },
@@ -291,7 +271,7 @@ function buildKnownStory(cleanTitle) {
         arremate: 'US$ 56 Milhões (€ 50M)',
         casa_leilao: 'Sotheby’s Paris',
         obra: 'Claude Monet — "Iris" (óleo sobre tela)',
-        proveniencia: 'Coleção Privada Francesa Homologada'
+        proveniencia: 'Coleção Privada Francesa'
       }
     };
   }
@@ -372,7 +352,7 @@ function buildKnownStory(cleanTitle) {
       hook: 'Ferrari E-Building: O Hipercarro Elétrico de US$ 560.800 que Desafia a Hegemonia dos Motores V12 em Maranello',
       summary: 'Maranello inaugura sua nova ala industrial de alta precisão e precifica seu primeiro modelo de propulsão elétrica, posicionando-o acima de seus tradicionais bólidos a combustão.',
       specsPreview: {
-        valor: 'US$ 560.800 (Preço homologado)',
+        valor: 'US$ 560.800 (preço anunciado)',
         unidade_fabril: 'E-Building Maranello',
         propulsao: 'Motores síncronos de fluxo magnético puro',
         chassi: 'Alumínio aeroespacial e bateria estrutural'

@@ -215,7 +215,7 @@ export const PUBLISHED_ARCHIVE = [
     "id": "art-audemars-piguet-o-ecossistema-th-4662",
     "slug": "audemars-piguet-o-ecossistema-the-watch-keepers-e-a-criptografia-fiduciaria-de-850-pecas-certificadas-na-vallee-de-joux-4646",
     "title": "Audemars Piguet: O Ecossistema 'The Watch Keepers' e a Criptografia Fiduciária de 850 Peças Certificadas na Vallée de Joux",
-    "image": "https://hodinkee.imgix.net/uploads/images/6e4490ef-be24-4879-bfcc-f05780554f82/TheWatchKeepers_Library.jpg?ixlib=rails-1.1.0&amp;fm=jpg&amp;q=55&amp;auto=format&amp;usm=12&amp;w=2000",
+    "image": "https://hodinkee.imgix.net/uploads/images/6e4490ef-be24-4879-bfcc-f05780554f82/TheWatchKeepers_Library.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=2000",
     "sourceUrl": "https://www.hodinkee.com/articles/audemars-piguet-unveils-the-watch-keepers-a-digital-platform-offering-certified-pre-owned-watches",
     "categorySlug": "relogios",
     "authorSlug": "clara-meirelles",

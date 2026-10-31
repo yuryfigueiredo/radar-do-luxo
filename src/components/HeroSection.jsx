@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Clock, CheckCircle2, ArrowRight, Play, Award, Sparkles } from 'lucide-react';
 import { ARTICLES, AUTHORS } from '../data/mockData';
 import { fetchArticles } from '../services/radarService';
+import { getHeroSelection } from '../services/feedPolicy';
 
 export default function HeroSection() {
   const [articlesList, setArticlesList] = useState(ARTICLES);
@@ -11,7 +12,9 @@ export default function HeroSection() {
     let isMounted = true;
     const reload = () => {
       fetchArticles().then(data => {
-        if (isMounted && data && data.length > 0) {
+        // Array vazio é resposta válida: acervo esvaziado não pode ser mascarado
+        // como "o bundle é o acervo". A capa tem seu próprio fallback documentado.
+        if (isMounted && Array.isArray(data)) {
           setArticlesList(data);
         }
       });
@@ -24,10 +27,9 @@ export default function HeroSection() {
     };
   }, []);
 
-  const publishedArticles = articlesList.filter(a => a.status !== 'draft');
-  // Se houver artigo fixado (isPinnedHero), tem prioridade absoluta. Senão, busca o marcado como isHero
-  const heroArticle = publishedArticles.find(a => a.isPinnedHero) || publishedArticles.find(a => a.isHero) || publishedArticles[0] || ARTICLES[0];
-  const secondaryArticles = publishedArticles.filter(a => (a.isHeroSecondary || (a.isHero && a.id !== heroArticle.id)) && a.id !== heroArticle.id);
+  const { main: selected, strip: secondaryArticles } = getHeroSelection(articlesList);
+  // Sem matéria publicada, a faixa de destaques não tem o que mostrar; usa o acervo do repositório.
+  const heroArticle = selected || ARTICLES[0];
   const author = AUTHORS[heroArticle.authorSlug] || AUTHORS['henrique-vianna'];
 
   return (

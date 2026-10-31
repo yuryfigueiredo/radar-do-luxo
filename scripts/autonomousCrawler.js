@@ -40,6 +40,8 @@ import { PUBLISHED_ARCHIVE } from '../src/data/publishedArchive.js';
 import { calculateEditorialScore, calculateCapaWeight } from '../src/services/rankingEngine.js';
 import { ARTICLES } from '../src/data/mockData.js';
 import { getPhotoId, sameStory, storyKey, slugify } from '../src/services/editorialDedupe.js';
+import { getFilmstripSelection, FILMSTRIP_LIMIT } from '../src/services/feedPolicy.js';
+import { resolveCoverImage, auditGalleryImages } from './coverImageAudit.js';
 import { findNegativeTerm } from '../src/services/editorialFilters.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -515,34 +517,72 @@ function findPublicationConflict(articleData, candidate, meta) {
   return null;
 }
 
-function pickArticleImage(candidate, meta) {
+// Última recurso quando nem o feed nem o banco entregam uma capa auditável
+// (rede fora, limite de requisição estourado). É arquivo do próprio repositório,
+// 1600x1066, verificado no build — nunca um banner de feed que a auditoria acabou
+// de reprovar, que é como a capa 600x237 voltava para o hero.
+const REPO_FALLBACK_COVER = '/images/a-lange-datograph-honeygold-lumen.jpg';
+
+async function pickArticleImage(candidate, meta) {
   const source = String(candidate.image || '').trim();
   const sourceId = getPhotoId(source);
-  const sourceIsGeneric = sourceId ? GENERIC_PHOTO_IDS.has(sourceId) : false;
+  const sourceIsFresh = source && (sourceId
+    ? !GENERIC_PHOTO_IDS.has(sourceId) && !meta.usedPhotoIds.has(sourceId)
+    : true);
 
-  if (source && !sourceIsGeneric && !meta.usedPhotoIds.has(sourceId)) {
-    return source.replace('fit=crop', 'fit=max');
+  if (sourceIsFresh) {
+    const audit = await resolveCoverImage(source, []);
+    if (audit.origin === 'origem' || audit.origin === 'local') {
+      console.log(`🖼️ [Capa] ${audit.note}.`);
+      if (sourceId) meta.usedPhotoIds.add(sourceId);
+      return audit.url.replace('fit=crop', 'fit=max');
+    }
+    console.warn(`🖼️ [Capa] ${audit.note}. Substituindo pelo banco da categoria.`);
   }
 
   const gallery = [...new Set([
     ...(HOMOLOGATED_IMAGES[candidate.categorySlug] || []),
     ...(FALLBACK_CATEGORY_IMAGES[candidate.categorySlug] || [])
   ])];
-  const pool = gallery.length ? gallery : [source].filter(Boolean);
-  if (!pool.length) return source;
-
-  // Escolhe a imagem do banco usada há mais tempo (distribui melhor o acervo)
-  let best = pool[0];
-  let bestUsedAt = Infinity;
-  for (const url of pool) {
-    const id = getPhotoId(url);
-    const usedAt = meta.photoLastUsed.get(id) || 0;
-    if (usedAt < bestUsedAt) {
-      bestUsedAt = usedAt;
-      best = url;
-    }
+  if (!gallery.length) {
+    console.warn('🖼️ [Capa] Banco da categoria vazio; usando o asset do repositório.');
+    return REPO_FALLBACK_COVER;
   }
-  return best.replace('fit=crop', 'fit=max');
+
+  // Ordena o banco pela foto usada há mais tempo (distribui melhor o acervo) e
+  // com as já em uso no fim da fila: se a matéria herda uma capa repetida, o
+  // dedupe do site derruba uma das duas publicações em silêncio. Aqui o banco é
+  // escolhido de propósito, então a isenção de "imagem genérica" (que só serve
+  // para não bloquear publicação) não se aplica.
+  const isTaken = (url) => {
+    const id = getPhotoId(url);
+    return Boolean(id) && meta.usedPhotoIds.has(id);
+  };
+  const ordered = gallery.sort((a, b) => {
+    if (isTaken(a) !== isTaken(b)) return isTaken(a) ? 1 : -1;
+    const usedA = meta.photoLastUsed.get(getPhotoId(a)) || 0;
+    const usedB = meta.photoLastUsed.get(getPhotoId(b)) || 0;
+    return usedA - usedB;
+  });
+
+  const audit = await auditGalleryImages(ordered);
+  console.log(`🖼️ [Capa] ${audit.note}.`);
+  if (audit.url) {
+    const chosenId = getPhotoId(audit.url);
+    if (chosenId) meta.usedPhotoIds.add(chosenId);
+    return audit.url.replace('fit=crop', 'fit=max');
+  }
+  // Banco reprovado quase sempre quer dizer rede indisponível no executor, e não
+  // banco ruim. Devolver a capa do feed seria publicar exatamente o banner que a
+  // auditoria acabou de reprovar (600x237 esticado no hero). Na falta de capa
+  // auditável preferimos a foto homologada livre do próprio banco, que é curada e
+  // do tamanho de capa, e só então o asset do repositório.
+  const lastResort = ordered.find(url => !isTaken(url));
+  const chosen = lastResort || REPO_FALLBACK_COVER;
+  console.warn(`🖼️ [Capa] Sem capa auditável na rede; publicando com ${lastResort ? 'foto homologada livre (sem medir)' : 'asset do repositório'}.`);
+  const chosenId = getPhotoId(chosen);
+  if (chosenId) meta.usedPhotoIds.add(chosenId);
+  return chosen.replace('fit=crop', 'fit=max');
 }
 
 // -----------------------------------------------------------------------------
@@ -698,7 +738,7 @@ async function publishArticle(articleData, candidate, meta, supabaseClient) {
     date: formattedDate,
     readTime: articleData.readTime || '5 min de leitura',
     read_time: articleData.readTime || '5 min de leitura',
-    image: pickArticleImage(candidate, meta),
+    image: await pickArticleImage(candidate, meta),
     imageFocus: candidate.pauta?.imageFocus || (categorySlug === 'supercarros' ? 'bottom' : 'center'),
     image_focus: candidate.pauta?.imageFocus || (categorySlug === 'supercarros' ? 'bottom' : 'center'),
     excerpt: articleData.excerpt,
@@ -724,10 +764,22 @@ async function publishArticle(articleData, candidate, meta, supabaseClient) {
   if (supabaseClient) {
     try {
       if (isHero) {
-        await supabaseClient
+        // Supabase não lança em erro de request: é preciso ler { error } de cada chamada,
+        // senão um rebaixamento perdido deixa duas matérias como capa principal.
+        // Só troca o selo que o próprio robô deu antes; um badge escrito à mão
+        // no painel sobrevive à promoção da nova capa.
+        const badgeReset = await supabaseClient
+          .from('articles')
+          .update({ badge: 'CURADORIA RADAR' })
+          .eq('is_hero', true)
+          .eq('badge', 'DESTAQUE MUNDIAL');
+        if (badgeReset.error) console.warn('⚠️ [Supabase] selo da capa anterior:', badgeReset.error.message);
+
+        const demotion = await supabaseClient
           .from('articles')
           .update({ is_hero: false, is_hero_secondary: true })
           .eq('is_hero', true);
+        if (demotion.error) console.warn('⚠️ [Supabase] rebaixamento da capa anterior:', demotion.error.message);
       }
       const databaseArticle = {
         id: newArticle.id,
@@ -774,79 +826,48 @@ async function publishArticle(articleData, candidate, meta, supabaseClient) {
   const beforeArticles = mockContent.slice(0, articlesStartIdx);
   const updatedArticles = [...ARTICLES];
   if (isHero) {
+    // Só a capa vigente pode reivindicar "destaque mundial"; rebaixar sem trocar o
+    // selo deixava meia dúzia de matérias antigas com o mesmo rótulo na home.
     updatedArticles.forEach(a => {
       if (a.isHero || a.is_hero) {
         a.isHero = false;
         a.is_hero = false;
         a.isHeroSecondary = true;
         a.is_hero_secondary = true;
+        if (/DESTAQUE MUNDIAL/i.test(String(a.badge || ''))) a.badge = 'CURADORIA RADAR';
       }
     });
   }
   updatedArticles.unshift(newArticle);
   const trimmedArticles = updatedArticles.slice(0, MAX_ARTICLES);
 
-  const filmstripCode = `\nexport const FILMSTRIP_ITEMS = [
-  {
-    id: 'film-1',
-    category: '${(categorySlug || 'NEWS').toUpperCase()}',
-    title: '${newArticle.title.replace(/'/g, "\\'").slice(0, 38)}...',
-    image: '${newArticle.image}',
-    tag: '${newArticle.badge}',
-    slug: '${newArticle.slug}'
-  },
-  {
-    id: 'film-2',
-    category: 'HYPERCARS',
-    title: 'Koenigsegg Jesko Absolut 1.600 cv',
-    image: 'https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&q=80&w=600',
-    tag: 'RECORDE MUNDIAL',
-    slug: 'koenigsegg-jesko-absolut-o-monstro-aerodinamico-de-1600-cv-que-esmagou-o-marco-0-400-0-kmh-em-2783-segundos-com-tolerancias-de-microns'
-  },
-  {
-    id: 'film-3',
-    category: 'HOROLOGY',
-    title: 'F.P. Journe Chronomètre Bleu Tântalo',
-    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=600',
-    tag: 'OURO ROSA 18K',
-    slug: 'fp-journe-chronometre-bleu-a-alquimia-do-tantalo-e-ouro-rosa-18k-que-redefiniu-a-alta-horologia-independente-com-listas-de-espera-de-sete-anos'
-  },
-  {
-    id: 'film-4',
-    category: 'VILLAS',
-    title: 'Villa sa Caleta em Maiorca',
-    image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=600',
-    tag: 'TRAVERTINO NAVONA',
-    slug: 'villa-sa-caleta-maiorca-o-refugio-brutalista-ancorado-em-rocha-calcaria-venda-privada-45m'
-  },
-  {
-    id: 'film-5',
-    category: 'CIRCUITO',
-    title: 'GMA T.50s Niki Lauda 12.100 RPM',
-    image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=600',
-    tag: 'COSWORTH V12',
-    slug: 'gma-t50s-niki-lauda-o-bolido-de-pista-de-852-kg-com-turbina-de-vacuo-traseira-e-v12-cosworth-de-12100-rpm-que-resgata-a-era-de-ouro-do-automobilismo'
-  },
-  {
-    id: 'film-6',
-    category: 'WEALTH',
-    title: 'Family Offices & Ouro Físico Suíço',
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=600',
-    tag: 'CAPITAL SOBERANO',
-    slug: 'o-relatorio-reservado-de-family-offices-por-que-as-dinastias-globais-estao-trocando-ativos-digitais-por-ouro-fisico-em-bunkers-suicos'
-  }
-];\n`;
+  // A roleta de destaques só pode apontar para matérias que existem no acervo:
+  // entradas fixas ficavam para trás quando o item saía dos 25 mais recentes.
+  // E ela precisa ignorar o que a home já consome (capa, faixa e feed);
+  // sem isso a mesma matéria aparecia três vezes na mesma tela.
+  const filmstripPicks = getFilmstripSelection(trimmedArticles, FILMSTRIP_LIMIT);
+  // JSON.stringify em vez de escape manual: título com quebra de linha ou crase
+  // publicava um mockData.js sintaticamente quebrado.
+  const filmstripCode = `\nexport const FILMSTRIP_ITEMS = [\n${filmstripPicks.map((item, index) => `  ${JSON.stringify({
+    id: `film-${index + 1}`,
+    category: (item.categorySlug || 'DESTAQUES').toUpperCase(),
+    title: `${String(item.title || '').slice(0, 38)}...`,
+    image: item.image,
+    tag: item.badge || 'CURADORIA RADAR',
+    slug: item.slug
+  }, null, 2).replace(/\n/g, '\n  ')}`).join(',\n')}\n];\n`;
 
   // Preserva qualquer conteúdo que exista DEPOIS do array de filmstrip.
   // Sem isso, uma futura exportação adicionada ao fim do mockData.js seria
   // silenciosamente apagada pelo robô em produção.
   const filmstripStart = mockContent.indexOf('export const FILMSTRIP_ITEMS = [');
-  let trailingContent = '';
+  let trailingContent = '\n';
   if (filmstripStart !== -1) {
-    const filmstripEnd = mockContent.indexOf('];', filmstripStart);
-    if (filmstripEnd !== -1) {
-      trailingContent = mockContent.slice(filmstripEnd + 2);
-    }
+    // O término é o "];" do próprio array, encostado na coluna zero. Procurar o
+    // primeiro "];" à frente cortaria o arquivo dentro de um título qualquer.
+    const afterStart = mockContent.slice(filmstripStart);
+    const closing = afterStart.match(/\n\];[^\n]*\n/);
+    trailingContent = closing ? afterStart.slice(closing.index + closing[0].length) : '';
   } else {
     console.warn('⚠️ [mockData.js] FILMSTRIP_ITEMS não encontrado; conteúdo posterior pode ser preservado apenas parcialmente.');
   }
@@ -862,8 +883,14 @@ async function publishArticle(articleData, candidate, meta, supabaseClient) {
       /export const CURRENT_CONTENT_VERSION = ['"][^'"]+['"];/,
       `export const CURRENT_CONTENT_VERSION = '${newVersion}';`
     );
-    fs.writeFileSync(radarServicePath, updatedService, 'utf-8');
-    console.log(`⚡ [Cache Bumper] Versão de conteúdo atualizada para '${newVersion}'.`);
+    if (updatedService === serviceContent) {
+      // Sem casar o padrão, o site continuaria servindo a versão velha e os
+      // leitores ficariam com a edição anterior no cache — sem ninguém avisado.
+      console.warn('⚠️ [Cache Bumper] CURRENT_CONTENT_VERSION não foi encontrado em radarService.js; cache não invalidado.');
+    } else {
+      fs.writeFileSync(radarServicePath, updatedService, 'utf-8');
+      console.log(`⚡ [Cache Bumper] Versão de conteúdo atualizada para '${newVersion}'.`);
+    }
   }
 
   console.log('\n==============================================================================');

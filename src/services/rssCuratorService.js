@@ -103,21 +103,104 @@ export const FALLBACK_CATEGORY_IMAGES = {
   ]
 };
 
+// Protótipo nulo: "&constructor;" não pode ser lido como propriedade herdada.
+const NAMED_ENTITIES = Object.create(null);
+
+Object.assign(NAMED_ENTITIES, {
+  amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ',
+  ndash: '–', mdash: '—', hellip: '…', middot: '·', bull: '•',
+  lsquo: '‘', rsquo: '’', ldquo: '“', rdquo: '”', laquo: '«', raquo: '»',
+  lsaquo: '‹', rsaquo: '›', dagger: '†', permil: '‰', sect: '§', para: '¶',
+  copy: '©', reg: '®', trade: '™', deg: '°', prime: '′', Prime: '″',
+  times: '×', divide: '÷', frac12: '½', euro: '€', pound: '£', yen: '¥',
+  curren: '¤'
+});
+
+const ACCENTED = {
+  aacute: 'á', agrave: 'à', acirc: 'â', auml: 'ä', aring: 'å', atilde: 'ã',
+  eacute: 'é', egrave: 'è', ecirc: 'ê', euml: 'ë',
+  iacute: 'í', igrave: 'ì', icirc: 'î', iuml: 'ï',
+  oacute: 'ó', ograve: 'ò', ocirc: 'ô', ouml: 'ö', otilde: 'õ', oslash: 'ø',
+  uacute: 'ú', ugrave: 'ù', ucirc: 'û', uuml: 'ü',
+  yacute: 'ý', yuml: 'ÿ', ccedil: 'ç', ntilde: 'ñ'
+};
+
+// Entidade é sensível a maiúscula: &eacute; é "é" e &Eacute; é "É".
+for (const [name, value] of Object.entries(ACCENTED)) {
+  NAMED_ENTITIES[name] = value;
+  NAMED_ENTITIES[name[0].toUpperCase() + name.slice(1)] = value.toUpperCase();
+}
+
+/** Invisíveis que só servem para estragar o texto: hífen suave, BOM e controle bidi. */
+function isInvisibleCodePoint(codePoint) {
+  return codePoint === 0xad
+    || codePoint === 0xfeff
+    || (codePoint >= 0x200b && codePoint <= 0x200f)
+    || (codePoint >= 0x202a && codePoint <= 0x202e)
+    || (codePoint >= 0x2060 && codePoint <= 0x2064)
+    || (codePoint >= 0x2066 && codePoint <= 0x2069);
+}
+
 /**
- * Limpa tags HTML de strings RSS
+ * Decodifica referências de entidade. Nomeadas antes das numéricas: feeds
+ * duplamente codificados chegam como "&amp;#8217;" e só viram apóstrofo nessa ordem.
  */
-function stripHtml(html) {
+function decodeEntityRefs(text) {
+  return String(text)
+    .replace(/&([a-z][a-z0-9]{1,9});/gi, (match, name) => NAMED_ENTITIES[name] ?? NAMED_ENTITIES[name.toLowerCase()] ?? match)
+    // Decimal e hexadecimal têm alfabetos diferentes: um `[0-9a-f]+` guloso para
+    // os dois come a letra que vem depois do número ("a&#8217b" perdia o "b").
+    .replace(/&#(?:x([0-9a-f]{1,6})|([0-9]{1,7}));?/gi, (match, hexDigits, decimalDigits) => {
+      const codePoint = hexDigits
+        ? Number.parseInt(hexDigits, 16)
+        : Number.parseInt(decimalDigits, 10);
+      // Controlados (0x00–0x1F e 0x7F–0x9F), surrogate isolado e código além do
+      // UTF-8 viram lixo invisível ou quebram a serialização da página.
+      const isControl = codePoint < 0x20 || (codePoint >= 0x7f && codePoint <= 0x9f);
+      const isSurrogate = codePoint >= 0xd800 && codePoint <= 0xdfff;
+      const isDecodable = Number.isFinite(codePoint) && codePoint <= 0x10FFFF && !isControl && !isSurrogate;
+      // Sem decodificar não sobra rastro: devolver o original deixaria "&#0;" no
+      // card, porque a varredura de fragmento abaixo não alcança dígitos.
+      if (!isDecodable) return '';
+      return isInvisibleCodePoint(codePoint) ? '' : String.fromCodePoint(codePoint);
+    })
+    // Fragmento de entidade truncado pelo corte de tamanho ("... isn&#"): lixo visual
+    // no card publicado. "&#" seguido de letra é texto comum ("?a=1&#section" é uma
+    // URL válida) e o corte aqui mataria o link da fonte.
+    .replace(/&#x?(?![a-z0-9])/gi, '');
+}
+
+/** Limpa tags HTML e decodifica entidades de strings RSS. */
+export function stripHtml(html) {
   if (!html) return '';
-  return html
-    .replace(/<!\[CDATA\[(.*?)\]\]>/gs, '$1')
-    .replace(/<[^>]+>/g, '')
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&#039;/g, "'")
-    .replace(/&nbsp;/g, ' ')
-    .trim();
+  return decodeEntityRefs(
+    String(html)
+      .replace(/<!\[CDATA\[(.*?)\]\]>/gs, '$1')
+      .replace(/<[^>]+>/g, ' ')
+  ).replace(/\s+/g, ' ').trim();
+}
+
+/** URL de feed com &amp; literal: o servidor ignora os parâmetros depois do &. */
+export function decodeFeedUrl(url) {
+  if (!url) return '';
+  return decodeEntityRefs(String(url).trim()).replace(/\s+/g, '');
+}
+
+/** Corte por tamanho que nunca deixa uma entidade, palavra ou emoji pela metade. */
+export function clampText(text, max) {
+  const clean = stripHtml(text);
+  if (clean.length <= max) return clean;
+  // Fatiar por unidade de UTF-16 parte o par de surrogate do emoji ao meio: o
+  // card publica "" e o JSON do repositório ganha uma sequência escapada isolada.
+  let cut = '';
+  for (const character of clean) {
+    if (cut.length + character.length > max) break;
+    cut += character;
+  }
+  // Só quebra na última palavra se isso não custar quase o corte inteiro: com o
+  // limite pequeno (ou texto sem espaço) `lastSpace = -1` apagar o último caractere.
+  const lastSpace = cut.lastIndexOf(' ');
+  return lastSpace > 0 && lastSpace > max - 40 ? cut.slice(0, lastSpace) : cut;
 }
 
 /**
@@ -137,11 +220,11 @@ function parseRssXml(xmlText) {
     let imageUrl = null;
     const enclosureMatch = itemXml.match(/<enclosure[^>]*url=["']([^"']+)["']/i);
     if (enclosureMatch) {
-      imageUrl = enclosureMatch[1];
+      imageUrl = decodeFeedUrl(enclosureMatch[1]);
     } else {
       const mediaMatch = itemXml.match(/<media:content[^>]*url=["']([^"']+)["']/i);
       if (mediaMatch) {
-        imageUrl = mediaMatch[1];
+        imageUrl = decodeFeedUrl(mediaMatch[1]);
       }
     }
 
@@ -203,7 +286,7 @@ export async function fetchFeedItems(feedConfig, timeoutMs = 8000) {
         authorSlug: feedConfig.authorSlug,
         originalTitle: item.title,
         suggestedHook: item.title,
-        summary: item.description ? item.description.slice(0, 320) : 'Lançamento internacional homologado pela mesa do Radar.',
+        summary: clampText(item.description, 320) || 'Lançamento internacional acompanhado pela curadoria do Radar.',
         publishedTime: item.pubDate || new Date().toISOString(),
         image: item.imageUrl || fallbackImg,
         imageIsFallback: !item.imageUrl

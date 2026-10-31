@@ -315,7 +315,7 @@ function extractEntities(rawInput) {
       const segment = url.pathname.split('/').filter(Boolean).pop() || '';
       title = decodeURIComponent(segment).replace(/[-_]/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
     } catch (e) {
-      title = 'Lançamento Editorial Homologado pelo Radar';
+      title = 'Lançamento Editorial da Curadoria Radar';
     }
   }
 
@@ -426,7 +426,7 @@ function synthesizeLocally(rawInput, context, gravitas) {
     specs,
     image,
     type: 'article',
-    badge: 'HOMOLOGADO PELO RADAR',
+    badge: 'CURADORIA RADAR',
     readTime: gravitas.readTime,
     date: new Date().toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' }),
     status: 'published',
@@ -603,7 +603,7 @@ RETORNE EXCLUSIVAMENTE UM OBJETO JSON VÁLIDO (sem markdown em volta do JSON):
     "especificacao_3": "valor técnico",
     "especificacao_4": "valor técnico"
   },
-  "badge": "HOMOLOGADO PELO RADAR"
+  "badge": "CURADORIA RADAR"
 }
 `;
 
@@ -701,7 +701,7 @@ RETORNE EXCLUSIVAMENTE UM OBJETO JSON VÁLIDO (sem markdown em volta do JSON):
     specs: parsed.specs || {},
     image: selectedImage,
     type: 'article',
-    badge: parsed.badge || 'HOMOLOGADO PELO RADAR',
+    badge: parsed.badge || 'CURADORIA RADAR',
     readTime: `${Math.max(4, (parsed.contentParagraphs || []).length + 1)} min de leitura`,
     date: new Date().toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' }),
     status: 'published',

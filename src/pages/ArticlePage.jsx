@@ -613,7 +613,7 @@ export default function ArticlePage({ onQuickView }) {
                       FICHA TÉCNICA
                     </span>
                     <span className="text-[10px] text-lux-emerald font-semibold uppercase">
-                      HOMOLOGADO
+                      CURADORIA RADAR
                     </span>
                   </div>
 
