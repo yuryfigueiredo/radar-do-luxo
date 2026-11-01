@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-louis-erard-x-vianney-halter-fut-2299",
+    "slug": "louis-erard-x-vianney-halter-futur-anterieur-a-obra-prima-de-99-exemplares-com-caixas-soldadas-a-mao-e-mostradores-graficos-estilo-antiqua-2287",
+    "title": "Louis Erard x Vianney Halter Futur Antérieur: A Obra-Prima de 99 Exemplares com Caixas Soldadas à Mão e Mostradores Gráficos Estilo Antiqua",
+    "image": "https://monochrome-watches.com/app/uploads/2026/10/louis-erard-x-vianney-halter-futur-anterieur-antiqua-inspired-collab-review-1.jpg",
+    "sourceUrl": "https://monochrome-watches.com/louis-erard-x-vianney-halter-futur-anterieur-antiqua-inspired-collab-review-price/",
+    "categorySlug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "publishedAt": "2026-11-01T16:01:12.299Z"
+  },
+  {
     "id": "art-superiate-feadship-de-us-39-milh-6064",
     "slug": "superiate-feadship-de-us-39-milhoes-o-arresto-judicial-na-costa-amalfitana-por-uma-falha-de-us-35000-em-salarios-6049",
     "title": "Superiate Feadship de US$ 39 Milhões: O Arresto Judicial na Costa Amalfitana por Uma Falha de US$ 35.000 em Salários",

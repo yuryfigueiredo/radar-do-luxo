@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-louis-erard-x-vianney-halter-fut-2299",
+    "slug": "louis-erard-x-vianney-halter-futur-anterieur-a-obra-prima-de-99-exemplares-com-caixas-soldadas-a-mao-e-mostradores-graficos-estilo-antiqua-2287",
+    "title": "Louis Erard x Vianney Halter Futur Antérieur: A Obra-Prima de 99 Exemplares com Caixas Soldadas à Mão e Mostradores Gráficos Estilo Antiqua",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "category_slug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "author_slug": "clara-meirelles",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "01 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://monochrome-watches.com/app/uploads/2026/10/louis-erard-x-vianney-halter-futur-anterieur-antiqua-inspired-collab-review-1.jpg",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A Vallée de Joux testemunha o encontro entre a vanguarda independente e a manufatura contemporânea, gerando um calibre de manufatura com arquitetura modular que desafia a geometria tradicional.",
+    "contentParagraphs": [
+      "O silêncio do ateliê esconde a audácia. Vianney Halter não desenha relógios. Ele arquiteta miniaturas temporais que zombam das convenções estéticas. A nova colaboração com a Louis Erard materializa o imaginário da célebre Antiqua em uma escala acessível, mantendo intacta a obsessão por volumes tridimensionais e pontes expostas.",
+      "A caixa em aço inoxidável polido mede 39 milímetros de diâmetro e abriga múltiplos elementos soldados individualmente. Cada junção exige paciência mineral. A anglage com sabugueiro silvestre revela o esmero manual que nenhuma máquina automatizada consegue replicar. Sob o vidro de safira abaulado, os contadores satélites exibem horas, minutos e segundos em uma disposição steampunk perfeitamente calibrada.",
+      "Movendo os ponteiros em formato de lança está um movimento automático Sellita modificado com rigor absoluto, entregando 38 horas de reserva de marcha e batendo a 28.800 alternâncias por hora. As pontes e engrenagens recebem acabamento circular e chanfrados à mão, atestando que a alta-relojoaria mecânica tolera apenas a lentidão deliberada do artesão que domina o buril de aço.",
+      "A escassez define o valor final. Com uma tiragem estritamente limitada a 99 peças numeradas, esta edição não busca a aprovação do mercado de massa. Ela atrai colecionadores que compreendem a soberania patrimonial de portar uma herança mecânica destinada a desafiar décadas de obsolescência programada."
+    ],
+    "content_paragraphs": [
+      "O silêncio do ateliê esconde a audácia. Vianney Halter não desenha relógios. Ele arquiteta miniaturas temporais que zombam das convenções estéticas. A nova colaboração com a Louis Erard materializa o imaginário da célebre Antiqua em uma escala acessível, mantendo intacta a obsessão por volumes tridimensionais e pontes expostas.",
+      "A caixa em aço inoxidável polido mede 39 milímetros de diâmetro e abriga múltiplos elementos soldados individualmente. Cada junção exige paciência mineral. A anglage com sabugueiro silvestre revela o esmero manual que nenhuma máquina automatizada consegue replicar. Sob o vidro de safira abaulado, os contadores satélites exibem horas, minutos e segundos em uma disposição steampunk perfeitamente calibrada.",
+      "Movendo os ponteiros em formato de lança está um movimento automático Sellita modificado com rigor absoluto, entregando 38 horas de reserva de marcha e batendo a 28.800 alternâncias por hora. As pontes e engrenagens recebem acabamento circular e chanfrados à mão, atestando que a alta-relojoaria mecânica tolera apenas a lentidão deliberada do artesão que domina o buril de aço.",
+      "A escassez define o valor final. Com uma tiragem estritamente limitada a 99 peças numeradas, esta edição não busca a aprovação do mercado de massa. Ela atrai colecionadores que compreendem a soberania patrimonial de portar uma herança mecânica destinada a desafiar décadas de obsolescência programada."
+    ],
+    "specs": {
+      "Calibre": "Sellita SW266-1 com módulo exclusivo Vianney Halter",
+      "Material da Caixa": "Aço inoxidável polido com construção modular soldada",
+      "Dimensões": "39mm de diâmetro por 12,82mm de espessura",
+      "Tiragem": "Edição limitada de 99 exemplares",
+      "Correia": "Couro de bezerro granulado com fecho ardillon personalizado"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 86,
+    "ranking_score": 86,
+    "publishedAt": "2026-11-01T16:01:12.299Z",
+    "published_at": "2026-11-01T16:01:12.299Z",
+    "sourceUrl": "https://monochrome-watches.com/louis-erard-x-vianney-halter-futur-anterieur-antiqua-inspired-collab-review-price/",
+    "source_url": "https://monochrome-watches.com/louis-erard-x-vianney-halter-futur-anterieur-antiqua-inspired-collab-review-price/"
+  },
+  {
     "id": "art-superiate-feadship-de-us-39-milh-6064",
     "slug": "superiate-feadship-de-us-39-milhoes-o-arresto-judicial-na-costa-amalfitana-por-uma-falha-de-us-35000-em-salarios-6049",
     "title": "Superiate Feadship de US$ 39 Milhões: O Arresto Judicial na Costa Amalfitana por Uma Falha de US$ 35.000 em Salários",
@@ -1346,63 +1397,20 @@ export const ARTICLES = [
     "published_at": "2026-10-27T19:51:35.105Z",
     "sourceUrl": "https://monochrome-watches.com/introducing-chinese-brand-atelier-mephalie-launches-its-minute-repeater-collection-priced-to-a-tenth-of-what-europe-does/",
     "source_url": "https://monochrome-watches.com/introducing-chinese-brand-atelier-mephalie-launches-its-minute-repeater-collection-priced-to-a-tenth-of-what-europe-does/"
-  },
-  {
-    "id": "art-nuvolari-lenard-380-o-monstro-tr-1949",
-    "slug": "nuvolari-lenard-380-o-monstro-transoceanico-de-115-metros-desenvolvido-com-casco-de-deslocamento-rigido-para-navegacao-polar-autonoma-1935",
-    "title": "Nuvolari Lenard 380: O Monstro Transoceânico de 115 Metros Desenvolvido com Casco de Deslocamento Rígido para Navegação Polar Autônoma",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "27 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A arquitetura naval italiana atinge um novo patamar de brutalidade oceânica com 380 pés de aço estrutural, propulsão híbrida de longo curso e autonomia ininterrupta em mares revoltos.",
-    "contentParagraphs": [
-      "O aço naval não tolera hesitações quando o Atlântico Norte impõe ondas de doze metros contra a proa. A Nuvolari Lenard consolida sua soberania no design oceânico apresentando o projeto de 115 metros que redefine os limites da engenharia de superiates. Sob a direção de Carlo Nuvolari e Dan Lenard, cada linha mestra foi desenhada para cortar a água com resistência hidrodinâmica mínima. Não há concessões estéticas gratuitas aqui. Apenas funcionalidade brutal disfarçada sob proporções monumentais.",
-      "A estrutura primária baseia-se em um casco de deslocamento total forjado em ligas metálicas de alta resistência, projetado para suportar o esforço torsional de travessias intercontinentais sem reabastecimento. A engenharia interna abriga geradores de última geração acoplados a propulsão híbrida, garantindo que o navio opere em silêncio acústico absoluto durante aproximações a reservas ecológicas remotas. A força G lateral experimentada no passadiço durante manobras de emergência é anulada por sistemas giroscópicos de estabilização ativa. Cada antepara soldada cumpre tolerâncias de mícrons para eliminar vibrações estruturais.",
-      "Enquanto o casco racha o gelo flutuante com precisão cirúrgica, os interiores oferecem um santuário térmico e acústico isolado do caos exterior. O convés principal integra um spa privativo alimentado por sistemas de dessalinização de alta vazão, além de tanques lastro inteligentes que redistribuem toneladas de água em segundos para contrabalançar rajadas de vento laterais. A autonomia transatlântica não é apenas uma métrica de marketing; é o resultado de cálculos termodinâmicos rigorosos que otimizam o consumo específico de combustível em cada nó de velocidade.",
-      "A herança dos grandes transatlânticos do século XX encontra a telemetria inercial do século XXI neste projeto colossal. Para o armador que exige soberania absoluta sobre os oceanos, o Nuvolari Lenard 380 opera como uma fortaleza flutuante intransponível. A engenharia naval atinge, mais uma vez, o ápice da intransigência mecânica."
-    ],
-    "content_paragraphs": [
-      "O aço naval não tolera hesitações quando o Atlântico Norte impõe ondas de doze metros contra a proa. A Nuvolari Lenard consolida sua soberania no design oceânico apresentando o projeto de 115 metros que redefine os limites da engenharia de superiates. Sob a direção de Carlo Nuvolari e Dan Lenard, cada linha mestra foi desenhada para cortar a água com resistência hidrodinâmica mínima. Não há concessões estéticas gratuitas aqui. Apenas funcionalidade brutal disfarçada sob proporções monumentais.",
-      "A estrutura primária baseia-se em um casco de deslocamento total forjado em ligas metálicas de alta resistência, projetado para suportar o esforço torsional de travessias intercontinentais sem reabastecimento. A engenharia interna abriga geradores de última geração acoplados a propulsão híbrida, garantindo que o navio opere em silêncio acústico absoluto durante aproximações a reservas ecológicas remotas. A força G lateral experimentada no passadiço durante manobras de emergência é anulada por sistemas giroscópicos de estabilização ativa. Cada antepara soldada cumpre tolerâncias de mícrons para eliminar vibrações estruturais.",
-      "Enquanto o casco racha o gelo flutuante com precisão cirúrgica, os interiores oferecem um santuário térmico e acústico isolado do caos exterior. O convés principal integra um spa privativo alimentado por sistemas de dessalinização de alta vazão, além de tanques lastro inteligentes que redistribuem toneladas de água em segundos para contrabalançar rajadas de vento laterais. A autonomia transatlântica não é apenas uma métrica de marketing; é o resultado de cálculos termodinâmicos rigorosos que otimizam o consumo específico de combustível em cada nó de velocidade.",
-      "A herança dos grandes transatlânticos do século XX encontra a telemetria inercial do século XXI neste projeto colossal. Para o armador que exige soberania absoluta sobre os oceanos, o Nuvolari Lenard 380 opera como uma fortaleza flutuante intransponível. A engenharia naval atinge, mais uma vez, o ápice da intransigência mecânica."
-    ],
-    "specs": {
-      "Comprimento Total (LOA)": "115 metros (380 pés)",
-      "Arquitetura Naval": "Nuvolari Lenard Design Studio",
-      "Material do Casco": "Aço de Alta Resistência Naval com Superestrutura em Alumínio",
-      "Autonomia": "Transatlântica ininterrupta para expedições polares",
-      "Propulsão": "Sistema híbrido de geradores acoplados a eixos de alta tolerância"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 92,
-    "ranking_score": 92,
-    "publishedAt": "2026-10-27T19:49:41.949Z",
-    "published_at": "2026-10-27T19:49:41.949Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOR0lZcFo5dGozRnhwT0dVT1NWNll0b0dtSDlGa21UNUktMXBOZGxvaGI0Zjdack9uWnllX1diRWFRSTQ2Ukt3VzdRbHhaRk9TS0hFMHRVS0d6RmFxQ3hLR0tsY2FLM3BpYVppU0hyc0E3MGFrQVJzVWt1RnIwNlpLamdSb3hhb21MbTY0MS1UbVhnR25FRklIZXcyYmNmUVhQYmxhSnRWdVpMVFlvVnhCSFJLa1NxUTdnNkpKY3NoX2xKX3VE?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOR0lZcFo5dGozRnhwT0dVT1NWNll0b0dtSDlGa21UNUktMXBOZGxvaGI0Zjdack9uWnllX1diRWFRSTQ2Ukt3VzdRbHhaRk9TS0hFMHRVS0d6RmFxQ3hLR0tsY2FLM3BpYVppU0hyc0E3MGFrQVJzVWt1RnIwNlpLamdSb3hhb21MbTY0MS1UbVhnR25FRklIZXcyYmNmUVhQYmxhSnRWdVpMVFlvVnhCSFJLa1NxUTdnNkpKY3NoX2xKX3VE?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "ARQUITETURA",
+    "title": "Sheats-Goldstein Residence: A Fortalez...",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "sheats-goldstein-residence-a-fortaleza-brutalista-de-concreto-angular-com-750-oculos-de-vidro-engastados-na-laje-4302"
+  },
+  {
+    "id": "film-2",
     "category": "RELOGIOS",
     "title": "Rexhep Rexhepi Chronomètre Contemporai...",
     "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=max&q=80&w=1400",
@@ -1410,7 +1418,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "rexhep-rexhepi-chronometre-contemporain-ii-o-atelie-independente-de-genebra-com-lista-de-espera-de-7-anos-e-chanfro-manual-absoluto-9736"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "ESTILO",
     "title": "Hermès Faubourg: O Ateliê Secreto em P...",
     "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=max&q=80&w=1400",
@@ -1418,7 +1426,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "hermes-faubourg-o-atelie-secreto-em-paris-onde-30-mestres-costuram-selas-em-couro-barenia-sob-linho-encerado-a-mao-desde-1837-3331"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Ferrari E-Building: O Monstro Elétrico...",
     "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
@@ -1426,7 +1434,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-e-building-o-monstro-eletrico-de-us-560800-que-desafia-os-v12-aspirados-com-celulas-de-ion-litio-montadas-em-maranello-8425"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "RELOGIOS",
     "title": "Patek Philippe de Joe DiMaggio: O Cale...",
     "image": "https://robbreport.com/wp-content/uploads/2026/10/joe-dimaggio-patek-phillipe-watch.jpg",
@@ -1434,20 +1442,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "patek-philippe-de-joe-dimaggio-o-calendario-perpetuo-em-ouro-amarelo-de-1957-que-exige-12-milhao-de-dolares-em-custodia-fiduciaria-1969"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "ARQUITETURA",
     "title": "Villa sa Caleta: A Laje Monolítica de ...",
     "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "villa-sa-caleta-a-laje-monolitica-de-concreto-e-travertino-de-38-milhoes-que-suspende-o-tempo-sobre-as-baleares-5403"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Ferrari 499P Modificata: O Protótipo d...",
-    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "ferrari-499p-modificata-o-prototipo-de-endurance-de-870-cv-com-aerodinamica-ativa-em-fibra-de-carbono-e-telemetria-de-maranello-4373"
   }
 ];
 
