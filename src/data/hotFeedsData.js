@@ -19,7 +19,7 @@ import { calculateEditorialScore } from '../services/rankingEngine.js';
 
 export const INITIAL_HOT_PAUTAS = [
   {
-    "id": "pauta-live-supercarros-mvy13pid-kke1",
+    "id": "pauta-live-supercarros-mvye11ap-m640",
     "source": "Google News Motors (Ferrari/Bugatti)",
     "sourceCategory": "Supercarros",
     "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
@@ -33,7 +33,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Ferrari’s brand value rises 14% to $17.7 billion in 2026 The Supercar Blog",
     "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYnhVU1lzalVCZ0Q2cVVsZlFHdGpJOTdLLXlHMW5ucGVyc0xjVEZEcFI2WThqWXFwUTdHUkFBQjVoNWRueHNlS2p1Q0RVTDM2RjJxbFk1WG1mekJQaklSc0NLVlFtSEpYUS1XWEpEdzlVTzdLYUJVUklON2x4c1ZmTGM4V01xNUE1MmV2SUZR?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-01T16:12:45.157Z",
+    "createdAt": "2026-11-01T22:14:35.473Z",
     "validityHours": 24,
     "specsPreview": {
       "categoria": "Hipercarro de Colecionismo",
@@ -42,24 +42,24 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-supercarros-mvy13pih-dzgj",
+    "id": "pauta-live-supercarros-mvye11ah-q9or",
     "source": "Google News Motors (Ferrari/Bugatti)",
     "sourceCategory": "Supercarros",
     "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
     "category": "Supercarros",
     "categorySlug": "supercarros",
     "authorSlug": "gabriel-fontes",
-    "rankingScore": 89,
+    "rankingScore": 92,
     "rankingTier": "A",
-    "originalTitle": "Ferrari reveals luxury $4,300 fountain pen inspired by its bespoke supercars - Motorsport.com",
-    "suggestedHook": "Hipercarros: Ferrari reveals luxury $4,300 fountain pen inspired by its bespoke supercars",
-    "summary": "Ferrari reveals luxury $4,300 fountain pen inspired by its bespoke supercars Motorsport.com",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPT0p0UlZITnJoVTMyNXZ6cmNaUjhVSE50a2RKQzcxLVZ5NDF1SnhYdlFhaUtyMEpLd3lhTWJ2di1DRUZlZ01OcWlpSEwtbmNYRF9kbVJIcHhRQnY5blptOXA5XzRMV0xJenM0V1VlVDlNNVRFLTRCQUtfQXdveVVBZEw5OHNJcFBEbFBILVpYTzNIWmdIblByMUFFa0NaSTRxcExHTFRnZ0xoRlhOc1VHTnJGUXB6SEVVZGZn?oc=5",
+    "originalTitle": "Ferrari Built This One-Off, $1 Million Pace Car in the ’80s. It Just Resurfaced - The Drive",
+    "suggestedHook": "Hipercarros: Ferrari Built This One-Off, $1 Million Pace Car in the ’80s. It Just Resurfaced",
+    "summary": "Ferrari Built This One-Off, $1 Million Pace Car in the ’80s. It Just Resurfaced The Drive",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMUdON0lXOGR1SlNPUzhiUlNSa3lJX0c2djBaQ0Zzc1VzWE5waEJSWVNKcDh4LTNIWWx1bFB1WGhsWlFuM3c0Z3d1MkVwSGlETVJkNkhzRGhfUkswSFlrcV9QcmNqdnlqeWc0cUhwdFR6M0U4Z2drT2s4SU5nbmdJRHd6MkxwcHIwWXZXSS13bWJpdjlEZVMzdHFEWXJZVG9kNnNRTGotWDk?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-01T16:12:45.161Z",
+    "createdAt": "2026-11-01T22:14:35.465Z",
     "validityHours": 24,
     "specsPreview": {
       "categoria": "Hipercarro de Colecionismo",
@@ -68,10 +68,10 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "published"
+    "status": "available"
   },
   {
-    "id": "pauta-live-supercarros-mvy13pij-v5k7",
+    "id": "pauta-live-supercarros-mvye11ag-f02e",
     "source": "Google News Motors (Ferrari/Bugatti)",
     "sourceCategory": "Supercarros",
     "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
@@ -80,24 +80,24 @@ export const INITIAL_HOT_PAUTAS = [
     "authorSlug": "gabriel-fontes",
     "rankingScore": 88,
     "rankingTier": "A",
-    "originalTitle": "Floyd Mayweather to lose Bugatti and Ferrari cars after failing to pay $2.4million - AOL.com",
-    "suggestedHook": "Hipercarros: Floyd Mayweather to lose Bugatti and Ferrari cars after failing to pay $2.4million",
-    "summary": "Floyd Mayweather to lose Bugatti and Ferrari cars after failing to pay $2.4million AOL.com",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbERwT2VidTFLV2N6N05qMVFObmdHNUNSdnpIRVg2UTByMGNjTkRFNGpIRUoxUVBVVnRWckRMN1pqcXRHYUJyMWVRd2FqQVdxUThacjBiaEs0MUJUeFF3RG0wUWZyT09RTWFoNENBT0tLTVdLNEFUbVg4SGJ0RVVXcWlZRmJqakJG?oc=5",
+    "originalTitle": "Ferrari Daytona SP3 fetches €16.6 million, and Monterey was no fluke - AutoNext.co",
+    "suggestedHook": "Hipercarros: Ferrari Daytona SP3 fetches €16.6 million, and Monterey was no fluke",
+    "summary": "Ferrari Daytona SP3 fetches €16.6 million, and Monterey was no fluke AutoNext.co",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4xVGdZQTkwUDRuNExabGU4ZTFwQzhMXzh3RXM5cDJkVnF0MWNVWDV1Yzc2ek9aeDRIYTNoMFNsZFBiQUlCRjNmbEljUWF1ZHJBb1lValRWS0JPT2stSUJjTUg2NG9yNTlxYl9pUHFHTFlCeUJ5aVY2eWpR?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-01T16:12:45.163Z",
+    "createdAt": "2026-11-01T22:14:35.464Z",
     "validityHours": 24,
     "specsPreview": {
       "categoria": "Hipercarro de Colecionismo",
       "telemetria": "Calibração de pista",
       "curadoria": "Gabriel Fontes"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "published"
+    "status": "available"
   },
   {
-    "id": "pauta-live-destinos-mvy13pjj-cfsb",
+    "id": "pauta-live-destinos-mvye11b4-h3uq",
     "source": "Google News Superyachts",
     "sourceCategory": "Destinos & Iates",
     "badgeColor": "border-purple-500/40 text-purple-400 bg-purple-500/10",
@@ -111,7 +111,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "This Candy-Themed Superyacht Is Surprisingly Chic Forbes",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPY2pmel9HTHM5OUhOcEFFX3VGcmhFWG1rWHBHM0ZLcGJfc2dXazU1aDU0RG8xSDhSa2tTZzZLRFl0MHNYX0Qxc2ZfRWJfdGN4WkJvcXZDaEtmS0ZZaUgzMVdoYzZudVA3dmdHQk1jMnc0UW9FQnRjYVBMVTlibkhsUUlxRzhNR2c1V09sQmtrd2JUUlBkVXk0NG9KSlh5QUttenc?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-01T16:12:45.199Z",
+    "createdAt": "2026-11-01T22:14:35.488Z",
     "validityHours": 24,
     "specsPreview": {
       "categoria": "Superiate Transoceânico",
@@ -120,10 +120,10 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d17?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-arquitetura-mvy13plm-xumf",
+    "id": "pauta-live-arquitetura-mvye11c7-26hq",
     "source": "Sotheby's & Christie's Auctions",
     "sourceCategory": "Arquitetura",
     "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
@@ -137,7 +137,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Legendary Art Collector Pauline Karpidas Is Auctioning Off Her Incredible Jewelry Robb Report",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbXB0ZF9uRVQteTdkR1FVc3FDNjktemhNaVZaT3ZLeGlHb3pXZTlQNkRlVC1mVFFPN1IzT1EyVEJCY0RTWmN4VWRweUZFWURlVFd5TTd3T3lIbk1fLTZxNFBsWGhlUW5za0MzZDF1bUxSc0Izd2RxLTQwTGRqcmlLVWFaeWlsRFpMM25DdXMzdGRTNzd6MVpNajBUUzUteE91anc?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-01T16:12:45.274Z",
+    "createdAt": "2026-11-01T22:14:35.527Z",
     "validityHours": 24,
     "specsPreview": {
       "mercado": "Grandes Leilões Internacionais",
@@ -147,10 +147,10 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-arquitetura-mvy13pky-7gbo",
+    "id": "pauta-live-arquitetura-mvye11c2-ulkw",
     "source": "Google News Superyachts",
     "sourceCategory": "Arquitetura",
     "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
@@ -164,7 +164,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "The ultra-lavish lifestyle of Saudi Crown Prince and billionaire who controls Ronaldo's club VnExpress International",
     "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTnE4ek5lamxXZUNDcTJVSk16UGFXZjQyUDZmQ2lKNzNzMTVpUFQ4RHJ5OXJWMlNxc0s0aG5MQnF4MG5UMk5hOEZNaHFQS2Y2ZGlJZEY3Qkc4ZXdPVTA1SFRRUHpmVWE4QXF4MURjVjNLN1NnUDRJZ1VFeW8xQlRaRnFhTk0xMTg2bmFUaS14Tk5TcEZJT19oZ2VtUUZrODNPdFRPWG5ac2p4bTMzLWRicmw5Y0RESW51czNXdUNvVmtUQTVEcE50SDhIeDBRQW1IWk9ZQ2dieFlWdk54NDNsVEVOaWg?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-01T16:12:45.250Z",
+    "createdAt": "2026-11-01T22:14:35.522Z",
     "validityHours": 24,
     "specsPreview": {
       "mercado": "Grandes Leilões Internacionais",
@@ -172,12 +172,12 @@ export const INITIAL_HOT_PAUTAS = [
       "perfil": "Family Offices & Colecionadores",
       "curadoria": "Henrique Vianna"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
     "status": "available"
   },
   {
-    "id": "pauta-live-destinos-mvy13pjg-qt8a",
+    "id": "pauta-live-destinos-mvye11b3-rrit",
     "source": "Google News Superyachts",
     "sourceCategory": "Destinos & Iates",
     "badgeColor": "border-purple-500/40 text-purple-400 bg-purple-500/10",
@@ -191,7 +191,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "The perfect accessory for Mark Zuckerberg’s superyacht - Brabus has created a $20,490 electric hydrofoil that flies above the water at 28 mph Luxurylaunches",
     "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAwSVV5cHRPaWlUNjN3dF9kVzZxaHRqcDNlSFdBUzJtbnp2Zmh1SXJWanJhRXR4RGlCcjEtR3VMbGhNdWV3QUFtLTRyMDJlVE5ZY0NIS1pITlo1ZW1lajNMa3RFWTdUcUYxeXlTakVueWszMV9qNXdJ?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-01T16:12:45.196Z",
+    "createdAt": "2026-11-01T22:14:35.487Z",
     "validityHours": 24,
     "specsPreview": {
       "categoria": "Superiate Transoceânico",
@@ -203,34 +203,33 @@ export const INITIAL_HOT_PAUTAS = [
     "status": "available"
   },
   {
-    "id": "pauta-live-relogios-mvy13pi6-5s9w",
-    "source": "Monochrome Watches",
-    "sourceCategory": "Alta Relojoaria",
-    "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "authorSlug": "clara-meirelles",
-    "rankingScore": 83,
+    "id": "pauta-live-destinos-mvye11b7-eba0",
+    "source": "Google News Superyachts",
+    "sourceCategory": "Destinos & Iates",
+    "badgeColor": "border-purple-500/40 text-purple-400 bg-purple-500/10",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "rankingScore": 84,
     "rankingTier": "B",
-    "originalTitle": "First Look – Closer Than Ever to the Antiqua, the New Louis Erard x Vianney Halter Collab",
-    "suggestedHook": "Alta Relojoaria: First Look – Closer Than Ever to the Antiqua, the New Louis Erard x Vianney Halter Collab",
-    "summary": "Geneva Watch Days is always a treat, but 2026 held two collaboration surprises for the MONOCHROME team, both involving maverick French watchmaker Vianney Halter. Bulgari’s collaboration with Vianney Halter produced a bold Antiqua-inspired Octo Finissimo Dual Time. The second, revealed to us as a sneak preview by",
-    "sourceUrl": "https://monochrome-watches.com/louis-erard-x-vianney-halter-futur-anterieur-antiqua-inspired-collab-review-price/",
+    "originalTitle": "Valve founder Gabe Newell has to pay staggering bill just to refuel his 364ft superyacht Leviathan that's worth $500M - supercarblondie.com",
+    "suggestedHook": "Valve founder Gabe Newell has to pay staggering bill just to refuel his 364ft Superiate Leviathan that's worth $500M",
+    "summary": "Valve founder Gabe Newell has to pay staggering bill just to refuel his 364ft superyacht Leviathan that's worth $500M supercarblondie.com",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOU3daN25xLTlMVTJLZURBYlhCMTBUNW9LMV8zcVhEN3VpUDBieHhyUTJtTTRCWmh0TXEwblI0N2hXOElRNUhDTTNIYV93dy1vZDZMSU1mTnpMakpDVDFRVVBzcXdNRWJVR3NpRUoxa1Blank3d1RsLTBnSlU2YzVIa0FLVHlKQQ?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-01T16:12:45.150Z",
+    "createdAt": "2026-11-01T22:14:35.491Z",
     "validityHours": 24,
     "specsPreview": {
-      "calibre": "Mecânico de alta complicação",
-      "acabamento": "Tradição artesanal suíça",
-      "curadoria": "Mesa de Alta Horologia",
-      "estilo": "Peça de Colecionador"
+      "categoria": "Superiate Transoceânico",
+      "engenharia": "Casco de aço naval e compósitos",
+      "curadoria": "Gabriel Fontes"
     },
-    "suggestedImage": "https://monochrome-watches.com/app/uploads/2026/10/louis-erard-x-vianney-halter-futur-anterieur-antiqua-inspired-collab-review-1-600x237.jpg",
-    "imageIsFallback": false,
-    "status": "duplicate"
+    "suggestedImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=1400",
+    "imageIsFallback": true,
+    "status": "available"
   },
   {
-    "id": "pauta-live-relogios-mvy13pi8-zzlr",
+    "id": "pauta-live-relogios-mvye11ae-uu2u",
     "source": "Monochrome Watches",
     "sourceCategory": "Alta Relojoaria",
     "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
@@ -244,7 +243,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "With its Series 8 collection of mechanical watches, Citizen has been delivering rather impressive models over the years, with the GMT collection being possibly the most appealing of them. Not only is it powered by a true GMT automatic movement (something rare in this price range), but Citizen has dared to bring",
     "sourceUrl": "https://monochrome-watches.com/citizen-series-8-gmt-damascus-steel-and-forged-carbon-nb6092-01e-introducing-price/",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-01T16:12:45.152Z",
+    "createdAt": "2026-11-01T22:14:35.462Z",
     "validityHours": 24,
     "specsPreview": {
       "calibre": "Mecânico de alta complicação",
@@ -257,7 +256,7 @@ export const INITIAL_HOT_PAUTAS = [
     "status": "available"
   },
   {
-    "id": "pauta-live-arquitetura-mvy13ph2-hg3j",
+    "id": "pauta-live-arquitetura-mvye119v-oozv",
     "source": "Robb Report Global",
     "sourceCategory": "Arquitetura",
     "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
@@ -271,7 +270,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "The Naples residence is embellished with Venetian murals, gold-leaf ceilings, and rich mahogany.",
     "sourceUrl": "https://robbreport.com/shelter/homes-for-sale/naples-florida-lavish-estate-1238798763/",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-01T16:12:45.110Z",
+    "createdAt": "2026-11-01T22:14:35.443Z",
     "validityHours": 24,
     "specsPreview": {
       "mercado": "Grandes Leilões Internacionais",
@@ -284,7 +283,7 @@ export const INITIAL_HOT_PAUTAS = [
     "status": "available"
   },
   {
-    "id": "pauta-live-relogios-mvy13phx-jsdk",
+    "id": "pauta-live-relogios-mvye11a8-870i",
     "source": "Hodinkee",
     "sourceCategory": "Alta Relojoaria",
     "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
@@ -298,7 +297,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "The exhibition is over, but for those who couldn't make it, here's what you missed.",
     "sourceUrl": "https://www.hodinkee.com/articles/patek-philippes-2026-milan-watch-art-grand-exhibition",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-01T16:12:45.141Z",
+    "createdAt": "2026-11-01T22:14:35.456Z",
     "validityHours": 24,
     "specsPreview": {
       "calibre": "Mecânico de alta complicação",
@@ -311,30 +310,30 @@ export const INITIAL_HOT_PAUTAS = [
     "status": "available"
   },
   {
-    "id": "pauta-live-arquitetura-mvwxlmby-updp",
-    "source": "Sotheby's & Christie's Auctions",
-    "sourceCategory": "Arquitetura",
-    "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "rankingScore": 83,
+    "id": "pauta-live-relogios-mvye11a9-8ylw",
+    "source": "Hodinkee",
+    "sourceCategory": "Alta Relojoaria",
+    "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "rankingScore": 82,
     "rankingTier": "B",
-    "originalTitle": "A jewel of the Romanovs: Historic 197.80-carat sapphire heads to auction - Qazinform",
-    "suggestedHook": "A jewel of the Romanovs: Historic 197.80-carat sapphire heads to auction",
-    "summary": "A jewel of the Romanovs: Historic 197.80-carat sapphire heads to auction Qazinform",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSU1tSjhLQ3g1MGVhUmNLSkpOUkVWbDhpcEpWX3lxU0xfbUlUTjU0UENqeDd3cGVKT3ZRNGRXSkpvelp3WkQ1dHdBWWx6MVZ5QVdWNVdxaG00OTJYYmh3ejNxLXBKYWRjQjBnTmlCajJOMnN5YVRXSHI3NW9PanVTUTlEMzJTck9SWDA0RjF3djFNTDFWeTV5ZktlUzljTHpRdkI5QmxzTdIBpwFBVV95cUxNSU1tSjhLQ3g1MGVhUmNLSkpOUkVWbDhpcEpWX3lxU0xfbUlUTjU0UENqeDd3cGVKT3ZRNGRXSkpvelp3WkQ1dHdBWWx6MVZ5QVdWNVdxaG00OTJYYmh3ejNxLXBKYWRjQjBnTmlCajJOMnN5YVRXSHI3NW9PanVTUTlEMzJTck9SWDA0RjF3djFNTDFWeTV5ZktlUzljTHpRdkI5QmxzTQ?oc=5",
+    "originalTitle": "Photo Report: A. Lange & Söhne Brings A Glimpse Of History to New York City",
+    "suggestedHook": "Photo Report: A. Lange & Söhne Brings A Glimpse Of History to New York City",
+    "summary": "In a special exhibition, A. Lange & Söhne marked the 32nd anniversary of their re-founding by bringing together watches from across their history in a retrospective showcase of the brand's evolution.",
+    "sourceUrl": "https://www.hodinkee.com/articles/a-lange-and-sohne-celebrates-32-years-of-german-watchmaking-in-new-york-city",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-10-31T21:46:56.206Z",
+    "createdAt": "2026-11-01T22:14:35.457Z",
     "validityHours": 24,
     "specsPreview": {
-      "mercado": "Grandes Leilões Internacionais",
-      "custodia": "Refúgio de Liquidez Soberana",
-      "perfil": "Family Offices & Colecionadores",
-      "curadoria": "Henrique Vianna"
+      "calibre": "Mecânico de alta complicação",
+      "acabamento": "Tradição artesanal suíça",
+      "curadoria": "Mesa de Alta Horologia",
+      "estilo": "Peça de Colecionador"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&q=80&w=1400",
-    "imageIsFallback": true,
+    "suggestedImage": "https://hodinkee.imgix.net/uploads/articles/462af331-813e-4070-92a2-d15f044fbb54/P1022711.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=2000",
+    "imageIsFallback": false,
     "status": "available"
   }
 ];
