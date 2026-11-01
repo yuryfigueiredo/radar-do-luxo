@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-bugatti-veyron-grand-sport-e-fer-6635",
+    "slug": "bugatti-veyron-grand-sport-e-ferrari-enzo-os-24-milhoes-de-dolares-que-custaram-a-imunidade-mecanica-de-floyd-mayweather-6632",
+    "title": "Bugatti Veyron Grand Sport e Ferrari Enzo: Os 2,4 Milhões de Dólares que Custaram a Imunidade Mecânica de Floyd Mayweather",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "01 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "A inadimplência implacável cobra seu preço no asfalto quando dois monumentos da engenharia automotiva são confiscados por falha em custódia financeira de US$ 2,4 milhões.",
+    "contentParagraphs": [
+      "O dinheiro recente compra a posse momentânea, mas a matemática do luxo extremo exige liquidez intransigente. Quando a fatura de 2,4 milhões de dólares deixa de ser honrada, o título de propriedade de um monstro em carbo-titânio deixa de ter valor jurídico. A garagem de Las Vegas perde a estabilidade física de duas peças de engenharia pura, enquanto o mercado secundário assiste ao leilão forçado de espécimes intocados.",
+      "O bloco W16 com quatro turbocompressores da Bugatti e a arquitetura V12 derivada da Fórmula 1 da Ferrari Enzo não possuem lealdade aos seus donos. Eles exigem manutenção preventivas de centenas de milhares de dólares, tolerâncias de mícrons calibradas a laser e depósitos fiduciários inegociáveis. Falhar na solvência desses ativos significa apenas que a física e a finança retomam seu equilíbrio natural sobre o asfalto.",
+      "A força G lateral gerada por esses chassis exige aderência  aos pneus Michelin PAX especiais,  e simultaneamente aos contratos que sustentam sua custódia legal. A incapacidade de liquidar uma pendência de US$ 2,4 milhões demonstra a fragilidade de fortunas construídas fora do ecossistema patrimonial dinástico. O silêncio da pista de testes de Ehra-Lessien é ensurdecedor para quem perdeu o direito de comandar 1.001 cavalos de potência.",
+      "No final, o tribunal executa a garantia e os veículos retornam à rota de leilões discretos para colecionadores reais. O ateliê de Molsheim e a fábrica de Maranello não se importam com quem assina o cheque, desde que a transação honre o peso histórico da obra. Apenas a engenharia sobrevive intacta ao calote, enquanto o nome do antigo dono desbota nas planilhas de custódia."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente compra a posse momentânea, mas a matemática do luxo extremo exige liquidez intransigente. Quando a fatura de 2,4 milhões de dólares deixa de ser honrada, o título de propriedade de um monstro em carbo-titânio deixa de ter valor jurídico. A garagem de Las Vegas perde a estabilidade física de duas peças de engenharia pura, enquanto o mercado secundário assiste ao leilão forçado de espécimes intocados.",
+      "O bloco W16 com quatro turbocompressores da Bugatti e a arquitetura V12 derivada da Fórmula 1 da Ferrari Enzo não possuem lealdade aos seus donos. Eles exigem manutenção preventivas de centenas de milhares de dólares, tolerâncias de mícrons calibradas a laser e depósitos fiduciários inegociáveis. Falhar na solvência desses ativos significa apenas que a física e a finança retomam seu equilíbrio natural sobre o asfalto.",
+      "A força G lateral gerada por esses chassis exige aderência  aos pneus Michelin PAX especiais,  e simultaneamente aos contratos que sustentam sua custódia legal. A incapacidade de liquidar uma pendência de US$ 2,4 milhões demonstra a fragilidade de fortunas construídas fora do ecossistema patrimonial dinástico. O silêncio da pista de testes de Ehra-Lessien é ensurdecedor para quem perdeu o direito de comandar 1.001 cavalos de potência.",
+      "No final, o tribunal executa a garantia e os veículos retornam à rota de leilões discretos para colecionadores reais. O ateliê de Molsheim e a fábrica de Maranello não se importam com quem assina o cheque, desde que a transação honre o peso histórico da obra. Apenas a engenharia sobrevive intacta ao calote, enquanto o nome do antigo dono desbota nas planilhas de custódia."
+    ],
+    "specs": {
+      "Chassi Afetado": "Monocoque em fibra de carbono e alumínio aeronáutico",
+      "Motorização Bugatti": "W16 8.0 litros com quatro turbocompressores",
+      "Motorização Ferrari": "V12 aspirado de 6.0 litros com admissão variável",
+      "Valor do Litígio": "US$ 2.400.000,00 em obrigações vencidas",
+      "Destino Jurídico": "Confisco cautelar e leilão judicial de liquidação"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 92,
+    "ranking_score": 92,
+    "publishedAt": "2026-11-01T19:27:56.635Z",
+    "published_at": "2026-11-01T19:27:56.635Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbERwT2VidTFLV2N6N05qMVFObmdHNUNSdnpIRVg2UTByMGNjTkRFNGpIRUoxUVBVVnRWckRMN1pqcXRHYUJyMWVRd2FqQVdxUThacjBiaEs0MUJUeFF3RG0wUWZyT09RTWFoNENBT0tLTVdLNEFUbVg4SGJ0RVVXcWlZRmJqakJG?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbERwT2VidTFLV2N6N05qMVFObmdHNUNSdnpIRVg2UTByMGNjTkRFNGpIRUoxUVBVVnRWckRMN1pqcXRHYUJyMWVRd2FqQVdxUThacjBiaEs0MUJUeFF3RG0wUWZyT09RTWFoNENBT0tLTVdLNEFUbVg4SGJ0RVVXcWlZRmJqakJG?oc=5"
+  },
+  {
     "id": "art-ferrari-montegrappa-o-instrument-4682",
     "slug": "ferrari-montegrappa-o-instrumento-de-escrita-de-us-4300-forjado-com-titanio-aeroespacial-e-tolerancia-de-microns-4679",
     "title": "Ferrari Montegrappa: O Instrumento de Escrita de US$ 4.300 Forjado com Titânio Aeroespacial e Tolerância de Mícrons",
@@ -125,7 +176,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "01 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -154,10 +205,10 @@ export const ARTICLES = [
       "avali_financeiro": "US$ 4.300"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 92,
@@ -1344,58 +1395,6 @@ export const ARTICLES = [
     "published_at": "2026-10-27T22:18:35.419Z",
     "sourceUrl": "https://www.wallpaper.com/architecture/villa-mallorca-clifftop",
     "source_url": "https://www.wallpaper.com/architecture/villa-mallorca-clifftop"
-  },
-  {
-    "id": "art-ferrari-499p-modificata-o-protot-4387",
-    "slug": "ferrari-499p-modificata-o-prototipo-de-endurance-de-870-cv-com-aerodinamica-ativa-em-fibra-de-carbono-e-telemetria-de-maranello-4373",
-    "title": "Ferrari 499P Modificata: O Protótipo de Endurance de 870 cv com Aerodinâmica Ativa em Fibra de Carbono e Telemetria de Maranello",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "27 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "A divisão de competições privadas da Ferrari transfere a aerodinâmica vencedora de Le Mans para as pistas do Asian Le Mans Series com o bólido 499P vestido em libré Cetilar Racing.",
-    "contentParagraphs": [
-      "O asfalto exige precisão absoluta. A telemetria inercial não perdoa hesitações. Sob o influxo aerodinâmico da pintura Cetilar Racing, a Ferrari 499P emerge como um monólito de engenharia cinemática pura nas curvas de alta velocidade. O monocoque em fibra de carbono curado em autoclave suporta cargas extremas sem torção estrutural perceptível. Cada centímetro quadrado da carroçaria foi esculpido em túnel de vento para ditar o fluxo de Venturi do efeito solo.",
-      "Sob a tampa traseira, o motor V6 biturbo de 3 litros trabalha em sinergia simbiótica com o sistema híbrido no eixo dianteiro. A potência combinada atinge 870 cv de fúria mecânica pura. Os discos de freio em carbono-cerâmica dissipam calor brutal gerado por desacelerações de mais de três forças G. O piloto gerencia a entrega de torque por meio de um volante multifuncional derivado diretamente da Fórmula 1, onde cada milissegundo de resposta do acelerador define a linha de tangência perfeita na zebra.",
-      "A suspensão push-rod com amortecedores ajustáveis de quatro vias absorve as ondulações do asfalto com rigidez cirúrgica. A telemetria coleta mais de cem canais de dados por segundo, transmitindo telemetria cifrada diretamente para os engenheiros nos boxes. O escape em Inconel expulsa gases incandescentes que cortam o ar com um urro metálico característico, rompendo a barreira do silêncio nas retas principais das pistas asiáticas.",
-      "Não há concessões ao conforto ou à futilidade digital neste protótipo de endurance. O cockpit minimalista abriga apenas os instrumentos vitais para a sobrevivência a 300 quilômetros por hora. Trata-se de um artefato de competição implacável, construído unicamente para dominar o cronômetro e preservar a herança competitiva do Cavallino Rampante nas pistas mais exigentes do planeta."
-    ],
-    "content_paragraphs": [
-      "O asfalto exige precisão absoluta. A telemetria inercial não perdoa hesitações. Sob o influxo aerodinâmico da pintura Cetilar Racing, a Ferrari 499P emerge como um monólito de engenharia cinemática pura nas curvas de alta velocidade. O monocoque em fibra de carbono curado em autoclave suporta cargas extremas sem torção estrutural perceptível. Cada centímetro quadrado da carroçaria foi esculpido em túnel de vento para ditar o fluxo de Venturi do efeito solo.",
-      "Sob a tampa traseira, o motor V6 biturbo de 3 litros trabalha em sinergia simbiótica com o sistema híbrido no eixo dianteiro. A potência combinada atinge 870 cv de fúria mecânica pura. Os discos de freio em carbono-cerâmica dissipam calor brutal gerado por desacelerações de mais de três forças G. O piloto gerencia a entrega de torque por meio de um volante multifuncional derivado diretamente da Fórmula 1, onde cada milissegundo de resposta do acelerador define a linha de tangência perfeita na zebra.",
-      "A suspensão push-rod com amortecedores ajustáveis de quatro vias absorve as ondulações do asfalto com rigidez cirúrgica. A telemetria coleta mais de cem canais de dados por segundo, transmitindo telemetria cifrada diretamente para os engenheiros nos boxes. O escape em Inconel expulsa gases incandescentes que cortam o ar com um urro metálico característico, rompendo a barreira do silêncio nas retas principais das pistas asiáticas.",
-      "Não há concessões ao conforto ou à futilidade digital neste protótipo de endurance. O cockpit minimalista abriga apenas os instrumentos vitais para a sobrevivência a 300 quilômetros por hora. Trata-se de um artefato de competição implacável, construído unicamente para dominar o cronômetro e preservar a herança competitiva do Cavallino Rampante nas pistas mais exigentes do planeta."
-    ],
-    "specs": {
-      "motorizacao": "V6 biturbo 3.0L + Sistema Híbrido",
-      "potencia_total": "870 cv",
-      "chassi": "Monocoque em fibra de carbono e favo de mel de alumínio",
-      "transmissao": "Sequencial transversal de 7 marchas operada por borboletas",
-      "sistema_de_freios": "Discos ventilados em carbono-cerâmica com controle by-wire",
-      "peso_a_seco": "1.030 kg"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 92,
-    "ranking_score": 92,
-    "publishedAt": "2026-10-27T20:20:44.387Z",
-    "published_at": "2026-10-27T20:20:44.387Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbDVwSndmLUs5cjQ0MFJDckkwVW5hMElkZlVNUWE3UGpPbV9hVUE2a0RaQVhjd0YwUDJwTzNNZGZ4VU1rRHJ1RlNES0I5emd0VGV4WDV2NkRjSmNodTZENVVzMjhDdFgyV0JlRUE5ZDVYQjZnN2F3UldnbU1xVlFmM0QtVUFEMlIzTDRDSzVnTWdsTnFfTi0zYUliUjhLQVdTSHBXcmFQZFlsZG1S?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbDVwSndmLUs5cjQ0MFJDckkwVW5hMElkZlVNUWE3UGpPbV9hVUE2a0RaQVhjd0YwUDJwTzNNZGZ4VU1rRHJ1RlNES0I5emd0VGV4WDV2NkRjSmNodTZENVVzMjhDdFgyV0JlRUE5ZDVYQjZnN2F3UldnbU1xVlFmM0QtVUFEMlIzTDRDSzVnTWdsTnFfTi0zYUliUjhLQVdTSHBXcmFQZFlsZG1S?oc=5"
   }
 ];
 
@@ -1403,13 +1402,21 @@ export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
     "category": "RELOGIOS",
+    "title": "F.P. Journe Chronomètre Bleu: A Rara C...",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "fp-journe-chronometre-bleu-a-rara-caixa-de-tantalo-de-ponto-de-fusao-a-3000c-que-valorizou-400-no-mercado-secundario-9369"
+  },
+  {
+    "id": "film-2",
+    "category": "RELOGIOS",
     "title": "A. Lange & Söhne Datograph Honeygold L...",
     "image": "/images/a-lange-datograph-honeygold-lumen.jpg",
     "tag": "CURADORIA RADAR",
     "slug": "a-lange-sohne-datograph-honeygold-lumen-a-obra-prima-saxonica-de-516-componentes-sob-safira-fosforescente-9075"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "ARQUITETURA",
     "title": "Sheats-Goldstein Residence: A Fortalez...",
     "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=80&w=1400",
@@ -1417,7 +1424,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "sheats-goldstein-residence-a-fortaleza-brutalista-de-concreto-angular-com-750-oculos-de-vidro-engastados-na-laje-4302"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "RELOGIOS",
     "title": "Rexhep Rexhepi Chronomètre Contemporai...",
     "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=max&q=80&w=1400",
@@ -1425,7 +1432,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "rexhep-rexhepi-chronometre-contemporain-ii-o-atelie-independente-de-genebra-com-lista-de-espera-de-7-anos-e-chanfro-manual-absoluto-9736"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "ESTILO",
     "title": "Hermès Faubourg: O Ateliê Secreto em P...",
     "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=max&q=80&w=1400",
@@ -1433,20 +1440,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "hermes-faubourg-o-atelie-secreto-em-paris-onde-30-mestres-costuram-selas-em-couro-barenia-sob-linho-encerado-a-mao-desde-1837-3331"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Ferrari E-Building: O Monstro Elétrico...",
     "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "ferrari-e-building-o-monstro-eletrico-de-us-560800-que-desafia-os-v12-aspirados-com-celulas-de-ion-litio-montadas-em-maranello-8425"
-  },
-  {
-    "id": "film-6",
-    "category": "RELOGIOS",
-    "title": "Patek Philippe de Joe DiMaggio: O Cale...",
-    "image": "https://robbreport.com/wp-content/uploads/2026/10/joe-dimaggio-patek-phillipe-watch.jpg",
-    "tag": "CURADORIA RADAR",
-    "slug": "patek-philippe-de-joe-dimaggio-o-calendario-perpetuo-em-ouro-amarelo-de-1957-que-exige-12-milhao-de-dolares-em-custodia-fiduciaria-1969"
   }
 ];
 

@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-bugatti-veyron-grand-sport-e-fer-6635",
+    "slug": "bugatti-veyron-grand-sport-e-ferrari-enzo-os-24-milhoes-de-dolares-que-custaram-a-imunidade-mecanica-de-floyd-mayweather-6632",
+    "title": "Bugatti Veyron Grand Sport e Ferrari Enzo: Os 2,4 Milhões de Dólares que Custaram a Imunidade Mecânica de Floyd Mayweather",
+    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbERwT2VidTFLV2N6N05qMVFObmdHNUNSdnpIRVg2UTByMGNjTkRFNGpIRUoxUVBVVnRWckRMN1pqcXRHYUJyMWVRd2FqQVdxUThacjBiaEs0MUJUeFF3RG0wUWZyT09RTWFoNENBT0tLTVdLNEFUbVg4SGJ0RVVXcWlZRmJqakJG?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-01T19:27:56.635Z"
+  },
+  {
     "id": "art-ferrari-montegrappa-o-instrument-4682",
     "slug": "ferrari-montegrappa-o-instrumento-de-escrita-de-us-4300-forjado-com-titanio-aeroespacial-e-tolerancia-de-microns-4679",
     "title": "Ferrari Montegrappa: O Instrumento de Escrita de US$ 4.300 Forjado com Titânio Aeroespacial e Tolerância de Mícrons",
