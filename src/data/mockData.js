@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-ferrari-montegrappa-o-instrument-4682",
+    "slug": "ferrari-montegrappa-o-instrumento-de-escrita-de-us-4300-forjado-com-titanio-aeroespacial-e-tolerancia-de-microns-4679",
+    "title": "Ferrari Montegrappa: O Instrumento de Escrita de US$ 4.300 Forjado com Titânio Aeroespacial e Tolerância de Mícrons",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "01 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "A divisão de Maranello traduz a brutalidade cinética dos motores de combustão interna em um objeto de precisão caligráfica, unindo o metal Inconel e a rigidez do carbo-titânio.",
+    "contentParagraphs": [
+      "A aerodinâmica não reside apenas nos túneis de vento que moldam o efeito solo de um protótipo em Fiorano. Ela agora habita a ponta de uma pena-tinteiro de US$ 4.300. Gabriel Fontes analisa o novo instrumento de escrita assinado pela Ferrari em parceria com a Montegrappa, onde cada curva do corpo metálico ecoa a gestão térmica de escapamentos expostos a oitocentos graus Celsius.",
+      "O monocoque em carbo-titânio curado em autoclave a seis bar cede lugar a um tambor fresado com precisão micrônica, exigindo horas de usinagem CNC de cinco eixos para replicar a rigidez estrutural encontrada nos braços de suspensão dos bólidos de Maranello. A tinta flui por canais internos calibrados milimetricamente para resistir à força G lateral, enquanto o aparato em ouro maciço recebe banho de rutênio escuro.",
+      "Em uma era de telas táteis reluzentes destinadas ao descarte em cinco anos, traçar símbolos no papel com um objeto maciço de cento e dezoito gramas é um manifesto tátil. A ergonomia do grip foi calculada para distribuir o peso exatamente sobre o primeiro metacarpo, eliminando a fadiga durante a assinatura de contratos de custódia fiduciária de ativos intangíveis.",
+      "A tiragem limitada a poucas centenas de unidades garante a imunidade temporal deste bloco metálico. Não se trata de um mero artigo de papelaria, mas de uma extensão do tacômetro analógico, um prolongamento físico da adrenalina contida nos doze cilindros em V que rugem às margens do Rio Po."
+    ],
+    "content_paragraphs": [
+      "A aerodinâmica não reside apenas nos túneis de vento que moldam o efeito solo de um protótipo em Fiorano. Ela agora habita a ponta de uma pena-tinteiro de US$ 4.300. Gabriel Fontes analisa o novo instrumento de escrita assinado pela Ferrari em parceria com a Montegrappa, onde cada curva do corpo metálico ecoa a gestão térmica de escapamentos expostos a oitocentos graus Celsius.",
+      "O monocoque em carbo-titânio curado em autoclave a seis bar cede lugar a um tambor fresado com precisão micrônica, exigindo horas de usinagem CNC de cinco eixos para replicar a rigidez estrutural encontrada nos braços de suspensão dos bólidos de Maranello. A tinta flui por canais internos calibrados milimetricamente para resistir à força G lateral, enquanto o aparato em ouro maciço recebe banho de rutênio escuro.",
+      "Em uma era de telas táteis reluzentes destinadas ao descarte em cinco anos, traçar símbolos no papel com um objeto maciço de cento e dezoito gramas é um manifesto tátil. A ergonomia do grip foi calculada para distribuir o peso exatamente sobre o primeiro metacarpo, eliminando a fadiga durante a assinatura de contratos de custódia fiduciária de ativos intangíveis.",
+      "A tiragem limitada a poucas centenas de unidades garante a imunidade temporal deste bloco metálico. Não se trata de um mero artigo de papelaria, mas de uma extensão do tacômetro analógico, um prolongamento físico da adrenalina contida nos doze cilindros em V que rugem às margens do Rio Po."
+    ],
+    "specs": {
+      "material_principal": "Titânio aeroespacial e carbo-titânio",
+      "peso_total": "118 gramas",
+      "sistema_de_alimentação": "Pistão integrado de alta capacidade",
+      "aparato": "Ouro maciço 18k com revestimento em rutênio",
+      "tiragem_global": "Edição limitada numérica",
+      "avali_financeiro": "US$ 4.300"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 92,
+    "ranking_score": 92,
+    "publishedAt": "2026-11-01T16:47:24.682Z",
+    "published_at": "2026-11-01T16:47:24.682Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPT0p0UlZITnJoVTMyNXZ6cmNaUjhVSE50a2RKQzcxLVZ5NDF1SnhYdlFhaUtyMEpLd3lhTWJ2di1DRUZlZ01OcWlpSEwtbmNYRF9kbVJIcHhRQnY5blptOXA5XzRMV0xJenM0V1VlVDlNNVRFLTRCQUtfQXdveVVBZEw5OHNJcFBEbFBILVpYTzNIWmdIblByMUFFa0NaSTRxcExHTFRnZ0xoRlhOc1VHTnJGUXB6SEVVZGZn?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPT0p0UlZITnJoVTMyNXZ6cmNaUjhVSE50a2RKQzcxLVZ5NDF1SnhYdlFhaUtyMEpLd3lhTWJ2di1DRUZlZ01OcWlpSEwtbmNYRF9kbVJIcHhRQnY5blptOXA5XzRMV0xJenM0V1VlVDlNNVRFLTRCQUtfQXdveVVBZEw5OHNJcFBEbFBILVpYTzNIWmdIblByMUFFa0NaSTRxcExHTFRnZ0xoRlhOc1VHTnJGUXB6SEVVZGZn?oc=5"
+  },
+  {
     "id": "art-louis-erard-x-vianney-halter-fut-2299",
     "slug": "louis-erard-x-vianney-halter-futur-anterieur-a-obra-prima-de-99-exemplares-com-caixas-soldadas-a-mao-e-mostradores-graficos-estilo-antiqua-2287",
     "title": "Louis Erard x Vianney Halter Futur Antérieur: A Obra-Prima de 99 Exemplares com Caixas Soldadas à Mão e Mostradores Gráficos Estilo Antiqua",
@@ -176,7 +228,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "31 de outubro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -204,10 +256,10 @@ export const ARTICLES = [
       "Instância Legal": "Tribunal Marítimo Local"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 90,
@@ -1344,65 +1396,20 @@ export const ARTICLES = [
     "published_at": "2026-10-27T20:20:44.387Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbDVwSndmLUs5cjQ0MFJDckkwVW5hMElkZlVNUWE3UGpPbV9hVUE2a0RaQVhjd0YwUDJwTzNNZGZ4VU1rRHJ1RlNES0I5emd0VGV4WDV2NkRjSmNodTZENVVzMjhDdFgyV0JlRUE5ZDVYQjZnN2F3UldnbU1xVlFmM0QtVUFEMlIzTDRDSzVnTWdsTnFfTi0zYUliUjhLQVdTSHBXcmFQZFlsZG1S?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbDVwSndmLUs5cjQ0MFJDckkwVW5hMElkZlVNUWE3UGpPbV9hVUE2a0RaQVhjd0YwUDJwTzNNZGZ4VU1rRHJ1RlNES0I5emd0VGV4WDV2NkRjSmNodTZENVVzMjhDdFgyV0JlRUE5ZDVYQjZnN2F3UldnbU1xVlFmM0QtVUFEMlIzTDRDSzVnTWdsTnFfTi0zYUliUjhLQVdTSHBXcmFQZFlsZG1S?oc=5"
-  },
-  {
-    "id": "art-atelier-mephalie-a-repeticao-de--5105",
-    "slug": "atelier-mephalie-a-repeticao-de-minutos-com-gongos-acusticos-manuais-e-acabamento-em-anglage-de-alta-relojoaria-5090",
-    "title": "Atelier Mephalie: A Repetição de Minutos com Gongos Acústicos Manuais e Acabamento em Anglage de Alta Relojoaria",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "category_slug": "relogios",
-    "authorSlug": "clara-meirelles",
-    "author_slug": "clara-meirelles",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "27 de outubro de 2026",
-    "readTime": "6 min de leitura",
-    "read_time": "6 min de leitura",
-    "image": "https://monochrome-watches.com/app/uploads/2026/10/Chinese-Brand-Atelier-Mephalie-Minute-Repeater-Collection-Accessible-5.jpg",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A independência radical desafia a Suíça tradicional. Um mecanismo de repetição sonora esculpido à mão desafia décadas de hegemonia alpina com pureza acústica e precisão geométrica.",
-    "contentParagraphs": [
-      "O tempo possui som na Vallée de Joux. Na quietude gélida dos ateliês independentes, o silêncio é quebrado apenas pelo atrito sutil do aço contra a pedra de amolar. Atelier Mephalie entrega uma obra-prima mecânica que desafia os cânones estabelecidos. Cada componente deste relógio nasce de um bloco bruto de metal. A matéria-prima dita a cadência do ateliê. As mãos dos mestres relojoeiros moldam a engrenagem com paciência ancestral.",
-      "O calibre de manufatura abriga uma complicação venerável. A repetição de minutos exige uma sinfonia de martelos e gongos de aço temperado. O som reverbera com uma sonoridade cristalina em Sol sustenido. Não há espaço para tolerâncias imperfeitas. Cada anglage recebe o polimento com pasta de diamante e sabugueiro silvestre. A luz reflete nas chanfraduras internas com exatidão matemática, revelando a alma do movimento.",
-      "A relojoaria independente vive uma era de redefinição de fronteiras. Historicamente restrita aos vales suíços, a alta complexidade mecânica encontra novos guardiões em latitudes improváveis. A manufactura descentraliza o saber sem abdicar da rigorosa tradição genebrina. O mostrador limpo expõe a arquitetura interna sem artifícios desnecessários. A caixa em ouro branco de 18 quilates protege a estrutura com discrição absoluta.",
-      "O uso do esmalte Grand Feu no mostrador exige temperaturas superiores a 800 graus Celsius. O risco de fratura na placa vitrificada testa a resiliência do artesão. Apenas os exemplares que superam o controle térmico chegam à montagem final. O resultado exibe uma superfície lisa e perene. O tempo mecânico funde-se à arte decorativa clássica, criando um diálogo silencioso entre o pulso e o instrumento.",
-      "A posse de um relógio desta magnitude transcende a mera utilidade diária. Trata-se de custódia fiduciária de uma tradição mecânica secular. Atelier Mephalie prova que a verdadeira excelência relojoeira pertence àqueles que dominam o tempo através do silêncio e da geometria. A peça consolida-se como um marco na relojoaria independente contemporânea, redefinindo o valor real da Alta Horlogerie."
-    ],
-    "content_paragraphs": [
-      "O tempo possui som na Vallée de Joux. Na quietude gélida dos ateliês independentes, o silêncio é quebrado apenas pelo atrito sutil do aço contra a pedra de amolar. Atelier Mephalie entrega uma obra-prima mecânica que desafia os cânones estabelecidos. Cada componente deste relógio nasce de um bloco bruto de metal. A matéria-prima dita a cadência do ateliê. As mãos dos mestres relojoeiros moldam a engrenagem com paciência ancestral.",
-      "O calibre de manufatura abriga uma complicação venerável. A repetição de minutos exige uma sinfonia de martelos e gongos de aço temperado. O som reverbera com uma sonoridade cristalina em Sol sustenido. Não há espaço para tolerâncias imperfeitas. Cada anglage recebe o polimento com pasta de diamante e sabugueiro silvestre. A luz reflete nas chanfraduras internas com exatidão matemática, revelando a alma do movimento.",
-      "A relojoaria independente vive uma era de redefinição de fronteiras. Historicamente restrita aos vales suíços, a alta complexidade mecânica encontra novos guardiões em latitudes improváveis. A manufactura descentraliza o saber sem abdicar da rigorosa tradição genebrina. O mostrador limpo expõe a arquitetura interna sem artifícios desnecessários. A caixa em ouro branco de 18 quilates protege a estrutura com discrição absoluta.",
-      "O uso do esmalte Grand Feu no mostrador exige temperaturas superiores a 800 graus Celsius. O risco de fratura na placa vitrificada testa a resiliência do artesão. Apenas os exemplares que superam o controle térmico chegam à montagem final. O resultado exibe uma superfície lisa e perene. O tempo mecânico funde-se à arte decorativa clássica, criando um diálogo silencioso entre o pulso e o instrumento.",
-      "A posse de um relógio desta magnitude transcende a mera utilidade diária. Trata-se de custódia fiduciária de uma tradição mecânica secular. Atelier Mephalie prova que a verdadeira excelência relojoeira pertence àqueles que dominam o tempo através do silêncio e da geometria. A peça consolida-se como um marco na relojoaria independente contemporânea, redefinindo o valor real da Alta Horlogerie."
-    ],
-    "specs": {
-      "calibre": "Movimento mecânico de corda manual com repetição de minutos",
-      "gongos": "Gongos acústicos ajustados manualmente em tonalidade harmônica",
-      "acabamento": "Anglage manual, pontes chanfradas e polimento com sabugueiro",
-      "tiragem": "Edição limitada a 8 exemplares numerados globalmente",
-      "avaliado": "Sob consulta estrita de custódia patrimonial"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 91,
-    "ranking_score": 91,
-    "publishedAt": "2026-10-27T19:51:35.105Z",
-    "published_at": "2026-10-27T19:51:35.105Z",
-    "sourceUrl": "https://monochrome-watches.com/introducing-chinese-brand-atelier-mephalie-launches-its-minute-repeater-collection-priced-to-a-tenth-of-what-europe-does/",
-    "source_url": "https://monochrome-watches.com/introducing-chinese-brand-atelier-mephalie-launches-its-minute-repeater-collection-priced-to-a-tenth-of-what-europe-does/"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "RELOGIOS",
+    "title": "A. Lange & Söhne Datograph Honeygold L...",
+    "image": "/images/a-lange-datograph-honeygold-lumen.jpg",
+    "tag": "CURADORIA RADAR",
+    "slug": "a-lange-sohne-datograph-honeygold-lumen-a-obra-prima-saxonica-de-516-componentes-sob-safira-fosforescente-9075"
+  },
+  {
+    "id": "film-2",
     "category": "ARQUITETURA",
     "title": "Sheats-Goldstein Residence: A Fortalez...",
     "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=80&w=1400",
@@ -1410,7 +1417,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "sheats-goldstein-residence-a-fortaleza-brutalista-de-concreto-angular-com-750-oculos-de-vidro-engastados-na-laje-4302"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "RELOGIOS",
     "title": "Rexhep Rexhepi Chronomètre Contemporai...",
     "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=max&q=80&w=1400",
@@ -1418,7 +1425,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "rexhep-rexhepi-chronometre-contemporain-ii-o-atelie-independente-de-genebra-com-lista-de-espera-de-7-anos-e-chanfro-manual-absoluto-9736"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "ESTILO",
     "title": "Hermès Faubourg: O Ateliê Secreto em P...",
     "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=max&q=80&w=1400",
@@ -1426,7 +1433,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "hermes-faubourg-o-atelie-secreto-em-paris-onde-30-mestres-costuram-selas-em-couro-barenia-sob-linho-encerado-a-mao-desde-1837-3331"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Ferrari E-Building: O Monstro Elétrico...",
     "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
@@ -1434,20 +1441,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-e-building-o-monstro-eletrico-de-us-560800-que-desafia-os-v12-aspirados-com-celulas-de-ion-litio-montadas-em-maranello-8425"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "RELOGIOS",
     "title": "Patek Philippe de Joe DiMaggio: O Cale...",
     "image": "https://robbreport.com/wp-content/uploads/2026/10/joe-dimaggio-patek-phillipe-watch.jpg",
     "tag": "CURADORIA RADAR",
     "slug": "patek-philippe-de-joe-dimaggio-o-calendario-perpetuo-em-ouro-amarelo-de-1957-que-exige-12-milhao-de-dolares-em-custodia-fiduciaria-1969"
-  },
-  {
-    "id": "film-6",
-    "category": "ARQUITETURA",
-    "title": "Villa sa Caleta: A Laje Monolítica de ...",
-    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "villa-sa-caleta-a-laje-monolitica-de-concreto-e-travertino-de-38-milhoes-que-suspende-o-tempo-sobre-as-baleares-5403"
   }
 ];
 

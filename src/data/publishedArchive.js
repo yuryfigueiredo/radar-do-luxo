@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-ferrari-montegrappa-o-instrument-4682",
+    "slug": "ferrari-montegrappa-o-instrumento-de-escrita-de-us-4300-forjado-com-titanio-aeroespacial-e-tolerancia-de-microns-4679",
+    "title": "Ferrari Montegrappa: O Instrumento de Escrita de US$ 4.300 Forjado com Titânio Aeroespacial e Tolerância de Mícrons",
+    "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPT0p0UlZITnJoVTMyNXZ6cmNaUjhVSE50a2RKQzcxLVZ5NDF1SnhYdlFhaUtyMEpLd3lhTWJ2di1DRUZlZ01OcWlpSEwtbmNYRF9kbVJIcHhRQnY5blptOXA5XzRMV0xJenM0V1VlVDlNNVRFLTRCQUtfQXdveVVBZEw5OHNJcFBEbFBILVpYTzNIWmdIblByMUFFa0NaSTRxcExHTFRnZ0xoRlhOc1VHTnJGUXB6SEVVZGZn?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-01T16:47:24.682Z"
+  },
+  {
     "id": "art-louis-erard-x-vianney-halter-fut-2299",
     "slug": "louis-erard-x-vianney-halter-futur-anterieur-a-obra-prima-de-99-exemplares-com-caixas-soldadas-a-mao-e-mostradores-graficos-estilo-antiqua-2287",
     "title": "Louis Erard x Vianney Halter Futur Antérieur: A Obra-Prima de 99 Exemplares com Caixas Soldadas à Mão e Mostradores Gráficos Estilo Antiqua",
