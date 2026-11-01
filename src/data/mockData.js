@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-ferrari-spa-a-soberania-de-177-b-3626",
+    "slug": "ferrari-spa-a-soberania-de-177-bilhoes-de-dolares-forjada-em-ligas-de-inconel-e-forca-g-lateral-3606",
+    "title": "Ferrari S.p.A.: A Soberania de 17,7 Bilhões de Dólares Forjada em Ligas de Inconel e Força G Lateral",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "01 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "A valorização de 14% no portfolio de Maranello não decorre da inflação financeira, mas da precisão inegociável de tolerâncias em mícrons e motores aspirados a 9.000 RPM.",
+    "contentParagraphs": [
+      "O mercado global consome ruído digital. Maranello entrega silêncio operacional e blocos térmicos fundidos com a precisão de um cirurgião cardíaco. A recente ascensão patrimonial que elevou o valuation da marca a 17,7 bilhões de dólares em 2026 comprova uma tese imutável. O dinheiro recente busca holofotes. A aristocracia industrial busca o monocoque em carbo-titânio curado em autoclave a 6 bar.",
+      "Cada linha de Maranello obedece a uma geometria implacável. Os fluxos de Venturi geram downforce brutal sem recorrer a apêndices aerodinâmicos espalhafatosos. A força G lateral exercida nas curvas de alta velocidade esmaga as costelas do piloto enquanto a telemetria inercial registra cada microvariação no asfalto. O escape em Inconel 625 incandesce sob cargas extremas, cantando a liturgia mecânica que os propulsores elétricos jamais conseguirão sintetizar.",
+      "Enquanto conglomerados automotivos entregam utilitários descartáveis baseados em atualizações de software nuvem, a escassez matemática de Maranello dita a lei da oferta. As listas de espera ultrapassam lustros inteiros. Os clientes não compram um meio de transporte. Adquirem um refúgio de liquidez tangível, blindado contra a obsolescência programada e ancorado na tradição intransigente da pista de Fiorano.",
+      "A marca de Maranello venceu porque recusou a mediocridade conveniente. Em uma era de telas táteis reluzentes destinadas ao lixo eletrônico, segurar um volante esculpido em fibra e acionar um V12 aspirado é o último ato de verdadeira rebeldia humana. Os bilhões de dólares refletem apenas o saldo contábil desta soberania mecânica absoluta."
+    ],
+    "content_paragraphs": [
+      "O mercado global consome ruído digital. Maranello entrega silêncio operacional e blocos térmicos fundidos com a precisão de um cirurgião cardíaco. A recente ascensão patrimonial que elevou o valuation da marca a 17,7 bilhões de dólares em 2026 comprova uma tese imutável. O dinheiro recente busca holofotes. A aristocracia industrial busca o monocoque em carbo-titânio curado em autoclave a 6 bar.",
+      "Cada linha de Maranello obedece a uma geometria implacável. Os fluxos de Venturi geram downforce brutal sem recorrer a apêndices aerodinâmicos espalhafatosos. A força G lateral exercida nas curvas de alta velocidade esmaga as costelas do piloto enquanto a telemetria inercial registra cada microvariação no asfalto. O escape em Inconel 625 incandesce sob cargas extremas, cantando a liturgia mecânica que os propulsores elétricos jamais conseguirão sintetizar.",
+      "Enquanto conglomerados automotivos entregam utilitários descartáveis baseados em atualizações de software nuvem, a escassez matemática de Maranello dita a lei da oferta. As listas de espera ultrapassam lustros inteiros. Os clientes não compram um meio de transporte. Adquirem um refúgio de liquidez tangível, blindado contra a obsolescência programada e ancorado na tradição intransigente da pista de Fiorano.",
+      "A marca de Maranello venceu porque recusou a mediocridade conveniente. Em uma era de telas táteis reluzentes destinadas ao lixo eletrônico, segurar um volante esculpido em fibra e acionar um V12 aspirado é o último ato de verdadeira rebeldia humana. Os bilhões de dólares refletem apenas o saldo contábil desta soberania mecânica absoluta."
+    ],
+    "specs": {
+      "valuation_2026": "US$ 17,7 bilhões (+14%)",
+      "tolerancia_chassi": "Abaixo de 5 mícrons",
+      "material_escape": "Inconel 625 de grau aeroespacial",
+      "pressao_autoclave": "6 bar em cura de carbo-titânio",
+      "limite_rotacional": "9.000 RPM no eixo dinâmico"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 94,
+    "ranking_score": 94,
+    "publishedAt": "2026-11-01T22:35:53.626Z",
+    "published_at": "2026-11-01T22:35:53.626Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYnhVU1lzalVCZ0Q2cVVsZlFHdGpJOTdLLXlHMW5ucGVyc0xjVEZEcFI2WThqWXFwUTdHUkFBQjVoNWRueHNlS2p1Q0RVTDM2RjJxbFk1WG1mekJQaklSc0NLVlFtSEpYUS1XWEpEdzlVTzdLYUJVUklON2x4c1ZmTGM4V01xNUE1MmV2SUZR?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYnhVU1lzalVCZ0Q2cVVsZlFHdGpJOTdLLXlHMW5ucGVyc0xjVEZEcFI2WThqWXFwUTdHUkFBQjVoNWRueHNlS2p1Q0RVTDM2RjJxbFk1WG1mekJQaklSc0NLVlFtSEpYUS1XWEpEdzlVTzdLYUJVUklON2x4c1ZmTGM4V01xNUE1MmV2SUZR?oc=5"
+  },
+  {
     "id": "art-bugatti-veyron-grand-sport-e-fer-6635",
     "slug": "bugatti-veyron-grand-sport-e-ferrari-enzo-os-24-milhoes-de-dolares-que-custaram-a-imunidade-mecanica-de-floyd-mayweather-6632",
     "title": "Bugatti Veyron Grand Sport e Ferrari Enzo: Os 2,4 Milhões de Dólares que Custaram a Imunidade Mecânica de Floyd Mayweather",
@@ -125,7 +176,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "01 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -153,10 +204,10 @@ export const ARTICLES = [
       "Destino Jurídico": "Confisco cautelar e leilão judicial de liquidação"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 92,
@@ -1344,63 +1395,20 @@ export const ARTICLES = [
     "published_at": "2026-10-27T22:45:01.985Z",
     "sourceUrl": "https://robbreport.com/style/watch-collector/joe-dimaggio-patek-philippe-watch-sale-1238794923/",
     "source_url": "https://robbreport.com/style/watch-collector/joe-dimaggio-patek-philippe-watch-sale-1238794923/"
-  },
-  {
-    "id": "art-villa-sa-caleta-a-laje-monolitic-5419",
-    "slug": "villa-sa-caleta-a-laje-monolitica-de-concreto-e-travertino-de-38-milhoes-que-suspende-o-tempo-sobre-as-baleares-5403",
-    "title": "Villa sa Caleta: A Laje Monolítica de Concreto e Travertino de € 38 Milhões que Suspende o Tempo sobre as Baleares",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "27 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A soberania patrimonial encontra seu refúgio definitivo na imensidão calcária de Maiorca, onde uma estrutura de 45 metros desafia a gravidade mediterrânea.",
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Na costa escarpada de Maiorca, a arquitetura deixa de ser abrigo para se converter em refúgio de liquidez tangível. A Villa sa Caleta ergue-se como um monólito inexpugnável. Cada metro quadrado desta estrutura de € 38 milhões foi concebido para imunizar o capital contra as volatilidades macroeconômicas globais.",
-      "A engenharia civil aqui dialoga diretamente com a geologia balear. O projeto suspende uma laje de 45 metros sobre o abismo turquesa, utilizando concreto aparente de cura lenta e blocos maciços de travertino romano Navona. Brises em teca envelhecida filtram a luz implacável do sol de verão, enquanto pátios internos sombreados por oliveiras centenárias estabilizam a temperatura térmica interna sem recorrer a artifícios mecânicos grosseiros.",
-      "Esta residência não visa o consumo efêmero. Ela estabelece uma custódia fiduciária sobre a paisagem, garantindo herdeiros e fundações familiares contra a obsolescência estética. A opulência se manifesta na ausência absoluta de ornamentos redundantes, priorizando a espessura das paredes de pedra e a acústica perfeita gerada pelo choque do mar contra a base rochosa da falésia.",
-      "A arquitetura brutalista encontra sua face mais nobre quando ancorada na eternidade da pedra. Vinte metros acima das ondas, a morada permanece impassível, testemunha silenciosa de dinastias que entendem o verdadeiro significado de possuir o espaço e o tempo."
-    ],
-    "content_paragraphs": [
-      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Na costa escarpada de Maiorca, a arquitetura deixa de ser abrigo para se converter em refúgio de liquidez tangível. A Villa sa Caleta ergue-se como um monólito inexpugnável. Cada metro quadrado desta estrutura de € 38 milhões foi concebido para imunizar o capital contra as volatilidades macroeconômicas globais.",
-      "A engenharia civil aqui dialoga diretamente com a geologia balear. O projeto suspende uma laje de 45 metros sobre o abismo turquesa, utilizando concreto aparente de cura lenta e blocos maciços de travertino romano Navona. Brises em teca envelhecida filtram a luz implacável do sol de verão, enquanto pátios internos sombreados por oliveiras centenárias estabilizam a temperatura térmica interna sem recorrer a artifícios mecânicos grosseiros.",
-      "Esta residência não visa o consumo efêmero. Ela estabelece uma custódia fiduciária sobre a paisagem, garantindo herdeiros e fundações familiares contra a obsolescência estética. A opulência se manifesta na ausência absoluta de ornamentos redundantes, priorizando a espessura das paredes de pedra e a acústica perfeita gerada pelo choque do mar contra a base rochosa da falésia.",
-      "A arquitetura brutalista encontra sua face mais nobre quando ancorada na eternidade da pedra. Vinte metros acima das ondas, a morada permanece impassível, testemunha silenciosa de dinastias que entendem o verdadeiro significado de possuir o espaço e o tempo."
-    ],
-    "specs": {
-      "Avaliação Patrimonial": "€ 38 Milhões",
-      "Estrutura Principal": "Laje monolítica de 45 metros em concreto aparente e travertino romano",
-      "Materialidade": "Teca envelhecida, aço estrutural galvanizado e pedra calcária balear",
-      "Paisagismo": "Ciprestes e oliveiras centenárias em encosta protegida",
-      "Jurisdição/Localização": "Falésia de Sa Caleta, Maiorca, Ilhas Baleares"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 95,
-    "ranking_score": 95,
-    "publishedAt": "2026-10-27T22:18:35.419Z",
-    "published_at": "2026-10-27T22:18:35.419Z",
-    "sourceUrl": "https://www.wallpaper.com/architecture/villa-mallorca-clifftop",
-    "source_url": "https://www.wallpaper.com/architecture/villa-mallorca-clifftop"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "SUPERCARROS",
+    "title": "Ferrari S.p.A.: O Marco Histórico de 2...",
+    "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800",
+    "tag": "CURADORIA RADAR",
+    "slug": "ferrari-spa-o-marco-historico-de-20-bilhoes-de-dolares-que-sustenta-sua-soberania-em-maranello-8634"
+  },
+  {
+    "id": "film-2",
     "category": "RELOGIOS",
     "title": "F.P. Journe Chronomètre Bleu: A Rara C...",
     "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=max&q=80&w=1400",
@@ -1408,7 +1416,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "fp-journe-chronometre-bleu-a-rara-caixa-de-tantalo-de-ponto-de-fusao-a-3000c-que-valorizou-400-no-mercado-secundario-9369"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "RELOGIOS",
     "title": "A. Lange & Söhne Datograph Honeygold L...",
     "image": "/images/a-lange-datograph-honeygold-lumen.jpg",
@@ -1416,7 +1424,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "a-lange-sohne-datograph-honeygold-lumen-a-obra-prima-saxonica-de-516-componentes-sob-safira-fosforescente-9075"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "ARQUITETURA",
     "title": "Sheats-Goldstein Residence: A Fortalez...",
     "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=80&w=1400",
@@ -1424,7 +1432,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "sheats-goldstein-residence-a-fortaleza-brutalista-de-concreto-angular-com-750-oculos-de-vidro-engastados-na-laje-4302"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "RELOGIOS",
     "title": "Rexhep Rexhepi Chronomètre Contemporai...",
     "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=max&q=80&w=1400",
@@ -1432,20 +1440,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "rexhep-rexhepi-chronometre-contemporain-ii-o-atelie-independente-de-genebra-com-lista-de-espera-de-7-anos-e-chanfro-manual-absoluto-9736"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "ESTILO",
     "title": "Hermès Faubourg: O Ateliê Secreto em P...",
     "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "hermes-faubourg-o-atelie-secreto-em-paris-onde-30-mestres-costuram-selas-em-couro-barenia-sob-linho-encerado-a-mao-desde-1837-3331"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Ferrari E-Building: O Monstro Elétrico...",
-    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "ferrari-e-building-o-monstro-eletrico-de-us-560800-que-desafia-os-v12-aspirados-com-celulas-de-ion-litio-montadas-em-maranello-8425"
   }
 ];
 

@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-ferrari-spa-a-soberania-de-177-b-3626",
+    "slug": "ferrari-spa-a-soberania-de-177-bilhoes-de-dolares-forjada-em-ligas-de-inconel-e-forca-g-lateral-3606",
+    "title": "Ferrari S.p.A.: A Soberania de 17,7 Bilhões de Dólares Forjada em Ligas de Inconel e Força G Lateral",
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYnhVU1lzalVCZ0Q2cVVsZlFHdGpJOTdLLXlHMW5ucGVyc0xjVEZEcFI2WThqWXFwUTdHUkFBQjVoNWRueHNlS2p1Q0RVTDM2RjJxbFk1WG1mekJQaklSc0NLVlFtSEpYUS1XWEpEdzlVTzdLYUJVUklON2x4c1ZmTGM4V01xNUE1MmV2SUZR?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-01T22:35:53.626Z"
+  },
+  {
     "id": "art-bugatti-veyron-grand-sport-e-fer-6635",
     "slug": "bugatti-veyron-grand-sport-e-ferrari-enzo-os-24-milhoes-de-dolares-que-custaram-a-imunidade-mecanica-de-floyd-mayweather-6632",
     "title": "Bugatti Veyron Grand Sport e Ferrari Enzo: Os 2,4 Milhões de Dólares que Custaram a Imunidade Mecânica de Floyd Mayweather",
