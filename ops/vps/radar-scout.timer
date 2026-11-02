@@ -1,0 +1,14 @@
+[Unit]
+Description=Agenda do Scout de pautas (09h30 e 18h30 UTC)
+
+[Timer]
+# Mesmas janelas do cron '30 9,18 * * *' do workflow luxury-curator-scout.yml.
+OnCalendar=*-*-* 09:30:00
+OnCalendar=*-*-* 18:30:00
+# Persistent=false de propósito: um boot às 14h não deve disparar o scout perdido
+# das 09h30. O GitHub cron também não repõe alarme perdido.
+Persistent=false
+AccuracySec=30s
+
+[Install]
+WantedBy=timers.target

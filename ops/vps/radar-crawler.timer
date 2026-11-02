@@ -1,0 +1,21 @@
+[Unit]
+Description=Agenda da publicação editorial (8 alarmes por dia, UTC)
+
+[Timer]
+# Réplica exata das 8 crons do workflow luxury-crawler.yml, na mesma ordem.
+# Aqui elas chegam NO MINUTO: o agendador do GitHub tem atraso mediano de 3h10
+# (máx 7h41 em 43 runs), e o código decide a capa por estado de turno, não por
+# relógio — ou seja, pontualidade é o que faz a capa cair no turno certo.
+OnCalendar=*-*-* 01:30:00
+OnCalendar=*-*-* 03:20:00
+OnCalendar=*-*-* 04:50:00
+OnCalendar=*-*-* 11:20:00
+OnCalendar=*-*-* 15:20:00
+OnCalendar=*-*-* 17:10:00
+OnCalendar=*-*-* 18:40:00
+OnCalendar=*-*-* 22:20:00
+Persistent=false
+AccuracySec=30s
+
+[Install]
+WantedBy=timers.target
