@@ -582,16 +582,28 @@ const AI_HOP_TIMEOUT_MS = envNumber('AI_HOP_TIMEOUT_MS', 25000);
 // os externos têm um número fixo de tentativas depois disso.
 const AI_GOOGLE_BUDGET_MS = envNumber('AI_GOOGLE_BUDGET_MS', 60000);
 const AI_EXTERNO_MAX_HOPS = envNumber('AI_EXTERNO_MAX_HOPS', 2);
+// Teto de saída dos degraus OpenAI-compatible. Omitir não é neutro nem universal: varrido
+// na VPS, o @cf/qwen sem o campo devolveu 805 caracteres e matéria nenhuma (com 800 foram
+// 6 parágrafos), enquanto o cohere/north-mini-code truncou nos DOIS lados do experimento —
+// 800 e 2400 morreram em finish_reason=length e só sem o campo, usando o teto grande do
+// gateway, escreveu a matéria inteira. Por isso o padrão é 0 = não enviar, e quem conhece o
+// gateway fixa maxTokens no hop.
+const AI_OPENAI_MAX_TOKENS = envNumber('AI_OPENAI_MAX_TOKENS', 0);
 // Pior caso por caminhada: 75s (Google) + 2×25s (externo) = 125s. O ciclo escreve até
 // 6 matérias, e 6×125s = 750s não cabe nos 15 min do job — por isso o teto do Google é
 // comparado no INÍCIO de cada hop: estourou, os degraus Google restantes são pulados e
 // o tempo reservado aos externos permanece intacto.
 
 // Camada Google, sempre primeira: é a única cota gratuita com termos claros de API.
+// Os ids aqui não são preferência, são os que responderam na VPS: gemini-2.5-flash e
+// gemini-2.5-flash-lite voltaram 404 "no longer available to new users", e
+// gemini-flash-latest e gemini-3.8-flash não responderam em 40s — pendurar é pior que
+// 404, porque come o orçamento inteiro do Google sem escrever nada. Ordem: rápido e
+// barato primeiro, o mais forte por último, que é o que sobra quando os outros caem.
 const GEMINI_HOPS = [
   { protocol: 'gemini', model: 'gemini-flash-lite-latest' },
-  { protocol: 'gemini', model: 'gemini-flash-latest' },
-  { protocol: 'gemini', model: 'gemini-2.5-flash' }
+  { protocol: 'gemini', model: 'gemini-3.1-flash-lite' },
+  { protocol: 'gemini', model: 'gemini-3.5-flash' }
 ];
 
 function envValue(name) {
@@ -636,7 +648,8 @@ function baseLabel(base) {
   }
 }
 
-// AI_MODEL_CHAIN = JSON [{ "protocol": "openai", "model": "if/kimi-k2-thinking", "base": "...", "key": "..." }]
+// AI_MODEL_CHAIN = JSON [{ "protocol": "openai", "model": "if/kimi-k2-thinking", "base": "...", "key": "...",
+//                          "timeoutMs": 45000, "maxTokens": 1600, "reasoningEffort": "low" }]
 // As entradas externas são ACRESCENTADAS depois das Google, nunca no lugar delas. Sem env
 // (caso do navegador) a cadeia é exatamente a de sempre.
 export function resolveModelChain() {
@@ -655,13 +668,24 @@ export function resolveModelChain() {
       protocol: hop?.protocol,
       model: typeof hop?.model === 'string' ? hop.model : '',
       base: hop?.base || envValue('AI_OPENAI_BASE_URL'),
-      key: hop?.key || envValue('AI_OPENAI_API_KEY')
+      key: hop?.key || envValue('AI_OPENAI_API_KEY'),
+      // Matéria inteira por combo free mede 15–21s na VPS: sobram 4s nos 25s do degrau.
+      // O override existe para o externo respirar sem afrouxar a camada Google.
+      timeoutMs: Number(hop?.timeoutMs) || AI_HOP_TIMEOUT_MS,
+      maxTokens: Number(hop?.maxTokens) || AI_OPENAI_MAX_TOKENS,
+      reasoningEffort: typeof hop?.reasoningEffort === 'string' ? hop.reasoningEffort.trim() : ''
     }))
     .filter(hop => {
       if (hop.protocol !== 'openai' || !hop.model) return false;
       if (!isSafeBase(hop.base)) {
         console.warn(`⚠️ [Redação] hop "${hop.model}" descartado: base ${baseLabel(hop.base)} não é https:// (nem localhost).`);
         return false;
+      }
+      // Valor fora da tríade vira 400 no provedor e mata o degrau inteiro, então um typo
+      // no JSON aqui tem que aparecer como aviso, não como requisição recusada.
+      if (hop.reasoningEffort && !['low', 'medium', 'high'].includes(hop.reasoningEffort)) {
+        console.warn(`⚠️ [Redação] hop "${hop.model}": reasoningEffort "${hop.reasoningEffort}" não é low|medium|high — campo descartado.`);
+        hop.reasoningEffort = '';
       }
       return true;
     });
@@ -670,7 +694,7 @@ export function resolveModelChain() {
 
 async function requestModel(hop, { systemInstruction, userPrompt, apiKey }) {
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), AI_HOP_TIMEOUT_MS);
+  const timer = setTimeout(() => controller.abort(), hop.timeoutMs || AI_HOP_TIMEOUT_MS);
   try {
     const isOpenai = hop.protocol === 'openai';
     const url = isOpenai
@@ -679,6 +703,20 @@ async function requestModel(hop, { systemInstruction, userPrompt, apiKey }) {
     const body = isOpenai
       ? {
           model: hop.model,
+          // stream:false não é enfeite: sem esse campo o 9router respondeu text/event-stream
+          // (medido na VPS), o res.json() lá embaixo estourou e o degrau inteiro morreu
+          // calado depois de gastar os 25s. Qualquer gateway OpenAI-compatible sem o flag
+          // faz o mesmo — a cadeia perdia o fallback sem um aviso.
+          stream: false,
+          // undefined sai do JSON.stringify: sem maxTokens no hop o corpo vai exatamente
+          // como ia antes, e o teto grande do gateway trabalha a nosso favor.
+          max_tokens: hop.maxTokens || undefined,
+          // reasoning_effort é exigência do provedor, não do site: o Groq responde 400
+          // ("must be one of low, medium, or high") quando o campo chega com outro valor, e
+          // com o raciocínio no padrão ele queima o teto inteiro em reasoning_tokens e
+          // devolve corpo vazio. Medido na VPS: 'low' + 2.000 tokens = matéria de 6
+          // parágrafos em 2,3s, o degrau mais rápido dos 10 testados.
+          reasoning_effort: hop.reasoningEffort || undefined,
           temperature: 0.7,
           response_format: { type: 'json_object' },
           messages: [
@@ -702,10 +740,14 @@ async function requestModel(hop, { systemInstruction, userPrompt, apiKey }) {
     });
     if (!res.ok) return null;
     const json = await res.json();
-    const text = isOpenai
+    const raw = isOpenai
       ? json?.choices?.[0]?.message?.content
       : json?.candidates?.[0]?.content?.parts?.[0]?.text;
-    return text || null;
+    // Há modelo que devolve o JSON já montado como objeto (medido no @cf/qwen via 9router).
+    // Seria jogar fora uma matéria pronta por uma questão de tipo: serializar e deixar o
+    // parseArticleJson decidir, como decide para qualquer string.
+    if (raw && typeof raw === 'object') return JSON.stringify(raw);
+    return typeof raw === 'string' && raw.trim() ? raw : null;
   } catch (err) {
     return null;
   } finally {
