@@ -53,7 +53,7 @@ import { PUBLISHED_ARCHIVE } from '../src/data/publishedArchive.js';
 import { calculateEditorialScore, calculateCapaWeight, MIN_HERO_PRESTIGE_SCORE, resolvePublishedTimestamp } from '../src/services/rankingEngine.js';
 import { ARTICLES } from '../src/data/mockData.js';
 import { getPhotoId, sameStory, storyKey, slugify } from '../src/services/editorialDedupe.js';
-import { getFilmstripSelection, FILMSTRIP_LIMIT, FLOOR_DRAFT_BADGE } from '../src/services/feedPolicy.js';
+import { getFilmstripSelection, FILMSTRIP_LIMIT, FLOOR_DRAFT_BADGE, temMancheteForasteira } from '../src/services/feedPolicy.js';
 import { resolveCoverImage, auditGalleryImages } from './coverImageAudit.js';
 import { findNegativeTerm } from '../src/services/editorialFilters.js';
 
@@ -748,6 +748,13 @@ async function coverIsDue(supabaseClient) {
   return capaLivreParaCoroar(await capaVivaDoAr(supabaseClient));
 }
 
+// Última barreira antes de gravar: um modelo que ignorou o idioma devolve a manchete crua da
+// RSS. A matéria não sobe — e a pauta não queima, porque o texto é o problema, não a pauta.
+export function mancheteSemTraducao(articleData) {
+  const title = String(articleData?.title || '').trim();
+  return temMancheteForasteira(title) ? title : null;
+}
+
 // Jitter de publicação (parece orgânico) tem uma armação embutida: a regra de capa lê
 // publishedAt para saber em que turno a coroação aconteceu. Recuar 15 minutos um alarme
 // das 14h10 grava 13h58 = turno manha, deixa a tarde aberta e rende 3 capas no dia.
@@ -1172,6 +1179,14 @@ async function runPublicationCycle() {
         enqueueForRegeneration(candidate, promptForCandidate(candidate));
         console.warn('⚠️ Gemini indisponível: pauta enfileirada para regeneração. Encerrando as tentativas frescas deste ciclo.');
         frescasBloqueadas = true;
+        continue;
+      }
+
+      const semTraducao = mancheteSemTraducao(articleData);
+      if (semTraducao) {
+        console.warn(`🛑 [Idioma] Manchete na língua da fonte: "${semTraducao.slice(0, 58)}…". Devolvida para regeneração.`);
+        if (fromQueue) registerQueueFailure(queueItem);
+        else enqueueForRegeneration(candidate, promptForCandidate(candidate));
         continue;
       }
 

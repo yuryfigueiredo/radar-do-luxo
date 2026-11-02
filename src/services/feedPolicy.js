@@ -18,6 +18,17 @@ export function isFloorDraft(article) {
   return article.badge === FLOOR_DRAFT_BADGE || article.engineSource === 'local-synthesizer';
 }
 
+// O site inteiro é em português. Duas palavras funcionais do inglês na mesma linha não são
+// nome próprio nem termo técnico: são uma manchete de RSS que passou sem tradução — seja
+// porque um modelo ignorou a instrução de idioma, seja porque o piso determinístico usou a
+// fonte crua. Só marcadores que não existem como palavra em português: "a" e "as" são artigos
+// nossos e "e"/"de"/"em" não têm contraparte inglesa idêntica, então nada na lista colide.
+const MARCADORES_DE_INGLES = /\b(the|and|of|for|with|its|it|that|this|these|those|from|into|onto|upon|by|or|nor|but|an|is|are|was|were|has|have|had|will|would|says|said|unveils|reveals|rises|falls|makes|gets|to|in|at|on)\b/gi;
+
+export function temMancheteForasteira(texto) {
+  return (String(texto || '').match(MARCADORES_DE_INGLES) || []).length >= 2;
+}
+
 // Toda matéria ocupa o card de uma rota /artigo/:slug. Linha sem slug não abre
 // em lugar nenhum: entra no acervo, mas não sobe para a tela como se fosse leitura.
 // Exportado porque as telas precisam distinguir "a editoria não tem nada" de

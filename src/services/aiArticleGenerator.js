@@ -19,7 +19,7 @@
 
 import { AUTHORS, CATEGORIES } from '../data/mockData.js';
 import { calculateEditorialScore } from './rankingEngine.js';
-import { FLOOR_DRAFT_BADGE } from './feedPolicy.js';
+import { FLOOR_DRAFT_BADGE, temMancheteForasteira } from './feedPolicy.js';
 
 // Chave da API no localStorage, Vite env ou process env
 export function getGeminiApiKey() {
@@ -338,18 +338,52 @@ function extractEntities(rawInput) {
 /**
  * SINTETIZADOR EDITORIAL LOCAL HOMOLOGADO (Fallback Determinístico de Alto Padrão)
  */
+const SUFIXO_EDITORIAL = {
+  watch: 'A Mecânica de Alta Complicação que Rejeitou as Telas Digitais por Calibres Manuais',
+  automotive: 'O Bólido de Engenharia Pura que Pulverizou Limites com Telemetria e Tolerância de Mícrons',
+  padrao: 'O Refúgio de Soberania Patrimonial que Reafirma o Silêncio Mineral Contra a Volatilidade'
+};
+
+// Como o piso se refere ao assunto quando a única frase disponível na fonte é estrangeira.
+// Colar a manchete crua no meio de uma frase em português é o que o leitor denunciou.
+const REFERENCIA_LOCAL = {
+  watch: 'o guardatempo apresentado pela manufatura',
+  automotive: 'o protótipo revelado pela fábrica',
+  padrao: 'o ativo de patrimônio sob análise'
+};
+
+const PALAVRAS_DE_LIGACAO = new Set(['the', 'and', 'of', 'for', 'with', 'its', 'it', 'that', 'this',
+  'these', 'from', 'into', 'onto', 'upon', 'as', 'by', 'or', 'nor', 'but', 'a', 'an', 'is', 'are',
+  'was', 'were', 'has', 'have', 'had', 'will', 'would', 'says', 'said', 'unveils', 'reveals',
+  'rises', 'falls', 'makes', 'gets', 'to', 'in', 'at', 'on', 'their', 'his', 'her', 'our', 'your']);
+
+function extrairNomesProprios(manchete) {
+  const tokens = String(manchete || '').replace(/[:,;.!?()]/g, ' ').split(/\s+/).filter(Boolean);
+  const proprios = tokens.filter(t => /^[A-ZÀ-Ý0-9]/.test(t) && !PALAVRAS_DE_LIGACAO.has(t.toLowerCase()));
+  const cortada = proprios.join(' ').slice(0, 48);
+  return cortada.slice(0, cortada.lastIndexOf(' ') > 20 ? cortada.lastIndexOf(' ') : cortada.length).trim();
+}
+
 function synthesizeLocally(rawInput, context, gravitas) {
   const { title, money, year, auctionHouse, city } = extractEntities(rawInput);
-  
+
+  // O piso não tem tradutor: se a manchete da fonte está em inglês, ele publica os nomes
+  // próprios dela sobre um andaime português e escreve o corpo sem citar a frase estrangeira.
+  const fonteForasteira = temMancheteForasteira(title);
+  const nomesProprios = fonteForasteira ? extrairNomesProprios(title) : '';
+  const referencia = fonteForasteira
+    ? (REFERENCIA_LOCAL[context.themeType] || REFERENCIA_LOCAL.padrao)
+    : title;
+  // Ficha técnica pede substantivo, não frase: mantém o título quando ele já é português e
+  // usa os nomes próprios quando a fonte veio em inglês.
+  const fichaEntidade = fonteForasteira ? (nomesProprios || 'não informada pela fonte') : title;
+
+  const sufixo = SUFIXO_EDITORIAL[context.themeType] || SUFIXO_EDITORIAL.padrao;
   let formattedTitle = title;
-  if (!formattedTitle.includes(':') && formattedTitle.length < 50) {
-    if (context.themeType === 'watch') {
-      formattedTitle = `${formattedTitle}: A Mecânica de Alta Complicação que Rejeitou as Telas Digitais por Calibres Manuais`;
-    } else if (context.themeType === 'automotive') {
-      formattedTitle = `${formattedTitle}: O Bólido de Engenharia Pura que Pulverizou Limites com Telemetria e Tolerância de Mícrons`;
-    } else {
-      formattedTitle = `${formattedTitle}: O Refúgio de Soberania Patrimonial que Reafirma o Silêncio Mineral Contra a Volatilidade`;
-    }
+  if (fonteForasteira) {
+    formattedTitle = nomesProprios ? `${nomesProprios}: ${sufixo}` : sufixo;
+  } else if (!formattedTitle.includes(':') && formattedTitle.length < 50) {
+    formattedTitle = `${formattedTitle}: ${sufixo}`;
   }
 
   let excerpt = '';
@@ -357,27 +391,27 @@ function synthesizeLocally(rawInput, context, gravitas) {
   let specs = {};
 
   if (context.themeType === 'watch') {
-    excerpt = `Com micromeânica ajustada em tolerâncias microscópicas e acabamento manual em bancadas suíças, a análise de ${title} revela o contraponto supremo à efemeridade contemporânea.`;
+    excerpt = `Com micromeânica ajustada em tolerâncias microscópicas e acabamento manual em bancadas suíças, a análise de ${referencia} revela o contraponto supremo à efemeridade contemporânea.`;
     paragraphs = [
-      `Há um abismo filosófico intransponível entre dispositivos eletrônicos destinados ao descarte precoce e a microescultura mecânica preservada em ${title}. Nas bancadas silenciosas de ateliês centenários no Jura suíço, onde o único som audível é a cadência respiratória do mestre sob a lupa binocular, esta criação ergue-se como um manifesto de paciência e rigor humanista.`,
+      `Há um abismo filosófico intransponível entre dispositivos eletrônicos destinados ao descarte precoce e a microescultura mecânica preservada em ${referencia}. Nas bancadas silenciosas de ateliês centenários no Jura suíço, onde o único som audível é a cadência respiratória do mestre sob a lupa binocular, esta criação ergue-se como um manifesto de paciência e rigor humanista.`,
       `O trem de engrenagens do calibre opera em frequências rigorosamente calibradas para anular as distorções da gravidade sobre a mola espiral. Cada ponte de ouro recebeu chanframentos angulares executados manualmente com pontas de madeira de sabugueiro silvestre e pastas diamantadas finas — um método tátil que nenhuma máquina CNC de cinco eixos consegue replicar com o mesmo reflexo orgânico da luz natural.`,
       `A platina maciça da caixa repousa no pulso com a densidade mineral que somente as ligas mais nobres oferecem. Através da safira com tratamento antirreflexo duplo, o mostrador facetado dialoga com a luz ambiente em sombras sutis, revelando detalhes que permanecem como um pacto silencioso compartilhado apenas com quem domina os códigos da alta horologia.`,
-      `Para o colecionador de pulso treinado, ${title} não configura um capricho efêmero, mas uma âncora patrimonial duradoura. Em um século marcado por obsolescências programadas, portar uma máquina mecânica concebida para continuar pulsando com precisão daqui a duzentos anos é a maior declaração de soberania possível.`
+      `Para o colecionador de pulso treinado, ${referencia} não configura um capricho efêmero, mas uma âncora patrimonial duradoura. Em um século marcado por obsolescências programadas, portar uma máquina mecânica concebida para continuar pulsando com precisão daqui a duzentos anos é a maior declaração de soberania possível.`
     ];
     specs = {
       calibre: 'Manufatura Mecânica de Corda Manual com Balanço Compensado',
-      manufatura: title,
+      manufatura: fichaEntidade,
       caixa: 'Platina 950 com Safira Dupla e Fundo Transparente',
       reservaDeMarcha: 'Mínimo de 65 horas de reserva ininterrupta',
       distribuicao: 'Alocação restrita a clientes homologados da maison'
     };
   } else if (context.themeType === 'automotive') {
-    excerpt = `Forjado nos limites da aerodinâmica ativa e da termodinâmica de pista, ${title} traduz a busca obsessiva pela aderência inercial e pelo feedback mecânico puro.`;
+    excerpt = `Forjado nos limites da aerodinâmica ativa e da termodinâmica de pista, ${referencia} traduz a busca obsessiva pela aderência inercial e pelo feedback mecânico puro.`;
     paragraphs = [
-      `Quando a equipe de engenharia encarregada de ${title} recebeu o mandato de ignorar concessões industriais de larga escala para focar unicamente na física estequiométrica da velocidade, o resultado transcendeu as fronteiras convencionais do automobilismo esportivo. Não se trata de cavalos de força brutos para catálogos comerciais, mas de uma coreografia milimétrica entre pressão aerodinâmica de Venturi e controle inercial dinâmico.`,
+      `Quando a equipe de engenharia encarregada de ${referencia} recebeu o mandato de ignorar concessões industriais de larga escala para focar unicamente na física estequiométrica da velocidade, o resultado transcendeu as fronteiras convencionais do automobilismo esportivo. Não se trata de cavalos de força brutos para catálogos comerciais, mas de uma coreografia milimétrica entre pressão aerodinâmica de Venturi e controle inercial dinâmico.`,
       `A estrutura monocoque em carbo-titânio curada em autoclave aeroespacial a 6 bar canaliza os vórtices de ar com a mesma precisão cirúrgica de uma aeronave de caça. Em velocidades de curva elevada, os atuadores ativos ajustam os difusores traseiros em frações de segundo, gerando carga vertical suficiente para colar os compostos de borracha ao asfalto sob forças laterais implacáveis.`,
       `O coletor de escape usinado em ligas de titânio e Inconel 625 entrega uma assinatura acústica pura, incandescente e desprovida de simuladores sintéticos de cabine. Cada estalo metálico do trambulador ao engrenar marchas atesta que a telemetria não substitui a emoção mecânica; ela a eleva ao patamar da arte cinestésica.`,
-      `Com homologação limitada e tiragem rigorosamente numerada para o circuito internacional de clientes convidados, ${title} estabelece um divisor de águas técnico antes que a eletrificação homogeneíze as sensações táteis de pilotagem.`
+      `Com homologação limitada e tiragem rigorosamente numerada para o circuito internacional de clientes convidados, ${referencia} estabelece um divisor de águas técnico antes que a eletrificação homogeneíze as sensações táteis de pilotagem.`
     ];
     specs = {
       propulsao: 'Engenharia de Alta Resposta Térmica Aspirada / Híbrida Pura',
@@ -386,15 +420,15 @@ function synthesizeLocally(rawInput, context, gravitas) {
       alocacao: 'Tiragem limitada estrita sob convite da fábrica'
     };
   } else {
-    excerpt = `Uma radiografia da soberania patrimonial e do silêncio mineral em ${title}, onde a discrição supera qualquer ruído especulativo do mercado.`;
+    excerpt = `Uma radiografia da soberania patrimonial e do silêncio mineral em ${referencia}, onde a discrição supera qualquer ruído especulativo do mercado.`;
     paragraphs = [
-      `A análise dos centros de gravidade do capital privado contemporâneo não é um mero exercício contábil; trata-se do mapeamento das forças materiais que desenham a perenidade histórica. O panorama registrado em torno de ${title} evidencia a solidez de um estrato patrimonial que opera inteiramente à margem das oscilações voláteis do pregão diário.`,
+      `A análise dos centros de gravidade do capital privado contemporâneo não é um mero exercício contábil; trata-se do mapeamento das forças materiais que desenham a perenidade histórica. O panorama registrado em torno de ${referencia} evidencia a solidez de um estrato patrimonial que opera inteiramente à margem das oscilações voláteis do pregão diário.`,
       `No topo da pirâmide, a preservação dos impérios familiares se sustenta na escolha criteriosa de ativos físicos dotados de imunidade temporal. A alocação desses recursos migra silenciosamente para enclaves protegidos por rocha calcária, travertino romano de corte ancestral e peças museológicas catalogadas cuja proveniência documental é incontestável.`,
       `O prestígio autêntico deste circuito fechado não busca validação midiática performática; ele se manifesta na autonomia sobre o próprio tempo, na discrição fiduciária e na capacidade de edificar estruturas concebidas para atravessar séculos sem depender da aprovação efêmera das massas.`,
       `A mensagem que emerge deste monumento é inequívoca: enquanto o consumo barulhento seduz os observadores superficiais, os guardiões do capital soberano permanecem fiéis ao ativo mais raro do planeta — o silêncio mineral das obras imunes à passagem das eras.`
     ];
     specs = {
-      ativo: title,
+      ativo: fichaEntidade,
       localizacao: city || 'Circuito Financeiro Suíço / Genebra / Mayfair',
       patrimonio: 'Ativo Troféu com Custódia Fiduciária e Prova de Proveniência',
       governanca: 'Alocação Estratégica para Preservação Multigeracional'
@@ -704,6 +738,9 @@ export function parseArticleJson(text) {
     : [];
   const title = typeof parsed?.title === 'string' ? parsed.title.trim() : '';
   if (title.length < 12 || paragraphs.length < 2) return null;
+  // Modelo que ignora a instrução de idioma devolve a manchete crua da RSS. Aceitar isso é
+  // publicar texto sem tradução assinado por um editor. Devolver null faz a cadeia descer.
+  if (temMancheteForasteira(title)) return null;
   const excerpt = typeof parsed?.excerpt === 'string' && parsed.excerpt.trim()
     ? parsed.excerpt.trim()
     : `${paragraphs[0].slice(0, 180).trim()}…`; // a busca do site lê excerpt; sem ele, quebra
@@ -727,6 +764,9 @@ DIRETRIZES INEGOCIÁVEIS DO RADAR DO LUXO (BLUEPRINT MESTRE SSOT):
    Exemplo Correto: "Bugatti Tourbillon: O Monstro Híbrido V16 de 1.800 cv que Rejeitou as Telas Digitais por Relógios Suíços"
    Exemplo Errado: "Bugatti lança novo supercarro esportivo" ou "O novo relógio da Patek Philippe".
    NUNCA gere títulos curtos, mornos, amadores ou genéricos.
+   IDIOMA: todo o JSON em português do Brasil, "title" e "excerpt" inclusive. A pauta pode
+   chegar em inglês: traduza e reescreva, nunca copie a manchete da fonte. Nomes próprios,
+   códigos de modelo e nomes de evento permanecem na grafia original.
 
 2. BANIMENTO RIGOROSO DE CLICHÊS DE IA:
    É expressamente proibido usar palavras vazias como: "revolucionário", "de tirar o fôlego", "um verdadeiro espetáculo", "o que há de melhor", "experiência única", "luxo sem limites", "para ninguém botar defeito", "de cair o queixo", "sem dúvidas", "vale destacar", "em um mundo onde", "mergulhe no universo", "em suma".
