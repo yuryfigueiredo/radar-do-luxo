@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-ferrari-daytona-sp3-o-icone-v12--1476",
+    "slug": "ferrari-daytona-sp3-o-icone-v12-aspirado-de-166-milhoes-que-prova-a-imunidade-absoluta-do-leilao-de-monterey-1472",
+    "title": "Ferrari Daytona SP3: O Ícone V12 Aspirado de €16,6 Milhões que Prova a Imunidade Absoluta do Leilão de Monterey",
+    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4xVGdZQTkwUDRuNExabGU4ZTFwQzhMXzh3RXM5cDJkVnF0MWNVWDV1Yzc2ek9aeDRIYTNoMFNsZFBiQUlCRjNmbEljUWF1ZHJBb1lValRWS0JPT2stSUJjTUg2NG9yNTlxYl9pUHFHTFlCeUJ5aVY2eWpR?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-02T02:34:01.475Z"
+  },
+  {
     "id": "art-ferrari-spa-a-soberania-de-177-b-3626",
     "slug": "ferrari-spa-a-soberania-de-177-bilhoes-de-dolares-forjada-em-ligas-de-inconel-e-forca-g-lateral-3606",
     "title": "Ferrari S.p.A.: A Soberania de 17,7 Bilhões de Dólares Forjada em Ligas de Inconel e Força G Lateral",

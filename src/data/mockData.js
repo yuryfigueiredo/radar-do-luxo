@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-ferrari-daytona-sp3-o-icone-v12--1476",
+    "slug": "ferrari-daytona-sp3-o-icone-v12-aspirado-de-166-milhoes-que-prova-a-imunidade-absoluta-do-leilao-de-monterey-1472",
+    "title": "Ferrari Daytona SP3: O Ícone V12 Aspirado de €16,6 Milhões que Prova a Imunidade Absoluta do Leilão de Monterey",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "02 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "A transação multimilionária do cavalo rampante em solo californiano consolida a soberania mecânica dos motores aspirados em um ecossistema financeiro saturado de hibridizações descartáveis.",
+    "contentParagraphs": [
+      "O martelo despencou em Monterey ecoando o fim de uma era. A cifra atingiu patamares estratosféricos. Dezesseis milhões e seiscentas mil euros por uma Ferrari Daytona SP3. Não houve acaso naquelas salas de arremate. O mercado global de alta performance exige pureza física mecânica.",
+      "Sob a tampa traseira repousa um motor V12 naturalmente aspirado de 6.5 litros. O bloco grita ferozmente até 9.250 rotações por minuto. A força G lateral rasga as curvas enquanto o monocoque em compósitos avançados e o chassi tubular absorvem a torção em tolerâncias de mícrons. O efeito solo esculpido por túneis de Venturi inferiores sela o piso ao asfalto.",
+      "A série limitada Icona não serve aos caprichos efêmeros da eletronomia corporativa. Colecionadores dinásticos compreendem o valor imutável do metal bruto e da engenharia sem rede de segurança digital. Trata-se de um refúgio de liquidez tangível. Cada painel de fibra de carbono exposta carrega a assinatura de Maranello em seu estado mais visceral e intransigente.",
+      "Enquanto o restante da indústria sucumbe à pasteurização algorítmica, este exemplar reafirma a supremacia do combustíveis fósseis refinados. A raridade matemática blinda o patrimônio contra a obsolescência programada. Acelerar este bólido é um ato de desafio estético supremo."
+    ],
+    "content_paragraphs": [
+      "O martelo despencou em Monterey ecoando o fim de uma era. A cifra atingiu patamares estratosféricos. Dezesseis milhões e seiscentas mil euros por uma Ferrari Daytona SP3. Não houve acaso naquelas salas de arremate. O mercado global de alta performance exige pureza física mecânica.",
+      "Sob a tampa traseira repousa um motor V12 naturalmente aspirado de 6.5 litros. O bloco grita ferozmente até 9.250 rotações por minuto. A força G lateral rasga as curvas enquanto o monocoque em compósitos avançados e o chassi tubular absorvem a torção em tolerâncias de mícrons. O efeito solo esculpido por túneis de Venturi inferiores sela o piso ao asfalto.",
+      "A série limitada Icona não serve aos caprichos efêmeros da eletronomia corporativa. Colecionadores dinásticos compreendem o valor imutável do metal bruto e da engenharia sem rede de segurança digital. Trata-se de um refúgio de liquidez tangível. Cada painel de fibra de carbono exposta carrega a assinatura de Maranello em seu estado mais visceral e intransigente.",
+      "Enquanto o restante da indústria sucumbe à pasteurização algorítmica, este exemplar reafirma a supremacia do combustíveis fósseis refinados. A raridade matemática blinda o patrimônio contra a obsolescência programada. Acelerar este bólido é um ato de desafio estético supremo."
+    ],
+    "specs": {
+      "Arquitetura do Motor": "V12 aspirado a 65°",
+      "Cilindrada": "6.496 cc",
+      "Potência Máxima": "840 cv a 9.250 rpm",
+      "Torque": "697 Nm a 7.250 rpm",
+      "Transmissão": "Dupla embaixagem de 7 marchas F1",
+      "Avaliação de Mercado": "€16.600.000 em leilão"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 92,
+    "ranking_score": 92,
+    "publishedAt": "2026-11-02T02:34:01.475Z",
+    "published_at": "2026-11-02T02:34:01.475Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4xVGdZQTkwUDRuNExabGU4ZTFwQzhMXzh3RXM5cDJkVnF0MWNVWDV1Yzc2ek9aeDRIYTNoMFNsZFBiQUlCRjNmbEljUWF1ZHJBb1lValRWS0JPT2stSUJjTUg2NG9yNTlxYl9pUHFHTFlCeUJ5aVY2eWpR?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4xVGdZQTkwUDRuNExabGU4ZTFwQzhMXzh3RXM5cDJkVnF0MWNVWDV1Yzc2ek9aeDRIYTNoMFNsZFBiQUlCRjNmbEljUWF1ZHJBb1lValRWS0JPT2stSUJjTUg2NG9yNTlxYl9pUHFHTFlCeUJ5aVY2eWpR?oc=5"
+  },
+  {
     "id": "art-ferrari-spa-a-soberania-de-177-b-3626",
     "slug": "ferrari-spa-a-soberania-de-177-bilhoes-de-dolares-forjada-em-ligas-de-inconel-e-forca-g-lateral-3606",
     "title": "Ferrari S.p.A.: A Soberania de 17,7 Bilhões de Dólares Forjada em Ligas de Inconel e Força G Lateral",
@@ -125,7 +177,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "01 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -153,10 +205,10 @@ export const ARTICLES = [
       "limite_rotacional": "9.000 RPM no eixo dinâmico"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 94,
@@ -1344,63 +1396,20 @@ export const ARTICLES = [
     "published_at": "2026-10-28T02:17:48.434Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNSGJLZXdsa3BWQlJRMHZzZUl6NGdCcGQwYjRGemY1ZFh2Y2U3WVRESU1OSGFNekIzOFZJRDVpZkd4RXJaWnZ6OC1GZi11bWtjbTZMajFIdzBCQWgzY0xxcnpYeUFLOEh0NDFldQ?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNSGJLZXdsa3BWQlJRMHZzZUl6NGdCcGQwYjRGemY1ZFh2Y2U3WVRESU1OSGFNekIzOFZJRDVpZkd4RXJaWnZ6OC1GZi11bWtjbTZMajFIdzBCQWgzY0xxcnpYeUFLOEh0NDFldQ?oc=5"
-  },
-  {
-    "id": "art-patek-philippe-de-joe-dimaggio-o-1985",
-    "slug": "patek-philippe-de-joe-dimaggio-o-calendario-perpetuo-em-ouro-amarelo-de-1957-que-exige-12-milhao-de-dolares-em-custodia-fiduciaria-1969",
-    "title": "Patek Philippe de Joe DiMaggio: O Calendário Perpétuo em Ouro Amarelo de 1957 que Exige 1,2 milhão de Dólares em Custódia Fiduciária",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "category_slug": "relogios",
-    "authorSlug": "clara-meirelles",
-    "author_slug": "clara-meirelles",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "27 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://robbreport.com/wp-content/uploads/2026/10/joe-dimaggio-patek-phillipe-watch.jpg",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Um testemunho mecânico da era de ouro de Nova York emerge no mercado secundário, unindo a precisão intransigente da Vallée de Joux à herança inconfundível de um ícone do esporte americano.",
-    "contentParagraphs": [
-      "O tempo nesta caixa em ouro amarelo de dezoito quilates não marcha; ele suspende o fôlego. Joe DiMaggio, o homem cujo silêncio impenetrável em campo ecoava a serenidade de um mostrador perfeitamente limpo, carregava no pulso este Patek Philippe como um manifesto invisível. Não há gritos visuais nesta arquitetura horológica. Apenas a geometria austera dos anos cinquenta, esculpida para resistir às décadas com a mesma altivez com que seu proprietário cruzava o home plate. A matéria-prima guarda a memória do toque humano, do atrito paciente do metal contra a pele de um titã que desprezava a efemeridade.",
-      "Sob o vidro hesalite abaulado respira um calibre de manufatura concebido quando a relojoaria ainda pertencia ao reino da alquimia pura. Cada roda dentada recebeu dezenas de horas de polimento manual com pasta diamantada, transformando atritos mecânicos microscópicos em pura poesia cinética. Os cantos das pontes ostentam o biselamento em anglage, executado com o auxílio de hastes de sabugueiro silvestre para obter aquele brilho espelhado que rejeita o níquel industrial. É a busca obstinada pela perfeição invisible, onde o dono de um tesouro assim jamais precisará abrir o fundo da caixa para saber que habita o topo absoluto da pirâmide.",
-      "O mostrador prateado opalino exibe índices aplicados em ouro e marcadores de fases da lua que desafiam o horizonte dos anos. A complicação do calendário perpétuo opera como um microcosmo astronômico em miniatura, calculando silenciosamente os saltos dos anos bissextos sem que o usuário perceba o esforço titânico das alavancas internas. Esta não é uma ferramenta utilitária para medir reuniões corporativas. Trata-se de um refúgio de liquidez tangível, uma reserva de valor soberana destinada a colecionadores que compreendem a diferença abissal entre preço e imunidade temporal.",
-      "Por um milhão e duzentos mil dólares, o adquirente não leva apenas a proveniência documentada de uma lenda dos Yankees de Nova York. Adquire o direito de custódia sobre um fragmento intocado do século vinte, onde o rigor técnico suíço encontrou a elegância despojada de um gentleman que entendia o valor da discrição. Enquanto o mercado moderno agoniza sob o peso de relógios emborrachados e modismos passageiros, este Patek Philippe permanece como um monolito de estabilidade emocional, aguardando pacientemente pelo próximo guardião capaz de escutar o sussurro constante de seu escape."
-    ],
-    "content_paragraphs": [
-      "O tempo nesta caixa em ouro amarelo de dezoito quilates não marcha; ele suspende o fôlego. Joe DiMaggio, o homem cujo silêncio impenetrável em campo ecoava a serenidade de um mostrador perfeitamente limpo, carregava no pulso este Patek Philippe como um manifesto invisível. Não há gritos visuais nesta arquitetura horológica. Apenas a geometria austera dos anos cinquenta, esculpida para resistir às décadas com a mesma altivez com que seu proprietário cruzava o home plate. A matéria-prima guarda a memória do toque humano, do atrito paciente do metal contra a pele de um titã que desprezava a efemeridade.",
-      "Sob o vidro hesalite abaulado respira um calibre de manufatura concebido quando a relojoaria ainda pertencia ao reino da alquimia pura. Cada roda dentada recebeu dezenas de horas de polimento manual com pasta diamantada, transformando atritos mecânicos microscópicos em pura poesia cinética. Os cantos das pontes ostentam o biselamento em anglage, executado com o auxílio de hastes de sabugueiro silvestre para obter aquele brilho espelhado que rejeita o níquel industrial. É a busca obstinada pela perfeição invisible, onde o dono de um tesouro assim jamais precisará abrir o fundo da caixa para saber que habita o topo absoluto da pirâmide.",
-      "O mostrador prateado opalino exibe índices aplicados em ouro e marcadores de fases da lua que desafiam o horizonte dos anos. A complicação do calendário perpétuo opera como um microcosmo astronômico em miniatura, calculando silenciosamente os saltos dos anos bissextos sem que o usuário perceba o esforço titânico das alavancas internas. Esta não é uma ferramenta utilitária para medir reuniões corporativas. Trata-se de um refúgio de liquidez tangível, uma reserva de valor soberana destinada a colecionadores que compreendem a diferença abissal entre preço e imunidade temporal.",
-      "Por um milhão e duzentos mil dólares, o adquirente não leva apenas a proveniência documentada de uma lenda dos Yankees de Nova York. Adquire o direito de custódia sobre um fragmento intocado do século vinte, onde o rigor técnico suíço encontrou a elegância despojada de um gentleman que entendia o valor da discrição. Enquanto o mercado moderno agoniza sob o peso de relógios emborrachados e modismos passageiros, este Patek Philippe permanece como um monolito de estabilidade emocional, aguardando pacientemente pelo próximo guardião capaz de escutar o sussurro constante de seu escape."
-    ],
-    "specs": {
-      "fabricante": "Patek Philippe & Co., Genebra",
-      "ano_de_fabricacion": "1957",
-      "material_da_caixa": "Ouro amarelo 18k",
-      "proviniencia": "Coleção particular de Joe DiMaggio",
-      "valor_estimado": "USD 1.200.000"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 94,
-    "ranking_score": 94,
-    "publishedAt": "2026-10-27T22:45:01.985Z",
-    "published_at": "2026-10-27T22:45:01.985Z",
-    "sourceUrl": "https://robbreport.com/style/watch-collector/joe-dimaggio-patek-philippe-watch-sale-1238794923/",
-    "source_url": "https://robbreport.com/style/watch-collector/joe-dimaggio-patek-philippe-watch-sale-1238794923/"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "DESTINOS",
+    "title": "Superiate Omega Wellness 249: A Fortal...",
+    "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
+    "tag": "CURADORIA RADAR",
+    "slug": "superiate-omega-wellness-249-a-fortaleza-flutuante-de-75-metros-com-camaras-criogenicas-e-monocoque-em-aluminio-naval-1665"
+  },
+  {
+    "id": "film-2",
     "category": "SUPERCARROS",
     "title": "Ferrari S.p.A.: O Marco Histórico de 2...",
     "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800",
@@ -1408,7 +1417,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-spa-o-marco-historico-de-20-bilhoes-de-dolares-que-sustenta-sua-soberania-em-maranello-8634"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "RELOGIOS",
     "title": "F.P. Journe Chronomètre Bleu: A Rara C...",
     "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=max&q=80&w=1400",
@@ -1416,7 +1425,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "fp-journe-chronometre-bleu-a-rara-caixa-de-tantalo-de-ponto-de-fusao-a-3000c-que-valorizou-400-no-mercado-secundario-9369"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "RELOGIOS",
     "title": "A. Lange & Söhne Datograph Honeygold L...",
     "image": "/images/a-lange-datograph-honeygold-lumen.jpg",
@@ -1424,7 +1433,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "a-lange-sohne-datograph-honeygold-lumen-a-obra-prima-saxonica-de-516-componentes-sob-safira-fosforescente-9075"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "ARQUITETURA",
     "title": "Sheats-Goldstein Residence: A Fortalez...",
     "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=80&w=1400",
@@ -1432,20 +1441,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "sheats-goldstein-residence-a-fortaleza-brutalista-de-concreto-angular-com-750-oculos-de-vidro-engastados-na-laje-4302"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "RELOGIOS",
     "title": "Rexhep Rexhepi Chronomètre Contemporai...",
     "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "rexhep-rexhepi-chronometre-contemporain-ii-o-atelie-independente-de-genebra-com-lista-de-espera-de-7-anos-e-chanfro-manual-absoluto-9736"
-  },
-  {
-    "id": "film-6",
-    "category": "ESTILO",
-    "title": "Hermès Faubourg: O Ateliê Secreto em P...",
-    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "hermes-faubourg-o-atelie-secreto-em-paris-onde-30-mestres-costuram-selas-em-couro-barenia-sob-linho-encerado-a-mao-desde-1837-3331"
   }
 ];
 
