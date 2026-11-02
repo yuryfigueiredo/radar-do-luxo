@@ -19,6 +19,7 @@
 
 import { AUTHORS, CATEGORIES } from '../data/mockData.js';
 import { calculateEditorialScore } from './rankingEngine.js';
+import { FLOOR_DRAFT_BADGE } from './feedPolicy.js';
 
 // Chave da API no localStorage, Vite env ou process env
 export function getGeminiApiKey() {
@@ -426,11 +427,16 @@ function synthesizeLocally(rawInput, context, gravitas) {
     specs,
     image,
     type: 'article',
-    badge: 'CURADORIA RADAR',
+    // O selo nasce com o rascunho, não só na publicação do robô: pelo painel, um
+    // engineSource 'local-synthesizer' é descartado ao gravar (não há coluna), e o
+    // boilerplate chegaria à capa com o selo dourado de curadoria.
+    badge: FLOOR_DRAFT_BADGE,
     readTime: gravitas.readTime,
     date: new Date().toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' }),
     status: 'published',
-    rankingScore: 94,
+    // Sem nota autoatribuída: o sintetizador determinístico se dava 94 pts, o que punha o
+    // boilerplate acima de matéria escrita por modelo na ordem do feed. A nota passa a ser a
+    // do auditor de qualidade (auditAndCleanArticle) e, na publicação, a nota da pauta.
     imageFocus: context.categorySlug === 'supercarros' ? 'bottom' : 'center',
     engineSource: 'local-synthesizer'
   };
@@ -534,7 +540,177 @@ export async function fetchWebArticleContent(url) {
  * REDAÇÃO AUTÔNOMA VIA GOOGLE GEMINI API
  * Tenta endpoints rápidos e resilientes com prompt em conformidade com o Blueprint SSOT.
  */
-async function generateViaGemini(rawInput, context, gravitas, apiKey) {
+const AI_HOP_TIMEOUT_MS = envNumber('AI_HOP_TIMEOUT_MS', 25000);
+// Orçamento de tempo POR CAMADA, não pela cadeia inteira. Um Google que pendura 25s em
+// cada um dos 3 degraus consome 75s: com um teto único de 60s comparado antes de cada hop,
+// o laço quebrava antes do primeiro degrau externo e a camada de fallback — justo o
+// requisito de "nunca ficar sem matéria" — nunca era tentada. O Google tem o teto dele;
+// os externos têm um número fixo de tentativas depois disso.
+const AI_GOOGLE_BUDGET_MS = envNumber('AI_GOOGLE_BUDGET_MS', 60000);
+const AI_EXTERNO_MAX_HOPS = envNumber('AI_EXTERNO_MAX_HOPS', 2);
+// Pior caso por caminhada: 75s (Google) + 2×25s (externo) = 125s. O ciclo escreve até
+// 6 matérias, e 6×125s = 750s não cabe nos 15 min do job — por isso o teto do Google é
+// comparado no INÍCIO de cada hop: estourou, os degraus Google restantes são pulados e
+// o tempo reservado aos externos permanece intacto.
+
+// Camada Google, sempre primeira: é a única cota gratuita com termos claros de API.
+const GEMINI_HOPS = [
+  { protocol: 'gemini', model: 'gemini-flash-lite-latest' },
+  { protocol: 'gemini', model: 'gemini-flash-latest' },
+  { protocol: 'gemini', model: 'gemini-2.5-flash' }
+];
+
+function envValue(name) {
+  try {
+    if (typeof process !== 'undefined' && process?.env?.[name]) return String(process.env[name]);
+  } catch (e) { /* navegador não tem process */ }
+  try {
+    if (typeof import.meta !== 'undefined' && import.meta?.env?.[name]) return String(import.meta.env[name]);
+  } catch (e) { /* idem */ }
+  return '';
+}
+
+function envNumber(name, fallback) {
+  const n = Number(envValue(name));
+  return Number.isFinite(n) && n > 0 ? n : fallback;
+}
+
+// O endpoint externo viaja com Authorization: Bearer. http:// só é aceitável em localhost,
+// que é o caso do proxy na própria máquina (9router); pela rede, exige TLS. Credencial na
+// URL (user:pass@host ou ?key=) também está fora: ela acabaria num log público do Actions.
+function isSafeBase(base) {
+  const raw = String(base || '');
+  let url;
+  try {
+    url = new URL(raw);
+  } catch {
+    return false;
+  }
+  if (url.username || url.password || url.search) return false;
+  if (url.protocol === 'https:') return true;
+  if (url.protocol !== 'http:') return false;
+  return url.hostname === 'localhost' || url.hostname === '127.0.0.1';
+}
+
+// Rótulo sem credencial nem caminho: é o que pode ser impresso em log.
+function baseLabel(base) {
+  try {
+    const u = new URL(String(base));
+    return `${u.protocol}//${u.host}`;
+  } catch {
+    return 'base inválida';
+  }
+}
+
+// AI_MODEL_CHAIN = JSON [{ "protocol": "openai", "model": "if/kimi-k2-thinking", "base": "...", "key": "..." }]
+// As entradas externas são ACRESCENTADAS depois das Google, nunca no lugar delas. Sem env
+// (caso do navegador) a cadeia é exatamente a de sempre.
+export function resolveModelChain() {
+  const raw = envValue('AI_MODEL_CHAIN').trim();
+  if (!raw) return GEMINI_HOPS;
+  let parsed;
+  try {
+    parsed = JSON.parse(raw);
+  } catch (e) {
+    console.warn('⚠️ [Redação] AI_MODEL_CHAIN inválido, usando somente a camada Google.');
+    return GEMINI_HOPS;
+  }
+  if (!Array.isArray(parsed)) return GEMINI_HOPS;
+  const external = parsed
+    .map(hop => ({
+      protocol: hop?.protocol,
+      model: typeof hop?.model === 'string' ? hop.model : '',
+      base: hop?.base || envValue('AI_OPENAI_BASE_URL'),
+      key: hop?.key || envValue('AI_OPENAI_API_KEY')
+    }))
+    .filter(hop => {
+      if (hop.protocol !== 'openai' || !hop.model) return false;
+      if (!isSafeBase(hop.base)) {
+        console.warn(`⚠️ [Redação] hop "${hop.model}" descartado: base ${baseLabel(hop.base)} não é https:// (nem localhost).`);
+        return false;
+      }
+      return true;
+    });
+  return [...GEMINI_HOPS, ...external];
+}
+
+async function requestModel(hop, { systemInstruction, userPrompt, apiKey }) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), AI_HOP_TIMEOUT_MS);
+  try {
+    const isOpenai = hop.protocol === 'openai';
+    const url = isOpenai
+      ? `${String(hop.base).replace(/\/+$/, '')}/chat/completions`
+      : `https://generativelanguage.googleapis.com/v1beta/models/${hop.model}:generateContent?key=${apiKey}`;
+    const body = isOpenai
+      ? {
+          model: hop.model,
+          temperature: 0.7,
+          response_format: { type: 'json_object' },
+          messages: [
+            { role: 'system', content: systemInstruction },
+            { role: 'user', content: userPrompt }
+          ]
+        }
+      : {
+          systemInstruction: { parts: [{ text: systemInstruction }] },
+          contents: [{ parts: [{ text: userPrompt }] }],
+          generationConfig: { temperature: 0.7, responseMimeType: 'application/json' }
+        };
+    const res = await fetch(url, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        ...(isOpenai && hop.key ? { Authorization: `Bearer ${hop.key}` } : {})
+      },
+      body: JSON.stringify(body),
+      signal: controller.signal
+    });
+    if (!res.ok) return null;
+    const json = await res.json();
+    const text = isOpenai
+      ? json?.choices?.[0]?.message?.content
+      : json?.candidates?.[0]?.content?.parts?.[0]?.text;
+    return text || null;
+  } catch (err) {
+    return null;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+// Resposta útil = JSON de matéria aproveitável. Um modelo vivo que responde "não posso
+// ajudar" em HTTP 200 não pode encerrar a cadeia: sem esta checagem o texto era aceito,
+// o JSON.parse explodia depois do laço e caía no sintetizador local sem jamais tentar
+// o segundo e o terceiro nível.
+export function parseArticleJson(text) {
+  if (!text || typeof text !== 'string') return null;
+  let clean = text.trim();
+  if (clean.startsWith('```json')) clean = clean.slice(7);
+  else if (clean.startsWith('```')) clean = clean.slice(3);
+  if (clean.endsWith('```')) clean = clean.slice(0, -3);
+  clean = clean.trim();
+  // JSON puro, sem prosa em volta. Sem esta trava, "não vou escrever isso: {\"title\":...}"
+  // era aceito como matéria assinada por um modelo que não escreveu nada.
+  if (!clean.startsWith('{') || !clean.endsWith('}')) return null;
+  let parsed;
+  try {
+    parsed = JSON.parse(clean);
+  } catch {
+    return null;
+  }
+  const paragraphs = Array.isArray(parsed?.contentParagraphs)
+    ? parsed.contentParagraphs.filter(p => typeof p === 'string' && p.trim().length > 0)
+    : [];
+  const title = typeof parsed?.title === 'string' ? parsed.title.trim() : '';
+  if (title.length < 12 || paragraphs.length < 2) return null;
+  const excerpt = typeof parsed?.excerpt === 'string' && parsed.excerpt.trim()
+    ? parsed.excerpt.trim()
+    : `${paragraphs[0].slice(0, 180).trim()}…`; // a busca do site lê excerpt; sem ele, quebra
+  return { ...parsed, title, excerpt, contentParagraphs: paragraphs };
+}
+
+async function generateViaGemini(rawInput, context, gravitas, apiKey, chainPreset = null) {
   const authorName = context.author.name;
   const authorRole = context.author.role;
 
@@ -610,70 +786,42 @@ RETORNE EXCLUSIVAMENTE UM OBJETO JSON VÁLIDO (sem markdown em volta do JSON):
   const userPrompt = `Pauta a ser investigada e redigida: "${rawInput}"\nContexto: ${context.reasoning}\nDensidade: ${gravitas.tempo}`;
 
   // Lista de modelos homologados em ordem de velocidade e cota gratuita
-  const candidateModels = [
-    'gemini-flash-lite-latest',
-    'gemini-flash-latest',
-    'gemini-2.5-flash'
-  ];
+  const chain = chainPreset || resolveModelChain();
+  const googleAte = Date.now() + AI_GOOGLE_BUDGET_MS;
+  let externosTentados = 0;
 
-  let rawData = null;
+  let parsed = null;
+  let engineSource = null;
 
-  for (const modelName of candidateModels) {
-    try {
-      const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 25000); // 25s timeout
-
-      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${apiKey}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        signal: controller.signal,
-        body: JSON.stringify({
-          systemInstruction: { parts: [{ text: systemInstruction }] },
-          contents: [{ parts: [{ text: userPrompt }] }],
-          generationConfig: {
-            temperature: 0.7,
-            responseMimeType: 'application/json'
-          }
-        })
-      });
-
-      clearTimeout(timeoutId);
-
-      if (res.ok) {
-        const json = await res.json();
-        const text = json?.candidates?.[0]?.content?.parts?.[0]?.text;
-        if (text) {
-          rawData = text;
-          break; // Sucesso com este modelo
-        }
+  for (const hop of chain) {
+    const ehExterno = hop.protocol === 'openai';
+    if (!ehExterno) {
+      // Sem chave, o degrau Google é um 400 garantido (a URL vai com key=null).
+      if (!apiKey) continue;
+      // Estourou o teto da camada Google: os degraus restantes são pulados, mas a
+      // caminhada NÃO termina aqui — é assim que o degrau externo recebe o tempo que
+      // é a garantia de "o site nunca fica sem matéria".
+      if (Date.now() > googleAte) {
+        console.warn('⏳ [Redação] Google estourou o teto da própria camada — descendo para os degraus externos.');
+        continue;
       }
-    } catch (modelErr) {
-      // Tenta próximo modelo do fallback
+    } else if (externosTentados >= AI_EXTERNO_MAX_HOPS) {
+      console.warn(`⏳ [Redação] ${AI_EXTERNO_MAX_HOPS} degraus externos tentados sem resposta útil — sintetizador local.`);
+      break;
     }
+    if (ehExterno) externosTentados++;
+    const text = await requestModel(hop, { systemInstruction, userPrompt, apiKey });
+    parsed = parseArticleJson(text);
+    if (parsed) {
+      engineSource = `${hop.protocol}:${hop.model}`;
+      break; // Sucesso com este modelo
+    }
+    console.warn(`⚠️ [Redação] ${hop.protocol}:${hop.model} sem resposta útil — descendo um nível na cadeia.`);
   }
 
-  if (!rawData) {
-    throw new Error('Nenhum modelo da API Gemini respondeu satisfatoriamente.');
+  if (!parsed) {
+    throw new Error('Nenhum modelo da cadeia respondeu satisfatoriamente.');
   }
-
-  let cleanText = rawData.trim();
-  if (cleanText.startsWith('```json')) {
-    cleanText = cleanText.slice(7);
-  } else if (cleanText.startsWith('```')) {
-    cleanText = cleanText.slice(3);
-  }
-  if (cleanText.endsWith('```')) {
-    cleanText = cleanText.slice(0, -3);
-  }
-  cleanText = cleanText.trim();
-
-  const firstBrace = cleanText.indexOf('{');
-  const lastBrace = cleanText.lastIndexOf('}');
-  if (firstBrace !== -1 && lastBrace !== -1) {
-    cleanText = cleanText.substring(firstBrace, lastBrace + 1);
-  }
-
-  const parsed = JSON.parse(cleanText);
 
   const catKey = context.categorySlug || 'supercarros';
   const gallery = HOMOLOGATED_IMAGES[catKey] || HOMOLOGATED_IMAGES.supercarros;
@@ -706,7 +854,7 @@ RETORNE EXCLUSIVAMENTE UM OBJETO JSON VÁLIDO (sem markdown em volta do JSON):
     date: new Date().toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' }),
     status: 'published',
     imageFocus: parsed.imageFocus || (context.categorySlug === 'supercarros' ? 'bottom' : 'center'),
-    engineSource: 'gemini-flash'
+    engineSource
   };
 
   // Aplica o revisor crítico Evaluator-Optimizer para lapidar o texto
@@ -738,12 +886,17 @@ export async function generateLuxuryArticle(rawInput, options = {}) {
   const gravitas = assessEditorialGravitas(analysisTarget);
   const apiKey = getGeminiApiKey();
 
-  if (apiKey) {
+  // A cadeia não pode ficar refém da chave Google: sem ela os degraus externos eram código
+  // morto e os 8 alarmes publicavam boilerplate com CI verde. Qualquer endpoint aberto
+  // homologado já justifica tentar a rede; sem chave E sem externo, vai direto ao piso.
+  const chain = resolveModelChain();
+  const temMotor = Boolean(apiKey) || chain.some(h => h.protocol === 'openai');
+  if (temMotor) {
     try {
-      const generated = await generateViaGemini(analysisTarget, context, gravitas, apiKey);
+      const generated = await generateViaGemini(analysisTarget, context, gravitas, apiKey, chain);
       return generated;
     } catch (llmError) {
-      console.warn('⚠️ Falha ao acionar Gemini API, ativando Sintetizador Editorial Local:', llmError.message);
+      console.warn('⚠️ Nenhum motor de redação respondeu, ativando Sintetizador Editorial Local:', llmError.message);
     }
   }
 

@@ -7,6 +7,17 @@ export const HOME_HERO_STRIP_LIMIT = 4;
 
 export const FILMSTRIP_LIMIT = 6;
 
+// Selo das matérias escritas pelo sintetizador determinístico, sem nenhum modelo de IA.
+// Existe porque o piso de disponibilidade publica texto quando a IA cai, e o leitor não
+// pode recebê-lo com o mesmo selo dourado de curadoria. Único ponto de definição: o
+// crawler Node e as telas importam daqui, para não haver duas grafias do mesmo sinal.
+export const FLOOR_DRAFT_BADGE = 'REDIGIDA SEM IA';
+
+export function isFloorDraft(article) {
+  if (!article) return false;
+  return article.badge === FLOOR_DRAFT_BADGE || article.engineSource === 'local-synthesizer';
+}
+
 // Toda matéria ocupa o card de uma rota /artigo/:slug. Linha sem slug não abre
 // em lugar nenhum: entra no acervo, mas não sobe para a tela como se fosse leitura.
 // Exportado porque as telas precisam distinguir "a editoria não tem nada" de

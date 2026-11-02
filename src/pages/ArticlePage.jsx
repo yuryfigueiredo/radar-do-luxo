@@ -26,6 +26,7 @@ import ConciergeModal from '../components/ConciergeModal';
 import AdSenseSlot from '../components/AdSenseSlot';
 import ImageLightboxModal from '../components/ImageLightboxModal';
 import { trackEvent } from '../services/analyticsService';
+import { isFloorDraft } from '../services/feedPolicy';
 
 export default function ArticlePage({ onQuickView }) {
   const { slug } = useParams();
@@ -246,7 +247,9 @@ export default function ArticlePage({ onQuickView }) {
         {/* Article Masthead / Header */}
         <header className="max-w-4xl mx-auto mb-10 text-center sm:text-left">
           <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2 mb-4">
-            <span className="bg-lux-gold text-black text-[10px] font-bold tracking-widest uppercase px-3 py-1 rounded">
+            <span className={`${isFloorDraft(article)
+              ? 'bg-black/10 dark:bg-white/10 text-lux-text-secondary dark:text-lux-text-darkSecondary border border-lux-border-light dark:border-lux-border-dark'
+              : 'bg-lux-gold text-black'} text-[10px] font-bold tracking-widest uppercase px-3 py-1 rounded`}>
               {article.badge || 'EDITORIAL VIP'}
             </span>
             <Link 

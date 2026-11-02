@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Clock, Eye, Sparkles, Play, ArrowRight } from 'lucide-react';
 import { CATEGORIES, ARTICLES, AUTHORS } from '../data/mockData';
 import { fetchArticles } from '../services/radarService';
-import { getVisibleFeedArticles, publishedArticles } from '../services/feedPolicy';
+import { getVisibleFeedArticles, publishedArticles, isFloorDraft, FLOOR_DRAFT_BADGE } from '../services/feedPolicy';
 import AdSenseSlot from './AdSenseSlot';
 
 export default function FeedSection({ onQuickView }) {
@@ -118,6 +118,11 @@ export default function FeedSection({ onQuickView }) {
                         <span className="text-[9px] font-bold tracking-widest uppercase bg-black/75 backdrop-blur-md text-white px-2.5 py-1 rounded">
                           {item.category}
                         </span>
+                        {isFloorDraft(item) && (
+                          <span className="text-[9px] font-bold tracking-widest uppercase bg-white/90 dark:bg-white/80 text-black px-2 py-1 rounded">
+                            {FLOOR_DRAFT_BADGE}
+                          </span>
+                        )}
                         {item.type === 'video' && (
                           <span className="text-[9px] font-bold uppercase bg-lux-gold text-black px-2 py-1 rounded flex items-center gap-1">
                             <Play className="w-2.5 h-2.5 fill-black" /> Vídeo

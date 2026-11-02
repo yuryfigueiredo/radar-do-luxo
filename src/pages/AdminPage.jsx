@@ -1941,7 +1941,11 @@ export default function AdminPage() {
                     </div>
                     <div className="flex items-center gap-2">
                       <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-lux-emerald/20 text-lux-emerald">
-                        {generatedArticle.engineSource?.startsWith('gemini') ? '✦ Google Gemini Flash (Ao Vivo)' : '✦ Motor Semântico Local'}
+                        {generatedArticle.engineSource?.startsWith('gemini')
+                          ? '✦ Google Gemini Flash (Ao Vivo)'
+                          : generatedArticle.engineSource?.startsWith('local')
+                            ? '✦ Motor Semântico Local'
+                            : `✦ ${generatedArticle.engineSource || 'Motor não registrado'}`}
                       </span>
                       <span className={`text-[10px] uppercase font-bold tracking-wider px-2.5 py-0.5 rounded ${
                         autoPublish 
