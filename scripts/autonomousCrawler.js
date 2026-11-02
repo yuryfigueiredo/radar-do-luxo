@@ -26,6 +26,19 @@
  *   MAX_RETRY_ATTEMPTS=3             tentativas antes de descartar item da fila
  *   PAUTA_MAX_AGE_HOURS=24           validade de pautas ao vivo (pauta-live-*)
  *   MIN_PUBLICATION_INTERVAL_HOURS=0 intervalo mínimo entre publicações
+ *   CAPA_MAX_AGE_HOURS=8             a partir daqui a capa está "velha" e o piso
+ *                                    de promoção cai para CAPA_MIN_SCORE
+ *   CAPA_MIN_SCORE=80                nota mínima absoluta para coroar capa velha
+ *   AI_MODEL_CHAIN=JSON              degraus externos ACRESCENTADOS depois dos 3
+ *                                    Google (protocolo openai: base/key por hop, ou
+ *                                    AI_OPENAI_BASE_URL / AI_OPENAI_API_KEY p/ todos)
+ *
+ * ROTAÇÃO DE CAPA (uma por turno de Brasília, antes das 14h e depois das 14h):
+ *   A matéria coroada é sempre a de maior nota do ciclo, e só assume se a imagem
+ *   passou pela auditoria binária neste run. Capa fixada pelo editor (pino) nunca
+ *   é destronada, e o rascunho determinístico sem IA — que existe para o site nunca
+ *   acordar sem matéria — publica no feed e nunca abre a cara da revista.
+ *   Ver scripts/autonomousCrawler.js :: decideCoverPromotion.
  * ==============================================================================
  */
 
@@ -37,10 +50,10 @@ import { generateLuxuryArticle, HOMOLOGATED_IMAGES } from '../src/services/aiArt
 import { FALLBACK_CATEGORY_IMAGES } from '../src/services/rssCuratorService.js';
 import { INITIAL_HOT_PAUTAS } from '../src/data/hotFeedsData.js';
 import { PUBLISHED_ARCHIVE } from '../src/data/publishedArchive.js';
-import { calculateEditorialScore, calculateCapaWeight } from '../src/services/rankingEngine.js';
+import { calculateEditorialScore, calculateCapaWeight, MIN_HERO_PRESTIGE_SCORE, resolvePublishedTimestamp } from '../src/services/rankingEngine.js';
 import { ARTICLES } from '../src/data/mockData.js';
 import { getPhotoId, sameStory, storyKey, slugify } from '../src/services/editorialDedupe.js';
-import { getFilmstripSelection, FILMSTRIP_LIMIT } from '../src/services/feedPolicy.js';
+import { getFilmstripSelection, FILMSTRIP_LIMIT, FLOOR_DRAFT_BADGE } from '../src/services/feedPolicy.js';
 import { resolveCoverImage, auditGalleryImages } from './coverImageAudit.js';
 import { findNegativeTerm } from '../src/services/editorialFilters.js';
 
@@ -121,6 +134,11 @@ const MAX_CANDIDATES = Math.max(1, envNumber('MAX_CANDIDATES', 4));
 const MAX_QUEUE_ITEMS = Math.max(0, envNumber('MAX_QUEUE_ITEMS', 2));
 const MAX_RETRY_ATTEMPTS = Math.max(1, envNumber('MAX_RETRY_ATTEMPTS', 3));
 const PAUTA_MAX_AGE_HOURS = Math.max(1, envNumber('PAUTA_MAX_AGE_HOURS', 24));
+const CAPA_MIN_SCORE = Math.max(1, envNumber('CAPA_MIN_SCORE', 80));
+const CAPA_MAX_AGE_HOURS = Math.max(1, envNumber('CAPA_MAX_AGE_HOURS', 8));
+// Piso de tempo entre coroações, independente do env: duas capas em dois minutos só
+// acontecem por disparo manual, e o jitter do publishedAt pode enganar a cota de turno.
+const CAPA_MIN_GAP_MS = 2 * 3_600_000;
 const MIN_PUBLICATION_INTERVAL_HOURS = Math.max(0, envNumber('MIN_PUBLICATION_INTERVAL_HOURS', 0));
 
 // Imagens de banco (genéricas) não identificam uma história: nunca bloqueiam publicação.
@@ -143,7 +161,7 @@ console.log('🤖 Motor de Redação:', GEMINI_API_KEY ? 'Google Gemini Flash At
 if (DRY_RUN) {
   console.log('🧪 MODO DRY-RUN: nenhuma chamada ao Gemini e nenhuma gravação em disco.');
 }
-console.log(`⚙️  Parâmetros: MAX_ARTICLES=${MAX_ARTICLES} · MAX_CANDIDATES=${MAX_CANDIDATES} · MAX_QUEUE_ITEMS=${MAX_QUEUE_ITEMS} · PAUTA_MAX_AGE_HOURS=${PAUTA_MAX_AGE_HOURS} · MIN_INTERVAL_HOURS=${MIN_PUBLICATION_INTERVAL_HOURS}`);
+console.log(`⚙️  Parâmetros: MAX_ARTICLES=${MAX_ARTICLES} · MAX_CANDIDATES=${MAX_CANDIDATES} · MAX_QUEUE_ITEMS=${MAX_QUEUE_ITEMS} · PAUTA_MAX_AGE_HOURS=${PAUTA_MAX_AGE_HOURS} · MIN_INTERVAL_HOURS=${MIN_PUBLICATION_INTERVAL_HOURS} · CAPA_VELHA_A_PARTIR_DE=${CAPA_MAX_AGE_HOURS}h (piso ${CAPA_MIN_SCORE} pts)`);
 
 // -----------------------------------------------------------------------------
 // Utilidades
@@ -535,7 +553,7 @@ async function pickArticleImage(candidate, meta) {
     if (audit.origin === 'origem' || audit.origin === 'local') {
       console.log(`🖼️ [Capa] ${audit.note}.`);
       if (sourceId) meta.usedPhotoIds.add(sourceId);
-      return audit.url.replace('fit=crop', 'fit=max');
+      return { url: audit.url.replace('fit=crop', 'fit=max'), audited: true };
     }
     console.warn(`🖼️ [Capa] ${audit.note}. Substituindo pelo banco da categoria.`);
   }
@@ -546,7 +564,7 @@ async function pickArticleImage(candidate, meta) {
   ])];
   if (!gallery.length) {
     console.warn('🖼️ [Capa] Banco da categoria vazio; usando o asset do repositório.');
-    return REPO_FALLBACK_COVER;
+    return { url: REPO_FALLBACK_COVER, audited: false };
   }
 
   // Ordena o banco pela foto usada há mais tempo (distribui melhor o acervo) e
@@ -570,7 +588,7 @@ async function pickArticleImage(candidate, meta) {
   if (audit.url) {
     const chosenId = getPhotoId(audit.url);
     if (chosenId) meta.usedPhotoIds.add(chosenId);
-    return audit.url.replace('fit=crop', 'fit=max');
+    return { url: audit.url.replace('fit=crop', 'fit=max'), audited: true };
   }
   // Banco reprovado quase sempre quer dizer rede indisponível no executor, e não
   // banco ruim. Devolver a capa do feed seria publicar exatamente o banner que a
@@ -582,7 +600,7 @@ async function pickArticleImage(candidate, meta) {
   console.warn(`🖼️ [Capa] Sem capa auditável na rede; publicando com ${lastResort ? 'foto homologada livre (sem medir)' : 'asset do repositório'}.`);
   const chosenId = getPhotoId(chosen);
   if (chosenId) meta.usedPhotoIds.add(chosenId);
-  return chosen.replace('fit=crop', 'fit=max');
+  return { url: chosen.replace('fit=crop', 'fit=max'), audited: false };
 }
 
 // -----------------------------------------------------------------------------
@@ -663,11 +681,131 @@ function appendToPublishedArchive(article) {
 // -----------------------------------------------------------------------------
 // Publicação
 // -----------------------------------------------------------------------------
+
+// Turno editorial em horário de Brasília: a madrugada é de quem abre o site antes
+// do almoço, a tarde é de quem volta depois. UM coroamento por turno — sem esse
+// teto, com runs a cada 2-4h e a maioria das matérias acima de 88, a capa trocava
+// ~6,5 vezes ao dia e quase nada sobrava para o feed.
+const TURNO_LIMITE_BRT = 14;
+const BRT_OFFSET_MS = -3 * 3_600_000;
+
+export function turnoKey(ms) {
+  const brt = new Date(ms + BRT_OFFSET_MS);
+  const dia = brt.toISOString().slice(0, 10);
+  return `${dia}:${brt.getUTCHours() < TURNO_LIMITE_BRT ? 'manha' : 'tarde'}`;
+}
+
+// Uma leitura de tempo só (o parser do motor de decaimento), mas com PRECISÃO TOTAL:
+// hoursElapsed vem arredondado a 0,1h e recuar 3 min uma coroação das 14h01 para as
+// 13h58 reabre o turno da tarde e rende a terceira capa do dia.
+function idadeCapaMs(hero, now = Date.now()) {
+  return Math.max(0, now - resolvePublishedTimestamp(hero, now));
+}
+
+// A capa está livre para ser trocada neste ciclo? Pino manual do editor nunca libera.
+export function coverTurnoLivre(hero, now = Date.now()) {
+  if (!hero) return true;
+  if (hero.is_pinned_hero || hero.isPinnedHero) return false;
+  return turnoKey(now - idadeCapaMs(hero, now)) !== turnoKey(now);
+}
+
+// A capa vigente é uma só para as duas decisões do ciclo. Antes, o veredito de publicação
+// lia o Supabase e a decisão ANTERIOR (este ciclo é de capa?) lia o mockData.js: com o
+// pino manual feito no painel, as duas discordavam e a melhor pauta do dia era reservada
+// para uma capa que o veredito depois recusava.
+async function capaVivaDoAr(supabaseClient) {
+  if (supabaseClient) {
+    try {
+      const { data, error } = await supabaseClient
+        .from('articles')
+        .select('*')
+        .eq('is_hero', true)
+        .order('published_at', { ascending: false })
+        .limit(1)
+        .maybeSingle();
+      if (error) throw error;
+      if (data) return data;
+    } catch (err) {
+      console.warn(`⚠️ [Capa] Supabase indisponível para a leitura da capa (${err.message}): decide o acervo local.`);
+    }
+  }
+  return ARTICLES.find(a => a.isHero || a.is_hero) || null;
+}
+
+// Decide ANTES de escrever se este ciclo é um ciclo de capa, com a capa que o leitor vê.
+// As MESMAS travas do veredito (turno + intervalo mínimo de 2h): sem a segunda, um alarme
+// logo depois de uma coroação reservava a maior pauta do dia para uma capa que o veredito
+// recusava em seguida, e a pauta queimava no feed.
+export function capaLivreParaCoroar(hero, now = Date.now()) {
+  if (!coverTurnoLivre(hero, now)) return false;
+  // Sem capa vigente não há o que esperar: o intervalo entre coroações só se aplica a quem
+  // já foi coroada, e a home não pode ficar sem rosto por causa dele.
+  if (!hero) return true;
+  return idadeCapaMs(hero, now) >= CAPA_MIN_GAP_MS;
+}
+
+async function coverIsDue(supabaseClient) {
+  return capaLivreParaCoroar(await capaVivaDoAr(supabaseClient));
+}
+
+// Jitter de publicação (parece orgânico) tem uma armação embutida: a regra de capa lê
+// publishedAt para saber em que turno a coroação aconteceu. Recuar 15 minutos um alarme
+// das 14h10 grava 13h58 = turno manha, deixa a tarde aberta e rende 3 capas no dia.
+// Então o jitter só vale dentro do turno do instante real; atravessar a fronteira não.
+export function jitteredPublishTime(nowMs = Date.now()) {
+  const recuado = nowMs - (Math.floor(Math.random() * 15) + 1) * 60_000;
+  return turnoKey(recuado) === turnoKey(nowMs) ? recuado : nowMs;
+}
+
+// Veredito da capa em função separada: é a decisão que define a cara do site, e
+// o que se testa aqui é o código que roda no executor, não uma cópia dele.
+export function decideCoverPromotion({ finalScore, capaAnalysis, coverAudited, pinned, turnoLivre, idadeCapaMs = null, floorDraft = false }, cfg = {}) {
+  const capaMaxAge = Number.isFinite(cfg.capaMaxAgeHours) ? cfg.capaMaxAgeHours : CAPA_MAX_AGE_HOURS;
+  const capaMinScore = Number.isFinite(cfg.capaMinScore) ? cfg.capaMinScore : CAPA_MIN_SCORE;
+
+  if (pinned) {
+    return { isHero: false, capaVelha: false, piso: null, motivo: 'capa fixada manualmente pelo editor' };
+  }
+  // Rascunho escrito sem IA é o piso de feed: nunca disputa a capa. Não dá para resolver
+  // por nota, porque finalScore sai de Math.max(nota do rascunho, nota da pauta) e a nota
+  // da pauta (82–85) atropela os 79 pts marcados no rascunho.
+  if (floorDraft) {
+    return { isHero: false, capaVelha: false, piso: null, motivo: 'rascunho determinístico sem IA, publicado apenas no feed' };
+  }
+  if (!turnoLivre) {
+    return { isHero: false, capaVelha: false, piso: null, motivo: 'a capa deste turno já foi escolhida' };
+  }
+  // Piso de 2h entre coroações: dispara quando o editor roda o ciclo à mão (workflow_dispatch
+  // ou workflow_run do Scout) logo depois de uma capa recém-escolhida. A cota de turno cuida
+  // dos alarmes; este guarda o intervalo entre dois gatilhos do mesmo turno.
+  if (Number.isFinite(idadeCapaMs) && idadeCapaMs < CAPA_MIN_GAP_MS) {
+    return { isHero: false, capaVelha: false, piso: null, motivo: `capa coroada há ${(idadeCapaMs / 3_600_000).toFixed(1)}h (mínimo 2h)` };
+  }
+  // Último consumidor do hoursElapsed arredondado a 0,1h: com ele, uma capa de 7h58m20s
+  // vira "8,0h" e o piso cai para 80 pts até 3 minutos antes da hora. A idade exata já
+  // foi medida acima para o gap de 2h; aqui ela é a mesma leitura, não uma segunda conta.
+  const idadeMs = Number.isFinite(idadeCapaMs) ? idadeCapaMs : capaAnalysis.hoursElapsed * 3_600_000;
+  const capaVelha = idadeMs >= capaMaxAge * 3_600_000;
+  const piso = capaVelha ? capaMinScore : MIN_HERO_PRESTIGE_SCORE;
+  if (!coverAudited) {
+    return { isHero: false, capaVelha, piso, motivo: 'imagem não foi medida neste ciclo (sem rede no executor)' };
+  }
+  if (finalScore < piso) {
+    return { isHero: false, capaVelha, piso, motivo: `nota ${finalScore} abaixo do piso ${piso}` };
+  }
+  if (finalScore <= capaAnalysis.currentWeight) {
+    return { isHero: false, capaVelha, piso, motivo: `capa vigente ainda pesa ${capaAnalysis.currentWeight} pts` };
+  }
+  return { isHero: true, capaVelha, piso, motivo: `capa por mérito (${finalScore} > ${capaAnalysis.currentWeight})` };
+}
+
 async function publishArticle(articleData, candidate, meta, supabaseClient) {
   console.log(`✓ Ensaio Concluído: "${articleData.title}"`);
   console.log(`✓ Autor: ${articleData.authorName || candidate.authorSlug} (${articleData.authorSlug || candidate.authorSlug})`);
 
-  const finalScore = Math.max(Number(articleData.rankingScore) || 94, candidate.score || 94);
+  // Sem 94 inventado: rascunho que volta sem nota herda a nota da pauta, e não um valor
+  // que fica acima do piso de capa (88) e coroa por mérito um texto que ninguém avaliou.
+  const finalScore = Math.max(Number(articleData.rankingScore) || 0, Number(candidate.score) || 0);
   console.log(`✓ Nota Geral Consolidada: ${finalScore} pts | Badge: ${articleData.badge || 'EDITORIAL VIP'}`);
 
   let slug = String(articleData.slug || slugify(articleData.title)).trim().replace(/^-+|-+$/g, '');
@@ -680,46 +818,52 @@ async function publishArticle(articleData, candidate, meta, supabaseClient) {
   }
   slug = uniqueSlug;
 
-  // Jitter temporal para parecer orgânico (espalhamento em janela de até 15 minutos)
-  const publishDate = new Date();
-  const randomJitterMinutes = Math.floor(Math.random() * 15) + 1;
-  publishDate.setMinutes(publishDate.getMinutes() - randomJitterMinutes);
-  const publishedAt = publishDate.toISOString();
+  // Jitter temporal para parecer orgânico, dentro do turno (ver jitteredPublishTime).
   const now = new Date();
+  const publishDate = new Date(jitteredPublishTime(now.getTime()));
+  const publishedAt = publishDate.toISOString();
   const formattedDate = now.toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' });
   const articleId = `art-${slug.slice(0, 32)}-${Date.now().toString().slice(-4)}`;
 
-  // Avaliação de Gravidade da Capa (meia-vida de 24h)
-  let currentHero = ARTICLES.find(a => a.isHero || a.is_hero) || null;
-  if (supabaseClient) {
-    try {
-      const { data: heroData } = await supabaseClient
-        .from('articles')
-        .select('*')
-        .eq('is_hero', true)
-        .maybeSingle();
-      if (heroData) currentHero = heroData;
-    } catch {
-      // Fallback para a capa local
-    }
-  }
+  // Avaliação de Gravidade da Capa (meia-vida de 24h) — a MESMA capa que decidiu o turno
+  // acima: uma leitura só, com o pino manual e o publishedAt que a home renderiza.
+  const currentHero = await capaVivaDoAr(supabaseClient);
+
+  // A imagem é escolhida ANTES do veredito: coroar também é uma promessa visual, e
+  // uma capa que não chegou a ser medida (rede fora do ar no executor) não pode
+  // virar a cara do site só porque a nota passou.
+  const cover = await pickArticleImage(candidate, meta);
+
+  // Dois sinais de "este texto não foi escrito por IA": a flag do ciclo que publicou o
+  // piso determinístico e o engineSource gravado pelo gerador. Basta um para travar a capa.
+  const floorDraft = Boolean(articleData.floorDraft) || articleData.engineSource === 'local-synthesizer';
 
   let isHero = false;
   if (currentHero) {
-    if (currentHero.is_pinned_hero || currentHero.isPinnedHero) {
-      console.log('📌 A Capa atual está FIXADA MANUALMENTE pelo editor. Nova matéria publicada no Feed Geral.');
-      isHero = false;
-    } else {
-      const capaAnalysis = calculateCapaWeight(currentHero);
-      console.log('\n⚖️  [Julgamento da Capa]:');
-      console.log(`   Capa Vigente: "${(currentHero.title || '').slice(0, 35)}..."`);
-      console.log(`   Peso Atual: ${Math.round(capaAnalysis.currentWeight)} pts (${capaAnalysis.hoursElapsed.toFixed(1)}h no ar, Base: ${capaAnalysis.baseScore} pts)`);
-      console.log(`   Nota da Nova Matéria: ${finalScore} pts`);
-      isHero = finalScore >= 88 && finalScore > capaAnalysis.currentWeight;
-      console.log(`   ${isHero ? '👑 VEREDITO: PROMOVIDA A CAPA PRINCIPAL (Hero).' : '📰 VEREDITO: alocada no Feed Geral de Destaques.'}`);
+    const capaAnalysis = calculateCapaWeight(currentHero);
+    const veredito = decideCoverPromotion({
+      finalScore,
+      capaAnalysis,
+      coverAudited: cover.audited,
+      pinned: Boolean(currentHero.is_pinned_hero || currentHero.isPinnedHero),
+      turnoLivre: coverTurnoLivre(currentHero),
+      idadeCapaMs: idadeCapaMs(currentHero),
+      floorDraft
+    });
+    isHero = veredito.isHero;
+    if (!isHero && veredito.motivo.startsWith('imagem')) {
+      console.warn('::warning::Capa bloqueada só pela medição da imagem neste ciclo.');
     }
+    console.log('\n⚖️  [Julgamento da Capa]:');
+    console.log(`   Capa Vigente: "${(currentHero.title || '').slice(0, 35)}..."`);
+    console.log(`   Peso Atual: ${Math.round(capaAnalysis.currentWeight)} pts (${capaAnalysis.hoursElapsed.toFixed(1)}h no ar, Base: ${capaAnalysis.baseScore} pts)`);
+    console.log(`   Nota da Nova Matéria: ${finalScore} pts · piso deste ciclo: ${veredito.piso === null ? 'n/a' : `${veredito.piso} pts`}${veredito.capaVelha ? ' (capa velha)' : ''}`);
+    console.log(`   ${isHero ? '👑 VEREDITO: PROMOVIDA A CAPA PRINCIPAL (Hero)' : '📰 VEREDITO: alocada no Feed Geral de Destaques'} — ${veredito.motivo}.`);
   } else {
-    isHero = finalScore >= 88;
+    // Sem capa no acervo a home não fica sem rosto (feedPolicy cai em list[0]), mas
+    // fica sem selo de Destaque. Image não medida não vira rosto do site aqui tampoco,
+    // e rascunho sem IA jamais abre a cara da revista.
+    isHero = cover.audited && !floorDraft && finalScore >= MIN_HERO_PRESTIGE_SCORE;
   }
 
   const categorySlug = candidate.categorySlug || articleData.categorySlug || 'supercarros';
@@ -734,11 +878,16 @@ async function publishArticle(articleData, candidate, meta, supabaseClient) {
     authorSlug: candidate.authorSlug || articleData.authorSlug,
     author_slug: candidate.authorSlug || articleData.authorSlug,
     type: 'article',
-    badge: isHero ? 'DESTAQUE MUNDIAL' : (articleData.badge || 'EDITORIAL VIP'),
+    // O selo é o ÚNICO sinal que sobrevive à home Supabase-first (o payload do banco não
+    // leva engineSource), então é aqui que o leitor descobre que a matéria não passou por
+    // modelo nenhum. Rascunho de piso nunca é capa, por isso a checagem vem antes.
+    badge: floorDraft
+      ? FLOOR_DRAFT_BADGE
+      : (isHero ? 'DESTAQUE MUNDIAL' : (articleData.badge || 'EDITORIAL VIP')),
     date: formattedDate,
     readTime: articleData.readTime || '5 min de leitura',
     read_time: articleData.readTime || '5 min de leitura',
-    image: await pickArticleImage(candidate, meta),
+    image: cover.url,
     imageFocus: candidate.pauta?.imageFocus || (categorySlug === 'supercarros' ? 'bottom' : 'center'),
     image_focus: candidate.pauta?.imageFocus || (categorySlug === 'supercarros' ? 'bottom' : 'center'),
     excerpt: articleData.excerpt,
@@ -754,6 +903,7 @@ async function publishArticle(articleData, candidate, meta, supabaseClient) {
     is_pinned_hero: false,
     rankingScore: finalScore,
     ranking_score: finalScore,
+    engineSource: articleData.engineSource || 'desconhecido',
     publishedAt,
     published_at: publishedAt,
     sourceUrl: candidate.sourceUrl,
@@ -928,8 +1078,13 @@ async function runPublicationCycle() {
 
     const meta = await getExistingArticlesMetadata(supabaseClient);
 
+    // O veredito de capa é calculado ANTES do intervalo mínimo. Os alarmes de capa
+    // ficam a 1h30–1h50 um do outro: um gate de 2h acima dessa decisão mataria
+    // justamente as duas coroações do dia, que são o objetivo da mudança.
+    const cicloDeCapa = await coverIsDue(supabaseClient);
+
     // Intervalo mínimo entre publicações (0 = desativado)
-    if (MIN_PUBLICATION_INTERVAL_HOURS > 0 && meta.latestPublishedAt) {
+    if (MIN_PUBLICATION_INTERVAL_HOURS > 0 && meta.latestPublishedAt && !cicloDeCapa) {
       const elapsedHours = (Date.now() - meta.latestPublishedAt) / 3_600_000;
       if (elapsedHours < MIN_PUBLICATION_INTERVAL_HOURS) {
         announceNoPublication(`intervalo mínimo de ${MIN_PUBLICATION_INTERVAL_HOURS}h não atingido (última publicação há ${elapsedHours.toFixed(1)}h)`);
@@ -945,10 +1100,17 @@ async function runPublicationCycle() {
     expiredKeys.forEach(key => statusUpdates.set(key, 'expired'));
     rejectedKeys.forEach(key => statusUpdates.set(key, 'rejected'));
 
-    const attempts = [
-      ...queueCandidates.map(candidate => ({ candidate, fromQueue: true, queueItem: queue.find(item => item.pautaId === candidate.key) })),
-      ...candidates.slice(0, MAX_CANDIDATES).map(candidate => ({ candidate, fromQueue: false, queueItem: null }))
-    ];
+    const freshAttempts = candidates.slice(0, MAX_CANDIDATES)
+      .map(candidate => ({ candidate, fromQueue: false, queueItem: null }));
+    const queueAttempts = queueCandidates
+      .map(candidate => ({ candidate, fromQueue: true, queueItem: queue.find(item => item.pautaId === candidate.key) }));
+
+    // O pool já vem ordenado por nota. Em ciclo de capa a melhor pauta escreve
+    // PRIMEIRO: a matéria que nasce aqui é a que vira a cara do site, e a fila de
+    // retry (que costuma ser a de menor nota) não pode furar essa fila.
+    const attempts = cicloDeCapa
+      ? [...freshAttempts, ...queueAttempts]
+      : [...queueAttempts, ...freshAttempts];
 
     if (!attempts.length) {
       announceNoPublication('nenhuma pauta inédita disponível (fila vazia, acervo todo publicado ou pautas expiradas)');
@@ -969,9 +1131,11 @@ async function runPublicationCycle() {
 
     let published = null;
     let generatedAttempts = 0;
+    let frescasBloqueadas = false;
 
     for (const attempt of attempts) {
       const { candidate, fromQueue, queueItem } = attempt;
+      if (frescasBloqueadas && !fromQueue) continue;
       console.log(`\n🖋️  [Redação] Tentando ${fromQueue ? 'fila de retry' : 'candidata fresca'}: "${candidate.hook.slice(0, 70)}..."`);
 
       let articleData;
@@ -985,14 +1149,30 @@ async function runPublicationCycle() {
       }
       generatedAttempts += 1;
 
-      if (articleData.needsRegeneration || articleData.generationStatus === 'fallback_pending' || articleData.generationStatus === 'error') {
+      const semIA = articleData.needsRegeneration
+        || articleData.generationStatus === 'fallback_pending'
+        || articleData.generationStatus === 'error';
+
+      // O sintetizador determinístico redige a matéria inteira sem nenhuma IA. Descartá-la
+      // deixava o site sem publicação em todo apagão do Gemini tendo texto pronto em mãos.
+      const temPisoPublicável = articleData.engineSource === 'local-synthesizer'
+        && Array.isArray(articleData.contentParagraphs)
+        && articleData.contentParagraphs.length >= 4;
+
+      if (semIA && temPisoPublicável) {
+        // Trava explícita de capa: baixar a nota não bastava, porque finalScore é
+        // Math.max(nota do rascunho, nota da pauta) e a pauta (82–85) atropelava o rascunho.
+        articleData.floorDraft = true;
+        console.warn('🩹 [Piso] IA indisponível: publicando o texto determinístico no feed, sem disputar a capa.');
+      } else if (semIA) {
         if (fromQueue) {
           registerQueueFailure(queueItem);
           continue;
         }
         enqueueForRegeneration(candidate, promptForCandidate(candidate));
         console.warn('⚠️ Gemini indisponível: pauta enfileirada para regeneração. Encerrando as tentativas frescas deste ciclo.');
-        break;
+        frescasBloqueadas = true;
+        continue;
       }
 
       const conflict = findPublicationConflict(articleData, candidate, meta);
@@ -1028,4 +1208,12 @@ async function runPublicationCycle() {
   }
 }
 
-runPublicationCycle();
+// Só executa quando chamado como script. Sem essa trava, importar o módulo para
+// testar a regra da capa dispararia uma publicação real (Gemini + gravação em main).
+if (process.argv[1] && path.resolve(process.argv[1]) === __filename) {
+  runPublicationCycle();
+} else if (process.env.GITHUB_ACTIONS) {
+  // Modo de falha a evitar: job verde sem publicação porque o loader não reconheceu
+  // o caminho do script (symlink no runner). Sem isto, o passo morre calado.
+  console.warn('::warning::autonomousCrawler.js foi carregado como biblioteca; nenhum ciclo executado.');
+}

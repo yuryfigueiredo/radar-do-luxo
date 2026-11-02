@@ -140,6 +140,37 @@ export function calculateEditorialScore(item) {
 }
 
 /**
+ * Resolve o instante de publicação de um artigo com precisão de milissegundo,
+ * aceitando publishedAt (mockData), published_at/created_at (Supabase) e a data
+ * escrita em português. Sem este parser único, capa e turno discutiriam que horas são.
+ */
+export function resolvePublishedTimestamp(article, now = Date.now()) {
+  const candidatos = [article?.publishedAt, article?.published_at, article?.createdAt, article?.created_at];
+  for (const valor of candidatos) {
+    if (!valor) continue;
+    const ms = new Date(valor).getTime();
+    if (!Number.isNaN(ms)) return ms;
+  }
+  if (article?.date && typeof article.date === 'string') {
+    const months = {
+      janeiro: 0, fevereiro: 1, marco: 2, março: 2, abril: 3, maio: 4, junho: 5,
+      julho: 6, agosto: 7, setembro: 8, outubro: 9, novembro: 10, dezembro: 11
+    };
+    const parts = article.date.toLowerCase().replace(/de /g, '').split(' ');
+    if (parts.length >= 3) {
+      const day = parseInt(parts[0], 10);
+      const month = months[parts[1]] !== undefined ? months[parts[1]] : 0;
+      const year = parseInt(parts[2], 10);
+      if (!isNaN(day) && !isNaN(year)) {
+        return new Date(year, month, day).getTime();
+      }
+    }
+  }
+  // Sem nenhuma data legível: assume 4h no ar, como sempre assumiu.
+  return now - 4 * 3600 * 1000;
+}
+
+/**
  * Calcula o peso dinâmico de capa de um artigo baseado em seu score e horas no ar
  * Fórmula de Decaimento: Peso da Capa = Score Base / (Horas no Ar + 2)^1.3
  */
@@ -158,29 +189,7 @@ export function calculateCapaWeight(article, now = Date.now()) {
     };
   }
 
-  // Determina a data de publicação de forma segura (suportando datas em português)
-  let publishedTimestamp = now - 4 * 3600 * 1000;
-  if (article.publishedAt && !isNaN(new Date(article.publishedAt).getTime())) {
-    publishedTimestamp = new Date(article.publishedAt).getTime();
-  } else if (article.published_at && !isNaN(new Date(article.published_at).getTime())) {
-    publishedTimestamp = new Date(article.published_at).getTime();
-  } else if (article.createdAt && !isNaN(new Date(article.createdAt).getTime())) {
-    publishedTimestamp = new Date(article.createdAt).getTime();
-  } else if (article.date && typeof article.date === 'string') {
-    const months = {
-      janeiro: 0, fevereiro: 1, marco: 2, março: 2, abril: 3, maio: 4, junho: 5,
-      julho: 6, agosto: 7, setembro: 8, outubro: 9, novembro: 10, dezembro: 11
-    };
-    const parts = article.date.toLowerCase().replace(/de /g, '').split(' ');
-    if (parts.length >= 3) {
-      const day = parseInt(parts[0], 10);
-      const month = months[parts[1]] !== undefined ? months[parts[1]] : 0;
-      const year = parseInt(parts[2], 10);
-      if (!isNaN(day) && !isNaN(year)) {
-        publishedTimestamp = new Date(year, month, day).getTime();
-      }
-    }
-  }
+  const publishedTimestamp = resolvePublishedTimestamp(article, now);
 
   const diffMs = Math.max(0, now - publishedTimestamp);
   const hoursElapsed = diffMs / (3600 * 1000);

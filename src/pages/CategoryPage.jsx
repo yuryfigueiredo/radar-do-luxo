@@ -13,7 +13,7 @@ import {
 } from 'lucide-react';
 import { CATEGORIES, ARTICLES, AUTHORS } from '../data/mockData';
 import { fetchArticles } from '../services/radarService';
-import { publishedArticles } from '../services/feedPolicy';
+import { publishedArticles, isFloorDraft } from '../services/feedPolicy';
 
 export default function CategoryPage({ onQuickView }) {
   const { slug } = useParams();
@@ -185,7 +185,9 @@ export default function CategoryPage({ onQuickView }) {
 
                     {/* Badge */}
                     <div className="absolute top-3 left-3 flex items-center gap-2">
-                      <span className="bg-lux-gold text-black text-[9px] font-bold tracking-widest uppercase px-2.5 py-1 rounded shadow">
+                      <span className={`${isFloorDraft(item)
+                        ? 'bg-black/70 backdrop-blur-md text-white'
+                        : 'bg-lux-gold text-black'} text-[9px] font-bold tracking-widest uppercase px-2.5 py-1 rounded shadow`}>
                         {item.badge || item.category}
                       </span>
                       {item.type === 'video' && (

@@ -2,15 +2,34 @@ name: 💎 Radar do Luxo — Publicação Editorial Autônoma
 
 on:
   schedule:
-    # Publicação Diária Autônoma em 4 Janelas Estratégicas (Horário de Brasília: UTC-3):
-    # - 07h15 BRT (10h15 UTC): Matéria matinal logo após o Scout das 06h30
-    - cron: '15 10 * * *'
-    # - 12h15 BRT (15h15 UTC): Matéria nobre do almoço
-    - cron: '15 15 * * *'
-    # - 16h15 BRT (19h15 UTC): Matéria vespertina logo após o Scout das 15h30
-    - cron: '15 19 * * *'
-    # - 20h30 BRT (23h30 UTC): Matéria noturna de fechamento
-    - cron: '30 23 * * *'
+    # BRT = UTC−3, então o alarme é a hora de Brasília MAIS 3 em UTC. O atraso do
+    # agendador (mediano 3h10, máx 7h41 em 43 runs) NÃO é compensado aqui: ele é
+    # absorvido pela cota de turno no código, que decide por ESTADO e não por relógio.
+    # O que importa é cada alarme nascer DENTRO do turno que quer coroar — um alarme
+    # pré-compensado cai no turno errado justamente nos dias em que o GitHub dispara
+    # cedo (21% dos casos chegam com menos de 1h de atraso).
+    #
+    # ── CAPA DA MADRUGADA (turno manha) ───────────────────────────────────────
+    # 00h20 BRT. Com atraso mediano chega ~03h30 BRT: quem abrir o site de manhã
+    # encontra cara nova, e sem atraso ainda é madrugada.
+    - cron: '20 3 * * *'
+    # Reserva 01h50 BRT — dispara DEPOIS do principal. Se o turno ainda está livre,
+    # ela coroa a capa; se o principal já coroou, vira mais uma matéria no feed.
+    - cron: '50 4 * * *'
+    #
+    # ── FEED DURANTE O DIA ────────────────────────────────────────────────────
+    - cron: '20 11 * * *'   # 08h20 BRT
+    - cron: '20 15 * * *'   # 12h20 BRT
+    #
+    # ── CAPA DA TARDE (turno tarde, que abre às 14h BRT) ──────────────────────
+    # 14h10 BRT. Com atraso mediano chega ~17h20 BRT.
+    - cron: '10 17 * * *'
+    # Reserva 15h40 BRT.
+    - cron: '40 18 * * *'
+    #
+    # ── FEED DA NOITE E FECHAMENTO ────────────────────────────────────────────
+    - cron: '20 22 * * *'   # 19h20 BRT
+    - cron: '30 1 * * *'    # 22h30 BRT
   # Também dispara imediatamente quando o Scout de Pautas é concluído com sucesso:
   workflow_run:
     workflows: ["🌐 Radar do Luxo — Scout & Curadoria Global de Pautas (Pré-Postagem)"]
@@ -18,6 +37,9 @@ on:
   # Permite acionamento manual a qualquer momento no GitHub ou via terminal:
   workflow_dispatch:
 
+# Scout e crawler DISPUTAM o mesmo grupo de propósito: os dois escrevem em main e o
+# push do segundo falharia se os dois corressem juntos. Enfileirar custa um ciclo
+# ocasional, e os alarmes reserva acima absorvem exatamente esse custo.
 concurrency:
   group: radar-editorial-${{ github.ref }}
   cancel-in-progress: false
@@ -26,7 +48,10 @@ jobs:
   autonomous-editorial-cycle:
     if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    # 15 min: a cadeia de redação tem teto de 60s por caminhada e um ciclo chega a escrever
+    # 6 matérias (4 frescas + 2 da fila). Com o teto antigo de 10 min o job podia morrer no
+    # meio das tentativas e o passo de commit nunca rodar — matéria escrita e perdida.
+    timeout-minutes: 15
     permissions:
       contents: write
 
@@ -50,6 +75,24 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY || secrets.VITE_GEMINI_API_KEY }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL || secrets.VITE_SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY || secrets.VITE_SUPABASE_ANON_KEY }}
+          # Sem trava de tempo entre ciclos. Cada alarme é uma matéria nova e o pool já
+          # deduplica pauta. A simulação com o atraso real do agendador mede o preço da
+          # trava: 2h derrubam de 8,01 publicações/dia para 5,32 — o feed de 6 para 3,
+          # abaixo das 5 pedidas. A proteção contra repetição é editorial, não de relógio.
+          MIN_PUBLICATION_INTERVAL_HOURS: '0'
+          # Capa com mais de 8h no ar derruba o piso de coroação de 88 para 80 pts.
+          # Entre duas coroações há ainda um piso fixo de 2h, no código do executor.
+          CAPA_MAX_AGE_HOURS: '8'
+          CAPA_MIN_SCORE: '80'
+          # degraus de fallback DEPOIS da camada Google. Sem esses secrets a cadeia é
+          # exatamente a de sempre (3 modelos Google + sintetizador local), então adicionar
+          # aqui é opcional e nunca muda o comportamento atual. Formato:
+          #   AI_MODEL_CHAIN = [{"protocol":"openai","model":"x/y","base":"https://host/v1","key":"..."}]
+          # base/key também podem vir de AI_OPENAI_BASE_URL / AI_OPENAI_API_KEY para todos os hops.
+          # RESTREITO A SECRETS, NUNCA VARIABLES: o base URL é um endpoint que leva Bearer token.
+          AI_MODEL_CHAIN: ${{ secrets.AI_MODEL_CHAIN }}
+          AI_OPENAI_BASE_URL: ${{ secrets.AI_OPENAI_BASE_URL }}
+          AI_OPENAI_API_KEY: ${{ secrets.AI_OPENAI_API_KEY }}
         run: node scripts/autonomousCrawler.js
 
       - name: 💾 Publicar atualizações de acervo no GitHub e Vercel

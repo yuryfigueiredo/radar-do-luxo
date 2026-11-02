@@ -27,3 +27,4 @@ Thumbs.db
 
 # Temporary / Scratch
 scripts/inspect_photos.py
+.audit/
