@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-sothebys-royal-noble-jewels-gene-3079",
+    "slug": "sothebys-royal-noble-jewels-geneva-2026-a-colecao-de-diamantes-historicos-de-18-quilates-com-proveniencia-dinastica-comprovada-3072",
+    "title": "Sotheby's Royal & Noble Jewels Geneva 2026: A Coleção de Diamantes Históricos de 18 Quilates com Proveniência Dinástica Comprovada",
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZzNwQmNHelViT3ZYQmh5SXVLTjN1M0JpTmh3aGhQa0phdVlMRm44UXE1YUhBUnhUd0FOVFpZMkdfeXBmSENNQ2U0Smg3T1p2REFrNFBrTG1KSkJJQ3ZTZnFKNGppakUtekNGRTI4TmlPMzhna0J5Y3RMUExyZ2NBOQ?oc=5",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "publishedAt": "2026-11-03T15:19:23.079Z"
+  },
+  {
     "id": "art-leilao-de-las-vegas-o-triunfo-ab-7309",
     "slug": "leilao-de-las-vegas-o-triunfo-absoluto-da-linhagem-ferrari-e-o-peso-indestrutivel-do-aco-forjado-em-maranello-6917",
     "title": "Leilão de Las Vegas: O Triunfo Absoluto da Linhagem Ferrari e o Peso Indestrutível do Aço Forjado em Maranello",

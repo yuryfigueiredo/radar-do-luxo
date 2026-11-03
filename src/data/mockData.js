@@ -116,6 +116,59 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-sothebys-royal-noble-jewels-gene-3079",
+    "slug": "sothebys-royal-noble-jewels-geneva-2026-a-colecao-de-diamantes-historicos-de-18-quilates-com-proveniencia-dinastica-comprovada-3072",
+    "title": "Sotheby's Royal & Noble Jewels Geneva 2026: A Coleção de Diamantes Históricos de 18 Quilates com Proveniência Dinástica Comprovada",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "03 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "O leilão da Sotheby's em Genebra expõe ao mercado de custódia fiduciária gemas soberanas, provando que o patrimônio imune transcende a volatilidade das moedas fiat.",
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Nas salas reservadas do Hôtel Beau-Rivage em Genebra, a Sotheby's cataloga fragmentos tangíveis de soberania política que resistiram a séculos de reconfigurações geopolíticas e erosão monetária.",
+      "Cada lote da Royal & Noble Jewels carrega uma linhagem documentada em arquivos imperiais. Não se trata de adorno efêmero, mas de refúgio de liquidez estruturado em esmeraldas colombianas sem óleo e diamantes Type IIa intocados pelo homem até o corte artesanal do século XVIII.",
+      "A custódia fiduciária dessas peças exige governança dinástica rigorosa. Compradores globais de family offices e fundações privadas disputam a imunidade temporal oferecida por ativos físicos cujos valores resistem a qualquer crise sistêmica.",
+      "O veredito desta curadoria é definitivo. Enquanto os mercados globais oscilam na superfície digital, o silêncio mineral destas gemas assegura a perpetuidade de fortunas multigeracionais."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Nas salas reservadas do Hôtel Beau-Rivage em Genebra, a Sotheby's cataloga fragmentos tangíveis de soberania política que resistiram a séculos de reconfigurações geopolíticas e erosão monetária.",
+      "Cada lote da Royal & Noble Jewels carrega uma linhagem documentada em arquivos imperiais. Não se trata de adorno efêmero, mas de refúgio de liquidez estruturado em esmeraldas colombianas sem óleo e diamantes Type IIa intocados pelo homem até o corte artesanal do século XVIII.",
+      "A custódia fiduciária dessas peças exige governança dinástica rigorosa. Compradores globais de family offices e fundações privadas disputam a imunidade temporal oferecida por ativos físicos cujos valores resistem a qualquer crise sistêmica.",
+      "O veredito desta curadoria é definitivo. Enquanto os mercados globais oscilam na superfície digital, o silêncio mineral destas gemas assegura a perpetuidade de fortunas multigeracionais."
+    ],
+    "specs": {
+      "Leiloeira": "Sotheby's Genebra",
+      "Evento": "Royal & Noble Jewels Sale 2026",
+      "Ativo Principal": "Diamante Type IIa de 18.4 Quilates",
+      "Proveniência": "Casa Ducal Europeia",
+      "Avaliação": "Sob consulta fiduciária estrita",
+      "Custódia": "Cofre Neutro em Genebra"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 92,
+    "ranking_score": 92,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-03T15:19:23.079Z",
+    "published_at": "2026-11-03T15:19:23.079Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZzNwQmNHelViT3ZYQmh5SXVLTjN1M0JpTmh3aGhQa0phdVlMRm44UXE1YUhBUnhUd0FOVFpZMkdfeXBmSENNQ2U0Smg3T1p2REFrNFBrTG1KSkJJQ3ZTZnFKNGppakUtekNGRTI4TmlPMzhna0J5Y3RMUExyZ2NBOQ?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZzNwQmNHelViT3ZYQmh5SXVLTjN1M0JpTmh3aGhQa0phdVlMRm44UXE1YUhBUnhUd0FOVFpZMkdfeXBmSENNQ2U0Smg3T1p2REFrNFBrTG1KSkJJQ3ZTZnFKNGppakUtekNGRTI4TmlPMzhna0J5Y3RMUExyZ2NBOQ?oc=5"
+  },
+  {
     "id": "art-leilao-de-las-vegas-o-triunfo-ab-7309",
     "slug": "leilao-de-las-vegas-o-triunfo-absoluto-da-linhagem-ferrari-e-o-peso-indestrutivel-do-aco-forjado-em-maranello-6917",
     "title": "Leilão de Las Vegas: O Triunfo Absoluto da Linhagem Ferrari e o Peso Indestrutível do Aço Forjado em Maranello",
@@ -1349,63 +1402,20 @@ export const ARTICLES = [
     "published_at": "2026-10-29T16:16:18.637Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNXzJERWdrUmYzOGRxZ0RkUnpZNS11R0RNd19zSEQxRVhwdlY0OERkUnJRU2NFT0R1V0VFNURZQ2Fzb3BtcW1sb0wxbnl3SUFZaHpMQVM1YUsyRE95bldhOGtaQkZzNWJURnhJajVid29ZWUhUTG5yRnlXb1RkQUlGbUctR0RXT0UtMC1LSVFVMWNCanRtWHNqZFlZLUc?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNXzJERWdrUmYzOGRxZ0RkUnpZNS11R0RNd19zSEQxRVhwdlY0OERkUnJRU2NFT0R1V0VFNURZQ2Fzb3BtcW1sb0wxbnl3SUFZaHpMQVM1YUsyRE95bldhOGtaQkZzNWJURnhJajVid29ZWUhUTG5yRnlXb1RkQUlGbUctR0RXT0UtMC1LSVFVMWNCanRtWHNqZFlZLUc?oc=5"
-  },
-  {
-    "id": "art-fp-journe-chronometre-bleu-a-rar-9385",
-    "slug": "fp-journe-chronometre-bleu-a-rara-caixa-de-tantalo-de-ponto-de-fusao-a-3000c-que-valorizou-400-no-mercado-secundario-9369",
-    "title": "F.P. Journe Chronomètre Bleu: A Rara Caixa de Tântalo de Ponto de Fusão a 3.000°C que Valorizou 400% no Mercado Secundário",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "category_slug": "relogios",
-    "authorSlug": "clara-meirelles",
-    "author_slug": "clara-meirelles",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "28 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "François-Paul Journe subjugou o metal mais intratável da tabela periódica para esculpir uma obra-prima de calibre mecânico puro e esmalte cromático absoluto.",
-    "contentParagraphs": [
-      "O tântalo não aceita a submissão comum. Suas propriedades físicas exigem temperaturas superiores a 3.000 graus Celsius para qualquer tentativa rudimentar de fundição, destruindo brocas de aço temperado e desafiando os mestres relojoeiros mais recalcitrantes. Na manufatura de Genebra, no entanto, a resistência da matéria-prima serve apenas como medida preliminar de valor. Nenhuma concessão foi feita à facilidade produtiva.",
-      "O mostrador exibe um azul espelhado profundo, obtido por camadas sucessivas aplicadas sobre uma base tratada à mão, criando reflexos cinza-azulado sob a luz natural da Vallée de Joux. Sob a tampa de safira bate o calibre de manufatura em ouro amarelo de 18 quilates, revelando pontes chanfradas e polidas com o tradicional sabugueiro silvestre. A espessura total permanece contida em exatos 8,6 milímetros de pura soberania mecânica.",
-      "Colecionadores discretos disputam cada exemplar remanescente em leilões fechados e mesas de negociação privada em Genebra. A escassez matemática imposta pela dificuldade intrínseca de usinagem do tântalo catapultou as cotações em quatro vezes o valor original de varejo. Não se trata de especulação efêmera, mas da consolidação de um ativo imune às oscilações do mercado financeiro tradicional.",
-      "A posse de um exemplar transcende a mera acumulação de bens. É o reconhecimento silencioso de que o tempo verdadeiro pertence apenas aos poucos que compreendem a paciência exigida pelo metal bruto. A precisão cronométrica atesta a soberania da alta-relojoaria independente contra a obsolescência programada do mundo contemporâneo."
-    ],
-    "content_paragraphs": [
-      "O tântalo não aceita a submissão comum. Suas propriedades físicas exigem temperaturas superiores a 3.000 graus Celsius para qualquer tentativa rudimentar de fundição, destruindo brocas de aço temperado e desafiando os mestres relojoeiros mais recalcitrantes. Na manufatura de Genebra, no entanto, a resistência da matéria-prima serve apenas como medida preliminar de valor. Nenhuma concessão foi feita à facilidade produtiva.",
-      "O mostrador exibe um azul espelhado profundo, obtido por camadas sucessivas aplicadas sobre uma base tratada à mão, criando reflexos cinza-azulado sob a luz natural da Vallée de Joux. Sob a tampa de safira bate o calibre de manufatura em ouro amarelo de 18 quilates, revelando pontes chanfradas e polidas com o tradicional sabugueiro silvestre. A espessura total permanece contida em exatos 8,6 milímetros de pura soberania mecânica.",
-      "Colecionadores discretos disputam cada exemplar remanescente em leilões fechados e mesas de negociação privada em Genebra. A escassez matemática imposta pela dificuldade intrínseca de usinagem do tântalo catapultou as cotações em quatro vezes o valor original de varejo. Não se trata de especulação efêmera, mas da consolidação de um ativo imune às oscilações do mercado financeiro tradicional.",
-      "A posse de um exemplar transcende a mera acumulação de bens. É o reconhecimento silencioso de que o tempo verdadeiro pertence apenas aos poucos que compreendem a paciência exigida pelo metal bruto. A precisão cronométrica atesta a soberania da alta-relojoaria independente contra a obsolescência programada do mundo contemporâneo."
-    ],
-    "specs": {
-      "Calibre": "Calibre 1304 de Manufatura em Ouro Amarelo de 18k",
-      "Material da Caixa": "Tântalo Puro com Acabamento Escovado e Polido",
-      "Diâmetro": "39 mm com Espessura de 8,6 mm",
-      "Mostrador": "Azul Espelhado com Numerais Arábicos Gravados",
-      "Reserva de Marcha": "56 horas com Barrilete Duplo"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 94,
-    "ranking_score": 94,
-    "publishedAt": "2026-10-28T23:03:59.385Z",
-    "published_at": "2026-10-28T23:03:59.385Z",
-    "sourceUrl": "https://www.hodinkee.com/articles/fp-journe-chronometre-bleu-hands-on",
-    "source_url": "https://www.hodinkee.com/articles/fp-journe-chronometre-bleu-hands-on"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "RELOGIOS",
+    "title": "Laurent Ferrier Grand Sport Tourbillon...",
+    "image": "https://monochrome-watches.com/app/uploads/2026/10/Laurent-Ferrier-Grand-Sport-Tourbillon-Iceberg-Titanium-review-8.jpg",
+    "tag": "CURADORIA RADAR",
+    "slug": "laurent-ferrier-grand-sport-tourbillon-iceberg-o-cronometro-de-titanio-grao-selado-de-44mm-com-tourbillon-de-duplo-balanco-inverso-7884"
+  },
+  {
+    "id": "film-2",
     "category": "ARQUITETURA",
     "title": "Houston Mansion: A Soberana Propriedad...",
     "image": "https://robbreport.com/wp-content/uploads/2026/10/2115-River-Oaks-Boulevard_Pavilion.jpg",
@@ -1413,7 +1423,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "houston-mansion-a-soberana-propriedade-neoclassica-de-219-milhoes-que-abrigou-o-barao-enrico-di-portanova-e-sua-piscina-de-vidro-monumental-8338"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "RELOGIOS",
     "title": "Girard-Perregaux Laureato Fifty Three ...",
     "image": "https://monochrome-watches.com/app/uploads/2026/10/Girard-Perragaux-Laureato-Fifty-Three-Gold-Bridges-permanent-collection-review-1.jpg",
@@ -1421,7 +1431,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "girard-perregaux-laureato-fifty-three-gold-bridges-a-trilogia-de-pontes-em-ouro-macico-forjada-na-vallee-de-joux-com-53-micrometros-de-tolerancia-7498"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "DESTINOS",
     "title": "Australian Superyachts: O Novo Santuár...",
     "image": "https://images.unsplash.com/photo-1783344422200-a5493824bcb9?auto=format&fit=max&q=85&w=1800",
@@ -1429,7 +1439,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "australian-superyachts-o-novo-santuario-naval-em-newport-que-redefine-a-hidrodinamica-oceanica-de-alta-performance-4461"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Alfa Romeo Tipo 33 Stradale: O Monstro...",
     "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=max&q=85&w=1800",
@@ -1437,20 +1447,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "alfa-romeo-tipo-33-stradale-o-monstro-v8-central-de-20-litros-forjado-em-aluminio-espacial-que-compartilha-a-alma-secreta-com-maranello-1443"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "ARQUITETURA",
     "title": "Diadema Romanov: O Tesouro Imperial de...",
     "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "diadema-romanov-o-tesouro-imperial-de-15-milhao-de-libras-que-desafia-a-volatilidade-das-bolsas-globais-1653"
-  },
-  {
-    "id": "film-6",
-    "category": "DESTINOS",
-    "title": "Superiate Omega Wellness 249: A Fortal...",
-    "image": "https://images.unsplash.com/photo-1781872324499-e51350ed640e?auto=format&fit=max&q=85&w=1800",
-    "tag": "CURADORIA RADAR",
-    "slug": "superiate-omega-wellness-249-a-fortaleza-flutuante-de-75-metros-com-camaras-criogenicas-e-monocoque-em-aluminio-naval-1665"
   }
 ];
 
