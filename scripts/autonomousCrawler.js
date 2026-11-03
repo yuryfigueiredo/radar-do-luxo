@@ -54,7 +54,7 @@ import { calculateEditorialScore, calculateCapaWeight, MIN_HERO_PRESTIGE_SCORE, 
 import { ARTICLES } from '../src/data/mockData.js';
 import { getPhotoId, sameStory, storyKey, slugify } from '../src/services/editorialDedupe.js';
 import { getFilmstripSelection, FILMSTRIP_LIMIT, FLOOR_DRAFT_BADGE, temMancheteForasteira, afirmacoesSemFonte as medirAfirmacoesSemFonte } from '../src/services/feedPolicy.js';
-import { resolveCoverImage, auditGalleryImages } from './coverImageAudit.js';
+import { resolveCoverImage, auditGalleryImages, SIZE_SUFFIX, AUDIT_BUDGET_MS } from './coverImageAudit.js';
 import { findNegativeTerm } from '../src/services/editorialFilters.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -140,6 +140,21 @@ const CAPA_MAX_AGE_HOURS = Math.max(1, envNumber('CAPA_MAX_AGE_HOURS', 8));
 // acontecem por disparo manual, e o jitter do publishedAt pode enganar a cota de turno.
 const CAPA_MIN_GAP_MS = 2 * 3_600_000;
 const MIN_PUBLICATION_INTERVAL_HOURS = Math.max(0, envNumber('MIN_PUBLICATION_INTERVAL_HOURS', 0));
+
+// Verticais medidas nesta worktree (aspecto < 1). O auditor de capa as reprova pela
+// dimensão quando há rede; aqui elas são barradas também sem medir, porque o degrau de
+// rede caída não tem régua nenhuma além do que já sabemos dos arquivos. São fotos boas
+// para o CORPO da matéria — continuam em HOMOLOGATED_IMAGES.
+const VERTICAIS_MEDIDAS = new Set([
+  'photo-1617814076367-b759c7d7e738',
+  'photo-1524805444758-089113d48a6d',
+  'photo-1547996160-81dfa63595aa',
+  'photo-1509042239860-f550ce710b93',
+  'photo-1600585154526-990dced4db0d',
+  'photo-1506929562872-bb421503ef21',
+  'photo-1535632066927-ab7c9ab60908',
+  'photo-1599643478518-a784e5dc4c8f'
+]);
 
 // Imagens de banco (genéricas) não identificam uma história: nunca bloqueiam publicação.
 const GENERIC_PHOTO_IDS = new Set();
@@ -449,6 +464,82 @@ function registrarDevolucao(key) {
 // -----------------------------------------------------------------------------
 // Memória editorial (arquivo permanente + acervo local + Supabase)
 // -----------------------------------------------------------------------------
+
+/**
+ * Chave que identifica A FOTOGRAFIA de uma matéria, não o arquivo dela. Para o
+ * Unsplash é o id da foto; para qualquer outra origem (asset do repositório,
+ * imagem do próprio veículo) vale o nome do arquivo SEM o sufixo de miniatura:
+ * `-600x237.jpg` e `.jpg` são a mesma fotografia, e contá-las como duas capas
+ * permitia publicar por cima de uma matéria visível. `getPhotoId` devolve vazio
+ * fora do Unsplash, e era por isso que duas matérias podiam sair com a mesma capa
+ * de jornal sem o robô perceber nada.
+ */
+export function fotoChave(url) {
+  const id = getPhotoId(url);
+  if (id) return id;
+  // O sufixo de tamanho sai ANTES de cortar a query: `a-600x237?crop=1` é a miniatura
+  // de `a.jpg`, e a alternativa `\?` do SIZE_SUFFIX só existe para esse formato. Cortar
+  // a query primeiro dava chave própria à miniatura e a foto escapava da guarda.
+  const semTamanho = String(url || '').replace(SIZE_SUFFIX, '').split('?')[0];
+  const semProtocolo = semTamanho.replace(/^[a-z][a-z0-9+.-]*:\/\//i, '');
+  const barra = semProtocolo.indexOf('/');
+  // Host sem caminho (`https://example.com`) não é arquivo: sem esta barra o host
+  // virava chave e duas fotografias diferentes dividiam a mesma entrada da tela.
+  if (barra < 0) return '';
+  const seg = semProtocolo.slice(barra + 1).split('/').pop().toLowerCase();
+  if (!seg) return '';
+  // O piso de 6 caracteres existe para não inventar chave a partir de um segmento que
+  // não é arquivo (`x`, `12`). O efeito colateral era descartar `a.jpg`: sem chave a
+  // foto nunca entra em tela, e a mesma fotografia local coroava duas matérias
+  // seguidas. Nome com extensão é arquivo, curto ou não; sem extensão só vale o longo.
+  return /\.[a-z0-9]{2,5}$/.test(seg) || seg.length > 6 ? seg : '';
+}
+
+/**
+ * O que proíbe repetir capa é a foto estar EM TELA, não ter existido um dia.
+ * O acervo permanente cresce para sempre e cada banco de categoria tem 12-14
+ * fotos: contando o acervo inteiro, o banco zerava em poucas semanas e o robô
+ * publicava por cima de uma capa visível — e o dedupeArticles do site derrubava
+ * uma das duas matérias em silêncio (foi assim que a Australian Superyachts
+ * sumiu do feed quando a Brabus herdou a foto dela).
+ *
+ * "Em tela" é o que aquela função do site vê, e isso depende da fonte:
+ *  - Supabase configurado e lido  -> as linhas dele (o site consulta sem limite)
+ *    ∪ o acervo local, que é o que aparece quando o banco não devolve nada;
+ *  - Supabase configurado e ilegível -> a tela é desconhecida: entra também o
+ *    acervo permanente. Errar para o conservador custa uma matéria sem coroa de
+ *    capa; errar para o outro lado apaga conteúdo do ar;
+ *  - Supabase não configurado (é o caso da produção hoje, medido no bundle
+ *    publicado em 2026-11-03) -> o acervo local, com a poda de MAX_ARTICLES,
+ *    que é literalmente a lista que o dedupe recebe.
+ */
+export function montarGuardaDeCapas({ articles = [], capasDoBanco = [], bancoLido = false, supabaseConfigurado = false, arquivo = [], pautas = [] }) {
+  const chaves = new Set();
+  const semear = (lista) => lista.forEach(r => {
+    const key = fotoChave(r && r.image);
+    if (key) chaves.add(key);
+  });
+  semear(articles);
+  // A imagem sugerida de uma pauta do pool também é tela: enquanto a persistência da
+  // matéria não chega, o link gerado pelo scout abre pela fallback de hotFeedsData.js
+  // (radarService.js :: getHotPautaFallback), que renderiza exatamente essa foto para
+  // quem a abriu de manhã. É o único caso em que a "tela" não é a lista de matérias —
+  // e é local, então vale nos três regimes acima, com ou sem Supabase.
+  pautas.forEach(pauta => {
+    const key = fotoChave(pauta && pauta.suggestedImage);
+    if (key) chaves.add(key);
+  });
+  if (bancoLido) {
+    semear(capasDoBanco);
+    return { chaves, conservador: false, descricao: `feed do Supabase (${capasDoBanco.length} linhas) + acervo local` };
+  }
+  if (supabaseConfigurado) {
+    semear(arquivo);
+    return { chaves, conservador: true, descricao: 'acervo local + permanente (Supabase ilegível)' };
+  }
+  return { chaves, conservador: false, descricao: 'acervo local (Supabase não configurado no site)' };
+}
+
 async function getExistingArticlesMetadata(supabaseClient) {
   const records = [];
   const seenSlugs = new Set();
@@ -469,26 +560,37 @@ async function getExistingArticlesMetadata(supabaseClient) {
     });
   };
 
+  // "Em tela" tem que ser o que o dedupeArticles do site realmente vê. Ele consulta
+  // a tabela inteira, sem limite — ler só as 500 mais novas deixaria uma capa antiga
+  // fora da guarda e a repetição voltaria a derrubar matéria.
+  let bancoLido = false;
+  const capasDoBanco = [];
   if (supabaseClient) {
     try {
-      const { data, error } = await supabaseClient
-        .from('articles')
-        .select('slug, title, image, category_slug, published_at')
-        .order('published_at', { ascending: false })
-        .limit(500);
-      if (error) throw error;
-      (data || []).forEach(row => addRecord({
-        slug: row.slug,
-        title: row.title,
-        image: row.image,
-        categorySlug: row.category_slug,
-        publishedAt: row.published_at
-      }));
+      const PAGINA = 1000;
+      for (let inicio = 0; inicio < 5 * PAGINA; inicio += PAGINA) {
+        const { data, error } = await supabaseClient
+          .from('articles')
+          .select('slug, title, image, category_slug, published_at')
+          .order('published_at', { ascending: false })
+          .range(inicio, inicio + PAGINA - 1);
+        if (error) throw error;
+        (data || []).forEach(row => capasDoBanco.push({
+          slug: row.slug,
+          title: row.title,
+          image: row.image,
+          categorySlug: row.category_slug,
+          publishedAt: row.published_at
+        }));
+        if (!data || data.length < PAGINA) break;
+      }
+      bancoLido = true;
     } catch (err) {
       console.warn(`⚠️ [Memória] Supabase indisponível para leitura (${err.message}). Usando arquivo + acervo local.`);
     }
   }
 
+  capasDoBanco.forEach(addRecord);
   PUBLISHED_ARCHIVE.forEach(addRecord);
   ARTICLES.forEach(article => addRecord({
     ...article,
@@ -502,15 +604,26 @@ async function getExistingArticlesMetadata(supabaseClient) {
   const existingSourceUrls = new Set(records.map(r => r.sourceUrl).filter(Boolean));
   const photoLastUsed = new Map();
   records.forEach(r => {
-    const id = getPhotoId(r.image);
-    if (id) photoLastUsed.set(id, Math.max(photoLastUsed.get(id) || 0, r.publishedAt || 0));
+    const key = fotoChave(r.image);
+    if (key) photoLastUsed.set(key, Math.max(photoLastUsed.get(key) || 0, r.publishedAt || 0));
   });
-  const usedPhotoIds = new Set(photoLastUsed.keys());
+  const tela = montarGuardaDeCapas({
+    articles: ARTICLES,
+    capasDoBanco,
+    bancoLido,
+    supabaseConfigurado: Boolean(supabaseClient),
+    arquivo: PUBLISHED_ARCHIVE,
+    pautas: INITIAL_HOT_PAUTAS
+  });
+  if (tela.conservador) {
+    console.warn('::warning::Supabase configurado mas ilegível neste ciclo: a tela é desconhecida, então a guarda de capas entra também pelo acervo permanente.');
+  }
+  const fotosEmTela = tela.chaves;
   const recentCategories = records.filter(r => r.categorySlug).slice(0, 5).map(r => r.categorySlug);
   const latestPublishedAt = records.reduce((max, r) => Math.max(max, r.publishedAt), 0);
 
-  console.log(`🧠 [Memória] ${records.length} matérias conhecidas (${PUBLISHED_ARCHIVE.length} no arquivo permanente, ${ARTICLES.length} no acervo local).`);
-  return { existingSlugs, existingTitles, existingSourceUrls, usedPhotoIds, photoLastUsed, recentCategories, latestPublishedAt };
+  console.log(`🧠 [Memória] ${records.length} matérias conhecidas (${PUBLISHED_ARCHIVE.length} no arquivo permanente, ${ARTICLES.length} no acervo local), ${fotosEmTela.size} capas em tela — ${tela.descricao}.`);
+  return { existingSlugs, existingTitles, existingSourceUrls, fotosEmTela, photoLastUsed, recentCategories, latestPublishedAt };
 }
 
 function getDuplicateReason(pauta, meta) {
@@ -649,8 +762,10 @@ function findPublicationConflict(articleData, candidate, meta) {
     return `tema já publicado ("${titleHit.slice(0, 60)}...")`;
   }
 
-  const candidatePhotoId = getPhotoId(candidate.image || articleData.image);
-  if (candidatePhotoId && !GENERIC_PHOTO_IDS.has(candidatePhotoId) && meta.usedPhotoIds.has(candidatePhotoId)) {
+  const imagemOrigem = candidate.image || articleData.image;
+  const chaveOrigem = fotoChave(imagemOrigem);
+  const idOrigem = getPhotoId(imagemOrigem);
+  if (chaveOrigem && (!idOrigem || !GENERIC_PHOTO_IDS.has(idOrigem)) && meta.fotosEmTela.has(chaveOrigem)) {
     return 'imagem de origem já utilizada em outra matéria';
   }
 
@@ -663,66 +778,161 @@ function findPublicationConflict(articleData, candidate, meta) {
 // de reprovar, que é como a capa 600x237 voltava para o hero.
 const REPO_FALLBACK_COVER = '/images/a-lange-datograph-honeygold-lumen.jpg';
 
-async function pickArticleImage(candidate, meta) {
+/**
+ * A capa indicada pela origem é publicável quando o auditor leu as dimensões e a
+ * fotografia não está em tela. Exportada como função separada porque o ramo que a
+ * chama é curto-circuitado por `sourceIsFresh` em quase toda URL real: sem teste
+ * direto, nenhuma asserção exercitaria esta checagem (Reserva 4 da revisão sênior).
+ */
+export function origemPublicavel(audit, fotosEmTela) {
+  if (!audit.medida) return false;
+  const chave = fotoChave(audit.url);
+  // Sem chave não existe como provar que a foto não está em tela, e a invariante
+  // "coroa => não está em tela" não pode depender de o nome do arquivo ser comprido
+  // o bastante. URL de origem irreconhecível vai para o banco, que é reconhecível.
+  return chave ? !fotosEmTela.has(chave) : false;
+}
+
+export async function pickArticleImage(candidate, meta) {
   const source = String(candidate.image || '').trim();
   const sourceId = getPhotoId(source);
+  const sourceKey = fotoChave(source);
   const sourceIsFresh = source && (sourceId
-    ? !GENERIC_PHOTO_IDS.has(sourceId) && !meta.usedPhotoIds.has(sourceId)
-    : true);
+    ? !GENERIC_PHOTO_IDS.has(sourceId) && !meta.fotosEmTela.has(sourceKey)
+    : !meta.fotosEmTela.has(sourceKey));
+
+  // O banco de CAPA é o único com a garantia editorial de que toda foto é deitada (o
+  // retrato mora em HOMOLOGATED_IMAGES, onde ele ilustra o corpo da matéria). Nos
+  // degraus que NÃO medem na rede a escolha prefere esse banco e descarta as verticais
+  // já medidas: uma vertical sem medir cortaria o assunto no recorte do herói, e o
+  // banco fino demais (wealth não tem banco de capa) não pode empurrar a matéria para
+  // o asset repetido do repositório.
+  const deitadaDeCapa = (url) => Object.values(FALLBACK_CATEGORY_IMAGES)
+    .some(banco => (banco || []).includes(url));
+  const verticalConhecida = (url) => VERTICAIS_MEDIDAS.has(fotoChave(url));
+  const publicavelSemMedir = (urls) => {
+    const livres = urls.filter(url => !isTaken(url) && !verticalConhecida(url));
+    return livres.find(deitadaDeCapa) || livres[0];
+  };
+
+  // Registra a chave da URL que vai SER publicada, não só a que o feed indicou.
+  const registrar = (url) => {
+    const key = fotoChave(url);
+    if (key) meta.fotosEmTela.add(key);
+  };
+  const isTaken = (url) => {
+    const key = fotoChave(url);
+    return Boolean(key) && meta.fotosEmTela.has(key);
+  };
+  // Livre primeiro; entre os que já apareceram, o usado há mais tempo (distribui o
+  // acervo). A isenção de "imagem genérica" — que só existe para não bloquear
+  // publicação — não se aplica aqui: o banco é escolhido de propósito, então a
+  // escolha é sempre responsável pela repetição.
+  const ordenar = (urls) => urls.sort((a, b) => {
+    if (isTaken(a) !== isTaken(b)) return isTaken(a) ? 1 : -1;
+    return (meta.photoLastUsed.get(fotoChave(a)) || 0) - (meta.photoLastUsed.get(fotoChave(b)) || 0);
+  });
+
+  // Um orçamento de rede por matéria, dividido entre as auditorias (origem, banco
+  // da categoria e empréstimo). Com orçamento por chamada, uma matéria podia gastar
+  // 60 s dos dez minutos que o ciclo inteiro tem para escrever e publicar.
+  const orcamento = Date.now() + AUDIT_BUDGET_MS;
 
   if (sourceIsFresh) {
-    const audit = await resolveCoverImage(source, []);
+    const audit = await resolveCoverImage(source, [], orcamento);
     if (audit.origin === 'origem' || audit.origin === 'local') {
-      console.log(`🖼️ [Capa] ${audit.note}.`);
-      if (sourceId) meta.usedPhotoIds.add(sourceId);
-      return { url: audit.url.replace('fit=crop', 'fit=max'), audited: true };
+      if (origemPublicavel(audit, meta.fotosEmTela)) {
+        console.log(`🖼️ [Capa] ${audit.note}.`);
+        registrar(source);
+        registrar(audit.url);
+        return { url: audit.url.replace('fit=crop', 'fit=max'), audited: true };
+      }
+      // Miniatura promovida e arquivo inteiro são a MESMA fotografia de uma matéria
+      // visível: devolvê-la daqui coroa no herói e, sendo Unsplash, apaga a outra.
+      // O aviso nomeia o motivo REAL: dizer "não teve dimensão conferida" de uma foto
+      // que o auditor mediu 1400x800 e que só não tem chave é o log mentir — e log
+      // mentiroso faz caçar o defeito no lugar errado.
+      const chaveOrigem = fotoChave(audit.url);
+      const motivo = !audit.medida ? 'não teve dimensão conferida'
+        : !chaveOrigem ? 'não é uma fotografia identificável (não há como provar que não está em tela)'
+        : meta.fotosEmTela.has(chaveOrigem) ? 'é a mesma fotografia de uma matéria em tela'
+        : 'não pôde ser liberada para o herói';
+      console.warn(`::warning::A capa da origem (${audit.note}) ${motivo}; não coroa, trocando pelo banco da categoria.`);
+    } else {
+      console.warn(`🖼️ [Capa] ${audit.note}. Substituindo pelo banco da categoria.`);
     }
-    console.warn(`🖼️ [Capa] ${audit.note}. Substituindo pelo banco da categoria.`);
   }
 
-  const gallery = [...new Set([
+  // Capa tem que ser IDENTIFICÁVEL, não só livre: uma URL sem chave não entra em
+  // `fotosEmTela` (não há o que registrar) e `isTaken` responde "livre" para sempre,
+  // então a MESMA foto coroaria duas matérias seguidas pela porta do banco — o buraco
+  // que `origemPublicavel` acabou de fechar na origem. Os bancos reais são Unsplash,
+  // então este filtro não custa nenhuma foto hoje; custa só irreconhecíveis.
+  const bancoBruto = [...new Set([
     ...(HOMOLOGATED_IMAGES[candidate.categorySlug] || []),
     ...(FALLBACK_CATEGORY_IMAGES[candidate.categorySlug] || [])
   ])];
-  if (!gallery.length) {
-    console.warn('🖼️ [Capa] Banco da categoria vazio; usando o asset do repositório.');
-    return { url: REPO_FALLBACK_COVER, audited: false };
+  const gallery = ordenar(bancoBruto.filter(url => fotoChave(url)));
+
+  if (gallery.length) {
+    const audit = await auditGalleryImages(gallery, 8, orcamento);
+    if (audit.url && !isTaken(audit.url)) {
+      console.log(`🖼️ [Capa] ${audit.note}.`);
+      registrar(audit.url);
+      // A coroa exige medida: um AVIF/HEIF cujo cabeçalho a janela não alcança é capa
+      // publicável (cartão), mas não se afirma herói sem saber o recorte.
+      return { url: audit.url.replace('fit=crop', 'fit=max'), audited: audit.medida === true };
+    }
+    if (audit.url) {
+      // Sem afirmar que era "a única": mais de uma capa podia ter passado e estar em
+      // tela, e o log que inventa escassez faz o dono tomar decisão de banco com base
+      // num dado que ninguém mediu.
+      console.warn(`::warning::A capa do banco que passou na auditoria (${audit.note}) já está em tela; procurando foto livre.`);
+    } else {
+      console.log(`🖼️ [Capa] ${audit.note}.`);
+    }
+    // Banco reprovado quase sempre quer dizer rede indisponível no executor, e não
+    // banco ruim. Devolver a capa do feed seria publicar exatamente o banner que a
+    // auditoria acabou de reprovar (600x237 esticado no hero). Na falta de capa
+    // auditável preferimos a foto livre do próprio banco, mesmo sem medir.
+    const livre = publicavelSemMedir(gallery);
+    if (livre) {
+      console.warn('🖼️ [Capa] Sem capa auditável na rede; publicando com foto homologada livre do banco (sem medir).');
+      registrar(livre);
+      return { url: livre.replace('fit=crop', 'fit=max'), audited: false };
+    }
+  } else {
+    console.warn(bancoBruto.length
+      ? `🖼️ [Capa] Categoria "${candidate.categorySlug}" tem ${bancoBruto.length} imagem${bancoBruto.length === 1 ? '' : 's'} no banco, mas nenhuma é uma fotografia identificável.`
+      : `🖼️ [Capa] Categoria "${candidate.categorySlug}" não tem banco de imagens.`);
   }
 
-  // Ordena o banco pela foto usada há mais tempo (distribui melhor o acervo) e
-  // com as já em uso no fim da fila: se a matéria herda uma capa repetida, o
-  // dedupe do site derruba uma das duas publicações em silêncio. Aqui o banco é
-  // escolhido de propósito, então a isenção de "imagem genérica" (que só serve
-  // para não bloquear publicação) não se aplica.
-  const isTaken = (url) => {
-    const id = getPhotoId(url);
-    return Boolean(id) && meta.usedPhotoIds.has(id);
-  };
-  const ordered = gallery.sort((a, b) => {
-    if (isTaken(a) !== isTaken(b)) return isTaken(a) ? 1 : -1;
-    const usedA = meta.photoLastUsed.get(getPhotoId(a)) || 0;
-    const usedB = meta.photoLastUsed.get(getPhotoId(b)) || 0;
-    return usedA - usedB;
-  });
-
-  const audit = await auditGalleryImages(ordered);
-  console.log(`🖼️ [Capa] ${audit.note}.`);
-  if (audit.url) {
-    const chosenId = getPhotoId(audit.url);
-    if (chosenId) meta.usedPhotoIds.add(chosenId);
-    return { url: audit.url.replace('fit=crop', 'fit=max'), audited: true };
+  // Categoria exaurida (toda foto dela já está em tela): empresta de outra categoria
+  // antes de repetir capa. Repetir é o que faz o dedupeArticles do site derrubar uma
+  // das duas matérias em silêncio — foi assim que a Australian Superyachts sumiu.
+  const emprestadas = ordenar([...new Set(
+    [...new Set([...Object.keys(FALLBACK_CATEGORY_IMAGES), ...Object.keys(HOMOLOGATED_IMAGES)])]
+      .filter(categoria => categoria !== candidate.categorySlug)
+      .flatMap(categoria => [...(FALLBACK_CATEGORY_IMAGES[categoria] || []), ...(HOMOLOGATED_IMAGES[categoria] || [])])
+  )]).filter(url => fotoChave(url) && !isTaken(url));
+  if (emprestadas.length) {
+    const audit = await auditGalleryImages(emprestadas, 8, orcamento);
+    const escolhida = audit.url || publicavelSemMedir(emprestadas);
+    if (escolhida) {
+      console.warn(`::warning::Banco de "${candidate.categorySlug}" sem capa utilizável (nada livre na tela, nada identificável); emprestando capa livre de outra categoria (${audit.url ? 'medida' : 'sem medir'}).`);
+      registrar(escolhida);
+      // audited:false de propósito: uma foto de outra categoria pode ser capa medida,
+      // mas não é o retrato da matéria — e o herói da home é o retrato.
+      return { url: escolhida.replace('fit=crop', 'fit=max'), audited: false };
+    }
   }
-  // Banco reprovado quase sempre quer dizer rede indisponível no executor, e não
-  // banco ruim. Devolver a capa do feed seria publicar exatamente o banner que a
-  // auditoria acabou de reprovar (600x237 esticado no hero). Na falta de capa
-  // auditável preferimos a foto homologada livre do próprio banco, que é curada e
-  // do tamanho de capa, e só então o asset do repositório.
-  const lastResort = ordered.find(url => !isTaken(url));
-  const chosen = lastResort || REPO_FALLBACK_COVER;
-  console.warn(`🖼️ [Capa] Sem capa auditável na rede; publicando com ${lastResort ? 'foto homologada livre (sem medir)' : 'asset do repositório'}.`);
-  const chosenId = getPhotoId(chosen);
-  if (chosenId) meta.usedPhotoIds.add(chosenId);
-  return { url: chosen.replace('fit=crop', 'fit=max'), audited: false };
+
+  // Nada livre em banco nenhum. O asset do repositório é o único resto, e ele pode
+  // ser uma capa já visível — repetição que NÃO derruba matéria (o dedupe do site só
+  // compara fotografias do Unsplash), mas que o leitor vê. Por isso o aviso.
+  console.warn(`::warning::Nenhum banco deixou capa livre (em tela ou não identificável); publicando com o asset do repositório (${REPO_FALLBACK_COVER}), repetindo a capa dele se já estiver visível.`);
+  registrar(REPO_FALLBACK_COVER);
+  return { url: REPO_FALLBACK_COVER, audited: false };
 }
 
 // -----------------------------------------------------------------------------

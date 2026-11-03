@@ -8,12 +8,25 @@
  * próprio cabeçalho do arquivo.
  */
 
+import { closeSync, openSync, readSync } from 'fs';
+
 const MIN_WIDTH = 1000;
 const MAX_ASPECT = 2.6;
+// O herói e os cartões são deitados e o recorte é central fixo. A régua antiga só
+// cortava faixa estreita (aspecto > 2,6), então uma foto EM PÉ (1400x2100, aspecto
+// 0,67) passava e o recorte fatiava o assunto — relógio virando tira de pulseira no
+// hero. Capa exige deitada; retrato continua válido como imagem interna da matéria.
+const MIN_COVER_ASPECT = 1;
 const PROBE_TIMEOUT_MS = 8000;
 
 // Sufixo de miniatura do WordPress: "-600x237" colado antes da extensão ou da query.
-const SIZE_SUFFIX = /[-_]\d{2,4}x\d{2,4}(?=\.(jpe?g|png|webp|avif)\b|\?)/i;
+// Exportado porque a chave da FOTOGRAFIA (autonomousCrawler.js :: fotoChave) precisa
+// descartar esse sufixo: miniatura e arquivo inteiro são a mesma foto, e tratá-las
+// como duas capas diferentes é o que permitia publicar por cima de uma capa visível.
+// A extensão é lida como "qualquer coisa de 2 a 5 letras", não como uma lista: GIF é
+// formato mensurável deste auditor, e `a-600x237.gif` preso na lista antiga virava chave
+// `a-600x237.gif` enquanto `a.gif` era a foto inteira — duas capas para uma fotografia.
+export const SIZE_SUFFIX = /[-_]\d{2,4}x\d{2,4}(?=\.\w{2,5}\b|\?)/i;
 
 // WebP: RIFF(4) + tamanho(4) + WEBP(4) + [fourCC(4) + tamanho(4) + payload]...
 // O chunk de vídeo não precisa ser o primeiro — ICCP/ANIM aparecem antes em arquivos
@@ -231,7 +244,7 @@ const MIN_BODY_BYTES = 2048;
 // O job do robô roda inteiro em menos de um minuto. Sem teto, quatro candidatos
 // percorrendo o banco duas janelas cada estouram o timeout do workflow e a
 // publicação não acontece — o sintoma que o dono vê como "não publica".
-const AUDIT_BUDGET_MS = Number(process.env.COVER_AUDIT_BUDGET_MS || 20000);
+export const AUDIT_BUDGET_MS = Number(process.env.COVER_AUDIT_BUDGET_MS || 20000);
 const PROBE_CONCURRENCY = 4;
 
 async function probe(url, deadline = 0) {
@@ -273,9 +286,37 @@ async function probe(url, deadline = 0) {
   return { ok: true, unknown: true };
 }
 
-function describesSmallFrame({ width, height }) {
-  if (!width) return false;
-  return width < MIN_WIDTH || width / (height || 1) > MAX_ASPECT;
+// Le as dimensões reais de um asset do próprio repositório, lendo o cabeçalho do
+// arquivo em disco — mesma régua e mesmo leitor de cabeçalho usados na rede.
+function probeLocal(assetPath) {
+  let fd;
+  try {
+    fd = openSync(new URL(`../public${assetPath}`, import.meta.url), 'r');
+    const buffer = Buffer.alloc(65536);
+    const lidos = readSync(fd, buffer, 0, buffer.length, 0);
+    return readDimensions(buffer.subarray(0, lidos));
+  } catch {
+    return null;
+  } finally {
+    if (fd !== undefined) closeSync(fd);
+  }
+}
+
+// Motivo pelo qual a imagem NÃO serve de capa, ou '' quando serve. Sem dimensão lida
+// (AVIF/HEIF com cabeçalho depois do "mdat") devolve '' — a imagem pode ser publicada
+// como cartão, mas `medida:false` abaixo impede que ela suba ao herói.
+function motivoRejeicaoComoCapa({ width, height }) {
+  if (!width) return '';
+  const aspecto = width / (height || 1);
+  const medido = `${width}x${height ?? '?'}`;
+  if (width < MIN_WIDTH) return `largura abaixo de ${MIN_WIDTH}px (${medido})`;
+  if (aspecto > MAX_ASPECT) return `faixa estreita ${medido} (aspecto ${aspecto.toFixed(2)})`;
+  if (aspecto < MIN_COVER_ASPECT) return `foto em pé ${medido} (aspecto ${aspecto.toFixed(2)})`;
+  return '';
+}
+
+function desqualificaComoCapa(check) {
+  return Boolean(motivoRejeicaoComoCapa(check));
 }
 
 function sizeLabel({ width, height }) {
@@ -291,37 +332,49 @@ function sizeLabel({ width, height }) {
  *
  * @param {string} sourceUrl imagem indicada pelo feed
  * @param {string[]} gallery imagens homologadas da categoria
- * @returns {Promise<{url: string, origin: string, note: string}>}
+ * @param {number} [orcamentoFim] timestamp limite compartilhado entre as auditorias da
+ *   mesma matéria; sem ele, cada chamada ganha 20 s novos e uma matéria pode consumir
+ *   60 s de rede dentro de um ciclo que tem dez minutos para tudo.
+ * @returns {Promise<{url: string, origin: string, note: string, medida: boolean}>} `medida`
+ *   é a promessa de que as dimensões foram lidas: só capa medida sobe ao herói.
  */
-export async function resolveCoverImage(sourceUrl, gallery = []) {
+export async function resolveCoverImage(sourceUrl, gallery = [], orcamentoFim = 0) {
   const source = String(sourceUrl || '').trim();
 
-  // Asset do próprio repositório: já é verificado no build, não há o que auditar na rede.
-  if (source.startsWith('/')) return { url: source, origin: 'local', note: 'asset do repositório' };
+  // Asset do próprio repositório: não precisa de rede para ser medido, ele está no
+  // disco do robô. Sem medir, o último recurso seria uma capa de dimensão desconhecida.
+  if (source.startsWith('/')) {
+    const dimensoes = probeLocal(source);
+    if (!dimensoes) return { url: source, origin: 'local', note: 'asset do repositório sem cabeçalho legível', medida: false };
+    const motivo = motivoRejeicaoComoCapa(dimensoes);
+    if (motivo) return fromBank(gallery, `asset do repositório ${motivo}`);
+    return { url: source, origin: 'local', note: `asset do repositório medido (${sizeLabel(dimensoes)})`, medida: true };
+  }
 
-  const deadline = Date.now() + AUDIT_BUDGET_MS;
+  const deadline = orcamentoFim || Date.now() + AUDIT_BUDGET_MS;
 
   if (source) {
     const suffix = source.match(SIZE_SUFFIX);
-    if (suffix && describesSmallFrame(readFromSuffix(suffix[0]))) {
+    if (suffix && desqualificaComoCapa(readFromSuffix(suffix[0]))) {
       const fullSize = source.replace(SIZE_SUFFIX, '');
       const check = await probe(fullSize, deadline);
-      if (check.ok && !describesSmallFrame(check)) {
-        return { url: fullSize, origin: 'origem', note: `miniatura ${suffix[0].slice(1)} promovida ao arquivo inteiro (${sizeLabel(check)})` };
+      if (check.ok && !desqualificaComoCapa(check)) {
+        return { url: fullSize, origin: 'origem', note: `miniatura ${suffix[0].slice(1)} promovida ao arquivo inteiro (${sizeLabel(check)})`, medida: Boolean(check.width) };
       }
     }
 
     const check = await probe(source, deadline);
     if (!check.ok) return fromBank(gallery, `capa do feed indisponível (${check.reason})`);
-    if (describesSmallFrame(check)) return fromBank(gallery, `capa do feed pequena ou em faixa (${sizeLabel(check)})`);
-    return { url: source, origin: 'origem', note: `capa alcançada e é imagem (${sizeLabel(check)})` };
+    const motivo = motivoRejeicaoComoCapa(check);
+    if (motivo) return fromBank(gallery, `capa do feed rejeitada: ${motivo}`);
+    return { url: source, origin: 'origem', note: `capa alcançada e é imagem (${sizeLabel(check)})`, medida: Boolean(check.width) };
   }
 
   return fromBank(gallery, 'feed não indicou capa');
 }
 
 function fromBank(gallery, reason) {
-  return { url: '', origin: 'banco', note: reason, gallery };
+  return { url: '', origin: 'banco', note: reason, gallery, medida: false };
 }
 
 function readFromSuffix(token) {
@@ -330,21 +383,30 @@ function readFromSuffix(token) {
 }
 
 /** Percorre o banco da categoria e devolve a primeira capa que passa na auditoria. */
-export async function auditGalleryImages(gallery = [], limit = 8) {
+export async function auditGalleryImages(gallery = [], limit = 8, orcamentoFim = 0) {
   const candidates = [...new Set(gallery.filter(Boolean))].slice(0, limit);
-  const deadline = Date.now() + AUDIT_BUDGET_MS;
+  const deadline = orcamentoFim || Date.now() + AUDIT_BUDGET_MS;
   // Em lotes, na ordem de prioridade do banco: probes sequenciais somam 16 s de
   // espera por matéria quando a rede está lenta, e o job inteiro tem 10 minutos.
+  let aprovadaSemMedida = null;
   for (let start = 0; start < candidates.length; start += PROBE_CONCURRENCY) {
     const batch = candidates.slice(start, start + PROBE_CONCURRENCY);
     const results = await Promise.all(batch.map(url => probe(url, deadline)));
     for (let i = 0; i < batch.length; i++) {
       const check = results[i];
-      if (check.ok && !describesSmallFrame(check)) {
-        return { url: batch[i], origin: 'banco', note: `banco da categoria verificado (${sizeLabel(check)})` };
+      if (!check.ok || desqualificaComoCapa(check)) continue;
+      // Dimensão lida coroa; sem dimensão a foto é publicável (cartão) mas deixa o
+      // herói travado. Uma AVIF no começo do banco não pode tapar a deitada medida que
+      // vem depois — por isso o lote continua sendo percorrido antes de aceitá-la.
+      if (check.width) {
+        return { url: batch[i], origin: 'banco', note: `banco da categoria verificado (${sizeLabel(check)})`, medida: true };
       }
+      aprovadaSemMedida = aprovadaSemMedida || batch[i];
     }
   }
+  if (aprovadaSemMedida) {
+    return { url: aprovadaSemMedida, origin: 'banco', note: 'banco da categoria aceito sem dimensão conferida', medida: false };
+  }
   // Nada aprovado: devolver vazio em vez de uma URL que a auditoria acabou de reprovar.
-  return { url: '', origin: 'banco', note: `nenhuma das ${candidates.length} capas do banco passou na auditoria` };
+  return { url: '', origin: 'banco', note: `nenhuma das ${candidates.length} capas do banco passou na auditoria`, medida: false };
 }
