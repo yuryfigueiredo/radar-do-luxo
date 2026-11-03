@@ -80,7 +80,9 @@ export const BANNED_CLICHES = [
   'divisor de águas'
 ];
 
-// Imagens de acervo selecionadas e verificadas por vertical (fit=max preserva 100% do sujeito sem corte forçado de bordas)
+// Imagens de acervo selecionadas e verificadas por vertical (fit=max preserva 100% do
+// sujeito sem corte forçado de bordas). Também ilustram o CORPO da matéria, onde retrato
+// é legítimo — as verticais que não servem de capa (ver coverImageAudit.js) moram aqui.
 export const HOMOLOGATED_IMAGES = {
   supercarros: [
     'https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800',
@@ -97,7 +99,8 @@ export const HOMOLOGATED_IMAGES = {
   arquitetura: [
     'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=85&w=1800',
     'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800',
-    'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800'
+    'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800',
+    'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=max&q=85&w=1800'
   ],
   wealth: [
     'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=max&q=85&w=1800',
@@ -105,11 +108,14 @@ export const HOMOLOGATED_IMAGES = {
   ],
   estilo: [
     'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=max&q=85&w=1800',
-    'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=max&q=85&w=1800'
+    'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=max&q=85&w=1800',
+    'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=max&q=85&w=1800',
+    'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=max&q=85&w=1800'
   ],
   destinos: [
     'https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800',
-    'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800'
+    'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800',
+    'https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=max&q=85&w=1800'
   ]
 };
 

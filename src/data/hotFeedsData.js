@@ -278,7 +278,7 @@ export const INITIAL_HOT_PAUTAS = [
       "engenharia": "Casco de aço naval e compósitos",
       "curadoria": "Gabriel Fontes"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d17?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
     "status": "published"
   },
