@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-ferrari-testarossa-spider-monoda-8302",
+    "slug": "ferrari-testarossa-spider-monodado-o-unico-pace-car-oficial-de-maranello-dos-anos-80-com-chassi-tubular-reforcado-e-aluminio-batido-a-mao-que-retorna-das-sombras-8059",
+    "title": "Ferrari Testarossa Spider Monodado: O Único Pace Car Oficial de Maranello dos Anos 80 com Chassi Tubular Reforçado e Alumínio Batido à Mão que Retorna das Sombras",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "03 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1660326040484-fc0cb33d0b23?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "Desenterrado de um esquecimento de décadas, o exemplar exclusivo construído para liderar o pelotão de corrida revela a obsessão estrutural de Enzo Ferrari por rigidez torcional sem concessões digitais.",
+    "contentParagraphs": [
+      "A carroçaria cortada sem o teto rígido exigiu reforços profundos na seção inferior do chassi tubular para conter a torção mecânica em curvas de alta velocidade. Enzo Ferrari ordenou pessoalmente que a oficina de protótipos de Maranello abandonasse o conforto em favor da integridade estrutural pura.",
+      "O motor V12 de doze cilindros opostos a 180 graus ruge através de coletores em aço inox sem filtros acústicos restritivos. A força G lateral exercida nas curvas fechadas de pista desafia os limites do asfalto enquanto a telemetria inercial registra o comportamento milimétrico da suspensão dianteira.",
+      "Longe das telas táteis e dos assistentes eletrônicos de estabilidade que anestecem a pilotagem moderna, este exemplar único representa o ápice da engenharia mecânica analógica dos anos oitenta. Cada solda no chassi e cada painel de alumínio moldado à mão contam a história de uma época onde a velocidade era medida em RPMs viscerais.",
+      "A aparição pública deste monstro de Maranello em leilões restritos consolida seu status absoluto como ativo de colecionador intransigente. O chassi intocado e a mecânica restaurada com tolerâncias exatas de fábrica provam que a verdadeira soberania sobre rodas não aceita obsolescência programada."
+    ],
+    "content_paragraphs": [
+      "A carroçaria cortada sem o teto rígido exigiu reforços profundos na seção inferior do chassi tubular para conter a torção mecânica em curvas de alta velocidade. Enzo Ferrari ordenou pessoalmente que a oficina de protótipos de Maranello abandonasse o conforto em favor da integridade estrutural pura.",
+      "O motor V12 de doze cilindros opostos a 180 graus ruge através de coletores em aço inox sem filtros acústicos restritivos. A força G lateral exercida nas curvas fechadas de pista desafia os limites do asfalto enquanto a telemetria inercial registra o comportamento milimétrico da suspensão dianteira.",
+      "Longe das telas táteis e dos assistentes eletrônicos de estabilidade que anestecem a pilotagem moderna, este exemplar único representa o ápice da engenharia mecânica analógica dos anos oitenta. Cada solda no chassi e cada painel de alumínio moldado à mão contam a história de uma época onde a velocidade era medida em RPMs viscerais.",
+      "A aparição pública deste monstro de Maranello em leilões restritos consolida seu status absoluto como ativo de colecionador intransigente. O chassi intocado e a mecânica restaurada com tolerâncias exatas de fábrica provam que a verdadeira soberania sobre rodas não aceita obsolescência programada."
+    ],
+    "specs": {
+      "motor": "V12 plano 4.9L aspirado naturalmente",
+      "chassi": "Tubular em aço com reforços estruturais específicos",
+      "transmissão": "Manual dog-leg de 5 marchas com embreagem multidisco",
+      "construção": "Painéis em liga de alumínio batidos à mão em Maranello",
+      "avaliação": "Estimado em US$ 1.000.000 em transações privadas"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 95,
+    "ranking_score": 95,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-03T18:39:38.301Z",
+    "published_at": "2026-11-03T18:39:38.301Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMUdON0lXOGR1SlNPUzhiUlNSa3lJX0c2djBaQ0Zzc1VzWE5waEJSWVNKcDh4LTNIWWx1bFB1WGhsWlFuM3c0Z3d1MkVwSGlETVJkNkhzRGhfUkswSFlrcV9QcmNqdnlqeWc0cUhwdFR6M0U4Z2drT2s4SU5nbmdJRHd6MkxwcHIwWXZXSS13bWJpdjlEZVMzdHFEWXJZVG9kNnNRTGotWDk?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMUdON0lXOGR1SlNPUzhiUlNSa3lJX0c2djBaQ0Zzc1VzWE5waEJSWVNKcDh4LTNIWWx1bFB1WGhsWlFuM3c0Z3d1MkVwSGlETVJkNkhzRGhfUkswSFlrcV9QcmNqdnlqeWc0cUhwdFR6M0U4Z2drT2s4SU5nbmdJRHd6MkxwcHIwWXZXSS13bWJpdjlEZVMzdHFEWXJZVG9kNnNRTGotWDk?oc=5"
+  },
+  {
     "id": "art-amels-242-nome-o-superiate-de-74-7425",
     "slug": "amels-242-nome-o-superiate-de-74-metros-e-1790-toneladas-que-desafia-a-hidrodinamica-tradicional-no-hercules-de-monaco-7416",
     "title": "Amels 242 Nome: O Superiate de 74 Metros e 1.790 Toneladas que Desafia a Hidrodinâmica Tradicional no Hércules de Mônaco",
@@ -1353,63 +1405,20 @@ export const ARTICLES = [
     "published_at": "2026-10-29T20:17:41.670Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOakw5Ny0xeGRzV1pjcGlfUGpteUwxZmM3RTNWckE0WDNCZ2ZBX0lfeWJHVzVEbDN2d0htQzBHMVpkVmpsSnJoOWd6U1lvSTk1eWIzSFEzZXFLdFFCYzdJdlNyMmxXNDVkbVE5VWNsdldUazFvREVFNkhCNlROUWx0N1g2S2R6WHZPTDJEMGJqaXo1SVl1ZEpEWVBlM3A2Qlo4QUhDVTl0VVZvbVQ1VlZoa0JyMHl4NVk?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOakw5Ny0xeGRzV1pjcGlfUGpteUwxZmM3RTNWckE0WDNCZ2ZBX0lfeWJHVzVEbDN2d0htQzBHMVpkVmpsSnJoOWd6U1lvSTk1eWIzSFEzZXFLdFFCYzdJdlNyMmxXNDVkbVE5VWNsdldUazFvREVFNkhCNlROUWx0N1g2S2R6WHZPTDJEMGJqaXo1SVl1ZEpEWVBlM3A2Qlo4QUhDVTl0VVZvbVQ1VlZoa0JyMHl4NVk?oc=5"
-  },
-  {
-    "id": "art-superiate-omega-wellness-249-a-f-1667",
-    "slug": "superiate-omega-wellness-249-a-fortaleza-flutuante-de-75-metros-com-camaras-criogenicas-e-monocoque-em-aluminio-naval-1665",
-    "title": "Superiate Omega Wellness 249: A Fortaleza Flutuante de 75 Metros com Câmaras Criogênicas e Monocoque em Alumínio Naval",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "29 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1781872324499-e51350ed640e?auto=format&fit=max&q=85&w=1800",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Em águas internacionais, a arquitetura naval cede espaço à biometria extrema. Um projeto de 249 pés que transforma o casco em um refúgio hermético de longevidade celular.",
-    "contentParagraphs": [
-      "O casco corta as ondas com precisão cirúrgica. Sete dezenas e meia de pés em alumínio naval estruturado para suportar força G lateral em manobras de emergência. A engenharia naval abandona o mero hedonismo para abraçar a criogenia de alta performance. Câmaras de descompressão celular flutuam sobre amortecedores de titânio. Cada antepara foi calculada para mitigar microvibrações.",
-      "O fluxo de Venturi subaquático estabiliza a plataforma enquanto o protocolo de longevidade opera a bordo. O sistema de filtragem de ar atinge padrão cirúrgico ISO 1. Salas de infusão intravenosa utilizam gravidade zero simulada para otimizar a absorção de NAD+. Sensores inerciais monitoram a frequência cardíaca dos passageiros em tempo real enquanto os motores diesel-elétricos gemem em silêncio abissal.",
-      "Billionaires como Bryan Johnson exigem redundância absoluta nos sistemas vitais. A arquitetura interna repele radiação eletromagnética e vibrações de baixa frequência. Tubulações em Inconel 625 garantem fluxo estéril de água purificada por osmose reversa tripla. Aqui, o tempo não passa. O casco foi concebido para desafiar a oxidação biológica e mecânica por décadas de navegação transoceânica ininterrupta.",
-      "Nenhum centímetro quadrado tolera excessos puramente estéticos. A estética é ditada pela telemetria médica e pela aerodinâmica do superesporte marinho. O resultado é um monstro flutuante de 75 metros que redefine a soberania pessoal. Um laboratório de imortalidade móvel, blindado contra o caos do mundo exterior e ancorado na exatidão matemática dos materiais."
-    ],
-    "content_paragraphs": [
-      "O casco corta as ondas com precisão cirúrgica. Sete dezenas e meia de pés em alumínio naval estruturado para suportar força G lateral em manobras de emergência. A engenharia naval abandona o mero hedonismo para abraçar a criogenia de alta performance. Câmaras de descompressão celular flutuam sobre amortecedores de titânio. Cada antepara foi calculada para mitigar microvibrações.",
-      "O fluxo de Venturi subaquático estabiliza a plataforma enquanto o protocolo de longevidade opera a bordo. O sistema de filtragem de ar atinge padrão cirúrgico ISO 1. Salas de infusão intravenosa utilizam gravidade zero simulada para otimizar a absorção de NAD+. Sensores inerciais monitoram a frequência cardíaca dos passageiros em tempo real enquanto os motores diesel-elétricos gemem em silêncio abissal.",
-      "Billionaires como Bryan Johnson exigem redundância absoluta nos sistemas vitais. A arquitetura interna repele radiação eletromagnética e vibrações de baixa frequência. Tubulações em Inconel 625 garantem fluxo estéril de água purificada por osmose reversa tripla. Aqui, o tempo não passa. O casco foi concebido para desafiar a oxidação biológica e mecânica por décadas de navegação transoceânica ininterrupta.",
-      "Nenhum centímetro quadrado tolera excessos puramente estéticos. A estética é ditada pela telemetria médica e pela aerodinâmica do superesporte marinho. O resultado é um monstro flutuante de 75 metros que redefine a soberania pessoal. Um laboratório de imortalidade móvel, blindado contra o caos do mundo exterior e ancorado na exatidão matemática dos materiais."
-    ],
-    "specs": {
-      "Comprimento Total": "249 pés (75,8 metros)",
-      "Material do Casco": "Liga de Alumínio Naval Tratado",
-      "Propulsão": "Sistema Híbrido Diesel-Elétrico Azimutal",
-      "Autonomia Operacional": "6.500 milhas náuticas em velocidade de cruzeiro",
-      "Sistemas de Saúde": "Módulos NASA-Inspired Biohacking e IV Lounges"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 92,
-    "ranking_score": 92,
-    "publishedAt": "2026-10-29T16:49:01.666Z",
-    "published_at": "2026-10-29T16:49:01.666Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCQTBRNG1adHRQTzdXUjgzU3NrZnNxZ0d5OGprUE53TWFpbHFUYWlUUHZwbHM3V1dKeUNldzJYamlqYVdDOEFwaXRSdk9qS2tSZnhxNWNrMW1jWGNwTlA3MXZGTlhDTXJ4aUNGZWs3Rld6R1QxUTlSS1lnY2htZ0E?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCQTBRNG1adHRQTzdXUjgzU3NrZnNxZ0d5OGprUE53TWFpbHFUYWlUUHZwbHM3V1dKeUNldzJYamlqYVdDOEFwaXRSdk9qS2tSZnhxNWNrMW1jWGNwTlA3MXZGTlhDTXJ4aUNGZWs3Rld6R1QxUTlSS1lnY2htZ0E?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "DESTINOS",
+    "title": "Lady Marina: A Navalha de Aço de 64 Me...",
+    "image": "https://images.unsplash.com/photo-1621277224630-81d9af65e40c?auto=format&fit=crop&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "lady-marina-a-navalha-de-aco-de-64-metros-que-redefiniu-a-fisica-de-deslocamento-na-baia-de-cannes-4035"
+  },
+  {
+    "id": "film-2",
     "category": "RELOGIOS",
     "title": "O&HoraPictor Smoked Ocean Volcano Grey...",
     "image": "https://monochrome-watches.com/app/uploads/2026/10/HoraPictor-Smoked-Ocean-Volcano-Grey-Enamel-Dial-Accessible-10.jpg",
@@ -1417,7 +1426,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ohorapictor-smoked-ocean-volcano-grey-40-milimetros-de-esmalte-grand-feu-a-820c-com-calibre-suico-sellita-sw200-1162"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "RELOGIOS",
     "title": "Laurent Ferrier Grand Sport Tourbillon...",
     "image": "https://monochrome-watches.com/app/uploads/2026/10/Laurent-Ferrier-Grand-Sport-Tourbillon-Iceberg-Titanium-review-8.jpg",
@@ -1425,7 +1434,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "laurent-ferrier-grand-sport-tourbillon-iceberg-o-cronometro-de-titanio-grao-selado-de-44mm-com-tourbillon-de-duplo-balanco-inverso-7884"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "ARQUITETURA",
     "title": "Houston Mansion: A Soberana Propriedad...",
     "image": "https://robbreport.com/wp-content/uploads/2026/10/2115-River-Oaks-Boulevard_Pavilion.jpg",
@@ -1433,7 +1442,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "houston-mansion-a-soberana-propriedade-neoclassica-de-219-milhoes-que-abrigou-o-barao-enrico-di-portanova-e-sua-piscina-de-vidro-monumental-8338"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "RELOGIOS",
     "title": "Girard-Perregaux Laureato Fifty Three ...",
     "image": "https://monochrome-watches.com/app/uploads/2026/10/Girard-Perragaux-Laureato-Fifty-Three-Gold-Bridges-permanent-collection-review-1.jpg",
@@ -1441,20 +1450,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "girard-perregaux-laureato-fifty-three-gold-bridges-a-trilogia-de-pontes-em-ouro-macico-forjada-na-vallee-de-joux-com-53-micrometros-de-tolerancia-7498"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "DESTINOS",
     "title": "Australian Superyachts: O Novo Santuár...",
     "image": "https://images.unsplash.com/photo-1783344422200-a5493824bcb9?auto=format&fit=max&q=85&w=1800",
     "tag": "CURADORIA RADAR",
     "slug": "australian-superyachts-o-novo-santuario-naval-em-newport-que-redefine-a-hidrodinamica-oceanica-de-alta-performance-4461"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Alfa Romeo Tipo 33 Stradale: O Monstro...",
-    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=max&q=85&w=1800",
-    "tag": "CURADORIA RADAR",
-    "slug": "alfa-romeo-tipo-33-stradale-o-monstro-v8-central-de-20-litros-forjado-em-aluminio-espacial-que-compartilha-a-alma-secreta-com-maranello-1443"
   }
 ];
 

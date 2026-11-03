@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-ferrari-testarossa-spider-monoda-8302",
+    "slug": "ferrari-testarossa-spider-monodado-o-unico-pace-car-oficial-de-maranello-dos-anos-80-com-chassi-tubular-reforcado-e-aluminio-batido-a-mao-que-retorna-das-sombras-8059",
+    "title": "Ferrari Testarossa Spider Monodado: O Único Pace Car Oficial de Maranello dos Anos 80 com Chassi Tubular Reforçado e Alumínio Batido à Mão que Retorna das Sombras",
+    "image": "https://images.unsplash.com/photo-1660326040484-fc0cb33d0b23?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMUdON0lXOGR1SlNPUzhiUlNSa3lJX0c2djBaQ0Zzc1VzWE5waEJSWVNKcDh4LTNIWWx1bFB1WGhsWlFuM3c0Z3d1MkVwSGlETVJkNkhzRGhfUkswSFlrcV9QcmNqdnlqeWc0cUhwdFR6M0U4Z2drT2s4SU5nbmdJRHd6MkxwcHIwWXZXSS13bWJpdjlEZVMzdHFEWXJZVG9kNnNRTGotWDk?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-03T18:39:38.301Z"
+  },
+  {
     "id": "art-amels-242-nome-o-superiate-de-74-7425",
     "slug": "amels-242-nome-o-superiate-de-74-metros-e-1790-toneladas-que-desafia-a-hidrodinamica-tradicional-no-hercules-de-monaco-7416",
     "title": "Amels 242 Nome: O Superiate de 74 Metros e 1.790 Toneladas que Desafia a Hidrodinâmica Tradicional no Hércules de Mônaco",
