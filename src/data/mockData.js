@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-h-moser-cie-heritage-dois-relogi-4206",
+    "slug": "h-moser-cie-heritage-dois-relogios-mecanicos-com-mostradores-fume-desafiando-o-efemero-digital-3988",
+    "title": "H. Moser & Cie. Heritage: Dois Relógios Mecânicos com Mostradores Fumé Desafiando o Efêmero Digital",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "category_slug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "author_slug": "clara-meirelles",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "03 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://monochrome-watches.com/app/uploads/2026/11/2026-H-Moser-Cie-Heritage-Chronograph-White-fume-and-Heritage-Centre-Seconds-Espresso-fume-review.jpg",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A manufatura independente da Vallée de Joux expande sua linha Heritage com dois calibres que resgatam a estética de bolso em caixas de aço polido à mão, reafirmando a soberania do tempo analógico contra a obsolescência programada.",
+    "contentParagraphs": [
+      "O tempo da alta relojoaria não tolera pressa. A H. Moser & Cie. abandona temporariamente as linhas esportivas e integradas para revisitar suas origens mais profundas. Na penumbra silenciosa dos ateliês em Neuhausen am Rheinfall, o aço ganha curvas clássicas e asas soldadas à mão, lembrando os cronômetros de bolso do século XIX. A estética Heritage rejeita o barulho do design contemporâneo e propõe uma volta ao essencial. Trata-se de uma escultura mecânica que se recusa a piscar.",
+      "O modelo Heritage Centre Seconds Espresso Fumé exibe um mostrador com gradiente profundo, onde o marrom escuro dissolve-se em um café tostado sob luz direta, protegido por vidro safira abaulado. Em seu interior pulsa um calibre de manufatura com tolerâncias de mícrons, ajustado manualmente para garantir precisão cronométrica sem concessões digitais. A ausência de logotipos gritantes sublinha a confiança absoluta na assinatura visual da marca: o luxo verdadeiro sussurra.",
+      "Ao lado do centre seconds, o Heritage Chronograph surge com uma arquitetura de cronógrafo monopulsante que homenageia os primórdios da cronometria esportiva. Cada componente do mecanismo interno recebe acabamento em anglage com sabugueiro silvestre e polimento espelhado em chanfros vivos. A roda de pilares opera com uma suavidade tátil desconhecida nas produções seriadas, exigindo horas de ajuste paciente executadas por um único mestre relojoeiro antes da montagem final.",
+      "Em um mercado saturado de novidades descartáveis, estas duas referências consolidam um refúgio de liquidez e permanência estética. Não são adornos passageiros, mas ativos de herança familiar destinados a atravessar décadas sem perder a relevância mecânica. O verdadeiro colecionador não busca apenas marcar os segundos, mas possuir um fragmento inalterável da história humana talhada em metal nobre."
+    ],
+    "content_paragraphs": [
+      "O tempo da alta relojoaria não tolera pressa. A H. Moser & Cie. abandona temporariamente as linhas esportivas e integradas para revisitar suas origens mais profundas. Na penumbra silenciosa dos ateliês em Neuhausen am Rheinfall, o aço ganha curvas clássicas e asas soldadas à mão, lembrando os cronômetros de bolso do século XIX. A estética Heritage rejeita o barulho do design contemporâneo e propõe uma volta ao essencial. Trata-se de uma escultura mecânica que se recusa a piscar.",
+      "O modelo Heritage Centre Seconds Espresso Fumé exibe um mostrador com gradiente profundo, onde o marrom escuro dissolve-se em um café tostado sob luz direta, protegido por vidro safira abaulado. Em seu interior pulsa um calibre de manufatura com tolerâncias de mícrons, ajustado manualmente para garantir precisão cronométrica sem concessões digitais. A ausência de logotipos gritantes sublinha a confiança absoluta na assinatura visual da marca: o luxo verdadeiro sussurra.",
+      "Ao lado do centre seconds, o Heritage Chronograph surge com uma arquitetura de cronógrafo monopulsante que homenageia os primórdios da cronometria esportiva. Cada componente do mecanismo interno recebe acabamento em anglage com sabugueiro silvestre e polimento espelhado em chanfros vivos. A roda de pilares opera com uma suavidade tátil desconhecida nas produções seriadas, exigindo horas de ajuste paciente executadas por um único mestre relojoeiro antes da montagem final.",
+      "Em um mercado saturado de novidades descartáveis, estas duas referências consolidam um refúgio de liquidez e permanência estética. Não são adornos passageiros, mas ativos de herança familiar destinados a atravessar décadas sem perder a relevância mecânica. O verdadeiro colecionador não busca apenas marcar os segundos, mas possuir um fragmento inalterável da história humana talhada em metal nobre."
+    ],
+    "specs": {
+      "calibre": "Movimento mecânico de corda manual e automática de manufatura",
+      "materiais": "Aço inoxidável polido à mão com mostradores Fumé (Espresso e White)",
+      "ateliê": "Neuhausen am Rheinfall e Vallée de Joux, Suíça",
+      "acabamento": "Anglage manual, pontes biseladas e roda de pilares integrada"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 86,
+    "ranking_score": 86,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-03T03:06:24.205Z",
+    "published_at": "2026-11-03T03:06:24.205Z",
+    "sourceUrl": "https://monochrome-watches.com/2026-h-moser-cie-heritage-chronograph-white-fume-and-heritage-centre-seconds-espresso-fume-review-price/",
+    "source_url": "https://monochrome-watches.com/2026-h-moser-cie-heritage-chronograph-white-fume-and-heritage-centre-seconds-espresso-fume-review-price/"
+  },
+  {
     "id": "art-brabus-shadow-e-hydrofoil-o-brin-9057",
     "slug": "brabus-shadow-e-hydrofoil-o-brinquedo-nautico-de-us-20490-com-hidrofolio-de-fibra-de-carbono-e-28-nos-de-voo-9050",
     "title": "Brabus Shadow E-Hydrofoil: O Brinquedo Náutico de US$ 20.490 com Hidrofólio de Fibra de Carbono e 28 Nós de Voo",
@@ -1349,63 +1400,20 @@ export const ARTICLES = [
     "published_at": "2026-10-28T22:39:49.091Z",
     "sourceUrl": "https://monochrome-watches.com/a-lange-sohne-datograph-perpetual-tourbillon-honeygold-lumen/",
     "source_url": "https://monochrome-watches.com/a-lange-sohne-datograph-perpetual-tourbillon-honeygold-lumen/"
-  },
-  {
-    "id": "art-sheats-goldstein-residence-a-for-4318",
-    "slug": "sheats-goldstein-residence-a-fortaleza-brutalista-de-concreto-angular-com-750-oculos-de-vidro-engastados-na-laje-4302",
-    "title": "Sheats-Goldstein Residence: A Fortaleza Brutalista de Concreto Angular com 750 Óculos de Vidro Engastados na Laje",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "28 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A soberania patrimonial encontra seu refúgio no cume de Beverly Hills, onde a arquitetura de John Lautner desafia a gravidade e o tempo com blocos monolíticos de concreto bruto e o silêncio mineral das colinas.",
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído estridente nas planícies de Los Angeles. O patrimônio dinástico, contudo, busca o silêncio mineral e a imunidade temporal incrustada nas encostas íngremes de Beverly Hills. A Sheats-Goldstein Residence ergue-se não como mera habitação, mas como um manifesto de governança dinástica e arquitetura brutalista moldada por John Lautner em 1963.",
-      "A estrutura recusa o ornamento supérfluo. O teto da sala de estar estende-se sem colunas de sustentação, perfurado com precisão milimétrica por 750 pequenos discos de vidro que capturam a luz implacável da Califórnia, projetando constelações geométricas sobre o travertino romano Navona no piso. Tolerâncias construtivas rigorosas unem o concreto aparente e o vidro estrutural em uma união perpétua com a paisagem.",
-      "Comprar um ativo desta magnitude transcende a mera aquisição imobiliária; trata-se de exercer custódia fiduciária sobre uma obra-prima de relevância cultural inquestionável. Avaliada em cem milhões de dólares americanos, a propriedade funciona como um refúgio de liquidez tangível, imune às flutuações voláteis dos mercados financeiros globais e blindada contra a obsolescência estética.",
-      "Nenhuma concessionária de luxo ou penthouses efêmeras replicam a gravidade estática deste refúgio. O legado de Lautner permanece intacto na intersecção exata entre a brutalidade da matéria e a leveza da luz solar, consolidando um monumento definitivo para colecionadores de patrimônios imunes."
-    ],
-    "content_paragraphs": [
-      "O dinheiro recente faz ruído estridente nas planícies de Los Angeles. O patrimônio dinástico, contudo, busca o silêncio mineral e a imunidade temporal incrustada nas encostas íngremes de Beverly Hills. A Sheats-Goldstein Residence ergue-se não como mera habitação, mas como um manifesto de governança dinástica e arquitetura brutalista moldada por John Lautner em 1963.",
-      "A estrutura recusa o ornamento supérfluo. O teto da sala de estar estende-se sem colunas de sustentação, perfurado com precisão milimétrica por 750 pequenos discos de vidro que capturam a luz implacável da Califórnia, projetando constelações geométricas sobre o travertino romano Navona no piso. Tolerâncias construtivas rigorosas unem o concreto aparente e o vidro estrutural em uma união perpétua com a paisagem.",
-      "Comprar um ativo desta magnitude transcende a mera aquisição imobiliária; trata-se de exercer custódia fiduciária sobre uma obra-prima de relevância cultural inquestionável. Avaliada em cem milhões de dólares americanos, a propriedade funciona como um refúgio de liquidez tangível, imune às flutuações voláteis dos mercados financeiros globais e blindada contra a obsolescência estética.",
-      "Nenhuma concessionária de luxo ou penthouses efêmeras replicam a gravidade estática deste refúgio. O legado de Lautner permanece intacto na intersecção exata entre a brutalidade da matéria e a leveza da luz solar, consolidando um monumento definitivo para colecionadores de patrimônios imunes."
-    ],
-    "specs": {
-      "arquiteto": "John Lautner",
-      "localizacao": "Beverly Hills, Los Angeles",
-      "materiais": "Concreto aparente, vidro laminado e travertino romano Navona",
-      "elementos_estruturais": "750 aberturas com discos de vidro no teto da sala principal",
-      "avaliacao_patrimonial": "US$ 100 Milhões"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 94,
-    "ranking_score": 94,
-    "publishedAt": "2026-10-28T20:06:14.318Z",
-    "published_at": "2026-10-28T20:06:14.318Z",
-    "sourceUrl": "https://www.architecturaldigest.com/story/sheats-goldstein-residence-john-lautner",
-    "source_url": "https://www.architecturaldigest.com/story/sheats-goldstein-residence-john-lautner"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "RELOGIOS",
+    "title": "Girard-Perregaux Laureato Fifty Three ...",
+    "image": "https://monochrome-watches.com/app/uploads/2026/10/Girard-Perragaux-Laureato-Fifty-Three-Gold-Bridges-permanent-collection-review-1.jpg",
+    "tag": "CURADORIA RADAR",
+    "slug": "girard-perregaux-laureato-fifty-three-gold-bridges-a-trilogia-de-pontes-em-ouro-macico-forjada-na-vallee-de-joux-com-53-micrometros-de-tolerancia-7498"
+  },
+  {
+    "id": "film-2",
     "category": "DESTINOS",
     "title": "Australian Superyachts: O Novo Santuár...",
     "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800",
@@ -1413,7 +1421,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "australian-superyachts-o-novo-santuario-naval-em-newport-que-redefine-a-hidrodinamica-oceanica-de-alta-performance-4461"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Alfa Romeo Tipo 33 Stradale: O Monstro...",
     "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=max&q=85&w=1800",
@@ -1421,7 +1429,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "alfa-romeo-tipo-33-stradale-o-monstro-v8-central-de-20-litros-forjado-em-aluminio-espacial-que-compartilha-a-alma-secreta-com-maranello-1443"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "ARQUITETURA",
     "title": "Diadema Romanov: O Tesouro Imperial de...",
     "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
@@ -1429,7 +1437,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "diadema-romanov-o-tesouro-imperial-de-15-milhao-de-libras-que-desafia-a-volatilidade-das-bolsas-globais-1653"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "DESTINOS",
     "title": "Superiate Omega Wellness 249: A Fortal...",
     "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
@@ -1437,20 +1445,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "superiate-omega-wellness-249-a-fortaleza-flutuante-de-75-metros-com-camaras-criogenicas-e-monocoque-em-aluminio-naval-1665"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Ferrari S.p.A.: O Marco Histórico de 2...",
     "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800",
     "tag": "CURADORIA RADAR",
     "slug": "ferrari-spa-o-marco-historico-de-20-bilhoes-de-dolares-que-sustenta-sua-soberania-em-maranello-8634"
-  },
-  {
-    "id": "film-6",
-    "category": "RELOGIOS",
-    "title": "F.P. Journe Chronomètre Bleu: A Rara C...",
-    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "fp-journe-chronometre-bleu-a-rara-caixa-de-tantalo-de-ponto-de-fusao-a-3000c-que-valorizou-400-no-mercado-secundario-9369"
   }
 ];
 

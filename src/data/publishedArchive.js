@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-h-moser-cie-heritage-dois-relogi-4206",
+    "slug": "h-moser-cie-heritage-dois-relogios-mecanicos-com-mostradores-fume-desafiando-o-efemero-digital-3988",
+    "title": "H. Moser & Cie. Heritage: Dois Relógios Mecânicos com Mostradores Fumé Desafiando o Efêmero Digital",
+    "image": "https://monochrome-watches.com/app/uploads/2026/11/2026-H-Moser-Cie-Heritage-Chronograph-White-fume-and-Heritage-Centre-Seconds-Espresso-fume-review.jpg",
+    "sourceUrl": "https://monochrome-watches.com/2026-h-moser-cie-heritage-chronograph-white-fume-and-heritage-centre-seconds-espresso-fume-review-price/",
+    "categorySlug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "publishedAt": "2026-11-03T03:06:24.205Z"
+  },
+  {
     "id": "art-brabus-shadow-e-hydrofoil-o-brin-9057",
     "slug": "brabus-shadow-e-hydrofoil-o-brinquedo-nautico-de-us-20490-com-hidrofolio-de-fibra-de-carbono-e-28-nos-de-voo-9050",
     "title": "Brabus Shadow E-Hydrofoil: O Brinquedo Náutico de US$ 20.490 com Hidrofólio de Fibra de Carbono e 28 Nós de Voo",
