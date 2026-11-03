@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-romanov-sapphire-o-monolito-birm-3258",
+    "slug": "romanov-sapphire-o-monolito-birmanes-de-197-quilates-que-redefine-a-soberania-dinastica-nos-leiloes-de-genebra-3251",
+    "title": "Romanov Sapphire: O Monólito Birmanês de 197 Quilates que Redefine a Soberania Dinástica nos Leilões de Genebra",
+    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWDlqXzJiSDZDVG5qWFdEYm85Zmc2dXJTZVdTMFAzV0lfQm4wNG1uajQtOXMxY2F6V2x2ZUZYa3FoX0cwQ1ZrNDlja1RveEtpblhKSXZZaC1FSGEwLW9VRWNqR3dVTjNNdlpYQXkxQml2dVF6SU5yUWZCYTl6bXZQeXI3LThsSUk0UHV6ZjNFXzVqU0FrR1h6ek5YRQ?oc=5",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "publishedAt": "2026-11-03T02:01:43.258Z"
+  },
+  {
     "id": "art-rolex-patek-philippe-e-audemars--8168",
     "slug": "rolex-patek-philippe-e-audemars-piguet-o-monopolio-de-us-266-bilhoes-do-mercado-secundario-sustentado-por-calibres-raros-e-esmalte-grand-feu-8159",
     "title": "Rolex, Patek Philippe e Audemars Piguet: O Monopólio de US$ 26,6 Bilhões do Mercado Secundário Sustentado por Calibres Raros e Esmalte Grand Feu",

@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-romanov-sapphire-o-monolito-birm-3258",
+    "slug": "romanov-sapphire-o-monolito-birmanes-de-197-quilates-que-redefine-a-soberania-dinastica-nos-leiloes-de-genebra-3251",
+    "title": "Romanov Sapphire: O Monólito Birmanês de 197 Quilates que Redefine a Soberania Dinástica nos Leilões de Genebra",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "03 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A custódia fiduciária de um tesouro imperial com procedência imune revela como a alta curadoria de patrimônio busca o silêncio mineral diante da volatilidade do capital moderno.",
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído estridente. O patrimônio dinástico busca o silêncio mineral. Nas abóbadas discretas da Sotheby’s em Genebra, o surgimento iminente do Romanov Sapphire de 197 quilates não representa uma simples transação mercantil, mas a transferência de um fragmento inalterável da história imperial europeia.",
+      "Cada milímetro deste monólito em azul cetim carrega a memória geológica de Mogok combinada com o rigor estético dos Romanov. Enquanto fundos de investimento efêmeros perseguem métricas voláteis, a custódia fiduciária de gemas desta magnitude atua como um refúgio de liquidez imune ao desgaste do tempo e às oscilações cambiais.",
+      "A procedência documentada deste zafira opera como um contrato soberano entre gerações. Não há espaço para o efêmero quando se examina a pureza cristalina de um primor que resistiu a revoluções, exílios e ao esquecimento, mantendo intacta sua dignidade estrutural e seu peso histórico incontestável.",
+      "Ao assegurar a posse de uma gema desta envergadura, o colecionador sela um pacto com a eternidade. A verdadeira riqueza não se exibe; ela se preserva em cofres blindados, transformando história em um ativo de governança dinástica intransmutável."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente faz ruído estridente. O patrimônio dinástico busca o silêncio mineral. Nas abóbadas discretas da Sotheby’s em Genebra, o surgimento iminente do Romanov Sapphire de 197 quilates não representa uma simples transação mercantil, mas a transferência de um fragmento inalterável da história imperial europeia.",
+      "Cada milímetro deste monólito em azul cetim carrega a memória geológica de Mogok combinada com o rigor estético dos Romanov. Enquanto fundos de investimento efêmeros perseguem métricas voláteis, a custódia fiduciária de gemas desta magnitude atua como um refúgio de liquidez imune ao desgaste do tempo e às oscilações cambiais.",
+      "A procedência documentada deste zafira opera como um contrato soberano entre gerações. Não há espaço para o efêmero quando se examina a pureza cristalina de um primor que resistiu a revoluções, exílios e ao esquecimento, mantendo intacta sua dignidade estrutural e seu peso histórico incontestável.",
+      "Ao assegurar a posse de uma gema desta envergadura, o colecionador sela um pacto com a eternidade. A verdadeira riqueza não se exibe; ela se preserva em cofres blindados, transformando história em um ativo de governança dinástica intransmutável."
+    ],
+    "specs": {
+      "Peso Nominal": "197 quilates",
+      "Origem Geológica": "Mogok, Birmânia",
+      "Procedência": "Coleção Imperial Romanov",
+      "Casa de Leilões": "Sotheby’s Genebra",
+      "Classificação de Ativo": "Patrimônio Imune / Refúgio Fiduciário"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-03T02:01:43.258Z",
+    "published_at": "2026-11-03T02:01:43.258Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWDlqXzJiSDZDVG5qWFdEYm85Zmc2dXJTZVdTMFAzV0lfQm4wNG1uajQtOXMxY2F6V2x2ZUZYa3FoX0cwQ1ZrNDlja1RveEtpblhKSXZZaC1FSGEwLW9VRWNqR3dVTjNNdlpYQXkxQml2dVF6SU5yUWZCYTl6bXZQeXI3LThsSUk0UHV6ZjNFXzVqU0FrR1h6ek5YRQ?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWDlqXzJiSDZDVG5qWFdEYm85Zmc2dXJTZVdTMFAzV0lfQm4wNG1uajQtOXMxY2F6V2x2ZUZYa3FoX0cwQ1ZrNDlja1RveEtpblhKSXZZaC1FSGEwLW9VRWNqR3dVTjNNdlpYQXkxQml2dVF6SU5yUWZCYTl6bXZQeXI3LThsSUk0UHV6ZjNFXzVqU0FrR1h6ek5YRQ?oc=5"
+  },
+  {
     "id": "art-rolex-patek-philippe-e-audemars--8168",
     "slug": "rolex-patek-philippe-e-audemars-piguet-o-monopolio-de-us-266-bilhoes-do-mercado-secundario-sustentado-por-calibres-raros-e-esmalte-grand-feu-8159",
     "title": "Rolex, Patek Philippe e Audemars Piguet: O Monopólio de US$ 26,6 Bilhões do Mercado Secundário Sustentado por Calibres Raros e Esmalte Grand Feu",
@@ -1347,63 +1399,20 @@ export const ARTICLES = [
     "published_at": "2026-10-28T16:35:19.751Z",
     "sourceUrl": "https://quillandpad.com/rexhep-rexhepi-ccii",
     "source_url": "https://quillandpad.com/rexhep-rexhepi-ccii"
-  },
-  {
-    "id": "art-hermes-faubourg-o-atelie-secreto-3341",
-    "slug": "hermes-faubourg-o-atelie-secreto-em-paris-onde-30-mestres-costuram-selas-em-couro-barenia-sob-linho-encerado-a-mao-desde-1837-3331",
-    "title": "Hermès Faubourg: O Ateliê Secreto em Paris Onde 30 Mestres Costuram Selas em Couro Barenia sob Linho Encerado a Mão desde 1837",
-    "category": "Alta-Costura",
-    "categorySlug": "estilo",
-    "category_slug": "estilo",
-    "authorSlug": "clara-meirelles",
-    "author_slug": "clara-meirelles",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "28 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Sob a claraboia parisiense, trinta artesãos perpetuam o ponto selê de duas agulhas com cera virgem e couro Barenia, desafiando a obsolescência da era industrial.",
-    "contentParagraphs": [
-      "A luz natural penetra na claraboia do número 24 do Faubourg Saint-Honoré carregando o peso de quase dois séculos. Ali, o tempo não se mede em frações decimais, mas na resistência paciente do couro Barenia sob a ponta dos dedos calejados. Nenhuma máquina do mundo moderno jamais compreendeu a tensão exata que une duas agulhas em direções opostas sem romper a alma da fibra. O silêncio do ateliê é cortado apenas pelo atrito rítmico do linho contra a cera virgem de abelha. Trinta mestres guardam esta liturgia diária. A matéria-prima exige respeito absoluto e conhecimento ancestral.",
-      "Cada peça nasce de um diálogo tátil entre o polegar e a pele curtida lentamente em taninos vegetais. O ponto selê francês permanece inalterado desde 1837, garantindo uma integridade estrutural que desafia decênios de uso contínuo. As mãos que moldam o arreio são as mesmas que costuram a alta-costura da casa, aplicando nós invisíveis reforçados por linho encerado manualmente. A precisão reside na imperfeição humana, no milésimo de variação que confere a cada criação sua assinatura irrepetível. O luxo aqui dispensa logotipos, pois a própria costura sela a soberania da manufatura.",
-      "O cheiro do ateliê evoca bosques úmidos, selaria equestre e a promessa de permanência em um mundo obcecado pelo descarte rápido. Enquanto conglomerados globais aceleram a produção em série, o Faubourg cultiva a escassez matemática como forma suprema de aristocracia estética. Não há pressa para finalizar uma bolsa ou uma sela; o ritmo é ditado pela secagem natural da cera e pela respiração do artesão. Esta imunidade temporal transforma cada objeto em refúgio de liquidez tangível. O verdadeiro valor reside na quantidade exata de horas humanas investidas longe dos olhares públicos.",
-      "Ao fechar a porta de carvalho do sótão parisiense, compreende-se a verdadeira essência da herança Hermès. Nenhuma tecnologia digital substituirá a intuição de quem reconhece a densidade ideal da pele ao primeiro toque. O patrimônio dinástico não se ostenta; ele se veste com a sobriedade silenciosa de um ponto perfeitamente executado à mão. A Alta-Costura encontra na selaria sua raiz mais profunda, provando que a excelência mecânica e manual sobrevive apenas onde há devoção intransigente ao detalhe invisível."
-    ],
-    "content_paragraphs": [
-      "A luz natural penetra na claraboia do número 24 do Faubourg Saint-Honoré carregando o peso de quase dois séculos. Ali, o tempo não se mede em frações decimais, mas na resistência paciente do couro Barenia sob a ponta dos dedos calejados. Nenhuma máquina do mundo moderno jamais compreendeu a tensão exata que une duas agulhas em direções opostas sem romper a alma da fibra. O silêncio do ateliê é cortado apenas pelo atrito rítmico do linho contra a cera virgem de abelha. Trinta mestres guardam esta liturgia diária. A matéria-prima exige respeito absoluto e conhecimento ancestral.",
-      "Cada peça nasce de um diálogo tátil entre o polegar e a pele curtida lentamente em taninos vegetais. O ponto selê francês permanece inalterado desde 1837, garantindo uma integridade estrutural que desafia decênios de uso contínuo. As mãos que moldam o arreio são as mesmas que costuram a alta-costura da casa, aplicando nós invisíveis reforçados por linho encerado manualmente. A precisão reside na imperfeição humana, no milésimo de variação que confere a cada criação sua assinatura irrepetível. O luxo aqui dispensa logotipos, pois a própria costura sela a soberania da manufatura.",
-      "O cheiro do ateliê evoca bosques úmidos, selaria equestre e a promessa de permanência em um mundo obcecado pelo descarte rápido. Enquanto conglomerados globais aceleram a produção em série, o Faubourg cultiva a escassez matemática como forma suprema de aristocracia estética. Não há pressa para finalizar uma bolsa ou uma sela; o ritmo é ditado pela secagem natural da cera e pela respiração do artesão. Esta imunidade temporal transforma cada objeto em refúgio de liquidez tangível. O verdadeiro valor reside na quantidade exata de horas humanas investidas longe dos olhares públicos.",
-      "Ao fechar a porta de carvalho do sótão parisiense, compreende-se a verdadeira essência da herança Hermès. Nenhuma tecnologia digital substituirá a intuição de quem reconhece a densidade ideal da pele ao primeiro toque. O patrimônio dinástico não se ostenta; ele se veste com a sobriedade silenciosa de um ponto perfeitamente executado à mão. A Alta-Costura encontra na selaria sua raiz mais profunda, provando que a excelência mecânica e manual sobrevive apenas onde há devoção intransigente ao detalhe invisível."
-    ],
-    "specs": {
-      "Endereco Historico": "24 Rue du Faubourg Saint-Honoré, Paris",
-      "Fundacao do Ateliê": "1837 por Thierry Hermès",
-      "Tecnica de Uniao": "Ponto selê de duas agulhas cruzadas",
-      "Materia-Prima Primaria": "Couro Barenia com curtimento vegetal",
-      "Insumo de Costura": "Linho tratado com cera virgem de abelha"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 97,
-    "ranking_score": 97,
-    "publishedAt": "2026-10-28T16:05:33.341Z",
-    "published_at": "2026-10-28T16:05:33.341Z",
-    "sourceUrl": "https://www.voguebusiness.com/fashion/inside-hermes-secret-saddlery",
-    "source_url": "https://www.voguebusiness.com/fashion/inside-hermes-secret-saddlery"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "SUPERCARROS",
+    "title": "Alfa Romeo Tipo 33 Stradale: O Monstro...",
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=max&q=85&w=1800",
+    "tag": "CURADORIA RADAR",
+    "slug": "alfa-romeo-tipo-33-stradale-o-monstro-v8-central-de-20-litros-forjado-em-aluminio-espacial-que-compartilha-a-alma-secreta-com-maranello-1443"
+  },
+  {
+    "id": "film-2",
     "category": "ARQUITETURA",
     "title": "Diadema Romanov: O Tesouro Imperial de...",
     "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
@@ -1411,7 +1420,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "diadema-romanov-o-tesouro-imperial-de-15-milhao-de-libras-que-desafia-a-volatilidade-das-bolsas-globais-1653"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "DESTINOS",
     "title": "Superiate Omega Wellness 249: A Fortal...",
     "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
@@ -1419,7 +1428,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "superiate-omega-wellness-249-a-fortaleza-flutuante-de-75-metros-com-camaras-criogenicas-e-monocoque-em-aluminio-naval-1665"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Ferrari S.p.A.: O Marco Histórico de 2...",
     "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800",
@@ -1427,7 +1436,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-spa-o-marco-historico-de-20-bilhoes-de-dolares-que-sustenta-sua-soberania-em-maranello-8634"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "RELOGIOS",
     "title": "F.P. Journe Chronomètre Bleu: A Rara C...",
     "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=max&q=80&w=1400",
@@ -1435,20 +1444,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "fp-journe-chronometre-bleu-a-rara-caixa-de-tantalo-de-ponto-de-fusao-a-3000c-que-valorizou-400-no-mercado-secundario-9369"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "RELOGIOS",
     "title": "A. Lange & Söhne Datograph Honeygold L...",
     "image": "/images/a-lange-datograph-honeygold-lumen.jpg",
     "tag": "CURADORIA RADAR",
     "slug": "a-lange-sohne-datograph-honeygold-lumen-a-obra-prima-saxonica-de-516-componentes-sob-safira-fosforescente-9075"
-  },
-  {
-    "id": "film-6",
-    "category": "ARQUITETURA",
-    "title": "Sheats-Goldstein Residence: A Fortalez...",
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "sheats-goldstein-residence-a-fortaleza-brutalista-de-concreto-angular-com-750-oculos-de-vidro-engastados-na-laje-4302"
   }
 ];
 
