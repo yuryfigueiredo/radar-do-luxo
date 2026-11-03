@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-leilao-de-las-vegas-o-triunfo-ab-7309",
+    "slug": "leilao-de-las-vegas-o-triunfo-absoluto-da-linhagem-ferrari-e-o-peso-indestrutivel-do-aco-forjado-em-maranello-6917",
+    "title": "Leilão de Las Vegas: O Triunfo Absoluto da Linhagem Ferrari e o Peso Indestrutível do Aço Forjado em Maranello",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "03 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1577735138919-91b6848511c8?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "Sob o reflexo frio do deserto de Nevada, o leilão da Broad Arrow testemunhou a supremacia inegável dos supercarros de Maranello, provando que o mercado de alta performance ignora flutuações e recompensa a pureza da engenharia mecânica pura.",
+    "contentParagraphs": [
+      "O martelo despencou no deserto com a precisão de um pistão forjado em alta rotação. Não houve hesitação no salão. A coleção de supercarros da Ferrari apresentada pela Broad Arrow em Las Vegas não apenas liderou os lances, mas estabeleceu um parâmetro intransigente de valorização para ativos de alta performance mecânica.",
+      "Enquanto o mundo corporativo consome-se em telas táteis descartáveis, os colecionadores de visão dinástica direcionam capital para monocoques de carbo-titânio curados em autoclave e blocos V12 aspirados capazes de girar além de 9.000 RPM. A telemetria inercial e a aerodinâmica ativa desses exemplares funcionam como apólices de seguro contra a obsolescência programada da indústria moderna.",
+      "Cada chassi numerado que cruzou o palco carregava consigo a herança genética dos testes rigorosos em Fiorano e a brutalidade controlada do efeito solo. O fluxo de Venturi e os dutos de exaustão em Inconel 625 não representam apenas adereços estéticos, mas a assinatura tangível de uma época onde a aerodinâmica era ditada pelo túnel de vento físico e não por algoritmos de simulação digital.",
+      "O resultado em Las Vegas consolida uma verdade incômoda para os especuladores de plantão. O verdadeiro patrimônio reside naquilo que consome oxigênio, queima combustível de alta octanagem e desafia a gravidade com tolerâncias de mícrons. A supremacia da Ferrari neste leilão não é um acidente estatístico; é a consagração definitiva do metal nobre sobre a volatilidade financeira."
+    ],
+    "content_paragraphs": [
+      "O martelo despencou no deserto com a precisão de um pistão forjado em alta rotação. Não houve hesitação no salão. A coleção de supercarros da Ferrari apresentada pela Broad Arrow em Las Vegas não apenas liderou os lances, mas estabeleceu um parâmetro intransigente de valorização para ativos de alta performance mecânica.",
+      "Enquanto o mundo corporativo consome-se em telas táteis descartáveis, os colecionadores de visão dinástica direcionam capital para monocoques de carbo-titânio curados em autoclave e blocos V12 aspirados capazes de girar além de 9.000 RPM. A telemetria inercial e a aerodinâmica ativa desses exemplares funcionam como apólices de seguro contra a obsolescência programada da indústria moderna.",
+      "Cada chassi numerado que cruzou o palco carregava consigo a herança genética dos testes rigorosos em Fiorano e a brutalidade controlada do efeito solo. O fluxo de Venturi e os dutos de exaustão em Inconel 625 não representam apenas adereços estéticos, mas a assinatura tangível de uma época onde a aerodinâmica era ditada pelo túnel de vento físico e não por algoritmos de simulação digital.",
+      "O resultado em Las Vegas consolida uma verdade incômoda para os especuladores de plantão. O verdadeiro patrimônio reside naquilo que consome oxigênio, queima combustível de alta octanagem e desafia a gravidade com tolerâncias de mícrons. A supremacia da Ferrari neste leilão não é um acidente estatístico; é a consagração definitiva do metal nobre sobre a volatilidade financeira."
+    ],
+    "specs": {
+      "Casa de Leilões": "Broad Arrow Auctions",
+      "Localização": "Las Vegas, Nevada",
+      "Linhagem Doutrinária": "Supercarros de Maranello (F40, F50, Enzo, LaFerrari)",
+      "Metais Predominantes": "Carbo-titânio, Alumínio Aeronáutico e Inconel",
+      "Veredito de Mercado": "Soberania absoluta de preços em ativos físicos"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 95,
+    "ranking_score": 95,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-03T11:17:37.308Z",
+    "published_at": "2026-11-03T11:17:37.308Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbnVncWp1c0Z1dFU0WFAwN0NxMDZJc3Via2Y1ZW5CVmY1NlNtVFY2RzBZcFBQQnJQdHN4Q2ZSdUFPRlVzTkNkZHc3a1ZmbnF4SDROdTBuSFR0bnB0cDdsckxxLXhiZWRzNjRkaTVtMWdySTM0M2wxdlVVb2NtaWdxOWdXM1h3QzdZa0VLMHo4T3dvNjNXM1E?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbnVncWp1c0Z1dFU0WFAwN0NxMDZJc3Via2Y1ZW5CVmY1NlNtVFY2RzBZcFBQQnJQdHN4Q2ZSdUFPRlVzTkNkZHc3a1ZmbnF4SDROdTBuSFR0bnB0cDdsckxxLXhiZWRzNjRkaTVtMWdySTM0M2wxdlVVb2NtaWdxOWdXM1h3QzdZa0VLMHo4T3dvNjNXM1E?oc=5"
+  },
+  {
     "id": "art-h-moser-cie-heritage-dois-relogi-4206",
     "slug": "h-moser-cie-heritage-dois-relogios-mecanicos-com-mostradores-fume-desafiando-o-efemero-digital-3988",
     "title": "H. Moser & Cie. Heritage: Dois Relógios Mecânicos com Mostradores Fumé Desafiando o Efêmero Digital",
@@ -280,7 +332,7 @@ export const ARTICLES = [
     "authorSlug": "clara-meirelles",
     "author_slug": "clara-meirelles",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "03 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -309,10 +361,10 @@ export const ARTICLES = [
       "posicionamento_editorial": "Soberania Patrimonial"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 93,
@@ -1348,64 +1400,20 @@ export const ARTICLES = [
     "published_at": "2026-10-28T23:03:59.385Z",
     "sourceUrl": "https://www.hodinkee.com/articles/fp-journe-chronometre-bleu-hands-on",
     "source_url": "https://www.hodinkee.com/articles/fp-journe-chronometre-bleu-hands-on"
-  },
-  {
-    "id": "art-a-lange-sohne-datograph-honeygol-9091",
-    "slug": "a-lange-sohne-datograph-honeygold-lumen-a-obra-prima-saxonica-de-516-componentes-sob-safira-fosforescente-9075",
-    "title": "A. Lange & Söhne Datograph Honeygold Lumen: A Obra-Prima Saxônica de 516 Componentes sob Safira Fosforescente",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "category_slug": "relogios",
-    "authorSlug": "clara-meirelles",
-    "author_slug": "clara-meirelles",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "28 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "/images/a-lange-datograph-honeygold-lumen.jpg",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Na quietude de Glashütte, a manufatura alemã funde sua liga patenteada de ouro mel a um mostrador transparente que revela a engenharia implacável do tempo na mais absoluta escuridão.",
-    "contentParagraphs": [
-      "O tempo saxônio não corre. O tempo saxônio repousa sobre a geometria exata de pontes de três quartos em alpaca não tratada. Na penumbra rigorosa do ateliê, o metal ganha uma temperatura morna que apenas a liga Honeygold consegue sustentar. Cada aresta é chanfrada à mão com limas de precisão antes de receber o polimento espelhado. O silêncio da Vallée de Glashütte penetra nas lentes dos relojoeiros enquanto eles ajustam tolerâncias inferiores a um mícron. Há uma solenidade mineral em cada engrenagem que escapa completamente ao observador desatento.",
-      "Sob o mostrador de safira fumê com tratamento luminescente integral, a mecânica complexa respira. O calibre de manufatura abriga 516 componentes dispostos em uma arquitetura tridimensional que desafia o espaço. A parada de segundos do turbilhão estabiliza a oscilação com uma precisão cirúrgica, permitindo o acerto instantâneo sem perda de energia acumulada. A luz ultravioleta absorvida pelo revestimento especial desperta um tom esverdeado espectral. A indicação do cronógrafo com saltos saltitantes opera em perfeita harmonia com o calendário perpétuo integrado.",
-      "A escolha da liga Honeygold não é um capricho estético efêmero. Trata-se de um manifesto contra a volatilidade das tendências. Sua dureza superior à do ouro amarelo tradicional protege a caixa contra as injúrias do uso cotidiano, mantendo o brilho acetinado intacto por gerações. O trabalho de gravação manual na ponte do balanço transforma cada exemplar em um objeto único. Nenhum traço do buril é idêntico ao anterior. A assinatura do artesão reside na imperfeição milimétrica que atesta a intervenção humana direta.",
-      "Enquanto o mercado de consumo em massa aposta na obsolescência programada, esta peça opera em outra dimensão temporal. A custódia fiduciária de um relógio desta magnitude exige a mesma reverência dedicada a uma propriedade histórica. O couro de aligátor costurado à mão com fio encerado sela o compromisso com a durabilidade absoluta. Não há espaço para o supérfluo quando a própria estrutura do mecanismo serve de ornamento. O datógrafo luminescente consolida o triunfo da paciência sobre a pressa contemporânea."
-    ],
-    "content_paragraphs": [
-      "O tempo saxônio não corre. O tempo saxônio repousa sobre a geometria exata de pontes de três quartos em alpaca não tratada. Na penumbra rigorosa do ateliê, o metal ganha uma temperatura morna que apenas a liga Honeygold consegue sustentar. Cada aresta é chanfrada à mão com limas de precisão antes de receber o polimento espelhado. O silêncio da Vallée de Glashütte penetra nas lentes dos relojoeiros enquanto eles ajustam tolerâncias inferiores a um mícron. Há uma solenidade mineral em cada engrenagem que escapa completamente ao observador desatento.",
-      "Sob o mostrador de safira fumê com tratamento luminescente integral, a mecânica complexa respira. O calibre de manufatura abriga 516 componentes dispostos em uma arquitetura tridimensional que desafia o espaço. A parada de segundos do turbilhão estabiliza a oscilação com uma precisão cirúrgica, permitindo o acerto instantâneo sem perda de energia acumulada. A luz ultravioleta absorvida pelo revestimento especial desperta um tom esverdeado espectral. A indicação do cronógrafo com saltos saltitantes opera em perfeita harmonia com o calendário perpétuo integrado.",
-      "A escolha da liga Honeygold não é um capricho estético efêmero. Trata-se de um manifesto contra a volatilidade das tendências. Sua dureza superior à do ouro amarelo tradicional protege a caixa contra as injúrias do uso cotidiano, mantendo o brilho acetinado intacto por gerações. O trabalho de gravação manual na ponte do balanço transforma cada exemplar em um objeto único. Nenhum traço do buril é idêntico ao anterior. A assinatura do artesão reside na imperfeição milimétrica que atesta a intervenção humana direta.",
-      "Enquanto o mercado de consumo em massa aposta na obsolescência programada, esta peça opera em outra dimensão temporal. A custódia fiduciária de um relógio desta magnitude exige a mesma reverência dedicada a uma propriedade histórica. O couro de aligátor costurado à mão com fio encerado sela o compromisso com a durabilidade absoluta. Não há espaço para o supérfluo quando a própria estrutura do mecanismo serve de ornamento. O datógrafo luminescente consolida o triunfo da paciência sobre a pressa contemporânea."
-    ],
-    "specs": {
-      "Manufatura": "A. Lange & Söhne, Glashütte i/SA",
-      "Calibre": "Movimento mecânico de corda manual com 516 componentes",
-      "Material da Caixa": "Honeygold de 18 quilates proprietário",
-      "Mostrador": "Safira fumê com revestimento luminescente",
-      "Complicações": "Turbilhão com parada de segundos e cronógrafo flyback",
-      "Tiragem": "Edição limitada a 50 exemplares numerados"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 95,
-    "ranking_score": 95,
-    "publishedAt": "2026-10-28T22:39:49.091Z",
-    "published_at": "2026-10-28T22:39:49.091Z",
-    "sourceUrl": "https://monochrome-watches.com/a-lange-sohne-datograph-perpetual-tourbillon-honeygold-lumen/",
-    "source_url": "https://monochrome-watches.com/a-lange-sohne-datograph-perpetual-tourbillon-honeygold-lumen/"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "ARQUITETURA",
+    "title": "Houston Mansion: A Soberana Propriedad...",
+    "image": "https://robbreport.com/wp-content/uploads/2026/10/2115-River-Oaks-Boulevard_Pavilion.jpg",
+    "tag": "CURADORIA RADAR",
+    "slug": "houston-mansion-a-soberana-propriedade-neoclassica-de-219-milhoes-que-abrigou-o-barao-enrico-di-portanova-e-sua-piscina-de-vidro-monumental-8338"
+  },
+  {
+    "id": "film-2",
     "category": "RELOGIOS",
     "title": "Girard-Perregaux Laureato Fifty Three ...",
     "image": "https://monochrome-watches.com/app/uploads/2026/10/Girard-Perragaux-Laureato-Fifty-Three-Gold-Bridges-permanent-collection-review-1.jpg",
@@ -1413,7 +1421,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "girard-perregaux-laureato-fifty-three-gold-bridges-a-trilogia-de-pontes-em-ouro-macico-forjada-na-vallee-de-joux-com-53-micrometros-de-tolerancia-7498"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "DESTINOS",
     "title": "Australian Superyachts: O Novo Santuár...",
     "image": "https://images.unsplash.com/photo-1783344422200-a5493824bcb9?auto=format&fit=max&q=85&w=1800",
@@ -1421,7 +1429,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "australian-superyachts-o-novo-santuario-naval-em-newport-que-redefine-a-hidrodinamica-oceanica-de-alta-performance-4461"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Alfa Romeo Tipo 33 Stradale: O Monstro...",
     "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=max&q=85&w=1800",
@@ -1429,7 +1437,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "alfa-romeo-tipo-33-stradale-o-monstro-v8-central-de-20-litros-forjado-em-aluminio-espacial-que-compartilha-a-alma-secreta-com-maranello-1443"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "ARQUITETURA",
     "title": "Diadema Romanov: O Tesouro Imperial de...",
     "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
@@ -1437,20 +1445,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "diadema-romanov-o-tesouro-imperial-de-15-milhao-de-libras-que-desafia-a-volatilidade-das-bolsas-globais-1653"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "DESTINOS",
     "title": "Superiate Omega Wellness 249: A Fortal...",
     "image": "https://images.unsplash.com/photo-1781872324499-e51350ed640e?auto=format&fit=max&q=85&w=1800",
     "tag": "CURADORIA RADAR",
     "slug": "superiate-omega-wellness-249-a-fortaleza-flutuante-de-75-metros-com-camaras-criogenicas-e-monocoque-em-aluminio-naval-1665"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Ferrari S.p.A.: O Marco Histórico de 2...",
-    "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800",
-    "tag": "CURADORIA RADAR",
-    "slug": "ferrari-spa-o-marco-historico-de-20-bilhoes-de-dolares-que-sustenta-sua-soberania-em-maranello-8634"
   }
 ];
 

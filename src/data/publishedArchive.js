@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-leilao-de-las-vegas-o-triunfo-ab-7309",
+    "slug": "leilao-de-las-vegas-o-triunfo-absoluto-da-linhagem-ferrari-e-o-peso-indestrutivel-do-aco-forjado-em-maranello-6917",
+    "title": "Leilão de Las Vegas: O Triunfo Absoluto da Linhagem Ferrari e o Peso Indestrutível do Aço Forjado em Maranello",
+    "image": "https://images.unsplash.com/photo-1577735138919-91b6848511c8?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbnVncWp1c0Z1dFU0WFAwN0NxMDZJc3Via2Y1ZW5CVmY1NlNtVFY2RzBZcFBQQnJQdHN4Q2ZSdUFPRlVzTkNkZHc3a1ZmbnF4SDROdTBuSFR0bnB0cDdsckxxLXhiZWRzNjRkaTVtMWdySTM0M2wxdlVVb2NtaWdxOWdXM1h3QzdZa0VLMHo4T3dvNjNXM1E?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-03T11:17:37.308Z"
+  },
+  {
     "id": "art-h-moser-cie-heritage-dois-relogi-4206",
     "slug": "h-moser-cie-heritage-dois-relogios-mecanicos-com-mostradores-fume-desafiando-o-efemero-digital-3988",
     "title": "H. Moser & Cie. Heritage: Dois Relógios Mecânicos com Mostradores Fumé Desafiando o Efêmero Digital",
