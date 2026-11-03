@@ -53,7 +53,7 @@ import { PUBLISHED_ARCHIVE } from '../src/data/publishedArchive.js';
 import { calculateEditorialScore, calculateCapaWeight, MIN_HERO_PRESTIGE_SCORE, resolvePublishedTimestamp } from '../src/services/rankingEngine.js';
 import { ARTICLES } from '../src/data/mockData.js';
 import { getPhotoId, sameStory, storyKey, slugify } from '../src/services/editorialDedupe.js';
-import { getFilmstripSelection, FILMSTRIP_LIMIT, FLOOR_DRAFT_BADGE, temMancheteForasteira } from '../src/services/feedPolicy.js';
+import { getFilmstripSelection, FILMSTRIP_LIMIT, FLOOR_DRAFT_BADGE, temMancheteForasteira, afirmacoesSemFonte as medirAfirmacoesSemFonte } from '../src/services/feedPolicy.js';
 import { resolveCoverImage, auditGalleryImages } from './coverImageAudit.js';
 import { findNegativeTerm } from '../src/services/editorialFilters.js';
 
@@ -196,7 +196,14 @@ function tierFor(score) {
 }
 
 function promptForCandidate(candidate) {
-  return `${candidate.hook}\n\nContexto: ${candidate.summary || ''}\nFonte: ${candidate.sourceUrl || ''}`;
+  // A data da pauta entra no texto entregue. Sem ela, um modelo que escreve "na
+  // temporada 2026" afirma um ano que não está em lugar nenhum do material, e a trava
+  // de afirmação queima a pauta por um fato que ela não tinha como saber. O mesmo
+  // string é o que a régua lê, então as duas pontas veem a mesma fonte. A guarda de
+  // formato é a mesma da fila: 'Publicado em:' escrito por engano num texto de pauta
+  // inibiria o anexo correto do item e reabriria a devolução falsa.
+  const base = `${candidate.hook}\n\nContexto: ${candidate.summary || ''}\nFonte: ${candidate.sourceUrl || ''}`;
+  return comDataDePublicacao(base, candidate.pauta && candidate.pauta.createdAt);
 }
 
 function announceNoPublication(reason) {
@@ -234,12 +241,37 @@ function writeRetryQueue(queue) {
   );
 }
 
+/**
+ * Anexa a data da pauta ao texto que o modelo e a trava leem. Item gravado na fila antes
+ * de 'Publicado em:' não traz data nenhuma, e sem ela uma manchete sobre o ano corrente
+ * ('os reis do mercado em 2026') é acusada de fabricar um ano que a pauta sempre contém
+ * — e a devolução falsa custa a pauta no segundo ciclo. Só anexar: retirar apoio do texto
+ * nunca é correção, é acusação nova.
+ * @param {string} promptInput texto já entregue à geração, ou o resíduo antigo dele
+ * @param {string} [dia] createdAt da pauta (ISO) — data do item quando a pauta saiu da oferta
+ * @returns {string}
+ */
+export function comDataDePublicacao(promptInput, dia) {
+  const texto = String(promptInput || '');
+  const diaCurto = String(dia || '').slice(0, 10);
+  if (/Publicado em:/.test(texto) || !/^\d{4}-\d{2}-\d{2}$/.test(diaCurto)) return texto;
+  return `${texto}\nPublicado em: ${diaCurto}`;
+}
+
 function candidateFromQueueItem(item) {
-  const promptInput = item.promptInput || '';
+  const key = item.pautaId || item.id || null;
+  // A curadoria derruba pautas velhas do pool, então o item pode ser a única cópia que
+  // ainda carrega uma data. O queuedAt licencia um ano só — o do dia em que a pauta
+  // estava em jogo — que é o erro do lado da concessão, direção declarada da régua.
+  const pautaNaOferta = INITIAL_HOT_PAUTAS.find(p => p && p.id === key);
+  const promptInput = comDataDePublicacao(
+    item.promptInput,
+    (pautaNaOferta && pautaNaOferta.createdAt) || item.queuedAt
+  );
   const hook = item.hook || promptInput.split('\n')[0] || 'Pauta em regeneração';
   return {
     sourceType: 'Retry Queue',
-    key: item.pautaId || null,
+    key,
     hook,
     category: item.category || 'Supercarros',
     categorySlug: item.categorySlug || 'supercarros',
@@ -322,6 +354,96 @@ function removeFromRetryQueue(key) {
     writeRetryQueue(filtered);
     console.log('✅ [Retry Queue] Item removido da fila.');
   }
+}
+
+// As duas contagens da fila medem causas diferentes e não podem ser confundidas:
+//   attempts   — tentativas em que nenhuma IA respondeu. É infraestrutura.
+//   devolucoes — matérias devolvidas pelas travas de TEXTO (idioma, afirmação sem
+//                fonte). É evidência sobre a pauta, e só ela decide o destino dela.
+// Na rodada anterior eu li as duas como uma só: o item que expirava por apaguão de IA
+// era descartado, a leitura seguinte não o encontrava, e "-1" virava "as tentativas
+// acabaram" — queimando na PRIMEIRA devolução uma pauta legítima, dentro da janela de
+// IA instável que é justamente a razão de existir do piso determinístico.
+const TETO_DE_DEVOLUCAO = 2;
+
+/**
+ * Soma a devolução de texto no item da fila. Recebe o array pronto para que a máquina
+ * de estados seja testável sem tocar em disco; quem chama decide persistir.
+ * @param {{pautaId?: string, id?: string, devolucoes?: number}[]} queue
+ * @param {string} key
+ * @returns {{vezes: number, presente: boolean, queimada: boolean}}
+ */
+export function registrarDevolucaoNaFila(queue, key) {
+  const index = (Array.isArray(queue) ? queue : [])
+    .findIndex(item => item && (item.pautaId || item.id) === key);
+  // Item ausente = a fila o descartou por apaguão de IA, não por texto. A contagem
+  // recomeça (o chamador acabou de reenfileirar a pauta) e nada queima: queda de IA
+  // não é culpa da pauta. O teto dura mesmo assim — sem IA a fila não acumula
+  // devoluções, e o TTL de 24h da pauta põe o teto de qualquer forma.
+  if (index === -1) return { vezes: 1, presente: false, queimada: false };
+  const vezes = (Number(queue[index].devolucoes) || 0) + 1;
+  queue[index].devolucoes = vezes;
+  return { vezes, presente: true, queimada: vezes >= TETO_DE_DEVOLUCAO };
+}
+
+/**
+ * Separa a fila pelo veredito que o pool já deu sobre a pauta. Id fora do pool
+ * permanece na fila: a curadoria derruba pautas velhas, e isso não é juízo sobre o
+ * texto — descartar por aqui seria perder a pauta sem veredito nenhum.
+ * @param {{pautaId?: string, id?: string}[]} queue
+ * @param {Map<string, string>} statusNoPool
+ * @returns {{viva: object[], expurgada: object[]}}
+ */
+export function expurgarFilaPorStatus(queue, statusNoPool) {
+  const viva = [];
+  const expurgada = [];
+  for (const item of Array.isArray(queue) ? queue : []) {
+    const status = statusNoPool.get((item && (item.pautaId || item.id)) || '');
+    (status && status !== 'available' ? expurgada : viva).push(item);
+  }
+  return { viva, expurgada };
+}
+
+/**
+ * A composição dos dois arquivos: fila de regeneração + pool curado → quem escreve
+ * neste ciclo. Vive separada porque o defeito morava exatamente aqui (item com
+ * veredito que continuava sendo escrito, blindagem da fila inteira que escondia o
+ * item parado fora do limite), e só lendo a composição os dois ramos apareciam.
+ * @param {object[]} queueBruta itens como estão em editorialRetryQueue.js
+ * @param {object[]} candidates pool já ordenado por nota, saído de buildCandidatePool
+ * @param {Map<string, string>} statusNoPool id → status, lido de hotFeedsData.js
+ * @param {{maxQueue?: number, maxFresh?: number}} [limites]
+ * @returns {{frescas: object[], emFila: object[], expurgada: object[], viva: object[]}}
+ */
+export function planejarTentativas(queueBruta, candidates, statusNoPool, limites = {}) {
+  const maxQueue = Number(limites.maxQueue) || MAX_QUEUE_ITEMS;
+  const maxFresh = Number(limites.maxFresh) || MAX_CANDIDATES;
+  const { viva, expurgada } = expurgarFilaPorStatus(queueBruta, statusNoPool);
+  // Só os itens que de fato disputam um slot blindam o slot fresco. Blindasse a fila
+  // inteira, um item parado além do limite ficaria invisível dos dois lados — nem
+  // tentado, nem renovável — e expiraria pelo TTL sem veredito nenhum.
+  const filaTentada = viva.slice(0, maxQueue);
+  const naFila = new Set(filaTentada.map(item => item.pautaId || item.id));
+  const frescas = (Array.isArray(candidates) ? candidates : [])
+    .filter(candidate => !naFila.has(candidate.key))
+    .slice(0, maxFresh)
+    .map(candidate => ({ candidate, fromQueue: false, queueItem: null }));
+  const emFila = filaTentada
+    .map(item => ({
+      candidate: candidateFromQueueItem(item),
+      fromQueue: true,
+      queueItem: item
+    }));
+  return { frescas, emFila, expurgada, viva };
+}
+
+function registrarDevolucao(key) {
+  if (!key) return { vezes: 0, queimada: false };
+  const queue = readRetryQueue();
+  const { vezes, presente, queimada } = registrarDevolucaoNaFila(queue, key);
+  if (queimada) removeFromRetryQueue(key);
+  else if (presente) writeRetryQueue(queue);
+  return { vezes, queimada };
 }
 
 // -----------------------------------------------------------------------------
@@ -755,6 +877,24 @@ export function mancheteSemTraducao(articleData) {
   return temMancheteForasteira(title) ? title : null;
 }
 
+// Fato concreto que a pauta não diz — um lugar do beat ou um ano inventado. É o modo
+// de falha medido no ciclo de 02/11 ("GP de Mônaco" numa pauta de pace car dos anos
+// 80). Nome próprio fora da pauta e ênfase sem fonte ficam em 'apoio': a régua não
+// distingue conhecimento de mundo correto de invenção, então esses termos custam a
+// capa, nunca a publicação.
+export function fatosInventadosSuspeitas(suspeitas) {
+  const fabricadas = (Array.isArray(suspeitas) ? suspeitas : []).filter(a => a && a.tipo === 'fabricada');
+  return fabricadas.length ? fabricadas.map(a => a.termo) : null;
+}
+
+// Termos que tiram a matéria do rosto do site. 'anotado' fica de fora de propósito: é o
+// nome próprio que a régua não sabe julgar, medido em 7 de 22 matérias corretas.
+function termosQueCustamCapa(suspeitas) {
+  return (Array.isArray(suspeitas) ? suspeitas : [])
+    .filter(a => a && a.tipo !== 'anotado')
+    .map(a => a.termo);
+}
+
 // Jitter de publicação (parece orgânico) tem uma armação embutida: a regra de capa lê
 // publishedAt para saber em que turno a coroação aconteceu. Recuar 15 minutos um alarme
 // das 14h10 grava 13h58 = turno manha, deixa a tarde aberta e rende 3 capas no dia.
@@ -766,7 +906,7 @@ export function jitteredPublishTime(nowMs = Date.now()) {
 
 // Veredito da capa em função separada: é a decisão que define a cara do site, e
 // o que se testa aqui é o código que roda no executor, não uma cópia dele.
-export function decideCoverPromotion({ finalScore, capaAnalysis, coverAudited, pinned, turnoLivre, idadeCapaMs = null, floorDraft = false }, cfg = {}) {
+export function decideCoverPromotion({ finalScore, capaAnalysis, coverAudited, pinned, turnoLivre, idadeCapaMs = null, floorDraft = false, afirmacoesSemFonte = [] }, cfg = {}) {
   const capaMaxAge = Number.isFinite(cfg.capaMaxAgeHours) ? cfg.capaMaxAgeHours : CAPA_MAX_AGE_HOURS;
   const capaMinScore = Number.isFinite(cfg.capaMinScore) ? cfg.capaMinScore : CAPA_MIN_SCORE;
 
@@ -788,6 +928,19 @@ export function decideCoverPromotion({ finalScore, capaAnalysis, coverAudited, p
   if (Number.isFinite(idadeCapaMs) && idadeCapaMs < CAPA_MIN_GAP_MS) {
     return { isHero: false, capaVelha: false, piso: null, motivo: `capa coroada há ${(idadeCapaMs / 3_600_000).toFixed(1)}h (mínimo 2h)` };
   }
+  // A manchete promete o que a pauta não disse? Ela ainda é publicada — o que perde é a
+  // capa, o lugar mais visível da revista. Medido em 2026-11-02: a fonte falava num
+  // "One-Off, $1 Million Pace Car in the '80s" e o resumo publicado garantiu "construído
+  // para liderar o GP de Mônaco". Mônaco não existia em lugar nenhum.
+  const queCustamCapa = termosQueCustamCapa(afirmacoesSemFonte);
+  if (queCustamCapa.length) {
+    return {
+      isHero: false,
+      capaVelha: false,
+      piso: null,
+      motivo: `afirmação sem fonte na manchete (${queCustamCapa.slice(0, 3).join(', ')})`
+    };
+  }
   // Último consumidor do hoursElapsed arredondado a 0,1h: com ele, uma capa de 7h58m20s
   // vira "8,0h" e o piso cai para 80 pts até 3 minutos antes da hora. A idade exata já
   // foi medida acima para o gap de 2h; aqui ela é a mesma leitura, não uma segunda conta.
@@ -806,7 +959,7 @@ export function decideCoverPromotion({ finalScore, capaAnalysis, coverAudited, p
   return { isHero: true, capaVelha, piso, motivo: `capa por mérito (${finalScore} > ${capaAnalysis.currentWeight})` };
 }
 
-async function publishArticle(articleData, candidate, meta, supabaseClient) {
+async function publishArticle(articleData, candidate, meta, supabaseClient, suspeitas) {
   console.log(`✓ Ensaio Concluído: "${articleData.title}"`);
   console.log(`✓ Autor: ${articleData.authorName || candidate.authorSlug} (${articleData.authorSlug || candidate.authorSlug})`);
 
@@ -844,6 +997,7 @@ async function publishArticle(articleData, candidate, meta, supabaseClient) {
   // Dois sinais de "este texto não foi escrito por IA": a flag do ciclo que publicou o
   // piso determinístico e o engineSource gravado pelo gerador. Basta um para travar a capa.
   const floorDraft = Boolean(articleData.floorDraft) || articleData.engineSource === 'local-synthesizer';
+  const custamCapa = termosQueCustamCapa(suspeitas);
 
   let isHero = false;
   if (currentHero) {
@@ -855,7 +1009,8 @@ async function publishArticle(articleData, candidate, meta, supabaseClient) {
       pinned: Boolean(currentHero.is_pinned_hero || currentHero.isPinnedHero),
       turnoLivre: coverTurnoLivre(currentHero),
       idadeCapaMs: idadeCapaMs(currentHero),
-      floorDraft
+      floorDraft,
+      afirmacoesSemFonte: suspeitas
     });
     isHero = veredito.isHero;
     if (!isHero && veredito.motivo.startsWith('imagem')) {
@@ -869,8 +1024,12 @@ async function publishArticle(articleData, candidate, meta, supabaseClient) {
   } else {
     // Sem capa no acervo a home não fica sem rosto (feedPolicy cai em list[0]), mas
     // fica sem selo de Destaque. Image não medida não vira rosto do site aqui tampoco,
-    // e rascunho sem IA jamais abre a cara da revista.
-    isHero = cover.audited && !floorDraft && finalScore >= MIN_HERO_PRESTIGE_SCORE;
+    // e rascunho sem IA jamais abre a cara da revista. Sem capa vigente este é o único
+    // lugar onde a trava de afirmação existe, então ela é repetida aqui de propósito.
+    isHero = cover.audited && !floorDraft && !custamCapa.length && finalScore >= MIN_HERO_PRESTIGE_SCORE;
+    if (!isHero && custamCapa.length) {
+      console.warn(`🛡️  [Capa] Manchete com afirmação sem fonte (${custamCapa.slice(0, 3).join(', ')}): matéria publicada no feed, sem abrir a revista.`);
+    }
   }
 
   const categorySlug = candidate.categorySlug || articleData.categorySlug || 'supercarros';
@@ -1099,25 +1258,34 @@ async function runPublicationCycle() {
       }
     }
 
-    const queue = readRetryQueue();
-    const queueCandidates = queue.slice(0, MAX_QUEUE_ITEMS).map(candidateFromQueueItem);
+    const queueBruta = readRetryQueue();
     const { candidates, duplicateKeys, expiredKeys, rejectedKeys = [] } = buildCandidatePool(meta);
+
+    // A fila é lida de um arquivo e o veredito das pautas de outro. Sem este crivo,
+    // uma pauta queimada ('rejected') continuava sendo escrita pelo slot de retry e,
+    // se saísse limpa, era publicada com o rótulo desligado.
+    const statusNoPool = new Map(INITIAL_HOT_PAUTAS
+      .filter(p => p && p.id && p.status)
+      .map(p => [p.id, p.status]));
+    const planejamento = planejarTentativas(queueBruta, candidates, statusNoPool);
+    const { expurgada } = planejamento;
+    if (expurgada.length) {
+      console.warn(`🧹 [Retry Queue] ${expurgada.length} item(ns) expurgado(s): a pauta já tem veredito no pool.`);
+      writeRetryQueue(planeamento.viva);
+    }
 
     duplicateKeys.forEach(key => statusUpdates.set(key, 'duplicate'));
     expiredKeys.forEach(key => statusUpdates.set(key, 'expired'));
     rejectedKeys.forEach(key => statusUpdates.set(key, 'rejected'));
 
-    const freshAttempts = candidates.slice(0, MAX_CANDIDATES)
-      .map(candidate => ({ candidate, fromQueue: false, queueItem: null }));
-    const queueAttempts = queueCandidates
-      .map(candidate => ({ candidate, fromQueue: true, queueItem: queue.find(item => item.pautaId === candidate.key) }));
-
-    // O pool já vem ordenado por nota. Em ciclo de capa a melhor pauta escreve
-    // PRIMEIRO: a matéria que nasce aqui é a que vira a cara do site, e a fila de
-    // retry (que costuma ser a de menor nota) não pode furar essa fila.
+    // O pool já vem ordenado por nota e as duas listas conservam a ordem delas: em
+    // ciclo de capa a melhor pauta escrita PRIMEIRO é a que vira a cara do site, e a
+    // fila de retry (nota menor) não pode furar essa fila. Fora de ciclo de capa a
+    // fila passa na frente, porque regenerar o que já falhou vale mais que estrear
+    // uma pauta nova.
     const attempts = cicloDeCapa
-      ? [...freshAttempts, ...queueAttempts]
-      : [...queueAttempts, ...freshAttempts];
+      ? [...planejamento.frescas, ...planejamento.emFila]
+      : [...planejamento.emFila, ...planejamento.frescas];
 
     if (!attempts.length) {
       announceNoPublication('nenhuma pauta inédita disponível (fila vazia, acervo todo publicado ou pautas expiradas)');
@@ -1140,14 +1308,31 @@ async function runPublicationCycle() {
     let generatedAttempts = 0;
     let frescasBloqueadas = false;
 
+    // Devolver a matéria é barato; perder a pauta é caro — e o contrário também é
+    // verdade: uma pauta que devolve todo ciclo come uma geração por alarme até o TTL.
+    // A contagem por ciclo não fechava isso (só chegava a 2 quando a pauta ocupava os
+    // dois slots do mesmo turno), então o total vive no arquivo da fila. AQUI só conta
+    // a devolução de texto: queda de IA não é evidência sobre a pauta.
+    const devolver = (candidato, fromQueue, pauta) => {
+      if (!fromQueue) enqueueForRegeneration(candidato, pauta);
+      const { vezes, queimada } = registrarDevolucao(candidato.key);
+      if (queimada) {
+        statusUpdates.set(candidato.key, 'rejected');
+        console.warn(`⚠️ [Devolução] Pauta ${candidato.key} queimada após ${vezes} devoluções de texto: sai da oferta e da fila.`);
+      } else {
+        console.warn(`🔁 [Devolução] ${vezes}/${TETO_DE_DEVOLUCAO} da pauta ${candidato.key}; regenerada no próximo ciclo.`);
+      }
+    };
+
     for (const attempt of attempts) {
       const { candidate, fromQueue, queueItem } = attempt;
       if (frescasBloqueadas && !fromQueue) continue;
       console.log(`\n🖋️  [Redação] Tentando ${fromQueue ? 'fila de retry' : 'candidata fresca'}: "${candidate.hook.slice(0, 70)}..."`);
 
       let articleData;
+      const pautaEntregue = candidate.promptInput || promptForCandidate(candidate);
       try {
-        articleData = await generateLuxuryArticle(candidate.promptInput || promptForCandidate(candidate), {
+        articleData = await generateLuxuryArticle(pautaEntregue, {
           authorSlug: candidate.authorSlug
         });
       } catch (err) {
@@ -1185,8 +1370,31 @@ async function runPublicationCycle() {
       const semTraducao = mancheteSemTraducao(articleData);
       if (semTraducao) {
         console.warn(`🛑 [Idioma] Manchete na língua da fonte: "${semTraducao.slice(0, 58)}…". Devolvida para regeneração.`);
-        if (fromQueue) registerQueueFailure(queueItem);
-        else enqueueForRegeneration(candidate, promptForCandidate(candidate));
+        devolver(candidate, fromQueue, promptForCandidate(candidate));
+        continue;
+      }
+
+      // Comparado com exatamente o texto entregue ao modelo (hook + contexto + fonte).
+      // Contra qualquer outra coisa nasceria suspeita onde a pauta até dizia o fato.
+      const suspeitas = medirAfirmacoesSemFonte({
+        title: articleData.title,
+        excerpt: articleData.excerpt,
+        corpo: articleData.contentParagraphs,
+        fonte: pautaEntregue
+      });
+      // O piso determinístico fica fora desta trava: é boilerplate nosso, revisado à mão,
+      // já selado como 'REDIGIDA SEM IA' e nunca abre a revista. Devolvê-lo deixaria o site
+      // sem publicação justamente no apagão de IA — a única situação para a qual ele existe.
+      // O que a régua não sabe julgar vai para o log em vez de para a tesoura: é a lista
+      // que um editor humano leria antes de assinar a capa.
+      const anotados = suspeitas.filter(a => a.tipo === 'anotado').map(a => a.termo);
+      if (anotados.length) {
+        console.log(`📝 [Fonte] Nomes próprios fora da pauta (sem juízo da régua, sem custo de capa): ${anotados.slice(0, 6).join(', ')}`);
+      }
+      const inventados = articleData.floorDraft ? null : fatosInventadosSuspeitas(suspeitas);
+      if (inventados) {
+        console.warn(`🛑 [Fonte] Matéria devolvida: a manchete afirma ${inventados.slice(0, 4).join(', ')} e nada disso está na pauta.`);
+        devolver(candidate, fromQueue, pautaEntregue);
         continue;
       }
 
@@ -1199,7 +1407,7 @@ async function runPublicationCycle() {
       }
       console.log('✅ [Auditoria Aprovada] Nenhuma colisão com o acervo, arquivo permanente ou Capa.');
 
-      published = await publishArticle(articleData, candidate, meta, supabaseClient);
+      published = await publishArticle(articleData, candidate, meta, supabaseClient, suspeitas);
 
       if (published) {
         if (candidate.key) statusUpdates.set(candidate.key, 'published');
