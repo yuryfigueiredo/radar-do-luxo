@@ -1,11 +1,11 @@
 name: 🌐 Radar do Luxo — Scout & Curadoria Global de Pautas (Pré-Postagem)
 
 on:
-  schedule:
-    # Scout diário automatizado em duas janelas estratégicas de notícias internacionais:
-    # - 06h30 BRT (09h30 UTC): Prévia da abertura dos mercados europeus e leilões
-    # - 15h30 BRT (18h30 UTC): Fechamento de pregões em NY e lançamentos globais
-    - cron: '30 9,18 * * *'
+  # 2026-11-03: o gatilho agendado saiu daqui e virou timer systemd na VPS
+  # (ops/vps/radar-scout.timer) — as mesmas duas janelas, 09h30 e 18h30 UTC
+  # (06h30 e 15h30 BRT), chegando no minuto em vez de ~3h10 depois. Nunca os dois
+  # ligados ao mesmo tempo: scout do Actions e scout da VPS disputariam o mesmo push
+  # em main. Actions permanece como disparo manual, que é o fallback da VPS caída.
   # Permite forçar a curadoria e rastreamento a qualquer momento com 1 clique no GitHub Actions:
   workflow_dispatch:
 

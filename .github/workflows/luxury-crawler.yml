@@ -1,35 +1,17 @@
 name: 💎 Radar do Luxo — Publicação Editorial Autônoma
 
 on:
-  schedule:
-    # BRT = UTC−3, então o alarme é a hora de Brasília MAIS 3 em UTC. O atraso do
-    # agendador (mediano 3h10, máx 7h41 em 43 runs) NÃO é compensado aqui: ele é
-    # absorvido pela cota de turno no código, que decide por ESTADO e não por relógio.
-    # O que importa é cada alarme nascer DENTRO do turno que quer coroar — um alarme
-    # pré-compensado cai no turno errado justamente nos dias em que o GitHub dispara
-    # cedo (21% dos casos chegam com menos de 1h de atraso).
-    #
-    # ── CAPA DA MADRUGADA (turno manha) ───────────────────────────────────────
-    # 00h20 BRT. Com atraso mediano chega ~03h30 BRT: quem abrir o site de manhã
-    # encontra cara nova, e sem atraso ainda é madrugada.
-    - cron: '20 3 * * *'
-    # Reserva 01h50 BRT — dispara DEPOIS do principal. Se o turno ainda está livre,
-    # ela coroa a capa; se o principal já coroou, vira mais uma matéria no feed.
-    - cron: '50 4 * * *'
-    #
-    # ── FEED DURANTE O DIA ────────────────────────────────────────────────────
-    - cron: '20 11 * * *'   # 08h20 BRT
-    - cron: '20 15 * * *'   # 12h20 BRT
-    #
-    # ── CAPA DA TARDE (turno tarde, que abre às 14h BRT) ──────────────────────
-    # 14h10 BRT. Com atraso mediano chega ~17h20 BRT.
-    - cron: '10 17 * * *'
-    # Reserva 15h40 BRT.
-    - cron: '40 18 * * *'
-    #
-    # ── FEED DA NOITE E FECHAMENTO ────────────────────────────────────────────
-    - cron: '20 22 * * *'   # 19h20 BRT
-    - cron: '30 1 * * *'    # 22h30 BRT
+  # 2026-11-03: os 8 alarmes saíram do cron do GitHub e viraram timers systemd na VPS
+  # (ops/vps/radar-crawler.timer), rodando DENTRO da máquina — só lá a cadeia alcança o
+  # 9router, que escuta 127.0.0.1:20128 e não existe para um runner do Actions.
+  # Mesmas janelas, agora no minuto (o agendador do GitHub tinha atraso mediano de 3h10,
+  # máx 7h41 em 43 runs — e a capa é decidida por estado de turno, então pontualidade é
+  # o que faz cada alarme nascer dentro do turno que ele quer coroar):
+  #   UTC  03:20 · 04:50 · 11:20 · 15:20 · 17:10 · 18:40 · 22:20 · 01:30
+  #   BRT  00h20 · 01h50 · 08h20 · 12h20 · 14h10 · 15h40 · 19h20 · 22h30
+  #   capa da madrugada: 00h20, reserva 01h50 · capa da tarde: 14h10, reserva 15h40
+  # Nunca ligar o cron aqui de novo sem desligar o timer na VPS: dois escritores em main
+  # e o push do segundo falha. O disparo manual abaixo continua sendo o fallback.
   # Também dispara imediatamente quando o Scout de Pautas é concluído com sucesso:
   workflow_run:
     workflows: ["🌐 Radar do Luxo — Scout & Curadoria Global de Pautas (Pré-Postagem)"]
