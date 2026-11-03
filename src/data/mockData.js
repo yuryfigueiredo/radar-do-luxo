@@ -116,6 +116,59 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-amels-242-nome-o-superiate-de-74-7425",
+    "slug": "amels-242-nome-o-superiate-de-74-metros-e-1790-toneladas-que-desafia-a-hidrodinamica-tradicional-no-hercules-de-monaco-7416",
+    "title": "Amels 242 Nome: O Superiate de 74 Metros e 1.790 Toneladas que Desafia a Hidrodinâmica Tradicional no Hércules de Mônaco",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "03 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1614350391736-ed8619d63c06?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Ancorado nas águas profundas do Port Hercule, o Amels 242 Nome sintetiza a maestria naval de Vlissingen através de um casco de aço de deslocamento pleno e arquitetura acústica projetada para anular qualquer vibração estrutural.",
+    "contentParagraphs": [
+      "O Port Hercule não perdoa o excesso superficial. Quando a silhueta de 74 metros do Amels Nome cortou a entrada da marina monegasca, a gravidade física da arquitetura naval holandesa se fez sentir imediatamente. Não há ornamentos fúteis no perfil desenhado por Tim Heywood. A água cede espaço a um casco de aço estrutural de deslocamento severo, projetado com tolerância de mícrons para rasgar a massa oceânica sem perturbações desnecessárias no arrasto dinâmico.",
+      "A bordo, a telemetria inercial dita o ritmo da engenharia de propulsão. Equipado com dois motores Caterpillar diesel emparelhados a um sistema sofisticado de redução de ruído passivo, o navio converte megawatts de energia em cruzeiro contínuo de 15 nós. A canalização dos gases de exaustão, forjada em ligas de Inconel 625 nas áreas de alta temperatura mecânica, isola a embarcação do ambiente marinho. A dinâmica do fluxo de Venturi aplicada à refrigeração da praça de máquinas garante uma eficiência térmica incomparável durante longas travessias transatlânticas.",
+      "O controle inercial e a estabilização ativa não são meras conveniências; são exigências de segurança marítima soberana. Barbatanas estabilizadoras de acionamento eletro-hidráulico atuam em frações de segundo, combatendo o jogo de rolamento sob forças de torque severas e força G lateral em mares agitados. O monocoque naval, com superestrutura esculpida em alumínio marítimo de alta liga, abaixa o centro de gravidade do projeto. Isso otimiza o efeito solo marinho e a sustentação pontual da quilha contra a arrebentação marinha.",
+      "Com 1.790 toneladas de arqueação bruta, o Amels Nome reafirma a supremacia dos estaleiros Damen Yachting frente às modas efémeras da navegação de recreio. Esta embarcação ignora sistemas de automação frágeis e prioriza a robustez de arquiteturas redundantes operadas por uma ponte de comando analógico-digital de padrão militar. O superiate permanece como um testemunho físico de que a verdadeira navegação offshore não busca aclamação vulgar, mas sim a conquista matemática dos oceanos."
+    ],
+    "content_paragraphs": [
+      "O Port Hercule não perdoa o excesso superficial. Quando a silhueta de 74 metros do Amels Nome cortou a entrada da marina monegasca, a gravidade física da arquitetura naval holandesa se fez sentir imediatamente. Não há ornamentos fúteis no perfil desenhado por Tim Heywood. A água cede espaço a um casco de aço estrutural de deslocamento severo, projetado com tolerância de mícrons para rasgar a massa oceânica sem perturbações desnecessárias no arrasto dinâmico.",
+      "A bordo, a telemetria inercial dita o ritmo da engenharia de propulsão. Equipado com dois motores Caterpillar diesel emparelhados a um sistema sofisticado de redução de ruído passivo, o navio converte megawatts de energia em cruzeiro contínuo de 15 nós. A canalização dos gases de exaustão, forjada em ligas de Inconel 625 nas áreas de alta temperatura mecânica, isola a embarcação do ambiente marinho. A dinâmica do fluxo de Venturi aplicada à refrigeração da praça de máquinas garante uma eficiência térmica incomparável durante longas travessias transatlânticas.",
+      "O controle inercial e a estabilização ativa não são meras conveniências; são exigências de segurança marítima soberana. Barbatanas estabilizadoras de acionamento eletro-hidráulico atuam em frações de segundo, combatendo o jogo de rolamento sob forças de torque severas e força G lateral em mares agitados. O monocoque naval, com superestrutura esculpida em alumínio marítimo de alta liga, abaixa o centro de gravidade do projeto. Isso otimiza o efeito solo marinho e a sustentação pontual da quilha contra a arrebentação marinha.",
+      "Com 1.790 toneladas de arqueação bruta, o Amels Nome reafirma a supremacia dos estaleiros Damen Yachting frente às modas efémeras da navegação de recreio. Esta embarcação ignora sistemas de automação frágeis e prioriza a robustez de arquiteturas redundantes operadas por uma ponte de comando analógico-digital de padrão militar. O superiate permanece como um testemunho físico de que a verdadeira navegação offshore não busca aclamação vulgar, mas sim a conquista matemática dos oceanos."
+    ],
+    "specs": {
+      "comprimento_total": "74,00 metros (242 pés)",
+      "estaleiro_origem": "Amels / Damen Yachting (Vlissingen, Holanda)",
+      "deslocamento_bruto": "1.790 Toneladas de Arqueação (GT)",
+      "design_exterior": "Tim Heywood Design",
+      "propulsao_telemetria": "Dois motores Caterpillar diesel com exaustão em Inconel 625",
+      "velocidade_cruzeiro": "15,0 nós (autonomia transatlântica)"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 87,
+    "ranking_score": 87,
+    "engineSource": "gemini:gemini-3.5-flash",
+    "publishedAt": "2026-11-03T17:12:27.425Z",
+    "published_at": "2026-11-03T17:12:27.425Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1DdVJ0YU1EU2hjbm13aEVvM0tIRDlfQlY0a0NVWTZ6ZXZIc3VKMDFRQUx6bG5oUGtoT04zUDhsSWZUN1M2akJLLUNkV24tTTNyZThlaWo2eHdyYTNpUkxuYklQTWJMN2wxV29GcTJMZlpuYVgxYmo4cw?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1DdVJ0YU1EU2hjbm13aEVvM0tIRDlfQlY0a0NVWTZ6ZXZIc3VKMDFRQUx6bG5oUGtoT04zUDhsSWZUN1M2akJLLUNkV24tTTNyZThlaWo2eHdyYTNpUkxuYklQTWJMN2wxV29GcTJMZlpuYVgxYmo4cw?oc=5"
+  },
+  {
     "id": "art-sothebys-royal-noble-jewels-gene-3079",
     "slug": "sothebys-royal-noble-jewels-geneva-2026-a-colecao-de-diamantes-historicos-de-18-quilates-com-proveniencia-dinastica-comprovada-3072",
     "title": "Sotheby's Royal & Noble Jewels Geneva 2026: A Coleção de Diamantes Históricos de 18 Quilates com Proveniência Dinástica Comprovada",
@@ -1351,57 +1404,6 @@ export const ARTICLES = [
     "published_at": "2026-10-29T16:49:01.666Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCQTBRNG1adHRQTzdXUjgzU3NrZnNxZ0d5OGprUE53TWFpbHFUYWlUUHZwbHM3V1dKeUNldzJYamlqYVdDOEFwaXRSdk9qS2tSZnhxNWNrMW1jWGNwTlA3MXZGTlhDTXJ4aUNGZWs3Rld6R1QxUTlSS1lnY2htZ0E?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCQTBRNG1adHRQTzdXUjgzU3NrZnNxZ0d5OGprUE53TWFpbHFUYWlUUHZwbHM3V1dKeUNldzJYamlqYVdDOEFwaXRSdk9qS2tSZnhxNWNrMW1jWGNwTlA3MXZGTlhDTXJ4aUNGZWs3Rld6R1QxUTlSS1lnY2htZ0E?oc=5"
-  },
-  {
-    "id": "art-ferrari-spa-o-marco-historico-de-8637",
-    "slug": "ferrari-spa-o-marco-historico-de-20-bilhoes-de-dolares-que-sustenta-sua-soberania-em-maranello-8634",
-    "title": "Ferrari S.p.A.: O Marco Histórico de 20 Bilhões de Dólares que Sustenta sua Soberania em Maranello",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "29 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "A avaliação de mercado da escuderia atinge patamares astronômicos enquanto a engenharia de Maranello resiste à obsolescência digital com blocos V12 aspirados.",
-    "contentParagraphs": [
-      "O capital flui para Maranello. A avaliação de mercado ultrapassou a barreira dos 20 bilhões de dólares. Trata-se de uma soberania financeira incontestável.",
-      "Sob o capô, a tolerância de mícrons dita a regra. O monocoque em carbo-titânio curado em autoclave a 6 bar suporta forças G laterais brutais. O fluxo de Venturi e o efeito solo colam o chassi ao asfalto. O escape em Inconel 625 incandescente ruge telemetria inercial pura a cada retomada de marcha.",
-      "A escassez matemática protege o patrimônio. Enquanto fabricantes generalistas inundam o mercado com telas táteis descartáveis, a Ferrari restringe a produção para blindar sua custódia fiduciária. O mercado reconhece a raridade mecânica como o último refúgio de liquidez.",
-      "O veredito de Gabriel Fontes é definitivo. Vinte bilhões de dólares não compram apenas ações em bolsa; financiam a obstinação humana contra a mediocridade digital."
-    ],
-    "content_paragraphs": [
-      "O capital flui para Maranello. A avaliação de mercado ultrapassou a barreira dos 20 bilhões de dólares. Trata-se de uma soberania financeira incontestável.",
-      "Sob o capô, a tolerância de mícrons dita a regra. O monocoque em carbo-titânio curado em autoclave a 6 bar suporta forças G laterais brutais. O fluxo de Venturi e o efeito solo colam o chassi ao asfalto. O escape em Inconel 625 incandescente ruge telemetria inercial pura a cada retomada de marcha.",
-      "A escassez matemática protege o patrimônio. Enquanto fabricantes generalistas inundam o mercado com telas táteis descartáveis, a Ferrari restringe a produção para blindar sua custódia fiduciária. O mercado reconhece a raridade mecânica como o último refúgio de liquidez.",
-      "O veredito de Gabriel Fontes é definitivo. Vinte bilhões de dólares não compram apenas ações em bolsa; financiam a obstinação humana contra a mediocridade digital."
-    ],
-    "specs": {
-      "Avaliação de Mercado": "US$ 20 Bilhões",
-      "Sede da Manufatura": "Maranello, Itália",
-      "Arquitetura Mecânica": "V12 Aspirado / Híbrido de Alta Performance",
-      "Tolerância Estrutural": "Mícrons em Autoclave a 6 bar",
-      "Liga de Exaustão": "Inconel 625"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 93,
-    "ranking_score": 93,
-    "publishedAt": "2026-10-29T16:16:18.637Z",
-    "published_at": "2026-10-29T16:16:18.637Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNXzJERWdrUmYzOGRxZ0RkUnpZNS11R0RNd19zSEQxRVhwdlY0OERkUnJRU2NFT0R1V0VFNURZQ2Fzb3BtcW1sb0wxbnl3SUFZaHpMQVM1YUsyRE95bldhOGtaQkZzNWJURnhJajVid29ZWUhUTG5yRnlXb1RkQUlGbUctR0RXT0UtMC1LSVFVMWNCanRtWHNqZFlZLUc?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNXzJERWdrUmYzOGRxZ0RkUnpZNS11R0RNd19zSEQxRVhwdlY0OERkUnJRU2NFT0R1V0VFNURZQ2Fzb3BtcW1sb0wxbnl3SUFZaHpMQVM1YUsyRE95bldhOGtaQkZzNWJURnhJajVid29ZWUhUTG5yRnlXb1RkQUlGbUctR0RXT0UtMC1LSVFVMWNCanRtWHNqZFlZLUc?oc=5"
   }
 ];
 
@@ -1409,13 +1411,21 @@ export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
     "category": "RELOGIOS",
+    "title": "O&HoraPictor Smoked Ocean Volcano Grey...",
+    "image": "https://monochrome-watches.com/app/uploads/2026/10/HoraPictor-Smoked-Ocean-Volcano-Grey-Enamel-Dial-Accessible-10.jpg",
+    "tag": "CURADORIA RADAR",
+    "slug": "ohorapictor-smoked-ocean-volcano-grey-40-milimetros-de-esmalte-grand-feu-a-820c-com-calibre-suico-sellita-sw200-1162"
+  },
+  {
+    "id": "film-2",
+    "category": "RELOGIOS",
     "title": "Laurent Ferrier Grand Sport Tourbillon...",
     "image": "https://monochrome-watches.com/app/uploads/2026/10/Laurent-Ferrier-Grand-Sport-Tourbillon-Iceberg-Titanium-review-8.jpg",
     "tag": "CURADORIA RADAR",
     "slug": "laurent-ferrier-grand-sport-tourbillon-iceberg-o-cronometro-de-titanio-grao-selado-de-44mm-com-tourbillon-de-duplo-balanco-inverso-7884"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "ARQUITETURA",
     "title": "Houston Mansion: A Soberana Propriedad...",
     "image": "https://robbreport.com/wp-content/uploads/2026/10/2115-River-Oaks-Boulevard_Pavilion.jpg",
@@ -1423,7 +1433,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "houston-mansion-a-soberana-propriedade-neoclassica-de-219-milhoes-que-abrigou-o-barao-enrico-di-portanova-e-sua-piscina-de-vidro-monumental-8338"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "RELOGIOS",
     "title": "Girard-Perregaux Laureato Fifty Three ...",
     "image": "https://monochrome-watches.com/app/uploads/2026/10/Girard-Perragaux-Laureato-Fifty-Three-Gold-Bridges-permanent-collection-review-1.jpg",
@@ -1431,7 +1441,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "girard-perregaux-laureato-fifty-three-gold-bridges-a-trilogia-de-pontes-em-ouro-macico-forjada-na-vallee-de-joux-com-53-micrometros-de-tolerancia-7498"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "DESTINOS",
     "title": "Australian Superyachts: O Novo Santuár...",
     "image": "https://images.unsplash.com/photo-1783344422200-a5493824bcb9?auto=format&fit=max&q=85&w=1800",
@@ -1439,20 +1449,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "australian-superyachts-o-novo-santuario-naval-em-newport-que-redefine-a-hidrodinamica-oceanica-de-alta-performance-4461"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Alfa Romeo Tipo 33 Stradale: O Monstro...",
     "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=max&q=85&w=1800",
     "tag": "CURADORIA RADAR",
     "slug": "alfa-romeo-tipo-33-stradale-o-monstro-v8-central-de-20-litros-forjado-em-aluminio-espacial-que-compartilha-a-alma-secreta-com-maranello-1443"
-  },
-  {
-    "id": "film-6",
-    "category": "ARQUITETURA",
-    "title": "Diadema Romanov: O Tesouro Imperial de...",
-    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "diadema-romanov-o-tesouro-imperial-de-15-milhao-de-libras-que-desafia-a-volatilidade-das-bolsas-globais-1653"
   }
 ];
 
