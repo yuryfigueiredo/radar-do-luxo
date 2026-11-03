@@ -148,7 +148,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "available"
+    "status": "duplicate"
   },
   {
     "id": "pauta-live-destinos-mvznxj8f-hiv8",
@@ -254,7 +254,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "available"
+    "status": "duplicate"
   },
   {
     "id": "pauta-live-destinos-mvznxj8h-l5c6",
@@ -280,7 +280,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d17?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "available"
+    "status": "published"
   },
   {
     "id": "pauta-live-relogios-mvznxj6o-xfmu",

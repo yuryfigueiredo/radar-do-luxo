@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-brabus-shadow-e-hydrofoil-o-brin-9057",
+    "slug": "brabus-shadow-e-hydrofoil-o-brinquedo-nautico-de-us-20490-com-hidrofolio-de-fibra-de-carbono-e-28-nos-de-voo-9050",
+    "title": "Brabus Shadow E-Hydrofoil: O Brinquedo Náutico de US$ 20.490 com Hidrofólio de Fibra de Carbono e 28 Nós de Voo",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "03 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A divisão de alta performance de Bottrop abandona o asfalto para esculpir uma lâmina elétrica de fibra de carbono que desafia o arrasto hidrodinâmico a 28 mph.",
+    "contentParagraphs": [
+      "A água doce ou salgada resiste ao casco com uma violência molecular inegociável. A engenharia naval tradicional consome energia bruta para empurrar toneladas de deslocamento em um banho de espuma e perdas de atrito cinético. A resposta de Bottrop ignora o óbvio e suspende o piloto no ar. O foil de fibra de carbono ataca o fluxo de água com o mesmo rigor aerodinâmico aplicado aos superesportivos da marca alemã em túneis de vento.",
+      "A propulsão elétrica entrega torque instantâneo sem o rugido de combustão interna, mantendo o silêncio necessário para operações de apoio a superiates oceânicos. O conjunto opera sob tolerâncias de mícrons na usinagem dos mancais submersos. A telemetria inercial monitora o ângulo de ataque dos foils a cada milissegundo. O resultado físico é a eliminação quase total da resistência de onda, erguendo a estrutura sobre a superfície líquida até atingir a crista dos 28 nós.",
+      "O mercado de brinquedos náuticos para plataformas de exploração privada exige redundância mecânica e estética intransigente. Cada componente estrutural passa por ciclos rigorosos de cura em autoclave sob pressão controlada para suportar a carga cíclica extrema das manobras em alta velocidade. A fibra de carbono exposta revela a urdidura têxtil sem concessões cosméticas baratas. Trata-se de hardware cinético puro, construído para resistir à corrosão marinha e à obsolescência programada.",
+      "A soberania sobre as ondas exige ferramentas que combinem precisão balística e eficiência hidrodinâmica absoluta. Enquanto o mercado massificado se perde em plásticos moldados por injeção, este hidrofólio elétrico estabelece o padrão definitivo para a transição naval de alta performance. É a física dos fluidos dominada por algoritmos de estabilização e laminados aeroespaciais."
+    ],
+    "content_paragraphs": [
+      "A água doce ou salgada resiste ao casco com uma violência molecular inegociável. A engenharia naval tradicional consome energia bruta para empurrar toneladas de deslocamento em um banho de espuma e perdas de atrito cinético. A resposta de Bottrop ignora o óbvio e suspende o piloto no ar. O foil de fibra de carbono ataca o fluxo de água com o mesmo rigor aerodinâmico aplicado aos superesportivos da marca alemã em túneis de vento.",
+      "A propulsão elétrica entrega torque instantâneo sem o rugido de combustão interna, mantendo o silêncio necessário para operações de apoio a superiates oceânicos. O conjunto opera sob tolerâncias de mícrons na usinagem dos mancais submersos. A telemetria inercial monitora o ângulo de ataque dos foils a cada milissegundo. O resultado físico é a eliminação quase total da resistência de onda, erguendo a estrutura sobre a superfície líquida até atingir a crista dos 28 nós.",
+      "O mercado de brinquedos náuticos para plataformas de exploração privada exige redundância mecânica e estética intransigente. Cada componente estrutural passa por ciclos rigorosos de cura em autoclave sob pressão controlada para suportar a carga cíclica extrema das manobras em alta velocidade. A fibra de carbono exposta revela a urdidura têxtil sem concessões cosméticas baratas. Trata-se de hardware cinético puro, construído para resistir à corrosão marinha e à obsolescência programada.",
+      "A soberania sobre as ondas exige ferramentas que combinem precisão balística e eficiência hidrodinâmica absoluta. Enquanto o mercado massificado se perde em plásticos moldados por injeção, este hidrofólio elétrico estabelece o padrão definitivo para a transição naval de alta performance. É a física dos fluidos dominada por algoritmos de estabilização e laminados aeroespaciais."
+    ],
+    "specs": {
+      "Propulsão": "Motor elétrico de alto torque com resfriamento passivo",
+      "Velocidade Máxima": "28 mph (aproximadamente 24 nós)",
+      "Material do Foil": "Fibra de carbono pré-impregnada curada em autoclave",
+      "Investimento": "US$ 20.490 FOB Bottrop",
+      "Aplicação": "Tender de alta performance para superiates"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 87,
+    "ranking_score": 87,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-03T02:00:19.057Z",
+    "published_at": "2026-11-03T02:00:19.057Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAwSVV5cHRPaWlUNjN3dF9kVzZxaHRqcDNlSFdBUzJtbnp2Zmh1SXJWanJhRXR4RGlCcjEtR3VMbGhNdWV3QUFtLTRyMDJlVE5ZY0NIS1pITlo1ZW1lajNMa3RFWTdUcUYxeXlTakVueWszMV9qNXdJ?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAwSVV5cHRPaWlUNjN3dF9kVzZxaHRqcDNlSFdBUzJtbnp2Zmh1SXJWanJhRXR4RGlCcjEtR3VMbGhNdWV3QUFtLTRyMDJlVE5ZY0NIS1pITlo1ZW1lajNMa3RFWTdUcUYxeXlTakVueWszMV9qNXdJ?oc=5"
+  },
+  {
     "id": "art-romanov-sapphire-o-monolito-birm-3258",
     "slug": "romanov-sapphire-o-monolito-birmanes-de-197-quilates-que-redefine-a-soberania-dinastica-nos-leiloes-de-genebra-3251",
     "title": "Romanov Sapphire: O Monólito Birmanês de 197 Quilates que Redefine a Soberania Dinástica nos Leilões de Genebra",
@@ -1348,63 +1400,20 @@ export const ARTICLES = [
     "published_at": "2026-10-28T20:06:14.318Z",
     "sourceUrl": "https://www.architecturaldigest.com/story/sheats-goldstein-residence-john-lautner",
     "source_url": "https://www.architecturaldigest.com/story/sheats-goldstein-residence-john-lautner"
-  },
-  {
-    "id": "art-rexhep-rexhepi-chronometre-conte-9752",
-    "slug": "rexhep-rexhepi-chronometre-contemporain-ii-o-atelie-independente-de-genebra-com-lista-de-espera-de-7-anos-e-chanfro-manual-absoluto-9736",
-    "title": "Rexhep Rexhepi Chronomètre Contemporain II: O Ateliê Independente de Genebra com Lista de Espera de 7 Anos e Chanfro Manual Absoluto",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "category_slug": "relogios",
-    "authorSlug": "clara-meirelles",
-    "author_slug": "clara-meirelles",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "28 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Aos 36 anos, Rexhep Rexhepi comanda o ateliê Akrivia e esculpe pontes com medula de sabugueiro silvestre, atraindo comitês de bilionários que trocaram marcas seculares pela pureza mecânica de sua bancada.",
-    "contentParagraphs": [
-      "A bancada de montagem é um santuário de luz difusa e silêncio absoluto. Ali, o tempo não se mede em segundos úteis, mas na persistência do aço submetido ao buril. Rexhep Rexhepi rejeita a pressa industrial que corrompe a Alta Relojoaria contemporânea. Cada componente do Chronomètre Contemporain II recebe centenas de horas de atenção cirúrgica antes de tocar o mostrador.",
-      "O calibre de manufatura pulsa com uma arquitetura de pontes duplas simétricas, herdada dos cronômetros de observatório do século XIX. O acabamento exige a aplicação rigorosa de anglage com sabugueiro silvestre e pasta de diamante, gerando arestas vivas que refletem a luz de maneira estritamente geométrica. Não há concessões automatizadas neste ateliê da Vallée de Joux e Genebra.",
-      "Comitês de colecionadores globais aguardam por períodos que superam meia década para assegurar uma unidade desta tiragem estritamente escassa. A soberania patrimonial reside exatamente nesta rejeição calculada ao volume. Enquanto conglomerados de luxo inundam o mercado com novidades efêmeras, a Akrivia consolida um refúgio de liquidez baseado na precisão cronométrica absoluta.",
-      "O mostrador em esmalte Grand Feu, disparado a temperaturas superiores a 820°C, exibe numerais pintados à mão com uma pureza mineral inconfundível. Trata-se de uma obra-prima que ignora modismos e desafia a obsolescência programada. A posse desta escultura mecânica não representa apenas um investimento financeiro, mas a preservação da mais alta excelência humana."
-    ],
-    "content_paragraphs": [
-      "A bancada de montagem é um santuário de luz difusa e silêncio absoluto. Ali, o tempo não se mede em segundos úteis, mas na persistência do aço submetido ao buril. Rexhep Rexhepi rejeita a pressa industrial que corrompe a Alta Relojoaria contemporânea. Cada componente do Chronomètre Contemporain II recebe centenas de horas de atenção cirúrgica antes de tocar o mostrador.",
-      "O calibre de manufatura pulsa com uma arquitetura de pontes duplas simétricas, herdada dos cronômetros de observatório do século XIX. O acabamento exige a aplicação rigorosa de anglage com sabugueiro silvestre e pasta de diamante, gerando arestas vivas que refletem a luz de maneira estritamente geométrica. Não há concessões automatizadas neste ateliê da Vallée de Joux e Genebra.",
-      "Comitês de colecionadores globais aguardam por períodos que superam meia década para assegurar uma unidade desta tiragem estritamente escassa. A soberania patrimonial reside exatamente nesta rejeição calculada ao volume. Enquanto conglomerados de luxo inundam o mercado com novidades efêmeras, a Akrivia consolida um refúgio de liquidez baseado na precisão cronométrica absoluta.",
-      "O mostrador em esmalte Grand Feu, disparado a temperaturas superiores a 820°C, exibe numerais pintados à mão com uma pureza mineral inconfundível. Trata-se de uma obra-prima que ignora modismos e desafia a obsolescência programada. A posse desta escultura mecânica não representa apenas um investimento financeiro, mas a preservação da mais alta excelência humana."
-    ],
-    "specs": {
-      "calibre": "Movimento mecânico de corda manual RR02",
-      "ateliê": "Akrivia, Genebra, Suíça",
-      "acabamento": "Chanfro manual absoluto com sabugueiro silvestre",
-      "tiragem": "Produção anual extremamente restrita",
-      "avaliação": "Cotação sob consulta em comitê privado"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 96,
-    "ranking_score": 96,
-    "publishedAt": "2026-10-28T16:35:19.751Z",
-    "published_at": "2026-10-28T16:35:19.751Z",
-    "sourceUrl": "https://quillandpad.com/rexhep-rexhepi-ccii",
-    "source_url": "https://quillandpad.com/rexhep-rexhepi-ccii"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "DESTINOS",
+    "title": "Australian Superyachts: O Novo Santuár...",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800",
+    "tag": "CURADORIA RADAR",
+    "slug": "australian-superyachts-o-novo-santuario-naval-em-newport-que-redefine-a-hidrodinamica-oceanica-de-alta-performance-4461"
+  },
+  {
+    "id": "film-2",
     "category": "SUPERCARROS",
     "title": "Alfa Romeo Tipo 33 Stradale: O Monstro...",
     "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=max&q=85&w=1800",
@@ -1412,7 +1421,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "alfa-romeo-tipo-33-stradale-o-monstro-v8-central-de-20-litros-forjado-em-aluminio-espacial-que-compartilha-a-alma-secreta-com-maranello-1443"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "ARQUITETURA",
     "title": "Diadema Romanov: O Tesouro Imperial de...",
     "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
@@ -1420,7 +1429,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "diadema-romanov-o-tesouro-imperial-de-15-milhao-de-libras-que-desafia-a-volatilidade-das-bolsas-globais-1653"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "DESTINOS",
     "title": "Superiate Omega Wellness 249: A Fortal...",
     "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
@@ -1428,7 +1437,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "superiate-omega-wellness-249-a-fortaleza-flutuante-de-75-metros-com-camaras-criogenicas-e-monocoque-em-aluminio-naval-1665"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Ferrari S.p.A.: O Marco Histórico de 2...",
     "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800",
@@ -1436,20 +1445,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-spa-o-marco-historico-de-20-bilhoes-de-dolares-que-sustenta-sua-soberania-em-maranello-8634"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "RELOGIOS",
     "title": "F.P. Journe Chronomètre Bleu: A Rara C...",
     "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "fp-journe-chronometre-bleu-a-rara-caixa-de-tantalo-de-ponto-de-fusao-a-3000c-que-valorizou-400-no-mercado-secundario-9369"
-  },
-  {
-    "id": "film-6",
-    "category": "RELOGIOS",
-    "title": "A. Lange & Söhne Datograph Honeygold L...",
-    "image": "/images/a-lange-datograph-honeygold-lumen.jpg",
-    "tag": "CURADORIA RADAR",
-    "slug": "a-lange-sohne-datograph-honeygold-lumen-a-obra-prima-saxonica-de-516-componentes-sob-safira-fosforescente-9075"
   }
 ];
 

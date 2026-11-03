@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-brabus-shadow-e-hydrofoil-o-brin-9057",
+    "slug": "brabus-shadow-e-hydrofoil-o-brinquedo-nautico-de-us-20490-com-hidrofolio-de-fibra-de-carbono-e-28-nos-de-voo-9050",
+    "title": "Brabus Shadow E-Hydrofoil: O Brinquedo Náutico de US$ 20.490 com Hidrofólio de Fibra de Carbono e 28 Nós de Voo",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAwSVV5cHRPaWlUNjN3dF9kVzZxaHRqcDNlSFdBUzJtbnp2Zmh1SXJWanJhRXR4RGlCcjEtR3VMbGhNdWV3QUFtLTRyMDJlVE5ZY0NIS1pITlo1ZW1lajNMa3RFWTdUcUYxeXlTakVueWszMV9qNXdJ?oc=5",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-03T02:00:19.057Z"
+  },
+  {
     "id": "art-romanov-sapphire-o-monolito-birm-3258",
     "slug": "romanov-sapphire-o-monolito-birmanes-de-197-quilates-que-redefine-a-soberania-dinastica-nos-leiloes-de-genebra-3251",
     "title": "Romanov Sapphire: O Monólito Birmanês de 197 Quilates que Redefine a Soberania Dinástica nos Leilões de Genebra",
