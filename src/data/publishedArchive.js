@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-gabe-newell-a-fortuna-de-5-bilho-5818",
+    "slug": "gabe-newell-a-fortuna-de-5-bilhoes-de-dolares-ancorada-em-120-metros-de-aco-naval-e-inovacao-digital-5675",
+    "title": "Gabe Newell: A Fortuna de 5 Bilhões de Dólares ancorada em 120 Metros de Aço Naval e Inovação Digital",
+    "image": "https://images.unsplash.com/photo-1781872324499-e51350ed640e?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVS1tSTVtYVVRbVNmaklHRmd5QW1JWjJOa3ZWNDNGLUp0UlBfUmNIb0RLWWxGZVdzUmdwb2w3SDNqQUh2bExXWVFJQ1RkYmpZVVMzaGcxYnRaWVg4R1V5RmN4SlB3NkJfQmktNlpzMjIybWVtclZrNjAxLTJSenFQMzR0cE1BV2hYc1kwdkFVcjZnR3JmYjNKRVNmbTRhZVliV1ZKU3VYbVZwZFlsU1RBdm8wZjZKT3daZzd4TQ?oc=5",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-03T22:13:55.818Z"
+  },
+  {
     "id": "art-ferrari-testarossa-spider-monoda-8302",
     "slug": "ferrari-testarossa-spider-monodado-o-unico-pace-car-oficial-de-maranello-dos-anos-80-com-chassi-tubular-reforcado-e-aluminio-batido-a-mao-que-retorna-das-sombras-8059",
     "title": "Ferrari Testarossa Spider Monodado: O Único Pace Car Oficial de Maranello dos Anos 80 com Chassi Tubular Reforçado e Alumínio Batido à Mão que Retorna das Sombras",

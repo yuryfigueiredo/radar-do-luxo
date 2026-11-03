@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-gabe-newell-a-fortuna-de-5-bilho-5818",
+    "slug": "gabe-newell-a-fortuna-de-5-bilhoes-de-dolares-ancorada-em-120-metros-de-aco-naval-e-inovacao-digital-5675",
+    "title": "Gabe Newell: A Fortuna de 5 Bilhões de Dólares ancorada em 120 Metros de Aço Naval e Inovação Digital",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "03 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1781872324499-e51350ed640e?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Aos 64 anos, o arquiteto da Valve transcende o código binário para exercer soberania sobre os oceanos, equilibrando a hegemonia da Steam com a engenharia bruta de superiates de exploração oceânica.",
+    "contentParagraphs": [
+      "O silêncio do convés de um superiate de 120 metros é a antítese do ruído constante dos servidores da Steam. Gabe Newell, ao celebrar 64 anos, não apenas consolidou um império de distribuição digital, mas converteu essa liquidez em massa física navegável. A transição do software imaterial para o casco de aço naval de alta resistência revela uma busca por estabilidade inercial. Enquanto o mundo debate algoritmos, ele prioriza a dinâmica de fluidos e o deslocamento de toneladas sobre o Pacífico.",
+      "A engenharia por trás de suas embarcações de exploração reflete uma obsessão pela tolerância de mícrons, similar à precisão exigida no desenvolvimento de motores de alta performance. O casco, projetado para operar em condições de mar escala 7, utiliza sistemas de estabilização giroscópica que neutralizam o balanço inercial com precisão cirúrgica. Aqui, a telemetria não mede apenas a velocidade de processamento de dados, mas a força G lateral exercida pelo impacto das ondas, exigindo uma estrutura de monocoque reforçada capaz de suportar pressões hidrostáticas extremas.",
+      "A Valve permanece como um refúgio de governança privada, um anacronismo de sucesso em um setor dominado por aberturas de capital voláteis. Newell compreendeu cedo que a escassez matemática gera valor inestimável, tratando sua base de usuários com o mesmo rigor que um estaleiro de elite trata a escolha de ligas de alumínio e carbono. O império não é construído sobre o volume de vendas, mas sobre a arquitetura de uma plataforma que se tornou a infraestrutura fundamental do entretenimento global.",
+      "A longevidade de sua influência é medida em décadas de lealdade de mercado, uma métrica tão rara quanto a manufatura de um motor aspirado em plena era da eletrificação forçada. Ao observar sua trajetória, percebe-se que a busca pelo domínio total — seja no ciberespaço ou nas águas profundas — é movida por um desprezo pela obsolescência programada. Gabe Newell não possui apenas uma frota ou uma plataforma; ele detém o controle sobre a física do seu próprio tempo."
+    ],
+    "content_paragraphs": [
+      "O silêncio do convés de um superiate de 120 metros é a antítese do ruído constante dos servidores da Steam. Gabe Newell, ao celebrar 64 anos, não apenas consolidou um império de distribuição digital, mas converteu essa liquidez em massa física navegável. A transição do software imaterial para o casco de aço naval de alta resistência revela uma busca por estabilidade inercial. Enquanto o mundo debate algoritmos, ele prioriza a dinâmica de fluidos e o deslocamento de toneladas sobre o Pacífico.",
+      "A engenharia por trás de suas embarcações de exploração reflete uma obsessão pela tolerância de mícrons, similar à precisão exigida no desenvolvimento de motores de alta performance. O casco, projetado para operar em condições de mar escala 7, utiliza sistemas de estabilização giroscópica que neutralizam o balanço inercial com precisão cirúrgica. Aqui, a telemetria não mede apenas a velocidade de processamento de dados, mas a força G lateral exercida pelo impacto das ondas, exigindo uma estrutura de monocoque reforçada capaz de suportar pressões hidrostáticas extremas.",
+      "A Valve permanece como um refúgio de governança privada, um anacronismo de sucesso em um setor dominado por aberturas de capital voláteis. Newell compreendeu cedo que a escassez matemática gera valor inestimável, tratando sua base de usuários com o mesmo rigor que um estaleiro de elite trata a escolha de ligas de alumínio e carbono. O império não é construído sobre o volume de vendas, mas sobre a arquitetura de uma plataforma que se tornou a infraestrutura fundamental do entretenimento global.",
+      "A longevidade de sua influência é medida em décadas de lealdade de mercado, uma métrica tão rara quanto a manufatura de um motor aspirado em plena era da eletrificação forçada. Ao observar sua trajetória, percebe-se que a busca pelo domínio total — seja no ciberespaço ou nas águas profundas — é movida por um desprezo pela obsolescência programada. Gabe Newell não possui apenas uma frota ou uma plataforma; ele detém o controle sobre a física do seu próprio tempo."
+    ],
+    "specs": {
+      "patrimonio_estimado": "5.5 Bilhões de USD",
+      "foco_naval": "Superiates de exploração oceânica",
+      "infraestrutura_digital": "Steam (Plataforma de distribuição global)",
+      "idade_do_fundador": "64 anos",
+      "estabilidade_operacional": "Privacidade corporativa absoluta"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "gemini:gemini-3.1-flash-lite",
+    "publishedAt": "2026-11-03T22:13:55.818Z",
+    "published_at": "2026-11-03T22:13:55.818Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVS1tSTVtYVVRbVNmaklHRmd5QW1JWjJOa3ZWNDNGLUp0UlBfUmNIb0RLWWxGZVdzUmdwb2w3SDNqQUh2bExXWVFJQ1RkYmpZVVMzaGcxYnRaWVg4R1V5RmN4SlB3NkJfQmktNlpzMjIybWVtclZrNjAxLTJSenFQMzR0cE1BV2hYc1kwdkFVcjZnR3JmYjNKRVNmbTRhZVliV1ZKU3VYbVZwZFlsU1RBdm8wZjZKT3daZzd4TQ?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVS1tSTVtYVVRbVNmaklHRmd5QW1JWjJOa3ZWNDNGLUp0UlBfUmNIb0RLWWxGZVdzUmdwb2w3SDNqQUh2bExXWVFJQ1RkYmpZVVMzaGcxYnRaWVg4R1V5RmN4SlB3NkJfQmktNlpzMjIybWVtclZrNjAxLTJSenFQMzR0cE1BV2hYc1kwdkFVcjZnR3JmYjNKRVNmbTRhZVliV1ZKU3VYbVZwZFlsU1RBdm8wZjZKT3daZzd4TQ?oc=5"
+  },
+  {
     "id": "art-ferrari-testarossa-spider-monoda-8302",
     "slug": "ferrari-testarossa-spider-monodado-o-unico-pace-car-oficial-de-maranello-dos-anos-80-com-chassi-tubular-reforcado-e-aluminio-batido-a-mao-que-retorna-das-sombras-8059",
     "title": "Ferrari Testarossa Spider Monodado: O Único Pace Car Oficial de Maranello dos Anos 80 com Chassi Tubular Reforçado e Alumínio Batido à Mão que Retorna das Sombras",
@@ -283,7 +335,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "03 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -311,10 +363,10 @@ export const ARTICLES = [
       "Veredito de Mercado": "Soberania absoluta de preços em ativos físicos"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 95,
@@ -1354,57 +1406,6 @@ export const ARTICLES = [
     "published_at": "2026-10-29T22:45:11.456Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPel9oaVZtdjk1NkpzanljMkhrRFZPVWVWUktZZWNYam15V0tlZU1RZ2dVanppUEZ6Z3J1X3dTNWt2WmtlZUdLeV8tWkhVU0I1RzJlYTNGdk5GRHgzenRGWFpWQlhNVGhKRDMwMXYzcFcyODFxenQza2ZpcGZfM1RPZzd4d2t2R2lDMVpuVDZDaWc5RmNZYkFJ?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPel9oaVZtdjk1NkpzanljMkhrRFZPVWVWUktZZWNYam15V0tlZU1RZ2dVanppUEZ6Z3J1X3dTNWt2WmtlZUdLeV8tWkhVU0I1RzJlYTNGdk5GRHgzenRGWFpWQlhNVGhKRDMwMXYzcFcyODFxenQza2ZpcGZfM1RPZzd4d2t2R2lDMVpuVDZDaWc5RmNZYkFJ?oc=5"
-  },
-  {
-    "id": "art-diadema-romanov-o-tesouro-imperi-1670",
-    "slug": "diadema-romanov-o-tesouro-imperial-de-15-milhao-de-libras-que-desafia-a-volatilidade-das-bolsas-globais-1653",
-    "title": "Diadema Romanov: O Tesouro Imperial de 1,5 Milhão de Libras que Desafia a Volatilidade das Bolsas Globais",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "29 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Em um cenário de ruído fiduciário e depreciação sistêmica, a soberania patrimonial encontra refúgio no silêncio mineral das gemas com procedência dinástica intocada.",
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Enquanto os mercados globais oscilam ao sabor de algoritmos de alta freqüência, os ativos físicos de origem imperial estabelecem um novo padrão de imunidade temporal. A iminente praça de leilões que cataloga a diadema da dinastia Romanov não apenas avalia uma peça de alta joalheria. Ela consolida a alocação de liquidez em refúgios tangíveis que resistem a séculos de revoluções e colapsos cambiais.",
-      "A custódia fiduciária destas relíquias exige mais do que capital; exige reverência histórica. Cada diamante cravado em prata e ouro amarelo carrega a herança de uma corte que compreendia a arquitetura do poder soberano. A estimativa conservadora de 1,5 milhão de libras reflete não a volatilidade do mercado de luxo, mas a escassez matemática de artefatos imperiais russos que sobreviveram intactos ao desmantelamento de um império.",
-      "Family offices e colecionadores de pulso firme enxergam nestes leilões a verdadeira preservação de valor transgeracional. O ouro e as gemas não dependem de balanços trimestrais ou de promessas de bancos centrais. Eles oferecem proteção contra a inflação por meio de sua imutabilidade física. É a materialização da soberania patrimonial em sua forma mais pura.",
-      "No Radar do Luxo, a equação é cristalina. A posse de um testemuho da dinastia Romanov transcende o colecionismo; é um ato de governança dinástica. Quem domina a arte de adquirir ativos imunes não apenas protege seu legado contra as tempestades econômicas. Garante a perpetuidade de sua história através dos séculos."
-    ],
-    "content_paragraphs": [
-      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Enquanto os mercados globais oscilam ao sabor de algoritmos de alta freqüência, os ativos físicos de origem imperial estabelecem um novo padrão de imunidade temporal. A iminente praça de leilões que cataloga a diadema da dinastia Romanov não apenas avalia uma peça de alta joalheria. Ela consolida a alocação de liquidez em refúgios tangíveis que resistem a séculos de revoluções e colapsos cambiais.",
-      "A custódia fiduciária destas relíquias exige mais do que capital; exige reverência histórica. Cada diamante cravado em prata e ouro amarelo carrega a herança de uma corte que compreendia a arquitetura do poder soberano. A estimativa conservadora de 1,5 milhão de libras reflete não a volatilidade do mercado de luxo, mas a escassez matemática de artefatos imperiais russos que sobreviveram intactos ao desmantelamento de um império.",
-      "Family offices e colecionadores de pulso firme enxergam nestes leilões a verdadeira preservação de valor transgeracional. O ouro e as gemas não dependem de balanços trimestrais ou de promessas de bancos centrais. Eles oferecem proteção contra a inflação por meio de sua imutabilidade física. É a materialização da soberania patrimonial em sua forma mais pura.",
-      "No Radar do Luxo, a equação é cristalina. A posse de um testemuho da dinastia Romanov transcende o colecionismo; é um ato de governança dinástica. Quem domina a arte de adquirir ativos imunes não apenas protege seu legado contra as tempestades econômicas. Garante a perpetuidade de sua história através dos séculos."
-    ],
-    "specs": {
-      "procedencia": "Dinastia Romanov, Império Russo",
-      "estimativa_leilao": "£ 1.500.000",
-      "materiais": "Diamantes antigos, prata e ouro amarelo 14k",
-      "tipologia": "Diadema de corte imperial",
-      "custodia": "Certificado de proveniência fiduciária"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 92,
-    "ranking_score": 92,
-    "publishedAt": "2026-10-29T20:17:41.670Z",
-    "published_at": "2026-10-29T20:17:41.670Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOakw5Ny0xeGRzV1pjcGlfUGpteUwxZmM3RTNWckE0WDNCZ2ZBX0lfeWJHVzVEbDN2d0htQzBHMVpkVmpsSnJoOWd6U1lvSTk1eWIzSFEzZXFLdFFCYzdJdlNyMmxXNDVkbVE5VWNsdldUazFvREVFNkhCNlROUWx0N1g2S2R6WHZPTDJEMGJqaXo1SVl1ZEpEWVBlM3A2Qlo4QUhDVTl0VVZvbVQ1VlZoa0JyMHl4NVk?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOakw5Ny0xeGRzV1pjcGlfUGpteUwxZmM3RTNWckE0WDNCZ2ZBX0lfeWJHVzVEbDN2d0htQzBHMVpkVmpsSnJoOWd6U1lvSTk1eWIzSFEzZXFLdFFCYzdJdlNyMmxXNDVkbVE5VWNsdldUazFvREVFNkhCNlROUWx0N1g2S2R6WHZPTDJEMGJqaXo1SVl1ZEpEWVBlM3A2Qlo4QUhDVTl0VVZvbVQ1VlZoa0JyMHl4NVk?oc=5"
   }
 ];
 
@@ -1412,13 +1413,21 @@ export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
     "category": "DESTINOS",
+    "title": "Superiate Oceânico de 300 Milhões de D...",
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "superiate-oceanico-de-300-milhoes-de-dolares-o-leviata-de-aluminio-e-aco-inoxidavel-que-dominou-as-aguas-de-cairns-com-precisao-militar-0726"
+  },
+  {
+    "id": "film-2",
+    "category": "DESTINOS",
     "title": "Lady Marina: A Navalha de Aço de 64 Me...",
     "image": "https://images.unsplash.com/photo-1621277224630-81d9af65e40c?auto=format&fit=crop&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "lady-marina-a-navalha-de-aco-de-64-metros-que-redefiniu-a-fisica-de-deslocamento-na-baia-de-cannes-4035"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "RELOGIOS",
     "title": "O&HoraPictor Smoked Ocean Volcano Grey...",
     "image": "https://monochrome-watches.com/app/uploads/2026/10/HoraPictor-Smoked-Ocean-Volcano-Grey-Enamel-Dial-Accessible-10.jpg",
@@ -1426,7 +1435,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ohorapictor-smoked-ocean-volcano-grey-40-milimetros-de-esmalte-grand-feu-a-820c-com-calibre-suico-sellita-sw200-1162"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "RELOGIOS",
     "title": "Laurent Ferrier Grand Sport Tourbillon...",
     "image": "https://monochrome-watches.com/app/uploads/2026/10/Laurent-Ferrier-Grand-Sport-Tourbillon-Iceberg-Titanium-review-8.jpg",
@@ -1434,7 +1443,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "laurent-ferrier-grand-sport-tourbillon-iceberg-o-cronometro-de-titanio-grao-selado-de-44mm-com-tourbillon-de-duplo-balanco-inverso-7884"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "ARQUITETURA",
     "title": "Houston Mansion: A Soberana Propriedad...",
     "image": "https://robbreport.com/wp-content/uploads/2026/10/2115-River-Oaks-Boulevard_Pavilion.jpg",
@@ -1442,20 +1451,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "houston-mansion-a-soberana-propriedade-neoclassica-de-219-milhoes-que-abrigou-o-barao-enrico-di-portanova-e-sua-piscina-de-vidro-monumental-8338"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "RELOGIOS",
     "title": "Girard-Perregaux Laureato Fifty Three ...",
     "image": "https://monochrome-watches.com/app/uploads/2026/10/Girard-Perragaux-Laureato-Fifty-Three-Gold-Bridges-permanent-collection-review-1.jpg",
     "tag": "CURADORIA RADAR",
     "slug": "girard-perregaux-laureato-fifty-three-gold-bridges-a-trilogia-de-pontes-em-ouro-macico-forjada-na-vallee-de-joux-com-53-micrometros-de-tolerancia-7498"
-  },
-  {
-    "id": "film-6",
-    "category": "DESTINOS",
-    "title": "Australian Superyachts: O Novo Santuár...",
-    "image": "https://images.unsplash.com/photo-1783344422200-a5493824bcb9?auto=format&fit=max&q=85&w=1800",
-    "tag": "CURADORIA RADAR",
-    "slug": "australian-superyachts-o-novo-santuario-naval-em-newport-que-redefine-a-hidrodinamica-oceanica-de-alta-performance-4461"
   }
 ];
 
