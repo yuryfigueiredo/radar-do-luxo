@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-rolex-patek-philippe-e-audemars--8168",
+    "slug": "rolex-patek-philippe-e-audemars-piguet-o-monopolio-de-us-266-bilhoes-do-mercado-secundario-sustentado-por-calibres-raros-e-esmalte-grand-feu-8159",
+    "title": "Rolex, Patek Philippe e Audemars Piguet: O Monopólio de US$ 26,6 Bilhões do Mercado Secundário Sustentado por Calibres Raros e Esmalte Grand Feu",
+    "image": "https://robbreport.com/wp-content/uploads/2022/12/RR_Rolex_1202_1.jpg",
+    "sourceUrl": "https://robbreport.com/style/watch-collector/rolex-patek-audemars-piguet-secondary-watch-market-1238794281/",
+    "categorySlug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "publishedAt": "2026-11-03T01:54:28.167Z"
+  },
+  {
     "id": "art-ferrari-daytona-sp3-o-icone-v12--1476",
     "slug": "ferrari-daytona-sp3-o-icone-v12-aspirado-de-166-milhoes-que-prova-a-imunidade-absoluta-do-leilao-de-monterey-1472",
     "title": "Ferrari Daytona SP3: O Ícone V12 Aspirado de €16,6 Milhões que Prova a Imunidade Absoluta do Leilão de Monterey",

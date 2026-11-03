@@ -116,6 +116,59 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-rolex-patek-philippe-e-audemars--8168",
+    "slug": "rolex-patek-philippe-e-audemars-piguet-o-monopolio-de-us-266-bilhoes-do-mercado-secundario-sustentado-por-calibres-raros-e-esmalte-grand-feu-8159",
+    "title": "Rolex, Patek Philippe e Audemars Piguet: O Monopólio de US$ 26,6 Bilhões do Mercado Secundário Sustentado por Calibres Raros e Esmalte Grand Feu",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "category_slug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "author_slug": "clara-meirelles",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "03 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://robbreport.com/wp-content/uploads/2022/12/RR_Rolex_1202_1.jpg",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A soberania financeira do mercado secundário de alta relojoaria não decorre de mero capricho especulativo, mas de uma rigidez matemática na produção e da paciência secular de ateliês na Vallée de Joux.",
+    "contentParagraphs": [
+      "O tempo nos ateliês de Le Brassus e Genebra não obedece ao calendário dos homens. Enquanto o mercado global consome bilhões de dólares em liquidez secundária, a raiz dessa supremacia reside em um pacto silencioso de escassez programada. Não há espaço para concessões industriais. Cada ponte é chanfragada à mão, utilizando pastas de diamante e sabugueiro silvestre para alcançar o polimento espelhado conhecido como anglage.",
+      "A métrica que sustenta os 26,6 bilhões de dólares transacionados revela uma arquitetura de oferta implacável. Modelos emblemáticos exigem anos de trabalho em bancadas microscópicas, onde a tolerância aceitável é medida em frações de mícron. Quando um cronógrafo atinge o mercado de leilões, ele carrega consigo dezenas de rubis sintéticos ajustados com precisão cirúrgica e molas espirais em silício que desafiam as leis do magnetismo e da gravidade terrestre.",
+      "O colecionador contemporâneo mais exigente não busca apenas um adorno utilitário para o pulso, mas sim um refúgio de valor imune à volatilidade das moedas fiduciárias. A demanda feroz por referências específicas dessas três grandes casas reflete a busca por uma herança mecânica tangível. Trata-se de uma soberania patrimonial construída sobre mostradores em esmalte Grand Feu vitrificados a 820°C e caixas monobloco em aço Oystersteel ou ouro branco que atravessam gerações sem perder a dignidade estética.",
+      "A hegemonia perpetuada por Rolex, Patek Philippe e Audemars Piguet no segmento de revenda atesta uma verdade inconveniente para a indústria de massa. O luxo verdadeiro rejeita a abundância. Ele floresce exclusivamente onde o tempo de fabricação supera a urgência do consumo, consolidando relógios mecânicos não como simples instrumentos de medição, mas como reservas definitivas de valor e arte portátil."
+    ],
+    "content_paragraphs": [
+      "O tempo nos ateliês de Le Brassus e Genebra não obedece ao calendário dos homens. Enquanto o mercado global consome bilhões de dólares em liquidez secundária, a raiz dessa supremacia reside em um pacto silencioso de escassez programada. Não há espaço para concessões industriais. Cada ponte é chanfragada à mão, utilizando pastas de diamante e sabugueiro silvestre para alcançar o polimento espelhado conhecido como anglage.",
+      "A métrica que sustenta os 26,6 bilhões de dólares transacionados revela uma arquitetura de oferta implacável. Modelos emblemáticos exigem anos de trabalho em bancadas microscópicas, onde a tolerância aceitável é medida em frações de mícron. Quando um cronógrafo atinge o mercado de leilões, ele carrega consigo dezenas de rubis sintéticos ajustados com precisão cirúrgica e molas espirais em silício que desafiam as leis do magnetismo e da gravidade terrestre.",
+      "O colecionador contemporâneo mais exigente não busca apenas um adorno utilitário para o pulso, mas sim um refúgio de valor imune à volatilidade das moedas fiduciárias. A demanda feroz por referências específicas dessas três grandes casas reflete a busca por uma herança mecânica tangível. Trata-se de uma soberania patrimonial construída sobre mostradores em esmalte Grand Feu vitrificados a 820°C e caixas monobloco em aço Oystersteel ou ouro branco que atravessam gerações sem perder a dignidade estética.",
+      "A hegemonia perpetuada por Rolex, Patek Philippe e Audemars Piguet no segmento de revenda atesta uma verdade inconveniente para a indústria de massa. O luxo verdadeiro rejeita a abundância. Ele floresce exclusivamente onde o tempo de fabricação supera a urgência do consumo, consolidando relógios mecânicos não como simples instrumentos de medição, mas como reservas definitivas de valor e arte portátil."
+    ],
+    "specs": {
+      "volume_mercado_secundario": "USD 26.6 Bilhões",
+      "pilares_industriais": "Rolex, Patek Philippe, Audemars Piguet",
+      "tecnica_mostrador": "Esmalte Grand Feu a 820°C",
+      "acabamento_manual": "Anglage com sabugueiro silvestre",
+      "origem_tecnica": "Vallée de Joux e Genebra",
+      "posicionamento_editorial": "Soberania Patrimonial"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 93,
+    "ranking_score": 93,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-03T01:54:28.167Z",
+    "published_at": "2026-11-03T01:54:28.167Z",
+    "sourceUrl": "https://robbreport.com/style/watch-collector/rolex-patek-audemars-piguet-secondary-watch-market-1238794281/",
+    "source_url": "https://robbreport.com/style/watch-collector/rolex-patek-audemars-piguet-secondary-watch-market-1238794281/"
+  },
+  {
     "id": "art-ferrari-daytona-sp3-o-icone-v12--1476",
     "slug": "ferrari-daytona-sp3-o-icone-v12-aspirado-de-166-milhoes-que-prova-a-imunidade-absoluta-do-leilao-de-monterey-1472",
     "title": "Ferrari Daytona SP3: O Ícone V12 Aspirado de €16,6 Milhões que Prova a Imunidade Absoluta do Leilão de Monterey",
@@ -125,7 +178,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "02 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -154,10 +207,10 @@ export const ARTICLES = [
       "Avaliação de Mercado": "€16.600.000 em leilão"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 92,
@@ -1345,63 +1398,20 @@ export const ARTICLES = [
     "published_at": "2026-10-28T16:05:33.341Z",
     "sourceUrl": "https://www.voguebusiness.com/fashion/inside-hermes-secret-saddlery",
     "source_url": "https://www.voguebusiness.com/fashion/inside-hermes-secret-saddlery"
-  },
-  {
-    "id": "art-ferrari-e-building-o-monstro-ele-8435",
-    "slug": "ferrari-e-building-o-monstro-eletrico-de-us-560800-que-desafia-os-v12-aspirados-com-celulas-de-ion-litio-montadas-em-maranello-8425",
-    "title": "Ferrari E-Building: O Monstro Elétrico de US$ 560.800 que Desafia os V12 Aspirados com Células de Íon-Lítio Montadas em Maranello",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "28 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "A fortaleza sagrada de Enzo Ferrari abandona o ronco mecânico tradicional para erguer uma nova catedral industrial focada em propulsão elétrica de altíssima tensão, avaliada em mais de meio milhão de dólares.",
-    "contentParagraphs": [
-      "Maranello silenciou os pistões. A linha de montagem mais famosa do mundo agora abriga o E-Building, uma estrutura de alta precisão dedicada inteiramente aos elétricos que custam meio milhão de dólares. O cheiro de gasolina evaporada cedeu espaço ao ar estéril de salas limpas onde robôs de última geração manipulam baterias de alta densidade energética. A transição não é sutil. É uma ruptura cirúrgica na tradição mais rígida da indústria automobilística italiana.",
-      "O torque instantâneo desafia a física dos compostos emborrachados. Estamos falando de módulos de íon-lítio montados diretamente no piso de compósito para abaixar o centro de gravidade até o limite do asfalto. A força G lateral nas curvas de alta velocidade exige braços de suspensão recalibrados e dutos NACA esculpidos para direcionar fluxos de Venturi de efeito solo sem o auxílio de gases de escape tradicionais. Cada célula de energia é monitorada por telemetria inercial em tempo real, garantindo resfriamento líquido sob pressões extremas.",
-      "Os puristas torcem o nariz para a ausência de tubos de escape em Inconel incandescente. No entanto, a engenharia aplicada neste chassi curado em autoclave ignora o sentimentalismo em prol de tempos de volta implacáveis. A aerodinâmica ativa manipulam o coeficiente de arrasto Cx com a mesma precisão cirúrgica vista nos protótipos de Endurance. A aerodinâmica não apenas cola o bólido ao solo; ela respira, gerencia calor e alimenta inversores de carboneto de silício.",
-      "Esta máquina redefine o patamar financeiro e tecnológico da marca do Cavallino Rampante no século XXI. Por US$ 560.800, os colecionadores não compram apenas um veículo de alta performance. Adquirem um manifesto industrial, um ponto de inflexão onde a eletrificação de alta voltagem substitui o ritual de rotação pura, mantendo intacta a obsessão absoluta por décimos de segundo."
-    ],
-    "content_paragraphs": [
-      "Maranello silenciou os pistões. A linha de montagem mais famosa do mundo agora abriga o E-Building, uma estrutura de alta precisão dedicada inteiramente aos elétricos que custam meio milhão de dólares. O cheiro de gasolina evaporada cedeu espaço ao ar estéril de salas limpas onde robôs de última geração manipulam baterias de alta densidade energética. A transição não é sutil. É uma ruptura cirúrgica na tradição mais rígida da indústria automobilística italiana.",
-      "O torque instantâneo desafia a física dos compostos emborrachados. Estamos falando de módulos de íon-lítio montados diretamente no piso de compósito para abaixar o centro de gravidade até o limite do asfalto. A força G lateral nas curvas de alta velocidade exige braços de suspensão recalibrados e dutos NACA esculpidos para direcionar fluxos de Venturi de efeito solo sem o auxílio de gases de escape tradicionais. Cada célula de energia é monitorada por telemetria inercial em tempo real, garantindo resfriamento líquido sob pressões extremas.",
-      "Os puristas torcem o nariz para a ausência de tubos de escape em Inconel incandescente. No entanto, a engenharia aplicada neste chassi curado em autoclave ignora o sentimentalismo em prol de tempos de volta implacáveis. A aerodinâmica ativa manipulam o coeficiente de arrasto Cx com a mesma precisão cirúrgica vista nos protótipos de Endurance. A aerodinâmica não apenas cola o bólido ao solo; ela respira, gerencia calor e alimenta inversores de carboneto de silício.",
-      "Esta máquina redefine o patamar financeiro e tecnológico da marca do Cavallino Rampante no século XXI. Por US$ 560.800, os colecionadores não compram apenas um veículo de alta performance. Adquirem um manifesto industrial, um ponto de inflexão onde a eletrificação de alta voltagem substitui o ritual de rotação pura, mantendo intacta a obsessão absoluta por décimos de segundo."
-    ],
-    "specs": {
-      "Propulsão": "100% Elétrica de Alta Voltagem",
-      "Preço Base": "US$ 560.800",
-      "Chassi": "Monocoque em carbo-titânio e alumínio aeroespacial",
-      "Ateliê de Produção": "E-Building, Maranello, Itália",
-      "Gerenciamento Térmico": "Arrefecimento líquido de alta vazão para células de íon-lítio"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 92,
-    "ranking_score": 92,
-    "publishedAt": "2026-10-28T02:17:48.434Z",
-    "published_at": "2026-10-28T02:17:48.434Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNSGJLZXdsa3BWQlJRMHZzZUl6NGdCcGQwYjRGemY1ZFh2Y2U3WVRESU1OSGFNekIzOFZJRDVpZkd4RXJaWnZ6OC1GZi11bWtjbTZMajFIdzBCQWgzY0xxcnpYeUFLOEh0NDFldQ?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNSGJLZXdsa3BWQlJRMHZzZUl6NGdCcGQwYjRGemY1ZFh2Y2U3WVRESU1OSGFNekIzOFZJRDVpZkd4RXJaWnZ6OC1GZi11bWtjbTZMajFIdzBCQWgzY0xxcnpYeUFLOEh0NDFldQ?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "ARQUITETURA",
+    "title": "Diadema Romanov: O Tesouro Imperial de...",
+    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "diadema-romanov-o-tesouro-imperial-de-15-milhao-de-libras-que-desafia-a-volatilidade-das-bolsas-globais-1653"
+  },
+  {
+    "id": "film-2",
     "category": "DESTINOS",
     "title": "Superiate Omega Wellness 249: A Fortal...",
     "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
@@ -1409,7 +1419,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "superiate-omega-wellness-249-a-fortaleza-flutuante-de-75-metros-com-camaras-criogenicas-e-monocoque-em-aluminio-naval-1665"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Ferrari S.p.A.: O Marco Histórico de 2...",
     "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800",
@@ -1417,7 +1427,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-spa-o-marco-historico-de-20-bilhoes-de-dolares-que-sustenta-sua-soberania-em-maranello-8634"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "RELOGIOS",
     "title": "F.P. Journe Chronomètre Bleu: A Rara C...",
     "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=max&q=80&w=1400",
@@ -1425,7 +1435,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "fp-journe-chronometre-bleu-a-rara-caixa-de-tantalo-de-ponto-de-fusao-a-3000c-que-valorizou-400-no-mercado-secundario-9369"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "RELOGIOS",
     "title": "A. Lange & Söhne Datograph Honeygold L...",
     "image": "/images/a-lange-datograph-honeygold-lumen.jpg",
@@ -1433,20 +1443,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "a-lange-sohne-datograph-honeygold-lumen-a-obra-prima-saxonica-de-516-componentes-sob-safira-fosforescente-9075"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "ARQUITETURA",
     "title": "Sheats-Goldstein Residence: A Fortalez...",
     "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "sheats-goldstein-residence-a-fortaleza-brutalista-de-concreto-angular-com-750-oculos-de-vidro-engastados-na-laje-4302"
-  },
-  {
-    "id": "film-6",
-    "category": "RELOGIOS",
-    "title": "Rexhep Rexhepi Chronomètre Contemporai...",
-    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "rexhep-rexhepi-chronometre-contemporain-ii-o-atelie-independente-de-genebra-com-lista-de-espera-de-7-anos-e-chanfro-manual-absoluto-9736"
   }
 ];
 
