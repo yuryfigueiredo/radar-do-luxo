@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-gigantes-sob-encomenda-os-6-supe-7863",
+    "slug": "gigantes-sob-encomenda-os-6-superiates-de-120-metros-em-construcao-que-mobilizam-18-bilhao-de-euros-em-silencio-mineral-7855",
+    "title": "Gigantes Sob Encomenda: Os 6 Superiates de 120 Metros em Construção que Mobilizam 1,8 Bilhão de Euros em Silêncio Mineral",
+    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcnUzXzBNYXJGalpNU2tvSzB4OXlqN3d2OXl3YWhLejJ0c3kyU1M5ZUM3WElSR19IcmZrV0RIVklDX3VrUXVpT1J2X183QTA2YkRvYld0Ym9senhxX3pPc0pxaDNOSm9TUHJyNk5BZ3U0ZGRWZktmVndBMEdYZVBIOEVqM1dKNy1FOVgxaG4tdE9vNmhudkFjNl9SQkx4ZVl5OHZpNkh1VTFoMWlKOFE?oc=5",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "publishedAt": "2026-11-04T18:36:07.862Z"
+  },
+  {
     "id": "art-the-italian-sea-group-o-resgate--6242",
     "slug": "the-italian-sea-group-o-resgate-de-220-milhoes-de-euros-que-consolida-a-soberania-dos-superiates-na-toscana-6143",
     "title": "The Italian Sea Group: O Resgate de 220 Milhões de Euros que Consolida a Soberania dos Superiates na Toscana",

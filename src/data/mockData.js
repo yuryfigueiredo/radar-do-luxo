@@ -116,6 +116,59 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-gigantes-sob-encomenda-os-6-supe-7863",
+    "slug": "gigantes-sob-encomenda-os-6-superiates-de-120-metros-em-construcao-que-mobilizam-18-bilhao-de-euros-em-silencio-mineral-7855",
+    "title": "Gigantes Sob Encomenda: Os 6 Superiates de 120 Metros em Construção que Mobilizam 1,8 Bilhão de Euros em Silêncio Mineral",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "04 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Longe dos olhares públicos e de marinas saturadas, a engenharia naval de ponta gesta seis cascos colossais que redefinem os parâmetros de soberania patrimonial e isolamento mecânico absoluto.",
+    "contentParagraphs": [
+      "O aço naval repousa em galpões climatizados. Longe do ruído habitual das feiras náuticas comerciais, seis cascos colossais emergem sob o mais absoluto sigilo nos estaleiros da Alemanha e da Holanda. O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Projetos com extensão superior a cem metros exigem anos de gestação cirúrgica, combinando soluções de arquitetura oceânica sem precedentes com especificações que incluem o uso estrutural de travertino romano navona usinado com tolerâncias micrométricas em ambientes internos.",
+      "A precisão mecânica impõe respeito. Telemetria inercial de ponta e propulsão híbrida alimentada por células de combustível a hidrogênio equipam a nova geração desses gigantes marítimos. Um dos cascos em montagem utiliza propulsores azimutais de mancais magnéticos desenvolvidos para anular qualquer tipo de cavitação a 22 nós de velocidade contínua. A assinatura acústica interna foi reduzida a níveis imperceptíveis mediante o emprego de polímeros viscoplásticos sob as coberturas de convés. O controle de estabilização giroscópica dupla anula totalmente o adernamento em mar aberto.",
+      "Estes megaprojetos atuam como um inabalável refúgio de liquidez. Em períodos de volatilidade nos mercados globais, embarcações artesanais de altíssimo calibre mantêm sua imunidade temporal e preservam o capital investido contra sobressaltos inflacionários. A custódia fiduciária de ativos dessa envergadura envolve complexos instrumentos de governança dinástica e cláusulas de confidencialidade estritas. Não há vazamento de plantas ou especificações decorativas. Observadores registram apenas a autonomia transoceânica superior a seis mil milhas náuticas e os helipontos totalmente integrados com certificação operacional para tempestades severas.",
+      "A maestria técnica oculta-se atrás das paredes dos galpões alemães e holandeses. O resultado dessas seis fortalezas navais começará a cruzar as águas profundas apenas no final desta década. Para os detentores desses contratos, o oceano global não representa um palco de exibição social. Trata-se, essencialmente, da extensão máxima de um domínio privado e autossuficiente."
+    ],
+    "content_paragraphs": [
+      "O aço naval repousa em galpões climatizados. Longe do ruído habitual das feiras náuticas comerciais, seis cascos colossais emergem sob o mais absoluto sigilo nos estaleiros da Alemanha e da Holanda. O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Projetos com extensão superior a cem metros exigem anos de gestação cirúrgica, combinando soluções de arquitetura oceânica sem precedentes com especificações que incluem o uso estrutural de travertino romano navona usinado com tolerâncias micrométricas em ambientes internos.",
+      "A precisão mecânica impõe respeito. Telemetria inercial de ponta e propulsão híbrida alimentada por células de combustível a hidrogênio equipam a nova geração desses gigantes marítimos. Um dos cascos em montagem utiliza propulsores azimutais de mancais magnéticos desenvolvidos para anular qualquer tipo de cavitação a 22 nós de velocidade contínua. A assinatura acústica interna foi reduzida a níveis imperceptíveis mediante o emprego de polímeros viscoplásticos sob as coberturas de convés. O controle de estabilização giroscópica dupla anula totalmente o adernamento em mar aberto.",
+      "Estes megaprojetos atuam como um inabalável refúgio de liquidez. Em períodos de volatilidade nos mercados globais, embarcações artesanais de altíssimo calibre mantêm sua imunidade temporal e preservam o capital investido contra sobressaltos inflacionários. A custódia fiduciária de ativos dessa envergadura envolve complexos instrumentos de governança dinástica e cláusulas de confidencialidade estritas. Não há vazamento de plantas ou especificações decorativas. Observadores registram apenas a autonomia transoceânica superior a seis mil milhas náuticas e os helipontos totalmente integrados com certificação operacional para tempestades severas.",
+      "A maestria técnica oculta-se atrás das paredes dos galpões alemães e holandeses. O resultado dessas seis fortalezas navais começará a cruzar as águas profundas apenas no final desta década. Para os detentores desses contratos, o oceano global não representa um palco de exibição social. Trata-se, essencialmente, da extensão máxima de um domínio privado e autossuficiente."
+    ],
+    "specs": {
+      "comprimento_medio": "115 a 140 metros de convés",
+      "propulsao": "Híbrida (Célula de Hidrogênio + Diesel-Elétrico Azimutal)",
+      "autonomia_de_cruzeiro": "6.500 milhas náuticas ininterruptas",
+      "investimento_global": "€ 1,8 bilhão (somatório das 6 unidades)",
+      "isolamento_acustico": "Abaixo de 35 dB em navegação contínua",
+      "custodia_patrimonial": "Estruturas fiduciárias fechadas de governança dinástica"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "gemini:gemini-3.5-flash",
+    "publishedAt": "2026-11-04T18:36:07.862Z",
+    "published_at": "2026-11-04T18:36:07.862Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcnUzXzBNYXJGalpNU2tvSzB4OXlqN3d2OXl3YWhLejJ0c3kyU1M5ZUM3WElSR19IcmZrV0RIVklDX3VrUXVpT1J2X183QTA2YkRvYld0Ym9senhxX3pPc0pxaDNOSm9TUHJyNk5BZ3U0ZGRWZktmVndBMEdYZVBIOEVqM1dKNy1FOVgxaG4tdE9vNmhudkFjNl9SQkx4ZVl5OHZpNkh1VTFoMWlKOFE?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcnUzXzBNYXJGalpNU2tvSzB4OXlqN3d2OXl3YWhLejJ0c3kyU1M5ZUM3WElSR19IcmZrV0RIVklDX3VrUXVpT1J2X183QTA2YkRvYld0Ym9senhxX3pPc0pxaDNOSm9TUHJyNk5BZ3U0ZGRWZktmVndBMEdYZVBIOEVqM1dKNy1FOVgxaG4tdE9vNmhudkFjNl9SQkx4ZVl5OHZpNkh1VTFoMWlKOFE?oc=5"
+  },
+  {
     "id": "art-the-italian-sea-group-o-resgate--6242",
     "slug": "the-italian-sea-group-o-resgate-de-220-milhoes-de-euros-que-consolida-a-soberania-dos-superiates-na-toscana-6143",
     "title": "The Italian Sea Group: O Resgate de 220 Milhões de Euros que Consolida a Soberania dos Superiates na Toscana",
@@ -1358,64 +1411,20 @@ export const ARTICLES = [
     "published_at": "2026-10-31T02:28:21.180Z",
     "sourceUrl": "https://monochrome-watches.com/hands-on-review-o-horapictor-smoked-ocean-volcano-grey-enamel-dial-sellita-sw200-specs-price-live-pics/",
     "source_url": "https://monochrome-watches.com/hands-on-review-o-horapictor-smoked-ocean-volcano-grey-enamel-dial-sellita-sw200-specs-price-live-pics/"
-  },
-  {
-    "id": "art-laurent-ferrier-grand-sport-tour-7895",
-    "slug": "laurent-ferrier-grand-sport-tourbillon-iceberg-o-cronometro-de-titanio-grao-selado-de-44mm-com-tourbillon-de-duplo-balanco-inverso-7884",
-    "title": "Laurent Ferrier Grand Sport Tourbillon Iceberg: O Cronômetro de Titânio Grão-Selado de 44mm com Tourbillon de Duplo Balanço Inverso",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "category_slug": "relogios",
-    "authorSlug": "clara-meirelles",
-    "author_slug": "clara-meirelles",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "30 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://monochrome-watches.com/app/uploads/2026/10/Laurent-Ferrier-Grand-Sport-Tourbillon-Iceberg-Titanium-review-8.jpg",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A manufatura de La Chaux-de-Fonds redesenha os limites da alta relojoaria mecânica com uma caixa monolítica em titânio Grade 5 e mostrador em gradiente opalino que desafia a obsolescência temporal.",
-    "contentParagraphs": [
-      "O tempo da mecânica pura não tolera concessões digitais. Nas profundezas silenciosas da Vallée de Joux, a precisão absoluta nasce do atrito milimetricamente calculado entre engrenagens de aço polido à mão. A caixa de 44 milímetros em titânio Grade 5 do Grand Sport Tourbillon Iceberg não busca a discrição vazia, mas impõe a presença mineral de um bloco forjado para resistir aos rigores térmicos e cinéticos das pistas de corrida. Cada superfície curva revela o rigor de um acabamento acetinado vertical contrastando com chanfros polidos a espelho.",
-      "Sob o vidro de safira abaulado, o mostrador opalino com gradiente azul-gelo evoca as geleiras alpinas intocadas. No coração desta arquitetura, o calibre de manufatura LF619.01 abriga um tourbillon de dupla espiral que desafia a gravidade com uma frequência de 21.600 alternâncias por hora. A ponte do tourbillon, visível apenas através do fundo transparente da caixa, exige mais de oitenta horas de trabalho manual contínuo em anglage com sabugueiro silvestre e polimento com pasta diamantada.",
-      "A ergonomia de pulso é ditada por uma pulseira integrada de titânio com elos esculpidos em relevo curvo ou, alternadamente, por uma correia em borracha técnica com fecho desdobrável em aço. A reserva de marcha de oitenta horas, assegurada por um sistema de corda manual com roquete de lâmina longa, garante imunidade temporal prolongada para o colecionador que recusa a tirania do ajuste diário. Aqui, a herança das 24 Horas de Le Mans funde-se com a elegância de um relógio de corte clássico.",
-      "O verdadeiro luxo contemporâneo foge do ruído estridente do consumo efêmero e refugia-se na escassez matemática de tiragens limitadas a poucas dezenas de exemplares mundiais. Laurent Ferrier entrega não apenas um instrumento de medição, mas um portal para a soberania mecânica onde o tempo deixa de ser um recurso escasso e passa a ser uma obra de arte cinética sob custódia perpétua."
-    ],
-    "content_paragraphs": [
-      "O tempo da mecânica pura não tolera concessões digitais. Nas profundezas silenciosas da Vallée de Joux, a precisão absoluta nasce do atrito milimetricamente calculado entre engrenagens de aço polido à mão. A caixa de 44 milímetros em titânio Grade 5 do Grand Sport Tourbillon Iceberg não busca a discrição vazia, mas impõe a presença mineral de um bloco forjado para resistir aos rigores térmicos e cinéticos das pistas de corrida. Cada superfície curva revela o rigor de um acabamento acetinado vertical contrastando com chanfros polidos a espelho.",
-      "Sob o vidro de safira abaulado, o mostrador opalino com gradiente azul-gelo evoca as geleiras alpinas intocadas. No coração desta arquitetura, o calibre de manufatura LF619.01 abriga um tourbillon de dupla espiral que desafia a gravidade com uma frequência de 21.600 alternâncias por hora. A ponte do tourbillon, visível apenas através do fundo transparente da caixa, exige mais de oitenta horas de trabalho manual contínuo em anglage com sabugueiro silvestre e polimento com pasta diamantada.",
-      "A ergonomia de pulso é ditada por uma pulseira integrada de titânio com elos esculpidos em relevo curvo ou, alternadamente, por uma correia em borracha técnica com fecho desdobrável em aço. A reserva de marcha de oitenta horas, assegurada por um sistema de corda manual com roquete de lâmina longa, garante imunidade temporal prolongada para o colecionador que recusa a tirania do ajuste diário. Aqui, a herança das 24 Horas de Le Mans funde-se com a elegância de um relógio de corte clássico.",
-      "O verdadeiro luxo contemporâneo foge do ruído estridente do consumo efêmero e refugia-se na escassez matemática de tiragens limitadas a poucas dezenas de exemplares mundiais. Laurent Ferrier entrega não apenas um instrumento de medição, mas um portal para a soberania mecânica onde o tempo deixa de ser um recurso escasso e passa a ser uma obra de arte cinética sob custódia perpétua."
-    ],
-    "specs": {
-      "calibre": "LF619.01 de corda manual com tourbillon",
-      "caixa": "Titânio Grade 5 com 44mm de diâmetro",
-      "mostrador": "Opalino em gradiente azul-gelo com índices em ouro branco 18k",
-      "reserva_de_marcha": "80 horas com indicação no verso",
-      "tiragem": "Edição limitada de 12 exemplares mundiais",
-      "avali_em_moeda_forte": "CHF 175.000 (ex impostos)"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 87,
-    "ranking_score": 87,
-    "publishedAt": "2026-10-30T19:45:17.895Z",
-    "published_at": "2026-10-30T19:45:17.895Z",
-    "sourceUrl": "https://monochrome-watches.com/laurent-ferrier-grand-sport-tourbillon-iceberg-titanium-integrated-sports-watch-review-price/",
-    "source_url": "https://monochrome-watches.com/laurent-ferrier-grand-sport-tourbillon-iceberg-titanium-integrated-sports-watch-review-price/"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "SUPERCARROS",
+    "title": "Ferrari Montegrappa: O Instrumento de ...",
+    "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "ferrari-montegrappa-o-instrumento-de-escrita-de-us-4300-forjado-com-titanio-aeroespacial-e-tolerancia-de-microns-4679"
+  },
+  {
+    "id": "film-2",
     "category": "RELOGIOS",
     "title": "Louis Erard x Vianney Halter Futur Ant...",
     "image": "https://monochrome-watches.com/app/uploads/2026/10/louis-erard-x-vianney-halter-futur-anterieur-antiqua-inspired-collab-review-1.jpg",
@@ -1423,7 +1432,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "louis-erard-x-vianney-halter-futur-anterieur-a-obra-prima-de-99-exemplares-com-caixas-soldadas-a-mao-e-mostradores-graficos-estilo-antiqua-2287"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "DESTINOS",
     "title": "Superiate Feadship de US$ 39 Milhões: ...",
     "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
@@ -1431,7 +1440,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "superiate-feadship-de-us-39-milhoes-o-arresto-judicial-na-costa-amalfitana-por-uma-falha-de-us-35000-em-salarios-6049"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Ferrari 296 Challenge Stradale: O V6 B...",
     "image": "https://images.unsplash.com/photo-1766353134008-bb3b8b99ddd2?auto=format&fit=crop&q=80&w=1400",
@@ -1439,7 +1448,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-296-challenge-stradale-o-v6-biturbo-de-830-cv-com-forca-g-extrema-nascido-nas-pistas-de-fiorano-8497"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Bugatti EB110 Widebody: O Primeiro Exe...",
     "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=max&q=85&w=1800",
@@ -1447,20 +1456,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "bugatti-eb110-widebody-o-primeiro-exemplar-modificado-do-planeta-que-aterrisou-no-concours-de-las-vegas-desafiando-a-ortodoxia-de-campogalliani-7868"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "DESTINOS",
     "title": "Superiate Oceânico de 300 Milhões de D...",
     "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "superiate-oceanico-de-300-milhoes-de-dolares-o-leviata-de-aluminio-e-aco-inoxidavel-que-dominou-as-aguas-de-cairns-com-precisao-militar-0726"
-  },
-  {
-    "id": "film-6",
-    "category": "DESTINOS",
-    "title": "Lady Marina: A Navalha de Aço de 64 Me...",
-    "image": "https://images.unsplash.com/photo-1621277224630-81d9af65e40c?auto=format&fit=crop&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "lady-marina-a-navalha-de-aco-de-64-metros-que-redefiniu-a-fisica-de-deslocamento-na-baia-de-cannes-4035"
   }
 ];
 
