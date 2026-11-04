@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-christies-abu-dhabi-us-894-milho-0402",
+    "slug": "christies-abu-dhabi-us-894-milhoes-em-obras-raras-e-a-nova-soberania-patrimonial-do-oriente-medio-0301",
+    "title": "Christie's Abu Dhabi: US$ 8,94 Milhões em Obras Raras e a Nova Soberania Patrimonial do Oriente Médio",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=85&w=1800",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdHJZV2ZTMlJEc21tTEJJQXF1T1R2UGdabG5wQWE0eGo1ZkpfT0s2QXpWNDJPRkM1elVSMGJKRTNBYlpTZDZMUnZmQWUzeTl4bEFIejhvbnJvVkcxa0dfRV9EaTB3Z2phTTBkVnZId3VhNVZFbFVXOVhHMTZhYVhnOE8xNy1QTFhzRG1objYxVWl1b0phRVhkMmZWeUw?oc=5",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "publishedAt": "2026-11-04T03:09:00.401Z"
+  },
+  {
     "id": "art-superiates-o-retorno-silencioso--3010",
     "slug": "superiates-o-retorno-silencioso-a-nautica-analogica-de-casco-de-aco-e-controle-mecanico-direto-3002",
     "title": "Superiates: O Retorno Silencioso à Náutica Analógica de Casco de Aço e Controle Mecânico Direto",

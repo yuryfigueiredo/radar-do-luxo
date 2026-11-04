@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-christies-abu-dhabi-us-894-milho-0402",
+    "slug": "christies-abu-dhabi-us-894-milhoes-em-obras-raras-e-a-nova-soberania-patrimonial-do-oriente-medio-0301",
+    "title": "Christie's Abu Dhabi: US$ 8,94 Milhões em Obras Raras e a Nova Soberania Patrimonial do Oriente Médio",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "04 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=85&w=1800",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "O leilão inaugural de alta arte da Christie’s em Abu Dhabi consolida o emirado como o novo refúgio de liquidez e custódia fiduciária para ativos museológicos de colecionadores dinásticos.",
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Sob os domos de Abu Dhabi, a Christie’s inaugurou um capítulo histórico para o mercado primário de belas-artes na península arábica, totalizando US$ 8,94 milhões em marteladas precisas. Este montante não representa apenas transações comerciais sazonais. Traduz a migração metódica de capitais soberanos em direção a ativos tangíveis e perenes, distantes da volatilidade algorítmica dos mercados globais.",
+      "A curadoria cirúrgica reuniu peças de relevância museológica que exigem custódia fiduciária rigorosa e controle térmico absoluto. Colecionadores de family offices internacionais disputaram lotes com a serenidade característica de quem compreende a imunidade temporal da arte. Enquanto capitais especulativos buscam retornos imediatos, o colecionador soberano adquire séculos de história condensada em tela, pigmento mineral e assinatura validada por décadas de proveniência incontestável.",
+      "A infraestrutura cultural de Abu Dhabi, ancorada por instituições de arquitetura monumental e travertino, redefine o eixo gravitacional da alta cultura global. Os Emirados Árabes Unidos deixam de ser meros polos de trânsito comercial para assumirem o papel de guardiões definitivos do patrimônio visual da humanidade. Trata-se de governança dinástica aplicada à salvaguarda de ativos culturais, onde cada aquisição funciona como um testamento de longevidade e poder silencioso.",
+      "O resultado de US$ 8,94 milhões na noite de estreia estabelece um parâmetro incontestável para futuros leilões na região. No tabuleiro global da conservação de riqueza, a geografia da alta-roda financeira mudou permanentemente de endereço. O verdadeiro luxo não reside na ostentação efêmera, mas na posse intransigível de obras mestras abrigadas em cofres fortificados à prova do tempo e da obsolescência."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Sob os domos de Abu Dhabi, a Christie’s inaugurou um capítulo histórico para o mercado primário de belas-artes na península arábica, totalizando US$ 8,94 milhões em marteladas precisas. Este montante não representa apenas transações comerciais sazonais. Traduz a migração metódica de capitais soberanos em direção a ativos tangíveis e perenes, distantes da volatilidade algorítmica dos mercados globais.",
+      "A curadoria cirúrgica reuniu peças de relevância museológica que exigem custódia fiduciária rigorosa e controle térmico absoluto. Colecionadores de family offices internacionais disputaram lotes com a serenidade característica de quem compreende a imunidade temporal da arte. Enquanto capitais especulativos buscam retornos imediatos, o colecionador soberano adquire séculos de história condensada em tela, pigmento mineral e assinatura validada por décadas de proveniência incontestável.",
+      "A infraestrutura cultural de Abu Dhabi, ancorada por instituições de arquitetura monumental e travertino, redefine o eixo gravitacional da alta cultura global. Os Emirados Árabes Unidos deixam de ser meros polos de trânsito comercial para assumirem o papel de guardiões definitivos do patrimônio visual da humanidade. Trata-se de governança dinástica aplicada à salvaguarda de ativos culturais, onde cada aquisição funciona como um testamento de longevidade e poder silencioso.",
+      "O resultado de US$ 8,94 milhões na noite de estreia estabelece um parâmetro incontestável para futuros leilões na região. No tabuleiro global da conservação de riqueza, a geografia da alta-roda financeira mudou permanentemente de endereço. O verdadeiro luxo não reside na ostentação efêmera, mas na posse intransigível de obras mestras abrigadas em cofres fortificados à prova do tempo e da obsolescência."
+    ],
+    "specs": {
+      "Casa de Leilões": "Christie's",
+      "Faturamento Total": "US$ 8,94 Milhões",
+      "Praça": "Abu Dhabi, Emirados Árabes Unidos",
+      "Categoria": "Belas-Artes e Ativos Museológicos",
+      "Custódia": "Governança Dinástica e Family Offices"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-04T03:09:00.401Z",
+    "published_at": "2026-11-04T03:09:00.401Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdHJZV2ZTMlJEc21tTEJJQXF1T1R2UGdabG5wQWE0eGo1ZkpfT0s2QXpWNDJPRkM1elVSMGJKRTNBYlpTZDZMUnZmQWUzeTl4bEFIejhvbnJvVkcxa0dfRV9EaTB3Z2phTTBkVnZId3VhNVZFbFVXOVhHMTZhYVhnOE8xNy1QTFhzRG1objYxVWl1b0phRVhkMmZWeUw?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdHJZV2ZTMlJEc21tTEJJQXF1T1R2UGdabG5wQWE0eGo1ZkpfT0s2QXpWNDJPRkM1elVSMGJKRTNBYlpTZDZMUnZmQWUzeTl4bEFIejhvbnJvVkcxa0dfRV9EaTB3Z2phTTBkVnZId3VhNVZFbFVXOVhHMTZhYVhnOE8xNy1QTFhzRG1objYxVWl1b0phRVhkMmZWeUw?oc=5"
+  },
+  {
     "id": "art-superiates-o-retorno-silencioso--3010",
     "slug": "superiates-o-retorno-silencioso-a-nautica-analogica-de-casco-de-aco-e-controle-mecanico-direto-3002",
     "title": "Superiates: O Retorno Silencioso à Náutica Analógica de Casco de Aço e Controle Mecânico Direto",
@@ -177,7 +229,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "03 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -205,10 +257,10 @@ export const ARTICLES = [
       "estabilidade_operacional": "Privacidade corporativa absoluta"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 89,
@@ -1355,57 +1407,6 @@ export const ARTICLES = [
     "published_at": "2026-10-30T02:35:37.511Z",
     "sourceUrl": "https://monochrome-watches.com/2026-girard-perragaux-laureato-fifty-three-gold-bridges-permanent-collection-review-price/",
     "source_url": "https://monochrome-watches.com/2026-girard-perragaux-laureato-fifty-three-gold-bridges-permanent-collection-review-price/"
-  },
-  {
-    "id": "art-australian-superyachts-o-novo-sa-4477",
-    "slug": "australian-superyachts-o-novo-santuario-naval-em-newport-que-redefine-a-hidrodinamica-oceanica-de-alta-performance-4461",
-    "title": "Australian Superyachts: O Novo Santuário Naval em Newport que Redefine a Hidrodinâmica Oceânica de Alta Performance",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "29 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1783344422200-a5493824bcb9?auto=format&fit=max&q=85&w=1800",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A mudança estratégica para o Royal Motor Yacht Club consolida a soberania técnica e o refúgio estrutural para cascos compostos de longo curso.",
-    "contentParagraphs": [
-      "A geometria das águas profundas exige precisão absoluta. O deslocamento de um casco de superiate não tolera margens de erro estrutural quando submetido a gradientes severos de maré e rajadas transversais em mar aberto. A transição operacional da Australian Superyachts para o Royal Motor Yacht Club, em Newport, representa uma mudança sísmica na logística de manutenção naval do hemisfério sul. Trata-se de um alinhamento cirúrgico entre infraestrutura portuária de altíssima densidade e estaleiros capazes de operar tolerâncias de mícrons em ligas marinhas complexas.",
-      "Sob a ótica da dinâmica de fluidos computacional, cada linha de flutuação e cada túnel de propulsão exigem calibração milimétrica. As novas instalações em Pittwater oferecem o calado necessário para receber embarcações com monocoques em fibra de carbono estrutural e superestruturas em alumínio naval da série 5083. Quando analisamos o arrasto hidrodinâmico em velocidades de cruzeiro prolongadas, a eficiência do fluxo laminar sobre os apêndices do casco dita a autonomia oceânica e a integridade dos eixos propulsores em Inconel 625.",
-      "O mercado global de grandes embarcações privadas busca refúgios de liquidez e manutenção que eliminem o atrito burocrático e técnico. Newport agora abriga um ecossistema onde a telemetria inercial de bordo e os sistemas de estabilização giroscópica de zero velocidade encontram suporte de engenharia imediata. Não há espaço para improvisos quando estamos lidando com plataformas navais avaliadas em dezenas de milhões de dólares, projetadas para cruzar oceanos sob cargas cíclicas implacáveis e pressões hidrostáticas extremas.",
-      "A engenharia naval de elite não tolera o efêmero. Enquanto estaleiros comerciais priorizam volumes industriais, este novo polo em solo australiano reafirma a supremacia do trabalho artesanal aliado a simulações hidrodinâmicas avançadas. É o triunfo da mecânica pura e do projeto estrutural intransigente sobre a volatilidade das modas náuticas."
-    ],
-    "content_paragraphs": [
-      "A geometria das águas profundas exige precisão absoluta. O deslocamento de um casco de superiate não tolera margens de erro estrutural quando submetido a gradientes severos de maré e rajadas transversais em mar aberto. A transição operacional da Australian Superyachts para o Royal Motor Yacht Club, em Newport, representa uma mudança sísmica na logística de manutenção naval do hemisfério sul. Trata-se de um alinhamento cirúrgico entre infraestrutura portuária de altíssima densidade e estaleiros capazes de operar tolerâncias de mícrons em ligas marinhas complexas.",
-      "Sob a ótica da dinâmica de fluidos computacional, cada linha de flutuação e cada túnel de propulsão exigem calibração milimétrica. As novas instalações em Pittwater oferecem o calado necessário para receber embarcações com monocoques em fibra de carbono estrutural e superestruturas em alumínio naval da série 5083. Quando analisamos o arrasto hidrodinâmico em velocidades de cruzeiro prolongadas, a eficiência do fluxo laminar sobre os apêndices do casco dita a autonomia oceânica e a integridade dos eixos propulsores em Inconel 625.",
-      "O mercado global de grandes embarcações privadas busca refúgios de liquidez e manutenção que eliminem o atrito burocrático e técnico. Newport agora abriga um ecossistema onde a telemetria inercial de bordo e os sistemas de estabilização giroscópica de zero velocidade encontram suporte de engenharia imediata. Não há espaço para improvisos quando estamos lidando com plataformas navais avaliadas em dezenas de milhões de dólares, projetadas para cruzar oceanos sob cargas cíclicas implacáveis e pressões hidrostáticas extremas.",
-      "A engenharia naval de elite não tolera o efêmero. Enquanto estaleiros comerciais priorizam volumes industriais, este novo polo em solo australiano reafirma a supremacia do trabalho artesanal aliado a simulações hidrodinâmicas avançadas. É o triunfo da mecânica pura e do projeto estrutural intransigente sobre a volatilidade das modas náuticas."
-    ],
-    "specs": {
-      "Localizacao": "Royal Motor Yacht Club, Newport, Pittwater, Austrália",
-      "Capacidade": "Superiates de até 60 metros de LOA",
-      "Infraestrutura": "Guindastes de alta capacidade e dique seco especializado",
-      "Materiais Alvo": "Liga de alumínio série 5083 e compósitos de carbo-titânio",
-      "Engenharia": "Dinâmica de fluidos computacional e calibração de eixos em Inconel"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 90,
-    "ranking_score": 90,
-    "publishedAt": "2026-10-29T23:12:34.477Z",
-    "published_at": "2026-10-29T23:12:34.477Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcC1IUzZTcjNZZmRVa2dUQTU0cU50cmtuQXRSMVFIa3Q4bllJQ2FWOFJCZDhCZmxWeVIxUVZRaVVXelcyOXpoS3NIdzZtU05kVl9UN2NuVU1RaHJfNXI5ak9QWkc0OUtjOEd0RjdlVHdoS3I0QU5HRnFZZlgycFAzREdSa3RERURzMkRCR2toVnNiTEVtRHp4c3lMbUhIc2ZJam1ObG02djR5ODlabUh0MjNLRGNFQTlBX0VFZU5STWZfMEFXNXdv?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcC1IUzZTcjNZZmRVa2dUQTU0cU50cmtuQXRSMVFIa3Q4bllJQ2FWOFJCZDhCZmxWeVIxUVZRaVVXelcyOXpoS3NIdzZtU05kVl9UN2NuVU1RaHJfNXI5ak9QWkc0OUtjOEd0RjdlVHdoS3I0QU5HRnFZZlgycFAzREdSa3RERURzMkRCR2toVnNiTEVtRHp4c3lMbUhIc2ZJam1ObG02djR5ODlabUh0MjNLRGNFQTlBX0VFZU5STWZfMEFXNXdv?oc=5"
   }
 ];
 
@@ -1413,13 +1414,21 @@ export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
     "category": "SUPERCARROS",
+    "title": "Ferrari 296 Challenge Stradale: O V6 B...",
+    "image": "https://images.unsplash.com/photo-1766353134008-bb3b8b99ddd2?auto=format&fit=crop&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "ferrari-296-challenge-stradale-o-v6-biturbo-de-830-cv-com-forca-g-extrema-nascido-nas-pistas-de-fiorano-8497"
+  },
+  {
+    "id": "film-2",
+    "category": "SUPERCARROS",
     "title": "Bugatti EB110 Widebody: O Primeiro Exe...",
     "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=max&q=85&w=1800",
     "tag": "CURADORIA RADAR",
     "slug": "bugatti-eb110-widebody-o-primeiro-exemplar-modificado-do-planeta-que-aterrisou-no-concours-de-las-vegas-desafiando-a-ortodoxia-de-campogalliani-7868"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "DESTINOS",
     "title": "Superiate Oceânico de 300 Milhões de D...",
     "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
@@ -1427,7 +1436,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "superiate-oceanico-de-300-milhoes-de-dolares-o-leviata-de-aluminio-e-aco-inoxidavel-que-dominou-as-aguas-de-cairns-com-precisao-militar-0726"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "DESTINOS",
     "title": "Lady Marina: A Navalha de Aço de 64 Me...",
     "image": "https://images.unsplash.com/photo-1621277224630-81d9af65e40c?auto=format&fit=crop&q=80&w=1400",
@@ -1435,7 +1444,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "lady-marina-a-navalha-de-aco-de-64-metros-que-redefiniu-a-fisica-de-deslocamento-na-baia-de-cannes-4035"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "RELOGIOS",
     "title": "O&HoraPictor Smoked Ocean Volcano Grey...",
     "image": "https://monochrome-watches.com/app/uploads/2026/10/HoraPictor-Smoked-Ocean-Volcano-Grey-Enamel-Dial-Accessible-10.jpg",
@@ -1443,20 +1452,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ohorapictor-smoked-ocean-volcano-grey-40-milimetros-de-esmalte-grand-feu-a-820c-com-calibre-suico-sellita-sw200-1162"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "RELOGIOS",
     "title": "Laurent Ferrier Grand Sport Tourbillon...",
     "image": "https://monochrome-watches.com/app/uploads/2026/10/Laurent-Ferrier-Grand-Sport-Tourbillon-Iceberg-Titanium-review-8.jpg",
     "tag": "CURADORIA RADAR",
     "slug": "laurent-ferrier-grand-sport-tourbillon-iceberg-o-cronometro-de-titanio-grao-selado-de-44mm-com-tourbillon-de-duplo-balanco-inverso-7884"
-  },
-  {
-    "id": "film-6",
-    "category": "ARQUITETURA",
-    "title": "Houston Mansion: A Soberana Propriedad...",
-    "image": "https://robbreport.com/wp-content/uploads/2026/10/2115-River-Oaks-Boulevard_Pavilion.jpg",
-    "tag": "CURADORIA RADAR",
-    "slug": "houston-mansion-a-soberana-propriedade-neoclassica-de-219-milhoes-que-abrigou-o-barao-enrico-di-portanova-e-sua-piscina-de-vidro-monumental-8338"
   }
 ];
 
