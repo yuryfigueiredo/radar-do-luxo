@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-the-italian-sea-group-o-resgate--6242",
+    "slug": "the-italian-sea-group-o-resgate-de-220-milhoes-de-euros-que-consolida-a-soberania-dos-superiates-na-toscana-6143",
+    "title": "The Italian Sea Group: O Resgate de 220 Milhões de Euros que Consolida a Soberania dos Superiates na Toscana",
+    "image": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONFRUWkpXTWpHazIwQmZWVDI2aGtmajNfeS15dnUzcGNBaHdGelB5Wlg2dDN0STZZTmRvMkhVYjh3cjMxTS01OFFNM0JNWHBuWElEcVBCRWw3NnFELVBLa3R2M1JkeG9XSGEzLWF0TFVBVGlEN0JkTlVVc3VIOU03bGJzbEZpUWY5WUE?oc=5",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-04T17:00:46.241Z"
+  },
+  {
     "id": "art-ferrari-250-gto-18-000-000-usd-e-6804",
     "slug": "ferrari-250-gto-18-000-000-usd-e-chassi-de-forjamento-de-titanio-em-las-vegas-6794",
     "title": "Ferrari 250 GTO: 18 000 000 USD e Chassi de Forjamento de Titânio em Las Vegas",

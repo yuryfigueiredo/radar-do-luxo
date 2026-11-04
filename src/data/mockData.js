@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-the-italian-sea-group-o-resgate--6242",
+    "slug": "the-italian-sea-group-o-resgate-de-220-milhoes-de-euros-que-consolida-a-soberania-dos-superiates-na-toscana-6143",
+    "title": "The Italian Sea Group: O Resgate de 220 Milhões de Euros que Consolida a Soberania dos Superiates na Toscana",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "04 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A injeção de capital pela SRI Group marca a reestruturação estratégica da TISG, garantindo a continuidade de monocoques em alumínio de alta performance e a engenharia de precisão que define o patamar de 100 metros.",
+    "contentParagraphs": [
+      "A solidez de um estaleiro não reside apenas na espessura de seu casco, mas na resiliência de seu balanço patrimonial. A TISG acaba de selar um acordo de 220 milhões de euros com a SRI Group, uma manobra técnica necessária para estancar a volatilidade e preservar a integridade estrutural das linhas Admiral e Tecnomar. O estaleiro de Marina di Carrara, conhecido por seus fluxos de Venturi aplicados à hidrodinâmica, agora estabiliza sua trajetória operacional.",
+      "A engenharia naval de elite exige tolerâncias de mícrons que se traduzem em eficiência de cruzeiro e comportamento inercial impecável sob mares severos. Esta reestruturação garante que o desenvolvimento de monocoques em ligas de alumínio 5083, curados com precisão cirúrgica, não sofra interrupções. A capacidade de sustentar a propulsão em eixos de alta rotação, mantendo baixos níveis de vibração harmônica, exige liquidez constante e fluxo ininterrupto de insumos de classe mundial.",
+      "No mercado de superiates, a confiança é o lastro que precede a assinatura do contrato de construção. Enquanto competidores se perdem em estéticas superficiais, a TISG mantém o foco na arquitetura naval pura, onde o centro de gravidade e o coeficiente de arrasto definem a excelência. Este aporte financeiro atua como um estabilizador de aleta ativo para a governança da empresa, isolando a produção de elite das flutuações macroeconômicas que frequentemente desviam o curso de estaleiros menos preparados.",
+      "A arquitetura de um iate de 100 metros é um exercício de física aplicada, onde cada quilo economizado na superestrutura de alumínio se converte em autonomia e performance em regime de cruzeiro. Com a SRI Group aportando o capital necessário, a TISG reafirma sua posição no topo da pirâmide naval. O veredito é claro: o capital flui para onde a engenharia desafia a inércia, garantindo que o legado de design italiano permaneça intocado pelas turbulências do mercado financeiro."
+    ],
+    "content_paragraphs": [
+      "A solidez de um estaleiro não reside apenas na espessura de seu casco, mas na resiliência de seu balanço patrimonial. A TISG acaba de selar um acordo de 220 milhões de euros com a SRI Group, uma manobra técnica necessária para estancar a volatilidade e preservar a integridade estrutural das linhas Admiral e Tecnomar. O estaleiro de Marina di Carrara, conhecido por seus fluxos de Venturi aplicados à hidrodinâmica, agora estabiliza sua trajetória operacional.",
+      "A engenharia naval de elite exige tolerâncias de mícrons que se traduzem em eficiência de cruzeiro e comportamento inercial impecável sob mares severos. Esta reestruturação garante que o desenvolvimento de monocoques em ligas de alumínio 5083, curados com precisão cirúrgica, não sofra interrupções. A capacidade de sustentar a propulsão em eixos de alta rotação, mantendo baixos níveis de vibração harmônica, exige liquidez constante e fluxo ininterrupto de insumos de classe mundial.",
+      "No mercado de superiates, a confiança é o lastro que precede a assinatura do contrato de construção. Enquanto competidores se perdem em estéticas superficiais, a TISG mantém o foco na arquitetura naval pura, onde o centro de gravidade e o coeficiente de arrasto definem a excelência. Este aporte financeiro atua como um estabilizador de aleta ativo para a governança da empresa, isolando a produção de elite das flutuações macroeconômicas que frequentemente desviam o curso de estaleiros menos preparados.",
+      "A arquitetura de um iate de 100 metros é um exercício de física aplicada, onde cada quilo economizado na superestrutura de alumínio se converte em autonomia e performance em regime de cruzeiro. Com a SRI Group aportando o capital necessário, a TISG reafirma sua posição no topo da pirâmide naval. O veredito é claro: o capital flui para onde a engenharia desafia a inércia, garantindo que o legado de design italiano permaneça intocado pelas turbulências do mercado financeiro."
+    ],
+    "specs": {
+      "montante_reestruturacao": "220 milhões de euros",
+      "foco_operacional": "Engenharia naval de alto desempenho",
+      "materiais_chave": "Liga de alumínio 5083 e aço naval",
+      "sede_estaleiro": "Marina di Carrara, Itália",
+      "segmento_alvo": "Superiates acima de 60 metros"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 90,
+    "ranking_score": 90,
+    "engineSource": "gemini:gemini-3.1-flash-lite",
+    "publishedAt": "2026-11-04T17:00:46.241Z",
+    "published_at": "2026-11-04T17:00:46.241Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONFRUWkpXTWpHazIwQmZWVDI2aGtmajNfeS15dnUzcGNBaHdGelB5Wlg2dDN0STZZTmRvMkhVYjh3cjMxTS01OFFNM0JNWHBuWElEcVBCRWw3NnFELVBLa3R2M1JkeG9XSGEzLWF0TFVBVGlEN0JkTlVVc3VIOU03bGJzbEZpUWY5WUE?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONFRUWkpXTWpHazIwQmZWVDI2aGtmajNfeS15dnUzcGNBaHdGelB5Wlg2dDN0STZZTmRvMkhVYjh3cjMxTS01OFFNM0JNWHBuWElEcVBCRWw3NnFELVBLa3R2M1JkeG9XSGEzLWF0TFVBVGlEN0JkTlVVc3VIOU03bGJzbEZpUWY5WUE?oc=5"
+  },
+  {
     "id": "art-ferrari-250-gto-18-000-000-usd-e-6804",
     "slug": "ferrari-250-gto-18-000-000-usd-e-chassi-de-forjamento-de-titanio-em-las-vegas-6794",
     "title": "Ferrari 250 GTO: 18 000 000 USD e Chassi de Forjamento de Titânio em Las Vegas",
@@ -178,7 +230,7 @@ export const ARTICLES = [
     "authorSlug": "henrique-vianna",
     "author_slug": "henrique-vianna",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "04 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -206,10 +258,10 @@ export const ARTICLES = [
       "Custódia": "Governança Dinástica e Family Offices"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 89,
@@ -1358,63 +1410,20 @@ export const ARTICLES = [
     "published_at": "2026-10-30T19:45:17.895Z",
     "sourceUrl": "https://monochrome-watches.com/laurent-ferrier-grand-sport-tourbillon-iceberg-titanium-integrated-sports-watch-review-price/",
     "source_url": "https://monochrome-watches.com/laurent-ferrier-grand-sport-tourbillon-iceberg-titanium-integrated-sports-watch-review-price/"
-  },
-  {
-    "id": "art-houston-mansion-a-soberana-propr-8357",
-    "slug": "houston-mansion-a-soberana-propriedade-neoclassica-de-219-milhoes-que-abrigou-o-barao-enrico-di-portanova-e-sua-piscina-de-vidro-monumental-8338",
-    "title": "Houston Mansion: A Soberana Propriedade Neoclássica de $21,9 Milhões que Abrigou o Barão Enrico di Portanova e Sua Piscina de Vidro Monumental",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "30 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://robbreport.com/wp-content/uploads/2026/10/2115-River-Oaks-Boulevard_Pavilion.jpg",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Um testamento arquitetônico em travertino romano navona e custódia fiduciária onde a soberania patrimonial encontra o silêncio mineral da opulência dinástica.",
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído estridente. O patrimônio dinástico, por sua vez, busca o silêncio mineral de uma fachada neoclássica projetada para resistir aos séculos. Esta propriedade de 21,9 milhões de dólares em Houston não é um mero refúgio de liquidez imobiliária. Trata-se de um monumento erguido pela excentricidade calculada do Barão Enrico di Portanova, onde a governança familiar encontrou o hedonismo arquitetônico das grandes lendas europeias.",
-      "A estrutura abriga um pavilhão de entretenimento e uma piscina monumental envidraçada que desafia os cânones construtivos do Texas. Sob o rigor de colunas monumentais e pisos em mármore polido à mão, cada metro quadrado respira a herança de uma era em que os salões recebiam figuras da magnitude de James Bond e a realeza internacional. A engenharia do espaço combina paredes estruturais de espessura imponente com caixilhamentos de aço reforçado, garantindo imunidade temporal absoluta.",
-      "Enquanto os mercados flutuam e os ativos digitais evaporam em milissegundos, o refúgio do Barão permanece imune às intempéries da especulação moderna. A propriedade consolida-se como um ativo de preservação de capital intransigível, inserida nos enclaves mais restritos do Texas. Famílias com visão de longo prazo reconhecem que a raridade de tal loteamento urbano jamais será replicada pelas construtoras contemporâneas.",
-      "Adquirir este patrimônio é assinar um contrato com a eternidade. Henrique Vianna chancela a transação não como uma aquisição residencial, mas como a absorção de um artefato histórico de soberania inegociável. Aqui, o passado aristocrático e o futuro da custódia fiduciária fundem-se em uma única e definitiva linha de horizonte."
-    ],
-    "content_paragraphs": [
-      "O dinheiro recente faz ruído estridente. O patrimônio dinástico, por sua vez, busca o silêncio mineral de uma fachada neoclássica projetada para resistir aos séculos. Esta propriedade de 21,9 milhões de dólares em Houston não é um mero refúgio de liquidez imobiliária. Trata-se de um monumento erguido pela excentricidade calculada do Barão Enrico di Portanova, onde a governança familiar encontrou o hedonismo arquitetônico das grandes lendas europeias.",
-      "A estrutura abriga um pavilhão de entretenimento e uma piscina monumental envidraçada que desafia os cânones construtivos do Texas. Sob o rigor de colunas monumentais e pisos em mármore polido à mão, cada metro quadrado respira a herança de uma era em que os salões recebiam figuras da magnitude de James Bond e a realeza internacional. A engenharia do espaço combina paredes estruturais de espessura imponente com caixilhamentos de aço reforçado, garantindo imunidade temporal absoluta.",
-      "Enquanto os mercados flutuam e os ativos digitais evaporam em milissegundos, o refúgio do Barão permanece imune às intempéries da especulação moderna. A propriedade consolida-se como um ativo de preservação de capital intransigível, inserida nos enclaves mais restritos do Texas. Famílias com visão de longo prazo reconhecem que a raridade de tal loteamento urbano jamais será replicada pelas construtoras contemporâneas.",
-      "Adquirir este patrimônio é assinar um contrato com a eternidade. Henrique Vianna chancela a transação não como uma aquisição residencial, mas como a absorção de um artefato histórico de soberania inegociável. Aqui, o passado aristocrático e o futuro da custódia fiduciária fundem-se em uma única e definitiva linha de horizonte."
-    ],
-    "specs": {
-      "Avaliação Patrimonial": "$21.900.000 USD",
-      "Arquitetura": "Neoclássico Europeu",
-      "Acabamento Estrutural": "Travertino Romano Navona",
-      "Ativo Exclusivo": "Pavilhão de Piscina Envidados",
-      "Custódia": "Governança Dinástica"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 86,
-    "ranking_score": 86,
-    "publishedAt": "2026-10-30T16:36:48.357Z",
-    "published_at": "2026-10-30T16:36:48.357Z",
-    "sourceUrl": "https://robbreport.com/shelter/homes-for-sale/baron-ricky-di-portanova-houston-mansion-1238796678/",
-    "source_url": "https://robbreport.com/shelter/homes-for-sale/baron-ricky-di-portanova-houston-mansion-1238796678/"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "RELOGIOS",
+    "title": "Louis Erard x Vianney Halter Futur Ant...",
+    "image": "https://monochrome-watches.com/app/uploads/2026/10/louis-erard-x-vianney-halter-futur-anterieur-antiqua-inspired-collab-review-1.jpg",
+    "tag": "CURADORIA RADAR",
+    "slug": "louis-erard-x-vianney-halter-futur-anterieur-a-obra-prima-de-99-exemplares-com-caixas-soldadas-a-mao-e-mostradores-graficos-estilo-antiqua-2287"
+  },
+  {
+    "id": "film-2",
     "category": "DESTINOS",
     "title": "Superiate Feadship de US$ 39 Milhões: ...",
     "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
@@ -1422,7 +1431,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "superiate-feadship-de-us-39-milhoes-o-arresto-judicial-na-costa-amalfitana-por-uma-falha-de-us-35000-em-salarios-6049"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Ferrari 296 Challenge Stradale: O V6 B...",
     "image": "https://images.unsplash.com/photo-1766353134008-bb3b8b99ddd2?auto=format&fit=crop&q=80&w=1400",
@@ -1430,7 +1439,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-296-challenge-stradale-o-v6-biturbo-de-830-cv-com-forca-g-extrema-nascido-nas-pistas-de-fiorano-8497"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Bugatti EB110 Widebody: O Primeiro Exe...",
     "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=max&q=85&w=1800",
@@ -1438,7 +1447,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "bugatti-eb110-widebody-o-primeiro-exemplar-modificado-do-planeta-que-aterrisou-no-concours-de-las-vegas-desafiando-a-ortodoxia-de-campogalliani-7868"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "DESTINOS",
     "title": "Superiate Oceânico de 300 Milhões de D...",
     "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
@@ -1446,20 +1455,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "superiate-oceanico-de-300-milhoes-de-dolares-o-leviata-de-aluminio-e-aco-inoxidavel-que-dominou-as-aguas-de-cairns-com-precisao-militar-0726"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "DESTINOS",
     "title": "Lady Marina: A Navalha de Aço de 64 Me...",
     "image": "https://images.unsplash.com/photo-1621277224630-81d9af65e40c?auto=format&fit=crop&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "lady-marina-a-navalha-de-aco-de-64-metros-que-redefiniu-a-fisica-de-deslocamento-na-baia-de-cannes-4035"
-  },
-  {
-    "id": "film-6",
-    "category": "RELOGIOS",
-    "title": "O&HoraPictor Smoked Ocean Volcano Grey...",
-    "image": "https://monochrome-watches.com/app/uploads/2026/10/HoraPictor-Smoked-Ocean-Volcano-Grey-Enamel-Dial-Accessible-10.jpg",
-    "tag": "CURADORIA RADAR",
-    "slug": "ohorapictor-smoked-ocean-volcano-grey-40-milimetros-de-esmalte-grand-feu-a-820c-com-calibre-suico-sellita-sw200-1162"
   }
 ];
 
