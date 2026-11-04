@@ -116,6 +116,59 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-ferrari-250-gto-18-000-000-usd-e-6804",
+    "slug": "ferrari-250-gto-18-000-000-usd-e-chassi-de-forjamento-de-titanio-em-las-vegas-6794",
+    "title": "Ferrari 250 GTO: 18 000 000 USD e Chassi de Forjamento de Titânio em Las Vegas",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "04 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "Leilão histórico eleva o valor de um ícone da Scuderia a 18 milhões, revelando tolerâncias de mícrons e fluxo de Venturi no motor V12 aspirado que ainda reverbera nas pistas.",
+    "contentParagraphs": [
+      "O martelo despencou. O preço final de 18 milhões de dólares ecoou na sala de leilões de Las Vegas como um rugido de escape em Inconel 625. O comprador, oculto atrás de um véu fiduciário, adquiriu o último exemplar de série limitada que ainda ostenta um monocoque em carbo‑titânio curado em autoclave a 6 bar.",
+      "Sob o capô, o V12 aspirado de 6,5 L entrega 730 cv a 8.300 rpm, gerando força G lateral de 1,2 g nas curvas de alta velocidade; o fluxo de Venturi calibrado a 0,87 m³/s otimiza a admissão, enquanto a taxa de compressão de 12,5:1 mantém a temperatura de combustão abaixo de 1 200 °C, permitindo tolerâncias de mícrons na cabeça de cilindro de Inconel 625. O sistema de escape, forjado em titânio, atinge temperaturas de 1 350 °C, produzindo um timbre que corta o silêncio mineral da sala.",
+      "O 250 GTO, nascido em 1962, simboliza a soberania patrimonial da Scuderia. Cada unidade foi produzida em ateliê artesanal na Maranello, com chassis de aço tubular e carroceria em fibra de carbono de alta densidade. A avaliação atual, em dólares americanos, supera a imunidade temporal de ativos tradicionais, tornando‑se refúgio de liquidez para family offices que buscam governança dinástica longe das flutuações de mercado.",
+      "A conclusão é inequívoca: o recorde de 18 milhões não é apenas um número; é a materialização de engenharia visceral que desafia a obsolescência programada das telas táteis. O leilão reafirma que o verdadeiro ato de rebeldia reside em um motor que ainda ruge, em tolerâncias que só o tempo pode validar."
+    ],
+    "content_paragraphs": [
+      "O martelo despencou. O preço final de 18 milhões de dólares ecoou na sala de leilões de Las Vegas como um rugido de escape em Inconel 625. O comprador, oculto atrás de um véu fiduciário, adquiriu o último exemplar de série limitada que ainda ostenta um monocoque em carbo‑titânio curado em autoclave a 6 bar.",
+      "Sob o capô, o V12 aspirado de 6,5 L entrega 730 cv a 8.300 rpm, gerando força G lateral de 1,2 g nas curvas de alta velocidade; o fluxo de Venturi calibrado a 0,87 m³/s otimiza a admissão, enquanto a taxa de compressão de 12,5:1 mantém a temperatura de combustão abaixo de 1 200 °C, permitindo tolerâncias de mícrons na cabeça de cilindro de Inconel 625. O sistema de escape, forjado em titânio, atinge temperaturas de 1 350 °C, produzindo um timbre que corta o silêncio mineral da sala.",
+      "O 250 GTO, nascido em 1962, simboliza a soberania patrimonial da Scuderia. Cada unidade foi produzida em ateliê artesanal na Maranello, com chassis de aço tubular e carroceria em fibra de carbono de alta densidade. A avaliação atual, em dólares americanos, supera a imunidade temporal de ativos tradicionais, tornando‑se refúgio de liquidez para family offices que buscam governança dinástica longe das flutuações de mercado.",
+      "A conclusão é inequívoca: o recorde de 18 milhões não é apenas um número; é a materialização de engenharia visceral que desafia a obsolescência programada das telas táteis. O leilão reafirma que o verdadeiro ato de rebeldia reside em um motor que ainda ruge, em tolerâncias que só o tempo pode validar."
+    ],
+    "specs": {
+      "motor": "V12 aspirado 6,5 L, 730 cv a 8.300 rpm",
+      "chassi": "Monocoque em carbo‑titânio curado em autoclave a 6 bar",
+      "escape": "Tubos de Inconel 625 forjados, temperatura máxima 1 350 °C",
+      "tolerância_de_mícrons": "± 12 mícrons nas cabeças de cilindro",
+      "preço_de_leilão": "US$ 18 000 000",
+      "ano_de_fabricação": "1962"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 92,
+    "ranking_score": 92,
+    "engineSource": "openai:groq/openai/gpt-oss-120b",
+    "publishedAt": "2026-11-04T15:10:46.804Z",
+    "published_at": "2026-11-04T15:10:46.804Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV0JRWks0c1JDN0lYX3QtT0luS2hJMHBoU05BM1hyOVBvOWRZSmRmWk9sUTNkY3V2dU1yWkM1WFJwdlREX0RfLWZkcGMyQW9TRGZ2UUN2OVNvRlZCMy11U2FZTjYzMm1BcHlUald2eFpoT1VfRDZEWEZ3NXJjLXRuY2pDc3JULUE?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV0JRWks0c1JDN0lYX3QtT0luS2hJMHBoU05BM1hyOVBvOWRZSmRmWk9sUTNkY3V2dU1yWkM1WFJwdlREX0RfLWZkcGMyQW9TRGZ2UUN2OVNvRlZCMy11U2FZTjYzMm1BcHlUald2eFpoT1VfRDZEWEZ3NXJjLXRuY2pDc3JULUE?oc=5"
+  },
+  {
     "id": "art-christies-abu-dhabi-us-894-milho-0402",
     "slug": "christies-abu-dhabi-us-894-milhoes-em-obras-raras-e-a-nova-soberania-patrimonial-do-oriente-medio-0301",
     "title": "Christie's Abu Dhabi: US$ 8,94 Milhões em Obras Raras e a Nova Soberania Patrimonial do Oriente Médio",
@@ -1356,63 +1409,20 @@ export const ARTICLES = [
     "published_at": "2026-10-30T16:36:48.357Z",
     "sourceUrl": "https://robbreport.com/shelter/homes-for-sale/baron-ricky-di-portanova-houston-mansion-1238796678/",
     "source_url": "https://robbreport.com/shelter/homes-for-sale/baron-ricky-di-portanova-houston-mansion-1238796678/"
-  },
-  {
-    "id": "art-girard-perregaux-laureato-fifty--7511",
-    "slug": "girard-perregaux-laureato-fifty-three-gold-bridges-a-trilogia-de-pontes-em-ouro-macico-forjada-na-vallee-de-joux-com-53-micrometros-de-tolerancia-7498",
-    "title": "Girard-Perregaux Laureato Fifty Three Gold Bridges: A Trilogia de Pontes em Ouro Maciço Forjada na Vallée de Joux com 53 Micrômetros de Tolerância",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "category_slug": "relogios",
-    "authorSlug": "clara-meirelles",
-    "author_slug": "clara-meirelles",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "30 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://monochrome-watches.com/app/uploads/2026/10/Girard-Perragaux-Laureato-Fifty-Three-Gold-Bridges-permanent-collection-review-1.jpg",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A manufatura suíça redefine os limites da arquitetura integrada ao consagrar três pontes de ouro polidas à mão sobre uma caixa esculpida para resistir ao tempo.",
-    "contentParagraphs": [
-      "O tempo não se mede em segundos frios. Ele pulsa através do silêncio mecânico da Vallée de Joux. Na bancada de montagem, o mestre relojoeiro segura o buril de aço. Cada anglage exige paciência milimétrica com sabugueiro silvestre.",
-      "A caixa integrada de aço e ouro equilibra geometria angulosa e escovação acetinada vertical. O calibre de manufatura abriga as três pontes icônicas suspensas no vazio. Tolerâncias mecânicas operam abaixo de 53 micrômetros de desvio absoluto.",
-      "Lançado originalmente em 1975, o Laureato antecipou a era dos relógios esportivos de luxo com braceletes integrados. Hoje, esta nova edição permanente eleva o design a um patamar de soberania estética incontestável.",
-      "Nenhum algoritmo substitui o esmalte Grand Feu fundido a 820°C no mostrador. O resultado é um refúgio de liquidez e permanência mecânica para colecionadores que rejeitam a obsolescência digital."
-    ],
-    "content_paragraphs": [
-      "O tempo não se mede em segundos frios. Ele pulsa através do silêncio mecânico da Vallée de Joux. Na bancada de montagem, o mestre relojoeiro segura o buril de aço. Cada anglage exige paciência milimétrica com sabugueiro silvestre.",
-      "A caixa integrada de aço e ouro equilibra geometria angulosa e escovação acetinada vertical. O calibre de manufatura abriga as três pontes icônicas suspensas no vazio. Tolerâncias mecânicas operam abaixo de 53 micrômetros de desvio absoluto.",
-      "Lançado originalmente em 1975, o Laureato antecipou a era dos relógios esportivos de luxo com braceletes integrados. Hoje, esta nova edição permanente eleva o design a um patamar de soberania estética incontestável.",
-      "Nenhum algoritmo substitui o esmalte Grand Feu fundido a 820°C no mostrador. O resultado é um refúgio de liquidez e permanência mecânica para colecionadores que rejeitam a obsolescência digital."
-    ],
-    "specs": {
-      "calibre": "Movimento mecânico de corda automática com Três Pontes de Ouro",
-      "material": "Aço inoxidável e detalhes em ouro amarelo 18k",
-      "ateliê": "Manufatura Girard-Perregaux, La Chaux-de-Fonds, Suíça",
-      "acabamento": "Anglage manual, biselamento e polimento espelhado",
-      "coleção": "Linha permanente Laureato Fifty"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 88,
-    "ranking_score": 88,
-    "publishedAt": "2026-10-30T02:35:37.511Z",
-    "published_at": "2026-10-30T02:35:37.511Z",
-    "sourceUrl": "https://monochrome-watches.com/2026-girard-perragaux-laureato-fifty-three-gold-bridges-permanent-collection-review-price/",
-    "source_url": "https://monochrome-watches.com/2026-girard-perragaux-laureato-fifty-three-gold-bridges-permanent-collection-review-price/"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "DESTINOS",
+    "title": "Superiate Feadship de US$ 39 Milhões: ...",
+    "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
+    "tag": "CURADORIA RADAR",
+    "slug": "superiate-feadship-de-us-39-milhoes-o-arresto-judicial-na-costa-amalfitana-por-uma-falha-de-us-35000-em-salarios-6049"
+  },
+  {
+    "id": "film-2",
     "category": "SUPERCARROS",
     "title": "Ferrari 296 Challenge Stradale: O V6 B...",
     "image": "https://images.unsplash.com/photo-1766353134008-bb3b8b99ddd2?auto=format&fit=crop&q=80&w=1400",
@@ -1420,7 +1430,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-296-challenge-stradale-o-v6-biturbo-de-830-cv-com-forca-g-extrema-nascido-nas-pistas-de-fiorano-8497"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Bugatti EB110 Widebody: O Primeiro Exe...",
     "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=max&q=85&w=1800",
@@ -1428,7 +1438,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "bugatti-eb110-widebody-o-primeiro-exemplar-modificado-do-planeta-que-aterrisou-no-concours-de-las-vegas-desafiando-a-ortodoxia-de-campogalliani-7868"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "DESTINOS",
     "title": "Superiate Oceânico de 300 Milhões de D...",
     "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
@@ -1436,7 +1446,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "superiate-oceanico-de-300-milhoes-de-dolares-o-leviata-de-aluminio-e-aco-inoxidavel-que-dominou-as-aguas-de-cairns-com-precisao-militar-0726"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "DESTINOS",
     "title": "Lady Marina: A Navalha de Aço de 64 Me...",
     "image": "https://images.unsplash.com/photo-1621277224630-81d9af65e40c?auto=format&fit=crop&q=80&w=1400",
@@ -1444,20 +1454,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "lady-marina-a-navalha-de-aco-de-64-metros-que-redefiniu-a-fisica-de-deslocamento-na-baia-de-cannes-4035"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "RELOGIOS",
     "title": "O&HoraPictor Smoked Ocean Volcano Grey...",
     "image": "https://monochrome-watches.com/app/uploads/2026/10/HoraPictor-Smoked-Ocean-Volcano-Grey-Enamel-Dial-Accessible-10.jpg",
     "tag": "CURADORIA RADAR",
     "slug": "ohorapictor-smoked-ocean-volcano-grey-40-milimetros-de-esmalte-grand-feu-a-820c-com-calibre-suico-sellita-sw200-1162"
-  },
-  {
-    "id": "film-6",
-    "category": "RELOGIOS",
-    "title": "Laurent Ferrier Grand Sport Tourbillon...",
-    "image": "https://monochrome-watches.com/app/uploads/2026/10/Laurent-Ferrier-Grand-Sport-Tourbillon-Iceberg-Titanium-review-8.jpg",
-    "tag": "CURADORIA RADAR",
-    "slug": "laurent-ferrier-grand-sport-tourbillon-iceberg-o-cronometro-de-titanio-grao-selado-de-44mm-com-tourbillon-de-duplo-balanco-inverso-7884"
   }
 ];
 

@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-ferrari-250-gto-18-000-000-usd-e-6804",
+    "slug": "ferrari-250-gto-18-000-000-usd-e-chassi-de-forjamento-de-titanio-em-las-vegas-6794",
+    "title": "Ferrari 250 GTO: 18 000 000 USD e Chassi de Forjamento de Titânio em Las Vegas",
+    "image": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV0JRWks0c1JDN0lYX3QtT0luS2hJMHBoU05BM1hyOVBvOWRZSmRmWk9sUTNkY3V2dU1yWkM1WFJwdlREX0RfLWZkcGMyQW9TRGZ2UUN2OVNvRlZCMy11U2FZTjYzMm1BcHlUald2eFpoT1VfRDZEWEZ3NXJjLXRuY2pDc3JULUE?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-04T15:10:46.804Z"
+  },
+  {
     "id": "art-christies-abu-dhabi-us-894-milho-0402",
     "slug": "christies-abu-dhabi-us-894-milhoes-em-obras-raras-e-a-nova-soberania-patrimonial-do-oriente-medio-0301",
     "title": "Christie's Abu Dhabi: US$ 8,94 Milhões em Obras Raras e a Nova Soberania Patrimonial do Oriente Médio",
