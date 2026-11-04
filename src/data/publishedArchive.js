@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-superiate-lurssen-de-200-milhoes-7137",
+    "slug": "superiate-lurssen-de-200-milhoes-de-dolares-o-leviata-com-piscina-de-fundo-de-vidro-que-ancorou-na-costa-iberica-7128",
+    "title": "Superiate Lürssen de 200 Milhões de Dólares: O Leviatã com Piscina de Fundo de Vidro que Ancorou na Costa Ibérica",
+    "image": "https://images.unsplash.com/photo-1783344422200-a5493824bcb9?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeVczRkVBV1hQS3JyS0p3dWR5NmNMa1JFTnhodW50NVZVOFZCajkxOGFodzVKQ24yUXV3SWNEV1RFVl8teWdnZ294amUybHIxV3JNME9YeDUydzBISTNjWTZQSXNYUmxwTmtxSzRUR25BMFVKeUVJS1daSWtGUkpydEpJeFE0bk11SFpj?oc=5",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-04T22:05:57.137Z"
+  },
+  {
     "id": "art-gigantes-sob-encomenda-os-6-supe-7863",
     "slug": "gigantes-sob-encomenda-os-6-superiates-de-120-metros-em-construcao-que-mobilizam-18-bilhao-de-euros-em-silencio-mineral-7855",
     "title": "Gigantes Sob Encomenda: Os 6 Superiates de 120 Metros em Construção que Mobilizam 1,8 Bilhão de Euros em Silêncio Mineral",

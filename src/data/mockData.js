@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-superiate-lurssen-de-200-milhoes-7137",
+    "slug": "superiate-lurssen-de-200-milhoes-de-dolares-o-leviata-com-piscina-de-fundo-de-vidro-que-ancorou-na-costa-iberica-7128",
+    "title": "Superiate Lürssen de 200 Milhões de Dólares: O Leviatã com Piscina de Fundo de Vidro que Ancorou na Costa Ibérica",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "04 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1783344422200-a5493824bcb9?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Em águas profundas do Mediterrâneo, uma catedral flutuante de duzentos milhões de dólares redefine a arquitetura naval com engenharia estrutural extrema e calado imponente.",
+    "contentParagraphs": [
+      "A estrutura colossal corta as ondas com precisão cirúrgica. Doiscentos milhões de dólares de metal nobre repousam sobre o mar mediterrâneo. O casco em aço balístico absorve a pressão de mar aberto sem vibração residual. A arquitetura naval contemporânea atinge aqui seu ápice cinético.",
+      "No deck principal, o projeto desafia a física estrutural. Uma piscina com fundo de vidro laminado de alta resistência suspende dezenas de toneladas de água salgada purificada sobre a praça de popa. Os engenheiros calcularam tolerâncias de mícrons para suportar a torção mecânica imposta pelas vagas de través, enquanto geradores silenciosos mantêm o microclima interno sob absoluto isolamento acústico.",
+      "O sistema de propulsão diesel-elétrico entrega velocidade de cruzeiro com silêncio operacional impressionante. Não há ruído de exaustão perceptível nas áreas nobres. Os estabilizadores giroscópicos de zero-speed neutralizam qualquer rolagem lateral, permitindo que a estadia a bordo ocorra com a mesma estabilidade de uma residência construída sobre a rocha sólida.",
+      "A embarcação consolida um novo patamar para os estaleiros do norte europeu. Mais do que um meio de transporte transoceânico, trata-se de uma fortaleza flutuante que prioriza a soberania absoluta do proprietário em alto-mar, longe de qualquer interferência terrestre."
+    ],
+    "content_paragraphs": [
+      "A estrutura colossal corta as ondas com precisão cirúrgica. Doiscentos milhões de dólares de metal nobre repousam sobre o mar mediterrâneo. O casco em aço balístico absorve a pressão de mar aberto sem vibração residual. A arquitetura naval contemporânea atinge aqui seu ápice cinético.",
+      "No deck principal, o projeto desafia a física estrutural. Uma piscina com fundo de vidro laminado de alta resistência suspende dezenas de toneladas de água salgada purificada sobre a praça de popa. Os engenheiros calcularam tolerâncias de mícrons para suportar a torção mecânica imposta pelas vagas de través, enquanto geradores silenciosos mantêm o microclima interno sob absoluto isolamento acústico.",
+      "O sistema de propulsão diesel-elétrico entrega velocidade de cruzeiro com silêncio operacional impressionante. Não há ruído de exaustão perceptível nas áreas nobres. Os estabilizadores giroscópicos de zero-speed neutralizam qualquer rolagem lateral, permitindo que a estadia a bordo ocorra com a mesma estabilidade de uma residência construída sobre a rocha sólida.",
+      "A embarcação consolida um novo patamar para os estaleiros do norte europeu. Mais do que um meio de transporte transoceânico, trata-se de uma fortaleza flutuante que prioriza a soberania absoluta do proprietário em alto-mar, longe de qualquer interferência terrestre."
+    ],
+    "specs": {
+      "Valor Patrimonial": "US$ 200 milhões",
+      "Estaleiro Construtor": "Lürssen Yachts",
+      "Propulsão": "Diesel-elétrica de alta eficiência",
+      "Estabilização": "Giroscópica Zero-Speed",
+      "Destaque Estrutural": "Piscina em vidro laminado estrutural na popa"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 87,
+    "ranking_score": 87,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-04T22:05:57.137Z",
+    "published_at": "2026-11-04T22:05:57.137Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeVczRkVBV1hQS3JyS0p3dWR5NmNMa1JFTnhodW50NVZVOFZCajkxOGFodzVKQ24yUXV3SWNEV1RFVl8teWdnZ294amUybHIxV3JNME9YeDUydzBISTNjWTZQSXNYUmxwTmtxSzRUR25BMFVKeUVJS1daSWtGUkpydEpJeFE0bk11SFpj?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeVczRkVBV1hQS3JyS0p3dWR5NmNMa1JFTnhodW50NVZVOFZCajkxOGFodzVKQ24yUXV3SWNEV1RFVl8teWdnZ294amUybHIxV3JNME9YeDUydzBISTNjWTZQSXNYUmxwTmtxSzRUR25BMFVKeUVJS1daSWtGUkpydEpJeFE0bk11SFpj?oc=5"
+  },
+  {
     "id": "art-gigantes-sob-encomenda-os-6-supe-7863",
     "slug": "gigantes-sob-encomenda-os-6-superiates-de-120-metros-em-construcao-que-mobilizam-18-bilhao-de-euros-em-silencio-mineral-7855",
     "title": "Gigantes Sob Encomenda: Os 6 Superiates de 120 Metros em Construção que Mobilizam 1,8 Bilhão de Euros em Silêncio Mineral",
@@ -1360,57 +1412,6 @@ export const ARTICLES = [
     "published_at": "2026-10-31T15:15:24.037Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBSUUNDSTRCclJVQUJISUM2WDNON2k1cFRGd09OeUdsQVpwZVVkVHNJOVJGcjhad3dNeUZ4SE80a3FIajZZallHTTliQUREUXNyYXgzV2lGbEp3bjRxakpPMkxJX094b0hiajctLWRR?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBSUUNDSTRCclJVQUJISUM2WDNON2k1cFRGd09OeUdsQVpwZVVkVHNJOVJGcjhad3dNeUZ4SE80a3FIajZZallHTTliQUREUXNyYXgzV2lGbEp3bjRxakpPMkxJX094b0hiajctLWRR?oc=5"
-  },
-  {
-    "id": "art-ohorapictor-smoked-ocean-volcano-1180",
-    "slug": "ohorapictor-smoked-ocean-volcano-grey-40-milimetros-de-esmalte-grand-feu-a-820c-com-calibre-suico-sellita-sw200-1162",
-    "title": "O&HoraPictor Smoked Ocean Volcano Grey: 40 Milímetros de Esmalte Grand Feu a 820°C com Calibre Suíço Sellita SW200",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "category_slug": "relogios",
-    "authorSlug": "clara-meirelles",
-    "author_slug": "clara-meirelles",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "31 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://monochrome-watches.com/app/uploads/2026/10/HoraPictor-Smoked-Ocean-Volcano-Grey-Enamel-Dial-Accessible-10.jpg",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A alta relojoaria independente desafia a inflação de preços com mostradores esmaltados à mão e texturas vulcânicas de precisão nanométrica.",
-    "contentParagraphs": [
-      "A luz natural incide sobre o mostrador. O cinza vulcânico revela profundidades minerais brutais. A superfície é vitrificada em fornos industriais a oitocentos e vinte graus Celsius. Cada mostrador exige horas de queima milimétrica e controle térmico absoluto. Não há espaço para o acaso.",
-      "Sob a tampa de safira bate um confiável calibre de manufatura Sellita SW200. A frequência de vinte e oito mil oitocentos alternâncias por hora garante estabilidade mecânica implacável. A caixa em aço inoxidável polido à mão absorve reflexos indesejados. O diâmetro de quarenta milímetros acomoda-se com rigidez cirúrgica no pulso.",
-      "O mercado de colecionadores cobiça a escassez matemática e a pureza artesanal. Marcas centenárias exigem fortunas por técnicas semelhantes de esmaltação. A O&HoraPictor descentraliza essa soberania estética e entrega precisão suíça pura. O luxo contemporâneo abdica do supérfluo para honrar o trabalho manual.",
-      "O tempo não pertence a quem o gasta, mas a quem o mede com rigor. O Smoked Ocean Volcano Grey consolida a independência criativa contra a padrismo corporativo. Restam poucos exemplares desta tiragem nos cofres da manufatura. A posse desta obra sela um pacto definitivo com a alta relojoaria."
-    ],
-    "content_paragraphs": [
-      "A luz natural incide sobre o mostrador. O cinza vulcânico revela profundidades minerais brutais. A superfície é vitrificada em fornos industriais a oitocentos e vinte graus Celsius. Cada mostrador exige horas de queima milimétrica e controle térmico absoluto. Não há espaço para o acaso.",
-      "Sob a tampa de safira bate um confiável calibre de manufatura Sellita SW200. A frequência de vinte e oito mil oitocentos alternâncias por hora garante estabilidade mecânica implacável. A caixa em aço inoxidável polido à mão absorve reflexos indesejados. O diâmetro de quarenta milímetros acomoda-se com rigidez cirúrgica no pulso.",
-      "O mercado de colecionadores cobiça a escassez matemática e a pureza artesanal. Marcas centenárias exigem fortunas por técnicas semelhantes de esmaltação. A O&HoraPictor descentraliza essa soberania estética e entrega precisão suíça pura. O luxo contemporâneo abdica do supérfluo para honrar o trabalho manual.",
-      "O tempo não pertence a quem o gasta, mas a quem o mede com rigor. O Smoked Ocean Volcano Grey consolida a independência criativa contra a padrismo corporativo. Restam poucos exemplares desta tiragem nos cofres da manufatura. A posse desta obra sela um pacto definitivo com a alta relojoaria."
-    ],
-    "specs": {
-      "Calibre": "Sellita SW200 automático com 38h de reserva de marcha",
-      "Mostrador": "Esmalte Grand Feu com textura Volcano Grey",
-      "Caixa": "Aço inoxidável 316L com 40mm de diâmetro",
-      "Vidro": "Safira cristal abaulada com tratamento antirreflexo interno",
-      "Tiragem": "Edição limitada numérica por lote de ateliê"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 86,
-    "ranking_score": 86,
-    "publishedAt": "2026-10-31T02:28:21.180Z",
-    "published_at": "2026-10-31T02:28:21.180Z",
-    "sourceUrl": "https://monochrome-watches.com/hands-on-review-o-horapictor-smoked-ocean-volcano-grey-enamel-dial-sellita-sw200-specs-price-live-pics/",
-    "source_url": "https://monochrome-watches.com/hands-on-review-o-horapictor-smoked-ocean-volcano-grey-enamel-dial-sellita-sw200-specs-price-live-pics/"
   }
 ];
 
@@ -1418,13 +1419,21 @@ export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
     "category": "SUPERCARROS",
+    "title": "Bugatti Veyron Grand Sport e Ferrari E...",
+    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "bugatti-veyron-grand-sport-e-ferrari-enzo-os-24-milhoes-de-dolares-que-custaram-a-imunidade-mecanica-de-floyd-mayweather-6632"
+  },
+  {
+    "id": "film-2",
+    "category": "SUPERCARROS",
     "title": "Ferrari Montegrappa: O Instrumento de ...",
     "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "ferrari-montegrappa-o-instrumento-de-escrita-de-us-4300-forjado-com-titanio-aeroespacial-e-tolerancia-de-microns-4679"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "RELOGIOS",
     "title": "Louis Erard x Vianney Halter Futur Ant...",
     "image": "https://monochrome-watches.com/app/uploads/2026/10/louis-erard-x-vianney-halter-futur-anterieur-antiqua-inspired-collab-review-1.jpg",
@@ -1432,7 +1441,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "louis-erard-x-vianney-halter-futur-anterieur-a-obra-prima-de-99-exemplares-com-caixas-soldadas-a-mao-e-mostradores-graficos-estilo-antiqua-2287"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "DESTINOS",
     "title": "Superiate Feadship de US$ 39 Milhões: ...",
     "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
@@ -1440,7 +1449,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "superiate-feadship-de-us-39-milhoes-o-arresto-judicial-na-costa-amalfitana-por-uma-falha-de-us-35000-em-salarios-6049"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Ferrari 296 Challenge Stradale: O V6 B...",
     "image": "https://images.unsplash.com/photo-1766353134008-bb3b8b99ddd2?auto=format&fit=crop&q=80&w=1400",
@@ -1448,20 +1457,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-296-challenge-stradale-o-v6-biturbo-de-830-cv-com-forca-g-extrema-nascido-nas-pistas-de-fiorano-8497"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Bugatti EB110 Widebody: O Primeiro Exe...",
     "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=max&q=85&w=1800",
     "tag": "CURADORIA RADAR",
     "slug": "bugatti-eb110-widebody-o-primeiro-exemplar-modificado-do-planeta-que-aterrisou-no-concours-de-las-vegas-desafiando-a-ortodoxia-de-campogalliani-7868"
-  },
-  {
-    "id": "film-6",
-    "category": "DESTINOS",
-    "title": "Superiate Oceânico de 300 Milhões de D...",
-    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "superiate-oceanico-de-300-milhoes-de-dolares-o-leviata-de-aluminio-e-aco-inoxidavel-que-dominou-as-aguas-de-cairns-com-precisao-militar-0726"
   }
 ];
 
