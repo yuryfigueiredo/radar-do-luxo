@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-superiates-o-retorno-silencioso--3010",
+    "slug": "superiates-o-retorno-silencioso-a-nautica-analogica-de-casco-de-aco-e-controle-mecanico-direto-3002",
+    "title": "Superiates: O Retorno Silencioso à Náutica Analógica de Casco de Aço e Controle Mecânico Direto",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "04 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A soberania patrimonial rejeita a fragilidade das interfaces digitais. Estaleiros centenários na Europa resgatam comandos puramente hidráulicos e instrumentação analógica para garantir imunidade temporal absoluta em alto-mar.",
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nas águas profundas de Mônaco e Porto Cervo, a maré da ostentação digital cedeu lugar a uma exigência implacável: cascos que não dependam de servidores em nuvem para navegar. Armadores de alta estirpe cancelaram o refúgio das telas touch screen de vidro integrado. Navegar tornou-se um ato de resistência física contra a obsolescência planejada dos estaleiros industriais de massa.",
+      "A engenharia naval de custódia fiduciária opera agora sob uma nova diretriz tectônica. Os propulsores MTU V16 de mais de 4.000 cavalos de potência voltam a ser governados por cabos de aço tencionados e pistões hidráulicos maciços de latão polido. Cada comando de leme transmite o peso exato da água salgada diretamente para as mãos do capitão. Não há latência de software. Não há falhas de código. Apenas a física pura dos metais nobres resistindo à oxidação oceânica por décadas consecutivas.",
+      "Comprar um superiate em regime de refúgio de liquidez exige a compreensão de que o valor residual reside na incorruptibilidade mecânica. Enquanto embarcações comerciais baratas acumulam toneladas de eletrônicos descartáveis que sucumbem à maresia em poucos anos, estas catedrais flutuantes são construídas com aço naval de alta resistência e tecidos de isolamento acústico em cortiça natural. A governança dinástica exige que a herança familiar flutue incólume por gerações, sem depender de atualizações de sistema operacional.",
+      "O veredito do Radar do Luxo é definitivo. O verdadeiro luxo náutico contemporâneo abole o excesso de pixels em favor de mostradores de ponteiros em aço escovado e painéis de madeira nobre de lei tratada à mão. A soberania em alto-mar pertence àqueles que compreendem que o controle analógico é a única blindagem real contra a efemeridade do mundo moderno. O mar não perdoa falhas lógicas; ele apenas respeita a autoridade da mecânica soberana."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nas águas profundas de Mônaco e Porto Cervo, a maré da ostentação digital cedeu lugar a uma exigência implacável: cascos que não dependam de servidores em nuvem para navegar. Armadores de alta estirpe cancelaram o refúgio das telas touch screen de vidro integrado. Navegar tornou-se um ato de resistência física contra a obsolescência planejada dos estaleiros industriais de massa.",
+      "A engenharia naval de custódia fiduciária opera agora sob uma nova diretriz tectônica. Os propulsores MTU V16 de mais de 4.000 cavalos de potência voltam a ser governados por cabos de aço tencionados e pistões hidráulicos maciços de latão polido. Cada comando de leme transmite o peso exato da água salgada diretamente para as mãos do capitão. Não há latência de software. Não há falhas de código. Apenas a física pura dos metais nobres resistindo à oxidação oceânica por décadas consecutivas.",
+      "Comprar um superiate em regime de refúgio de liquidez exige a compreensão de que o valor residual reside na incorruptibilidade mecânica. Enquanto embarcações comerciais baratas acumulam toneladas de eletrônicos descartáveis que sucumbem à maresia em poucos anos, estas catedrais flutuantes são construídas com aço naval de alta resistência e tecidos de isolamento acústico em cortiça natural. A governança dinástica exige que a herança familiar flutue incólume por gerações, sem depender de atualizações de sistema operacional.",
+      "O veredito do Radar do Luxo é definitivo. O verdadeiro luxo náutico contemporâneo abole o excesso de pixels em favor de mostradores de ponteiros em aço escovado e painéis de madeira nobre de lei tratada à mão. A soberania em alto-mar pertence àqueles que compreendem que o controle analógico é a única blindagem real contra a efemeridade do mundo moderno. O mar não perdoa falhas lógicas; ele apenas respeita a autoridade da mecânica soberana."
+    ],
+    "specs": {
+      "Casco": "Aço naval de alta resistência de 12 mm",
+      "Propulsão": "Duplos motores MTU V16 analógicos",
+      "Transmissão": "Comando hidráulico direto sem atuadores eletrônicos",
+      "Autonomia": "5.500 milhas náuticas a 12 nós de cruzeiro",
+      "Avaliação Patrimonial": "Acima de 120 milhões de euros em moeda forte"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-04T01:17:53.010Z",
+    "published_at": "2026-11-04T01:17:53.010Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQamxydm04N3pRQW5BMFJienRWeEM5c1hsaGZ6cXdjcVprSHQ0ekxUbldHRDlHX2U4NTdNTEtTZXhiVkZGY1pjRWhFZmk5dGFCR0hfYmRPYzI0QkFBcUttQVB4N1RlMmQzT2NhVElJT29MVi13WjJRWWdSQlZQQjNBM19zMUJmZDIySzBSNGtPX0pLOXFKeFMw?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQamxydm04N3pRQW5BMFJienRWeEM5c1hsaGZ6cXdjcVprSHQ0ekxUbldHRDlHX2U4NTdNTEtTZXhiVkZGY1pjRWhFZmk5dGFCR0hfYmRPYzI0QkFBcUttQVB4N1RlMmQzT2NhVElJT29MVi13WjJRWWdSQlZQQjNBM19zMUJmZDIySzBSNGtPX0pLOXFKeFMw?oc=5"
+  },
+  {
     "id": "art-gabe-newell-a-fortuna-de-5-bilho-5818",
     "slug": "gabe-newell-a-fortuna-de-5-bilhoes-de-dolares-ancorada-em-120-metros-de-aco-naval-e-inovacao-digital-5675",
     "title": "Gabe Newell: A Fortuna de 5 Bilhões de Dólares ancorada em 120 Metros de Aço Naval e Inovação Digital",
@@ -1354,64 +1406,20 @@ export const ARTICLES = [
     "published_at": "2026-10-29T23:12:34.477Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcC1IUzZTcjNZZmRVa2dUQTU0cU50cmtuQXRSMVFIa3Q4bllJQ2FWOFJCZDhCZmxWeVIxUVZRaVVXelcyOXpoS3NIdzZtU05kVl9UN2NuVU1RaHJfNXI5ak9QWkc0OUtjOEd0RjdlVHdoS3I0QU5HRnFZZlgycFAzREdSa3RERURzMkRCR2toVnNiTEVtRHp4c3lMbUhIc2ZJam1ObG02djR5ODlabUh0MjNLRGNFQTlBX0VFZU5STWZfMEFXNXdv?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcC1IUzZTcjNZZmRVa2dUQTU0cU50cmtuQXRSMVFIa3Q4bllJQ2FWOFJCZDhCZmxWeVIxUVZRaVVXelcyOXpoS3NIdzZtU05kVl9UN2NuVU1RaHJfNXI5ak9QWkc0OUtjOEd0RjdlVHdoS3I0QU5HRnFZZlgycFAzREdSa3RERURzMkRCR2toVnNiTEVtRHp4c3lMbUhIc2ZJam1ObG02djR5ODlabUh0MjNLRGNFQTlBX0VFZU5STWZfMEFXNXdv?oc=5"
-  },
-  {
-    "id": "art-alfa-romeo-tipo-33-stradale-o-mo-1456",
-    "slug": "alfa-romeo-tipo-33-stradale-o-monstro-v8-central-de-20-litros-forjado-em-aluminio-espacial-que-compartilha-a-alma-secreta-com-maranello-1443",
-    "title": "Alfa Romeo Tipo 33 Stradale: O Monstro V8 Central de 2.0 Litros Forjado em Alumínio Espacial que Compartilha a Alma Secreta com Maranello",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "29 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=max&q=85&w=1800",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "Em um ecossistema dominado por telas táteis, o Alfa Romeo Tipo 33 Stradale permanece como o ápice inalcançável da combustão pura, unindo a engenharia de pista à brutalidade visceral de um chassi tubular em alumínio.",
-    "contentParagraphs": [
-      "O silêncio do asfalto cede lugar ao corte seco de um V8 aspirado a 8.800 RPM. A 18 milímetros do solo, a estrutura tubular em aço e alumínio pulsa. Este não é um mero automóvel de exposição. É a transposição direta da mecânica de competição para as ruas, concebida sob rigorosas tolerâncias de mícrons que desafiam a física mecânica da época.",
-      "Sob o capô traseiro em fibra de vidro e alumínio martelado à mão, respira um motor V8 de 2.0 litros derivado diretamente do programa de competição da marca. Os pistões forjados trabalham sob alta compressão. O fluxo de Venturi esculpido no assoalho gera downforce sem apelar para aerodinâmica ativa. O sistema de escape em aço inoxidável dissipa o calor enquanto ecoa uma sinfonia metálica estridente.",
-      "Apenas dezoito chassis completos deixaram o ateliê de Autodelta. Cada unidade exige inspeção estrutural minuciosa para preservar a integridade do monocoque original. Colecionadores globais disputam estas relíquias em leilões fechados, onde a liquidez é irrelevante diante da raridade matemática do exemplar.",
-      "Nenhum algoritmo substitui a conexão mecânica direta de uma caixa manual de seis marchas acoplada a um motor sem filtros eletrônicos. Gabriel Fontes assina este veredito: a pureza cinética do Tipo 33 Stradale jamais será replicada na era digital."
-    ],
-    "content_paragraphs": [
-      "O silêncio do asfalto cede lugar ao corte seco de um V8 aspirado a 8.800 RPM. A 18 milímetros do solo, a estrutura tubular em aço e alumínio pulsa. Este não é um mero automóvel de exposição. É a transposição direta da mecânica de competição para as ruas, concebida sob rigorosas tolerâncias de mícrons que desafiam a física mecânica da época.",
-      "Sob o capô traseiro em fibra de vidro e alumínio martelado à mão, respira um motor V8 de 2.0 litros derivado diretamente do programa de competição da marca. Os pistões forjados trabalham sob alta compressão. O fluxo de Venturi esculpido no assoalho gera downforce sem apelar para aerodinâmica ativa. O sistema de escape em aço inoxidável dissipa o calor enquanto ecoa uma sinfonia metálica estridente.",
-      "Apenas dezoito chassis completos deixaram o ateliê de Autodelta. Cada unidade exige inspeção estrutural minuciosa para preservar a integridade do monocoque original. Colecionadores globais disputam estas relíquias em leilões fechados, onde a liquidez é irrelevante diante da raridade matemática do exemplar.",
-      "Nenhum algoritmo substitui a conexão mecânica direta de uma caixa manual de seis marchas acoplada a um motor sem filtros eletrônicos. Gabriel Fontes assina este veredito: a pureza cinética do Tipo 33 Stradale jamais será replicada na era digital."
-    ],
-    "specs": {
-      "motor": "V8 2.0L Aspirado Natural",
-      "potencia": "230 cv a 8.800 RPM",
-      "chassi": "Tubular em aço com estrutura de alumínio e magnésio",
-      "producao": "18 unidades homologadas",
-      "transmissao": "Manual sincronizada Valverde de 6 marchas",
-      "peso": "700 kg"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 92,
-    "ranking_score": 92,
-    "publishedAt": "2026-10-29T22:45:11.456Z",
-    "published_at": "2026-10-29T22:45:11.456Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPel9oaVZtdjk1NkpzanljMkhrRFZPVWVWUktZZWNYam15V0tlZU1RZ2dVanppUEZ6Z3J1X3dTNWt2WmtlZUdLeV8tWkhVU0I1RzJlYTNGdk5GRHgzenRGWFpWQlhNVGhKRDMwMXYzcFcyODFxenQza2ZpcGZfM1RPZzd4d2t2R2lDMVpuVDZDaWc5RmNZYkFJ?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPel9oaVZtdjk1NkpzanljMkhrRFZPVWVWUktZZWNYam15V0tlZU1RZ2dVanppUEZ6Z3J1X3dTNWt2WmtlZUdLeV8tWkhVU0I1RzJlYTNGdk5GRHgzenRGWFpWQlhNVGhKRDMwMXYzcFcyODFxenQza2ZpcGZfM1RPZzd4d2t2R2lDMVpuVDZDaWc5RmNZYkFJ?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "SUPERCARROS",
+    "title": "Bugatti EB110 Widebody: O Primeiro Exe...",
+    "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=max&q=85&w=1800",
+    "tag": "CURADORIA RADAR",
+    "slug": "bugatti-eb110-widebody-o-primeiro-exemplar-modificado-do-planeta-que-aterrisou-no-concours-de-las-vegas-desafiando-a-ortodoxia-de-campogalliani-7868"
+  },
+  {
+    "id": "film-2",
     "category": "DESTINOS",
     "title": "Superiate Oceânico de 300 Milhões de D...",
     "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
@@ -1419,7 +1427,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "superiate-oceanico-de-300-milhoes-de-dolares-o-leviata-de-aluminio-e-aco-inoxidavel-que-dominou-as-aguas-de-cairns-com-precisao-militar-0726"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "DESTINOS",
     "title": "Lady Marina: A Navalha de Aço de 64 Me...",
     "image": "https://images.unsplash.com/photo-1621277224630-81d9af65e40c?auto=format&fit=crop&q=80&w=1400",
@@ -1427,7 +1435,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "lady-marina-a-navalha-de-aco-de-64-metros-que-redefiniu-a-fisica-de-deslocamento-na-baia-de-cannes-4035"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "RELOGIOS",
     "title": "O&HoraPictor Smoked Ocean Volcano Grey...",
     "image": "https://monochrome-watches.com/app/uploads/2026/10/HoraPictor-Smoked-Ocean-Volcano-Grey-Enamel-Dial-Accessible-10.jpg",
@@ -1435,7 +1443,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ohorapictor-smoked-ocean-volcano-grey-40-milimetros-de-esmalte-grand-feu-a-820c-com-calibre-suico-sellita-sw200-1162"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "RELOGIOS",
     "title": "Laurent Ferrier Grand Sport Tourbillon...",
     "image": "https://monochrome-watches.com/app/uploads/2026/10/Laurent-Ferrier-Grand-Sport-Tourbillon-Iceberg-Titanium-review-8.jpg",
@@ -1443,20 +1451,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "laurent-ferrier-grand-sport-tourbillon-iceberg-o-cronometro-de-titanio-grao-selado-de-44mm-com-tourbillon-de-duplo-balanco-inverso-7884"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "ARQUITETURA",
     "title": "Houston Mansion: A Soberana Propriedad...",
     "image": "https://robbreport.com/wp-content/uploads/2026/10/2115-River-Oaks-Boulevard_Pavilion.jpg",
     "tag": "CURADORIA RADAR",
     "slug": "houston-mansion-a-soberana-propriedade-neoclassica-de-219-milhoes-que-abrigou-o-barao-enrico-di-portanova-e-sua-piscina-de-vidro-monumental-8338"
-  },
-  {
-    "id": "film-6",
-    "category": "RELOGIOS",
-    "title": "Girard-Perregaux Laureato Fifty Three ...",
-    "image": "https://monochrome-watches.com/app/uploads/2026/10/Girard-Perragaux-Laureato-Fifty-Three-Gold-Bridges-permanent-collection-review-1.jpg",
-    "tag": "CURADORIA RADAR",
-    "slug": "girard-perregaux-laureato-fifty-three-gold-bridges-a-trilogia-de-pontes-em-ouro-macico-forjada-na-vallee-de-joux-com-53-micrometros-de-tolerancia-7498"
   }
 ];
 

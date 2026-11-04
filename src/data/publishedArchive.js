@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-superiates-o-retorno-silencioso--3010",
+    "slug": "superiates-o-retorno-silencioso-a-nautica-analogica-de-casco-de-aco-e-controle-mecanico-direto-3002",
+    "title": "Superiates: O Retorno Silencioso à Náutica Analógica de Casco de Aço e Controle Mecânico Direto",
+    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQamxydm04N3pRQW5BMFJienRWeEM5c1hsaGZ6cXdjcVprSHQ0ekxUbldHRDlHX2U4NTdNTEtTZXhiVkZGY1pjRWhFZmk5dGFCR0hfYmRPYzI0QkFBcUttQVB4N1RlMmQzT2NhVElJT29MVi13WjJRWWdSQlZQQjNBM19zMUJmZDIySzBSNGtPX0pLOXFKeFMw?oc=5",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "publishedAt": "2026-11-04T01:17:53.010Z"
+  },
+  {
     "id": "art-gabe-newell-a-fortuna-de-5-bilho-5818",
     "slug": "gabe-newell-a-fortuna-de-5-bilhoes-de-dolares-ancorada-em-120-metros-de-aco-naval-e-inovacao-digital-5675",
     "title": "Gabe Newell: A Fortuna de 5 Bilhões de Dólares ancorada em 120 Metros de Aço Naval e Inovação Digital",
