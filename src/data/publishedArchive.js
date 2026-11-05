@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-ferrari-f50-o-recorde-de-us-187--7347",
+    "slug": "ferrari-f50-o-recorde-de-us-187-milhoes-para-o-ultimo-v12-analogico-com-chassi-de-formula-1-7232",
+    "title": "Ferrari F50: O Recorde de US$ 18,7 Milhões para o Último V12 Analógico com Chassi de Fórmula 1",
+    "image": "https://images.unsplash.com/photo-1635488591151-c7a12939669b?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGUk80eGZQcmRiM1gyNWdUR283Y0VTQy1JdGJuTHEyQTVZVlhlcmQzUkZjSm1ZbjdoM2RNNHp0LWRWakl6YXBoS3d3VU1wYUhpblppdl9DTVIySVpBUDRiS0p3MHdtVnJVRkt3UWdkdHE?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-05T17:10:57.346Z"
+  },
+  {
     "id": "art-bugatti-type-57sc-atlantic-os-r--1536",
     "slug": "bugatti-type-57sc-atlantic-os-r-68-milhoes-em-aluminio-rebitado-que-definiram-a-aerodinamica-de-pre-guerra-1407",
     "title": "Bugatti Type 57SC Atlantic: Os R$ 68 Milhões em Alumínio Rebitado que Definiram a Aerodinâmica de Pré-Guerra",

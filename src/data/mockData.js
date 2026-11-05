@@ -116,6 +116,59 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-ferrari-f50-o-recorde-de-us-187--7347",
+    "slug": "ferrari-f50-o-recorde-de-us-187-milhoes-para-o-ultimo-v12-analogico-com-chassi-de-formula-1-7232",
+    "title": "Ferrari F50: O Recorde de US$ 18,7 Milhões para o Último V12 Analógico com Chassi de Fórmula 1",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "05 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1635488591151-c7a12939669b?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "A venda histórica da F50 redefine a curva de valor dos hipercarros de Maranello, consolidando o motor derivado da F1 e a ausência de auxílios eletrônicos como o ápice da pureza mecânica.",
+    "contentParagraphs": [
+      "O mercado de colecionadores acaba de registrar uma anomalia de US$ 18,7 milhões. A Ferrari F50 não é apenas um automóvel de produção limitada; ela é a transposição direta de um monoposto de Maranello para o asfalto público. Enquanto o mundo se curva à digitalização, a F50 permanece como uma cápsula do tempo, um monocoque de fibra de carbono que vibra na mesma frequência que a espinha dorsal de seu condutor.",
+      "Sob a tampa traseira, o motor V12 de 4.7 litros opera com tolerâncias de mícrons em um bloco fundido para suportar 8.500 RPM. A ausência total de assistência de direção ou freios ABS exige telemetria inercial bruta do piloto. A força G lateral exercida em curvas de alta velocidade é sustentada pela rigidez estrutural do monocoque, curado em autoclave, que ancora o motor como um elemento autoportante, transmitindo cada pulsação térmica diretamente à cabine.",
+      "Esta transação não reflete meramente o valor de mercado, mas a escassez matemática de exemplares que não foram corrompidos por atuadores modernos. O escape em Inconel, o câmbio manual de seis marchas com grelha metálica e a aerodinâmica de efeito solo posicionam a F50 como o último bastião de uma era onde o erro humano era a única variável permitida no limite da física.",
+      "O veredito é incontestável. Investidores de elite abandonam a liquidez de modelos contemporâneos em favor da soberania mecânica desta Ferrari. A F50 transcende o status de ativo; ela é uma peça de engenharia que exige respeito, reverência e a mão firme de quem compreende a brutalidade de um motor de competição sem filtros, mantendo-se imune à obsolescência programada do mercado atual."
+    ],
+    "content_paragraphs": [
+      "O mercado de colecionadores acaba de registrar uma anomalia de US$ 18,7 milhões. A Ferrari F50 não é apenas um automóvel de produção limitada; ela é a transposição direta de um monoposto de Maranello para o asfalto público. Enquanto o mundo se curva à digitalização, a F50 permanece como uma cápsula do tempo, um monocoque de fibra de carbono que vibra na mesma frequência que a espinha dorsal de seu condutor.",
+      "Sob a tampa traseira, o motor V12 de 4.7 litros opera com tolerâncias de mícrons em um bloco fundido para suportar 8.500 RPM. A ausência total de assistência de direção ou freios ABS exige telemetria inercial bruta do piloto. A força G lateral exercida em curvas de alta velocidade é sustentada pela rigidez estrutural do monocoque, curado em autoclave, que ancora o motor como um elemento autoportante, transmitindo cada pulsação térmica diretamente à cabine.",
+      "Esta transação não reflete meramente o valor de mercado, mas a escassez matemática de exemplares que não foram corrompidos por atuadores modernos. O escape em Inconel, o câmbio manual de seis marchas com grelha metálica e a aerodinâmica de efeito solo posicionam a F50 como o último bastião de uma era onde o erro humano era a única variável permitida no limite da física.",
+      "O veredito é incontestável. Investidores de elite abandonam a liquidez de modelos contemporâneos em favor da soberania mecânica desta Ferrari. A F50 transcende o status de ativo; ela é uma peça de engenharia que exige respeito, reverência e a mão firme de quem compreende a brutalidade de um motor de competição sem filtros, mantendo-se imune à obsolescência programada do mercado atual."
+    ],
+    "specs": {
+      "motor": "V12 60° 4.7L aspirado",
+      "potencia": "520 cv a 8.500 RPM",
+      "chassi": "Monocoque em fibra de carbono (pre-preg)",
+      "transmissao": "Manual de 6 velocidades com grelha",
+      "peso_seco": "1.230 kg",
+      "producao": "349 unidades"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 92,
+    "ranking_score": 92,
+    "engineSource": "gemini:gemini-3.1-flash-lite",
+    "publishedAt": "2026-11-05T17:10:57.346Z",
+    "published_at": "2026-11-05T17:10:57.346Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGUk80eGZQcmRiM1gyNWdUR283Y0VTQy1JdGJuTHEyQTVZVlhlcmQzUkZjSm1ZbjdoM2RNNHp0LWRWakl6YXBoS3d3VU1wYUhpblppdl9DTVIySVpBUDRiS0p3MHdtVnJVRkt3UWdkdHE?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGUk80eGZQcmRiM1gyNWdUR283Y0VTQy1JdGJuTHEyQTVZVlhlcmQzUkZjSm1ZbjdoM2RNNHp0LWRWakl6YXBoS3d3VU1wYUhpblppdl9DTVIySVpBUDRiS0p3MHdtVnJVRkt3UWdkdHE?oc=5"
+  },
+  {
     "id": "art-bugatti-type-57sc-atlantic-os-r--1536",
     "slug": "bugatti-type-57sc-atlantic-os-r-68-milhoes-em-aluminio-rebitado-que-definiram-a-aerodinamica-de-pre-guerra-1407",
     "title": "Bugatti Type 57SC Atlantic: Os R$ 68 Milhões em Alumínio Rebitado que Definiram a Aerodinâmica de Pré-Guerra",
@@ -1362,57 +1415,6 @@ export const ARTICLES = [
     "published_at": "2026-10-31T19:08:47.885Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT0hHYU1OX0JNTlJGR19pMkFpbFZSMVhlS2huN1N4b1ZhVGR4WW9jVUZ5c1R4LU55U3dJSURjU1BKc1N4LXlOeTFLQXVubDV5QWRGXzhubzg2QUF2M3J6S3U5ZDdZNno2V200cGxyb0RHRHpKTTZ0V3RxREc4UFFtUmJlYno4MkxXcEFjVFh5SFZvckNYeFNHU3BTbnJXVGVSUW5URXlzdTZDZXRs?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT0hHYU1OX0JNTlJGR19pMkFpbFZSMVhlS2huN1N4b1ZhVGR4WW9jVUZ5c1R4LU55U3dJSURjU1BKc1N4LXlOeTFLQXVubDV5QWRGXzhubzg2QUF2M3J6S3U5ZDdZNno2V200cGxyb0RHRHpKTTZ0V3RxREc4UFFtUmJlYno4MkxXcEFjVFh5SFZvckNYeFNHU3BTbnJXVGVSUW5URXlzdTZDZXRs?oc=5"
-  },
-  {
-    "id": "art-superiate-oceanico-de-300-milhoe-0729",
-    "slug": "superiate-oceanico-de-300-milhoes-de-dolares-o-leviata-de-aluminio-e-aco-inoxidavel-que-dominou-as-aguas-de-cairns-com-precisao-militar-0726",
-    "title": "Superiate Oceânico de 300 Milhões de Dólares: O Leviatã de Alumínio e Aço Inoxidável que Dominou as Águas de Cairns com Precisão Militar",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "31 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A aparição do colosso naval de nove dígitos na costa australiana expõe a arquitetura flutuante definitiva, onde o design paramétrico encontra a propulsão diesel-elétrica de longo curso.",
-    "contentParagraphs": [
-      "As águas tropicais de Cairns testemunharam a chegada de um monstro cinético. Trêscentos milhões de dólares em engenharia naval pura ancorados na imensidão do Pacífico. O casco de deslocamento em aço naval suporta uma superestrutura em ligas de alumínio e titânio, projetada para absorver torções severas em mares revoltos sem emitir uma única vibração estrutural nos conveses privativos. A estética exterior recusa as curvas óbvias da indústria convencional, apostando em linhas tensas e superfícies facetadas que desafiam o arrasto hidrodinâmico.",
-      "Sob o convés principal, geradores MTU acoplados a propulsores azimutais garantem silêncio absoluto de operação, permitindo cruzeiros transoceânicos a velocidades de cruzeiro mantidas sem perda de eficiência térmica. A sala de máquinas não exibe apenas motores; abriga um ecossistema redundante de dessalinizadores por osmose reversa, sistemas de estabilização giroscópica de zero-speed e blindagem eletromagnética integrada. Cada antepara foi calculada para resistir a impactos de alta energia, enquanto o sistema de tratamento de esgoto opera com zero descarga em áreas protegidas.",
-      "Enquanto o mercado de embarcações comerciais prioriza o volume bruto, este projeto foca na autonomia de combustível e na pureza dos fluxos de ar interno, renovados a cada quatro minutos por compressores hospitalares. O heliponto certificado para aeronaves biturbinas e a doca inundável para tenders de alta performance demonstram a seriedade operacional do casco. Não há concessões decorativas superficiais; cada centímetro quadrado do layout reflete um rigor construtivo que atende às exigências das classes de inspeção mais severas do planeta.",
-      "A presença deste superiate nas águas australianas consolida a arquitetura naval privada como a verdadeira fronteira da engenharia de grande escala. Longe de ser um mero exercício de ostentação, o casco de nove dígitos opera como uma fortaleza flutuante autossuficiente. É a materialização exata de que o poder absoluto no mar exige física rigorosa, tolerâncias industriais intransigentes e uma rejeição implacável ao efêmero."
-    ],
-    "content_paragraphs": [
-      "As águas tropicais de Cairns testemunharam a chegada de um monstro cinético. Trêscentos milhões de dólares em engenharia naval pura ancorados na imensidão do Pacífico. O casco de deslocamento em aço naval suporta uma superestrutura em ligas de alumínio e titânio, projetada para absorver torções severas em mares revoltos sem emitir uma única vibração estrutural nos conveses privativos. A estética exterior recusa as curvas óbvias da indústria convencional, apostando em linhas tensas e superfícies facetadas que desafiam o arrasto hidrodinâmico.",
-      "Sob o convés principal, geradores MTU acoplados a propulsores azimutais garantem silêncio absoluto de operação, permitindo cruzeiros transoceânicos a velocidades de cruzeiro mantidas sem perda de eficiência térmica. A sala de máquinas não exibe apenas motores; abriga um ecossistema redundante de dessalinizadores por osmose reversa, sistemas de estabilização giroscópica de zero-speed e blindagem eletromagnética integrada. Cada antepara foi calculada para resistir a impactos de alta energia, enquanto o sistema de tratamento de esgoto opera com zero descarga em áreas protegidas.",
-      "Enquanto o mercado de embarcações comerciais prioriza o volume bruto, este projeto foca na autonomia de combustível e na pureza dos fluxos de ar interno, renovados a cada quatro minutos por compressores hospitalares. O heliponto certificado para aeronaves biturbinas e a doca inundável para tenders de alta performance demonstram a seriedade operacional do casco. Não há concessões decorativas superficiais; cada centímetro quadrado do layout reflete um rigor construtivo que atende às exigências das classes de inspeção mais severas do planeta.",
-      "A presença deste superiate nas águas australianas consolida a arquitetura naval privada como a verdadeira fronteira da engenharia de grande escala. Longe de ser um mero exercício de ostentação, o casco de nove dígitos opera como uma fortaleza flutuante autossuficiente. É a materialização exata de que o poder absoluto no mar exige física rigorosa, tolerâncias industriais intransigentes e uma rejeição implacável ao efêmero."
-    ],
-    "specs": {
-      "comprimento_total": "Metres variando entre 85m e 110m",
-      "casco": "Aço naval de alta resistência e superestrutura em alumínio",
-      "propulsao": "Sistema diesel-elétrico com propulsores azimutais",
-      "autonomia": "Mais de 5.000 milhas náuticas em velocidade de cruzeiro",
-      "classificacao": "Lloyd's Register Ice Class / SOLAS compliant"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "publishedAt": "2026-10-31T15:30:50.729Z",
-    "published_at": "2026-10-31T15:30:50.729Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVW1BZUg3TVpabWtJS0xUVFZISkZNN1BwZjRrR2tUWlR5V1RNekdGTUpsblBOYnN4VjVEeGp1SWNDcFdYRS1hQUJrZk96VFZKVFhWVGVud0VQTFdiWFhmaXMxWWhPUjhWY2l2ckJPVk1OVVRCTzV0MzV6UC00RFIxODJkeDQxZnJEM19YNC1GeWswM2pHdDZuNXVqb1FZcFNJZUN6MDFqRTIwbnQxd1d4ZUI2bDk0aGxoQWozMHEtUkxoX0RLTFVrTGNSSE5fVlZqRUJuSWVPTzdjNDQwdDNzZnNVclFBMWVfUnZ2cDNzdU4?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVW1BZUg3TVpabWtJS0xUVFZISkZNN1BwZjRrR2tUWlR5V1RNekdGTUpsblBOYnN4VjVEeGp1SWNDcFdYRS1hQUJrZk96VFZKVFhWVGVud0VQTFdiWFhmaXMxWWhPUjhWY2l2ckJPVk1OVVRCTzV0MzV6UC00RFIxODJkeDQxZnJEM19YNC1GeWswM2pHdDZuNXVqb1FZcFNJZUN6MDFqRTIwbnQxd1d4ZUI2bDk0aGxoQWozMHEtUkxoX0RLTFVrTGNSSE5fVlZqRUJuSWVPTzdjNDQwdDNzZnNVclFBMWVfUnZ2cDNzdU4?oc=5"
   }
 ];
 
@@ -1420,13 +1422,21 @@ export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
     "category": "SUPERCARROS",
+    "title": "Ferrari Daytona SP3: O Ícone V12 Aspir...",
+    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "ferrari-daytona-sp3-o-icone-v12-aspirado-de-166-milhoes-que-prova-a-imunidade-absoluta-do-leilao-de-monterey-1472"
+  },
+  {
+    "id": "film-2",
+    "category": "SUPERCARROS",
     "title": "Ferrari S.p.A.: A Soberania de 17,7 Bi...",
     "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "ferrari-spa-a-soberania-de-177-bilhoes-de-dolares-forjada-em-ligas-de-inconel-e-forca-g-lateral-3606"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Bugatti Veyron Grand Sport e Ferrari E...",
     "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
@@ -1434,7 +1444,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "bugatti-veyron-grand-sport-e-ferrari-enzo-os-24-milhoes-de-dolares-que-custaram-a-imunidade-mecanica-de-floyd-mayweather-6632"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Ferrari Montegrappa: O Instrumento de ...",
     "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
@@ -1442,7 +1452,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-montegrappa-o-instrumento-de-escrita-de-us-4300-forjado-com-titanio-aeroespacial-e-tolerancia-de-microns-4679"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "RELOGIOS",
     "title": "Louis Erard x Vianney Halter Futur Ant...",
     "image": "https://monochrome-watches.com/app/uploads/2026/10/louis-erard-x-vianney-halter-futur-anterieur-antiqua-inspired-collab-review-1.jpg",
@@ -1450,20 +1460,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "louis-erard-x-vianney-halter-futur-anterieur-a-obra-prima-de-99-exemplares-com-caixas-soldadas-a-mao-e-mostradores-graficos-estilo-antiqua-2287"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "DESTINOS",
     "title": "Superiate Feadship de US$ 39 Milhões: ...",
     "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
     "tag": "CURADORIA RADAR",
     "slug": "superiate-feadship-de-us-39-milhoes-o-arresto-judicial-na-costa-amalfitana-por-uma-falha-de-us-35000-em-salarios-6049"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Ferrari 296 Challenge Stradale: O V6 B...",
-    "image": "https://images.unsplash.com/photo-1766353134008-bb3b8b99ddd2?auto=format&fit=crop&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "ferrari-296-challenge-stradale-o-v6-biturbo-de-830-cv-com-forca-g-extrema-nascido-nas-pistas-de-fiorano-8497"
   }
 ];
 
