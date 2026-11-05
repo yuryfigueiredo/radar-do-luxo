@@ -307,7 +307,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://robbreport.com/wp-content/uploads/2026/11/JeffHylandHouse_BH_FI.jpg",
     "imageIsFallback": false,
-    "status": "available"
+    "status": "duplicate"
   }
 ];
 
