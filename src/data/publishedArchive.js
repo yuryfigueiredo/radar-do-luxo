@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-ferrari-431-milhoes-em-lucro-tri-3210",
+    "slug": "ferrari-431-milhoes-em-lucro-trimestral-que-valida-a-engenharia-de-precisao-sobre-a-producao-de-massa-3200",
+    "title": "Ferrari: €431 Milhões em Lucro Trimestral que Valida a Engenharia de Precisão sobre a Produção de Massa",
+    "image": "https://images.unsplash.com/photo-1650444684180-3f72abb15263?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQY3FvM3RhOFMtNXh3dFRFV3dEbVl3UENMU0Q4d3J0RmpVTlhHYTB1SjYtRV9DS3FaWDBTeGdmLWZ2MmVaQi1aUVBsS21mMWlRWVBLRHFrdkN5Ui1DRFFndEpIelNjUmRKdHgzNDNTc0lDWFBjbzRjUnAxVndRckxYQ0hwNzlCS1JXVWQwMTFWdWU5bDlfYnZYX3pIQXRKckVQclRvYUpDN3h6ZE5pcEtrZ3lWamFyVkhoV0JwUkc1U0V3dWVtNVhzVUFxcVJNSEnSAdwBQVVfeXFMTjdkTUVuTFlNTlFCZTM3THlkTDlpeUNUTW5VT2hCQi1EZGN2YTVkdXZJcHA5MV9xSDVaSWxpa1RNUkhJYV9jdVBzZUc3VFRTTm9LNzNaOEdmRlNwOElTY2dsdEZHZ1U3dkl6OG82WXlVWllsUndOYzMtMW5VMnQtcVd4VGVHZEZmZHA3YW1ZQU9taVBPS0xzSmh4XzdDeUYwQ2xJeEQ2ZkFoZUVUalhHa0VvTGlyV0VhaEhpN0Nxd3NuX1h1ZnpYMnVsVWQ5Tjh3R25qeFNBa1dHRWdqVw?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-05T22:14:43.210Z"
+  },
+  {
     "id": "art-the-italian-sea-group-o-colapso--1382",
     "slug": "the-italian-sea-group-o-colapso-financeiro-de-587-milhoes-que-desafia-a-engenharia-naval-de-alto-luxo-1371",
     "title": "The Italian Sea Group: O Colapso Financeiro de €58,7 Milhões que Desafia a Engenharia Naval de Alto Luxo",

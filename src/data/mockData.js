@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-ferrari-431-milhoes-em-lucro-tri-3210",
+    "slug": "ferrari-431-milhoes-em-lucro-trimestral-que-valida-a-engenharia-de-precisao-sobre-a-producao-de-massa-3200",
+    "title": "Ferrari: €431 Milhões em Lucro Trimestral que Valida a Engenharia de Precisão sobre a Produção de Massa",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "05 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1650444684180-3f72abb15263?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "A Ferrari consolida sua soberania financeira no terceiro trimestre, provando que a escassez matemática e a cura de monocoques em carbo-titânio são os únicos ativos imunes à volatilidade do mercado global.",
+    "contentParagraphs": [
+      "O balanço financeiro da Ferrari não é apenas um registro contábil; é a tradução de uma estratégia de manufatura que despreza o volume em favor da pureza inercial. Enquanto o setor automotivo oscila sob o peso da eletrificação massificada, Maranello mantém uma margem operacional que desafia a lógica industrial comum. O lucro de €431 milhões reflete a resiliência de um modelo de negócio onde cada unidade entregue é, essencialmente, uma peça de engenharia colecionável antes mesmo de atingir o asfalto.",
+      "A telemetria financeira acompanha a precisão dos fluxos de Venturi aplicados aos seus hipercarros mais recentes. Ao limitar a produção para preservar o valor residual, a marca garante que cada monocoque, curado em autoclave a 6 bar, permaneça um ativo de liquidez superior. O desempenho nas margens é o resultado direto de uma gestão de frota que prioriza a complexidade dos motores de combustão interna e a integração de componentes em Inconel 625, elementos que demandam tolerâncias de mícrons impossíveis de replicar em larga escala.",
+      "A história da casa de Enzo Ferrari sempre foi pautada pelo equilíbrio entre a performance em pista e o rigor do ateliê. O investidor contemporâneo compreende que a Ferrari não vende meios de transporte, mas sim a soberania tecnológica de um motor aspirado ou híbrido de alta voltagem que ignora as tendências cíclicas. Esta marca de €431 milhões atesta que a demanda por engenharia de alto desempenho permanece inabalável, sustentada por uma base de clientes que busca a conexão física entre o piloto e a telemetria inercial.",
+      "O veredito é matemático: a Ferrari triunfa ao tratar seus veículos como patrimônio fiduciário. Enquanto a indústria se perde em telas táteis destinadas ao descarte precoce, o lucro trimestral reafirma a vitalidade da engenharia mecânica como o único refúgio seguro de valor. O futuro de Maranello não reside na escala, mas na precisão absoluta de seus fluxos de Venturi e na inabalável fidelidade à sua linhagem de alta performance."
+    ],
+    "content_paragraphs": [
+      "O balanço financeiro da Ferrari não é apenas um registro contábil; é a tradução de uma estratégia de manufatura que despreza o volume em favor da pureza inercial. Enquanto o setor automotivo oscila sob o peso da eletrificação massificada, Maranello mantém uma margem operacional que desafia a lógica industrial comum. O lucro de €431 milhões reflete a resiliência de um modelo de negócio onde cada unidade entregue é, essencialmente, uma peça de engenharia colecionável antes mesmo de atingir o asfalto.",
+      "A telemetria financeira acompanha a precisão dos fluxos de Venturi aplicados aos seus hipercarros mais recentes. Ao limitar a produção para preservar o valor residual, a marca garante que cada monocoque, curado em autoclave a 6 bar, permaneça um ativo de liquidez superior. O desempenho nas margens é o resultado direto de uma gestão de frota que prioriza a complexidade dos motores de combustão interna e a integração de componentes em Inconel 625, elementos que demandam tolerâncias de mícrons impossíveis de replicar em larga escala.",
+      "A história da casa de Enzo Ferrari sempre foi pautada pelo equilíbrio entre a performance em pista e o rigor do ateliê. O investidor contemporâneo compreende que a Ferrari não vende meios de transporte, mas sim a soberania tecnológica de um motor aspirado ou híbrido de alta voltagem que ignora as tendências cíclicas. Esta marca de €431 milhões atesta que a demanda por engenharia de alto desempenho permanece inabalável, sustentada por uma base de clientes que busca a conexão física entre o piloto e a telemetria inercial.",
+      "O veredito é matemático: a Ferrari triunfa ao tratar seus veículos como patrimônio fiduciário. Enquanto a indústria se perde em telas táteis destinadas ao descarte precoce, o lucro trimestral reafirma a vitalidade da engenharia mecânica como o único refúgio seguro de valor. O futuro de Maranello não reside na escala, mas na precisão absoluta de seus fluxos de Venturi e na inabalável fidelidade à sua linhagem de alta performance."
+    ],
+    "specs": {
+      "Lucro_Trimestral": "€431 milhões",
+      "Foco_Engenharia": "Monocoque em carbo-titânio",
+      "Materiais_Chave": "Inconel 625",
+      "Estratégia": "Escassez planejada",
+      "Performance_Financeira": "Alta margem operacional"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 88,
+    "ranking_score": 88,
+    "engineSource": "gemini:gemini-3.1-flash-lite",
+    "publishedAt": "2026-11-05T22:14:43.210Z",
+    "published_at": "2026-11-05T22:14:43.210Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQY3FvM3RhOFMtNXh3dFRFV3dEbVl3UENMU0Q4d3J0RmpVTlhHYTB1SjYtRV9DS3FaWDBTeGdmLWZ2MmVaQi1aUVBsS21mMWlRWVBLRHFrdkN5Ui1DRFFndEpIelNjUmRKdHgzNDNTc0lDWFBjbzRjUnAxVndRckxYQ0hwNzlCS1JXVWQwMTFWdWU5bDlfYnZYX3pIQXRKckVQclRvYUpDN3h6ZE5pcEtrZ3lWamFyVkhoV0JwUkc1U0V3dWVtNVhzVUFxcVJNSEnSAdwBQVVfeXFMTjdkTUVuTFlNTlFCZTM3THlkTDlpeUNUTW5VT2hCQi1EZGN2YTVkdXZJcHA5MV9xSDVaSWxpa1RNUkhJYV9jdVBzZUc3VFRTTm9LNzNaOEdmRlNwOElTY2dsdEZHZ1U3dkl6OG82WXlVWllsUndOYzMtMW5VMnQtcVd4VGVHZEZmZHA3YW1ZQU9taVBPS0xzSmh4XzdDeUYwQ2xJeEQ2ZkFoZUVUalhHa0VvTGlyV0VhaEhpN0Nxd3NuX1h1ZnpYMnVsVWQ5Tjh3R25qeFNBa1dHRWdqVw?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQY3FvM3RhOFMtNXh3dFRFV3dEbVl3UENMU0Q4d3J0RmpVTlhHYTB1SjYtRV9DS3FaWDBTeGdmLWZ2MmVaQi1aUVBsS21mMWlRWVBLRHFrdkN5Ui1DRFFndEpIelNjUmRKdHgzNDNTc0lDWFBjbzRjUnAxVndRckxYQ0hwNzlCS1JXVWQwMTFWdWU5bDlfYnZYX3pIQXRKckVQclRvYUpDN3h6ZE5pcEtrZ3lWamFyVkhoV0JwUkc1U0V3dWVtNVhzVUFxcVJNSEnSAdwBQVVfeXFMTjdkTUVuTFlNTlFCZTM3THlkTDlpeUNUTW5VT2hCQi1EZGN2YTVkdXZJcHA5MV9xSDVaSWxpa1RNUkhJYV9jdVBzZUc3VFRTTm9LNzNaOEdmRlNwOElTY2dsdEZHZ1U3dkl6OG82WXlVWllsUndOYzMtMW5VMnQtcVd4VGVHZEZmZHA3YW1ZQU9taVBPS0xzSmh4XzdDeUYwQ2xJeEQ2ZkFoZUVUalhHa0VvTGlyV0VhaEhpN0Nxd3NuX1h1ZnpYMnVsVWQ5Tjh3R25qeFNBa1dHRWdqVw?oc=5"
+  },
+  {
     "id": "art-the-italian-sea-group-o-colapso--1382",
     "slug": "the-italian-sea-group-o-colapso-financeiro-de-587-milhoes-que-desafia-a-engenharia-naval-de-alto-luxo-1371",
     "title": "The Italian Sea Group: O Colapso Financeiro de €58,7 Milhões que Desafia a Engenharia Naval de Alto Luxo",
@@ -1364,64 +1416,20 @@ export const ARTICLES = [
     "published_at": "2026-10-31T22:28:16.064Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVmpVcWF2ckY4eGZSQmFQa2VCMDM3bWNVMTVpUmFCaEJXUlFHOVMtWWZ2VjM3THRrTUE2WWZ5TE1qZFVfYzhIXzdSbWdwTTVQYkd6dU1pX2Q2ZGpZVEhFRHIycGVCeS1WUl9PTllNTzRFTDdhYjRaNHBnLWNNZE5vWHN1cTgxNlVvYnBVMnVR?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVmpVcWF2ckY4eGZSQmFQa2VCMDM3bWNVMTVpUmFCaEJXUlFHOVMtWWZ2VjM3THRrTUE2WWZ5TE1qZFVfYzhIXzdSbWdwTTVQYkd6dU1pX2Q2ZGpZVEhFRHIycGVCeS1WUl9PTllNTzRFTDdhYjRaNHBnLWNNZE5vWHN1cTgxNlVvYnBVMnVR?oc=5"
-  },
-  {
-    "id": "art-ferrari-296-challenge-stradale-o-8500",
-    "slug": "ferrari-296-challenge-stradale-o-v6-biturbo-de-830-cv-com-forca-g-extrema-nascido-nas-pistas-de-fiorano-8497",
-    "title": "Ferrari 296 Challenge Stradale: O V6 Biturbo de 830 cv com Força G Extrema Nascido nas Pistas de Fiorano",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "31 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1766353134008-bb3b8b99ddd2?auto=format&fit=crop&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A divisão de Maranello traduz a telemetria do campeonato monomarca para as ruas em um bólido esculpido em carbo-titânio, ignorando concessões ao conforto digital.",
-    "contentParagraphs": [
-      "O asfalto de Fiorano exige precisão milimétrica. A nova Ferrari 296 Challenge Stradale não aceita hesitações. Seu monocoque absorve a energia de curvas de alta velocidade enquanto o fluxo de Venturi sela o assoalho ao solo. Tolerâncias de mícrons definem o alinhamento aerodinâmico.",
-      "A combustão interna ruge implacável. Sob o capô traseiro, o motor V6 biturbo acoplado ao sistema híbrido entrega 830 cavalos de potência bruta. A força G lateral comprime o piloto contra os bancos de competição em fibra de carbono. Cada mudança de marcha ocorre em frações de segundo, gerenciada por atuadores hidráulicos derivados diretamente do programa de endurance da marca.",
-      "A redução de peso é obsessiva. Vidros traseiros em policarbonato e escapamento em Inconel 625 eliminam cada grama supérflua. A telemetria inercial registra o comportamento dinâmico em tempo real, enviando dados vitais para os engenheiros de Maranello analisarem após cada sessão na pista.",
-      "O bólido chega ao mercado com tiragem estritamente limitada e preço alinhado à sua exclusividade intransigente. Trata-se de um refúgio mecânico para colecionadores que rejeitam a obsolescência programada das telas táteis, preferindo a pureza brutal de um pedigree nascido para vencer."
-    ],
-    "content_paragraphs": [
-      "O asfalto de Fiorano exige precisão milimétrica. A nova Ferrari 296 Challenge Stradale não aceita hesitações. Seu monocoque absorve a energia de curvas de alta velocidade enquanto o fluxo de Venturi sela o assoalho ao solo. Tolerâncias de mícrons definem o alinhamento aerodinâmico.",
-      "A combustão interna ruge implacável. Sob o capô traseiro, o motor V6 biturbo acoplado ao sistema híbrido entrega 830 cavalos de potência bruta. A força G lateral comprime o piloto contra os bancos de competição em fibra de carbono. Cada mudança de marcha ocorre em frações de segundo, gerenciada por atuadores hidráulicos derivados diretamente do programa de endurance da marca.",
-      "A redução de peso é obsessiva. Vidros traseiros em policarbonato e escapamento em Inconel 625 eliminam cada grama supérflua. A telemetria inercial registra o comportamento dinâmico em tempo real, enviando dados vitais para os engenheiros de Maranello analisarem após cada sessão na pista.",
-      "O bólido chega ao mercado com tiragem estritamente limitada e preço alinhado à sua exclusividade intransigente. Trata-se de um refúgio mecânico para colecionadores que rejeitam a obsolescência programada das telas táteis, preferindo a pureza brutal de um pedigree nascido para vencer."
-    ],
-    "specs": {
-      "motorização": "V6 3.0 biturbo + motor elétrico (Plug-in)",
-      "potência_máxima": "830 cv a 8.500 RPM",
-      "materiais_construtivos": "Carbo-titânio, Alumínio aeroespacial e Inconel 625",
-      "aerodinâmica": "Assoalho com efeito solo e difusor ativo de alta carga",
-      "transmissão": "Dupla embreagem de 8 marchas específica para pista",
-      "avaliação_patrimonial": "Sob consulta em Maranello para clientes selecionados"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "publishedAt": "2026-10-31T21:45:28.500Z",
-    "published_at": "2026-10-31T21:45:28.500Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQall3Q1IwbFZsbFNhQWcyblJGYjFiSkdXMUtHRHQzaUQ3MENJbUV6OVllS2FkU2ljQzZHUjJNa1ZSN0Y2clJscy1INjFIS2NJYUFkVmR1QXBMQlhqOEhtSzNwdkZoeC1rZkFrbzlKenhIMDRKYXF2SWhCS3IzMWZuMHE5Q1pEZGxPLW1FZmxNZ0diQkc2TTk5amFfSUZ6Rlln?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQall3Q1IwbFZsbFNhQWcyblJGYjFiSkdXMUtHRHQzaUQ3MENJbUV6OVllS2FkU2ljQzZHUjJNa1ZSN0Y2clJscy1INjFIS2NJYUFkVmR1QXBMQlhqOEhtSzNwdkZoeC1rZkFrbzlKenhIMDRKYXF2SWhCS3IzMWZuMHE5Q1pEZGxPLW1FZmxNZ0diQkc2TTk5amFfSUZ6Rlln?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "DESTINOS",
+    "title": "Brabus Shadow E-Hydrofoil: O Brinquedo...",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800",
+    "tag": "CURADORIA RADAR",
+    "slug": "brabus-shadow-e-hydrofoil-o-brinquedo-nautico-de-us-20490-com-hidrofolio-de-fibra-de-carbono-e-28-nos-de-voo-9050"
+  },
+  {
+    "id": "film-2",
     "category": "RELOGIOS",
     "title": "Rolex, Patek Philippe e Audemars Pigue...",
     "image": "https://robbreport.com/wp-content/uploads/2022/12/RR_Rolex_1202_1.jpg",
@@ -1429,7 +1437,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "rolex-patek-philippe-e-audemars-piguet-o-monopolio-de-us-266-bilhoes-do-mercado-secundario-sustentado-por-calibres-raros-e-esmalte-grand-feu-8159"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Ferrari Daytona SP3: O Ícone V12 Aspir...",
     "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
@@ -1437,7 +1445,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-daytona-sp3-o-icone-v12-aspirado-de-166-milhoes-que-prova-a-imunidade-absoluta-do-leilao-de-monterey-1472"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Ferrari S.p.A.: A Soberania de 17,7 Bi...",
     "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
@@ -1445,7 +1453,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-spa-a-soberania-de-177-bilhoes-de-dolares-forjada-em-ligas-de-inconel-e-forca-g-lateral-3606"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Bugatti Veyron Grand Sport e Ferrari E...",
     "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
@@ -1453,20 +1461,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "bugatti-veyron-grand-sport-e-ferrari-enzo-os-24-milhoes-de-dolares-que-custaram-a-imunidade-mecanica-de-floyd-mayweather-6632"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Ferrari Montegrappa: O Instrumento de ...",
     "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "ferrari-montegrappa-o-instrumento-de-escrita-de-us-4300-forjado-com-titanio-aeroespacial-e-tolerancia-de-microns-4679"
-  },
-  {
-    "id": "film-6",
-    "category": "RELOGIOS",
-    "title": "Louis Erard x Vianney Halter Futur Ant...",
-    "image": "https://monochrome-watches.com/app/uploads/2026/10/louis-erard-x-vianney-halter-futur-anterieur-antiqua-inspired-collab-review-1.jpg",
-    "tag": "CURADORIA RADAR",
-    "slug": "louis-erard-x-vianney-halter-futur-anterieur-a-obra-prima-de-99-exemplares-com-caixas-soldadas-a-mao-e-mostradores-graficos-estilo-antiqua-2287"
   }
 ];
 
