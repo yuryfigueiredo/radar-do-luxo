@@ -116,6 +116,59 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-bugatti-type-57sc-atlantic-os-r--1536",
+    "slug": "bugatti-type-57sc-atlantic-os-r-68-milhoes-em-aluminio-rebitado-que-definiram-a-aerodinamica-de-pre-guerra-1407",
+    "title": "Bugatti Type 57SC Atlantic: Os R$ 68 Milhões em Alumínio Rebitado que Definiram a Aerodinâmica de Pré-Guerra",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "05 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1661311928884-7e36f478109f?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "Um exemplar sobrevivente da linhagem Atlantic reafirma sua soberania em leilão, provando que a engenharia de Jean Bugatti transcende a volatilidade dos ativos contemporâneos.",
+    "contentParagraphs": [
+      "O martelo cai sobre o Bugatti Type 57SC Atlantic com a precisão de um mecanismo de escape. A cifra de R$ 68 milhões não é um custo, mas uma métrica de sobrevivência histórica. Enquanto o mercado oscila entre a descartabilidade digital e o plástico termoformado, esta carroceria de alumínio rebitado permanece como um monólito de engenharia. A silhueta de gota d'água corta o ar não por simulação computacional, mas por intuição mecânica pura.",
+      "Sob o capô repousa um bloco de oito cilindros em linha, sobrealimentado por um compressor Roots que eleva a entrega de torque a níveis brutais para a década de 1930. A telemetria inercial deste chassi revela um equilíbrio de peso quase utópico, mantendo o centro de gravidade rebaixado através de uma arquitetura de longarinas de aço de alta resistência. Cada rebitagem externa, visível ao longo da espinha dorsal, não é decorativa; é a costura estrutural que mantém o monocoque íntegro sob estresse de torção.",
+      "O Atlantic é o ponto de inflexão onde a arte de ateliê encontrou a necessidade de performance extrema. Diferente dos hipercarros modernos que dependem de vetoração de torque eletrônica para disfarçar a massa excessiva, o 57SC confia na pureza da trajetória e na precisão da caixa de direção mecânica. O silêncio do motor em marcha lenta contrasta com o urro metálico do compressor ao atingir o pico de rotação, uma sinfonia de fricção e lubrificação que poucos ouvidos humanos terão o privilégio de processar.",
+      "A arrematação deste exemplar é um lembrete severo de que a raridade física é a única proteção real contra a inflação de ativos. O proprietário não adquire um veículo, mas a custódia de um fragmento da história da fluidodinâmica. Em um mundo de hipercarros efêmeros, este Bugatti é o padrão-ouro inquestionável. Ele não corre apenas nas pistas; ele domina o tempo, mantendo sua relevância técnica inalterada há quase um século."
+    ],
+    "content_paragraphs": [
+      "O martelo cai sobre o Bugatti Type 57SC Atlantic com a precisão de um mecanismo de escape. A cifra de R$ 68 milhões não é um custo, mas uma métrica de sobrevivência histórica. Enquanto o mercado oscila entre a descartabilidade digital e o plástico termoformado, esta carroceria de alumínio rebitado permanece como um monólito de engenharia. A silhueta de gota d'água corta o ar não por simulação computacional, mas por intuição mecânica pura.",
+      "Sob o capô repousa um bloco de oito cilindros em linha, sobrealimentado por um compressor Roots que eleva a entrega de torque a níveis brutais para a década de 1930. A telemetria inercial deste chassi revela um equilíbrio de peso quase utópico, mantendo o centro de gravidade rebaixado através de uma arquitetura de longarinas de aço de alta resistência. Cada rebitagem externa, visível ao longo da espinha dorsal, não é decorativa; é a costura estrutural que mantém o monocoque íntegro sob estresse de torção.",
+      "O Atlantic é o ponto de inflexão onde a arte de ateliê encontrou a necessidade de performance extrema. Diferente dos hipercarros modernos que dependem de vetoração de torque eletrônica para disfarçar a massa excessiva, o 57SC confia na pureza da trajetória e na precisão da caixa de direção mecânica. O silêncio do motor em marcha lenta contrasta com o urro metálico do compressor ao atingir o pico de rotação, uma sinfonia de fricção e lubrificação que poucos ouvidos humanos terão o privilégio de processar.",
+      "A arrematação deste exemplar é um lembrete severo de que a raridade física é a única proteção real contra a inflação de ativos. O proprietário não adquire um veículo, mas a custódia de um fragmento da história da fluidodinâmica. Em um mundo de hipercarros efêmeros, este Bugatti é o padrão-ouro inquestionável. Ele não corre apenas nas pistas; ele domina o tempo, mantendo sua relevância técnica inalterada há quase um século."
+    ],
+    "specs": {
+      "motor": "8 cilindros em linha, 3.257cc",
+      "inducao": "Compressor Roots (Supercharger)",
+      "chassi": "Aço de alta resistência com carroceria de alumínio",
+      "estilo": "Jean Bugatti Atlantic Coupe",
+      "tiragem": "4 unidades produzidas originalmente",
+      "valor_leilao": "R$ 68.000.000"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 95,
+    "ranking_score": 95,
+    "engineSource": "gemini:gemini-3.1-flash-lite",
+    "publishedAt": "2026-11-05T11:07:31.536Z",
+    "published_at": "2026-11-05T11:07:31.536Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRF9tXzFRYUhvRnY2UEZDekdncC0tMnhmbHdvM0gxa0steExCaEcxX1F1VjVielhJamgwcUFTSGp4QUQzWEhBa1p4ZGlNckxiQ0hpcjJqempDbTFWVkFSb2FlMFN0N1V1SkRXNVVWOGRPVVh1QXFhb3pOWHpJLUk4dlhiZTFhVlA0ODhQak1qY2w0RlZMMWdnYUZvWUhvakVCRUE?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRF9tXzFRYUhvRnY2UEZDekdncC0tMnhmbHdvM0gxa0steExCaEcxX1F1VjVielhJamgwcUFTSGp4QUQzWEhBa1p4ZGlNckxiQ0hpcjJqempDbTFWVkFSb2FlMFN0N1V1SkRXNVVWOGRPVVh1QXFhb3pOWHpJLUk4dlhiZTFhVlA0ODhQak1qY2w0RlZMMWdnYUZvWUhvakVCRUE?oc=5"
+  },
+  {
     "id": "art-superiate-lurssen-de-200-milhoes-7137",
     "slug": "superiate-lurssen-de-200-milhoes-de-dolares-o-leviata-com-piscina-de-fundo-de-vidro-que-ancorou-na-costa-iberica-7128",
     "title": "Superiate Lürssen de 200 Milhões de Dólares: O Leviatã com Piscina de Fundo de Vidro que Ancorou na Costa Ibérica",
@@ -1360,58 +1413,6 @@ export const ARTICLES = [
     "published_at": "2026-10-31T15:30:50.729Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVW1BZUg3TVpabWtJS0xUVFZISkZNN1BwZjRrR2tUWlR5V1RNekdGTUpsblBOYnN4VjVEeGp1SWNDcFdYRS1hQUJrZk96VFZKVFhWVGVud0VQTFdiWFhmaXMxWWhPUjhWY2l2ckJPVk1OVVRCTzV0MzV6UC00RFIxODJkeDQxZnJEM19YNC1GeWswM2pHdDZuNXVqb1FZcFNJZUN6MDFqRTIwbnQxd1d4ZUI2bDk0aGxoQWozMHEtUkxoX0RLTFVrTGNSSE5fVlZqRUJuSWVPTzdjNDQwdDNzZnNVclFBMWVfUnZ2cDNzdU4?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVW1BZUg3TVpabWtJS0xUVFZISkZNN1BwZjRrR2tUWlR5V1RNekdGTUpsblBOYnN4VjVEeGp1SWNDcFdYRS1hQUJrZk96VFZKVFhWVGVud0VQTFdiWFhmaXMxWWhPUjhWY2l2ckJPVk1OVVRCTzV0MzV6UC00RFIxODJkeDQxZnJEM19YNC1GeWswM2pHdDZuNXVqb1FZcFNJZUN6MDFqRTIwbnQxd1d4ZUI2bDk0aGxoQWozMHEtUkxoX0RLTFVrTGNSSE5fVlZqRUJuSWVPTzdjNDQwdDNzZnNVclFBMWVfUnZ2cDNzdU4?oc=5"
-  },
-  {
-    "id": "art-lady-marina-a-navalha-de-aco-de--4037",
-    "slug": "lady-marina-a-navalha-de-aco-de-64-metros-que-redefiniu-a-fisica-de-deslocamento-na-baia-de-cannes-4035",
-    "title": "Lady Marina: A Navalha de Aço de 64 Metros que Redefiniu a Física de Deslocamento na Baía de Cannes",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "31 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1621277224630-81d9af65e40c?auto=format&fit=crop&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Sob o sol cortante da Croisette, o casco cinza-metálico do Lady Marina desafiou a arquitetura naval contemporânea, impondo uma massa de 64 metros com a agilidade de um torpedo de propulsão iônica.",
-    "contentParagraphs": [
-      "A baía de Cannes tremeu. Duas mil toneladas de engenharia naval estelar cortaram a lâmina d'água sob o crivo de tolerâncias de mícrons. A proa invertida do Lady Marina rasgava o Mediterrâneo com precisão cirúrgica, enquanto suas turbinas geravam um ronco abafado abaixo da linha d'água. Não havia espaço para concessões estéticas. Apenas hidrodinâmica implacable.",
-      "O casco em aço balístico de alta resistência foi moldado para anular qualquer vibração estrutural em cruzeiro prolongado. O monocoque naval suporta forças de torção extremas, cortando o swell de través com um coeficiente de arrasto hidrodinâmico rigorosamente otimizado por supercomputadores. As linhas do convés superior esculpem o vento em túneis de efeito solo, canalizando o fluxo atmosférico com exatidão matemática para estabilizar o perfil dinâmico em altas velocidades de cruzeiro.",
-      "No interior da praça de máquinas, motores Caterpillar duplos entregavam torque bruto contínuo, alimentados por redundâncias dignas de um cruzador de combate. O escape isolado termicamente em ligas de Inconel mantinha o silêncio mineral nos conveses privativos, contrastando com o inferno termodinâmico operando a pleno vapor nas entranhas do navio. A telemetria inercial registrava um balanço lateral quase nulo, cortesia de estabilizadores giroscópicos de última geração.",
-      "Enquanto os oligarcas disputavam espaço na Croisette com embarcações de ostentação efêmera, o Lady Marina permaneceu como um monumento à engenharia sem concessões. Um predador de águas profundas construído para durar gerações, ignorando modismos em favor de uma soberania mecânica absoluta sobre os oceanos."
-    ],
-    "content_paragraphs": [
-      "A baía de Cannes tremeu. Duas mil toneladas de engenharia naval estelar cortaram a lâmina d'água sob o crivo de tolerâncias de mícrons. A proa invertida do Lady Marina rasgava o Mediterrâneo com precisão cirúrgica, enquanto suas turbinas geravam um ronco abafado abaixo da linha d'água. Não havia espaço para concessões estéticas. Apenas hidrodinâmica implacable.",
-      "O casco em aço balístico de alta resistência foi moldado para anular qualquer vibração estrutural em cruzeiro prolongado. O monocoque naval suporta forças de torção extremas, cortando o swell de través com um coeficiente de arrasto hidrodinâmico rigorosamente otimizado por supercomputadores. As linhas do convés superior esculpem o vento em túneis de efeito solo, canalizando o fluxo atmosférico com exatidão matemática para estabilizar o perfil dinâmico em altas velocidades de cruzeiro.",
-      "No interior da praça de máquinas, motores Caterpillar duplos entregavam torque bruto contínuo, alimentados por redundâncias dignas de um cruzador de combate. O escape isolado termicamente em ligas de Inconel mantinha o silêncio mineral nos conveses privativos, contrastando com o inferno termodinâmico operando a pleno vapor nas entranhas do navio. A telemetria inercial registrava um balanço lateral quase nulo, cortesia de estabilizadores giroscópicos de última geração.",
-      "Enquanto os oligarcas disputavam espaço na Croisette com embarcações de ostentação efêmera, o Lady Marina permaneceu como um monumento à engenharia sem concessões. Um predador de águas profundas construído para durar gerações, ignorando modismos em favor de uma soberania mecânica absoluta sobre os oceanos."
-    ],
-    "specs": {
-      "comprimento_total": "63,70 metros",
-      "construtor": "Royal Van Lent / De Vries Shipyard",
-      "propulsao": "Motores Caterpillar 3516B DITA SCAC",
-      "casco": "Aço balístico com superestrutura em alumínio",
-      "velocidade_maxima": "16 nós",
-      "autonomia": "5.000 milhas náuticas a 12 nós"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 92,
-    "ranking_score": 92,
-    "publishedAt": "2026-10-31T15:15:24.037Z",
-    "published_at": "2026-10-31T15:15:24.037Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBSUUNDSTRCclJVQUJISUM2WDNON2k1cFRGd09OeUdsQVpwZVVkVHNJOVJGcjhad3dNeUZ4SE80a3FIajZZallHTTliQUREUXNyYXgzV2lGbEp3bjRxakpPMkxJX094b0hiajctLWRR?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBSUUNDSTRCclJVQUJISUM2WDNON2k1cFRGd09OeUdsQVpwZVVkVHNJOVJGcjhad3dNeUZ4SE80a3FIajZZallHTTliQUREUXNyYXgzV2lGbEp3bjRxakpPMkxJX094b0hiajctLWRR?oc=5"
   }
 ];
 
@@ -1419,13 +1420,21 @@ export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
     "category": "SUPERCARROS",
+    "title": "Ferrari S.p.A.: A Soberania de 17,7 Bi...",
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "ferrari-spa-a-soberania-de-177-bilhoes-de-dolares-forjada-em-ligas-de-inconel-e-forca-g-lateral-3606"
+  },
+  {
+    "id": "film-2",
+    "category": "SUPERCARROS",
     "title": "Bugatti Veyron Grand Sport e Ferrari E...",
     "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "bugatti-veyron-grand-sport-e-ferrari-enzo-os-24-milhoes-de-dolares-que-custaram-a-imunidade-mecanica-de-floyd-mayweather-6632"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Ferrari Montegrappa: O Instrumento de ...",
     "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
@@ -1433,7 +1442,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-montegrappa-o-instrumento-de-escrita-de-us-4300-forjado-com-titanio-aeroespacial-e-tolerancia-de-microns-4679"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "RELOGIOS",
     "title": "Louis Erard x Vianney Halter Futur Ant...",
     "image": "https://monochrome-watches.com/app/uploads/2026/10/louis-erard-x-vianney-halter-futur-anterieur-antiqua-inspired-collab-review-1.jpg",
@@ -1441,7 +1450,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "louis-erard-x-vianney-halter-futur-anterieur-a-obra-prima-de-99-exemplares-com-caixas-soldadas-a-mao-e-mostradores-graficos-estilo-antiqua-2287"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "DESTINOS",
     "title": "Superiate Feadship de US$ 39 Milhões: ...",
     "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
@@ -1449,20 +1458,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "superiate-feadship-de-us-39-milhoes-o-arresto-judicial-na-costa-amalfitana-por-uma-falha-de-us-35000-em-salarios-6049"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Ferrari 296 Challenge Stradale: O V6 B...",
     "image": "https://images.unsplash.com/photo-1766353134008-bb3b8b99ddd2?auto=format&fit=crop&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "ferrari-296-challenge-stradale-o-v6-biturbo-de-830-cv-com-forca-g-extrema-nascido-nas-pistas-de-fiorano-8497"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Bugatti EB110 Widebody: O Primeiro Exe...",
-    "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=max&q=85&w=1800",
-    "tag": "CURADORIA RADAR",
-    "slug": "bugatti-eb110-widebody-o-primeiro-exemplar-modificado-do-planeta-que-aterrisou-no-concours-de-las-vegas-desafiando-a-ortodoxia-de-campogalliani-7868"
   }
 ];
 

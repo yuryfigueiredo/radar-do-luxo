@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-bugatti-type-57sc-atlantic-os-r--1536",
+    "slug": "bugatti-type-57sc-atlantic-os-r-68-milhoes-em-aluminio-rebitado-que-definiram-a-aerodinamica-de-pre-guerra-1407",
+    "title": "Bugatti Type 57SC Atlantic: Os R$ 68 Milhões em Alumínio Rebitado que Definiram a Aerodinâmica de Pré-Guerra",
+    "image": "https://images.unsplash.com/photo-1661311928884-7e36f478109f?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRF9tXzFRYUhvRnY2UEZDekdncC0tMnhmbHdvM0gxa0steExCaEcxX1F1VjVielhJamgwcUFTSGp4QUQzWEhBa1p4ZGlNckxiQ0hpcjJqempDbTFWVkFSb2FlMFN0N1V1SkRXNVVWOGRPVVh1QXFhb3pOWHpJLUk4dlhiZTFhVlA0ODhQak1qY2w0RlZMMWdnYUZvWUhvakVCRUE?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-05T11:07:31.536Z"
+  },
+  {
     "id": "art-superiate-lurssen-de-200-milhoes-7137",
     "slug": "superiate-lurssen-de-200-milhoes-de-dolares-o-leviata-com-piscina-de-fundo-de-vidro-que-ancorou-na-costa-iberica-7128",
     "title": "Superiate Lürssen de 200 Milhões de Dólares: O Leviatã com Piscina de Fundo de Vidro que Ancorou na Costa Ibérica",
