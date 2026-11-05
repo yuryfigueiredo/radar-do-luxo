@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-the-italian-sea-group-o-colapso--1382",
+    "slug": "the-italian-sea-group-o-colapso-financeiro-de-587-milhoes-que-desafia-a-engenharia-naval-de-alto-luxo-1371",
+    "title": "The Italian Sea Group: O Colapso Financeiro de €58,7 Milhões que Desafia a Engenharia Naval de Alto Luxo",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "05 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1621277224630-81d9af65e40c?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A soberania dos estaleiros de Marina di Carrara enfrenta um estresse estrutural severo, revelando fissuras na liquidez de um dos maiores nomes da náutica global em 2026.",
+    "contentParagraphs": [
+      "O balanço financeiro de 2026 expõe uma erosão de capital de €58,7 milhões no The Italian Sea Group. A grandiosidade dos cascos em aço naval e as superestruturas em alumínio 5083, outrora símbolos de solidez inabalável, agora enfrentam a física implacável dos mercados de capitais. O silêncio nos diques secos ressoa mais alto que o ruído das turbinas de propulsão híbrida em marcha lenta.",
+      "A engenharia naval exige tolerâncias de mícrons e fluxo de caixa contínuo para sustentar projetos de megaiates que desafiam o arrasto hidrodinâmico. Cada falha na gestão de ativos atua como um peso morto na linha d'água, comprometendo o balanço de massa do estaleiro. Sem a injeção necessária de capital operacional, a complexidade dos sistemas de estabilização giroscópica e a integração de propulsores azimutais tornam-se passivos onerosos em vez de diferenciais competitivos.",
+      "O setor de luxo náutico não perdoa o descasamento entre o ciclo de construção e a liquidez imediata. Enquanto projetistas buscam o coeficiente de arrasto ideal, a diretoria esbarra em uma crise de solvência que remete à instabilidade de cascos sem lastro. O mercado observa se o estaleiro conseguirá reconfigurar seu monocoque financeiro antes que a inércia da dívida torne a recuperação uma manobra impossível de ser executada.",
+      "A soberania de um estaleiro é medida pela capacidade de manter o ritmo de entrega sob pressões macroeconômicas extremas. O déficit atual não é apenas um número em uma planilha, mas um teste de resistência para toda a cadeia de suprimentos de alto luxo. A confiança dos investidores depende agora da reengenharia radical dos processos de governança, sob o risco de transformar ícones da engenharia naval em memórias de uma era de expansão desenfreada."
+    ],
+    "content_paragraphs": [
+      "O balanço financeiro de 2026 expõe uma erosão de capital de €58,7 milhões no The Italian Sea Group. A grandiosidade dos cascos em aço naval e as superestruturas em alumínio 5083, outrora símbolos de solidez inabalável, agora enfrentam a física implacável dos mercados de capitais. O silêncio nos diques secos ressoa mais alto que o ruído das turbinas de propulsão híbrida em marcha lenta.",
+      "A engenharia naval exige tolerâncias de mícrons e fluxo de caixa contínuo para sustentar projetos de megaiates que desafiam o arrasto hidrodinâmico. Cada falha na gestão de ativos atua como um peso morto na linha d'água, comprometendo o balanço de massa do estaleiro. Sem a injeção necessária de capital operacional, a complexidade dos sistemas de estabilização giroscópica e a integração de propulsores azimutais tornam-se passivos onerosos em vez de diferenciais competitivos.",
+      "O setor de luxo náutico não perdoa o descasamento entre o ciclo de construção e a liquidez imediata. Enquanto projetistas buscam o coeficiente de arrasto ideal, a diretoria esbarra em uma crise de solvência que remete à instabilidade de cascos sem lastro. O mercado observa se o estaleiro conseguirá reconfigurar seu monocoque financeiro antes que a inércia da dívida torne a recuperação uma manobra impossível de ser executada.",
+      "A soberania de um estaleiro é medida pela capacidade de manter o ritmo de entrega sob pressões macroeconômicas extremas. O déficit atual não é apenas um número em uma planilha, mas um teste de resistência para toda a cadeia de suprimentos de alto luxo. A confiança dos investidores depende agora da reengenharia radical dos processos de governança, sob o risco de transformar ícones da engenharia naval em memórias de uma era de expansão desenfreada."
+    ],
+    "specs": {
+      "Prejuízo_Operacional": "€58,7 milhões",
+      "Ano_Fiscal": "2026",
+      "Setor": "Engenharia Naval de Superiates",
+      "Sede": "Marina di Carrara, Itália",
+      "Risco_Crítico": "Estresse de Liquidez Estrutural"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 90,
+    "ranking_score": 90,
+    "engineSource": "gemini:gemini-3.1-flash-lite",
+    "publishedAt": "2026-11-05T18:28:01.381Z",
+    "published_at": "2026-11-05T18:28:01.381Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQThUTERwY3p2QnFCMEVBNGNFY2F6bTJfNGhzR2RRQUc0cDktX3dnSGZ3OGg5SmVUcktTMFJ3d0Zya3UtYmdoREo4V2JrSWRxS3JQTkkxYmVMSnNaNld4Z09vXzh3SVF4OHB2OGZGdEM2NGtuTHU0MFVZR0ZFbUhjeE94b0VrTmht?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQThUTERwY3p2QnFCMEVBNGNFY2F6bTJfNGhzR2RRQUc0cDktX3dnSGZ3OGg5SmVUcktTMFJ3d0Zya3UtYmdoREo4V2JrSWRxS3JQTkkxYmVMSnNaNld4Z09vXzh3SVF4OHB2OGZGdEM2NGtuTHU0MFVZR0ZFbUhjeE94b0VrTmht?oc=5"
+  },
+  {
     "id": "art-ferrari-f50-o-recorde-de-us-187--7347",
     "slug": "ferrari-f50-o-recorde-de-us-187-milhoes-para-o-ultimo-v12-analogico-com-chassi-de-formula-1-7232",
     "title": "Ferrari F50: O Recorde de US$ 18,7 Milhões para o Último V12 Analógico com Chassi de Fórmula 1",
@@ -336,7 +388,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "04 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -364,10 +416,10 @@ export const ARTICLES = [
       "segmento_alvo": "Superiates acima de 60 metros"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 90,
@@ -1364,63 +1416,20 @@ export const ARTICLES = [
     "published_at": "2026-10-31T21:45:28.500Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQall3Q1IwbFZsbFNhQWcyblJGYjFiSkdXMUtHRHQzaUQ3MENJbUV6OVllS2FkU2ljQzZHUjJNa1ZSN0Y2clJscy1INjFIS2NJYUFkVmR1QXBMQlhqOEhtSzNwdkZoeC1rZkFrbzlKenhIMDRKYXF2SWhCS3IzMWZuMHE5Q1pEZGxPLW1FZmxNZ0diQkc2TTk5amFfSUZ6Rlln?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQall3Q1IwbFZsbFNhQWcyblJGYjFiSkdXMUtHRHQzaUQ3MENJbUV6OVllS2FkU2ljQzZHUjJNa1ZSN0Y2clJscy1INjFIS2NJYUFkVmR1QXBMQlhqOEhtSzNwdkZoeC1rZkFrbzlKenhIMDRKYXF2SWhCS3IzMWZuMHE5Q1pEZGxPLW1FZmxNZ0diQkc2TTk5amFfSUZ6Rlln?oc=5"
-  },
-  {
-    "id": "art-bugatti-eb110-widebody-o-primeir-7886",
-    "slug": "bugatti-eb110-widebody-o-primeiro-exemplar-modificado-do-planeta-que-aterrisou-no-concours-de-las-vegas-desafiando-a-ortodoxia-de-campogalliani-7868",
-    "title": "Bugatti EB110 Widebody: O Primeiro Exemplar Modificado do Planeta Que Aterrisou no Concours de Las Vegas Desafiando a Ortodoxia de Campogalliani",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "31 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=max&q=85&w=1800",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "A aparição inédita do primeiro EB110 com alargamento estrutural de carroçaria nas areias de Nevada redefine os limites entre a preservação estática e a brutalidade mecânica dos anos 90.",
-    "contentParagraphs": [
-      "O silêncio do deserto de Nevada foi violentamente rasgado por um assobio metálico inconfundível. Quatro turbos IHI comprimindo ar em um V12 de 3,5 litros com cinco válvulas por cilindro. Não era apenas um clássico exibido sob luz artificial. Era o primeiro Bugatti EB110 widebody do mundo, descarregado diretamente para o asfalto do Las Vegas Concours com a fúria mecânica intacta dos anos dourados de Romano Artioli em Campogalliani.",
-      "As caixas de rodas alargadas em fibra de carbono artesanal abrigam bitolas significativamente expandidas. Esta intervenção cirúrgica altera o coeficiente de arrasto original Cx, mas reconfigura a dinâmica de rolagem para resistir a forças G laterais extremas que o projeto de Paolo Stanzani jamais imaginou suportar nas curvas de alta velocidade. Sob o monocoque em alumínio colado e rebitado, a tração integral permanente distribui o torque bruto para as quatro esquinas, mantendo a aspereza visceral da transmissão manual de seis marchas.",
-      "Puristas torcem o nariz diante da audácia de retocar um projeto assinado por Marcello Gandini. Colecionadores de mentalidade dinástica, contudo, reconhecem nesta conversão um ato de suprema rebeldia cinética. O chassi numerado deixa de ser um fóssil de museu climatizado. Transforma-se em um organismo pulsante que rasga o ar seco do deserto, alimentado por escapamentos redesenhados em ligas de alta temperatura e telemetria inercial adaptada ao século XXI.",
-      "Enquanto leilões globais acumulam exemplares intocados que nunca viram o corte de 8.250 RPM, este espécime único prova que a verdadeira herança mecânica não se preserva sob capas de veludo. Ela exige combustão, tolerâncias milimétricas ajustadas à mão e a coragem implacável de desafiar o dogma estético estabelecido há três décadas."
-    ],
-    "content_paragraphs": [
-      "O silêncio do deserto de Nevada foi violentamente rasgado por um assobio metálico inconfundível. Quatro turbos IHI comprimindo ar em um V12 de 3,5 litros com cinco válvulas por cilindro. Não era apenas um clássico exibido sob luz artificial. Era o primeiro Bugatti EB110 widebody do mundo, descarregado diretamente para o asfalto do Las Vegas Concours com a fúria mecânica intacta dos anos dourados de Romano Artioli em Campogalliani.",
-      "As caixas de rodas alargadas em fibra de carbono artesanal abrigam bitolas significativamente expandidas. Esta intervenção cirúrgica altera o coeficiente de arrasto original Cx, mas reconfigura a dinâmica de rolagem para resistir a forças G laterais extremas que o projeto de Paolo Stanzani jamais imaginou suportar nas curvas de alta velocidade. Sob o monocoque em alumínio colado e rebitado, a tração integral permanente distribui o torque bruto para as quatro esquinas, mantendo a aspereza visceral da transmissão manual de seis marchas.",
-      "Puristas torcem o nariz diante da audácia de retocar um projeto assinado por Marcello Gandini. Colecionadores de mentalidade dinástica, contudo, reconhecem nesta conversão um ato de suprema rebeldia cinética. O chassi numerado deixa de ser um fóssil de museu climatizado. Transforma-se em um organismo pulsante que rasga o ar seco do deserto, alimentado por escapamentos redesenhados em ligas de alta temperatura e telemetria inercial adaptada ao século XXI.",
-      "Enquanto leilões globais acumulam exemplares intocados que nunca viram o corte de 8.250 RPM, este espécime único prova que a verdadeira herança mecânica não se preserva sob capas de veludo. Ela exige combustão, tolerâncias milimétricas ajustadas à mão e a coragem implacável de desafiar o dogma estético estabelecido há três décadas."
-    ],
-    "specs": {
-      "motorizacao": "V12 3.5L Quad-Turboalimentado",
-      "potencia": "560 cv a 8.000 rpm",
-      "transmissao": "Manual de 6 velocidades com tração integral",
-      "modificacao": "Widebody estrutural em fibra de carbono artesanal",
-      "evento": "Las Vegas Concours d'Elegance"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "publishedAt": "2026-10-31T19:08:47.885Z",
-    "published_at": "2026-10-31T19:08:47.885Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT0hHYU1OX0JNTlJGR19pMkFpbFZSMVhlS2huN1N4b1ZhVGR4WW9jVUZ5c1R4LU55U3dJSURjU1BKc1N4LXlOeTFLQXVubDV5QWRGXzhubzg2QUF2M3J6S3U5ZDdZNno2V200cGxyb0RHRHpKTTZ0V3RxREc4UFFtUmJlYno4MkxXcEFjVFh5SFZvckNYeFNHU3BTbnJXVGVSUW5URXlzdTZDZXRs?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT0hHYU1OX0JNTlJGR19pMkFpbFZSMVhlS2huN1N4b1ZhVGR4WW9jVUZ5c1R4LU55U3dJSURjU1BKc1N4LXlOeTFLQXVubDV5QWRGXzhubzg2QUF2M3J6S3U5ZDdZNno2V200cGxyb0RHRHpKTTZ0V3RxREc4UFFtUmJlYno4MkxXcEFjVFh5SFZvckNYeFNHU3BTbnJXVGVSUW5URXlzdTZDZXRs?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "RELOGIOS",
+    "title": "Rolex, Patek Philippe e Audemars Pigue...",
+    "image": "https://robbreport.com/wp-content/uploads/2022/12/RR_Rolex_1202_1.jpg",
+    "tag": "CURADORIA RADAR",
+    "slug": "rolex-patek-philippe-e-audemars-piguet-o-monopolio-de-us-266-bilhoes-do-mercado-secundario-sustentado-por-calibres-raros-e-esmalte-grand-feu-8159"
+  },
+  {
+    "id": "film-2",
     "category": "SUPERCARROS",
     "title": "Ferrari Daytona SP3: O Ícone V12 Aspir...",
     "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
@@ -1428,7 +1437,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-daytona-sp3-o-icone-v12-aspirado-de-166-milhoes-que-prova-a-imunidade-absoluta-do-leilao-de-monterey-1472"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Ferrari S.p.A.: A Soberania de 17,7 Bi...",
     "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
@@ -1436,7 +1445,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-spa-a-soberania-de-177-bilhoes-de-dolares-forjada-em-ligas-de-inconel-e-forca-g-lateral-3606"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Bugatti Veyron Grand Sport e Ferrari E...",
     "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
@@ -1444,7 +1453,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "bugatti-veyron-grand-sport-e-ferrari-enzo-os-24-milhoes-de-dolares-que-custaram-a-imunidade-mecanica-de-floyd-mayweather-6632"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Ferrari Montegrappa: O Instrumento de ...",
     "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
@@ -1452,20 +1461,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-montegrappa-o-instrumento-de-escrita-de-us-4300-forjado-com-titanio-aeroespacial-e-tolerancia-de-microns-4679"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "RELOGIOS",
     "title": "Louis Erard x Vianney Halter Futur Ant...",
     "image": "https://monochrome-watches.com/app/uploads/2026/10/louis-erard-x-vianney-halter-futur-anterieur-antiqua-inspired-collab-review-1.jpg",
     "tag": "CURADORIA RADAR",
     "slug": "louis-erard-x-vianney-halter-futur-anterieur-a-obra-prima-de-99-exemplares-com-caixas-soldadas-a-mao-e-mostradores-graficos-estilo-antiqua-2287"
-  },
-  {
-    "id": "film-6",
-    "category": "DESTINOS",
-    "title": "Superiate Feadship de US$ 39 Milhões: ...",
-    "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
-    "tag": "CURADORIA RADAR",
-    "slug": "superiate-feadship-de-us-39-milhoes-o-arresto-judicial-na-costa-amalfitana-por-uma-falha-de-us-35000-em-salarios-6049"
   }
 ];
 

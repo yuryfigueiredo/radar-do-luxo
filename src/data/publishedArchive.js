@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-the-italian-sea-group-o-colapso--1382",
+    "slug": "the-italian-sea-group-o-colapso-financeiro-de-587-milhoes-que-desafia-a-engenharia-naval-de-alto-luxo-1371",
+    "title": "The Italian Sea Group: O Colapso Financeiro de €58,7 Milhões que Desafia a Engenharia Naval de Alto Luxo",
+    "image": "https://images.unsplash.com/photo-1621277224630-81d9af65e40c?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQThUTERwY3p2QnFCMEVBNGNFY2F6bTJfNGhzR2RRQUc0cDktX3dnSGZ3OGg5SmVUcktTMFJ3d0Zya3UtYmdoREo4V2JrSWRxS3JQTkkxYmVMSnNaNld4Z09vXzh3SVF4OHB2OGZGdEM2NGtuTHU0MFVZR0ZFbUhjeE94b0VrTmht?oc=5",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-05T18:28:01.381Z"
+  },
+  {
     "id": "art-ferrari-f50-o-recorde-de-us-187--7347",
     "slug": "ferrari-f50-o-recorde-de-us-187-milhoes-para-o-ultimo-v12-analogico-com-chassi-de-formula-1-7232",
     "title": "Ferrari F50: O Recorde de US$ 18,7 Milhões para o Último V12 Analógico com Chassi de Fórmula 1",
