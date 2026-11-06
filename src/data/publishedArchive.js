@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-superiate-oceanico-de-185-milhoe-7109",
+    "slug": "superiate-oceanico-de-185-milhoes-de-euros-em-maiorca-o-casco-deslocante-de-aco-com-autonomia-transatlantica-e-propulsao-hibrida-silenciosa-6646",
+    "title": "Superiate Oceânico de 185 Milhões de Euros em Maiorca: O Casco Deslocante de Aço com Autonomia Transatlântica e Propulsão Híbrida Silenciosa",
+    "image": "https://images.unsplash.com/photo-1604737637145-48cc31d160eb?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNTFRa3dzQ21sbXk1bEhqd3g0YTNaVnZnazNWV0tMd24zSDZrZXVsRkgxSjJfdmVYWEppZDhMTlA2eElPZ0VxTHR4M3MtUmNhSVk1Z0xHaTdYQ1BKM0ZhY3pLRFhUS1pkYXdFbVRVYVE5WHVQS3U2NlE5YlJ6dzR5VlVoLXpEMnAwNWJKazFrc3M4M2ZzanlZWllnYUNsdGxFNkFnclhPM3BRNjJObmd5Tm9zamN3bFnSAbcBQVVfeXFMTmJ6dUNmRGYyVzRrdUZ0d1JKYTBBV0haOW9DdjcxYlNnSEY1MFV4VlZfTDdwWTk0VGgtek1JLW8tRmk5ZktSdGhyNVEteXozR3dXN0pMSUs5SURxbTZOTTFINFg1MXhRMEFkOENXVTR0NDU1RlphM0tLTkV4RzR0a0pBVHdzeHNXaHU2NzFZNGJySEtZM095RHM1azVraUxBM0l6NHN4UDYxbGF0R2JvRUFFNkh4a2E4?oc=5",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-06T03:10:47.108Z"
+  },
+  {
     "id": "art-ferrari-mondial-pace-car-o-inves-9505",
     "slug": "ferrari-mondial-pace-car-o-investimento-de-1-milhao-de-dolares-que-desafiou-a-depreciacao-com-engenharia-de-pista-9371",
     "title": "Ferrari Mondial Pace Car: O Investimento de 1 Milhão de Dólares que Desafiou a Depreciação com Engenharia de Pista",

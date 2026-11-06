@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-superiate-oceanico-de-185-milhoe-7109",
+    "slug": "superiate-oceanico-de-185-milhoes-de-euros-em-maiorca-o-casco-deslocante-de-aco-com-autonomia-transatlantica-e-propulsao-hibrida-silenciosa-6646",
+    "title": "Superiate Oceânico de 185 Milhões de Euros em Maiorca: O Casco Deslocante de Aço com Autonomia Transatlântica e Propulsão Híbrida Silenciosa",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "06 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1604737637145-48cc31d160eb?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Ancorado nas Baleares, um colosso naval de 185 milhões de euros redefine os limites da engenharia de superiates, combinando arquitetura naval de alta performance, centro de gravidade otimizado e autonomia global.",
+    "contentParagraphs": [
+      "As águas cristalinas de Maiorca abrigam temporariamente uma escultura flutuante avaliada em 185 milhões de euros. Este superiate não é apenas um refúgio flutuante; é um exercício de obstinação técnica. O casco deslocante corta as ondas com precisão cirúrgica. A proa reta minimiza o arrasto hidrodinâmico. Cada chapa de aço naval foi soldada sob tolerâncias de mícrons. A arquitetura naval prioriza o silêncio absoluto a bordo. O isolamento acústico dissipa vibrações mecânicas antes que alcancem os conveses habitáveis.",
+      "Sob a linha d'água, geradores síncronos alimentam propleiras azimutais de alta eficiência. O sistema de estabilização giroscópica neutraliza o balanço transversal mesmo em mares revoltos de Fuerza 7 na escala Beaufort. A força G lateral experimentada em manobras de guinada é domada por um arranjo estrutural de cavernas reforçadas. O alumínio superleve da superestrutura reduz o peso total, mantendo o centro de gravidade baixo. O resultado é uma estabilidade inercial impecável durante cruzeiros oceánicos de longo curso.",
+      "O interior flutua sobre coxins elastoméricos que isolam totalmente o casco dos motores principais. A praça de máquinas abriga um complexo sistema de tratamento de águas cinzas e exaustores catalíticos. Gases de escape passam por filtros de particulados antes de serem liberados. A autonomia supera sete mil milhas náuticas a doze nós. Propulsão híbrida permite navegação silenciosa em áreas de preservação ambiental sem emitir uma única tonelada de CO2 na atmosfera marinha.",
+      "Adquirir esta embarcação em Maiorca transcende o mero consumo ostentatório. Trata-se de assegurar um ativo de soberania marítima intransigente. A engenharia naval atinge aqui seu ápice funcional. Para o armador que exige deslocamento global sem abdicar da precisão mecânica, este superiate representa a soberania absoluta sobre os oceanos."
+    ],
+    "content_paragraphs": [
+      "As águas cristalinas de Maiorca abrigam temporariamente uma escultura flutuante avaliada em 185 milhões de euros. Este superiate não é apenas um refúgio flutuante; é um exercício de obstinação técnica. O casco deslocante corta as ondas com precisão cirúrgica. A proa reta minimiza o arrasto hidrodinâmico. Cada chapa de aço naval foi soldada sob tolerâncias de mícrons. A arquitetura naval prioriza o silêncio absoluto a bordo. O isolamento acústico dissipa vibrações mecânicas antes que alcancem os conveses habitáveis.",
+      "Sob a linha d'água, geradores síncronos alimentam propleiras azimutais de alta eficiência. O sistema de estabilização giroscópica neutraliza o balanço transversal mesmo em mares revoltos de Fuerza 7 na escala Beaufort. A força G lateral experimentada em manobras de guinada é domada por um arranjo estrutural de cavernas reforçadas. O alumínio superleve da superestrutura reduz o peso total, mantendo o centro de gravidade baixo. O resultado é uma estabilidade inercial impecável durante cruzeiros oceánicos de longo curso.",
+      "O interior flutua sobre coxins elastoméricos que isolam totalmente o casco dos motores principais. A praça de máquinas abriga um complexo sistema de tratamento de águas cinzas e exaustores catalíticos. Gases de escape passam por filtros de particulados antes de serem liberados. A autonomia supera sete mil milhas náuticas a doze nós. Propulsão híbrida permite navegação silenciosa em áreas de preservação ambiental sem emitir uma única tonelada de CO2 na atmosfera marinha.",
+      "Adquirir esta embarcação em Maiorca transcende o mero consumo ostentatório. Trata-se de assegurar um ativo de soberania marítima intransigente. A engenharia naval atinge aqui seu ápice funcional. Para o armador que exige deslocamento global sem abdicar da precisão mecânica, este superiate representa a soberania absoluta sobre os oceanos."
+    ],
+    "specs": {
+      "valor_patrimonial": "185.000.000 EUR",
+      "localizacao_atual": "Maiorca, Espanha",
+      "autonomia_nautica": "7.000 milhas náuticas a 12 nós",
+      "sistema_propulsao": "Híbrido Diesel-Elétrico com Azipods",
+      "material_casco": "Aço Naval de Alta Resistência e Superestrutura em Alumínio"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 90,
+    "ranking_score": 90,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-06T03:10:47.108Z",
+    "published_at": "2026-11-06T03:10:47.108Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNTFRa3dzQ21sbXk1bEhqd3g0YTNaVnZnazNWV0tMd24zSDZrZXVsRkgxSjJfdmVYWEppZDhMTlA2eElPZ0VxTHR4M3MtUmNhSVk1Z0xHaTdYQ1BKM0ZhY3pLRFhUS1pkYXdFbVRVYVE5WHVQS3U2NlE5YlJ6dzR5VlVoLXpEMnAwNWJKazFrc3M4M2ZzanlZWllnYUNsdGxFNkFnclhPM3BRNjJObmd5Tm9zamN3bFnSAbcBQVVfeXFMTmJ6dUNmRGYyVzRrdUZ0d1JKYTBBV0haOW9DdjcxYlNnSEY1MFV4VlZfTDdwWTk0VGgtek1JLW8tRmk5ZktSdGhyNVEteXozR3dXN0pMSUs5SURxbTZOTTFINFg1MXhRMEFkOENXVTR0NDU1RlphM0tLTkV4RzR0a0pBVHdzeHNXaHU2NzFZNGJySEtZM095RHM1azVraUxBM0l6NHN4UDYxbGF0R2JvRUFFNkh4a2E4?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNTFRa3dzQ21sbXk1bEhqd3g0YTNaVnZnazNWV0tMd24zSDZrZXVsRkgxSjJfdmVYWEppZDhMTlA2eElPZ0VxTHR4M3MtUmNhSVk1Z0xHaTdYQ1BKM0ZhY3pLRFhUS1pkYXdFbVRVYVE5WHVQS3U2NlE5YlJ6dzR5VlVoLXpEMnAwNWJKazFrc3M4M2ZzanlZWllnYUNsdGxFNkFnclhPM3BRNjJObmd5Tm9zamN3bFnSAbcBQVVfeXFMTmJ6dUNmRGYyVzRrdUZ0d1JKYTBBV0haOW9DdjcxYlNnSEY1MFV4VlZfTDdwWTk0VGgtek1JLW8tRmk5ZktSdGhyNVEteXozR3dXN0pMSUs5SURxbTZOTTFINFg1MXhRMEFkOENXVTR0NDU1RlphM0tLTkV4RzR0a0pBVHdzeHNXaHU2NzFZNGJySEtZM095RHM1azVraUxBM0l6NHN4UDYxbGF0R2JvRUFFNkh4a2E4?oc=5"
+  },
+  {
     "id": "art-ferrari-mondial-pace-car-o-inves-9505",
     "slug": "ferrari-mondial-pace-car-o-investimento-de-1-milhao-de-dolares-que-desafiou-a-depreciacao-com-engenharia-de-pista-9371",
     "title": "Ferrari Mondial Pace Car: O Investimento de 1 Milhão de Dólares que Desafiou a Depreciação com Engenharia de Pista",
@@ -1366,63 +1418,20 @@ export const ARTICLES = [
     "published_at": "2026-11-01T16:47:24.682Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPT0p0UlZITnJoVTMyNXZ6cmNaUjhVSE50a2RKQzcxLVZ5NDF1SnhYdlFhaUtyMEpLd3lhTWJ2di1DRUZlZ01OcWlpSEwtbmNYRF9kbVJIcHhRQnY5blptOXA5XzRMV0xJenM0V1VlVDlNNVRFLTRCQUtfQXdveVVBZEw5OHNJcFBEbFBILVpYTzNIWmdIblByMUFFa0NaSTRxcExHTFRnZ0xoRlhOc1VHTnJGUXB6SEVVZGZn?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPT0p0UlZITnJoVTMyNXZ6cmNaUjhVSE50a2RKQzcxLVZ5NDF1SnhYdlFhaUtyMEpLd3lhTWJ2di1DRUZlZ01OcWlpSEwtbmNYRF9kbVJIcHhRQnY5blptOXA5XzRMV0xJenM0V1VlVDlNNVRFLTRCQUtfQXdveVVBZEw5OHNJcFBEbFBILVpYTzNIWmdIblByMUFFa0NaSTRxcExHTFRnZ0xoRlhOc1VHTnJGUXB6SEVVZGZn?oc=5"
-  },
-  {
-    "id": "art-louis-erard-x-vianney-halter-fut-2299",
-    "slug": "louis-erard-x-vianney-halter-futur-anterieur-a-obra-prima-de-99-exemplares-com-caixas-soldadas-a-mao-e-mostradores-graficos-estilo-antiqua-2287",
-    "title": "Louis Erard x Vianney Halter Futur Antérieur: A Obra-Prima de 99 Exemplares com Caixas Soldadas à Mão e Mostradores Gráficos Estilo Antiqua",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "category_slug": "relogios",
-    "authorSlug": "clara-meirelles",
-    "author_slug": "clara-meirelles",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "01 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://monochrome-watches.com/app/uploads/2026/10/louis-erard-x-vianney-halter-futur-anterieur-antiqua-inspired-collab-review-1.jpg",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A Vallée de Joux testemunha o encontro entre a vanguarda independente e a manufatura contemporânea, gerando um calibre de manufatura com arquitetura modular que desafia a geometria tradicional.",
-    "contentParagraphs": [
-      "O silêncio do ateliê esconde a audácia. Vianney Halter não desenha relógios. Ele arquiteta miniaturas temporais que zombam das convenções estéticas. A nova colaboração com a Louis Erard materializa o imaginário da célebre Antiqua em uma escala acessível, mantendo intacta a obsessão por volumes tridimensionais e pontes expostas.",
-      "A caixa em aço inoxidável polido mede 39 milímetros de diâmetro e abriga múltiplos elementos soldados individualmente. Cada junção exige paciência mineral. A anglage com sabugueiro silvestre revela o esmero manual que nenhuma máquina automatizada consegue replicar. Sob o vidro de safira abaulado, os contadores satélites exibem horas, minutos e segundos em uma disposição steampunk perfeitamente calibrada.",
-      "Movendo os ponteiros em formato de lança está um movimento automático Sellita modificado com rigor absoluto, entregando 38 horas de reserva de marcha e batendo a 28.800 alternâncias por hora. As pontes e engrenagens recebem acabamento circular e chanfrados à mão, atestando que a alta-relojoaria mecânica tolera apenas a lentidão deliberada do artesão que domina o buril de aço.",
-      "A escassez define o valor final. Com uma tiragem estritamente limitada a 99 peças numeradas, esta edição não busca a aprovação do mercado de massa. Ela atrai colecionadores que compreendem a soberania patrimonial de portar uma herança mecânica destinada a desafiar décadas de obsolescência programada."
-    ],
-    "content_paragraphs": [
-      "O silêncio do ateliê esconde a audácia. Vianney Halter não desenha relógios. Ele arquiteta miniaturas temporais que zombam das convenções estéticas. A nova colaboração com a Louis Erard materializa o imaginário da célebre Antiqua em uma escala acessível, mantendo intacta a obsessão por volumes tridimensionais e pontes expostas.",
-      "A caixa em aço inoxidável polido mede 39 milímetros de diâmetro e abriga múltiplos elementos soldados individualmente. Cada junção exige paciência mineral. A anglage com sabugueiro silvestre revela o esmero manual que nenhuma máquina automatizada consegue replicar. Sob o vidro de safira abaulado, os contadores satélites exibem horas, minutos e segundos em uma disposição steampunk perfeitamente calibrada.",
-      "Movendo os ponteiros em formato de lança está um movimento automático Sellita modificado com rigor absoluto, entregando 38 horas de reserva de marcha e batendo a 28.800 alternâncias por hora. As pontes e engrenagens recebem acabamento circular e chanfrados à mão, atestando que a alta-relojoaria mecânica tolera apenas a lentidão deliberada do artesão que domina o buril de aço.",
-      "A escassez define o valor final. Com uma tiragem estritamente limitada a 99 peças numeradas, esta edição não busca a aprovação do mercado de massa. Ela atrai colecionadores que compreendem a soberania patrimonial de portar uma herança mecânica destinada a desafiar décadas de obsolescência programada."
-    ],
-    "specs": {
-      "Calibre": "Sellita SW266-1 com módulo exclusivo Vianney Halter",
-      "Material da Caixa": "Aço inoxidável polido com construção modular soldada",
-      "Dimensões": "39mm de diâmetro por 12,82mm de espessura",
-      "Tiragem": "Edição limitada de 99 exemplares",
-      "Correia": "Couro de bezerro granulado com fecho ardillon personalizado"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 86,
-    "ranking_score": 86,
-    "publishedAt": "2026-11-01T16:01:12.299Z",
-    "published_at": "2026-11-01T16:01:12.299Z",
-    "sourceUrl": "https://monochrome-watches.com/louis-erard-x-vianney-halter-futur-anterieur-antiqua-inspired-collab-review-price/",
-    "source_url": "https://monochrome-watches.com/louis-erard-x-vianney-halter-futur-anterieur-antiqua-inspired-collab-review-price/"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "RELOGIOS",
+    "title": "H. Moser & Cie. Heritage: Dois Relógio...",
+    "image": "https://monochrome-watches.com/app/uploads/2026/11/2026-H-Moser-Cie-Heritage-Chronograph-White-fume-and-Heritage-Centre-Seconds-Espresso-fume-review.jpg",
+    "tag": "CURADORIA RADAR",
+    "slug": "h-moser-cie-heritage-dois-relogios-mecanicos-com-mostradores-fume-desafiando-o-efemero-digital-3988"
+  },
+  {
+    "id": "film-2",
     "category": "ARQUITETURA",
     "title": "Romanov Sapphire: O Monólito Birmanês ...",
     "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=max&q=80&w=1400",
@@ -1430,7 +1439,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "romanov-sapphire-o-monolito-birmanes-de-197-quilates-que-redefine-a-soberania-dinastica-nos-leiloes-de-genebra-3251"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "DESTINOS",
     "title": "Brabus Shadow E-Hydrofoil: O Brinquedo...",
     "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800",
@@ -1438,7 +1447,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "brabus-shadow-e-hydrofoil-o-brinquedo-nautico-de-us-20490-com-hidrofolio-de-fibra-de-carbono-e-28-nos-de-voo-9050"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "RELOGIOS",
     "title": "Rolex, Patek Philippe e Audemars Pigue...",
     "image": "https://robbreport.com/wp-content/uploads/2022/12/RR_Rolex_1202_1.jpg",
@@ -1446,7 +1455,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "rolex-patek-philippe-e-audemars-piguet-o-monopolio-de-us-266-bilhoes-do-mercado-secundario-sustentado-por-calibres-raros-e-esmalte-grand-feu-8159"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Ferrari Daytona SP3: O Ícone V12 Aspir...",
     "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
@@ -1454,20 +1463,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-daytona-sp3-o-icone-v12-aspirado-de-166-milhoes-que-prova-a-imunidade-absoluta-do-leilao-de-monterey-1472"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Ferrari S.p.A.: A Soberania de 17,7 Bi...",
     "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "ferrari-spa-a-soberania-de-177-bilhoes-de-dolares-forjada-em-ligas-de-inconel-e-forca-g-lateral-3606"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Bugatti Veyron Grand Sport e Ferrari E...",
-    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "bugatti-veyron-grand-sport-e-ferrari-enzo-os-24-milhoes-de-dolares-que-custaram-a-imunidade-mecanica-de-floyd-mayweather-6632"
   }
 ];
 
