@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-ferrari-mondial-pace-car-o-inves-9505",
+    "slug": "ferrari-mondial-pace-car-o-investimento-de-1-milhao-de-dolares-que-desafiou-a-depreciacao-com-engenharia-de-pista-9371",
+    "title": "Ferrari Mondial Pace Car: O Investimento de 1 Milhão de Dólares que Desafiou a Depreciação com Engenharia de Pista",
+    "image": "https://images.unsplash.com/photo-1766353134008-bb3b8b99ddd2?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcTNqZjVyWGtTeXN6bmdxVHhkMVV1ejgydHJETm9tMHpCc3pheU5lWFlQa3kzT29iWUtnX21vVksxMnZLVC1zQ2pGUnZkbUtoMWpuZzY0bklUODR2OUpMTHE0TERWamJTMVpfUUJQUHIyMUwwOEw4YWVhcUtfUjRfMnI1VlYxNnNXN3NXdkRQN1pqckphQk1icWFHVnpwYnBJbW1N?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-06T01:26:29.505Z"
+  },
+  {
     "id": "art-ferrari-431-milhoes-em-lucro-tri-3210",
     "slug": "ferrari-431-milhoes-em-lucro-trimestral-que-valida-a-engenharia-de-precisao-sobre-a-producao-de-massa-3200",
     "title": "Ferrari: €431 Milhões em Lucro Trimestral que Valida a Engenharia de Precisão sobre a Produção de Massa",

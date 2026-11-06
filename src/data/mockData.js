@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-ferrari-mondial-pace-car-o-inves-9505",
+    "slug": "ferrari-mondial-pace-car-o-investimento-de-1-milhao-de-dolares-que-desafiou-a-depreciacao-com-engenharia-de-pista-9371",
+    "title": "Ferrari Mondial Pace Car: O Investimento de 1 Milhão de Dólares que Desafiou a Depreciação com Engenharia de Pista",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "06 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1766353134008-bb3b8b99ddd2?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "Uma análise sobre a disparidade entre o custo de desenvolvimento de um protótipo de pista e o valor de mercado, revelando a crueza da telemetria contra o desdém do colecionador.",
+    "contentParagraphs": [
+      "A Ferrari Mondial, frequentemente subestimada pelo purismo estrito, esconde sob sua carroceria um capítulo de audácia técnica. Em 1980, Maranello injetou um milhão de dólares para transformar o modelo em um pace car de competições, alterando a rigidez estrutural e a distribuição de massas. O chassi foi reforçado com soldas de precisão aeronáutica e o motor V8 de 3.0 litros recebeu ajustes de compressão que alteraram seu comportamento térmico. O resultado foi um objeto de engenharia destinado a liderar pelotões, não apenas a compor coleções estáticas.",
+      "A telemetria da época exigia um fluxo de ar otimizado para manter o resfriamento em regimes de marcha lenta prolongada sob sol intenso. Radiadores superdimensionados e dutos de admissão redesenhados garantiam que o propulsor operasse dentro da janela ideal de 90°C, mesmo com o motor sob estresse constante de baixa velocidade. A suspensão, recalibrada para suportar a carga dinâmica de entrada em curvas de alta, utilizava amortecedores com válvulas de passagem rápida, combatendo o rolamento excessivo da carroceria original. Cada componente foi curado em autoclave, priorizando a função sobre a estética de showroom.",
+      "O mercado, contudo, possui uma lógica cruel que ignora o investimento de engenharia em protótipos funcionais. Em 2004, este exemplar foi transacionado por meros 85.330 dólares, uma fração ínfima do capital despendido em sua preparação. Esta desvalorização agressiva ilustra a falácia do custo de desenvolvimento: o valor histórico de um hipercarro raramente coincide com a soma de suas peças ou com o orçamento de seu ateliê. A liquidez de um ativo automotivo é ditada pelo consenso do colecionismo, que frequentemente pune a experimentação técnica em detrimento da linhagem de produção em série.",
+      "Hoje, o Mondial Pace Car permanece como um lembrete da arrogância técnica de Maranello frente à volatilidade do mercado. Ele não é apenas um veículo; é uma peça de telemetria inercial que sobreviveu à própria obsolescência financeira. Enquanto o mercado busca a segurança de modelos com pedigree de leilão, este Ferrari permanece como um testemunho visceral de que a engenharia de pista, por mais dispendiosa que seja, é uma aposta de alto risco contra a entropia do tempo. A verdadeira natureza do luxo mecânico reside na capacidade de resistir ao descarte, mesmo quando o mercado tenta ignorar sua existência."
+    ],
+    "content_paragraphs": [
+      "A Ferrari Mondial, frequentemente subestimada pelo purismo estrito, esconde sob sua carroceria um capítulo de audácia técnica. Em 1980, Maranello injetou um milhão de dólares para transformar o modelo em um pace car de competições, alterando a rigidez estrutural e a distribuição de massas. O chassi foi reforçado com soldas de precisão aeronáutica e o motor V8 de 3.0 litros recebeu ajustes de compressão que alteraram seu comportamento térmico. O resultado foi um objeto de engenharia destinado a liderar pelotões, não apenas a compor coleções estáticas.",
+      "A telemetria da época exigia um fluxo de ar otimizado para manter o resfriamento em regimes de marcha lenta prolongada sob sol intenso. Radiadores superdimensionados e dutos de admissão redesenhados garantiam que o propulsor operasse dentro da janela ideal de 90°C, mesmo com o motor sob estresse constante de baixa velocidade. A suspensão, recalibrada para suportar a carga dinâmica de entrada em curvas de alta, utilizava amortecedores com válvulas de passagem rápida, combatendo o rolamento excessivo da carroceria original. Cada componente foi curado em autoclave, priorizando a função sobre a estética de showroom.",
+      "O mercado, contudo, possui uma lógica cruel que ignora o investimento de engenharia em protótipos funcionais. Em 2004, este exemplar foi transacionado por meros 85.330 dólares, uma fração ínfima do capital despendido em sua preparação. Esta desvalorização agressiva ilustra a falácia do custo de desenvolvimento: o valor histórico de um hipercarro raramente coincide com a soma de suas peças ou com o orçamento de seu ateliê. A liquidez de um ativo automotivo é ditada pelo consenso do colecionismo, que frequentemente pune a experimentação técnica em detrimento da linhagem de produção em série.",
+      "Hoje, o Mondial Pace Car permanece como um lembrete da arrogância técnica de Maranello frente à volatilidade do mercado. Ele não é apenas um veículo; é uma peça de telemetria inercial que sobreviveu à própria obsolescência financeira. Enquanto o mercado busca a segurança de modelos com pedigree de leilão, este Ferrari permanece como um testemunho visceral de que a engenharia de pista, por mais dispendiosa que seja, é uma aposta de alto risco contra a entropia do tempo. A verdadeira natureza do luxo mecânico reside na capacidade de resistir ao descarte, mesmo quando o mercado tenta ignorar sua existência."
+    ],
+    "specs": {
+      "motor": "V8 3.0L aspirado",
+      "transformacao": "Pace Car de competição",
+      "investimento_original": "1.000.000 USD",
+      "preco_venda_2004": "85.330 USD",
+      "foco_engenharia": "Fluxo térmico e rigidez estrutural"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "gemini:gemini-3.1-flash-lite",
+    "publishedAt": "2026-11-06T01:26:29.505Z",
+    "published_at": "2026-11-06T01:26:29.505Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcTNqZjVyWGtTeXN6bmdxVHhkMVV1ejgydHJETm9tMHpCc3pheU5lWFlQa3kzT29iWUtnX21vVksxMnZLVC1zQ2pGUnZkbUtoMWpuZzY0bklUODR2OUpMTHE0TERWamJTMVpfUUJQUHIyMUwwOEw4YWVhcUtfUjRfMnI1VlYxNnNXN3NXdkRQN1pqckphQk1icWFHVnpwYnBJbW1N?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcTNqZjVyWGtTeXN6bmdxVHhkMVV1ejgydHJETm9tMHpCc3pheU5lWFlQa3kzT29iWUtnX21vVksxMnZLVC1zQ2pGUnZkbUtoMWpuZzY0bklUODR2OUpMTHE0TERWamJTMVpfUUJQUHIyMUwwOEw4YWVhcUtfUjRfMnI1VlYxNnNXN3NXdkRQN1pqckphQk1icWFHVnpwYnBJbW1N?oc=5"
+  },
+  {
     "id": "art-ferrari-431-milhoes-em-lucro-tri-3210",
     "slug": "ferrari-431-milhoes-em-lucro-trimestral-que-valida-a-engenharia-de-precisao-sobre-a-producao-de-massa-3200",
     "title": "Ferrari: €431 Milhões em Lucro Trimestral que Valida a Engenharia de Precisão sobre a Produção de Massa",
@@ -1365,63 +1417,20 @@ export const ARTICLES = [
     "published_at": "2026-11-01T16:01:12.299Z",
     "sourceUrl": "https://monochrome-watches.com/louis-erard-x-vianney-halter-futur-anterieur-antiqua-inspired-collab-review-price/",
     "source_url": "https://monochrome-watches.com/louis-erard-x-vianney-halter-futur-anterieur-antiqua-inspired-collab-review-price/"
-  },
-  {
-    "id": "art-superiate-feadship-de-us-39-milh-6064",
-    "slug": "superiate-feadship-de-us-39-milhoes-o-arresto-judicial-na-costa-amalfitana-por-uma-falha-de-us-35000-em-salarios-6049",
-    "title": "Superiate Feadship de US$ 39 Milhões: O Arresto Judicial na Costa Amalfitana por Uma Falha de US$ 35.000 em Salários",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "31 de outubro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Uma disputa trabalhista de proporções mínimas paralisa um casco naval de US$ 39 milhões na Itália, evidenciando a fragilidade jurídica de ativos oceânicos de alto padrão.",
-    "contentParagraphs": [
-      "A náutica de elite ignora o óbvio. Um superiate avaliado em 39 milhões de dólares repousa imóvel nas águas da Itália. O motivo não é uma falha estrutural nos motores a diesel MTU ou uma avaria nos estabilizadores giroscópicos. O estopim foi uma demanda de trinta e cinco mil dólares em salários retidos de um oficial de convés ferido. A soberania de uma embarcação transoceânica curvou-se diante de uma ordem de arresto emitida por tribunais locais.",
-      "O casco em aço naval e superestrutura em alumínio, concebido para cortar ondas com tolerâncias de mícrons em soldas estruturais, agora enfrenta a inércia burocrática. Cada metro quadrado de teca birmanesa e cada painel de mármore calibrado nos salões principais tornam-se irrelevantes quando a lei marítima internacional é acionada por um tripulante marginalizado. A força G lateral que o navio suporta em manobras de mar aberto contrasta com a fragilidade de sua custódia legal.",
-      "Burocracias portuárias na Itália operam com rigor implacável em litígios trabalhistas. O proprietário, envolto em estruturas corporativas opacas em paraísos fiscais, descobre que o capital imobilizado perde liquidez instantaneamente quando bandeiras de conveniência colidem com direitos marítimos fundamentais. O sistema hidráulico de alta pressão das garagens de tenders e as plataformas de banho rebatíveis permanecem trancadas, reféns de uma petição protocolada por quem operava os guinchos de amarração.",
-      "Este episódio redefine os riscos invisíveis da náutica de grandes proporções. Não basta dominar os coeficientes de arrasto hidrodinâmico ou especificar linhas d'água otimizadas para transpor oceanos em velocidade de cruzeiro. A verdadeira engenharia naval exige governança jurídica impecável para evitar que um ativo de dezenas de milhões de dólares seja neutralizado por uma fração irrisória de seu valor venal."
-    ],
-    "content_paragraphs": [
-      "A náutica de elite ignora o óbvio. Um superiate avaliado em 39 milhões de dólares repousa imóvel nas águas da Itália. O motivo não é uma falha estrutural nos motores a diesel MTU ou uma avaria nos estabilizadores giroscópicos. O estopim foi uma demanda de trinta e cinco mil dólares em salários retidos de um oficial de convés ferido. A soberania de uma embarcação transoceânica curvou-se diante de uma ordem de arresto emitida por tribunais locais.",
-      "O casco em aço naval e superestrutura em alumínio, concebido para cortar ondas com tolerâncias de mícrons em soldas estruturais, agora enfrenta a inércia burocrática. Cada metro quadrado de teca birmanesa e cada painel de mármore calibrado nos salões principais tornam-se irrelevantes quando a lei marítima internacional é acionada por um tripulante marginalizado. A força G lateral que o navio suporta em manobras de mar aberto contrasta com a fragilidade de sua custódia legal.",
-      "Burocracias portuárias na Itália operam com rigor implacável em litígios trabalhistas. O proprietário, envolto em estruturas corporativas opacas em paraísos fiscais, descobre que o capital imobilizado perde liquidez instantaneamente quando bandeiras de conveniência colidem com direitos marítimos fundamentais. O sistema hidráulico de alta pressão das garagens de tenders e as plataformas de banho rebatíveis permanecem trancadas, reféns de uma petição protocolada por quem operava os guinchos de amarração.",
-      "Este episódio redefine os riscos invisíveis da náutica de grandes proporções. Não basta dominar os coeficientes de arrasto hidrodinâmico ou especificar linhas d'água otimizadas para transpor oceanos em velocidade de cruzeiro. A verdadeira engenharia naval exige governança jurídica impecável para evitar que um ativo de dezenas de milhões de dólares seja neutralizado por uma fração irrisória de seu valor venal."
-    ],
-    "specs": {
-      "Valor de Mercado": "US$ 39.000.000",
-      "Jurisdição do Arresto": "Costa Amalfitana, Itália",
-      "Motivo da Paralisação": "Reclamação trabalhista de US$ 35.000",
-      "Ativo Afetado": "Superiate de deslocamento completo",
-      "Instância Legal": "Tribunal Marítimo Local"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 90,
-    "ranking_score": 90,
-    "publishedAt": "2026-10-31T22:28:16.064Z",
-    "published_at": "2026-10-31T22:28:16.064Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVmpVcWF2ckY4eGZSQmFQa2VCMDM3bWNVMTVpUmFCaEJXUlFHOVMtWWZ2VjM3THRrTUE2WWZ5TE1qZFVfYzhIXzdSbWdwTTVQYkd6dU1pX2Q2ZGpZVEhFRHIycGVCeS1WUl9PTllNTzRFTDdhYjRaNHBnLWNNZE5vWHN1cTgxNlVvYnBVMnVR?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVmpVcWF2ckY4eGZSQmFQa2VCMDM3bWNVMTVpUmFCaEJXUlFHOVMtWWZ2VjM3THRrTUE2WWZ5TE1qZFVfYzhIXzdSbWdwTTVQYkd6dU1pX2Q2ZGpZVEhFRHIycGVCeS1WUl9PTllNTzRFTDdhYjRaNHBnLWNNZE5vWHN1cTgxNlVvYnBVMnVR?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "ARQUITETURA",
+    "title": "Romanov Sapphire: O Monólito Birmanês ...",
+    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "romanov-sapphire-o-monolito-birmanes-de-197-quilates-que-redefine-a-soberania-dinastica-nos-leiloes-de-genebra-3251"
+  },
+  {
+    "id": "film-2",
     "category": "DESTINOS",
     "title": "Brabus Shadow E-Hydrofoil: O Brinquedo...",
     "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800",
@@ -1429,7 +1438,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "brabus-shadow-e-hydrofoil-o-brinquedo-nautico-de-us-20490-com-hidrofolio-de-fibra-de-carbono-e-28-nos-de-voo-9050"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "RELOGIOS",
     "title": "Rolex, Patek Philippe e Audemars Pigue...",
     "image": "https://robbreport.com/wp-content/uploads/2022/12/RR_Rolex_1202_1.jpg",
@@ -1437,7 +1446,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "rolex-patek-philippe-e-audemars-piguet-o-monopolio-de-us-266-bilhoes-do-mercado-secundario-sustentado-por-calibres-raros-e-esmalte-grand-feu-8159"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Ferrari Daytona SP3: O Ícone V12 Aspir...",
     "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
@@ -1445,7 +1454,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-daytona-sp3-o-icone-v12-aspirado-de-166-milhoes-que-prova-a-imunidade-absoluta-do-leilao-de-monterey-1472"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Ferrari S.p.A.: A Soberania de 17,7 Bi...",
     "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
@@ -1453,20 +1462,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-spa-a-soberania-de-177-bilhoes-de-dolares-forjada-em-ligas-de-inconel-e-forca-g-lateral-3606"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Bugatti Veyron Grand Sport e Ferrari E...",
     "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "bugatti-veyron-grand-sport-e-ferrari-enzo-os-24-milhoes-de-dolares-que-custaram-a-imunidade-mecanica-de-floyd-mayweather-6632"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Ferrari Montegrappa: O Instrumento de ...",
-    "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "ferrari-montegrappa-o-instrumento-de-escrita-de-us-4300-forjado-com-titanio-aeroespacial-e-tolerancia-de-microns-4679"
   }
 ];
 
