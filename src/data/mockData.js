@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-toyota-gr010-hybrid-o-prototipo--7703",
+    "slug": "toyota-gr010-hybrid-o-prototipo-de-resistencia-de-680-cv-que-marca-a-despedida-cinetica-de-mike-conway-nas-pistas-7216",
+    "title": "Toyota GR010 Hybrid: O Protótipo de Resistência de 680 cv que Marca a Despedida Cinética de Mike Conway nas Pistas",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "06 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1731770758454-9d283a702306?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "Em uma era de eletrificação precoce e descarte rápido, o prototipo da classe Hypercar da Toyota consolida anos de engenharia obsessiva na última dança de Mike Conway pelo WEC.",
+    "contentParagraphs": [
+      "O asfalto de Sakhir treme sob a carga térmica do motor V3.5 biturbo acoplado ao sistema híbrido do eixo dianteiro. Tolerâncias milimétricas ditam o fluxo do ar através dos túneis Venturi esculpidos sob o assoalho de fibra de carbono. A aerodinâmica ativa e passiva trabalha em silêncio absoluto para manter o monocoque grudado ao solo a 300 km/h.",
+      "Mike Conway aperta o cinto de seis pontos pela última vez em um cockpit moldado milimetricamente à sua anatomia. A telemetria inercial registra picos brutais de força G lateral nas curvas de alta velocidade. Cada frenagem regenerativa converte energia cinética pura em eletricidade de alta voltagem para alimentar as baterias de íon-lítio desenvolvidas na vanguarda da competição.",
+      "A relação peso-potência de 1,4 kg/cv impõe um estresse térmico implacável sobre os discos de freio em carbono-cerâmica e as pinças forjadas. O escape em Inconel 625 brilha em tom cereja sob a penumbra da noite no Bahrein. É a fúria mecânica contida apenas pela disciplina algorítmica dos engenheiros de pista no box da Gazoo Racing.",
+      "Enquanto o regulamento LMDh avança com soluções padronizadas, a Toyota preserva a arquitetura própria de protótipo de fábrica. O canto do cisne de Conway não representa o fim de uma carreira, mas a consolidação de uma era onde o motor térmico de combustão interna ainda desafia os limites da física com precisão cirúrgica."
+    ],
+    "content_paragraphs": [
+      "O asfalto de Sakhir treme sob a carga térmica do motor V3.5 biturbo acoplado ao sistema híbrido do eixo dianteiro. Tolerâncias milimétricas ditam o fluxo do ar através dos túneis Venturi esculpidos sob o assoalho de fibra de carbono. A aerodinâmica ativa e passiva trabalha em silêncio absoluto para manter o monocoque grudado ao solo a 300 km/h.",
+      "Mike Conway aperta o cinto de seis pontos pela última vez em um cockpit moldado milimetricamente à sua anatomia. A telemetria inercial registra picos brutais de força G lateral nas curvas de alta velocidade. Cada frenagem regenerativa converte energia cinética pura em eletricidade de alta voltagem para alimentar as baterias de íon-lítio desenvolvidas na vanguarda da competição.",
+      "A relação peso-potência de 1,4 kg/cv impõe um estresse térmico implacável sobre os discos de freio em carbono-cerâmica e as pinças forjadas. O escape em Inconel 625 brilha em tom cereja sob a penumbra da noite no Bahrein. É a fúria mecânica contida apenas pela disciplina algorítmica dos engenheiros de pista no box da Gazoo Racing.",
+      "Enquanto o regulamento LMDh avança com soluções padronizadas, a Toyota preserva a arquitetura própria de protótipo de fábrica. O canto do cisne de Conway não representa o fim de uma carreira, mas a consolidação de uma era onde o motor térmico de combustão interna ainda desafia os limites da física com precisão cirúrgica."
+    ],
+    "specs": {
+      "Arquitetura do Motor": "V3.5 biturbo de injeção direta",
+      "Potência Combinada": "680 cv (limite regulamentar LMH)",
+      "Transmissão": "Sequencial transversal de 7 marchas",
+      "Peso Mínimo": "1.040 kg em ordem de marcha",
+      "Aerodinâmica": "Efeito solo integrado com túneis Venturi"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-06T15:07:47.703Z",
+    "published_at": "2026-11-06T15:07:47.703Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSjJwUi1ReV9UNGRyS1NqYmRJZnZDV1o3dU9DTlVKYWd3WFdrdFZIWlJyaUhOb2Q0bUFfdXJaQWpJYU1sTUEtdk9kSmg5YUFoV1EtOEdiaUpJXzVEYmpCaVEyS2JNNU9XRm82Ui1zdHptcjBPZFNCYTB0dVdNNENrdDkyT2Y5QmVKSnFCWmZuaW5Kc2NiVEZZYmdyeEVNalliQ3N3S0xNLXlpLVdt?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSjJwUi1ReV9UNGRyS1NqYmRJZnZDV1o3dU9DTlVKYWd3WFdrdFZIWlJyaUhOb2Q0bUFfdXJaQWpJYU1sTUEtdk9kSmg5YUFoV1EtOEdiaUpJXzVEYmpCaVEyS2JNNU9XRm82Ui1zdHptcjBPZFNCYTB0dVdNNENrdDkyT2Y5QmVKSnFCWmZuaW5Kc2NiVEZZYmdyeEVNalliQ3N3S0xNLXlpLVdt?oc=5"
+  },
+  {
     "id": "art-megaiates-de-100-metros-a-escass-4879",
     "slug": "megaiates-de-100-metros-a-escassez-absoluta-de-bercos-de-50-milhoes-de-dolares-que-redesenha-a-hidraulica-global-4871",
     "title": "Megaiates de 100 Metros: A Escassez Absoluta de Berços de 50 Milhões de Dólares que Redesenha a Hidráulica Global",
@@ -1368,63 +1420,20 @@ export const ARTICLES = [
     "published_at": "2026-11-02T02:34:01.475Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4xVGdZQTkwUDRuNExabGU4ZTFwQzhMXzh3RXM5cDJkVnF0MWNVWDV1Yzc2ek9aeDRIYTNoMFNsZFBiQUlCRjNmbEljUWF1ZHJBb1lValRWS0JPT2stSUJjTUg2NG9yNTlxYl9pUHFHTFlCeUJ5aVY2eWpR?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4xVGdZQTkwUDRuNExabGU4ZTFwQzhMXzh3RXM5cDJkVnF0MWNVWDV1Yzc2ek9aeDRIYTNoMFNsZFBiQUlCRjNmbEljUWF1ZHJBb1lValRWS0JPT2stSUJjTUg2NG9yNTlxYl9pUHFHTFlCeUJ5aVY2eWpR?oc=5"
-  },
-  {
-    "id": "art-ferrari-spa-a-soberania-de-177-b-3626",
-    "slug": "ferrari-spa-a-soberania-de-177-bilhoes-de-dolares-forjada-em-ligas-de-inconel-e-forca-g-lateral-3606",
-    "title": "Ferrari S.p.A.: A Soberania de 17,7 Bilhões de Dólares Forjada em Ligas de Inconel e Força G Lateral",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "01 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "A valorização de 14% no portfolio de Maranello não decorre da inflação financeira, mas da precisão inegociável de tolerâncias em mícrons e motores aspirados a 9.000 RPM.",
-    "contentParagraphs": [
-      "O mercado global consome ruído digital. Maranello entrega silêncio operacional e blocos térmicos fundidos com a precisão de um cirurgião cardíaco. A recente ascensão patrimonial que elevou o valuation da marca a 17,7 bilhões de dólares em 2026 comprova uma tese imutável. O dinheiro recente busca holofotes. A aristocracia industrial busca o monocoque em carbo-titânio curado em autoclave a 6 bar.",
-      "Cada linha de Maranello obedece a uma geometria implacável. Os fluxos de Venturi geram downforce brutal sem recorrer a apêndices aerodinâmicos espalhafatosos. A força G lateral exercida nas curvas de alta velocidade esmaga as costelas do piloto enquanto a telemetria inercial registra cada microvariação no asfalto. O escape em Inconel 625 incandesce sob cargas extremas, cantando a liturgia mecânica que os propulsores elétricos jamais conseguirão sintetizar.",
-      "Enquanto conglomerados automotivos entregam utilitários descartáveis baseados em atualizações de software nuvem, a escassez matemática de Maranello dita a lei da oferta. As listas de espera ultrapassam lustros inteiros. Os clientes não compram um meio de transporte. Adquirem um refúgio de liquidez tangível, blindado contra a obsolescência programada e ancorado na tradição intransigente da pista de Fiorano.",
-      "A marca de Maranello venceu porque recusou a mediocridade conveniente. Em uma era de telas táteis reluzentes destinadas ao lixo eletrônico, segurar um volante esculpido em fibra e acionar um V12 aspirado é o último ato de verdadeira rebeldia humana. Os bilhões de dólares refletem apenas o saldo contábil desta soberania mecânica absoluta."
-    ],
-    "content_paragraphs": [
-      "O mercado global consome ruído digital. Maranello entrega silêncio operacional e blocos térmicos fundidos com a precisão de um cirurgião cardíaco. A recente ascensão patrimonial que elevou o valuation da marca a 17,7 bilhões de dólares em 2026 comprova uma tese imutável. O dinheiro recente busca holofotes. A aristocracia industrial busca o monocoque em carbo-titânio curado em autoclave a 6 bar.",
-      "Cada linha de Maranello obedece a uma geometria implacável. Os fluxos de Venturi geram downforce brutal sem recorrer a apêndices aerodinâmicos espalhafatosos. A força G lateral exercida nas curvas de alta velocidade esmaga as costelas do piloto enquanto a telemetria inercial registra cada microvariação no asfalto. O escape em Inconel 625 incandesce sob cargas extremas, cantando a liturgia mecânica que os propulsores elétricos jamais conseguirão sintetizar.",
-      "Enquanto conglomerados automotivos entregam utilitários descartáveis baseados em atualizações de software nuvem, a escassez matemática de Maranello dita a lei da oferta. As listas de espera ultrapassam lustros inteiros. Os clientes não compram um meio de transporte. Adquirem um refúgio de liquidez tangível, blindado contra a obsolescência programada e ancorado na tradição intransigente da pista de Fiorano.",
-      "A marca de Maranello venceu porque recusou a mediocridade conveniente. Em uma era de telas táteis reluzentes destinadas ao lixo eletrônico, segurar um volante esculpido em fibra e acionar um V12 aspirado é o último ato de verdadeira rebeldia humana. Os bilhões de dólares refletem apenas o saldo contábil desta soberania mecânica absoluta."
-    ],
-    "specs": {
-      "valuation_2026": "US$ 17,7 bilhões (+14%)",
-      "tolerancia_chassi": "Abaixo de 5 mícrons",
-      "material_escape": "Inconel 625 de grau aeroespacial",
-      "pressao_autoclave": "6 bar em cura de carbo-titânio",
-      "limite_rotacional": "9.000 RPM no eixo dinâmico"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 94,
-    "ranking_score": 94,
-    "publishedAt": "2026-11-01T22:35:53.626Z",
-    "published_at": "2026-11-01T22:35:53.626Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYnhVU1lzalVCZ0Q2cVVsZlFHdGpJOTdLLXlHMW5ucGVyc0xjVEZEcFI2WThqWXFwUTdHUkFBQjVoNWRueHNlS2p1Q0RVTDM2RjJxbFk1WG1mekJQaklSc0NLVlFtSEpYUS1XWEpEdzlVTzdLYUJVUklON2x4c1ZmTGM4V01xNUE1MmV2SUZR?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYnhVU1lzalVCZ0Q2cVVsZlFHdGpJOTdLLXlHMW5ucGVyc0xjVEZEcFI2WThqWXFwUTdHUkFBQjVoNWRueHNlS2p1Q0RVTDM2RjJxbFk1WG1mekJQaklSc0NLVlFtSEpYUS1XWEpEdzlVTzdLYUJVUklON2x4c1ZmTGM4V01xNUE1MmV2SUZR?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "DESTINOS",
+    "title": "Amels 242 Nome: O Superiate de 74 Metr...",
+    "image": "https://images.unsplash.com/photo-1614350391736-ed8619d63c06?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "amels-242-nome-o-superiate-de-74-metros-e-1790-toneladas-que-desafia-a-hidrodinamica-tradicional-no-hercules-de-monaco-7416"
+  },
+  {
+    "id": "film-2",
     "category": "ARQUITETURA",
     "title": "Sotheby's Royal & Noble Jewels Geneva ...",
     "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
@@ -1432,7 +1441,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "sothebys-royal-noble-jewels-geneva-2026-a-colecao-de-diamantes-historicos-de-18-quilates-com-proveniencia-dinastica-comprovada-3072"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Leilão de Las Vegas: O Triunfo Absolut...",
     "image": "https://images.unsplash.com/photo-1577735138919-91b6848511c8?auto=format&fit=max&q=80&w=1400",
@@ -1440,7 +1449,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "leilao-de-las-vegas-o-triunfo-absoluto-da-linhagem-ferrari-e-o-peso-indestrutivel-do-aco-forjado-em-maranello-6917"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "RELOGIOS",
     "title": "H. Moser & Cie. Heritage: Dois Relógio...",
     "image": "https://monochrome-watches.com/app/uploads/2026/11/2026-H-Moser-Cie-Heritage-Chronograph-White-fume-and-Heritage-Centre-Seconds-Espresso-fume-review.jpg",
@@ -1448,7 +1457,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "h-moser-cie-heritage-dois-relogios-mecanicos-com-mostradores-fume-desafiando-o-efemero-digital-3988"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "ARQUITETURA",
     "title": "Romanov Sapphire: O Monólito Birmanês ...",
     "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=max&q=80&w=1400",
@@ -1456,20 +1465,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "romanov-sapphire-o-monolito-birmanes-de-197-quilates-que-redefine-a-soberania-dinastica-nos-leiloes-de-genebra-3251"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "DESTINOS",
     "title": "Brabus Shadow E-Hydrofoil: O Brinquedo...",
     "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800",
     "tag": "CURADORIA RADAR",
     "slug": "brabus-shadow-e-hydrofoil-o-brinquedo-nautico-de-us-20490-com-hidrofolio-de-fibra-de-carbono-e-28-nos-de-voo-9050"
-  },
-  {
-    "id": "film-6",
-    "category": "RELOGIOS",
-    "title": "Rolex, Patek Philippe e Audemars Pigue...",
-    "image": "https://robbreport.com/wp-content/uploads/2022/12/RR_Rolex_1202_1.jpg",
-    "tag": "CURADORIA RADAR",
-    "slug": "rolex-patek-philippe-e-audemars-piguet-o-monopolio-de-us-266-bilhoes-do-mercado-secundario-sustentado-por-calibres-raros-e-esmalte-grand-feu-8159"
   }
 ];
 

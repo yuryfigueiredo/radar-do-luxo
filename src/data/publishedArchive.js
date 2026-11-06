@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-toyota-gr010-hybrid-o-prototipo--7703",
+    "slug": "toyota-gr010-hybrid-o-prototipo-de-resistencia-de-680-cv-que-marca-a-despedida-cinetica-de-mike-conway-nas-pistas-7216",
+    "title": "Toyota GR010 Hybrid: O Protótipo de Resistência de 680 cv que Marca a Despedida Cinética de Mike Conway nas Pistas",
+    "image": "https://images.unsplash.com/photo-1731770758454-9d283a702306?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSjJwUi1ReV9UNGRyS1NqYmRJZnZDV1o3dU9DTlVKYWd3WFdrdFZIWlJyaUhOb2Q0bUFfdXJaQWpJYU1sTUEtdk9kSmg5YUFoV1EtOEdiaUpJXzVEYmpCaVEyS2JNNU9XRm82Ui1zdHptcjBPZFNCYTB0dVdNNENrdDkyT2Y5QmVKSnFCWmZuaW5Kc2NiVEZZYmdyeEVNalliQ3N3S0xNLXlpLVdt?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-06T15:07:47.703Z"
+  },
+  {
     "id": "art-megaiates-de-100-metros-a-escass-4879",
     "slug": "megaiates-de-100-metros-a-escassez-absoluta-de-bercos-de-50-milhoes-de-dolares-que-redesenha-a-hidraulica-global-4871",
     "title": "Megaiates de 100 Metros: A Escassez Absoluta de Berços de 50 Milhões de Dólares que Redesenha a Hidráulica Global",
