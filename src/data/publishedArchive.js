@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-megaiates-de-100-metros-a-escass-4879",
+    "slug": "megaiates-de-100-metros-a-escassez-absoluta-de-bercos-de-50-milhoes-de-dolares-que-redesenha-a-hidraulica-global-4871",
+    "title": "Megaiates de 100 Metros: A Escassez Absoluta de Berços de 50 Milhões de Dólares que Redesenha a Hidráulica Global",
+    "image": "https://images.unsplash.com/photo-1562281302-809108fd533c?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcWFYLTFEY3hRMG0zNXQ5X0pWTl9IcVNJVFNDUVhNOHdCeWdIUkR5TEc4dGZ3X2hnbV9McVZHUFJCZDloUzhMalppMmZxdHNSMHp0NllYWlhEdmtEZTJYV1F2M2Zvb0lXLThodVFoek5GMnN2NlBVSlpnc3hjdkN3VTRHVGdIdURPek5DMjVWb3Y0Zm5nNG80Y1k1X2xuclpHbktoa29qM2prc1ptcHFuUUo4S0gtbWhMME1CSmg5N0o1S29HRlRhUGxR?oc=5",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-06T11:10:54.878Z"
+  },
+  {
     "id": "art-colecao-david-geffen-o-leilao-de-8840",
     "slug": "colecao-david-geffen-o-leilao-de-us-500-milhoes-em-arte-contemporanea-que-reafirma-a-soberania-patrimonial-dinastica-8832",
     "title": "Coleção David Geffen: O Leilão de US$ 500 Milhões em Arte Contemporânea que Reafirma a Soberania Patrimonial Dinástica",

@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-megaiates-de-100-metros-a-escass-4879",
+    "slug": "megaiates-de-100-metros-a-escassez-absoluta-de-bercos-de-50-milhoes-de-dolares-que-redesenha-a-hidraulica-global-4871",
+    "title": "Megaiates de 100 Metros: A Escassez Absoluta de Berços de 50 Milhões de Dólares que Redesenha a Hidráulica Global",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "06 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1562281302-809108fd533c?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A saturação dos portos tradicionais força magnatas a financiarem megaterminais privados dotados de eclusas reforçadas e telemetria subaquática milimétrica.",
+    "contentParagraphs": [
+      "A água salgada bate nos pilares de concreto com a precisão de um metrônomo implacável. Faltam berços. A frota global de superiates ultrapassou a capacidade física das marinas históricas do Mediterrâneo e da Flórida, transformando o simples ato de fundear em um desafio geopolítico e imobiliário de dezenas de milhões de dólares.",
+      "Engenheiros navais operam com tolerâncias de mícrons ao projetar novas estruturas portuárias capazes de absorver o deslocamento hídrico de cascos em liga de alumínio e compósitos avançados. Cada manobra exige propulsão azimutal computadorizada, guinchos hidráulicos com capacidade de tração superior a 40 toneladas e defesas de atracação em borracha nitrílica reforçada que impedem o cisalhamento das chapas estruturais.",
+      "Promotores imobiliários visionários capturam essa demanda extrema ao converter antigos estaleiros industriais em bastiões náuticos ultraexclusivos, equipados com estações de recarga de alta voltagem, tancagem de combustível livre de enxofre e calados dragados a doze metros de profundidade. O capital soberano migra para onde há segurança jurídica e infraestrutura capaz de sustentar embarcações avaliadas acima de nove dígitos.",
+      "O resultado é a criação de um novo mapa de poder marítimo, onde berços de atracação tornam-se ativos mais escassos e valorizados do que os próprios cascos que neles repousam. No tabuleiro da náutica global, quem controla o píer dita as regras da navegação."
+    ],
+    "content_paragraphs": [
+      "A água salgada bate nos pilares de concreto com a precisão de um metrônomo implacável. Faltam berços. A frota global de superiates ultrapassou a capacidade física das marinas históricas do Mediterrâneo e da Flórida, transformando o simples ato de fundear em um desafio geopolítico e imobiliário de dezenas de milhões de dólares.",
+      "Engenheiros navais operam com tolerâncias de mícrons ao projetar novas estruturas portuárias capazes de absorver o deslocamento hídrico de cascos em liga de alumínio e compósitos avançados. Cada manobra exige propulsão azimutal computadorizada, guinchos hidráulicos com capacidade de tração superior a 40 toneladas e defesas de atracação em borracha nitrílica reforçada que impedem o cisalhamento das chapas estruturais.",
+      "Promotores imobiliários visionários capturam essa demanda extrema ao converter antigos estaleiros industriais em bastiões náuticos ultraexclusivos, equipados com estações de recarga de alta voltagem, tancagem de combustível livre de enxofre e calados dragados a doze metros de profundidade. O capital soberano migra para onde há segurança jurídica e infraestrutura capaz de sustentar embarcações avaliadas acima de nove dígitos.",
+      "O resultado é a criação de um novo mapa de poder marítimo, onde berços de atracação tornam-se ativos mais escassos e valorizados do que os próprios cascos que neles repousam. No tabuleiro da náutica global, quem controla o píer dita as regras da navegação."
+    ],
+    "specs": {
+      "Calado mínimo necessário": "12 metros",
+      "Capacidade de tração dos guinchos": "40 toneladas métricas",
+      "Material das defensas": "Borracha nitrílica de alta densidade",
+      "Investimento médio em píer privado": "USD 65 milhões",
+      "Tiragem global de megaiates (>90m)": "142 unidades ativas"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-06T11:10:54.878Z",
+    "published_at": "2026-11-06T11:10:54.878Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcWFYLTFEY3hRMG0zNXQ5X0pWTl9IcVNJVFNDUVhNOHdCeWdIUkR5TEc4dGZ3X2hnbV9McVZHUFJCZDloUzhMalppMmZxdHNSMHp0NllYWlhEdmtEZTJYV1F2M2Zvb0lXLThodVFoek5GMnN2NlBVSlpnc3hjdkN3VTRHVGdIdURPek5DMjVWb3Y0Zm5nNG80Y1k1X2xuclpHbktoa29qM2prc1ptcHFuUUo4S0gtbWhMME1CSmg5N0o1S29HRlRhUGxR?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcWFYLTFEY3hRMG0zNXQ5X0pWTl9IcVNJVFNDUVhNOHdCeWdIUkR5TEc4dGZ3X2hnbV9McVZHUFJCZDloUzhMalppMmZxdHNSMHp0NllYWlhEdmtEZTJYV1F2M2Zvb0lXLThodVFoek5GMnN2NlBVSlpnc3hjdkN3VTRHVGdIdURPek5DMjVWb3Y0Zm5nNG80Y1k1X2xuclpHbktoa29qM2prc1ptcHFuUUo4S0gtbWhMME1CSmg5N0o1S29HRlRhUGxR?oc=5"
+  },
+  {
     "id": "art-colecao-david-geffen-o-leilao-de-8840",
     "slug": "colecao-david-geffen-o-leilao-de-us-500-milhoes-em-arte-contemporanea-que-reafirma-a-soberania-patrimonial-dinastica-8832",
     "title": "Coleção David Geffen: O Leilão de US$ 500 Milhões em Arte Contemporânea que Reafirma a Soberania Patrimonial Dinástica",
@@ -1367,63 +1419,20 @@ export const ARTICLES = [
     "published_at": "2026-11-01T22:35:53.626Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYnhVU1lzalVCZ0Q2cVVsZlFHdGpJOTdLLXlHMW5ucGVyc0xjVEZEcFI2WThqWXFwUTdHUkFBQjVoNWRueHNlS2p1Q0RVTDM2RjJxbFk1WG1mekJQaklSc0NLVlFtSEpYUS1XWEpEdzlVTzdLYUJVUklON2x4c1ZmTGM4V01xNUE1MmV2SUZR?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYnhVU1lzalVCZ0Q2cVVsZlFHdGpJOTdLLXlHMW5ucGVyc0xjVEZEcFI2WThqWXFwUTdHUkFBQjVoNWRueHNlS2p1Q0RVTDM2RjJxbFk1WG1mekJQaklSc0NLVlFtSEpYUS1XWEpEdzlVTzdLYUJVUklON2x4c1ZmTGM4V01xNUE1MmV2SUZR?oc=5"
-  },
-  {
-    "id": "art-bugatti-veyron-grand-sport-e-fer-6635",
-    "slug": "bugatti-veyron-grand-sport-e-ferrari-enzo-os-24-milhoes-de-dolares-que-custaram-a-imunidade-mecanica-de-floyd-mayweather-6632",
-    "title": "Bugatti Veyron Grand Sport e Ferrari Enzo: Os 2,4 Milhões de Dólares que Custaram a Imunidade Mecânica de Floyd Mayweather",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "01 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "A inadimplência implacável cobra seu preço no asfalto quando dois monumentos da engenharia automotiva são confiscados por falha em custódia financeira de US$ 2,4 milhões.",
-    "contentParagraphs": [
-      "O dinheiro recente compra a posse momentânea, mas a matemática do luxo extremo exige liquidez intransigente. Quando a fatura de 2,4 milhões de dólares deixa de ser honrada, o título de propriedade de um monstro em carbo-titânio deixa de ter valor jurídico. A garagem de Las Vegas perde a estabilidade física de duas peças de engenharia pura, enquanto o mercado secundário assiste ao leilão forçado de espécimes intocados.",
-      "O bloco W16 com quatro turbocompressores da Bugatti e a arquitetura V12 derivada da Fórmula 1 da Ferrari Enzo não possuem lealdade aos seus donos. Eles exigem manutenção preventivas de centenas de milhares de dólares, tolerâncias de mícrons calibradas a laser e depósitos fiduciários inegociáveis. Falhar na solvência desses ativos significa apenas que a física e a finança retomam seu equilíbrio natural sobre o asfalto.",
-      "A força G lateral gerada por esses chassis exige aderência  aos pneus Michelin PAX especiais,  e simultaneamente aos contratos que sustentam sua custódia legal. A incapacidade de liquidar uma pendência de US$ 2,4 milhões demonstra a fragilidade de fortunas construídas fora do ecossistema patrimonial dinástico. O silêncio da pista de testes de Ehra-Lessien é ensurdecedor para quem perdeu o direito de comandar 1.001 cavalos de potência.",
-      "No final, o tribunal executa a garantia e os veículos retornam à rota de leilões discretos para colecionadores reais. O ateliê de Molsheim e a fábrica de Maranello não se importam com quem assina o cheque, desde que a transação honre o peso histórico da obra. Apenas a engenharia sobrevive intacta ao calote, enquanto o nome do antigo dono desbota nas planilhas de custódia."
-    ],
-    "content_paragraphs": [
-      "O dinheiro recente compra a posse momentânea, mas a matemática do luxo extremo exige liquidez intransigente. Quando a fatura de 2,4 milhões de dólares deixa de ser honrada, o título de propriedade de um monstro em carbo-titânio deixa de ter valor jurídico. A garagem de Las Vegas perde a estabilidade física de duas peças de engenharia pura, enquanto o mercado secundário assiste ao leilão forçado de espécimes intocados.",
-      "O bloco W16 com quatro turbocompressores da Bugatti e a arquitetura V12 derivada da Fórmula 1 da Ferrari Enzo não possuem lealdade aos seus donos. Eles exigem manutenção preventivas de centenas de milhares de dólares, tolerâncias de mícrons calibradas a laser e depósitos fiduciários inegociáveis. Falhar na solvência desses ativos significa apenas que a física e a finança retomam seu equilíbrio natural sobre o asfalto.",
-      "A força G lateral gerada por esses chassis exige aderência  aos pneus Michelin PAX especiais,  e simultaneamente aos contratos que sustentam sua custódia legal. A incapacidade de liquidar uma pendência de US$ 2,4 milhões demonstra a fragilidade de fortunas construídas fora do ecossistema patrimonial dinástico. O silêncio da pista de testes de Ehra-Lessien é ensurdecedor para quem perdeu o direito de comandar 1.001 cavalos de potência.",
-      "No final, o tribunal executa a garantia e os veículos retornam à rota de leilões discretos para colecionadores reais. O ateliê de Molsheim e a fábrica de Maranello não se importam com quem assina o cheque, desde que a transação honre o peso histórico da obra. Apenas a engenharia sobrevive intacta ao calote, enquanto o nome do antigo dono desbota nas planilhas de custódia."
-    ],
-    "specs": {
-      "Chassi Afetado": "Monocoque em fibra de carbono e alumínio aeronáutico",
-      "Motorização Bugatti": "W16 8.0 litros com quatro turbocompressores",
-      "Motorização Ferrari": "V12 aspirado de 6.0 litros com admissão variável",
-      "Valor do Litígio": "US$ 2.400.000,00 em obrigações vencidas",
-      "Destino Jurídico": "Confisco cautelar e leilão judicial de liquidação"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 92,
-    "ranking_score": 92,
-    "publishedAt": "2026-11-01T19:27:56.635Z",
-    "published_at": "2026-11-01T19:27:56.635Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbERwT2VidTFLV2N6N05qMVFObmdHNUNSdnpIRVg2UTByMGNjTkRFNGpIRUoxUVBVVnRWckRMN1pqcXRHYUJyMWVRd2FqQVdxUThacjBiaEs0MUJUeFF3RG0wUWZyT09RTWFoNENBT0tLTVdLNEFUbVg4SGJ0RVVXcWlZRmJqakJG?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbERwT2VidTFLV2N6N05qMVFObmdHNUNSdnpIRVg2UTByMGNjTkRFNGpIRUoxUVBVVnRWckRMN1pqcXRHYUJyMWVRd2FqQVdxUThacjBiaEs0MUJUeFF3RG0wUWZyT09RTWFoNENBT0tLTVdLNEFUbVg4SGJ0RVVXcWlZRmJqakJG?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "ARQUITETURA",
+    "title": "Sotheby's Royal & Noble Jewels Geneva ...",
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
+    "tag": "CURADORIA RADAR",
+    "slug": "sothebys-royal-noble-jewels-geneva-2026-a-colecao-de-diamantes-historicos-de-18-quilates-com-proveniencia-dinastica-comprovada-3072"
+  },
+  {
+    "id": "film-2",
     "category": "SUPERCARROS",
     "title": "Leilão de Las Vegas: O Triunfo Absolut...",
     "image": "https://images.unsplash.com/photo-1577735138919-91b6848511c8?auto=format&fit=max&q=80&w=1400",
@@ -1431,7 +1440,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "leilao-de-las-vegas-o-triunfo-absoluto-da-linhagem-ferrari-e-o-peso-indestrutivel-do-aco-forjado-em-maranello-6917"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "RELOGIOS",
     "title": "H. Moser & Cie. Heritage: Dois Relógio...",
     "image": "https://monochrome-watches.com/app/uploads/2026/11/2026-H-Moser-Cie-Heritage-Chronograph-White-fume-and-Heritage-Centre-Seconds-Espresso-fume-review.jpg",
@@ -1439,7 +1448,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "h-moser-cie-heritage-dois-relogios-mecanicos-com-mostradores-fume-desafiando-o-efemero-digital-3988"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "ARQUITETURA",
     "title": "Romanov Sapphire: O Monólito Birmanês ...",
     "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=max&q=80&w=1400",
@@ -1447,7 +1456,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "romanov-sapphire-o-monolito-birmanes-de-197-quilates-que-redefine-a-soberania-dinastica-nos-leiloes-de-genebra-3251"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "DESTINOS",
     "title": "Brabus Shadow E-Hydrofoil: O Brinquedo...",
     "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800",
@@ -1455,20 +1464,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "brabus-shadow-e-hydrofoil-o-brinquedo-nautico-de-us-20490-com-hidrofolio-de-fibra-de-carbono-e-28-nos-de-voo-9050"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "RELOGIOS",
     "title": "Rolex, Patek Philippe e Audemars Pigue...",
     "image": "https://robbreport.com/wp-content/uploads/2022/12/RR_Rolex_1202_1.jpg",
     "tag": "CURADORIA RADAR",
     "slug": "rolex-patek-philippe-e-audemars-piguet-o-monopolio-de-us-266-bilhoes-do-mercado-secundario-sustentado-por-calibres-raros-e-esmalte-grand-feu-8159"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Ferrari Daytona SP3: O Ícone V12 Aspir...",
-    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "ferrari-daytona-sp3-o-icone-v12-aspirado-de-166-milhoes-que-prova-a-imunidade-absoluta-do-leilao-de-monterey-1472"
   }
 ];
 
