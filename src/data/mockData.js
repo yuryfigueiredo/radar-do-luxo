@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-christies-hong-kong-luxury-week--5559",
+    "slug": "christies-hong-kong-luxury-week-autumn-2026-450-lotes-de-alta-custodia-e-governanca-dinastica-em-territorio-asiatico-5552",
+    "title": "Christie's Hong Kong Luxury Week Autumn 2026: 450 Lotes de Alta Custódia e Governança Dinástica em Território Asiático",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "06 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A semana de leilões de outono em Hong Kong consolide a soberania patrimonial através de ativos tangíveis imunes à volatilidade fiduciária global.",
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nas salas de arremate da Christie's em Hong Kong, a arquitetura dos lances não obedece ao ritmo febril dos mercados digitais, mas à gravidade austera de quem transfere impérios inteiros de uma custódia fiduciária para outra. Aqui, cada martelada sela a permanência de um legado secular.",
+      "A seleção curatorial para este outono recusa o efêmero em favor da densidade histórica. Diamantes D-Color de pureza absoluta, jadeítas imperiais com histórico de procedência documentada e relógios independentes com calibres de manufatura restrita formam uma barricada contra a inflação sistêmica. Trata-se de refúgio de liquidez construído com átomos insubstituíveis, onde o valor reside na impossibilidade absoluta de replicação industrial.",
+      "Enquanto os mercados acionários oscilam ao sabor de algoritmos de alta frequência, o capital soberano migra para o travertino romano navona e para os cofres blindados de Hong Kong. A Ásia madura não consome mais símbolos de passagem; exige soberania patrimonial absoluta, respaldada por relatórios de laboratório gemológico intransigentes e proveniências aristocráticas irrefutáveis.",
+      "O veredito do Radar do Luxo é definitivo. O colecionador contemporâneo já não busca a novidade barulhenta, mas a imunidade temporal. A semana de leilões da Christie's prova que os verdadeiros ativos de refúgio não perdem valor na tempestade; tornam-se, ano após ano, os pilares inabaláveis sobre os quais se fundam as dinastias do próximo século."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nas salas de arremate da Christie's em Hong Kong, a arquitetura dos lances não obedece ao ritmo febril dos mercados digitais, mas à gravidade austera de quem transfere impérios inteiros de uma custódia fiduciária para outra. Aqui, cada martelada sela a permanência de um legado secular.",
+      "A seleção curatorial para este outono recusa o efêmero em favor da densidade histórica. Diamantes D-Color de pureza absoluta, jadeítas imperiais com histórico de procedência documentada e relógios independentes com calibres de manufatura restrita formam uma barricada contra a inflação sistêmica. Trata-se de refúgio de liquidez construído com átomos insubstituíveis, onde o valor reside na impossibilidade absoluta de replicação industrial.",
+      "Enquanto os mercados acionários oscilam ao sabor de algoritmos de alta frequência, o capital soberano migra para o travertino romano navona e para os cofres blindados de Hong Kong. A Ásia madura não consome mais símbolos de passagem; exige soberania patrimonial absoluta, respaldada por relatórios de laboratório gemológico intransigentes e proveniências aristocráticas irrefutáveis.",
+      "O veredito do Radar do Luxo é definitivo. O colecionador contemporâneo já não busca a novidade barulhenta, mas a imunidade temporal. A semana de leilões da Christie's prova que os verdadeiros ativos de refúgio não perdem valor na tempestade; tornam-se, ano após ano, os pilares inabaláveis sobre os quais se fundam as dinastias do próximo século."
+    ],
+    "specs": {
+      "Volume de Custódia": "450 lotes selecionados",
+      "Ativos Principais": "Alta relojoaria, alta joalheria e arte asiática",
+      "Critério de Seleção": "Procedência dinástica e pureza mineral",
+      "Moeda de Liquidez": "Dólar de Hong Kong e reservas soberanas",
+      "Destino Fiduciário": "Family offices e cofres de custódia privada"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-06T18:27:25.558Z",
+    "published_at": "2026-11-06T18:27:25.558Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUUZDd1dGV1Y1UVYwY1NvemNxYUhVTXZvMEJZdjRsU3o0bXptTUVpdnFFT20xU1R5dHE3M2RxOE84a2JmYmpoNW5QSXZRWlpfNmdXMkhodEhVWWNlMUVtaTducEVLLTJzYVV6U3Y5Tm41cGRhTVd0NW1SWWRCYm9nY3hHVkhPUDQ?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUUZDd1dGV1Y1UVYwY1NvemNxYUhVTXZvMEJZdjRsU3o0bXptTUVpdnFFT20xU1R5dHE3M2RxOE84a2JmYmpoNW5QSXZRWlpfNmdXMkhodEhVWWNlMUVtaTducEVLLTJzYVV6U3Y5Tm41cGRhTVd0NW1SWWRCYm9nY3hHVkhPUDQ?oc=5"
+  },
+  {
     "id": "art-toyota-gr010-hybrid-o-prototipo--7703",
     "slug": "toyota-gr010-hybrid-o-prototipo-de-resistencia-de-680-cv-que-marca-a-despedida-cinetica-de-mike-conway-nas-pistas-7216",
     "title": "Toyota GR010 Hybrid: O Protótipo de Resistência de 680 cv que Marca a Despedida Cinética de Mike Conway nas Pistas",
@@ -1368,64 +1420,20 @@ export const ARTICLES = [
     "published_at": "2026-11-03T01:54:28.167Z",
     "sourceUrl": "https://robbreport.com/style/watch-collector/rolex-patek-audemars-piguet-secondary-watch-market-1238794281/",
     "source_url": "https://robbreport.com/style/watch-collector/rolex-patek-audemars-piguet-secondary-watch-market-1238794281/"
-  },
-  {
-    "id": "art-ferrari-daytona-sp3-o-icone-v12--1476",
-    "slug": "ferrari-daytona-sp3-o-icone-v12-aspirado-de-166-milhoes-que-prova-a-imunidade-absoluta-do-leilao-de-monterey-1472",
-    "title": "Ferrari Daytona SP3: O Ícone V12 Aspirado de €16,6 Milhões que Prova a Imunidade Absoluta do Leilão de Monterey",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "02 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "A transação multimilionária do cavalo rampante em solo californiano consolida a soberania mecânica dos motores aspirados em um ecossistema financeiro saturado de hibridizações descartáveis.",
-    "contentParagraphs": [
-      "O martelo despencou em Monterey ecoando o fim de uma era. A cifra atingiu patamares estratosféricos. Dezesseis milhões e seiscentas mil euros por uma Ferrari Daytona SP3. Não houve acaso naquelas salas de arremate. O mercado global de alta performance exige pureza física mecânica.",
-      "Sob a tampa traseira repousa um motor V12 naturalmente aspirado de 6.5 litros. O bloco grita ferozmente até 9.250 rotações por minuto. A força G lateral rasga as curvas enquanto o monocoque em compósitos avançados e o chassi tubular absorvem a torção em tolerâncias de mícrons. O efeito solo esculpido por túneis de Venturi inferiores sela o piso ao asfalto.",
-      "A série limitada Icona não serve aos caprichos efêmeros da eletronomia corporativa. Colecionadores dinásticos compreendem o valor imutável do metal bruto e da engenharia sem rede de segurança digital. Trata-se de um refúgio de liquidez tangível. Cada painel de fibra de carbono exposta carrega a assinatura de Maranello em seu estado mais visceral e intransigente.",
-      "Enquanto o restante da indústria sucumbe à pasteurização algorítmica, este exemplar reafirma a supremacia do combustíveis fósseis refinados. A raridade matemática blinda o patrimônio contra a obsolescência programada. Acelerar este bólido é um ato de desafio estético supremo."
-    ],
-    "content_paragraphs": [
-      "O martelo despencou em Monterey ecoando o fim de uma era. A cifra atingiu patamares estratosféricos. Dezesseis milhões e seiscentas mil euros por uma Ferrari Daytona SP3. Não houve acaso naquelas salas de arremate. O mercado global de alta performance exige pureza física mecânica.",
-      "Sob a tampa traseira repousa um motor V12 naturalmente aspirado de 6.5 litros. O bloco grita ferozmente até 9.250 rotações por minuto. A força G lateral rasga as curvas enquanto o monocoque em compósitos avançados e o chassi tubular absorvem a torção em tolerâncias de mícrons. O efeito solo esculpido por túneis de Venturi inferiores sela o piso ao asfalto.",
-      "A série limitada Icona não serve aos caprichos efêmeros da eletronomia corporativa. Colecionadores dinásticos compreendem o valor imutável do metal bruto e da engenharia sem rede de segurança digital. Trata-se de um refúgio de liquidez tangível. Cada painel de fibra de carbono exposta carrega a assinatura de Maranello em seu estado mais visceral e intransigente.",
-      "Enquanto o restante da indústria sucumbe à pasteurização algorítmica, este exemplar reafirma a supremacia do combustíveis fósseis refinados. A raridade matemática blinda o patrimônio contra a obsolescência programada. Acelerar este bólido é um ato de desafio estético supremo."
-    ],
-    "specs": {
-      "Arquitetura do Motor": "V12 aspirado a 65°",
-      "Cilindrada": "6.496 cc",
-      "Potência Máxima": "840 cv a 9.250 rpm",
-      "Torque": "697 Nm a 7.250 rpm",
-      "Transmissão": "Dupla embaixagem de 7 marchas F1",
-      "Avaliação de Mercado": "€16.600.000 em leilão"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 92,
-    "ranking_score": 92,
-    "publishedAt": "2026-11-02T02:34:01.475Z",
-    "published_at": "2026-11-02T02:34:01.475Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4xVGdZQTkwUDRuNExabGU4ZTFwQzhMXzh3RXM5cDJkVnF0MWNVWDV1Yzc2ek9aeDRIYTNoMFNsZFBiQUlCRjNmbEljUWF1ZHJBb1lValRWS0JPT2stSUJjTUg2NG9yNTlxYl9pUHFHTFlCeUJ5aVY2eWpR?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4xVGdZQTkwUDRuNExabGU4ZTFwQzhMXzh3RXM5cDJkVnF0MWNVWDV1Yzc2ek9aeDRIYTNoMFNsZFBiQUlCRjNmbEljUWF1ZHJBb1lValRWS0JPT2stSUJjTUg2NG9yNTlxYl9pUHFHTFlCeUJ5aVY2eWpR?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "SUPERCARROS",
+    "title": "Ferrari Testarossa Spider Monodado: O ...",
+    "image": "https://images.unsplash.com/photo-1660326040484-fc0cb33d0b23?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "ferrari-testarossa-spider-monodado-o-unico-pace-car-oficial-de-maranello-dos-anos-80-com-chassi-tubular-reforcado-e-aluminio-batido-a-mao-que-retorna-das-sombras-8059"
+  },
+  {
+    "id": "film-2",
     "category": "DESTINOS",
     "title": "Amels 242 Nome: O Superiate de 74 Metr...",
     "image": "https://images.unsplash.com/photo-1614350391736-ed8619d63c06?auto=format&fit=max&q=80&w=1400",
@@ -1433,7 +1441,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "amels-242-nome-o-superiate-de-74-metros-e-1790-toneladas-que-desafia-a-hidrodinamica-tradicional-no-hercules-de-monaco-7416"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "ARQUITETURA",
     "title": "Sotheby's Royal & Noble Jewels Geneva ...",
     "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
@@ -1441,7 +1449,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "sothebys-royal-noble-jewels-geneva-2026-a-colecao-de-diamantes-historicos-de-18-quilates-com-proveniencia-dinastica-comprovada-3072"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Leilão de Las Vegas: O Triunfo Absolut...",
     "image": "https://images.unsplash.com/photo-1577735138919-91b6848511c8?auto=format&fit=max&q=80&w=1400",
@@ -1449,7 +1457,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "leilao-de-las-vegas-o-triunfo-absoluto-da-linhagem-ferrari-e-o-peso-indestrutivel-do-aco-forjado-em-maranello-6917"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "RELOGIOS",
     "title": "H. Moser & Cie. Heritage: Dois Relógio...",
     "image": "https://monochrome-watches.com/app/uploads/2026/11/2026-H-Moser-Cie-Heritage-Chronograph-White-fume-and-Heritage-Centre-Seconds-Espresso-fume-review.jpg",
@@ -1457,20 +1465,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "h-moser-cie-heritage-dois-relogios-mecanicos-com-mostradores-fume-desafiando-o-efemero-digital-3988"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "ARQUITETURA",
     "title": "Romanov Sapphire: O Monólito Birmanês ...",
     "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "romanov-sapphire-o-monolito-birmanes-de-197-quilates-que-redefine-a-soberania-dinastica-nos-leiloes-de-genebra-3251"
-  },
-  {
-    "id": "film-6",
-    "category": "DESTINOS",
-    "title": "Brabus Shadow E-Hydrofoil: O Brinquedo...",
-    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800",
-    "tag": "CURADORIA RADAR",
-    "slug": "brabus-shadow-e-hydrofoil-o-brinquedo-nautico-de-us-20490-com-hidrofolio-de-fibra-de-carbono-e-28-nos-de-voo-9050"
   }
 ];
 
