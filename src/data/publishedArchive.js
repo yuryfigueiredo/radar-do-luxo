@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-sheergold-o-superiate-de-expedic-8920",
+    "slug": "sheergold-o-superiate-de-expedicao-e-os-7-dias-de-navegacao-extrema-pelo-grande-buraco-azul-de-belize-8524",
+    "title": "Sheergold: O Superiate de Expedição e os 7 Dias de Navegação Extrema pelo Grande Buraco Azul de Belize",
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLXJrSi1VaFVQbmpvMVc5TzdTMGsweWx5ZDBHZkd4aTZyUXczYnR4cU4yNlJkUkZyU3pQenQ3WWZ0SmR4aUNWUUpuTDhCZ2pqS245R2RfbFloQ3M2OV80bWRlZDFKdnpXVnU4M2ZqOENKczV5NnJ2R0dtYlNxSlFsNG5tcG4wQU1FRmlza0hVTGR6cTh6c1pINUpxcEl2Wi1l?oc=5",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-06T22:13:28.920Z"
+  },
+  {
     "id": "art-christies-hong-kong-luxury-week--5559",
     "slug": "christies-hong-kong-luxury-week-autumn-2026-450-lotes-de-alta-custodia-e-governanca-dinastica-em-territorio-asiatico-5552",
     "title": "Christie's Hong Kong Luxury Week Autumn 2026: 450 Lotes de Alta Custódia e Governança Dinástica em Território Asiático",

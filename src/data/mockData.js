@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-sheergold-o-superiate-de-expedic-8920",
+    "slug": "sheergold-o-superiate-de-expedicao-e-os-7-dias-de-navegacao-extrema-pelo-grande-buraco-azul-de-belize-8524",
+    "title": "Sheergold: O Superiate de Expedição e os 7 Dias de Navegação Extrema pelo Grande Buraco Azul de Belize",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "06 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Uma travessia náutica implacable pelas águas cristalinas do Caribe a bordo de uma embarcação de engenharia naval superlativa, explorando abismos marinhos inexplorados.",
+    "contentParagraphs": [
+      "O casco corta o mar aberto com precisão absoluta. A força G lateral se dissolve na estabilização giroscópica de última geração. O Sheergold avança sobre as correntes caribenhas desafiando qualquer noção convencional de cruzeiro.",
+      "A expedição de sete dias mapeia o Grande Buraco Azul com sondas batimétricas de alta resolução e mergulhos técnicos profundos. Cada antepara de aço naval e cada sistema de propulsão foram projetados para suportar o impacto de mares abertos sem vibração residual nos salões principais.",
+      "O silêncio nos conveses em teca burmeses contrasta com a potência brutal dos motores gêmeos de alta performance instalados na praça de máquinas. A autonomia transoceânica garante isolamento absoluto, transformando o iate em um refúgio flutuante blindado contra a volatilidade do mundo moderno.",
+      "Navegar estas coordenadas exige respeito à topografia subaquática e domínio da náutica de grande porte. O Sheergold consolida a supremacia técnica na arte de explorar os confins mais remotos do planeta com conforto inegociável."
+    ],
+    "content_paragraphs": [
+      "O casco corta o mar aberto com precisão absoluta. A força G lateral se dissolve na estabilização giroscópica de última geração. O Sheergold avança sobre as correntes caribenhas desafiando qualquer noção convencional de cruzeiro.",
+      "A expedição de sete dias mapeia o Grande Buraco Azul com sondas batimétricas de alta resolução e mergulhos técnicos profundos. Cada antepara de aço naval e cada sistema de propulsão foram projetados para suportar o impacto de mares abertos sem vibração residual nos salões principais.",
+      "O silêncio nos conveses em teca burmeses contrasta com a potência brutal dos motores gêmeos de alta performance instalados na praça de máquinas. A autonomia transoceânica garante isolamento absoluto, transformando o iate em um refúgio flutuante blindado contra a volatilidade do mundo moderno.",
+      "Navegar estas coordenadas exige respeito à topografia subaquática e domínio da náutica de grande porte. O Sheergold consolida a supremacia técnica na arte de explorar os confins mais remotos do planeta com conforto inegociável."
+    ],
+    "specs": {
+      "Embarcação": "Superiate Sheergold",
+      "Rota": "Grande Buraco Azul, Belize",
+      "Duração": "7 dias de charter",
+      "Casco": "Aço naval de alta resistência",
+      "Propulsão": "Motores gêmeos MTU de alta autonomia"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-06T22:13:28.920Z",
+    "published_at": "2026-11-06T22:13:28.920Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLXJrSi1VaFVQbmpvMVc5TzdTMGsweWx5ZDBHZkd4aTZyUXczYnR4cU4yNlJkUkZyU3pQenQ3WWZ0SmR4aUNWUUpuTDhCZ2pqS245R2RfbFloQ3M2OV80bWRlZDFKdnpXVnU4M2ZqOENKczV5NnJ2R0dtYlNxSlFsNG5tcG4wQU1FRmlza0hVTGR6cTh6c1pINUpxcEl2Wi1l?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLXJrSi1VaFVQbmpvMVc5TzdTMGsweWx5ZDBHZkd4aTZyUXczYnR4cU4yNlJkUkZyU3pQenQ3WWZ0SmR4aUNWUUpuTDhCZ2pqS245R2RfbFloQ3M2OV80bWRlZDFKdnpXVnU4M2ZqOENKczV5NnJ2R0dtYlNxSlFsNG5tcG4wQU1FRmlza0hVTGR6cTh6c1pINUpxcEl2Wi1l?oc=5"
+  },
+  {
     "id": "art-christies-hong-kong-luxury-week--5559",
     "slug": "christies-hong-kong-luxury-week-autumn-2026-450-lotes-de-alta-custodia-e-governanca-dinastica-em-territorio-asiatico-5552",
     "title": "Christie's Hong Kong Luxury Week Autumn 2026: 450 Lotes de Alta Custódia e Governança Dinástica em Território Asiático",
@@ -281,7 +333,7 @@ export const ARTICLES = [
     "authorSlug": "henrique-vianna",
     "author_slug": "henrique-vianna",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "06 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -309,10 +361,10 @@ export const ARTICLES = [
       "Horizonte Temporal": "Multigeracional (Século XXI)"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 88,
@@ -1367,65 +1419,20 @@ export const ARTICLES = [
     "published_at": "2026-11-03T02:01:43.258Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWDlqXzJiSDZDVG5qWFdEYm85Zmc2dXJTZVdTMFAzV0lfQm4wNG1uajQtOXMxY2F6V2x2ZUZYa3FoX0cwQ1ZrNDlja1RveEtpblhKSXZZaC1FSGEwLW9VRWNqR3dVTjNNdlpYQXkxQml2dVF6SU5yUWZCYTl6bXZQeXI3LThsSUk0UHV6ZjNFXzVqU0FrR1h6ek5YRQ?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWDlqXzJiSDZDVG5qWFdEYm85Zmc2dXJTZVdTMFAzV0lfQm4wNG1uajQtOXMxY2F6V2x2ZUZYa3FoX0cwQ1ZrNDlja1RveEtpblhKSXZZaC1FSGEwLW9VRWNqR3dVTjNNdlpYQXkxQml2dVF6SU5yUWZCYTl6bXZQeXI3LThsSUk0UHV6ZjNFXzVqU0FrR1h6ek5YRQ?oc=5"
-  },
-  {
-    "id": "art-rolex-patek-philippe-e-audemars--8168",
-    "slug": "rolex-patek-philippe-e-audemars-piguet-o-monopolio-de-us-266-bilhoes-do-mercado-secundario-sustentado-por-calibres-raros-e-esmalte-grand-feu-8159",
-    "title": "Rolex, Patek Philippe e Audemars Piguet: O Monopólio de US$ 26,6 Bilhões do Mercado Secundário Sustentado por Calibres Raros e Esmalte Grand Feu",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "category_slug": "relogios",
-    "authorSlug": "clara-meirelles",
-    "author_slug": "clara-meirelles",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "03 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://robbreport.com/wp-content/uploads/2022/12/RR_Rolex_1202_1.jpg",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A soberania financeira do mercado secundário de alta relojoaria não decorre de mero capricho especulativo, mas de uma rigidez matemática na produção e da paciência secular de ateliês na Vallée de Joux.",
-    "contentParagraphs": [
-      "O tempo nos ateliês de Le Brassus e Genebra não obedece ao calendário dos homens. Enquanto o mercado global consome bilhões de dólares em liquidez secundária, a raiz dessa supremacia reside em um pacto silencioso de escassez programada. Não há espaço para concessões industriais. Cada ponte é chanfragada à mão, utilizando pastas de diamante e sabugueiro silvestre para alcançar o polimento espelhado conhecido como anglage.",
-      "A métrica que sustenta os 26,6 bilhões de dólares transacionados revela uma arquitetura de oferta implacável. Modelos emblemáticos exigem anos de trabalho em bancadas microscópicas, onde a tolerância aceitável é medida em frações de mícron. Quando um cronógrafo atinge o mercado de leilões, ele carrega consigo dezenas de rubis sintéticos ajustados com precisão cirúrgica e molas espirais em silício que desafiam as leis do magnetismo e da gravidade terrestre.",
-      "O colecionador contemporâneo mais exigente não busca apenas um adorno utilitário para o pulso, mas sim um refúgio de valor imune à volatilidade das moedas fiduciárias. A demanda feroz por referências específicas dessas três grandes casas reflete a busca por uma herança mecânica tangível. Trata-se de uma soberania patrimonial construída sobre mostradores em esmalte Grand Feu vitrificados a 820°C e caixas monobloco em aço Oystersteel ou ouro branco que atravessam gerações sem perder a dignidade estética.",
-      "A hegemonia perpetuada por Rolex, Patek Philippe e Audemars Piguet no segmento de revenda atesta uma verdade inconveniente para a indústria de massa. O luxo verdadeiro rejeita a abundância. Ele floresce exclusivamente onde o tempo de fabricação supera a urgência do consumo, consolidando relógios mecânicos não como simples instrumentos de medição, mas como reservas definitivas de valor e arte portátil."
-    ],
-    "content_paragraphs": [
-      "O tempo nos ateliês de Le Brassus e Genebra não obedece ao calendário dos homens. Enquanto o mercado global consome bilhões de dólares em liquidez secundária, a raiz dessa supremacia reside em um pacto silencioso de escassez programada. Não há espaço para concessões industriais. Cada ponte é chanfragada à mão, utilizando pastas de diamante e sabugueiro silvestre para alcançar o polimento espelhado conhecido como anglage.",
-      "A métrica que sustenta os 26,6 bilhões de dólares transacionados revela uma arquitetura de oferta implacável. Modelos emblemáticos exigem anos de trabalho em bancadas microscópicas, onde a tolerância aceitável é medida em frações de mícron. Quando um cronógrafo atinge o mercado de leilões, ele carrega consigo dezenas de rubis sintéticos ajustados com precisão cirúrgica e molas espirais em silício que desafiam as leis do magnetismo e da gravidade terrestre.",
-      "O colecionador contemporâneo mais exigente não busca apenas um adorno utilitário para o pulso, mas sim um refúgio de valor imune à volatilidade das moedas fiduciárias. A demanda feroz por referências específicas dessas três grandes casas reflete a busca por uma herança mecânica tangível. Trata-se de uma soberania patrimonial construída sobre mostradores em esmalte Grand Feu vitrificados a 820°C e caixas monobloco em aço Oystersteel ou ouro branco que atravessam gerações sem perder a dignidade estética.",
-      "A hegemonia perpetuada por Rolex, Patek Philippe e Audemars Piguet no segmento de revenda atesta uma verdade inconveniente para a indústria de massa. O luxo verdadeiro rejeita a abundância. Ele floresce exclusivamente onde o tempo de fabricação supera a urgência do consumo, consolidando relógios mecânicos não como simples instrumentos de medição, mas como reservas definitivas de valor e arte portátil."
-    ],
-    "specs": {
-      "volume_mercado_secundario": "USD 26.6 Bilhões",
-      "pilares_industriais": "Rolex, Patek Philippe, Audemars Piguet",
-      "tecnica_mostrador": "Esmalte Grand Feu a 820°C",
-      "acabamento_manual": "Anglage com sabugueiro silvestre",
-      "origem_tecnica": "Vallée de Joux e Genebra",
-      "posicionamento_editorial": "Soberania Patrimonial"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 93,
-    "ranking_score": 93,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-03T01:54:28.167Z",
-    "published_at": "2026-11-03T01:54:28.167Z",
-    "sourceUrl": "https://robbreport.com/style/watch-collector/rolex-patek-audemars-piguet-secondary-watch-market-1238794281/",
-    "source_url": "https://robbreport.com/style/watch-collector/rolex-patek-audemars-piguet-secondary-watch-market-1238794281/"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "DESTINOS",
+    "title": "Gabe Newell: A Fortuna de 5 Bilhões de...",
+    "image": "https://images.unsplash.com/photo-1781872324499-e51350ed640e?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "gabe-newell-a-fortuna-de-5-bilhoes-de-dolares-ancorada-em-120-metros-de-aco-naval-e-inovacao-digital-5675"
+  },
+  {
+    "id": "film-2",
     "category": "SUPERCARROS",
     "title": "Ferrari Testarossa Spider Monodado: O ...",
     "image": "https://images.unsplash.com/photo-1660326040484-fc0cb33d0b23?auto=format&fit=max&q=80&w=1400",
@@ -1433,7 +1440,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-testarossa-spider-monodado-o-unico-pace-car-oficial-de-maranello-dos-anos-80-com-chassi-tubular-reforcado-e-aluminio-batido-a-mao-que-retorna-das-sombras-8059"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "DESTINOS",
     "title": "Amels 242 Nome: O Superiate de 74 Metr...",
     "image": "https://images.unsplash.com/photo-1614350391736-ed8619d63c06?auto=format&fit=max&q=80&w=1400",
@@ -1441,7 +1448,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "amels-242-nome-o-superiate-de-74-metros-e-1790-toneladas-que-desafia-a-hidrodinamica-tradicional-no-hercules-de-monaco-7416"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "ARQUITETURA",
     "title": "Sotheby's Royal & Noble Jewels Geneva ...",
     "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
@@ -1449,7 +1456,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "sothebys-royal-noble-jewels-geneva-2026-a-colecao-de-diamantes-historicos-de-18-quilates-com-proveniencia-dinastica-comprovada-3072"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Leilão de Las Vegas: O Triunfo Absolut...",
     "image": "https://images.unsplash.com/photo-1577735138919-91b6848511c8?auto=format&fit=max&q=80&w=1400",
@@ -1457,20 +1464,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "leilao-de-las-vegas-o-triunfo-absoluto-da-linhagem-ferrari-e-o-peso-indestrutivel-do-aco-forjado-em-maranello-6917"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "RELOGIOS",
     "title": "H. Moser & Cie. Heritage: Dois Relógio...",
     "image": "https://monochrome-watches.com/app/uploads/2026/11/2026-H-Moser-Cie-Heritage-Chronograph-White-fume-and-Heritage-Centre-Seconds-Espresso-fume-review.jpg",
     "tag": "CURADORIA RADAR",
     "slug": "h-moser-cie-heritage-dois-relogios-mecanicos-com-mostradores-fume-desafiando-o-efemero-digital-3988"
-  },
-  {
-    "id": "film-6",
-    "category": "ARQUITETURA",
-    "title": "Romanov Sapphire: O Monólito Birmanês ...",
-    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "romanov-sapphire-o-monolito-birmanes-de-197-quilates-que-redefine-a-soberania-dinastica-nos-leiloes-de-genebra-3251"
   }
 ];
 
