@@ -1129,6 +1129,15 @@ export function decideCoverPromotion({ finalScore, capaAnalysis, coverAudited, p
   const capaMaxAge = Number.isFinite(cfg.capaMaxAgeHours) ? cfg.capaMaxAgeHours : CAPA_MAX_AGE_HOURS;
   const capaMinScore = Number.isFinite(cfg.capaMinScore) ? cfg.capaMinScore : CAPA_MIN_SCORE;
 
+  // Rotação forçada por horário: se a capa está velha o suficiente e estamos numa janela
+  // de troca (03:00 ou 13:00 BRT = 06:00 ou 16:00 UTC), coroa a melhor matéria disponível
+  // mesmo que não supere o peso da capa vigente. Garante 2 trocas mínimas por dia.
+  const idadeMinMs = ROTACAO_FORCADA_IDADE_MIN_HORA * 3_600_000;
+  const rotacaoForcada = horaUtc !== null
+    && ROTACAO_FORCADA_HORAS.includes(horaUtc)
+    && Number.isFinite(idadeCapaMs)
+    && idadeCapaMs >= idadeMinMs;
+
   if (pinned) {
     return { isHero: false, capaVelha: false, piso: null, motivo: 'capa fixada manualmente pelo editor' };
   }
@@ -1138,20 +1147,24 @@ export function decideCoverPromotion({ finalScore, capaAnalysis, coverAudited, p
   if (floorDraft) {
     return { isHero: false, capaVelha: false, piso: null, motivo: 'rascunho determinístico sem IA, publicado apenas no feed' };
   }
-  if (!turnoLivre) {
+  if (!turnoLivre && !rotacaoForcada) {
     return { isHero: false, capaVelha: false, piso: null, motivo: 'a capa deste turno já foi escolhida' };
   }
   // Piso de 2h entre coroações: dispara quando o editor roda o ciclo à mão (workflow_dispatch
   // ou workflow_run do Scout) logo depois de uma capa recém-escolhida. A cota de turno cuida
   // dos alarmes; este guarda o intervalo entre dois gatilhos do mesmo turno.
-  if (Number.isFinite(idadeCapaMs) && idadeCapaMs < CAPA_MIN_GAP_MS) {
+  // Rotação forçada bypassa esta trava: o objetivo é trocar a capa em horários fixos,
+  // independente de quando a capa atual foi coroada.
+  if (Number.isFinite(idadeCapaMs) && idadeCapaMs < CAPA_MIN_GAP_MS && !rotacaoForcada) {
     return { isHero: false, capaVelha: false, piso: null, motivo: `capa coroada há ${(idadeCapaMs / 3_600_000).toFixed(1)}h (mínimo 2h)` };
   }
   // A manchete promete o que a pauta não disse? Ela ainda é publicada — o que perde é a
   // capa, o lugar mais visível da revista. Medido em 2026-11-02: a fonte falava num
   // "One-Off, $1 Million Pace Car in the '80s" e o resumo publicado garantiu "construído
   // para liderar o GP de Mônaco". Mônaco não existia em lugar nenhum.
-  const queCustamCapa = termosQueCustamCapa(afirmacoesSemFonte);
+  // Rotação forçada bypassa esta trava: a capa precisa trocar no horário fixo, e a
+  // afirmação sem fonte já foi publicada no feed (não é o caso de suprimir a matéria).
+  const queCustamCapa = rotacaoForcada ? [] : termosQueCustamCapa(afirmacoesSemFonte);
   if (queCustamCapa.length) {
     return {
       isHero: false,
@@ -1169,17 +1182,11 @@ export function decideCoverPromotion({ finalScore, capaAnalysis, coverAudited, p
   if (!coverAudited) {
     return { isHero: false, capaVelha, piso, motivo: 'imagem não foi medida neste ciclo (sem rede no executor)' };
   }
-  if (finalScore < piso) {
+  // Rotação forçada bypassa o piso de score: a capa precisa trocar no horário fixo,
+  // e a melhor matéria disponível (mesmo abaixo do piso normal) assume a capa.
+  if (!rotacaoForcada && finalScore < piso) {
     return { isHero: false, capaVelha, piso, motivo: `nota ${finalScore} abaixo do piso ${piso}` };
   }
-  // Rotação forçada por horário: se a capa está velha o suficiente e estamos numa janela
-  // de troca (03:00 ou 13:00 BRT = 06:00 ou 16:00 UTC), coroa a melhor matéria disponível
-  // mesmo que não supere o peso da capa vigente. Garante 2 trocas mínimas por dia.
-  const idadeMinMs = ROTACAO_FORCADA_IDADE_MIN_HORA * 3_600_000;
-  const rotacaoForcada = horaUtc !== null
-    && ROTACAO_FORCADA_HORAS.includes(horaUtc)
-    && Number.isFinite(idadeCapaMs)
-    && idadeCapaMs >= idadeMinMs;
   if (!rotacaoForcada && finalScore <= capaAnalysis.currentWeight) {
     return { isHero: false, capaVelha, piso, motivo: `capa vigente ainda pesa ${capaAnalysis.currentWeight} pts` };
   }
