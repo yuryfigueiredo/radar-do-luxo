@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-colecao-david-geffen-o-leilao-de-8840",
+    "slug": "colecao-david-geffen-o-leilao-de-us-500-milhoes-em-arte-contemporanea-que-reafirma-a-soberania-patrimonial-dinastica-8832",
+    "title": "Coleção David Geffen: O Leilão de US$ 500 Milhões em Arte Contemporânea que Reafirma a Soberania Patrimonial Dinástica",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "06 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A custódia fiduciária de ativos tangíveis raros revela como a alta finança protege capitais seculares contra a erosão inflacionária global.",
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Nas capitânias da alta finança, a liquidez volátil cede espaço a ativos de refúgio imunes às intempéries geopolíticas. A movimentação recente em torno do magnata norte-americano demonstra uma precisão cirúrgica na alocação de capitais intocáveis.",
+      "Enquanto os mercados especulativos oscilam ao sabor de algoritmos efêmeros, os grandes colecionadores consolidam suas posições em ativos tangíveis de escassez matemática. A arquitetura de uma governança dinástica exige a conversão de capital líquido em soberania patrimonial absoluta, blindando gerações futuras contra a erosão monetária.",
+      "A curadoria de espólios e galerias privadas funciona como um fideicomisso inegociável. Cada aquisição em leilões restritos representa um ato de preservação histórica, onde telas museológicas e propriedades monumentais formam um ecossistema financeiro hermético, intocável e perene.",
+      "A verdadeira aristocracia do século XXI não exibe cifras; ela administra legados. O refúgio de liquidez por meio de ativos de valor intrínseco incontestável permanece como a única resposta definitiva contra a obsolescência programada do capital moderno."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Nas capitânias da alta finança, a liquidez volátil cede espaço a ativos de refúgio imunes às intempéries geopolíticas. A movimentação recente em torno do magnata norte-americano demonstra uma precisão cirúrgica na alocação de capitais intocáveis.",
+      "Enquanto os mercados especulativos oscilam ao sabor de algoritmos efêmeros, os grandes colecionadores consolidam suas posições em ativos tangíveis de escassez matemática. A arquitetura de uma governança dinástica exige a conversão de capital líquido em soberania patrimonial absoluta, blindando gerações futuras contra a erosão monetária.",
+      "A curadoria de espólios e galerias privadas funciona como um fideicomisso inegociável. Cada aquisição em leilões restritos representa um ato de preservação histórica, onde telas museológicas e propriedades monumentais formam um ecossistema financeiro hermético, intocável e perene.",
+      "A verdadeira aristocracia do século XXI não exibe cifras; ela administra legados. O refúgio de liquidez por meio de ativos de valor intrínseco incontestável permanece como a única resposta definitiva contra a obsolescência programada do capital moderno."
+    ],
+    "specs": {
+      "Volume de Ativos Sob Gestão": "US$ 8 Bilhões",
+      "Natureza do Capital": "Fideicomisso Perpétuo",
+      "Classe de Ativo Principal": "Arte Moderna e Contemporânea Tier-1",
+      "Governança": "Custódia Fiduciária Suíça",
+      "Horizonte Temporal": "Multigeracional (Século XXI)"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 88,
+    "ranking_score": 88,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-06T04:38:58.839Z",
+    "published_at": "2026-11-06T04:38:58.839Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX3lMQmViWmphVTZjcFlJTDdYVWpVejMzcTRncmZKQ21IOU40OXpWVERDMUFCV0EzTGF1OW00UERIcEhpWUFvWHpHT3JPU0dOc3ZBbWsybWJMUnkwZzBSSno4Y0loLUZIbXd1MU5SMjZNc2hSMnA1Z19RWXVuR1R4UThGZHVWYVFUS2JURzVaSExSU2NxZ0RlVdIBngFBVV95cUxPUG9UdGwtaENkZlpHX19WLXJuRUFlOE5oMXR3WkUzWGZnNFY4ckJhcFF5b01JYW83dUhRZklfbmg3RHU5cXZFU1Vic3kxcjQ0UWRSWlJObXhmUkpNQzRGRlpJRFBfRUphQmZnTTd0aXlLWkw1NnUwNHYzNTFUcHNKaVJLOEs0TnR3ZjZyTDZwcEFod29fbGJnS01jWXZ5dw?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX3lMQmViWmphVTZjcFlJTDdYVWpVejMzcTRncmZKQ21IOU40OXpWVERDMUFCV0EzTGF1OW00UERIcEhpWUFvWHpHT3JPU0dOc3ZBbWsybWJMUnkwZzBSSno4Y0loLUZIbXd1MU5SMjZNc2hSMnA1Z19RWXVuR1R4UThGZHVWYVFUS2JURzVaSExSU2NxZ0RlVdIBngFBVV95cUxPUG9UdGwtaENkZlpHX19WLXJuRUFlOE5oMXR3WkUzWGZnNFY4ckJhcFF5b01JYW83dUhRZklfbmg3RHU5cXZFU1Vic3kxcjQ0UWRSWlJObXhmUkpNQzRGRlpJRFBfRUphQmZnTTd0aXlLWkw1NnUwNHYzNTFUcHNKaVJLOEs0TnR3ZjZyTDZwcEFod29fbGJnS01jWXZ5dw?oc=5"
+  },
+  {
     "id": "art-superiate-oceanico-de-185-milhoe-7109",
     "slug": "superiate-oceanico-de-185-milhoes-de-euros-em-maiorca-o-casco-deslocante-de-aco-com-autonomia-transatlantica-e-propulsao-hibrida-silenciosa-6646",
     "title": "Superiate Oceânico de 185 Milhões de Euros em Maiorca: O Casco Deslocante de Aço com Autonomia Transatlântica e Propulsão Híbrida Silenciosa",
@@ -281,7 +333,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "05 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -309,10 +361,10 @@ export const ARTICLES = [
       "Risco_Crítico": "Estresse de Liquidez Estrutural"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 90,
@@ -1366,64 +1418,20 @@ export const ARTICLES = [
     "published_at": "2026-11-01T19:27:56.635Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbERwT2VidTFLV2N6N05qMVFObmdHNUNSdnpIRVg2UTByMGNjTkRFNGpIRUoxUVBVVnRWckRMN1pqcXRHYUJyMWVRd2FqQVdxUThacjBiaEs0MUJUeFF3RG0wUWZyT09RTWFoNENBT0tLTVdLNEFUbVg4SGJ0RVVXcWlZRmJqakJG?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbERwT2VidTFLV2N6N05qMVFObmdHNUNSdnpIRVg2UTByMGNjTkRFNGpIRUoxUVBVVnRWckRMN1pqcXRHYUJyMWVRd2FqQVdxUThacjBiaEs0MUJUeFF3RG0wUWZyT09RTWFoNENBT0tLTVdLNEFUbVg4SGJ0RVVXcWlZRmJqakJG?oc=5"
-  },
-  {
-    "id": "art-ferrari-montegrappa-o-instrument-4682",
-    "slug": "ferrari-montegrappa-o-instrumento-de-escrita-de-us-4300-forjado-com-titanio-aeroespacial-e-tolerancia-de-microns-4679",
-    "title": "Ferrari Montegrappa: O Instrumento de Escrita de US$ 4.300 Forjado com Titânio Aeroespacial e Tolerância de Mícrons",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "01 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "A divisão de Maranello traduz a brutalidade cinética dos motores de combustão interna em um objeto de precisão caligráfica, unindo o metal Inconel e a rigidez do carbo-titânio.",
-    "contentParagraphs": [
-      "A aerodinâmica não reside apenas nos túneis de vento que moldam o efeito solo de um protótipo em Fiorano. Ela agora habita a ponta de uma pena-tinteiro de US$ 4.300. Gabriel Fontes analisa o novo instrumento de escrita assinado pela Ferrari em parceria com a Montegrappa, onde cada curva do corpo metálico ecoa a gestão térmica de escapamentos expostos a oitocentos graus Celsius.",
-      "O monocoque em carbo-titânio curado em autoclave a seis bar cede lugar a um tambor fresado com precisão micrônica, exigindo horas de usinagem CNC de cinco eixos para replicar a rigidez estrutural encontrada nos braços de suspensão dos bólidos de Maranello. A tinta flui por canais internos calibrados milimetricamente para resistir à força G lateral, enquanto o aparato em ouro maciço recebe banho de rutênio escuro.",
-      "Em uma era de telas táteis reluzentes destinadas ao descarte em cinco anos, traçar símbolos no papel com um objeto maciço de cento e dezoito gramas é um manifesto tátil. A ergonomia do grip foi calculada para distribuir o peso exatamente sobre o primeiro metacarpo, eliminando a fadiga durante a assinatura de contratos de custódia fiduciária de ativos intangíveis.",
-      "A tiragem limitada a poucas centenas de unidades garante a imunidade temporal deste bloco metálico. Não se trata de um mero artigo de papelaria, mas de uma extensão do tacômetro analógico, um prolongamento físico da adrenalina contida nos doze cilindros em V que rugem às margens do Rio Po."
-    ],
-    "content_paragraphs": [
-      "A aerodinâmica não reside apenas nos túneis de vento que moldam o efeito solo de um protótipo em Fiorano. Ela agora habita a ponta de uma pena-tinteiro de US$ 4.300. Gabriel Fontes analisa o novo instrumento de escrita assinado pela Ferrari em parceria com a Montegrappa, onde cada curva do corpo metálico ecoa a gestão térmica de escapamentos expostos a oitocentos graus Celsius.",
-      "O monocoque em carbo-titânio curado em autoclave a seis bar cede lugar a um tambor fresado com precisão micrônica, exigindo horas de usinagem CNC de cinco eixos para replicar a rigidez estrutural encontrada nos braços de suspensão dos bólidos de Maranello. A tinta flui por canais internos calibrados milimetricamente para resistir à força G lateral, enquanto o aparato em ouro maciço recebe banho de rutênio escuro.",
-      "Em uma era de telas táteis reluzentes destinadas ao descarte em cinco anos, traçar símbolos no papel com um objeto maciço de cento e dezoito gramas é um manifesto tátil. A ergonomia do grip foi calculada para distribuir o peso exatamente sobre o primeiro metacarpo, eliminando a fadiga durante a assinatura de contratos de custódia fiduciária de ativos intangíveis.",
-      "A tiragem limitada a poucas centenas de unidades garante a imunidade temporal deste bloco metálico. Não se trata de um mero artigo de papelaria, mas de uma extensão do tacômetro analógico, um prolongamento físico da adrenalina contida nos doze cilindros em V que rugem às margens do Rio Po."
-    ],
-    "specs": {
-      "material_principal": "Titânio aeroespacial e carbo-titânio",
-      "peso_total": "118 gramas",
-      "sistema_de_alimentação": "Pistão integrado de alta capacidade",
-      "aparato": "Ouro maciço 18k com revestimento em rutênio",
-      "tiragem_global": "Edição limitada numérica",
-      "avali_financeiro": "US$ 4.300"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 92,
-    "ranking_score": 92,
-    "publishedAt": "2026-11-01T16:47:24.682Z",
-    "published_at": "2026-11-01T16:47:24.682Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPT0p0UlZITnJoVTMyNXZ6cmNaUjhVSE50a2RKQzcxLVZ5NDF1SnhYdlFhaUtyMEpLd3lhTWJ2di1DRUZlZ01OcWlpSEwtbmNYRF9kbVJIcHhRQnY5blptOXA5XzRMV0xJenM0V1VlVDlNNVRFLTRCQUtfQXdveVVBZEw5OHNJcFBEbFBILVpYTzNIWmdIblByMUFFa0NaSTRxcExHTFRnZ0xoRlhOc1VHTnJGUXB6SEVVZGZn?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPT0p0UlZITnJoVTMyNXZ6cmNaUjhVSE50a2RKQzcxLVZ5NDF1SnhYdlFhaUtyMEpLd3lhTWJ2di1DRUZlZ01OcWlpSEwtbmNYRF9kbVJIcHhRQnY5blptOXA5XzRMV0xJenM0V1VlVDlNNVRFLTRCQUtfQXdveVVBZEw5OHNJcFBEbFBILVpYTzNIWmdIblByMUFFa0NaSTRxcExHTFRnZ0xoRlhOc1VHTnJGUXB6SEVVZGZn?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "SUPERCARROS",
+    "title": "Leilão de Las Vegas: O Triunfo Absolut...",
+    "image": "https://images.unsplash.com/photo-1577735138919-91b6848511c8?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "leilao-de-las-vegas-o-triunfo-absoluto-da-linhagem-ferrari-e-o-peso-indestrutivel-do-aco-forjado-em-maranello-6917"
+  },
+  {
+    "id": "film-2",
     "category": "RELOGIOS",
     "title": "H. Moser & Cie. Heritage: Dois Relógio...",
     "image": "https://monochrome-watches.com/app/uploads/2026/11/2026-H-Moser-Cie-Heritage-Chronograph-White-fume-and-Heritage-Centre-Seconds-Espresso-fume-review.jpg",
@@ -1431,7 +1439,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "h-moser-cie-heritage-dois-relogios-mecanicos-com-mostradores-fume-desafiando-o-efemero-digital-3988"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "ARQUITETURA",
     "title": "Romanov Sapphire: O Monólito Birmanês ...",
     "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=max&q=80&w=1400",
@@ -1439,7 +1447,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "romanov-sapphire-o-monolito-birmanes-de-197-quilates-que-redefine-a-soberania-dinastica-nos-leiloes-de-genebra-3251"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "DESTINOS",
     "title": "Brabus Shadow E-Hydrofoil: O Brinquedo...",
     "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800",
@@ -1447,7 +1455,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "brabus-shadow-e-hydrofoil-o-brinquedo-nautico-de-us-20490-com-hidrofolio-de-fibra-de-carbono-e-28-nos-de-voo-9050"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "RELOGIOS",
     "title": "Rolex, Patek Philippe e Audemars Pigue...",
     "image": "https://robbreport.com/wp-content/uploads/2022/12/RR_Rolex_1202_1.jpg",
@@ -1455,20 +1463,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "rolex-patek-philippe-e-audemars-piguet-o-monopolio-de-us-266-bilhoes-do-mercado-secundario-sustentado-por-calibres-raros-e-esmalte-grand-feu-8159"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Ferrari Daytona SP3: O Ícone V12 Aspir...",
     "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "ferrari-daytona-sp3-o-icone-v12-aspirado-de-166-milhoes-que-prova-a-imunidade-absoluta-do-leilao-de-monterey-1472"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Ferrari S.p.A.: A Soberania de 17,7 Bi...",
-    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "ferrari-spa-a-soberania-de-177-bilhoes-de-dolares-forjada-em-ligas-de-inconel-e-forca-g-lateral-3606"
   }
 ];
 

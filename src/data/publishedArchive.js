@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-colecao-david-geffen-o-leilao-de-8840",
+    "slug": "colecao-david-geffen-o-leilao-de-us-500-milhoes-em-arte-contemporanea-que-reafirma-a-soberania-patrimonial-dinastica-8832",
+    "title": "Coleção David Geffen: O Leilão de US$ 500 Milhões em Arte Contemporânea que Reafirma a Soberania Patrimonial Dinástica",
+    "image": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX3lMQmViWmphVTZjcFlJTDdYVWpVejMzcTRncmZKQ21IOU40OXpWVERDMUFCV0EzTGF1OW00UERIcEhpWUFvWHpHT3JPU0dOc3ZBbWsybWJMUnkwZzBSSno4Y0loLUZIbXd1MU5SMjZNc2hSMnA1Z19RWXVuR1R4UThGZHVWYVFUS2JURzVaSExSU2NxZ0RlVdIBngFBVV95cUxPUG9UdGwtaENkZlpHX19WLXJuRUFlOE5oMXR3WkUzWGZnNFY4ckJhcFF5b01JYW83dUhRZklfbmg3RHU5cXZFU1Vic3kxcjQ0UWRSWlJObXhmUkpNQzRGRlpJRFBfRUphQmZnTTd0aXlLWkw1NnUwNHYzNTFUcHNKaVJLOEs0TnR3ZjZyTDZwcEFod29fbGJnS01jWXZ5dw?oc=5",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "publishedAt": "2026-11-06T04:38:58.839Z"
+  },
+  {
     "id": "art-superiate-oceanico-de-185-milhoe-7109",
     "slug": "superiate-oceanico-de-185-milhoes-de-euros-em-maiorca-o-casco-deslocante-de-aco-com-autonomia-transatlantica-e-propulsao-hibrida-silenciosa-6646",
     "title": "Superiate Oceânico de 185 Milhões de Euros em Maiorca: O Casco Deslocante de Aço com Autonomia Transatlântica e Propulsão Híbrida Silenciosa",
