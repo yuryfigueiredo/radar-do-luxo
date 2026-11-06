@@ -174,7 +174,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://robbreport.com/wp-content/uploads/2026/11/167_East74thSt_NYC_14.jpg",
     "imageIsFallback": false,
-    "status": "available"
+    "status": "duplicate"
   },
   {
     "id": "pauta-live-arquitetura-mw4rx3zs-ofp2",
@@ -201,7 +201,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://hodinkee.imgix.net/uploads/articles/ad7c2fe2-fc29-41bc-a76f-54fbd7f644a6/Untitled-1.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=2000",
     "imageIsFallback": false,
-    "status": "available"
+    "status": "duplicate"
   },
   {
     "id": "pauta-live-arquitetura-mw4rx4zh-4yu8",
@@ -228,7 +228,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "available"
+    "status": "duplicate"
   },
   {
     "id": "pauta-live-supercarros-mw4rx454-dz4k",
@@ -281,7 +281,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://monochrome-watches.com/app/uploads/2026/11/Breguet-Classique-Souscription-Platinum-2026PT-review-6-600x237.jpg",
     "imageIsFallback": false,
-    "status": "available"
+    "status": "duplicate"
   },
   {
     "id": "pauta-live-relogios-mw4rx401-7t0w",
