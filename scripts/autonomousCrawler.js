@@ -141,6 +141,15 @@ const CAPA_MAX_AGE_HOURS = Math.max(1, envNumber('CAPA_MAX_AGE_HOURS', 8));
 const CAPA_MIN_GAP_MS = 2 * 3_600_000;
 const MIN_PUBLICATION_INTERVAL_HOURS = Math.max(0, envNumber('MIN_PUBLICATION_INTERVAL_HOURS', 0));
 
+// Rotação forçada: em horários fixos (UTC), se a capa atual tem mais de N horas,
+// coroa a matéria mais forte do dia mesmo que não bata o score da capa vigente.
+// Default: 03:00 e 13:00 BRT (06:00 e 16:00 UTC), idade mínima 8h.
+const ROTACAO_FORCADA_HORAS = (process.env.ROTACAO_FORCADA_HORAS || '6,16')
+  .split(',')
+  .map(h => Number(h.trim()))
+  .filter(h => Number.isFinite(h) && h >= 0 && h < 24);
+const ROTACAO_FORCADA_IDADE_MIN_HORA = Number(process.env.ROTACAO_FORCADA_IDADE_MIN_HORA || 8);
+
 // Verticais medidas nesta worktree (aspecto < 1). O auditor de capa as reprova pela
 // dimensão quando há rede; aqui elas são barradas também sem medir, porque o degrau de
 // rede caída não tem régua nenhuma além do que já sabemos dos arquivos. São fotos boas
@@ -1116,7 +1125,7 @@ export function jitteredPublishTime(nowMs = Date.now()) {
 
 // Veredito da capa em função separada: é a decisão que define a cara do site, e
 // o que se testa aqui é o código que roda no executor, não uma cópia dele.
-export function decideCoverPromotion({ finalScore, capaAnalysis, coverAudited, pinned, turnoLivre, idadeCapaMs = null, floorDraft = false, afirmacoesSemFonte = [] }, cfg = {}) {
+export function decideCoverPromotion({ finalScore, capaAnalysis, coverAudited, pinned, turnoLivre, idadeCapaMs = null, floorDraft = false, afirmacoesSemFonte = [], horaUtc = null }, cfg = {}) {
   const capaMaxAge = Number.isFinite(cfg.capaMaxAgeHours) ? cfg.capaMaxAgeHours : CAPA_MAX_AGE_HOURS;
   const capaMinScore = Number.isFinite(cfg.capaMinScore) ? cfg.capaMinScore : CAPA_MIN_SCORE;
 
@@ -1163,10 +1172,21 @@ export function decideCoverPromotion({ finalScore, capaAnalysis, coverAudited, p
   if (finalScore < piso) {
     return { isHero: false, capaVelha, piso, motivo: `nota ${finalScore} abaixo do piso ${piso}` };
   }
-  if (finalScore <= capaAnalysis.currentWeight) {
+  // Rotação forçada por horário: se a capa está velha o suficiente e estamos numa janela
+  // de troca (03:00 ou 13:00 BRT = 06:00 ou 16:00 UTC), coroa a melhor matéria disponível
+  // mesmo que não supere o peso da capa vigente. Garante 2 trocas mínimas por dia.
+  const idadeMinMs = ROTACAO_FORCADA_IDADE_MIN_HORA * 3_600_000;
+  const rotacaoForcada = horaUtc !== null
+    && ROTACAO_FORCADA_HORAS.includes(horaUtc)
+    && Number.isFinite(idadeCapaMs)
+    && idadeCapaMs >= idadeMinMs;
+  if (!rotacaoForcada && finalScore <= capaAnalysis.currentWeight) {
     return { isHero: false, capaVelha, piso, motivo: `capa vigente ainda pesa ${capaAnalysis.currentWeight} pts` };
   }
-  return { isHero: true, capaVelha, piso, motivo: `capa por mérito (${finalScore} > ${capaAnalysis.currentWeight})` };
+  const motivo = rotacaoForcada
+    ? `capa por rotação forçada (${finalScore} pts, capa com ${(idadeCapaMs / 3_600_000).toFixed(1)}h)`
+    : `capa por mérito (${finalScore} > ${capaAnalysis.currentWeight})`;
+  return { isHero: true, capaVelha, piso, motivo };
 }
 
 async function publishArticle(articleData, candidate, meta, supabaseClient, suspeitas) {
@@ -1220,7 +1240,8 @@ async function publishArticle(articleData, candidate, meta, supabaseClient, susp
       turnoLivre: coverTurnoLivre(currentHero),
       idadeCapaMs: idadeCapaMs(currentHero),
       floorDraft,
-      afirmacoesSemFonte: suspeitas
+      afirmacoesSemFonte: suspeitas,
+      horaUtc: new Date().getUTCHours()
     });
     isHero = veredito.isHero;
     if (!isHero && veredito.motivo.startsWith('imagem')) {
