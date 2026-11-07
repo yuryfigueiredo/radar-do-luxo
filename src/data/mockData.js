@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-yangwang-u9-a-furia-eletrica-de--0208",
+    "slug": "yangwang-u9-a-furia-eletrica-de-310-mph-que-desafia-a-fisica-termica-com-1300-volts-de-descarga-direta-9302",
+    "title": "Yangwang U9: A Fúria Elétrica de 310 MPH que Desafia a Física Térmica com 1.300 Volts de Descarga Direta",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "07 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "A supremacia mecânica secular sofre abalos sísmicos quando a telemetria eletrônica empurra os limites do asfalto para patamares inexplorados de força G e dissipação térmica.",
+    "contentParagraphs": [
+      "A marca dos trezentos e dez milhas por hora deixou de ser mera especulação teórica em CAD para se converter em dado bruto de telemetria. Quatro motores síncronos de ímã permanente gritam em rotações estratosféricas enquanto o monocoque em carbo-titânio absorve as inestimáveis forças G laterais e longitudinais. A arquitetura de alta tensão não perdoa ineficiências térmicas. Cada componente respira sob pressão atmosférica controlada por dutos NACA esculpidos para minimizar o arrasto aerodinâmico bruto.",
+      "A suspensão hidráulica ativa gerencia milimetricamente o fluxo de Venturi sob o assoalho plano. O efeito solo dita a trajetória com precisão cirúrgica enquanto os discos carbocerâmicos dissipam megajoules de energia cinética transformados em calor puro. Tolerâncias na casa dos mícrons garantem que a estrutura não se deforme sob o impacto aerodinâmico devastador gerado a quinhentos quilômetros por hora. O silêncio dos pistões dá lugar ao zumbido metálico dos inversores de carboneto de silício.",
+      "Enquanto ateliês centenários europeus confiam na combustão interna e no ronco visceral de blocos V16, a engenharia oriental aposta na brutalidade instantânea do torque vetorial. A aerodinâmica ativa responde em centésimos de segundo a variações ínfimas na pressão barométrica da pista, mantendo o eixo dianteiro colado ao solo sem comprometer a estabilidade direcional. O assoalho esculpido em túnel de vento converte ar em sustentação negativa pura e implacável.",
+      "A era dos hipercarros elétricos ultrapassou o estágio das promessas de salão para exigir respeito absoluto nas retas de alta velocidade. Este marco de 310 mph reescreve os compêndios de engenharia automotiva e redefine o padrão pelo qual toda a indústria medirá sua própria relevância mecânica e eletrônica nos próximos anos."
+    ],
+    "content_paragraphs": [
+      "A marca dos trezentos e dez milhas por hora deixou de ser mera especulação teórica em CAD para se converter em dado bruto de telemetria. Quatro motores síncronos de ímã permanente gritam em rotações estratosféricas enquanto o monocoque em carbo-titânio absorve as inestimáveis forças G laterais e longitudinais. A arquitetura de alta tensão não perdoa ineficiências térmicas. Cada componente respira sob pressão atmosférica controlada por dutos NACA esculpidos para minimizar o arrasto aerodinâmico bruto.",
+      "A suspensão hidráulica ativa gerencia milimetricamente o fluxo de Venturi sob o assoalho plano. O efeito solo dita a trajetória com precisão cirúrgica enquanto os discos carbocerâmicos dissipam megajoules de energia cinética transformados em calor puro. Tolerâncias na casa dos mícrons garantem que a estrutura não se deforme sob o impacto aerodinâmico devastador gerado a quinhentos quilômetros por hora. O silêncio dos pistões dá lugar ao zumbido metálico dos inversores de carboneto de silício.",
+      "Enquanto ateliês centenários europeus confiam na combustão interna e no ronco visceral de blocos V16, a engenharia oriental aposta na brutalidade instantânea do torque vetorial. A aerodinâmica ativa responde em centésimos de segundo a variações ínfimas na pressão barométrica da pista, mantendo o eixo dianteiro colado ao solo sem comprometer a estabilidade direcional. O assoalho esculpido em túnel de vento converte ar em sustentação negativa pura e implacável.",
+      "A era dos hipercarros elétricos ultrapassou o estágio das promessas de salão para exigir respeito absoluto nas retas de alta velocidade. Este marco de 310 mph reescreve os compêndios de engenharia automotiva e redefine o padrão pelo qual toda a indústria medirá sua própria relevância mecânica e eletrônica nos próximos anos."
+    ],
+    "specs": {
+      "Arquitetura de Potência": "Quad-motor síncrono com inversor de SiC",
+      "Velocidade Máxima Registrada": "310 MPH (498,8 km/h)",
+      "Tensão do Sistema Elétrico": "1.300 Volts de alta densidade",
+      "Aerodinâmica": "Efeito solo ativo com túneis Venturi integrados",
+      "Chassi": "Monocoque em carbo-titânio curado em autoclave"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 91,
+    "ranking_score": 91,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-07T01:16:50.208Z",
+    "published_at": "2026-11-07T01:16:50.208Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQ2xQUURwVkJ1N2daNWdWMkNFRGhOWmJpazNRcGk5TlI4Vm5XOExKcDJWLUhsQ0x4dDB4UUg1Y1YxSUZaeWJ2YnRXaFpqb3dJZXc2aHJZQXNhTnFFOWxGZURFVk5oaVZHY0gxa0t0Y29oc2FudUc5aUQ3bFdaQnl4dkpn?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQ2xQUURwVkJ1N2daNWdWMkNFRGhOWmJpazNRcGk5TlI4Vm5XOExKcDJWLUhsQ0x4dDB4UUg1Y1YxSUZaeWJ2YnRXaFpqb3dJZXc2aHJZQXNhTnFFOWxGZURFVk5oaVZHY0gxa0t0Y29oc2FudUc5aUQ3bFdaQnl4dkpn?oc=5"
+  },
+  {
     "id": "art-sheergold-o-superiate-de-expedic-8920",
     "slug": "sheergold-o-superiate-de-expedicao-e-os-7-dias-de-navegacao-extrema-pelo-grande-buraco-azul-de-belize-8524",
     "title": "Sheergold: O Superiate de Expedição e os 7 Dias de Navegação Extrema pelo Grande Buraco Azul de Belize",
@@ -1367,64 +1419,20 @@ export const ARTICLES = [
     "published_at": "2026-11-03T02:00:19.057Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAwSVV5cHRPaWlUNjN3dF9kVzZxaHRqcDNlSFdBUzJtbnp2Zmh1SXJWanJhRXR4RGlCcjEtR3VMbGhNdWV3QUFtLTRyMDJlVE5ZY0NIS1pITlo1ZW1lajNMa3RFWTdUcUYxeXlTakVueWszMV9qNXdJ?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAwSVV5cHRPaWlUNjN3dF9kVzZxaHRqcDNlSFdBUzJtbnp2Zmh1SXJWanJhRXR4RGlCcjEtR3VMbGhNdWV3QUFtLTRyMDJlVE5ZY0NIS1pITlo1ZW1lajNMa3RFWTdUcUYxeXlTakVueWszMV9qNXdJ?oc=5"
-  },
-  {
-    "id": "art-romanov-sapphire-o-monolito-birm-3258",
-    "slug": "romanov-sapphire-o-monolito-birmanes-de-197-quilates-que-redefine-a-soberania-dinastica-nos-leiloes-de-genebra-3251",
-    "title": "Romanov Sapphire: O Monólito Birmanês de 197 Quilates que Redefine a Soberania Dinástica nos Leilões de Genebra",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "03 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A custódia fiduciária de um tesouro imperial com procedência imune revela como a alta curadoria de patrimônio busca o silêncio mineral diante da volatilidade do capital moderno.",
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído estridente. O patrimônio dinástico busca o silêncio mineral. Nas abóbadas discretas da Sotheby’s em Genebra, o surgimento iminente do Romanov Sapphire de 197 quilates não representa uma simples transação mercantil, mas a transferência de um fragmento inalterável da história imperial europeia.",
-      "Cada milímetro deste monólito em azul cetim carrega a memória geológica de Mogok combinada com o rigor estético dos Romanov. Enquanto fundos de investimento efêmeros perseguem métricas voláteis, a custódia fiduciária de gemas desta magnitude atua como um refúgio de liquidez imune ao desgaste do tempo e às oscilações cambiais.",
-      "A procedência documentada deste zafira opera como um contrato soberano entre gerações. Não há espaço para o efêmero quando se examina a pureza cristalina de um primor que resistiu a revoluções, exílios e ao esquecimento, mantendo intacta sua dignidade estrutural e seu peso histórico incontestável.",
-      "Ao assegurar a posse de uma gema desta envergadura, o colecionador sela um pacto com a eternidade. A verdadeira riqueza não se exibe; ela se preserva em cofres blindados, transformando história em um ativo de governança dinástica intransmutável."
-    ],
-    "content_paragraphs": [
-      "O dinheiro recente faz ruído estridente. O patrimônio dinástico busca o silêncio mineral. Nas abóbadas discretas da Sotheby’s em Genebra, o surgimento iminente do Romanov Sapphire de 197 quilates não representa uma simples transação mercantil, mas a transferência de um fragmento inalterável da história imperial europeia.",
-      "Cada milímetro deste monólito em azul cetim carrega a memória geológica de Mogok combinada com o rigor estético dos Romanov. Enquanto fundos de investimento efêmeros perseguem métricas voláteis, a custódia fiduciária de gemas desta magnitude atua como um refúgio de liquidez imune ao desgaste do tempo e às oscilações cambiais.",
-      "A procedência documentada deste zafira opera como um contrato soberano entre gerações. Não há espaço para o efêmero quando se examina a pureza cristalina de um primor que resistiu a revoluções, exílios e ao esquecimento, mantendo intacta sua dignidade estrutural e seu peso histórico incontestável.",
-      "Ao assegurar a posse de uma gema desta envergadura, o colecionador sela um pacto com a eternidade. A verdadeira riqueza não se exibe; ela se preserva em cofres blindados, transformando história em um ativo de governança dinástica intransmutável."
-    ],
-    "specs": {
-      "Peso Nominal": "197 quilates",
-      "Origem Geológica": "Mogok, Birmânia",
-      "Procedência": "Coleção Imperial Romanov",
-      "Casa de Leilões": "Sotheby’s Genebra",
-      "Classificação de Ativo": "Patrimônio Imune / Refúgio Fiduciário"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-03T02:01:43.258Z",
-    "published_at": "2026-11-03T02:01:43.258Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWDlqXzJiSDZDVG5qWFdEYm85Zmc2dXJTZVdTMFAzV0lfQm4wNG1uajQtOXMxY2F6V2x2ZUZYa3FoX0cwQ1ZrNDlja1RveEtpblhKSXZZaC1FSGEwLW9VRWNqR3dVTjNNdlpYQXkxQml2dVF6SU5yUWZCYTl6bXZQeXI3LThsSUk0UHV6ZjNFXzVqU0FrR1h6ek5YRQ?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWDlqXzJiSDZDVG5qWFdEYm85Zmc2dXJTZVdTMFAzV0lfQm4wNG1uajQtOXMxY2F6V2x2ZUZYa3FoX0cwQ1ZrNDlja1RveEtpblhKSXZZaC1FSGEwLW9VRWNqR3dVTjNNdlpYQXkxQml2dVF6SU5yUWZCYTl6bXZQeXI3LThsSUk0UHV6ZjNFXzVqU0FrR1h6ek5YRQ?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "ARQUITETURA",
+    "title": "Superiates: O Retorno Silencioso à Náu...",
+    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800",
+    "tag": "CURADORIA RADAR",
+    "slug": "superiates-o-retorno-silencioso-a-nautica-analogica-de-casco-de-aco-e-controle-mecanico-direto-3002"
+  },
+  {
+    "id": "film-2",
     "category": "DESTINOS",
     "title": "Gabe Newell: A Fortuna de 5 Bilhões de...",
     "image": "https://images.unsplash.com/photo-1781872324499-e51350ed640e?auto=format&fit=max&q=80&w=1400",
@@ -1432,7 +1440,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "gabe-newell-a-fortuna-de-5-bilhoes-de-dolares-ancorada-em-120-metros-de-aco-naval-e-inovacao-digital-5675"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Ferrari Testarossa Spider Monodado: O ...",
     "image": "https://images.unsplash.com/photo-1660326040484-fc0cb33d0b23?auto=format&fit=max&q=80&w=1400",
@@ -1440,7 +1448,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-testarossa-spider-monodado-o-unico-pace-car-oficial-de-maranello-dos-anos-80-com-chassi-tubular-reforcado-e-aluminio-batido-a-mao-que-retorna-das-sombras-8059"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "DESTINOS",
     "title": "Amels 242 Nome: O Superiate de 74 Metr...",
     "image": "https://images.unsplash.com/photo-1614350391736-ed8619d63c06?auto=format&fit=max&q=80&w=1400",
@@ -1448,7 +1456,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "amels-242-nome-o-superiate-de-74-metros-e-1790-toneladas-que-desafia-a-hidrodinamica-tradicional-no-hercules-de-monaco-7416"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "ARQUITETURA",
     "title": "Sotheby's Royal & Noble Jewels Geneva ...",
     "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
@@ -1456,20 +1464,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "sothebys-royal-noble-jewels-geneva-2026-a-colecao-de-diamantes-historicos-de-18-quilates-com-proveniencia-dinastica-comprovada-3072"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Leilão de Las Vegas: O Triunfo Absolut...",
     "image": "https://images.unsplash.com/photo-1577735138919-91b6848511c8?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "leilao-de-las-vegas-o-triunfo-absoluto-da-linhagem-ferrari-e-o-peso-indestrutivel-do-aco-forjado-em-maranello-6917"
-  },
-  {
-    "id": "film-6",
-    "category": "RELOGIOS",
-    "title": "H. Moser & Cie. Heritage: Dois Relógio...",
-    "image": "https://monochrome-watches.com/app/uploads/2026/11/2026-H-Moser-Cie-Heritage-Chronograph-White-fume-and-Heritage-Centre-Seconds-Espresso-fume-review.jpg",
-    "tag": "CURADORIA RADAR",
-    "slug": "h-moser-cie-heritage-dois-relogios-mecanicos-com-mostradores-fume-desafiando-o-efemero-digital-3988"
   }
 ];
 

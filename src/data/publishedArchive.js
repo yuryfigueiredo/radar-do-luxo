@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-yangwang-u9-a-furia-eletrica-de--0208",
+    "slug": "yangwang-u9-a-furia-eletrica-de-310-mph-que-desafia-a-fisica-termica-com-1300-volts-de-descarga-direta-9302",
+    "title": "Yangwang U9: A Fúria Elétrica de 310 MPH que Desafia a Física Térmica com 1.300 Volts de Descarga Direta",
+    "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQ2xQUURwVkJ1N2daNWdWMkNFRGhOWmJpazNRcGk5TlI4Vm5XOExKcDJWLUhsQ0x4dDB4UUg1Y1YxSUZaeWJ2YnRXaFpqb3dJZXc2aHJZQXNhTnFFOWxGZURFVk5oaVZHY0gxa0t0Y29oc2FudUc5aUQ3bFdaQnl4dkpn?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-07T01:16:50.208Z"
+  },
+  {
     "id": "art-sheergold-o-superiate-de-expedic-8920",
     "slug": "sheergold-o-superiate-de-expedicao-e-os-7-dias-de-navegacao-extrema-pelo-grande-buraco-azul-de-belize-8524",
     "title": "Sheergold: O Superiate de Expedição e os 7 Dias de Navegação Extrema pelo Grande Buraco Azul de Belize",
