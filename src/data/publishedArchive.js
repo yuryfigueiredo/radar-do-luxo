@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-phillips-genebra-o-leilao-histor-5118",
+    "slug": "phillips-genebra-o-leilao-historico-de-48-lotes-raros-com-avaliacao-superior-a-45-milhoes-de-francos-suicos-em-relogios-de-sobrevivencia-dinastica-5109",
+    "title": "Phillips Genebra: O Leilão Histórico de 48 Lotes Raros com Avaliação Superior a 45 Milhões de Francos Suíços em Relógios de Sobrevivência Dinástica",
+    "image": "https://images.unsplash.com/photo-1610880709844-b97111a986f7?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9hSm9pOERWVVc1SFBOdEVDTVRrR2dFWDlLR1BLOTJnMWNiUzlTYVd0b1FnbVJUcGdtTlpkME4xUzRoWFNtZ3ZjME9WY3ptcmhkZ0p5SE1wcV84Q0NMY01XMnktZkplZlQ2R0ZZQzF1ZVExakhHQ084NXdWQmQ?oc=5",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "publishedAt": "2026-11-07T11:11:25.118Z"
+  },
+  {
     "id": "art-sarasota-record-a-cobertura-lito-6409",
     "slug": "sarasota-record-a-cobertura-litoral-de-us-145-milhoes-com-monobloco-de-travertino-e-fundacao-de-concreto-nautico-6085",
     "title": "Sarasota Record: A Cobertura Litoral de US$ 14,5 Milhões com Monobloco de Travertino e Fundação de Concreto Náutico",

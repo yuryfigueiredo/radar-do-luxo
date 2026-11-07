@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-phillips-genebra-o-leilao-histor-5118",
+    "slug": "phillips-genebra-o-leilao-historico-de-48-lotes-raros-com-avaliacao-superior-a-45-milhoes-de-francos-suicos-em-relogios-de-sobrevivencia-dinastica-5109",
+    "title": "Phillips Genebra: O Leilão Histórico de 48 Lotes Raros com Avaliação Superior a 45 Milhões de Francos Suíços em Relógios de Sobrevivência Dinástica",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "07 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1610880709844-b97111a986f7?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A casa Phillips revela os pilares de seu próximo leilão em Genebra, reunindo exemplares museológicos de alta relojoaria que desafiam a volatilidade macroeconômica global.",
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Enquanto os mercados globais oscilam sob o peso de incertezas sistêmicas, a custódia fiduciária de ativos tangíveis encontra refúgio seguro nas salas de leilão de Genebra, onde a Phillips acaba de desvendar sua seleção mais restrita e intransigente da década.",
+      "A soberania patrimonial não tolera liquidez efêmera. Cada um dos relógios selecionados para este leilão monumental representa uma reserva de valor imune ao tempo, ancorada na mecânica atemporal de calibres que jamais verão a obsolescência planejada dos mercados de massa.",
+      "Observamos a concentração de capitais voltados exclusivamente para a imunidade temporal. Colecionadores de family offices não disputam meros instrumentos de medição horária, mas sim heranças portáteis capazes de atravessar gerações sem perda de substância ou pedigree.",
+      "O veredito desta curadoria é definitivo: o verdadeiro luxo habita na escassez matemática e na posse de ativos físicos irredutíveis. A próxima sessão em Genebra não será um evento de mercado, mas um marco incontestável de preservação patrimonial."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Enquanto os mercados globais oscilam sob o peso de incertezas sistêmicas, a custódia fiduciária de ativos tangíveis encontra refúgio seguro nas salas de leilão de Genebra, onde a Phillips acaba de desvendar sua seleção mais restrita e intransigente da década.",
+      "A soberania patrimonial não tolera liquidez efêmera. Cada um dos relógios selecionados para este leilão monumental representa uma reserva de valor imune ao tempo, ancorada na mecânica atemporal de calibres que jamais verão a obsolescência planejada dos mercados de massa.",
+      "Observamos a concentração de capitais voltados exclusivamente para a imunidade temporal. Colecionadores de family offices não disputam meros instrumentos de medição horária, mas sim heranças portáteis capazes de atravessar gerações sem perda de substância ou pedigree.",
+      "O veredito desta curadoria é definitivo: o verdadeiro luxo habita na escassez matemática e na posse de ativos físicos irredutíveis. A próxima sessão em Genebra não será um evento de mercado, mas um marco incontestável de preservação patrimonial."
+    ],
+    "specs": {
+      "Casa de Leilões": "Phillips in Association with Bacs & Russo",
+      "Localização": "Hotel La Réserve, Genebra",
+      "Volume Estimado": "Superior a CHF 45.000.000",
+      "Lotes em Destaque": "48 relógios de museu",
+      "Moeda de Transação": "Franco Suíço (CHF)"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-07T11:11:25.118Z",
+    "published_at": "2026-11-07T11:11:25.118Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9hSm9pOERWVVc1SFBOdEVDTVRrR2dFWDlLR1BLOTJnMWNiUzlTYVd0b1FnbVJUcGdtTlpkME4xUzRoWFNtZ3ZjME9WY3ptcmhkZ0p5SE1wcV84Q0NMY01XMnktZkplZlQ2R0ZZQzF1ZVExakhHQ084NXdWQmQ?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9hSm9pOERWVVc1SFBOdEVDTVRrR2dFWDlLR1BLOTJnMWNiUzlTYVd0b1FnbVJUcGdtTlpkME4xUzRoWFNtZ3ZjME9WY3ptcmhkZ0p5SE1wcV84Q0NMY01XMnktZkplZlQ2R0ZZQzF1ZVExakhHQ084NXdWQmQ?oc=5"
+  },
+  {
     "id": "art-sarasota-record-a-cobertura-lito-6409",
     "slug": "sarasota-record-a-cobertura-litoral-de-us-145-milhoes-com-monobloco-de-travertino-e-fundacao-de-concreto-nautico-6085",
     "title": "Sarasota Record: A Cobertura Litoral de US$ 14,5 Milhões com Monobloco de Travertino e Fundação de Concreto Náutico",
@@ -1369,63 +1421,20 @@ export const ARTICLES = [
     "published_at": "2026-11-03T11:17:37.308Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbnVncWp1c0Z1dFU0WFAwN0NxMDZJc3Via2Y1ZW5CVmY1NlNtVFY2RzBZcFBQQnJQdHN4Q2ZSdUFPRlVzTkNkZHc3a1ZmbnF4SDROdTBuSFR0bnB0cDdsckxxLXhiZWRzNjRkaTVtMWdySTM0M2wxdlVVb2NtaWdxOWdXM1h3QzdZa0VLMHo4T3dvNjNXM1E?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbnVncWp1c0Z1dFU0WFAwN0NxMDZJc3Via2Y1ZW5CVmY1NlNtVFY2RzBZcFBQQnJQdHN4Q2ZSdUFPRlVzTkNkZHc3a1ZmbnF4SDROdTBuSFR0bnB0cDdsckxxLXhiZWRzNjRkaTVtMWdySTM0M2wxdlVVb2NtaWdxOWdXM1h3QzdZa0VLMHo4T3dvNjNXM1E?oc=5"
-  },
-  {
-    "id": "art-h-moser-cie-heritage-dois-relogi-4206",
-    "slug": "h-moser-cie-heritage-dois-relogios-mecanicos-com-mostradores-fume-desafiando-o-efemero-digital-3988",
-    "title": "H. Moser & Cie. Heritage: Dois Relógios Mecânicos com Mostradores Fumé Desafiando o Efêmero Digital",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "category_slug": "relogios",
-    "authorSlug": "clara-meirelles",
-    "author_slug": "clara-meirelles",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "03 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://monochrome-watches.com/app/uploads/2026/11/2026-H-Moser-Cie-Heritage-Chronograph-White-fume-and-Heritage-Centre-Seconds-Espresso-fume-review.jpg",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A manufatura independente da Vallée de Joux expande sua linha Heritage com dois calibres que resgatam a estética de bolso em caixas de aço polido à mão, reafirmando a soberania do tempo analógico contra a obsolescência programada.",
-    "contentParagraphs": [
-      "O tempo da alta relojoaria não tolera pressa. A H. Moser & Cie. abandona temporariamente as linhas esportivas e integradas para revisitar suas origens mais profundas. Na penumbra silenciosa dos ateliês em Neuhausen am Rheinfall, o aço ganha curvas clássicas e asas soldadas à mão, lembrando os cronômetros de bolso do século XIX. A estética Heritage rejeita o barulho do design contemporâneo e propõe uma volta ao essencial. Trata-se de uma escultura mecânica que se recusa a piscar.",
-      "O modelo Heritage Centre Seconds Espresso Fumé exibe um mostrador com gradiente profundo, onde o marrom escuro dissolve-se em um café tostado sob luz direta, protegido por vidro safira abaulado. Em seu interior pulsa um calibre de manufatura com tolerâncias de mícrons, ajustado manualmente para garantir precisão cronométrica sem concessões digitais. A ausência de logotipos gritantes sublinha a confiança absoluta na assinatura visual da marca: o luxo verdadeiro sussurra.",
-      "Ao lado do centre seconds, o Heritage Chronograph surge com uma arquitetura de cronógrafo monopulsante que homenageia os primórdios da cronometria esportiva. Cada componente do mecanismo interno recebe acabamento em anglage com sabugueiro silvestre e polimento espelhado em chanfros vivos. A roda de pilares opera com uma suavidade tátil desconhecida nas produções seriadas, exigindo horas de ajuste paciente executadas por um único mestre relojoeiro antes da montagem final.",
-      "Em um mercado saturado de novidades descartáveis, estas duas referências consolidam um refúgio de liquidez e permanência estética. Não são adornos passageiros, mas ativos de herança familiar destinados a atravessar décadas sem perder a relevância mecânica. O verdadeiro colecionador não busca apenas marcar os segundos, mas possuir um fragmento inalterável da história humana talhada em metal nobre."
-    ],
-    "content_paragraphs": [
-      "O tempo da alta relojoaria não tolera pressa. A H. Moser & Cie. abandona temporariamente as linhas esportivas e integradas para revisitar suas origens mais profundas. Na penumbra silenciosa dos ateliês em Neuhausen am Rheinfall, o aço ganha curvas clássicas e asas soldadas à mão, lembrando os cronômetros de bolso do século XIX. A estética Heritage rejeita o barulho do design contemporâneo e propõe uma volta ao essencial. Trata-se de uma escultura mecânica que se recusa a piscar.",
-      "O modelo Heritage Centre Seconds Espresso Fumé exibe um mostrador com gradiente profundo, onde o marrom escuro dissolve-se em um café tostado sob luz direta, protegido por vidro safira abaulado. Em seu interior pulsa um calibre de manufatura com tolerâncias de mícrons, ajustado manualmente para garantir precisão cronométrica sem concessões digitais. A ausência de logotipos gritantes sublinha a confiança absoluta na assinatura visual da marca: o luxo verdadeiro sussurra.",
-      "Ao lado do centre seconds, o Heritage Chronograph surge com uma arquitetura de cronógrafo monopulsante que homenageia os primórdios da cronometria esportiva. Cada componente do mecanismo interno recebe acabamento em anglage com sabugueiro silvestre e polimento espelhado em chanfros vivos. A roda de pilares opera com uma suavidade tátil desconhecida nas produções seriadas, exigindo horas de ajuste paciente executadas por um único mestre relojoeiro antes da montagem final.",
-      "Em um mercado saturado de novidades descartáveis, estas duas referências consolidam um refúgio de liquidez e permanência estética. Não são adornos passageiros, mas ativos de herança familiar destinados a atravessar décadas sem perder a relevância mecânica. O verdadeiro colecionador não busca apenas marcar os segundos, mas possuir um fragmento inalterável da história humana talhada em metal nobre."
-    ],
-    "specs": {
-      "calibre": "Movimento mecânico de corda manual e automática de manufatura",
-      "materiais": "Aço inoxidável polido à mão com mostradores Fumé (Espresso e White)",
-      "ateliê": "Neuhausen am Rheinfall e Vallée de Joux, Suíça",
-      "acabamento": "Anglage manual, pontes biseladas e roda de pilares integrada"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 86,
-    "ranking_score": 86,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-03T03:06:24.205Z",
-    "published_at": "2026-11-03T03:06:24.205Z",
-    "sourceUrl": "https://monochrome-watches.com/2026-h-moser-cie-heritage-chronograph-white-fume-and-heritage-centre-seconds-espresso-fume-review-price/",
-    "source_url": "https://monochrome-watches.com/2026-h-moser-cie-heritage-chronograph-white-fume-and-heritage-centre-seconds-espresso-fume-review-price/"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "SUPERCARROS",
+    "title": "Ferrari 250 GTO: 18 000 000 USD e Chas...",
+    "image": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "ferrari-250-gto-18-000-000-usd-e-chassi-de-forjamento-de-titanio-em-las-vegas-6794"
+  },
+  {
+    "id": "film-2",
     "category": "ARQUITETURA",
     "title": "Christie's Abu Dhabi: US$ 8,94 Milhões...",
     "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=85&w=1800",
@@ -1433,7 +1442,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "christies-abu-dhabi-us-894-milhoes-em-obras-raras-e-a-nova-soberania-patrimonial-do-oriente-medio-0301"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "ARQUITETURA",
     "title": "Superiates: O Retorno Silencioso à Náu...",
     "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800",
@@ -1441,7 +1450,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "superiates-o-retorno-silencioso-a-nautica-analogica-de-casco-de-aco-e-controle-mecanico-direto-3002"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "DESTINOS",
     "title": "Gabe Newell: A Fortuna de 5 Bilhões de...",
     "image": "https://images.unsplash.com/photo-1781872324499-e51350ed640e?auto=format&fit=max&q=80&w=1400",
@@ -1449,7 +1458,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "gabe-newell-a-fortuna-de-5-bilhoes-de-dolares-ancorada-em-120-metros-de-aco-naval-e-inovacao-digital-5675"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Ferrari Testarossa Spider Monodado: O ...",
     "image": "https://images.unsplash.com/photo-1660326040484-fc0cb33d0b23?auto=format&fit=max&q=80&w=1400",
@@ -1457,20 +1466,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-testarossa-spider-monodado-o-unico-pace-car-oficial-de-maranello-dos-anos-80-com-chassi-tubular-reforcado-e-aluminio-batido-a-mao-que-retorna-das-sombras-8059"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "DESTINOS",
     "title": "Amels 242 Nome: O Superiate de 74 Metr...",
     "image": "https://images.unsplash.com/photo-1614350391736-ed8619d63c06?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "amels-242-nome-o-superiate-de-74-metros-e-1790-toneladas-que-desafia-a-hidrodinamica-tradicional-no-hercules-de-monaco-7416"
-  },
-  {
-    "id": "film-6",
-    "category": "ARQUITETURA",
-    "title": "Sotheby's Royal & Noble Jewels Geneva ...",
-    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
-    "tag": "CURADORIA RADAR",
-    "slug": "sothebys-royal-noble-jewels-geneva-2026-a-colecao-de-diamantes-historicos-de-18-quilates-com-proveniencia-dinastica-comprovada-3072"
   }
 ];
 
