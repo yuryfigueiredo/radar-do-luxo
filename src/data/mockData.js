@@ -116,6 +116,59 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-ferrari-hypercar-2030-o-v12-aspi-2621",
+    "slug": "ferrari-hypercar-2030-o-v12-aspirado-de-11000-rpm-que-exige-o-fim-absoluto-do-equilibrio-artificial-de-desempenho-2202",
+    "title": "Ferrari Hypercar 2030: O V12 Aspirado de 11.000 RPM que Exige o Fim Absoluto do Equilíbrio Artificial de Desempenho",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "07 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=max&q=85&w=1800",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "A divisão de competições de Maranello rejeita onivelamento corporativo e prepara uma arquitetura sem BoP para a próxima década, unindo aerodinâmica ativa e metalurgia aeroespacial.",
+    "contentParagraphs": [
+      "O artificismo regulatório está prestes a ruir. Sob a tutela técnica de Maranello, a engenharia de pista não aceita mais algoritmos de lastro e restrições de fluxo de combustível impostos para nivelar o grid. A meta para a próxima década é radical. Desenvolver um protótipo puro onde a aerodinâmica de efeito solo e a termodinâmica interna reinem soberanas.",
+      "O chassi em carbo-titânio curado em autoclave a 6 bar abriga um motor aspirado visceral. Cada pistão forjado opera com tolerâncias de mícrons enquanto o escape em Inconel 625 dissipa temperaturas extremas a 11.000 RPM. A telemetria inercial mapeia cada força G lateral nas curvas de alta velocidade com precisão cirúrgica.",
+      "Enquanto os concorrentes se rendem à eletrificação massiva e ao peso morto das baterias de grande capacidade, a Ferrari aposta na pureza mecânica. Os fluxos de Venturi geram downforce descendente sem depender de ajustes externos. O resultado é um monstro cinético que desafia a burocracia do automobilismo moderno com pura física aplicada.",
+      "A supressão do Balance of Performance não é apenas um capricho regulatório. Trata-se de uma declaração de soberania técnica para colecionadores e puristas que desprezam o desempenho sintético. Maranello prova mais uma vez que a verdadeira supremacia na pista nasce do metal incandescente e da aerodinâmica implacável, livre de qualquer interferência humana."
+    ],
+    "content_paragraphs": [
+      "O artificismo regulatório está prestes a ruir. Sob a tutela técnica de Maranello, a engenharia de pista não aceita mais algoritmos de lastro e restrições de fluxo de combustível impostos para nivelar o grid. A meta para a próxima década é radical. Desenvolver um protótipo puro onde a aerodinâmica de efeito solo e a termodinâmica interna reinem soberanas.",
+      "O chassi em carbo-titânio curado em autoclave a 6 bar abriga um motor aspirado visceral. Cada pistão forjado opera com tolerâncias de mícrons enquanto o escape em Inconel 625 dissipa temperaturas extremas a 11.000 RPM. A telemetria inercial mapeia cada força G lateral nas curvas de alta velocidade com precisão cirúrgica.",
+      "Enquanto os concorrentes se rendem à eletrificação massiva e ao peso morto das baterias de grande capacidade, a Ferrari aposta na pureza mecânica. Os fluxos de Venturi geram downforce descendente sem depender de ajustes externos. O resultado é um monstro cinético que desafia a burocracia do automobilismo moderno com pura física aplicada.",
+      "A supressão do Balance of Performance não é apenas um capricho regulatório. Trata-se de uma declaração de soberania técnica para colecionadores e puristas que desprezam o desempenho sintético. Maranello prova mais uma vez que a verdadeira supremacia na pista nasce do metal incandescente e da aerodinâmica implacável, livre de qualquer interferência humana."
+    ],
+    "specs": {
+      "Arquitetura do Motor": "V12 Aspirado de Alta Rotação",
+      "Limite de Rotação": "11.000 RPM",
+      "Material do Chassi": "Monocoque em carbo-titânio curado em autoclave a 6 bar",
+      "Sistema de Escape": "Inconel 625 com isolamento térmico avançado",
+      "Diretriz Técnica": "Eliminação total de BoP e lastros artificiais",
+      "Previsão de Lançamento": "Horizonte 2030"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-07T15:15:32.621Z",
+    "published_at": "2026-11-07T15:15:32.621Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdE5DWUF1bDB2eXYxSmRfSGtWS1lwaTM3WUg4U3RwTmlfaHVOUmtWMVd4c3ctTF8wWGlMOFItQmN6Nnc0SF9BbGxOdlhkclNlSFVwYjNsQTMtc0RlT0lCbjljTk94NTRHRXN6S3RudEtjMG45Y0F2SUtuWmRFRHU3MlRXWUdVQjBhTnl3YWFqa180VWNrRnJablVJR3M0VzZ6Q01jdXJOUmtXRHpP?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdE5DWUF1bDB2eXYxSmRfSGtWS1lwaTM3WUg4U3RwTmlfaHVOUmtWMVd4c3ctTF8wWGlMOFItQmN6Nnc0SF9BbGxOdlhkclNlSFVwYjNsQTMtc0RlT0lCbjljTk94NTRHRXN6S3RudEtjMG45Y0F2SUtuWmRFRHU3MlRXWUdVQjBhTnl3YWFqa180VWNrRnJablVJR3M0VzZ6Q01jdXJOUmtXRHpP?oc=5"
+  },
+  {
     "id": "art-phillips-genebra-o-leilao-histor-5118",
     "slug": "phillips-genebra-o-leilao-historico-de-48-lotes-raros-com-avaliacao-superior-a-45-milhoes-de-francos-suicos-em-relogios-de-sobrevivencia-dinastica-5109",
     "title": "Phillips Genebra: O Leilão Histórico de 48 Lotes Raros com Avaliação Superior a 45 Milhões de Francos Suíços em Relógios de Sobrevivência Dinástica",
@@ -1369,64 +1422,20 @@ export const ARTICLES = [
     "published_at": "2026-11-03T15:19:23.079Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZzNwQmNHelViT3ZYQmh5SXVLTjN1M0JpTmh3aGhQa0phdVlMRm44UXE1YUhBUnhUd0FOVFpZMkdfeXBmSENNQ2U0Smg3T1p2REFrNFBrTG1KSkJJQ3ZTZnFKNGppakUtekNGRTI4TmlPMzhna0J5Y3RMUExyZ2NBOQ?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZzNwQmNHelViT3ZYQmh5SXVLTjN1M0JpTmh3aGhQa0phdVlMRm44UXE1YUhBUnhUd0FOVFpZMkdfeXBmSENNQ2U0Smg3T1p2REFrNFBrTG1KSkJJQ3ZTZnFKNGppakUtekNGRTI4TmlPMzhna0J5Y3RMUExyZ2NBOQ?oc=5"
-  },
-  {
-    "id": "art-leilao-de-las-vegas-o-triunfo-ab-7309",
-    "slug": "leilao-de-las-vegas-o-triunfo-absoluto-da-linhagem-ferrari-e-o-peso-indestrutivel-do-aco-forjado-em-maranello-6917",
-    "title": "Leilão de Las Vegas: O Triunfo Absoluto da Linhagem Ferrari e o Peso Indestrutível do Aço Forjado em Maranello",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "03 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1577735138919-91b6848511c8?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "Sob o reflexo frio do deserto de Nevada, o leilão da Broad Arrow testemunhou a supremacia inegável dos supercarros de Maranello, provando que o mercado de alta performance ignora flutuações e recompensa a pureza da engenharia mecânica pura.",
-    "contentParagraphs": [
-      "O martelo despencou no deserto com a precisão de um pistão forjado em alta rotação. Não houve hesitação no salão. A coleção de supercarros da Ferrari apresentada pela Broad Arrow em Las Vegas não apenas liderou os lances, mas estabeleceu um parâmetro intransigente de valorização para ativos de alta performance mecânica.",
-      "Enquanto o mundo corporativo consome-se em telas táteis descartáveis, os colecionadores de visão dinástica direcionam capital para monocoques de carbo-titânio curados em autoclave e blocos V12 aspirados capazes de girar além de 9.000 RPM. A telemetria inercial e a aerodinâmica ativa desses exemplares funcionam como apólices de seguro contra a obsolescência programada da indústria moderna.",
-      "Cada chassi numerado que cruzou o palco carregava consigo a herança genética dos testes rigorosos em Fiorano e a brutalidade controlada do efeito solo. O fluxo de Venturi e os dutos de exaustão em Inconel 625 não representam apenas adereços estéticos, mas a assinatura tangível de uma época onde a aerodinâmica era ditada pelo túnel de vento físico e não por algoritmos de simulação digital.",
-      "O resultado em Las Vegas consolida uma verdade incômoda para os especuladores de plantão. O verdadeiro patrimônio reside naquilo que consome oxigênio, queima combustível de alta octanagem e desafia a gravidade com tolerâncias de mícrons. A supremacia da Ferrari neste leilão não é um acidente estatístico; é a consagração definitiva do metal nobre sobre a volatilidade financeira."
-    ],
-    "content_paragraphs": [
-      "O martelo despencou no deserto com a precisão de um pistão forjado em alta rotação. Não houve hesitação no salão. A coleção de supercarros da Ferrari apresentada pela Broad Arrow em Las Vegas não apenas liderou os lances, mas estabeleceu um parâmetro intransigente de valorização para ativos de alta performance mecânica.",
-      "Enquanto o mundo corporativo consome-se em telas táteis descartáveis, os colecionadores de visão dinástica direcionam capital para monocoques de carbo-titânio curados em autoclave e blocos V12 aspirados capazes de girar além de 9.000 RPM. A telemetria inercial e a aerodinâmica ativa desses exemplares funcionam como apólices de seguro contra a obsolescência programada da indústria moderna.",
-      "Cada chassi numerado que cruzou o palco carregava consigo a herança genética dos testes rigorosos em Fiorano e a brutalidade controlada do efeito solo. O fluxo de Venturi e os dutos de exaustão em Inconel 625 não representam apenas adereços estéticos, mas a assinatura tangível de uma época onde a aerodinâmica era ditada pelo túnel de vento físico e não por algoritmos de simulação digital.",
-      "O resultado em Las Vegas consolida uma verdade incômoda para os especuladores de plantão. O verdadeiro patrimônio reside naquilo que consome oxigênio, queima combustível de alta octanagem e desafia a gravidade com tolerâncias de mícrons. A supremacia da Ferrari neste leilão não é um acidente estatístico; é a consagração definitiva do metal nobre sobre a volatilidade financeira."
-    ],
-    "specs": {
-      "Casa de Leilões": "Broad Arrow Auctions",
-      "Localização": "Las Vegas, Nevada",
-      "Linhagem Doutrinária": "Supercarros de Maranello (F40, F50, Enzo, LaFerrari)",
-      "Metais Predominantes": "Carbo-titânio, Alumínio Aeronáutico e Inconel",
-      "Veredito de Mercado": "Soberania absoluta de preços em ativos físicos"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 95,
-    "ranking_score": 95,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-03T11:17:37.308Z",
-    "published_at": "2026-11-03T11:17:37.308Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbnVncWp1c0Z1dFU0WFAwN0NxMDZJc3Via2Y1ZW5CVmY1NlNtVFY2RzBZcFBQQnJQdHN4Q2ZSdUFPRlVzTkNkZHc3a1ZmbnF4SDROdTBuSFR0bnB0cDdsckxxLXhiZWRzNjRkaTVtMWdySTM0M2wxdlVVb2NtaWdxOWdXM1h3QzdZa0VLMHo4T3dvNjNXM1E?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbnVncWp1c0Z1dFU0WFAwN0NxMDZJc3Via2Y1ZW5CVmY1NlNtVFY2RzBZcFBQQnJQdHN4Q2ZSdUFPRlVzTkNkZHc3a1ZmbnF4SDROdTBuSFR0bnB0cDdsckxxLXhiZWRzNjRkaTVtMWdySTM0M2wxdlVVb2NtaWdxOWdXM1h3QzdZa0VLMHo4T3dvNjNXM1E?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "ARQUITETURA",
+    "title": "Gigantes Sob Encomenda: Os 6 Superiate...",
+    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "gigantes-sob-encomenda-os-6-superiates-de-120-metros-em-construcao-que-mobilizam-18-bilhao-de-euros-em-silencio-mineral-7855"
+  },
+  {
+    "id": "film-2",
     "category": "SUPERCARROS",
     "title": "Ferrari 250 GTO: 18 000 000 USD e Chas...",
     "image": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=max&q=80&w=1400",
@@ -1434,7 +1443,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-250-gto-18-000-000-usd-e-chassi-de-forjamento-de-titanio-em-las-vegas-6794"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "ARQUITETURA",
     "title": "Christie's Abu Dhabi: US$ 8,94 Milhões...",
     "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=85&w=1800",
@@ -1442,7 +1451,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "christies-abu-dhabi-us-894-milhoes-em-obras-raras-e-a-nova-soberania-patrimonial-do-oriente-medio-0301"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "ARQUITETURA",
     "title": "Superiates: O Retorno Silencioso à Náu...",
     "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800",
@@ -1450,7 +1459,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "superiates-o-retorno-silencioso-a-nautica-analogica-de-casco-de-aco-e-controle-mecanico-direto-3002"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "DESTINOS",
     "title": "Gabe Newell: A Fortuna de 5 Bilhões de...",
     "image": "https://images.unsplash.com/photo-1781872324499-e51350ed640e?auto=format&fit=max&q=80&w=1400",
@@ -1458,20 +1467,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "gabe-newell-a-fortuna-de-5-bilhoes-de-dolares-ancorada-em-120-metros-de-aco-naval-e-inovacao-digital-5675"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Ferrari Testarossa Spider Monodado: O ...",
     "image": "https://images.unsplash.com/photo-1660326040484-fc0cb33d0b23?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "ferrari-testarossa-spider-monodado-o-unico-pace-car-oficial-de-maranello-dos-anos-80-com-chassi-tubular-reforcado-e-aluminio-batido-a-mao-que-retorna-das-sombras-8059"
-  },
-  {
-    "id": "film-6",
-    "category": "DESTINOS",
-    "title": "Amels 242 Nome: O Superiate de 74 Metr...",
-    "image": "https://images.unsplash.com/photo-1614350391736-ed8619d63c06?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "amels-242-nome-o-superiate-de-74-metros-e-1790-toneladas-que-desafia-a-hidrodinamica-tradicional-no-hercules-de-monaco-7416"
   }
 ];
 

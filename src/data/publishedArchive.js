@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-ferrari-hypercar-2030-o-v12-aspi-2621",
+    "slug": "ferrari-hypercar-2030-o-v12-aspirado-de-11000-rpm-que-exige-o-fim-absoluto-do-equilibrio-artificial-de-desempenho-2202",
+    "title": "Ferrari Hypercar 2030: O V12 Aspirado de 11.000 RPM que Exige o Fim Absoluto do Equilíbrio Artificial de Desempenho",
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=max&q=85&w=1800",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdE5DWUF1bDB2eXYxSmRfSGtWS1lwaTM3WUg4U3RwTmlfaHVOUmtWMVd4c3ctTF8wWGlMOFItQmN6Nnc0SF9BbGxOdlhkclNlSFVwYjNsQTMtc0RlT0lCbjljTk94NTRHRXN6S3RudEtjMG45Y0F2SUtuWmRFRHU3MlRXWUdVQjBhTnl3YWFqa180VWNrRnJablVJR3M0VzZ6Q01jdXJOUmtXRHpP?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-07T15:15:32.621Z"
+  },
+  {
     "id": "art-phillips-genebra-o-leilao-histor-5118",
     "slug": "phillips-genebra-o-leilao-historico-de-48-lotes-raros-com-avaliacao-superior-a-45-milhoes-de-francos-suicos-em-relogios-de-sobrevivencia-dinastica-5109",
     "title": "Phillips Genebra: O Leilão Histórico de 48 Lotes Raros com Avaliação Superior a 45 Milhões de Francos Suíços em Relógios de Sobrevivência Dinástica",
