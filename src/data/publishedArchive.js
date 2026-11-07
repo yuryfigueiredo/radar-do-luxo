@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-sarasota-record-a-cobertura-lito-6409",
+    "slug": "sarasota-record-a-cobertura-litoral-de-us-145-milhoes-com-monobloco-de-travertino-e-fundacao-de-concreto-nautico-6085",
+    "title": "Sarasota Record: A Cobertura Litoral de US$ 14,5 Milhões com Monobloco de Travertino e Fundação de Concreto Náutico",
+    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNEMxSUZsNERUU29USVc5ZGFDX3lWRHFVQW1xWFpWdTZXSUNzWGFqWnBUMGxmeWlGWkotRDlCMzQyZDI3UzJlTjBFaXZlZzFfS203UHlSanVZRDlOSUx2UGg0ZDhVcFFCNGlhNkdRMXZSS0htMmN5UjU0dEIyaWttZDBTc3lGQXl3YzF5ZXVISGlWdXJaeEVyR0pKSWE2N3BaWmZCMVVZMHhSWk1GSG44eGs2TkxBanpYd3VR?oc=5",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "publishedAt": "2026-11-07T04:47:56.409Z"
+  },
+  {
     "id": "art-yangwang-u9-a-furia-eletrica-de--0208",
     "slug": "yangwang-u9-a-furia-eletrica-de-310-mph-que-desafia-a-fisica-termica-com-1300-volts-de-descarga-direta-9302",
     "title": "Yangwang U9: A Fúria Elétrica de 310 MPH que Desafia a Física Térmica com 1.300 Volts de Descarga Direta",

@@ -116,6 +116,59 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-sarasota-record-a-cobertura-lito-6409",
+    "slug": "sarasota-record-a-cobertura-litoral-de-us-145-milhoes-com-monobloco-de-travertino-e-fundacao-de-concreto-nautico-6085",
+    "title": "Sarasota Record: A Cobertura Litoral de US$ 14,5 Milhões com Monobloco de Travertino e Fundação de Concreto Náutico",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "07 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A transação monumental confirma o avanço silencioso de capitais institucionais e family offices em busca de ativos físicos protegidos contra a volatilidade monetária global.",
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Na costa oeste da Flórida, uma transação imobiliária de US$ 14,5 milhões redefiniu os parâmetros de valor para ativos residenciais à beira-mar, estabelecendo um marco fiduciário incontestável para fundos de investimento familiar e portfólios de alta resiliência.",
+      "A laje estrutural foi moldada com concreto náutico de alta densidade, projetado para resistir a cargas de cisalhamento extremas e intempéries severas do Golfo do México sem comprometer a integridade geométrica dos espaços. Revestida integralmente em travertino romano Navona e equipada com um heliponto privativo homologado para operações diurnas e noturnas, a cobertura opera como uma fortaleza flutuante de soberania patrimonial pura.",
+      "Enquanto os mercados financeiros globais oscilam ao sabor de decisões regulatórias efêmeras, a alocação em imóveis troféu com ancoragem física absoluta consolida-se como o refúgio definitivo de liquidez para fortunas multigeracionais. Trata-se de uma arquitetura brutalista refinada, onde a estética do peso encontra a imunidade temporal que nenhuma moeda fiduciária consegue replicar.",
+      "A aquisição sela o destino de um endereço que não apenas domina a linha do horizonte de Sarasota, mas reescreve as regras de custódia imobiliária para os próximos cem anos. O verdadeiro luxo não reside na ostentação visível, mas na certeza inabalável de possuir um monumento de concreto e pedra à prova de crises."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Na costa oeste da Flórida, uma transação imobiliária de US$ 14,5 milhões redefiniu os parâmetros de valor para ativos residenciais à beira-mar, estabelecendo um marco fiduciário incontestável para fundos de investimento familiar e portfólios de alta resiliência.",
+      "A laje estrutural foi moldada com concreto náutico de alta densidade, projetado para resistir a cargas de cisalhamento extremas e intempéries severas do Golfo do México sem comprometer a integridade geométrica dos espaços. Revestida integralmente em travertino romano Navona e equipada com um heliponto privativo homologado para operações diurnas e noturnas, a cobertura opera como uma fortaleza flutuante de soberania patrimonial pura.",
+      "Enquanto os mercados financeiros globais oscilam ao sabor de decisões regulatórias efêmeras, a alocação em imóveis troféu com ancoragem física absoluta consolida-se como o refúgio definitivo de liquidez para fortunas multigeracionais. Trata-se de uma arquitetura brutalista refinada, onde a estética do peso encontra a imunidade temporal que nenhuma moeda fiduciária consegue replicar.",
+      "A aquisição sela o destino de um endereço que não apenas domina a linha do horizonte de Sarasota, mas reescreve as regras de custódia imobiliária para os próximos cem anos. O verdadeiro luxo não reside na ostentação visível, mas na certeza inabalável de possuir um monumento de concreto e pedra à prova de crises."
+    ],
+    "specs": {
+      "Avaliação Patrimonial": "US$ 14,5 Milhões",
+      "Engenharia Estrutural": "Concreto náutico de alta densidade moldado in loco",
+      "Acabamento Arquitetônico": "Travertino romano Navona e esquadrias anti-furacão",
+      "Infraestrutura de Acesso": "Heliponto privativo com homologação FAA",
+      "Localização": "Costa do Golfo, Sarasota, Flórida",
+      "Perfil do Adquirente": "Family Office de custódia fiduciária internacional"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-07T04:47:56.409Z",
+    "published_at": "2026-11-07T04:47:56.409Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNEMxSUZsNERUU29USVc5ZGFDX3lWRHFVQW1xWFpWdTZXSUNzWGFqWnBUMGxmeWlGWkotRDlCMzQyZDI3UzJlTjBFaXZlZzFfS203UHlSanVZRDlOSUx2UGg0ZDhVcFFCNGlhNkdRMXZSS0htMmN5UjU0dEIyaWttZDBTc3lGQXl3YzF5ZXVISGlWdXJaeEVyR0pKSWE2N3BaWmZCMVVZMHhSWk1GSG44eGs2TkxBanpYd3VR?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNEMxSUZsNERUU29USVc5ZGFDX3lWRHFVQW1xWFpWdTZXSUNzWGFqWnBUMGxmeWlGWkotRDlCMzQyZDI3UzJlTjBFaXZlZzFfS203UHlSanVZRDlOSUx2UGg0ZDhVcFFCNGlhNkdRMXZSS0htMmN5UjU0dEIyaWttZDBTc3lGQXl3YzF5ZXVISGlWdXJaeEVyR0pKSWE2N3BaWmZCMVVZMHhSWk1GSG44eGs2TkxBanpYd3VR?oc=5"
+  },
+  {
     "id": "art-yangwang-u9-a-furia-eletrica-de--0208",
     "slug": "yangwang-u9-a-furia-eletrica-de-310-mph-que-desafia-a-fisica-termica-com-1300-volts-de-descarga-direta-9302",
     "title": "Yangwang U9: A Fúria Elétrica de 310 MPH que Desafia a Física Térmica com 1.300 Volts de Descarga Direta",
@@ -177,7 +230,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "06 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -205,10 +258,10 @@ export const ARTICLES = [
       "Propulsão": "Motores gêmeos MTU de alta autonomia"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 89,
@@ -1367,58 +1420,6 @@ export const ARTICLES = [
     "published_at": "2026-11-03T03:06:24.205Z",
     "sourceUrl": "https://monochrome-watches.com/2026-h-moser-cie-heritage-chronograph-white-fume-and-heritage-centre-seconds-espresso-fume-review-price/",
     "source_url": "https://monochrome-watches.com/2026-h-moser-cie-heritage-chronograph-white-fume-and-heritage-centre-seconds-espresso-fume-review-price/"
-  },
-  {
-    "id": "art-brabus-shadow-e-hydrofoil-o-brin-9057",
-    "slug": "brabus-shadow-e-hydrofoil-o-brinquedo-nautico-de-us-20490-com-hidrofolio-de-fibra-de-carbono-e-28-nos-de-voo-9050",
-    "title": "Brabus Shadow E-Hydrofoil: O Brinquedo Náutico de US$ 20.490 com Hidrofólio de Fibra de Carbono e 28 Nós de Voo",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "03 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A divisão de alta performance de Bottrop abandona o asfalto para esculpir uma lâmina elétrica de fibra de carbono que desafia o arrasto hidrodinâmico a 28 mph.",
-    "contentParagraphs": [
-      "A água doce ou salgada resiste ao casco com uma violência molecular inegociável. A engenharia naval tradicional consome energia bruta para empurrar toneladas de deslocamento em um banho de espuma e perdas de atrito cinético. A resposta de Bottrop ignora o óbvio e suspende o piloto no ar. O foil de fibra de carbono ataca o fluxo de água com o mesmo rigor aerodinâmico aplicado aos superesportivos da marca alemã em túneis de vento.",
-      "A propulsão elétrica entrega torque instantâneo sem o rugido de combustão interna, mantendo o silêncio necessário para operações de apoio a superiates oceânicos. O conjunto opera sob tolerâncias de mícrons na usinagem dos mancais submersos. A telemetria inercial monitora o ângulo de ataque dos foils a cada milissegundo. O resultado físico é a eliminação quase total da resistência de onda, erguendo a estrutura sobre a superfície líquida até atingir a crista dos 28 nós.",
-      "O mercado de brinquedos náuticos para plataformas de exploração privada exige redundância mecânica e estética intransigente. Cada componente estrutural passa por ciclos rigorosos de cura em autoclave sob pressão controlada para suportar a carga cíclica extrema das manobras em alta velocidade. A fibra de carbono exposta revela a urdidura têxtil sem concessões cosméticas baratas. Trata-se de hardware cinético puro, construído para resistir à corrosão marinha e à obsolescência programada.",
-      "A soberania sobre as ondas exige ferramentas que combinem precisão balística e eficiência hidrodinâmica absoluta. Enquanto o mercado massificado se perde em plásticos moldados por injeção, este hidrofólio elétrico estabelece o padrão definitivo para a transição naval de alta performance. É a física dos fluidos dominada por algoritmos de estabilização e laminados aeroespaciais."
-    ],
-    "content_paragraphs": [
-      "A água doce ou salgada resiste ao casco com uma violência molecular inegociável. A engenharia naval tradicional consome energia bruta para empurrar toneladas de deslocamento em um banho de espuma e perdas de atrito cinético. A resposta de Bottrop ignora o óbvio e suspende o piloto no ar. O foil de fibra de carbono ataca o fluxo de água com o mesmo rigor aerodinâmico aplicado aos superesportivos da marca alemã em túneis de vento.",
-      "A propulsão elétrica entrega torque instantâneo sem o rugido de combustão interna, mantendo o silêncio necessário para operações de apoio a superiates oceânicos. O conjunto opera sob tolerâncias de mícrons na usinagem dos mancais submersos. A telemetria inercial monitora o ângulo de ataque dos foils a cada milissegundo. O resultado físico é a eliminação quase total da resistência de onda, erguendo a estrutura sobre a superfície líquida até atingir a crista dos 28 nós.",
-      "O mercado de brinquedos náuticos para plataformas de exploração privada exige redundância mecânica e estética intransigente. Cada componente estrutural passa por ciclos rigorosos de cura em autoclave sob pressão controlada para suportar a carga cíclica extrema das manobras em alta velocidade. A fibra de carbono exposta revela a urdidura têxtil sem concessões cosméticas baratas. Trata-se de hardware cinético puro, construído para resistir à corrosão marinha e à obsolescência programada.",
-      "A soberania sobre as ondas exige ferramentas que combinem precisão balística e eficiência hidrodinâmica absoluta. Enquanto o mercado massificado se perde em plásticos moldados por injeção, este hidrofólio elétrico estabelece o padrão definitivo para a transição naval de alta performance. É a física dos fluidos dominada por algoritmos de estabilização e laminados aeroespaciais."
-    ],
-    "specs": {
-      "Propulsão": "Motor elétrico de alto torque com resfriamento passivo",
-      "Velocidade Máxima": "28 mph (aproximadamente 24 nós)",
-      "Material do Foil": "Fibra de carbono pré-impregnada curada em autoclave",
-      "Investimento": "US$ 20.490 FOB Bottrop",
-      "Aplicação": "Tender de alta performance para superiates"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 87,
-    "ranking_score": 87,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-03T02:00:19.057Z",
-    "published_at": "2026-11-03T02:00:19.057Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAwSVV5cHRPaWlUNjN3dF9kVzZxaHRqcDNlSFdBUzJtbnp2Zmh1SXJWanJhRXR4RGlCcjEtR3VMbGhNdWV3QUFtLTRyMDJlVE5ZY0NIS1pITlo1ZW1lajNMa3RFWTdUcUYxeXlTakVueWszMV9qNXdJ?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAwSVV5cHRPaWlUNjN3dF9kVzZxaHRqcDNlSFdBUzJtbnp2Zmh1SXJWanJhRXR4RGlCcjEtR3VMbGhNdWV3QUFtLTRyMDJlVE5ZY0NIS1pITlo1ZW1lajNMa3RFWTdUcUYxeXlTakVueWszMV9qNXdJ?oc=5"
   }
 ];
 
@@ -1426,13 +1427,21 @@ export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
     "category": "ARQUITETURA",
+    "title": "Christie's Abu Dhabi: US$ 8,94 Milhões...",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=85&w=1800",
+    "tag": "CURADORIA RADAR",
+    "slug": "christies-abu-dhabi-us-894-milhoes-em-obras-raras-e-a-nova-soberania-patrimonial-do-oriente-medio-0301"
+  },
+  {
+    "id": "film-2",
+    "category": "ARQUITETURA",
     "title": "Superiates: O Retorno Silencioso à Náu...",
     "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800",
     "tag": "CURADORIA RADAR",
     "slug": "superiates-o-retorno-silencioso-a-nautica-analogica-de-casco-de-aco-e-controle-mecanico-direto-3002"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "DESTINOS",
     "title": "Gabe Newell: A Fortuna de 5 Bilhões de...",
     "image": "https://images.unsplash.com/photo-1781872324499-e51350ed640e?auto=format&fit=max&q=80&w=1400",
@@ -1440,7 +1449,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "gabe-newell-a-fortuna-de-5-bilhoes-de-dolares-ancorada-em-120-metros-de-aco-naval-e-inovacao-digital-5675"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Ferrari Testarossa Spider Monodado: O ...",
     "image": "https://images.unsplash.com/photo-1660326040484-fc0cb33d0b23?auto=format&fit=max&q=80&w=1400",
@@ -1448,7 +1457,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-testarossa-spider-monodado-o-unico-pace-car-oficial-de-maranello-dos-anos-80-com-chassi-tubular-reforcado-e-aluminio-batido-a-mao-que-retorna-das-sombras-8059"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "DESTINOS",
     "title": "Amels 242 Nome: O Superiate de 74 Metr...",
     "image": "https://images.unsplash.com/photo-1614350391736-ed8619d63c06?auto=format&fit=max&q=80&w=1400",
@@ -1456,20 +1465,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "amels-242-nome-o-superiate-de-74-metros-e-1790-toneladas-que-desafia-a-hidrodinamica-tradicional-no-hercules-de-monaco-7416"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "ARQUITETURA",
     "title": "Sotheby's Royal & Noble Jewels Geneva ...",
     "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
     "tag": "CURADORIA RADAR",
     "slug": "sothebys-royal-noble-jewels-geneva-2026-a-colecao-de-diamantes-historicos-de-18-quilates-com-proveniencia-dinastica-comprovada-3072"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Leilão de Las Vegas: O Triunfo Absolut...",
-    "image": "https://images.unsplash.com/photo-1577735138919-91b6848511c8?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "leilao-de-las-vegas-o-triunfo-absoluto-da-linhagem-ferrari-e-o-peso-indestrutivel-do-aco-forjado-em-maranello-6917"
   }
 ];
 
