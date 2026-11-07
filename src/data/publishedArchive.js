@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-ferrari-f40-o-monstro-biturbo-de-6412",
+    "slug": "ferrari-f40-o-monstro-biturbo-de-478-cv-que-emergiu-nas-ruas-de-londres-rejeitando-a-era-dos-supercarros-anestesicos-6400",
+    "title": "Ferrari F40: O Monstro Biturbo de 478 cv que Emergiu nas Ruas de Londres Rejeitando a Era dos Supercarros Anestésicos",
+    "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=max&q=85&w=1800",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWEFQQXJvRzZwWmlBMlhVYThFd2ZQNWpyWTZHYjZuYWhLV0tiTk9LS1Z0eVVWUUo2a08zOE5ia2VjOWlrbzM5dVl5bmQxLWw2V3hEOVY3UDdQenBUUlczYWVvSEU0YzJsak9aRXJaQllDZWRjbGdDVjNQWS1naGg0ZnZHLWVaSDNtNWdzdjd4TXAtaDFOdTQ0?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-07T22:10:56.412Z"
+  },
+  {
     "id": "art-ferrari-hypercar-2030-o-v12-aspi-2621",
     "slug": "ferrari-hypercar-2030-o-v12-aspirado-de-11000-rpm-que-exige-o-fim-absoluto-do-equilibrio-artificial-de-desempenho-2202",
     "title": "Ferrari Hypercar 2030: O V12 Aspirado de 11.000 RPM que Exige o Fim Absoluto do Equilíbrio Artificial de Desempenho",

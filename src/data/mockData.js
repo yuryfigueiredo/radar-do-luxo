@@ -116,6 +116,59 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-ferrari-f40-o-monstro-biturbo-de-6412",
+    "slug": "ferrari-f40-o-monstro-biturbo-de-478-cv-que-emergiu-nas-ruas-de-londres-rejeitando-a-era-dos-supercarros-anestesicos-6400",
+    "title": "Ferrari F40: O Monstro Biturbo de 478 cv que Emergiu nas Ruas de Londres Rejeitando a Era dos Supercarros Anestésicos",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "07 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=max&q=85&w=1800",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "A aparição noturna de uma Ferrari F40 vermelha nas artérias de Londres expõe a supremacia da mecânica crua contra a esterilização digital da indústria automotiva contemporânea.",
+    "contentParagraphs": [
+      "As ruas de Mayfair testemunharam o retorno do monstro de Maranello. Gordon Ramsay guiou sua Ferrari F40 escarlate pelo asfalto úmido da capital britânica, desfilando um ícone absoluto de fibra de vidro e Kevlar. O ronco metálico dos turbos IHI cortava a noite londrina. Nenhuma assistência eletrônica filtrava o pedal do acelerador. Apenas a física pura respondendo à pressão da sola no alumínio.",
+      "Sob a cobertura traseira perfurada em acrílico reside o motor V8 biturbo de 2,9 litros. A tolerância de mícrons nos cilindros entrega 478 cavalos de pura força direcionada às rodas traseiras por uma transmissão manual de cinco marchas com portão em H. O monocoque em carbo-titânio e a ausência de direção hidráulica exigem músculos e precisão absoluta. Cada curva exige leitura minuciosa da telemetria inercial e dos fluxos de Venturi gerados pelo assoalho esculpido em túneis de efeito solo.",
+      "A F40 nasceu como o testamento final de Enzo Ferrari à engenharia intransigente. Enquanto o mercado atual entrega cabines repletas de telas táteis e isolamento acústico artificial, esta máquina de corrida homologada para as ruas mantém a fibra exposta nas portas e os puxadores de cabo de aço. É um manifesto de 1.100 kg que desafia as normas modernas de peso e silêncio. Um ato de rebeldia mecânica em plena via pública.",
+      "Ver este bólido histórico rugindo entre utilitários elétricos redefine o conceito de soberania sobre rodas. Não há sofisticação digital capaz de replicar o cheiro de gasolina não queimada e resina epóxi aquecida. Ramsay não apenas conduz um automóvel; ele pilota um patrimônio dinástico em extinção, provando que a verdadeira supremacia automotiva jamais será relegada a arquivos de museu."
+    ],
+    "content_paragraphs": [
+      "As ruas de Mayfair testemunharam o retorno do monstro de Maranello. Gordon Ramsay guiou sua Ferrari F40 escarlate pelo asfalto úmido da capital britânica, desfilando um ícone absoluto de fibra de vidro e Kevlar. O ronco metálico dos turbos IHI cortava a noite londrina. Nenhuma assistência eletrônica filtrava o pedal do acelerador. Apenas a física pura respondendo à pressão da sola no alumínio.",
+      "Sob a cobertura traseira perfurada em acrílico reside o motor V8 biturbo de 2,9 litros. A tolerância de mícrons nos cilindros entrega 478 cavalos de pura força direcionada às rodas traseiras por uma transmissão manual de cinco marchas com portão em H. O monocoque em carbo-titânio e a ausência de direção hidráulica exigem músculos e precisão absoluta. Cada curva exige leitura minuciosa da telemetria inercial e dos fluxos de Venturi gerados pelo assoalho esculpido em túneis de efeito solo.",
+      "A F40 nasceu como o testamento final de Enzo Ferrari à engenharia intransigente. Enquanto o mercado atual entrega cabines repletas de telas táteis e isolamento acústico artificial, esta máquina de corrida homologada para as ruas mantém a fibra exposta nas portas e os puxadores de cabo de aço. É um manifesto de 1.100 kg que desafia as normas modernas de peso e silêncio. Um ato de rebeldia mecânica em plena via pública.",
+      "Ver este bólido histórico rugindo entre utilitários elétricos redefine o conceito de soberania sobre rodas. Não há sofisticação digital capaz de replicar o cheiro de gasolina não queimada e resina epóxi aquecida. Ramsay não apenas conduz um automóvel; ele pilota um patrimônio dinástico em extinção, provando que a verdadeira supremacia automotiva jamais será relegada a arquivos de museu."
+    ],
+    "specs": {
+      "motor": "V8 biturbo de 2.936 cm³, montado em posição central-traseira",
+      "potencia": "478 cv a 7.000 RPM",
+      "transmissao": "Manual de 5 marchas com portão em H exposto",
+      "chassi": "Tubular em aço com painéis em compósito de fibra de carbono e Kevlar",
+      "peso": "1.100 kg a seco",
+      "desempenho": "0 a 100 km/h em 4,1 segundos com velocidade máxima de 324 km/h"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 86,
+    "ranking_score": 86,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-07T22:10:56.412Z",
+    "published_at": "2026-11-07T22:10:56.412Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWEFQQXJvRzZwWmlBMlhVYThFd2ZQNWpyWTZHYjZuYWhLV0tiTk9LS1Z0eVVWUUo2a08zOE5ia2VjOWlrbzM5dVl5bmQxLWw2V3hEOVY3UDdQenBUUlczYWVvSEU0YzJsak9aRXJaQllDZWRjbGdDVjNQWS1naGg0ZnZHLWVaSDNtNWdzdjd4TXAtaDFOdTQ0?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWEFQQXJvRzZwWmlBMlhVYThFd2ZQNWpyWTZHYjZuYWhLV0tiTk9LS1Z0eVVWUUo2a08zOE5ia2VjOWlrbzM5dVl5bmQxLWw2V3hEOVY3UDdQenBUUlczYWVvSEU0YzJsak9aRXJaQllDZWRjbGdDVjNQWS1naGg0ZnZHLWVaSDNtNWdzdjd4TXAtaDFOdTQ0?oc=5"
+  },
+  {
     "id": "art-ferrari-hypercar-2030-o-v12-aspi-2621",
     "slug": "ferrari-hypercar-2030-o-v12-aspirado-de-11000-rpm-que-exige-o-fim-absoluto-do-equilibrio-artificial-de-desempenho-2202",
     "title": "Ferrari Hypercar 2030: O V12 Aspirado de 11.000 RPM que Exige o Fim Absoluto do Equilíbrio Artificial de Desempenho",
@@ -230,7 +283,7 @@ export const ARTICLES = [
     "authorSlug": "henrique-vianna",
     "author_slug": "henrique-vianna",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "07 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -259,10 +312,10 @@ export const ARTICLES = [
       "Perfil do Adquirente": "Family Office de custódia fiduciária internacional"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 89,
@@ -1369,59 +1422,6 @@ export const ARTICLES = [
     "published_at": "2026-11-03T17:12:27.425Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1DdVJ0YU1EU2hjbm13aEVvM0tIRDlfQlY0a0NVWTZ6ZXZIc3VKMDFRQUx6bG5oUGtoT04zUDhsSWZUN1M2akJLLUNkV24tTTNyZThlaWo2eHdyYTNpUkxuYklQTWJMN2wxV29GcTJMZlpuYVgxYmo4cw?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1DdVJ0YU1EU2hjbm13aEVvM0tIRDlfQlY0a0NVWTZ6ZXZIc3VKMDFRQUx6bG5oUGtoT04zUDhsSWZUN1M2akJLLUNkV24tTTNyZThlaWo2eHdyYTNpUkxuYklQTWJMN2wxV29GcTJMZlpuYVgxYmo4cw?oc=5"
-  },
-  {
-    "id": "art-sothebys-royal-noble-jewels-gene-3079",
-    "slug": "sothebys-royal-noble-jewels-geneva-2026-a-colecao-de-diamantes-historicos-de-18-quilates-com-proveniencia-dinastica-comprovada-3072",
-    "title": "Sotheby's Royal & Noble Jewels Geneva 2026: A Coleção de Diamantes Históricos de 18 Quilates com Proveniência Dinástica Comprovada",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "03 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "O leilão da Sotheby's em Genebra expõe ao mercado de custódia fiduciária gemas soberanas, provando que o patrimônio imune transcende a volatilidade das moedas fiat.",
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Nas salas reservadas do Hôtel Beau-Rivage em Genebra, a Sotheby's cataloga fragmentos tangíveis de soberania política que resistiram a séculos de reconfigurações geopolíticas e erosão monetária.",
-      "Cada lote da Royal & Noble Jewels carrega uma linhagem documentada em arquivos imperiais. Não se trata de adorno efêmero, mas de refúgio de liquidez estruturado em esmeraldas colombianas sem óleo e diamantes Type IIa intocados pelo homem até o corte artesanal do século XVIII.",
-      "A custódia fiduciária dessas peças exige governança dinástica rigorosa. Compradores globais de family offices e fundações privadas disputam a imunidade temporal oferecida por ativos físicos cujos valores resistem a qualquer crise sistêmica.",
-      "O veredito desta curadoria é definitivo. Enquanto os mercados globais oscilam na superfície digital, o silêncio mineral destas gemas assegura a perpetuidade de fortunas multigeracionais."
-    ],
-    "content_paragraphs": [
-      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Nas salas reservadas do Hôtel Beau-Rivage em Genebra, a Sotheby's cataloga fragmentos tangíveis de soberania política que resistiram a séculos de reconfigurações geopolíticas e erosão monetária.",
-      "Cada lote da Royal & Noble Jewels carrega uma linhagem documentada em arquivos imperiais. Não se trata de adorno efêmero, mas de refúgio de liquidez estruturado em esmeraldas colombianas sem óleo e diamantes Type IIa intocados pelo homem até o corte artesanal do século XVIII.",
-      "A custódia fiduciária dessas peças exige governança dinástica rigorosa. Compradores globais de family offices e fundações privadas disputam a imunidade temporal oferecida por ativos físicos cujos valores resistem a qualquer crise sistêmica.",
-      "O veredito desta curadoria é definitivo. Enquanto os mercados globais oscilam na superfície digital, o silêncio mineral destas gemas assegura a perpetuidade de fortunas multigeracionais."
-    ],
-    "specs": {
-      "Leiloeira": "Sotheby's Genebra",
-      "Evento": "Royal & Noble Jewels Sale 2026",
-      "Ativo Principal": "Diamante Type IIa de 18.4 Quilates",
-      "Proveniência": "Casa Ducal Europeia",
-      "Avaliação": "Sob consulta fiduciária estrita",
-      "Custódia": "Cofre Neutro em Genebra"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 92,
-    "ranking_score": 92,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-03T15:19:23.079Z",
-    "published_at": "2026-11-03T15:19:23.079Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZzNwQmNHelViT3ZYQmh5SXVLTjN1M0JpTmh3aGhQa0phdVlMRm44UXE1YUhBUnhUd0FOVFpZMkdfeXBmSENNQ2U0Smg3T1p2REFrNFBrTG1KSkJJQ3ZTZnFKNGppakUtekNGRTI4TmlPMzhna0J5Y3RMUExyZ2NBOQ?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZzNwQmNHelViT3ZYQmh5SXVLTjN1M0JpTmh3aGhQa0phdVlMRm44UXE1YUhBUnhUd0FOVFpZMkdfeXBmSENNQ2U0Smg3T1p2REFrNFBrTG1KSkJJQ3ZTZnFKNGppakUtekNGRTI4TmlPMzhna0J5Y3RMUExyZ2NBOQ?oc=5"
   }
 ];
 
@@ -1436,6 +1436,14 @@ export const FILMSTRIP_ITEMS = [
   },
   {
     "id": "film-2",
+    "category": "DESTINOS",
+    "title": "The Italian Sea Group: O Resgate de 22...",
+    "image": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "the-italian-sea-group-o-resgate-de-220-milhoes-de-euros-que-consolida-a-soberania-dos-superiates-na-toscana-6143"
+  },
+  {
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Ferrari 250 GTO: 18 000 000 USD e Chas...",
     "image": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=max&q=80&w=1400",
@@ -1443,7 +1451,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-250-gto-18-000-000-usd-e-chassi-de-forjamento-de-titanio-em-las-vegas-6794"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "ARQUITETURA",
     "title": "Christie's Abu Dhabi: US$ 8,94 Milhões...",
     "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=85&w=1800",
@@ -1451,7 +1459,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "christies-abu-dhabi-us-894-milhoes-em-obras-raras-e-a-nova-soberania-patrimonial-do-oriente-medio-0301"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "ARQUITETURA",
     "title": "Superiates: O Retorno Silencioso à Náu...",
     "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800",
@@ -1459,20 +1467,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "superiates-o-retorno-silencioso-a-nautica-analogica-de-casco-de-aco-e-controle-mecanico-direto-3002"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "DESTINOS",
     "title": "Gabe Newell: A Fortuna de 5 Bilhões de...",
     "image": "https://images.unsplash.com/photo-1781872324499-e51350ed640e?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "gabe-newell-a-fortuna-de-5-bilhoes-de-dolares-ancorada-em-120-metros-de-aco-naval-e-inovacao-digital-5675"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Ferrari Testarossa Spider Monodado: O ...",
-    "image": "https://images.unsplash.com/photo-1660326040484-fc0cb33d0b23?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "ferrari-testarossa-spider-monodado-o-unico-pace-car-oficial-de-maranello-dos-anos-80-com-chassi-tubular-reforcado-e-aluminio-batido-a-mao-que-retorna-das-sombras-8059"
   }
 ];
 
