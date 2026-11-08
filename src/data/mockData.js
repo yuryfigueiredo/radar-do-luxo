@@ -116,6 +116,59 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-aitek-hyperion-r-os-523-kmh-de-u-5414",
+    "slug": "aitek-hyperion-r-os-523-kmh-de-um-monstro-eletrico-de-2400-cv-que-desafia-as-leis-da-fisica-com-tubos-de-venturi-em-titanio-4767",
+    "title": "Aitek Hyperion R: Os 523 km/h de Um Monstro Elétrico de 2.400 cv que Desafia as Leis da Física com Tubos de Venturi em Titânio",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "08 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "Em uma era de transição energética silenciosa, a engenharia asiática pulveriza barreiras cinéticas com um torpedo quádruplo de torque vetorial que redefine o limite da aderência mecânica.",
+    "contentParagraphs": [
+      "A barreira dos 500 km/h ruiu. Não pelo ronco de um V16 aspirado, mas pelo silêncio aterrorizante de quatro motores síncronos de fluxo axial alimentados por uma arquitetura de 1.200 volts. O asfalto da pista de testes estremeceu sob o impacto de perfis aerodinâmicos ativos capazes de gerar 3.200 quilos de força descendente pura a velocidade terminal. A aerodinâmica não é apenas eficiente; ela é brutalmente restritiva, colando o chassi ao solo com precisão milimétrica.",
+      "Sob a casca de monocoque em carbo-titânio curado em autoclave a 6 bar, reside um ecossistema térmico que consome nitrogênio líquido para resfriar os inversores de carboneto de silício. Cada roda abriga um rotor independente gerenciado por unidades de processamento quântico que calculam o vetor de aderência 10.000 vezes por segundo. O resultado prático dessa telemetria inercial é uma aceleração lateral que comprime as vércbras do piloto contra o encosto anatômico em 3,8 G sustentados.",
+      "Enquanto a Europa continental debate a pureza mecânica de seus blocos térmicos tradicionais, este projeto asiático aposta na densidade energética de células de estado sólido com ânodos de silício puro. O sistema de exaustão térmica foi substituído por bocais de ejeção de plasma frio que controlam a camada limite ao redor da cauda longa. É a engenharia aplicada sem concessões emocionais ao passado, priorizando a eficiência matemática sobre a nostalgia acústica.",
+      "O veredito desta redação é cristalino. A supremacia da velocidade pura mudou de mãos, abandonando os vales tradicionais da Alsácia para se instalar em complexos industriais altamente automatizados de última geração. Para o colecionador que busca a ponta extrema da física aplicada sobre quatro rodas, a era dos hipercarros elétricos de ultra-alta performance deixou de ser promessa e se tornou uma realidade implacável."
+    ],
+    "content_paragraphs": [
+      "A barreira dos 500 km/h ruiu. Não pelo ronco de um V16 aspirado, mas pelo silêncio aterrorizante de quatro motores síncronos de fluxo axial alimentados por uma arquitetura de 1.200 volts. O asfalto da pista de testes estremeceu sob o impacto de perfis aerodinâmicos ativos capazes de gerar 3.200 quilos de força descendente pura a velocidade terminal. A aerodinâmica não é apenas eficiente; ela é brutalmente restritiva, colando o chassi ao solo com precisão milimétrica.",
+      "Sob a casca de monocoque em carbo-titânio curado em autoclave a 6 bar, reside um ecossistema térmico que consome nitrogênio líquido para resfriar os inversores de carboneto de silício. Cada roda abriga um rotor independente gerenciado por unidades de processamento quântico que calculam o vetor de aderência 10.000 vezes por segundo. O resultado prático dessa telemetria inercial é uma aceleração lateral que comprime as vércbras do piloto contra o encosto anatômico em 3,8 G sustentados.",
+      "Enquanto a Europa continental debate a pureza mecânica de seus blocos térmicos tradicionais, este projeto asiático aposta na densidade energética de células de estado sólido com ânodos de silício puro. O sistema de exaustão térmica foi substituído por bocais de ejeção de plasma frio que controlam a camada limite ao redor da cauda longa. É a engenharia aplicada sem concessões emocionais ao passado, priorizando a eficiência matemática sobre a nostalgia acústica.",
+      "O veredito desta redação é cristalino. A supremacia da velocidade pura mudou de mãos, abandonando os vales tradicionais da Alsácia para se instalar em complexos industriais altamente automatizados de última geração. Para o colecionador que busca a ponta extrema da física aplicada sobre quatro rodas, a era dos hipercarros elétricos de ultra-alta performance deixou de ser promessa e se tornou uma realidade implacável."
+    ],
+    "specs": {
+      "Powertrain": "Quad-motor síncrono de fluxo axial",
+      "Potencia": "2.400 cv nominais",
+      "Velocidade_Maxima": "523 km/h (registrada por telemetria)",
+      "Chassi": "Monocoque em carbo-titânio curado a 6 bar",
+      "Tiragem": "19 unidades numeradas para todo o globo",
+      "Avaliacao": "Sob consulta fiduciária"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 86,
+    "ranking_score": 86,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-08T03:07:15.413Z",
+    "published_at": "2026-11-08T03:07:15.413Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYXZUeUs2eXQ5cm9ablJSd2h0WVlLV3VsNFNsY2RrQ3Zsb0RIOC11SW5fc1dnM2FZOWs3Ym5MNF9ranBYV1FDSWRxNG0weTdHLWNjTHlUZVVDbXg3al80VGJ2Q1JZVHRnV3VwLTN6andZUVhPdl9BWkJUVV9LNXBLbTExOEh5NFVqYTEySTE5MjktNjhvNi1hUEs0TlJSWTVwS2ZzQ1QtZmcxNngzRUt5T0RNRDItRWN6RUk4ZjU0TDhMczdhRVFj?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYXZUeUs2eXQ5cm9ablJSd2h0WVlLV3VsNFNsY2RrQ3Zsb0RIOC11SW5fc1dnM2FZOWs3Ym5MNF9ranBYV1FDSWRxNG0weTdHLWNjTHlUZVVDbXg3al80VGJ2Q1JZVHRnV3VwLTN6andZUVhPdl9BWkJUVV9LNXBLbTExOEh5NFVqYTEySTE5MjktNjhvNi1hUEs0TlJSWTVwS2ZzQ1QtZmcxNngzRUt5T0RNRDItRWN6RUk4ZjU0TDhMczdhRVFj?oc=5"
+  },
+  {
     "id": "art-gold-coast-residence-a-soberania-6470",
     "slug": "gold-coast-residence-a-soberania-imobiliaria-de-us-475-milhoes-que-desafia-o-recorde-historico-de-queensland-6447",
     "title": "Gold Coast Residence: A Soberania Imobiliária de US$ 47,5 Milhões que Desafia o Recorde Histórico de Queensland",
@@ -1369,64 +1422,20 @@ export const ARTICLES = [
     "published_at": "2026-11-03T22:13:55.818Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVS1tSTVtYVVRbVNmaklHRmd5QW1JWjJOa3ZWNDNGLUp0UlBfUmNIb0RLWWxGZVdzUmdwb2w3SDNqQUh2bExXWVFJQ1RkYmpZVVMzaGcxYnRaWVg4R1V5RmN4SlB3NkJfQmktNlpzMjIybWVtclZrNjAxLTJSenFQMzR0cE1BV2hYc1kwdkFVcjZnR3JmYjNKRVNmbTRhZVliV1ZKU3VYbVZwZFlsU1RBdm8wZjZKT3daZzd4TQ?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVS1tSTVtYVVRbVNmaklHRmd5QW1JWjJOa3ZWNDNGLUp0UlBfUmNIb0RLWWxGZVdzUmdwb2w3SDNqQUh2bExXWVFJQ1RkYmpZVVMzaGcxYnRaWVg4R1V5RmN4SlB3NkJfQmktNlpzMjIybWVtclZrNjAxLTJSenFQMzR0cE1BV2hYc1kwdkFVcjZnR3JmYjNKRVNmbTRhZVliV1ZKU3VYbVZwZFlsU1RBdm8wZjZKT3daZzd4TQ?oc=5"
-  },
-  {
-    "id": "art-ferrari-testarossa-spider-monoda-8302",
-    "slug": "ferrari-testarossa-spider-monodado-o-unico-pace-car-oficial-de-maranello-dos-anos-80-com-chassi-tubular-reforcado-e-aluminio-batido-a-mao-que-retorna-das-sombras-8059",
-    "title": "Ferrari Testarossa Spider Monodado: O Único Pace Car Oficial de Maranello dos Anos 80 com Chassi Tubular Reforçado e Alumínio Batido à Mão que Retorna das Sombras",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "03 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1660326040484-fc0cb33d0b23?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "Desenterrado de um esquecimento de décadas, o exemplar exclusivo construído para liderar o pelotão de corrida revela a obsessão estrutural de Enzo Ferrari por rigidez torcional sem concessões digitais.",
-    "contentParagraphs": [
-      "A carroçaria cortada sem o teto rígido exigiu reforços profundos na seção inferior do chassi tubular para conter a torção mecânica em curvas de alta velocidade. Enzo Ferrari ordenou pessoalmente que a oficina de protótipos de Maranello abandonasse o conforto em favor da integridade estrutural pura.",
-      "O motor V12 de doze cilindros opostos a 180 graus ruge através de coletores em aço inox sem filtros acústicos restritivos. A força G lateral exercida nas curvas fechadas de pista desafia os limites do asfalto enquanto a telemetria inercial registra o comportamento milimétrico da suspensão dianteira.",
-      "Longe das telas táteis e dos assistentes eletrônicos de estabilidade que anestecem a pilotagem moderna, este exemplar único representa o ápice da engenharia mecânica analógica dos anos oitenta. Cada solda no chassi e cada painel de alumínio moldado à mão contam a história de uma época onde a velocidade era medida em RPMs viscerais.",
-      "A aparição pública deste monstro de Maranello em leilões restritos consolida seu status absoluto como ativo de colecionador intransigente. O chassi intocado e a mecânica restaurada com tolerâncias exatas de fábrica provam que a verdadeira soberania sobre rodas não aceita obsolescência programada."
-    ],
-    "content_paragraphs": [
-      "A carroçaria cortada sem o teto rígido exigiu reforços profundos na seção inferior do chassi tubular para conter a torção mecânica em curvas de alta velocidade. Enzo Ferrari ordenou pessoalmente que a oficina de protótipos de Maranello abandonasse o conforto em favor da integridade estrutural pura.",
-      "O motor V12 de doze cilindros opostos a 180 graus ruge através de coletores em aço inox sem filtros acústicos restritivos. A força G lateral exercida nas curvas fechadas de pista desafia os limites do asfalto enquanto a telemetria inercial registra o comportamento milimétrico da suspensão dianteira.",
-      "Longe das telas táteis e dos assistentes eletrônicos de estabilidade que anestecem a pilotagem moderna, este exemplar único representa o ápice da engenharia mecânica analógica dos anos oitenta. Cada solda no chassi e cada painel de alumínio moldado à mão contam a história de uma época onde a velocidade era medida em RPMs viscerais.",
-      "A aparição pública deste monstro de Maranello em leilões restritos consolida seu status absoluto como ativo de colecionador intransigente. O chassi intocado e a mecânica restaurada com tolerâncias exatas de fábrica provam que a verdadeira soberania sobre rodas não aceita obsolescência programada."
-    ],
-    "specs": {
-      "motor": "V12 plano 4.9L aspirado naturalmente",
-      "chassi": "Tubular em aço com reforços estruturais específicos",
-      "transmissão": "Manual dog-leg de 5 marchas com embreagem multidisco",
-      "construção": "Painéis em liga de alumínio batidos à mão em Maranello",
-      "avaliação": "Estimado em US$ 1.000.000 em transações privadas"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 95,
-    "ranking_score": 95,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-03T18:39:38.301Z",
-    "published_at": "2026-11-03T18:39:38.301Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMUdON0lXOGR1SlNPUzhiUlNSa3lJX0c2djBaQ0Zzc1VzWE5waEJSWVNKcDh4LTNIWWx1bFB1WGhsWlFuM3c0Z3d1MkVwSGlETVJkNkhzRGhfUkswSFlrcV9QcmNqdnlqeWc0cUhwdFR6M0U4Z2drT2s4SU5nbmdJRHd6MkxwcHIwWXZXSS13bWJpdjlEZVMzdHFEWXJZVG9kNnNRTGotWDk?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMUdON0lXOGR1SlNPUzhiUlNSa3lJX0c2djBaQ0Zzc1VzWE5waEJSWVNKcDh4LTNIWWx1bFB1WGhsWlFuM3c0Z3d1MkVwSGlETVJkNkhzRGhfUkswSFlrcV9QcmNqdnlqeWc0cUhwdFR6M0U4Z2drT2s4SU5nbmdJRHd6MkxwcHIwWXZXSS13bWJpdjlEZVMzdHFEWXJZVG9kNnNRTGotWDk?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "SUPERCARROS",
+    "title": "Bugatti Type 57SC Atlantic: Os R$ 68 M...",
+    "image": "https://images.unsplash.com/photo-1661311928884-7e36f478109f?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "bugatti-type-57sc-atlantic-os-r-68-milhoes-em-aluminio-rebitado-que-definiram-a-aerodinamica-de-pre-guerra-1407"
+  },
+  {
+    "id": "film-2",
     "category": "DESTINOS",
     "title": "Superiate Lürssen de 200 Milhões de Dó...",
     "image": "https://images.unsplash.com/photo-1783344422200-a5493824bcb9?auto=format&fit=max&q=80&w=1400",
@@ -1434,7 +1443,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "superiate-lurssen-de-200-milhoes-de-dolares-o-leviata-com-piscina-de-fundo-de-vidro-que-ancorou-na-costa-iberica-7128"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "ARQUITETURA",
     "title": "Gigantes Sob Encomenda: Os 6 Superiate...",
     "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
@@ -1442,7 +1451,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "gigantes-sob-encomenda-os-6-superiates-de-120-metros-em-construcao-que-mobilizam-18-bilhao-de-euros-em-silencio-mineral-7855"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "DESTINOS",
     "title": "The Italian Sea Group: O Resgate de 22...",
     "image": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?auto=format&fit=max&q=80&w=1400",
@@ -1450,7 +1459,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "the-italian-sea-group-o-resgate-de-220-milhoes-de-euros-que-consolida-a-soberania-dos-superiates-na-toscana-6143"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Ferrari 250 GTO: 18 000 000 USD e Chas...",
     "image": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=max&q=80&w=1400",
@@ -1458,20 +1467,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-250-gto-18-000-000-usd-e-chassi-de-forjamento-de-titanio-em-las-vegas-6794"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "ARQUITETURA",
     "title": "Christie's Abu Dhabi: US$ 8,94 Milhões...",
     "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=85&w=1800",
     "tag": "CURADORIA RADAR",
     "slug": "christies-abu-dhabi-us-894-milhoes-em-obras-raras-e-a-nova-soberania-patrimonial-do-oriente-medio-0301"
-  },
-  {
-    "id": "film-6",
-    "category": "ARQUITETURA",
-    "title": "Superiates: O Retorno Silencioso à Náu...",
-    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800",
-    "tag": "CURADORIA RADAR",
-    "slug": "superiates-o-retorno-silencioso-a-nautica-analogica-de-casco-de-aco-e-controle-mecanico-direto-3002"
   }
 ];
 

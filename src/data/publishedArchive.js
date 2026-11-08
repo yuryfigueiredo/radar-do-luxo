@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-aitek-hyperion-r-os-523-kmh-de-u-5414",
+    "slug": "aitek-hyperion-r-os-523-kmh-de-um-monstro-eletrico-de-2400-cv-que-desafia-as-leis-da-fisica-com-tubos-de-venturi-em-titanio-4767",
+    "title": "Aitek Hyperion R: Os 523 km/h de Um Monstro Elétrico de 2.400 cv que Desafia as Leis da Física com Tubos de Venturi em Titânio",
+    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYXZUeUs2eXQ5cm9ablJSd2h0WVlLV3VsNFNsY2RrQ3Zsb0RIOC11SW5fc1dnM2FZOWs3Ym5MNF9ranBYV1FDSWRxNG0weTdHLWNjTHlUZVVDbXg3al80VGJ2Q1JZVHRnV3VwLTN6andZUVhPdl9BWkJUVV9LNXBLbTExOEh5NFVqYTEySTE5MjktNjhvNi1hUEs0TlJSWTVwS2ZzQ1QtZmcxNngzRUt5T0RNRDItRWN6RUk4ZjU0TDhMczdhRVFj?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-08T03:07:15.413Z"
+  },
+  {
     "id": "art-gold-coast-residence-a-soberania-6470",
     "slug": "gold-coast-residence-a-soberania-imobiliaria-de-us-475-milhoes-que-desafia-o-recorde-historico-de-queensland-6447",
     "title": "Gold Coast Residence: A Soberania Imobiliária de US$ 47,5 Milhões que Desafia o Recorde Histórico de Queensland",
