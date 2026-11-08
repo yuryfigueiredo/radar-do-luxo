@@ -42,7 +42,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://images.unsplash.com/photo-1783344422200-a5493824bcb9?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "available"
+    "status": "duplicate"
   },
   {
     "id": "pauta-live-supercarros-mw863dht-4bsn",
@@ -68,7 +68,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "available"
+    "status": "published"
   },
   {
     "id": "pauta-live-supercarros-mw863dq2-6di4",

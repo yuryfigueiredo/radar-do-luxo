@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-aitek-hypercar-o-prototipo-eletr-7066",
+    "slug": "aitek-hypercar-o-prototipo-eletrico-de-2400-cv-com-vetorizacao-de-torque-que-eclipsou-a-fisica-de-molsheim-7056",
+    "title": "Aitek Hypercar: O Protótipo Elétrico de 2.400 cv com Vetorização de Torque que Eclipsou a Física de Molsheim",
+    "image": "https://images.unsplash.com/photo-1610880709844-b97111a986f7?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWTc4REF1cU1rZWxoUVkyRG5neG1hZnNwQml0NjdnSG96cW43RWxLd1VydjNHbXg4RFBpT3VSZ0NJTnl5NlFXeGFEUlVqcnJCeG1wZlo3WEVkQ2VIOC1ObjAtMF9iT2dPSkVkUEQwYnlTenFYNVU0V29SSUJOdHdmcjZQVXI0OVU?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-08T18:25:37.066Z"
+  },
+  {
     "id": "art-ferrari-296-gt3-o-v12-recuado-50-4055",
     "slug": "ferrari-296-gt3-o-v12-recuado-50mm-e-rebaixado-que-reconfigurou-o-limite-da-fisica-na-endurance-mundial-4017",
     "title": "Ferrari 296 GT3: O V12 Recuado 50mm e Rebaixado que Reconfigurou o Limite da Física na Endurance Mundial",

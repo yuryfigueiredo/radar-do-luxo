@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-aitek-hypercar-o-prototipo-eletr-7066",
+    "slug": "aitek-hypercar-o-prototipo-eletrico-de-2400-cv-com-vetorizacao-de-torque-que-eclipsou-a-fisica-de-molsheim-7056",
+    "title": "Aitek Hypercar: O Protótipo Elétrico de 2.400 cv com Vetorização de Torque que Eclipsou a Física de Molsheim",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "08 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1610880709844-b97111a986f7?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "A supremacia incontestável dos motores de combustão interna sofreu um abalo sísmico na telemetria. Um hipercarro oriental de arquitetura totalmente elétrica pulverizou recordes de velocidade em pista fechada.",
+    "contentParagraphs": [
+      "O silêncio do asfalto foi rasgado por uma frequência sônica aguda de 18.000 RPM. Quatro motores síncronos de ímãs permanentes entregam torque instantâneo através de um monocoque em carbo-titânio curado em autoclave a 6 bar. Não há hesitação mecânica. O empuxo é brutal, imediato e implacável com os órgãos internos do piloto.",
+      "A aerodinâmica ativa gerencia fluxos de Venturi de efeito solo por meio de atuadores piezoelétricos com tolerância de mícrons. A força G lateral atinge picos de 3,4G em curvas de alta velocidade, exigindo ligas de Inconel 625 e titânio aeroespacial para suportar as cargas estruturais extremas sem deformação plástica.",
+      "Enquanto a Europa debate a transição energética em gabinetes burocráticos, laboratórios asiáticos acumulam quilômetros de testes em túneis de vento subcríticos. Cada componente foi usinado a partir de blocos maciços de liga metálica, priorizando a rigidez torcional absoluta em detrimento de qualquer concessão comercial ou modismo digital.",
+      "A era dos grandes blocos térmicos enfrenta o seu crepúsculo técnico diante da supremacia dos elétrons hiperdimensionados. A engenharia pura não busca nostalgia; ela apenas redefine os limites da física quando submetida a um orçamento infinito e rigor implacável."
+    ],
+    "content_paragraphs": [
+      "O silêncio do asfalto foi rasgado por uma frequência sônica aguda de 18.000 RPM. Quatro motores síncronos de ímãs permanentes entregam torque instantâneo através de um monocoque em carbo-titânio curado em autoclave a 6 bar. Não há hesitação mecânica. O empuxo é brutal, imediato e implacável com os órgãos internos do piloto.",
+      "A aerodinâmica ativa gerencia fluxos de Venturi de efeito solo por meio de atuadores piezoelétricos com tolerância de mícrons. A força G lateral atinge picos de 3,4G em curvas de alta velocidade, exigindo ligas de Inconel 625 e titânio aeroespacial para suportar as cargas estruturais extremas sem deformação plástica.",
+      "Enquanto a Europa debate a transição energética em gabinetes burocráticos, laboratórios asiáticos acumulam quilômetros de testes em túneis de vento subcríticos. Cada componente foi usinado a partir de blocos maciços de liga metálica, priorizando a rigidez torcional absoluta em detrimento de qualquer concessão comercial ou modismo digital.",
+      "A era dos grandes blocos térmicos enfrenta o seu crepúsculo técnico diante da supremacia dos elétrons hiperdimensionados. A engenharia pura não busca nostalgia; ela apenas redefine os limites da física quando submetida a um orçamento infinito e rigor implacável."
+    ],
+    "specs": {
+      "Arquitetura Motriz": "Quadri-motor elétrico síncrono",
+      "Potência Máxima": "2.400 cv nominais",
+      "Chassi": "Monocoque em carbo-titânio de cura em autoclave",
+      "Gerenciamento Aerodinâmico": "Efeito solo ativo com dutos Venturi",
+      "Tolerância Estrutural": "Mícrons na usinagem dos mancais"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 88,
+    "ranking_score": 88,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-08T18:25:37.066Z",
+    "published_at": "2026-11-08T18:25:37.066Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWTc4REF1cU1rZWxoUVkyRG5neG1hZnNwQml0NjdnSG96cW43RWxLd1VydjNHbXg4RFBpT3VSZ0NJTnl5NlFXeGFEUlVqcnJCeG1wZlo3WEVkQ2VIOC1ObjAtMF9iT2dPSkVkUEQwYnlTenFYNVU0V29SSUJOdHdmcjZQVXI0OVU?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWTc4REF1cU1rZWxoUVkyRG5neG1hZnNwQml0NjdnSG96cW43RWxLd1VydjNHbXg4RFBpT3VSZ0NJTnl5NlFXeGFEUlVqcnJCeG1wZlo3WEVkQ2VIOC1ObjAtMF9iT2dPSkVkUEQwYnlTenFYNVU0V29SSUJOdHdmcjZQVXI0OVU?oc=5"
+  },
+  {
     "id": "art-ferrari-296-gt3-o-v12-recuado-50-4055",
     "slug": "ferrari-296-gt3-o-v12-recuado-50mm-e-rebaixado-que-reconfigurou-o-limite-da-fisica-na-endurance-mundial-4017",
     "title": "Ferrari 296 GT3: O V12 Recuado 50mm e Rebaixado que Reconfigurou o Limite da Física na Endurance Mundial",
@@ -334,7 +386,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "06 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -362,10 +414,10 @@ export const ARTICLES = [
       "Propulsão": "Motores gêmeos MTU de alta autonomia"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 89,
@@ -1368,59 +1420,6 @@ export const ARTICLES = [
     "published_at": "2026-11-03T17:12:27.425Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1DdVJ0YU1EU2hjbm13aEVvM0tIRDlfQlY0a0NVWTZ6ZXZIc3VKMDFRQUx6bG5oUGtoT04zUDhsSWZUN1M2akJLLUNkV24tTTNyZThlaWo2eHdyYTNpUkxuYklQTWJMN2wxV29GcTJMZlpuYVgxYmo4cw?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1DdVJ0YU1EU2hjbm13aEVvM0tIRDlfQlY0a0NVWTZ6ZXZIc3VKMDFRQUx6bG5oUGtoT04zUDhsSWZUN1M2akJLLUNkV24tTTNyZThlaWo2eHdyYTNpUkxuYklQTWJMN2wxV29GcTJMZlpuYVgxYmo4cw?oc=5"
-  },
-  {
-    "id": "art-sothebys-royal-noble-jewels-gene-3079",
-    "slug": "sothebys-royal-noble-jewels-geneva-2026-a-colecao-de-diamantes-historicos-de-18-quilates-com-proveniencia-dinastica-comprovada-3072",
-    "title": "Sotheby's Royal & Noble Jewels Geneva 2026: A Coleção de Diamantes Históricos de 18 Quilates com Proveniência Dinástica Comprovada",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "03 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "O leilão da Sotheby's em Genebra expõe ao mercado de custódia fiduciária gemas soberanas, provando que o patrimônio imune transcende a volatilidade das moedas fiat.",
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Nas salas reservadas do Hôtel Beau-Rivage em Genebra, a Sotheby's cataloga fragmentos tangíveis de soberania política que resistiram a séculos de reconfigurações geopolíticas e erosão monetária.",
-      "Cada lote da Royal & Noble Jewels carrega uma linhagem documentada em arquivos imperiais. Não se trata de adorno efêmero, mas de refúgio de liquidez estruturado em esmeraldas colombianas sem óleo e diamantes Type IIa intocados pelo homem até o corte artesanal do século XVIII.",
-      "A custódia fiduciária dessas peças exige governança dinástica rigorosa. Compradores globais de family offices e fundações privadas disputam a imunidade temporal oferecida por ativos físicos cujos valores resistem a qualquer crise sistêmica.",
-      "O veredito desta curadoria é definitivo. Enquanto os mercados globais oscilam na superfície digital, o silêncio mineral destas gemas assegura a perpetuidade de fortunas multigeracionais."
-    ],
-    "content_paragraphs": [
-      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Nas salas reservadas do Hôtel Beau-Rivage em Genebra, a Sotheby's cataloga fragmentos tangíveis de soberania política que resistiram a séculos de reconfigurações geopolíticas e erosão monetária.",
-      "Cada lote da Royal & Noble Jewels carrega uma linhagem documentada em arquivos imperiais. Não se trata de adorno efêmero, mas de refúgio de liquidez estruturado em esmeraldas colombianas sem óleo e diamantes Type IIa intocados pelo homem até o corte artesanal do século XVIII.",
-      "A custódia fiduciária dessas peças exige governança dinástica rigorosa. Compradores globais de family offices e fundações privadas disputam a imunidade temporal oferecida por ativos físicos cujos valores resistem a qualquer crise sistêmica.",
-      "O veredito desta curadoria é definitivo. Enquanto os mercados globais oscilam na superfície digital, o silêncio mineral destas gemas assegura a perpetuidade de fortunas multigeracionais."
-    ],
-    "specs": {
-      "Leiloeira": "Sotheby's Genebra",
-      "Evento": "Royal & Noble Jewels Sale 2026",
-      "Ativo Principal": "Diamante Type IIa de 18.4 Quilates",
-      "Proveniência": "Casa Ducal Europeia",
-      "Avaliação": "Sob consulta fiduciária estrita",
-      "Custódia": "Cofre Neutro em Genebra"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 92,
-    "ranking_score": 92,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-03T15:19:23.079Z",
-    "published_at": "2026-11-03T15:19:23.079Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZzNwQmNHelViT3ZYQmh5SXVLTjN1M0JpTmh3aGhQa0phdVlMRm44UXE1YUhBUnhUd0FOVFpZMkdfeXBmSENNQ2U0Smg3T1p2REFrNFBrTG1KSkJJQ3ZTZnFKNGppakUtekNGRTI4TmlPMzhna0J5Y3RMUExyZ2NBOQ?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZzNwQmNHelViT3ZYQmh5SXVLTjN1M0JpTmh3aGhQa0phdVlMRm44UXE1YUhBUnhUd0FOVFpZMkdfeXBmSENNQ2U0Smg3T1p2REFrNFBrTG1KSkJJQ3ZTZnFKNGppakUtekNGRTI4TmlPMzhna0J5Y3RMUExyZ2NBOQ?oc=5"
   }
 ];
 
@@ -1452,26 +1451,26 @@ export const FILMSTRIP_ITEMS = [
   {
     "id": "film-4",
     "category": "ARQUITETURA",
+    "title": "Christie's Abu Dhabi: US$ 8,94 Milhões...",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=85&w=1800",
+    "tag": "CURADORIA RADAR",
+    "slug": "christies-abu-dhabi-us-894-milhoes-em-obras-raras-e-a-nova-soberania-patrimonial-do-oriente-medio-0301"
+  },
+  {
+    "id": "film-5",
+    "category": "ARQUITETURA",
     "title": "Superiates: O Retorno Silencioso à Náu...",
     "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800",
     "tag": "CURADORIA RADAR",
     "slug": "superiates-o-retorno-silencioso-a-nautica-analogica-de-casco-de-aco-e-controle-mecanico-direto-3002"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "DESTINOS",
     "title": "Gabe Newell: A Fortuna de 5 Bilhões de...",
     "image": "https://images.unsplash.com/photo-1781872324499-e51350ed640e?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "gabe-newell-a-fortuna-de-5-bilhoes-de-dolares-ancorada-em-120-metros-de-aco-naval-e-inovacao-digital-5675"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Ferrari Testarossa Spider Monodado: O ...",
-    "image": "https://images.unsplash.com/photo-1660326040484-fc0cb33d0b23?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "ferrari-testarossa-spider-monodado-o-unico-pace-car-oficial-de-maranello-dos-anos-80-com-chassi-tubular-reforcado-e-aluminio-batido-a-mao-que-retorna-das-sombras-8059"
   }
 ];
 
