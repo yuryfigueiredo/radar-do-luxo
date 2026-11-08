@@ -46,6 +46,10 @@ export default async function handler(req, res) {
       return res.status(400).json({ success: false, error: 'Informe nome e telefone para abrir a solicitação.' });
     }
 
+    if (email && (!email.includes('@') || !email.includes('.'))) {
+      return res.status(400).json({ success: false, error: 'E-mail inválido.' });
+    }
+
     const google = await gravarCapturaGoogle({ tipo: 'concierge', nome, telefone, email, artigo, mensagem });
 
     if (google.ok) {
