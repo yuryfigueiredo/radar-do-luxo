@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-bugatti-chiron-a-perseguicao-tra-6909",
+    "slug": "bugatti-chiron-a-perseguicao-transfronteirica-de-8-milhoes-de-euros-realizada-pelo-ceo-ao-volante-de-um-porsche-911-6901",
+    "title": "Bugatti Chiron: A Perseguição Transfronteiriça de 8 Milhões de Euros Realizada pelo CEO ao Volante de um Porsche 911",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "08 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "Quando o ápice da engenharia mecânica francesa é interceptado por criminosos, o resgate exige uma caçada implacável através de fronteiras europeias utilizando o equipamento mais imediato e implacável disponível.",
+    "contentParagraphs": [
+      "A telemetria inercial indicava o rumo exato. O sinal de rastreamento via satélite cortava o asfalto úmido da Europa Central, traçando uma linha reta de audácia e vulnerabilidade patrimonial. Não havia tempo para diplomacia corporativa. A resposta imediata exigia reflexo cinético puro e a audácia de quem conhece cada tolerância de mícrons dos bólidos que assina.",
+      "O CEO da Bugatti não hesitou diante do furto do Chiron multimilionário. Longe dos escritórios estéreis de Molsheim, ele saltou para o banco de um Porsche 911 de prontidão, transformando a rodovia internacional em um circuito improvisado de alta perseguição. Acelerações brutais marcaram a travessia de fronteiras, explorando a aderência lateral do chassi e a precisão da transmissão enquanto a caçada se aproximava perigosamente do alvo móvel.",
+      "No universo dos hipercarros, a segurança eletrônica e os sistemas de criptografia via satélite muitas vezes falham diante da astúcia humana. Contudo, a física da perseguição reescreveu as regras da governança automotiva naquela madrugada. O torque imediato e a tração integral do utilitário esportivo alemão serviram como ferramentas improvisadas de intervenção, demonstrando que o instinto de preservação de uma obra-prima mecânica supera qualquer protocolo burocrático.",
+      "O episódio coroa uma era onde a posse de um monstro de mais de 1.500 cavalos de potência vai muito além da custódia fiduciária em garagens climatizadas. Exige vigilância constante, sangue-frio diante do imprevisto e, acima de tudo, a disposição de acelerar fundo na contramão do perigo para resgatar o patrimônio dinástico das garras do submundo."
+    ],
+    "content_paragraphs": [
+      "A telemetria inercial indicava o rumo exato. O sinal de rastreamento via satélite cortava o asfalto úmido da Europa Central, traçando uma linha reta de audácia e vulnerabilidade patrimonial. Não havia tempo para diplomacia corporativa. A resposta imediata exigia reflexo cinético puro e a audácia de quem conhece cada tolerância de mícrons dos bólidos que assina.",
+      "O CEO da Bugatti não hesitou diante do furto do Chiron multimilionário. Longe dos escritórios estéreis de Molsheim, ele saltou para o banco de um Porsche 911 de prontidão, transformando a rodovia internacional em um circuito improvisado de alta perseguição. Acelerações brutais marcaram a travessia de fronteiras, explorando a aderência lateral do chassi e a precisão da transmissão enquanto a caçada se aproximava perigosamente do alvo móvel.",
+      "No universo dos hipercarros, a segurança eletrônica e os sistemas de criptografia via satélite muitas vezes falham diante da astúcia humana. Contudo, a física da perseguição reescreveu as regras da governança automotiva naquela madrugada. O torque imediato e a tração integral do utilitário esportivo alemão serviram como ferramentas improvisadas de intervenção, demonstrando que o instinto de preservação de uma obra-prima mecânica supera qualquer protocolo burocrático.",
+      "O episódio coroa uma era onde a posse de um monstro de mais de 1.500 cavalos de potência vai muito além da custódia fiduciária em garagens climatizadas. Exige vigilância constante, sangue-frio diante do imprevisto e, acima de tudo, a disposição de acelerar fundo na contramão do perigo para resgatar o patrimônio dinástico das garras do submundo."
+    ],
+    "specs": {
+      "Modelo Alvo": "Bugatti Chiron",
+      "Valor Estimado": "8.000.000 de Euros",
+      "Veículo de Perseguição": "Porsche 911",
+      "Teatro de Operações": "Fronteiras Europeias",
+      "Custódia": "Ateliê Molsheim"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 88,
+    "ranking_score": 88,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-08T11:05:56.908Z",
+    "published_at": "2026-11-08T11:05:56.908Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcUJoUXYzMXJQSDdjcUgxX09SUXBHdExLM24wVjF2T0tJNEhKLUxzaVBRdEt0UGZOaUF0UjYwTWlFa3lnbE10UjJrYUsxbHpEZzFVSGVrMldEVFA0SlluVTctTlRwTkphQUlMc0JOaGFQZ05NWnQtYmdMRXYyUEFzYXhPb3lKODVZTERSY29TeUtfMmo0QlRPbTB1ZlJHZEE?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcUJoUXYzMXJQSDdjcUgxX09SUXBHdExLM24wVjF2T0tJNEhKLUxzaVBRdEt0UGZOaUF0UjYwTWlFa3lnbE10UjJrYUsxbHpEZzFVSGVrMldEVFA0SlluVTctTlRwTkphQUlMc0JOaGFQZ05NWnQtYmdMRXYyUEFzYXhPb3lKODVZTERSY29TeUtfMmo0QlRPbTB1ZlJHZEE?oc=5"
+  },
+  {
     "id": "art-aitek-hyperion-r-os-523-kmh-de-u-5414",
     "slug": "aitek-hyperion-r-os-523-kmh-de-um-monstro-eletrico-de-2400-cv-que-desafia-as-leis-da-fisica-com-tubos-de-venturi-em-titanio-4767",
     "title": "Aitek Hyperion R: Os 523 km/h de Um Monstro Elétrico de 2.400 cv que Desafia as Leis da Física com Tubos de Venturi em Titânio",
@@ -230,7 +282,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "07 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -259,10 +311,10 @@ export const ARTICLES = [
       "desempenho": "0 a 100 km/h em 4,1 segundos com velocidade máxima de 324 km/h"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 86,
@@ -1370,58 +1422,6 @@ export const ARTICLES = [
     "published_at": "2026-11-04T01:17:53.010Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQamxydm04N3pRQW5BMFJienRWeEM5c1hsaGZ6cXdjcVprSHQ0ekxUbldHRDlHX2U4NTdNTEtTZXhiVkZGY1pjRWhFZmk5dGFCR0hfYmRPYzI0QkFBcUttQVB4N1RlMmQzT2NhVElJT29MVi13WjJRWWdSQlZQQjNBM19zMUJmZDIySzBSNGtPX0pLOXFKeFMw?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQamxydm04N3pRQW5BMFJienRWeEM5c1hsaGZ6cXdjcVprSHQ0ekxUbldHRDlHX2U4NTdNTEtTZXhiVkZGY1pjRWhFZmk5dGFCR0hfYmRPYzI0QkFBcUttQVB4N1RlMmQzT2NhVElJT29MVi13WjJRWWdSQlZQQjNBM19zMUJmZDIySzBSNGtPX0pLOXFKeFMw?oc=5"
-  },
-  {
-    "id": "art-gabe-newell-a-fortuna-de-5-bilho-5818",
-    "slug": "gabe-newell-a-fortuna-de-5-bilhoes-de-dolares-ancorada-em-120-metros-de-aco-naval-e-inovacao-digital-5675",
-    "title": "Gabe Newell: A Fortuna de 5 Bilhões de Dólares ancorada em 120 Metros de Aço Naval e Inovação Digital",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "03 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1781872324499-e51350ed640e?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Aos 64 anos, o arquiteto da Valve transcende o código binário para exercer soberania sobre os oceanos, equilibrando a hegemonia da Steam com a engenharia bruta de superiates de exploração oceânica.",
-    "contentParagraphs": [
-      "O silêncio do convés de um superiate de 120 metros é a antítese do ruído constante dos servidores da Steam. Gabe Newell, ao celebrar 64 anos, não apenas consolidou um império de distribuição digital, mas converteu essa liquidez em massa física navegável. A transição do software imaterial para o casco de aço naval de alta resistência revela uma busca por estabilidade inercial. Enquanto o mundo debate algoritmos, ele prioriza a dinâmica de fluidos e o deslocamento de toneladas sobre o Pacífico.",
-      "A engenharia por trás de suas embarcações de exploração reflete uma obsessão pela tolerância de mícrons, similar à precisão exigida no desenvolvimento de motores de alta performance. O casco, projetado para operar em condições de mar escala 7, utiliza sistemas de estabilização giroscópica que neutralizam o balanço inercial com precisão cirúrgica. Aqui, a telemetria não mede apenas a velocidade de processamento de dados, mas a força G lateral exercida pelo impacto das ondas, exigindo uma estrutura de monocoque reforçada capaz de suportar pressões hidrostáticas extremas.",
-      "A Valve permanece como um refúgio de governança privada, um anacronismo de sucesso em um setor dominado por aberturas de capital voláteis. Newell compreendeu cedo que a escassez matemática gera valor inestimável, tratando sua base de usuários com o mesmo rigor que um estaleiro de elite trata a escolha de ligas de alumínio e carbono. O império não é construído sobre o volume de vendas, mas sobre a arquitetura de uma plataforma que se tornou a infraestrutura fundamental do entretenimento global.",
-      "A longevidade de sua influência é medida em décadas de lealdade de mercado, uma métrica tão rara quanto a manufatura de um motor aspirado em plena era da eletrificação forçada. Ao observar sua trajetória, percebe-se que a busca pelo domínio total — seja no ciberespaço ou nas águas profundas — é movida por um desprezo pela obsolescência programada. Gabe Newell não possui apenas uma frota ou uma plataforma; ele detém o controle sobre a física do seu próprio tempo."
-    ],
-    "content_paragraphs": [
-      "O silêncio do convés de um superiate de 120 metros é a antítese do ruído constante dos servidores da Steam. Gabe Newell, ao celebrar 64 anos, não apenas consolidou um império de distribuição digital, mas converteu essa liquidez em massa física navegável. A transição do software imaterial para o casco de aço naval de alta resistência revela uma busca por estabilidade inercial. Enquanto o mundo debate algoritmos, ele prioriza a dinâmica de fluidos e o deslocamento de toneladas sobre o Pacífico.",
-      "A engenharia por trás de suas embarcações de exploração reflete uma obsessão pela tolerância de mícrons, similar à precisão exigida no desenvolvimento de motores de alta performance. O casco, projetado para operar em condições de mar escala 7, utiliza sistemas de estabilização giroscópica que neutralizam o balanço inercial com precisão cirúrgica. Aqui, a telemetria não mede apenas a velocidade de processamento de dados, mas a força G lateral exercida pelo impacto das ondas, exigindo uma estrutura de monocoque reforçada capaz de suportar pressões hidrostáticas extremas.",
-      "A Valve permanece como um refúgio de governança privada, um anacronismo de sucesso em um setor dominado por aberturas de capital voláteis. Newell compreendeu cedo que a escassez matemática gera valor inestimável, tratando sua base de usuários com o mesmo rigor que um estaleiro de elite trata a escolha de ligas de alumínio e carbono. O império não é construído sobre o volume de vendas, mas sobre a arquitetura de uma plataforma que se tornou a infraestrutura fundamental do entretenimento global.",
-      "A longevidade de sua influência é medida em décadas de lealdade de mercado, uma métrica tão rara quanto a manufatura de um motor aspirado em plena era da eletrificação forçada. Ao observar sua trajetória, percebe-se que a busca pelo domínio total — seja no ciberespaço ou nas águas profundas — é movida por um desprezo pela obsolescência programada. Gabe Newell não possui apenas uma frota ou uma plataforma; ele detém o controle sobre a física do seu próprio tempo."
-    ],
-    "specs": {
-      "patrimonio_estimado": "5.5 Bilhões de USD",
-      "foco_naval": "Superiates de exploração oceânica",
-      "infraestrutura_digital": "Steam (Plataforma de distribuição global)",
-      "idade_do_fundador": "64 anos",
-      "estabilidade_operacional": "Privacidade corporativa absoluta"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "engineSource": "gemini:gemini-3.1-flash-lite",
-    "publishedAt": "2026-11-03T22:13:55.818Z",
-    "published_at": "2026-11-03T22:13:55.818Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVS1tSTVtYVVRbVNmaklHRmd5QW1JWjJOa3ZWNDNGLUp0UlBfUmNIb0RLWWxGZVdzUmdwb2w3SDNqQUh2bExXWVFJQ1RkYmpZVVMzaGcxYnRaWVg4R1V5RmN4SlB3NkJfQmktNlpzMjIybWVtclZrNjAxLTJSenFQMzR0cE1BV2hYc1kwdkFVcjZnR3JmYjNKRVNmbTRhZVliV1ZKU3VYbVZwZFlsU1RBdm8wZjZKT3daZzd4TQ?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVS1tSTVtYVVRbVNmaklHRmd5QW1JWjJOa3ZWNDNGLUp0UlBfUmNIb0RLWWxGZVdzUmdwb2w3SDNqQUh2bExXWVFJQ1RkYmpZVVMzaGcxYnRaWVg4R1V5RmN4SlB3NkJfQmktNlpzMjIybWVtclZrNjAxLTJSenFQMzR0cE1BV2hYc1kwdkFVcjZnR3JmYjNKRVNmbTRhZVliV1ZKU3VYbVZwZFlsU1RBdm8wZjZKT3daZzd4TQ?oc=5"
   }
 ];
 
@@ -1429,13 +1429,21 @@ export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
     "category": "SUPERCARROS",
+    "title": "Ferrari F50: O Recorde de US$ 18,7 Mil...",
+    "image": "https://images.unsplash.com/photo-1635488591151-c7a12939669b?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "ferrari-f50-o-recorde-de-us-187-milhoes-para-o-ultimo-v12-analogico-com-chassi-de-formula-1-7232"
+  },
+  {
+    "id": "film-2",
+    "category": "SUPERCARROS",
     "title": "Bugatti Type 57SC Atlantic: Os R$ 68 M...",
     "image": "https://images.unsplash.com/photo-1661311928884-7e36f478109f?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "bugatti-type-57sc-atlantic-os-r-68-milhoes-em-aluminio-rebitado-que-definiram-a-aerodinamica-de-pre-guerra-1407"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "DESTINOS",
     "title": "Superiate Lürssen de 200 Milhões de Dó...",
     "image": "https://images.unsplash.com/photo-1783344422200-a5493824bcb9?auto=format&fit=max&q=80&w=1400",
@@ -1443,7 +1451,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "superiate-lurssen-de-200-milhoes-de-dolares-o-leviata-com-piscina-de-fundo-de-vidro-que-ancorou-na-costa-iberica-7128"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "ARQUITETURA",
     "title": "Gigantes Sob Encomenda: Os 6 Superiate...",
     "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
@@ -1451,7 +1459,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "gigantes-sob-encomenda-os-6-superiates-de-120-metros-em-construcao-que-mobilizam-18-bilhao-de-euros-em-silencio-mineral-7855"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "DESTINOS",
     "title": "The Italian Sea Group: O Resgate de 22...",
     "image": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?auto=format&fit=max&q=80&w=1400",
@@ -1459,20 +1467,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "the-italian-sea-group-o-resgate-de-220-milhoes-de-euros-que-consolida-a-soberania-dos-superiates-na-toscana-6143"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Ferrari 250 GTO: 18 000 000 USD e Chas...",
     "image": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "ferrari-250-gto-18-000-000-usd-e-chassi-de-forjamento-de-titanio-em-las-vegas-6794"
-  },
-  {
-    "id": "film-6",
-    "category": "ARQUITETURA",
-    "title": "Christie's Abu Dhabi: US$ 8,94 Milhões...",
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=85&w=1800",
-    "tag": "CURADORIA RADAR",
-    "slug": "christies-abu-dhabi-us-894-milhoes-em-obras-raras-e-a-nova-soberania-patrimonial-do-oriente-medio-0301"
   }
 ];
 

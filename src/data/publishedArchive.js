@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-bugatti-chiron-a-perseguicao-tra-6909",
+    "slug": "bugatti-chiron-a-perseguicao-transfronteirica-de-8-milhoes-de-euros-realizada-pelo-ceo-ao-volante-de-um-porsche-911-6901",
+    "title": "Bugatti Chiron: A Perseguição Transfronteiriça de 8 Milhões de Euros Realizada pelo CEO ao Volante de um Porsche 911",
+    "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcUJoUXYzMXJQSDdjcUgxX09SUXBHdExLM24wVjF2T0tJNEhKLUxzaVBRdEt0UGZOaUF0UjYwTWlFa3lnbE10UjJrYUsxbHpEZzFVSGVrMldEVFA0SlluVTctTlRwTkphQUlMc0JOaGFQZ05NWnQtYmdMRXYyUEFzYXhPb3lKODVZTERSY29TeUtfMmo0QlRPbTB1ZlJHZEE?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-08T11:05:56.908Z"
+  },
+  {
     "id": "art-aitek-hyperion-r-os-523-kmh-de-u-5414",
     "slug": "aitek-hyperion-r-os-523-kmh-de-um-monstro-eletrico-de-2400-cv-que-desafia-as-leis-da-fisica-com-tubos-de-venturi-em-titanio-4767",
     "title": "Aitek Hyperion R: Os 523 km/h de Um Monstro Elétrico de 2.400 cv que Desafia as Leis da Física com Tubos de Venturi em Titânio",
