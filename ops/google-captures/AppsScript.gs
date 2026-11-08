@@ -87,18 +87,19 @@ function doPost(e) {
 }
 
 /**
- * Toda coluna é marcada como texto antes de escrever. Dois motivos: telefone
+ * Toda coluna é marcada como texto DEPOIS de escrever. Dois motivos: telefone
  * começa com "+" e o Sheets tenta ler isso como fórmula; e um visitante que
  * escreva "=IMPORTXML(...)" na mensagem arrancaria conteúdo da planilha para um
- * servidor externo. Com formato '@' o texto é gravado literal.
+ * servidor externo. Com formato '@' aplicado à linha recém-criada, o texto é
+ * gravado literal e nenhuma linha futura fica sem proteção.
  */
 function linha_(aba, valores) {
   var trava = LockService.getScriptLock();
   trava.waitLock(20000);
   try {
-    var linhas = Math.max(aba.getMaxRows(), 2);
-    aba.getRange(1, 1, linhas, valores.length).setNumberFormat('@');
     aba.appendRow(valores);
+    var novaLinha = aba.getLastRow();
+    aba.getRange(novaLinha, 1, 1, valores.length).setNumberFormat('@');
   } finally {
     trava.releaseLock();
   }

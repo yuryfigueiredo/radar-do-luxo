@@ -12,84 +12,44 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
-    "id": "art-bugatti-chiron-a-perseguicao-tra-6909",
-    "slug": "bugatti-chiron-a-perseguicao-transfronteirica-de-8-milhoes-de-euros-realizada-pelo-ceo-ao-volante-de-um-porsche-911-6901",
-    "title": "Bugatti Chiron: A Perseguição Transfronteiriça de 8 Milhões de Euros Realizada pelo CEO ao Volante de um Porsche 911",
-    "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcUJoUXYzMXJQSDdjcUgxX09SUXBHdExLM24wVjF2T0tJNEhKLUxzaVBRdEt0UGZOaUF0UjYwTWlFa3lnbE10UjJrYUsxbHpEZzFVSGVrMldEVFA0SlluVTctTlRwTkphQUlMc0JOaGFQZ05NWnQtYmdMRXYyUEFzYXhPb3lKODVZTERSY29TeUtfMmo0QlRPbTB1ZlJHZEE?oc=5",
-    "categorySlug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "publishedAt": "2026-11-08T11:05:56.908Z"
-  },
-  {
-    "id": "art-aitek-hyperion-r-os-523-kmh-de-u-5414",
-    "slug": "aitek-hyperion-r-os-523-kmh-de-um-monstro-eletrico-de-2400-cv-que-desafia-as-leis-da-fisica-com-tubos-de-venturi-em-titanio-4767",
-    "title": "Aitek Hyperion R: Os 523 km/h de Um Monstro Elétrico de 2.400 cv que Desafia as Leis da Física com Tubos de Venturi em Titânio",
-    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYXZUeUs2eXQ5cm9ablJSd2h0WVlLV3VsNFNsY2RrQ3Zsb0RIOC11SW5fc1dnM2FZOWs3Ym5MNF9ranBYV1FDSWRxNG0weTdHLWNjTHlUZVVDbXg3al80VGJ2Q1JZVHRnV3VwLTN6andZUVhPdl9BWkJUVV9LNXBLbTExOEh5NFVqYTEySTE5MjktNjhvNi1hUEs0TlJSWTVwS2ZzQ1QtZmcxNngzRUt5T0RNRDItRWN6RUk4ZjU0TDhMczdhRVFj?oc=5",
-    "categorySlug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "publishedAt": "2026-11-08T03:07:15.413Z"
-  },
-  {
-    "id": "art-gold-coast-residence-a-soberania-6470",
-    "slug": "gold-coast-residence-a-soberania-imobiliaria-de-us-475-milhoes-que-desafia-o-recorde-historico-de-queensland-6447",
-    "title": "Gold Coast Residence: A Soberania Imobiliária de US$ 47,5 Milhões que Desafia o Recorde Histórico de Queensland",
-    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdUl6WDExeFh2NkRzSGYzd0NlaFZLal9lSjJuTnBQY19RVlNUbDFZX2xNTHljUFY4N2tpQ2lLSmdaV3p1Z3dmRkxwYUJDSGhqZmhITVdHejV6Y0Y3MlRjSkJIRjJmQklGa1V2UXRjLW8zTnIwRmhpTFVZeVBndnZ4UlVndUpHUFVEbTFPcFo0X2liWVNWdk10ODZZb2tyTTc1dDFXd0RWVWZWQmtUWTd5TV9VVQ?oc=5",
-    "categorySlug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "publishedAt": "2026-11-08T01:15:26.469Z"
-  },
-  {
-    "id": "art-ferrari-f40-o-monstro-biturbo-de-6412",
-    "slug": "ferrari-f40-o-monstro-biturbo-de-478-cv-que-emergiu-nas-ruas-de-londres-rejeitando-a-era-dos-supercarros-anestesicos-6400",
-    "title": "Ferrari F40: O Monstro Biturbo de 478 cv que Emergiu nas Ruas de Londres Rejeitando a Era dos Supercarros Anestésicos",
-    "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=max&q=85&w=1800",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWEFQQXJvRzZwWmlBMlhVYThFd2ZQNWpyWTZHYjZuYWhLV0tiTk9LS1Z0eVVWUUo2a08zOE5ia2VjOWlrbzM5dVl5bmQxLWw2V3hEOVY3UDdQenBUUlczYWVvSEU0YzJsak9aRXJaQllDZWRjbGdDVjNQWS1naGg0ZnZHLWVaSDNtNWdzdjd4TXAtaDFOdTQ0?oc=5",
-    "categorySlug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "publishedAt": "2026-11-07T22:10:56.412Z"
-  },
-  {
-    "id": "art-ferrari-hypercar-2030-o-v12-aspi-2621",
-    "slug": "ferrari-hypercar-2030-o-v12-aspirado-de-11000-rpm-que-exige-o-fim-absoluto-do-equilibrio-artificial-de-desempenho-2202",
-    "title": "Ferrari Hypercar 2030: O V12 Aspirado de 11.000 RPM que Exige o Fim Absoluto do Equilíbrio Artificial de Desempenho",
+    "id": "art-ferrari-296-gt3-o-v12-recuado-50-4055",
+    "slug": "ferrari-296-gt3-o-v12-recuado-50mm-e-rebaixado-que-reconfigurou-o-limite-da-fisica-na-endurance-mundial-4017",
+    "title": "Ferrari 296 GT3: O V12 Recuado 50mm e Rebaixado que Reconfigurou o Limite da Física na Endurance Mundial",
     "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=max&q=85&w=1800",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdE5DWUF1bDB2eXYxSmRfSGtWS1lwaTM3WUg4U3RwTmlfaHVOUmtWMVd4c3ctTF8wWGlMOFItQmN6Nnc0SF9BbGxOdlhkclNlSFVwYjNsQTMtc0RlT0lCbjljTk94NTRHRXN6S3RudEtjMG45Y0F2SUtuWmRFRHU3MlRXWUdVQjBhTnl3YWFqa180VWNrRnJablVJR3M0VzZ6Q01jdXJOUmtXRHpP?oc=5",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQREJpMXRZZnFDWVE5MWQtZkttb1VTczZ6a1lkLWRqSkk3U3ZrWV9hWm1zSEJHYjJvR0tnZ0dqazZaNTNMOVZnWU9PRFRhZVlhaHEzN1VheEgxNS10dG85akFkWVJVTVVNMjI2VzVWZFFYeEdsS2o4OXNtUUlZRFRCU0dRNTFDZw?oc=5",
     "categorySlug": "supercarros",
     "authorSlug": "gabriel-fontes",
-    "publishedAt": "2026-11-07T15:15:32.621Z"
+    "publishedAt": "2026-11-06T23:00:34.055Z"
   },
   {
-    "id": "art-phillips-genebra-o-leilao-histor-5118",
-    "slug": "phillips-genebra-o-leilao-historico-de-48-lotes-raros-com-avaliacao-superior-a-45-milhoes-de-francos-suicos-em-relogios-de-sobrevivencia-dinastica-5109",
-    "title": "Phillips Genebra: O Leilão Histórico de 48 Lotes Raros com Avaliação Superior a 45 Milhões de Francos Suíços em Relógios de Sobrevivência Dinástica",
-    "image": "https://images.unsplash.com/photo-1610880709844-b97111a986f7?auto=format&fit=max&q=80&w=1400",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9hSm9pOERWVVc1SFBOdEVDTVRrR2dFWDlLR1BLOTJnMWNiUzlTYVd0b1FnbVJUcGdtTlpkME4xUzRoWFNtZ3ZjME9WY3ptcmhkZ0p5SE1wcV84Q0NMY01XMnktZkplZlQ2R0ZZQzF1ZVExakhHQ084NXdWQmQ?oc=5",
-    "categorySlug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "publishedAt": "2026-11-07T11:11:25.118Z"
+    "id": "art-sindalah-o-arquipelago-do-mar-ve-7247",
+    "slug": "sindalah-o-arquipelago-do-mar-vermelho-de-84-bercos-que-desafia-a-soberania-nautica-de-monaco-7239",
+    "title": "Sindalah: O Arquipélago do Mar Vermelho de 84 Berços que Desafia a Soberania Náutica de Mônaco",
+    "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRlc2YUN0T2pQeXJLMlg2TzA5aXVqUnpOblpXVmVWc0txeXc4RTIzOVkzR0xoT3A2RF82Q1FqcjZwN1dxa3F0QW1vWWtSQ3FBd3RYMU9PWGRyZHJ6ek4zQnY3UjZyLWJBbnFqWDhBM0RNVlpFNDZQX2locU5ldDA3N1lWMzMzaGc3UjF1UUdGckhxZHJMak9uZGQwTk9aTy1h?oc=5",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-06T22:53:57.246Z"
   },
   {
-    "id": "art-sarasota-record-a-cobertura-lito-6409",
-    "slug": "sarasota-record-a-cobertura-litoral-de-us-145-milhoes-com-monobloco-de-travertino-e-fundacao-de-concreto-nautico-6085",
-    "title": "Sarasota Record: A Cobertura Litoral de US$ 14,5 Milhões com Monobloco de Travertino e Fundação de Concreto Náutico",
+    "id": "art-sarasota-record-a-cobertura-de-u-9940",
+    "slug": "sarasota-record-a-cobertura-de-us-145-milhoes-que-estabelece-o-novo-padrao-fiduciario-em-concreto-macico-e-travertino-na-costa-da-florida-9914",
+    "title": "Sarasota Record: A Cobertura de US$ 14,5 Milhões que Estabelece o Novo Padrão Fiduciário em Concreto Maciço e Travertino na Costa da Flórida",
     "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=max&q=80&w=1400",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNEMxSUZsNERUU29USVc5ZGFDX3lWRHFVQW1xWFpWdTZXSUNzWGFqWnBUMGxmeWlGWkotRDlCMzQyZDI3UzJlTjBFaXZlZzFfS203UHlSanVZRDlOSUx2UGg0ZDhVcFFCNGlhNkdRMXZSS0htMmN5UjU0dEIyaWttZDBTc3lGQXl3YzF5ZXVISGlWdXJaeEVyR0pKSWE2N3BaWmZCMVVZMHhSWk1GSG44eGs2TkxBanpYd3VR?oc=5",
     "categorySlug": "arquitetura",
     "authorSlug": "henrique-vianna",
-    "publishedAt": "2026-11-07T04:47:56.409Z"
+    "publishedAt": "2026-11-06T23:05:09.939Z"
   },
   {
-    "id": "art-yangwang-u9-a-furia-eletrica-de--0208",
-    "slug": "yangwang-u9-a-furia-eletrica-de-310-mph-que-desafia-a-fisica-termica-com-1300-volts-de-descarga-direta-9302",
-    "title": "Yangwang U9: A Fúria Elétrica de 310 MPH que Desafia a Física Térmica com 1.300 Volts de Descarga Direta",
+    "id": "art-yangwang-u9-a-furia-eletrica-de--0416",
+    "slug": "yangwang-u9-a-furia-eletrica-de-310-mph-que-esmaga-limites-com-quatro-motores-independentes-e-3000-cavalos-0393",
+    "title": "Yangwang U9: A Fúria Elétrica de 310 MPH que Esmaga Limites com Quatro Motores Independentes e 3.000 Cavalos",
     "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQ2xQUURwVkJ1N2daNWdWMkNFRGhOWmJpazNRcGk5TlI4Vm5XOExKcDJWLUhsQ0x4dDB4UUg1Y1YxSUZaeWJ2YnRXaFpqb3dJZXc2aHJZQXNhTnFFOWxGZURFVk5oaVZHY0gxa0t0Y29oc2FudUc5aUQ3bFdaQnl4dkpn?oc=5",
     "categorySlug": "supercarros",
     "authorSlug": "gabriel-fontes",
-    "publishedAt": "2026-11-07T01:16:50.208Z"
+    "publishedAt": "2026-11-06T22:55:10.416Z"
   },
   {
     "id": "art-sheergold-o-superiate-de-expedic-8920",
