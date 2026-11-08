@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-gold-coast-residence-a-soberania-6470",
+    "slug": "gold-coast-residence-a-soberania-imobiliaria-de-us-475-milhoes-que-desafia-o-recorde-historico-de-queensland-6447",
+    "title": "Gold Coast Residence: A Soberania Imobiliária de US$ 47,5 Milhões que Desafia o Recorde Histórico de Queensland",
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdUl6WDExeFh2NkRzSGYzd0NlaFZLal9lSjJuTnBQY19RVlNUbDFZX2xNTHljUFY4N2tpQ2lLSmdaV3p1Z3dmRkxwYUJDSGhqZmhITVdHejV6Y0Y3MlRjSkJIRjJmQklGa1V2UXRjLW8zTnIwRmhpTFVZeVBndnZ4UlVndUpHUFVEbTFPcFo0X2liWVNWdk10ODZZb2tyTTc1dDFXd0RWVWZWQmtUWTd5TV9VVQ?oc=5",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "publishedAt": "2026-11-08T01:15:26.469Z"
+  },
+  {
     "id": "art-ferrari-f40-o-monstro-biturbo-de-6412",
     "slug": "ferrari-f40-o-monstro-biturbo-de-478-cv-que-emergiu-nas-ruas-de-londres-rejeitando-a-era-dos-supercarros-anestesicos-6400",
     "title": "Ferrari F40: O Monstro Biturbo de 478 cv que Emergiu nas Ruas de Londres Rejeitando a Era dos Supercarros Anestésicos",

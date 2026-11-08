@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-gold-coast-residence-a-soberania-6470",
+    "slug": "gold-coast-residence-a-soberania-imobiliaria-de-us-475-milhoes-que-desafia-o-recorde-historico-de-queensland-6447",
+    "title": "Gold Coast Residence: A Soberania Imobiliária de US$ 47,5 Milhões que Desafia o Recorde Histórico de Queensland",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "08 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Um marco de US$ 47,5 milhões erguido sobre a Costa Dourada australiana redefine os parâmetros globais da arquitetura de refúgio e da custódia imobiliária de ultra-alto padrão.",
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Nas margens costeiras de Queensland, uma propriedade recém-anunciada por 47,5 milhões de dólares americanos rompe a barreira do mercado residencial australiano, estabelecendo uma nova métrica para a soberania patrimonial. Trata-se de uma edificação concebida não para o aplauso efêmero, mas para resistir às intempéries do tempo e às flutuações da liquidez global.",
+      "A estrutura monumental emprega blocos maciços de travertino romano Navona e painéis estruturais em vidro blindado de baixa reflexão, fundidos em um monocoque arquitetônico projetado para isolar o interior de qualquer estímulo externo. Engenharia de precisão pura. Cada viga de aço corten foi tratada quimicamente para adquirir uma pátina natural ao longo das décadas, enquanto o sistema geodérmico de climatização opera em absoluto silêncio mecânico.",
+      "Em tempos de volatilidade econômica internacional, ativos tangíveis localizados em enclaves fortificados tornaram-se o refúgio primário para family offices e fundações de custódia fiduciária. Esta propriedade na Gold Coast transcende a mera habitação. Funciona como um cofre habitável, onde a escassez geográfica e a imponência construtiva garantem imunidade temporal contra a desvalorização inflacionária.",
+      "A curadoria de ativos desta magnitude exige mais do que capital; exige a compreensão de que o verdadeiro luxo reside na permanência intransigente. Ao ameaçar quebrar o recorde histórico de Queensland, esta residência sela o destino de quem compreende a arquitetura como o ápice da herança familiar perene."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Nas margens costeiras de Queensland, uma propriedade recém-anunciada por 47,5 milhões de dólares americanos rompe a barreira do mercado residencial australiano, estabelecendo uma nova métrica para a soberania patrimonial. Trata-se de uma edificação concebida não para o aplauso efêmero, mas para resistir às intempéries do tempo e às flutuações da liquidez global.",
+      "A estrutura monumental emprega blocos maciços de travertino romano Navona e painéis estruturais em vidro blindado de baixa reflexão, fundidos em um monocoque arquitetônico projetado para isolar o interior de qualquer estímulo externo. Engenharia de precisão pura. Cada viga de aço corten foi tratada quimicamente para adquirir uma pátina natural ao longo das décadas, enquanto o sistema geodérmico de climatização opera em absoluto silêncio mecânico.",
+      "Em tempos de volatilidade econômica internacional, ativos tangíveis localizados em enclaves fortificados tornaram-se o refúgio primário para family offices e fundações de custódia fiduciária. Esta propriedade na Gold Coast transcende a mera habitação. Funciona como um cofre habitável, onde a escassez geográfica e a imponência construtiva garantem imunidade temporal contra a desvalorização inflacionária.",
+      "A curadoria de ativos desta magnitude exige mais do que capital; exige a compreensão de que o verdadeiro luxo reside na permanência intransigente. Ao ameaçar quebrar o recorde histórico de Queensland, esta residência sela o destino de quem compreende a arquitetura como o ápice da herança familiar perene."
+    ],
+    "specs": {
+      "Avaliação Patrimonial": "US$ 47,5 Milhões",
+      "Localização Estratégica": "Gold Coast, Queensland, Austrália",
+      "Matéria-Prima Estrutural": "Travertino Romano Navona e Aço Corten",
+      "Fundação e Governança": "Custódia Fiduciária de Longo Prazo",
+      "Tipologia": "Residência Dinástica Fortificada"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 86,
+    "ranking_score": 86,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-08T01:15:26.469Z",
+    "published_at": "2026-11-08T01:15:26.469Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdUl6WDExeFh2NkRzSGYzd0NlaFZLal9lSjJuTnBQY19RVlNUbDFZX2xNTHljUFY4N2tpQ2lLSmdaV3p1Z3dmRkxwYUJDSGhqZmhITVdHejV6Y0Y3MlRjSkJIRjJmQklGa1V2UXRjLW8zTnIwRmhpTFVZeVBndnZ4UlVndUpHUFVEbTFPcFo0X2liWVNWdk10ODZZb2tyTTc1dDFXd0RWVWZWQmtUWTd5TV9VVQ?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdUl6WDExeFh2NkRzSGYzd0NlaFZLal9lSjJuTnBQY19RVlNUbDFZX2xNTHljUFY4N2tpQ2lLSmdaV3p1Z3dmRkxwYUJDSGhqZmhITVdHejV6Y0Y3MlRjSkJIRjJmQklGa1V2UXRjLW8zTnIwRmhpTFVZeVBndnZ4UlVndUpHUFVEbTFPcFo0X2liWVNWdk10ODZZb2tyTTc1dDFXd0RWVWZWQmtUWTd5TV9VVQ?oc=5"
+  },
+  {
     "id": "art-ferrari-f40-o-monstro-biturbo-de-6412",
     "slug": "ferrari-f40-o-monstro-biturbo-de-478-cv-que-emergiu-nas-ruas-de-londres-rejeitando-a-era-dos-supercarros-anestesicos-6400",
     "title": "Ferrari F40: O Monstro Biturbo de 478 cv que Emergiu nas Ruas de Londres Rejeitando a Era dos Supercarros Anestésicos",
@@ -1369,65 +1421,20 @@ export const ARTICLES = [
     "published_at": "2026-11-03T18:39:38.301Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMUdON0lXOGR1SlNPUzhiUlNSa3lJX0c2djBaQ0Zzc1VzWE5waEJSWVNKcDh4LTNIWWx1bFB1WGhsWlFuM3c0Z3d1MkVwSGlETVJkNkhzRGhfUkswSFlrcV9QcmNqdnlqeWc0cUhwdFR6M0U4Z2drT2s4SU5nbmdJRHd6MkxwcHIwWXZXSS13bWJpdjlEZVMzdHFEWXJZVG9kNnNRTGotWDk?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMUdON0lXOGR1SlNPUzhiUlNSa3lJX0c2djBaQ0Zzc1VzWE5waEJSWVNKcDh4LTNIWWx1bFB1WGhsWlFuM3c0Z3d1MkVwSGlETVJkNkhzRGhfUkswSFlrcV9QcmNqdnlqeWc0cUhwdFR6M0U4Z2drT2s4SU5nbmdJRHd6MkxwcHIwWXZXSS13bWJpdjlEZVMzdHFEWXJZVG9kNnNRTGotWDk?oc=5"
-  },
-  {
-    "id": "art-amels-242-nome-o-superiate-de-74-7425",
-    "slug": "amels-242-nome-o-superiate-de-74-metros-e-1790-toneladas-que-desafia-a-hidrodinamica-tradicional-no-hercules-de-monaco-7416",
-    "title": "Amels 242 Nome: O Superiate de 74 Metros e 1.790 Toneladas que Desafia a Hidrodinâmica Tradicional no Hércules de Mônaco",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "03 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1614350391736-ed8619d63c06?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Ancorado nas águas profundas do Port Hercule, o Amels 242 Nome sintetiza a maestria naval de Vlissingen através de um casco de aço de deslocamento pleno e arquitetura acústica projetada para anular qualquer vibração estrutural.",
-    "contentParagraphs": [
-      "O Port Hercule não perdoa o excesso superficial. Quando a silhueta de 74 metros do Amels Nome cortou a entrada da marina monegasca, a gravidade física da arquitetura naval holandesa se fez sentir imediatamente. Não há ornamentos fúteis no perfil desenhado por Tim Heywood. A água cede espaço a um casco de aço estrutural de deslocamento severo, projetado com tolerância de mícrons para rasgar a massa oceânica sem perturbações desnecessárias no arrasto dinâmico.",
-      "A bordo, a telemetria inercial dita o ritmo da engenharia de propulsão. Equipado com dois motores Caterpillar diesel emparelhados a um sistema sofisticado de redução de ruído passivo, o navio converte megawatts de energia em cruzeiro contínuo de 15 nós. A canalização dos gases de exaustão, forjada em ligas de Inconel 625 nas áreas de alta temperatura mecânica, isola a embarcação do ambiente marinho. A dinâmica do fluxo de Venturi aplicada à refrigeração da praça de máquinas garante uma eficiência térmica incomparável durante longas travessias transatlânticas.",
-      "O controle inercial e a estabilização ativa não são meras conveniências; são exigências de segurança marítima soberana. Barbatanas estabilizadoras de acionamento eletro-hidráulico atuam em frações de segundo, combatendo o jogo de rolamento sob forças de torque severas e força G lateral em mares agitados. O monocoque naval, com superestrutura esculpida em alumínio marítimo de alta liga, abaixa o centro de gravidade do projeto. Isso otimiza o efeito solo marinho e a sustentação pontual da quilha contra a arrebentação marinha.",
-      "Com 1.790 toneladas de arqueação bruta, o Amels Nome reafirma a supremacia dos estaleiros Damen Yachting frente às modas efémeras da navegação de recreio. Esta embarcação ignora sistemas de automação frágeis e prioriza a robustez de arquiteturas redundantes operadas por uma ponte de comando analógico-digital de padrão militar. O superiate permanece como um testemunho físico de que a verdadeira navegação offshore não busca aclamação vulgar, mas sim a conquista matemática dos oceanos."
-    ],
-    "content_paragraphs": [
-      "O Port Hercule não perdoa o excesso superficial. Quando a silhueta de 74 metros do Amels Nome cortou a entrada da marina monegasca, a gravidade física da arquitetura naval holandesa se fez sentir imediatamente. Não há ornamentos fúteis no perfil desenhado por Tim Heywood. A água cede espaço a um casco de aço estrutural de deslocamento severo, projetado com tolerância de mícrons para rasgar a massa oceânica sem perturbações desnecessárias no arrasto dinâmico.",
-      "A bordo, a telemetria inercial dita o ritmo da engenharia de propulsão. Equipado com dois motores Caterpillar diesel emparelhados a um sistema sofisticado de redução de ruído passivo, o navio converte megawatts de energia em cruzeiro contínuo de 15 nós. A canalização dos gases de exaustão, forjada em ligas de Inconel 625 nas áreas de alta temperatura mecânica, isola a embarcação do ambiente marinho. A dinâmica do fluxo de Venturi aplicada à refrigeração da praça de máquinas garante uma eficiência térmica incomparável durante longas travessias transatlânticas.",
-      "O controle inercial e a estabilização ativa não são meras conveniências; são exigências de segurança marítima soberana. Barbatanas estabilizadoras de acionamento eletro-hidráulico atuam em frações de segundo, combatendo o jogo de rolamento sob forças de torque severas e força G lateral em mares agitados. O monocoque naval, com superestrutura esculpida em alumínio marítimo de alta liga, abaixa o centro de gravidade do projeto. Isso otimiza o efeito solo marinho e a sustentação pontual da quilha contra a arrebentação marinha.",
-      "Com 1.790 toneladas de arqueação bruta, o Amels Nome reafirma a supremacia dos estaleiros Damen Yachting frente às modas efémeras da navegação de recreio. Esta embarcação ignora sistemas de automação frágeis e prioriza a robustez de arquiteturas redundantes operadas por uma ponte de comando analógico-digital de padrão militar. O superiate permanece como um testemunho físico de que a verdadeira navegação offshore não busca aclamação vulgar, mas sim a conquista matemática dos oceanos."
-    ],
-    "specs": {
-      "comprimento_total": "74,00 metros (242 pés)",
-      "estaleiro_origem": "Amels / Damen Yachting (Vlissingen, Holanda)",
-      "deslocamento_bruto": "1.790 Toneladas de Arqueação (GT)",
-      "design_exterior": "Tim Heywood Design",
-      "propulsao_telemetria": "Dois motores Caterpillar diesel com exaustão em Inconel 625",
-      "velocidade_cruzeiro": "15,0 nós (autonomia transatlântica)"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 87,
-    "ranking_score": 87,
-    "engineSource": "gemini:gemini-3.5-flash",
-    "publishedAt": "2026-11-03T17:12:27.425Z",
-    "published_at": "2026-11-03T17:12:27.425Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1DdVJ0YU1EU2hjbm13aEVvM0tIRDlfQlY0a0NVWTZ6ZXZIc3VKMDFRQUx6bG5oUGtoT04zUDhsSWZUN1M2akJLLUNkV24tTTNyZThlaWo2eHdyYTNpUkxuYklQTWJMN2wxV29GcTJMZlpuYVgxYmo4cw?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1DdVJ0YU1EU2hjbm13aEVvM0tIRDlfQlY0a0NVWTZ6ZXZIc3VKMDFRQUx6bG5oUGtoT04zUDhsSWZUN1M2akJLLUNkV24tTTNyZThlaWo2eHdyYTNpUkxuYklQTWJMN2wxV29GcTJMZlpuYVgxYmo4cw?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "DESTINOS",
+    "title": "Superiate Lürssen de 200 Milhões de Dó...",
+    "image": "https://images.unsplash.com/photo-1783344422200-a5493824bcb9?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "superiate-lurssen-de-200-milhoes-de-dolares-o-leviata-com-piscina-de-fundo-de-vidro-que-ancorou-na-costa-iberica-7128"
+  },
+  {
+    "id": "film-2",
     "category": "ARQUITETURA",
     "title": "Gigantes Sob Encomenda: Os 6 Superiate...",
     "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
@@ -1435,7 +1442,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "gigantes-sob-encomenda-os-6-superiates-de-120-metros-em-construcao-que-mobilizam-18-bilhao-de-euros-em-silencio-mineral-7855"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "DESTINOS",
     "title": "The Italian Sea Group: O Resgate de 22...",
     "image": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?auto=format&fit=max&q=80&w=1400",
@@ -1443,7 +1450,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "the-italian-sea-group-o-resgate-de-220-milhoes-de-euros-que-consolida-a-soberania-dos-superiates-na-toscana-6143"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Ferrari 250 GTO: 18 000 000 USD e Chas...",
     "image": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=max&q=80&w=1400",
@@ -1451,7 +1458,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-250-gto-18-000-000-usd-e-chassi-de-forjamento-de-titanio-em-las-vegas-6794"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "ARQUITETURA",
     "title": "Christie's Abu Dhabi: US$ 8,94 Milhões...",
     "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=85&w=1800",
@@ -1459,20 +1466,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "christies-abu-dhabi-us-894-milhoes-em-obras-raras-e-a-nova-soberania-patrimonial-do-oriente-medio-0301"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "ARQUITETURA",
     "title": "Superiates: O Retorno Silencioso à Náu...",
     "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800",
     "tag": "CURADORIA RADAR",
     "slug": "superiates-o-retorno-silencioso-a-nautica-analogica-de-casco-de-aco-e-controle-mecanico-direto-3002"
-  },
-  {
-    "id": "film-6",
-    "category": "DESTINOS",
-    "title": "Gabe Newell: A Fortuna de 5 Bilhões de...",
-    "image": "https://images.unsplash.com/photo-1781872324499-e51350ed640e?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "gabe-newell-a-fortuna-de-5-bilhoes-de-dolares-ancorada-em-120-metros-de-aco-naval-e-inovacao-digital-5675"
   }
 ];
 
