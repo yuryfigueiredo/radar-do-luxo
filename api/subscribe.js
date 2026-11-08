@@ -13,6 +13,8 @@
  * ==============================================================================
  */
 
+import { gravarCapturaGoogle } from '../server/googleSink.js';
+
 /**
  * Dispara e-mail informativo para o fundador avisando sobre nova inscrição
  */
@@ -195,7 +197,22 @@ export default async function handler(req, res) {
       }
     }
 
-    // 2. Disparo de E-mail de Notificação para Yury (Fundador)
+    // 2. Planilha do Google: hoje é o registro que o fundador realmente consegue
+    //    abrir. O Supabase acima continua tentado, mas sem credenciais ele é no-op.
+    const google = await gravarCapturaGoogle({
+      tipo: 'newsletter',
+      email: cleanedEmail,
+      origem: 'site_production_api',
+      protocolo: protocol
+    });
+
+    if (google.ok) {
+      console.log(`✓ [GOOGLE] Assinante na planilha "${google.aba}" (linha ${google.totalLinhas}): ${cleanedEmail}`);
+    } else {
+      console.warn(`⚠️ [GOOGLE] Assinante NÃO registrado na planilha: ${google.erro}`);
+    }
+
+    // 3. Disparo de E-mail de Notificação para Yury (Fundador)
     const notificationResult = await notifyAdminAboutNewSubscriber({
       subscriberEmail: cleanedEmail,
       protocol,
@@ -207,7 +224,10 @@ export default async function handler(req, res) {
       success: true,
       email: cleanedEmail,
       savedToCloud: savedToSupabase,
+      savedToGoogle: google.ok,
+      googleLinha: google.totalLinhas ?? null,
       notifiedAdmin: notificationResult.sent,
+      googleError: google.ok ? null : google.erro,
       protocol,
       message: 'Sua credencial exclusiva foi homologada. Você receberá o próximo drop de quinta-feira.'
     });

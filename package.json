@@ -12,7 +12,8 @@
     "publish:now": "node scripts/autonomousCrawler.js",
     "scout": "node scripts/curateHotFeeds.js",
     "curate": "node scripts/curateHotFeeds.js",
-    "populate": "node scripts/populateEditorialBatch.js"
+    "populate": "node scripts/populateEditorialBatch.js",
+    "verificar:capturas": "node scripts/verificarCapturas.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.118.0",

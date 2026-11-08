@@ -941,11 +941,9 @@ export async function fetchNewsletterSubscribers() {
 
   try {
     const saved = localStorage.getItem(LOCAL_STORAGE_SUBSCRIBERS_KEY);
-    return saved ? JSON.parse(saved) : [
-      { id: 'sub-1', email: 'collector@geneve-watches.ch', created_at: '2026-10-24T18:20:00Z', status: 'active' },
-      { id: 'sub-2', email: 'investments@zurich-private.com', created_at: '2026-10-24T19:45:00Z', status: 'active' },
-      { id: 'sub-3', email: 'maranello.client@scuderia.it', created_at: '2026-10-24T20:10:00Z', status: 'active' }
-    ];
+    // Sem lista inventada: esta função devolvia três e-mails de fachada quando o
+    // navegador estava limpo, e o painel contava isso como audiência real.
+    return saved ? JSON.parse(saved) : [];
   } catch (e) {
     return [];
   }
@@ -973,6 +971,26 @@ export async function submitConciergeInquiry(inquiry) {
     message: message || null,
     status: 'pending'
   };
+
+  // 1. Serverless: é o único caminho que grava o lead num lugar que o fundador
+  //    consegue abrir. localStorage e Supabase ficam como contingência abaixo.
+  try {
+    const apiRes = await fetch('/api/concierge', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    if (apiRes.ok) {
+      const data = await apiRes.json();
+      if (data.success) {
+        const registrado = { ...payload, id: `inq-${Date.now()}`, created_at: new Date().toISOString() };
+        espelharNoNavegador(registrado);
+        return { success: true, inquiry: registrado, savedToGoogle: Boolean(data.savedToGoogle) };
+      }
+    }
+  } catch (apiErr) {
+    // Segue para o Supabase e depois para o espelho local.
+  }
 
   if (isSupabaseConfigured && supabase) {
     try {
@@ -1005,6 +1023,17 @@ export async function submitConciergeInquiry(inquiry) {
   }
 }
 
+function espelharNoNavegador(registrado) {
+  try {
+    const saved = localStorage.getItem(LOCAL_STORAGE_CONCIERGE_KEY);
+    const inquiries = saved ? JSON.parse(saved) : [];
+    inquiries.unshift(registrado);
+    localStorage.setItem(LOCAL_STORAGE_CONCIERGE_KEY, JSON.stringify(inquiries));
+  } catch (e) {
+    // Espelho é conveniência de painel, não o registro.
+  }
+}
+
 export async function fetchConciergeInquiries() {
   if (isSupabaseConfigured && supabase) {
     try {
@@ -1021,19 +1050,7 @@ export async function fetchConciergeInquiries() {
 
   try {
     const saved = localStorage.getItem(LOCAL_STORAGE_CONCIERGE_KEY);
-    return saved ? JSON.parse(saved) : [
-      {
-        id: 'inq-1',
-        name: 'Roberto Mendonça de Sá',
-        phone: '+55 11 98877-6655',
-        email: 'roberto.sa@invest-hold.com.br',
-        article_title: 'Ferrari F80: O Hipercarro Híbrido de 1.200 cv',
-        article_slug: 'ferrari-f80-hipercarro-hibrido-maranello',
-        message: 'Gostaria de verificar a disponibilidade de alocação de cota de importação independente via Suíça.',
-        status: 'pending',
-        created_at: '2026-10-24T20:30:00Z'
-      }
-    ];
+    return saved ? JSON.parse(saved) : [];
   } catch (e) {
     return [];
   }
