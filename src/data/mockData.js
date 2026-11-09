@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-ferrari-12cilindri-o-v12-aspirad-5217",
+    "slug": "ferrari-12cilindri-o-v12-aspirado-de-9500-rpm-e-pintura-two-tone-flagrado-no-asfalto-de-monaco-4549",
+    "title": "Ferrari 12Cilindri: O V12 Aspirado de 9.500 RPM e Pintura Two-Tone Flagrado no Asfalto de Mônaco",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "09 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "A soberania mecânica de um motor atmosférico diante do mar mediterrâneo. Tolerâncias de mícrons e escape em Inconel transformam o Principado em palco de telemetria pura.",
+    "contentParagraphs": [
+      "O asfalto de Mônaco exige silêncio. A Ferrari 12Cilindri responde com um estampido metálico que desafia a calmaria do principado, cortando o ar úmido com a precisão de um bisturi cirúrgico. A pintura em configuração two-tone não é apenas um capricho estético de ateliê; é uma declaração geométrica que alonga o capô monumental esculpido para abrigar a herança mecânica mais pura de Maranello.",
+      "Sob o capô dianteiro-central, o bloco de doze cilindros em V aspira ar com uma voracidade implacável. Sem turbos, sem filtros artificiais de ruído. Apenas o ciclo Otto atingindo o limiar mecânico de 9.500 RPM, gerando uma força G lateral capaz de testar a resistência cervical do piloto mais experiente. Cada pistão forçado e cada biela em titânio operam dentro de tolerâncias de mícrons, garantindo que a energia térmica seja convertida imediatamente em propulsão bruta sobre o monocoque.",
+      "Enquanto a indústria automotiva contemporânea se rende à esterilidade das telas táteis e motores híbridos descartáveis, esta berlinetta aposta na incorruptibilidade da velha guarda. O fluxo de Venturi esculpido sob o assoalho atrai o veículo contra o solo com carga aerodinâmica implacável, mantendo a estabilidade dinâmica nas curvas de alta velocidade da curva Grand Hotel sem depender de eletrônica invasiva.",
+      "O veredito de Maranello é claro e definitivo. A Ferrari 12Cilindri flagrada nas ruas sinuosas do mediterrâneo representa o último bastião da combustão aspirada de alta cilindrada antes da iminente extinção regulatória, consolidando-se instantaneamente como um ativo intocável em qualquer portafólio de colecionador exigente."
+    ],
+    "content_paragraphs": [
+      "O asfalto de Mônaco exige silêncio. A Ferrari 12Cilindri responde com um estampido metálico que desafia a calmaria do principado, cortando o ar úmido com a precisão de um bisturi cirúrgico. A pintura em configuração two-tone não é apenas um capricho estético de ateliê; é uma declaração geométrica que alonga o capô monumental esculpido para abrigar a herança mecânica mais pura de Maranello.",
+      "Sob o capô dianteiro-central, o bloco de doze cilindros em V aspira ar com uma voracidade implacável. Sem turbos, sem filtros artificiais de ruído. Apenas o ciclo Otto atingindo o limiar mecânico de 9.500 RPM, gerando uma força G lateral capaz de testar a resistência cervical do piloto mais experiente. Cada pistão forçado e cada biela em titânio operam dentro de tolerâncias de mícrons, garantindo que a energia térmica seja convertida imediatamente em propulsão bruta sobre o monocoque.",
+      "Enquanto a indústria automotiva contemporânea se rende à esterilidade das telas táteis e motores híbridos descartáveis, esta berlinetta aposta na incorruptibilidade da velha guarda. O fluxo de Venturi esculpido sob o assoalho atrai o veículo contra o solo com carga aerodinâmica implacável, mantendo a estabilidade dinâmica nas curvas de alta velocidade da curva Grand Hotel sem depender de eletrônica invasiva.",
+      "O veredito de Maranello é claro e definitivo. A Ferrari 12Cilindri flagrada nas ruas sinuosas do mediterrâneo representa o último bastião da combustão aspirada de alta cilindrada antes da iminente extinção regulatória, consolidando-se instantaneamente como um ativo intocável em qualquer portafólio de colecionador exigente."
+    ],
+    "specs": {
+      "motorizacao": "V12 aspirado de 6.5 litros",
+      "potencia_maxima": "830 cv a 9.250 RPM",
+      "transmissao": "Dupla embreagem de 8 marchas",
+      "aerodinamica": "Efeito solo ativo com dutos Venturi",
+      "material_escape": "Inconel 625 de alta resistência térmica"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 92,
+    "ranking_score": 92,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-09T15:12:25.216Z",
+    "published_at": "2026-11-09T15:12:25.216Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSjRIU0ZsOFQzSmwzc3FlOU5Kb1VrVnpHMkVpa185QlF4cFFoLTBuVzFEZGVSTGgycENFdE50aUpSWHEyYm9hUTFUcXVvSGZ4aGJhd011ZXdGa3FXZmJGS295TGotNk5ONUNrNXo3bmVFZFNuZ3djZEJBX2FISlUxVHRSTnpMRmRYVC1kRUgwWXBwMFFtb25GNGthT3lhZFNRT1gzWEpDZ1lKcXM?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSjRIU0ZsOFQzSmwzc3FlOU5Kb1VrVnpHMkVpa185QlF4cFFoLTBuVzFEZGVSTGgycENFdE50aUpSWHEyYm9hUTFUcXVvSGZ4aGJhd011ZXdGa3FXZmJGS295TGotNk5ONUNrNXo3bmVFZFNuZ3djZEJBX2FISlUxVHRSTnpMRmRYVC1kRUgwWXBwMFFtb25GNGthT3lhZFNRT1gzWEpDZ1lKcXM?oc=5"
+  },
+  {
     "id": "art-hermes-birkin-o-prototipo-origin-1148",
     "slug": "hermes-birkin-o-prototipo-original-de-jane-birkin-que-vai-a-leilao-com-marcas-de-uso-e-essencia-de-paris-1139",
     "title": "Hermès Birkin: O Protótipo Original de Jane Birkin que Vai a Leilão com Marcas de Uso e Essência de Paris",
@@ -1365,58 +1417,6 @@ export const ARTICLES = [
     "published_at": "2026-11-04T15:10:46.804Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV0JRWks0c1JDN0lYX3QtT0luS2hJMHBoU05BM1hyOVBvOWRZSmRmWk9sUTNkY3V2dU1yWkM1WFJwdlREX0RfLWZkcGMyQW9TRGZ2UUN2OVNvRlZCMy11U2FZTjYzMm1BcHlUald2eFpoT1VfRDZEWEZ3NXJjLXRuY2pDc3JULUE?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV0JRWks0c1JDN0lYX3QtT0luS2hJMHBoU05BM1hyOVBvOWRZSmRmWk9sUTNkY3V2dU1yWkM1WFJwdlREX0RfLWZkcGMyQW9TRGZ2UUN2OVNvRlZCMy11U2FZTjYzMm1BcHlUald2eFpoT1VfRDZEWEZ3NXJjLXRuY2pDc3JULUE?oc=5"
-  },
-  {
-    "id": "art-christies-abu-dhabi-us-894-milho-0402",
-    "slug": "christies-abu-dhabi-us-894-milhoes-em-obras-raras-e-a-nova-soberania-patrimonial-do-oriente-medio-0301",
-    "title": "Christie's Abu Dhabi: US$ 8,94 Milhões em Obras Raras e a Nova Soberania Patrimonial do Oriente Médio",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "04 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=85&w=1800",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "O leilão inaugural de alta arte da Christie’s em Abu Dhabi consolida o emirado como o novo refúgio de liquidez e custódia fiduciária para ativos museológicos de colecionadores dinásticos.",
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Sob os domos de Abu Dhabi, a Christie’s inaugurou um capítulo histórico para o mercado primário de belas-artes na península arábica, totalizando US$ 8,94 milhões em marteladas precisas. Este montante não representa apenas transações comerciais sazonais. Traduz a migração metódica de capitais soberanos em direção a ativos tangíveis e perenes, distantes da volatilidade algorítmica dos mercados globais.",
-      "A curadoria cirúrgica reuniu peças de relevância museológica que exigem custódia fiduciária rigorosa e controle térmico absoluto. Colecionadores de family offices internacionais disputaram lotes com a serenidade característica de quem compreende a imunidade temporal da arte. Enquanto capitais especulativos buscam retornos imediatos, o colecionador soberano adquire séculos de história condensada em tela, pigmento mineral e assinatura validada por décadas de proveniência incontestável.",
-      "A infraestrutura cultural de Abu Dhabi, ancorada por instituições de arquitetura monumental e travertino, redefine o eixo gravitacional da alta cultura global. Os Emirados Árabes Unidos deixam de ser meros polos de trânsito comercial para assumirem o papel de guardiões definitivos do patrimônio visual da humanidade. Trata-se de governança dinástica aplicada à salvaguarda de ativos culturais, onde cada aquisição funciona como um testamento de longevidade e poder silencioso.",
-      "O resultado de US$ 8,94 milhões na noite de estreia estabelece um parâmetro incontestável para futuros leilões na região. No tabuleiro global da conservação de riqueza, a geografia da alta-roda financeira mudou permanentemente de endereço. O verdadeiro luxo não reside na ostentação efêmera, mas na posse intransigível de obras mestras abrigadas em cofres fortificados à prova do tempo e da obsolescência."
-    ],
-    "content_paragraphs": [
-      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Sob os domos de Abu Dhabi, a Christie’s inaugurou um capítulo histórico para o mercado primário de belas-artes na península arábica, totalizando US$ 8,94 milhões em marteladas precisas. Este montante não representa apenas transações comerciais sazonais. Traduz a migração metódica de capitais soberanos em direção a ativos tangíveis e perenes, distantes da volatilidade algorítmica dos mercados globais.",
-      "A curadoria cirúrgica reuniu peças de relevância museológica que exigem custódia fiduciária rigorosa e controle térmico absoluto. Colecionadores de family offices internacionais disputaram lotes com a serenidade característica de quem compreende a imunidade temporal da arte. Enquanto capitais especulativos buscam retornos imediatos, o colecionador soberano adquire séculos de história condensada em tela, pigmento mineral e assinatura validada por décadas de proveniência incontestável.",
-      "A infraestrutura cultural de Abu Dhabi, ancorada por instituições de arquitetura monumental e travertino, redefine o eixo gravitacional da alta cultura global. Os Emirados Árabes Unidos deixam de ser meros polos de trânsito comercial para assumirem o papel de guardiões definitivos do patrimônio visual da humanidade. Trata-se de governança dinástica aplicada à salvaguarda de ativos culturais, onde cada aquisição funciona como um testamento de longevidade e poder silencioso.",
-      "O resultado de US$ 8,94 milhões na noite de estreia estabelece um parâmetro incontestável para futuros leilões na região. No tabuleiro global da conservação de riqueza, a geografia da alta-roda financeira mudou permanentemente de endereço. O verdadeiro luxo não reside na ostentação efêmera, mas na posse intransigível de obras mestras abrigadas em cofres fortificados à prova do tempo e da obsolescência."
-    ],
-    "specs": {
-      "Casa de Leilões": "Christie's",
-      "Faturamento Total": "US$ 8,94 Milhões",
-      "Praça": "Abu Dhabi, Emirados Árabes Unidos",
-      "Categoria": "Belas-Artes e Ativos Museológicos",
-      "Custódia": "Governança Dinástica e Family Offices"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-04T03:09:00.401Z",
-    "published_at": "2026-11-04T03:09:00.401Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdHJZV2ZTMlJEc21tTEJJQXF1T1R2UGdabG5wQWE0eGo1ZkpfT0s2QXpWNDJPRkM1elVSMGJKRTNBYlpTZDZMUnZmQWUzeTl4bEFIejhvbnJvVkcxa0dfRV9EaTB3Z2phTTBkVnZId3VhNVZFbFVXOVhHMTZhYVhnOE8xNy1QTFhzRG1objYxVWl1b0phRVhkMmZWeUw?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdHJZV2ZTMlJEc21tTEJJQXF1T1R2UGdabG5wQWE0eGo1ZkpfT0s2QXpWNDJPRkM1elVSMGJKRTNBYlpTZDZMUnZmQWUzeTl4bEFIejhvbnJvVkcxa0dfRV9EaTB3Z2phTTBkVnZId3VhNVZFbFVXOVhHMTZhYVhnOE8xNy1QTFhzRG1objYxVWl1b0phRVhkMmZWeUw?oc=5"
   }
 ];
 
@@ -1424,13 +1424,21 @@ export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
     "category": "SUPERCARROS",
+    "title": "Ferrari Mondial Pace Car: O Investimen...",
+    "image": "https://images.unsplash.com/photo-1766353134008-bb3b8b99ddd2?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "ferrari-mondial-pace-car-o-investimento-de-1-milhao-de-dolares-que-desafiou-a-depreciacao-com-engenharia-de-pista-9371"
+  },
+  {
+    "id": "film-2",
+    "category": "SUPERCARROS",
     "title": "Ferrari: €431 Milhões em Lucro Trimest...",
     "image": "https://images.unsplash.com/photo-1650444684180-3f72abb15263?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "ferrari-431-milhoes-em-lucro-trimestral-que-valida-a-engenharia-de-precisao-sobre-a-producao-de-massa-3200"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Ferrari F50: O Recorde de US$ 18,7 Mil...",
     "image": "https://images.unsplash.com/photo-1635488591151-c7a12939669b?auto=format&fit=max&q=80&w=1400",
@@ -1438,7 +1446,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-f50-o-recorde-de-us-187-milhoes-para-o-ultimo-v12-analogico-com-chassi-de-formula-1-7232"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Bugatti Type 57SC Atlantic: Os R$ 68 M...",
     "image": "https://images.unsplash.com/photo-1661311928884-7e36f478109f?auto=format&fit=max&q=80&w=1400",
@@ -1446,7 +1454,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "bugatti-type-57sc-atlantic-os-r-68-milhoes-em-aluminio-rebitado-que-definiram-a-aerodinamica-de-pre-guerra-1407"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "DESTINOS",
     "title": "Superiate Lürssen de 200 Milhões de Dó...",
     "image": "https://images.unsplash.com/photo-1783344422200-a5493824bcb9?auto=format&fit=max&q=80&w=1400",
@@ -1454,20 +1462,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "superiate-lurssen-de-200-milhoes-de-dolares-o-leviata-com-piscina-de-fundo-de-vidro-que-ancorou-na-costa-iberica-7128"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "ARQUITETURA",
     "title": "Gigantes Sob Encomenda: Os 6 Superiate...",
     "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "gigantes-sob-encomenda-os-6-superiates-de-120-metros-em-construcao-que-mobilizam-18-bilhao-de-euros-em-silencio-mineral-7855"
-  },
-  {
-    "id": "film-6",
-    "category": "DESTINOS",
-    "title": "The Italian Sea Group: O Resgate de 22...",
-    "image": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "the-italian-sea-group-o-resgate-de-220-milhoes-de-euros-que-consolida-a-soberania-dos-superiates-na-toscana-6143"
   }
 ];
 

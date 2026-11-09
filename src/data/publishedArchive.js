@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-ferrari-12cilindri-o-v12-aspirad-5217",
+    "slug": "ferrari-12cilindri-o-v12-aspirado-de-9500-rpm-e-pintura-two-tone-flagrado-no-asfalto-de-monaco-4549",
+    "title": "Ferrari 12Cilindri: O V12 Aspirado de 9.500 RPM e Pintura Two-Tone Flagrado no Asfalto de Mônaco",
+    "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSjRIU0ZsOFQzSmwzc3FlOU5Kb1VrVnpHMkVpa185QlF4cFFoLTBuVzFEZGVSTGgycENFdE50aUpSWHEyYm9hUTFUcXVvSGZ4aGJhd011ZXdGa3FXZmJGS295TGotNk5ONUNrNXo3bmVFZFNuZ3djZEJBX2FISlUxVHRSTnpMRmRYVC1kRUgwWXBwMFFtb25GNGthT3lhZFNRT1gzWEpDZ1lKcXM?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-09T15:12:25.216Z"
+  },
+  {
     "id": "art-hermes-birkin-o-prototipo-origin-1148",
     "slug": "hermes-birkin-o-prototipo-original-de-jane-birkin-que-vai-a-leilao-com-marcas-de-uso-e-essencia-de-paris-1139",
     "title": "Hermès Birkin: O Protótipo Original de Jane Birkin que Vai a Leilão com Marcas de Uso e Essência de Paris",
