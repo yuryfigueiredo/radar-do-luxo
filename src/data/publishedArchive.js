@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-aston-martin-o-equilibrio-financ-5932",
+    "slug": "aston-martin-o-equilibrio-financeiro-precario-e-a-ilusao-de-rivalizar-com-a-hegemonia-de-maranello-5922",
+    "title": "Aston Martin: O Equilíbrio Financeiro Precário e a Ilusão de Rivalizar com a Hegemonia de Maranello",
+    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRFJhdzdoN3lpejFBX0VSZU9JSUk1ajY4d1BRVlgwNFBvU0ZLRUoxT1NlQ1hhZHRHTVluZG5Hd20wcUtyV3g5RmRkZDJINE03OFV2NU0wSElDUEZ3Y1lKWTRUZ3RJLU5sNURuWU5YeUJLWWpyRDl2SGJmZDh4LUVxX2EyWU1Ca1BrSGM0cmh1eUZOdWdPU3VEWDA0VkZpX3VURDNqdk1qdnFydXR5cjVjVFR3?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-09T01:28:55.932Z"
+  },
+  {
     "id": "art-bugatti-chiron-a-perseguicao-tra-6804",
     "slug": "bugatti-chiron-a-perseguicao-transfronteirica-de-1500-cavalos-onde-o-ceo-trocou-o-w16-por-um-porsche-911-6302",
     "title": "Bugatti Chiron: A Perseguição Transfronteiriça de 1.500 Cavalos onde o CEO Trocou o W16 por um Porsche 911",

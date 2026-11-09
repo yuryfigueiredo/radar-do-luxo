@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-aston-martin-o-equilibrio-financ-5932",
+    "slug": "aston-martin-o-equilibrio-financeiro-precario-e-a-ilusao-de-rivalizar-com-a-hegemonia-de-maranello-5922",
+    "title": "Aston Martin: O Equilíbrio Financeiro Precário e a Ilusão de Rivalizar com a Hegemonia de Maranello",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "09 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "A engenharia britânica estanca o sangramento de caixa, mas a tentativa de igualar a margem cirúrgica e a mística implacável da Ferrari expõe limites estruturais inegociables.",
+    "contentParagraphs": [
+      "Os balanços financeiros recentes da Aston Martin revelam um alívio temporário nas margens, mas o mercado ignora o abismo intransponível que separa Gaydon de Maranello. O dinheiro fresco injetado por fundos soberanos e aliados industriais apenas adia a urgência de uma reestruturação profunda. Enquanto a Ferrari opera como um relógio suíço de alta precisão patrimonial, transformando escassez em lucro líquido recorde, a marca britânica ainda patina na volatilidade de seus volumes de produção.",
+      "A ambição de desafiar o Cavalo Rampante no segmento de hipercarros exige tolerâncias de mícrons que vão muito além de belas linhas de carroceria esculpidas em túneis de vento. O desenvolvimento de um monocoque em carbo-titânio curado em autoclave a 6 bar demanda investimentos colossais em P&D que a engenharia britânica, historicamente dependente de fornecedores externos para blocos de motor e eletrônica de bordo, custa a absorver sem comprometer o fluxo de caixa operacional.",
+      "A força G lateral gerada por uma máquina de mais de mil cavalos exige mais do que um emblema alado no capô; exige a soberania de uma linhagem mecânica ininterrupta. Maranello controla cada átomo de sua cadeia de suprimentos e sua produção é ditada por uma rigorosa contenção matemática. Gaydon, por sua vez, tenta compensar a falta dessa imunidade temporal com promessas de eletrificação e séries limitadas que raramente atingem a pureza cinética esperada pelos colecionadores mais exigentes do planeta.",
+      "O veredito do asfalto é implacável com os otimistas de planilha. Estancar perdas operacionais é um feito contábil louvável para os acionistas, mas não compra a alma mecânica que sustenta o valor de revenda de um verdadeiro hipercarro. Até que a Aston Martin compreenda que o prestígio industrial não se fabrica com atalhos financeiros, a tentativa de destronar a Ferrari continuará sendo um exercício de ilusão corporativa."
+    ],
+    "content_paragraphs": [
+      "Os balanços financeiros recentes da Aston Martin revelam um alívio temporário nas margens, mas o mercado ignora o abismo intransponível que separa Gaydon de Maranello. O dinheiro fresco injetado por fundos soberanos e aliados industriais apenas adia a urgência de uma reestruturação profunda. Enquanto a Ferrari opera como um relógio suíço de alta precisão patrimonial, transformando escassez em lucro líquido recorde, a marca britânica ainda patina na volatilidade de seus volumes de produção.",
+      "A ambição de desafiar o Cavalo Rampante no segmento de hipercarros exige tolerâncias de mícrons que vão muito além de belas linhas de carroceria esculpidas em túneis de vento. O desenvolvimento de um monocoque em carbo-titânio curado em autoclave a 6 bar demanda investimentos colossais em P&D que a engenharia britânica, historicamente dependente de fornecedores externos para blocos de motor e eletrônica de bordo, custa a absorver sem comprometer o fluxo de caixa operacional.",
+      "A força G lateral gerada por uma máquina de mais de mil cavalos exige mais do que um emblema alado no capô; exige a soberania de uma linhagem mecânica ininterrupta. Maranello controla cada átomo de sua cadeia de suprimentos e sua produção é ditada por uma rigorosa contenção matemática. Gaydon, por sua vez, tenta compensar a falta dessa imunidade temporal com promessas de eletrificação e séries limitadas que raramente atingem a pureza cinética esperada pelos colecionadores mais exigentes do planeta.",
+      "O veredito do asfalto é implacável com os otimistas de planilha. Estancar perdas operacionais é um feito contábil louvável para os acionistas, mas não compra a alma mecânica que sustenta o valor de revenda de um verdadeiro hipercarro. Até que a Aston Martin compreenda que o prestígio industrial não se fabrica com atalhos financeiros, a tentativa de destronar a Ferrari continuará sendo um exercício de ilusão corporativa."
+    ],
+    "specs": {
+      "Arquitetura Base": "Monocoque em carbo-titânio de alta rigidez torcional",
+      "Gestão Financeira": "Contenção de perdas operacionais com aporte soberano",
+      "Fornecimento Estratégico": "Dependência mista de blocos V8 e eletrônica modular",
+      "Controle de Produção": "Séries limitadas sob demanda de custódia fiduciária"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 87,
+    "ranking_score": 87,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-09T01:28:55.932Z",
+    "published_at": "2026-11-09T01:28:55.932Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRFJhdzdoN3lpejFBX0VSZU9JSUk1ajY4d1BRVlgwNFBvU0ZLRUoxT1NlQ1hhZHRHTVluZG5Hd20wcUtyV3g5RmRkZDJINE03OFV2NU0wSElDUEZ3Y1lKWTRUZ3RJLU5sNURuWU5YeUJLWWpyRDl2SGJmZDh4LUVxX2EyWU1Ca1BrSGM0cmh1eUZOdWdPU3VEWDA0VkZpX3VURDNqdk1qdnFydXR5cjVjVFR3?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRFJhdzdoN3lpejFBX0VSZU9JSUk1ajY4d1BRVlgwNFBvU0ZLRUoxT1NlQ1hhZHRHTVluZG5Hd20wcUtyV3g5RmRkZDJINE03OFV2NU0wSElDUEZ3Y1lKWTRUZ3RJLU5sNURuWU5YeUJLWWpyRDl2SGJmZDh4LUVxX2EyWU1Ca1BrSGM0cmh1eUZOdWdPU3VEWDA0VkZpX3VURDNqdk1qdnFydXR5cjVjVFR3?oc=5"
+  },
+  {
     "id": "art-bugatti-chiron-a-perseguicao-tra-6804",
     "slug": "bugatti-chiron-a-perseguicao-transfronteirica-de-1500-cavalos-onde-o-ceo-trocou-o-w16-por-um-porsche-911-6302",
     "title": "Bugatti Chiron: A Perseguição Transfronteiriça de 1.500 Cavalos onde o CEO Trocou o W16 por um Porsche 911",
@@ -1366,58 +1417,6 @@ export const ARTICLES = [
     "published_at": "2026-11-03T22:13:55.818Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVS1tSTVtYVVRbVNmaklHRmd5QW1JWjJOa3ZWNDNGLUp0UlBfUmNIb0RLWWxGZVdzUmdwb2w3SDNqQUh2bExXWVFJQ1RkYmpZVVMzaGcxYnRaWVg4R1V5RmN4SlB3NkJfQmktNlpzMjIybWVtclZrNjAxLTJSenFQMzR0cE1BV2hYc1kwdkFVcjZnR3JmYjNKRVNmbTRhZVliV1ZKU3VYbVZwZFlsU1RBdm8wZjZKT3daZzd4TQ?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVS1tSTVtYVVRbVNmaklHRmd5QW1JWjJOa3ZWNDNGLUp0UlBfUmNIb0RLWWxGZVdzUmdwb2w3SDNqQUh2bExXWVFJQ1RkYmpZVVMzaGcxYnRaWVg4R1V5RmN4SlB3NkJfQmktNlpzMjIybWVtclZrNjAxLTJSenFQMzR0cE1BV2hYc1kwdkFVcjZnR3JmYjNKRVNmbTRhZVliV1ZKU3VYbVZwZFlsU1RBdm8wZjZKT3daZzd4TQ?oc=5"
-  },
-  {
-    "id": "art-ferrari-testarossa-spider-monoda-8302",
-    "slug": "ferrari-testarossa-spider-monodado-o-unico-pace-car-oficial-de-maranello-dos-anos-80-com-chassi-tubular-reforcado-e-aluminio-batido-a-mao-que-retorna-das-sombras-8059",
-    "title": "Ferrari Testarossa Spider Monodado: O Único Pace Car Oficial de Maranello dos Anos 80 com Chassi Tubular Reforçado e Alumínio Batido à Mão que Retorna das Sombras",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "03 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1660326040484-fc0cb33d0b23?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "Desenterrado de um esquecimento de décadas, o exemplar exclusivo construído para liderar o pelotão de corrida revela a obsessão estrutural de Enzo Ferrari por rigidez torcional sem concessões digitais.",
-    "contentParagraphs": [
-      "A carroçaria cortada sem o teto rígido exigiu reforços profundos na seção inferior do chassi tubular para conter a torção mecânica em curvas de alta velocidade. Enzo Ferrari ordenou pessoalmente que a oficina de protótipos de Maranello abandonasse o conforto em favor da integridade estrutural pura.",
-      "O motor V12 de doze cilindros opostos a 180 graus ruge através de coletores em aço inox sem filtros acústicos restritivos. A força G lateral exercida nas curvas fechadas de pista desafia os limites do asfalto enquanto a telemetria inercial registra o comportamento milimétrico da suspensão dianteira.",
-      "Longe das telas táteis e dos assistentes eletrônicos de estabilidade que anestecem a pilotagem moderna, este exemplar único representa o ápice da engenharia mecânica analógica dos anos oitenta. Cada solda no chassi e cada painel de alumínio moldado à mão contam a história de uma época onde a velocidade era medida em RPMs viscerais.",
-      "A aparição pública deste monstro de Maranello em leilões restritos consolida seu status absoluto como ativo de colecionador intransigente. O chassi intocado e a mecânica restaurada com tolerâncias exatas de fábrica provam que a verdadeira soberania sobre rodas não aceita obsolescência programada."
-    ],
-    "content_paragraphs": [
-      "A carroçaria cortada sem o teto rígido exigiu reforços profundos na seção inferior do chassi tubular para conter a torção mecânica em curvas de alta velocidade. Enzo Ferrari ordenou pessoalmente que a oficina de protótipos de Maranello abandonasse o conforto em favor da integridade estrutural pura.",
-      "O motor V12 de doze cilindros opostos a 180 graus ruge através de coletores em aço inox sem filtros acústicos restritivos. A força G lateral exercida nas curvas fechadas de pista desafia os limites do asfalto enquanto a telemetria inercial registra o comportamento milimétrico da suspensão dianteira.",
-      "Longe das telas táteis e dos assistentes eletrônicos de estabilidade que anestecem a pilotagem moderna, este exemplar único representa o ápice da engenharia mecânica analógica dos anos oitenta. Cada solda no chassi e cada painel de alumínio moldado à mão contam a história de uma época onde a velocidade era medida em RPMs viscerais.",
-      "A aparição pública deste monstro de Maranello em leilões restritos consolida seu status absoluto como ativo de colecionador intransigente. O chassi intocado e a mecânica restaurada com tolerâncias exatas de fábrica provam que a verdadeira soberania sobre rodas não aceita obsolescência programada."
-    ],
-    "specs": {
-      "motor": "V12 plano 4.9L aspirado naturalmente",
-      "chassi": "Tubular em aço com reforços estruturais específicos",
-      "transmissão": "Manual dog-leg de 5 marchas com embreagem multidisco",
-      "construção": "Painéis em liga de alumínio batidos à mão em Maranello",
-      "avaliação": "Estimado em US$ 1.000.000 em transações privadas"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 95,
-    "ranking_score": 95,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-03T18:39:38.301Z",
-    "published_at": "2026-11-03T18:39:38.301Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMUdON0lXOGR1SlNPUzhiUlNSa3lJX0c2djBaQ0Zzc1VzWE5waEJSWVNKcDh4LTNIWWx1bFB1WGhsWlFuM3c0Z3d1MkVwSGlETVJkNkhzRGhfUkswSFlrcV9QcmNqdnlqeWc0cUhwdFR6M0U4Z2drT2s4SU5nbmdJRHd6MkxwcHIwWXZXSS13bWJpdjlEZVMzdHFEWXJZVG9kNnNRTGotWDk?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMUdON0lXOGR1SlNPUzhiUlNSa3lJX0c2djBaQ0Zzc1VzWE5waEJSWVNKcDh4LTNIWWx1bFB1WGhsWlFuM3c0Z3d1MkVwSGlETVJkNkhzRGhfUkswSFlrcV9QcmNqdnlqeWc0cUhwdFR6M0U4Z2drT2s4SU5nbmdJRHd6MkxwcHIwWXZXSS13bWJpdjlEZVMzdHFEWXJZVG9kNnNRTGotWDk?oc=5"
   }
 ];
 
@@ -1425,13 +1424,21 @@ export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
     "category": "SUPERCARROS",
+    "title": "Ferrari F50: O Recorde de US$ 18,7 Mil...",
+    "image": "https://images.unsplash.com/photo-1635488591151-c7a12939669b?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "ferrari-f50-o-recorde-de-us-187-milhoes-para-o-ultimo-v12-analogico-com-chassi-de-formula-1-7232"
+  },
+  {
+    "id": "film-2",
+    "category": "SUPERCARROS",
     "title": "Bugatti Type 57SC Atlantic: Os R$ 68 M...",
     "image": "https://images.unsplash.com/photo-1661311928884-7e36f478109f?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "bugatti-type-57sc-atlantic-os-r-68-milhoes-em-aluminio-rebitado-que-definiram-a-aerodinamica-de-pre-guerra-1407"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "DESTINOS",
     "title": "Superiate Lürssen de 200 Milhões de Dó...",
     "image": "https://images.unsplash.com/photo-1783344422200-a5493824bcb9?auto=format&fit=max&q=80&w=1400",
@@ -1439,7 +1446,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "superiate-lurssen-de-200-milhoes-de-dolares-o-leviata-com-piscina-de-fundo-de-vidro-que-ancorou-na-costa-iberica-7128"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "ARQUITETURA",
     "title": "Gigantes Sob Encomenda: Os 6 Superiate...",
     "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
@@ -1447,7 +1454,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "gigantes-sob-encomenda-os-6-superiates-de-120-metros-em-construcao-que-mobilizam-18-bilhao-de-euros-em-silencio-mineral-7855"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Ferrari 250 GTO: 18 000 000 USD e Chas...",
     "image": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=max&q=80&w=1400",
@@ -1455,20 +1462,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-250-gto-18-000-000-usd-e-chassi-de-forjamento-de-titanio-em-las-vegas-6794"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "ARQUITETURA",
     "title": "Christie's Abu Dhabi: US$ 8,94 Milhões...",
     "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=85&w=1800",
     "tag": "CURADORIA RADAR",
     "slug": "christies-abu-dhabi-us-894-milhoes-em-obras-raras-e-a-nova-soberania-patrimonial-do-oriente-medio-0301"
-  },
-  {
-    "id": "film-6",
-    "category": "ARQUITETURA",
-    "title": "Superiates: O Retorno Silencioso à Náu...",
-    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800",
-    "tag": "CURADORIA RADAR",
-    "slug": "superiates-o-retorno-silencioso-a-nautica-analogica-de-casco-de-aco-e-controle-mecanico-direto-3002"
   }
 ];
 
