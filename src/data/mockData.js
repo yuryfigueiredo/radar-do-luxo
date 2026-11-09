@@ -116,6 +116,59 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-ferrari-f355-de-jeremy-clarkson--5860",
+    "slug": "ferrari-f355-de-jeremy-clarkson-o-v8-aspirado-de-35-litros-e-cambio-manual-em-gated-shifter-retorna-ao-leilao-5851",
+    "title": "Ferrari F355 de Jeremy Clarkson: O V8 Aspirado de 3.5 Litros e Câmbio Manual em Gated Shifter Retorna ao Leilão",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "09 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "A relíquia de Maranello outrora pertencente ao polemista britânico busca um novo guardião após frustrar as expectativas de mercado, sustentando o canto de cisne dos motores atmosféricos de alta rotação.",
+    "contentParagraphs": [
+      "O silêncio do mercado não apaga a violência mecânica de um motor central-traseiro V8 de cinco válvulas por cilindro. A Ferrari F355 que pertenceu a Jeremy Clarkson retorna aos lances após falhar em encontrar comprador em 2025, expondo a frieza dos investidores diante da visceralidade pura de uma era analógica. Sob o capô traseiro, o bloco de alumínio pulsa com a precisão de tolerâncias em mícrons, projetado para girar a absurdos 8.500 RPM sem o auxílio de turbocompressores ou respiros eletrônicos.",
+      "A experiência de pilotagem deste exemplar reside inteiramente na interação tátil e auditiva com o seletor de marchas em grade metálica exposta. Cada engate da transmissão manual de seis velocidades ecoa como o fechamento de um cofre suíço, enquanto o fluxo de escape em Inconel expõe uma sinfonia metálica inalcançável pelos abafadores restritivos dos superesportivos contemporâneos. A aerodinâmica inferior, esculpida em túnel de vento com canais de efeito solo genuínos, mantém o eixo traseiro colado ao asfalto mesmo quando as forças G laterais atingem limiares extremos em curvas de alta velocidade.",
+      "Enquanto o ecossistema automotivo atual sucumbe à esterilização digital de painéis OLED e baterias de íon-lítio de duas toneladas, esta Berlinetta vermelha representa a antítese da obsolescência programada. A carroceria desenhada pela Pininfarina equilibra proporções clássicas com a brutalidade térmica exigida por um propulsor capaz de extrair 380 cavalos de potência puramente aspirada. Trata-se de um artefato cinético onde a telemetria inercial depende unicamente da sensibilidade do pulso humano e da aderência mecânica dos compostos de borracha.",
+      "A repetição deste lote nos pregões internacionais não constitui um revés, mas um teste de seletividade para colecionadores dotados de discernimento técnico. Quem arrematar este chassi não adquire apenas o pedigree televisivo de um ex-apresentador de Detroit, mas a custódia de um dos últimos motores Ferrari desenvolvidos antes da era dos atuadores automatizados. É a engenharia mecânica em seu estado mais intransigente, aguardando o próximo purista corajoso o suficiente para explorar seu limite real."
+    ],
+    "content_paragraphs": [
+      "O silêncio do mercado não apaga a violência mecânica de um motor central-traseiro V8 de cinco válvulas por cilindro. A Ferrari F355 que pertenceu a Jeremy Clarkson retorna aos lances após falhar em encontrar comprador em 2025, expondo a frieza dos investidores diante da visceralidade pura de uma era analógica. Sob o capô traseiro, o bloco de alumínio pulsa com a precisão de tolerâncias em mícrons, projetado para girar a absurdos 8.500 RPM sem o auxílio de turbocompressores ou respiros eletrônicos.",
+      "A experiência de pilotagem deste exemplar reside inteiramente na interação tátil e auditiva com o seletor de marchas em grade metálica exposta. Cada engate da transmissão manual de seis velocidades ecoa como o fechamento de um cofre suíço, enquanto o fluxo de escape em Inconel expõe uma sinfonia metálica inalcançável pelos abafadores restritivos dos superesportivos contemporâneos. A aerodinâmica inferior, esculpida em túnel de vento com canais de efeito solo genuínos, mantém o eixo traseiro colado ao asfalto mesmo quando as forças G laterais atingem limiares extremos em curvas de alta velocidade.",
+      "Enquanto o ecossistema automotivo atual sucumbe à esterilização digital de painéis OLED e baterias de íon-lítio de duas toneladas, esta Berlinetta vermelha representa a antítese da obsolescência programada. A carroceria desenhada pela Pininfarina equilibra proporções clássicas com a brutalidade térmica exigida por um propulsor capaz de extrair 380 cavalos de potência puramente aspirada. Trata-se de um artefato cinético onde a telemetria inercial depende unicamente da sensibilidade do pulso humano e da aderência mecânica dos compostos de borracha.",
+      "A repetição deste lote nos pregões internacionais não constitui um revés, mas um teste de seletividade para colecionadores dotados de discernimento técnico. Quem arrematar este chassi não adquire apenas o pedigree televisivo de um ex-apresentador de Detroit, mas a custódia de um dos últimos motores Ferrari desenvolvidos antes da era dos atuadores automatizados. É a engenharia mecânica em seu estado mais intransigente, aguardando o próximo purista corajoso o suficiente para explorar seu limite real."
+    ],
+    "specs": {
+      "motorizacao": "V8 de 3.5 litros, 40 válvulas (5 por cilindro)",
+      "potencia_maxima": "380 cv a 8.250 RPM",
+      "transmissao": "Manual de 6 velocidades com portinhola (gated shifter)",
+      "ateliê_e_design": "Carroceria assinada pela Pininfarina",
+      "desempenho": "0 a 100 km/h em 4,7 segundos",
+      "valor_estimado": "Sob consulta em leilão especializado"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 92,
+    "ranking_score": 92,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-09T18:35:45.860Z",
+    "published_at": "2026-11-09T18:35:45.860Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWkdnOFV1QXdDdDIyZHVzYndGZlByR1RqWnJmRzF1T2FoeWlPeUZsTDZNU1doQWh5aWNOZ25NNVRwWjU5b3hjNDJmamdtM0tNRG45d19UZ2lXQ1o5dk9PY1AweFRYalNHcUJpQ2RBSzF2UnA1bEhYbXFaM2FtdldRellYejY2cUdyNTFlNzFrcWY3MWUxQkFWeEgyRnJYS2VTX2VmRXV4ZWkxcWdZYWc?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWkdnOFV1QXdDdDIyZHVzYndGZlByR1RqWnJmRzF1T2FoeWlPeUZsTDZNU1doQWh5aWNOZ25NNVRwWjU5b3hjNDJmamdtM0tNRG45d19UZ2lXQ1o5dk9PY1AweFRYalNHcUJpQ2RBSzF2UnA1bEhYbXFaM2FtdldRellYejY2cUdyNTFlNzFrcWY3MWUxQkFWeEgyRnJYS2VTX2VmRXV4ZWkxcWdZYWc?oc=5"
+  },
+  {
     "id": "art-ferrari-12cilindri-o-v12-aspirad-5217",
     "slug": "ferrari-12cilindri-o-v12-aspirado-de-9500-rpm-e-pintura-two-tone-flagrado-no-asfalto-de-monaco-4549",
     "title": "Ferrari 12Cilindri: O V12 Aspirado de 9.500 RPM e Pintura Two-Tone Flagrado no Asfalto de Mônaco",
@@ -229,7 +282,7 @@ export const ARTICLES = [
     "authorSlug": "henrique-vianna",
     "author_slug": "henrique-vianna",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "09 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -257,10 +310,10 @@ export const ARTICLES = [
       "Custódia Patrimonial": "Ativo imune à inflação e escassez territorial"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 86,
@@ -1364,59 +1417,6 @@ export const ARTICLES = [
     "published_at": "2026-11-04T17:00:46.241Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONFRUWkpXTWpHazIwQmZWVDI2aGtmajNfeS15dnUzcGNBaHdGelB5Wlg2dDN0STZZTmRvMkhVYjh3cjMxTS01OFFNM0JNWHBuWElEcVBCRWw3NnFELVBLa3R2M1JkeG9XSGEzLWF0TFVBVGlEN0JkTlVVc3VIOU03bGJzbEZpUWY5WUE?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONFRUWkpXTWpHazIwQmZWVDI2aGtmajNfeS15dnUzcGNBaHdGelB5Wlg2dDN0STZZTmRvMkhVYjh3cjMxTS01OFFNM0JNWHBuWElEcVBCRWw3NnFELVBLa3R2M1JkeG9XSGEzLWF0TFVBVGlEN0JkTlVVc3VIOU03bGJzbEZpUWY5WUE?oc=5"
-  },
-  {
-    "id": "art-ferrari-250-gto-18-000-000-usd-e-6804",
-    "slug": "ferrari-250-gto-18-000-000-usd-e-chassi-de-forjamento-de-titanio-em-las-vegas-6794",
-    "title": "Ferrari 250 GTO: 18 000 000 USD e Chassi de Forjamento de Titânio em Las Vegas",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "04 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "Leilão histórico eleva o valor de um ícone da Scuderia a 18 milhões, revelando tolerâncias de mícrons e fluxo de Venturi no motor V12 aspirado que ainda reverbera nas pistas.",
-    "contentParagraphs": [
-      "O martelo despencou. O preço final de 18 milhões de dólares ecoou na sala de leilões de Las Vegas como um rugido de escape em Inconel 625. O comprador, oculto atrás de um véu fiduciário, adquiriu o último exemplar de série limitada que ainda ostenta um monocoque em carbo‑titânio curado em autoclave a 6 bar.",
-      "Sob o capô, o V12 aspirado de 6,5 L entrega 730 cv a 8.300 rpm, gerando força G lateral de 1,2 g nas curvas de alta velocidade; o fluxo de Venturi calibrado a 0,87 m³/s otimiza a admissão, enquanto a taxa de compressão de 12,5:1 mantém a temperatura de combustão abaixo de 1 200 °C, permitindo tolerâncias de mícrons na cabeça de cilindro de Inconel 625. O sistema de escape, forjado em titânio, atinge temperaturas de 1 350 °C, produzindo um timbre que corta o silêncio mineral da sala.",
-      "O 250 GTO, nascido em 1962, simboliza a soberania patrimonial da Scuderia. Cada unidade foi produzida em ateliê artesanal na Maranello, com chassis de aço tubular e carroceria em fibra de carbono de alta densidade. A avaliação atual, em dólares americanos, supera a imunidade temporal de ativos tradicionais, tornando‑se refúgio de liquidez para family offices que buscam governança dinástica longe das flutuações de mercado.",
-      "A conclusão é inequívoca: o recorde de 18 milhões não é apenas um número; é a materialização de engenharia visceral que desafia a obsolescência programada das telas táteis. O leilão reafirma que o verdadeiro ato de rebeldia reside em um motor que ainda ruge, em tolerâncias que só o tempo pode validar."
-    ],
-    "content_paragraphs": [
-      "O martelo despencou. O preço final de 18 milhões de dólares ecoou na sala de leilões de Las Vegas como um rugido de escape em Inconel 625. O comprador, oculto atrás de um véu fiduciário, adquiriu o último exemplar de série limitada que ainda ostenta um monocoque em carbo‑titânio curado em autoclave a 6 bar.",
-      "Sob o capô, o V12 aspirado de 6,5 L entrega 730 cv a 8.300 rpm, gerando força G lateral de 1,2 g nas curvas de alta velocidade; o fluxo de Venturi calibrado a 0,87 m³/s otimiza a admissão, enquanto a taxa de compressão de 12,5:1 mantém a temperatura de combustão abaixo de 1 200 °C, permitindo tolerâncias de mícrons na cabeça de cilindro de Inconel 625. O sistema de escape, forjado em titânio, atinge temperaturas de 1 350 °C, produzindo um timbre que corta o silêncio mineral da sala.",
-      "O 250 GTO, nascido em 1962, simboliza a soberania patrimonial da Scuderia. Cada unidade foi produzida em ateliê artesanal na Maranello, com chassis de aço tubular e carroceria em fibra de carbono de alta densidade. A avaliação atual, em dólares americanos, supera a imunidade temporal de ativos tradicionais, tornando‑se refúgio de liquidez para family offices que buscam governança dinástica longe das flutuações de mercado.",
-      "A conclusão é inequívoca: o recorde de 18 milhões não é apenas um número; é a materialização de engenharia visceral que desafia a obsolescência programada das telas táteis. O leilão reafirma que o verdadeiro ato de rebeldia reside em um motor que ainda ruge, em tolerâncias que só o tempo pode validar."
-    ],
-    "specs": {
-      "motor": "V12 aspirado 6,5 L, 730 cv a 8.300 rpm",
-      "chassi": "Monocoque em carbo‑titânio curado em autoclave a 6 bar",
-      "escape": "Tubos de Inconel 625 forjados, temperatura máxima 1 350 °C",
-      "tolerância_de_mícrons": "± 12 mícrons nas cabeças de cilindro",
-      "preço_de_leilão": "US$ 18 000 000",
-      "ano_de_fabricação": "1962"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 92,
-    "ranking_score": 92,
-    "engineSource": "openai:groq/openai/gpt-oss-120b",
-    "publishedAt": "2026-11-04T15:10:46.804Z",
-    "published_at": "2026-11-04T15:10:46.804Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV0JRWks0c1JDN0lYX3QtT0luS2hJMHBoU05BM1hyOVBvOWRZSmRmWk9sUTNkY3V2dU1yWkM1WFJwdlREX0RfLWZkcGMyQW9TRGZ2UUN2OVNvRlZCMy11U2FZTjYzMm1BcHlUald2eFpoT1VfRDZEWEZ3NXJjLXRuY2pDc3JULUE?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV0JRWks0c1JDN0lYX3QtT0luS2hJMHBoU05BM1hyOVBvOWRZSmRmWk9sUTNkY3V2dU1yWkM1WFJwdlREX0RfLWZkcGMyQW9TRGZ2UUN2OVNvRlZCMy11U2FZTjYzMm1BcHlUald2eFpoT1VfRDZEWEZ3NXJjLXRuY2pDc3JULUE?oc=5"
   }
 ];
 
@@ -1439,6 +1439,14 @@ export const FILMSTRIP_ITEMS = [
   },
   {
     "id": "film-3",
+    "category": "DESTINOS",
+    "title": "The Italian Sea Group: O Colapso Finan...",
+    "image": "https://images.unsplash.com/photo-1621277224630-81d9af65e40c?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "the-italian-sea-group-o-colapso-financeiro-de-587-milhoes-que-desafia-a-engenharia-naval-de-alto-luxo-1371"
+  },
+  {
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Ferrari F50: O Recorde de US$ 18,7 Mil...",
     "image": "https://images.unsplash.com/photo-1635488591151-c7a12939669b?auto=format&fit=max&q=80&w=1400",
@@ -1446,7 +1454,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-f50-o-recorde-de-us-187-milhoes-para-o-ultimo-v12-analogico-com-chassi-de-formula-1-7232"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Bugatti Type 57SC Atlantic: Os R$ 68 M...",
     "image": "https://images.unsplash.com/photo-1661311928884-7e36f478109f?auto=format&fit=max&q=80&w=1400",
@@ -1454,20 +1462,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "bugatti-type-57sc-atlantic-os-r-68-milhoes-em-aluminio-rebitado-que-definiram-a-aerodinamica-de-pre-guerra-1407"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "DESTINOS",
     "title": "Superiate Lürssen de 200 Milhões de Dó...",
     "image": "https://images.unsplash.com/photo-1783344422200-a5493824bcb9?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "superiate-lurssen-de-200-milhoes-de-dolares-o-leviata-com-piscina-de-fundo-de-vidro-que-ancorou-na-costa-iberica-7128"
-  },
-  {
-    "id": "film-6",
-    "category": "ARQUITETURA",
-    "title": "Gigantes Sob Encomenda: Os 6 Superiate...",
-    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "gigantes-sob-encomenda-os-6-superiates-de-120-metros-em-construcao-que-mobilizam-18-bilhao-de-euros-em-silencio-mineral-7855"
   }
 ];
 

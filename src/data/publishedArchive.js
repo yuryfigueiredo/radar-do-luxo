@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-ferrari-f355-de-jeremy-clarkson--5860",
+    "slug": "ferrari-f355-de-jeremy-clarkson-o-v8-aspirado-de-35-litros-e-cambio-manual-em-gated-shifter-retorna-ao-leilao-5851",
+    "title": "Ferrari F355 de Jeremy Clarkson: O V8 Aspirado de 3.5 Litros e Câmbio Manual em Gated Shifter Retorna ao Leilão",
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWkdnOFV1QXdDdDIyZHVzYndGZlByR1RqWnJmRzF1T2FoeWlPeUZsTDZNU1doQWh5aWNOZ25NNVRwWjU5b3hjNDJmamdtM0tNRG45d19UZ2lXQ1o5dk9PY1AweFRYalNHcUJpQ2RBSzF2UnA1bEhYbXFaM2FtdldRellYejY2cUdyNTFlNzFrcWY3MWUxQkFWeEgyRnJYS2VTX2VmRXV4ZWkxcWdZYWc?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-09T18:35:45.860Z"
+  },
+  {
     "id": "art-ferrari-12cilindri-o-v12-aspirad-5217",
     "slug": "ferrari-12cilindri-o-v12-aspirado-de-9500-rpm-e-pintura-two-tone-flagrado-no-asfalto-de-monaco-4549",
     "title": "Ferrari 12Cilindri: O V12 Aspirado de 9.500 RPM e Pintura Two-Tone Flagrado no Asfalto de Mônaco",
