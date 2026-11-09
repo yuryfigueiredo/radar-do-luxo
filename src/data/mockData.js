@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-gold-coast-a-residencia-de-475-m-9214",
+    "slug": "gold-coast-a-residencia-de-475-milhoes-de-dolares-em-travertino-romano-que-desafia-o-recorde-imobiliario-da-australia-8416",
+    "title": "Gold Coast: A Residência de 47,5 Milhões de Dólares em Travertino Romano que Desafia o Recorde Imobiliário da Austrália",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "09 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A soberania patrimonial encontra seu refúgio definitivo nas areias da Gold Coast, onde uma arquitetura de silêncio mineral desafia a volatilidade dos mercados globais.",
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nas margens intocadas da Gold Coast australiana, uma propriedade monumental acaba de ser listada por 47,5 milhões de dólares, em um lance calculado para redefinir o teto histórico do mercado imobiliário de Queensland. Não há concessões ao efêmero nesta estrutura. O projeto aposta na solidez de blocos maciços de travertino romano e em fundações projetadas para resistir a séculos de intempéries oceânicas, erguendo-se como um bastião de imunidade temporal.",
+      "A engenharia civil por trás da residência transcende o conceito tradicional de habitação de alto padrão. Foram empregadas centenas de toneladas de concreto de alta densidade e aço estrutural inoxidável, garantindo uma rigidez torsional que elimina qualquer vibração induzida pelas marés. Vidros laminados estruturais de baixa emissividade, com espessura de quase três centímetros, isolam completamente o interior dos ventos salinos, criando uma cápsula climática onde a luz natural é filtrada com precisão milimétrica por brises orientáveis em bronze envelhecido.",
+      "Em tempos de inflação galopante e erosão monetária, ativos reais localizados em enclaves geográficos irreplicáveis funcionam como a mais pura custódia fiduciária. Esta mansão não representa apenas um endereço exclusivo, mas um refúgio de liquidez transacional inabalável. Famílias detentoras de fortunas seculares reconhecem rapidamente o valor intrínseco de uma propriedade com tal grau de escassez geográfica. A arquitetura aqui atua como um cofre-forte físico, blindado contra as flutuações geopolíticas e a obsolescência estética.",
+      "A governança dinástica exige locais capazes de abrigar gerações futuras sem perder a relevância formal ou estrutural. Ao pavimentar o caminho para superar o recorde de Queensland, esta propriedade consolida a Austrália como um polo incontestável para alocações imobiliárias soberanas. O veredito do nosso comitê é categórico: trata-se de um marco arquitetônico intocável, reservado exclusivamente para aqueles que compreendem que o verdadeiro luxo reside na permanência da matéria."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nas margens intocadas da Gold Coast australiana, uma propriedade monumental acaba de ser listada por 47,5 milhões de dólares, em um lance calculado para redefinir o teto histórico do mercado imobiliário de Queensland. Não há concessões ao efêmero nesta estrutura. O projeto aposta na solidez de blocos maciços de travertino romano e em fundações projetadas para resistir a séculos de intempéries oceânicas, erguendo-se como um bastião de imunidade temporal.",
+      "A engenharia civil por trás da residência transcende o conceito tradicional de habitação de alto padrão. Foram empregadas centenas de toneladas de concreto de alta densidade e aço estrutural inoxidável, garantindo uma rigidez torsional que elimina qualquer vibração induzida pelas marés. Vidros laminados estruturais de baixa emissividade, com espessura de quase três centímetros, isolam completamente o interior dos ventos salinos, criando uma cápsula climática onde a luz natural é filtrada com precisão milimétrica por brises orientáveis em bronze envelhecido.",
+      "Em tempos de inflação galopante e erosão monetária, ativos reais localizados em enclaves geográficos irreplicáveis funcionam como a mais pura custódia fiduciária. Esta mansão não representa apenas um endereço exclusivo, mas um refúgio de liquidez transacional inabalável. Famílias detentoras de fortunas seculares reconhecem rapidamente o valor intrínseco de uma propriedade com tal grau de escassez geográfica. A arquitetura aqui atua como um cofre-forte físico, blindado contra as flutuações geopolíticas e a obsolescência estética.",
+      "A governança dinástica exige locais capazes de abrigar gerações futuras sem perder a relevância formal ou estrutural. Ao pavimentar o caminho para superar o recorde de Queensland, esta propriedade consolida a Austrália como um polo incontestável para alocações imobiliárias soberanas. O veredito do nosso comitê é categórico: trata-se de um marco arquitetônico intocável, reservado exclusivamente para aqueles que compreendem que o verdadeiro luxo reside na permanência da matéria."
+    ],
+    "specs": {
+      "Valor de Listagem": "47.500.000 AUD",
+      "Matéria-Prima Predominante": "Travertino Romano Navona e Bronze",
+      "Blindagem Estrutural": "Vidros laminados de alta densidade e aço inoxidável",
+      "Localização Geográfica": "Gold Coast, Queensland, Austrália",
+      "Custódia Patrimonial": "Ativo imune à inflação e escassez territorial"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 86,
+    "ranking_score": 86,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-09T04:45:49.214Z",
+    "published_at": "2026-11-09T04:45:49.214Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdUl6WDExeFh2NkRzSGYzd0NlaFZLal9lSjJuTnBQY19RVlNUbDFZX2xNTHljUFY4N2tpQ2lLSmdaV3p1Z3dmRkxwYUJDSGhqZmhITVdHejV6Y0Y3MlRjSkJIRjJmQklGa1V2UXRjLW8zTnIwRmhpTFVZeVBndnZ4UlVndUpHUFVEbTFPcFo0X2liWVNWdk10ODZZb2tyTTc1dDFXd0RWVWZWQmtUWTd5TV9VVQ?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdUl6WDExeFh2NkRzSGYzd0NlaFZLal9lSjJuTnBQY19RVlNUbDFZX2xNTHljUFY4N2tpQ2lLSmdaV3p1Z3dmRkxwYUJDSGhqZmhITVdHejV6Y0Y3MlRjSkJIRjJmQklGa1V2UXRjLW8zTnIwRmhpTFVZeVBndnZ4UlVndUpHUFVEbTFPcFo0X2liWVNWdk10ODZZb2tyTTc1dDFXd0RWVWZWQmtUWTd5TV9VVQ?oc=5"
+  },
+  {
     "id": "art-aston-martin-o-equilibrio-financ-5932",
     "slug": "aston-martin-o-equilibrio-financeiro-precario-e-a-ilusao-de-rivalizar-com-a-hegemonia-de-maranello-5922",
     "title": "Aston Martin: O Equilíbrio Financeiro Precário e a Ilusão de Rivalizar com a Hegemonia de Maranello",
@@ -227,7 +279,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "08 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -255,10 +307,10 @@ export const ARTICLES = [
       "Tolerância Estrutural": "Mícrons na usinagem dos mancais"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 88,
@@ -1365,58 +1417,6 @@ export const ARTICLES = [
     "published_at": "2026-11-04T01:17:53.010Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQamxydm04N3pRQW5BMFJienRWeEM5c1hsaGZ6cXdjcVprSHQ0ekxUbldHRDlHX2U4NTdNTEtTZXhiVkZGY1pjRWhFZmk5dGFCR0hfYmRPYzI0QkFBcUttQVB4N1RlMmQzT2NhVElJT29MVi13WjJRWWdSQlZQQjNBM19zMUJmZDIySzBSNGtPX0pLOXFKeFMw?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQamxydm04N3pRQW5BMFJienRWeEM5c1hsaGZ6cXdjcVprSHQ0ekxUbldHRDlHX2U4NTdNTEtTZXhiVkZGY1pjRWhFZmk5dGFCR0hfYmRPYzI0QkFBcUttQVB4N1RlMmQzT2NhVElJT29MVi13WjJRWWdSQlZQQjNBM19zMUJmZDIySzBSNGtPX0pLOXFKeFMw?oc=5"
-  },
-  {
-    "id": "art-gabe-newell-a-fortuna-de-5-bilho-5818",
-    "slug": "gabe-newell-a-fortuna-de-5-bilhoes-de-dolares-ancorada-em-120-metros-de-aco-naval-e-inovacao-digital-5675",
-    "title": "Gabe Newell: A Fortuna de 5 Bilhões de Dólares ancorada em 120 Metros de Aço Naval e Inovação Digital",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "03 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1781872324499-e51350ed640e?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Aos 64 anos, o arquiteto da Valve transcende o código binário para exercer soberania sobre os oceanos, equilibrando a hegemonia da Steam com a engenharia bruta de superiates de exploração oceânica.",
-    "contentParagraphs": [
-      "O silêncio do convés de um superiate de 120 metros é a antítese do ruído constante dos servidores da Steam. Gabe Newell, ao celebrar 64 anos, não apenas consolidou um império de distribuição digital, mas converteu essa liquidez em massa física navegável. A transição do software imaterial para o casco de aço naval de alta resistência revela uma busca por estabilidade inercial. Enquanto o mundo debate algoritmos, ele prioriza a dinâmica de fluidos e o deslocamento de toneladas sobre o Pacífico.",
-      "A engenharia por trás de suas embarcações de exploração reflete uma obsessão pela tolerância de mícrons, similar à precisão exigida no desenvolvimento de motores de alta performance. O casco, projetado para operar em condições de mar escala 7, utiliza sistemas de estabilização giroscópica que neutralizam o balanço inercial com precisão cirúrgica. Aqui, a telemetria não mede apenas a velocidade de processamento de dados, mas a força G lateral exercida pelo impacto das ondas, exigindo uma estrutura de monocoque reforçada capaz de suportar pressões hidrostáticas extremas.",
-      "A Valve permanece como um refúgio de governança privada, um anacronismo de sucesso em um setor dominado por aberturas de capital voláteis. Newell compreendeu cedo que a escassez matemática gera valor inestimável, tratando sua base de usuários com o mesmo rigor que um estaleiro de elite trata a escolha de ligas de alumínio e carbono. O império não é construído sobre o volume de vendas, mas sobre a arquitetura de uma plataforma que se tornou a infraestrutura fundamental do entretenimento global.",
-      "A longevidade de sua influência é medida em décadas de lealdade de mercado, uma métrica tão rara quanto a manufatura de um motor aspirado em plena era da eletrificação forçada. Ao observar sua trajetória, percebe-se que a busca pelo domínio total — seja no ciberespaço ou nas águas profundas — é movida por um desprezo pela obsolescência programada. Gabe Newell não possui apenas uma frota ou uma plataforma; ele detém o controle sobre a física do seu próprio tempo."
-    ],
-    "content_paragraphs": [
-      "O silêncio do convés de um superiate de 120 metros é a antítese do ruído constante dos servidores da Steam. Gabe Newell, ao celebrar 64 anos, não apenas consolidou um império de distribuição digital, mas converteu essa liquidez em massa física navegável. A transição do software imaterial para o casco de aço naval de alta resistência revela uma busca por estabilidade inercial. Enquanto o mundo debate algoritmos, ele prioriza a dinâmica de fluidos e o deslocamento de toneladas sobre o Pacífico.",
-      "A engenharia por trás de suas embarcações de exploração reflete uma obsessão pela tolerância de mícrons, similar à precisão exigida no desenvolvimento de motores de alta performance. O casco, projetado para operar em condições de mar escala 7, utiliza sistemas de estabilização giroscópica que neutralizam o balanço inercial com precisão cirúrgica. Aqui, a telemetria não mede apenas a velocidade de processamento de dados, mas a força G lateral exercida pelo impacto das ondas, exigindo uma estrutura de monocoque reforçada capaz de suportar pressões hidrostáticas extremas.",
-      "A Valve permanece como um refúgio de governança privada, um anacronismo de sucesso em um setor dominado por aberturas de capital voláteis. Newell compreendeu cedo que a escassez matemática gera valor inestimável, tratando sua base de usuários com o mesmo rigor que um estaleiro de elite trata a escolha de ligas de alumínio e carbono. O império não é construído sobre o volume de vendas, mas sobre a arquitetura de uma plataforma que se tornou a infraestrutura fundamental do entretenimento global.",
-      "A longevidade de sua influência é medida em décadas de lealdade de mercado, uma métrica tão rara quanto a manufatura de um motor aspirado em plena era da eletrificação forçada. Ao observar sua trajetória, percebe-se que a busca pelo domínio total — seja no ciberespaço ou nas águas profundas — é movida por um desprezo pela obsolescência programada. Gabe Newell não possui apenas uma frota ou uma plataforma; ele detém o controle sobre a física do seu próprio tempo."
-    ],
-    "specs": {
-      "patrimonio_estimado": "5.5 Bilhões de USD",
-      "foco_naval": "Superiates de exploração oceânica",
-      "infraestrutura_digital": "Steam (Plataforma de distribuição global)",
-      "idade_do_fundador": "64 anos",
-      "estabilidade_operacional": "Privacidade corporativa absoluta"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "engineSource": "gemini:gemini-3.1-flash-lite",
-    "publishedAt": "2026-11-03T22:13:55.818Z",
-    "published_at": "2026-11-03T22:13:55.818Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVS1tSTVtYVVRbVNmaklHRmd5QW1JWjJOa3ZWNDNGLUp0UlBfUmNIb0RLWWxGZVdzUmdwb2w3SDNqQUh2bExXWVFJQ1RkYmpZVVMzaGcxYnRaWVg4R1V5RmN4SlB3NkJfQmktNlpzMjIybWVtclZrNjAxLTJSenFQMzR0cE1BV2hYc1kwdkFVcjZnR3JmYjNKRVNmbTRhZVliV1ZKU3VYbVZwZFlsU1RBdm8wZjZKT3daZzd4TQ?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVS1tSTVtYVVRbVNmaklHRmd5QW1JWjJOa3ZWNDNGLUp0UlBfUmNIb0RLWWxGZVdzUmdwb2w3SDNqQUh2bExXWVFJQ1RkYmpZVVMzaGcxYnRaWVg4R1V5RmN4SlB3NkJfQmktNlpzMjIybWVtclZrNjAxLTJSenFQMzR0cE1BV2hYc1kwdkFVcjZnR3JmYjNKRVNmbTRhZVliV1ZKU3VYbVZwZFlsU1RBdm8wZjZKT3daZzd4TQ?oc=5"
   }
 ];
 
@@ -1455,19 +1455,19 @@ export const FILMSTRIP_ITEMS = [
   },
   {
     "id": "film-5",
+    "category": "DESTINOS",
+    "title": "The Italian Sea Group: O Resgate de 22...",
+    "image": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "the-italian-sea-group-o-resgate-de-220-milhoes-de-euros-que-consolida-a-soberania-dos-superiates-na-toscana-6143"
+  },
+  {
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Ferrari 250 GTO: 18 000 000 USD e Chas...",
     "image": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "ferrari-250-gto-18-000-000-usd-e-chassi-de-forjamento-de-titanio-em-las-vegas-6794"
-  },
-  {
-    "id": "film-6",
-    "category": "ARQUITETURA",
-    "title": "Christie's Abu Dhabi: US$ 8,94 Milhões...",
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=85&w=1800",
-    "tag": "CURADORIA RADAR",
-    "slug": "christies-abu-dhabi-us-894-milhoes-em-obras-raras-e-a-nova-soberania-patrimonial-do-oriente-medio-0301"
   }
 ];
 

@@ -281,7 +281,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "available"
+    "status": "published"
   },
   {
     "id": "pauta-live-arquitetura-mw863e0o-poeg",

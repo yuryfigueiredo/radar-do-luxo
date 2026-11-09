@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-gold-coast-a-residencia-de-475-m-9214",
+    "slug": "gold-coast-a-residencia-de-475-milhoes-de-dolares-em-travertino-romano-que-desafia-o-recorde-imobiliario-da-australia-8416",
+    "title": "Gold Coast: A Residência de 47,5 Milhões de Dólares em Travertino Romano que Desafia o Recorde Imobiliário da Austrália",
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdUl6WDExeFh2NkRzSGYzd0NlaFZLal9lSjJuTnBQY19RVlNUbDFZX2xNTHljUFY4N2tpQ2lLSmdaV3p1Z3dmRkxwYUJDSGhqZmhITVdHejV6Y0Y3MlRjSkJIRjJmQklGa1V2UXRjLW8zTnIwRmhpTFVZeVBndnZ4UlVndUpHUFVEbTFPcFo0X2liWVNWdk10ODZZb2tyTTc1dDFXd0RWVWZWQmtUWTd5TV9VVQ?oc=5",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "publishedAt": "2026-11-09T04:45:49.214Z"
+  },
+  {
     "id": "art-aston-martin-o-equilibrio-financ-5932",
     "slug": "aston-martin-o-equilibrio-financeiro-precario-e-a-ilusao-de-rivalizar-com-a-hegemonia-de-maranello-5922",
     "title": "Aston Martin: O Equilíbrio Financeiro Precário e a Ilusão de Rivalizar com a Hegemonia de Maranello",
