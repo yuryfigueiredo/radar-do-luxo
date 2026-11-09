@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-hermes-birkin-o-prototipo-origin-1148",
+    "slug": "hermes-birkin-o-prototipo-original-de-jane-birkin-que-vai-a-leilao-com-marcas-de-uso-e-essencia-de-paris-1139",
+    "title": "Hermès Birkin: O Protótipo Original de Jane Birkin que Vai a Leilão com Marcas de Uso e Essência de Paris",
+    "category": "Alta-Costura",
+    "categorySlug": "estilo",
+    "category_slug": "estilo",
+    "authorSlug": "clara-meirelles",
+    "author_slug": "clara-meirelles",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "09 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A bolsa que redefiniu a utilidade na alta-costura emerge em leilão, revelando o couro Box Calf marcado pelo tempo e a intimidade despojada de sua criadora.",
+    "contentParagraphs": [
+      "Há um silêncio eloquente nos objetos que carregam a gravidade da vida real. O tempo do luxo não é utilitário; é a mais nobre das telas mecânicas esculpidas por mãos humanas. Quando o couro Box Calf envelhece sob a luz difusa de Saint-Germain-des-Prés, ele abandona a rigidez estéril do recém-saído da caixa para adotar uma pátina viva. Esta Birkin original, concebida em um voo entre Paris e Londres no calor de 1984, traz consigo os adesivos de bagagem amassados e as marcas inevitáveis dos dias vividos pela mulher que lhe emprestou o nome.",
+      "A sela francesa executada com rigor milimétrico revela o linho encerado em cera virgem que une cada gomosidade do couro. Dentro do ateliê de Pantin, a exigência de Jean-Louis Dumas não era criar um troféu estático, mas sim um santuário portátil para a rotina caótica de uma artista. As ferragens em metal precioso oxidam discretamente, guardando o suor de mãos que gesticulavam em cafés enfumaçados e plateias de cinema. Aqui, a perfeição industrial cede lugar ao relevo tátil da imperfeição humana, esculpida pelo uso contínuo.",
+      "O mercado de leilões abriga, com frequência, peças imaculadas que jamais viram a luz do sol. Esta praça, no entanto, exige outra chave de leitura para colecionadores que buscam a soberania da procedência absoluta. Não se trata de uma aquisição para cofres blindados, mas da custódia de um fragmento tangível da história cultural do século XX. Cada arranhão na aba frontal sussurra a urgência de uma época em que o chique residia no despojamento deliberado e na recusa das convenções burguesas.",
+      "Enquanto o mundo contemporâneo consome efemeridades digitais descartáveis, o couro legítimo tratado à mão recorda a resiliência dos materiais perenes. A peça que agora busca um novo guardião transcende a categoria de artefato de colecionador para se consolidar como um documento antropológico do vestir. É o triunfo da matéria viva sobre a obsolescência programada do consumo em massa."
+    ],
+    "content_paragraphs": [
+      "Há um silêncio eloquente nos objetos que carregam a gravidade da vida real. O tempo do luxo não é utilitário; é a mais nobre das telas mecânicas esculpidas por mãos humanas. Quando o couro Box Calf envelhece sob a luz difusa de Saint-Germain-des-Prés, ele abandona a rigidez estéril do recém-saído da caixa para adotar uma pátina viva. Esta Birkin original, concebida em um voo entre Paris e Londres no calor de 1984, traz consigo os adesivos de bagagem amassados e as marcas inevitáveis dos dias vividos pela mulher que lhe emprestou o nome.",
+      "A sela francesa executada com rigor milimétrico revela o linho encerado em cera virgem que une cada gomosidade do couro. Dentro do ateliê de Pantin, a exigência de Jean-Louis Dumas não era criar um troféu estático, mas sim um santuário portátil para a rotina caótica de uma artista. As ferragens em metal precioso oxidam discretamente, guardando o suor de mãos que gesticulavam em cafés enfumaçados e plateias de cinema. Aqui, a perfeição industrial cede lugar ao relevo tátil da imperfeição humana, esculpida pelo uso contínuo.",
+      "O mercado de leilões abriga, com frequência, peças imaculadas que jamais viram a luz do sol. Esta praça, no entanto, exige outra chave de leitura para colecionadores que buscam a soberania da procedência absoluta. Não se trata de uma aquisição para cofres blindados, mas da custódia de um fragmento tangível da história cultural do século XX. Cada arranhão na aba frontal sussurra a urgência de uma época em que o chique residia no despojamento deliberado e na recusa das convenções burguesas.",
+      "Enquanto o mundo contemporâneo consome efemeridades digitais descartáveis, o couro legítimo tratado à mão recorda a resiliência dos materiais perenes. A peça que agora busca um novo guardião transcende a categoria de artefato de colecionador para se consolidar como um documento antropológico do vestir. É o triunfo da matéria viva sobre a obsolescência programada do consumo em massa."
+    ],
+    "specs": {
+      "Casa de Leilão": "Custódia Privada & Leilão Internacional",
+      "Material": "Couro Box Calf original com pátina de uso",
+      "Ferragens": "Metal precioso com oxidação natural de época",
+      "Origem": "Ateliê Hermès, Paris (1984)",
+      "Provenance": "Coleção Pessoal de Jane Birkin"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 91,
+    "ranking_score": 91,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-09T11:08:51.148Z",
+    "published_at": "2026-11-09T11:08:51.148Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbXphV0VWUnp6OVhmRC05dmhTaFh6alBBd0poWDRDZHRXT0RiOHdYVU1abWd0ZUl1RWNKUWZ2VzMzRWgwNGxZLTV4SzJPWFZCZWE2QkZzSmdlM3BYWnJ0eGlWNmJfVXhTeFUtbm1KN2J0Nmc4cjh2UWx6Yk4zLXVVaTZwQnpiR2ZITE9PcDBTRQ?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbXphV0VWUnp6OVhmRC05dmhTaFh6alBBd0poWDRDZHRXT0RiOHdYVU1abWd0ZUl1RWNKUWZ2VzMzRWgwNGxZLTV4SzJPWFZCZWE2QkZzSmdlM3BYWnJ0eGlWNmJfVXhTeFUtbm1KN2J0Nmc4cjh2UWx6Yk4zLXVVaTZwQnpiR2ZITE9PcDBTRQ?oc=5"
+  },
+  {
     "id": "art-gold-coast-a-residencia-de-475-m-9214",
     "slug": "gold-coast-a-residencia-de-475-milhoes-de-dolares-em-travertino-romano-que-desafia-o-recorde-imobiliario-da-australia-8416",
     "title": "Gold Coast: A Residência de 47,5 Milhões de Dólares em Travertino Romano que Desafia o Recorde Imobiliário da Austrália",
@@ -1365,58 +1417,6 @@ export const ARTICLES = [
     "published_at": "2026-11-04T03:09:00.401Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdHJZV2ZTMlJEc21tTEJJQXF1T1R2UGdabG5wQWE0eGo1ZkpfT0s2QXpWNDJPRkM1elVSMGJKRTNBYlpTZDZMUnZmQWUzeTl4bEFIejhvbnJvVkcxa0dfRV9EaTB3Z2phTTBkVnZId3VhNVZFbFVXOVhHMTZhYVhnOE8xNy1QTFhzRG1objYxVWl1b0phRVhkMmZWeUw?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdHJZV2ZTMlJEc21tTEJJQXF1T1R2UGdabG5wQWE0eGo1ZkpfT0s2QXpWNDJPRkM1elVSMGJKRTNBYlpTZDZMUnZmQWUzeTl4bEFIejhvbnJvVkcxa0dfRV9EaTB3Z2phTTBkVnZId3VhNVZFbFVXOVhHMTZhYVhnOE8xNy1QTFhzRG1objYxVWl1b0phRVhkMmZWeUw?oc=5"
-  },
-  {
-    "id": "art-superiates-o-retorno-silencioso--3010",
-    "slug": "superiates-o-retorno-silencioso-a-nautica-analogica-de-casco-de-aco-e-controle-mecanico-direto-3002",
-    "title": "Superiates: O Retorno Silencioso à Náutica Analógica de Casco de Aço e Controle Mecânico Direto",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "04 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A soberania patrimonial rejeita a fragilidade das interfaces digitais. Estaleiros centenários na Europa resgatam comandos puramente hidráulicos e instrumentação analógica para garantir imunidade temporal absoluta em alto-mar.",
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nas águas profundas de Mônaco e Porto Cervo, a maré da ostentação digital cedeu lugar a uma exigência implacável: cascos que não dependam de servidores em nuvem para navegar. Armadores de alta estirpe cancelaram o refúgio das telas touch screen de vidro integrado. Navegar tornou-se um ato de resistência física contra a obsolescência planejada dos estaleiros industriais de massa.",
-      "A engenharia naval de custódia fiduciária opera agora sob uma nova diretriz tectônica. Os propulsores MTU V16 de mais de 4.000 cavalos de potência voltam a ser governados por cabos de aço tencionados e pistões hidráulicos maciços de latão polido. Cada comando de leme transmite o peso exato da água salgada diretamente para as mãos do capitão. Não há latência de software. Não há falhas de código. Apenas a física pura dos metais nobres resistindo à oxidação oceânica por décadas consecutivas.",
-      "Comprar um superiate em regime de refúgio de liquidez exige a compreensão de que o valor residual reside na incorruptibilidade mecânica. Enquanto embarcações comerciais baratas acumulam toneladas de eletrônicos descartáveis que sucumbem à maresia em poucos anos, estas catedrais flutuantes são construídas com aço naval de alta resistência e tecidos de isolamento acústico em cortiça natural. A governança dinástica exige que a herança familiar flutue incólume por gerações, sem depender de atualizações de sistema operacional.",
-      "O veredito do Radar do Luxo é definitivo. O verdadeiro luxo náutico contemporâneo abole o excesso de pixels em favor de mostradores de ponteiros em aço escovado e painéis de madeira nobre de lei tratada à mão. A soberania em alto-mar pertence àqueles que compreendem que o controle analógico é a única blindagem real contra a efemeridade do mundo moderno. O mar não perdoa falhas lógicas; ele apenas respeita a autoridade da mecânica soberana."
-    ],
-    "content_paragraphs": [
-      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nas águas profundas de Mônaco e Porto Cervo, a maré da ostentação digital cedeu lugar a uma exigência implacável: cascos que não dependam de servidores em nuvem para navegar. Armadores de alta estirpe cancelaram o refúgio das telas touch screen de vidro integrado. Navegar tornou-se um ato de resistência física contra a obsolescência planejada dos estaleiros industriais de massa.",
-      "A engenharia naval de custódia fiduciária opera agora sob uma nova diretriz tectônica. Os propulsores MTU V16 de mais de 4.000 cavalos de potência voltam a ser governados por cabos de aço tencionados e pistões hidráulicos maciços de latão polido. Cada comando de leme transmite o peso exato da água salgada diretamente para as mãos do capitão. Não há latência de software. Não há falhas de código. Apenas a física pura dos metais nobres resistindo à oxidação oceânica por décadas consecutivas.",
-      "Comprar um superiate em regime de refúgio de liquidez exige a compreensão de que o valor residual reside na incorruptibilidade mecânica. Enquanto embarcações comerciais baratas acumulam toneladas de eletrônicos descartáveis que sucumbem à maresia em poucos anos, estas catedrais flutuantes são construídas com aço naval de alta resistência e tecidos de isolamento acústico em cortiça natural. A governança dinástica exige que a herança familiar flutue incólume por gerações, sem depender de atualizações de sistema operacional.",
-      "O veredito do Radar do Luxo é definitivo. O verdadeiro luxo náutico contemporâneo abole o excesso de pixels em favor de mostradores de ponteiros em aço escovado e painéis de madeira nobre de lei tratada à mão. A soberania em alto-mar pertence àqueles que compreendem que o controle analógico é a única blindagem real contra a efemeridade do mundo moderno. O mar não perdoa falhas lógicas; ele apenas respeita a autoridade da mecânica soberana."
-    ],
-    "specs": {
-      "Casco": "Aço naval de alta resistência de 12 mm",
-      "Propulsão": "Duplos motores MTU V16 analógicos",
-      "Transmissão": "Comando hidráulico direto sem atuadores eletrônicos",
-      "Autonomia": "5.500 milhas náuticas a 12 nós de cruzeiro",
-      "Avaliação Patrimonial": "Acima de 120 milhões de euros em moeda forte"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-04T01:17:53.010Z",
-    "published_at": "2026-11-04T01:17:53.010Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQamxydm04N3pRQW5BMFJienRWeEM5c1hsaGZ6cXdjcVprSHQ0ekxUbldHRDlHX2U4NTdNTEtTZXhiVkZGY1pjRWhFZmk5dGFCR0hfYmRPYzI0QkFBcUttQVB4N1RlMmQzT2NhVElJT29MVi13WjJRWWdSQlZQQjNBM19zMUJmZDIySzBSNGtPX0pLOXFKeFMw?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQamxydm04N3pRQW5BMFJienRWeEM5c1hsaGZ6cXdjcVprSHQ0ekxUbldHRDlHX2U4NTdNTEtTZXhiVkZGY1pjRWhFZmk5dGFCR0hfYmRPYzI0QkFBcUttQVB4N1RlMmQzT2NhVElJT29MVi13WjJRWWdSQlZQQjNBM19zMUJmZDIySzBSNGtPX0pLOXFKeFMw?oc=5"
   }
 ];
 
@@ -1424,13 +1424,21 @@ export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
     "category": "SUPERCARROS",
+    "title": "Ferrari: €431 Milhões em Lucro Trimest...",
+    "image": "https://images.unsplash.com/photo-1650444684180-3f72abb15263?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "ferrari-431-milhoes-em-lucro-trimestral-que-valida-a-engenharia-de-precisao-sobre-a-producao-de-massa-3200"
+  },
+  {
+    "id": "film-2",
+    "category": "SUPERCARROS",
     "title": "Ferrari F50: O Recorde de US$ 18,7 Mil...",
     "image": "https://images.unsplash.com/photo-1635488591151-c7a12939669b?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "ferrari-f50-o-recorde-de-us-187-milhoes-para-o-ultimo-v12-analogico-com-chassi-de-formula-1-7232"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Bugatti Type 57SC Atlantic: Os R$ 68 M...",
     "image": "https://images.unsplash.com/photo-1661311928884-7e36f478109f?auto=format&fit=max&q=80&w=1400",
@@ -1438,7 +1446,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "bugatti-type-57sc-atlantic-os-r-68-milhoes-em-aluminio-rebitado-que-definiram-a-aerodinamica-de-pre-guerra-1407"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "DESTINOS",
     "title": "Superiate Lürssen de 200 Milhões de Dó...",
     "image": "https://images.unsplash.com/photo-1783344422200-a5493824bcb9?auto=format&fit=max&q=80&w=1400",
@@ -1446,7 +1454,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "superiate-lurssen-de-200-milhoes-de-dolares-o-leviata-com-piscina-de-fundo-de-vidro-que-ancorou-na-costa-iberica-7128"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "ARQUITETURA",
     "title": "Gigantes Sob Encomenda: Os 6 Superiate...",
     "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
@@ -1454,20 +1462,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "gigantes-sob-encomenda-os-6-superiates-de-120-metros-em-construcao-que-mobilizam-18-bilhao-de-euros-em-silencio-mineral-7855"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "DESTINOS",
     "title": "The Italian Sea Group: O Resgate de 22...",
     "image": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "the-italian-sea-group-o-resgate-de-220-milhoes-de-euros-que-consolida-a-soberania-dos-superiates-na-toscana-6143"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Ferrari 250 GTO: 18 000 000 USD e Chas...",
-    "image": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "ferrari-250-gto-18-000-000-usd-e-chassi-de-forjamento-de-titanio-em-las-vegas-6794"
   }
 ];
 

@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-hermes-birkin-o-prototipo-origin-1148",
+    "slug": "hermes-birkin-o-prototipo-original-de-jane-birkin-que-vai-a-leilao-com-marcas-de-uso-e-essencia-de-paris-1139",
+    "title": "Hermès Birkin: O Protótipo Original de Jane Birkin que Vai a Leilão com Marcas de Uso e Essência de Paris",
+    "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbXphV0VWUnp6OVhmRC05dmhTaFh6alBBd0poWDRDZHRXT0RiOHdYVU1abWd0ZUl1RWNKUWZ2VzMzRWgwNGxZLTV4SzJPWFZCZWE2QkZzSmdlM3BYWnJ0eGlWNmJfVXhTeFUtbm1KN2J0Nmc4cjh2UWx6Yk4zLXVVaTZwQnpiR2ZITE9PcDBTRQ?oc=5",
+    "categorySlug": "estilo",
+    "authorSlug": "clara-meirelles",
+    "publishedAt": "2026-11-09T11:08:51.148Z"
+  },
+  {
     "id": "art-gold-coast-a-residencia-de-475-m-9214",
     "slug": "gold-coast-a-residencia-de-475-milhoes-de-dolares-em-travertino-romano-que-desafia-o-recorde-imobiliario-da-australia-8416",
     "title": "Gold Coast: A Residência de 47,5 Milhões de Dólares em Travertino Romano que Desafia o Recorde Imobiliário da Austrália",
