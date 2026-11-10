@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-phillips-geneva-watch-auction-24-5088",
+    "slug": "phillips-geneva-watch-auction-24-recordes-historicos-e-o-marco-de-us-100-milhoes-em-manufatura-rara-5078",
+    "title": "Phillips Geneva Watch Auction: 24 Recordes Históricos e o Marco de US$ 100 Milhões em Manufatura Rara",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "category_slug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "author_slug": "clara-meirelles",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "10 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "O leilão suíço reescreve a soberania patrimonial da alta relojoaria, superando a marca centenária de faturamento com calibres que desafiam a entropia temporal.",
+    "contentParagraphs": [
+      "O martelo desceu em Genebra com a precisão de um escape de tourbillon. Vinte e quatro recordes absolutos caíram na última sessão da Phillips, rompendo a barreira matemática dos cem milhões de dólares em transações. O tempo do luxo não é utilitário. Trata-se da mais nobre das telas mecânicas esculpidas por mãos humanas na Vallée de Joux.",
+      "Colecionadores globais disputaram calibres de manufatura com anglage executada à mão com sabugueiro silvestre e mostradores em esmalte Grand Feu vitrificados a 820°C. Cada lote representava horas infindables de microtecnologia onde tolerâncias de mícrons garantem imunidade temporal. Não há espaço para o efêmero quando a matéria-prima é aço temperado e ouro cinza.",
+      "A liquidez internacional migrou diretamente para refúgios de pulso com proveniência impecável e histórico documentado nos arquivos de Le Brassus. Enquanto o mercado comum consome ativos voláteis, a alta relojoaria consolida uma governança dinástica inabalável. O tique-taque mecânico tornou-se a moeda mais sólida contra a inflação dos bens de consumo em massa.",
+      "Este resultado histórico redefine o eixo gravitacional da curadoria museológica privada. O colecionador contemporâneo exige silêncio mineral e exclusividade matemática, rejeitando modismos em favor de peças que atravessam gerações. O leilão de Genebra não apenas vendeu relógios; estabeleceu o novo padrão ouro para o patrimônio global."
+    ],
+    "content_paragraphs": [
+      "O martelo desceu em Genebra com a precisão de um escape de tourbillon. Vinte e quatro recordes absolutos caíram na última sessão da Phillips, rompendo a barreira matemática dos cem milhões de dólares em transações. O tempo do luxo não é utilitário. Trata-se da mais nobre das telas mecânicas esculpidas por mãos humanas na Vallée de Joux.",
+      "Colecionadores globais disputaram calibres de manufatura com anglage executada à mão com sabugueiro silvestre e mostradores em esmalte Grand Feu vitrificados a 820°C. Cada lote representava horas infindables de microtecnologia onde tolerâncias de mícrons garantem imunidade temporal. Não há espaço para o efêmero quando a matéria-prima é aço temperado e ouro cinza.",
+      "A liquidez internacional migrou diretamente para refúgios de pulso com proveniência impecável e histórico documentado nos arquivos de Le Brassus. Enquanto o mercado comum consome ativos voláteis, a alta relojoaria consolida uma governança dinástica inabalável. O tique-taque mecânico tornou-se a moeda mais sólida contra a inflação dos bens de consumo em massa.",
+      "Este resultado histórico redefine o eixo gravitacional da curadoria museológica privada. O colecionador contemporâneo exige silêncio mineral e exclusividade matemática, rejeitando modismos em favor de peças que atravessam gerações. O leilão de Genebra não apenas vendeu relógios; estabeleceu o novo padrão ouro para o patrimônio global."
+    ],
+    "specs": {
+      "faturamento_total": "Ultrapassou US$ 100 Milhões",
+      "recordes_quebrados": "24 marcas históricas absolutas",
+      "ateliers_destacados": "Patek Philippe, Rolex, F.P. Journe e independentes da Vallée de Joux",
+      "local_do_evento": "Hôtel La Réserve, Genebra",
+      "foco_da_curadoria": "Calibres vintage de altíssima complicação e proveniência intocada"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 94,
+    "ranking_score": 94,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-10T18:26:45.085Z",
+    "published_at": "2026-11-10T18:26:45.085Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVlkxSWdpeHZ3d3NoVzNfNHNTWVJJVzBoZ2QtSHdIME9zeE9yMllINVV3aWVnb0Q1bjN0Q2ZYSGFjWWRVblpPVUp0NkFUTkdGdkx6ZUZfWGlJbmpTQXk2aTFkd2YxYXk4M2NxYUdWcHUzZ2xGOVVwd2ZTYl90Q19rTE5nRUI1UmRpMXVkOA?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVlkxSWdpeHZ3d3NoVzNfNHNTWVJJVzBoZ2QtSHdIME9zeE9yMllINVV3aWVnb0Q1bjN0Q2ZYSGFjWWRVblpPVUp0NkFUTkdGdkx6ZUZfWGlJbmpTQXk2aTFkd2YxYXk4M2NxYUdWcHUzZ2xGOVVwd2ZTYl90Q19rTE5nRUI1UmRpMXVkOA?oc=5"
+  },
+  {
     "id": "art-bugatti-americas-duas-decadas-de-3899",
     "slug": "bugatti-americas-duas-decadas-de-dominio-com-tolerancia-de-microns-e-v16-aspirado-3241",
     "title": "Bugatti Americas: Duas Décadas de Domínio com Tolerância de Mícrons e V16 Aspirado",
@@ -178,7 +230,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "10 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -206,10 +258,10 @@ export const ARTICLES = [
       "foco_industrial": "Estruturas e componentes para superiates"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 90,
@@ -1363,65 +1415,20 @@ export const ARTICLES = [
     "published_at": "2026-11-05T17:10:57.346Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGUk80eGZQcmRiM1gyNWdUR283Y0VTQy1JdGJuTHEyQTVZVlhlcmQzUkZjSm1ZbjdoM2RNNHp0LWRWakl6YXBoS3d3VU1wYUhpblppdl9DTVIySVpBUDRiS0p3MHdtVnJVRkt3UWdkdHE?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGUk80eGZQcmRiM1gyNWdUR283Y0VTQy1JdGJuTHEyQTVZVlhlcmQzUkZjSm1ZbjdoM2RNNHp0LWRWakl6YXBoS3d3VU1wYUhpblppdl9DTVIySVpBUDRiS0p3MHdtVnJVRkt3UWdkdHE?oc=5"
-  },
-  {
-    "id": "art-bugatti-type-57sc-atlantic-os-r--1536",
-    "slug": "bugatti-type-57sc-atlantic-os-r-68-milhoes-em-aluminio-rebitado-que-definiram-a-aerodinamica-de-pre-guerra-1407",
-    "title": "Bugatti Type 57SC Atlantic: Os R$ 68 Milhões em Alumínio Rebitado que Definiram a Aerodinâmica de Pré-Guerra",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "05 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1661311928884-7e36f478109f?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "Um exemplar sobrevivente da linhagem Atlantic reafirma sua soberania em leilão, provando que a engenharia de Jean Bugatti transcende a volatilidade dos ativos contemporâneos.",
-    "contentParagraphs": [
-      "O martelo cai sobre o Bugatti Type 57SC Atlantic com a precisão de um mecanismo de escape. A cifra de R$ 68 milhões não é um custo, mas uma métrica de sobrevivência histórica. Enquanto o mercado oscila entre a descartabilidade digital e o plástico termoformado, esta carroceria de alumínio rebitado permanece como um monólito de engenharia. A silhueta de gota d'água corta o ar não por simulação computacional, mas por intuição mecânica pura.",
-      "Sob o capô repousa um bloco de oito cilindros em linha, sobrealimentado por um compressor Roots que eleva a entrega de torque a níveis brutais para a década de 1930. A telemetria inercial deste chassi revela um equilíbrio de peso quase utópico, mantendo o centro de gravidade rebaixado através de uma arquitetura de longarinas de aço de alta resistência. Cada rebitagem externa, visível ao longo da espinha dorsal, não é decorativa; é a costura estrutural que mantém o monocoque íntegro sob estresse de torção.",
-      "O Atlantic é o ponto de inflexão onde a arte de ateliê encontrou a necessidade de performance extrema. Diferente dos hipercarros modernos que dependem de vetoração de torque eletrônica para disfarçar a massa excessiva, o 57SC confia na pureza da trajetória e na precisão da caixa de direção mecânica. O silêncio do motor em marcha lenta contrasta com o urro metálico do compressor ao atingir o pico de rotação, uma sinfonia de fricção e lubrificação que poucos ouvidos humanos terão o privilégio de processar.",
-      "A arrematação deste exemplar é um lembrete severo de que a raridade física é a única proteção real contra a inflação de ativos. O proprietário não adquire um veículo, mas a custódia de um fragmento da história da fluidodinâmica. Em um mundo de hipercarros efêmeros, este Bugatti é o padrão-ouro inquestionável. Ele não corre apenas nas pistas; ele domina o tempo, mantendo sua relevância técnica inalterada há quase um século."
-    ],
-    "content_paragraphs": [
-      "O martelo cai sobre o Bugatti Type 57SC Atlantic com a precisão de um mecanismo de escape. A cifra de R$ 68 milhões não é um custo, mas uma métrica de sobrevivência histórica. Enquanto o mercado oscila entre a descartabilidade digital e o plástico termoformado, esta carroceria de alumínio rebitado permanece como um monólito de engenharia. A silhueta de gota d'água corta o ar não por simulação computacional, mas por intuição mecânica pura.",
-      "Sob o capô repousa um bloco de oito cilindros em linha, sobrealimentado por um compressor Roots que eleva a entrega de torque a níveis brutais para a década de 1930. A telemetria inercial deste chassi revela um equilíbrio de peso quase utópico, mantendo o centro de gravidade rebaixado através de uma arquitetura de longarinas de aço de alta resistência. Cada rebitagem externa, visível ao longo da espinha dorsal, não é decorativa; é a costura estrutural que mantém o monocoque íntegro sob estresse de torção.",
-      "O Atlantic é o ponto de inflexão onde a arte de ateliê encontrou a necessidade de performance extrema. Diferente dos hipercarros modernos que dependem de vetoração de torque eletrônica para disfarçar a massa excessiva, o 57SC confia na pureza da trajetória e na precisão da caixa de direção mecânica. O silêncio do motor em marcha lenta contrasta com o urro metálico do compressor ao atingir o pico de rotação, uma sinfonia de fricção e lubrificação que poucos ouvidos humanos terão o privilégio de processar.",
-      "A arrematação deste exemplar é um lembrete severo de que a raridade física é a única proteção real contra a inflação de ativos. O proprietário não adquire um veículo, mas a custódia de um fragmento da história da fluidodinâmica. Em um mundo de hipercarros efêmeros, este Bugatti é o padrão-ouro inquestionável. Ele não corre apenas nas pistas; ele domina o tempo, mantendo sua relevância técnica inalterada há quase um século."
-    ],
-    "specs": {
-      "motor": "8 cilindros em linha, 3.257cc",
-      "inducao": "Compressor Roots (Supercharger)",
-      "chassi": "Aço de alta resistência com carroceria de alumínio",
-      "estilo": "Jean Bugatti Atlantic Coupe",
-      "tiragem": "4 unidades produzidas originalmente",
-      "valor_leilao": "R$ 68.000.000"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 95,
-    "ranking_score": 95,
-    "engineSource": "gemini:gemini-3.1-flash-lite",
-    "publishedAt": "2026-11-05T11:07:31.536Z",
-    "published_at": "2026-11-05T11:07:31.536Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRF9tXzFRYUhvRnY2UEZDekdncC0tMnhmbHdvM0gxa0steExCaEcxX1F1VjVielhJamgwcUFTSGp4QUQzWEhBa1p4ZGlNckxiQ0hpcjJqempDbTFWVkFSb2FlMFN0N1V1SkRXNVVWOGRPVVh1QXFhb3pOWHpJLUk4dlhiZTFhVlA0ODhQak1qY2w0RlZMMWdnYUZvWUhvakVCRUE?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRF9tXzFRYUhvRnY2UEZDekdncC0tMnhmbHdvM0gxa0steExCaEcxX1F1VjVielhJamgwcUFTSGp4QUQzWEhBa1p4ZGlNckxiQ0hpcjJqempDbTFWVkFSb2FlMFN0N1V1SkRXNVVWOGRPVVh1QXFhb3pOWHpJLUk4dlhiZTFhVlA0ODhQak1qY2w0RlZMMWdnYUZvWUhvakVCRUE?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "SUPERCARROS",
+    "title": "Toyota GR010 Hybrid: O Protótipo de Re...",
+    "image": "https://images.unsplash.com/photo-1731770758454-9d283a702306?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "toyota-gr010-hybrid-o-prototipo-de-resistencia-de-680-cv-que-marca-a-despedida-cinetica-de-mike-conway-nas-pistas-7216"
+  },
+  {
+    "id": "film-2",
     "category": "DESTINOS",
     "title": "Megaiates de 100 Metros: A Escassez Ab...",
     "image": "https://images.unsplash.com/photo-1562281302-809108fd533c?auto=format&fit=max&q=80&w=1400",
@@ -1429,7 +1436,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "megaiates-de-100-metros-a-escassez-absoluta-de-bercos-de-50-milhoes-de-dolares-que-redesenha-a-hidraulica-global-4871"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "ARQUITETURA",
     "title": "Coleção David Geffen: O Leilão de US$ ...",
     "image": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=max&q=80&w=1400",
@@ -1437,7 +1444,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "colecao-david-geffen-o-leilao-de-us-500-milhoes-em-arte-contemporanea-que-reafirma-a-soberania-patrimonial-dinastica-8832"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "DESTINOS",
     "title": "Superiate Oceânico de 185 Milhões de E...",
     "image": "https://images.unsplash.com/photo-1604737637145-48cc31d160eb?auto=format&fit=max&q=80&w=1400",
@@ -1445,7 +1452,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "superiate-oceanico-de-185-milhoes-de-euros-em-maiorca-o-casco-deslocante-de-aco-com-autonomia-transatlantica-e-propulsao-hibrida-silenciosa-6646"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Ferrari Mondial Pace Car: O Investimen...",
     "image": "https://images.unsplash.com/photo-1766353134008-bb3b8b99ddd2?auto=format&fit=max&q=80&w=1400",
@@ -1453,20 +1460,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-mondial-pace-car-o-investimento-de-1-milhao-de-dolares-que-desafiou-a-depreciacao-com-engenharia-de-pista-9371"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Ferrari: €431 Milhões em Lucro Trimest...",
     "image": "https://images.unsplash.com/photo-1650444684180-3f72abb15263?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "ferrari-431-milhoes-em-lucro-trimestral-que-valida-a-engenharia-de-precisao-sobre-a-producao-de-massa-3200"
-  },
-  {
-    "id": "film-6",
-    "category": "DESTINOS",
-    "title": "The Italian Sea Group: O Colapso Finan...",
-    "image": "https://images.unsplash.com/photo-1621277224630-81d9af65e40c?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "the-italian-sea-group-o-colapso-financeiro-de-587-milhoes-que-desafia-a-engenharia-naval-de-alto-luxo-1371"
   }
 ];
 

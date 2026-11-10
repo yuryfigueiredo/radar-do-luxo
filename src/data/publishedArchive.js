@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-phillips-geneva-watch-auction-24-5088",
+    "slug": "phillips-geneva-watch-auction-24-recordes-historicos-e-o-marco-de-us-100-milhoes-em-manufatura-rara-5078",
+    "title": "Phillips Geneva Watch Auction: 24 Recordes Históricos e o Marco de US$ 100 Milhões em Manufatura Rara",
+    "image": "https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVlkxSWdpeHZ3d3NoVzNfNHNTWVJJVzBoZ2QtSHdIME9zeE9yMllINVV3aWVnb0Q1bjN0Q2ZYSGFjWWRVblpPVUp0NkFUTkdGdkx6ZUZfWGlJbmpTQXk2aTFkd2YxYXk4M2NxYUdWcHUzZ2xGOVVwd2ZTYl90Q19rTE5nRUI1UmRpMXVkOA?oc=5",
+    "categorySlug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "publishedAt": "2026-11-10T18:26:45.085Z"
+  },
+  {
     "id": "art-bugatti-americas-duas-decadas-de-3899",
     "slug": "bugatti-americas-duas-decadas-de-dominio-com-tolerancia-de-microns-e-v16-aspirado-3241",
     "title": "Bugatti Americas: Duas Décadas de Domínio com Tolerância de Mícrons e V16 Aspirado",
