@@ -116,6 +116,59 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-bugatti-americas-duas-decadas-de-3899",
+    "slug": "bugatti-americas-duas-decadas-de-dominio-com-tolerancia-de-microns-e-v16-aspirado-3241",
+    "title": "Bugatti Americas: Duas Décadas de Domínio com Tolerância de Mícrons e V16 Aspirado",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "10 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1577735138919-91b6848511c8?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "Sascha Doering celebra vinte anos de expansão no mercado norte-americano, consolidando a supremacia do monocoque em carbo-titânio e o rigor absoluto da engenharia de Molsheim.",
+    "contentParagraphs": [
+      "O asfalto americano sempre exigiu resiliência mecânica extrema. Duas décadas atrás, Molsheim cruzou o Atlântico com uma promessa inegociável de velocidade pura. Sascha Doering ancorou essa expansão sem concessões estéticas. Cada chassi entregue nos Estados Unidos carrega a mesma densidade estrutural que desafia os limites da física moderna. O mercado local absorveu a soberania mecânica como um refúgio contra a obsolescência digital.",
+      "A telemetria inercial não mente sobre o impacto físico nas curvas. Sob o comando de Doering, a marca manteve o foco em blocos monumentais que ignoram a pressa do ecletismo híbrido descartável. A força G lateral exercida sobre o piloto exige escapamentos em Inconel 625 capazes de suportar temperaturas estelares sem deformação térmica. É metalurgia de altíssima tensão, trabalhada com tolerância de mícrons para garantir rigidez torcional absoluta sob aceleração plena.",
+      "Enquanto concorrentes fragmentam seus propulsores em prol de eficiência sintética, a Bugatti preserva a liturgia da combustão massiva. O fluxo de Venturi sob o assoalho esculpido gera downforce monumental, colando o veículo ao solo com precisão cirúrgica. Doering entendeu que o colecionador norte-americano de alto patrimônio não busca apenas transporte. Ele exige custódia fiduciária de uma obra de arte cinética que desafia o tempo e as leis da aerodinâmica.",
+      "O legado de vinte anos coroa uma filosofia onde o ruído digital cede espaço ao roncador primordial de um motor aspirado. Molsheim e as estradas americanas firmaram um pacto de silêncio diante da mediocridade automotiva contemporânea. O resultado é a perpetuação de um mito sobre Rodas, onde cada parafuso de titânio atesta que a excelência mecânica é a única verdadeira imunidade contra o esquecimento."
+    ],
+    "content_paragraphs": [
+      "O asfalto americano sempre exigiu resiliência mecânica extrema. Duas décadas atrás, Molsheim cruzou o Atlântico com uma promessa inegociável de velocidade pura. Sascha Doering ancorou essa expansão sem concessões estéticas. Cada chassi entregue nos Estados Unidos carrega a mesma densidade estrutural que desafia os limites da física moderna. O mercado local absorveu a soberania mecânica como um refúgio contra a obsolescência digital.",
+      "A telemetria inercial não mente sobre o impacto físico nas curvas. Sob o comando de Doering, a marca manteve o foco em blocos monumentais que ignoram a pressa do ecletismo híbrido descartável. A força G lateral exercida sobre o piloto exige escapamentos em Inconel 625 capazes de suportar temperaturas estelares sem deformação térmica. É metalurgia de altíssima tensão, trabalhada com tolerância de mícrons para garantir rigidez torcional absoluta sob aceleração plena.",
+      "Enquanto concorrentes fragmentam seus propulsores em prol de eficiência sintética, a Bugatti preserva a liturgia da combustão massiva. O fluxo de Venturi sob o assoalho esculpido gera downforce monumental, colando o veículo ao solo com precisão cirúrgica. Doering entendeu que o colecionador norte-americano de alto patrimônio não busca apenas transporte. Ele exige custódia fiduciária de uma obra de arte cinética que desafia o tempo e as leis da aerodinâmica.",
+      "O legado de vinte anos coroa uma filosofia onde o ruído digital cede espaço ao roncador primordial de um motor aspirado. Molsheim e as estradas americanas firmaram um pacto de silêncio diante da mediocridade automotiva contemporânea. O resultado é a perpetuação de um mito sobre Rodas, onde cada parafuso de titânio atesta que a excelência mecânica é a única verdadeira imunidade contra o esquecimento."
+    ],
+    "specs": {
+      "Direção Executiva": "Sascha Doering (COO Bugatti Americas)",
+      "Marco Temporal": "20 Anos de Operação no Mercado Norte-Americano",
+      "Material Estrutural": "Monocoque em Carbo-Titânio Curado em Autoclave",
+      "Sistema de Escape": "Inconel 625 de Alta Resistência Térmica",
+      "Aerodinâmica": "Canais Venturi de Efeito Solo Ativo",
+      "Avaliação de Mercado": "Soberania Patrimonial Absoluta"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 90,
+    "ranking_score": 90,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-10T15:10:53.898Z",
+    "published_at": "2026-11-10T15:10:53.898Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNVpoRlFaTXJGWFNNUTJ5Q1Z0cVZURmE4aF9oSkdld2dpUExVcTF3cGtNdFJ5bFhmNnpwV1NOejZjaHNVRzgwMGJHbzNzc2trZUNVdGVfRGJUeXJWMW83cmNva0VLZnRZVUVSWXJKakdTU19LUFhKTk12V3lJM1pqbUcwZ0hJVUNodEVzWjZ3ZURYVnBsNHEyblQwekpvR0NvWmlWR1hFc1hwWVNrWmVGNUpWcExvTWZOSjlnRTE4VTM?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNVpoRlFaTXJGWFNNUTJ5Q1Z0cVZURmE4aF9oSkdld2dpUExVcTF3cGtNdFJ5bFhmNnpwV1NOejZjaHNVRzgwMGJHbzNzc2trZUNVdGVfRGJUeXJWMW83cmNva0VLZnRZVUVSWXJKakdTU19LUFhKTk12V3lJM1pqbUcwZ0hJVUNodEVzWjZ3ZURYVnBsNHEyblQwekpvR0NvWmlWR1hFc1hwWVNrWmVGNUpWcExvTWZOSjlnRTE4VTM?oc=5"
+  },
+  {
     "id": "art-estaleiros-da-tunisia-os-558-mil-2344",
     "slug": "estaleiros-da-tunisia-os-558-milhoes-de-dolares-em-componentes-navais-que-cruzam-o-mediterraneo-com-tolerancia-de-microns-2331",
     "title": "Estaleiros da Tunísia: Os 558 Milhões de Dólares em Componentes Navais que Cruzam o Mediterrâneo com Tolerância de Mícrons",
@@ -1363,64 +1416,20 @@ export const ARTICLES = [
     "published_at": "2026-11-05T11:07:31.536Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRF9tXzFRYUhvRnY2UEZDekdncC0tMnhmbHdvM0gxa0steExCaEcxX1F1VjVielhJamgwcUFTSGp4QUQzWEhBa1p4ZGlNckxiQ0hpcjJqempDbTFWVkFSb2FlMFN0N1V1SkRXNVVWOGRPVVh1QXFhb3pOWHpJLUk4dlhiZTFhVlA0ODhQak1qY2w0RlZMMWdnYUZvWUhvakVCRUE?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRF9tXzFRYUhvRnY2UEZDekdncC0tMnhmbHdvM0gxa0steExCaEcxX1F1VjVielhJamgwcUFTSGp4QUQzWEhBa1p4ZGlNckxiQ0hpcjJqempDbTFWVkFSb2FlMFN0N1V1SkRXNVVWOGRPVVh1QXFhb3pOWHpJLUk4dlhiZTFhVlA0ODhQak1qY2w0RlZMMWdnYUZvWUhvakVCRUE?oc=5"
-  },
-  {
-    "id": "art-superiate-lurssen-de-200-milhoes-7137",
-    "slug": "superiate-lurssen-de-200-milhoes-de-dolares-o-leviata-com-piscina-de-fundo-de-vidro-que-ancorou-na-costa-iberica-7128",
-    "title": "Superiate Lürssen de 200 Milhões de Dólares: O Leviatã com Piscina de Fundo de Vidro que Ancorou na Costa Ibérica",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "04 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1783344422200-a5493824bcb9?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Em águas profundas do Mediterrâneo, uma catedral flutuante de duzentos milhões de dólares redefine a arquitetura naval com engenharia estrutural extrema e calado imponente.",
-    "contentParagraphs": [
-      "A estrutura colossal corta as ondas com precisão cirúrgica. Doiscentos milhões de dólares de metal nobre repousam sobre o mar mediterrâneo. O casco em aço balístico absorve a pressão de mar aberto sem vibração residual. A arquitetura naval contemporânea atinge aqui seu ápice cinético.",
-      "No deck principal, o projeto desafia a física estrutural. Uma piscina com fundo de vidro laminado de alta resistência suspende dezenas de toneladas de água salgada purificada sobre a praça de popa. Os engenheiros calcularam tolerâncias de mícrons para suportar a torção mecânica imposta pelas vagas de través, enquanto geradores silenciosos mantêm o microclima interno sob absoluto isolamento acústico.",
-      "O sistema de propulsão diesel-elétrico entrega velocidade de cruzeiro com silêncio operacional impressionante. Não há ruído de exaustão perceptível nas áreas nobres. Os estabilizadores giroscópicos de zero-speed neutralizam qualquer rolagem lateral, permitindo que a estadia a bordo ocorra com a mesma estabilidade de uma residência construída sobre a rocha sólida.",
-      "A embarcação consolida um novo patamar para os estaleiros do norte europeu. Mais do que um meio de transporte transoceânico, trata-se de uma fortaleza flutuante que prioriza a soberania absoluta do proprietário em alto-mar, longe de qualquer interferência terrestre."
-    ],
-    "content_paragraphs": [
-      "A estrutura colossal corta as ondas com precisão cirúrgica. Doiscentos milhões de dólares de metal nobre repousam sobre o mar mediterrâneo. O casco em aço balístico absorve a pressão de mar aberto sem vibração residual. A arquitetura naval contemporânea atinge aqui seu ápice cinético.",
-      "No deck principal, o projeto desafia a física estrutural. Uma piscina com fundo de vidro laminado de alta resistência suspende dezenas de toneladas de água salgada purificada sobre a praça de popa. Os engenheiros calcularam tolerâncias de mícrons para suportar a torção mecânica imposta pelas vagas de través, enquanto geradores silenciosos mantêm o microclima interno sob absoluto isolamento acústico.",
-      "O sistema de propulsão diesel-elétrico entrega velocidade de cruzeiro com silêncio operacional impressionante. Não há ruído de exaustão perceptível nas áreas nobres. Os estabilizadores giroscópicos de zero-speed neutralizam qualquer rolagem lateral, permitindo que a estadia a bordo ocorra com a mesma estabilidade de uma residência construída sobre a rocha sólida.",
-      "A embarcação consolida um novo patamar para os estaleiros do norte europeu. Mais do que um meio de transporte transoceânico, trata-se de uma fortaleza flutuante que prioriza a soberania absoluta do proprietário em alto-mar, longe de qualquer interferência terrestre."
-    ],
-    "specs": {
-      "Valor Patrimonial": "US$ 200 milhões",
-      "Estaleiro Construtor": "Lürssen Yachts",
-      "Propulsão": "Diesel-elétrica de alta eficiência",
-      "Estabilização": "Giroscópica Zero-Speed",
-      "Destaque Estrutural": "Piscina em vidro laminado estrutural na popa"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 87,
-    "ranking_score": 87,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-04T22:05:57.137Z",
-    "published_at": "2026-11-04T22:05:57.137Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeVczRkVBV1hQS3JyS0p3dWR5NmNMa1JFTnhodW50NVZVOFZCajkxOGFodzVKQ24yUXV3SWNEV1RFVl8teWdnZ294amUybHIxV3JNME9YeDUydzBISTNjWTZQSXNYUmxwTmtxSzRUR25BMFVKeUVJS1daSWtGUkpydEpJeFE0bk11SFpj?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeVczRkVBV1hQS3JyS0p3dWR5NmNMa1JFTnhodW50NVZVOFZCajkxOGFodzVKQ24yUXV3SWNEV1RFVl8teWdnZ294amUybHIxV3JNME9YeDUydzBISTNjWTZQSXNYUmxwTmtxSzRUR25BMFVKeUVJS1daSWtGUkpydEpJeFE0bk11SFpj?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "DESTINOS",
+    "title": "Megaiates de 100 Metros: A Escassez Ab...",
+    "image": "https://images.unsplash.com/photo-1562281302-809108fd533c?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "megaiates-de-100-metros-a-escassez-absoluta-de-bercos-de-50-milhoes-de-dolares-que-redesenha-a-hidraulica-global-4871"
+  },
+  {
+    "id": "film-2",
     "category": "ARQUITETURA",
     "title": "Coleção David Geffen: O Leilão de US$ ...",
     "image": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=max&q=80&w=1400",
@@ -1428,7 +1437,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "colecao-david-geffen-o-leilao-de-us-500-milhoes-em-arte-contemporanea-que-reafirma-a-soberania-patrimonial-dinastica-8832"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "DESTINOS",
     "title": "Superiate Oceânico de 185 Milhões de E...",
     "image": "https://images.unsplash.com/photo-1604737637145-48cc31d160eb?auto=format&fit=max&q=80&w=1400",
@@ -1436,7 +1445,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "superiate-oceanico-de-185-milhoes-de-euros-em-maiorca-o-casco-deslocante-de-aco-com-autonomia-transatlantica-e-propulsao-hibrida-silenciosa-6646"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Ferrari Mondial Pace Car: O Investimen...",
     "image": "https://images.unsplash.com/photo-1766353134008-bb3b8b99ddd2?auto=format&fit=max&q=80&w=1400",
@@ -1444,7 +1453,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-mondial-pace-car-o-investimento-de-1-milhao-de-dolares-que-desafiou-a-depreciacao-com-engenharia-de-pista-9371"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Ferrari: €431 Milhões em Lucro Trimest...",
     "image": "https://images.unsplash.com/photo-1650444684180-3f72abb15263?auto=format&fit=max&q=80&w=1400",
@@ -1452,20 +1461,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-431-milhoes-em-lucro-trimestral-que-valida-a-engenharia-de-precisao-sobre-a-producao-de-massa-3200"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "DESTINOS",
     "title": "The Italian Sea Group: O Colapso Finan...",
     "image": "https://images.unsplash.com/photo-1621277224630-81d9af65e40c?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "the-italian-sea-group-o-colapso-financeiro-de-587-milhoes-que-desafia-a-engenharia-naval-de-alto-luxo-1371"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Ferrari F50: O Recorde de US$ 18,7 Mil...",
-    "image": "https://images.unsplash.com/photo-1635488591151-c7a12939669b?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "ferrari-f50-o-recorde-de-us-187-milhoes-para-o-ultimo-v12-analogico-com-chassi-de-formula-1-7232"
   }
 ];
 
