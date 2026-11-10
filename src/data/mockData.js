@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-estaleiros-da-tunisia-os-558-mil-2344",
+    "slug": "estaleiros-da-tunisia-os-558-milhoes-de-dolares-em-componentes-navais-que-cruzam-o-mediterraneo-com-tolerancia-de-microns-2331",
+    "title": "Estaleiros da Tunísia: Os 558 Milhões de Dólares em Componentes Navais que Cruzam o Mediterrâneo com Tolerância de Mícrons",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "10 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Após fornecer estruturas críticas para o superiate de Cristiano Ronaldo, a indústria naval tunisiana consolida exportações recordes e redesenha o mapa mundial da arquitetura de alto desempenho.",
+    "contentParagraphs": [
+      "O Atlântico ruge na proa. Aço naval e ligas compostas enfrentam a salinidade com insolência. Nos estaleiros do norte africano, o silêncio do trabalho manual contrasta com o barulho dos blocos em usinagem CNC. Nenhuma margem de erro é permitida. Cada junção estrutural exige precisão absoluta.",
+      "A aliança entre a engenharia local e os construtores de superiates europeus atingiu 558 milhões de dólares em exportações. O marco foi impulsionado por fornecimentos de alta complexidade para o casco do superiate de Cristiano Ronaldo. Falamos de monocoques em carbo-titânio curados em autoclave a 6 bar e sistemas de exaustão em Inconel 625 capazes de resistir a pressões térmicas extremas sem perder a rigidez torcional.",
+      "A meta para 2030 é dobrar este volume de negócios. Os estaleiros tunisianos abandonaram a dependência histórica de trabalhos genéricos e assumiram o protagonismo nos cálculos de efeito solo, hidrodinâmica avançada e laminação a vácuo. A força G lateral suportada por estas embarcações em manobras de alta velocidade exige uma rigidez estrutural que poucos estaleiros no mundo conseguem certificar.",
+      "O mercado global de grandes iates exige anonimato e desempenho inegociável. A Tunísia respondeu com telemetria inercial aplicada ao casco e tolerâncias de mícrons que garantem imunidade estrutural contra as piores tempestades do Mediterrâneo. Não há espaço para excessos visuais quando a física dita a regra do jogo."
+    ],
+    "content_paragraphs": [
+      "O Atlântico ruge na proa. Aço naval e ligas compostas enfrentam a salinidade com insolência. Nos estaleiros do norte africano, o silêncio do trabalho manual contrasta com o barulho dos blocos em usinagem CNC. Nenhuma margem de erro é permitida. Cada junção estrutural exige precisão absoluta.",
+      "A aliança entre a engenharia local e os construtores de superiates europeus atingiu 558 milhões de dólares em exportações. O marco foi impulsionado por fornecimentos de alta complexidade para o casco do superiate de Cristiano Ronaldo. Falamos de monocoques em carbo-titânio curados em autoclave a 6 bar e sistemas de exaustão em Inconel 625 capazes de resistir a pressões térmicas extremas sem perder a rigidez torcional.",
+      "A meta para 2030 é dobrar este volume de negócios. Os estaleiros tunisianos abandonaram a dependência histórica de trabalhos genéricos e assumiram o protagonismo nos cálculos de efeito solo, hidrodinâmica avançada e laminação a vácuo. A força G lateral suportada por estas embarcações em manobras de alta velocidade exige uma rigidez estrutural que poucos estaleiros no mundo conseguem certificar.",
+      "O mercado global de grandes iates exige anonimato e desempenho inegociável. A Tunísia respondeu com telemetria inercial aplicada ao casco e tolerâncias de mícrons que garantem imunidade estrutural contra as piores tempestades do Mediterrâneo. Não há espaço para excessos visuais quando a física dita a regra do jogo."
+    ],
+    "specs": {
+      "volume_exportacoes": "US$ 558 milhões",
+      "meta_2030": "Crescimento de 100% (Dobro do volume atual)",
+      "materiais_criticos": "Ligas de Inconel 625 e carbo-titânio",
+      "pressao_autoclave": "6 bar",
+      "foco_industrial": "Estruturas e componentes para superiates"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 90,
+    "ranking_score": 90,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-10T11:10:02.343Z",
+    "published_at": "2026-11-10T11:10:02.343Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcW9yT2pJRUh4N3BKb21Oa2NDZDdTSk41U0oyY25oLWI2VmhWd09KcjhJa1pwLVE4OWxLS19ndHZzVnpseXZWTko1LUNsSHhrQXl5eDNVdXkyaFIwYVNvRUExTUFleHJhV2g3TG1GWWpiREZiQjFGUHpDV2gxTWNuSmdydnF2MTVBQXBGX0NnWjNVZXhuUnBSYzltOS1wa3ZVR3lBdnJxMTZReTRmMTd6a3dmbUxMVzI3SmpYd3BZRTZQTk5lc3JwazI1dkNOZFlOYXpHYWhB?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcW9yT2pJRUh4N3BKb21Oa2NDZDdTSk41U0oyY25oLWI2VmhWd09KcjhJa1pwLVE4OWxLS19ndHZzVnpseXZWTko1LUNsSHhrQXl5eDNVdXkyaFIwYVNvRUExTUFleHJhV2g3TG1GWWpiREZiQjFGUHpDV2gxTWNuSmdydnF2MTVBQXBGX0NnWjNVZXhuUnBSYzltOS1wa3ZVR3lBdnJxMTZReTRmMTd6a3dmbUxMVzI3SmpYd3BZRTZQTk5lc3JwazI1dkNOZFlOYXpHYWhB?oc=5"
+  },
+  {
     "id": "art-alta-joalheria-em-leilao-o-refug-7927",
     "slug": "alta-joalheria-em-leilao-o-refugio-de-liquidez-de-us-85-milhoes-em-diamantes-type-iia-que-desafiam-a-inflacao-global-7916",
     "title": "Alta Joalheria em Leilão: O Refúgio de Liquidez de US$ 85 Milhões em Diamantes Type IIa que Desafiam a Inflação Global",
@@ -176,7 +228,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "09 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -205,10 +257,10 @@ export const ARTICLES = [
       "valor_estimado": "Sob consulta em leilão especializado"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 92,
@@ -1363,65 +1415,20 @@ export const ARTICLES = [
     "published_at": "2026-11-04T22:05:57.137Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeVczRkVBV1hQS3JyS0p3dWR5NmNMa1JFTnhodW50NVZVOFZCajkxOGFodzVKQ24yUXV3SWNEV1RFVl8teWdnZ294amUybHIxV3JNME9YeDUydzBISTNjWTZQSXNYUmxwTmtxSzRUR25BMFVKeUVJS1daSWtGUkpydEpJeFE0bk11SFpj?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeVczRkVBV1hQS3JyS0p3dWR5NmNMa1JFTnhodW50NVZVOFZCajkxOGFodzVKQ24yUXV3SWNEV1RFVl8teWdnZ294amUybHIxV3JNME9YeDUydzBISTNjWTZQSXNYUmxwTmtxSzRUR25BMFVKeUVJS1daSWtGUkpydEpJeFE0bk11SFpj?oc=5"
-  },
-  {
-    "id": "art-gigantes-sob-encomenda-os-6-supe-7863",
-    "slug": "gigantes-sob-encomenda-os-6-superiates-de-120-metros-em-construcao-que-mobilizam-18-bilhao-de-euros-em-silencio-mineral-7855",
-    "title": "Gigantes Sob Encomenda: Os 6 Superiates de 120 Metros em Construção que Mobilizam 1,8 Bilhão de Euros em Silêncio Mineral",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "04 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Longe dos olhares públicos e de marinas saturadas, a engenharia naval de ponta gesta seis cascos colossais que redefinem os parâmetros de soberania patrimonial e isolamento mecânico absoluto.",
-    "contentParagraphs": [
-      "O aço naval repousa em galpões climatizados. Longe do ruído habitual das feiras náuticas comerciais, seis cascos colossais emergem sob o mais absoluto sigilo nos estaleiros da Alemanha e da Holanda. O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Projetos com extensão superior a cem metros exigem anos de gestação cirúrgica, combinando soluções de arquitetura oceânica sem precedentes com especificações que incluem o uso estrutural de travertino romano navona usinado com tolerâncias micrométricas em ambientes internos.",
-      "A precisão mecânica impõe respeito. Telemetria inercial de ponta e propulsão híbrida alimentada por células de combustível a hidrogênio equipam a nova geração desses gigantes marítimos. Um dos cascos em montagem utiliza propulsores azimutais de mancais magnéticos desenvolvidos para anular qualquer tipo de cavitação a 22 nós de velocidade contínua. A assinatura acústica interna foi reduzida a níveis imperceptíveis mediante o emprego de polímeros viscoplásticos sob as coberturas de convés. O controle de estabilização giroscópica dupla anula totalmente o adernamento em mar aberto.",
-      "Estes megaprojetos atuam como um inabalável refúgio de liquidez. Em períodos de volatilidade nos mercados globais, embarcações artesanais de altíssimo calibre mantêm sua imunidade temporal e preservam o capital investido contra sobressaltos inflacionários. A custódia fiduciária de ativos dessa envergadura envolve complexos instrumentos de governança dinástica e cláusulas de confidencialidade estritas. Não há vazamento de plantas ou especificações decorativas. Observadores registram apenas a autonomia transoceânica superior a seis mil milhas náuticas e os helipontos totalmente integrados com certificação operacional para tempestades severas.",
-      "A maestria técnica oculta-se atrás das paredes dos galpões alemães e holandeses. O resultado dessas seis fortalezas navais começará a cruzar as águas profundas apenas no final desta década. Para os detentores desses contratos, o oceano global não representa um palco de exibição social. Trata-se, essencialmente, da extensão máxima de um domínio privado e autossuficiente."
-    ],
-    "content_paragraphs": [
-      "O aço naval repousa em galpões climatizados. Longe do ruído habitual das feiras náuticas comerciais, seis cascos colossais emergem sob o mais absoluto sigilo nos estaleiros da Alemanha e da Holanda. O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Projetos com extensão superior a cem metros exigem anos de gestação cirúrgica, combinando soluções de arquitetura oceânica sem precedentes com especificações que incluem o uso estrutural de travertino romano navona usinado com tolerâncias micrométricas em ambientes internos.",
-      "A precisão mecânica impõe respeito. Telemetria inercial de ponta e propulsão híbrida alimentada por células de combustível a hidrogênio equipam a nova geração desses gigantes marítimos. Um dos cascos em montagem utiliza propulsores azimutais de mancais magnéticos desenvolvidos para anular qualquer tipo de cavitação a 22 nós de velocidade contínua. A assinatura acústica interna foi reduzida a níveis imperceptíveis mediante o emprego de polímeros viscoplásticos sob as coberturas de convés. O controle de estabilização giroscópica dupla anula totalmente o adernamento em mar aberto.",
-      "Estes megaprojetos atuam como um inabalável refúgio de liquidez. Em períodos de volatilidade nos mercados globais, embarcações artesanais de altíssimo calibre mantêm sua imunidade temporal e preservam o capital investido contra sobressaltos inflacionários. A custódia fiduciária de ativos dessa envergadura envolve complexos instrumentos de governança dinástica e cláusulas de confidencialidade estritas. Não há vazamento de plantas ou especificações decorativas. Observadores registram apenas a autonomia transoceânica superior a seis mil milhas náuticas e os helipontos totalmente integrados com certificação operacional para tempestades severas.",
-      "A maestria técnica oculta-se atrás das paredes dos galpões alemães e holandeses. O resultado dessas seis fortalezas navais começará a cruzar as águas profundas apenas no final desta década. Para os detentores desses contratos, o oceano global não representa um palco de exibição social. Trata-se, essencialmente, da extensão máxima de um domínio privado e autossuficiente."
-    ],
-    "specs": {
-      "comprimento_medio": "115 a 140 metros de convés",
-      "propulsao": "Híbrida (Célula de Hidrogênio + Diesel-Elétrico Azimutal)",
-      "autonomia_de_cruzeiro": "6.500 milhas náuticas ininterruptas",
-      "investimento_global": "€ 1,8 bilhão (somatório das 6 unidades)",
-      "isolamento_acustico": "Abaixo de 35 dB em navegação contínua",
-      "custodia_patrimonial": "Estruturas fiduciárias fechadas de governança dinástica"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "engineSource": "gemini:gemini-3.5-flash",
-    "publishedAt": "2026-11-04T18:36:07.862Z",
-    "published_at": "2026-11-04T18:36:07.862Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcnUzXzBNYXJGalpNU2tvSzB4OXlqN3d2OXl3YWhLejJ0c3kyU1M5ZUM3WElSR19IcmZrV0RIVklDX3VrUXVpT1J2X183QTA2YkRvYld0Ym9senhxX3pPc0pxaDNOSm9TUHJyNk5BZ3U0ZGRWZktmVndBMEdYZVBIOEVqM1dKNy1FOVgxaG4tdE9vNmhudkFjNl9SQkx4ZVl5OHZpNkh1VTFoMWlKOFE?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcnUzXzBNYXJGalpNU2tvSzB4OXlqN3d2OXl3YWhLejJ0c3kyU1M5ZUM3WElSR19IcmZrV0RIVklDX3VrUXVpT1J2X183QTA2YkRvYld0Ym9senhxX3pPc0pxaDNOSm9TUHJyNk5BZ3U0ZGRWZktmVndBMEdYZVBIOEVqM1dKNy1FOVgxaG4tdE9vNmhudkFjNl9SQkx4ZVl5OHZpNkh1VTFoMWlKOFE?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "ARQUITETURA",
+    "title": "Coleção David Geffen: O Leilão de US$ ...",
+    "image": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "colecao-david-geffen-o-leilao-de-us-500-milhoes-em-arte-contemporanea-que-reafirma-a-soberania-patrimonial-dinastica-8832"
+  },
+  {
+    "id": "film-2",
     "category": "DESTINOS",
     "title": "Superiate Oceânico de 185 Milhões de E...",
     "image": "https://images.unsplash.com/photo-1604737637145-48cc31d160eb?auto=format&fit=max&q=80&w=1400",
@@ -1429,7 +1436,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "superiate-oceanico-de-185-milhoes-de-euros-em-maiorca-o-casco-deslocante-de-aco-com-autonomia-transatlantica-e-propulsao-hibrida-silenciosa-6646"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Ferrari Mondial Pace Car: O Investimen...",
     "image": "https://images.unsplash.com/photo-1766353134008-bb3b8b99ddd2?auto=format&fit=max&q=80&w=1400",
@@ -1437,7 +1444,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-mondial-pace-car-o-investimento-de-1-milhao-de-dolares-que-desafiou-a-depreciacao-com-engenharia-de-pista-9371"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Ferrari: €431 Milhões em Lucro Trimest...",
     "image": "https://images.unsplash.com/photo-1650444684180-3f72abb15263?auto=format&fit=max&q=80&w=1400",
@@ -1445,7 +1452,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-431-milhoes-em-lucro-trimestral-que-valida-a-engenharia-de-precisao-sobre-a-producao-de-massa-3200"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "DESTINOS",
     "title": "The Italian Sea Group: O Colapso Finan...",
     "image": "https://images.unsplash.com/photo-1621277224630-81d9af65e40c?auto=format&fit=max&q=80&w=1400",
@@ -1453,20 +1460,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "the-italian-sea-group-o-colapso-financeiro-de-587-milhoes-que-desafia-a-engenharia-naval-de-alto-luxo-1371"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Ferrari F50: O Recorde de US$ 18,7 Mil...",
     "image": "https://images.unsplash.com/photo-1635488591151-c7a12939669b?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "ferrari-f50-o-recorde-de-us-187-milhoes-para-o-ultimo-v12-analogico-com-chassi-de-formula-1-7232"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Bugatti Type 57SC Atlantic: Os R$ 68 M...",
-    "image": "https://images.unsplash.com/photo-1661311928884-7e36f478109f?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "bugatti-type-57sc-atlantic-os-r-68-milhoes-em-aluminio-rebitado-que-definiram-a-aerodinamica-de-pre-guerra-1407"
   }
 ];
 

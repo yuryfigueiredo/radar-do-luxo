@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-estaleiros-da-tunisia-os-558-mil-2344",
+    "slug": "estaleiros-da-tunisia-os-558-milhoes-de-dolares-em-componentes-navais-que-cruzam-o-mediterraneo-com-tolerancia-de-microns-2331",
+    "title": "Estaleiros da Tunísia: Os 558 Milhões de Dólares em Componentes Navais que Cruzam o Mediterrâneo com Tolerância de Mícrons",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcW9yT2pJRUh4N3BKb21Oa2NDZDdTSk41U0oyY25oLWI2VmhWd09KcjhJa1pwLVE4OWxLS19ndHZzVnpseXZWTko1LUNsSHhrQXl5eDNVdXkyaFIwYVNvRUExTUFleHJhV2g3TG1GWWpiREZiQjFGUHpDV2gxTWNuSmdydnF2MTVBQXBGX0NnWjNVZXhuUnBSYzltOS1wa3ZVR3lBdnJxMTZReTRmMTd6a3dmbUxMVzI3SmpYd3BZRTZQTk5lc3JwazI1dkNOZFlOYXpHYWhB?oc=5",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-10T11:10:02.343Z"
+  },
+  {
     "id": "art-alta-joalheria-em-leilao-o-refug-7927",
     "slug": "alta-joalheria-em-leilao-o-refugio-de-liquidez-de-us-85-milhoes-em-diamantes-type-iia-que-desafiam-a-inflacao-global-7916",
     "title": "Alta Joalheria em Leilão: O Refúgio de Liquidez de US$ 85 Milhões em Diamantes Type IIa que Desafiam a Inflação Global",
