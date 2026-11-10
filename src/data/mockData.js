@@ -116,6 +116,57 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-alta-joalheria-em-leilao-o-refug-7927",
+    "slug": "alta-joalheria-em-leilao-o-refugio-de-liquidez-de-us-85-milhoes-em-diamantes-type-iia-que-desafiam-a-inflacao-global-7916",
+    "title": "Alta Joalheria em Leilão: O Refúgio de Liquidez de US$ 85 Milhões em Diamantes Type IIa que Desafiam a Inflação Global",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "10 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A soberania patrimonial encontra seu porto seguro definitivo nos salões de Genebra. Gemas brutas sem traços de nitrogênio operam como covenants intransponíveis contra a volatilidade fiat.",
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Enquanto o capital especulativo consome-se em ativos efêmeros, os grandes leilões de alta joalheria em Genebra e Londres revelam uma rotação tectônica em direção a ativos de imunidade temporal comprovada.",
+      "A raridade extrema dita as regras da custódia fiduciária moderna. Um colar de diamantes Type IIa, purificados ao longo de eras geológicas e livres de qualquer impureza molecular mensurável, não representa mero adorno, mas uma reserva soberana de valor ancorada na física implacável da Terra.",
+      "A governança dinástica exige liquidez sem obsolescência. Peças históricas assinadas por casas centenárias operam com descorrelação quase absoluta frente aos mercados acionários, blindando fortunas familiares contra tempestades geopolíticas e ciclos inflacionários sistêmicos.",
+      "No tabuleiro dos grandes leilões, a posse de uma gema com procedência imaculada e certificação de ateliê consolida a verdadeira soberania patrimonial. O silêncio mineral destas pedras preciosas perpetua legados quando todo o resto reduz-se a poeira monetária."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Enquanto o capital especulativo consome-se em ativos efêmeros, os grandes leilões de alta joalheria em Genebra e Londres revelam uma rotação tectônica em direção a ativos de imunidade temporal comprovada.",
+      "A raridade extrema dita as regras da custódia fiduciária moderna. Um colar de diamantes Type IIa, purificados ao longo de eras geológicas e livres de qualquer impureza molecular mensurável, não representa mero adorno, mas uma reserva soberana de valor ancorada na física implacável da Terra.",
+      "A governança dinástica exige liquidez sem obsolescência. Peças históricas assinadas por casas centenárias operam com descorrelação quase absoluta frente aos mercados acionários, blindando fortunas familiares contra tempestades geopolíticas e ciclos inflacionários sistêmicos.",
+      "No tabuleiro dos grandes leilões, a posse de uma gema com procedência imaculada e certificação de ateliê consolida a verdadeira soberania patrimonial. O silêncio mineral destas pedras preciosas perpetua legados quando todo o resto reduz-se a poeira monetária."
+    ],
+    "specs": {
+      "Ativo de Custódia": "Diamante Type IIa D-Flawless",
+      "Origem Geológica": "Minas Históricas de Golconda",
+      "Tiragem Física": "Peça Única Documentada",
+      "Cotação de Leilão": "US$ 38.4 Milhões"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 87,
+    "ranking_score": 87,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-10T01:19:27.927Z",
+    "published_at": "2026-11-10T01:19:27.927Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSWZUam1CNkszQk9jM1l0X0VGNWhtOWI0el9iUTFxTnF1SUE4UktNYzcweGVVRWc5Tm5uVVlfSTZEb1lJdkFfX1pfYm9EUEVWdEJlUVlCWFJhYy1RbWJ5NHZqay1qdVFOOUlGN3JTWWxReVQ0ZVJBcWNSODdETldCYk96SFNFVUFyaGlhMmVpZ3psVVlMMG5UYjE2OHJ5dw?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSWZUam1CNkszQk9jM1l0X0VGNWhtOWI0el9iUTFxTnF1SUE4UktNYzcweGVVRWc5Tm5uVVlfSTZEb1lJdkFfX1pfYm9EUEVWdEJlUVlCWFJhYy1RbWJ5NHZqay1qdVFOOUlGN3JTWWxReVQ0ZVJBcWNSODdETldCYk96SFNFVUFyaGlhMmVpZ3psVVlMMG5UYjE2OHJ5dw?oc=5"
+  },
+  {
     "id": "art-ferrari-f355-de-jeremy-clarkson--5860",
     "slug": "ferrari-f355-de-jeremy-clarkson-o-v8-aspirado-de-35-litros-e-cambio-manual-em-gated-shifter-retorna-ao-leilao-5851",
     "title": "Ferrari F355 de Jeremy Clarkson: O V8 Aspirado de 3.5 Litros e Câmbio Manual em Gated Shifter Retorna ao Leilão",
@@ -1365,64 +1416,20 @@ export const ARTICLES = [
     "published_at": "2026-11-04T18:36:07.862Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcnUzXzBNYXJGalpNU2tvSzB4OXlqN3d2OXl3YWhLejJ0c3kyU1M5ZUM3WElSR19IcmZrV0RIVklDX3VrUXVpT1J2X183QTA2YkRvYld0Ym9senhxX3pPc0pxaDNOSm9TUHJyNk5BZ3U0ZGRWZktmVndBMEdYZVBIOEVqM1dKNy1FOVgxaG4tdE9vNmhudkFjNl9SQkx4ZVl5OHZpNkh1VTFoMWlKOFE?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcnUzXzBNYXJGalpNU2tvSzB4OXlqN3d2OXl3YWhLejJ0c3kyU1M5ZUM3WElSR19IcmZrV0RIVklDX3VrUXVpT1J2X183QTA2YkRvYld0Ym9senhxX3pPc0pxaDNOSm9TUHJyNk5BZ3U0ZGRWZktmVndBMEdYZVBIOEVqM1dKNy1FOVgxaG4tdE9vNmhudkFjNl9SQkx4ZVl5OHZpNkh1VTFoMWlKOFE?oc=5"
-  },
-  {
-    "id": "art-the-italian-sea-group-o-resgate--6242",
-    "slug": "the-italian-sea-group-o-resgate-de-220-milhoes-de-euros-que-consolida-a-soberania-dos-superiates-na-toscana-6143",
-    "title": "The Italian Sea Group: O Resgate de 220 Milhões de Euros que Consolida a Soberania dos Superiates na Toscana",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "04 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A injeção de capital pela SRI Group marca a reestruturação estratégica da TISG, garantindo a continuidade de monocoques em alumínio de alta performance e a engenharia de precisão que define o patamar de 100 metros.",
-    "contentParagraphs": [
-      "A solidez de um estaleiro não reside apenas na espessura de seu casco, mas na resiliência de seu balanço patrimonial. A TISG acaba de selar um acordo de 220 milhões de euros com a SRI Group, uma manobra técnica necessária para estancar a volatilidade e preservar a integridade estrutural das linhas Admiral e Tecnomar. O estaleiro de Marina di Carrara, conhecido por seus fluxos de Venturi aplicados à hidrodinâmica, agora estabiliza sua trajetória operacional.",
-      "A engenharia naval de elite exige tolerâncias de mícrons que se traduzem em eficiência de cruzeiro e comportamento inercial impecável sob mares severos. Esta reestruturação garante que o desenvolvimento de monocoques em ligas de alumínio 5083, curados com precisão cirúrgica, não sofra interrupções. A capacidade de sustentar a propulsão em eixos de alta rotação, mantendo baixos níveis de vibração harmônica, exige liquidez constante e fluxo ininterrupto de insumos de classe mundial.",
-      "No mercado de superiates, a confiança é o lastro que precede a assinatura do contrato de construção. Enquanto competidores se perdem em estéticas superficiais, a TISG mantém o foco na arquitetura naval pura, onde o centro de gravidade e o coeficiente de arrasto definem a excelência. Este aporte financeiro atua como um estabilizador de aleta ativo para a governança da empresa, isolando a produção de elite das flutuações macroeconômicas que frequentemente desviam o curso de estaleiros menos preparados.",
-      "A arquitetura de um iate de 100 metros é um exercício de física aplicada, onde cada quilo economizado na superestrutura de alumínio se converte em autonomia e performance em regime de cruzeiro. Com a SRI Group aportando o capital necessário, a TISG reafirma sua posição no topo da pirâmide naval. O veredito é claro: o capital flui para onde a engenharia desafia a inércia, garantindo que o legado de design italiano permaneça intocado pelas turbulências do mercado financeiro."
-    ],
-    "content_paragraphs": [
-      "A solidez de um estaleiro não reside apenas na espessura de seu casco, mas na resiliência de seu balanço patrimonial. A TISG acaba de selar um acordo de 220 milhões de euros com a SRI Group, uma manobra técnica necessária para estancar a volatilidade e preservar a integridade estrutural das linhas Admiral e Tecnomar. O estaleiro de Marina di Carrara, conhecido por seus fluxos de Venturi aplicados à hidrodinâmica, agora estabiliza sua trajetória operacional.",
-      "A engenharia naval de elite exige tolerâncias de mícrons que se traduzem em eficiência de cruzeiro e comportamento inercial impecável sob mares severos. Esta reestruturação garante que o desenvolvimento de monocoques em ligas de alumínio 5083, curados com precisão cirúrgica, não sofra interrupções. A capacidade de sustentar a propulsão em eixos de alta rotação, mantendo baixos níveis de vibração harmônica, exige liquidez constante e fluxo ininterrupto de insumos de classe mundial.",
-      "No mercado de superiates, a confiança é o lastro que precede a assinatura do contrato de construção. Enquanto competidores se perdem em estéticas superficiais, a TISG mantém o foco na arquitetura naval pura, onde o centro de gravidade e o coeficiente de arrasto definem a excelência. Este aporte financeiro atua como um estabilizador de aleta ativo para a governança da empresa, isolando a produção de elite das flutuações macroeconômicas que frequentemente desviam o curso de estaleiros menos preparados.",
-      "A arquitetura de um iate de 100 metros é um exercício de física aplicada, onde cada quilo economizado na superestrutura de alumínio se converte em autonomia e performance em regime de cruzeiro. Com a SRI Group aportando o capital necessário, a TISG reafirma sua posição no topo da pirâmide naval. O veredito é claro: o capital flui para onde a engenharia desafia a inércia, garantindo que o legado de design italiano permaneça intocado pelas turbulências do mercado financeiro."
-    ],
-    "specs": {
-      "montante_reestruturacao": "220 milhões de euros",
-      "foco_operacional": "Engenharia naval de alto desempenho",
-      "materiais_chave": "Liga de alumínio 5083 e aço naval",
-      "sede_estaleiro": "Marina di Carrara, Itália",
-      "segmento_alvo": "Superiates acima de 60 metros"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 90,
-    "ranking_score": 90,
-    "engineSource": "gemini:gemini-3.1-flash-lite",
-    "publishedAt": "2026-11-04T17:00:46.241Z",
-    "published_at": "2026-11-04T17:00:46.241Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONFRUWkpXTWpHazIwQmZWVDI2aGtmajNfeS15dnUzcGNBaHdGelB5Wlg2dDN0STZZTmRvMkhVYjh3cjMxTS01OFFNM0JNWHBuWElEcVBCRWw3NnFELVBLa3R2M1JkeG9XSGEzLWF0TFVBVGlEN0JkTlVVc3VIOU03bGJzbEZpUWY5WUE?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONFRUWkpXTWpHazIwQmZWVDI2aGtmajNfeS15dnUzcGNBaHdGelB5Wlg2dDN0STZZTmRvMkhVYjh3cjMxTS01OFFNM0JNWHBuWElEcVBCRWw3NnFELVBLa3R2M1JkeG9XSGEzLWF0TFVBVGlEN0JkTlVVc3VIOU03bGJzbEZpUWY5WUE?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "DESTINOS",
+    "title": "Superiate Oceânico de 185 Milhões de E...",
+    "image": "https://images.unsplash.com/photo-1604737637145-48cc31d160eb?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "superiate-oceanico-de-185-milhoes-de-euros-em-maiorca-o-casco-deslocante-de-aco-com-autonomia-transatlantica-e-propulsao-hibrida-silenciosa-6646"
+  },
+  {
+    "id": "film-2",
     "category": "SUPERCARROS",
     "title": "Ferrari Mondial Pace Car: O Investimen...",
     "image": "https://images.unsplash.com/photo-1766353134008-bb3b8b99ddd2?auto=format&fit=max&q=80&w=1400",
@@ -1430,7 +1437,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-mondial-pace-car-o-investimento-de-1-milhao-de-dolares-que-desafiou-a-depreciacao-com-engenharia-de-pista-9371"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Ferrari: €431 Milhões em Lucro Trimest...",
     "image": "https://images.unsplash.com/photo-1650444684180-3f72abb15263?auto=format&fit=max&q=80&w=1400",
@@ -1438,7 +1445,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-431-milhoes-em-lucro-trimestral-que-valida-a-engenharia-de-precisao-sobre-a-producao-de-massa-3200"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "DESTINOS",
     "title": "The Italian Sea Group: O Colapso Finan...",
     "image": "https://images.unsplash.com/photo-1621277224630-81d9af65e40c?auto=format&fit=max&q=80&w=1400",
@@ -1446,7 +1453,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "the-italian-sea-group-o-colapso-financeiro-de-587-milhoes-que-desafia-a-engenharia-naval-de-alto-luxo-1371"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Ferrari F50: O Recorde de US$ 18,7 Mil...",
     "image": "https://images.unsplash.com/photo-1635488591151-c7a12939669b?auto=format&fit=max&q=80&w=1400",
@@ -1454,20 +1461,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-f50-o-recorde-de-us-187-milhoes-para-o-ultimo-v12-analogico-com-chassi-de-formula-1-7232"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Bugatti Type 57SC Atlantic: Os R$ 68 M...",
     "image": "https://images.unsplash.com/photo-1661311928884-7e36f478109f?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "bugatti-type-57sc-atlantic-os-r-68-milhoes-em-aluminio-rebitado-que-definiram-a-aerodinamica-de-pre-guerra-1407"
-  },
-  {
-    "id": "film-6",
-    "category": "DESTINOS",
-    "title": "Superiate Lürssen de 200 Milhões de Dó...",
-    "image": "https://images.unsplash.com/photo-1783344422200-a5493824bcb9?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "superiate-lurssen-de-200-milhoes-de-dolares-o-leviata-com-piscina-de-fundo-de-vidro-que-ancorou-na-costa-iberica-7128"
   }
 ];
 
