@@ -9,7 +9,7 @@ const LOCAL_STORAGE_DROPS_KEY = 'radar_custom_drops';
 const LOCAL_STORAGE_SUBSCRIBERS_KEY = 'radar_newsletter_subscribers';
 const LOCAL_STORAGE_CONCIERGE_KEY = 'radar_concierge_inquiries';
 const LOCAL_STORAGE_VERSION_KEY = 'radar_content_version';
-export const CURRENT_CONTENT_VERSION = 'v3.0_1794417074128';
+export const CURRENT_CONTENT_VERSION = 'v3.0_1794422438751';
 
 function slugifyArticlePart(value) {
   return String(value || '')

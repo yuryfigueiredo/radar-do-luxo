@@ -116,6 +116,59 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-ferrari-f40-o-icone-de-4-milhoes-8619",
+    "slug": "ferrari-f40-o-icone-de-4-milhoes-e-tubos-de-inconel-que-converteu-as-ruas-em-pista-de-testes-de-maranello-8607",
+    "title": "Ferrari F40: O Ícone de $4 Milhões e Tubos de Inconel que Converteu as Ruas em Pista de Testes de Maranello",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "11 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "A aparição pública de uma unidade imaculada da F40 na calçada urbana expõe a urgência mecânica do último superesportivo concebido pessoalmente por Enzo Ferrari.",
+    "contentParagraphs": [
+      "As portas em fibra de carbono cru revelam tramas visíveis sob a resina sem acabamento cosmético. Apenas metal, peso aliviado e a ausência absoluta de isolamento acústico definem o habitáculo. O monocoque expõe parafusos de titânio e cabos aparentes. É a telemetria nua.",
+      "Atrás dos bancos recobertos de tecido antichamas, o motor V8 biturbo de 2,9 litros trabalha com folgas rigorosas e tolerâncias de mícrons. Quando as turbinas IHI entram em carga plena a 4.000 RPM, o fluxo de ar rasga os dutos em formato NACA com um assobio metálico estridente. A força G lateral comprime o tórax contra os cintos de quatro pontos com brutalidade mecânica.",
+      "Enquanto a indústria se curva à automação elétrica e ao isolamento digital, o chassi tubular com painéis em composite mantém sua rigidez torcional intacta após décadas. Cada solda no chassi relata a obsessão da Scuderia por eficiência aerodinâmica pura e coeficientes de arrasto implacáveis. Trata-se de engenharia civil convertida em propulsão balística.",
+      "A experiência estática proporcionada na via pública transcende o mero fetichismo automotivo. O escapamento quádruplo em Inconel 625 exala o cheiro característico de óleo quente e gasolina de alta octanagem. É a prova física de que a verdadeira autoridade mecânica dispensa apresentações: ela ruge através de pressões de óleo e rotações puras."
+    ],
+    "content_paragraphs": [
+      "As portas em fibra de carbono cru revelam tramas visíveis sob a resina sem acabamento cosmético. Apenas metal, peso aliviado e a ausência absoluta de isolamento acústico definem o habitáculo. O monocoque expõe parafusos de titânio e cabos aparentes. É a telemetria nua.",
+      "Atrás dos bancos recobertos de tecido antichamas, o motor V8 biturbo de 2,9 litros trabalha com folgas rigorosas e tolerâncias de mícrons. Quando as turbinas IHI entram em carga plena a 4.000 RPM, o fluxo de ar rasga os dutos em formato NACA com um assobio metálico estridente. A força G lateral comprime o tórax contra os cintos de quatro pontos com brutalidade mecânica.",
+      "Enquanto a indústria se curva à automação elétrica e ao isolamento digital, o chassi tubular com painéis em composite mantém sua rigidez torcional intacta após décadas. Cada solda no chassi relata a obsessão da Scuderia por eficiência aerodinâmica pura e coeficientes de arrasto implacáveis. Trata-se de engenharia civil convertida em propulsão balística.",
+      "A experiência estática proporcionada na via pública transcende o mero fetichismo automotivo. O escapamento quádruplo em Inconel 625 exala o cheiro característico de óleo quente e gasolina de alta octanagem. É a prova física de que a verdadeira autoridade mecânica dispensa apresentações: ela ruge através de pressões de óleo e rotações puras."
+    ],
+    "specs": {
+      "motor": "V8 2.9L biturbo a 90 graus",
+      "potencia": "478 cv a 7.000 RPM",
+      "torque": "58,8 kgfm a 4.000 RPM",
+      "chassi": "Tubular em aço com reforços em composite",
+      "peso_a_seco": "1.235 kg",
+      "avaliacao_mercado": "$4.000.000 USD"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 92,
+    "ranking_score": 92,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-11T18:29:38.619Z",
+    "published_at": "2026-11-11T18:29:38.619Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFAyRHYzeFlyMkNiLTBjVFJ3UVp2Sm9ZR1czX3Jyam5uMWNOSGpoQ3VUTmJMelpNVzhVRkVZMDZjekZkZktaakFxaG5QRWtaODYxZllSX0V4V3RnUnVRTUF4bGliM3luV1A4R0JWQVlkdnN4dw?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAyRHYzeFlyMkNiLTBjVFJ3UVp2Sm9ZR1czX3Jyam5uMWNOSGpoQ3VUTmJMelpNVzhVRkVZMDZjekZkZktaakFxaG5QRWtaODYxZllSX0V4V3RnUnVRTUF4bGliM3luV1A4R0JWQVlkdnN4dw?oc=5"
+  },
+  {
     "id": "art-gooding-christies-geneva-sale-20-3821",
     "slug": "gooding-christies-geneva-sale-2026-142-milhoes-de-francos-suicos-e-o-triunfo-dos-chassis-conservados-em-silencio-mineral-3811",
     "title": "Gooding Christie’s Geneva Sale 2026: 142 Milhões de Francos Suíços e o Triunfo dos Chassis Conservados em Silêncio Mineral",
@@ -1363,64 +1416,20 @@ export const ARTICLES = [
     "published_at": "2026-11-06T03:10:47.108Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNTFRa3dzQ21sbXk1bEhqd3g0YTNaVnZnazNWV0tMd24zSDZrZXVsRkgxSjJfdmVYWEppZDhMTlA2eElPZ0VxTHR4M3MtUmNhSVk1Z0xHaTdYQ1BKM0ZhY3pLRFhUS1pkYXdFbVRVYVE5WHVQS3U2NlE5YlJ6dzR5VlVoLXpEMnAwNWJKazFrc3M4M2ZzanlZWllnYUNsdGxFNkFnclhPM3BRNjJObmd5Tm9zamN3bFnSAbcBQVVfeXFMTmJ6dUNmRGYyVzRrdUZ0d1JKYTBBV0haOW9DdjcxYlNnSEY1MFV4VlZfTDdwWTk0VGgtek1JLW8tRmk5ZktSdGhyNVEteXozR3dXN0pMSUs5SURxbTZOTTFINFg1MXhRMEFkOENXVTR0NDU1RlphM0tLTkV4RzR0a0pBVHdzeHNXaHU2NzFZNGJySEtZM095RHM1azVraUxBM0l6NHN4UDYxbGF0R2JvRUFFNkh4a2E4?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNTFRa3dzQ21sbXk1bEhqd3g0YTNaVnZnazNWV0tMd24zSDZrZXVsRkgxSjJfdmVYWEppZDhMTlA2eElPZ0VxTHR4M3MtUmNhSVk1Z0xHaTdYQ1BKM0ZhY3pLRFhUS1pkYXdFbVRVYVE5WHVQS3U2NlE5YlJ6dzR5VlVoLXpEMnAwNWJKazFrc3M4M2ZzanlZWllnYUNsdGxFNkFnclhPM3BRNjJObmd5Tm9zamN3bFnSAbcBQVVfeXFMTmJ6dUNmRGYyVzRrdUZ0d1JKYTBBV0haOW9DdjcxYlNnSEY1MFV4VlZfTDdwWTk0VGgtek1JLW8tRmk5ZktSdGhyNVEteXozR3dXN0pMSUs5SURxbTZOTTFINFg1MXhRMEFkOENXVTR0NDU1RlphM0tLTkV4RzR0a0pBVHdzeHNXaHU2NzFZNGJySEtZM095RHM1azVraUxBM0l6NHN4UDYxbGF0R2JvRUFFNkh4a2E4?oc=5"
-  },
-  {
-    "id": "art-ferrari-mondial-pace-car-o-inves-9505",
-    "slug": "ferrari-mondial-pace-car-o-investimento-de-1-milhao-de-dolares-que-desafiou-a-depreciacao-com-engenharia-de-pista-9371",
-    "title": "Ferrari Mondial Pace Car: O Investimento de 1 Milhão de Dólares que Desafiou a Depreciação com Engenharia de Pista",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "06 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1766353134008-bb3b8b99ddd2?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "Uma análise sobre a disparidade entre o custo de desenvolvimento de um protótipo de pista e o valor de mercado, revelando a crueza da telemetria contra o desdém do colecionador.",
-    "contentParagraphs": [
-      "A Ferrari Mondial, frequentemente subestimada pelo purismo estrito, esconde sob sua carroceria um capítulo de audácia técnica. Em 1980, Maranello injetou um milhão de dólares para transformar o modelo em um pace car de competições, alterando a rigidez estrutural e a distribuição de massas. O chassi foi reforçado com soldas de precisão aeronáutica e o motor V8 de 3.0 litros recebeu ajustes de compressão que alteraram seu comportamento térmico. O resultado foi um objeto de engenharia destinado a liderar pelotões, não apenas a compor coleções estáticas.",
-      "A telemetria da época exigia um fluxo de ar otimizado para manter o resfriamento em regimes de marcha lenta prolongada sob sol intenso. Radiadores superdimensionados e dutos de admissão redesenhados garantiam que o propulsor operasse dentro da janela ideal de 90°C, mesmo com o motor sob estresse constante de baixa velocidade. A suspensão, recalibrada para suportar a carga dinâmica de entrada em curvas de alta, utilizava amortecedores com válvulas de passagem rápida, combatendo o rolamento excessivo da carroceria original. Cada componente foi curado em autoclave, priorizando a função sobre a estética de showroom.",
-      "O mercado, contudo, possui uma lógica cruel que ignora o investimento de engenharia em protótipos funcionais. Em 2004, este exemplar foi transacionado por meros 85.330 dólares, uma fração ínfima do capital despendido em sua preparação. Esta desvalorização agressiva ilustra a falácia do custo de desenvolvimento: o valor histórico de um hipercarro raramente coincide com a soma de suas peças ou com o orçamento de seu ateliê. A liquidez de um ativo automotivo é ditada pelo consenso do colecionismo, que frequentemente pune a experimentação técnica em detrimento da linhagem de produção em série.",
-      "Hoje, o Mondial Pace Car permanece como um lembrete da arrogância técnica de Maranello frente à volatilidade do mercado. Ele não é apenas um veículo; é uma peça de telemetria inercial que sobreviveu à própria obsolescência financeira. Enquanto o mercado busca a segurança de modelos com pedigree de leilão, este Ferrari permanece como um testemunho visceral de que a engenharia de pista, por mais dispendiosa que seja, é uma aposta de alto risco contra a entropia do tempo. A verdadeira natureza do luxo mecânico reside na capacidade de resistir ao descarte, mesmo quando o mercado tenta ignorar sua existência."
-    ],
-    "content_paragraphs": [
-      "A Ferrari Mondial, frequentemente subestimada pelo purismo estrito, esconde sob sua carroceria um capítulo de audácia técnica. Em 1980, Maranello injetou um milhão de dólares para transformar o modelo em um pace car de competições, alterando a rigidez estrutural e a distribuição de massas. O chassi foi reforçado com soldas de precisão aeronáutica e o motor V8 de 3.0 litros recebeu ajustes de compressão que alteraram seu comportamento térmico. O resultado foi um objeto de engenharia destinado a liderar pelotões, não apenas a compor coleções estáticas.",
-      "A telemetria da época exigia um fluxo de ar otimizado para manter o resfriamento em regimes de marcha lenta prolongada sob sol intenso. Radiadores superdimensionados e dutos de admissão redesenhados garantiam que o propulsor operasse dentro da janela ideal de 90°C, mesmo com o motor sob estresse constante de baixa velocidade. A suspensão, recalibrada para suportar a carga dinâmica de entrada em curvas de alta, utilizava amortecedores com válvulas de passagem rápida, combatendo o rolamento excessivo da carroceria original. Cada componente foi curado em autoclave, priorizando a função sobre a estética de showroom.",
-      "O mercado, contudo, possui uma lógica cruel que ignora o investimento de engenharia em protótipos funcionais. Em 2004, este exemplar foi transacionado por meros 85.330 dólares, uma fração ínfima do capital despendido em sua preparação. Esta desvalorização agressiva ilustra a falácia do custo de desenvolvimento: o valor histórico de um hipercarro raramente coincide com a soma de suas peças ou com o orçamento de seu ateliê. A liquidez de um ativo automotivo é ditada pelo consenso do colecionismo, que frequentemente pune a experimentação técnica em detrimento da linhagem de produção em série.",
-      "Hoje, o Mondial Pace Car permanece como um lembrete da arrogância técnica de Maranello frente à volatilidade do mercado. Ele não é apenas um veículo; é uma peça de telemetria inercial que sobreviveu à própria obsolescência financeira. Enquanto o mercado busca a segurança de modelos com pedigree de leilão, este Ferrari permanece como um testemunho visceral de que a engenharia de pista, por mais dispendiosa que seja, é uma aposta de alto risco contra a entropia do tempo. A verdadeira natureza do luxo mecânico reside na capacidade de resistir ao descarte, mesmo quando o mercado tenta ignorar sua existência."
-    ],
-    "specs": {
-      "motor": "V8 3.0L aspirado",
-      "transformacao": "Pace Car de competição",
-      "investimento_original": "1.000.000 USD",
-      "preco_venda_2004": "85.330 USD",
-      "foco_engenharia": "Fluxo térmico e rigidez estrutural"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "engineSource": "gemini:gemini-3.1-flash-lite",
-    "publishedAt": "2026-11-06T01:26:29.505Z",
-    "published_at": "2026-11-06T01:26:29.505Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcTNqZjVyWGtTeXN6bmdxVHhkMVV1ejgydHJETm9tMHpCc3pheU5lWFlQa3kzT29iWUtnX21vVksxMnZLVC1zQ2pGUnZkbUtoMWpuZzY0bklUODR2OUpMTHE0TERWamJTMVpfUUJQUHIyMUwwOEw4YWVhcUtfUjRfMnI1VlYxNnNXN3NXdkRQN1pqckphQk1icWFHVnpwYnBJbW1N?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcTNqZjVyWGtTeXN6bmdxVHhkMVV1ejgydHJETm9tMHpCc3pheU5lWFlQa3kzT29iWUtnX21vVksxMnZLVC1zQ2pGUnZkbUtoMWpuZzY0bklUODR2OUpMTHE0TERWamJTMVpfUUJQUHIyMUwwOEw4YWVhcUtfUjRfMnI1VlYxNnNXN3NXdkRQN1pqckphQk1icWFHVnpwYnBJbW1N?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "SUPERCARROS",
+    "title": "Yangwang U9: A Fúria Elétrica de 310 M...",
+    "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800",
+    "tag": "CURADORIA RADAR",
+    "slug": "yangwang-u9-a-furia-eletrica-de-310-mph-que-esmaga-limites-com-quatro-motores-independentes-e-3000-cavalos-0393"
+  },
+  {
+    "id": "film-2",
     "category": "DESTINOS",
     "title": "Sindalah: O Arquipélago do Mar Vermelh...",
     "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
@@ -1428,7 +1437,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "sindalah-o-arquipelago-do-mar-vermelho-de-84-bercos-que-desafia-a-soberania-nautica-de-monaco-7239"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "DESTINOS",
     "title": "Sheergold: O Superiate de Expedição e ...",
     "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
@@ -1436,7 +1445,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "sheergold-o-superiate-de-expedicao-e-os-7-dias-de-navegacao-extrema-pelo-grande-buraco-azul-de-belize-8524"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "ARQUITETURA",
     "title": "Christie's Hong Kong Luxury Week Autum...",
     "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=max&q=80&w=1400",
@@ -1444,7 +1453,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "christies-hong-kong-luxury-week-autumn-2026-450-lotes-de-alta-custodia-e-governanca-dinastica-em-territorio-asiatico-5552"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Toyota GR010 Hybrid: O Protótipo de Re...",
     "image": "https://images.unsplash.com/photo-1731770758454-9d283a702306?auto=format&fit=max&q=80&w=1400",
@@ -1452,20 +1461,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "toyota-gr010-hybrid-o-prototipo-de-resistencia-de-680-cv-que-marca-a-despedida-cinetica-de-mike-conway-nas-pistas-7216"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "DESTINOS",
     "title": "Megaiates de 100 Metros: A Escassez Ab...",
     "image": "https://images.unsplash.com/photo-1562281302-809108fd533c?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "megaiates-de-100-metros-a-escassez-absoluta-de-bercos-de-50-milhoes-de-dolares-que-redesenha-a-hidraulica-global-4871"
-  },
-  {
-    "id": "film-6",
-    "category": "ARQUITETURA",
-    "title": "Coleção David Geffen: O Leilão de US$ ...",
-    "image": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "colecao-david-geffen-o-leilao-de-us-500-milhoes-em-arte-contemporanea-que-reafirma-a-soberania-patrimonial-dinastica-8832"
   }
 ];
 

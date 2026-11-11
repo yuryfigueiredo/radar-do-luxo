@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-ferrari-f40-o-icone-de-4-milhoes-8619",
+    "slug": "ferrari-f40-o-icone-de-4-milhoes-e-tubos-de-inconel-que-converteu-as-ruas-em-pista-de-testes-de-maranello-8607",
+    "title": "Ferrari F40: O Ícone de $4 Milhões e Tubos de Inconel que Converteu as Ruas em Pista de Testes de Maranello",
+    "image": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFAyRHYzeFlyMkNiLTBjVFJ3UVp2Sm9ZR1czX3Jyam5uMWNOSGpoQ3VUTmJMelpNVzhVRkVZMDZjekZkZktaakFxaG5QRWtaODYxZllSX0V4V3RnUnVRTUF4bGliM3luV1A4R0JWQVlkdnN4dw?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-11T18:29:38.619Z"
+  },
+  {
     "id": "art-gooding-christies-geneva-sale-20-3821",
     "slug": "gooding-christies-geneva-sale-2026-142-milhoes-de-francos-suicos-e-o-triunfo-dos-chassis-conservados-em-silencio-mineral-3811",
     "title": "Gooding Christie’s Geneva Sale 2026: 142 Milhões de Francos Suíços e o Triunfo dos Chassis Conservados em Silêncio Mineral",
