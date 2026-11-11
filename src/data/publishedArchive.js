@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-phillips-geneva-watch-auction-xx-7419",
+    "slug": "phillips-geneva-watch-auction-xxiv-112-milhoes-de-dolares-em-calibres-raros-sob-o-silencio-absoluto-da-vallee-de-joux-7407",
+    "title": "Phillips Geneva Watch Auction XXIV: 112 Milhões de Dólares em Calibres Raros Sob o Silêncio Absoluto da Vallée de Joux",
+    "image": "https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1eHVpdE43NnlUTHBodVQ5R2NRdENEMUlkVGFabnlSSTBYRlBPYkJkUmMwT2JjeG5UX0pQUmZfOWhmZzYwT1NFUXFWd0VsRGMzOHgxTDZfVGp2OUdIOFp1X2E4bmp2Yl9tc011YmtCVzk4XzU2OU1DRE1wS1JZSk0?oc=5",
+    "categorySlug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "publishedAt": "2026-11-11T01:23:07.419Z"
+  },
+  {
     "id": "art-phillips-geneva-watch-auction-24-5088",
     "slug": "phillips-geneva-watch-auction-24-recordes-historicos-e-o-marco-de-us-100-milhoes-em-manufatura-rara-5078",
     "title": "Phillips Geneva Watch Auction: 24 Recordes Históricos e o Marco de US$ 100 Milhões em Manufatura Rara",

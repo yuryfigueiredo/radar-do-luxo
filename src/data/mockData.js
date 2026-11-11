@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-phillips-geneva-watch-auction-xx-7419",
+    "slug": "phillips-geneva-watch-auction-xxiv-112-milhoes-de-dolares-em-calibres-raros-sob-o-silencio-absoluto-da-vallee-de-joux-7407",
+    "title": "Phillips Geneva Watch Auction XXIV: 112 Milhões de Dólares em Calibres Raros Sob o Silêncio Absoluto da Vallée de Joux",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "category_slug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "author_slug": "clara-meirelles",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "11 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "O leilão de Genebra consolida a soberania patrimonial de peças únicas, onde cada esmalte Grand Feu e ponte angulada à mão desafiam a volatilidade do mercado moderno com precisão milimétrica.",
+    "contentParagraphs": [
+      "O martelo desceu em Genebra para sacramentar 112 milhões de dólares em pura soberania mecânica. Não houve espaço para especulação efêmera. Colecionadores de quatro continentes disputaram lotes cujo valor reside inteiramente na complexidade invisível dos trens de rodagem. Cada ponte polida reflete uma arquitetura que ignora o tempo utilitário.",
+      "No centro das disputas mais intensas, relógios com calibres de manufatura equipados com sonnerie acústica afinada em Sol sustenido demonstraram o ápice da microengenharia. Tolerâncias de mícrons em espirais de balanço em silício coexistiram com caixas em ouro branco marteladas à mão. A precisão absoluta encontra-se no balanço perfeito entre a rigidez do aço e a delicadeza do esmalte vitrificado a oitocentos e vinte graus Celsius.",
+      "A liquidez destes ativos reflete um movimento claro de preservação dinástica. Enquanto mercados tradicionais oscilam, o patrimônio portável protegido por capas de couro Box Calf e custódia fiduciária firma-se como refúgio definitivo. Compradores institucionais e herdeiros de fortunas seculares reconhecem nestes mostradores uma imunidade temporal intransponível.",
+      "O resultado da vigésima quarta edição da Phillips em solo suíço reescreve a cartografia do luxo colecionável. O tempo mecânico deixa de ser medida para se tornar a mais duradoura forma de arte tangível. Resta aos ateliês de Le Brassus responder à demanda por peças que transformam o silêncio mineral em legado eterno."
+    ],
+    "content_paragraphs": [
+      "O martelo desceu em Genebra para sacramentar 112 milhões de dólares em pura soberania mecânica. Não houve espaço para especulação efêmera. Colecionadores de quatro continentes disputaram lotes cujo valor reside inteiramente na complexidade invisível dos trens de rodagem. Cada ponte polida reflete uma arquitetura que ignora o tempo utilitário.",
+      "No centro das disputas mais intensas, relógios com calibres de manufatura equipados com sonnerie acústica afinada em Sol sustenido demonstraram o ápice da microengenharia. Tolerâncias de mícrons em espirais de balanço em silício coexistiram com caixas em ouro branco marteladas à mão. A precisão absoluta encontra-se no balanço perfeito entre a rigidez do aço e a delicadeza do esmalte vitrificado a oitocentos e vinte graus Celsius.",
+      "A liquidez destes ativos reflete um movimento claro de preservação dinástica. Enquanto mercados tradicionais oscilam, o patrimônio portável protegido por capas de couro Box Calf e custódia fiduciária firma-se como refúgio definitivo. Compradores institucionais e herdeiros de fortunas seculares reconhecem nestes mostradores uma imunidade temporal intransponível.",
+      "O resultado da vigésima quarta edição da Phillips em solo suíço reescreve a cartografia do luxo colecionável. O tempo mecânico deixa de ser medida para se tornar a mais duradoura forma de arte tangível. Resta aos ateliês de Le Brassus responder à demanda por peças que transformam o silêncio mineral em legado eterno."
+    ],
+    "specs": {
+      "Faturamento Total": "USD 112.4 Milhões",
+      "Ateliês em Destaque": "Patek Philippe, Rolex, F.P. Journe",
+      "Técnica Predominante": "Esmalte Grand Feu a 820°C e Anglage Manual",
+      "Curadoria": "Phillips Watches Geneva XXIV",
+      "Localidade": "Hôtel La Réserve, Genebra"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 92,
+    "ranking_score": 92,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-11T01:23:07.419Z",
+    "published_at": "2026-11-11T01:23:07.419Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1eHVpdE43NnlUTHBodVQ5R2NRdENEMUlkVGFabnlSSTBYRlBPYkJkUmMwT2JjeG5UX0pQUmZfOWhmZzYwT1NFUXFWd0VsRGMzOHgxTDZfVGp2OUdIOFp1X2E4bmp2Yl9tc011YmtCVzk4XzU2OU1DRE1wS1JZSk0?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1eHVpdE43NnlUTHBodVQ5R2NRdENEMUlkVGFabnlSSTBYRlBPYkJkUmMwT2JjeG5UX0pQUmZfOWhmZzYwT1NFUXFWd0VsRGMzOHgxTDZfVGp2OUdIOFp1X2E4bmp2Yl9tc011YmtCVzk4XzU2OU1DRE1wS1JZSk0?oc=5"
+  },
+  {
     "id": "art-phillips-geneva-watch-auction-24-5088",
     "slug": "phillips-geneva-watch-auction-24-recordes-historicos-e-o-marco-de-us-100-milhoes-em-manufatura-rara-5078",
     "title": "Phillips Geneva Watch Auction: 24 Recordes Históricos e o Marco de US$ 100 Milhões em Manufatura Rara",
@@ -1362,65 +1414,20 @@ export const ARTICLES = [
     "published_at": "2026-11-05T18:28:01.381Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQThUTERwY3p2QnFCMEVBNGNFY2F6bTJfNGhzR2RRQUc0cDktX3dnSGZ3OGg5SmVUcktTMFJ3d0Zya3UtYmdoREo4V2JrSWRxS3JQTkkxYmVMSnNaNld4Z09vXzh3SVF4OHB2OGZGdEM2NGtuTHU0MFVZR0ZFbUhjeE94b0VrTmht?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQThUTERwY3p2QnFCMEVBNGNFY2F6bTJfNGhzR2RRQUc0cDktX3dnSGZ3OGg5SmVUcktTMFJ3d0Zya3UtYmdoREo4V2JrSWRxS3JQTkkxYmVMSnNaNld4Z09vXzh3SVF4OHB2OGZGdEM2NGtuTHU0MFVZR0ZFbUhjeE94b0VrTmht?oc=5"
-  },
-  {
-    "id": "art-ferrari-f50-o-recorde-de-us-187--7347",
-    "slug": "ferrari-f50-o-recorde-de-us-187-milhoes-para-o-ultimo-v12-analogico-com-chassi-de-formula-1-7232",
-    "title": "Ferrari F50: O Recorde de US$ 18,7 Milhões para o Último V12 Analógico com Chassi de Fórmula 1",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "05 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1635488591151-c7a12939669b?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "A venda histórica da F50 redefine a curva de valor dos hipercarros de Maranello, consolidando o motor derivado da F1 e a ausência de auxílios eletrônicos como o ápice da pureza mecânica.",
-    "contentParagraphs": [
-      "O mercado de colecionadores acaba de registrar uma anomalia de US$ 18,7 milhões. A Ferrari F50 não é apenas um automóvel de produção limitada; ela é a transposição direta de um monoposto de Maranello para o asfalto público. Enquanto o mundo se curva à digitalização, a F50 permanece como uma cápsula do tempo, um monocoque de fibra de carbono que vibra na mesma frequência que a espinha dorsal de seu condutor.",
-      "Sob a tampa traseira, o motor V12 de 4.7 litros opera com tolerâncias de mícrons em um bloco fundido para suportar 8.500 RPM. A ausência total de assistência de direção ou freios ABS exige telemetria inercial bruta do piloto. A força G lateral exercida em curvas de alta velocidade é sustentada pela rigidez estrutural do monocoque, curado em autoclave, que ancora o motor como um elemento autoportante, transmitindo cada pulsação térmica diretamente à cabine.",
-      "Esta transação não reflete meramente o valor de mercado, mas a escassez matemática de exemplares que não foram corrompidos por atuadores modernos. O escape em Inconel, o câmbio manual de seis marchas com grelha metálica e a aerodinâmica de efeito solo posicionam a F50 como o último bastião de uma era onde o erro humano era a única variável permitida no limite da física.",
-      "O veredito é incontestável. Investidores de elite abandonam a liquidez de modelos contemporâneos em favor da soberania mecânica desta Ferrari. A F50 transcende o status de ativo; ela é uma peça de engenharia que exige respeito, reverência e a mão firme de quem compreende a brutalidade de um motor de competição sem filtros, mantendo-se imune à obsolescência programada do mercado atual."
-    ],
-    "content_paragraphs": [
-      "O mercado de colecionadores acaba de registrar uma anomalia de US$ 18,7 milhões. A Ferrari F50 não é apenas um automóvel de produção limitada; ela é a transposição direta de um monoposto de Maranello para o asfalto público. Enquanto o mundo se curva à digitalização, a F50 permanece como uma cápsula do tempo, um monocoque de fibra de carbono que vibra na mesma frequência que a espinha dorsal de seu condutor.",
-      "Sob a tampa traseira, o motor V12 de 4.7 litros opera com tolerâncias de mícrons em um bloco fundido para suportar 8.500 RPM. A ausência total de assistência de direção ou freios ABS exige telemetria inercial bruta do piloto. A força G lateral exercida em curvas de alta velocidade é sustentada pela rigidez estrutural do monocoque, curado em autoclave, que ancora o motor como um elemento autoportante, transmitindo cada pulsação térmica diretamente à cabine.",
-      "Esta transação não reflete meramente o valor de mercado, mas a escassez matemática de exemplares que não foram corrompidos por atuadores modernos. O escape em Inconel, o câmbio manual de seis marchas com grelha metálica e a aerodinâmica de efeito solo posicionam a F50 como o último bastião de uma era onde o erro humano era a única variável permitida no limite da física.",
-      "O veredito é incontestável. Investidores de elite abandonam a liquidez de modelos contemporâneos em favor da soberania mecânica desta Ferrari. A F50 transcende o status de ativo; ela é uma peça de engenharia que exige respeito, reverência e a mão firme de quem compreende a brutalidade de um motor de competição sem filtros, mantendo-se imune à obsolescência programada do mercado atual."
-    ],
-    "specs": {
-      "motor": "V12 60° 4.7L aspirado",
-      "potencia": "520 cv a 8.500 RPM",
-      "chassi": "Monocoque em fibra de carbono (pre-preg)",
-      "transmissao": "Manual de 6 velocidades com grelha",
-      "peso_seco": "1.230 kg",
-      "producao": "349 unidades"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 92,
-    "ranking_score": 92,
-    "engineSource": "gemini:gemini-3.1-flash-lite",
-    "publishedAt": "2026-11-05T17:10:57.346Z",
-    "published_at": "2026-11-05T17:10:57.346Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGUk80eGZQcmRiM1gyNWdUR283Y0VTQy1JdGJuTHEyQTVZVlhlcmQzUkZjSm1ZbjdoM2RNNHp0LWRWakl6YXBoS3d3VU1wYUhpblppdl9DTVIySVpBUDRiS0p3MHdtVnJVRkt3UWdkdHE?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGUk80eGZQcmRiM1gyNWdUR283Y0VTQy1JdGJuTHEyQTVZVlhlcmQzUkZjSm1ZbjdoM2RNNHp0LWRWakl6YXBoS3d3VU1wYUhpblppdl9DTVIySVpBUDRiS0p3MHdtVnJVRkt3UWdkdHE?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "ARQUITETURA",
+    "title": "Christie's Hong Kong Luxury Week Autum...",
+    "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "christies-hong-kong-luxury-week-autumn-2026-450-lotes-de-alta-custodia-e-governanca-dinastica-em-territorio-asiatico-5552"
+  },
+  {
+    "id": "film-2",
     "category": "SUPERCARROS",
     "title": "Toyota GR010 Hybrid: O Protótipo de Re...",
     "image": "https://images.unsplash.com/photo-1731770758454-9d283a702306?auto=format&fit=max&q=80&w=1400",
@@ -1428,7 +1435,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "toyota-gr010-hybrid-o-prototipo-de-resistencia-de-680-cv-que-marca-a-despedida-cinetica-de-mike-conway-nas-pistas-7216"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "DESTINOS",
     "title": "Megaiates de 100 Metros: A Escassez Ab...",
     "image": "https://images.unsplash.com/photo-1562281302-809108fd533c?auto=format&fit=max&q=80&w=1400",
@@ -1436,7 +1443,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "megaiates-de-100-metros-a-escassez-absoluta-de-bercos-de-50-milhoes-de-dolares-que-redesenha-a-hidraulica-global-4871"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "ARQUITETURA",
     "title": "Coleção David Geffen: O Leilão de US$ ...",
     "image": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=max&q=80&w=1400",
@@ -1444,7 +1451,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "colecao-david-geffen-o-leilao-de-us-500-milhoes-em-arte-contemporanea-que-reafirma-a-soberania-patrimonial-dinastica-8832"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "DESTINOS",
     "title": "Superiate Oceânico de 185 Milhões de E...",
     "image": "https://images.unsplash.com/photo-1604737637145-48cc31d160eb?auto=format&fit=max&q=80&w=1400",
@@ -1452,20 +1459,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "superiate-oceanico-de-185-milhoes-de-euros-em-maiorca-o-casco-deslocante-de-aco-com-autonomia-transatlantica-e-propulsao-hibrida-silenciosa-6646"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Ferrari Mondial Pace Car: O Investimen...",
     "image": "https://images.unsplash.com/photo-1766353134008-bb3b8b99ddd2?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "ferrari-mondial-pace-car-o-investimento-de-1-milhao-de-dolares-que-desafiou-a-depreciacao-com-engenharia-de-pista-9371"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Ferrari: €431 Milhões em Lucro Trimest...",
-    "image": "https://images.unsplash.com/photo-1650444684180-3f72abb15263?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "ferrari-431-milhoes-em-lucro-trimestral-que-valida-a-engenharia-de-precisao-sobre-a-producao-de-massa-3200"
   }
 ];
 
