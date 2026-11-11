@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-leilao-christies-a-nova-geracao--6413",
+    "slug": "leilao-christies-a-nova-geracao-e-a-ascensao-dos-calibres-de-proveniencia-historica-em-recordes-de-liquidez-6398",
+    "title": "Leilão Christie’s: A Nova Geração e a Ascensão dos Calibres de Proveniência Histórica em Recordes de Liquidez",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "category_slug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "author_slug": "clara-meirelles",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "11 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "O mercado de alta relojoaria testemunha uma mudança tectônica: colecionadores emergentes abandonam a volatilidade digital em busca da solidez matemática dos calibres de manufatura.",
+    "contentParagraphs": [
+      "O silêncio do martelo na Christie’s não ecoou apenas o valor das transações, mas o peso de uma nova linhagem de custódia. Jovens colecionadores, antes deslumbrados pelo efêmero, agora voltam seus olhares para a Vallée de Joux. O tempo, para estes novos guardiões, não é uma medida utilitária. É um ativo de soberania patrimonial preservado sob o vidro de safira.",
+      "A análise técnica revela uma preferência por calibres de manufatura com anglage meticulosa, executada com buril de aço em pontes tratadas termicamente. Observamos uma busca incessante por peças com esmalte Grand Feu, cuja estabilidade cromática resiste aos séculos a 820°C. Cada engrenagem, polida à exaustão, atua como um refúgio de liquidez contra a inflação das moedas fiduciárias.",
+      "Historicamente, a aquisição de um cronógrafo de rara tiragem equivalia a um rito de passagem para a maturidade financeira. Hoje, a precocidade desta curadoria surpreende os veteranos do setor, que viam na alta relojoaria um refúgio exclusivo de herdeiros. A escassez matemática dos modelos apresentados em leilão atua como uma barreira natural contra a entrada de capital especulativo desprovido de cultura técnica.",
+      "O veredito é definitivo: a relojoaria de alta complexidade consolidou-se como o alicerce de qualquer portfólio que almeje a imunidade temporal. Enquanto o mundo se perde em telas táteis destinadas à obsolescência, o colecionador consciente investe na longevidade do linho encerado em cera virgem e na precisão dos balanços compensados. A história está sendo reescrita em décimos de milímetro."
+    ],
+    "content_paragraphs": [
+      "O silêncio do martelo na Christie’s não ecoou apenas o valor das transações, mas o peso de uma nova linhagem de custódia. Jovens colecionadores, antes deslumbrados pelo efêmero, agora voltam seus olhares para a Vallée de Joux. O tempo, para estes novos guardiões, não é uma medida utilitária. É um ativo de soberania patrimonial preservado sob o vidro de safira.",
+      "A análise técnica revela uma preferência por calibres de manufatura com anglage meticulosa, executada com buril de aço em pontes tratadas termicamente. Observamos uma busca incessante por peças com esmalte Grand Feu, cuja estabilidade cromática resiste aos séculos a 820°C. Cada engrenagem, polida à exaustão, atua como um refúgio de liquidez contra a inflação das moedas fiduciárias.",
+      "Historicamente, a aquisição de um cronógrafo de rara tiragem equivalia a um rito de passagem para a maturidade financeira. Hoje, a precocidade desta curadoria surpreende os veteranos do setor, que viam na alta relojoaria um refúgio exclusivo de herdeiros. A escassez matemática dos modelos apresentados em leilão atua como uma barreira natural contra a entrada de capital especulativo desprovido de cultura técnica.",
+      "O veredito é definitivo: a relojoaria de alta complexidade consolidou-se como o alicerce de qualquer portfólio que almeje a imunidade temporal. Enquanto o mundo se perde em telas táteis destinadas à obsolescência, o colecionador consciente investe na longevidade do linho encerado em cera virgem e na precisão dos balanços compensados. A história está sendo reescrita em décimos de milímetro."
+    ],
+    "specs": {
+      "Instituição": "Christie's Watches",
+      "Foco": "Calibres de manufatura e peças de alta complexidade",
+      "Perfil do Comprador": "Nova geração de colecionadores (High-Net-Worth Individuals)",
+      "Critério de Valor": "Proveniência, estado de conservação e raridade mecânica",
+      "Tendência": "Migração de ativos digitais para relojoaria de patrimônio"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "gemini:gemini-3.1-flash-lite",
+    "publishedAt": "2026-11-11T22:13:46.412Z",
+    "published_at": "2026-11-11T22:13:46.412Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVE1SdXc1UWt2VWRJa2RpMldic2FkYTBRd1hnYTNuLV80TUIybjBSdEh0a29aREFQZXY3RU4wSnhHNmJRU25HdTc3Mk5tOFZnaVo4aTBhUVpmZDJqNWxmUmlrQ1hGRGFENDJYSEJ4cVljamRxOWZwWDNQRmgtanpKb01ZM0FDTUhnVUtIWkk5MmtrNzRWTVE?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVE1SdXc1UWt2VWRJa2RpMldic2FkYTBRd1hnYTNuLV80TUIybjBSdEh0a29aREFQZXY3RU4wSnhHNmJRU25HdTc3Mk5tOFZnaVo4aTBhUVpmZDJqNWxmUmlrQ1hGRGFENDJYSEJ4cVljamRxOWZwWDNQRmgtanpKb01ZM0FDTUhnVUtIWkk5MmtrNzRWTVE?oc=5"
+  },
+  {
     "id": "art-ferrari-f40-o-icone-de-4-milhoes-8619",
     "slug": "ferrari-f40-o-icone-de-4-milhoes-e-tubos-de-inconel-que-converteu-as-ruas-em-pista-de-testes-de-maranello-8607",
     "title": "Ferrari F40: O Ícone de $4 Milhões e Tubos de Inconel que Converteu as Ruas em Pista de Testes de Maranello",
@@ -231,7 +283,7 @@ export const ARTICLES = [
     "authorSlug": "henrique-vianna",
     "author_slug": "henrique-vianna",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "11 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -259,10 +311,10 @@ export const ARTICLES = [
       "estilo_arquitetonico": "Brutalismo Contemporâneo"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 87,
@@ -1364,58 +1416,6 @@ export const ARTICLES = [
     "published_at": "2026-11-06T04:38:58.839Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX3lMQmViWmphVTZjcFlJTDdYVWpVejMzcTRncmZKQ21IOU40OXpWVERDMUFCV0EzTGF1OW00UERIcEhpWUFvWHpHT3JPU0dOc3ZBbWsybWJMUnkwZzBSSno4Y0loLUZIbXd1MU5SMjZNc2hSMnA1Z19RWXVuR1R4UThGZHVWYVFUS2JURzVaSExSU2NxZ0RlVdIBngFBVV95cUxPUG9UdGwtaENkZlpHX19WLXJuRUFlOE5oMXR3WkUzWGZnNFY4ckJhcFF5b01JYW83dUhRZklfbmg3RHU5cXZFU1Vic3kxcjQ0UWRSWlJObXhmUkpNQzRGRlpJRFBfRUphQmZnTTd0aXlLWkw1NnUwNHYzNTFUcHNKaVJLOEs0TnR3ZjZyTDZwcEFod29fbGJnS01jWXZ5dw?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX3lMQmViWmphVTZjcFlJTDdYVWpVejMzcTRncmZKQ21IOU40OXpWVERDMUFCV0EzTGF1OW00UERIcEhpWUFvWHpHT3JPU0dOc3ZBbWsybWJMUnkwZzBSSno4Y0loLUZIbXd1MU5SMjZNc2hSMnA1Z19RWXVuR1R4UThGZHVWYVFUS2JURzVaSExSU2NxZ0RlVdIBngFBVV95cUxPUG9UdGwtaENkZlpHX19WLXJuRUFlOE5oMXR3WkUzWGZnNFY4ckJhcFF5b01JYW83dUhRZklfbmg3RHU5cXZFU1Vic3kxcjQ0UWRSWlJObXhmUkpNQzRGRlpJRFBfRUphQmZnTTd0aXlLWkw1NnUwNHYzNTFUcHNKaVJLOEs0TnR3ZjZyTDZwcEFod29fbGJnS01jWXZ5dw?oc=5"
-  },
-  {
-    "id": "art-superiate-oceanico-de-185-milhoe-7109",
-    "slug": "superiate-oceanico-de-185-milhoes-de-euros-em-maiorca-o-casco-deslocante-de-aco-com-autonomia-transatlantica-e-propulsao-hibrida-silenciosa-6646",
-    "title": "Superiate Oceânico de 185 Milhões de Euros em Maiorca: O Casco Deslocante de Aço com Autonomia Transatlântica e Propulsão Híbrida Silenciosa",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "06 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1604737637145-48cc31d160eb?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Ancorado nas Baleares, um colosso naval de 185 milhões de euros redefine os limites da engenharia de superiates, combinando arquitetura naval de alta performance, centro de gravidade otimizado e autonomia global.",
-    "contentParagraphs": [
-      "As águas cristalinas de Maiorca abrigam temporariamente uma escultura flutuante avaliada em 185 milhões de euros. Este superiate não é apenas um refúgio flutuante; é um exercício de obstinação técnica. O casco deslocante corta as ondas com precisão cirúrgica. A proa reta minimiza o arrasto hidrodinâmico. Cada chapa de aço naval foi soldada sob tolerâncias de mícrons. A arquitetura naval prioriza o silêncio absoluto a bordo. O isolamento acústico dissipa vibrações mecânicas antes que alcancem os conveses habitáveis.",
-      "Sob a linha d'água, geradores síncronos alimentam propleiras azimutais de alta eficiência. O sistema de estabilização giroscópica neutraliza o balanço transversal mesmo em mares revoltos de Fuerza 7 na escala Beaufort. A força G lateral experimentada em manobras de guinada é domada por um arranjo estrutural de cavernas reforçadas. O alumínio superleve da superestrutura reduz o peso total, mantendo o centro de gravidade baixo. O resultado é uma estabilidade inercial impecável durante cruzeiros oceánicos de longo curso.",
-      "O interior flutua sobre coxins elastoméricos que isolam totalmente o casco dos motores principais. A praça de máquinas abriga um complexo sistema de tratamento de águas cinzas e exaustores catalíticos. Gases de escape passam por filtros de particulados antes de serem liberados. A autonomia supera sete mil milhas náuticas a doze nós. Propulsão híbrida permite navegação silenciosa em áreas de preservação ambiental sem emitir uma única tonelada de CO2 na atmosfera marinha.",
-      "Adquirir esta embarcação em Maiorca transcende o mero consumo ostentatório. Trata-se de assegurar um ativo de soberania marítima intransigente. A engenharia naval atinge aqui seu ápice funcional. Para o armador que exige deslocamento global sem abdicar da precisão mecânica, este superiate representa a soberania absoluta sobre os oceanos."
-    ],
-    "content_paragraphs": [
-      "As águas cristalinas de Maiorca abrigam temporariamente uma escultura flutuante avaliada em 185 milhões de euros. Este superiate não é apenas um refúgio flutuante; é um exercício de obstinação técnica. O casco deslocante corta as ondas com precisão cirúrgica. A proa reta minimiza o arrasto hidrodinâmico. Cada chapa de aço naval foi soldada sob tolerâncias de mícrons. A arquitetura naval prioriza o silêncio absoluto a bordo. O isolamento acústico dissipa vibrações mecânicas antes que alcancem os conveses habitáveis.",
-      "Sob a linha d'água, geradores síncronos alimentam propleiras azimutais de alta eficiência. O sistema de estabilização giroscópica neutraliza o balanço transversal mesmo em mares revoltos de Fuerza 7 na escala Beaufort. A força G lateral experimentada em manobras de guinada é domada por um arranjo estrutural de cavernas reforçadas. O alumínio superleve da superestrutura reduz o peso total, mantendo o centro de gravidade baixo. O resultado é uma estabilidade inercial impecável durante cruzeiros oceánicos de longo curso.",
-      "O interior flutua sobre coxins elastoméricos que isolam totalmente o casco dos motores principais. A praça de máquinas abriga um complexo sistema de tratamento de águas cinzas e exaustores catalíticos. Gases de escape passam por filtros de particulados antes de serem liberados. A autonomia supera sete mil milhas náuticas a doze nós. Propulsão híbrida permite navegação silenciosa em áreas de preservação ambiental sem emitir uma única tonelada de CO2 na atmosfera marinha.",
-      "Adquirir esta embarcação em Maiorca transcende o mero consumo ostentatório. Trata-se de assegurar um ativo de soberania marítima intransigente. A engenharia naval atinge aqui seu ápice funcional. Para o armador que exige deslocamento global sem abdicar da precisão mecânica, este superiate representa a soberania absoluta sobre os oceanos."
-    ],
-    "specs": {
-      "valor_patrimonial": "185.000.000 EUR",
-      "localizacao_atual": "Maiorca, Espanha",
-      "autonomia_nautica": "7.000 milhas náuticas a 12 nós",
-      "sistema_propulsao": "Híbrido Diesel-Elétrico com Azipods",
-      "material_casco": "Aço Naval de Alta Resistência e Superestrutura em Alumínio"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 90,
-    "ranking_score": 90,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-06T03:10:47.108Z",
-    "published_at": "2026-11-06T03:10:47.108Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNTFRa3dzQ21sbXk1bEhqd3g0YTNaVnZnazNWV0tMd24zSDZrZXVsRkgxSjJfdmVYWEppZDhMTlA2eElPZ0VxTHR4M3MtUmNhSVk1Z0xHaTdYQ1BKM0ZhY3pLRFhUS1pkYXdFbVRVYVE5WHVQS3U2NlE5YlJ6dzR5VlVoLXpEMnAwNWJKazFrc3M4M2ZzanlZWllnYUNsdGxFNkFnclhPM3BRNjJObmd5Tm9zamN3bFnSAbcBQVVfeXFMTmJ6dUNmRGYyVzRrdUZ0d1JKYTBBV0haOW9DdjcxYlNnSEY1MFV4VlZfTDdwWTk0VGgtek1JLW8tRmk5ZktSdGhyNVEteXozR3dXN0pMSUs5SURxbTZOTTFINFg1MXhRMEFkOENXVTR0NDU1RlphM0tLTkV4RzR0a0pBVHdzeHNXaHU2NzFZNGJySEtZM095RHM1azVraUxBM0l6NHN4UDYxbGF0R2JvRUFFNkh4a2E4?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNTFRa3dzQ21sbXk1bEhqd3g0YTNaVnZnazNWV0tMd24zSDZrZXVsRkgxSjJfdmVYWEppZDhMTlA2eElPZ0VxTHR4M3MtUmNhSVk1Z0xHaTdYQ1BKM0ZhY3pLRFhUS1pkYXdFbVRVYVE5WHVQS3U2NlE5YlJ6dzR5VlVoLXpEMnAwNWJKazFrc3M4M2ZzanlZWllnYUNsdGxFNkFnclhPM3BRNjJObmd5Tm9zamN3bFnSAbcBQVVfeXFMTmJ6dUNmRGYyVzRrdUZ0d1JKYTBBV0haOW9DdjcxYlNnSEY1MFV4VlZfTDdwWTk0VGgtek1JLW8tRmk5ZktSdGhyNVEteXozR3dXN0pMSUs5SURxbTZOTTFINFg1MXhRMEFkOENXVTR0NDU1RlphM0tLTkV4RzR0a0pBVHdzeHNXaHU2NzFZNGJySEtZM095RHM1azVraUxBM0l6NHN4UDYxbGF0R2JvRUFFNkh4a2E4?oc=5"
   }
 ];
 
@@ -1423,13 +1423,21 @@ export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
     "category": "SUPERCARROS",
+    "title": "Ferrari 296 GT3: O V12 Recuado 50mm e ...",
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=max&q=85&w=1800",
+    "tag": "CURADORIA RADAR",
+    "slug": "ferrari-296-gt3-o-v12-recuado-50mm-e-rebaixado-que-reconfigurou-o-limite-da-fisica-na-endurance-mundial-4017"
+  },
+  {
+    "id": "film-2",
+    "category": "SUPERCARROS",
     "title": "Yangwang U9: A Fúria Elétrica de 310 M...",
     "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800",
     "tag": "CURADORIA RADAR",
     "slug": "yangwang-u9-a-furia-eletrica-de-310-mph-que-esmaga-limites-com-quatro-motores-independentes-e-3000-cavalos-0393"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "DESTINOS",
     "title": "Sindalah: O Arquipélago do Mar Vermelh...",
     "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
@@ -1437,7 +1445,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "sindalah-o-arquipelago-do-mar-vermelho-de-84-bercos-que-desafia-a-soberania-nautica-de-monaco-7239"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "DESTINOS",
     "title": "Sheergold: O Superiate de Expedição e ...",
     "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
@@ -1445,7 +1453,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "sheergold-o-superiate-de-expedicao-e-os-7-dias-de-navegacao-extrema-pelo-grande-buraco-azul-de-belize-8524"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "ARQUITETURA",
     "title": "Christie's Hong Kong Luxury Week Autum...",
     "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=max&q=80&w=1400",
@@ -1453,20 +1461,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "christies-hong-kong-luxury-week-autumn-2026-450-lotes-de-alta-custodia-e-governanca-dinastica-em-territorio-asiatico-5552"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Toyota GR010 Hybrid: O Protótipo de Re...",
     "image": "https://images.unsplash.com/photo-1731770758454-9d283a702306?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "toyota-gr010-hybrid-o-prototipo-de-resistencia-de-680-cv-que-marca-a-despedida-cinetica-de-mike-conway-nas-pistas-7216"
-  },
-  {
-    "id": "film-6",
-    "category": "DESTINOS",
-    "title": "Megaiates de 100 Metros: A Escassez Ab...",
-    "image": "https://images.unsplash.com/photo-1562281302-809108fd533c?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "megaiates-de-100-metros-a-escassez-absoluta-de-bercos-de-50-milhoes-de-dolares-que-redesenha-a-hidraulica-global-4871"
   }
 ];
 

@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-leilao-christies-a-nova-geracao--6413",
+    "slug": "leilao-christies-a-nova-geracao-e-a-ascensao-dos-calibres-de-proveniencia-historica-em-recordes-de-liquidez-6398",
+    "title": "Leilão Christie’s: A Nova Geração e a Ascensão dos Calibres de Proveniência Histórica em Recordes de Liquidez",
+    "image": "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVE1SdXc1UWt2VWRJa2RpMldic2FkYTBRd1hnYTNuLV80TUIybjBSdEh0a29aREFQZXY3RU4wSnhHNmJRU25HdTc3Mk5tOFZnaVo4aTBhUVpmZDJqNWxmUmlrQ1hGRGFENDJYSEJ4cVljamRxOWZwWDNQRmgtanpKb01ZM0FDTUhnVUtIWkk5MmtrNzRWTVE?oc=5",
+    "categorySlug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "publishedAt": "2026-11-11T22:13:46.412Z"
+  },
+  {
     "id": "art-ferrari-f40-o-icone-de-4-milhoes-8619",
     "slug": "ferrari-f40-o-icone-de-4-milhoes-e-tubos-de-inconel-que-converteu-as-ruas-em-pista-de-testes-de-maranello-8607",
     "title": "Ferrari F40: O Ícone de $4 Milhões e Tubos de Inconel que Converteu as Ruas em Pista de Testes de Maranello",
