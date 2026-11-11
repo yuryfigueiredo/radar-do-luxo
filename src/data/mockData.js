@@ -116,6 +116,59 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-gooding-christies-geneva-sale-20-3821",
+    "slug": "gooding-christies-geneva-sale-2026-142-milhoes-de-francos-suicos-e-o-triunfo-dos-chassis-conservados-em-silencio-mineral-3811",
+    "title": "Gooding Christie’s Geneva Sale 2026: 142 Milhões de Francos Suíços e o Triunfo dos Chassis Conservados em Silêncio Mineral",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "11 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A travessia de ativos mecânicos sob o martelo em Genebra reconfirma o movimento silencioso dos Family Offices globais rumo à custódia fiduciária de artefatos inabaláveis de raridade matemática.",
+    "contentParagraphs": [
+      "O salão de Genebra não ecoou aplausos efusivos. O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Sob os holofotes discretos da Gooding & Company em parceria com a Christie’s, o ar carregava a gravidade tépida das decisões alocatórias tomadas para transpassar gerações. Lotes raríssimos de automóveis de competição da década de 1950 mudaram de mãos sem que um único sobrolho se erguesse na plateia aristocrática. A transação física de um ativo tangível de escassez absoluta permanece como o derradeiro refúgio de liquidez em tempos de volatilidade geopolítica.",
+      "A conservação intocada foi a tese soberana da noite. Peças mantidas sob rigorosa custódia fiduciária por mais de meio século registraram ágios expressivos sobre as estimativas prévias de catálogo. A métrica decisiva não residiu em restaurações reluzentes ou pintura renovada. Investidores institucionais buscaram a pátina original preservada com disciplina absoluta e o histórico documental sem fendas. Números de chassi correspondentes e mecânica com selo de fábrica definiram os patamares de valorização fiduciária.",
+      "Capital soberano exige imunidade temporal. A alocação em artefatos de mobilidade mecânica com procedência nobre superou os índices tradicionais de arbitragem financeira nas últimas décadas. Coleções familiares consolidadas não alienam ativos em momentos de incerteza; elas adquirem raras oportunidades de transferência quando lotes selados emergem de espólios fechados. A governança dinástica dos maiores escritórios de patrimônio da Europa e da Ásia atuou com frieza cirúrgica durante todo o certame suíço.",
+      "Genebra encerra seu ciclo com lições cristalinas sobre preservação de capital. A soberania patrimonial recusa modismos voláteis. Veículos com pedigrê histórico inquestionável e tiragem extremamente restrita consolidam-se como bastiões inexpugnáveis de valor real. Os compradores que arremataram estes lotes em 2026 não buscaram automóveis para exibição casual. Adquiriram frações irsubstituíveis da história industrial custodiadas em metal e memória."
+    ],
+    "content_paragraphs": [
+      "O salão de Genebra não ecoou aplausos efusivos. O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Sob os holofotes discretos da Gooding & Company em parceria com a Christie’s, o ar carregava a gravidade tépida das decisões alocatórias tomadas para transpassar gerações. Lotes raríssimos de automóveis de competição da década de 1950 mudaram de mãos sem que um único sobrolho se erguesse na plateia aristocrática. A transação física de um ativo tangível de escassez absoluta permanece como o derradeiro refúgio de liquidez em tempos de volatilidade geopolítica.",
+      "A conservação intocada foi a tese soberana da noite. Peças mantidas sob rigorosa custódia fiduciária por mais de meio século registraram ágios expressivos sobre as estimativas prévias de catálogo. A métrica decisiva não residiu em restaurações reluzentes ou pintura renovada. Investidores institucionais buscaram a pátina original preservada com disciplina absoluta e o histórico documental sem fendas. Números de chassi correspondentes e mecânica com selo de fábrica definiram os patamares de valorização fiduciária.",
+      "Capital soberano exige imunidade temporal. A alocação em artefatos de mobilidade mecânica com procedência nobre superou os índices tradicionais de arbitragem financeira nas últimas décadas. Coleções familiares consolidadas não alienam ativos em momentos de incerteza; elas adquirem raras oportunidades de transferência quando lotes selados emergem de espólios fechados. A governança dinástica dos maiores escritórios de patrimônio da Europa e da Ásia atuou com frieza cirúrgica durante todo o certame suíço.",
+      "Genebra encerra seu ciclo com lições cristalinas sobre preservação de capital. A soberania patrimonial recusa modismos voláteis. Veículos com pedigrê histórico inquestionável e tiragem extremamente restrita consolidam-se como bastiões inexpugnáveis de valor real. Os compradores que arremataram estes lotes em 2026 não buscaram automóveis para exibição casual. Adquiriram frações irsubstituíveis da história industrial custodiadas em metal e memória."
+    ],
+    "specs": {
+      "Volume_Total_Negociado": "CHF 142,8 Milhões",
+      "Lote_Capânia": "Ferrari 250 GT SWB Berlinetta Competizione (1961)",
+      "Taxa_de_Conversao_Lotes": "94% dos lotes arrematados",
+      "Perfil_dos_Compradores": "Family Offices e Custódias Privadas",
+      "Localizacao_do_Leilao": "Hotel des Bergues, Genebra",
+      "Certificacao_de_Procedencia": "Dossiê Histórico e Numbers-Matching Verificados"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "gemini:gemini-3.5-flash",
+    "publishedAt": "2026-11-11T17:11:13.821Z",
+    "published_at": "2026-11-11T17:11:13.821Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMGJWSFUwVFBsYTB1S0tFZThvTGdKVkZ3bmJOUG9YZ2lQNGZHbVluc1FJZmlvUmJZeEFjaDlGVFY3VlBIOGJFRTA5cmU0YXFaS29CTzhRUkxlNm54bXlyTHp4aUVtWXZ5Y0Ztb25tUHN4cmF4dWtnNDBQNHpVUU1ydm9XUUhxeUNQRFdoWExCbVlacm91bmNCZHp4UE41WXM?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMGJWSFUwVFBsYTB1S0tFZThvTGdKVkZ3bmJOUG9YZ2lQNGZHbVluc1FJZmlvUmJZeEFjaDlGVFY3VlBIOGJFRTA5cmU0YXFaS29CTzhRUkxlNm54bXlyTHp4aUVtWXZ5Y0Ztb25tUHN4cmF4dWtnNDBQNHpVUU1ydm9XUUhxeUNQRFdoWExCbVlacm91bmNCZHp4UE41WXM?oc=5"
+  },
+  {
     "id": "art-coral-gables-50-milhoes-o-refugi-7499",
     "slug": "coral-gables-50-milhoes-o-refugio-de-1200-metros-quadrados-com-linha-de-costa-privativa-7488",
     "title": "Coral Gables 50 Milhões: O Refúgio de 1.200 Metros Quadrados com Linha de Costa Privativa",
@@ -1362,58 +1415,6 @@ export const ARTICLES = [
     "published_at": "2026-11-06T01:26:29.505Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcTNqZjVyWGtTeXN6bmdxVHhkMVV1ejgydHJETm9tMHpCc3pheU5lWFlQa3kzT29iWUtnX21vVksxMnZLVC1zQ2pGUnZkbUtoMWpuZzY0bklUODR2OUpMTHE0TERWamJTMVpfUUJQUHIyMUwwOEw4YWVhcUtfUjRfMnI1VlYxNnNXN3NXdkRQN1pqckphQk1icWFHVnpwYnBJbW1N?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcTNqZjVyWGtTeXN6bmdxVHhkMVV1ejgydHJETm9tMHpCc3pheU5lWFlQa3kzT29iWUtnX21vVksxMnZLVC1zQ2pGUnZkbUtoMWpuZzY0bklUODR2OUpMTHE0TERWamJTMVpfUUJQUHIyMUwwOEw4YWVhcUtfUjRfMnI1VlYxNnNXN3NXdkRQN1pqckphQk1icWFHVnpwYnBJbW1N?oc=5"
-  },
-  {
-    "id": "art-ferrari-431-milhoes-em-lucro-tri-3210",
-    "slug": "ferrari-431-milhoes-em-lucro-trimestral-que-valida-a-engenharia-de-precisao-sobre-a-producao-de-massa-3200",
-    "title": "Ferrari: €431 Milhões em Lucro Trimestral que Valida a Engenharia de Precisão sobre a Produção de Massa",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "05 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1650444684180-3f72abb15263?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "A Ferrari consolida sua soberania financeira no terceiro trimestre, provando que a escassez matemática e a cura de monocoques em carbo-titânio são os únicos ativos imunes à volatilidade do mercado global.",
-    "contentParagraphs": [
-      "O balanço financeiro da Ferrari não é apenas um registro contábil; é a tradução de uma estratégia de manufatura que despreza o volume em favor da pureza inercial. Enquanto o setor automotivo oscila sob o peso da eletrificação massificada, Maranello mantém uma margem operacional que desafia a lógica industrial comum. O lucro de €431 milhões reflete a resiliência de um modelo de negócio onde cada unidade entregue é, essencialmente, uma peça de engenharia colecionável antes mesmo de atingir o asfalto.",
-      "A telemetria financeira acompanha a precisão dos fluxos de Venturi aplicados aos seus hipercarros mais recentes. Ao limitar a produção para preservar o valor residual, a marca garante que cada monocoque, curado em autoclave a 6 bar, permaneça um ativo de liquidez superior. O desempenho nas margens é o resultado direto de uma gestão de frota que prioriza a complexidade dos motores de combustão interna e a integração de componentes em Inconel 625, elementos que demandam tolerâncias de mícrons impossíveis de replicar em larga escala.",
-      "A história da casa de Enzo Ferrari sempre foi pautada pelo equilíbrio entre a performance em pista e o rigor do ateliê. O investidor contemporâneo compreende que a Ferrari não vende meios de transporte, mas sim a soberania tecnológica de um motor aspirado ou híbrido de alta voltagem que ignora as tendências cíclicas. Esta marca de €431 milhões atesta que a demanda por engenharia de alto desempenho permanece inabalável, sustentada por uma base de clientes que busca a conexão física entre o piloto e a telemetria inercial.",
-      "O veredito é matemático: a Ferrari triunfa ao tratar seus veículos como patrimônio fiduciário. Enquanto a indústria se perde em telas táteis destinadas ao descarte precoce, o lucro trimestral reafirma a vitalidade da engenharia mecânica como o único refúgio seguro de valor. O futuro de Maranello não reside na escala, mas na precisão absoluta de seus fluxos de Venturi e na inabalável fidelidade à sua linhagem de alta performance."
-    ],
-    "content_paragraphs": [
-      "O balanço financeiro da Ferrari não é apenas um registro contábil; é a tradução de uma estratégia de manufatura que despreza o volume em favor da pureza inercial. Enquanto o setor automotivo oscila sob o peso da eletrificação massificada, Maranello mantém uma margem operacional que desafia a lógica industrial comum. O lucro de €431 milhões reflete a resiliência de um modelo de negócio onde cada unidade entregue é, essencialmente, uma peça de engenharia colecionável antes mesmo de atingir o asfalto.",
-      "A telemetria financeira acompanha a precisão dos fluxos de Venturi aplicados aos seus hipercarros mais recentes. Ao limitar a produção para preservar o valor residual, a marca garante que cada monocoque, curado em autoclave a 6 bar, permaneça um ativo de liquidez superior. O desempenho nas margens é o resultado direto de uma gestão de frota que prioriza a complexidade dos motores de combustão interna e a integração de componentes em Inconel 625, elementos que demandam tolerâncias de mícrons impossíveis de replicar em larga escala.",
-      "A história da casa de Enzo Ferrari sempre foi pautada pelo equilíbrio entre a performance em pista e o rigor do ateliê. O investidor contemporâneo compreende que a Ferrari não vende meios de transporte, mas sim a soberania tecnológica de um motor aspirado ou híbrido de alta voltagem que ignora as tendências cíclicas. Esta marca de €431 milhões atesta que a demanda por engenharia de alto desempenho permanece inabalável, sustentada por uma base de clientes que busca a conexão física entre o piloto e a telemetria inercial.",
-      "O veredito é matemático: a Ferrari triunfa ao tratar seus veículos como patrimônio fiduciário. Enquanto a indústria se perde em telas táteis destinadas ao descarte precoce, o lucro trimestral reafirma a vitalidade da engenharia mecânica como o único refúgio seguro de valor. O futuro de Maranello não reside na escala, mas na precisão absoluta de seus fluxos de Venturi e na inabalável fidelidade à sua linhagem de alta performance."
-    ],
-    "specs": {
-      "Lucro_Trimestral": "€431 milhões",
-      "Foco_Engenharia": "Monocoque em carbo-titânio",
-      "Materiais_Chave": "Inconel 625",
-      "Estratégia": "Escassez planejada",
-      "Performance_Financeira": "Alta margem operacional"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 88,
-    "ranking_score": 88,
-    "engineSource": "gemini:gemini-3.1-flash-lite",
-    "publishedAt": "2026-11-05T22:14:43.210Z",
-    "published_at": "2026-11-05T22:14:43.210Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQY3FvM3RhOFMtNXh3dFRFV3dEbVl3UENMU0Q4d3J0RmpVTlhHYTB1SjYtRV9DS3FaWDBTeGdmLWZ2MmVaQi1aUVBsS21mMWlRWVBLRHFrdkN5Ui1DRFFndEpIelNjUmRKdHgzNDNTc0lDWFBjbzRjUnAxVndRckxYQ0hwNzlCS1JXVWQwMTFWdWU5bDlfYnZYX3pIQXRKckVQclRvYUpDN3h6ZE5pcEtrZ3lWamFyVkhoV0JwUkc1U0V3dWVtNVhzVUFxcVJNSEnSAdwBQVVfeXFMTjdkTUVuTFlNTlFCZTM3THlkTDlpeUNUTW5VT2hCQi1EZGN2YTVkdXZJcHA5MV9xSDVaSWxpa1RNUkhJYV9jdVBzZUc3VFRTTm9LNzNaOEdmRlNwOElTY2dsdEZHZ1U3dkl6OG82WXlVWllsUndOYzMtMW5VMnQtcVd4VGVHZEZmZHA3YW1ZQU9taVBPS0xzSmh4XzdDeUYwQ2xJeEQ2ZkFoZUVUalhHa0VvTGlyV0VhaEhpN0Nxd3NuX1h1ZnpYMnVsVWQ5Tjh3R25qeFNBa1dHRWdqVw?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQY3FvM3RhOFMtNXh3dFRFV3dEbVl3UENMU0Q4d3J0RmpVTlhHYTB1SjYtRV9DS3FaWDBTeGdmLWZ2MmVaQi1aUVBsS21mMWlRWVBLRHFrdkN5Ui1DRFFndEpIelNjUmRKdHgzNDNTc0lDWFBjbzRjUnAxVndRckxYQ0hwNzlCS1JXVWQwMTFWdWU5bDlfYnZYX3pIQXRKckVQclRvYUpDN3h6ZE5pcEtrZ3lWamFyVkhoV0JwUkc1U0V3dWVtNVhzVUFxcVJNSEnSAdwBQVVfeXFMTjdkTUVuTFlNTlFCZTM3THlkTDlpeUNUTW5VT2hCQi1EZGN2YTVkdXZJcHA5MV9xSDVaSWxpa1RNUkhJYV9jdVBzZUc3VFRTTm9LNzNaOEdmRlNwOElTY2dsdEZHZ1U3dkl6OG82WXlVWllsUndOYzMtMW5VMnQtcVd4VGVHZEZmZHA3YW1ZQU9taVBPS0xzSmh4XzdDeUYwQ2xJeEQ2ZkFoZUVUalhHa0VvTGlyV0VhaEhpN0Nxd3NuX1h1ZnpYMnVsVWQ5Tjh3R25qeFNBa1dHRWdqVw?oc=5"
   }
 ];
 
@@ -1421,13 +1422,21 @@ export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
     "category": "DESTINOS",
+    "title": "Sindalah: O Arquipélago do Mar Vermelh...",
+    "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
+    "tag": "CURADORIA RADAR",
+    "slug": "sindalah-o-arquipelago-do-mar-vermelho-de-84-bercos-que-desafia-a-soberania-nautica-de-monaco-7239"
+  },
+  {
+    "id": "film-2",
+    "category": "DESTINOS",
     "title": "Sheergold: O Superiate de Expedição e ...",
     "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "sheergold-o-superiate-de-expedicao-e-os-7-dias-de-navegacao-extrema-pelo-grande-buraco-azul-de-belize-8524"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "ARQUITETURA",
     "title": "Christie's Hong Kong Luxury Week Autum...",
     "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=max&q=80&w=1400",
@@ -1435,7 +1444,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "christies-hong-kong-luxury-week-autumn-2026-450-lotes-de-alta-custodia-e-governanca-dinastica-em-territorio-asiatico-5552"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Toyota GR010 Hybrid: O Protótipo de Re...",
     "image": "https://images.unsplash.com/photo-1731770758454-9d283a702306?auto=format&fit=max&q=80&w=1400",
@@ -1443,7 +1452,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "toyota-gr010-hybrid-o-prototipo-de-resistencia-de-680-cv-que-marca-a-despedida-cinetica-de-mike-conway-nas-pistas-7216"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "DESTINOS",
     "title": "Megaiates de 100 Metros: A Escassez Ab...",
     "image": "https://images.unsplash.com/photo-1562281302-809108fd533c?auto=format&fit=max&q=80&w=1400",
@@ -1451,20 +1460,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "megaiates-de-100-metros-a-escassez-absoluta-de-bercos-de-50-milhoes-de-dolares-que-redesenha-a-hidraulica-global-4871"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "ARQUITETURA",
     "title": "Coleção David Geffen: O Leilão de US$ ...",
     "image": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "colecao-david-geffen-o-leilao-de-us-500-milhoes-em-arte-contemporanea-que-reafirma-a-soberania-patrimonial-dinastica-8832"
-  },
-  {
-    "id": "film-6",
-    "category": "DESTINOS",
-    "title": "Superiate Oceânico de 185 Milhões de E...",
-    "image": "https://images.unsplash.com/photo-1604737637145-48cc31d160eb?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "superiate-oceanico-de-185-milhoes-de-euros-em-maiorca-o-casco-deslocante-de-aco-com-autonomia-transatlantica-e-propulsao-hibrida-silenciosa-6646"
   }
 ];
 

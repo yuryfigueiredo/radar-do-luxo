@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-gooding-christies-geneva-sale-20-3821",
+    "slug": "gooding-christies-geneva-sale-2026-142-milhoes-de-francos-suicos-e-o-triunfo-dos-chassis-conservados-em-silencio-mineral-3811",
+    "title": "Gooding Christie’s Geneva Sale 2026: 142 Milhões de Francos Suíços e o Triunfo dos Chassis Conservados em Silêncio Mineral",
+    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMGJWSFUwVFBsYTB1S0tFZThvTGdKVkZ3bmJOUG9YZ2lQNGZHbVluc1FJZmlvUmJZeEFjaDlGVFY3VlBIOGJFRTA5cmU0YXFaS29CTzhRUkxlNm54bXlyTHp4aUVtWXZ5Y0Ztb25tUHN4cmF4dWtnNDBQNHpVUU1ydm9XUUhxeUNQRFdoWExCbVlacm91bmNCZHp4UE41WXM?oc=5",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "publishedAt": "2026-11-11T17:11:13.821Z"
+  },
+  {
     "id": "art-coral-gables-50-milhoes-o-refugi-7499",
     "slug": "coral-gables-50-milhoes-o-refugio-de-1200-metros-quadrados-com-linha-de-costa-privativa-7488",
     "title": "Coral Gables 50 Milhões: O Refúgio de 1.200 Metros Quadrados com Linha de Costa Privativa",
