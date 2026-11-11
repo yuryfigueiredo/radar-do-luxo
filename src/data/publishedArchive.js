@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-coral-gables-50-milhoes-o-refugi-7499",
+    "slug": "coral-gables-50-milhoes-o-refugio-de-1200-metros-quadrados-com-linha-de-costa-privativa-7488",
+    "title": "Coral Gables 50 Milhões: O Refúgio de 1.200 Metros Quadrados com Linha de Costa Privativa",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=85&w=1800",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxQWUJPMjJNLXZJVUpSYUFicFl3SnZhdDR2a2w5ci1RcVBDT0N3S1RjdURDOHRJX2pTQmt1cEc2bXBvcWJNeWp5UnZiNDFVREJ0Vkh6Tm9iZTJGVHZPMjZUSUdOWmxSVkJXSkpZeHFIbU1sTFpmOFRfbVVadWZucmlCZDVKNURyODdFUG5RSzE0VUN4WS12VEVFNFNFOWYxSzdFckVYV3NJd2hWaDAwUEx1SkJRdF9uaFYzNVVkOUVzUmhpbnUwWG1nLVR0ZlBnUmtjV1VybW9rM2xLR0xSLThaZFVNT1pKQWJvVXUyNnEtbTQyd0RFdVRiM2hDWkFxTnZydmlyVmo4NlM1dTBnUXVKb3F1WnJvRVZLNVdMNHN5OWo4SkpTU3V5V2RqRWE0dUhwVnNTSEF5MDlES1RyeTR0WXRncmk5MzRGZ3NYcHBJaGFzM2NyclRWOE1PTEQ1ZzR5Ulc2WkJiaHNyc1VoQTZlTXpaQWPSAfoCQVVfeXFMT05HR1NIWmdmR3lpQ1hfOW5SaEFxTWtGUWNKVnRnNFc2LUFJWEp0N25vSzhMLWlVbDlQb21DZUxNYTBoZU54M3NMczZ3elgwc21EbXk4ejMzM0pFMDNRZU9FZjV2bUUzdVh1a2VKc0pvcWxJekp2NXE1UXV2REJ6OERnZFhfaThWejZEeEtLQ29GYnJ6M1FQZVNpT29SQU41UnZNM1pjdWtScktPZ0hDd3FsTTJHREhIQWl4LUwwdXJ2TnJJc3NPVTd6LTVyaTlkTDhrUnZUQTJfNm4zRGlUNUVpT01pVjA4eUlGNlVVZ29LcHh0eUloSWd4eG42NmFMejVVLXNXLW94N1psTjJTUFZZSE9wMkQtWTVuNElCUk10M3B4a01mVXNMSHRURGswd1BOY0xPY2dsUEhDM1VUbEM4TlJkNkNaQzktdi1LbGxZOGhPdnlyZ2dXZUVJaGVkWXFNQmhqTEFsVklpLWoySTNMekpyV29vN1RB?oc=5",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "publishedAt": "2026-11-11T03:05:27.498Z"
+  },
+  {
     "id": "art-phillips-geneva-watch-auction-xx-7419",
     "slug": "phillips-geneva-watch-auction-xxiv-112-milhoes-de-dolares-em-calibres-raros-sob-o-silencio-absoluto-da-vallee-de-joux-7407",
     "title": "Phillips Geneva Watch Auction XXIV: 112 Milhões de Dólares em Calibres Raros Sob o Silêncio Absoluto da Vallée de Joux",

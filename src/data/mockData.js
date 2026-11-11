@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-coral-gables-50-milhoes-o-refugi-7499",
+    "slug": "coral-gables-50-milhoes-o-refugio-de-1200-metros-quadrados-com-linha-de-costa-privativa-7488",
+    "title": "Coral Gables 50 Milhões: O Refúgio de 1.200 Metros Quadrados com Linha de Costa Privativa",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "11 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=85&w=1800",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Abel Tesfaye firma soberania patrimonial em uma península exclusiva da Flórida, consolidando um ativo de rara liquidez em meio ao travertino e à geometria brutalista das águas.",
+    "contentParagraphs": [
+      "O silêncio mineral que envolve Coral Gables não é um acidente geográfico; é uma imposição de classe. Ao assegurar este espólio de 50 milhões de dólares, o artista transcende a efemeridade das paradas musicais para abraçar a soberania patrimonial. O terreno, uma extensão de terra avançando sobre o Atlântico, funciona como uma fortaleza de privacidade absoluta. Aqui, o capital não busca ruído, mas a perenidade das fundações em solo rochoso.",
+      "A arquitetura da propriedade dialoga com a austeridade moderna, privilegiando vãos livres que ignoram a barreira entre o interior e a brisa salina. Estruturas em concreto aparente e vidro temperado de alta performance garantem a integridade térmica, enquanto a fachada, desenhada para resistir à severidade dos ventos tropicais, exibe uma geometria de precisão cirúrgica. Cada metro quadrado foi curado para assegurar que a manutenção do ativo seja tão invisível quanto necessária para a sua valorização contínua.",
+      "Em um mercado imobiliário saturado por especulação, este ativo destaca-se pela escassez matemática de sua localização. A posse de uma península privada em Coral Gables não é apenas uma transação, é um refúgio de liquidez imune aos ciclos de mercado. Enquanto a liquidez global oscila, a terra firme — especialmente aquela circundada por águas profundas — permanece como o derradeiro porto seguro para o patrimônio dinástico.",
+      "A aquisição reafirma a transição do capital volátil para a custódia fiduciária de bens tangíveis. Não se trata de moradia, mas de uma peça de engenharia habitacional que se valoriza através da exclusividade de seu perímetro. Henrique Vianna observa este movimento como a consolidação de uma estratégia de longo prazo, onde o conforto é apenas um subproduto de uma decisão financeira de precisão absoluta."
+    ],
+    "content_paragraphs": [
+      "O silêncio mineral que envolve Coral Gables não é um acidente geográfico; é uma imposição de classe. Ao assegurar este espólio de 50 milhões de dólares, o artista transcende a efemeridade das paradas musicais para abraçar a soberania patrimonial. O terreno, uma extensão de terra avançando sobre o Atlântico, funciona como uma fortaleza de privacidade absoluta. Aqui, o capital não busca ruído, mas a perenidade das fundações em solo rochoso.",
+      "A arquitetura da propriedade dialoga com a austeridade moderna, privilegiando vãos livres que ignoram a barreira entre o interior e a brisa salina. Estruturas em concreto aparente e vidro temperado de alta performance garantem a integridade térmica, enquanto a fachada, desenhada para resistir à severidade dos ventos tropicais, exibe uma geometria de precisão cirúrgica. Cada metro quadrado foi curado para assegurar que a manutenção do ativo seja tão invisível quanto necessária para a sua valorização contínua.",
+      "Em um mercado imobiliário saturado por especulação, este ativo destaca-se pela escassez matemática de sua localização. A posse de uma península privada em Coral Gables não é apenas uma transação, é um refúgio de liquidez imune aos ciclos de mercado. Enquanto a liquidez global oscila, a terra firme — especialmente aquela circundada por águas profundas — permanece como o derradeiro porto seguro para o patrimônio dinástico.",
+      "A aquisição reafirma a transição do capital volátil para a custódia fiduciária de bens tangíveis. Não se trata de moradia, mas de uma peça de engenharia habitacional que se valoriza através da exclusividade de seu perímetro. Henrique Vianna observa este movimento como a consolidação de uma estratégia de longo prazo, onde o conforto é apenas um subproduto de uma decisão financeira de precisão absoluta."
+    ],
+    "specs": {
+      "localizacao": "Coral Gables, Florida",
+      "valor_ativo": "USD 50.000.000",
+      "tipologia": "Mansão Waterfront em Península",
+      "custodia": "Patrimônio Privado",
+      "estilo_arquitetonico": "Brutalismo Contemporâneo"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 87,
+    "ranking_score": 87,
+    "engineSource": "gemini:gemini-3.1-flash-lite",
+    "publishedAt": "2026-11-11T03:05:27.498Z",
+    "published_at": "2026-11-11T03:05:27.498Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxQWUJPMjJNLXZJVUpSYUFicFl3SnZhdDR2a2w5ci1RcVBDT0N3S1RjdURDOHRJX2pTQmt1cEc2bXBvcWJNeWp5UnZiNDFVREJ0Vkh6Tm9iZTJGVHZPMjZUSUdOWmxSVkJXSkpZeHFIbU1sTFpmOFRfbVVadWZucmlCZDVKNURyODdFUG5RSzE0VUN4WS12VEVFNFNFOWYxSzdFckVYV3NJd2hWaDAwUEx1SkJRdF9uaFYzNVVkOUVzUmhpbnUwWG1nLVR0ZlBnUmtjV1VybW9rM2xLR0xSLThaZFVNT1pKQWJvVXUyNnEtbTQyd0RFdVRiM2hDWkFxTnZydmlyVmo4NlM1dTBnUXVKb3F1WnJvRVZLNVdMNHN5OWo4SkpTU3V5V2RqRWE0dUhwVnNTSEF5MDlES1RyeTR0WXRncmk5MzRGZ3NYcHBJaGFzM2NyclRWOE1PTEQ1ZzR5Ulc2WkJiaHNyc1VoQTZlTXpaQWPSAfoCQVVfeXFMT05HR1NIWmdmR3lpQ1hfOW5SaEFxTWtGUWNKVnRnNFc2LUFJWEp0N25vSzhMLWlVbDlQb21DZUxNYTBoZU54M3NMczZ3elgwc21EbXk4ejMzM0pFMDNRZU9FZjV2bUUzdVh1a2VKc0pvcWxJekp2NXE1UXV2REJ6OERnZFhfaThWejZEeEtLQ29GYnJ6M1FQZVNpT29SQU41UnZNM1pjdWtScktPZ0hDd3FsTTJHREhIQWl4LUwwdXJ2TnJJc3NPVTd6LTVyaTlkTDhrUnZUQTJfNm4zRGlUNUVpT01pVjA4eUlGNlVVZ29LcHh0eUloSWd4eG42NmFMejVVLXNXLW94N1psTjJTUFZZSE9wMkQtWTVuNElCUk10M3B4a01mVXNMSHRURGswd1BOY0xPY2dsUEhDM1VUbEM4TlJkNkNaQzktdi1LbGxZOGhPdnlyZ2dXZUVJaGVkWXFNQmhqTEFsVklpLWoySTNMekpyV29vN1RB?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxQWUJPMjJNLXZJVUpSYUFicFl3SnZhdDR2a2w5ci1RcVBDT0N3S1RjdURDOHRJX2pTQmt1cEc2bXBvcWJNeWp5UnZiNDFVREJ0Vkh6Tm9iZTJGVHZPMjZUSUdOWmxSVkJXSkpZeHFIbU1sTFpmOFRfbVVadWZucmlCZDVKNURyODdFUG5RSzE0VUN4WS12VEVFNFNFOWYxSzdFckVYV3NJd2hWaDAwUEx1SkJRdF9uaFYzNVVkOUVzUmhpbnUwWG1nLVR0ZlBnUmtjV1VybW9rM2xLR0xSLThaZFVNT1pKQWJvVXUyNnEtbTQyd0RFdVRiM2hDWkFxTnZydmlyVmo4NlM1dTBnUXVKb3F1WnJvRVZLNVdMNHN5OWo4SkpTU3V5V2RqRWE0dUhwVnNTSEF5MDlES1RyeTR0WXRncmk5MzRGZ3NYcHBJaGFzM2NyclRWOE1PTEQ1ZzR5Ulc2WkJiaHNyc1VoQTZlTXpaQWPSAfoCQVVfeXFMT05HR1NIWmdmR3lpQ1hfOW5SaEFxTWtGUWNKVnRnNFc2LUFJWEp0N25vSzhMLWlVbDlQb21DZUxNYTBoZU54M3NMczZ3elgwc21EbXk4ejMzM0pFMDNRZU9FZjV2bUUzdVh1a2VKc0pvcWxJekp2NXE1UXV2REJ6OERnZFhfaThWejZEeEtLQ29GYnJ6M1FQZVNpT29SQU41UnZNM1pjdWtScktPZ0hDd3FsTTJHREhIQWl4LUwwdXJ2TnJJc3NPVTd6LTVyaTlkTDhrUnZUQTJfNm4zRGlUNUVpT01pVjA4eUlGNlVVZ29LcHh0eUloSWd4eG42NmFMejVVLXNXLW94N1psTjJTUFZZSE9wMkQtWTVuNElCUk10M3B4a01mVXNMSHRURGswd1BOY0xPY2dsUEhDM1VUbEM4TlJkNkNaQzktdi1LbGxZOGhPdnlyZ2dXZUVJaGVkWXFNQmhqTEFsVklpLWoySTNMekpyV29vN1RB?oc=5"
+  },
+  {
     "id": "art-phillips-geneva-watch-auction-xx-7419",
     "slug": "phillips-geneva-watch-auction-xxiv-112-milhoes-de-dolares-em-calibres-raros-sob-o-silencio-absoluto-da-vallee-de-joux-7407",
     "title": "Phillips Geneva Watch Auction XXIV: 112 Milhões de Dólares em Calibres Raros Sob o Silêncio Absoluto da Vallée de Joux",
@@ -177,7 +229,7 @@ export const ARTICLES = [
     "authorSlug": "clara-meirelles",
     "author_slug": "clara-meirelles",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "10 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -205,10 +257,10 @@ export const ARTICLES = [
       "foco_da_curadoria": "Calibres vintage de altíssima complicação e proveniência intocada"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 94,
@@ -1362,64 +1414,20 @@ export const ARTICLES = [
     "published_at": "2026-11-05T22:14:43.210Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQY3FvM3RhOFMtNXh3dFRFV3dEbVl3UENMU0Q4d3J0RmpVTlhHYTB1SjYtRV9DS3FaWDBTeGdmLWZ2MmVaQi1aUVBsS21mMWlRWVBLRHFrdkN5Ui1DRFFndEpIelNjUmRKdHgzNDNTc0lDWFBjbzRjUnAxVndRckxYQ0hwNzlCS1JXVWQwMTFWdWU5bDlfYnZYX3pIQXRKckVQclRvYUpDN3h6ZE5pcEtrZ3lWamFyVkhoV0JwUkc1U0V3dWVtNVhzVUFxcVJNSEnSAdwBQVVfeXFMTjdkTUVuTFlNTlFCZTM3THlkTDlpeUNUTW5VT2hCQi1EZGN2YTVkdXZJcHA5MV9xSDVaSWxpa1RNUkhJYV9jdVBzZUc3VFRTTm9LNzNaOEdmRlNwOElTY2dsdEZHZ1U3dkl6OG82WXlVWllsUndOYzMtMW5VMnQtcVd4VGVHZEZmZHA3YW1ZQU9taVBPS0xzSmh4XzdDeUYwQ2xJeEQ2ZkFoZUVUalhHa0VvTGlyV0VhaEhpN0Nxd3NuX1h1ZnpYMnVsVWQ5Tjh3R25qeFNBa1dHRWdqVw?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQY3FvM3RhOFMtNXh3dFRFV3dEbVl3UENMU0Q4d3J0RmpVTlhHYTB1SjYtRV9DS3FaWDBTeGdmLWZ2MmVaQi1aUVBsS21mMWlRWVBLRHFrdkN5Ui1DRFFndEpIelNjUmRKdHgzNDNTc0lDWFBjbzRjUnAxVndRckxYQ0hwNzlCS1JXVWQwMTFWdWU5bDlfYnZYX3pIQXRKckVQclRvYUpDN3h6ZE5pcEtrZ3lWamFyVkhoV0JwUkc1U0V3dWVtNVhzVUFxcVJNSEnSAdwBQVVfeXFMTjdkTUVuTFlNTlFCZTM3THlkTDlpeUNUTW5VT2hCQi1EZGN2YTVkdXZJcHA5MV9xSDVaSWxpa1RNUkhJYV9jdVBzZUc3VFRTTm9LNzNaOEdmRlNwOElTY2dsdEZHZ1U3dkl6OG82WXlVWllsUndOYzMtMW5VMnQtcVd4VGVHZEZmZHA3YW1ZQU9taVBPS0xzSmh4XzdDeUYwQ2xJeEQ2ZkFoZUVUalhHa0VvTGlyV0VhaEhpN0Nxd3NuX1h1ZnpYMnVsVWQ5Tjh3R25qeFNBa1dHRWdqVw?oc=5"
-  },
-  {
-    "id": "art-the-italian-sea-group-o-colapso--1382",
-    "slug": "the-italian-sea-group-o-colapso-financeiro-de-587-milhoes-que-desafia-a-engenharia-naval-de-alto-luxo-1371",
-    "title": "The Italian Sea Group: O Colapso Financeiro de €58,7 Milhões que Desafia a Engenharia Naval de Alto Luxo",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "05 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1621277224630-81d9af65e40c?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A soberania dos estaleiros de Marina di Carrara enfrenta um estresse estrutural severo, revelando fissuras na liquidez de um dos maiores nomes da náutica global em 2026.",
-    "contentParagraphs": [
-      "O balanço financeiro de 2026 expõe uma erosão de capital de €58,7 milhões no The Italian Sea Group. A grandiosidade dos cascos em aço naval e as superestruturas em alumínio 5083, outrora símbolos de solidez inabalável, agora enfrentam a física implacável dos mercados de capitais. O silêncio nos diques secos ressoa mais alto que o ruído das turbinas de propulsão híbrida em marcha lenta.",
-      "A engenharia naval exige tolerâncias de mícrons e fluxo de caixa contínuo para sustentar projetos de megaiates que desafiam o arrasto hidrodinâmico. Cada falha na gestão de ativos atua como um peso morto na linha d'água, comprometendo o balanço de massa do estaleiro. Sem a injeção necessária de capital operacional, a complexidade dos sistemas de estabilização giroscópica e a integração de propulsores azimutais tornam-se passivos onerosos em vez de diferenciais competitivos.",
-      "O setor de luxo náutico não perdoa o descasamento entre o ciclo de construção e a liquidez imediata. Enquanto projetistas buscam o coeficiente de arrasto ideal, a diretoria esbarra em uma crise de solvência que remete à instabilidade de cascos sem lastro. O mercado observa se o estaleiro conseguirá reconfigurar seu monocoque financeiro antes que a inércia da dívida torne a recuperação uma manobra impossível de ser executada.",
-      "A soberania de um estaleiro é medida pela capacidade de manter o ritmo de entrega sob pressões macroeconômicas extremas. O déficit atual não é apenas um número em uma planilha, mas um teste de resistência para toda a cadeia de suprimentos de alto luxo. A confiança dos investidores depende agora da reengenharia radical dos processos de governança, sob o risco de transformar ícones da engenharia naval em memórias de uma era de expansão desenfreada."
-    ],
-    "content_paragraphs": [
-      "O balanço financeiro de 2026 expõe uma erosão de capital de €58,7 milhões no The Italian Sea Group. A grandiosidade dos cascos em aço naval e as superestruturas em alumínio 5083, outrora símbolos de solidez inabalável, agora enfrentam a física implacável dos mercados de capitais. O silêncio nos diques secos ressoa mais alto que o ruído das turbinas de propulsão híbrida em marcha lenta.",
-      "A engenharia naval exige tolerâncias de mícrons e fluxo de caixa contínuo para sustentar projetos de megaiates que desafiam o arrasto hidrodinâmico. Cada falha na gestão de ativos atua como um peso morto na linha d'água, comprometendo o balanço de massa do estaleiro. Sem a injeção necessária de capital operacional, a complexidade dos sistemas de estabilização giroscópica e a integração de propulsores azimutais tornam-se passivos onerosos em vez de diferenciais competitivos.",
-      "O setor de luxo náutico não perdoa o descasamento entre o ciclo de construção e a liquidez imediata. Enquanto projetistas buscam o coeficiente de arrasto ideal, a diretoria esbarra em uma crise de solvência que remete à instabilidade de cascos sem lastro. O mercado observa se o estaleiro conseguirá reconfigurar seu monocoque financeiro antes que a inércia da dívida torne a recuperação uma manobra impossível de ser executada.",
-      "A soberania de um estaleiro é medida pela capacidade de manter o ritmo de entrega sob pressões macroeconômicas extremas. O déficit atual não é apenas um número em uma planilha, mas um teste de resistência para toda a cadeia de suprimentos de alto luxo. A confiança dos investidores depende agora da reengenharia radical dos processos de governança, sob o risco de transformar ícones da engenharia naval em memórias de uma era de expansão desenfreada."
-    ],
-    "specs": {
-      "Prejuízo_Operacional": "€58,7 milhões",
-      "Ano_Fiscal": "2026",
-      "Setor": "Engenharia Naval de Superiates",
-      "Sede": "Marina di Carrara, Itália",
-      "Risco_Crítico": "Estresse de Liquidez Estrutural"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 90,
-    "ranking_score": 90,
-    "engineSource": "gemini:gemini-3.1-flash-lite",
-    "publishedAt": "2026-11-05T18:28:01.381Z",
-    "published_at": "2026-11-05T18:28:01.381Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQThUTERwY3p2QnFCMEVBNGNFY2F6bTJfNGhzR2RRQUc0cDktX3dnSGZ3OGg5SmVUcktTMFJ3d0Zya3UtYmdoREo4V2JrSWRxS3JQTkkxYmVMSnNaNld4Z09vXzh3SVF4OHB2OGZGdEM2NGtuTHU0MFVZR0ZFbUhjeE94b0VrTmht?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQThUTERwY3p2QnFCMEVBNGNFY2F6bTJfNGhzR2RRQUc0cDktX3dnSGZ3OGg5SmVUcktTMFJ3d0Zya3UtYmdoREo4V2JrSWRxS3JQTkkxYmVMSnNaNld4Z09vXzh3SVF4OHB2OGZGdEM2NGtuTHU0MFVZR0ZFbUhjeE94b0VrTmht?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "DESTINOS",
+    "title": "Sheergold: O Superiate de Expedição e ...",
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "sheergold-o-superiate-de-expedicao-e-os-7-dias-de-navegacao-extrema-pelo-grande-buraco-azul-de-belize-8524"
+  },
+  {
+    "id": "film-2",
     "category": "ARQUITETURA",
     "title": "Christie's Hong Kong Luxury Week Autum...",
     "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=max&q=80&w=1400",
@@ -1427,7 +1435,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "christies-hong-kong-luxury-week-autumn-2026-450-lotes-de-alta-custodia-e-governanca-dinastica-em-territorio-asiatico-5552"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Toyota GR010 Hybrid: O Protótipo de Re...",
     "image": "https://images.unsplash.com/photo-1731770758454-9d283a702306?auto=format&fit=max&q=80&w=1400",
@@ -1435,7 +1443,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "toyota-gr010-hybrid-o-prototipo-de-resistencia-de-680-cv-que-marca-a-despedida-cinetica-de-mike-conway-nas-pistas-7216"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "DESTINOS",
     "title": "Megaiates de 100 Metros: A Escassez Ab...",
     "image": "https://images.unsplash.com/photo-1562281302-809108fd533c?auto=format&fit=max&q=80&w=1400",
@@ -1443,7 +1451,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "megaiates-de-100-metros-a-escassez-absoluta-de-bercos-de-50-milhoes-de-dolares-que-redesenha-a-hidraulica-global-4871"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "ARQUITETURA",
     "title": "Coleção David Geffen: O Leilão de US$ ...",
     "image": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=max&q=80&w=1400",
@@ -1451,20 +1459,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "colecao-david-geffen-o-leilao-de-us-500-milhoes-em-arte-contemporanea-que-reafirma-a-soberania-patrimonial-dinastica-8832"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "DESTINOS",
     "title": "Superiate Oceânico de 185 Milhões de E...",
     "image": "https://images.unsplash.com/photo-1604737637145-48cc31d160eb?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "superiate-oceanico-de-185-milhoes-de-euros-em-maiorca-o-casco-deslocante-de-aco-com-autonomia-transatlantica-e-propulsao-hibrida-silenciosa-6646"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Ferrari Mondial Pace Car: O Investimen...",
-    "image": "https://images.unsplash.com/photo-1766353134008-bb3b8b99ddd2?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "ferrari-mondial-pace-car-o-investimento-de-1-milhao-de-dolares-que-desafiou-a-depreciacao-com-engenharia-de-pista-9371"
   }
 ];
 
