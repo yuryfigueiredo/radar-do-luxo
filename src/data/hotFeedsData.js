@@ -201,7 +201,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://hodinkee.imgix.net/uploads/articles/2076ff2e-42d9-4359-93d3-1d12648c0d7a/timetidesuncdownder2heading.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=2000",
     "imageIsFallback": false,
-    "status": "available"
+    "status": "duplicate"
   },
   {
     "id": "pauta-live-arquitetura-mwdck8ad-11m5",
@@ -228,7 +228,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://hodinkee.imgix.net/uploads/articles/b1d62720-f7ce-4967-a24a-865a952b92f1/Untitled-1.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=2000",
     "imageIsFallback": false,
-    "status": "available"
+    "status": "duplicate"
   },
   {
     "id": "pauta-live-arquitetura-mwdck9dy-ms9x",
@@ -255,7 +255,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "available"
+    "status": "duplicate"
   },
   {
     "id": "pauta-live-arquitetura-mwdck9e3-7i8g",
