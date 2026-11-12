@@ -19,59 +19,33 @@ import { calculateEditorialScore } from '../services/rankingEngine.js';
 
 export const INITIAL_HOT_PAUTAS = [
   {
-    "id": "pauta-live-supercarros-mwcgf5ny-fgaq",
+    "id": "pauta-live-supercarros-mwdck8ud-d4a7",
     "source": "Google News Motors (Ferrari/Bugatti)",
     "sourceCategory": "Supercarros",
     "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
     "category": "Supercarros",
     "categorySlug": "supercarros",
     "authorSlug": "gabriel-fontes",
-    "rankingScore": 89,
+    "rankingScore": 92,
     "rankingTier": "A",
-    "originalTitle": "Renault-Geely’s Horse unveils V-8 for Lotus supercar aimed at Ferrari, Lamborghini - Automotive News",
-    "suggestedHook": "Hipercarros: Renault-Geely’s Horse unveils V-8 for Lotus supercar aimed at Ferrari, Lamborghini",
-    "summary": "Renault-Geely’s Horse unveils V-8 for Lotus supercar aimed at Ferrari, Lamborghini Automotive News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSbHNFY3RLRVZmenVKT0tEal8yaHBBbWtHMlE4Uy1jeU1jS1JWaHBkSTRnbXk3SzVhcVpnaFZQSjg5ZlVZam5PTk0xRWo5dGhzQlZBOHYtaF84VTFaWjV3TDhQV215VG1FWXh5NG1Wa1ZtRVhW?oc=5",
+    "originalTitle": "Why did someone pay 10 million dollars for a Le Mans Ferrari that can’t race? - Classic Driver",
+    "suggestedHook": "Hipercarros: Why did someone pay 10 million dollars for a Le Mans Ferrari that can’t race?",
+    "summary": "Why did someone pay 10 million dollars for a Le Mans Ferrari that can’t race? Classic Driver",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONkFiUjJqbnQzQkswbUVQbTZpN3l4RVBMd2FFdzZ3eXZzZHZDMVVndWlJTVN2aUQ5RlpyeEd0WlRTdVVOVUdnT1FNMlptanNlb3JPelphU093d2t3cUhISWhtR2JhZmJSeHVtMVZqRGVnbnc4SXhHSHNad2k0bkNPZFg2eTItNTZKWnM1V1BrVUU2QmRYT3VnMlZDRjVmUWI5Z01PYjI2Y0FJOHpQR1RGSkJISjVXeGM?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-11T18:30:20.014Z",
+    "createdAt": "2026-11-12T09:30:05.125Z",
     "validityHours": 24,
     "specsPreview": {
       "categoria": "Hipercarro de Colecionismo",
       "telemetria": "Calibração de pista",
       "curadoria": "Gabriel Fontes"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1660326040484-fc0cb33d0b23?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-supercarros-mwcgf5om-ko68",
-    "source": "Google News Motors (Ferrari/Bugatti)",
-    "sourceCategory": "Supercarros",
-    "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "rankingScore": 89,
-    "rankingTier": "A",
-    "originalTitle": "Gordon Ramsay makes a young fan's day by inviting him to sit inside his $4M Ferrari F40 - Supercar Blondie",
-    "suggestedHook": "Hipercarros: Gordon Ramsay makes a young fan's day by inviting him to sit inside his $4M Ferrari F40",
-    "summary": "Gordon Ramsay makes a young fan's day by inviting him to sit inside his $4M Ferrari F40 Supercar Blondie",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFAyRHYzeFlyMkNiLTBjVFJ3UVp2Sm9ZR1czX3Jyam5uMWNOSGpoQ3VUTmJMelpNVzhVRkVZMDZjekZkZktaakFxaG5QRWtaODYxZllSX0V4V3RnUnVRTUF4bGliM3luV1A4R0JWQVlkdnN4dw?oc=5",
-    "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-11T18:30:20.038Z",
-    "validityHours": 24,
-    "specsPreview": {
-      "categoria": "Hipercarro de Colecionismo",
-      "telemetria": "Calibração de pista",
-      "curadoria": "Gabriel Fontes"
-    },
-    "suggestedImage": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80&w=1400",
-    "imageIsFallback": true,
-    "status": "published"
-  },
-  {
-    "id": "pauta-live-destinos-mwcgf69y-7ei6",
+    "id": "pauta-live-destinos-mwdck97t-r5jc",
     "source": "Google News Superyachts",
     "sourceCategory": "Destinos & Iates",
     "badgeColor": "border-purple-500/40 text-purple-400 bg-purple-500/10",
@@ -85,7 +59,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Superyacht owned by British billionaire John Caudwell docks in Arrecife Gazette Life",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWTVXaGEyX1U5alpmNUN2THN2MGNsS2RSSVR6ZHZvcmJtTU1XUXFBVUFHSFp1aks3WThCdFUzSFJRRmxBeUNvZHVZZnRKZzhaWDJqYUhPU0VkNDE1YURkSFREU0daOG9VMnhMZGJHV3RuZno4Yk5tMEpRMEQ1TnZmUTYwQ2N4NVJvYXlGQUp0bnZLRmhZaXIzM3NpbVZITU9uM0xv?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-11T18:30:20.806Z",
+    "createdAt": "2026-11-12T09:30:05.609Z",
     "validityHours": 24,
     "specsPreview": {
       "categoria": "Superiate Transoceânico",
@@ -94,37 +68,64 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://images.unsplash.com/photo-1783408360163-3ad59ed27c25?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-arquitetura-mwcgf5ii-063n",
-    "source": "Google News Motors (Ferrari/Bugatti)",
-    "sourceCategory": "Arquitetura",
-    "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "authorSlug": "henrique-vianna",
+    "id": "pauta-live-relogios-mwdck9gd-pmnf",
+    "source": "Sotheby's & Christie's Auctions",
+    "sourceCategory": "Alta Relojoaria",
+    "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "authorSlug": "clara-meirelles",
     "rankingScore": 88,
     "rankingTier": "A",
-    "originalTitle": "LaFerrari leads difficult Broad Arrow Zürich 2026 auction results as Veyron struggles to hit estimate - Magneto magazine",
-    "suggestedHook": "LaFerrari leads difficult Broad Arrow Zürich 2026 auction results as Veyron struggles to hit estimate",
-    "summary": "LaFerrari leads difficult Broad Arrow Zürich 2026 auction results as Veyron struggles to hit estimate Magneto magazine",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSlU5ZDhRQkk5b3NsMHlQMTUxOHAyUUxvYml4QVZtLUU1RFItcnlKSXhtTVJiR1NFWjNRVWJ6emcyaWg2bVFxNnUxaFo4RDI2YWFsZ0dSTWNKVVdjbTU3NEJrc1JTM3MwOXZUTThUMXlXeHd1X09rQUFTS1FlcVRteDB0TUxhSHg3UXF2RHFMRkNwTkFE?oc=5",
+    "originalTitle": "Patek Philippe Ref. 3970 Sells For CHF 2Million At Sotheby’s Auction - Outlook Luxe",
+    "suggestedHook": "Monaco Legend Group: O Leilão de Outono que Reúne Peças Históricas da Patek Philippe e Rolex Vintage",
+    "summary": "O principado de Mônaco recebe colecionadores globais para um pregão com lotes de proveniência intocada, incluindo referências raras de cronógrafos dos anos 1950.",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVjlUUHFzZ09YdEJTcWxRRnNJN0lxallSdExNdko0XzFPNzlNUTNQRVRlRWU0dzRiczJHcG9BdFRvYXJGTFl2cm1GbFdBejVydlhSTG9IRjQtN3dlRU5KVXd2WTZOV3pJR0FCWlIzQ3lER1JYeDFzUkVfN0NmaTVwTDhUam55VlJmaFlWWXBfN29kU29wUE8tQnNBckw0eFJFM3pZSTRON0g2ZjhVeXZDTVZqUFU1N3NKai0wSXpPVdIBzAFBVV95cUxOUVFZcDRPSkdNbzlRUlpYU2pOYWluSEo1cWZUZUx6X3hyVnF1MWhjYkdqYWpaOERGeFdreVljWGlJaEhiMXFGcldNSWxzRno2MGpFM1FPaVgyZWt1SVU2WDZGamFhT0RYNVJfbnlEN2Q2ckVsZnJmLURGdERUQm1vVlpaQVY1Z0I1SHhrQXQwNzZBM1hwSy1Panl6SUFUZVBTSUFkYnRfMW9yVjZIWXFFbXNVUjdEMTZVQU1TUHdUZng5bC0zMUV4WElWdU8?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-11T18:30:19.818Z",
+    "createdAt": "2026-11-12T09:30:05.917Z",
     "validityHours": 24,
     "specsPreview": {
-      "mercado": "Grandes Leilões Internacionais",
-      "custodia": "Refúgio de Liquidez Soberana",
-      "perfil": "Family Offices & Colecionadores",
-      "curadoria": "Henrique Vianna"
+      "pregao": "Monaco Legend Group Fall Auction",
+      "lotes_estrela": "Patek Philippe & Rolex Pré-Daytona",
+      "proveniencia": "Coleções privadas de alta estirpe",
+      "local": "Hotel Hermitage, Mônaco"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1661311928884-7e36f478109f?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "published"
+    "status": "available"
   },
   {
-    "id": "pauta-live-supercarros-mwcgf5hx-bg8z",
+    "id": "pauta-live-supercarros-mwdck8fw-5pv8",
+    "source": "Google News Motors (Ferrari/Bugatti)",
+    "sourceCategory": "Supercarros",
+    "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "rankingScore": 87,
+    "rankingTier": "B",
+    "originalTitle": "FERRARI LUCE WINS THE 2026 GOLDEN STEERING WHEEL IN THE “BEST INNOVATION” - Ferrari",
+    "suggestedHook": "Ferrari Luce: O Dilema de US$ 500k entre a Nova Era Híbrida e a Tradição dos Motores V12 Aspirados",
+    "summary": "A Ferrari coloca em teste o apetite de seus clientes tradicionais em uma encruzilhada mecânica onde o rugido de 12 cilindros em 9.000 RPM permanece como o supremo refúgio tátil.",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcF9pMTRQRlFYUUptc3c1Zm5HQTdUanNIMmNZMnROR1MtTDhOdEJibmpLRV8wS0pqZUZLTjRCd3BRWmdlcUpZYnU3RkF5dWYxRjZfWlZtc3ZXdWNnTDJTeF9ManVRSjRRMWN3TXZRa0ZCVkNZSkVjaEg3c3NkNkVFREYtVUk?oc=5",
+    "publishedTime": "Detectado ao vivo nas últimas 24h",
+    "createdAt": "2026-11-12T09:30:04.604Z",
+    "validityHours": 24,
+    "specsPreview": {
+      "avaliacao": "Faixa de US$ 450.000 a US$ 550.000",
+      "arquitetura": "V12 aspirado clássico vs. Híbrido avançado",
+      "peso": "Alívio extensivo com fibra de carbono",
+      "telemetria": "Maranello Pure Dynamics"
+    },
+    "suggestedImage": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80&w=1400",
+    "imageIsFallback": true,
+    "status": "available"
+  },
+  {
+    "id": "pauta-live-supercarros-mwdck8ih-xp94",
     "source": "Google News Motors (Ferrari/Bugatti)",
     "sourceCategory": "Supercarros",
     "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
@@ -138,19 +139,19 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Ferrari Investors Shrug Aside Negatives As Shares Regain Momentum Forbes",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYW5pOTQxaE5SN3hPaloxQkF5dHExaEt0TVJBS0ZUSE9wWkc3UXZZdFNkLUprdmVvaHROYTNDQ3ZkUlVnbllhQ3dWQ2xTUUtzZE9JU2tiTjJyMy1RZS1yNkl4bGNLc3BwZllPVjl1RXBjNzVCUEVkaWlBblpua183MUJxeTY0REVIa0dtRk9VMWNOMXlLVGEyaUcyX05YTFJEOFd5SDFZTWhvUWZuczVwLW51TlhYMW9L?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-11T18:30:19.797Z",
+    "createdAt": "2026-11-12T09:30:04.697Z",
     "validityHours": 24,
     "specsPreview": {
       "categoria": "Hipercarro de Colecionismo",
       "telemetria": "Calibração de pista",
       "curadoria": "Gabriel Fontes"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1650444684180-3f72abb15263?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-destinos-mwcgf621-x7kw",
+    "id": "pauta-live-destinos-mwdck8wg-7kq6",
     "source": "Google News Superyachts",
     "sourceCategory": "Destinos & Iates",
     "badgeColor": "border-purple-500/40 text-purple-400 bg-purple-500/10",
@@ -159,25 +160,25 @@ export const INITIAL_HOT_PAUTAS = [
     "authorSlug": "gabriel-fontes",
     "rankingScore": 87,
     "rankingTier": "B",
-    "originalTitle": "Mercedes-Maybach Debuts 508-Foot \"Beyond Horizons\" Megayacht With $4 Million USD Buy-In - Hypebeast",
-    "suggestedHook": "Náutica de Elite: Mercedes-Maybach Debuts 508-Foot \"Beyond Horizons\" Megaiate With $4 Million USD Buy-In",
-    "summary": "Mercedes-Maybach Debuts 508-Foot \"Beyond Horizons\" Megayacht With $4 Million USD Buy-In Hypebeast",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNLUFGMGxqQkhkWmZtNFhobERBcm9OUW5BdWEzYU80SGMtaGI1amd0djN4QnRwcEpRbGQzTHhTZE4yQUpQOUsyc3JOaURaUW1ZdUZpcHdtV04wUDc2NHZEYUZELTNfN1lLeEg2YmJwazlZRTBPaVdmNEY2UGtyby1VdkJRSUd0VlZLOU84aDRuWWd0VjVMUTAzbzRldFMwYWdWYTdyMHE0c0RZcnZFbkxGMWNvSnY?oc=5",
+    "originalTitle": "You Need A $4 Million Membership To Set Sail On Mercedes-Maybach's New 508 ft Megayacht - Man of Many",
+    "suggestedHook": "Náutica de Elite: You Need A $4 Million Membership To Set Sail On Mercedes-Maybach's New 508 ft Megaiate",
+    "summary": "You Need A $4 Million Membership To Set Sail On Mercedes-Maybach's New 508 ft Megayacht Man of Many",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNmNjWnJBTzdwcms2dTNENUpNMENSalhDUXExdXZDVVE3VVZSWHo4cG9xMWVxN1lZcmtKWGpibl9WYVE0YXZqUWZ5U29ISG45QkxGdmttaXlheFl2MlJzWE4tZV9qZnZWY3pJQlo1b0lSRF9xcFFZeGhzUWVCSnhqVA?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-11T18:30:20.521Z",
+    "createdAt": "2026-11-12T09:30:05.200Z",
     "validityHours": 24,
     "specsPreview": {
       "categoria": "Superiate Transoceânico",
       "engenharia": "Casco de aço naval e compósitos",
       "curadoria": "Gabriel Fontes"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1604737637145-48cc31d160eb?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-relogios-mwcgf6le-3djz",
-    "source": "Sotheby's & Christie's Auctions",
+    "id": "pauta-live-relogios-mwdck881-miu6",
+    "source": "Hodinkee",
     "sourceCategory": "Alta Relojoaria",
     "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
     "category": "Alta Relojoaria",
@@ -185,12 +186,12 @@ export const INITIAL_HOT_PAUTAS = [
     "authorSlug": "clara-meirelles",
     "rankingScore": 86,
     "rankingTier": "B",
-    "originalTitle": "Younger collectors flock to record Christie’s watch auction - Something About Rocks",
-    "suggestedHook": "Alta Relojoaria: Younger collectors flock to record Christie’s watch auction",
-    "summary": "Younger collectors flock to record Christie’s watch auction Something About Rocks",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVE1SdXc1UWt2VWRJa2RpMldic2FkYTBRd1hnYTNuLV80TUIybjBSdEh0a29aREFQZXY3RU4wSnhHNmJRU25HdTc3Mk5tOFZnaVo4aTBhUVpmZDJqNWxmUmlrQ1hGRGFENDJYSEJ4cVljamRxOWZwWDNQRmgtanpKb01ZM0FDTUhnVUtIWkk5MmtrNzRWTVE?oc=5",
+    "originalTitle": "Introducing: The TAG Heuer Aquaracer Professional 300 x Time+Tide 'Sundowner II'",
+    "suggestedHook": "Apresentação: The TAG Heuer Aquaracer Professional 300 x Time+Tide 'Sundowner II'",
+    "summary": "A combination of warm rose gold and cold sandblasted titanium makes its way to the second Aquaracer in this series of collaborations.",
+    "sourceUrl": "https://www.hodinkee.com/articles/time-tide-sundowner-ii",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-11T18:30:21.218Z",
+    "createdAt": "2026-11-12T09:30:04.321Z",
     "validityHours": 24,
     "specsPreview": {
       "calibre": "Mecânico de alta complicação",
@@ -198,12 +199,12 @@ export const INITIAL_HOT_PAUTAS = [
       "curadoria": "Mesa de Alta Horologia",
       "estilo": "Peça de Colecionador"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1400",
-    "imageIsFallback": true,
-    "status": "published"
+    "suggestedImage": "https://hodinkee.imgix.net/uploads/articles/2076ff2e-42d9-4359-93d3-1d12648c0d7a/timetidesuncdownder2heading.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=2000",
+    "imageIsFallback": false,
+    "status": "available"
   },
   {
-    "id": "pauta-live-arquitetura-mwcgf5ae-gqzx",
+    "id": "pauta-live-arquitetura-mwdck8ad-11m5",
     "source": "Hodinkee",
     "sourceCategory": "Arquitetura",
     "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
@@ -217,7 +218,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Who is up, who is down, and who is confused. Including the author.",
     "sourceUrl": "https://www.hodinkee.com/articles/three-takeaways-from-the-geneva-fall-auction-season",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-11T18:30:19.526Z",
+    "createdAt": "2026-11-12T09:30:04.405Z",
     "validityHours": 24,
     "specsPreview": {
       "mercado": "Grandes Leilões Internacionais",
@@ -227,10 +228,10 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://hodinkee.imgix.net/uploads/articles/b1d62720-f7ce-4967-a24a-865a952b92f1/Untitled-1.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=2000",
     "imageIsFallback": false,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-arquitetura-mwcgf6jb-8cli",
+    "id": "pauta-live-arquitetura-mwdck9dy-ms9x",
     "source": "Sotheby's & Christie's Auctions",
     "sourceCategory": "Arquitetura",
     "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
@@ -239,12 +240,12 @@ export const INITIAL_HOT_PAUTAS = [
     "authorSlug": "henrique-vianna",
     "rankingScore": 86,
     "rankingTier": "B",
-    "originalTitle": "The Bulgari Pink Diamond Ring: A 24-Carat Highlight At Christie’s Geneva - Outlook Luxe",
-    "suggestedHook": "The Bulgari Pink Diamond Ring: A 24-Carat Highlight At Christie’s Geneva",
-    "summary": "The Bulgari Pink Diamond Ring: A 24-Carat Highlight At Christie’s Geneva Outlook Luxe",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMURmNXc1Tkt1SkhlZVdrbDZ1QWZnYW9IMkdyeWxoOWhNbFJhNXVjZ3ZmYzFrVVh4RkF1SHh6MDYzZVpsRlNmYlhDdGNIclVGZFBCbURCMjFMRTBBNzRubW1XSHJZYmQxdmIyRjdfYWRUNTVCQVh5c1hyRkdPLXFpSWZjMGVBZ0tpd1dud0VOM0hTbFBfSVltNnNadUJOdjdqWERzVi13bjhXSUdYOGM2b1QwR2FDQUVOSGF0aDExcTc0UUd1Y21J0gHUAUFVX3lxTE9PQUVZdE5SdVJ6ZUd2aUNiMHI1VzRjMjZjVW5sODEzNkt1cWxRRXhqLUlnMEt3ZGNWa3lpRjJaU2RBRHgxNHNYU28xQVVjd2ZuaTdreHp4Y1JOSzNsaUdLalptWXRMSXBCbENqemxCRDE0UC1zcnV3Q0l1YkFJSTQ3NXZUX3V0RVMwTTdIa2JaeTJPNTNhelBzeUVVMjI1OG52LVE5VmZLUUdPaFo1TWNwaXJwakxOamI5TGxRZzNQaHFvZ0MxaFIzUm53ektMdkt3Z21V?oc=5",
+    "originalTitle": "Royal links add ever more lustre to jewellery sale prices - Financial Times",
+    "suggestedHook": "Patrimônio & Leilões: Royal links add ever more lustre to jewellery sale prices",
+    "summary": "Royal links add ever more lustre to jewellery sale prices Financial Times",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1KYUU1cnpJYTJQR0pOLWJlM2VUc2NOc2F4RDZUR0o2bktvTkNPMXMyUUlPUFh3N2gxY051eUZYWGdsYnF2VGNyZERNb1FhdTY3YzhxTmJfYks5bWRvOUNJZGo4NlhfZDR3MmQzemJSaVQ?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-11T18:30:21.143Z",
+    "createdAt": "2026-11-12T09:30:05.830Z",
     "validityHours": 24,
     "specsPreview": {
       "mercado": "Grandes Leilões Internacionais",
@@ -254,10 +255,37 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-relogios-mwcgf5fj-h2el",
+    "id": "pauta-live-arquitetura-mwdck9e3-7i8g",
+    "source": "Sotheby's & Christie's Auctions",
+    "sourceCategory": "Arquitetura",
+    "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "rankingScore": 86,
+    "rankingTier": "B",
+    "originalTitle": "A Romanov sapphire bracelet sells for $4.9 million at a Geneva auction - Bozeman Daily Chronicle",
+    "suggestedHook": "Patrimônio & Leilões: A Romanov sapphire bracelet É Arrematado por $4.9 million at a Geneva auction",
+    "summary": "A Romanov sapphire bracelet sells for $4.9 million at a Geneva auction Bozeman Daily Chronicle",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNTkhELVE2WnZYdVFiSG5ZYXV3SjRiQXVhV0VvRE1pSXRmaXZvWVZEMEd0M3NwUlRzQUFMNDFWbTNkVW5rVVlZdVZtWXdGWGFRb2Y0M3M0bmhtM1U2XzhxZHN0QURtd2FRa0ZzRWJ3eDFubDl6RDc0eFB2ZHNoREstV2lDZUtuVlI3WTJ2bFl4VUdiMWo4U2hJNHJyeVdsVGlRczJCX2UyWllXeUpqM2xMbnhmS3NtUjFtYm55c0s4eHZ6cGROMFNJYWx2NzFULVBYa1QzU2VzSUpUVURfT2cyU3JNYjNRMzR2Y2FubkxJNkdmUlZpMm1EVnpFb0loRWI4?oc=5",
+    "publishedTime": "Detectado ao vivo nas últimas 24h",
+    "createdAt": "2026-11-12T09:30:05.835Z",
+    "validityHours": 24,
+    "specsPreview": {
+      "mercado": "Grandes Leilões Internacionais",
+      "custodia": "Refúgio de Liquidez Soberana",
+      "perfil": "Family Offices & Colecionadores",
+      "curadoria": "Henrique Vianna"
+    },
+    "suggestedImage": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=1400",
+    "imageIsFallback": true,
+    "status": "available"
+  },
+  {
+    "id": "pauta-live-relogios-mwdck8dk-xw7i",
     "source": "Monochrome Watches",
     "sourceCategory": "Alta Relojoaria",
     "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
@@ -271,7 +299,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Angelier’s story began with a collector’s search for the ideal dress watch. Having owned and studied watches from the likes of Patek Philippe, Vacheron Constantin, and A. Lange & Söhne, founder Paul Angelier eventually decided to create the watch he could not find: a slim, understated piece inspired by the design",
     "sourceUrl": "https://monochrome-watches.com/angelier-on-kickstarter-accessible-37mm-vintage-calatrava-automatic-dress-watch-review-price/",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-11T18:30:19.711Z",
+    "createdAt": "2026-11-12T09:30:04.520Z",
     "validityHours": 24,
     "specsPreview": {
       "calibre": "Mecânico de alta complicação",
@@ -281,34 +309,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://monochrome-watches.com/app/uploads/2026/11/Angelier-Watches-Kickstarter-Accessible-37mm-Automatic-Vintage-Calatrava-Style-Dress-Watch-Review-12-600x237.jpg",
     "imageIsFallback": false,
-    "status": "duplicate"
-  },
-  {
-    "id": "pauta-live-relogios-mwcgf59p-2dr4",
-    "source": "Robb Report Global",
-    "sourceCategory": "Alta Relojoaria",
-    "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "authorSlug": "clara-meirelles",
-    "rankingScore": 83,
-    "rankingTier": "B",
-    "originalTitle": "A 1920s Seattle Tudor Blends Old-World Details With Modern Flourishes for $9.7 Million",
-    "suggestedHook": "Alta Relojoaria: A 1920s Seattle Tudor Blends Old-World Details With Modern Flourishes for $9.7 Million",
-    "summary": "The Washington Park home features a stone arch the sellers won in a bidding war against Cher.",
-    "sourceUrl": "https://robbreport.com/shelter/homes-for-sale/former-microsoft-executive-seattle-home-lists-1238820856/",
-    "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-11T18:30:19.501Z",
-    "validityHours": 24,
-    "specsPreview": {
-      "calibre": "Mecânico de alta complicação",
-      "acabamento": "Tradição artesanal suíça",
-      "curadoria": "Mesa de Alta Horologia",
-      "estilo": "Peça de Colecionador"
-    },
-    "suggestedImage": "https://robbreport.com/wp-content/uploads/2026/11/530_36AvenueE_Seattle_28.jpg",
-    "imageIsFallback": false,
-    "status": "duplicate"
+    "status": "available"
   }
 ];
 
