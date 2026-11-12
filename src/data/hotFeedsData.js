@@ -147,7 +147,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "available"
+    "status": "duplicate"
   },
   {
     "id": "pauta-live-destinos-mwcgf621-x7kw",
@@ -227,7 +227,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://hodinkee.imgix.net/uploads/articles/b1d62720-f7ce-4967-a24a-865a952b92f1/Untitled-1.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=2000",
     "imageIsFallback": false,
-    "status": "available"
+    "status": "duplicate"
   },
   {
     "id": "pauta-live-arquitetura-mwcgf6jb-8cli",
@@ -254,7 +254,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "available"
+    "status": "duplicate"
   },
   {
     "id": "pauta-live-relogios-mwcgf5fj-h2el",
@@ -281,7 +281,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://monochrome-watches.com/app/uploads/2026/11/Angelier-Watches-Kickstarter-Accessible-37mm-Automatic-Vintage-Calatrava-Style-Dress-Watch-Review-12-600x237.jpg",
     "imageIsFallback": false,
-    "status": "available"
+    "status": "duplicate"
   },
   {
     "id": "pauta-live-relogios-mwcgf59p-2dr4",
