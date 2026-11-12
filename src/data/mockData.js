@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-ferrari-a-ascensao-das-acoes-em--2573",
+    "slug": "ferrari-a-ascensao-das-acoes-em-wall-street-e-a-soberania-inercial-do-v12-de-aspiracao-natural-2563",
+    "title": "Ferrari: A Ascensão das Ações em Wall Street e a Soberania Inercial do V12 de Aspiração Natural",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "12 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "Enquanto o mercado financeiro reavalia a resiliência patrimonial da marca de Maranello, a engenharia da Ferrari reafirma sua hegemonia através de tolerâncias de mícrons e fluxos de Venturi que desafiam a obsolescência programada do setor automotivo.",
+    "contentParagraphs": [
+      "O mercado financeiro reagiu com frieza calculada às oscilações recentes, ignorando ruídos macroeconômicos em favor da solidez de uma marca que transaciona status através de engenharia pura. A Ferrari não vende apenas veículos; ela liquida ativos de performance que retêm valor superior a qualquer índice de volatilidade, blindando seu patrimônio contra o descarte rápido de propulsores eletrificados.",
+      "Sob o capô, o que sustenta essa confiança é uma telemetria inercial inabalável. O V12 aspirado, operando com rotações que atingem o limite físico dos materiais, exige monocoques de carbo-titânio curados em autoclave a 6 bar para conter a torção do chassi sob carga lateral. O efeito solo é gerado por dutos de Venturi desenhados com precisão cirúrgica, convertendo cada Newton de pressão aerodinâmica em vetor de aderência absoluta no asfalto.",
+      "Não há concessões aos modismos de consumo. Enquanto competidores se perdem em telas táteis destinadas ao esquecimento, Maranello mantém seu foco na termodinâmica dos escapes em Inconel 625, capazes de suportar temperaturas extremas sem fadiga estrutural. É a arquitetura mecânica que dita o valor da ação, onde cada peça forjada é um contrato de fidelidade com o proprietário que busca a imutabilidade da física em vez da efemeridade do silício.",
+      "O investidor consciente compreende que a Ferrari detém a soberania sobre o desejo humano. Em um cenário de incertezas, a robustez de um motor aspirado, acoplado a uma transmissão de dupla embreagem com tempos de troca imperceptíveis, permanece como o refúgio mais sólido para o capital. A marca não apenas sobrevive ao tempo; ela o domina, impondo sua própria métrica de escassez e excelência mecânica."
+    ],
+    "content_paragraphs": [
+      "O mercado financeiro reagiu com frieza calculada às oscilações recentes, ignorando ruídos macroeconômicos em favor da solidez de uma marca que transaciona status através de engenharia pura. A Ferrari não vende apenas veículos; ela liquida ativos de performance que retêm valor superior a qualquer índice de volatilidade, blindando seu patrimônio contra o descarte rápido de propulsores eletrificados.",
+      "Sob o capô, o que sustenta essa confiança é uma telemetria inercial inabalável. O V12 aspirado, operando com rotações que atingem o limite físico dos materiais, exige monocoques de carbo-titânio curados em autoclave a 6 bar para conter a torção do chassi sob carga lateral. O efeito solo é gerado por dutos de Venturi desenhados com precisão cirúrgica, convertendo cada Newton de pressão aerodinâmica em vetor de aderência absoluta no asfalto.",
+      "Não há concessões aos modismos de consumo. Enquanto competidores se perdem em telas táteis destinadas ao esquecimento, Maranello mantém seu foco na termodinâmica dos escapes em Inconel 625, capazes de suportar temperaturas extremas sem fadiga estrutural. É a arquitetura mecânica que dita o valor da ação, onde cada peça forjada é um contrato de fidelidade com o proprietário que busca a imutabilidade da física em vez da efemeridade do silício.",
+      "O investidor consciente compreende que a Ferrari detém a soberania sobre o desejo humano. Em um cenário de incertezas, a robustez de um motor aspirado, acoplado a uma transmissão de dupla embreagem com tempos de troca imperceptíveis, permanece como o refúgio mais sólido para o capital. A marca não apenas sobrevive ao tempo; ela o domina, impondo sua própria métrica de escassez e excelência mecânica."
+    ],
+    "specs": {
+      "Arquitetura": "V12 aspirado de alta rotação",
+      "Chassi": "Monocoque em carbo-titânio (autoclave 6 bar)",
+      "Materiais": "Escapes em Inconel 625",
+      "Aerodinâmica": "Fluxo de Venturi de efeito solo",
+      "Tolerâncias": "Precisão de engenharia em mícrons"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 90,
+    "ranking_score": 90,
+    "engineSource": "gemini:gemini-3.1-flash-lite",
+    "publishedAt": "2026-11-12T18:25:32.573Z",
+    "published_at": "2026-11-12T18:25:32.573Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYW5pOTQxaE5SN3hPaloxQkF5dHExaEt0TVJBS0ZUSE9wWkc3UXZZdFNkLUprdmVvaHROYTNDQ3ZkUlVnbllhQ3dWQ2xTUUtzZE9JU2tiTjJyMy1RZS1yNkl4bGNLc3BwZllPVjl1RXBjNzVCUEVkaWlBblpua183MUJxeTY0REVIa0dtRk9VMWNOMXlLVGEyaUcyX05YTFJEOFd5SDFZTWhvUWZuczVwLW51TlhYMW9L?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYW5pOTQxaE5SN3hPaloxQkF5dHExaEt0TVJBS0ZUSE9wWkc3UXZZdFNkLUprdmVvaHROYTNDQ3ZkUlVnbllhQ3dWQ2xTUUtzZE9JU2tiTjJyMy1RZS1yNkl4bGNLc3BwZllPVjl1RXBjNzVCUEVkaWlBblpua183MUJxeTY0REVIa0dtRk9VMWNOMXlLVGEyaUcyX05YTFJEOFd5SDFZTWhvUWZuczVwLW51TlhYMW9L?oc=5"
+  },
+  {
     "id": "art-mercedes-maybach-project-serie-1-1075",
     "slug": "mercedes-maybach-project-serie-1-o-megaiate-de-508-pes-com-assinatura-em-liga-naval-e-aporte-de-4-milhoes-de-dolares-por-cabine-1064",
     "title": "Mercedes-Maybach Project Serie 1: O Megaiate de 508 Pés com Assinatura em Liga Naval e Aporte de 4 Milhões de Dólares por Cabine",
@@ -125,7 +177,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "12 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -153,10 +205,10 @@ export const ARTICLES = [
       "Propulsão": "Híbrida diesel-elétrica de baixa vibração"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 90,
@@ -1365,58 +1417,6 @@ export const ARTICLES = [
     "published_at": "2026-11-06T18:27:25.558Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUUZDd1dGV1Y1UVYwY1NvemNxYUhVTXZvMEJZdjRsU3o0bXptTUVpdnFFT20xU1R5dHE3M2RxOE84a2JmYmpoNW5QSXZRWlpfNmdXMkhodEhVWWNlMUVtaTducEVLLTJzYVV6U3Y5Tm41cGRhTVd0NW1SWWRCYm9nY3hHVkhPUDQ?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUUZDd1dGV1Y1UVYwY1NvemNxYUhVTXZvMEJZdjRsU3o0bXptTUVpdnFFT20xU1R5dHE3M2RxOE84a2JmYmpoNW5QSXZRWlpfNmdXMkhodEhVWWNlMUVtaTducEVLLTJzYVV6U3Y5Tm41cGRhTVd0NW1SWWRCYm9nY3hHVkhPUDQ?oc=5"
-  },
-  {
-    "id": "art-toyota-gr010-hybrid-o-prototipo--7703",
-    "slug": "toyota-gr010-hybrid-o-prototipo-de-resistencia-de-680-cv-que-marca-a-despedida-cinetica-de-mike-conway-nas-pistas-7216",
-    "title": "Toyota GR010 Hybrid: O Protótipo de Resistência de 680 cv que Marca a Despedida Cinética de Mike Conway nas Pistas",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "06 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1731770758454-9d283a702306?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "Em uma era de eletrificação precoce e descarte rápido, o prototipo da classe Hypercar da Toyota consolida anos de engenharia obsessiva na última dança de Mike Conway pelo WEC.",
-    "contentParagraphs": [
-      "O asfalto de Sakhir treme sob a carga térmica do motor V3.5 biturbo acoplado ao sistema híbrido do eixo dianteiro. Tolerâncias milimétricas ditam o fluxo do ar através dos túneis Venturi esculpidos sob o assoalho de fibra de carbono. A aerodinâmica ativa e passiva trabalha em silêncio absoluto para manter o monocoque grudado ao solo a 300 km/h.",
-      "Mike Conway aperta o cinto de seis pontos pela última vez em um cockpit moldado milimetricamente à sua anatomia. A telemetria inercial registra picos brutais de força G lateral nas curvas de alta velocidade. Cada frenagem regenerativa converte energia cinética pura em eletricidade de alta voltagem para alimentar as baterias de íon-lítio desenvolvidas na vanguarda da competição.",
-      "A relação peso-potência de 1,4 kg/cv impõe um estresse térmico implacável sobre os discos de freio em carbono-cerâmica e as pinças forjadas. O escape em Inconel 625 brilha em tom cereja sob a penumbra da noite no Bahrein. É a fúria mecânica contida apenas pela disciplina algorítmica dos engenheiros de pista no box da Gazoo Racing.",
-      "Enquanto o regulamento LMDh avança com soluções padronizadas, a Toyota preserva a arquitetura própria de protótipo de fábrica. O canto do cisne de Conway não representa o fim de uma carreira, mas a consolidação de uma era onde o motor térmico de combustão interna ainda desafia os limites da física com precisão cirúrgica."
-    ],
-    "content_paragraphs": [
-      "O asfalto de Sakhir treme sob a carga térmica do motor V3.5 biturbo acoplado ao sistema híbrido do eixo dianteiro. Tolerâncias milimétricas ditam o fluxo do ar através dos túneis Venturi esculpidos sob o assoalho de fibra de carbono. A aerodinâmica ativa e passiva trabalha em silêncio absoluto para manter o monocoque grudado ao solo a 300 km/h.",
-      "Mike Conway aperta o cinto de seis pontos pela última vez em um cockpit moldado milimetricamente à sua anatomia. A telemetria inercial registra picos brutais de força G lateral nas curvas de alta velocidade. Cada frenagem regenerativa converte energia cinética pura em eletricidade de alta voltagem para alimentar as baterias de íon-lítio desenvolvidas na vanguarda da competição.",
-      "A relação peso-potência de 1,4 kg/cv impõe um estresse térmico implacável sobre os discos de freio em carbono-cerâmica e as pinças forjadas. O escape em Inconel 625 brilha em tom cereja sob a penumbra da noite no Bahrein. É a fúria mecânica contida apenas pela disciplina algorítmica dos engenheiros de pista no box da Gazoo Racing.",
-      "Enquanto o regulamento LMDh avança com soluções padronizadas, a Toyota preserva a arquitetura própria de protótipo de fábrica. O canto do cisne de Conway não representa o fim de uma carreira, mas a consolidação de uma era onde o motor térmico de combustão interna ainda desafia os limites da física com precisão cirúrgica."
-    ],
-    "specs": {
-      "Arquitetura do Motor": "V3.5 biturbo de injeção direta",
-      "Potência Combinada": "680 cv (limite regulamentar LMH)",
-      "Transmissão": "Sequencial transversal de 7 marchas",
-      "Peso Mínimo": "1.040 kg em ordem de marcha",
-      "Aerodinâmica": "Efeito solo integrado com túneis Venturi"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-06T15:07:47.703Z",
-    "published_at": "2026-11-06T15:07:47.703Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSjJwUi1ReV9UNGRyS1NqYmRJZnZDV1o3dU9DTlVKYWd3WFdrdFZIWlJyaUhOb2Q0bUFfdXJaQWpJYU1sTUEtdk9kSmg5YUFoV1EtOEdiaUpJXzVEYmpCaVEyS2JNNU9XRm82Ui1zdHptcjBPZFNCYTB0dVdNNENrdDkyT2Y5QmVKSnFCWmZuaW5Kc2NiVEZZYmdyeEVNalliQ3N3S0xNLXlpLVdt?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSjJwUi1ReV9UNGRyS1NqYmRJZnZDV1o3dU9DTlVKYWd3WFdrdFZIWlJyaUhOb2Q0bUFfdXJaQWpJYU1sTUEtdk9kSmg5YUFoV1EtOEdiaUpJXzVEYmpCaVEyS2JNNU9XRm82Ui1zdHptcjBPZFNCYTB0dVdNNENrdDkyT2Y5QmVKSnFCWmZuaW5Kc2NiVEZZYmdyeEVNalliQ3N3S0xNLXlpLVdt?oc=5"
   }
 ];
 
@@ -1424,13 +1424,21 @@ export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
     "category": "SUPERCARROS",
+    "title": "Bugatti Chiron: A Perseguição Transfro...",
+    "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=max&q=85&w=1800",
+    "tag": "CURADORIA RADAR",
+    "slug": "bugatti-chiron-a-perseguicao-transfronteirica-de-1500-cavalos-onde-o-ceo-trocou-o-w16-por-um-porsche-911-6302"
+  },
+  {
+    "id": "film-2",
+    "category": "SUPERCARROS",
     "title": "Aitek Hypercar: O Protótipo Elétrico d...",
     "image": "https://images.unsplash.com/photo-1610880709844-b97111a986f7?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "aitek-hypercar-o-prototipo-eletrico-de-2400-cv-com-vetorizacao-de-torque-que-eclipsou-a-fisica-de-molsheim-7056"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "ARQUITETURA",
     "title": "Sarasota Record: A Cobertura de US$ 14...",
     "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=max&q=80&w=1400",
@@ -1438,7 +1446,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "sarasota-record-a-cobertura-de-us-145-milhoes-que-estabelece-o-novo-padrao-fiduciario-em-concreto-macico-e-travertino-na-costa-da-florida-9914"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Ferrari 296 GT3: O V12 Recuado 50mm e ...",
     "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=max&q=85&w=1800",
@@ -1446,7 +1454,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-296-gt3-o-v12-recuado-50mm-e-rebaixado-que-reconfigurou-o-limite-da-fisica-na-endurance-mundial-4017"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Yangwang U9: A Fúria Elétrica de 310 M...",
     "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800",
@@ -1454,20 +1462,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "yangwang-u9-a-furia-eletrica-de-310-mph-que-esmaga-limites-com-quatro-motores-independentes-e-3000-cavalos-0393"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "DESTINOS",
     "title": "Sindalah: O Arquipélago do Mar Vermelh...",
     "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
     "tag": "CURADORIA RADAR",
     "slug": "sindalah-o-arquipelago-do-mar-vermelho-de-84-bercos-que-desafia-a-soberania-nautica-de-monaco-7239"
-  },
-  {
-    "id": "film-6",
-    "category": "DESTINOS",
-    "title": "Sheergold: O Superiate de Expedição e ...",
-    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "sheergold-o-superiate-de-expedicao-e-os-7-dias-de-navegacao-extrema-pelo-grande-buraco-azul-de-belize-8524"
   }
 ];
 

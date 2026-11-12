@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-ferrari-a-ascensao-das-acoes-em--2573",
+    "slug": "ferrari-a-ascensao-das-acoes-em-wall-street-e-a-soberania-inercial-do-v12-de-aspiracao-natural-2563",
+    "title": "Ferrari: A Ascensão das Ações em Wall Street e a Soberania Inercial do V12 de Aspiração Natural",
+    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYW5pOTQxaE5SN3hPaloxQkF5dHExaEt0TVJBS0ZUSE9wWkc3UXZZdFNkLUprdmVvaHROYTNDQ3ZkUlVnbllhQ3dWQ2xTUUtzZE9JU2tiTjJyMy1RZS1yNkl4bGNLc3BwZllPVjl1RXBjNzVCUEVkaWlBblpua183MUJxeTY0REVIa0dtRk9VMWNOMXlLVGEyaUcyX05YTFJEOFd5SDFZTWhvUWZuczVwLW51TlhYMW9L?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-12T18:25:32.573Z"
+  },
+  {
     "id": "art-mercedes-maybach-project-serie-1-1075",
     "slug": "mercedes-maybach-project-serie-1-o-megaiate-de-508-pes-com-assinatura-em-liga-naval-e-aporte-de-4-milhoes-de-dolares-por-cabine-1064",
     "title": "Mercedes-Maybach Project Serie 1: O Megaiate de 508 Pés com Assinatura em Liga Naval e Aporte de 4 Milhões de Dólares por Cabine",
