@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-mercedes-maybach-project-serie-1-1075",
+    "slug": "mercedes-maybach-project-serie-1-o-megaiate-de-508-pes-com-assinatura-em-liga-naval-e-aporte-de-4-milhoes-de-dolares-por-cabine-1064",
+    "title": "Mercedes-Maybach Project Serie 1: O Megaiate de 508 Pés com Assinatura em Liga Naval e Aporte de 4 Milhões de Dólares por Cabine",
+    "image": "https://images.unsplash.com/photo-1614350391736-ed8619d63c06?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNmNjWnJBTzdwcms2dTNENUpNMENSalhDUXExdXZDVVE3VVZSWHo4cG9xMWVxN1lZcmtKWGpibl9WYVE0YXZqUWZ5U29ISG45QkxGdmttaXlheFl2MlJzWE4tZV9qZnZWY3pJQlo1b0lSRF9xcFFZeGhzUWVCSnhqVA?oc=5",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-12T11:17:41.075Z"
+  },
+  {
     "id": "art-laferrari-o-monocoque-rosso-cors-1520",
     "slug": "laferrari-o-monocoque-rosso-corsa-de-963-cv-que-liderou-o-leilao-broad-arrow-zurique-2026-enquanto-o-mercado-rejeita-a-liquidez-efemera-0805",
     "title": "LaFerrari: O Monocoque Rosso Corsa de 963 cv que Liderou o Leilão Broad Arrow Zurique 2026 Enquanto o Mercado Rejeita a Liquidez Efêmera",

@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-mercedes-maybach-project-serie-1-1075",
+    "slug": "mercedes-maybach-project-serie-1-o-megaiate-de-508-pes-com-assinatura-em-liga-naval-e-aporte-de-4-milhoes-de-dolares-por-cabine-1064",
+    "title": "Mercedes-Maybach Project Serie 1: O Megaiate de 508 Pés com Assinatura em Liga Naval e Aporte de 4 Milhões de Dólares por Cabine",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "12 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1614350391736-ed8619d63c06?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A incursão estática da divisão de ultra-luxo na arquitetura naval exige soberania financeira e engenharia de fluidos sem concessões para navegar.",
+    "contentParagraphs": [
+      "A água resiste. O casco corta. Cinzentos 155 metros de alumínio e compósitos avançados cortam as ondas com precisão geométrica inegociável. Cada linha externa reflete o código genético da aerodinâmica alemã adaptada à densidade salina do Atlântico Norte.",
+      "Sob a linha d'água, estabilizadores giroscópicos massivos neutralizam o rolamento lateral em mar aberto. Quatro milhões de dólares garantem acesso restrito a um clube náutico flutuante onde o silêncio acústico prevalece sobre o ronco dos motores marinheiros.",
+      "O casco recebe tratamento cerâmico multicamada aplicado em doca seca controlada. O sal não adere. A corrosão cede lugar à inércia mecânica pura enquanto o convés exibe teca burmese tratada à mão por artesãos especializados em marcenaria offshore.",
+      "A soberania sobre as águas profundas exige mais do que capital soberano. Exige a certeza matemática de que nenhuma tempestade conseguirá perturbar o crepúsculo a bordo de uma embarcação concebida para resistir a gerações."
+    ],
+    "content_paragraphs": [
+      "A água resiste. O casco corta. Cinzentos 155 metros de alumínio e compósitos avançados cortam as ondas com precisão geométrica inegociável. Cada linha externa reflete o código genético da aerodinâmica alemã adaptada à densidade salina do Atlântico Norte.",
+      "Sob a linha d'água, estabilizadores giroscópicos massivos neutralizam o rolamento lateral em mar aberto. Quatro milhões de dólares garantem acesso restrito a um clube náutico flutuante onde o silêncio acústico prevalece sobre o ronco dos motores marinheiros.",
+      "O casco recebe tratamento cerâmico multicamada aplicado em doca seca controlada. O sal não adere. A corrosão cede lugar à inércia mecânica pura enquanto o convés exibe teca burmese tratada à mão por artesãos especializados em marcenaria offshore.",
+      "A soberania sobre as águas profundas exige mais do que capital soberano. Exige a certeza matemática de que nenhuma tempestade conseguirá perturbar o crepúsculo a bordo de uma embarcação concebida para resistir a gerações."
+    ],
+    "specs": {
+      "Comprimento Total": "508 pés (155 metros)",
+      "Investimento de Acesso": "USD 4.000.000 por cota associativa",
+      "Material do Casco": "Liga de alumínio naval e compósitos",
+      "Estabilização": "Sistema giroscópico ativo de alta inércia",
+      "Propulsão": "Híbrida diesel-elétrica de baixa vibração"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 90,
+    "ranking_score": 90,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-12T11:17:41.075Z",
+    "published_at": "2026-11-12T11:17:41.075Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNmNjWnJBTzdwcms2dTNENUpNMENSalhDUXExdXZDVVE3VVZSWHo4cG9xMWVxN1lZcmtKWGpibl9WYVE0YXZqUWZ5U29ISG45QkxGdmttaXlheFl2MlJzWE4tZV9qZnZWY3pJQlo1b0lSRF9xcFFZeGhzUWVCSnhqVA?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNmNjWnJBTzdwcms2dTNENUpNMENSalhDUXExdXZDVVE3VVZSWHo4cG9xMWVxN1lZcmtKWGpibl9WYVE0YXZqUWZ5U29ISG45QkxGdmttaXlheFl2MlJzWE4tZV9qZnZWY3pJQlo1b0lSRF9xcFFZeGhzUWVCSnhqVA?oc=5"
+  },
+  {
     "id": "art-laferrari-o-monocoque-rosso-cors-1520",
     "slug": "laferrari-o-monocoque-rosso-corsa-de-963-cv-que-liderou-o-leilao-broad-arrow-zurique-2026-enquanto-o-mercado-rejeita-a-liquidez-efemera-0805",
     "title": "LaFerrari: O Monocoque Rosso Corsa de 963 cv que Liderou o Leilão Broad Arrow Zurique 2026 Enquanto o Mercado Rejeita a Liquidez Efêmera",
@@ -178,7 +230,7 @@ export const ARTICLES = [
     "authorSlug": "clara-meirelles",
     "author_slug": "clara-meirelles",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "11 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -206,10 +258,10 @@ export const ARTICLES = [
       "Tendência": "Migração de ativos digitais para relojoaria de patrimônio"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 89,
@@ -1365,64 +1417,20 @@ export const ARTICLES = [
     "published_at": "2026-11-06T15:07:47.703Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSjJwUi1ReV9UNGRyS1NqYmRJZnZDV1o3dU9DTlVKYWd3WFdrdFZIWlJyaUhOb2Q0bUFfdXJaQWpJYU1sTUEtdk9kSmg5YUFoV1EtOEdiaUpJXzVEYmpCaVEyS2JNNU9XRm82Ui1zdHptcjBPZFNCYTB0dVdNNENrdDkyT2Y5QmVKSnFCWmZuaW5Kc2NiVEZZYmdyeEVNalliQ3N3S0xNLXlpLVdt?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSjJwUi1ReV9UNGRyS1NqYmRJZnZDV1o3dU9DTlVKYWd3WFdrdFZIWlJyaUhOb2Q0bUFfdXJaQWpJYU1sTUEtdk9kSmg5YUFoV1EtOEdiaUpJXzVEYmpCaVEyS2JNNU9XRm82Ui1zdHptcjBPZFNCYTB0dVdNNENrdDkyT2Y5QmVKSnFCWmZuaW5Kc2NiVEZZYmdyeEVNalliQ3N3S0xNLXlpLVdt?oc=5"
-  },
-  {
-    "id": "art-megaiates-de-100-metros-a-escass-4879",
-    "slug": "megaiates-de-100-metros-a-escassez-absoluta-de-bercos-de-50-milhoes-de-dolares-que-redesenha-a-hidraulica-global-4871",
-    "title": "Megaiates de 100 Metros: A Escassez Absoluta de Berços de 50 Milhões de Dólares que Redesenha a Hidráulica Global",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "06 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1562281302-809108fd533c?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A saturação dos portos tradicionais força magnatas a financiarem megaterminais privados dotados de eclusas reforçadas e telemetria subaquática milimétrica.",
-    "contentParagraphs": [
-      "A água salgada bate nos pilares de concreto com a precisão de um metrônomo implacável. Faltam berços. A frota global de superiates ultrapassou a capacidade física das marinas históricas do Mediterrâneo e da Flórida, transformando o simples ato de fundear em um desafio geopolítico e imobiliário de dezenas de milhões de dólares.",
-      "Engenheiros navais operam com tolerâncias de mícrons ao projetar novas estruturas portuárias capazes de absorver o deslocamento hídrico de cascos em liga de alumínio e compósitos avançados. Cada manobra exige propulsão azimutal computadorizada, guinchos hidráulicos com capacidade de tração superior a 40 toneladas e defesas de atracação em borracha nitrílica reforçada que impedem o cisalhamento das chapas estruturais.",
-      "Promotores imobiliários visionários capturam essa demanda extrema ao converter antigos estaleiros industriais em bastiões náuticos ultraexclusivos, equipados com estações de recarga de alta voltagem, tancagem de combustível livre de enxofre e calados dragados a doze metros de profundidade. O capital soberano migra para onde há segurança jurídica e infraestrutura capaz de sustentar embarcações avaliadas acima de nove dígitos.",
-      "O resultado é a criação de um novo mapa de poder marítimo, onde berços de atracação tornam-se ativos mais escassos e valorizados do que os próprios cascos que neles repousam. No tabuleiro da náutica global, quem controla o píer dita as regras da navegação."
-    ],
-    "content_paragraphs": [
-      "A água salgada bate nos pilares de concreto com a precisão de um metrônomo implacável. Faltam berços. A frota global de superiates ultrapassou a capacidade física das marinas históricas do Mediterrâneo e da Flórida, transformando o simples ato de fundear em um desafio geopolítico e imobiliário de dezenas de milhões de dólares.",
-      "Engenheiros navais operam com tolerâncias de mícrons ao projetar novas estruturas portuárias capazes de absorver o deslocamento hídrico de cascos em liga de alumínio e compósitos avançados. Cada manobra exige propulsão azimutal computadorizada, guinchos hidráulicos com capacidade de tração superior a 40 toneladas e defesas de atracação em borracha nitrílica reforçada que impedem o cisalhamento das chapas estruturais.",
-      "Promotores imobiliários visionários capturam essa demanda extrema ao converter antigos estaleiros industriais em bastiões náuticos ultraexclusivos, equipados com estações de recarga de alta voltagem, tancagem de combustível livre de enxofre e calados dragados a doze metros de profundidade. O capital soberano migra para onde há segurança jurídica e infraestrutura capaz de sustentar embarcações avaliadas acima de nove dígitos.",
-      "O resultado é a criação de um novo mapa de poder marítimo, onde berços de atracação tornam-se ativos mais escassos e valorizados do que os próprios cascos que neles repousam. No tabuleiro da náutica global, quem controla o píer dita as regras da navegação."
-    ],
-    "specs": {
-      "Calado mínimo necessário": "12 metros",
-      "Capacidade de tração dos guinchos": "40 toneladas métricas",
-      "Material das defensas": "Borracha nitrílica de alta densidade",
-      "Investimento médio em píer privado": "USD 65 milhões",
-      "Tiragem global de megaiates (>90m)": "142 unidades ativas"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-06T11:10:54.878Z",
-    "published_at": "2026-11-06T11:10:54.878Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcWFYLTFEY3hRMG0zNXQ5X0pWTl9IcVNJVFNDUVhNOHdCeWdIUkR5TEc4dGZ3X2hnbV9McVZHUFJCZDloUzhMalppMmZxdHNSMHp0NllYWlhEdmtEZTJYV1F2M2Zvb0lXLThodVFoek5GMnN2NlBVSlpnc3hjdkN3VTRHVGdIdURPek5DMjVWb3Y0Zm5nNG80Y1k1X2xuclpHbktoa29qM2prc1ptcHFuUUo4S0gtbWhMME1CSmg5N0o1S29HRlRhUGxR?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcWFYLTFEY3hRMG0zNXQ5X0pWTl9IcVNJVFNDUVhNOHdCeWdIUkR5TEc4dGZ3X2hnbV9McVZHUFJCZDloUzhMalppMmZxdHNSMHp0NllYWlhEdmtEZTJYV1F2M2Zvb0lXLThodVFoek5GMnN2NlBVSlpnc3hjdkN3VTRHVGdIdURPek5DMjVWb3Y0Zm5nNG80Y1k1X2xuclpHbktoa29qM2prc1ptcHFuUUo4S0gtbWhMME1CSmg5N0o1S29HRlRhUGxR?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "SUPERCARROS",
+    "title": "Aitek Hypercar: O Protótipo Elétrico d...",
+    "image": "https://images.unsplash.com/photo-1610880709844-b97111a986f7?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "aitek-hypercar-o-prototipo-eletrico-de-2400-cv-com-vetorizacao-de-torque-que-eclipsou-a-fisica-de-molsheim-7056"
+  },
+  {
+    "id": "film-2",
     "category": "ARQUITETURA",
     "title": "Sarasota Record: A Cobertura de US$ 14...",
     "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=max&q=80&w=1400",
@@ -1430,7 +1438,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "sarasota-record-a-cobertura-de-us-145-milhoes-que-estabelece-o-novo-padrao-fiduciario-em-concreto-macico-e-travertino-na-costa-da-florida-9914"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Ferrari 296 GT3: O V12 Recuado 50mm e ...",
     "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=max&q=85&w=1800",
@@ -1438,7 +1446,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-296-gt3-o-v12-recuado-50mm-e-rebaixado-que-reconfigurou-o-limite-da-fisica-na-endurance-mundial-4017"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Yangwang U9: A Fúria Elétrica de 310 M...",
     "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800",
@@ -1446,7 +1454,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "yangwang-u9-a-furia-eletrica-de-310-mph-que-esmaga-limites-com-quatro-motores-independentes-e-3000-cavalos-0393"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "DESTINOS",
     "title": "Sindalah: O Arquipélago do Mar Vermelh...",
     "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
@@ -1454,20 +1462,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "sindalah-o-arquipelago-do-mar-vermelho-de-84-bercos-que-desafia-a-soberania-nautica-de-monaco-7239"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "DESTINOS",
     "title": "Sheergold: O Superiate de Expedição e ...",
     "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "sheergold-o-superiate-de-expedicao-e-os-7-dias-de-navegacao-extrema-pelo-grande-buraco-azul-de-belize-8524"
-  },
-  {
-    "id": "film-6",
-    "category": "ARQUITETURA",
-    "title": "Christie's Hong Kong Luxury Week Autum...",
-    "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "christies-hong-kong-luxury-week-autumn-2026-450-lotes-de-alta-custodia-e-governanca-dinastica-em-territorio-asiatico-5552"
   }
 ];
 
