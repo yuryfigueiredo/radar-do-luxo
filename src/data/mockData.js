@@ -116,6 +116,59 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-laferrari-o-monocoque-rosso-cors-1520",
+    "slug": "laferrari-o-monocoque-rosso-corsa-de-963-cv-que-liderou-o-leilao-broad-arrow-zurique-2026-enquanto-o-mercado-rejeita-a-liquidez-efemera-0805",
+    "title": "LaFerrari: O Monocoque Rosso Corsa de 963 cv que Liderou o Leilão Broad Arrow Zurique 2026 Enquanto o Mercado Rejeita a Liquidez Efêmera",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "12 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A soberania patrimonial encontra seu teste definitivo no pregão suíço, onde a escassez matemática do cavalo-rampante prevalece sobre o silêncio forçado dos hipercarros de primeira geração.",
+    "contentParagraphs": [
+      "O martelo despencou em Zurique sob uma atmosfera de rigor absoluto. A praça financeira helvética assistiu a um leilão de alta tensão promovido pela Broad Arrow, revelando a frágil linha entre a imunidade temporal e a depreciação ordinária. O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Enquanto os colecionadores se digladiavam pelo ápice da engenharia de Maranello, o mercado exibia uma seletividade cirúrgica implacável com os espécimes de transição.",
+      "No topo da cadeia alimentar mecânica, a LaFerrari ostentou sua superioridade em fibra de carbono T800 curada em autoclave. Seu trem de força híbrido HY-KERS, acoplado ao V12 aspirado de 6,3 litros que grita até as 9.250 rotações por minuto, demonstrou resiliência fiduciária irrepreensível. A tolerância de mícrons em seus componentes e a pureza aerodinâmica ativa sem asas espalhafatosas confirmam sua posição como refúgio definitivo de valor entre os family offices mais exigentes do continente.",
+      "Em contrapartida, o panorama para outros ícones contemporâneos revelou fissuras na armadura da especulação. O Bugatti Veyron, pioneiro da era dos 1.001 cavalos com quatro turbocompressores, tropeçou na hora de alcançar sua estimativa conservadora pré-leilão. Custos de manutenção estratosféricos, troca obrigatória de conjuntos de rodas a cada 400 quilômetros e a saturação de exemplares no mercado secundário puniram severamente a liquidez da máquina de Molsheim, provando que a potência bruta sem pureza conceitual perece diante da inflação.",
+      "Este descompasso no leilão suíço dita a nova cartografia dos grandes leilões internacionais. Apenas a verdadeira soberania patrimonial, aquela respaldada por baixa quilometragem, histórico imaculado de custódia e ausência de concessões ao efêmero, sobrevive à volatilidade moderna. O V12 de Maranello continua a ser um templo de alta performance intocável, enquanto os hipercarros desprovidos de linhagem genética caminham inevitavelmente para a banalização."
+    ],
+    "content_paragraphs": [
+      "O martelo despencou em Zurique sob uma atmosfera de rigor absoluto. A praça financeira helvética assistiu a um leilão de alta tensão promovido pela Broad Arrow, revelando a frágil linha entre a imunidade temporal e a depreciação ordinária. O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Enquanto os colecionadores se digladiavam pelo ápice da engenharia de Maranello, o mercado exibia uma seletividade cirúrgica implacável com os espécimes de transição.",
+      "No topo da cadeia alimentar mecânica, a LaFerrari ostentou sua superioridade em fibra de carbono T800 curada em autoclave. Seu trem de força híbrido HY-KERS, acoplado ao V12 aspirado de 6,3 litros que grita até as 9.250 rotações por minuto, demonstrou resiliência fiduciária irrepreensível. A tolerância de mícrons em seus componentes e a pureza aerodinâmica ativa sem asas espalhafatosas confirmam sua posição como refúgio definitivo de valor entre os family offices mais exigentes do continente.",
+      "Em contrapartida, o panorama para outros ícones contemporâneos revelou fissuras na armadura da especulação. O Bugatti Veyron, pioneiro da era dos 1.001 cavalos com quatro turbocompressores, tropeçou na hora de alcançar sua estimativa conservadora pré-leilão. Custos de manutenção estratosféricos, troca obrigatória de conjuntos de rodas a cada 400 quilômetros e a saturação de exemplares no mercado secundário puniram severamente a liquidez da máquina de Molsheim, provando que a potência bruta sem pureza conceitual perece diante da inflação.",
+      "Este descompasso no leilão suíço dita a nova cartografia dos grandes leilões internacionais. Apenas a verdadeira soberania patrimonial, aquela respaldada por baixa quilometragem, histórico imaculado de custódia e ausência de concessões ao efêmero, sobrevive à volatilidade moderna. O V12 de Maranello continua a ser um templo de alta performance intocável, enquanto os hipercarros desprovidos de linhagem genética caminham inevitavelmente para a banalização."
+    ],
+    "specs": {
+      "chassi": "Monocoque em fibra de carbono T800 / T1000",
+      "motor": "V12 aspirado 6.262 cm³ + Motor Elétrico HY-KERS",
+      "potencia": "963 cv combinados a 9.000 RPM",
+      "transmissão": "Dupla embaixagem F1 de 7 velocidades",
+      "resultado_leilao": "Líder de faturamento Broad Arrow Zurique 2026",
+      "custodia": "Certificação Ferrari Classiche integral"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 92,
+    "ranking_score": 92,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-12T01:22:21.519Z",
+    "published_at": "2026-11-12T01:22:21.519Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSlU5ZDhRQkk5b3NsMHlQMTUxOHAyUUxvYml4QVZtLUU1RFItcnlKSXhtTVJiR1NFWjNRVWJ6emcyaWg2bVFxNnUxaFo4RDI2YWFsZ0dSTWNKVVdjbTU3NEJrc1JTM3MwOXZUTThUMXlXeHd1X09rQUFTS1FlcVRteDB0TUxhSHg3UXF2RHFMRkNwTkFE?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSlU5ZDhRQkk5b3NsMHlQMTUxOHAyUUxvYml4QVZtLUU1RFItcnlKSXhtTVJiR1NFWjNRVWJ6emcyaWg2bVFxNnUxaFo4RDI2YWFsZ0dSTWNKVVdjbTU3NEJrc1JTM3MwOXZUTThUMXlXeHd1X09rQUFTS1FlcVRteDB0TUxhSHg3UXF2RHFMRkNwTkFE?oc=5"
+  },
+  {
     "id": "art-leilao-christies-a-nova-geracao--6413",
     "slug": "leilao-christies-a-nova-geracao-e-a-ascensao-dos-calibres-de-proveniencia-historica-em-recordes-de-liquidez-6398",
     "title": "Leilão Christie’s: A Nova Geração e a Ascensão dos Calibres de Proveniência Histórica em Recordes de Liquidez",
@@ -1364,64 +1417,20 @@ export const ARTICLES = [
     "published_at": "2026-11-06T11:10:54.878Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcWFYLTFEY3hRMG0zNXQ5X0pWTl9IcVNJVFNDUVhNOHdCeWdIUkR5TEc4dGZ3X2hnbV9McVZHUFJCZDloUzhMalppMmZxdHNSMHp0NllYWlhEdmtEZTJYV1F2M2Zvb0lXLThodVFoek5GMnN2NlBVSlpnc3hjdkN3VTRHVGdIdURPek5DMjVWb3Y0Zm5nNG80Y1k1X2xuclpHbktoa29qM2prc1ptcHFuUUo4S0gtbWhMME1CSmg5N0o1S29HRlRhUGxR?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcWFYLTFEY3hRMG0zNXQ5X0pWTl9IcVNJVFNDUVhNOHdCeWdIUkR5TEc4dGZ3X2hnbV9McVZHUFJCZDloUzhMalppMmZxdHNSMHp0NllYWlhEdmtEZTJYV1F2M2Zvb0lXLThodVFoek5GMnN2NlBVSlpnc3hjdkN3VTRHVGdIdURPek5DMjVWb3Y0Zm5nNG80Y1k1X2xuclpHbktoa29qM2prc1ptcHFuUUo4S0gtbWhMME1CSmg5N0o1S29HRlRhUGxR?oc=5"
-  },
-  {
-    "id": "art-colecao-david-geffen-o-leilao-de-8840",
-    "slug": "colecao-david-geffen-o-leilao-de-us-500-milhoes-em-arte-contemporanea-que-reafirma-a-soberania-patrimonial-dinastica-8832",
-    "title": "Coleção David Geffen: O Leilão de US$ 500 Milhões em Arte Contemporânea que Reafirma a Soberania Patrimonial Dinástica",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "06 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A custódia fiduciária de ativos tangíveis raros revela como a alta finança protege capitais seculares contra a erosão inflacionária global.",
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Nas capitânias da alta finança, a liquidez volátil cede espaço a ativos de refúgio imunes às intempéries geopolíticas. A movimentação recente em torno do magnata norte-americano demonstra uma precisão cirúrgica na alocação de capitais intocáveis.",
-      "Enquanto os mercados especulativos oscilam ao sabor de algoritmos efêmeros, os grandes colecionadores consolidam suas posições em ativos tangíveis de escassez matemática. A arquitetura de uma governança dinástica exige a conversão de capital líquido em soberania patrimonial absoluta, blindando gerações futuras contra a erosão monetária.",
-      "A curadoria de espólios e galerias privadas funciona como um fideicomisso inegociável. Cada aquisição em leilões restritos representa um ato de preservação histórica, onde telas museológicas e propriedades monumentais formam um ecossistema financeiro hermético, intocável e perene.",
-      "A verdadeira aristocracia do século XXI não exibe cifras; ela administra legados. O refúgio de liquidez por meio de ativos de valor intrínseco incontestável permanece como a única resposta definitiva contra a obsolescência programada do capital moderno."
-    ],
-    "content_paragraphs": [
-      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Nas capitânias da alta finança, a liquidez volátil cede espaço a ativos de refúgio imunes às intempéries geopolíticas. A movimentação recente em torno do magnata norte-americano demonstra uma precisão cirúrgica na alocação de capitais intocáveis.",
-      "Enquanto os mercados especulativos oscilam ao sabor de algoritmos efêmeros, os grandes colecionadores consolidam suas posições em ativos tangíveis de escassez matemática. A arquitetura de uma governança dinástica exige a conversão de capital líquido em soberania patrimonial absoluta, blindando gerações futuras contra a erosão monetária.",
-      "A curadoria de espólios e galerias privadas funciona como um fideicomisso inegociável. Cada aquisição em leilões restritos representa um ato de preservação histórica, onde telas museológicas e propriedades monumentais formam um ecossistema financeiro hermético, intocável e perene.",
-      "A verdadeira aristocracia do século XXI não exibe cifras; ela administra legados. O refúgio de liquidez por meio de ativos de valor intrínseco incontestável permanece como a única resposta definitiva contra a obsolescência programada do capital moderno."
-    ],
-    "specs": {
-      "Volume de Ativos Sob Gestão": "US$ 8 Bilhões",
-      "Natureza do Capital": "Fideicomisso Perpétuo",
-      "Classe de Ativo Principal": "Arte Moderna e Contemporânea Tier-1",
-      "Governança": "Custódia Fiduciária Suíça",
-      "Horizonte Temporal": "Multigeracional (Século XXI)"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 88,
-    "ranking_score": 88,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-06T04:38:58.839Z",
-    "published_at": "2026-11-06T04:38:58.839Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX3lMQmViWmphVTZjcFlJTDdYVWpVejMzcTRncmZKQ21IOU40OXpWVERDMUFCV0EzTGF1OW00UERIcEhpWUFvWHpHT3JPU0dOc3ZBbWsybWJMUnkwZzBSSno4Y0loLUZIbXd1MU5SMjZNc2hSMnA1Z19RWXVuR1R4UThGZHVWYVFUS2JURzVaSExSU2NxZ0RlVdIBngFBVV95cUxPUG9UdGwtaENkZlpHX19WLXJuRUFlOE5oMXR3WkUzWGZnNFY4ckJhcFF5b01JYW83dUhRZklfbmg3RHU5cXZFU1Vic3kxcjQ0UWRSWlJObXhmUkpNQzRGRlpJRFBfRUphQmZnTTd0aXlLWkw1NnUwNHYzNTFUcHNKaVJLOEs0TnR3ZjZyTDZwcEFod29fbGJnS01jWXZ5dw?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX3lMQmViWmphVTZjcFlJTDdYVWpVejMzcTRncmZKQ21IOU40OXpWVERDMUFCV0EzTGF1OW00UERIcEhpWUFvWHpHT3JPU0dOc3ZBbWsybWJMUnkwZzBSSno4Y0loLUZIbXd1MU5SMjZNc2hSMnA1Z19RWXVuR1R4UThGZHVWYVFUS2JURzVaSExSU2NxZ0RlVdIBngFBVV95cUxPUG9UdGwtaENkZlpHX19WLXJuRUFlOE5oMXR3WkUzWGZnNFY4ckJhcFF5b01JYW83dUhRZklfbmg3RHU5cXZFU1Vic3kxcjQ0UWRSWlJObXhmUkpNQzRGRlpJRFBfRUphQmZnTTd0aXlLWkw1NnUwNHYzNTFUcHNKaVJLOEs0TnR3ZjZyTDZwcEFod29fbGJnS01jWXZ5dw?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "ARQUITETURA",
+    "title": "Sarasota Record: A Cobertura de US$ 14...",
+    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "sarasota-record-a-cobertura-de-us-145-milhoes-que-estabelece-o-novo-padrao-fiduciario-em-concreto-macico-e-travertino-na-costa-da-florida-9914"
+  },
+  {
+    "id": "film-2",
     "category": "SUPERCARROS",
     "title": "Ferrari 296 GT3: O V12 Recuado 50mm e ...",
     "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=max&q=85&w=1800",
@@ -1429,7 +1438,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-296-gt3-o-v12-recuado-50mm-e-rebaixado-que-reconfigurou-o-limite-da-fisica-na-endurance-mundial-4017"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Yangwang U9: A Fúria Elétrica de 310 M...",
     "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800",
@@ -1437,7 +1446,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "yangwang-u9-a-furia-eletrica-de-310-mph-que-esmaga-limites-com-quatro-motores-independentes-e-3000-cavalos-0393"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "DESTINOS",
     "title": "Sindalah: O Arquipélago do Mar Vermelh...",
     "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
@@ -1445,7 +1454,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "sindalah-o-arquipelago-do-mar-vermelho-de-84-bercos-que-desafia-a-soberania-nautica-de-monaco-7239"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "DESTINOS",
     "title": "Sheergold: O Superiate de Expedição e ...",
     "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
@@ -1453,20 +1462,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "sheergold-o-superiate-de-expedicao-e-os-7-dias-de-navegacao-extrema-pelo-grande-buraco-azul-de-belize-8524"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "ARQUITETURA",
     "title": "Christie's Hong Kong Luxury Week Autum...",
     "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "christies-hong-kong-luxury-week-autumn-2026-450-lotes-de-alta-custodia-e-governanca-dinastica-em-territorio-asiatico-5552"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Toyota GR010 Hybrid: O Protótipo de Re...",
-    "image": "https://images.unsplash.com/photo-1731770758454-9d283a702306?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "toyota-gr010-hybrid-o-prototipo-de-resistencia-de-680-cv-que-marca-a-despedida-cinetica-de-mike-conway-nas-pistas-7216"
   }
 ];
 

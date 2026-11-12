@@ -121,7 +121,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://images.unsplash.com/photo-1661311928884-7e36f478109f?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "available"
+    "status": "published"
   },
   {
     "id": "pauta-live-supercarros-mwcgf5hx-bg8z",

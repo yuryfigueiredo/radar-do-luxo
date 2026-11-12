@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-laferrari-o-monocoque-rosso-cors-1520",
+    "slug": "laferrari-o-monocoque-rosso-corsa-de-963-cv-que-liderou-o-leilao-broad-arrow-zurique-2026-enquanto-o-mercado-rejeita-a-liquidez-efemera-0805",
+    "title": "LaFerrari: O Monocoque Rosso Corsa de 963 cv que Liderou o Leilão Broad Arrow Zurique 2026 Enquanto o Mercado Rejeita a Liquidez Efêmera",
+    "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSlU5ZDhRQkk5b3NsMHlQMTUxOHAyUUxvYml4QVZtLUU1RFItcnlKSXhtTVJiR1NFWjNRVWJ6emcyaWg2bVFxNnUxaFo4RDI2YWFsZ0dSTWNKVVdjbTU3NEJrc1JTM3MwOXZUTThUMXlXeHd1X09rQUFTS1FlcVRteDB0TUxhSHg3UXF2RHFMRkNwTkFE?oc=5",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "publishedAt": "2026-11-12T01:22:21.519Z"
+  },
+  {
     "id": "art-leilao-christies-a-nova-geracao--6413",
     "slug": "leilao-christies-a-nova-geracao-e-a-ascensao-dos-calibres-de-proveniencia-historica-em-recordes-de-liquidez-6398",
     "title": "Leilão Christie’s: A Nova Geração e a Ascensão dos Calibres de Proveniência Histórica em Recordes de Liquidez",
