@@ -308,7 +308,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://robbreport.com/wp-content/uploads/2026/11/530_36AvenueE_Seattle_28.jpg",
     "imageIsFallback": false,
-    "status": "available"
+    "status": "duplicate"
   }
 ];
 
