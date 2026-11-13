@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-diamante-bulgari-rosa-os-24-quil-2565",
+    "slug": "diamante-bulgari-rosa-os-24-quilates-de-pureza-categorica-custodiados-pela-mesma-dinastia-desde-1950-2556",
+    "title": "Diamante Bulgari Rosa: Os 24 Quilates de Pureza Categórica Custodiados pela Mesma Dinastia desde 1950",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "13 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=max&q=85&w=1800",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A soberania patrimonial de uma gema em rosa intenso que atravessou sete décadas de volatilidade global sem jamais abandonar o cofre familiar original.",
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Nas profundezas dos cofres suíços onde a luz jamais penetra, a permanência de um ativo físico desta magnitude desafia o frenesi dos mercados especulativos e impõe uma nova régua para a preservação de capitais multigeracionais.",
+      "Com exatos vinte e quatro quilates lapidados com rigor geométrico, este exemplar da alta joalheria assinada pela Bulgari carrega em sua rede cristalina a assinatura molecular do silêncio e da escassez absoluta, resistindo incólume às intempéries políticas e econômicas desde a década de 1950 sob a mesma custódia fiduciária.",
+      "A raridade de um diamante rosa com esta saturação cromática reside na deformação plástica anômala sofrida pela rede de carbono durante sua gênese tectônica, um capricho da geologia profunda que poucos ateliês no mundo possuem o discernimento histórico para cravar e eternizar em platina.",
+      "Ao retornar aos leilões internacionais em uma transação sigilosa e estratosférica, a gema reafirma sua imunidade temporal, provando que ativos tangíveis de proveniência imaculada continuam sendo o único refúgio inviolável contra a obsolescencia da moeda fiat."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Nas profundezas dos cofres suíços onde a luz jamais penetra, a permanência de um ativo físico desta magnitude desafia o frenesi dos mercados especulativos e impõe uma nova régua para a preservação de capitais multigeracionais.",
+      "Com exatos vinte e quatro quilates lapidados com rigor geométrico, este exemplar da alta joalheria assinada pela Bulgari carrega em sua rede cristalina a assinatura molecular do silêncio e da escassez absoluta, resistindo incólume às intempéries políticas e econômicas desde a década de 1950 sob a mesma custódia fiduciária.",
+      "A raridade de um diamante rosa com esta saturação cromática reside na deformação plástica anômala sofrida pela rede de carbono durante sua gênese tectônica, um capricho da geologia profunda que poucos ateliês no mundo possuem o discernimento histórico para cravar e eternizar em platina.",
+      "Ao retornar aos leilões internacionais em uma transação sigilosa e estratosférica, a gema reafirma sua imunidade temporal, provando que ativos tangíveis de proveniência imaculada continuam sendo o único refúgio inviolável contra a obsolescencia da moeda fiat."
+    ],
+    "specs": {
+      "peso_da_gema": "24.59 quilates",
+      "classificacao_de_cor": "Fancy Intense Pink",
+      "proveniencia": "Coleção familiar privada (1950-2026)",
+      "ateliê_de_origem": "Bulgari High Jewelry",
+      "natureza_do_ativo": "Reserva de valor mineral imune"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 85,
+    "ranking_score": 85,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-13T17:03:52.564Z",
+    "published_at": "2026-11-13T17:03:52.564Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiggNBVV95cUxQSmo0QVpYLWRQZXJxdW5GWEV2NUo3UWREOVZJTm1ZYzd5em9LUTFnRFJYMWVOaXJ1M2FJN3hhR0xFSUlmRHlnNDg5ZjdLakY2S2Z2UlljZEYybS1MQ3JLcktnRnFZNEUwREVyTUZsODZWMl9OVkZiY1A5U3N6bGhBVmlKeHdWOThCam10SEZZdnN1NEhRVzhndU01OWV2dVFLSVlIMlFsZ3hzWHEzTjQzRWlHeDVVeVRLYnFqcHF3STVoVUs1WUlWTE5tWDlqSnBGTWpfNWNuaFVCU3gtdW4xTHFEREl6Ynh4ZTVXUmhKaGdXeEM5Zkx1QnNqb2MyenFtblY3cTA1M3JpbHhlMFRwS0ZtU3NXSTJLbXM4NlFfcUNQS05yeXZ2NHhYWHpfb0tNUS13emFDemlZOHlGRzBrelhjdHMwcmVMRjR5ZDM4UlpoYWRLLXB4RmozRFEySnBHSm96T01iVWFTN1hsdTFhQmc0TFhVa283N0FBcWY1S0xhQdIBhwNBVV95cUxONTV4SXBIN3VOaHFEN2lvUVpQdlJkUTl2N0MzZ183M1FKbjdOVkdkdTZCMzdsbk9mLVF3TVljbHBSeU9iMzBEZk1IRkFJYU9CZlhHaUluT3J1eV8yTTl0U1ZOemNxY1JrSmF3RVV1eDMzZTJWNnliQW9CNGhVWVZfenQtRDlQQlZVVXU0NmVCaE1USnUxcUxha21hZHNJY3ZoRUVtcTZFeVpQY2VGY2EyUmRzdnVSMDB6MG01MThrRTVTUWxORXhmd0l3R085WW9PdkFVb2FRazBVU1ZSM2VkbHBGZVljSEYzM1hWRXE5OUF1aFpHVHdHLUlUWWVEQnVIbDVfTmtmaWdkODF5TlpvY3pvbzNwY21HaDB0V1k0U2xpWkJrTEcwaEJ4SkZxQ3otdmxUSTR1ajFxVF9reUVXQUR3eXJqZHpaM0dSUXNqTjhxRG94MFR6aTIyRjBZaUViblBiaGJ3eGluX2RleF9jd0dqazA4SU9lTTZmMDFDTWJRb1pERVFZ?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMiggNBVV95cUxQSmo0QVpYLWRQZXJxdW5GWEV2NUo3UWREOVZJTm1ZYzd5em9LUTFnRFJYMWVOaXJ1M2FJN3hhR0xFSUlmRHlnNDg5ZjdLakY2S2Z2UlljZEYybS1MQ3JLcktnRnFZNEUwREVyTUZsODZWMl9OVkZiY1A5U3N6bGhBVmlKeHdWOThCam10SEZZdnN1NEhRVzhndU01OWV2dVFLSVlIMlFsZ3hzWHEzTjQzRWlHeDVVeVRLYnFqcHF3STVoVUs1WUlWTE5tWDlqSnBGTWpfNWNuaFVCU3gtdW4xTHFEREl6Ynh4ZTVXUmhKaGdXeEM5Zkx1QnNqb2MyenFtblY3cTA1M3JpbHhlMFRwS0ZtU3NXSTJLbXM4NlFfcUNQS05yeXZ2NHhYWHpfb0tNUS13emFDemlZOHlGRzBrelhjdHMwcmVMRjR5ZDM4UlpoYWRLLXB4RmozRFEySnBHSm96T01iVWFTN1hsdTFhQmc0TFhVa283N0FBcWY1S0xhQdIBhwNBVV95cUxONTV4SXBIN3VOaHFEN2lvUVpQdlJkUTl2N0MzZ183M1FKbjdOVkdkdTZCMzdsbk9mLVF3TVljbHBSeU9iMzBEZk1IRkFJYU9CZlhHaUluT3J1eV8yTTl0U1ZOemNxY1JrSmF3RVV1eDMzZTJWNnliQW9CNGhVWVZfenQtRDlQQlZVVXU0NmVCaE1USnUxcUxha21hZHNJY3ZoRUVtcTZFeVpQY2VGY2EyUmRzdnVSMDB6MG01MThrRTVTUWxORXhmd0l3R085WW9PdkFVb2FRazBVU1ZSM2VkbHBGZVljSEYzM1hWRXE5OUF1aFpHVHdHLUlUWWVEQnVIbDVfTmtmaWdkODF5TlpvY3pvbzNwY21HaDB0V1k0U2xpWkJrTEcwaEJ4SkZxQ3otdmxUSTR1ajFxVF9reUVXQUR3eXJqZHpaM0dSUXNqTjhxRG94MFR6aTIyRjBZaUViblBiaGJ3eGluX2RleF9jd0dqazA4SU9lTTZmMDFDTWJRb1pERVFZ?oc=5"
+  },
+  {
     "id": "art-coroa-britanica-o-martelo-de-gen-8814",
     "slug": "coroa-britanica-o-martelo-de-genebra-alcanca-42-milhoes-de-francos-com-diamantes-de-proveniencia-real-e-ouro-nativo-8386",
     "title": "Coroa Britânica: O Martelo de Genebra Alcança 42 Milhões de Francos com Diamantes de Proveniência Real e Ouro Nativo",
@@ -1365,64 +1417,20 @@ export const ARTICLES = [
     "published_at": "2026-11-06T22:55:10.416Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQ2xQUURwVkJ1N2daNWdWMkNFRGhOWmJpazNRcGk5TlI4Vm5XOExKcDJWLUhsQ0x4dDB4UUg1Y1YxSUZaeWJ2YnRXaFpqb3dJZXc2aHJZQXNhTnFFOWxGZURFVk5oaVZHY0gxa0t0Y29oc2FudUc5aUQ3bFdaQnl4dkpn?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQ2xQUURwVkJ1N2daNWdWMkNFRGhOWmJpazNRcGk5TlI4Vm5XOExKcDJWLUhsQ0x4dDB4UUg1Y1YxSUZaeWJ2YnRXaFpqb3dJZXc2aHJZQXNhTnFFOWxGZURFVk5oaVZHY0gxa0t0Y29oc2FudUc5aUQ3bFdaQnl4dkpn?oc=5"
-  },
-  {
-    "id": "art-sheergold-o-superiate-de-expedic-8920",
-    "slug": "sheergold-o-superiate-de-expedicao-e-os-7-dias-de-navegacao-extrema-pelo-grande-buraco-azul-de-belize-8524",
-    "title": "Sheergold: O Superiate de Expedição e os 7 Dias de Navegação Extrema pelo Grande Buraco Azul de Belize",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "06 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Uma travessia náutica implacable pelas águas cristalinas do Caribe a bordo de uma embarcação de engenharia naval superlativa, explorando abismos marinhos inexplorados.",
-    "contentParagraphs": [
-      "O casco corta o mar aberto com precisão absoluta. A força G lateral se dissolve na estabilização giroscópica de última geração. O Sheergold avança sobre as correntes caribenhas desafiando qualquer noção convencional de cruzeiro.",
-      "A expedição de sete dias mapeia o Grande Buraco Azul com sondas batimétricas de alta resolução e mergulhos técnicos profundos. Cada antepara de aço naval e cada sistema de propulsão foram projetados para suportar o impacto de mares abertos sem vibração residual nos salões principais.",
-      "O silêncio nos conveses em teca burmeses contrasta com a potência brutal dos motores gêmeos de alta performance instalados na praça de máquinas. A autonomia transoceânica garante isolamento absoluto, transformando o iate em um refúgio flutuante blindado contra a volatilidade do mundo moderno.",
-      "Navegar estas coordenadas exige respeito à topografia subaquática e domínio da náutica de grande porte. O Sheergold consolida a supremacia técnica na arte de explorar os confins mais remotos do planeta com conforto inegociável."
-    ],
-    "content_paragraphs": [
-      "O casco corta o mar aberto com precisão absoluta. A força G lateral se dissolve na estabilização giroscópica de última geração. O Sheergold avança sobre as correntes caribenhas desafiando qualquer noção convencional de cruzeiro.",
-      "A expedição de sete dias mapeia o Grande Buraco Azul com sondas batimétricas de alta resolução e mergulhos técnicos profundos. Cada antepara de aço naval e cada sistema de propulsão foram projetados para suportar o impacto de mares abertos sem vibração residual nos salões principais.",
-      "O silêncio nos conveses em teca burmeses contrasta com a potência brutal dos motores gêmeos de alta performance instalados na praça de máquinas. A autonomia transoceânica garante isolamento absoluto, transformando o iate em um refúgio flutuante blindado contra a volatilidade do mundo moderno.",
-      "Navegar estas coordenadas exige respeito à topografia subaquática e domínio da náutica de grande porte. O Sheergold consolida a supremacia técnica na arte de explorar os confins mais remotos do planeta com conforto inegociável."
-    ],
-    "specs": {
-      "Embarcação": "Superiate Sheergold",
-      "Rota": "Grande Buraco Azul, Belize",
-      "Duração": "7 dias de charter",
-      "Casco": "Aço naval de alta resistência",
-      "Propulsão": "Motores gêmeos MTU de alta autonomia"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-06T22:13:28.920Z",
-    "published_at": "2026-11-06T22:13:28.920Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLXJrSi1VaFVQbmpvMVc5TzdTMGsweWx5ZDBHZkd4aTZyUXczYnR4cU4yNlJkUkZyU3pQenQ3WWZ0SmR4aUNWUUpuTDhCZ2pqS245R2RfbFloQ3M2OV80bWRlZDFKdnpXVnU4M2ZqOENKczV5NnJ2R0dtYlNxSlFsNG5tcG4wQU1FRmlza0hVTGR6cTh6c1pINUpxcEl2Wi1l?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLXJrSi1VaFVQbmpvMVc5TzdTMGsweWx5ZDBHZkd4aTZyUXczYnR4cU4yNlJkUkZyU3pQenQ3WWZ0SmR4aUNWUUpuTDhCZ2pqS245R2RfbFloQ3M2OV80bWRlZDFKdnpXVnU4M2ZqOENKczV5NnJ2R0dtYlNxSlFsNG5tcG4wQU1FRmlza0hVTGR6cTh6c1pINUpxcEl2Wi1l?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "ARQUITETURA",
+    "title": "Gold Coast: A Residência de 47,5 Milhõ...",
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
+    "tag": "CURADORIA RADAR",
+    "slug": "gold-coast-a-residencia-de-475-milhoes-de-dolares-em-travertino-romano-que-desafia-o-recorde-imobiliario-da-australia-8416"
+  },
+  {
+    "id": "film-2",
     "category": "SUPERCARROS",
     "title": "Aston Martin: O Equilíbrio Financeiro ...",
     "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
@@ -1430,7 +1438,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "aston-martin-o-equilibrio-financeiro-precario-e-a-ilusao-de-rivalizar-com-a-hegemonia-de-maranello-5922"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Bugatti Chiron: A Perseguição Transfro...",
     "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=max&q=85&w=1800",
@@ -1438,7 +1446,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "bugatti-chiron-a-perseguicao-transfronteirica-de-1500-cavalos-onde-o-ceo-trocou-o-w16-por-um-porsche-911-6302"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Aitek Hypercar: O Protótipo Elétrico d...",
     "image": "https://images.unsplash.com/photo-1610880709844-b97111a986f7?auto=format&fit=max&q=80&w=1400",
@@ -1446,7 +1454,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "aitek-hypercar-o-prototipo-eletrico-de-2400-cv-com-vetorizacao-de-torque-que-eclipsou-a-fisica-de-molsheim-7056"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "ARQUITETURA",
     "title": "Sarasota Record: A Cobertura de US$ 14...",
     "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=max&q=80&w=1400",
@@ -1454,20 +1462,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "sarasota-record-a-cobertura-de-us-145-milhoes-que-estabelece-o-novo-padrao-fiduciario-em-concreto-macico-e-travertino-na-costa-da-florida-9914"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Ferrari 296 GT3: O V12 Recuado 50mm e ...",
     "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=max&q=85&w=1800",
     "tag": "CURADORIA RADAR",
     "slug": "ferrari-296-gt3-o-v12-recuado-50mm-e-rebaixado-que-reconfigurou-o-limite-da-fisica-na-endurance-mundial-4017"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Yangwang U9: A Fúria Elétrica de 310 M...",
-    "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800",
-    "tag": "CURADORIA RADAR",
-    "slug": "yangwang-u9-a-furia-eletrica-de-310-mph-que-esmaga-limites-com-quatro-motores-independentes-e-3000-cavalos-0393"
   }
 ];
 

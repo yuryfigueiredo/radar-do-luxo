@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-diamante-bulgari-rosa-os-24-quil-2565",
+    "slug": "diamante-bulgari-rosa-os-24-quilates-de-pureza-categorica-custodiados-pela-mesma-dinastia-desde-1950-2556",
+    "title": "Diamante Bulgari Rosa: Os 24 Quilates de Pureza Categórica Custodiados pela Mesma Dinastia desde 1950",
+    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=max&q=85&w=1800",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiggNBVV95cUxQSmo0QVpYLWRQZXJxdW5GWEV2NUo3UWREOVZJTm1ZYzd5em9LUTFnRFJYMWVOaXJ1M2FJN3hhR0xFSUlmRHlnNDg5ZjdLakY2S2Z2UlljZEYybS1MQ3JLcktnRnFZNEUwREVyTUZsODZWMl9OVkZiY1A5U3N6bGhBVmlKeHdWOThCam10SEZZdnN1NEhRVzhndU01OWV2dVFLSVlIMlFsZ3hzWHEzTjQzRWlHeDVVeVRLYnFqcHF3STVoVUs1WUlWTE5tWDlqSnBGTWpfNWNuaFVCU3gtdW4xTHFEREl6Ynh4ZTVXUmhKaGdXeEM5Zkx1QnNqb2MyenFtblY3cTA1M3JpbHhlMFRwS0ZtU3NXSTJLbXM4NlFfcUNQS05yeXZ2NHhYWHpfb0tNUS13emFDemlZOHlGRzBrelhjdHMwcmVMRjR5ZDM4UlpoYWRLLXB4RmozRFEySnBHSm96T01iVWFTN1hsdTFhQmc0TFhVa283N0FBcWY1S0xhQdIBhwNBVV95cUxONTV4SXBIN3VOaHFEN2lvUVpQdlJkUTl2N0MzZ183M1FKbjdOVkdkdTZCMzdsbk9mLVF3TVljbHBSeU9iMzBEZk1IRkFJYU9CZlhHaUluT3J1eV8yTTl0U1ZOemNxY1JrSmF3RVV1eDMzZTJWNnliQW9CNGhVWVZfenQtRDlQQlZVVXU0NmVCaE1USnUxcUxha21hZHNJY3ZoRUVtcTZFeVpQY2VGY2EyUmRzdnVSMDB6MG01MThrRTVTUWxORXhmd0l3R085WW9PdkFVb2FRazBVU1ZSM2VkbHBGZVljSEYzM1hWRXE5OUF1aFpHVHdHLUlUWWVEQnVIbDVfTmtmaWdkODF5TlpvY3pvbzNwY21HaDB0V1k0U2xpWkJrTEcwaEJ4SkZxQ3otdmxUSTR1ajFxVF9reUVXQUR3eXJqZHpaM0dSUXNqTjhxRG94MFR6aTIyRjBZaUViblBiaGJ3eGluX2RleF9jd0dqazA4SU9lTTZmMDFDTWJRb1pERVFZ?oc=5",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "publishedAt": "2026-11-13T17:03:52.564Z"
+  },
+  {
     "id": "art-coroa-britanica-o-martelo-de-gen-8814",
     "slug": "coroa-britanica-o-martelo-de-genebra-alcanca-42-milhoes-de-francos-com-diamantes-de-proveniencia-real-e-ouro-nativo-8386",
     "title": "Coroa Britânica: O Martelo de Genebra Alcança 42 Milhões de Francos com Diamantes de Proveniência Real e Ouro Nativo",
