@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-lurssen-barcelona-o-ponto-de-res-9500",
+    "slug": "lurssen-barcelona-o-ponto-de-resposta-rapida-247-com-equipe-volante-para-superiates-de-ate-525-pes-no-mediterraneo-8784",
+    "title": "Lürssen Barcelona: O Ponto de Resposta Rápida 24/7 com Equipe Volante para Superiates de Até 525 Pés no Mediterrâneo",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "13 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A soberania náutica exige intolerância absoluta ao tempo de inatividade. A Lürssen estabelece uma base permanente na Espanha com despacho aéreo imediato de engenheiros navais e ligas de Inconel.",
+    "contentParagraphs": [
+      "A imobilidade de um casco de quinhentos pés custa fortunas em silêncio forçado. Bilionários não negociam cronogramas náuticos quando o Mediterrâneo exige navegação implacável. A Lürssen respondeu a esta demanda matemática com a abertura de uma base de reparos permanente em território espanhol. Um centro logístico estratégico concebido puramente para eliminar a latência mecânica.",
+      "A operação funciona sob regime ininterrupto de vinte e quatro horas por dia, sete dias por semana. Especialistas em propulsão, sistemas hidráulicos e eletrônica de bordo partem via jatos dedicados para qualquer ponto do mar Mediterrâneo onde um superiate apresente falhas. A tolerância de mícrons nos eixos de transmissão exige intervenções cirúrgicas, executadas por metalurgistas com acesso imediato a estoques de peças brutas e ligas navais de alta resistência.",
+      "Sob o casco de um gigante de aço e alumínio, cada minuto de oscilação em uma âncora representa perda de pressão em circuitos críticos. O fluxo de Venturi em estabilizadores de grandes proporções e os sistemas de exaustão em Inconel 625 não toleram improvisos portuários. Esta nova infraestrutura em solo ibérico garante que os monocoques e as superestruturas monumentais recebam o mesmo padrão de cura e usinagem exigido nos estaleiros originais de Bremen e Hamburgo.",
+      "O oceano não concede trégua aos fracos, e a engenharia naval de elite tampouco tolera amadorismo logístico. Ao posicionar sua força de resposta rápida no coração da rota náutica europeia, o estaleiro alemão redefines os limites da manutenção preventiva e corretiva de alto nível. É a soberania técnica blindada contra qualquer imprevisto mecânico em alto-mar."
+    ],
+    "content_paragraphs": [
+      "A imobilidade de um casco de quinhentos pés custa fortunas em silêncio forçado. Bilionários não negociam cronogramas náuticos quando o Mediterrâneo exige navegação implacável. A Lürssen respondeu a esta demanda matemática com a abertura de uma base de reparos permanente em território espanhol. Um centro logístico estratégico concebido puramente para eliminar a latência mecânica.",
+      "A operação funciona sob regime ininterrupto de vinte e quatro horas por dia, sete dias por semana. Especialistas em propulsão, sistemas hidráulicos e eletrônica de bordo partem via jatos dedicados para qualquer ponto do mar Mediterrâneo onde um superiate apresente falhas. A tolerância de mícrons nos eixos de transmissão exige intervenções cirúrgicas, executadas por metalurgistas com acesso imediato a estoques de peças brutas e ligas navais de alta resistência.",
+      "Sob o casco de um gigante de aço e alumínio, cada minuto de oscilação em uma âncora representa perda de pressão em circuitos críticos. O fluxo de Venturi em estabilizadores de grandes proporções e os sistemas de exaustão em Inconel 625 não toleram improvisos portuários. Esta nova infraestrutura em solo ibérico garante que os monocoques e as superestruturas monumentais recebam o mesmo padrão de cura e usinagem exigido nos estaleiros originais de Bremen e Hamburgo.",
+      "O oceano não concede trégua aos fracos, e a engenharia naval de elite tampouco tolera amadorismo logístico. Ao posicionar sua força de resposta rápida no coração da rota náutica europeia, o estaleiro alemão redefines os limites da manutenção preventiva e corretiva de alto nível. É a soberania técnica blindada contra qualquer imprevisto mecânico em alto-mar."
+    ],
+    "specs": {
+      "Capacidade Máxima": "Embarcações de até 525 pés",
+      "Disponibilidade Operacional": "24 horas por dia, 7 dias por semana",
+      "Tempo de Despacho": "Imediato via equipe volante aerotransportada",
+      "Localização Estratégica": "Base permanente na Espanha",
+      "Escopo Técnico": "Reparos estruturais, propulsão e usinagem de alta precisão"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 92,
+    "ranking_score": 92,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-13T18:29:29.499Z",
+    "published_at": "2026-11-13T18:29:29.499Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYldvMWo5YVpGSGc0SHFkclV4X0NndnhuX0EwamNLb2k5d1g3bWkxanRiTkhkcjlXQWNmZjlldnBZV2JScVJVMkc4c0RFNzhjY1lfR0ZBVGh2bGpyOW4yRHEyUWlKcWs3cGRrS0lZMl9ZOWIyZV9ITXpHZm1IV2Uwbk9SVWw?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYldvMWo5YVpGSGc0SHFkclV4X0NndnhuX0EwamNLb2k5d1g3bWkxanRiTkhkcjlXQWNmZjlldnBZV2JScVJVMkc4c0RFNzhjY1lfR0ZBVGh2bGpyOW4yRHEyUWlKcWs3cGRrS0lZMl9ZOWIyZV9ITXpHZm1IV2Uwbk9SVWw?oc=5"
+  },
+  {
     "id": "art-diamante-bulgari-rosa-os-24-quil-2565",
     "slug": "diamante-bulgari-rosa-os-24-quilates-de-pureza-categorica-custodiados-pela-mesma-dinastia-desde-1950-2556",
     "title": "Diamante Bulgari Rosa: Os 24 Quilates de Pureza Categórica Custodiados pela Mesma Dinastia desde 1950",
@@ -229,7 +281,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "12 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -257,10 +309,10 @@ export const ARTICLES = [
       "Tolerâncias": "Precisão de engenharia em mícrons"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 90,
@@ -1365,64 +1417,20 @@ export const ARTICLES = [
     "published_at": "2026-11-06T23:05:09.939Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNEMxSUZsNERUU29USVc5ZGFDX3lWRHFVQW1xWFpWdTZXSUNzWGFqWnBUMGxmeWlGWkotRDlCMzQyZDI3UzJlTjBFaXZlZzFfS203UHlSanVZRDlOSUx2UGg0ZDhVcFFCNGlhNkdRMXZSS0htMmN5UjU0dEIyaWttZDBTc3lGQXl3YzF5ZXVISGlWdXJaeEVyR0pKSWE2N3BaWmZCMVVZMHhSWk1GSG44eGs2TkxBanpYd3VR?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNEMxSUZsNERUU29USVc5ZGFDX3lWRHFVQW1xWFpWdTZXSUNzWGFqWnBUMGxmeWlGWkotRDlCMzQyZDI3UzJlTjBFaXZlZzFfS203UHlSanVZRDlOSUx2UGg0ZDhVcFFCNGlhNkdRMXZSS0htMmN5UjU0dEIyaWttZDBTc3lGQXl3YzF5ZXVISGlWdXJaeEVyR0pKSWE2N3BaWmZCMVVZMHhSWk1GSG44eGs2TkxBanpYd3VR?oc=5"
-  },
-  {
-    "id": "art-yangwang-u9-a-furia-eletrica-de--0416",
-    "slug": "yangwang-u9-a-furia-eletrica-de-310-mph-que-esmaga-limites-com-quatro-motores-independentes-e-3000-cavalos-0393",
-    "title": "Yangwang U9: A Fúria Elétrica de 310 MPH que Esmaga Limites com Quatro Motores Independentes e 3.000 Cavalos",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "06 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "Na fronteira extrema da física automotiva, o superesportivo chinês desafia a hegemonia térmica de Molsheim ao cravar 498 km/h por meio de uma arquitetura elétrica de altíssima voltagem.",
-    "contentParagraphs": [
-      "A velocidade máxima deixou de ser uma prerrogativa exclusiva dos motores a combustão interna alimentados por octanagem pura. O asfalto da pista de testes estremeceu sob o empuxo contínuo de uma força invisível e implacável. Cada roda recebe torque vetorial instantâneo através de rotores independentes girando em rotações estratosféricas. A aerodinâmica ativa esculpida em túnel de vento gerencia fluxos massivos de Venturi, mantendo o assoalho colado ao solo enquanto a agulha digital escala marcas antes reservadas à aviação militar.",
-      "Sob a carroçaria esculpida em carbo-titânio curado em autoclave a seis bar, a gestão térmica opera no limite da termodinâmica para resfriar os inversores de carboneto de silício. As forças G laterais e longitudinais geradas durante a aceleração plena exigem do piloto reflexos de combatente e telemetria inercial milimétrica. Não há concessões ao conforto complacente ou ao supérfluo digital. O habitáculo é uma gaiola de sobrevivência onde o monocoque estrutural absorve vibrações brutais enquanto o sistema de suspensão hidráulica antecipa cada imperfeição do piso em frações de milissegundo.",
-      "A marca estabelecida de 310 mph reescreve os compêndios da engenharia de alta performance e reposiciona o eixo tecnológico global para longe dos tradicionais vales industriais europeus. Enquanto puristas lamentam o silêncio atonal dos motores elétricos em rotação máxima, a física implacável dos números coroa a soberania de uma nova era mecânica. Trata-se de uma demonstração absoluta de supremacia eletromecânica onde tolerâncias de mícrons e densidade energética extrema determinam quem dita o ritmo da velocidade pura.",
-      "O veredito das pistas é incontestável e doloroso para os dinastia estabelecidas do setor. A eletrificação de alta densidade deixou de ser uma promessa ecológica para se transformar na arma definitiva de destruição de recordes históricos. Gabriel Fontes assina este marco que sela, de forma irreversível, a transição da brutalidade térmica para a precisão cirúrgica dos campos magnéticos em rotação."
-    ],
-    "content_paragraphs": [
-      "A velocidade máxima deixou de ser uma prerrogativa exclusiva dos motores a combustão interna alimentados por octanagem pura. O asfalto da pista de testes estremeceu sob o empuxo contínuo de uma força invisível e implacável. Cada roda recebe torque vetorial instantâneo através de rotores independentes girando em rotações estratosféricas. A aerodinâmica ativa esculpida em túnel de vento gerencia fluxos massivos de Venturi, mantendo o assoalho colado ao solo enquanto a agulha digital escala marcas antes reservadas à aviação militar.",
-      "Sob a carroçaria esculpida em carbo-titânio curado em autoclave a seis bar, a gestão térmica opera no limite da termodinâmica para resfriar os inversores de carboneto de silício. As forças G laterais e longitudinais geradas durante a aceleração plena exigem do piloto reflexos de combatente e telemetria inercial milimétrica. Não há concessões ao conforto complacente ou ao supérfluo digital. O habitáculo é uma gaiola de sobrevivência onde o monocoque estrutural absorve vibrações brutais enquanto o sistema de suspensão hidráulica antecipa cada imperfeição do piso em frações de milissegundo.",
-      "A marca estabelecida de 310 mph reescreve os compêndios da engenharia de alta performance e reposiciona o eixo tecnológico global para longe dos tradicionais vales industriais europeus. Enquanto puristas lamentam o silêncio atonal dos motores elétricos em rotação máxima, a física implacável dos números coroa a soberania de uma nova era mecânica. Trata-se de uma demonstração absoluta de supremacia eletromecânica onde tolerâncias de mícrons e densidade energética extrema determinam quem dita o ritmo da velocidade pura.",
-      "O veredito das pistas é incontestável e doloroso para os dinastia estabelecidas do setor. A eletrificação de alta densidade deixou de ser uma promessa ecológica para se transformar na arma definitiva de destruição de recordes históricos. Gabriel Fontes assina este marco que sela, de forma irreversível, a transição da brutalidade térmica para a precisão cirúrgica dos campos magnéticos em rotação."
-    ],
-    "specs": {
-      "Powertrain": "Quatro motores elétricos síncronos de ímã permanente",
-      "Potencia Combinada": "Aprox. 3.000 cv equivalentes",
-      "Velocidade Maxima Aferida": "310 mph (498 km/h)",
-      "Aerodinamica": "Efeito solo ativo com canais Venturi de alta pressão",
-      "Chassi": "Monocoque em carbo-titânio curado em autoclave"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 91,
-    "ranking_score": 91,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-06T22:55:10.416Z",
-    "published_at": "2026-11-06T22:55:10.416Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQ2xQUURwVkJ1N2daNWdWMkNFRGhOWmJpazNRcGk5TlI4Vm5XOExKcDJWLUhsQ0x4dDB4UUg1Y1YxSUZaeWJ2YnRXaFpqb3dJZXc2aHJZQXNhTnFFOWxGZURFVk5oaVZHY0gxa0t0Y29oc2FudUc5aUQ3bFdaQnl4dkpn?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQ2xQUURwVkJ1N2daNWdWMkNFRGhOWmJpazNRcGk5TlI4Vm5XOExKcDJWLUhsQ0x4dDB4UUg1Y1YxSUZaeWJ2YnRXaFpqb3dJZXc2aHJZQXNhTnFFOWxGZURFVk5oaVZHY0gxa0t0Y29oc2FudUc5aUQ3bFdaQnl4dkpn?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "ESTILO",
+    "title": "Hermès Birkin: O Protótipo Original de...",
+    "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "hermes-birkin-o-prototipo-original-de-jane-birkin-que-vai-a-leilao-com-marcas-de-uso-e-essencia-de-paris-1139"
+  },
+  {
+    "id": "film-2",
     "category": "ARQUITETURA",
     "title": "Gold Coast: A Residência de 47,5 Milhõ...",
     "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
@@ -1430,7 +1438,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "gold-coast-a-residencia-de-475-milhoes-de-dolares-em-travertino-romano-que-desafia-o-recorde-imobiliario-da-australia-8416"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Aston Martin: O Equilíbrio Financeiro ...",
     "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
@@ -1438,7 +1446,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "aston-martin-o-equilibrio-financeiro-precario-e-a-ilusao-de-rivalizar-com-a-hegemonia-de-maranello-5922"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Bugatti Chiron: A Perseguição Transfro...",
     "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=max&q=85&w=1800",
@@ -1446,7 +1454,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "bugatti-chiron-a-perseguicao-transfronteirica-de-1500-cavalos-onde-o-ceo-trocou-o-w16-por-um-porsche-911-6302"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Aitek Hypercar: O Protótipo Elétrico d...",
     "image": "https://images.unsplash.com/photo-1610880709844-b97111a986f7?auto=format&fit=max&q=80&w=1400",
@@ -1454,20 +1462,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "aitek-hypercar-o-prototipo-eletrico-de-2400-cv-com-vetorizacao-de-torque-que-eclipsou-a-fisica-de-molsheim-7056"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "ARQUITETURA",
     "title": "Sarasota Record: A Cobertura de US$ 14...",
     "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "sarasota-record-a-cobertura-de-us-145-milhoes-que-estabelece-o-novo-padrao-fiduciario-em-concreto-macico-e-travertino-na-costa-da-florida-9914"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Ferrari 296 GT3: O V12 Recuado 50mm e ...",
-    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=max&q=85&w=1800",
-    "tag": "CURADORIA RADAR",
-    "slug": "ferrari-296-gt3-o-v12-recuado-50mm-e-rebaixado-que-reconfigurou-o-limite-da-fisica-na-endurance-mundial-4017"
   }
 ];
 

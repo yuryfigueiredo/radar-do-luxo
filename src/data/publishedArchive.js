@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-lurssen-barcelona-o-ponto-de-res-9500",
+    "slug": "lurssen-barcelona-o-ponto-de-resposta-rapida-247-com-equipe-volante-para-superiates-de-ate-525-pes-no-mediterraneo-8784",
+    "title": "Lürssen Barcelona: O Ponto de Resposta Rápida 24/7 com Equipe Volante para Superiates de Até 525 Pés no Mediterrâneo",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYldvMWo5YVpGSGc0SHFkclV4X0NndnhuX0EwamNLb2k5d1g3bWkxanRiTkhkcjlXQWNmZjlldnBZV2JScVJVMkc4c0RFNzhjY1lfR0ZBVGh2bGpyOW4yRHEyUWlKcWs3cGRrS0lZMl9ZOWIyZV9ITXpHZm1IV2Uwbk9SVWw?oc=5",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-13T18:29:29.499Z"
+  },
+  {
     "id": "art-diamante-bulgari-rosa-os-24-quil-2565",
     "slug": "diamante-bulgari-rosa-os-24-quilates-de-pureza-categorica-custodiados-pela-mesma-dinastia-desde-1950-2556",
     "title": "Diamante Bulgari Rosa: Os 24 Quilates de Pureza Categórica Custodiados pela Mesma Dinastia desde 1950",
