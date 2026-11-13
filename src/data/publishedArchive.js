@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-coroa-britanica-o-martelo-de-gen-8814",
+    "slug": "coroa-britanica-o-martelo-de-genebra-alcanca-42-milhoes-de-francos-com-diamantes-de-proveniencia-real-e-ouro-nativo-8386",
+    "title": "Coroa Britânica: O Martelo de Genebra Alcança 42 Milhões de Francos com Diamantes de Proveniência Real e Ouro Nativo",
+    "image": "https://images.unsplash.com/photo-1783408360163-3ad59ed27c25?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1KYUU1cnpJYTJQR0pOLWJlM2VUc2NOc2F4RDZUR0o2bktvTkNPMXMyUUlPUFh3N2gxY051eUZYWGdsYnF2VGNyZERNb1FhdTY3YzhxTmJfYks5bWRvOUNJZGo4NlhfZDR3MmQzemJSaVQ?oc=5",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "publishedAt": "2026-11-13T15:08:28.814Z"
+  },
+  {
     "id": "art-ferrari-a-ascensao-das-acoes-em--2573",
     "slug": "ferrari-a-ascensao-das-acoes-em-wall-street-e-a-soberania-inercial-do-v12-de-aspiracao-natural-2563",
     "title": "Ferrari: A Ascensão das Ações em Wall Street e a Soberania Inercial do V12 de Aspiração Natural",

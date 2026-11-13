@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-coroa-britanica-o-martelo-de-gen-8814",
+    "slug": "coroa-britanica-o-martelo-de-genebra-alcanca-42-milhoes-de-francos-com-diamantes-de-proveniencia-real-e-ouro-nativo-8386",
+    "title": "Coroa Britânica: O Martelo de Genebra Alcança 42 Milhões de Francos com Diamantes de Proveniência Real e Ouro Nativo",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "13 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1783408360163-3ad59ed27c25?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A soberania patrimonial encontra refúgio em leilões de alta custódia onde a procedência dinástica dita o silêncio mineral dos ativos imunes.",
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nos salões blindados de Genebra, o linho das toalhas abafa o peso de fortunas seculares trocando de mãos. A procedência real não é mera vaidade estética; é a garantia absoluta de custódia fiduciária contra a erosão monetária.",
+      "Cada faceta dos diamantes do século XVIII carregados por Romanovs e monarcas Tudor carrega uma geometria de poder intraduzível. Historicamente, os martelos de leilão batem recordes não pela raridade da gema isolada, mas pelo rastro documental de quem a lapidou sob encomenda. O mercado absorve a história como o travertino romano absorve o calor do sol.",
+      "Family offices e fundações privadas disputam essas esferas de esmalte e platina buscando a imunidade temporal que apenas a linhagem sanguínea garante. Enquanto os índices globais oscilam ao sabor de crises sistêmicas, os cofres subterrâneos na Suíça guardam colares que resistiram a revoluções, guerras mundiais e reformas fiscais implacáveis.",
+      "A curadoria contemporânea exige rigor documental e discrição absoluta. O verdadeiro colecionador não compra adornos para uso efêmero; ele adquire parcelas atemporais de soberania patrimonial. O leilão de alta joalheria soberana consolida-se, portanto, como o mais seguro porto de abrigo para capitais que recusam o esquecimento."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nos salões blindados de Genebra, o linho das toalhas abafa o peso de fortunas seculares trocando de mãos. A procedência real não é mera vaidade estética; é a garantia absoluta de custódia fiduciária contra a erosão monetária.",
+      "Cada faceta dos diamantes do século XVIII carregados por Romanovs e monarcas Tudor carrega uma geometria de poder intraduzível. Historicamente, os martelos de leilão batem recordes não pela raridade da gema isolada, mas pelo rastro documental de quem a lapidou sob encomenda. O mercado absorve a história como o travertino romano absorve o calor do sol.",
+      "Family offices e fundações privadas disputam essas esferas de esmalte e platina buscando a imunidade temporal que apenas a linhagem sanguínea garante. Enquanto os índices globais oscilam ao sabor de crises sistêmicas, os cofres subterrâneos na Suíça guardam colares que resistiram a revoluções, guerras mundiais e reformas fiscais implacáveis.",
+      "A curadoria contemporânea exige rigor documental e discrição absoluta. O verdadeiro colecionador não compra adornos para uso efêmero; ele adquire parcelas atemporais de soberania patrimonial. O leilão de alta joalheria soberana consolida-se, portanto, como o mais seguro porto de abrigo para capitais que recusam o esquecimento."
+    ],
+    "specs": {
+      "proveniencia": "Dinastia Romanov / Coleção Privada Europeia",
+      "custodia": "Cofre Fiduciário Subterrâneo em Genebra",
+      "certificacao": "GIA & Análise Histórica de Proveniência",
+      "valoracao": "42.800.000 CHF (Martelo Final)",
+      "natureza_do_ativo": "Refúgio de Liquidez Dinástica"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-13T15:08:28.814Z",
+    "published_at": "2026-11-13T15:08:28.814Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1KYUU1cnpJYTJQR0pOLWJlM2VUc2NOc2F4RDZUR0o2bktvTkNPMXMyUUlPUFh3N2gxY051eUZYWGdsYnF2VGNyZERNb1FhdTY3YzhxTmJfYks5bWRvOUNJZGo4NlhfZDR3MmQzemJSaVQ?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1KYUU1cnpJYTJQR0pOLWJlM2VUc2NOc2F4RDZUR0o2bktvTkNPMXMyUUlPUFh3N2gxY051eUZYWGdsYnF2VGNyZERNb1FhdTY3YzhxTmJfYks5bWRvOUNJZGo4NlhfZDR3MmQzemJSaVQ?oc=5"
+  },
+  {
     "id": "art-ferrari-a-ascensao-das-acoes-em--2573",
     "slug": "ferrari-a-ascensao-das-acoes-em-wall-street-e-a-soberania-inercial-do-v12-de-aspiracao-natural-2563",
     "title": "Ferrari: A Ascensão das Ações em Wall Street e a Soberania Inercial do V12 de Aspiração Natural",
@@ -1365,58 +1417,6 @@ export const ARTICLES = [
     "published_at": "2026-11-06T22:13:28.920Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLXJrSi1VaFVQbmpvMVc5TzdTMGsweWx5ZDBHZkd4aTZyUXczYnR4cU4yNlJkUkZyU3pQenQ3WWZ0SmR4aUNWUUpuTDhCZ2pqS245R2RfbFloQ3M2OV80bWRlZDFKdnpXVnU4M2ZqOENKczV5NnJ2R0dtYlNxSlFsNG5tcG4wQU1FRmlza0hVTGR6cTh6c1pINUpxcEl2Wi1l?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLXJrSi1VaFVQbmpvMVc5TzdTMGsweWx5ZDBHZkd4aTZyUXczYnR4cU4yNlJkUkZyU3pQenQ3WWZ0SmR4aUNWUUpuTDhCZ2pqS245R2RfbFloQ3M2OV80bWRlZDFKdnpXVnU4M2ZqOENKczV5NnJ2R0dtYlNxSlFsNG5tcG4wQU1FRmlza0hVTGR6cTh6c1pINUpxcEl2Wi1l?oc=5"
-  },
-  {
-    "id": "art-christies-hong-kong-luxury-week--5559",
-    "slug": "christies-hong-kong-luxury-week-autumn-2026-450-lotes-de-alta-custodia-e-governanca-dinastica-em-territorio-asiatico-5552",
-    "title": "Christie's Hong Kong Luxury Week Autumn 2026: 450 Lotes de Alta Custódia e Governança Dinástica em Território Asiático",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "06 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A semana de leilões de outono em Hong Kong consolide a soberania patrimonial através de ativos tangíveis imunes à volatilidade fiduciária global.",
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nas salas de arremate da Christie's em Hong Kong, a arquitetura dos lances não obedece ao ritmo febril dos mercados digitais, mas à gravidade austera de quem transfere impérios inteiros de uma custódia fiduciária para outra. Aqui, cada martelada sela a permanência de um legado secular.",
-      "A seleção curatorial para este outono recusa o efêmero em favor da densidade histórica. Diamantes D-Color de pureza absoluta, jadeítas imperiais com histórico de procedência documentada e relógios independentes com calibres de manufatura restrita formam uma barricada contra a inflação sistêmica. Trata-se de refúgio de liquidez construído com átomos insubstituíveis, onde o valor reside na impossibilidade absoluta de replicação industrial.",
-      "Enquanto os mercados acionários oscilam ao sabor de algoritmos de alta frequência, o capital soberano migra para o travertino romano navona e para os cofres blindados de Hong Kong. A Ásia madura não consome mais símbolos de passagem; exige soberania patrimonial absoluta, respaldada por relatórios de laboratório gemológico intransigentes e proveniências aristocráticas irrefutáveis.",
-      "O veredito do Radar do Luxo é definitivo. O colecionador contemporâneo já não busca a novidade barulhenta, mas a imunidade temporal. A semana de leilões da Christie's prova que os verdadeiros ativos de refúgio não perdem valor na tempestade; tornam-se, ano após ano, os pilares inabaláveis sobre os quais se fundam as dinastias do próximo século."
-    ],
-    "content_paragraphs": [
-      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nas salas de arremate da Christie's em Hong Kong, a arquitetura dos lances não obedece ao ritmo febril dos mercados digitais, mas à gravidade austera de quem transfere impérios inteiros de uma custódia fiduciária para outra. Aqui, cada martelada sela a permanência de um legado secular.",
-      "A seleção curatorial para este outono recusa o efêmero em favor da densidade histórica. Diamantes D-Color de pureza absoluta, jadeítas imperiais com histórico de procedência documentada e relógios independentes com calibres de manufatura restrita formam uma barricada contra a inflação sistêmica. Trata-se de refúgio de liquidez construído com átomos insubstituíveis, onde o valor reside na impossibilidade absoluta de replicação industrial.",
-      "Enquanto os mercados acionários oscilam ao sabor de algoritmos de alta frequência, o capital soberano migra para o travertino romano navona e para os cofres blindados de Hong Kong. A Ásia madura não consome mais símbolos de passagem; exige soberania patrimonial absoluta, respaldada por relatórios de laboratório gemológico intransigentes e proveniências aristocráticas irrefutáveis.",
-      "O veredito do Radar do Luxo é definitivo. O colecionador contemporâneo já não busca a novidade barulhenta, mas a imunidade temporal. A semana de leilões da Christie's prova que os verdadeiros ativos de refúgio não perdem valor na tempestade; tornam-se, ano após ano, os pilares inabaláveis sobre os quais se fundam as dinastias do próximo século."
-    ],
-    "specs": {
-      "Volume de Custódia": "450 lotes selecionados",
-      "Ativos Principais": "Alta relojoaria, alta joalheria e arte asiática",
-      "Critério de Seleção": "Procedência dinástica e pureza mineral",
-      "Moeda de Liquidez": "Dólar de Hong Kong e reservas soberanas",
-      "Destino Fiduciário": "Family offices e cofres de custódia privada"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-06T18:27:25.558Z",
-    "published_at": "2026-11-06T18:27:25.558Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUUZDd1dGV1Y1UVYwY1NvemNxYUhVTXZvMEJZdjRsU3o0bXptTUVpdnFFT20xU1R5dHE3M2RxOE84a2JmYmpoNW5QSXZRWlpfNmdXMkhodEhVWWNlMUVtaTducEVLLTJzYVV6U3Y5Tm41cGRhTVd0NW1SWWRCYm9nY3hHVkhPUDQ?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUUZDd1dGV1Y1UVYwY1NvemNxYUhVTXZvMEJZdjRsU3o0bXptTUVpdnFFT20xU1R5dHE3M2RxOE84a2JmYmpoNW5QSXZRWlpfNmdXMkhodEhVWWNlMUVtaTducEVLLTJzYVV6U3Y5Tm41cGRhTVd0NW1SWWRCYm9nY3hHVkhPUDQ?oc=5"
   }
 ];
 
@@ -1424,13 +1424,21 @@ export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
     "category": "SUPERCARROS",
+    "title": "Aston Martin: O Equilíbrio Financeiro ...",
+    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "aston-martin-o-equilibrio-financeiro-precario-e-a-ilusao-de-rivalizar-com-a-hegemonia-de-maranello-5922"
+  },
+  {
+    "id": "film-2",
+    "category": "SUPERCARROS",
     "title": "Bugatti Chiron: A Perseguição Transfro...",
     "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=max&q=85&w=1800",
     "tag": "CURADORIA RADAR",
     "slug": "bugatti-chiron-a-perseguicao-transfronteirica-de-1500-cavalos-onde-o-ceo-trocou-o-w16-por-um-porsche-911-6302"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Aitek Hypercar: O Protótipo Elétrico d...",
     "image": "https://images.unsplash.com/photo-1610880709844-b97111a986f7?auto=format&fit=max&q=80&w=1400",
@@ -1438,7 +1446,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "aitek-hypercar-o-prototipo-eletrico-de-2400-cv-com-vetorizacao-de-torque-que-eclipsou-a-fisica-de-molsheim-7056"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "ARQUITETURA",
     "title": "Sarasota Record: A Cobertura de US$ 14...",
     "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=max&q=80&w=1400",
@@ -1446,7 +1454,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "sarasota-record-a-cobertura-de-us-145-milhoes-que-estabelece-o-novo-padrao-fiduciario-em-concreto-macico-e-travertino-na-costa-da-florida-9914"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Ferrari 296 GT3: O V12 Recuado 50mm e ...",
     "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=max&q=85&w=1800",
@@ -1454,20 +1462,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-296-gt3-o-v12-recuado-50mm-e-rebaixado-que-reconfigurou-o-limite-da-fisica-na-endurance-mundial-4017"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Yangwang U9: A Fúria Elétrica de 310 M...",
     "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800",
     "tag": "CURADORIA RADAR",
     "slug": "yangwang-u9-a-furia-eletrica-de-310-mph-que-esmaga-limites-com-quatro-motores-independentes-e-3000-cavalos-0393"
-  },
-  {
-    "id": "film-6",
-    "category": "DESTINOS",
-    "title": "Sindalah: O Arquipélago do Mar Vermelh...",
-    "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
-    "tag": "CURADORIA RADAR",
-    "slug": "sindalah-o-arquipelago-do-mar-vermelho-de-84-bercos-que-desafia-a-soberania-nautica-de-monaco-7239"
   }
 ];
 
