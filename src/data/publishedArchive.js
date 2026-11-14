@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-perini-navi-bayesian-o-naufragio-3994",
+    "slug": "perini-navi-bayesian-o-naufragio-de-56-metros-atribuido-a-incompetencia-da-tripulacao-e-aos-erros-de-lideranca-humana-em-mar-aberto-3982",
+    "title": "Perini Navi Bayesian: O Naufrágio de 56 Metros Atribuído à Incompetência da Tripulação e aos Erros de Liderança Humana em Mar Aberto",
+    "image": "https://images.unsplash.com/photo-1781872324499-e51350ed640e?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUmdGYmN4eTBILXN3VWg3T29yb0wwaURXZ3BKN21sNEFhVi1sX3RCSUVteGlGMmNNOXZlcnY4QVNUQWtzUjY5aDVuSU1OcDFGVnRfcjV6TF82ZVpKczl3eGhZbXM3ODdIR1pTUnZqbHc2T0hqNWZxcjFuSi11aTkybW14cWJxNF9MTDlQbTF6bWJscVgyeG1TWmpQdjRfMWxUejh5X05COHpicjRMeVNUZ2dnZ0ZOblpPdVRpTTYxSkM1QdIBxwFBVV95cUxNQlUyX05oTVJVenRrZ1V2RnYzeUVqQ191X0E5WWRiajQ2TjJNUFFZRmxIQ1pNbnpxLTUzTjVHcmhXLWlBNVBqTEhuNFVvNVgyX25DMjZOckdSdjhvVFFPME1NM2hlci1iV2tBcDZCUDQydjZHTlNidlV1ei1JWExXaGRQc2JrMWFwSGJDWmNUZEcxQkRjSkF3SEduVlJNQVo5UGpJZXAxWUMtUnJmbGpJWFNJcnkzUWNpdHpoeUVpSWhPRGdRZWJ3?oc=5",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-14T04:39:43.994Z"
+  },
+  {
     "id": "art-ferrari-sp12-ec-a-obra-prima-uni-7247",
     "slug": "ferrari-sp12-ec-a-obra-prima-unica-de-us-47-milhoes-que-fundiu-a-arquitetura-da-512bb-com-o-v8-biturbo-7179",
     "title": "Ferrari SP12 EC: A Obra-Prima Única de US$ 4,7 Milhões que Fundiu a Arquitetura da 512BB com o V8 Biturbo",

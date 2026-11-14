@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-perini-navi-bayesian-o-naufragio-3994",
+    "slug": "perini-navi-bayesian-o-naufragio-de-56-metros-atribuido-a-incompetencia-da-tripulacao-e-aos-erros-de-lideranca-humana-em-mar-aberto-3982",
+    "title": "Perini Navi Bayesian: O Naufrágio de 56 Metros Atribuído à Incompetência da Tripulação e aos Erros de Liderança Humana em Mar Aberto",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "14 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1781872324499-e51350ed640e?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Investigadores italianos concluem que falhas de projeto naval não causaram a tragédia que levou à morte de sete pessoas, incluindo o bilionário Mike Lynch, redirecionando o foco para a gestão de risco a bordo.",
+    "contentParagraphs": [
+      "A arquitetura naval de 56 metros não falhou na prancheta. O mastro de alumínio de 75 metros resistiu às cargas extremas até o ponto de ruptura iminente, mas a marinha italiana isolou o fator humano como o verdadeiro catalisador do desastre. A dinâmica de fluidos e os coeficientes de estabilidade intactos provaram que a embarcação possuía reservas estruturais adequadas para suportar rajadas severas, desde que manobrada sob protocolos rígidos de prontidão.",
+      "O monocoque em alumínio e a quilha retrátil operavam dentro das tolerâncias mecânicas calculadas pelos engenheiros de Viareggio. Contudo, a telemetria inercial e os registros de bordo revelaram portas estanques abertas e falhas críticas na avaliação do gradiente térmico da tormenta. Quando o vetor de vento atingiu o casco em ângulo desfavorável, a falta de reatividade tática da tripulação impediu o alívio oportuno das velas de estai e o fechamento hermético dos conveses inferiores.",
+      "A perda de controle sob ventos descendentes severos demonstra que a engenharia mais avançada do mundo não neutraliza a complacência operacional. O lastro móvel e os sistemas hidráulicos automatizados exigiam supervisão humana imediata para contrabalançar o torque gerado pela superestrutura imensa. Em vez de uma fatalidade decorrente de vício construtivo, os relatórios apontam para uma cadeia de decisões tardias no comando da ponte de comando.",
+      "Este veredito técnico redefine a responsabilidade jurídica e marítima em grandes iates de exploração oceânica. A soberania de um casco perfeitamente projetado perde sua eficácia defensiva quando a tripulação falha em interpretar os sinais precoces da atmosfera. A engenharia naval entrega a solidez estrutural, mas a sobrevivência em águas profundas continua dependendo exclusivamente da precisão cirúrgica de quem segura o timão."
+    ],
+    "content_paragraphs": [
+      "A arquitetura naval de 56 metros não falhou na prancheta. O mastro de alumínio de 75 metros resistiu às cargas extremas até o ponto de ruptura iminente, mas a marinha italiana isolou o fator humano como o verdadeiro catalisador do desastre. A dinâmica de fluidos e os coeficientes de estabilidade intactos provaram que a embarcação possuía reservas estruturais adequadas para suportar rajadas severas, desde que manobrada sob protocolos rígidos de prontidão.",
+      "O monocoque em alumínio e a quilha retrátil operavam dentro das tolerâncias mecânicas calculadas pelos engenheiros de Viareggio. Contudo, a telemetria inercial e os registros de bordo revelaram portas estanques abertas e falhas críticas na avaliação do gradiente térmico da tormenta. Quando o vetor de vento atingiu o casco em ângulo desfavorável, a falta de reatividade tática da tripulação impediu o alívio oportuno das velas de estai e o fechamento hermético dos conveses inferiores.",
+      "A perda de controle sob ventos descendentes severos demonstra que a engenharia mais avançada do mundo não neutraliza a complacência operacional. O lastro móvel e os sistemas hidráulicos automatizados exigiam supervisão humana imediata para contrabalançar o torque gerado pela superestrutura imensa. Em vez de uma fatalidade decorrente de vício construtivo, os relatórios apontam para uma cadeia de decisões tardias no comando da ponte de comando.",
+      "Este veredito técnico redefine a responsabilidade jurídica e marítima em grandes iates de exploração oceânica. A soberania de um casco perfeitamente projetado perde sua eficácia defensiva quando a tripulação falha em interpretar os sinais precoces da atmosfera. A engenharia naval entrega a solidez estrutural, mas a sobrevivência em águas profundas continua dependendo exclusivamente da precisão cirúrgica de quem segura o timão."
+    ],
+    "specs": {
+      "Comprimento Total": "56 metros",
+      "Material do Casco": "Alumínio",
+      "Altura do Mastro": "75 metros",
+      "Estaleiro Construtor": "Perini Navi",
+      "Investigação": "Conclusão Oficial Italiana de Acidentes Marítimos"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-14T04:39:43.994Z",
+    "published_at": "2026-11-14T04:39:43.994Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUmdGYmN4eTBILXN3VWg3T29yb0wwaURXZ3BKN21sNEFhVi1sX3RCSUVteGlGMmNNOXZlcnY4QVNUQWtzUjY5aDVuSU1OcDFGVnRfcjV6TF82ZVpKczl3eGhZbXM3ODdIR1pTUnZqbHc2T0hqNWZxcjFuSi11aTkybW14cWJxNF9MTDlQbTF6bWJscVgyeG1TWmpQdjRfMWxUejh5X05COHpicjRMeVNUZ2dnZ0ZOblpPdVRpTTYxSkM1QdIBxwFBVV95cUxNQlUyX05oTVJVenRrZ1V2RnYzeUVqQ191X0E5WWRiajQ2TjJNUFFZRmxIQ1pNbnpxLTUzTjVHcmhXLWlBNVBqTEhuNFVvNVgyX25DMjZOckdSdjhvVFFPME1NM2hlci1iV2tBcDZCUDQydjZHTlNidlV1ei1JWExXaGRQc2JrMWFwSGJDWmNUZEcxQkRjSkF3SEduVlJNQVo5UGpJZXAxWUMtUnJmbGpJWFNJcnkzUWNpdHpoeUVpSWhPRGdRZWJ3?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUmdGYmN4eTBILXN3VWg3T29yb0wwaURXZ3BKN21sNEFhVi1sX3RCSUVteGlGMmNNOXZlcnY4QVNUQWtzUjY5aDVuSU1OcDFGVnRfcjV6TF82ZVpKczl3eGhZbXM3ODdIR1pTUnZqbHc2T0hqNWZxcjFuSi11aTkybW14cWJxNF9MTDlQbTF6bWJscVgyeG1TWmpQdjRfMWxUejh5X05COHpicjRMeVNUZ2dnZ0ZOblpPdVRpTTYxSkM1QdIBxwFBVV95cUxNQlUyX05oTVJVenRrZ1V2RnYzeUVqQ191X0E5WWRiajQ2TjJNUFFZRmxIQ1pNbnpxLTUzTjVHcmhXLWlBNVBqTEhuNFVvNVgyX25DMjZOckdSdjhvVFFPME1NM2hlci1iV2tBcDZCUDQydjZHTlNidlV1ei1JWExXaGRQc2JrMWFwSGJDWmNUZEcxQkRjSkF3SEduVlJNQVo5UGpJZXAxWUMtUnJmbGpJWFNJcnkzUWNpdHpoeUVpSWhPRGdRZWJ3?oc=5"
+  },
+  {
     "id": "art-ferrari-sp12-ec-a-obra-prima-uni-7247",
     "slug": "ferrari-sp12-ec-a-obra-prima-unica-de-us-47-milhoes-que-fundiu-a-arquitetura-da-512bb-com-o-v8-biturbo-7179",
     "title": "Ferrari SP12 EC: A Obra-Prima Única de US$ 4,7 Milhões que Fundiu a Arquitetura da 512BB com o V8 Biturbo",
@@ -177,7 +229,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "13 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -205,10 +257,10 @@ export const ARTICLES = [
       "Escopo Técnico": "Reparos estruturais, propulsão e usinagem de alta precisão"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 92,
@@ -1365,58 +1417,6 @@ export const ARTICLES = [
     "published_at": "2026-11-06T23:00:34.055Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQREJpMXRZZnFDWVE5MWQtZkttb1VTczZ6a1lkLWRqSkk3U3ZrWV9hWm1zSEJHYjJvR0tnZ0dqazZaNTNMOVZnWU9PRFRhZVlhaHEzN1VheEgxNS10dG85akFkWVJVTVVNMjI2VzVWZFFYeEdsS2o4OXNtUUlZRFRCU0dRNTFDZw?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQREJpMXRZZnFDWVE5MWQtZkttb1VTczZ6a1lkLWRqSkk3U3ZrWV9hWm1zSEJHYjJvR0tnZ0dqazZaNTNMOVZnWU9PRFRhZVlhaHEzN1VheEgxNS10dG85akFkWVJVTVVNMjI2VzVWZFFYeEdsS2o4OXNtUUlZRFRCU0dRNTFDZw?oc=5"
-  },
-  {
-    "id": "art-sindalah-o-arquipelago-do-mar-ve-7247",
-    "slug": "sindalah-o-arquipelago-do-mar-vermelho-de-84-bercos-que-desafia-a-soberania-nautica-de-monaco-7239",
-    "title": "Sindalah: O Arquipélago do Mar Vermelho de 84 Berços que Desafia a Soberania Náutica de Mônaco",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "06 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=max&q=85&w=1800",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A engenharia naval migra para o deserto saudita. O Mar Vermelho ergue uma marina de águas profundas projetada para acolher giga-iates com calados superiores a sete metros, contornando a saturação crônica da Riviera Francesa.",
-    "contentParagraphs": [
-      "A Costa Azul assiste, impotente, ao esvaziamento silencioso de suas amarras históricas. Enquanto Mônaco agoniza com filas de espera plurianuais e calados rasos que limitam embarcações acima de cem metros, o Mar Vermelho ergue um refúgio náutico de precisão cirúrgica. Sindalah não é apenas um destino; é uma fortificação flutuante esculpida no calcário virgem.",
-      "O projeto impõe uma infraestrutura inegociável para a aristocracia global dos mares. São 84 berços ultramarinos capazes de absorver giga-iates com calados de até nove metros, alimentados por uma bacia de manobra dragada a laser. O fluxo de Venturi das correntes locais foi mapeado por simulações hidrodinâmicas avançadas para garantir atracação perfeita sem o uso de rebocadores ruidosos.",
-      "Sob o sol inclemente do deserto, a arquitetura naval encontra a blindagem térmica e estrutural. Os píeres flutuantes empregam ligas metálicas resistentes à corrosão salina extrema e temperaturas de superfície superiores a cinquenta graus Celsius. Cada ponto de amarração fornece energia de alta voltagem e abastecimento de combustível de aviação e marinho a taxas de vazão inéditas na indústria.",
-      "A soberania náutica muda de endereço geográfico. Ao substituir o asfalto saturado da Côte d'Azur por canais profundos e isolamento absoluto, o Mar Vermelho não concorre com Mônaco; ele redefine permanentemente a geografia do capital flutuante em águas internacionais."
-    ],
-    "content_paragraphs": [
-      "A Costa Azul assiste, impotente, ao esvaziamento silencioso de suas amarras históricas. Enquanto Mônaco agoniza com filas de espera plurianuais e calados rasos que limitam embarcações acima de cem metros, o Mar Vermelho ergue um refúgio náutico de precisão cirúrgica. Sindalah não é apenas um destino; é uma fortificação flutuante esculpida no calcário virgem.",
-      "O projeto impõe uma infraestrutura inegociável para a aristocracia global dos mares. São 84 berços ultramarinos capazes de absorver giga-iates com calados de até nove metros, alimentados por uma bacia de manobra dragada a laser. O fluxo de Venturi das correntes locais foi mapeado por simulações hidrodinâmicas avançadas para garantir atracação perfeita sem o uso de rebocadores ruidosos.",
-      "Sob o sol inclemente do deserto, a arquitetura naval encontra a blindagem térmica e estrutural. Os píeres flutuantes empregam ligas metálicas resistentes à corrosão salina extrema e temperaturas de superfície superiores a cinquenta graus Celsius. Cada ponto de amarração fornece energia de alta voltagem e abastecimento de combustível de aviação e marinho a taxas de vazão inéditas na indústria.",
-      "A soberania náutica muda de endereço geográfico. Ao substituir o asfalto saturado da Côte d'Azur por canais profundos e isolamento absoluto, o Mar Vermelho não concorre com Mônaco; ele redefine permanentemente a geografia do capital flutuante em águas internacionais."
-    ],
-    "specs": {
-      "Localizacao": "Ilha de Sindalah, Mar Vermelho, Arábia Saudita",
-      "Capacidade de Berços": "84 vagas para iates de até 180 metros",
-      "Calado Maximo": "Até 9 metros de profundidade em bacia dragada",
-      "Infraestrutura": "Marina de águas profundas, clube náutico e dique seco privado",
-      "Blindagem Material": "Ligas de aço e titânio resistentes à salinidade e UV extremo"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 87,
-    "ranking_score": 87,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-06T22:53:57.246Z",
-    "published_at": "2026-11-06T22:53:57.246Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRlc2YUN0T2pQeXJLMlg2TzA5aXVqUnpOblpXVmVWc0txeXc4RTIzOVkzR0xoT3A2RF82Q1FqcjZwN1dxa3F0QW1vWWtSQ3FBd3RYMU9PWGRyZHJ6ek4zQnY3UjZyLWJBbnFqWDhBM0RNVlpFNDZQX2locU5ldDA3N1lWMzMzaGc3UjF1UUdGckhxZHJMak9uZGQwTk9aTy1h?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRlc2YUN0T2pQeXJLMlg2TzA5aXVqUnpOblpXVmVWc0txeXc4RTIzOVkzR0xoT3A2RF82Q1FqcjZwN1dxa3F0QW1vWWtSQ3FBd3RYMU9PWGRyZHJ6ek4zQnY3UjZyLWJBbnFqWDhBM0RNVlpFNDZQX2locU5ldDA3N1lWMzMzaGc3UjF1UUdGckhxZHJMak9uZGQwTk9aTy1h?oc=5"
   }
 ];
 
@@ -1424,13 +1424,21 @@ export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
     "category": "SUPERCARROS",
+    "title": "Ferrari F355 de Jeremy Clarkson: O V8 ...",
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "ferrari-f355-de-jeremy-clarkson-o-v8-aspirado-de-35-litros-e-cambio-manual-em-gated-shifter-retorna-ao-leilao-5851"
+  },
+  {
+    "id": "film-2",
+    "category": "SUPERCARROS",
     "title": "Ferrari 12Cilindri: O V12 Aspirado de ...",
     "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "ferrari-12cilindri-o-v12-aspirado-de-9500-rpm-e-pintura-two-tone-flagrado-no-asfalto-de-monaco-4549"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "ESTILO",
     "title": "Hermès Birkin: O Protótipo Original de...",
     "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=max&q=80&w=1400",
@@ -1438,7 +1446,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "hermes-birkin-o-prototipo-original-de-jane-birkin-que-vai-a-leilao-com-marcas-de-uso-e-essencia-de-paris-1139"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "ARQUITETURA",
     "title": "Gold Coast: A Residência de 47,5 Milhõ...",
     "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
@@ -1446,7 +1454,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "gold-coast-a-residencia-de-475-milhoes-de-dolares-em-travertino-romano-que-desafia-o-recorde-imobiliario-da-australia-8416"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Aston Martin: O Equilíbrio Financeiro ...",
     "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
@@ -1454,20 +1462,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "aston-martin-o-equilibrio-financeiro-precario-e-a-ilusao-de-rivalizar-com-a-hegemonia-de-maranello-5922"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Bugatti Chiron: A Perseguição Transfro...",
     "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=max&q=85&w=1800",
     "tag": "CURADORIA RADAR",
     "slug": "bugatti-chiron-a-perseguicao-transfronteirica-de-1500-cavalos-onde-o-ceo-trocou-o-w16-por-um-porsche-911-6302"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Aitek Hypercar: O Protótipo Elétrico d...",
-    "image": "https://images.unsplash.com/photo-1610880709844-b97111a986f7?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "aitek-hypercar-o-prototipo-eletrico-de-2400-cv-com-vetorizacao-de-torque-que-eclipsou-a-fisica-de-molsheim-7056"
   }
 ];
 
