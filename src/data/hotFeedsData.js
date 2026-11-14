@@ -19,7 +19,59 @@ import { calculateEditorialScore } from '../services/rankingEngine.js';
 
 export const INITIAL_HOT_PAUTAS = [
   {
-    "id": "pauta-live-destinos-mwg7fyps-49xv",
+    "id": "pauta-live-destinos-mwgqqlyj-kr9u",
+    "source": "Google News Superyachts",
+    "sourceCategory": "Destinos & Iates",
+    "badgeColor": "border-purple-500/40 text-purple-400 bg-purple-500/10",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "rankingScore": 89,
+    "rankingTier": "A",
+    "originalTitle": "Kansas billionaire's 235-foot superyacht inspired by the Porsche 911 gets a staggering $14.5 million price cut as the Feadship vessel goes on sale for $150 million - Luxurylaunches",
+    "suggestedHook": "Kansas billionaire's 235-foot Superiate inspired by the Porsche 911 gets a staggering $14.5 million price cut as the Feadship vessel goes on sale for $150 million",
+    "summary": "Kansas billionaire's 235-foot superyacht inspired by the Porsche 911 gets a staggering $14.5 million price cut as the Feadship vessel goes on sale for $150 million Luxurylaunches",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTG9CbjdndU5fdjlLMU9Nbi00Q3RKWV9VeTl5RURrMDFiZG1PTHQtWlc4MXREbktUbF9TVDVIbV9DYjZvcVZZRFgxa2k0dWQ4d0FnMnhhb3ZoSEVVUzNES0RBWTVaa3R3V3JxM0J5cmRLM2p0dDFFWk91am1XN3dmNGNIUW1Fc1hvdDlN?oc=5",
+    "publishedTime": "Detectado ao vivo nas últimas 24h",
+    "createdAt": "2026-11-14T18:30:15.211Z",
+    "validityHours": 24,
+    "specsPreview": {
+      "categoria": "Superiate Transoceânico",
+      "engenharia": "Casco de aço naval e compósitos",
+      "curadoria": "Gabriel Fontes"
+    },
+    "suggestedImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=1400",
+    "imageIsFallback": true,
+    "status": "available"
+  },
+  {
+    "id": "pauta-live-destinos-mwgqqlyw-752o",
+    "source": "Google News Superyachts",
+    "sourceCategory": "Destinos & Iates",
+    "badgeColor": "border-purple-500/40 text-purple-400 bg-purple-500/10",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "rankingScore": 89,
+    "rankingTier": "A",
+    "originalTitle": "Russian billionaire’s $600 million high-tech superyacht, dubbed ugliest in the world, is ‘stuck’ in Italy - The Times of India",
+    "suggestedHook": "Russian billionaire’s $600 million high-tech Superiate, dubbed ugliest in the world, is ‘stuck’ in Italy",
+    "summary": "Russian billionaire’s $600 million high-tech superyacht, dubbed ugliest in the world, is ‘stuck’ in Italy The Times of India",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxNWEJNNS01bFFrU3ZSV2dzZGJqd2R4TGpYZXJZcERLdXdzVlJCV0tmTmJ0WHpkcHFNY0UySkJGZkgwVUFHLU9mN2NuNmJTZzlGSlhtbFltRVRNM1J2T20yTWxNd2RBSWl5Tkk0SXBzSGd2aERPN3BWck1iVnFKWmVVNDV2TXhlRWRwdmVNbzdhUjFYdmJVYXQxeFRZZ0gxcjdYeG10Y3p6dzlmVmZhUFllam5YYVREMUhVS3NDYnk3ZzN0SVRBLW9mZDJ1TVdxUXM0UXhxQV8tTW5HZ0NJODlubVZrMExiUFB3cTIxTEh3T3pxcXNDNXFBWEJlMDExWUREaXktaWs1RFVheXFveWRxamMwdnl0Tmw0MWl2NVdaa3JTX0NoVmpTMDdyMFRfV3l1d3o2NFYzdzVrSmpDUzRfb21vWU5BRTQ0Sl9odlE3Q2IxeDRfcWZKTtIB3gJBVV95cUxPa1VCTVU5Rjh6ZEFLZThBNUE2U2FMVnlETy1aeHREOW9FTUV4TlcyZUk1NGtMYXhWYzFBeXVXYkZwY0NCTXVtelNEbmNzR2JwMjBERTN0SjVNb2xTZ0x3N2ZoSFhFQmxjaWFxVHoxUjJhRUNnMjlDTEF5Tkh0THowdkh6MVRhVEx1c2JpdlZPOEZHMHZaRUNxVnNPSF91VVRJaldBSURUVTRhQTh4TDNXemphbkFIOTJ5bmZtVDNTalFUbkI3YVAxQkhQcHI1MlliZ2d3Y1RlOFNibWNta2FHR2FsdTR3YUVCUTlpSWRVN3dlOWdUQ0NwQUdNXzNtUWUzNFE2LXdkVHZaRW9pTWRjN2xyYUNnY3Rpc1dwRnE3Vl9lMlFqM3ZtSzRZNVUtbm9rS2p6NnFjdmhGeDQyYndVSEtWMHNhOW1ZR3VFMEg3T1VveXEtZHNJOUlTNkEydw?oc=5",
+    "publishedTime": "Detectado ao vivo nas últimas 24h",
+    "createdAt": "2026-11-14T18:30:15.224Z",
+    "validityHours": 24,
+    "specsPreview": {
+      "categoria": "Superiate Transoceânico",
+      "engenharia": "Casco de aço naval e compósitos",
+      "curadoria": "Gabriel Fontes"
+    },
+    "suggestedImage": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?auto=format&fit=crop&q=80&w=1400",
+    "imageIsFallback": true,
+    "status": "available"
+  },
+  {
+    "id": "pauta-live-destinos-mwgqqlzb-cxu7",
     "source": "Google News Superyachts",
     "sourceCategory": "Destinos & Iates",
     "badgeColor": "border-purple-500/40 text-purple-400 bg-purple-500/10",
@@ -33,71 +85,19 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "US billionaire's $300m superyacht spotted in Auckland NZ Herald",
     "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQR1NCM2Q3MnVUbTltU2lJTTUzX0ZSMFhTeXlWdFFoR1JPR1dlcVQzMzhqNWg5Zmx1bXBSU3J4d0FuVWxXeVRyR2I3RTZvOUhuNEZOdjBuV2dmeGN3bnk0eXc1UkNidVhFd2RNSEliMS1FckxZWENwcHB4NVpzSmFLM2NCNFd2NXpIRTk0SDlYNUJTbHR3bURqeGRjN0k4bnl5RjJKWFVIN2FtbGN5NVhSbGw3dTdJQ2trN0RfeG1EdDVWX3VlQmloQ092bHJXVGRS?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-14T09:30:05.824Z",
+    "createdAt": "2026-11-14T18:30:15.239Z",
     "validityHours": 24,
     "specsPreview": {
       "categoria": "Superiate Transoceânico",
       "engenharia": "Casco de aço naval e compósitos",
       "curadoria": "Gabriel Fontes"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1783344422200-a5493824bcb9?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1621277224630-81d9af65e40c?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-destinos-mwg7fyxt-opw4",
-    "source": "Google News Superyachts",
-    "sourceCategory": "Destinos & Iates",
-    "badgeColor": "border-purple-500/40 text-purple-400 bg-purple-500/10",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "rankingScore": 89,
-    "rankingTier": "A",
-    "originalTitle": "A Greek shipping billionaire was so impressed by his new 154-foot superyacht that he immediately dropped a massive $54.5 million on a 197-foot replacement featuring a crazy glass-bottom pool that functions as a skylight for the master bedroom - Luxurylaunches",
-    "suggestedHook": "A Greek shipping billionaire was so impressed by his new 154-foot Superiate that he immediately dropped a massive $54.5 million on a 197-foot replacement featuring a crazy glass-bottom pool that functions as a skylight for the master bedroom",
-    "summary": "A Greek shipping billionaire was so impressed by his new 154-foot superyacht that he immediately dropped a massive $54.5 million on a 197-foot replacement featuring a crazy glass-bottom pool that functions as a skylight for the master bedroom Luxurylaunches",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxOVFN1Wi11NDlmZUJjUm1QWnRpNnVidy1hUDdNMGpXRFI3VUcxLTl5QkZ0WUlsRE1ZQmR5RWF2THc4LXdqTU84NmVYVWZJRW1Zcll3bERqcjM3c2otOU44QnBPODNNbVJzQUJub24wWkNzaUdzOFBnU0lfaWgzVFF4Q3VMRjg3d21hS0x3eUZrS3Y4TkY1UHRHcDhpdy0zRzlIS3p5dUQzVnhhUHR0aDRrcjcyelo1Xy1CY0xZQ3NYaWl5czNRSFk2eHlIT3N2cGxXNThtdVRYdDVUUmNpRW5qWmRjZ1hzQnVDTWl4RTZUYk1CTE91SlZyTU1ybWFnUVloWTFsRjVITVNGWkxrSHE2cHBpel9ELWU0ZnYxdlo2MGJ2bUh2MHhUQUR3M05WVl9qYmx1M3hFbEdOVDZwZ0dPdm9ocTJLTk4xS0lNZ09semR0TGRVYUx4VE8wbmo?oc=5",
-    "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-14T09:30:06.113Z",
-    "validityHours": 24,
-    "specsPreview": {
-      "categoria": "Superiate Transoceânico",
-      "engenharia": "Casco de aço naval e compósitos",
-      "curadoria": "Gabriel Fontes"
-    },
-    "suggestedImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=1400",
-    "imageIsFallback": true,
-    "status": "duplicate"
-  },
-  {
-    "id": "pauta-live-supercarros-mwg7fyhf-mcmt",
-    "source": "Google News Motors (Ferrari/Bugatti)",
-    "sourceCategory": "Supercarros",
-    "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "rankingScore": 88,
-    "rankingTier": "A",
-    "originalTitle": "Someone Paid Nearly $10 Million for a Ferrari They Can’t Take Home - Autoblog",
-    "suggestedHook": "Hipercarros: Someone Paid Nearly $10 Million for a Ferrari They Can’t Take Home",
-    "summary": "Someone Paid Nearly $10 Million for a Ferrari They Can’t Take Home Autoblog",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQzJOVlZIR3E4azRiVU95amVGWXN1dHEwRmFLVC1kV2l4U2NOckktMlFvSXA5N0JYRFhSUEhyaHZWZTRyanNacEhxYUZaM3pCV0pra2RUTk9pMTdpQWdJV0FWanF4T19ZdXdraFhfcHgtRHp4Szk4TGtDVS1ySTRNSGFaTER4aDNqaE01bjM2bUpiblNVV1l5UnJB?oc=5",
-    "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-14T09:30:05.523Z",
-    "validityHours": 24,
-    "specsPreview": {
-      "categoria": "Hipercarro de Colecionismo",
-      "telemetria": "Calibração de pista",
-      "curadoria": "Gabriel Fontes"
-    },
-    "suggestedImage": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=crop&q=80&w=1400",
-    "imageIsFallback": true,
-    "status": "published"
-  },
-  {
-    "id": "pauta-live-supercarros-mwg7fykd-5cmk",
+    "id": "pauta-live-supercarros-mwgqqltg-er8u",
     "source": "Google News Motors (Ferrari/Bugatti)",
     "sourceCategory": "Supercarros",
     "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
@@ -111,7 +111,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "A Ferrari coloca em teste o apetite de seus clientes tradicionais em uma encruzilhada mecânica onde o rugido de 12 cilindros em 9.000 RPM permanece como o supremo refúgio tátil.",
     "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSzJncGVqMkwtNjBnTmhIX2RxQ01IQTJtVkdHbGZ1TURVenl1dm5FdkZRZk50OUQ2bDVSbTNNOEpqYkNrTEFUY2NNQmdrUWpEcm93S0YzcDFzeXJ5S0ZtQ0J4REJodUtGV0JMUVJ0Q1RvZ05zbENQb0JaaWVPNHdjdlowWlI1RU9RLWU2YVV1RGpVNDI5N2JfMlc2VTcySlVHbFMzeFVrVQ?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-14T09:30:05.629Z",
+    "createdAt": "2026-11-14T18:30:15.028Z",
     "validityHours": 24,
     "specsPreview": {
       "avaliacao": "Faixa de US$ 450.000 a US$ 550.000",
@@ -119,12 +119,39 @@ export const INITIAL_HOT_PAUTAS = [
       "peso": "Alívio extensivo com fibra de carbono",
       "telemetria": "Maranello Pure Dynamics"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1577735138919-91b6848511c8?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1661311928884-7e36f478109f?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-supercarros-mwg7fyba-ilx6",
+    "id": "pauta-live-arquitetura-mwgqqlyp-ld0i",
+    "source": "Google News Superyachts",
+    "sourceCategory": "Arquitetura",
+    "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "rankingScore": 87,
+    "rankingTier": "B",
+    "originalTitle": "The Italian Sea Group Auction Set for November 16 - Megayacht News",
+    "suggestedHook": "Patrimônio & Leilões: The Italian Sea Group Auction Set for November 16",
+    "summary": "The Italian Sea Group Auction Set for November 16 Megayacht News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PTEplNVRTa0pLUDhOdk0xclRaVzN4NVctOUhUcnBaenhJekM5ZFU4SGt6S3BrWVlCMzE2SUQ3cXJOYXlUc3d5Tnk3djl2R1dIcGRTWGE3Vl9hVlhvMDhXOUl6blFHeGNibklZWm1qZ3R6dw?oc=5",
+    "publishedTime": "Detectado ao vivo nas últimas 24h",
+    "createdAt": "2026-11-14T18:30:15.217Z",
+    "validityHours": 24,
+    "specsPreview": {
+      "mercado": "Grandes Leilões Internacionais",
+      "custodia": "Refúgio de Liquidez Soberana",
+      "perfil": "Family Offices & Colecionadores",
+      "curadoria": "Henrique Vianna"
+    },
+    "suggestedImage": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80&w=1400",
+    "imageIsFallback": true,
+    "status": "available"
+  },
+  {
+    "id": "pauta-live-supercarros-mwgqqlkw-c4ww",
     "source": "Google News Motors (Ferrari/Bugatti)",
     "sourceCategory": "Supercarros",
     "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
@@ -138,19 +165,45 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Cristiano Ronaldo’s Bugatti Centodieci spotted in Germany The Supercar Blog",
     "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd2FRQlo4aFJnX2cxTElUM0lhdGVRUmpJV1FQVEd6Zld6R3c4bi1Xb1FuaHpVOXNVZXJ1Ulg4bk13dDdpQXNlenJMZlpPSzBjd1FWV2FGcUhaUFIyS2l0bEdpeGxXMWFVQTFrV2pWY2U1ejVZSUk3WTJDVk93QlhLd1J2Uk1YZE0yMjFVRE1RN1RXQ2c?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-14T09:30:05.302Z",
+    "createdAt": "2026-11-14T18:30:14.720Z",
     "validityHours": 24,
     "specsPreview": {
       "categoria": "Hipercarro de Colecionismo",
       "telemetria": "Calibração de pista",
       "curadoria": "Gabriel Fontes"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1650444684180-3f72abb15263?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-relogios-mwg7fxxi-ftts",
+    "id": "pauta-live-supercarros-mwgqqlqs-kn4k",
+    "source": "Google News Motors (Ferrari/Bugatti)",
+    "sourceCategory": "Supercarros",
+    "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "rankingScore": 86,
+    "rankingTier": "B",
+    "originalTitle": "Cetilar, AF Corse Ferrari Hypercars split pole positions for ALMS Paul Ricard season opener - DIVEBOMB Motorsport",
+    "suggestedHook": "Hipercarros: Cetilar, AF Corse Ferrari Hypercars split pole positions for ALMS Paul Ricard season opener",
+    "summary": "Cetilar, AF Corse Ferrari Hypercars split pole positions for ALMS Paul Ricard season opener DIVEBOMB Motorsport",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZjJ3WWp5WC1nRnlQZG9hN2hiWlY5T2FIdmtGal9KVS02Yko2T0hRR3ppSmNUbDZvT2FMaTFnUXEydDV2NmtCdkJjM3hiS0tUaG93Q3Rtc1hFcl9PX2tZRjRxaDR5bWxiMDVCNXR1RWRSZEw5dFFvYjNSbEtuenZHNE1oZ19DdGkzbTNFZWo0S05pSUliRExjdUdScFlRMFh3LVI2aTg0U1gxTWRGdXAwZ1RqNGlOX1ZlU1ViMDJ3djVJWElYT0xoX2pvWFV3Skk?oc=5",
+    "publishedTime": "Detectado ao vivo nas últimas 24h",
+    "createdAt": "2026-11-14T18:30:14.932Z",
+    "validityHours": 24,
+    "specsPreview": {
+      "categoria": "Hipercarro de Colecionismo",
+      "telemetria": "Calibração de pista",
+      "curadoria": "Gabriel Fontes"
+    },
+    "suggestedImage": "https://images.unsplash.com/photo-1661311928884-7e36f478109f?auto=format&fit=crop&q=80&w=1400",
+    "imageIsFallback": true,
+    "status": "available"
+  },
+  {
+    "id": "pauta-live-relogios-mwgqql7f-d7w0",
     "source": "Robb Report Global",
     "sourceCategory": "Alta Relojoaria",
     "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
@@ -164,7 +217,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "The auction house is holding its luxury week in Geneva, and while it hasn't released final totals, early returns appear to be very good.",
     "sourceUrl": "https://robbreport.com/shelter/art-collectibles/christies-rare-watches-magnificent-jewels-1238838351/",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-14T09:30:04.806Z",
+    "createdAt": "2026-11-14T18:30:14.235Z",
     "validityHours": 24,
     "specsPreview": {
       "calibre": "Mecânico de alta complicação",
@@ -174,10 +227,10 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://robbreport.com/wp-content/uploads/2026/11/Christies_MagJewels_Geneva.jpg",
     "imageIsFallback": false,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-arquitetura-mwg7fy07-v41e",
+    "id": "pauta-live-arquitetura-mwgqql9j-ywo0",
     "source": "Robb Report Global",
     "sourceCategory": "Arquitetura",
     "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
@@ -191,7 +244,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "The late gallery owner's Presidio Heights residence sits on a rare double lot featuring terraced gardens and Golden Gate Bridge views.",
     "sourceUrl": "https://robbreport.com/shelter/celebrity-homes/rena-bransten-house-san-francisco-1238836641/",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-14T09:30:04.903Z",
+    "createdAt": "2026-11-14T18:30:14.311Z",
     "validityHours": 24,
     "specsPreview": {
       "mercado": "Grandes Leilões Internacionais",
@@ -201,37 +254,10 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://robbreport.com/wp-content/uploads/2026/11/RenaBranstenHouse_SF_FI.jpg",
     "imageIsFallback": false,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-arquitetura-mwg7fz8m-voz7",
-    "source": "Sotheby's & Christie's Auctions",
-    "sourceCategory": "Arquitetura",
-    "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "rankingScore": 86,
-    "rankingTier": "B",
-    "originalTitle": "The Bulgari Pink Diamond Ring: A 24-Carat Highlight At Christie’s Geneva - Outlook Luxe",
-    "suggestedHook": "The Bulgari Pink Diamond Ring: A 24-Carat Highlight At Christie’s Geneva",
-    "summary": "The Bulgari Pink Diamond Ring: A 24-Carat Highlight At Christie’s Geneva Outlook Luxe",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMURmNXc1Tkt1SkhlZVdrbDZ1QWZnYW9IMkdyeWxoOWhNbFJhNXVjZ3ZmYzFrVVh4RkF1SHh6MDYzZVpsRlNmYlhDdGNIclVGZFBCbURCMjFMRTBBNzRubW1XSHJZYmQxdmIyRjdfYWRUNTVCQVh5c1hyRkdPLXFpSWZjMGVBZ0tpd1dud0VOM0hTbFBfSVltNnNadUJOdjdqWERzVi13bjhXSUdYOGM2b1QwR2FDQUVOSGF0aDExcTc0UUd1Y21J0gHUAUFVX3lxTE9PQUVZdE5SdVJ6ZUd2aUNiMHI1VzRjMjZjVW5sODEzNkt1cWxRRXhqLUlnMEt3ZGNWa3lpRjJaU2RBRHgxNHNYU28xQVVjd2ZuaTdreHp4Y1JOSzNsaUdLalptWXRMSXBCbENqemxCRDE0UC1zcnV3Q0l1YkFJSTQ3NXZUX3V0RVMwTTdIa2JaeTJPNTNhelBzeUVVMjI1OG52LVE5VmZLUUdPaFo1TWNwaXJwakxOamI5TGxRZzNQaHFvZ0MxaFIzUm53ektMdkt3Z21V?oc=5",
-    "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-14T09:30:06.502Z",
-    "validityHours": 24,
-    "specsPreview": {
-      "mercado": "Grandes Leilões Internacionais",
-      "custodia": "Refúgio de Liquidez Soberana",
-      "perfil": "Family Offices & Colecionadores",
-      "curadoria": "Henrique Vianna"
-    },
-    "suggestedImage": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&q=80&w=1400",
-    "imageIsFallback": true,
-    "status": "duplicate"
-  },
-  {
-    "id": "pauta-live-arquitetura-mwg7fz8y-66pl",
+    "id": "pauta-live-arquitetura-mwgqqmi4-ze7j",
     "source": "Sotheby's & Christie's Auctions",
     "sourceCategory": "Arquitetura",
     "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
@@ -245,7 +271,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Romanov sapphire bracelet exceeds auction estimates in Geneva Kursiv Media Узбекистан",
     "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9tYWJTUDFUSDhZRXNjWTZYV2g3TWQ5SzBUOXpyQVZrSW5UVHZWbjhzc1VYb243Q2NOYWN5TFdPLWJRQVBCcWhkbm5BYWMtVXkwR2FvVldvZHpoZVd0c0F3LUQydjhQMUx4RC1JLWRVdmE4bUdxYTBV?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-14T09:30:06.514Z",
+    "createdAt": "2026-11-14T18:30:15.916Z",
     "validityHours": 24,
     "specsPreview": {
       "mercado": "Grandes Leilões Internacionais",
@@ -253,12 +279,12 @@ export const INITIAL_HOT_PAUTAS = [
       "perfil": "Family Offices & Colecionadores",
       "curadoria": "Henrique Vianna"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-relogios-mwg7fy6q-krml",
+    "id": "pauta-live-relogios-mwgqqlhm-mj2k",
     "source": "Monochrome Watches",
     "sourceCategory": "Alta Relojoaria",
     "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
@@ -272,7 +298,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Richemont, the Swiss luxury powerhouse, pursues its 2026 fiscal year on a strong note. For the first semester ended 30 September 2026, the group reported sales of EUR 12.3 billion, up by 17% at constant rates (+16% actual). The second quarter growth was sustained at +13% after a particularly strong first quarter in",
     "sourceUrl": "https://monochrome-watches.com/richemont-reports-strong-first-semester-2026-sales-up-by-17-industry-news/",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-14T09:30:05.138Z",
+    "createdAt": "2026-11-14T18:30:14.602Z",
     "validityHours": 24,
     "specsPreview": {
       "calibre": "Mecânico de alta complicação",
@@ -282,10 +308,10 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://monochrome-watches.com/app/uploads/2026/07/richemont-group-results-sales-600x237.jpg",
     "imageIsFallback": false,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-relogios-mwg7fy67-6cj5",
+    "id": "pauta-live-relogios-mwgqqlf7-1k00",
     "source": "Monochrome Watches",
     "sourceCategory": "Alta Relojoaria",
     "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
@@ -299,7 +325,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Founded by Richard Benc, British brand Studio Underd0g launched in 2020 with a design-led series that broke from the watch industry’s usual conventions. Its colourful chronographs, fun dial designs, and collaborations have helped it establish its identity, while accessible prices have attracted a growing following. As",
     "sourceUrl": "https://monochrome-watches.com/studio-underd0g-04series-calendar-collection-retrograde-date-weekend-indicator-new-seagull-movement-value-proposition-introducing-price/",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-14T09:30:05.119Z",
+    "createdAt": "2026-11-14T18:30:14.515Z",
     "validityHours": 24,
     "specsPreview": {
       "calibre": "Mecânico de alta complicação",
@@ -309,34 +335,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://monochrome-watches.com/app/uploads/2026/11/Studio-Underd0g-04Series-calendar-Weekend-Indicator-6-600x237.jpg",
     "imageIsFallback": false,
-    "status": "duplicate"
-  },
-  {
-    "id": "pauta-live-arquitetura-mwfuv4l4-sddt",
-    "source": "Monochrome Watches",
-    "sourceCategory": "Arquitetura",
-    "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "rankingScore": 85,
-    "rankingTier": "B",
-    "originalTitle": "First Look – ArtyA Presents the Purity Curvy HMS Sapphire Sport Edition",
-    "suggestedHook": "Patrimônio & Leilões: First Look – ArtyA Presents the Purity Curvy HMS Sapphire Sport Edition",
-    "summary": "Yvan Arpa continues the brand’s strategy of pairing ultra-transparent sapphire crystal cases and openworked movements, with no limits imposed on colour. The latest offering from ArtyA follows the path of the Purity Tourbillon Sport Editions with configurable features released earlier this year. While the new Purity",
-    "sourceUrl": "https://monochrome-watches.com/artya-purity-curvy-hms-sapphire-sport-edition-first-look-hands-on-price/",
-    "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-14T03:37:58.264Z",
-    "validityHours": 24,
-    "specsPreview": {
-      "mercado": "Grandes Leilões Internacionais",
-      "custodia": "Refúgio de Liquidez Soberana",
-      "perfil": "Family Offices & Colecionadores",
-      "curadoria": "Henrique Vianna"
-    },
-    "suggestedImage": "https://monochrome-watches.com/app/uploads/2026/11/Artya-Purity-Curvy-HMS-Sapphire-Sport-Edition-review-9-600x237.jpg",
-    "imageIsFallback": false,
-    "status": "duplicate"
+    "status": "available"
   }
 ];
 
