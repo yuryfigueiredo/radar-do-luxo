@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-ferrari-250-gto-de-us-10-milhoes-3378",
+    "slug": "ferrari-250-gto-de-us-10-milhoes-o-fetiche-de-engenharia-preso-em-uma-custodia-de-silencio-mineral-3369",
+    "title": "Ferrari 250 GTO de US$ 10 Milhões: O Fetiche de Engenharia Preso em uma Custódia de Silêncio Mineral",
+    "image": "https://images.unsplash.com/photo-1661311928884-7e36f478109f?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQzJOVlZIR3E4azRiVU95amVGWXN1dHEwRmFLVC1kV2l4U2NOckktMlFvSXA5N0JYRFhSUEhyaHZWZTRyanNacEhxYUZaM3pCV0pra2RUTk9pMTdpQWdJV0FWanF4T19ZdXdraFhfcHgtRHp4Szk4TGtDVS1ySTRNSGFaTER4aDNqaE01bjM2bUpiblNVV1l5UnJB?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-14T15:15:43.378Z"
+  },
+  {
     "id": "art-perini-navi-bayesian-o-naufragio-3994",
     "slug": "perini-navi-bayesian-o-naufragio-de-56-metros-atribuido-a-incompetencia-da-tripulacao-e-aos-erros-de-lideranca-humana-em-mar-aberto-3982",
     "title": "Perini Navi Bayesian: O Naufrágio de 56 Metros Atribuído à Incompetência da Tripulação e aos Erros de Liderança Humana em Mar Aberto",

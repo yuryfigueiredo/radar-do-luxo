@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-ferrari-250-gto-de-us-10-milhoes-3378",
+    "slug": "ferrari-250-gto-de-us-10-milhoes-o-fetiche-de-engenharia-preso-em-uma-custodia-de-silencio-mineral-3369",
+    "title": "Ferrari 250 GTO de US$ 10 Milhões: O Fetiche de Engenharia Preso em uma Custódia de Silêncio Mineral",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "14 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1661311928884-7e36f478109f?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "A aquisição de uma raridade histórica por valores astronômicos revela a ascensão de ativos cinéticos que operam fora da esfera pública, transformando o ato da posse em um exercício de governança patrimonial.",
+    "contentParagraphs": [
+      "A transação de quase 10 milhões de dólares por uma Ferrari 250 GTO não trata de mobilidade. Trata-se de uma soberania patrimonial imobilizada em um cofre com atmosfera controlada. O motor V12 de 3.0 litros, uma obra-prima de tolerâncias de mícrons dos anos 60, permanece em estado de conservação estática. Não há queima de combustível, apenas a preservação química da liga metálica contra a entropia do tempo.",
+      "Sob o capô, os carburadores Weber 38 DCN permanecem secos, protegidos de qualquer oxidação que o uso real inevitavelmente imporia. A telemetria inercial deste chassi é um mito historiográfico, uma memória de força G lateral que o proprietário atual jamais sentirá em suas mãos. A engenharia, aqui, foi elevada à categoria de investimento de alta liquidez, onde o valor reside na integridade absoluta dos componentes originais de fábrica.",
+      "O mercado de hipercarros clássicos deslocou-se para uma zona de exclusão. Colecionadores não buscam mais a adrenalina do efeito solo ou o ruído do escape em Inconel, mas sim a segurança de um ativo tangível imune à volatilidade das moedas fiduciárias. O carro tornou-se um documento de valor dinástico, um ativo que reside na fronteira entre a arte sacra e a engenharia naval de luxo, onde a manutenção é feita por curadores, não por mecânicos.",
+      "Resta a melancolia técnica de uma máquina projetada para o limite da física, agora condenada à imobilidade perpétua. A Ferrari 250 GTO é, simultaneamente, o ápice da engenharia mecânica do século XX e o prisioneiro mais caro do mercado global. A posse deste artefato não exige habilidades de pilotagem, mas uma disciplina férrea de custódia fiduciária que desafia a própria razão de existir do motor de combustão interna."
+    ],
+    "content_paragraphs": [
+      "A transação de quase 10 milhões de dólares por uma Ferrari 250 GTO não trata de mobilidade. Trata-se de uma soberania patrimonial imobilizada em um cofre com atmosfera controlada. O motor V12 de 3.0 litros, uma obra-prima de tolerâncias de mícrons dos anos 60, permanece em estado de conservação estática. Não há queima de combustível, apenas a preservação química da liga metálica contra a entropia do tempo.",
+      "Sob o capô, os carburadores Weber 38 DCN permanecem secos, protegidos de qualquer oxidação que o uso real inevitavelmente imporia. A telemetria inercial deste chassi é um mito historiográfico, uma memória de força G lateral que o proprietário atual jamais sentirá em suas mãos. A engenharia, aqui, foi elevada à categoria de investimento de alta liquidez, onde o valor reside na integridade absoluta dos componentes originais de fábrica.",
+      "O mercado de hipercarros clássicos deslocou-se para uma zona de exclusão. Colecionadores não buscam mais a adrenalina do efeito solo ou o ruído do escape em Inconel, mas sim a segurança de um ativo tangível imune à volatilidade das moedas fiduciárias. O carro tornou-se um documento de valor dinástico, um ativo que reside na fronteira entre a arte sacra e a engenharia naval de luxo, onde a manutenção é feita por curadores, não por mecânicos.",
+      "Resta a melancolia técnica de uma máquina projetada para o limite da física, agora condenada à imobilidade perpétua. A Ferrari 250 GTO é, simultaneamente, o ápice da engenharia mecânica do século XX e o prisioneiro mais caro do mercado global. A posse deste artefato não exige habilidades de pilotagem, mas uma disciplina férrea de custódia fiduciária que desafia a própria razão de existir do motor de combustão interna."
+    ],
+    "specs": {
+      "motor": "V12 longitudinal de 3.0 litros",
+      "alimentação": "6 carburadores Weber 38 DCN",
+      "transmissão": "Manual de 5 velocidades",
+      "conservação": "Custódia climática estática",
+      "valor_transacao": "Aprox. US$ 10.000.000"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 92,
+    "ranking_score": 92,
+    "engineSource": "gemini:gemini-3.1-flash-lite",
+    "publishedAt": "2026-11-14T15:15:43.378Z",
+    "published_at": "2026-11-14T15:15:43.378Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQzJOVlZIR3E4azRiVU95amVGWXN1dHEwRmFLVC1kV2l4U2NOckktMlFvSXA5N0JYRFhSUEhyaHZWZTRyanNacEhxYUZaM3pCV0pra2RUTk9pMTdpQWdJV0FWanF4T19ZdXdraFhfcHgtRHp4Szk4TGtDVS1ySTRNSGFaTER4aDNqaE01bjM2bUpiblNVV1l5UnJB?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQzJOVlZIR3E4azRiVU95amVGWXN1dHEwRmFLVC1kV2l4U2NOckktMlFvSXA5N0JYRFhSUEhyaHZWZTRyanNacEhxYUZaM3pCV0pra2RUTk9pMTdpQWdJV0FWanF4T19ZdXdraFhfcHgtRHp4Szk4TGtDVS1ySTRNSGFaTER4aDNqaE01bjM2bUpiblNVV1l5UnJB?oc=5"
+  },
+  {
     "id": "art-perini-navi-bayesian-o-naufragio-3994",
     "slug": "perini-navi-bayesian-o-naufragio-de-56-metros-atribuido-a-incompetencia-da-tripulacao-e-aos-erros-de-lideranca-humana-em-mar-aberto-3982",
     "title": "Perini Navi Bayesian: O Naufrágio de 56 Metros Atribuído à Incompetência da Tripulação e aos Erros de Liderança Humana em Mar Aberto",
@@ -1364,65 +1416,20 @@ export const ARTICLES = [
     "published_at": "2026-11-08T18:25:37.066Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWTc4REF1cU1rZWxoUVkyRG5neG1hZnNwQml0NjdnSG96cW43RWxLd1VydjNHbXg4RFBpT3VSZ0NJTnl5NlFXeGFEUlVqcnJCeG1wZlo3WEVkQ2VIOC1ObjAtMF9iT2dPSkVkUEQwYnlTenFYNVU0V29SSUJOdHdmcjZQVXI0OVU?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWTc4REF1cU1rZWxoUVkyRG5neG1hZnNwQml0NjdnSG96cW43RWxLd1VydjNHbXg4RFBpT3VSZ0NJTnl5NlFXeGFEUlVqcnJCeG1wZlo3WEVkQ2VIOC1ObjAtMF9iT2dPSkVkUEQwYnlTenFYNVU0V29SSUJOdHdmcjZQVXI0OVU?oc=5"
-  },
-  {
-    "id": "art-ferrari-296-gt3-o-v12-recuado-50-4055",
-    "slug": "ferrari-296-gt3-o-v12-recuado-50mm-e-rebaixado-que-reconfigurou-o-limite-da-fisica-na-endurance-mundial-4017",
-    "title": "Ferrari 296 GT3: O V12 Recuado 50mm e Rebaixado que Reconfigurou o Limite da Física na Endurance Mundial",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "06 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=max&q=85&w=1800",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "A geometria implacável do motor central-traseiro rebaixado impôs uma soberania absoluta de downforce e inércia polar sobre os asfalto mais punitivos do planeta.",
-    "contentParagraphs": [
-      "A massa bruta do bloco de doze cilindros foi deliberadamente deslocada para o coração térmico do chassi. Menos cinco centímetros de altura. Mais vinte milímetros de recuo longitudinal em relação aos eixos de transmissão. Esta não é uma alteração cosmética de catálogo. É um manifesto brutal de engenharia pura.",
-      "O monocoque em carbo-titânio curado em autoclave a 6 bar abriga um sistema de exaustão em Inconel 625 que pulsa calor a frequências sônicas. Sob frenagens extremas a 300 quilômetros por hora, a força G lateral comprime os órgãos vitais do piloto enquanto os fluxos de Venturi geram uma sução violenta contra o asfalto. Cada túnel de efeito solo opera como uma lâmina aerodinâmica milimetricamente calibrada.",
-      "Tolerâncias de mícrons regem o encaixe dos componentes mecânicos que resistem a vinte e quatro horas ininterruptas de vibração severa. O gerenciamento térmico desafia as leis convencionais da termodinâmica, mantendo a estabilidade dos fluidos vitais mesmo quando o escapamento atinge rubro-negro incandescente após uma reta infinita em Le Mans.",
-      "Este domínio técnico não nasceu da especulação digital, mas do suor de engenheiros obsessivos nas oficinas de Maranello. O resultado inegável é a supremacia em três campeonatos GT consecutivos, transformando o asfalto em um território de indiscutível vassalagem mecânica."
-    ],
-    "content_paragraphs": [
-      "A massa bruta do bloco de doze cilindros foi deliberadamente deslocada para o coração térmico do chassi. Menos cinco centímetros de altura. Mais vinte milímetros de recuo longitudinal em relação aos eixos de transmissão. Esta não é uma alteração cosmética de catálogo. É um manifesto brutal de engenharia pura.",
-      "O monocoque em carbo-titânio curado em autoclave a 6 bar abriga um sistema de exaustão em Inconel 625 que pulsa calor a frequências sônicas. Sob frenagens extremas a 300 quilômetros por hora, a força G lateral comprime os órgãos vitais do piloto enquanto os fluxos de Venturi geram uma sução violenta contra o asfalto. Cada túnel de efeito solo opera como uma lâmina aerodinâmica milimetricamente calibrada.",
-      "Tolerâncias de mícrons regem o encaixe dos componentes mecânicos que resistem a vinte e quatro horas ininterruptas de vibração severa. O gerenciamento térmico desafia as leis convencionais da termodinâmica, mantendo a estabilidade dos fluidos vitais mesmo quando o escapamento atinge rubro-negro incandescente após uma reta infinita em Le Mans.",
-      "Este domínio técnico não nasceu da especulação digital, mas do suor de engenheiros obsessivos nas oficinas de Maranello. O resultado inegável é a supremacia em três campeonatos GT consecutivos, transformando o asfalto em um território de indiscutível vassalagem mecânica."
-    ],
-    "specs": {
-      "Arquitetura do Motor": "V12 aspirado a 65°",
-      "Posicionamento": "Central-traseiro rebaixado (-50mm)",
-      "Chassi": "Monocoque em carbo-titânio",
-      "Escape": "Inconel 625 de alta temperatura",
-      "Downforce Máximo": "Coeficiente aerodinâmico otimizado por túneis de efeito solo",
-      "Tiragem": "Homologação GT Competition estrito"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 86,
-    "ranking_score": 86,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-06T23:00:34.055Z",
-    "published_at": "2026-11-06T23:00:34.055Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQREJpMXRZZnFDWVE5MWQtZkttb1VTczZ6a1lkLWRqSkk3U3ZrWV9hWm1zSEJHYjJvR0tnZ0dqazZaNTNMOVZnWU9PRFRhZVlhaHEzN1VheEgxNS10dG85akFkWVJVTVVNMjI2VzVWZFFYeEdsS2o4OXNtUUlZRFRCU0dRNTFDZw?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQREJpMXRZZnFDWVE5MWQtZkttb1VTczZ6a1lkLWRqSkk3U3ZrWV9hWm1zSEJHYjJvR0tnZ0dqazZaNTNMOVZnWU9PRFRhZVlhaHEzN1VheEgxNS10dG85akFkWVJVTVVNMjI2VzVWZFFYeEdsS2o4OXNtUUlZRFRCU0dRNTFDZw?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "ARQUITETURA",
+    "title": "Alta Joalheria em Leilão: O Refúgio de...",
+    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800",
+    "tag": "CURADORIA RADAR",
+    "slug": "alta-joalheria-em-leilao-o-refugio-de-liquidez-de-us-85-milhoes-em-diamantes-type-iia-que-desafiam-a-inflacao-global-7916"
+  },
+  {
+    "id": "film-2",
     "category": "SUPERCARROS",
     "title": "Ferrari F355 de Jeremy Clarkson: O V8 ...",
     "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
@@ -1430,7 +1437,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-f355-de-jeremy-clarkson-o-v8-aspirado-de-35-litros-e-cambio-manual-em-gated-shifter-retorna-ao-leilao-5851"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Ferrari 12Cilindri: O V12 Aspirado de ...",
     "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
@@ -1438,7 +1445,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-12cilindri-o-v12-aspirado-de-9500-rpm-e-pintura-two-tone-flagrado-no-asfalto-de-monaco-4549"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "ESTILO",
     "title": "Hermès Birkin: O Protótipo Original de...",
     "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=max&q=80&w=1400",
@@ -1446,7 +1453,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "hermes-birkin-o-prototipo-original-de-jane-birkin-que-vai-a-leilao-com-marcas-de-uso-e-essencia-de-paris-1139"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "ARQUITETURA",
     "title": "Gold Coast: A Residência de 47,5 Milhõ...",
     "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
@@ -1454,20 +1461,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "gold-coast-a-residencia-de-475-milhoes-de-dolares-em-travertino-romano-que-desafia-o-recorde-imobiliario-da-australia-8416"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Aston Martin: O Equilíbrio Financeiro ...",
     "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "aston-martin-o-equilibrio-financeiro-precario-e-a-ilusao-de-rivalizar-com-a-hegemonia-de-maranello-5922"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Bugatti Chiron: A Perseguição Transfro...",
-    "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=max&q=85&w=1800",
-    "tag": "CURADORIA RADAR",
-    "slug": "bugatti-chiron-a-perseguicao-transfronteirica-de-1500-cavalos-onde-o-ceo-trocou-o-w16-por-um-porsche-911-6302"
   }
 ];
 
