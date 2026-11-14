@@ -254,7 +254,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://monochrome-watches.com/app/uploads/2026/11/Artya-Purity-Curvy-HMS-Sapphire-Sport-Edition-review-9-600x237.jpg",
     "imageIsFallback": false,
-    "status": "available"
+    "status": "duplicate"
   },
   {
     "id": "pauta-live-arquitetura-mwfbarv2-h9mt",
@@ -281,7 +281,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "available"
+    "status": "duplicate"
   },
   {
     "id": "pauta-live-relogios-mwfbaqlj-bbjl",
@@ -308,7 +308,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://robbreport.com/wp-content/uploads/2026/11/zenith-j-n-shapiro-watch.jpg",
     "imageIsFallback": false,
-    "status": "available"
+    "status": "duplicate"
   },
   {
     "id": "pauta-live-relogios-mwfbaqot-d0ix",
