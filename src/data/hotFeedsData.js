@@ -19,33 +19,33 @@ import { calculateEditorialScore } from '../services/rankingEngine.js';
 
 export const INITIAL_HOT_PAUTAS = [
   {
-    "id": "pauta-live-destinos-mwfbara9-lzbv",
-    "source": "Google News Superyachts",
-    "sourceCategory": "Destinos & Iates",
-    "badgeColor": "border-purple-500/40 text-purple-400 bg-purple-500/10",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
+    "id": "pauta-live-supercarros-mwfuv4p7-ppyq",
+    "source": "Google News Motors (Ferrari/Bugatti)",
+    "sourceCategory": "Supercarros",
+    "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
     "authorSlug": "gabriel-fontes",
-    "rankingScore": 89,
-    "rankingTier": "A",
-    "originalTitle": "Because billionaires hate waiting, Lürssen has opened a permanent repair base in Spain where a 24/7 rapid-response team can fly specialists to any ailing superyacht in the Mediterranean, offering immediate repairs and spare parts for vessels up to 525 feet l - Luxurylaunches",
-    "suggestedHook": "Because billionaires hate waiting, Lürssen has opened a permanent repair base in Spain where a 24/7 rapid-response team can fly specialists to any ailing Superiate in the Mediterranean, offering immediate repairs and spare parts for vessels up to 525 feet l",
-    "summary": "Because billionaires hate waiting, Lürssen has opened a permanent repair base in Spain where a 24/7 rapid-response team can fly specialists to any ailing superyacht in the Mediterranean, offering immediate repairs and spare parts for vessels up to 525 feet l Luxurylaunches",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYldvMWo5YVpGSGc0SHFkclV4X0NndnhuX0EwamNLb2k5d1g3bWkxanRiTkhkcjlXQWNmZjlldnBZV2JScVJVMkc4c0RFNzhjY1lfR0ZBVGh2bGpyOW4yRHEyUWlKcWs3cGRrS0lZMl9ZOWIyZV9ITXpHZm1IV2Uwbk9SVWw?oc=5",
+    "rankingScore": 95,
+    "rankingTier": "S+",
+    "originalTitle": "Ferrari built Eric Clapton a $4.7 million custom car: Today, his SP12 EC stands as one of the rarest supercars - Diario AS",
+    "suggestedHook": "Ferrari built Eric Clapton a $4.7 million custom car: Today, his SP12 EC stands as one of the rarest supercars",
+    "summary": "Ferrari built Eric Clapton a $4.7 million custom car: Today, his SP12 EC stands as one of the rarest supercars Diario AS",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxORy02ZGt3VnJVYnk3bGVWZUxxdHhCUTE2RGxjVjlIWVo2ZDlUMV9iYkd0akRnQ3VGc0Nvdlc1cUpxTkxZZnpIdm1sbkQ2LXJwZ0RBU3JCbkFZSUd4ZWMzR2ZmMk1heDVTaVdkbHFkOXhCUVpwYllkZ0ZTNHlwX2FOa0lLSlpaeW9pU0tHRURUWnhnbVRxQ2NjWDk5OWJJb0pHNXU4a0dMNG9EM2E1QWQwUkxvRWZ2QkY1NFAzeTJYdDYyc1RDTnV2N0VSNUY2VGZOZWgzd2lCRl84R1RLc0kyWG1OWldnZ0hYem5HX0lzY0tDMjVX0gGIAkFVX3lxTFBsbzFLdUc2YTVQZW9Ma1NfbVN6WkJGdnU0dENWVHNXVE4xSWx5MGJvYmxDdjhpci1lTzNsdV8teW91M3JRUzJ0dDg5NGUzVjB3Y3o4RDI4bjdIWlVCb1RSbnFkdUY1VEd0Ri1EUHJiNU1DUGkxUW1pWjdJYXBITXBSTEIxYVJCQUlVZVI4QXlZQjZUSlFlRnVZcXdVVDJ0b1ZpQjlkQ2VGM1dqOUo4VE1oZXZiRnBGa0t6R1FIS240cVVLWDg1a0p4ZGozZl9wM1hQbVFLUkRtX0ppbVd1N190cUFXckl5NlhQOWMzdFNZY1A4LVRKRUoxR05BWEJRaWYtYzVGdGk1NA?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-13T18:30:15.201Z",
+    "createdAt": "2026-11-14T03:37:58.411Z",
     "validityHours": 24,
     "specsPreview": {
-      "categoria": "Superiate Transoceânico",
-      "engenharia": "Casco de aço naval e compósitos",
+      "categoria": "Hipercarro de Colecionismo",
+      "telemetria": "Calibração de pista",
       "curadoria": "Gabriel Fontes"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "published"
+    "status": "available"
   },
   {
-    "id": "pauta-live-destinos-mwfbargc-fp6e",
+    "id": "pauta-live-destinos-mwfuv4wi-9vqy",
     "source": "Google News Superyachts",
     "sourceCategory": "Destinos & Iates",
     "badgeColor": "border-purple-500/40 text-purple-400 bg-purple-500/10",
@@ -59,7 +59,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "A Greek shipping billionaire was so impressed by his new 154-foot superyacht that he immediately dropped a massive $54.5 million on a 197-foot replacement featuring a crazy glass-bottom pool that functions as a skylight for the master bedroom Luxurylaunches",
     "sourceUrl": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxOVFN1Wi11NDlmZUJjUm1QWnRpNnVidy1hUDdNMGpXRFI3VUcxLTl5QkZ0WUlsRE1ZQmR5RWF2THc4LXdqTU84NmVYVWZJRW1Zcll3bERqcjM3c2otOU44QnBPODNNbVJzQUJub24wWkNzaUdzOFBnU0lfaWgzVFF4Q3VMRjg3d21hS0x3eUZrS3Y4TkY1UHRHcDhpdy0zRzlIS3p5dUQzVnhhUHR0aDRrcjcyelo1Xy1CY0xZQ3NYaWl5czNRSFk2eHlIT3N2cGxXNThtdVRYdDVUUmNpRW5qWmRjZ1hzQnVDTWl4RTZUYk1CTE91SlZyTU1ybWFnUVloWTFsRjVITVNGWkxrSHE2cHBpel9ELWU0ZnYxdlo2MGJ2bUh2MHhUQUR3M05WVl9qYmx1M3hFbEdOVDZwZ0dPdm9ocTJLTk4xS0lNZ09semR0TGRVYUx4VE8wbmo?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-13T18:30:15.420Z",
+    "createdAt": "2026-11-14T03:37:58.674Z",
     "validityHours": 24,
     "specsPreview": {
       "categoria": "Superiate Transoceânico",
@@ -68,10 +68,10 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-destinos-mwfbaroh-zxqg",
+    "id": "pauta-live-destinos-mwfuv4zk-1hjz",
     "source": "Google News Superyachts",
     "sourceCategory": "Destinos & Iates",
     "badgeColor": "border-purple-500/40 text-purple-400 bg-purple-500/10",
@@ -85,19 +85,45 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Superyacht owned by British billionaire John Caudwell docks in Arrecife Gazette Life",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWTVXaGEyX1U5alpmNUN2THN2MGNsS2RSSVR6ZHZvcmJtTU1XUXFBVUFHSFp1aks3WThCdFUzSFJRRmxBeUNvZHVZZnRKZzhaWDJqYUhPU0VkNDE1YURkSFREU0daOG9VMnhMZGJHV3RuZno4Yk5tMEpRMEQ1TnZmUTYwQ2N4NVJvYXlGQUp0bnZLRmhZaXIzM3NpbVZITU9uM0xv?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-13T18:30:15.713Z",
+    "createdAt": "2026-11-14T03:37:58.784Z",
     "validityHours": 24,
     "specsPreview": {
       "categoria": "Superiate Transoceânico",
       "engenharia": "Casco de aço naval e compósitos",
       "curadoria": "Gabriel Fontes"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1562281302-809108fd533c?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1783344422200-a5493824bcb9?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-supercarros-mwfbaqx2-kl2d",
+    "id": "pauta-live-destinos-mwfuv505-yerf",
+    "source": "Google News Superyachts",
+    "sourceCategory": "Destinos & Iates",
+    "badgeColor": "border-purple-500/40 text-purple-400 bg-purple-500/10",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "rankingScore": 89,
+    "rankingTier": "A",
+    "originalTitle": "Bayesian superyacht sinking was caused by 'crew's incompetence': Italian investigators say design flaws were not to blame for the disaster that killed 7 including billionaire Mike Lynch - Daily Mail",
+    "suggestedHook": "Bayesian Superiate sinking was caused by 'crew's incompetence': Italian investigators say design flaws were not to blame for the disaster that killed 7 including billionaire Mike Lynch",
+    "summary": "Bayesian superyacht sinking was caused by 'crew's incompetence': Italian investigators say design flaws were not to blame for the disaster that killed 7 including billionaire Mike Lynch Daily Mail",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUmdGYmN4eTBILXN3VWg3T29yb0wwaURXZ3BKN21sNEFhVi1sX3RCSUVteGlGMmNNOXZlcnY4QVNUQWtzUjY5aDVuSU1OcDFGVnRfcjV6TF82ZVpKczl3eGhZbXM3ODdIR1pTUnZqbHc2T0hqNWZxcjFuSi11aTkybW14cWJxNF9MTDlQbTF6bWJscVgyeG1TWmpQdjRfMWxUejh5X05COHpicjRMeVNUZ2dnZ0ZOblpPdVRpTTYxSkM1QdIBxwFBVV95cUxNQlUyX05oTVJVenRrZ1V2RnYzeUVqQ191X0E5WWRiajQ2TjJNUFFZRmxIQ1pNbnpxLTUzTjVHcmhXLWlBNVBqTEhuNFVvNVgyX25DMjZOckdSdjhvVFFPME1NM2hlci1iV2tBcDZCUDQydjZHTlNidlV1ei1JWExXaGRQc2JrMWFwSGJDWmNUZEcxQkRjSkF3SEduVlJNQVo5UGpJZXAxWUMtUnJmbGpJWFNJcnkzUWNpdHpoeUVpSWhPRGdRZWJ3?oc=5",
+    "publishedTime": "Detectado ao vivo nas últimas 24h",
+    "createdAt": "2026-11-14T03:37:58.805Z",
+    "validityHours": 24,
+    "specsPreview": {
+      "categoria": "Superiate Transoceânico",
+      "engenharia": "Casco de aço naval e compósitos",
+      "curadoria": "Gabriel Fontes"
+    },
+    "suggestedImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=1400",
+    "imageIsFallback": true,
+    "status": "available"
+  },
+  {
+    "id": "pauta-live-supercarros-mwfuv4o9-5k1b",
     "source": "Google News Motors (Ferrari/Bugatti)",
     "sourceCategory": "Supercarros",
     "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
@@ -106,24 +132,24 @@ export const INITIAL_HOT_PAUTAS = [
     "authorSlug": "gabriel-fontes",
     "rankingScore": 88,
     "rankingTier": "A",
-    "originalTitle": "Someone Paid Nearly $10 Million for a Ferrari They Can't Take Home - Yahoo Autos",
-    "suggestedHook": "Hipercarros: Someone Paid Nearly $10 Million for a Ferrari They Can't Take Home",
-    "summary": "Someone Paid Nearly $10 Million for a Ferrari They Can't Take Home Yahoo Autos",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdVFzUVRwbkFtWTNIdXVTdVlLNkQ0dVVibjE1T3lkOGRqVGlFajlmY0dCb0ZHblFaZWVnZ1NSVXdOSUhQZDJIOUhoRWJRR21aU0ptNHBQeDFuLVBJdWpQeUJyN0F5ZDdxTmNYZFE0M3drT0RWRDNqSmV4SGRwU2k1WEFZTVh2VTRidjUtaUw1dzQ5ZTU5QmNIMmV6U1FwWkN0bXc?oc=5",
+    "originalTitle": "Someone Paid Nearly $10 Million for a Ferrari They Can’t Take Home - Autoblog",
+    "suggestedHook": "Hipercarros: Someone Paid Nearly $10 Million for a Ferrari They Can’t Take Home",
+    "summary": "Someone Paid Nearly $10 Million for a Ferrari They Can’t Take Home Autoblog",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQzJOVlZIR3E4azRiVU95amVGWXN1dHEwRmFLVC1kV2l4U2NOckktMlFvSXA5N0JYRFhSUEhyaHZWZTRyanNacEhxYUZaM3pCV0pra2RUTk9pMTdpQWdJV0FWanF4T19ZdXdraFhfcHgtRHp4Szk4TGtDVS1ySTRNSGFaTER4aDNqaE01bjM2bUpiblNVV1l5UnJB?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-13T18:30:14.726Z",
+    "createdAt": "2026-11-14T03:37:58.377Z",
     "validityHours": 24,
     "specsPreview": {
       "categoria": "Hipercarro de Colecionismo",
       "telemetria": "Calibração de pista",
       "curadoria": "Gabriel Fontes"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1610880709844-b97111a986f7?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-supercarros-mwfbaqzv-74vv",
+    "id": "pauta-live-supercarros-mwfuv4q1-u8vz",
     "source": "Google News Motors (Ferrari/Bugatti)",
     "sourceCategory": "Supercarros",
     "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
@@ -137,7 +163,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "A Ferrari coloca em teste o apetite de seus clientes tradicionais em uma encruzilhada mecânica onde o rugido de 12 cilindros em 9.000 RPM permanece como o supremo refúgio tátil.",
     "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZTU3ZzBnQm5hZW9USThpTWZ0NURBbjBwZllMTWFVazRZWFdUMnJERlViNU5aVC1tdzFZMnRxbzNsckhXX1NKaHMzUTQ3TDhtT1NVLXVvOThNVExlUFpscXJxRmdXRUFuV0VGM01rc0hLMmdDZXYyX3VSRXB2Y2lkV3lfdUV1dEZqM1F1LUhmRnlnTEdqZmdkTnpEcVk3c2c0bzF3V1h3MA?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-13T18:30:14.827Z",
+    "createdAt": "2026-11-14T03:37:58.441Z",
     "validityHours": 24,
     "specsPreview": {
       "avaliacao": "Faixa de US$ 450.000 a US$ 550.000",
@@ -145,38 +171,66 @@ export const INITIAL_HOT_PAUTAS = [
       "peso": "Alívio extensivo com fibra de carbono",
       "telemetria": "Maranello Pure Dynamics"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1766353134008-bb3b8b99ddd2?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-supercarros-mwfbar22-abg4",
-    "source": "Google News Motors (Ferrari/Bugatti)",
-    "sourceCategory": "Supercarros",
-    "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "rankingScore": 87,
+    "id": "pauta-live-relogios-mwfuv4gi-4n6m",
+    "source": "Robb Report Global",
+    "sourceCategory": "Alta Relojoaria",
+    "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "rankingScore": 86,
     "rankingTier": "B",
-    "originalTitle": "Opinion: The age of chasing hypercar top-speed records is over - Top Gear Philippines",
-    "suggestedHook": "Opinion: The age of chasing hypercar top-speed records is over",
-    "summary": "Opinion: The age of chasing hypercar top-speed records is over Top Gear Philippines",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX0RJeTAxRnBNZHl3TmRVX2tlM3ZGd2pZSGU0STFzbDhfbVJGNDh5QVhyeGJrQXp5SUM5MDFjY3FLOURtQ3BxOTg5ckVnN0p5OFpxeVJrbndxdjJSRk5mVVl2cm9XWGVUZEdWV1E5WWFUeG45dl9DVFhzRDBfaGFzbFl5Z3g4UnBmN0hyWTQxTEk4MUZwb1RsTTk3bmgydkR2VHZpOC1udGNKTGM?oc=5",
+    "originalTitle": "Christie’s November Watch Auction Hits a Record $59 Million",
+    "suggestedHook": "Alta Relojoaria: Christie’s November Watch Auction Hits a Record $59 Million",
+    "summary": "The auction house is holding its luxury week in Geneva, and while it hasn't released final totals, early returns appear to be very good.",
+    "sourceUrl": "https://robbreport.com/shelter/art-collectibles/christies-rare-watches-magnificent-jewels-1238838351/",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-13T18:30:14.906Z",
+    "createdAt": "2026-11-14T03:37:58.098Z",
     "validityHours": 24,
     "specsPreview": {
-      "categoria": "Hipercarro de Colecionismo",
-      "telemetria": "Calibração de pista",
-      "curadoria": "Gabriel Fontes"
+      "calibre": "Mecânico de alta complicação",
+      "acabamento": "Tradição artesanal suíça",
+      "curadoria": "Mesa de Alta Horologia",
+      "estilo": "Peça de Colecionador"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80&w=1400",
-    "imageIsFallback": true,
-    "status": "duplicate"
+    "suggestedImage": "https://robbreport.com/wp-content/uploads/2026/11/Christies_MagJewels_Geneva.jpg",
+    "imageIsFallback": false,
+    "status": "available"
   },
   {
-    "id": "pauta-live-arquitetura-mwfbaruu-ki0o",
+    "id": "pauta-live-arquitetura-mwfuv4i9-wb1n",
+    "source": "Robb Report Global",
+    "sourceCategory": "Arquitetura",
+    "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "rankingScore": 86,
+    "rankingTier": "B",
+    "originalTitle": "Art Dealer Rena Bransten’s Longtime San Francisco Home Hits the Market for $8.8 Million",
+    "suggestedHook": "Patrimônio & Leilões: Art Dealer Rena Bransten’s Longtime San Francisco Home Hits the Market for $8.8 Million",
+    "summary": "The late gallery owner's Presidio Heights residence sits on a rare double lot featuring terraced gardens and Golden Gate Bridge views.",
+    "sourceUrl": "https://robbreport.com/shelter/celebrity-homes/rena-bransten-house-san-francisco-1238836641/",
+    "publishedTime": "Detectado ao vivo nas últimas 24h",
+    "createdAt": "2026-11-14T03:37:58.161Z",
+    "validityHours": 24,
+    "specsPreview": {
+      "mercado": "Grandes Leilões Internacionais",
+      "custodia": "Refúgio de Liquidez Soberana",
+      "perfil": "Family Offices & Colecionadores",
+      "curadoria": "Henrique Vianna"
+    },
+    "suggestedImage": "https://robbreport.com/wp-content/uploads/2026/11/RenaBranstenHouse_SF_FI.jpg",
+    "imageIsFallback": false,
+    "status": "available"
+  },
+  {
+    "id": "pauta-live-arquitetura-mwfuv52o-yf1s",
     "source": "Sotheby's & Christie's Auctions",
     "sourceCategory": "Arquitetura",
     "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
@@ -190,7 +244,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Romanov sapphire bracelet exceeds auction estimates in Geneva Kursiv Media Узбекистан",
     "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9tYWJTUDFUSDhZRXNjWTZYV2g3TWQ5SzBUOXpyQVZrSW5UVHZWbjhzc1VYb243Q2NOYWN5TFdPLWJRQVBCcWhkbm5BYWMtVXkwR2FvVldvZHpoZVd0c0F3LUQydjhQMUx4RC1JLWRVdmE4bUdxYTBV?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-13T18:30:15.942Z",
+    "createdAt": "2026-11-14T03:37:58.896Z",
     "validityHours": 24,
     "specsPreview": {
       "mercado": "Grandes Leilões Internacionais",
@@ -200,10 +254,10 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-relogios-mwfbaqqq-ud7j",
+    "id": "pauta-live-relogios-mwfuv4lb-3ll1",
     "source": "Monochrome Watches",
     "sourceCategory": "Alta Relojoaria",
     "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
@@ -217,7 +271,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Richemont, the Swiss luxury powerhouse, pursues its 2026 fiscal year on a strong note. For the first semester ended 30 September 2026, the group reported sales of EUR 12.3 billion, up by 17% at constant rates (+16% actual). The second quarter growth was sustained at +13% after a particularly strong first quarter in",
     "sourceUrl": "https://monochrome-watches.com/richemont-reports-strong-first-semester-2026-sales-up-by-17-industry-news/",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-13T18:30:14.498Z",
+    "createdAt": "2026-11-14T03:37:58.271Z",
     "validityHours": 24,
     "specsPreview": {
       "calibre": "Mecânico de alta complicação",
@@ -227,10 +281,10 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://monochrome-watches.com/app/uploads/2026/07/richemont-group-results-sales-600x237.jpg",
     "imageIsFallback": false,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-arquitetura-mwfbaqp0-h62i",
+    "id": "pauta-live-arquitetura-mwfuv4l4-sddt",
     "source": "Monochrome Watches",
     "sourceCategory": "Arquitetura",
     "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
@@ -244,7 +298,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Yvan Arpa continues the brand’s strategy of pairing ultra-transparent sapphire crystal cases and openworked movements, with no limits imposed on colour. The latest offering from ArtyA follows the path of the Purity Tourbillon Sport Editions with configurable features released earlier this year. While the new Purity",
     "sourceUrl": "https://monochrome-watches.com/artya-purity-curvy-hms-sapphire-sport-edition-first-look-hands-on-price/",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-13T18:30:14.436Z",
+    "createdAt": "2026-11-14T03:37:58.264Z",
     "validityHours": 24,
     "specsPreview": {
       "mercado": "Grandes Leilões Internacionais",
@@ -254,64 +308,10 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://monochrome-watches.com/app/uploads/2026/11/Artya-Purity-Curvy-HMS-Sapphire-Sport-Edition-review-9-600x237.jpg",
     "imageIsFallback": false,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-arquitetura-mwfbarv2-h9mt",
-    "source": "Sotheby's & Christie's Auctions",
-    "sourceCategory": "Arquitetura",
-    "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "rankingScore": 85,
-    "rankingTier": "B",
-    "originalTitle": "The ‘Mona Lisa of pink diamonds’ is one of the rarest on Earth — and just sold for $14.6M - New York Post",
-    "suggestedHook": "Patrimônio & Leilões: The ‘Mona Lisa of pink diamonds’ is one of the rarest on Earth — and just sold for $14.6M",
-    "summary": "The ‘Mona Lisa of pink diamonds’ is one of the rarest on Earth — and just sold for $14.6M New York Post",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbWNYSTlUYXlNUEYxRDRWbGxVQWx4VlpCa1hCTnZxbWNaVmlZRWpQc1Uzcmc2anBXZnJTUDFQTkZQeVVWRGxQYk04cjM0QzQwZ1lmZzY2YU5QOFI2NTl3TmtRd0lqY0ZUblIxa0prbVhRdDZGS0VXSzgxZURPUUlRTXJFbXZ3ZExCU3V0MExxSDR1aWdHcmkw?oc=5",
-    "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-13T18:30:15.950Z",
-    "validityHours": 24,
-    "specsPreview": {
-      "mercado": "Grandes Leilões Internacionais",
-      "custodia": "Refúgio de Liquidez Soberana",
-      "perfil": "Family Offices & Colecionadores",
-      "curadoria": "Henrique Vianna"
-    },
-    "suggestedImage": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&q=80&w=1400",
-    "imageIsFallback": true,
-    "status": "duplicate"
-  },
-  {
-    "id": "pauta-live-relogios-mwfbaqlj-bbjl",
-    "source": "Robb Report Global",
-    "sourceCategory": "Alta Relojoaria",
-    "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "authorSlug": "clara-meirelles",
-    "rankingScore": 83,
-    "rankingTier": "B",
-    "originalTitle": "Zenith and J.N. Shapiro Teamed Up on Gorgeous New G.F.J. Calibre 135",
-    "suggestedHook": "Alta Relojoaria: Zenith and J.N. Shapiro Teamed Up on Gorgeous New G.F.J. Calibre 135",
-    "summary": "The Swiss brand courts new collectors with a G.F.J. Double Signed featuring the American watchmaker.",
-    "sourceUrl": "https://robbreport.com/style/watch-collector/zenith-jn-shapiro-gfj-calibre-135-double-signed-1238837306/",
-    "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-13T18:30:14.311Z",
-    "validityHours": 24,
-    "specsPreview": {
-      "calibre": "Mecânico de alta complicação",
-      "acabamento": "Tradição artesanal suíça",
-      "curadoria": "Mesa de Alta Horologia",
-      "estilo": "Peça de Colecionador"
-    },
-    "suggestedImage": "https://robbreport.com/wp-content/uploads/2026/11/zenith-j-n-shapiro-watch.jpg",
-    "imageIsFallback": false,
-    "status": "duplicate"
-  },
-  {
-    "id": "pauta-live-relogios-mwfbaqot-d0ix",
+    "id": "pauta-live-relogios-mwfuv4kx-9bzp",
     "source": "Monochrome Watches",
     "sourceCategory": "Alta Relojoaria",
     "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
@@ -325,7 +325,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Founded by Richard Benc, British brand Studio Underd0g launched in 2020 with a design-led series that broke from the watch industry’s usual conventions. Its colourful chronographs, fun dial designs, and collaborations have helped it establish its identity, while accessible prices have attracted a growing following. As",
     "sourceUrl": "https://monochrome-watches.com/studio-underd0g-04series-calendar-collection-retrograde-date-weekend-indicator-new-seagull-movement-value-proposition-introducing-price/",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-13T18:30:14.429Z",
+    "createdAt": "2026-11-14T03:37:58.257Z",
     "validityHours": 24,
     "specsPreview": {
       "calibre": "Mecânico de alta complicação",
@@ -335,33 +335,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://monochrome-watches.com/app/uploads/2026/11/Studio-Underd0g-04Series-calendar-Weekend-Indicator-6-600x237.jpg",
     "imageIsFallback": false,
-    "status": "duplicate"
-  },
-  {
-    "id": "pauta-live-supercarros-mwes0b23-2yi5",
-    "source": "Google News Motors (Ferrari/Bugatti)",
-    "sourceCategory": "Supercarros",
-    "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "rankingScore": 87,
-    "rankingTier": "B",
-    "originalTitle": "The new records set by Toyota's Hypercar trio with WEC 2026 title - Motorsport.com",
-    "suggestedHook": "Hipercarros: The new records set by Toyota's Hypercar trio with WEC 2026 title",
-    "summary": "The new records set by Toyota's Hypercar trio with WEC 2026 title Motorsport.com",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdklISkxoRzRRZ1RsSmZVOTgwc3BDX3lyeHF4VHBOc2ZEVTd6X2dxcVRVOEc0bVRhcl9laFJsRF94b0J2XzRvbWt3Q05MQlBsU25oTEIzRXVONFRvOUZWbE8taGliSW4wQ2tKRmJ5WVByUGRlNDBMNE9oMVRYTEJPdmtISGttdnpJbHZIZ01Odmk1TWhNdm8tSGFTeFY5T2lielJOSnlXRktlc3JqSzJn?oc=5",
-    "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-13T09:30:14.907Z",
-    "validityHours": 24,
-    "specsPreview": {
-      "categoria": "Hipercarro de Colecionismo",
-      "telemetria": "Calibração de pista",
-      "curadoria": "Gabriel Fontes"
-    },
-    "suggestedImage": "https://images.unsplash.com/photo-1650444684180-3f72abb15263?auto=format&fit=crop&q=80&w=1400",
-    "imageIsFallback": true,
-    "status": "duplicate"
+    "status": "available"
   }
 ];
 
