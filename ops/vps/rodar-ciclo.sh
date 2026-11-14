@@ -78,7 +78,11 @@ publicar() {
     echo "PUBLICACAO_PULADA: DEPLOY_KEY ausente. Commit ficou só neste clone." >&2
     return 0
   fi
-  export GIT_SSH_COMMAND="ssh -i $DEPLOY_KEY -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new"
+  # IdentityAgent=none nao e enfeite: sob systemd o SSH_AUTH_SOCK da sessao desktop esta
+  # alcancavel, as duas deploy keys do Mac chegam pela ordem do agente, e o GitHub
+  # aceita a primeira como credencial. Se ela for a chave de outro repo, o ssh nem
+  # tenta a segunda e o push morre em "denied to deploy key".
+  export GIT_SSH_COMMAND="ssh -i $DEPLOY_KEY -o IdentitiesOnly=yes -o IdentityAgent=none -o StrictHostKeyChecking=accept-new"
   git pull --rebase --autostash origin main --quiet || {
     echo "REBASE_FALHOU: main andou e o rebase não resolveu sozinho." >&2
     git rebase --abort >/dev/null 2>&1
