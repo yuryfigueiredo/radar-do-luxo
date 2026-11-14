@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-sailing-yacht-a-143-metros-de-ac-7137",
+    "slug": "sailing-yacht-a-143-metros-de-aco-e-vidro-em-custodia-judicial-no-mediterraneo-7125",
+    "title": "Sailing Yacht A: 143 Metros de Aço e Vidro em Custódia Judicial no Mediterrâneo",
+    "image": "https://images.unsplash.com/photo-1783344422200-a5493824bcb9?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxNWEJNNS01bFFrU3ZSV2dzZGJqd2R4TGpYZXJZcERLdXdzVlJCV0tmTmJ0WHpkcHFNY0UySkJGZkgwVUFHLU9mN2NuNmJTZzlGSlhtbFltRVRNM1J2T20yTWxNd2RBSWl5Tkk0SXBzSGd2aERPN3BWck1iVnFKWmVVNDV2TXhlRWRwdmVNbzdhUjFYdmJVYXQxeFRZZ0gxcjdYeG10Y3p6dzlmVmZhUFllam5YYVREMUhVS3NDYnk3ZzN0SVRBLW9mZDJ1TVdxUXM0UXhxQV8tTW5HZ0NJODlubVZrMExiUFB3cTIxTEh3T3pxcXNDNXFBWEJlMDExWUREaXktaWs1RFVheXFveWRxamMwdnl0Tmw0MWl2NVdaa3JTX0NoVmpTMDdyMFRfV3l1d3o2NFYzdzVrSmpDUzRfb21vWU5BRTQ0Sl9odlE3Q2IxeDRfcWZKTtIB3gJBVV95cUxPa1VCTVU5Rjh6ZEFLZThBNUE2U2FMVnlETy1aeHREOW9FTUV4TlcyZUk1NGtMYXhWYzFBeXVXYkZwY0NCTXVtelNEbmNzR2JwMjBERTN0SjVNb2xTZ0x3N2ZoSFhFQmxjaWFxVHoxUjJhRUNnMjlDTEF5Tkh0THowdkh6MVRhVEx1c2JpdlZPOEZHMHZaRUNxVnNPSF91VVRJaldBSURUVTRhQTh4TDNXemphbkFIOTJ5bmZtVDNTalFUbkI3YVAxQkhQcHI1MlliZ2d3Y1RlOFNibWNta2FHR2FsdTR3YUVCUTlpSWRVN3dlOWdUQ0NwQUdNXzNtUWUzNFE2LXdkVHZaRW9pTWRjN2xyYUNnY3Rpc1dwRnE3Vl9lMlFqM3ZtSzRZNVUtbm9rS2p6NnFjdmhGeDQyYndVSEtWMHNhOW1ZR3VFMEg3T1VveXEtZHNJOUlTNkEydw?oc=5",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-14T18:34:47.136Z"
+  },
+  {
     "id": "art-ferrari-250-gto-de-us-10-milhoes-3378",
     "slug": "ferrari-250-gto-de-us-10-milhoes-o-fetiche-de-engenharia-preso-em-uma-custodia-de-silencio-mineral-3369",
     "title": "Ferrari 250 GTO de US$ 10 Milhões: O Fetiche de Engenharia Preso em uma Custódia de Silêncio Mineral",

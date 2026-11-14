@@ -116,6 +116,59 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-sailing-yacht-a-143-metros-de-ac-7137",
+    "slug": "sailing-yacht-a-143-metros-de-aco-e-vidro-em-custodia-judicial-no-mediterraneo-7125",
+    "title": "Sailing Yacht A: 143 Metros de Aço e Vidro em Custódia Judicial no Mediterrâneo",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "14 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1783344422200-a5493824bcb9?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A silhueta disruptiva de Philippe Starck enfrenta a imobilidade forçada em Trieste. O projeto de 600 milhões de dólares permanece como um monumento à engenharia de vanguarda e à incerteza geopolítica.",
+    "contentParagraphs": [
+      "O Sailing Yacht A não solicita atenção; ele a sequestra. Com seus 143 metros de comprimento, a embarcação desafia os cânones da arquitetura naval clássica ao substituir a elegância das linhas de flutuação por um volume bruto, quase militar. Sua proa invertida corta o mar com a frieza de um bisturi, enquanto o monocoque em aço de alta resistência, finalizado com tintas de base metálica, reflete a luz do Adriático como um espelho convexo distorcido.",
+      "Sob o convés, a engenharia atinge o ápice da complexidade hidrodinâmica. O sistema de propulsão diesel-elétrico híbrido é gerenciado por uma rede de telemetria inercial que monitora a estabilidade dinâmica em cada nó de velocidade. Seus três mastros em fibra de carbono, os maiores do mundo, operam através de um sistema automatizado de controle de carga, capazes de içar velas com área superior a um campo de futebol americano, mantendo tolerâncias de mícrons nos mecanismos de acionamento sob ventos de força 8.",
+      "A imobilidade atual em Trieste é uma anomalia estatística para uma máquina projetada para o movimento perpétuo. O custo de manutenção, avaliado em milhões de euros anuais, segue ativo, mesmo com a embarcação ancorada em um limbo jurídico. Enquanto o sistema de tratamento de águas negras e os geradores de dessalinização trabalham em ciclos de conservação, o iate torna-se uma peça de museu forçada, um gigante de 12.600 toneladas de deslocamento esperando por uma liberação que as leis internacionais ainda hesitam em conceder.",
+      "O veredito de Philippe Starck sobre a estética do projeto — frequentemente rotulado como o mais controverso do século — perde relevância diante da soberania da engenharia naval pura. O Sailing Yacht A não foi concebido para agradar o olhar comum, mas para dominar a física dos fluidos com audácia tecnológica. Seja pela sua silhueta polarizante ou pela complexidade de seus sistemas de bordo, ele permanece como o maior testemunho de que, no luxo extremo, a funcionalidade é apenas uma sugestão secundária."
+    ],
+    "content_paragraphs": [
+      "O Sailing Yacht A não solicita atenção; ele a sequestra. Com seus 143 metros de comprimento, a embarcação desafia os cânones da arquitetura naval clássica ao substituir a elegância das linhas de flutuação por um volume bruto, quase militar. Sua proa invertida corta o mar com a frieza de um bisturi, enquanto o monocoque em aço de alta resistência, finalizado com tintas de base metálica, reflete a luz do Adriático como um espelho convexo distorcido.",
+      "Sob o convés, a engenharia atinge o ápice da complexidade hidrodinâmica. O sistema de propulsão diesel-elétrico híbrido é gerenciado por uma rede de telemetria inercial que monitora a estabilidade dinâmica em cada nó de velocidade. Seus três mastros em fibra de carbono, os maiores do mundo, operam através de um sistema automatizado de controle de carga, capazes de içar velas com área superior a um campo de futebol americano, mantendo tolerâncias de mícrons nos mecanismos de acionamento sob ventos de força 8.",
+      "A imobilidade atual em Trieste é uma anomalia estatística para uma máquina projetada para o movimento perpétuo. O custo de manutenção, avaliado em milhões de euros anuais, segue ativo, mesmo com a embarcação ancorada em um limbo jurídico. Enquanto o sistema de tratamento de águas negras e os geradores de dessalinização trabalham em ciclos de conservação, o iate torna-se uma peça de museu forçada, um gigante de 12.600 toneladas de deslocamento esperando por uma liberação que as leis internacionais ainda hesitam em conceder.",
+      "O veredito de Philippe Starck sobre a estética do projeto — frequentemente rotulado como o mais controverso do século — perde relevância diante da soberania da engenharia naval pura. O Sailing Yacht A não foi concebido para agradar o olhar comum, mas para dominar a física dos fluidos com audácia tecnológica. Seja pela sua silhueta polarizante ou pela complexidade de seus sistemas de bordo, ele permanece como o maior testemunho de que, no luxo extremo, a funcionalidade é apenas uma sugestão secundária."
+    ],
+    "specs": {
+      "Comprimento": "143 metros",
+      "Deslocamento": "12.600 toneladas",
+      "Propulsão": "Híbrida Diesel-Elétrica",
+      "Mastros": "Fibra de Carbono (3 unidades)",
+      "Custo Estimado": "600 milhões de dólares",
+      "Design": "Philippe Starck"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "gemini:gemini-3.1-flash-lite",
+    "publishedAt": "2026-11-14T18:34:47.136Z",
+    "published_at": "2026-11-14T18:34:47.136Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxNWEJNNS01bFFrU3ZSV2dzZGJqd2R4TGpYZXJZcERLdXdzVlJCV0tmTmJ0WHpkcHFNY0UySkJGZkgwVUFHLU9mN2NuNmJTZzlGSlhtbFltRVRNM1J2T20yTWxNd2RBSWl5Tkk0SXBzSGd2aERPN3BWck1iVnFKWmVVNDV2TXhlRWRwdmVNbzdhUjFYdmJVYXQxeFRZZ0gxcjdYeG10Y3p6dzlmVmZhUFllam5YYVREMUhVS3NDYnk3ZzN0SVRBLW9mZDJ1TVdxUXM0UXhxQV8tTW5HZ0NJODlubVZrMExiUFB3cTIxTEh3T3pxcXNDNXFBWEJlMDExWUREaXktaWs1RFVheXFveWRxamMwdnl0Tmw0MWl2NVdaa3JTX0NoVmpTMDdyMFRfV3l1d3o2NFYzdzVrSmpDUzRfb21vWU5BRTQ0Sl9odlE3Q2IxeDRfcWZKTtIB3gJBVV95cUxPa1VCTVU5Rjh6ZEFLZThBNUE2U2FMVnlETy1aeHREOW9FTUV4TlcyZUk1NGtMYXhWYzFBeXVXYkZwY0NCTXVtelNEbmNzR2JwMjBERTN0SjVNb2xTZ0x3N2ZoSFhFQmxjaWFxVHoxUjJhRUNnMjlDTEF5Tkh0THowdkh6MVRhVEx1c2JpdlZPOEZHMHZaRUNxVnNPSF91VVRJaldBSURUVTRhQTh4TDNXemphbkFIOTJ5bmZtVDNTalFUbkI3YVAxQkhQcHI1MlliZ2d3Y1RlOFNibWNta2FHR2FsdTR3YUVCUTlpSWRVN3dlOWdUQ0NwQUdNXzNtUWUzNFE2LXdkVHZaRW9pTWRjN2xyYUNnY3Rpc1dwRnE3Vl9lMlFqM3ZtSzRZNVUtbm9rS2p6NnFjdmhGeDQyYndVSEtWMHNhOW1ZR3VFMEg3T1VveXEtZHNJOUlTNkEydw?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxNWEJNNS01bFFrU3ZSV2dzZGJqd2R4TGpYZXJZcERLdXdzVlJCV0tmTmJ0WHpkcHFNY0UySkJGZkgwVUFHLU9mN2NuNmJTZzlGSlhtbFltRVRNM1J2T20yTWxNd2RBSWl5Tkk0SXBzSGd2aERPN3BWck1iVnFKWmVVNDV2TXhlRWRwdmVNbzdhUjFYdmJVYXQxeFRZZ0gxcjdYeG10Y3p6dzlmVmZhUFllam5YYVREMUhVS3NDYnk3ZzN0SVRBLW9mZDJ1TVdxUXM0UXhxQV8tTW5HZ0NJODlubVZrMExiUFB3cTIxTEh3T3pxcXNDNXFBWEJlMDExWUREaXktaWs1RFVheXFveWRxamMwdnl0Tmw0MWl2NVdaa3JTX0NoVmpTMDdyMFRfV3l1d3o2NFYzdzVrSmpDUzRfb21vWU5BRTQ0Sl9odlE3Q2IxeDRfcWZKTtIB3gJBVV95cUxPa1VCTVU5Rjh6ZEFLZThBNUE2U2FMVnlETy1aeHREOW9FTUV4TlcyZUk1NGtMYXhWYzFBeXVXYkZwY0NCTXVtelNEbmNzR2JwMjBERTN0SjVNb2xTZ0x3N2ZoSFhFQmxjaWFxVHoxUjJhRUNnMjlDTEF5Tkh0THowdkh6MVRhVEx1c2JpdlZPOEZHMHZaRUNxVnNPSF91VVRJaldBSURUVTRhQTh4TDNXemphbkFIOTJ5bmZtVDNTalFUbkI3YVAxQkhQcHI1MlliZ2d3Y1RlOFNibWNta2FHR2FsdTR3YUVCUTlpSWRVN3dlOWdUQ0NwQUdNXzNtUWUzNFE2LXdkVHZaRW9pTWRjN2xyYUNnY3Rpc1dwRnE3Vl9lMlFqM3ZtSzRZNVUtbm9rS2p6NnFjdmhGeDQyYndVSEtWMHNhOW1ZR3VFMEg3T1VveXEtZHNJOUlTNkEydw?oc=5"
+  },
+  {
     "id": "art-ferrari-250-gto-de-us-10-milhoes-3378",
     "slug": "ferrari-250-gto-de-us-10-milhoes-o-fetiche-de-engenharia-preso-em-uma-custodia-de-silencio-mineral-3369",
     "title": "Ferrari 250 GTO de US$ 10 Milhões: O Fetiche de Engenharia Preso em uma Custódia de Silêncio Mineral",
@@ -177,7 +230,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "14 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -205,10 +258,10 @@ export const ARTICLES = [
       "Investigação": "Conclusão Oficial Italiana de Acidentes Marítimos"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 89,
@@ -1364,64 +1417,20 @@ export const ARTICLES = [
     "published_at": "2026-11-08T22:06:36.802Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcUJoUXYzMXJQSDdjcUgxX09SUXBHdExLM24wVjF2T0tJNEhKLUxzaVBRdEt0UGZOaUF0UjYwTWlFa3lnbE10UjJrYUsxbHpEZzFVSGVrMldEVFA0SlluVTctTlRwTkphQUlMc0JOaGFQZ05NWnQtYmdMRXYyUEFzYXhPb3lKODVZTERSY29TeUtfMmo0QlRPbTB1ZlJHZEE?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcUJoUXYzMXJQSDdjcUgxX09SUXBHdExLM24wVjF2T0tJNEhKLUxzaVBRdEt0UGZOaUF0UjYwTWlFa3lnbE10UjJrYUsxbHpEZzFVSGVrMldEVFA0SlluVTctTlRwTkphQUlMc0JOaGFQZ05NWnQtYmdMRXYyUEFzYXhPb3lKODVZTERSY29TeUtfMmo0QlRPbTB1ZlJHZEE?oc=5"
-  },
-  {
-    "id": "art-aitek-hypercar-o-prototipo-eletr-7066",
-    "slug": "aitek-hypercar-o-prototipo-eletrico-de-2400-cv-com-vetorizacao-de-torque-que-eclipsou-a-fisica-de-molsheim-7056",
-    "title": "Aitek Hypercar: O Protótipo Elétrico de 2.400 cv com Vetorização de Torque que Eclipsou a Física de Molsheim",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "08 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1610880709844-b97111a986f7?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "A supremacia incontestável dos motores de combustão interna sofreu um abalo sísmico na telemetria. Um hipercarro oriental de arquitetura totalmente elétrica pulverizou recordes de velocidade em pista fechada.",
-    "contentParagraphs": [
-      "O silêncio do asfalto foi rasgado por uma frequência sônica aguda de 18.000 RPM. Quatro motores síncronos de ímãs permanentes entregam torque instantâneo através de um monocoque em carbo-titânio curado em autoclave a 6 bar. Não há hesitação mecânica. O empuxo é brutal, imediato e implacável com os órgãos internos do piloto.",
-      "A aerodinâmica ativa gerencia fluxos de Venturi de efeito solo por meio de atuadores piezoelétricos com tolerância de mícrons. A força G lateral atinge picos de 3,4G em curvas de alta velocidade, exigindo ligas de Inconel 625 e titânio aeroespacial para suportar as cargas estruturais extremas sem deformação plástica.",
-      "Enquanto a Europa debate a transição energética em gabinetes burocráticos, laboratórios asiáticos acumulam quilômetros de testes em túneis de vento subcríticos. Cada componente foi usinado a partir de blocos maciços de liga metálica, priorizando a rigidez torcional absoluta em detrimento de qualquer concessão comercial ou modismo digital.",
-      "A era dos grandes blocos térmicos enfrenta o seu crepúsculo técnico diante da supremacia dos elétrons hiperdimensionados. A engenharia pura não busca nostalgia; ela apenas redefine os limites da física quando submetida a um orçamento infinito e rigor implacável."
-    ],
-    "content_paragraphs": [
-      "O silêncio do asfalto foi rasgado por uma frequência sônica aguda de 18.000 RPM. Quatro motores síncronos de ímãs permanentes entregam torque instantâneo através de um monocoque em carbo-titânio curado em autoclave a 6 bar. Não há hesitação mecânica. O empuxo é brutal, imediato e implacável com os órgãos internos do piloto.",
-      "A aerodinâmica ativa gerencia fluxos de Venturi de efeito solo por meio de atuadores piezoelétricos com tolerância de mícrons. A força G lateral atinge picos de 3,4G em curvas de alta velocidade, exigindo ligas de Inconel 625 e titânio aeroespacial para suportar as cargas estruturais extremas sem deformação plástica.",
-      "Enquanto a Europa debate a transição energética em gabinetes burocráticos, laboratórios asiáticos acumulam quilômetros de testes em túneis de vento subcríticos. Cada componente foi usinado a partir de blocos maciços de liga metálica, priorizando a rigidez torcional absoluta em detrimento de qualquer concessão comercial ou modismo digital.",
-      "A era dos grandes blocos térmicos enfrenta o seu crepúsculo técnico diante da supremacia dos elétrons hiperdimensionados. A engenharia pura não busca nostalgia; ela apenas redefine os limites da física quando submetida a um orçamento infinito e rigor implacável."
-    ],
-    "specs": {
-      "Arquitetura Motriz": "Quadri-motor elétrico síncrono",
-      "Potência Máxima": "2.400 cv nominais",
-      "Chassi": "Monocoque em carbo-titânio de cura em autoclave",
-      "Gerenciamento Aerodinâmico": "Efeito solo ativo com dutos Venturi",
-      "Tolerância Estrutural": "Mícrons na usinagem dos mancais"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 88,
-    "ranking_score": 88,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-08T18:25:37.066Z",
-    "published_at": "2026-11-08T18:25:37.066Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWTc4REF1cU1rZWxoUVkyRG5neG1hZnNwQml0NjdnSG96cW43RWxLd1VydjNHbXg4RFBpT3VSZ0NJTnl5NlFXeGFEUlVqcnJCeG1wZlo3WEVkQ2VIOC1ObjAtMF9iT2dPSkVkUEQwYnlTenFYNVU0V29SSUJOdHdmcjZQVXI0OVU?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWTc4REF1cU1rZWxoUVkyRG5neG1hZnNwQml0NjdnSG96cW43RWxLd1VydjNHbXg4RFBpT3VSZ0NJTnl5NlFXeGFEUlVqcnJCeG1wZlo3WEVkQ2VIOC1ObjAtMF9iT2dPSkVkUEQwYnlTenFYNVU0V29SSUJOdHdmcjZQVXI0OVU?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "DESTINOS",
+    "title": "Estaleiros da Tunísia: Os 558 Milhões ...",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800",
+    "tag": "CURADORIA RADAR",
+    "slug": "estaleiros-da-tunisia-os-558-milhoes-de-dolares-em-componentes-navais-que-cruzam-o-mediterraneo-com-tolerancia-de-microns-2331"
+  },
+  {
+    "id": "film-2",
     "category": "ARQUITETURA",
     "title": "Alta Joalheria em Leilão: O Refúgio de...",
     "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800",
@@ -1429,7 +1438,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "alta-joalheria-em-leilao-o-refugio-de-liquidez-de-us-85-milhoes-em-diamantes-type-iia-que-desafiam-a-inflacao-global-7916"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Ferrari F355 de Jeremy Clarkson: O V8 ...",
     "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
@@ -1437,7 +1446,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-f355-de-jeremy-clarkson-o-v8-aspirado-de-35-litros-e-cambio-manual-em-gated-shifter-retorna-ao-leilao-5851"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Ferrari 12Cilindri: O V12 Aspirado de ...",
     "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
@@ -1445,7 +1454,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-12cilindri-o-v12-aspirado-de-9500-rpm-e-pintura-two-tone-flagrado-no-asfalto-de-monaco-4549"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "ESTILO",
     "title": "Hermès Birkin: O Protótipo Original de...",
     "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=max&q=80&w=1400",
@@ -1453,20 +1462,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "hermes-birkin-o-prototipo-original-de-jane-birkin-que-vai-a-leilao-com-marcas-de-uso-e-essencia-de-paris-1139"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "ARQUITETURA",
     "title": "Gold Coast: A Residência de 47,5 Milhõ...",
     "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
     "tag": "CURADORIA RADAR",
     "slug": "gold-coast-a-residencia-de-475-milhoes-de-dolares-em-travertino-romano-que-desafia-o-recorde-imobiliario-da-australia-8416"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Aston Martin: O Equilíbrio Financeiro ...",
-    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "aston-martin-o-equilibrio-financeiro-precario-e-a-ilusao-de-rivalizar-com-a-hegemonia-de-maranello-5922"
   }
 ];
 
