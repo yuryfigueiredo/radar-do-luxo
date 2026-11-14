@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-ferrari-sp12-ec-a-obra-prima-uni-7247",
+    "slug": "ferrari-sp12-ec-a-obra-prima-unica-de-us-47-milhoes-que-fundiu-a-arquitetura-da-512bb-com-o-v8-biturbo-7179",
+    "title": "Ferrari SP12 EC: A Obra-Prima Única de US$ 4,7 Milhões que Fundiu a Arquitetura da 512BB com o V8 Biturbo",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "14 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1660326040484-fc0cb33d0b23?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "Encomendada por Eric Clapton sob estrita supervisão de Maranello, esta unidade única redefine a exclusividade mecânica através de uma carroçaria modelada para honrar um ícone do passado.",
+    "contentParagraphs": [
+      "O silêncio do asfalto cedeu espaço ao estampido mecânico. Eric Clapton exigiu a alma da 512BB em um chassi moderno. Maranello atendeu com uma escultura de US$ 4,7 milhões.",
+      "Sob a tampa traseira esculpida à mão, repousa um motor V8 biturbo ajustado com tolerâncias de mícrons. A força G lateral comprime o tórax enquanto o fluxo de Venturi cola o chassi ao solo com precisão cirúrgica.",
+      "Não há concessões estéticas gratuitas. Cada painel em alumínio e compósito foi forjado para canalizar ar diretamente para os radiadores, transformando a aerodinâmica em uma arma cinética implacável.",
+      "A SP12 EC permanece isolada no topo da raridade automotiva. Um monumento rodoviário onde o pedigree histórico do rock n' roll encontrou a engenharia mais intransigente da Itália."
+    ],
+    "content_paragraphs": [
+      "O silêncio do asfalto cedeu espaço ao estampido mecânico. Eric Clapton exigiu a alma da 512BB em um chassi moderno. Maranello atendeu com uma escultura de US$ 4,7 milhões.",
+      "Sob a tampa traseira esculpida à mão, repousa um motor V8 biturbo ajustado com tolerâncias de mícrons. A força G lateral comprime o tórax enquanto o fluxo de Venturi cola o chassi ao solo com precisão cirúrgica.",
+      "Não há concessões estéticas gratuitas. Cada painel em alumínio e compósito foi forjado para canalizar ar diretamente para os radiadores, transformando a aerodinâmica em uma arma cinética implacável.",
+      "A SP12 EC permanece isolada no topo da raridade automotiva. Um monumento rodoviário onde o pedigree histórico do rock n' roll encontrou a engenharia mais intransigente da Itália."
+    ],
+    "specs": {
+      "motorizacao": "V8 biturbo de 4.5 litros",
+      "chassi": "Monocoque em liga leve e alumínio",
+      "investimento": "US$ 4.700.000",
+      "tiragem": "Unidade única (One-Off)",
+      "aerodinamica": "Efeito solo otimizado por túnel de vento"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 98,
+    "ranking_score": 98,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-14T03:53:47.247Z",
+    "published_at": "2026-11-14T03:53:47.247Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxORy02ZGt3VnJVYnk3bGVWZUxxdHhCUTE2RGxjVjlIWVo2ZDlUMV9iYkd0akRnQ3VGc0Nvdlc1cUpxTkxZZnpIdm1sbkQ2LXJwZ0RBU3JCbkFZSUd4ZWMzR2ZmMk1heDVTaVdkbHFkOXhCUVpwYllkZ0ZTNHlwX2FOa0lLSlpaeW9pU0tHRURUWnhnbVRxQ2NjWDk5OWJJb0pHNXU4a0dMNG9EM2E1QWQwUkxvRWZ2QkY1NFAzeTJYdDYyc1RDTnV2N0VSNUY2VGZOZWgzd2lCRl84R1RLc0kyWG1OWldnZ0hYem5HX0lzY0tDMjVX0gGIAkFVX3lxTFBsbzFLdUc2YTVQZW9Ma1NfbVN6WkJGdnU0dENWVHNXVE4xSWx5MGJvYmxDdjhpci1lTzNsdV8teW91M3JRUzJ0dDg5NGUzVjB3Y3o4RDI4bjdIWlVCb1RSbnFkdUY1VEd0Ri1EUHJiNU1DUGkxUW1pWjdJYXBITXBSTEIxYVJCQUlVZVI4QXlZQjZUSlFlRnVZcXdVVDJ0b1ZpQjlkQ2VGM1dqOUo4VE1oZXZiRnBGa0t6R1FIS240cVVLWDg1a0p4ZGozZl9wM1hQbVFLUkRtX0ppbVd1N190cUFXckl5NlhQOWMzdFNZY1A4LVRKRUoxR05BWEJRaWYtYzVGdGk1NA?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxORy02ZGt3VnJVYnk3bGVWZUxxdHhCUTE2RGxjVjlIWVo2ZDlUMV9iYkd0akRnQ3VGc0Nvdlc1cUpxTkxZZnpIdm1sbkQ2LXJwZ0RBU3JCbkFZSUd4ZWMzR2ZmMk1heDVTaVdkbHFkOXhCUVpwYllkZ0ZTNHlwX2FOa0lLSlpaeW9pU0tHRURUWnhnbVRxQ2NjWDk5OWJJb0pHNXU4a0dMNG9EM2E1QWQwUkxvRWZ2QkY1NFAzeTJYdDYyc1RDTnV2N0VSNUY2VGZOZWgzd2lCRl84R1RLc0kyWG1OWldnZ0hYem5HX0lzY0tDMjVX0gGIAkFVX3lxTFBsbzFLdUc2YTVQZW9Ma1NfbVN6WkJGdnU0dENWVHNXVE4xSWx5MGJvYmxDdjhpci1lTzNsdV8teW91M3JRUzJ0dDg5NGUzVjB3Y3o4RDI4bjdIWlVCb1RSbnFkdUY1VEd0Ri1EUHJiNU1DUGkxUW1pWjdJYXBITXBSTEIxYVJCQUlVZVI4QXlZQjZUSlFlRnVZcXdVVDJ0b1ZpQjlkQ2VGM1dqOUo4VE1oZXZiRnBGa0t6R1FIS240cVVLWDg1a0p4ZGozZl9wM1hQbVFLUkRtX0ppbVd1N190cUFXckl5NlhQOWMzdFNZY1A4LVRKRUoxR05BWEJRaWYtYzVGdGk1NA?oc=5"
+  },
+  {
     "id": "art-lurssen-barcelona-o-ponto-de-res-9500",
     "slug": "lurssen-barcelona-o-ponto-de-resposta-rapida-247-com-equipe-volante-para-superiates-de-ate-525-pes-no-mediterraneo-8784",
     "title": "Lürssen Barcelona: O Ponto de Resposta Rápida 24/7 com Equipe Volante para Superiates de Até 525 Pés no Mediterrâneo",
@@ -1365,64 +1417,20 @@ export const ARTICLES = [
     "published_at": "2026-11-06T22:53:57.246Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRlc2YUN0T2pQeXJLMlg2TzA5aXVqUnpOblpXVmVWc0txeXc4RTIzOVkzR0xoT3A2RF82Q1FqcjZwN1dxa3F0QW1vWWtSQ3FBd3RYMU9PWGRyZHJ6ek4zQnY3UjZyLWJBbnFqWDhBM0RNVlpFNDZQX2locU5ldDA3N1lWMzMzaGc3UjF1UUdGckhxZHJMak9uZGQwTk9aTy1h?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRlc2YUN0T2pQeXJLMlg2TzA5aXVqUnpOblpXVmVWc0txeXc4RTIzOVkzR0xoT3A2RF82Q1FqcjZwN1dxa3F0QW1vWWtSQ3FBd3RYMU9PWGRyZHJ6ek4zQnY3UjZyLWJBbnFqWDhBM0RNVlpFNDZQX2locU5ldDA3N1lWMzMzaGc3UjF1UUdGckhxZHJMak9uZGQwTk9aTy1h?oc=5"
-  },
-  {
-    "id": "art-sarasota-record-a-cobertura-de-u-9940",
-    "slug": "sarasota-record-a-cobertura-de-us-145-milhoes-que-estabelece-o-novo-padrao-fiduciario-em-concreto-macico-e-travertino-na-costa-da-florida-9914",
-    "title": "Sarasota Record: A Cobertura de US$ 14,5 Milhões que Estabelece o Novo Padrão Fiduciário em Concreto Maciço e Travertino na Costa da Flórida",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "06 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A transação monumental confirma o avanço inexorável de capitais soberanos em busca de ativos imunes com ancoragem estrutural e heliponto privativo.",
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Na costa oeste da Flórida, a aquisição desta cobertura por US$ 14,5 milhões não representa mera especulação imobiliária, mas um ato cirúrgico de alocação patrimonial. Trata-se de uma fortaleza à beira-mar desenhada para resistir às intempéries do tempo e à volatilidade dos mercados globais.",
-      "A engenharia desta residência rejeita a fragilidade do urbanismo moderno. O projeto estrutural emprega lajes de concreto maciço moldadas in loco, revestidas inteiramente em travertino romano Navona e caixilharia de vidro balístico com certificação de impacto severo. Cada centímetro quadrado foi calculado para oferecer isolamento acústico absoluto frente ao Atlântico, enquanto a cobertura abriga um heliponto privativo homologado para pousos de aeronaves de grande porte sob qualquer condição meteorológica.",
-      "Family offices globais redirecionam frotas de capital para ativos físicos tangíveis. O litoral de Sarasota emerge como um refúgio de liquidez imune, onde o metro quadrado fortificado substitui títulos públicos vulneráveis. A soberania patrimonial exige paredes espessas, anonimato jurídico rigoroso e uma arquitetura brutalista suave que dialoga diretamente com o oceano sem expor seus ocupantes ao escrutínio público.",
-      "Henrique Vianna, editor-chefe e curador de patrimônio imune, chancela o marco fiduciário. Propriedades desta magnitude não pertencem ao ciclo volátil das tendências sazonais. São monumentos de concreto e vidro destinados à custódia fiduciária intergeracional, onde a verdadeira riqueza se traduz na tranquilidade imperturbável de um horizonte particular."
-    ],
-    "content_paragraphs": [
-      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Na costa oeste da Flórida, a aquisição desta cobertura por US$ 14,5 milhões não representa mera especulação imobiliária, mas um ato cirúrgico de alocação patrimonial. Trata-se de uma fortaleza à beira-mar desenhada para resistir às intempéries do tempo e à volatilidade dos mercados globais.",
-      "A engenharia desta residência rejeita a fragilidade do urbanismo moderno. O projeto estrutural emprega lajes de concreto maciço moldadas in loco, revestidas inteiramente em travertino romano Navona e caixilharia de vidro balístico com certificação de impacto severo. Cada centímetro quadrado foi calculado para oferecer isolamento acústico absoluto frente ao Atlântico, enquanto a cobertura abriga um heliponto privativo homologado para pousos de aeronaves de grande porte sob qualquer condição meteorológica.",
-      "Family offices globais redirecionam frotas de capital para ativos físicos tangíveis. O litoral de Sarasota emerge como um refúgio de liquidez imune, onde o metro quadrado fortificado substitui títulos públicos vulneráveis. A soberania patrimonial exige paredes espessas, anonimato jurídico rigoroso e uma arquitetura brutalista suave que dialoga diretamente com o oceano sem expor seus ocupantes ao escrutínio público.",
-      "Henrique Vianna, editor-chefe e curador de patrimônio imune, chancela o marco fiduciário. Propriedades desta magnitude não pertencem ao ciclo volátil das tendências sazonais. São monumentos de concreto e vidro destinados à custódia fiduciária intergeracional, onde a verdadeira riqueza se traduz na tranquilidade imperturbável de um horizonte particular."
-    ],
-    "specs": {
-      "Valor da Transacao": "US$ 14,5 Milhões",
-      "Especificacao Estrutural": "Concreto armado maciço com cura retardada",
-      "Acabamento Externo e Interno": "Travertino Romano Navona polido",
-      "Mobilidade Executiva": "Heliponto privativo homologado na cobertura",
-      "Seguranca": "Vidros balísticos com certificação contra furacões de categoria 5"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 86,
-    "ranking_score": 86,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-06T23:05:09.939Z",
-    "published_at": "2026-11-06T23:05:09.939Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNEMxSUZsNERUU29USVc5ZGFDX3lWRHFVQW1xWFpWdTZXSUNzWGFqWnBUMGxmeWlGWkotRDlCMzQyZDI3UzJlTjBFaXZlZzFfS203UHlSanVZRDlOSUx2UGg0ZDhVcFFCNGlhNkdRMXZSS0htMmN5UjU0dEIyaWttZDBTc3lGQXl3YzF5ZXVISGlWdXJaeEVyR0pKSWE2N3BaWmZCMVVZMHhSWk1GSG44eGs2TkxBanpYd3VR?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNEMxSUZsNERUU29USVc5ZGFDX3lWRHFVQW1xWFpWdTZXSUNzWGFqWnBUMGxmeWlGWkotRDlCMzQyZDI3UzJlTjBFaXZlZzFfS203UHlSanVZRDlOSUx2UGg0ZDhVcFFCNGlhNkdRMXZSS0htMmN5UjU0dEIyaWttZDBTc3lGQXl3YzF5ZXVISGlWdXJaeEVyR0pKSWE2N3BaWmZCMVVZMHhSWk1GSG44eGs2TkxBanpYd3VR?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "SUPERCARROS",
+    "title": "Ferrari 12Cilindri: O V12 Aspirado de ...",
+    "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "ferrari-12cilindri-o-v12-aspirado-de-9500-rpm-e-pintura-two-tone-flagrado-no-asfalto-de-monaco-4549"
+  },
+  {
+    "id": "film-2",
     "category": "ESTILO",
     "title": "Hermès Birkin: O Protótipo Original de...",
     "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=max&q=80&w=1400",
@@ -1430,7 +1438,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "hermes-birkin-o-prototipo-original-de-jane-birkin-que-vai-a-leilao-com-marcas-de-uso-e-essencia-de-paris-1139"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "ARQUITETURA",
     "title": "Gold Coast: A Residência de 47,5 Milhõ...",
     "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
@@ -1438,7 +1446,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "gold-coast-a-residencia-de-475-milhoes-de-dolares-em-travertino-romano-que-desafia-o-recorde-imobiliario-da-australia-8416"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Aston Martin: O Equilíbrio Financeiro ...",
     "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
@@ -1446,7 +1454,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "aston-martin-o-equilibrio-financeiro-precario-e-a-ilusao-de-rivalizar-com-a-hegemonia-de-maranello-5922"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Bugatti Chiron: A Perseguição Transfro...",
     "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=max&q=85&w=1800",
@@ -1454,20 +1462,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "bugatti-chiron-a-perseguicao-transfronteirica-de-1500-cavalos-onde-o-ceo-trocou-o-w16-por-um-porsche-911-6302"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Aitek Hypercar: O Protótipo Elétrico d...",
     "image": "https://images.unsplash.com/photo-1610880709844-b97111a986f7?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "aitek-hypercar-o-prototipo-eletrico-de-2400-cv-com-vetorizacao-de-torque-que-eclipsou-a-fisica-de-molsheim-7056"
-  },
-  {
-    "id": "film-6",
-    "category": "ARQUITETURA",
-    "title": "Sarasota Record: A Cobertura de US$ 14...",
-    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "sarasota-record-a-cobertura-de-us-145-milhoes-que-estabelece-o-novo-padrao-fiduciario-em-concreto-macico-e-travertino-na-costa-da-florida-9914"
   }
 ];
 

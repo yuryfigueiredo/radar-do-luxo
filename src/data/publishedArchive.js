@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-ferrari-sp12-ec-a-obra-prima-uni-7247",
+    "slug": "ferrari-sp12-ec-a-obra-prima-unica-de-us-47-milhoes-que-fundiu-a-arquitetura-da-512bb-com-o-v8-biturbo-7179",
+    "title": "Ferrari SP12 EC: A Obra-Prima Única de US$ 4,7 Milhões que Fundiu a Arquitetura da 512BB com o V8 Biturbo",
+    "image": "https://images.unsplash.com/photo-1660326040484-fc0cb33d0b23?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxORy02ZGt3VnJVYnk3bGVWZUxxdHhCUTE2RGxjVjlIWVo2ZDlUMV9iYkd0akRnQ3VGc0Nvdlc1cUpxTkxZZnpIdm1sbkQ2LXJwZ0RBU3JCbkFZSUd4ZWMzR2ZmMk1heDVTaVdkbHFkOXhCUVpwYllkZ0ZTNHlwX2FOa0lLSlpaeW9pU0tHRURUWnhnbVRxQ2NjWDk5OWJJb0pHNXU4a0dMNG9EM2E1QWQwUkxvRWZ2QkY1NFAzeTJYdDYyc1RDTnV2N0VSNUY2VGZOZWgzd2lCRl84R1RLc0kyWG1OWldnZ0hYem5HX0lzY0tDMjVX0gGIAkFVX3lxTFBsbzFLdUc2YTVQZW9Ma1NfbVN6WkJGdnU0dENWVHNXVE4xSWx5MGJvYmxDdjhpci1lTzNsdV8teW91M3JRUzJ0dDg5NGUzVjB3Y3o4RDI4bjdIWlVCb1RSbnFkdUY1VEd0Ri1EUHJiNU1DUGkxUW1pWjdJYXBITXBSTEIxYVJCQUlVZVI4QXlZQjZUSlFlRnVZcXdVVDJ0b1ZpQjlkQ2VGM1dqOUo4VE1oZXZiRnBGa0t6R1FIS240cVVLWDg1a0p4ZGozZl9wM1hQbVFLUkRtX0ppbVd1N190cUFXckl5NlhQOWMzdFNZY1A4LVRKRUoxR05BWEJRaWYtYzVGdGk1NA?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-14T03:53:47.247Z"
+  },
+  {
     "id": "art-lurssen-barcelona-o-ponto-de-res-9500",
     "slug": "lurssen-barcelona-o-ponto-de-resposta-rapida-247-com-equipe-volante-para-superiates-de-ate-525-pes-no-mediterraneo-8784",
     "title": "Lürssen Barcelona: O Ponto de Resposta Rápida 24/7 com Equipe Volante para Superiates de Até 525 Pés no Mediterrâneo",
