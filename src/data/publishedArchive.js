@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-keyvany-porroo-o-monstro-de-fibr-0750",
+    "slug": "keyvany-porroo-o-monstro-de-fibra-de-carbono-forjada-com-1000-cavalos-inspirado-na-furia-de-maranello-em-dubai-0737",
+    "title": "Keyvany Porroo: O Monstro de Fibra de Carbono Forjada com 1.000 Cavalos Inspirado na Furia de Maranello em Dubai",
+    "image": "https://images.unsplash.com/photo-1635488591151-c7a12939669b?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0VSZWxsWVl2dWo0R09UaUQ2OElKTHc3SGdVU2pDRkFnem5NUzc2MzRILUhsN29GTHpMNVVHWUxsMzJoMllPTmRRcXRKaW0wODZ4LVhwS2phWkRMUk5XY2t0S0l2Qi1oaDA2QkdUTl9NU1oyUTBJeHEyUUFRSUlYRHpua2hrTVNROWdxQ29nMUdtM2UxbFptcFlRMHNJSmNObEVETFRCRm9MallZOVVJZzEzY295TmtxS0E?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-15T15:05:40.747Z"
+  },
+  {
     "id": "art-sailing-yacht-a-143-metros-de-ac-7137",
     "slug": "sailing-yacht-a-143-metros-de-aco-e-vidro-em-custodia-judicial-no-mediterraneo-7125",
     "title": "Sailing Yacht A: 143 Metros de Aço e Vidro em Custódia Judicial no Mediterrâneo",

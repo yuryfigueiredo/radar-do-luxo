@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-keyvany-porroo-o-monstro-de-fibr-0750",
+    "slug": "keyvany-porroo-o-monstro-de-fibra-de-carbono-forjada-com-1000-cavalos-inspirado-na-furia-de-maranello-em-dubai-0737",
+    "title": "Keyvany Porroo: O Monstro de Fibra de Carbono Forjada com 1.000 Cavalos Inspirado na Furia de Maranello em Dubai",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "15 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1635488591151-c7a12939669b?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "Uma intervenção cirúrgica sobre a aerodinâmica italiana redefine o limite do excesso em solo árabe, unindo painéis de carbo-titânio bruto e uma cavalaria brutal.",
+    "contentParagraphs": [
+      "As ruas de Dubai exigem audácia geométrica. O Keyvany Porroo responde a essa exigência com uma anatomia esculpida para rasgar o ar a trezentos quilômetros por hora, transformando a pureza original de Maranello em um exercício radical de brutalidade estética e funcionalidade aerodinâmica implacável.",
+      "Sob o capô, a engenharia alemã da preparadora elevou o motor biturbo a patamares absurdos. São exatamente 1.000 cavalos de potência entregues às quatro rodas através de um mapeamento eletrônico dedicado, enquanto o sistema de exaustão em Inconel 625 emite uma sinfonia metálica que desafia o silêncio estéril dos desertos ao redor.",
+      "Cada centímetro quadrado da carroceria foi substituído por painéis de fibra de carbono forjada exposta, curada em autoclaves de precisão milimétrica. O fluxo de Venturi sob o assoalho gera força descendente suficiente para colar o chassi ao asfalto mesmo quando a telemetria inercial registra forças G laterais extremas em curvas de alta velocidade.",
+      "Enquanto puristas choram a perda das linhas clássicas, colecionadores de ativos extremos disputam o direito de custódia desta peça única. Trata-se de uma escultura cinética que cospe fogo pelo escape e redefine o conceito de velocidade urbana para a elite global que habita os Emirados Árabes."
+    ],
+    "content_paragraphs": [
+      "As ruas de Dubai exigem audácia geométrica. O Keyvany Porroo responde a essa exigência com uma anatomia esculpida para rasgar o ar a trezentos quilômetros por hora, transformando a pureza original de Maranello em um exercício radical de brutalidade estética e funcionalidade aerodinâmica implacável.",
+      "Sob o capô, a engenharia alemã da preparadora elevou o motor biturbo a patamares absurdos. São exatamente 1.000 cavalos de potência entregues às quatro rodas através de um mapeamento eletrônico dedicado, enquanto o sistema de exaustão em Inconel 625 emite uma sinfonia metálica que desafia o silêncio estéril dos desertos ao redor.",
+      "Cada centímetro quadrado da carroceria foi substituído por painéis de fibra de carbono forjada exposta, curada em autoclaves de precisão milimétrica. O fluxo de Venturi sob o assoalho gera força descendente suficiente para colar o chassi ao asfalto mesmo quando a telemetria inercial registra forças G laterais extremas em curvas de alta velocidade.",
+      "Enquanto puristas choram a perda das linhas clássicas, colecionadores de ativos extremos disputam o direito de custódia desta peça única. Trata-se de uma escultura cinética que cospe fogo pelo escape e redefine o conceito de velocidade urbana para a elite global que habita os Emirados Árabes."
+    ],
+    "specs": {
+      "Motorizacao": "V8 Biturbo Preparado pela Keyvany",
+      "Potencia Maxima": "1.000 cv",
+      "Material da Carroceria": "Fibra de Carbono Forjada com Tratamento Autoclave",
+      "Sistema de Escape": "Inconel 625 de Alta Performance",
+      "Destino": "Exclusivo para o mercado de Dubai"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 88,
+    "ranking_score": 88,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-15T15:05:40.747Z",
+    "published_at": "2026-11-15T15:05:40.747Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0VSZWxsWVl2dWo0R09UaUQ2OElKTHc3SGdVU2pDRkFnem5NUzc2MzRILUhsN29GTHpMNVVHWUxsMzJoMllPTmRRcXRKaW0wODZ4LVhwS2phWkRMUk5XY2t0S0l2Qi1oaDA2QkdUTl9NU1oyUTBJeHEyUUFRSUlYRHpua2hrTVNROWdxQ29nMUdtM2UxbFptcFlRMHNJSmNObEVETFRCRm9MallZOVVJZzEzY295TmtxS0E?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0VSZWxsWVl2dWo0R09UaUQ2OElKTHc3SGdVU2pDRkFnem5NUzc2MzRILUhsN29GTHpMNVVHWUxsMzJoMllPTmRRcXRKaW0wODZ4LVhwS2phWkRMUk5XY2t0S0l2Qi1oaDA2QkdUTl9NU1oyUTBJeHEyUUFRSUlYRHpua2hrTVNROWdxQ29nMUdtM2UxbFptcFlRMHNJSmNObEVETFRCRm9MallZOVVJZzEzY295TmtxS0E?oc=5"
+  },
+  {
     "id": "art-sailing-yacht-a-143-metros-de-ac-7137",
     "slug": "sailing-yacht-a-143-metros-de-aco-e-vidro-em-custodia-judicial-no-mediterraneo-7125",
     "title": "Sailing Yacht A: 143 Metros de Aço e Vidro em Custódia Judicial no Mediterrâneo",
@@ -125,7 +177,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "14 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -154,10 +206,10 @@ export const ARTICLES = [
       "Design": "Philippe Starck"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 89,
@@ -1366,63 +1418,20 @@ export const ARTICLES = [
     "published_at": "2026-11-09T01:28:55.932Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRFJhdzdoN3lpejFBX0VSZU9JSUk1ajY4d1BRVlgwNFBvU0ZLRUoxT1NlQ1hhZHRHTVluZG5Hd20wcUtyV3g5RmRkZDJINE03OFV2NU0wSElDUEZ3Y1lKWTRUZ3RJLU5sNURuWU5YeUJLWWpyRDl2SGJmZDh4LUVxX2EyWU1Ca1BrSGM0cmh1eUZOdWdPU3VEWDA0VkZpX3VURDNqdk1qdnFydXR5cjVjVFR3?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRFJhdzdoN3lpejFBX0VSZU9JSUk1ajY4d1BRVlgwNFBvU0ZLRUoxT1NlQ1hhZHRHTVluZG5Hd20wcUtyV3g5RmRkZDJINE03OFV2NU0wSElDUEZ3Y1lKWTRUZ3RJLU5sNURuWU5YeUJLWWpyRDl2SGJmZDh4LUVxX2EyWU1Ca1BrSGM0cmh1eUZOdWdPU3VEWDA0VkZpX3VURDNqdk1qdnFydXR5cjVjVFR3?oc=5"
-  },
-  {
-    "id": "art-bugatti-chiron-a-perseguicao-tra-6804",
-    "slug": "bugatti-chiron-a-perseguicao-transfronteirica-de-1500-cavalos-onde-o-ceo-trocou-o-w16-por-um-porsche-911-6302",
-    "title": "Bugatti Chiron: A Perseguição Transfronteiriça de 1.500 Cavalos onde o CEO Trocou o W16 por um Porsche 911",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "08 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=max&q=85&w=1800",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "Quando o epítome da engenharia móvel é interceptado na fronteira, o comando executivo assume a telemetria inercial para reaver o monstro de carbo-titânio.",
-    "contentParagraphs": [
-      "O asfalto europeu congelou sob a urgência cinemática de uma caçada noturna. O Chiron não é apenas um veículo de quatro rodas; trata-se de uma escultura termodinâmica avaliada em milhões de euros, dotada de quatro turbocompressores e radiadores do tamanho de escudos medievais. Quando a telemetria via satélite indicou o desvio rotacional em direção a uma fronteira sem controle alfandegário, o protocolo burocrático cedeu lugar à testosterona da engenharia pura. Não havia tempo para escoltas diplomáticas ou chamados padrão às autoridades locais.",
-      "A resposta mecânica exigiu improviso tático imediato. O CEO da Bugatti, habituado aos limites de aderência do W16 quadriturbo, saltou para o banco de um Porsche 911 com tração traseira e suspensão recalibrada para altas velocidades. As curvas sinuosas da rodovia exigiram trocas de marcha executadas no limite exato do corte de giro. A força G lateral comprimia as costelas contra os reforços de fibra de carbono enquanto os discos de freio em cerâmica de carbono desprendiam incandescência visível contra o breu da madrugada.",
-      "Perseguir um hipercarro de trezentas e tantas milhas por hora usando uma máquina de Stuttgart é um exercício de pura ironia cinética. Cada reta desafiava o coeficiente de arrasto Cx, enquanto o escapamento em Inconel do Porsche uivava em ressonância com a urgência da missão. A precisão alemã encontrou o Chiron abandonado em um pátio industrial desativado, com o motor ainda resfriando e estalando sob a neblina matinal, mantendo intacta a integridade estrutural do chassi monocoque.",
-      "Este episódio revela a vulnerabilidade oculta das obras-primas sobre rodas quando entregues ao submundo do crime organizado. No entanto, a obstinação mecânica prevaleceu sobre a criminalidade. O monstro de Molsheim retornou à custódia legítima não por força da lei, mas pela persistência visceral de quem compreende cada parafuso de titânio daquela arquitetura sagrada."
-    ],
-    "content_paragraphs": [
-      "O asfalto europeu congelou sob a urgência cinemática de uma caçada noturna. O Chiron não é apenas um veículo de quatro rodas; trata-se de uma escultura termodinâmica avaliada em milhões de euros, dotada de quatro turbocompressores e radiadores do tamanho de escudos medievais. Quando a telemetria via satélite indicou o desvio rotacional em direção a uma fronteira sem controle alfandegário, o protocolo burocrático cedeu lugar à testosterona da engenharia pura. Não havia tempo para escoltas diplomáticas ou chamados padrão às autoridades locais.",
-      "A resposta mecânica exigiu improviso tático imediato. O CEO da Bugatti, habituado aos limites de aderência do W16 quadriturbo, saltou para o banco de um Porsche 911 com tração traseira e suspensão recalibrada para altas velocidades. As curvas sinuosas da rodovia exigiram trocas de marcha executadas no limite exato do corte de giro. A força G lateral comprimia as costelas contra os reforços de fibra de carbono enquanto os discos de freio em cerâmica de carbono desprendiam incandescência visível contra o breu da madrugada.",
-      "Perseguir um hipercarro de trezentas e tantas milhas por hora usando uma máquina de Stuttgart é um exercício de pura ironia cinética. Cada reta desafiava o coeficiente de arrasto Cx, enquanto o escapamento em Inconel do Porsche uivava em ressonância com a urgência da missão. A precisão alemã encontrou o Chiron abandonado em um pátio industrial desativado, com o motor ainda resfriando e estalando sob a neblina matinal, mantendo intacta a integridade estrutural do chassi monocoque.",
-      "Este episódio revela a vulnerabilidade oculta das obras-primas sobre rodas quando entregues ao submundo do crime organizado. No entanto, a obstinação mecânica prevaleceu sobre a criminalidade. O monstro de Molsheim retornou à custódia legítima não por força da lei, mas pela persistência visceral de quem compreende cada parafuso de titânio daquela arquitetura sagrada."
-    ],
-    "specs": {
-      "Propulsor Principal": "W16 de 8.0 litros com quatro turbos",
-      "Potencia Nom": "1.500 cavalos de potência a 6.700 RPM",
-      "Chassi": "Monocoque em fibra de carbono de grau aeroespacial",
-      "Veiculo de Resgate": "Porsche 911 de tração integral"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 88,
-    "ranking_score": 88,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-08T22:06:36.802Z",
-    "published_at": "2026-11-08T22:06:36.802Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcUJoUXYzMXJQSDdjcUgxX09SUXBHdExLM24wVjF2T0tJNEhKLUxzaVBRdEt0UGZOaUF0UjYwTWlFa3lnbE10UjJrYUsxbHpEZzFVSGVrMldEVFA0SlluVTctTlRwTkphQUlMc0JOaGFQZ05NWnQtYmdMRXYyUEFzYXhPb3lKODVZTERSY29TeUtfMmo0QlRPbTB1ZlJHZEE?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcUJoUXYzMXJQSDdjcUgxX09SUXBHdExLM24wVjF2T0tJNEhKLUxzaVBRdEt0UGZOaUF0UjYwTWlFa3lnbE10UjJrYUsxbHpEZzFVSGVrMldEVFA0SlluVTctTlRwTkphQUlMc0JOaGFQZ05NWnQtYmdMRXYyUEFzYXhPb3lKODVZTERSY29TeUtfMmo0QlRPbTB1ZlJHZEE?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "SUPERCARROS",
+    "title": "Bugatti Americas: Duas Décadas de Domí...",
+    "image": "https://images.unsplash.com/photo-1577735138919-91b6848511c8?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "bugatti-americas-duas-decadas-de-dominio-com-tolerancia-de-microns-e-v16-aspirado-3241"
+  },
+  {
+    "id": "film-2",
     "category": "DESTINOS",
     "title": "Estaleiros da Tunísia: Os 558 Milhões ...",
     "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800",
@@ -1430,7 +1439,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "estaleiros-da-tunisia-os-558-milhoes-de-dolares-em-componentes-navais-que-cruzam-o-mediterraneo-com-tolerancia-de-microns-2331"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "ARQUITETURA",
     "title": "Alta Joalheria em Leilão: O Refúgio de...",
     "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800",
@@ -1438,7 +1447,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "alta-joalheria-em-leilao-o-refugio-de-liquidez-de-us-85-milhoes-em-diamantes-type-iia-que-desafiam-a-inflacao-global-7916"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Ferrari F355 de Jeremy Clarkson: O V8 ...",
     "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
@@ -1446,7 +1455,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-f355-de-jeremy-clarkson-o-v8-aspirado-de-35-litros-e-cambio-manual-em-gated-shifter-retorna-ao-leilao-5851"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Ferrari 12Cilindri: O V12 Aspirado de ...",
     "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
@@ -1454,20 +1463,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-12cilindri-o-v12-aspirado-de-9500-rpm-e-pintura-two-tone-flagrado-no-asfalto-de-monaco-4549"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "ESTILO",
     "title": "Hermès Birkin: O Protótipo Original de...",
     "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "hermes-birkin-o-prototipo-original-de-jane-birkin-que-vai-a-leilao-com-marcas-de-uso-e-essencia-de-paris-1139"
-  },
-  {
-    "id": "film-6",
-    "category": "ARQUITETURA",
-    "title": "Gold Coast: A Residência de 47,5 Milhõ...",
-    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
-    "tag": "CURADORIA RADAR",
-    "slug": "gold-coast-a-residencia-de-475-milhoes-de-dolares-em-travertino-romano-que-desafia-o-recorde-imobiliario-da-australia-8416"
   }
 ];
 
