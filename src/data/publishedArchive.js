@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-sothebys-genebra-o-leilao-histor-1110",
+    "slug": "sothebys-genebra-o-leilao-historico-de-84-milhoes-de-francos-que-consagra-a-manufatura-independente-na-vallee-de-joux-0492",
+    "title": "Sotheby's Genebra: O Leilão Histórico de 84 Milhões de Francos que Consagra a Manufatura Independente na Vallée de Joux",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=max&q=85&w=1800",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPOGN2dWRWeklkVFhoYVJBVXpEbVFzN2VpOUhxc3FmWWl3QmU5dUdrYVBOZ3BSZGxrYWNFQmFtMklWUHZTREZTU1JCRHJOYXJOZHU3ZW1SVWZrZGJZbVl4QXJZd3FSOFN6S3lWdHhwMkh4UUd1eFBjTEgtNWdSRjl6X1JHeXBwQVJDTEN1eTloVlJIMDROaFVSWm9DZmM5MnNjQVNVXzFIYXdRRjlzXy1JMTJBWGl6VzhzcnZSZ1ppYzhpMVVrQ09jWkpMOXRsS1FhTERjdEh6TTNWTWfSAdsBQVVfeXFMTzhjdnVkVnpJZFRYaGFSQVV6RG1RczdlaTlIcXNxZllpd0JlOXVHa2FQTmdwUmRsa2FjRUJhbTJJVlB2U0RGU1NSQkRyTmFyTmR1N2VtUlVma2RiWW1ZeEFyWXdxUjhTekt5VnR4cDJIeFFHdXhQY0xILTVnUkY5el9SR3lwcEFSQ0xDdXk5aFZSSDA0TmhVUlpvQ2ZjOTJzY0FTVV8xSGF3UUY5c18tSTEyQVhpelc4c3J2UmdaaWM4aTFVa0NPY1pKTDl0bEtRYUxEY3RIek0zVk1n?oc=5",
+    "categorySlug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "publishedAt": "2026-11-15T22:15:31.110Z"
+  },
+  {
     "id": "art-keyvany-porroo-o-monstro-de-fibr-0750",
     "slug": "keyvany-porroo-o-monstro-de-fibra-de-carbono-forjada-com-1000-cavalos-inspirado-na-furia-de-maranello-em-dubai-0737",
     "title": "Keyvany Porroo: O Monstro de Fibra de Carbono Forjada com 1.000 Cavalos Inspirado na Furia de Maranello em Dubai",

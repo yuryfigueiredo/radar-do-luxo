@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-sothebys-genebra-o-leilao-histor-1110",
+    "slug": "sothebys-genebra-o-leilao-historico-de-84-milhoes-de-francos-que-consagra-a-manufatura-independente-na-vallee-de-joux-0492",
+    "title": "Sotheby's Genebra: O Leilão Histórico de 84 Milhões de Francos que Consagra a Manufatura Independente na Vallée de Joux",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "category_slug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "author_slug": "clara-meirelles",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "15 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=max&q=85&w=1800",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "O recente leilão de alta relojoaria em Genebra redefinição os parâmetros de liquidez em moedas fortes, provando que os calibres de manufatura historicamente raros operam como refúgio definitivo contra a volatilidade global.",
+    "contentParagraphs": [
+      "O salão de arremates da Sotheby's em Genebra silenciou-se. Apenas o tique-taque distante de um cronômetro de precisão pontuava a atmosfera enquanto o martelo despencava sobre mais um lote histórico. Não se tratava de uma simples transação comercial. Estávamos diante da consolidação de uma soberania patrimonial onde cada ponte chanfrada à mão e cada esmalte Grand Feu a 820°C operam como ativos de imune volatilidade, distantes dos ruídos dos mercados convencionais.",
+      "No centro das disputas entre colecionadores institucionais e fundações privadas, calibres complexos com sonnerie acústica afinada em Sol sustenido e tourbillons bi-axiais atingiram cotações astronômicas. A exigência técnica superou a mera ostentação estética. O mercado global de alta relojoaria agora premia a tolerância de mícrons e a paciência secular dos mestres relojoeiros, que passam meses debruçados sobre um único componente utilizando apenas o buril de aço e o sabugueiro silvestre para o polimento dos rubis.",
+      "Enquanto moedas fiduciárias tradicionais sofrem com pressões inflacionárias crônicas, as peças arrematadas em Genebra demonstraram uma imunidade temporal incomparável. Famílias dinásticas e family offices buscam nestes micro-mecanismos a verdadeira materialização do valor duradouro. A liquidez migrou de forma cirúrgica para a alta relojoaria independente, elegendo os raros exemplares produzidos nas montanhas suíças como a mais nobre reserva de valor da atualidade.",
+      "O resultado histórico deste leilão não representa uma exceção sazonal, mas sim uma mudança estrutural na curadoria de grandes patrimônios. O tempo do luxo não é utilitário; é a tela mecânica definitiva onde a engenhosidade humana desafia a entropia. Para o verdadeiro colecionador, possuir estas obras-primas é assegurar um fragmento indestrutível da história da mecânica de precisão para as próximas gerações."
+    ],
+    "content_paragraphs": [
+      "O salão de arremates da Sotheby's em Genebra silenciou-se. Apenas o tique-taque distante de um cronômetro de precisão pontuava a atmosfera enquanto o martelo despencava sobre mais um lote histórico. Não se tratava de uma simples transação comercial. Estávamos diante da consolidação de uma soberania patrimonial onde cada ponte chanfrada à mão e cada esmalte Grand Feu a 820°C operam como ativos de imune volatilidade, distantes dos ruídos dos mercados convencionais.",
+      "No centro das disputas entre colecionadores institucionais e fundações privadas, calibres complexos com sonnerie acústica afinada em Sol sustenido e tourbillons bi-axiais atingiram cotações astronômicas. A exigência técnica superou a mera ostentação estética. O mercado global de alta relojoaria agora premia a tolerância de mícrons e a paciência secular dos mestres relojoeiros, que passam meses debruçados sobre um único componente utilizando apenas o buril de aço e o sabugueiro silvestre para o polimento dos rubis.",
+      "Enquanto moedas fiduciárias tradicionais sofrem com pressões inflacionárias crônicas, as peças arrematadas em Genebra demonstraram uma imunidade temporal incomparável. Famílias dinásticas e family offices buscam nestes micro-mecanismos a verdadeira materialização do valor duradouro. A liquidez migrou de forma cirúrgica para a alta relojoaria independente, elegendo os raros exemplares produzidos nas montanhas suíças como a mais nobre reserva de valor da atualidade.",
+      "O resultado histórico deste leilão não representa uma exceção sazonal, mas sim uma mudança estrutural na curadoria de grandes patrimônios. O tempo do luxo não é utilitário; é a tela mecânica definitiva onde a engenhosidade humana desafia a entropia. Para o verdadeiro colecionador, possuir estas obras-primas é assegurar um fragmento indestrutível da história da mecânica de precisão para as próximas gerações."
+    ],
+    "specs": {
+      "volume_total_leilao": "CHF 84.2 Milhões",
+      "ateliês_destacados": "Independentes da Vallée de Joux e Genebra",
+      "técnica_dominante": "Esmalte Grand Feu e Sonnerie Acústica",
+      "curadoria": "Sotheby's Geneva Watch Division",
+      "moeda_base": "Franco Suíço (CHF)"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-15T22:15:31.110Z",
+    "published_at": "2026-11-15T22:15:31.110Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPOGN2dWRWeklkVFhoYVJBVXpEbVFzN2VpOUhxc3FmWWl3QmU5dUdrYVBOZ3BSZGxrYWNFQmFtMklWUHZTREZTU1JCRHJOYXJOZHU3ZW1SVWZrZGJZbVl4QXJZd3FSOFN6S3lWdHhwMkh4UUd1eFBjTEgtNWdSRjl6X1JHeXBwQVJDTEN1eTloVlJIMDROaFVSWm9DZmM5MnNjQVNVXzFIYXdRRjlzXy1JMTJBWGl6VzhzcnZSZ1ppYzhpMVVrQ09jWkpMOXRsS1FhTERjdEh6TTNWTWfSAdsBQVVfeXFMTzhjdnVkVnpJZFRYaGFSQVV6RG1RczdlaTlIcXNxZllpd0JlOXVHa2FQTmdwUmRsa2FjRUJhbTJJVlB2U0RGU1NSQkRyTmFyTmR1N2VtUlVma2RiWW1ZeEFyWXdxUjhTekt5VnR4cDJIeFFHdXhQY0xILTVnUkY5el9SR3lwcEFSQ0xDdXk5aFZSSDA0TmhVUlpvQ2ZjOTJzY0FTVV8xSGF3UUY5c18tSTEyQVhpelc4c3J2UmdaaWM4aTFVa0NPY1pKTDl0bEtRYUxEY3RIek0zVk1n?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPOGN2dWRWeklkVFhoYVJBVXpEbVFzN2VpOUhxc3FmWWl3QmU5dUdrYVBOZ3BSZGxrYWNFQmFtMklWUHZTREZTU1JCRHJOYXJOZHU3ZW1SVWZrZGJZbVl4QXJZd3FSOFN6S3lWdHhwMkh4UUd1eFBjTEgtNWdSRjl6X1JHeXBwQVJDTEN1eTloVlJIMDROaFVSWm9DZmM5MnNjQVNVXzFIYXdRRjlzXy1JMTJBWGl6VzhzcnZSZ1ppYzhpMVVrQ09jWkpMOXRsS1FhTERjdEh6TTNWTWfSAdsBQVVfeXFMTzhjdnVkVnpJZFRYaGFSQVV6RG1RczdlaTlIcXNxZllpd0JlOXVHa2FQTmdwUmRsa2FjRUJhbTJJVlB2U0RGU1NSQkRyTmFyTmR1N2VtUlVma2RiWW1ZeEFyWXdxUjhTekt5VnR4cDJIeFFHdXhQY0xILTVnUkY5el9SR3lwcEFSQ0xDdXk5aFZSSDA0TmhVUlpvQ2ZjOTJzY0FTVV8xSGF3UUY5c18tSTEyQVhpelc4c3J2UmdaaWM4aTFVa0NPY1pKTDl0bEtRYUxEY3RIek0zVk1n?oc=5"
+  },
+  {
     "id": "art-keyvany-porroo-o-monstro-de-fibr-0750",
     "slug": "keyvany-porroo-o-monstro-de-fibra-de-carbono-forjada-com-1000-cavalos-inspirado-na-furia-de-maranello-em-dubai-0737",
     "title": "Keyvany Porroo: O Monstro de Fibra de Carbono Forjada com 1.000 Cavalos Inspirado na Furia de Maranello em Dubai",
@@ -125,7 +177,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "15 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -153,10 +205,10 @@ export const ARTICLES = [
       "Destino": "Exclusivo para o mercado de Dubai"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 88,
@@ -1367,63 +1419,20 @@ export const ARTICLES = [
     "published_at": "2026-11-09T04:45:49.214Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdUl6WDExeFh2NkRzSGYzd0NlaFZLal9lSjJuTnBQY19RVlNUbDFZX2xNTHljUFY4N2tpQ2lLSmdaV3p1Z3dmRkxwYUJDSGhqZmhITVdHejV6Y0Y3MlRjSkJIRjJmQklGa1V2UXRjLW8zTnIwRmhpTFVZeVBndnZ4UlVndUpHUFVEbTFPcFo0X2liWVNWdk10ODZZb2tyTTc1dDFXd0RWVWZWQmtUWTd5TV9VVQ?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdUl6WDExeFh2NkRzSGYzd0NlaFZLal9lSjJuTnBQY19RVlNUbDFZX2xNTHljUFY4N2tpQ2lLSmdaV3p1Z3dmRkxwYUJDSGhqZmhITVdHejV6Y0Y3MlRjSkJIRjJmQklGa1V2UXRjLW8zTnIwRmhpTFVZeVBndnZ4UlVndUpHUFVEbTFPcFo0X2liWVNWdk10ODZZb2tyTTc1dDFXd0RWVWZWQmtUWTd5TV9VVQ?oc=5"
-  },
-  {
-    "id": "art-aston-martin-o-equilibrio-financ-5932",
-    "slug": "aston-martin-o-equilibrio-financeiro-precario-e-a-ilusao-de-rivalizar-com-a-hegemonia-de-maranello-5922",
-    "title": "Aston Martin: O Equilíbrio Financeiro Precário e a Ilusão de Rivalizar com a Hegemonia de Maranello",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "09 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "A engenharia britânica estanca o sangramento de caixa, mas a tentativa de igualar a margem cirúrgica e a mística implacável da Ferrari expõe limites estruturais inegociables.",
-    "contentParagraphs": [
-      "Os balanços financeiros recentes da Aston Martin revelam um alívio temporário nas margens, mas o mercado ignora o abismo intransponível que separa Gaydon de Maranello. O dinheiro fresco injetado por fundos soberanos e aliados industriais apenas adia a urgência de uma reestruturação profunda. Enquanto a Ferrari opera como um relógio suíço de alta precisão patrimonial, transformando escassez em lucro líquido recorde, a marca britânica ainda patina na volatilidade de seus volumes de produção.",
-      "A ambição de desafiar o Cavalo Rampante no segmento de hipercarros exige tolerâncias de mícrons que vão muito além de belas linhas de carroceria esculpidas em túneis de vento. O desenvolvimento de um monocoque em carbo-titânio curado em autoclave a 6 bar demanda investimentos colossais em P&D que a engenharia britânica, historicamente dependente de fornecedores externos para blocos de motor e eletrônica de bordo, custa a absorver sem comprometer o fluxo de caixa operacional.",
-      "A força G lateral gerada por uma máquina de mais de mil cavalos exige mais do que um emblema alado no capô; exige a soberania de uma linhagem mecânica ininterrupta. Maranello controla cada átomo de sua cadeia de suprimentos e sua produção é ditada por uma rigorosa contenção matemática. Gaydon, por sua vez, tenta compensar a falta dessa imunidade temporal com promessas de eletrificação e séries limitadas que raramente atingem a pureza cinética esperada pelos colecionadores mais exigentes do planeta.",
-      "O veredito do asfalto é implacável com os otimistas de planilha. Estancar perdas operacionais é um feito contábil louvável para os acionistas, mas não compra a alma mecânica que sustenta o valor de revenda de um verdadeiro hipercarro. Até que a Aston Martin compreenda que o prestígio industrial não se fabrica com atalhos financeiros, a tentativa de destronar a Ferrari continuará sendo um exercício de ilusão corporativa."
-    ],
-    "content_paragraphs": [
-      "Os balanços financeiros recentes da Aston Martin revelam um alívio temporário nas margens, mas o mercado ignora o abismo intransponível que separa Gaydon de Maranello. O dinheiro fresco injetado por fundos soberanos e aliados industriais apenas adia a urgência de uma reestruturação profunda. Enquanto a Ferrari opera como um relógio suíço de alta precisão patrimonial, transformando escassez em lucro líquido recorde, a marca britânica ainda patina na volatilidade de seus volumes de produção.",
-      "A ambição de desafiar o Cavalo Rampante no segmento de hipercarros exige tolerâncias de mícrons que vão muito além de belas linhas de carroceria esculpidas em túneis de vento. O desenvolvimento de um monocoque em carbo-titânio curado em autoclave a 6 bar demanda investimentos colossais em P&D que a engenharia britânica, historicamente dependente de fornecedores externos para blocos de motor e eletrônica de bordo, custa a absorver sem comprometer o fluxo de caixa operacional.",
-      "A força G lateral gerada por uma máquina de mais de mil cavalos exige mais do que um emblema alado no capô; exige a soberania de uma linhagem mecânica ininterrupta. Maranello controla cada átomo de sua cadeia de suprimentos e sua produção é ditada por uma rigorosa contenção matemática. Gaydon, por sua vez, tenta compensar a falta dessa imunidade temporal com promessas de eletrificação e séries limitadas que raramente atingem a pureza cinética esperada pelos colecionadores mais exigentes do planeta.",
-      "O veredito do asfalto é implacável com os otimistas de planilha. Estancar perdas operacionais é um feito contábil louvável para os acionistas, mas não compra a alma mecânica que sustenta o valor de revenda de um verdadeiro hipercarro. Até que a Aston Martin compreenda que o prestígio industrial não se fabrica com atalhos financeiros, a tentativa de destronar a Ferrari continuará sendo um exercício de ilusão corporativa."
-    ],
-    "specs": {
-      "Arquitetura Base": "Monocoque em carbo-titânio de alta rigidez torcional",
-      "Gestão Financeira": "Contenção de perdas operacionais com aporte soberano",
-      "Fornecimento Estratégico": "Dependência mista de blocos V8 e eletrônica modular",
-      "Controle de Produção": "Séries limitadas sob demanda de custódia fiduciária"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 87,
-    "ranking_score": 87,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-09T01:28:55.932Z",
-    "published_at": "2026-11-09T01:28:55.932Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRFJhdzdoN3lpejFBX0VSZU9JSUk1ajY4d1BRVlgwNFBvU0ZLRUoxT1NlQ1hhZHRHTVluZG5Hd20wcUtyV3g5RmRkZDJINE03OFV2NU0wSElDUEZ3Y1lKWTRUZ3RJLU5sNURuWU5YeUJLWWpyRDl2SGJmZDh4LUVxX2EyWU1Ca1BrSGM0cmh1eUZOdWdPU3VEWDA0VkZpX3VURDNqdk1qdnFydXR5cjVjVFR3?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRFJhdzdoN3lpejFBX0VSZU9JSUk1ajY4d1BRVlgwNFBvU0ZLRUoxT1NlQ1hhZHRHTVluZG5Hd20wcUtyV3g5RmRkZDJINE03OFV2NU0wSElDUEZ3Y1lKWTRUZ3RJLU5sNURuWU5YeUJLWWpyRDl2SGJmZDh4LUVxX2EyWU1Ca1BrSGM0cmh1eUZOdWdPU3VEWDA0VkZpX3VURDNqdk1qdnFydXR5cjVjVFR3?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "RELOGIOS",
+    "title": "Phillips Geneva Watch Auction: 24 Reco...",
+    "image": "https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "phillips-geneva-watch-auction-24-recordes-historicos-e-o-marco-de-us-100-milhoes-em-manufatura-rara-5078"
+  },
+  {
+    "id": "film-2",
     "category": "SUPERCARROS",
     "title": "Bugatti Americas: Duas Décadas de Domí...",
     "image": "https://images.unsplash.com/photo-1577735138919-91b6848511c8?auto=format&fit=max&q=80&w=1400",
@@ -1431,7 +1440,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "bugatti-americas-duas-decadas-de-dominio-com-tolerancia-de-microns-e-v16-aspirado-3241"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "DESTINOS",
     "title": "Estaleiros da Tunísia: Os 558 Milhões ...",
     "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800",
@@ -1439,7 +1448,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "estaleiros-da-tunisia-os-558-milhoes-de-dolares-em-componentes-navais-que-cruzam-o-mediterraneo-com-tolerancia-de-microns-2331"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "ARQUITETURA",
     "title": "Alta Joalheria em Leilão: O Refúgio de...",
     "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800",
@@ -1447,7 +1456,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "alta-joalheria-em-leilao-o-refugio-de-liquidez-de-us-85-milhoes-em-diamantes-type-iia-que-desafiam-a-inflacao-global-7916"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Ferrari F355 de Jeremy Clarkson: O V8 ...",
     "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
@@ -1455,20 +1464,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-f355-de-jeremy-clarkson-o-v8-aspirado-de-35-litros-e-cambio-manual-em-gated-shifter-retorna-ao-leilao-5851"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Ferrari 12Cilindri: O V12 Aspirado de ...",
     "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "ferrari-12cilindri-o-v12-aspirado-de-9500-rpm-e-pintura-two-tone-flagrado-no-asfalto-de-monaco-4549"
-  },
-  {
-    "id": "film-6",
-    "category": "ESTILO",
-    "title": "Hermès Birkin: O Protótipo Original de...",
-    "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "hermes-birkin-o-prototipo-original-de-jane-birkin-que-vai-a-leilao-com-marcas-de-uso-e-essencia-de-paris-1139"
   }
 ];
 
