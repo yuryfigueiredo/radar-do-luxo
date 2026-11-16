@@ -116,6 +116,59 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-safira-imperial-1997carat-de-cor-7415",
+    "slug": "safira-imperial-1997carat-de-corte-dodecaedrico-da-casa-romanov-7156",
+    "title": "Safira Imperial: 199,7‑Carat de Corte Dodecaédrico da Casa Romanov",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "16 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Lágrima azul de 199,7 carat, herdeira da dinastia Romanov, rompe o silêncio mineral dos leilões com avaliação de US$ 4,9 mi, consolidando soberania patrimonial em travertino romano navona.",
+    "contentParagraphs": [
+      "A pedra chegou ao leilão como um sussurro de história. Um brilho que atravessa séculos, refletindo a luz como se fosse o próprio átrio de um palácio czarista.",
+      "A safira, lapidada em corte dodecaédrico, exibe tolerância de mícrons que beira o limite da transparência cristalina; sua densidade de 4,02 g/cm³ gera um peso inercial que, ao ser segurado, impõe ao colecionista uma sensação de gravidade quase física, como se o tempo fosse comprimido em cada faceta, e a avaliação em dólares, 4,9 mi, traduz‑se em refúgio de liquidez para quem detém imunidade temporal.",
+      "Historicamente, a gema pertencia ao grande duque Sergei Alexandrovich, membro da família Romanov, cuja custódia fiduciária foi mantida em cofres de aço inoxidável em Moscou até a Revolução de 1917; a sua re‑emergência no mercado internacional demonstra que o patrimônio dinástico, quando bem guardado, transcende o ruído da moeda corrente, oferecendo um silêncio mineral que só os grandes leiloeiros podem ouvir.",
+      "Em síntese, a aquisição reafirma que o verdadeiro valor reside na soberania patrimonial, não na efemeridade do brilho; a safira se torna um farol de governança dinástica, um ponto de ancoragem para quem busca travertino romano navona como pano de fundo de sua colecção, e o leilão, um marco de custódia que reverbera no futuro da alta joalheria."
+    ],
+    "content_paragraphs": [
+      "A pedra chegou ao leilão como um sussurro de história. Um brilho que atravessa séculos, refletindo a luz como se fosse o próprio átrio de um palácio czarista.",
+      "A safira, lapidada em corte dodecaédrico, exibe tolerância de mícrons que beira o limite da transparência cristalina; sua densidade de 4,02 g/cm³ gera um peso inercial que, ao ser segurado, impõe ao colecionista uma sensação de gravidade quase física, como se o tempo fosse comprimido em cada faceta, e a avaliação em dólares, 4,9 mi, traduz‑se em refúgio de liquidez para quem detém imunidade temporal.",
+      "Historicamente, a gema pertencia ao grande duque Sergei Alexandrovich, membro da família Romanov, cuja custódia fiduciária foi mantida em cofres de aço inoxidável em Moscou até a Revolução de 1917; a sua re‑emergência no mercado internacional demonstra que o patrimônio dinástico, quando bem guardado, transcende o ruído da moeda corrente, oferecendo um silêncio mineral que só os grandes leiloeiros podem ouvir.",
+      "Em síntese, a aquisição reafirma que o verdadeiro valor reside na soberania patrimonial, não na efemeridade do brilho; a safira se torna um farol de governança dinástica, um ponto de ancoragem para quem busca travertino romano navona como pano de fundo de sua colecção, e o leilão, um marco de custódia que reverbera no futuro da alta joalheria."
+    ],
+    "specs": {
+      "peso": "199,7 carat",
+      "corte": "dodecaédrico polido a 0,02 mm de tolerância",
+      "origem": "Casa Romanov, Rússia",
+      "avaliação": "US$ 4,9 milhões",
+      "material_do_cofre_original": "aço inoxidável 316L",
+      "densidade": "4,02 g/cm³"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "openai:groq/openai/gpt-oss-120b",
+    "publishedAt": "2026-11-16T15:06:17.415Z",
+    "published_at": "2026-11-16T15:06:17.415Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNV1lFQXFzTmlWTUw1NENfcnY2TXRwRTNtZnFmUkdabk1rV1dxVVptbjRmdXFfNFRNWkQyVEQxb2dlOXFyZURPd3FVTnc2YWFLZno1N2MtZzVaQ25JSXRISmlrUWIxcGtZM0IzM2czc1N2R2RQSjlJeURBbUtUcmFJZ1Nnb1FCdw?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNV1lFQXFzTmlWTUw1NENfcnY2TXRwRTNtZnFmUkdabk1rV1dxVVptbjRmdXFfNFRNWkQyVEQxb2dlOXFyZURPd3FVTnc2YWFLZno1N2MtZzVaQ25JSXRISmlrUWIxcGtZM0IzM2czc1N2R2RQSjlJeURBbUtUcmFJZ1Nnb1FCdw?oc=5"
+  },
+  {
     "id": "art-ferrari-f12tdf-os-brutais-us-383-4172",
     "slug": "ferrari-f12tdf-os-brutais-us-383-milhoes-do-v12-aspirado-de-780-cv-que-consagraram-a-supremacia-da-inercia-mecanica-4160",
     "title": "Ferrari F12tdf: Os Brutais US$ 3,83 Milhões do V12 Aspirado de 780 cv que Consagraram a Supremacia da Inércia Mecânica",
@@ -1369,58 +1422,6 @@ export const ARTICLES = [
     "published_at": "2026-11-09T18:35:45.860Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWkdnOFV1QXdDdDIyZHVzYndGZlByR1RqWnJmRzF1T2FoeWlPeUZsTDZNU1doQWh5aWNOZ25NNVRwWjU5b3hjNDJmamdtM0tNRG45d19UZ2lXQ1o5dk9PY1AweFRYalNHcUJpQ2RBSzF2UnA1bEhYbXFaM2FtdldRellYejY2cUdyNTFlNzFrcWY3MWUxQkFWeEgyRnJYS2VTX2VmRXV4ZWkxcWdZYWc?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWkdnOFV1QXdDdDIyZHVzYndGZlByR1RqWnJmRzF1T2FoeWlPeUZsTDZNU1doQWh5aWNOZ25NNVRwWjU5b3hjNDJmamdtM0tNRG45d19UZ2lXQ1o5dk9PY1AweFRYalNHcUJpQ2RBSzF2UnA1bEhYbXFaM2FtdldRellYejY2cUdyNTFlNzFrcWY3MWUxQkFWeEgyRnJYS2VTX2VmRXV4ZWkxcWdZYWc?oc=5"
-  },
-  {
-    "id": "art-ferrari-12cilindri-o-v12-aspirad-5217",
-    "slug": "ferrari-12cilindri-o-v12-aspirado-de-9500-rpm-e-pintura-two-tone-flagrado-no-asfalto-de-monaco-4549",
-    "title": "Ferrari 12Cilindri: O V12 Aspirado de 9.500 RPM e Pintura Two-Tone Flagrado no Asfalto de Mônaco",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "09 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "A soberania mecânica de um motor atmosférico diante do mar mediterrâneo. Tolerâncias de mícrons e escape em Inconel transformam o Principado em palco de telemetria pura.",
-    "contentParagraphs": [
-      "O asfalto de Mônaco exige silêncio. A Ferrari 12Cilindri responde com um estampido metálico que desafia a calmaria do principado, cortando o ar úmido com a precisão de um bisturi cirúrgico. A pintura em configuração two-tone não é apenas um capricho estético de ateliê; é uma declaração geométrica que alonga o capô monumental esculpido para abrigar a herança mecânica mais pura de Maranello.",
-      "Sob o capô dianteiro-central, o bloco de doze cilindros em V aspira ar com uma voracidade implacável. Sem turbos, sem filtros artificiais de ruído. Apenas o ciclo Otto atingindo o limiar mecânico de 9.500 RPM, gerando uma força G lateral capaz de testar a resistência cervical do piloto mais experiente. Cada pistão forçado e cada biela em titânio operam dentro de tolerâncias de mícrons, garantindo que a energia térmica seja convertida imediatamente em propulsão bruta sobre o monocoque.",
-      "Enquanto a indústria automotiva contemporânea se rende à esterilidade das telas táteis e motores híbridos descartáveis, esta berlinetta aposta na incorruptibilidade da velha guarda. O fluxo de Venturi esculpido sob o assoalho atrai o veículo contra o solo com carga aerodinâmica implacável, mantendo a estabilidade dinâmica nas curvas de alta velocidade da curva Grand Hotel sem depender de eletrônica invasiva.",
-      "O veredito de Maranello é claro e definitivo. A Ferrari 12Cilindri flagrada nas ruas sinuosas do mediterrâneo representa o último bastião da combustão aspirada de alta cilindrada antes da iminente extinção regulatória, consolidando-se instantaneamente como um ativo intocável em qualquer portafólio de colecionador exigente."
-    ],
-    "content_paragraphs": [
-      "O asfalto de Mônaco exige silêncio. A Ferrari 12Cilindri responde com um estampido metálico que desafia a calmaria do principado, cortando o ar úmido com a precisão de um bisturi cirúrgico. A pintura em configuração two-tone não é apenas um capricho estético de ateliê; é uma declaração geométrica que alonga o capô monumental esculpido para abrigar a herança mecânica mais pura de Maranello.",
-      "Sob o capô dianteiro-central, o bloco de doze cilindros em V aspira ar com uma voracidade implacável. Sem turbos, sem filtros artificiais de ruído. Apenas o ciclo Otto atingindo o limiar mecânico de 9.500 RPM, gerando uma força G lateral capaz de testar a resistência cervical do piloto mais experiente. Cada pistão forçado e cada biela em titânio operam dentro de tolerâncias de mícrons, garantindo que a energia térmica seja convertida imediatamente em propulsão bruta sobre o monocoque.",
-      "Enquanto a indústria automotiva contemporânea se rende à esterilidade das telas táteis e motores híbridos descartáveis, esta berlinetta aposta na incorruptibilidade da velha guarda. O fluxo de Venturi esculpido sob o assoalho atrai o veículo contra o solo com carga aerodinâmica implacável, mantendo a estabilidade dinâmica nas curvas de alta velocidade da curva Grand Hotel sem depender de eletrônica invasiva.",
-      "O veredito de Maranello é claro e definitivo. A Ferrari 12Cilindri flagrada nas ruas sinuosas do mediterrâneo representa o último bastião da combustão aspirada de alta cilindrada antes da iminente extinção regulatória, consolidando-se instantaneamente como um ativo intocável em qualquer portafólio de colecionador exigente."
-    ],
-    "specs": {
-      "motorizacao": "V12 aspirado de 6.5 litros",
-      "potencia_maxima": "830 cv a 9.250 RPM",
-      "transmissao": "Dupla embreagem de 8 marchas",
-      "aerodinamica": "Efeito solo ativo com dutos Venturi",
-      "material_escape": "Inconel 625 de alta resistência térmica"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 92,
-    "ranking_score": 92,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-09T15:12:25.216Z",
-    "published_at": "2026-11-09T15:12:25.216Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSjRIU0ZsOFQzSmwzc3FlOU5Kb1VrVnpHMkVpa185QlF4cFFoLTBuVzFEZGVSTGgycENFdE50aUpSWHEyYm9hUTFUcXVvSGZ4aGJhd011ZXdGa3FXZmJGS295TGotNk5ONUNrNXo3bmVFZFNuZ3djZEJBX2FISlUxVHRSTnpMRmRYVC1kRUgwWXBwMFFtb25GNGthT3lhZFNRT1gzWEpDZ1lKcXM?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSjRIU0ZsOFQzSmwzc3FlOU5Kb1VrVnpHMkVpa185QlF4cFFoLTBuVzFEZGVSTGgycENFdE50aUpSWHEyYm9hUTFUcXVvSGZ4aGJhd011ZXdGa3FXZmJGS295TGotNk5ONUNrNXo3bmVFZFNuZ3djZEJBX2FISlUxVHRSTnpMRmRYVC1kRUgwWXBwMFFtb25GNGthT3lhZFNRT1gzWEpDZ1lKcXM?oc=5"
   }
 ];
 
@@ -1428,13 +1429,21 @@ export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
     "category": "ARQUITETURA",
+    "title": "Gooding Christie’s Geneva Sale 2026: 1...",
+    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "gooding-christies-geneva-sale-2026-142-milhoes-de-francos-suicos-e-o-triunfo-dos-chassis-conservados-em-silencio-mineral-3811"
+  },
+  {
+    "id": "film-2",
+    "category": "ARQUITETURA",
     "title": "Coral Gables 50 Milhões: O Refúgio de ...",
     "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=85&w=1800",
     "tag": "CURADORIA RADAR",
     "slug": "coral-gables-50-milhoes-o-refugio-de-1200-metros-quadrados-com-linha-de-costa-privativa-7488"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "RELOGIOS",
     "title": "Phillips Geneva Watch Auction XXIV: 11...",
     "image": "https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?auto=format&fit=max&q=80&w=1400",
@@ -1442,7 +1451,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "phillips-geneva-watch-auction-xxiv-112-milhoes-de-dolares-em-calibres-raros-sob-o-silencio-absoluto-da-vallee-de-joux-7407"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "RELOGIOS",
     "title": "Phillips Geneva Watch Auction: 24 Reco...",
     "image": "https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?auto=format&fit=max&q=80&w=1400",
@@ -1450,7 +1459,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "phillips-geneva-watch-auction-24-recordes-historicos-e-o-marco-de-us-100-milhoes-em-manufatura-rara-5078"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Bugatti Americas: Duas Décadas de Domí...",
     "image": "https://images.unsplash.com/photo-1577735138919-91b6848511c8?auto=format&fit=max&q=80&w=1400",
@@ -1458,20 +1467,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "bugatti-americas-duas-decadas-de-dominio-com-tolerancia-de-microns-e-v16-aspirado-3241"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "DESTINOS",
     "title": "Estaleiros da Tunísia: Os 558 Milhões ...",
     "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800",
     "tag": "CURADORIA RADAR",
     "slug": "estaleiros-da-tunisia-os-558-milhoes-de-dolares-em-componentes-navais-que-cruzam-o-mediterraneo-com-tolerancia-de-microns-2331"
-  },
-  {
-    "id": "film-6",
-    "category": "ARQUITETURA",
-    "title": "Alta Joalheria em Leilão: O Refúgio de...",
-    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800",
-    "tag": "CURADORIA RADAR",
-    "slug": "alta-joalheria-em-leilao-o-refugio-de-liquidez-de-us-85-milhoes-em-diamantes-type-iia-que-desafiam-a-inflacao-global-7916"
   }
 ];
 

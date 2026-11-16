@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-safira-imperial-1997carat-de-cor-7415",
+    "slug": "safira-imperial-1997carat-de-corte-dodecaedrico-da-casa-romanov-7156",
+    "title": "Safira Imperial: 199,7‑Carat de Corte Dodecaédrico da Casa Romanov",
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNV1lFQXFzTmlWTUw1NENfcnY2TXRwRTNtZnFmUkdabk1rV1dxVVptbjRmdXFfNFRNWkQyVEQxb2dlOXFyZURPd3FVTnc2YWFLZno1N2MtZzVaQ25JSXRISmlrUWIxcGtZM0IzM2czc1N2R2RQSjlJeURBbUtUcmFJZ1Nnb1FCdw?oc=5",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "publishedAt": "2026-11-16T15:06:17.415Z"
+  },
+  {
     "id": "art-ferrari-f12tdf-os-brutais-us-383-4172",
     "slug": "ferrari-f12tdf-os-brutais-us-383-milhoes-do-v12-aspirado-de-780-cv-que-consagraram-a-supremacia-da-inercia-mecanica-4160",
     "title": "Ferrari F12tdf: Os Brutais US$ 3,83 Milhões do V12 Aspirado de 780 cv que Consagraram a Supremacia da Inércia Mecânica",
