@@ -116,6 +116,59 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-pulseira-de-safiras-dos-romanov--2908",
+    "slug": "pulseira-de-safiras-dos-romanov-o-lote-dinastico-de-genebra-que-superou-estimativas-em-chf-42-milhoes-e-silenciou-o-mercado-de-liquidez-volatil-2448",
+    "title": "Pulseira de Safiras dos Romanov: O Lote Dinástico de Genebra que Superou Estimativas em CHF 4,2 Milhões e Silenciou o Mercado de Liquidez Volátil",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "16 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A soberania patrimonial dos Romanov atinge novos patamares em leilão suíço, provando que ativos imperiais imunes à inflação exercem fascínio atemporal sobre family offices.",
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Sob os lustres suntuosos de Genebra, uma pulseira de safiras e diamantes outrora pertencente à dinastia Romanov subiu ao pódio dos leilões internacionais, superando largamente as estimativas conservadoras das casas de custódia fiduciária. Não se trata apenas de uma joia, mas de um refúgio de liquidez tangível.",
+      "A manufatura imperial russa do século XIX emprega técnicas de cravação em prata sobre ouro que desafiam o desgaste temporal. Cada safira do Ceilão exibe inclusões rutiladas específicas, atestando origem geográfica inquestionável. A montagem estrutural resistiu a dois séculos de turbulência geopolítica sem perder a rigidez dos feixes articulados.",
+      "Enquanto os mercados acionários oscilam ao sabor de conjecturas macroeconômicas diárias, ativos com proveniência dinástica comprovada operam sob regras próprias de valorização. A custódia fiduciária destas relíquias garante que o capital soberano permaneça imune à desvalorização cambial sistêmica. É a arquitetura financeira dos czares adaptada ao século XXI.",
+      "A arrematação por um colecionador privado de Genebra consolida uma tendência irreversível. O verdadeiro luxo reside na posse de artefatos que carregam cicatrizes históricas e pureza mineral insubstituível. A pulseira Romanov recolhe-se agora ao silêncio definitivo de um cofre blindado, aguardando o próximo ciclo secular."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Sob os lustres suntuosos de Genebra, uma pulseira de safiras e diamantes outrora pertencente à dinastia Romanov subiu ao pódio dos leilões internacionais, superando largamente as estimativas conservadoras das casas de custódia fiduciária. Não se trata apenas de uma joia, mas de um refúgio de liquidez tangível.",
+      "A manufatura imperial russa do século XIX emprega técnicas de cravação em prata sobre ouro que desafiam o desgaste temporal. Cada safira do Ceilão exibe inclusões rutiladas específicas, atestando origem geográfica inquestionável. A montagem estrutural resistiu a dois séculos de turbulência geopolítica sem perder a rigidez dos feixes articulados.",
+      "Enquanto os mercados acionários oscilam ao sabor de conjecturas macroeconômicas diárias, ativos com proveniência dinástica comprovada operam sob regras próprias de valorização. A custódia fiduciária destas relíquias garante que o capital soberano permaneça imune à desvalorização cambial sistêmica. É a arquitetura financeira dos czares adaptada ao século XXI.",
+      "A arrematação por um colecionador privado de Genebra consolida uma tendência irreversível. O verdadeiro luxo reside na posse de artefatos que carregam cicatrizes históricas e pureza mineral insubstituível. A pulseira Romanov recolhe-se agora ao silêncio definitivo de um cofre blindado, aguardando o próximo ciclo secular."
+    ],
+    "specs": {
+      "proveniência": "Casa Imperial Romanov",
+      "pedras centrais": "Safiras do Ceilão sem aquecimento térmico",
+      "materiais": "Prata imperial, ouro amarelo de 18k e diamantes lapidação roseta",
+      "local do leilão": "Genebra, Suíça",
+      "avaliação final": "Superou estimativas conservadoras em CHF 4.200.000",
+      "custódia": "Família Imperial / Acervo Privado Fiduciário"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-16T01:23:32.907Z",
+    "published_at": "2026-11-16T01:23:32.907Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9tYWJTUDFUSDhZRXNjWTZYV2g3TWQ5SzBUOXpyQVZrSW5UVHZWbjhzc1VYb243Q2NOYWN5TFdPLWJRQVBCcWhkbm5BYWMtVXkwR2FvVldvZHpoZVd0c0F3LUQydjhQMUx4RC1JLWRVdmE4bUdxYTBV?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9tYWJTUDFUSDhZRXNjWTZYV2g3TWQ5SzBUOXpyQVZrSW5UVHZWbjhzc1VYb243Q2NOYWN5TFdPLWJRQVBCcWhkbm5BYWMtVXkwR2FvVldvZHpoZVd0c0F3LUQydjhQMUx4RC1JLWRVdmE4bUdxYTBV?oc=5"
+  },
+  {
     "id": "art-sothebys-genebra-o-leilao-histor-1110",
     "slug": "sothebys-genebra-o-leilao-historico-de-84-milhoes-de-francos-que-consagra-a-manufatura-independente-na-vallee-de-joux-0492",
     "title": "Sotheby's Genebra: O Leilão Histórico de 84 Milhões de Francos que Consagra a Manufatura Independente na Vallée de Joux",
@@ -1367,58 +1420,6 @@ export const ARTICLES = [
     "published_at": "2026-11-09T11:08:51.148Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbXphV0VWUnp6OVhmRC05dmhTaFh6alBBd0poWDRDZHRXT0RiOHdYVU1abWd0ZUl1RWNKUWZ2VzMzRWgwNGxZLTV4SzJPWFZCZWE2QkZzSmdlM3BYWnJ0eGlWNmJfVXhTeFUtbm1KN2J0Nmc4cjh2UWx6Yk4zLXVVaTZwQnpiR2ZITE9PcDBTRQ?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbXphV0VWUnp6OVhmRC05dmhTaFh6alBBd0poWDRDZHRXT0RiOHdYVU1abWd0ZUl1RWNKUWZ2VzMzRWgwNGxZLTV4SzJPWFZCZWE2QkZzSmdlM3BYWnJ0eGlWNmJfVXhTeFUtbm1KN2J0Nmc4cjh2UWx6Yk4zLXVVaTZwQnpiR2ZITE9PcDBTRQ?oc=5"
-  },
-  {
-    "id": "art-gold-coast-a-residencia-de-475-m-9214",
-    "slug": "gold-coast-a-residencia-de-475-milhoes-de-dolares-em-travertino-romano-que-desafia-o-recorde-imobiliario-da-australia-8416",
-    "title": "Gold Coast: A Residência de 47,5 Milhões de Dólares em Travertino Romano que Desafia o Recorde Imobiliário da Austrália",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "09 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A soberania patrimonial encontra seu refúgio definitivo nas areias da Gold Coast, onde uma arquitetura de silêncio mineral desafia a volatilidade dos mercados globais.",
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nas margens intocadas da Gold Coast australiana, uma propriedade monumental acaba de ser listada por 47,5 milhões de dólares, em um lance calculado para redefinir o teto histórico do mercado imobiliário de Queensland. Não há concessões ao efêmero nesta estrutura. O projeto aposta na solidez de blocos maciços de travertino romano e em fundações projetadas para resistir a séculos de intempéries oceânicas, erguendo-se como um bastião de imunidade temporal.",
-      "A engenharia civil por trás da residência transcende o conceito tradicional de habitação de alto padrão. Foram empregadas centenas de toneladas de concreto de alta densidade e aço estrutural inoxidável, garantindo uma rigidez torsional que elimina qualquer vibração induzida pelas marés. Vidros laminados estruturais de baixa emissividade, com espessura de quase três centímetros, isolam completamente o interior dos ventos salinos, criando uma cápsula climática onde a luz natural é filtrada com precisão milimétrica por brises orientáveis em bronze envelhecido.",
-      "Em tempos de inflação galopante e erosão monetária, ativos reais localizados em enclaves geográficos irreplicáveis funcionam como a mais pura custódia fiduciária. Esta mansão não representa apenas um endereço exclusivo, mas um refúgio de liquidez transacional inabalável. Famílias detentoras de fortunas seculares reconhecem rapidamente o valor intrínseco de uma propriedade com tal grau de escassez geográfica. A arquitetura aqui atua como um cofre-forte físico, blindado contra as flutuações geopolíticas e a obsolescência estética.",
-      "A governança dinástica exige locais capazes de abrigar gerações futuras sem perder a relevância formal ou estrutural. Ao pavimentar o caminho para superar o recorde de Queensland, esta propriedade consolida a Austrália como um polo incontestável para alocações imobiliárias soberanas. O veredito do nosso comitê é categórico: trata-se de um marco arquitetônico intocável, reservado exclusivamente para aqueles que compreendem que o verdadeiro luxo reside na permanência da matéria."
-    ],
-    "content_paragraphs": [
-      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nas margens intocadas da Gold Coast australiana, uma propriedade monumental acaba de ser listada por 47,5 milhões de dólares, em um lance calculado para redefinir o teto histórico do mercado imobiliário de Queensland. Não há concessões ao efêmero nesta estrutura. O projeto aposta na solidez de blocos maciços de travertino romano e em fundações projetadas para resistir a séculos de intempéries oceânicas, erguendo-se como um bastião de imunidade temporal.",
-      "A engenharia civil por trás da residência transcende o conceito tradicional de habitação de alto padrão. Foram empregadas centenas de toneladas de concreto de alta densidade e aço estrutural inoxidável, garantindo uma rigidez torsional que elimina qualquer vibração induzida pelas marés. Vidros laminados estruturais de baixa emissividade, com espessura de quase três centímetros, isolam completamente o interior dos ventos salinos, criando uma cápsula climática onde a luz natural é filtrada com precisão milimétrica por brises orientáveis em bronze envelhecido.",
-      "Em tempos de inflação galopante e erosão monetária, ativos reais localizados em enclaves geográficos irreplicáveis funcionam como a mais pura custódia fiduciária. Esta mansão não representa apenas um endereço exclusivo, mas um refúgio de liquidez transacional inabalável. Famílias detentoras de fortunas seculares reconhecem rapidamente o valor intrínseco de uma propriedade com tal grau de escassez geográfica. A arquitetura aqui atua como um cofre-forte físico, blindado contra as flutuações geopolíticas e a obsolescência estética.",
-      "A governança dinástica exige locais capazes de abrigar gerações futuras sem perder a relevância formal ou estrutural. Ao pavimentar o caminho para superar o recorde de Queensland, esta propriedade consolida a Austrália como um polo incontestável para alocações imobiliárias soberanas. O veredito do nosso comitê é categórico: trata-se de um marco arquitetônico intocável, reservado exclusivamente para aqueles que compreendem que o verdadeiro luxo reside na permanência da matéria."
-    ],
-    "specs": {
-      "Valor de Listagem": "47.500.000 AUD",
-      "Matéria-Prima Predominante": "Travertino Romano Navona e Bronze",
-      "Blindagem Estrutural": "Vidros laminados de alta densidade e aço inoxidável",
-      "Localização Geográfica": "Gold Coast, Queensland, Austrália",
-      "Custódia Patrimonial": "Ativo imune à inflação e escassez territorial"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 86,
-    "ranking_score": 86,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-09T04:45:49.214Z",
-    "published_at": "2026-11-09T04:45:49.214Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdUl6WDExeFh2NkRzSGYzd0NlaFZLal9lSjJuTnBQY19RVlNUbDFZX2xNTHljUFY4N2tpQ2lLSmdaV3p1Z3dmRkxwYUJDSGhqZmhITVdHejV6Y0Y3MlRjSkJIRjJmQklGa1V2UXRjLW8zTnIwRmhpTFVZeVBndnZ4UlVndUpHUFVEbTFPcFo0X2liWVNWdk10ODZZb2tyTTc1dDFXd0RWVWZWQmtUWTd5TV9VVQ?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdUl6WDExeFh2NkRzSGYzd0NlaFZLal9lSjJuTnBQY19RVlNUbDFZX2xNTHljUFY4N2tpQ2lLSmdaV3p1Z3dmRkxwYUJDSGhqZmhITVdHejV6Y0Y3MlRjSkJIRjJmQklGa1V2UXRjLW8zTnIwRmhpTFVZeVBndnZ4UlVndUpHUFVEbTFPcFo0X2liWVNWdk10ODZZb2tyTTc1dDFXd0RWVWZWQmtUWTd5TV9VVQ?oc=5"
   }
 ];
 
@@ -1426,13 +1427,21 @@ export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
     "category": "RELOGIOS",
+    "title": "Phillips Geneva Watch Auction XXIV: 11...",
+    "image": "https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "phillips-geneva-watch-auction-xxiv-112-milhoes-de-dolares-em-calibres-raros-sob-o-silencio-absoluto-da-vallee-de-joux-7407"
+  },
+  {
+    "id": "film-2",
+    "category": "RELOGIOS",
     "title": "Phillips Geneva Watch Auction: 24 Reco...",
     "image": "https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "phillips-geneva-watch-auction-24-recordes-historicos-e-o-marco-de-us-100-milhoes-em-manufatura-rara-5078"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Bugatti Americas: Duas Décadas de Domí...",
     "image": "https://images.unsplash.com/photo-1577735138919-91b6848511c8?auto=format&fit=max&q=80&w=1400",
@@ -1440,7 +1449,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "bugatti-americas-duas-decadas-de-dominio-com-tolerancia-de-microns-e-v16-aspirado-3241"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "DESTINOS",
     "title": "Estaleiros da Tunísia: Os 558 Milhões ...",
     "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800",
@@ -1448,7 +1457,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "estaleiros-da-tunisia-os-558-milhoes-de-dolares-em-componentes-navais-que-cruzam-o-mediterraneo-com-tolerancia-de-microns-2331"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "ARQUITETURA",
     "title": "Alta Joalheria em Leilão: O Refúgio de...",
     "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800",
@@ -1456,20 +1465,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "alta-joalheria-em-leilao-o-refugio-de-liquidez-de-us-85-milhoes-em-diamantes-type-iia-que-desafiam-a-inflacao-global-7916"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Ferrari F355 de Jeremy Clarkson: O V8 ...",
     "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "ferrari-f355-de-jeremy-clarkson-o-v8-aspirado-de-35-litros-e-cambio-manual-em-gated-shifter-retorna-ao-leilao-5851"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Ferrari 12Cilindri: O V12 Aspirado de ...",
-    "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "ferrari-12cilindri-o-v12-aspirado-de-9500-rpm-e-pintura-two-tone-flagrado-no-asfalto-de-monaco-4549"
   }
 ];
 

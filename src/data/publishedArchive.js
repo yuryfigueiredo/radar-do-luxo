@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-pulseira-de-safiras-dos-romanov--2908",
+    "slug": "pulseira-de-safiras-dos-romanov-o-lote-dinastico-de-genebra-que-superou-estimativas-em-chf-42-milhoes-e-silenciou-o-mercado-de-liquidez-volatil-2448",
+    "title": "Pulseira de Safiras dos Romanov: O Lote Dinástico de Genebra que Superou Estimativas em CHF 4,2 Milhões e Silenciou o Mercado de Liquidez Volátil",
+    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9tYWJTUDFUSDhZRXNjWTZYV2g3TWQ5SzBUOXpyQVZrSW5UVHZWbjhzc1VYb243Q2NOYWN5TFdPLWJRQVBCcWhkbm5BYWMtVXkwR2FvVldvZHpoZVd0c0F3LUQydjhQMUx4RC1JLWRVdmE4bUdxYTBV?oc=5",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "publishedAt": "2026-11-16T01:23:32.907Z"
+  },
+  {
     "id": "art-sothebys-genebra-o-leilao-histor-1110",
     "slug": "sothebys-genebra-o-leilao-historico-de-84-milhoes-de-francos-que-consagra-a-manufatura-independente-na-vallee-de-joux-0492",
     "title": "Sotheby's Genebra: O Leilão Histórico de 84 Milhões de Francos que Consagra a Manufatura Independente na Vallée de Joux",
