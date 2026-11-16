@@ -116,6 +116,59 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-feadship-pi-e-oceanco-koru-o-enc-4806",
+    "slug": "feadship-pi-e-oceanco-koru-o-encontro-de-800-milhoes-de-dolares-em-aluminio-naval-e-aco-inoxidavel-na-silo-marina-4380",
+    "title": "Feadship Pi e Oceanco Koru: O Encontro de 800 Milhões de Dólares em Alumínio Naval e Aço Inoxidável na Silo Marina",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "16 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A calmaria de Auckland foi subitamente quebrada pela atracação impecável do superiate Pi ao lado do colosso Koru, unindo duas filosofias distintas de engenharia naval em um único horizonte oceânico.",
+    "contentParagraphs": [
+      "As águas da Silo Marina receberam um alinhamento de ativos flutuantes que redefine a arquitetura naval contemporânea. O colosso Koru, avaliado em quinhentos milhões de dólares, encontrava-se isolado há semanas. A monotonia portuária foi desfeita com a chegada cirúrgica do Feadship Pi, uma obra-prima de trezentos milhões de dólares com assinatura de Howard Schultz. Dois cascos monumentais agora compartilham o mesmo cais na Nova Zelândia, erguendo-se como fortalezas metálicas contra o vento sul.",
+      "Sob a linha d'água, a engenharia de ambos os navios revela a busca absoluta por tolerâncias de mícrons. O Pi ostenta uma superestrutura em alumínio leve e um casco em aço naval desenhado para cortar o oceano com resistência hidrodinâmica mínima. Enquanto isso, o Koru domina o espaço com seus mastros monumentais e um monocoque otimizado para navegação transoceânica à vela, exigindo sistemas complexos de tarelagem e guinchos hidráulicos operados sob imensa tensão mecânica.",
+      "A convergência desses dois gigantes transcende a mera ostentação portuária. Representa a interseção entre o savoir-faire holandês na construção customizada da Feadship e a ousadia oceânica da Oceanco. Cada centímetro quadrado de cobertura em teca e cada junta de solda inspecionada por ultrassom atestam a obsesão de seus comitentes pela perfeição estrutural, criando um refúgio de mobilidade soberana longe dos centros financeiros tradicionais.",
+      "No silêncio das docas neozelandesas, estes cascos multimilionários consolidam uma nova era para a náutica de grande porte. Não há concessões ao supérfluo quando se opera no limiar da engenharia naval de ponta. O encontro fortuito em Auckland prova que, para o topo da pirâmide global, o oceano continua sendo o único território onde a lei física é escrita exclusivamente pelo metal e pela maré."
+    ],
+    "content_paragraphs": [
+      "As águas da Silo Marina receberam um alinhamento de ativos flutuantes que redefine a arquitetura naval contemporânea. O colosso Koru, avaliado em quinhentos milhões de dólares, encontrava-se isolado há semanas. A monotonia portuária foi desfeita com a chegada cirúrgica do Feadship Pi, uma obra-prima de trezentos milhões de dólares com assinatura de Howard Schultz. Dois cascos monumentais agora compartilham o mesmo cais na Nova Zelândia, erguendo-se como fortalezas metálicas contra o vento sul.",
+      "Sob a linha d'água, a engenharia de ambos os navios revela a busca absoluta por tolerâncias de mícrons. O Pi ostenta uma superestrutura em alumínio leve e um casco em aço naval desenhado para cortar o oceano com resistência hidrodinâmica mínima. Enquanto isso, o Koru domina o espaço com seus mastros monumentais e um monocoque otimizado para navegação transoceânica à vela, exigindo sistemas complexos de tarelagem e guinchos hidráulicos operados sob imensa tensão mecânica.",
+      "A convergência desses dois gigantes transcende a mera ostentação portuária. Representa a interseção entre o savoir-faire holandês na construção customizada da Feadship e a ousadia oceânica da Oceanco. Cada centímetro quadrado de cobertura em teca e cada junta de solda inspecionada por ultrassom atestam a obsesão de seus comitentes pela perfeição estrutural, criando um refúgio de mobilidade soberana longe dos centros financeiros tradicionais.",
+      "No silêncio das docas neozelandesas, estes cascos multimilionários consolidam uma nova era para a náutica de grande porte. Não há concessões ao supérfluo quando se opera no limiar da engenharia naval de ponta. O encontro fortuito em Auckland prova que, para o topo da pirâmide global, o oceano continua sendo o único território onde a lei física é escrita exclusivamente pelo metal e pela maré."
+    ],
+    "specs": {
+      "Comprimento Total Koru": "127 metros",
+      "Comprimento Total Pi": "77 metros",
+      "Estaleiro Construtor Koru": "Oceanco (Holanda)",
+      "Estaleiro Construtor Pi": "Feadship (Holanda)",
+      "Avaliação Combinada": "$800 milhões de dólares",
+      "Localização da Atracação": "Silo Marina, Auckland, Nova Zelândia"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 92,
+    "ranking_score": 92,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-16T18:35:24.805Z",
+    "published_at": "2026-11-16T18:35:24.805Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTVZQX2RyRWUyVG42ZDlVV2pxbXdxZkdPUXVXc1dwa0pKQTdhWXplLW5QbEFCU1prOTlXSklFLUZ0V3d1QUFIVUJpelVlb0oxQlN1OUpiRk9YRnVoUm5zeWVhRUVkQkNaN0o0Skd4Mmx5LWZ5clZpWGdXRm1aVE92VmozcEtpX3kxbmtlM1dKMklhWVd1VGZXamlhVmQ?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTVZQX2RyRWUyVG42ZDlVV2pxbXdxZkdPUXVXc1dwa0pKQTdhWXplLW5QbEFCU1prOTlXSklFLUZ0V3d1QUFIVUJpelVlb0oxQlN1OUpiRk9YRnVoUm5zeWVhRUVkQkNaN0o0Skd4Mmx5LWZ5clZpWGdXRm1aVE92VmozcEtpX3kxbmtlM1dKMklhWVd1VGZXamlhVmQ?oc=5"
+  },
+  {
     "id": "art-safira-imperial-1997carat-de-cor-7415",
     "slug": "safira-imperial-1997carat-de-corte-dodecaedrico-da-casa-romanov-7156",
     "title": "Safira Imperial: 199,7‑Carat de Corte Dodecaédrico da Casa Romanov",
@@ -1369,65 +1422,20 @@ export const ARTICLES = [
     "published_at": "2026-11-10T01:19:27.927Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSWZUam1CNkszQk9jM1l0X0VGNWhtOWI0el9iUTFxTnF1SUE4UktNYzcweGVVRWc5Tm5uVVlfSTZEb1lJdkFfX1pfYm9EUEVWdEJlUVlCWFJhYy1RbWJ5NHZqay1qdVFOOUlGN3JTWWxReVQ0ZVJBcWNSODdETldCYk96SFNFVUFyaGlhMmVpZ3psVVlMMG5UYjE2OHJ5dw?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSWZUam1CNkszQk9jM1l0X0VGNWhtOWI0el9iUTFxTnF1SUE4UktNYzcweGVVRWc5Tm5uVVlfSTZEb1lJdkFfX1pfYm9EUEVWdEJlUVlCWFJhYy1RbWJ5NHZqay1qdVFOOUlGN3JTWWxReVQ0ZVJBcWNSODdETldCYk96SFNFVUFyaGlhMmVpZ3psVVlMMG5UYjE2OHJ5dw?oc=5"
-  },
-  {
-    "id": "art-ferrari-f355-de-jeremy-clarkson--5860",
-    "slug": "ferrari-f355-de-jeremy-clarkson-o-v8-aspirado-de-35-litros-e-cambio-manual-em-gated-shifter-retorna-ao-leilao-5851",
-    "title": "Ferrari F355 de Jeremy Clarkson: O V8 Aspirado de 3.5 Litros e Câmbio Manual em Gated Shifter Retorna ao Leilão",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "09 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "A relíquia de Maranello outrora pertencente ao polemista britânico busca um novo guardião após frustrar as expectativas de mercado, sustentando o canto de cisne dos motores atmosféricos de alta rotação.",
-    "contentParagraphs": [
-      "O silêncio do mercado não apaga a violência mecânica de um motor central-traseiro V8 de cinco válvulas por cilindro. A Ferrari F355 que pertenceu a Jeremy Clarkson retorna aos lances após falhar em encontrar comprador em 2025, expondo a frieza dos investidores diante da visceralidade pura de uma era analógica. Sob o capô traseiro, o bloco de alumínio pulsa com a precisão de tolerâncias em mícrons, projetado para girar a absurdos 8.500 RPM sem o auxílio de turbocompressores ou respiros eletrônicos.",
-      "A experiência de pilotagem deste exemplar reside inteiramente na interação tátil e auditiva com o seletor de marchas em grade metálica exposta. Cada engate da transmissão manual de seis velocidades ecoa como o fechamento de um cofre suíço, enquanto o fluxo de escape em Inconel expõe uma sinfonia metálica inalcançável pelos abafadores restritivos dos superesportivos contemporâneos. A aerodinâmica inferior, esculpida em túnel de vento com canais de efeito solo genuínos, mantém o eixo traseiro colado ao asfalto mesmo quando as forças G laterais atingem limiares extremos em curvas de alta velocidade.",
-      "Enquanto o ecossistema automotivo atual sucumbe à esterilização digital de painéis OLED e baterias de íon-lítio de duas toneladas, esta Berlinetta vermelha representa a antítese da obsolescência programada. A carroceria desenhada pela Pininfarina equilibra proporções clássicas com a brutalidade térmica exigida por um propulsor capaz de extrair 380 cavalos de potência puramente aspirada. Trata-se de um artefato cinético onde a telemetria inercial depende unicamente da sensibilidade do pulso humano e da aderência mecânica dos compostos de borracha.",
-      "A repetição deste lote nos pregões internacionais não constitui um revés, mas um teste de seletividade para colecionadores dotados de discernimento técnico. Quem arrematar este chassi não adquire apenas o pedigree televisivo de um ex-apresentador de Detroit, mas a custódia de um dos últimos motores Ferrari desenvolvidos antes da era dos atuadores automatizados. É a engenharia mecânica em seu estado mais intransigente, aguardando o próximo purista corajoso o suficiente para explorar seu limite real."
-    ],
-    "content_paragraphs": [
-      "O silêncio do mercado não apaga a violência mecânica de um motor central-traseiro V8 de cinco válvulas por cilindro. A Ferrari F355 que pertenceu a Jeremy Clarkson retorna aos lances após falhar em encontrar comprador em 2025, expondo a frieza dos investidores diante da visceralidade pura de uma era analógica. Sob o capô traseiro, o bloco de alumínio pulsa com a precisão de tolerâncias em mícrons, projetado para girar a absurdos 8.500 RPM sem o auxílio de turbocompressores ou respiros eletrônicos.",
-      "A experiência de pilotagem deste exemplar reside inteiramente na interação tátil e auditiva com o seletor de marchas em grade metálica exposta. Cada engate da transmissão manual de seis velocidades ecoa como o fechamento de um cofre suíço, enquanto o fluxo de escape em Inconel expõe uma sinfonia metálica inalcançável pelos abafadores restritivos dos superesportivos contemporâneos. A aerodinâmica inferior, esculpida em túnel de vento com canais de efeito solo genuínos, mantém o eixo traseiro colado ao asfalto mesmo quando as forças G laterais atingem limiares extremos em curvas de alta velocidade.",
-      "Enquanto o ecossistema automotivo atual sucumbe à esterilização digital de painéis OLED e baterias de íon-lítio de duas toneladas, esta Berlinetta vermelha representa a antítese da obsolescência programada. A carroceria desenhada pela Pininfarina equilibra proporções clássicas com a brutalidade térmica exigida por um propulsor capaz de extrair 380 cavalos de potência puramente aspirada. Trata-se de um artefato cinético onde a telemetria inercial depende unicamente da sensibilidade do pulso humano e da aderência mecânica dos compostos de borracha.",
-      "A repetição deste lote nos pregões internacionais não constitui um revés, mas um teste de seletividade para colecionadores dotados de discernimento técnico. Quem arrematar este chassi não adquire apenas o pedigree televisivo de um ex-apresentador de Detroit, mas a custódia de um dos últimos motores Ferrari desenvolvidos antes da era dos atuadores automatizados. É a engenharia mecânica em seu estado mais intransigente, aguardando o próximo purista corajoso o suficiente para explorar seu limite real."
-    ],
-    "specs": {
-      "motorizacao": "V8 de 3.5 litros, 40 válvulas (5 por cilindro)",
-      "potencia_maxima": "380 cv a 8.250 RPM",
-      "transmissao": "Manual de 6 velocidades com portinhola (gated shifter)",
-      "ateliê_e_design": "Carroceria assinada pela Pininfarina",
-      "desempenho": "0 a 100 km/h em 4,7 segundos",
-      "valor_estimado": "Sob consulta em leilão especializado"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 92,
-    "ranking_score": 92,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-09T18:35:45.860Z",
-    "published_at": "2026-11-09T18:35:45.860Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWkdnOFV1QXdDdDIyZHVzYndGZlByR1RqWnJmRzF1T2FoeWlPeUZsTDZNU1doQWh5aWNOZ25NNVRwWjU5b3hjNDJmamdtM0tNRG45d19UZ2lXQ1o5dk9PY1AweFRYalNHcUJpQ2RBSzF2UnA1bEhYbXFaM2FtdldRellYejY2cUdyNTFlNzFrcWY3MWUxQkFWeEgyRnJYS2VTX2VmRXV4ZWkxcWdZYWc?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWkdnOFV1QXdDdDIyZHVzYndGZlByR1RqWnJmRzF1T2FoeWlPeUZsTDZNU1doQWh5aWNOZ25NNVRwWjU5b3hjNDJmamdtM0tNRG45d19UZ2lXQ1o5dk9PY1AweFRYalNHcUJpQ2RBSzF2UnA1bEhYbXFaM2FtdldRellYejY2cUdyNTFlNzFrcWY3MWUxQkFWeEgyRnJYS2VTX2VmRXV4ZWkxcWdZYWc?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "SUPERCARROS",
+    "title": "Ferrari F40: O Ícone de $4 Milhões e T...",
+    "image": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "ferrari-f40-o-icone-de-4-milhoes-e-tubos-de-inconel-que-converteu-as-ruas-em-pista-de-testes-de-maranello-8607"
+  },
+  {
+    "id": "film-2",
     "category": "ARQUITETURA",
     "title": "Gooding Christie’s Geneva Sale 2026: 1...",
     "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
@@ -1435,7 +1443,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "gooding-christies-geneva-sale-2026-142-milhoes-de-francos-suicos-e-o-triunfo-dos-chassis-conservados-em-silencio-mineral-3811"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "ARQUITETURA",
     "title": "Coral Gables 50 Milhões: O Refúgio de ...",
     "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=85&w=1800",
@@ -1443,7 +1451,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "coral-gables-50-milhoes-o-refugio-de-1200-metros-quadrados-com-linha-de-costa-privativa-7488"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "RELOGIOS",
     "title": "Phillips Geneva Watch Auction XXIV: 11...",
     "image": "https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?auto=format&fit=max&q=80&w=1400",
@@ -1451,7 +1459,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "phillips-geneva-watch-auction-xxiv-112-milhoes-de-dolares-em-calibres-raros-sob-o-silencio-absoluto-da-vallee-de-joux-7407"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "RELOGIOS",
     "title": "Phillips Geneva Watch Auction: 24 Reco...",
     "image": "https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?auto=format&fit=max&q=80&w=1400",
@@ -1459,20 +1467,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "phillips-geneva-watch-auction-24-recordes-historicos-e-o-marco-de-us-100-milhoes-em-manufatura-rara-5078"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Bugatti Americas: Duas Décadas de Domí...",
     "image": "https://images.unsplash.com/photo-1577735138919-91b6848511c8?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "bugatti-americas-duas-decadas-de-dominio-com-tolerancia-de-microns-e-v16-aspirado-3241"
-  },
-  {
-    "id": "film-6",
-    "category": "DESTINOS",
-    "title": "Estaleiros da Tunísia: Os 558 Milhões ...",
-    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800",
-    "tag": "CURADORIA RADAR",
-    "slug": "estaleiros-da-tunisia-os-558-milhoes-de-dolares-em-componentes-navais-que-cruzam-o-mediterraneo-com-tolerancia-de-microns-2331"
   }
 ];
 

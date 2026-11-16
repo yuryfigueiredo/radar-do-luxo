@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-feadship-pi-e-oceanco-koru-o-enc-4806",
+    "slug": "feadship-pi-e-oceanco-koru-o-encontro-de-800-milhoes-de-dolares-em-aluminio-naval-e-aco-inoxidavel-na-silo-marina-4380",
+    "title": "Feadship Pi e Oceanco Koru: O Encontro de 800 Milhões de Dólares em Alumínio Naval e Aço Inoxidável na Silo Marina",
+    "image": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTVZQX2RyRWUyVG42ZDlVV2pxbXdxZkdPUXVXc1dwa0pKQTdhWXplLW5QbEFCU1prOTlXSklFLUZ0V3d1QUFIVUJpelVlb0oxQlN1OUpiRk9YRnVoUm5zeWVhRUVkQkNaN0o0Skd4Mmx5LWZ5clZpWGdXRm1aVE92VmozcEtpX3kxbmtlM1dKMklhWVd1VGZXamlhVmQ?oc=5",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-16T18:35:24.805Z"
+  },
+  {
     "id": "art-safira-imperial-1997carat-de-cor-7415",
     "slug": "safira-imperial-1997carat-de-corte-dodecaedrico-da-casa-romanov-7156",
     "title": "Safira Imperial: 199,7‑Carat de Corte Dodecaédrico da Casa Romanov",
