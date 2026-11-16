@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node scripts/prerender.js",
     "preview": "vite preview",
     "crawl": "node scripts/autonomousCrawler.js",
     "publish": "node scripts/autonomousCrawler.js",
@@ -13,7 +13,8 @@
     "scout": "node scripts/curateHotFeeds.js",
     "curate": "node scripts/curateHotFeeds.js",
     "populate": "node scripts/populateEditorialBatch.js",
-    "verificar:capturas": "node scripts/verificarCapturas.js"
+    "verificar:capturas": "node scripts/verificarCapturas.js",
+    "verificar:deriva": "node scripts/verificar-deriva.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.118.0",

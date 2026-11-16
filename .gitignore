@@ -28,3 +28,7 @@ Thumbs.db
 # Temporary / Scratch
 scripts/inspect_photos.py
 .audit/
+
+# Estado dos loops de automação nesta máquina: caminhos locais e leitura de produção,
+# nunca fonte publicável. O repositório é público; um `git add -A` aqui vaza o mapa.
+.agents/

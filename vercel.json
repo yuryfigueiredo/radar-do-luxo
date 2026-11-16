@@ -1,8 +1,12 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm run build",
+  "trailingSlash": false,
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
+    { "source": "/categoria/:slug", "destination": "/index.html" },
+    { "source": "/autor/:slug", "destination": "/index.html" },
+    { "source": "/admin", "destination": "/index.html" },
+    { "source": "/privacidade", "destination": "/index.html" },
+    { "source": "/termos", "destination": "/index.html" }
   ]
 }
