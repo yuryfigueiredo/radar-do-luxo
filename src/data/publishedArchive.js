@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-ferrari-f12tdf-os-brutais-us-383-4172",
+    "slug": "ferrari-f12tdf-os-brutais-us-383-milhoes-do-v12-aspirado-de-780-cv-que-consagraram-a-supremacia-da-inercia-mecanica-4160",
+    "title": "Ferrari F12tdf: Os Brutais US$ 3,83 Milhões do V12 Aspirado de 780 cv que Consagraram a Supremacia da Inércia Mecânica",
+    "image": "https://images.unsplash.com/photo-1650444684180-3f72abb15263?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ZNkZGbjVxZVF2UU9iR25vN09HdU02amVseW82aWdySGpsaklYZlRBLUJaWk5hTnhyTi1pTmpGZmlKT0M1NnBPZEhySnJKSElNLUgzWGFQU2RwSjdwNU5qYWR1cw?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-16T11:19:34.172Z"
+  },
+  {
     "id": "art-pulseira-de-safiras-dos-romanov--2908",
     "slug": "pulseira-de-safiras-dos-romanov-o-lote-dinastico-de-genebra-que-superou-estimativas-em-chf-42-milhoes-e-silenciou-o-mercado-de-liquidez-volatil-2448",
     "title": "Pulseira de Safiras dos Romanov: O Lote Dinástico de Genebra que Superou Estimativas em CHF 4,2 Milhões e Silenciou o Mercado de Liquidez Volátil",

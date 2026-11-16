@@ -116,6 +116,59 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-ferrari-f12tdf-os-brutais-us-383-4172",
+    "slug": "ferrari-f12tdf-os-brutais-us-383-milhoes-do-v12-aspirado-de-780-cv-que-consagraram-a-supremacia-da-inercia-mecanica-4160",
+    "title": "Ferrari F12tdf: Os Brutais US$ 3,83 Milhões do V12 Aspirado de 780 cv que Consagraram a Supremacia da Inércia Mecânica",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "16 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1650444684180-3f72abb15263?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "Um exemplar imaculado da Ferrari F12tdf atingiu US$ 3,83 milhões em leilão recente, reafirmando o valor intocável dos últimos motores V12 aspirados puros diante da maré digital.",
+    "contentParagraphs": [
+      "A marca de US$ 3,83 milhões cravada pelo F12tdf não representa mero apetite especulativo. Trata-se de uma contagem estritamente matemática fundamentada na escassez absoluta de blocos V12 que giram a 8.900 RPM sem a muleta elétrica de turbocompressores. Quando o eixo traseiro esterçante do sistema Virtual Short Wheelbase 2 começa a transferir a massa dinamicamente pelas curvas de alta, o chassi transmite a força G lateral com uma ferocidade cirúrgica que nenhum motor híbrido consegue replicar.",
+      "Sob o capô dianteiro-central reside a obra-prima em alumínio e ligas especiais: um motor aspirado de 6.262 centímetros cúbicos que respira por dutos de admissão variáveis derivados da Fórmula 1. Cada pistão forjado opera com tolerâncias de mícrons enquanto o escape em Inconel expulsa gases com uma frequência acústica que desafia as normais ambientais modernas. A força é descarregada no asfalto através de uma transmissão de dupla embreagem de sete marchas recalibrada para trocas trinta porcento mais rápidas, colando o piloto ao encosto em frações de segundo.",
+      "Enquanto o mercado se curva à obsolescência programada das telas táteis e painéis OLED destinados ao descarte em meia década, o colecionador sênior busca refúgio em monocoques rígidos e comandos puramente analógicos. O sucesso estrondoso deste exemplar no duPont REGISTRY Live ecoa diretamente na valorização implacável que antecede os leilões da herdeira espiritual 812 Competizione. Não há concessões ao conforto artificial; cada fibra de carbono exposta no habitáculo ecoa o compromisso absoluto com a aerodinâmica de efeito solo e a pureza de pilotagem.",
+      "O veredito de pista e mercado é definitivo. A F12tdf consolida-se como um dos pilares inabaláveis da custódia fiduciária automotiva, onde a combustão pura atinge o seu ápice estético e balístico. Quem comanda este bólido compreende que o verdadeiro luxo mecânico reside na resistência intransigente ao silêncio imposto pela eletrificação em massa."
+    ],
+    "content_paragraphs": [
+      "A marca de US$ 3,83 milhões cravada pelo F12tdf não representa mero apetite especulativo. Trata-se de uma contagem estritamente matemática fundamentada na escassez absoluta de blocos V12 que giram a 8.900 RPM sem a muleta elétrica de turbocompressores. Quando o eixo traseiro esterçante do sistema Virtual Short Wheelbase 2 começa a transferir a massa dinamicamente pelas curvas de alta, o chassi transmite a força G lateral com uma ferocidade cirúrgica que nenhum motor híbrido consegue replicar.",
+      "Sob o capô dianteiro-central reside a obra-prima em alumínio e ligas especiais: um motor aspirado de 6.262 centímetros cúbicos que respira por dutos de admissão variáveis derivados da Fórmula 1. Cada pistão forjado opera com tolerâncias de mícrons enquanto o escape em Inconel expulsa gases com uma frequência acústica que desafia as normais ambientais modernas. A força é descarregada no asfalto através de uma transmissão de dupla embreagem de sete marchas recalibrada para trocas trinta porcento mais rápidas, colando o piloto ao encosto em frações de segundo.",
+      "Enquanto o mercado se curva à obsolescência programada das telas táteis e painéis OLED destinados ao descarte em meia década, o colecionador sênior busca refúgio em monocoques rígidos e comandos puramente analógicos. O sucesso estrondoso deste exemplar no duPont REGISTRY Live ecoa diretamente na valorização implacável que antecede os leilões da herdeira espiritual 812 Competizione. Não há concessões ao conforto artificial; cada fibra de carbono exposta no habitáculo ecoa o compromisso absoluto com a aerodinâmica de efeito solo e a pureza de pilotagem.",
+      "O veredito de pista e mercado é definitivo. A F12tdf consolida-se como um dos pilares inabaláveis da custódia fiduciária automotiva, onde a combustão pura atinge o seu ápice estético e balístico. Quem comanda este bólido compreende que o verdadeiro luxo mecânico reside na resistência intransigente ao silêncio imposto pela eletrificação em massa."
+    ],
+    "specs": {
+      "motor": "V12 aspirado a 65° de 6.262 cc",
+      "potencia": "780 cv a 8.500 RPM",
+      "torque": "71,9 kgfm a 6.750 RPM",
+      "transmissao": "F1 de dupla embreagem com 7 marchas",
+      "peso_a_seco": "1.415 kg",
+      "resultado_leilao": "US$ 3.830.000"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 92,
+    "ranking_score": 92,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-16T11:19:34.172Z",
+    "published_at": "2026-11-16T11:19:34.172Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ZNkZGbjVxZVF2UU9iR25vN09HdU02amVseW82aWdySGpsaklYZlRBLUJaWk5hTnhyTi1pTmpGZmlKT0M1NnBPZEhySnJKSElNLUgzWGFQU2RwSjdwNU5qYWR1cw?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ZNkZGbjVxZVF2UU9iR25vN09HdU02amVseW82aWdySGpsaklYZlRBLUJaWk5hTnhyTi1pTmpGZmlKT0M1NnBPZEhySnJKSElNLUgzWGFQU2RwSjdwNU5qYWR1cw?oc=5"
+  },
+  {
     "id": "art-pulseira-de-safiras-dos-romanov--2908",
     "slug": "pulseira-de-safiras-dos-romanov-o-lote-dinastico-de-genebra-que-superou-estimativas-em-chf-42-milhoes-e-silenciou-o-mercado-de-liquidez-volatil-2448",
     "title": "Pulseira de Safiras dos Romanov: O Lote Dinástico de Genebra que Superou Estimativas em CHF 4,2 Milhões e Silenciou o Mercado de Liquidez Volátil",
@@ -1368,64 +1421,20 @@ export const ARTICLES = [
     "published_at": "2026-11-09T15:12:25.216Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSjRIU0ZsOFQzSmwzc3FlOU5Kb1VrVnpHMkVpa185QlF4cFFoLTBuVzFEZGVSTGgycENFdE50aUpSWHEyYm9hUTFUcXVvSGZ4aGJhd011ZXdGa3FXZmJGS295TGotNk5ONUNrNXo3bmVFZFNuZ3djZEJBX2FISlUxVHRSTnpMRmRYVC1kRUgwWXBwMFFtb25GNGthT3lhZFNRT1gzWEpDZ1lKcXM?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSjRIU0ZsOFQzSmwzc3FlOU5Kb1VrVnpHMkVpa185QlF4cFFoLTBuVzFEZGVSTGgycENFdE50aUpSWHEyYm9hUTFUcXVvSGZ4aGJhd011ZXdGa3FXZmJGS295TGotNk5ONUNrNXo3bmVFZFNuZ3djZEJBX2FISlUxVHRSTnpMRmRYVC1kRUgwWXBwMFFtb25GNGthT3lhZFNRT1gzWEpDZ1lKcXM?oc=5"
-  },
-  {
-    "id": "art-hermes-birkin-o-prototipo-origin-1148",
-    "slug": "hermes-birkin-o-prototipo-original-de-jane-birkin-que-vai-a-leilao-com-marcas-de-uso-e-essencia-de-paris-1139",
-    "title": "Hermès Birkin: O Protótipo Original de Jane Birkin que Vai a Leilão com Marcas de Uso e Essência de Paris",
-    "category": "Alta-Costura",
-    "categorySlug": "estilo",
-    "category_slug": "estilo",
-    "authorSlug": "clara-meirelles",
-    "author_slug": "clara-meirelles",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "09 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A bolsa que redefiniu a utilidade na alta-costura emerge em leilão, revelando o couro Box Calf marcado pelo tempo e a intimidade despojada de sua criadora.",
-    "contentParagraphs": [
-      "Há um silêncio eloquente nos objetos que carregam a gravidade da vida real. O tempo do luxo não é utilitário; é a mais nobre das telas mecânicas esculpidas por mãos humanas. Quando o couro Box Calf envelhece sob a luz difusa de Saint-Germain-des-Prés, ele abandona a rigidez estéril do recém-saído da caixa para adotar uma pátina viva. Esta Birkin original, concebida em um voo entre Paris e Londres no calor de 1984, traz consigo os adesivos de bagagem amassados e as marcas inevitáveis dos dias vividos pela mulher que lhe emprestou o nome.",
-      "A sela francesa executada com rigor milimétrico revela o linho encerado em cera virgem que une cada gomosidade do couro. Dentro do ateliê de Pantin, a exigência de Jean-Louis Dumas não era criar um troféu estático, mas sim um santuário portátil para a rotina caótica de uma artista. As ferragens em metal precioso oxidam discretamente, guardando o suor de mãos que gesticulavam em cafés enfumaçados e plateias de cinema. Aqui, a perfeição industrial cede lugar ao relevo tátil da imperfeição humana, esculpida pelo uso contínuo.",
-      "O mercado de leilões abriga, com frequência, peças imaculadas que jamais viram a luz do sol. Esta praça, no entanto, exige outra chave de leitura para colecionadores que buscam a soberania da procedência absoluta. Não se trata de uma aquisição para cofres blindados, mas da custódia de um fragmento tangível da história cultural do século XX. Cada arranhão na aba frontal sussurra a urgência de uma época em que o chique residia no despojamento deliberado e na recusa das convenções burguesas.",
-      "Enquanto o mundo contemporâneo consome efemeridades digitais descartáveis, o couro legítimo tratado à mão recorda a resiliência dos materiais perenes. A peça que agora busca um novo guardião transcende a categoria de artefato de colecionador para se consolidar como um documento antropológico do vestir. É o triunfo da matéria viva sobre a obsolescência programada do consumo em massa."
-    ],
-    "content_paragraphs": [
-      "Há um silêncio eloquente nos objetos que carregam a gravidade da vida real. O tempo do luxo não é utilitário; é a mais nobre das telas mecânicas esculpidas por mãos humanas. Quando o couro Box Calf envelhece sob a luz difusa de Saint-Germain-des-Prés, ele abandona a rigidez estéril do recém-saído da caixa para adotar uma pátina viva. Esta Birkin original, concebida em um voo entre Paris e Londres no calor de 1984, traz consigo os adesivos de bagagem amassados e as marcas inevitáveis dos dias vividos pela mulher que lhe emprestou o nome.",
-      "A sela francesa executada com rigor milimétrico revela o linho encerado em cera virgem que une cada gomosidade do couro. Dentro do ateliê de Pantin, a exigência de Jean-Louis Dumas não era criar um troféu estático, mas sim um santuário portátil para a rotina caótica de uma artista. As ferragens em metal precioso oxidam discretamente, guardando o suor de mãos que gesticulavam em cafés enfumaçados e plateias de cinema. Aqui, a perfeição industrial cede lugar ao relevo tátil da imperfeição humana, esculpida pelo uso contínuo.",
-      "O mercado de leilões abriga, com frequência, peças imaculadas que jamais viram a luz do sol. Esta praça, no entanto, exige outra chave de leitura para colecionadores que buscam a soberania da procedência absoluta. Não se trata de uma aquisição para cofres blindados, mas da custódia de um fragmento tangível da história cultural do século XX. Cada arranhão na aba frontal sussurra a urgência de uma época em que o chique residia no despojamento deliberado e na recusa das convenções burguesas.",
-      "Enquanto o mundo contemporâneo consome efemeridades digitais descartáveis, o couro legítimo tratado à mão recorda a resiliência dos materiais perenes. A peça que agora busca um novo guardião transcende a categoria de artefato de colecionador para se consolidar como um documento antropológico do vestir. É o triunfo da matéria viva sobre a obsolescência programada do consumo em massa."
-    ],
-    "specs": {
-      "Casa de Leilão": "Custódia Privada & Leilão Internacional",
-      "Material": "Couro Box Calf original com pátina de uso",
-      "Ferragens": "Metal precioso com oxidação natural de época",
-      "Origem": "Ateliê Hermès, Paris (1984)",
-      "Provenance": "Coleção Pessoal de Jane Birkin"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 91,
-    "ranking_score": 91,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-09T11:08:51.148Z",
-    "published_at": "2026-11-09T11:08:51.148Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbXphV0VWUnp6OVhmRC05dmhTaFh6alBBd0poWDRDZHRXT0RiOHdYVU1abWd0ZUl1RWNKUWZ2VzMzRWgwNGxZLTV4SzJPWFZCZWE2QkZzSmdlM3BYWnJ0eGlWNmJfVXhTeFUtbm1KN2J0Nmc4cjh2UWx6Yk4zLXVVaTZwQnpiR2ZITE9PcDBTRQ?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbXphV0VWUnp6OVhmRC05dmhTaFh6alBBd0poWDRDZHRXT0RiOHdYVU1abWd0ZUl1RWNKUWZ2VzMzRWgwNGxZLTV4SzJPWFZCZWE2QkZzSmdlM3BYWnJ0eGlWNmJfVXhTeFUtbm1KN2J0Nmc4cjh2UWx6Yk4zLXVVaTZwQnpiR2ZITE9PcDBTRQ?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "ARQUITETURA",
+    "title": "Coral Gables 50 Milhões: O Refúgio de ...",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=85&w=1800",
+    "tag": "CURADORIA RADAR",
+    "slug": "coral-gables-50-milhoes-o-refugio-de-1200-metros-quadrados-com-linha-de-costa-privativa-7488"
+  },
+  {
+    "id": "film-2",
     "category": "RELOGIOS",
     "title": "Phillips Geneva Watch Auction XXIV: 11...",
     "image": "https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?auto=format&fit=max&q=80&w=1400",
@@ -1433,7 +1442,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "phillips-geneva-watch-auction-xxiv-112-milhoes-de-dolares-em-calibres-raros-sob-o-silencio-absoluto-da-vallee-de-joux-7407"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "RELOGIOS",
     "title": "Phillips Geneva Watch Auction: 24 Reco...",
     "image": "https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?auto=format&fit=max&q=80&w=1400",
@@ -1441,7 +1450,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "phillips-geneva-watch-auction-24-recordes-historicos-e-o-marco-de-us-100-milhoes-em-manufatura-rara-5078"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Bugatti Americas: Duas Décadas de Domí...",
     "image": "https://images.unsplash.com/photo-1577735138919-91b6848511c8?auto=format&fit=max&q=80&w=1400",
@@ -1449,7 +1458,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "bugatti-americas-duas-decadas-de-dominio-com-tolerancia-de-microns-e-v16-aspirado-3241"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "DESTINOS",
     "title": "Estaleiros da Tunísia: Os 558 Milhões ...",
     "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800",
@@ -1457,20 +1466,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "estaleiros-da-tunisia-os-558-milhoes-de-dolares-em-componentes-navais-que-cruzam-o-mediterraneo-com-tolerancia-de-microns-2331"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "ARQUITETURA",
     "title": "Alta Joalheria em Leilão: O Refúgio de...",
     "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800",
     "tag": "CURADORIA RADAR",
     "slug": "alta-joalheria-em-leilao-o-refugio-de-liquidez-de-us-85-milhoes-em-diamantes-type-iia-que-desafiam-a-inflacao-global-7916"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Ferrari F355 de Jeremy Clarkson: O V8 ...",
-    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "ferrari-f355-de-jeremy-clarkson-o-v8-aspirado-de-35-litros-e-cambio-manual-em-gated-shifter-retorna-ao-leilao-5851"
   }
 ];
 
