@@ -55,7 +55,7 @@ export default async function handler(req, res) {
     if (google.ok) {
       console.log(`✓ [GOOGLE] Concierge na planilha (linha ${google.totalLinhas}): ${nome} · ${telefone}`);
     } else {
-      console.warn(`⚠️ [GOOGLE] Concierge NÃO registrado na planilha: ${google.erro}`);
+      console.warn(`⚠️ [GOOGLE] Concierge NÃO registrado na planilha: ${google.detalhe || google.erro}`);
     }
 
     return res.status(200).json({

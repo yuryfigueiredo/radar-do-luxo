@@ -52,16 +52,16 @@ export async function gravarCapturaGoogle(registro) {
       dados = JSON.parse(texto);
     } catch (erro) {
       const trecho = texto.replace(/\s+/g, ' ').slice(0, 120);
-      return { ok: false, erro: `resposta do Apps Script nao e JSON (HTTP ${res.status}): ${trecho}` };
+      return { ok: false, erro: 'resposta do Google nao veio como JSON', detalhe: `HTTP ${res.status}: ${trecho}` };
     }
 
     if (!res.ok || !dados.ok) {
-      return { ok: false, erro: dados.erro || `HTTP ${res.status}`, resposta: dados };
+      return { ok: false, erro: dados.erro || 'Google recusou o envio', resposta: dados };
     }
 
     return { ok: true, aba: dados.aba, totalLinhas: dados.totalLinhas };
   } catch (erro) {
-    return { ok: false, erro: `falha ao contatar o Apps Script: ${erro.message}` };
+    return { ok: false, erro: 'falha de rede ao contatar o Google', detalhe: erro.message };
   }
 }
 

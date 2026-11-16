@@ -208,7 +208,7 @@ export default async function handler(req, res) {
     if (google.ok) {
       console.log(`✓ [GOOGLE] Assinante na planilha "${google.aba}" (linha ${google.totalLinhas}): ${cleanedEmail}`);
     } else {
-      console.warn(`⚠️ [GOOGLE] Assinante NÃO registrado na planilha: ${google.erro}`);
+      console.warn(`⚠️ [GOOGLE] Assinante NÃO registrado na planilha: ${google.detalhe || google.erro}`);
     }
 
     // 3. Disparo de E-mail de Notificação para Yury (Fundador)

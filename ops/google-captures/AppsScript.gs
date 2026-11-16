@@ -62,13 +62,13 @@ function doPost(e) {
   try {
     if (corpo.tipo === 'newsletter') {
       var aba = abaGarantida_(ABA_ASSINANTES, CABECALHOS_ASSINANTES);
-      linha_(aba, [agora, String(corpo.email || ''), String(corpo.origem || 'site'), String(corpo.protocolo || '')]);
-      return resposta_({ ok: true, aba: ABA_ASSINANTES, totalLinhas: aba.getLastRow() });
+      var linha = linha_(aba, [agora, String(corpo.email || ''), String(corpo.origem || 'site'), String(corpo.protocolo || '')]);
+      return resposta_({ ok: true, aba: ABA_ASSINANTES, totalLinhas: linha });
     }
 
     if (corpo.tipo === 'concierge') {
       var aba2 = abaGarantida_(ABA_CONCIERGE, CABECALHOS_CONCIERGE);
-      linha_(aba2, [
+      var linha2 = linha_(aba2, [
         agora,
         String(corpo.nome || ''),
         String(corpo.telefone || ''),
@@ -77,7 +77,7 @@ function doPost(e) {
         String(corpo.mensagem || ''),
         'pendente'
       ]);
-      return resposta_({ ok: true, aba: ABA_CONCIERGE, totalLinhas: aba2.getLastRow() });
+      return resposta_({ ok: true, aba: ABA_CONCIERGE, totalLinhas: linha2 });
     }
 
     return resposta_({ ok: false, erro: 'tipo desconhecido: ' + corpo.tipo });
@@ -87,19 +87,24 @@ function doPost(e) {
 }
 
 /**
- * Toda coluna é marcada como texto DEPOIS de escrever. Dois motivos: telefone
- * começa com "+" e o Sheets tenta ler isso como fórmula; e um visitante que
- * escreva "=IMPORTXML(...)" na mensagem arrancaria conteúdo da planilha para um
- * servidor externo. Com formato '@' aplicado à linha recém-criada, o texto é
- * gravado literal e nenhuma linha futura fica sem proteção.
+ * Toda coluna é marcada como texto ANTES de escrever, na linha-alvo. Aplicar o
+ * formato depois da escrita não adianta: um texto que comece com "=" já foi
+ * avaliado como fórmula no instante em que entrou, e mudar o formato depois não
+ * desfaz isso. Telefone com "+" é o caso inocente do mesmo mecanismo.
+ *
+ * O numero da linha é devolvido de dentro da trava. Ler getLastRow() depois de
+ * soltar a trava pode apontar para a linha de outra submissão concorrente, e o
+ * portão do site confere justamente esse numero.
  */
 function linha_(aba, valores) {
   var trava = LockService.getScriptLock();
   trava.waitLock(20000);
   try {
-    aba.appendRow(valores);
-    var novaLinha = aba.getLastRow();
-    aba.getRange(novaLinha, 1, 1, valores.length).setNumberFormat('@');
+    var novaLinha = aba.getLastRow() + 1;
+    var alvo = aba.getRange(novaLinha, 1, 1, valores.length);
+    alvo.setNumberFormat('@');
+    alvo.setValues([valores]);
+    return novaLinha;
   } finally {
     trava.releaseLock();
   }
