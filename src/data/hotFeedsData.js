@@ -147,7 +147,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "available"
+    "status": "duplicate"
   },
   {
     "id": "pauta-live-supercarros-mwi668mc-lr1e",
@@ -173,7 +173,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "available"
+    "status": "duplicate"
   },
   {
     "id": "pauta-live-relogios-mwi668aa-uapc",
@@ -281,7 +281,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://monochrome-watches.com/app/uploads/2026/07/richemont-group-results-sales-600x237.jpg",
     "imageIsFallback": false,
-    "status": "available"
+    "status": "duplicate"
   },
   {
     "id": "pauta-live-arquitetura-mwi66880-30or",
@@ -308,7 +308,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://robbreport.com/wp-content/uploads/2026/11/RR_PC_Jewelry_1.jpg",
     "imageIsFallback": false,
-    "status": "available"
+    "status": "duplicate"
   }
 ];
 
