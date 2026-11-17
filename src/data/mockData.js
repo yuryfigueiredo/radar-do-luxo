@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-vincent-van-gogh-a-incognita-de--2338",
+    "slug": "vincent-van-gogh-a-incognita-de-us-50-milhoes-em-uma-semana-de-leiloes-de-us-28-bilhoes-2328",
+    "title": "Vincent van Gogh: A Incógnita de US$ 50 Milhões em uma Semana de Leilões de US$ 2,8 Bilhões",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "17 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=max&q=85&w=1800",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A soberania patrimonial enfrenta o teste da proveniência técnica enquanto o mercado global de arte atinge uma liquidez febril em Nova York.",
+    "contentParagraphs": [
+      "O silêncio mineral das salas de leilão foi rompido por um ruído de incerteza técnica. No centro da semana de negociações de 2,8 bilhões de dólares, uma tela atribuída a Vincent van Gogh carrega o peso de uma dúvida que desafia a governança dinástica dos grandes colecionadores. O valor não reside apenas na pincelada, mas na imutabilidade da história que a sustenta.",
+      "A análise espectroscópica e a cartografia da procedência são os únicos baluartes contra a volatilidade do mercado. Enquanto o capital institucional busca refúgio de liquidez em ativos tangíveis, a falha em confirmar a autenticidade de uma peça de tal magnitude expõe o risco inerente à curadoria apressada. O mercado de arte, longe de ser um ambiente de especulação pura, exige a precisão milimétrica de um relógio de alta complicação.",
+      "Patrimônio não se constrói com a pressa do capital recente, mas com a custódia fiduciária que atravessa gerações. A dúvida sobre o Van Gogh em questão funciona como uma barreira de entrada para o investidor amador, enquanto os family offices buscam o conforto do travertino romano navona e das obras com pedigree inquestionável. A liquidez é soberana, mas a reputação é a única moeda que não sofre desvalorização cambial.",
+      "Ao final desta semana, os livros contábeis registrarão números astronômicos, mas a verdadeira medida do sucesso não será o volume transacionado. Será a capacidade de cada adquirente em distinguir o valor intrínseco da ruína estética. O Radar do Luxo permanece imune ao ruído, observando a movimentação de ativos que, antes de serem bens, são extensões da própria soberania de seus detentores."
+    ],
+    "content_paragraphs": [
+      "O silêncio mineral das salas de leilão foi rompido por um ruído de incerteza técnica. No centro da semana de negociações de 2,8 bilhões de dólares, uma tela atribuída a Vincent van Gogh carrega o peso de uma dúvida que desafia a governança dinástica dos grandes colecionadores. O valor não reside apenas na pincelada, mas na imutabilidade da história que a sustenta.",
+      "A análise espectroscópica e a cartografia da procedência são os únicos baluartes contra a volatilidade do mercado. Enquanto o capital institucional busca refúgio de liquidez em ativos tangíveis, a falha em confirmar a autenticidade de uma peça de tal magnitude expõe o risco inerente à curadoria apressada. O mercado de arte, longe de ser um ambiente de especulação pura, exige a precisão milimétrica de um relógio de alta complicação.",
+      "Patrimônio não se constrói com a pressa do capital recente, mas com a custódia fiduciária que atravessa gerações. A dúvida sobre o Van Gogh em questão funciona como uma barreira de entrada para o investidor amador, enquanto os family offices buscam o conforto do travertino romano navona e das obras com pedigree inquestionável. A liquidez é soberana, mas a reputação é a única moeda que não sofre desvalorização cambial.",
+      "Ao final desta semana, os livros contábeis registrarão números astronômicos, mas a verdadeira medida do sucesso não será o volume transacionado. Será a capacidade de cada adquirente em distinguir o valor intrínseco da ruína estética. O Radar do Luxo permanece imune ao ruído, observando a movimentação de ativos que, antes de serem bens, são extensões da própria soberania de seus detentores."
+    ],
+    "specs": {
+      "volume_semanal_estimado": "US$ 2,8 bilhões",
+      "foco_analitico": "Proveniência e análise espectroscópica",
+      "risco_identificado": "Incerteza de atribuição autoral",
+      "ativo_principal": "Pintura atribuída a Vincent van Gogh",
+      "natureza_do_mercado": "Leilão de alta liquidez institucional"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 85,
+    "ranking_score": 85,
+    "engineSource": "gemini:gemini-3.1-flash-lite",
+    "publishedAt": "2026-11-17T04:49:52.337Z",
+    "published_at": "2026-11-17T04:49:52.337Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbERpeUVvVjhEOGRQTjZHVkdIWnNQbnc1NU9ncnVlWFVQaFVyZUtIR1I3YllQdGtzdDR6NTZNdlhQTllsbmZkeDlhd3ZwVW5WWWZuUFhHeU5rSzZud00yOUdGMDh6U0lTYXZPVmdZT3JkVFJSSG9iZjJwNWpKeEFNbWZ5eGt5bGdlLTJQLWRySFBSLTZVblR6ZWpFUE1CSk9QMGF4RA?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbERpeUVvVjhEOGRQTjZHVkdIWnNQbnc1NU9ncnVlWFVQaFVyZUtIR1I3YllQdGtzdDR6NTZNdlhQTllsbmZkeDlhd3ZwVW5WWWZuUFhHeU5rSzZud00yOUdGMDh6U0lTYXZPVmdZT3JkVFJSSG9iZjJwNWpKeEFNbWZ5eGt5bGdlLTJQLWRySFBSLTZVblR6ZWpFUE1CSk9QMGF4RA?oc=5"
+  },
+  {
     "id": "art-chapas-de-licenciamento-de-digit-7529",
     "slug": "chapas-de-licenciamento-de-digito-unico-o-leilao-secreto-de-emblemas-de-aco-que-valem-mais-que-propriedades-na-costa-amalfitana-7519",
     "title": "Chapas de Licenciamento de Dígito Único: O Leilão Secreto de Emblemas de Aço que Valem Mais que Propriedades na Costa Amalfitana",
@@ -1370,65 +1422,20 @@ export const ARTICLES = [
     "published_at": "2026-11-10T18:26:45.085Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVlkxSWdpeHZ3d3NoVzNfNHNTWVJJVzBoZ2QtSHdIME9zeE9yMllINVV3aWVnb0Q1bjN0Q2ZYSGFjWWRVblpPVUp0NkFUTkdGdkx6ZUZfWGlJbmpTQXk2aTFkd2YxYXk4M2NxYUdWcHUzZ2xGOVVwd2ZTYl90Q19rTE5nRUI1UmRpMXVkOA?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVlkxSWdpeHZ3d3NoVzNfNHNTWVJJVzBoZ2QtSHdIME9zeE9yMllINVV3aWVnb0Q1bjN0Q2ZYSGFjWWRVblpPVUp0NkFUTkdGdkx6ZUZfWGlJbmpTQXk2aTFkd2YxYXk4M2NxYUdWcHUzZ2xGOVVwd2ZTYl90Q19rTE5nRUI1UmRpMXVkOA?oc=5"
-  },
-  {
-    "id": "art-bugatti-americas-duas-decadas-de-3899",
-    "slug": "bugatti-americas-duas-decadas-de-dominio-com-tolerancia-de-microns-e-v16-aspirado-3241",
-    "title": "Bugatti Americas: Duas Décadas de Domínio com Tolerância de Mícrons e V16 Aspirado",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "10 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1577735138919-91b6848511c8?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "Sascha Doering celebra vinte anos de expansão no mercado norte-americano, consolidando a supremacia do monocoque em carbo-titânio e o rigor absoluto da engenharia de Molsheim.",
-    "contentParagraphs": [
-      "O asfalto americano sempre exigiu resiliência mecânica extrema. Duas décadas atrás, Molsheim cruzou o Atlântico com uma promessa inegociável de velocidade pura. Sascha Doering ancorou essa expansão sem concessões estéticas. Cada chassi entregue nos Estados Unidos carrega a mesma densidade estrutural que desafia os limites da física moderna. O mercado local absorveu a soberania mecânica como um refúgio contra a obsolescência digital.",
-      "A telemetria inercial não mente sobre o impacto físico nas curvas. Sob o comando de Doering, a marca manteve o foco em blocos monumentais que ignoram a pressa do ecletismo híbrido descartável. A força G lateral exercida sobre o piloto exige escapamentos em Inconel 625 capazes de suportar temperaturas estelares sem deformação térmica. É metalurgia de altíssima tensão, trabalhada com tolerância de mícrons para garantir rigidez torcional absoluta sob aceleração plena.",
-      "Enquanto concorrentes fragmentam seus propulsores em prol de eficiência sintética, a Bugatti preserva a liturgia da combustão massiva. O fluxo de Venturi sob o assoalho esculpido gera downforce monumental, colando o veículo ao solo com precisão cirúrgica. Doering entendeu que o colecionador norte-americano de alto patrimônio não busca apenas transporte. Ele exige custódia fiduciária de uma obra de arte cinética que desafia o tempo e as leis da aerodinâmica.",
-      "O legado de vinte anos coroa uma filosofia onde o ruído digital cede espaço ao roncador primordial de um motor aspirado. Molsheim e as estradas americanas firmaram um pacto de silêncio diante da mediocridade automotiva contemporânea. O resultado é a perpetuação de um mito sobre Rodas, onde cada parafuso de titânio atesta que a excelência mecânica é a única verdadeira imunidade contra o esquecimento."
-    ],
-    "content_paragraphs": [
-      "O asfalto americano sempre exigiu resiliência mecânica extrema. Duas décadas atrás, Molsheim cruzou o Atlântico com uma promessa inegociável de velocidade pura. Sascha Doering ancorou essa expansão sem concessões estéticas. Cada chassi entregue nos Estados Unidos carrega a mesma densidade estrutural que desafia os limites da física moderna. O mercado local absorveu a soberania mecânica como um refúgio contra a obsolescência digital.",
-      "A telemetria inercial não mente sobre o impacto físico nas curvas. Sob o comando de Doering, a marca manteve o foco em blocos monumentais que ignoram a pressa do ecletismo híbrido descartável. A força G lateral exercida sobre o piloto exige escapamentos em Inconel 625 capazes de suportar temperaturas estelares sem deformação térmica. É metalurgia de altíssima tensão, trabalhada com tolerância de mícrons para garantir rigidez torcional absoluta sob aceleração plena.",
-      "Enquanto concorrentes fragmentam seus propulsores em prol de eficiência sintética, a Bugatti preserva a liturgia da combustão massiva. O fluxo de Venturi sob o assoalho esculpido gera downforce monumental, colando o veículo ao solo com precisão cirúrgica. Doering entendeu que o colecionador norte-americano de alto patrimônio não busca apenas transporte. Ele exige custódia fiduciária de uma obra de arte cinética que desafia o tempo e as leis da aerodinâmica.",
-      "O legado de vinte anos coroa uma filosofia onde o ruído digital cede espaço ao roncador primordial de um motor aspirado. Molsheim e as estradas americanas firmaram um pacto de silêncio diante da mediocridade automotiva contemporânea. O resultado é a perpetuação de um mito sobre Rodas, onde cada parafuso de titânio atesta que a excelência mecânica é a única verdadeira imunidade contra o esquecimento."
-    ],
-    "specs": {
-      "Direção Executiva": "Sascha Doering (COO Bugatti Americas)",
-      "Marco Temporal": "20 Anos de Operação no Mercado Norte-Americano",
-      "Material Estrutural": "Monocoque em Carbo-Titânio Curado em Autoclave",
-      "Sistema de Escape": "Inconel 625 de Alta Resistência Térmica",
-      "Aerodinâmica": "Canais Venturi de Efeito Solo Ativo",
-      "Avaliação de Mercado": "Soberania Patrimonial Absoluta"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 90,
-    "ranking_score": 90,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-10T15:10:53.898Z",
-    "published_at": "2026-11-10T15:10:53.898Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNVpoRlFaTXJGWFNNUTJ5Q1Z0cVZURmE4aF9oSkdld2dpUExVcTF3cGtNdFJ5bFhmNnpwV1NOejZjaHNVRzgwMGJHbzNzc2trZUNVdGVfRGJUeXJWMW83cmNva0VLZnRZVUVSWXJKakdTU19LUFhKTk12V3lJM1pqbUcwZ0hJVUNodEVzWjZ3ZURYVnBsNHEyblQwekpvR0NvWmlWR1hFc1hwWVNrWmVGNUpWcExvTWZOSjlnRTE4VTM?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNVpoRlFaTXJGWFNNUTJ5Q1Z0cVZURmE4aF9oSkdld2dpUExVcTF3cGtNdFJ5bFhmNnpwV1NOejZjaHNVRzgwMGJHbzNzc2trZUNVdGVfRGJUeXJWMW83cmNva0VLZnRZVUVSWXJKakdTU19LUFhKTk12V3lJM1pqbUcwZ0hJVUNodEVzWjZ3ZURYVnBsNHEyblQwekpvR0NvWmlWR1hFc1hwWVNrWmVGNUpWcExvTWZOSjlnRTE4VTM?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "DESTINOS",
+    "title": "Mercedes-Maybach Project Serie 1: O Me...",
+    "image": "https://images.unsplash.com/photo-1614350391736-ed8619d63c06?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "mercedes-maybach-project-serie-1-o-megaiate-de-508-pes-com-assinatura-em-liga-naval-e-aporte-de-4-milhoes-de-dolares-por-cabine-1064"
+  },
+  {
+    "id": "film-2",
     "category": "ARQUITETURA",
     "title": "LaFerrari: O Monocoque Rosso Corsa de ...",
     "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=max&q=80&w=1400",
@@ -1436,7 +1443,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "laferrari-o-monocoque-rosso-corsa-de-963-cv-que-liderou-o-leilao-broad-arrow-zurique-2026-enquanto-o-mercado-rejeita-a-liquidez-efemera-0805"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "RELOGIOS",
     "title": "Leilão Christie’s: A Nova Geração e a ...",
     "image": "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?auto=format&fit=max&q=80&w=1400",
@@ -1444,7 +1451,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "leilao-christies-a-nova-geracao-e-a-ascensao-dos-calibres-de-proveniencia-historica-em-recordes-de-liquidez-6398"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Ferrari F40: O Ícone de $4 Milhões e T...",
     "image": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=max&q=80&w=1400",
@@ -1452,7 +1459,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-f40-o-icone-de-4-milhoes-e-tubos-de-inconel-que-converteu-as-ruas-em-pista-de-testes-de-maranello-8607"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "ARQUITETURA",
     "title": "Gooding Christie’s Geneva Sale 2026: 1...",
     "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
@@ -1460,20 +1467,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "gooding-christies-geneva-sale-2026-142-milhoes-de-francos-suicos-e-o-triunfo-dos-chassis-conservados-em-silencio-mineral-3811"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "ARQUITETURA",
     "title": "Coral Gables 50 Milhões: O Refúgio de ...",
     "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=85&w=1800",
     "tag": "CURADORIA RADAR",
     "slug": "coral-gables-50-milhoes-o-refugio-de-1200-metros-quadrados-com-linha-de-costa-privativa-7488"
-  },
-  {
-    "id": "film-6",
-    "category": "RELOGIOS",
-    "title": "Phillips Geneva Watch Auction XXIV: 11...",
-    "image": "https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "phillips-geneva-watch-auction-xxiv-112-milhoes-de-dolares-em-calibres-raros-sob-o-silencio-absoluto-da-vallee-de-joux-7407"
   }
 ];
 

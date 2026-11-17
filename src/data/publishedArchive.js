@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-vincent-van-gogh-a-incognita-de--2338",
+    "slug": "vincent-van-gogh-a-incognita-de-us-50-milhoes-em-uma-semana-de-leiloes-de-us-28-bilhoes-2328",
+    "title": "Vincent van Gogh: A Incógnita de US$ 50 Milhões em uma Semana de Leilões de US$ 2,8 Bilhões",
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=max&q=85&w=1800",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbERpeUVvVjhEOGRQTjZHVkdIWnNQbnc1NU9ncnVlWFVQaFVyZUtIR1I3YllQdGtzdDR6NTZNdlhQTllsbmZkeDlhd3ZwVW5WWWZuUFhHeU5rSzZud00yOUdGMDh6U0lTYXZPVmdZT3JkVFJSSG9iZjJwNWpKeEFNbWZ5eGt5bGdlLTJQLWRySFBSLTZVblR6ZWpFUE1CSk9QMGF4RA?oc=5",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "publishedAt": "2026-11-17T04:49:52.337Z"
+  },
+  {
     "id": "art-chapas-de-licenciamento-de-digit-7529",
     "slug": "chapas-de-licenciamento-de-digito-unico-o-leilao-secreto-de-emblemas-de-aco-que-valem-mais-que-propriedades-na-costa-amalfitana-7519",
     "title": "Chapas de Licenciamento de Dígito Único: O Leilão Secreto de Emblemas de Aço que Valem Mais que Propriedades na Costa Amalfitana",
