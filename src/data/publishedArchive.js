@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-bugatti-type-41-royale-a-escultu-0112",
+    "slug": "bugatti-type-41-royale-a-escultura-de-bronze-de-rembrandt-que-decorava-o-radiador-do-carro-mais-caro-do-mundo-0095",
+    "title": "Bugatti Type 41 Royale: A Escultura de Bronze de Rembrandt que Decorava o Radiador do Carro Mais Caro do Mundo",
+    "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNclMwLXNPRVp5TUJ1aTJEcENHS2E2eHRjclc0QkRoMXdIRWtjel9hZFE1OXlYR2ZZd04tUW4zRHZVT1J0eGZ1RHVaSDV3czd3S01KOHVDdHRzWVVzZjRNdE9WY0hzLTRCZlFVcHBGU1JoR19NMVpQR1R5SFNlTG5iTXRKeEVxaE0?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-17T18:38:00.112Z"
+  },
+  {
     "id": "art-superiate-de-110-metros-a-impone-2833",
     "slug": "superiate-de-110-metros-a-imponencia-de-300-milhoes-de-dolares-ancorada-com-estabilizadores-de-giroscopio-ativo-2688",
     "title": "Superiate de 110 Metros: A Imponência de 300 Milhões de Dólares ancorada com Estabilizadores de Giroscópio Ativo",

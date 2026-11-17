@@ -116,6 +116,59 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-bugatti-type-41-royale-a-escultu-0112",
+    "slug": "bugatti-type-41-royale-a-escultura-de-bronze-de-rembrandt-que-decorava-o-radiador-do-carro-mais-caro-do-mundo-0095",
+    "title": "Bugatti Type 41 Royale: A Escultura de Bronze de Rembrandt que Decorava o Radiador do Carro Mais Caro do Mundo",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "17 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "O lendário elefante erguido, esculpido por Rembrandt Bugatti, emerge da sombra histórica em um leilão de raridades. Uma peça que transcende a ornamentação, consolidando a linhagem do Type 41 como o ápice da engenharia aristocrática.",
+    "contentParagraphs": [
+      "O bronze possui memória. Esta escultura de elefante, concebida por Rembrandt Bugatti, não é apenas um adorno de radiador; é o testemunho da simbiose entre a plasticidade orgânica e o rigor mecânico que definia a casa de Molsheim. A peça evoca a imponência estática de um Type 41 Royale, o veículo de 6,5 metros de comprimento que desafiou a física e a economia da década de 1920.",
+      "Sob a ótica da engenharia de precisão, o Royale era um monstro de 12,7 litros movido por um motor de oito cilindros em linha, operando com tolerâncias de mícrons que fariam inveja às máquinas de usinagem contemporâneas. Enquanto o propulsor destilava potência bruta para mover um chassi de três toneladas, o elefante de bronze, posicionado no topo da grade frontal, enfrentava o fluxo de ar, tornando-se uma sentinela de metal contra o arrasto aerodinâmico.",
+      "A raridade desta peça é absoluta. Com apenas seis unidades do Type 41 Royale produzidas, cada detalhe associado a estes veículos funciona como um ativo de refúgio, imune à volatilidade de mercado. O peso do bronze, a pátina acumulada pelo tempo e a linhagem artística de Rembrandt conferem a este objeto uma liquidez que poucos artefatos de engenharia conseguem sustentar em leilões de alta voltagem.",
+      "Adquirir este elefante é possuir um fragmento da soberania mecânica que Ettore Bugatti impôs ao século XX. Em uma era de componentes descartáveis, a permanência desta escultura é um lembrete visceral de que a engenharia de elite não se destina apenas ao movimento, mas à posteridade. O martelo que cairá sobre este lote selará não apenas uma transação, mas a custódia de um legado inestimável."
+    ],
+    "content_paragraphs": [
+      "O bronze possui memória. Esta escultura de elefante, concebida por Rembrandt Bugatti, não é apenas um adorno de radiador; é o testemunho da simbiose entre a plasticidade orgânica e o rigor mecânico que definia a casa de Molsheim. A peça evoca a imponência estática de um Type 41 Royale, o veículo de 6,5 metros de comprimento que desafiou a física e a economia da década de 1920.",
+      "Sob a ótica da engenharia de precisão, o Royale era um monstro de 12,7 litros movido por um motor de oito cilindros em linha, operando com tolerâncias de mícrons que fariam inveja às máquinas de usinagem contemporâneas. Enquanto o propulsor destilava potência bruta para mover um chassi de três toneladas, o elefante de bronze, posicionado no topo da grade frontal, enfrentava o fluxo de ar, tornando-se uma sentinela de metal contra o arrasto aerodinâmico.",
+      "A raridade desta peça é absoluta. Com apenas seis unidades do Type 41 Royale produzidas, cada detalhe associado a estes veículos funciona como um ativo de refúgio, imune à volatilidade de mercado. O peso do bronze, a pátina acumulada pelo tempo e a linhagem artística de Rembrandt conferem a este objeto uma liquidez que poucos artefatos de engenharia conseguem sustentar em leilões de alta voltagem.",
+      "Adquirir este elefante é possuir um fragmento da soberania mecânica que Ettore Bugatti impôs ao século XX. Em uma era de componentes descartáveis, a permanência desta escultura é um lembrete visceral de que a engenharia de elite não se destina apenas ao movimento, mas à posteridade. O martelo que cairá sobre este lote selará não apenas uma transação, mas a custódia de um legado inestimável."
+    ],
+    "specs": {
+      "Escultor": "Rembrandt Bugatti",
+      "Material": "Bronze fundido",
+      "Aplicação": "Adorno de radiador do Type 41 Royale",
+      "Produção do veículo": "6 unidades chassis",
+      "Motor do Royale": "12.7L I8 aspirado",
+      "Peso do veículo": "Aprox. 3.000 kg"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "gemini:gemini-3.1-flash-lite",
+    "publishedAt": "2026-11-17T18:38:00.112Z",
+    "published_at": "2026-11-17T18:38:00.112Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNclMwLXNPRVp5TUJ1aTJEcENHS2E2eHRjclc0QkRoMXdIRWtjel9hZFE1OXlYR2ZZd04tUW4zRHZVT1J0eGZ1RHVaSDV3czd3S01KOHVDdHRzWVVzZjRNdE9WY0hzLTRCZlFVcHBGU1JoR19NMVpQR1R5SFNlTG5iTXRKeEVxaE0?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNclMwLXNPRVp5TUJ1aTJEcENHS2E2eHRjclc0QkRoMXdIRWtjel9hZFE1OXlYR2ZZd04tUW4zRHZVT1J0eGZ1RHVaSDV3czd3S01KOHVDdHRzWVVzZjRNdE9WY0hzLTRCZlFVcHBGU1JoR19NMVpQR1R5SFNlTG5iTXRKeEVxaE0?oc=5"
+  },
+  {
     "id": "art-superiate-de-110-metros-a-impone-2833",
     "slug": "superiate-de-110-metros-a-imponencia-de-300-milhoes-de-dolares-ancorada-com-estabilizadores-de-giroscopio-ativo-2688",
     "title": "Superiate de 110 Metros: A Imponência de 300 Milhões de Dólares ancorada com Estabilizadores de Giroscópio Ativo",
@@ -1369,65 +1422,20 @@ export const ARTICLES = [
     "published_at": "2026-11-11T18:29:38.619Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFAyRHYzeFlyMkNiLTBjVFJ3UVp2Sm9ZR1czX3Jyam5uMWNOSGpoQ3VUTmJMelpNVzhVRkVZMDZjekZkZktaakFxaG5QRWtaODYxZllSX0V4V3RnUnVRTUF4bGliM3luV1A4R0JWQVlkdnN4dw?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAyRHYzeFlyMkNiLTBjVFJ3UVp2Sm9ZR1czX3Jyam5uMWNOSGpoQ3VUTmJMelpNVzhVRkVZMDZjekZkZktaakFxaG5QRWtaODYxZllSX0V4V3RnUnVRTUF4bGliM3luV1A4R0JWQVlkdnN4dw?oc=5"
-  },
-  {
-    "id": "art-gooding-christies-geneva-sale-20-3821",
-    "slug": "gooding-christies-geneva-sale-2026-142-milhoes-de-francos-suicos-e-o-triunfo-dos-chassis-conservados-em-silencio-mineral-3811",
-    "title": "Gooding Christie’s Geneva Sale 2026: 142 Milhões de Francos Suíços e o Triunfo dos Chassis Conservados em Silêncio Mineral",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "11 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A travessia de ativos mecânicos sob o martelo em Genebra reconfirma o movimento silencioso dos Family Offices globais rumo à custódia fiduciária de artefatos inabaláveis de raridade matemática.",
-    "contentParagraphs": [
-      "O salão de Genebra não ecoou aplausos efusivos. O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Sob os holofotes discretos da Gooding & Company em parceria com a Christie’s, o ar carregava a gravidade tépida das decisões alocatórias tomadas para transpassar gerações. Lotes raríssimos de automóveis de competição da década de 1950 mudaram de mãos sem que um único sobrolho se erguesse na plateia aristocrática. A transação física de um ativo tangível de escassez absoluta permanece como o derradeiro refúgio de liquidez em tempos de volatilidade geopolítica.",
-      "A conservação intocada foi a tese soberana da noite. Peças mantidas sob rigorosa custódia fiduciária por mais de meio século registraram ágios expressivos sobre as estimativas prévias de catálogo. A métrica decisiva não residiu em restaurações reluzentes ou pintura renovada. Investidores institucionais buscaram a pátina original preservada com disciplina absoluta e o histórico documental sem fendas. Números de chassi correspondentes e mecânica com selo de fábrica definiram os patamares de valorização fiduciária.",
-      "Capital soberano exige imunidade temporal. A alocação em artefatos de mobilidade mecânica com procedência nobre superou os índices tradicionais de arbitragem financeira nas últimas décadas. Coleções familiares consolidadas não alienam ativos em momentos de incerteza; elas adquirem raras oportunidades de transferência quando lotes selados emergem de espólios fechados. A governança dinástica dos maiores escritórios de patrimônio da Europa e da Ásia atuou com frieza cirúrgica durante todo o certame suíço.",
-      "Genebra encerra seu ciclo com lições cristalinas sobre preservação de capital. A soberania patrimonial recusa modismos voláteis. Veículos com pedigrê histórico inquestionável e tiragem extremamente restrita consolidam-se como bastiões inexpugnáveis de valor real. Os compradores que arremataram estes lotes em 2026 não buscaram automóveis para exibição casual. Adquiriram frações irsubstituíveis da história industrial custodiadas em metal e memória."
-    ],
-    "content_paragraphs": [
-      "O salão de Genebra não ecoou aplausos efusivos. O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Sob os holofotes discretos da Gooding & Company em parceria com a Christie’s, o ar carregava a gravidade tépida das decisões alocatórias tomadas para transpassar gerações. Lotes raríssimos de automóveis de competição da década de 1950 mudaram de mãos sem que um único sobrolho se erguesse na plateia aristocrática. A transação física de um ativo tangível de escassez absoluta permanece como o derradeiro refúgio de liquidez em tempos de volatilidade geopolítica.",
-      "A conservação intocada foi a tese soberana da noite. Peças mantidas sob rigorosa custódia fiduciária por mais de meio século registraram ágios expressivos sobre as estimativas prévias de catálogo. A métrica decisiva não residiu em restaurações reluzentes ou pintura renovada. Investidores institucionais buscaram a pátina original preservada com disciplina absoluta e o histórico documental sem fendas. Números de chassi correspondentes e mecânica com selo de fábrica definiram os patamares de valorização fiduciária.",
-      "Capital soberano exige imunidade temporal. A alocação em artefatos de mobilidade mecânica com procedência nobre superou os índices tradicionais de arbitragem financeira nas últimas décadas. Coleções familiares consolidadas não alienam ativos em momentos de incerteza; elas adquirem raras oportunidades de transferência quando lotes selados emergem de espólios fechados. A governança dinástica dos maiores escritórios de patrimônio da Europa e da Ásia atuou com frieza cirúrgica durante todo o certame suíço.",
-      "Genebra encerra seu ciclo com lições cristalinas sobre preservação de capital. A soberania patrimonial recusa modismos voláteis. Veículos com pedigrê histórico inquestionável e tiragem extremamente restrita consolidam-se como bastiões inexpugnáveis de valor real. Os compradores que arremataram estes lotes em 2026 não buscaram automóveis para exibição casual. Adquiriram frações irsubstituíveis da história industrial custodiadas em metal e memória."
-    ],
-    "specs": {
-      "Volume_Total_Negociado": "CHF 142,8 Milhões",
-      "Lote_Capânia": "Ferrari 250 GT SWB Berlinetta Competizione (1961)",
-      "Taxa_de_Conversao_Lotes": "94% dos lotes arrematados",
-      "Perfil_dos_Compradores": "Family Offices e Custódias Privadas",
-      "Localizacao_do_Leilao": "Hotel des Bergues, Genebra",
-      "Certificacao_de_Procedencia": "Dossiê Histórico e Numbers-Matching Verificados"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "engineSource": "gemini:gemini-3.5-flash",
-    "publishedAt": "2026-11-11T17:11:13.821Z",
-    "published_at": "2026-11-11T17:11:13.821Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMGJWSFUwVFBsYTB1S0tFZThvTGdKVkZ3bmJOUG9YZ2lQNGZHbVluc1FJZmlvUmJZeEFjaDlGVFY3VlBIOGJFRTA5cmU0YXFaS29CTzhRUkxlNm54bXlyTHp4aUVtWXZ5Y0Ztb25tUHN4cmF4dWtnNDBQNHpVUU1ydm9XUUhxeUNQRFdoWExCbVlacm91bmNCZHp4UE41WXM?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMGJWSFUwVFBsYTB1S0tFZThvTGdKVkZ3bmJOUG9YZ2lQNGZHbVluc1FJZmlvUmJZeEFjaDlGVFY3VlBIOGJFRTA5cmU0YXFaS29CTzhRUkxlNm54bXlyTHp4aUVtWXZ5Y0Ztb25tUHN4cmF4dWtnNDBQNHpVUU1ydm9XUUhxeUNQRFdoWExCbVlacm91bmNCZHp4UE41WXM?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "DESTINOS",
+    "title": "Lürssen Barcelona: O Ponto de Resposta...",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "lurssen-barcelona-o-ponto-de-resposta-rapida-247-com-equipe-volante-para-superiates-de-ate-525-pes-no-mediterraneo-8784"
+  },
+  {
+    "id": "film-2",
     "category": "ARQUITETURA",
     "title": "Diamante Bulgari Rosa: Os 24 Quilates ...",
     "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=max&q=85&w=1800",
@@ -1435,7 +1443,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "diamante-bulgari-rosa-os-24-quilates-de-pureza-categorica-custodiados-pela-mesma-dinastia-desde-1950-2556"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "ARQUITETURA",
     "title": "Coroa Britânica: O Martelo de Genebra ...",
     "image": "https://images.unsplash.com/photo-1783408360163-3ad59ed27c25?auto=format&fit=max&q=80&w=1400",
@@ -1443,7 +1451,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "coroa-britanica-o-martelo-de-genebra-alcanca-42-milhoes-de-francos-com-diamantes-de-proveniencia-real-e-ouro-nativo-8386"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "SUPERCARROS",
     "title": "Ferrari: A Ascensão das Ações em Wall ...",
     "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
@@ -1451,7 +1459,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-a-ascensao-das-acoes-em-wall-street-e-a-soberania-inercial-do-v12-de-aspiracao-natural-2563"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "DESTINOS",
     "title": "Mercedes-Maybach Project Serie 1: O Me...",
     "image": "https://images.unsplash.com/photo-1614350391736-ed8619d63c06?auto=format&fit=max&q=80&w=1400",
@@ -1459,20 +1467,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "mercedes-maybach-project-serie-1-o-megaiate-de-508-pes-com-assinatura-em-liga-naval-e-aporte-de-4-milhoes-de-dolares-por-cabine-1064"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "ARQUITETURA",
     "title": "LaFerrari: O Monocoque Rosso Corsa de ...",
     "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "laferrari-o-monocoque-rosso-corsa-de-963-cv-que-liderou-o-leilao-broad-arrow-zurique-2026-enquanto-o-mercado-rejeita-a-liquidez-efemera-0805"
-  },
-  {
-    "id": "film-6",
-    "category": "RELOGIOS",
-    "title": "Leilão Christie’s: A Nova Geração e a ...",
-    "image": "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "leilao-christies-a-nova-geracao-e-a-ascensao-dos-calibres-de-proveniencia-historica-em-recordes-de-liquidez-6398"
   }
 ];
 
