@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-superiates-de-elite-a-fortaleza--4214",
+    "slug": "superiates-de-elite-a-fortaleza-flutuante-de-14-modulos-de-comando-que-integra-sala-de-jogos-de-alta-fidelidade-3716",
+    "title": "Superiates de Elite: A Fortaleza Flutuante de 14 Módulos de Comando que Integra Sala de Jogos de Alta Fidelidade",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "17 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1562281302-809108fd533c?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Arquitetura naval radical que funde hidrodinâmica de casco displacement, telemetria inercial avançada e espaços imersivos de entretenimento para quatorze convidados em águas internacionais.",
+    "contentParagraphs": [
+      "O aço naval de alta resistência corta as ondas do Atlântico Norte com precisão cirúrgica. Não há concessões à mediocridade neste projeto de engenharia flutuante. A superestrutura em ligas de alumínio e compósitos avançados foi desenhada em túnel de vento hidrodinâmico para mitigar o arrasto parasita. O casco displacement abriga salas de comando de última geração. Cada antepara foi isolada acusticamente com barreiras viscoelásticas multicamadas. O resultado é um silêncio sepulcral que contrasta com a violência cinetica do oceano lá fora.",
+      "No coração desta cidadela náutica, a sala de jogos opera como um centro de processamento tático e entretenimento de ultra-alta fidelidade. Telas modulares de micro-LED ocupam painéis inteiros, calibradas para eliminar qualquer latência de resposta. Quatorze estações ergonômicas, usinadas em blocos maciços de titânio aeroespacial e revestidas em couro de curtimento vegetal, recebem tripulantes e convidados para simulações gráficas em tempo real. Os processadores de última geração operam refrigerados a líquido diretamente pelo sistema de circulação de água salgada dessalinizada.",
+      "A estabilização giroscópica de três eixos neutraliza o balanço do mar, garantindo que a força G lateral da embarcação não interfira na precisão dos comandos visuais. Motores diesel-elétricos de arquitetura modular fornecem gigawatts de energia contínua. Os geradores isolados em câmaras flutuantes operam sem vibração perceptível no piso de teca maciça. A exaustão subaquática abafa o ronco mecânico, preservando a acústica impecável dos ambientes internos onde o processamento digital encontra o isolamento térmico e sonoro absoluto.",
+      "Esta embarcação redefine a soberania em alto-mar ao fundir a brutalidade estrutural naval com a vanguarda do entretenimento imersivo. Enquanto magnatas buscam refúgios terrestres convencionais, o comando desta frota privada transforma o oceano em um laboratório de computação de alta performance. É a engenharia aplicada à soberania absoluta, onde o silêncio do casco encontra a adrenalina dos universos virtuais mais complexos já concebidos pela engenharia de software."
+    ],
+    "content_paragraphs": [
+      "O aço naval de alta resistência corta as ondas do Atlântico Norte com precisão cirúrgica. Não há concessões à mediocridade neste projeto de engenharia flutuante. A superestrutura em ligas de alumínio e compósitos avançados foi desenhada em túnel de vento hidrodinâmico para mitigar o arrasto parasita. O casco displacement abriga salas de comando de última geração. Cada antepara foi isolada acusticamente com barreiras viscoelásticas multicamadas. O resultado é um silêncio sepulcral que contrasta com a violência cinetica do oceano lá fora.",
+      "No coração desta cidadela náutica, a sala de jogos opera como um centro de processamento tático e entretenimento de ultra-alta fidelidade. Telas modulares de micro-LED ocupam painéis inteiros, calibradas para eliminar qualquer latência de resposta. Quatorze estações ergonômicas, usinadas em blocos maciços de titânio aeroespacial e revestidas em couro de curtimento vegetal, recebem tripulantes e convidados para simulações gráficas em tempo real. Os processadores de última geração operam refrigerados a líquido diretamente pelo sistema de circulação de água salgada dessalinizada.",
+      "A estabilização giroscópica de três eixos neutraliza o balanço do mar, garantindo que a força G lateral da embarcação não interfira na precisão dos comandos visuais. Motores diesel-elétricos de arquitetura modular fornecem gigawatts de energia contínua. Os geradores isolados em câmaras flutuantes operam sem vibração perceptível no piso de teca maciça. A exaustão subaquática abafa o ronco mecânico, preservando a acústica impecável dos ambientes internos onde o processamento digital encontra o isolamento térmico e sonoro absoluto.",
+      "Esta embarcação redefine a soberania em alto-mar ao fundir a brutalidade estrutural naval com a vanguarda do entretenimento imersivo. Enquanto magnatas buscam refúgios terrestres convencionais, o comando desta frota privada transforma o oceano em um laboratório de computação de alta performance. É a engenharia aplicada à soberania absoluta, onde o silêncio do casco encontra a adrenalina dos universos virtuais mais complexos já concebidos pela engenharia de software."
+    ],
+    "specs": {
+      "Comprimento Total": "Mais de 100 metros",
+      "Casco": "Aço naval de alta resistência com superestrutura em alumínio",
+      "Propulsão": "Sistema híbrido diesel-elétrico de última geração",
+      "Estabilização": "Giroscópios de três eixos de alta capacidade",
+      "Capacidade de Tripulação e Convidados": "Até 14 estações simultâneas na sala de jogos imersiva"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-17T22:10:34.212Z",
+    "published_at": "2026-11-17T22:10:34.212Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVmpYRGVLcllfa3d0XzVGQmR4OGdFQ1pwNGU4RnVGWWEzc1ZmOUl4ZktUMlFhYTRLaU5Wem5JQzlPeGhKX2I2bGRKSVQ2ZGlraDJ2N0pnQnpIT1Byb1o2Z19NT0QxN1dKS200SURkeG5uMS1GNWxyaVdIekVMZk1kUnJiRDFvMnc?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVmpYRGVLcllfa3d0XzVGQmR4OGdFQ1pwNGU4RnVGWWEzc1ZmOUl4ZktUMlFhYTRLaU5Wem5JQzlPeGhKX2I2bGRKSVQ2ZGlraDJ2N0pnQnpIT1Byb1o2Z19NT0QxN1dKS200SURkeG5uMS1GNWxyaVdIekVMZk1kUnJiRDFvMnc?oc=5"
+  },
+  {
     "id": "art-bugatti-type-41-royale-a-escultu-0112",
     "slug": "bugatti-type-41-royale-a-escultura-de-bronze-de-rembrandt-que-decorava-o-radiador-do-carro-mais-caro-do-mundo-0095",
     "title": "Bugatti Type 41 Royale: A Escultura de Bronze de Rembrandt que Decorava o Radiador do Carro Mais Caro do Mundo",
@@ -1369,65 +1421,20 @@ export const ARTICLES = [
     "published_at": "2026-11-11T22:13:46.412Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVE1SdXc1UWt2VWRJa2RpMldic2FkYTBRd1hnYTNuLV80TUIybjBSdEh0a29aREFQZXY3RU4wSnhHNmJRU25HdTc3Mk5tOFZnaVo4aTBhUVpmZDJqNWxmUmlrQ1hGRGFENDJYSEJ4cVljamRxOWZwWDNQRmgtanpKb01ZM0FDTUhnVUtIWkk5MmtrNzRWTVE?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVE1SdXc1UWt2VWRJa2RpMldic2FkYTBRd1hnYTNuLV80TUIybjBSdEh0a29aREFQZXY3RU4wSnhHNmJRU25HdTc3Mk5tOFZnaVo4aTBhUVpmZDJqNWxmUmlrQ1hGRGFENDJYSEJ4cVljamRxOWZwWDNQRmgtanpKb01ZM0FDTUhnVUtIWkk5MmtrNzRWTVE?oc=5"
-  },
-  {
-    "id": "art-ferrari-f40-o-icone-de-4-milhoes-8619",
-    "slug": "ferrari-f40-o-icone-de-4-milhoes-e-tubos-de-inconel-que-converteu-as-ruas-em-pista-de-testes-de-maranello-8607",
-    "title": "Ferrari F40: O Ícone de $4 Milhões e Tubos de Inconel que Converteu as Ruas em Pista de Testes de Maranello",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "11 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "A aparição pública de uma unidade imaculada da F40 na calçada urbana expõe a urgência mecânica do último superesportivo concebido pessoalmente por Enzo Ferrari.",
-    "contentParagraphs": [
-      "As portas em fibra de carbono cru revelam tramas visíveis sob a resina sem acabamento cosmético. Apenas metal, peso aliviado e a ausência absoluta de isolamento acústico definem o habitáculo. O monocoque expõe parafusos de titânio e cabos aparentes. É a telemetria nua.",
-      "Atrás dos bancos recobertos de tecido antichamas, o motor V8 biturbo de 2,9 litros trabalha com folgas rigorosas e tolerâncias de mícrons. Quando as turbinas IHI entram em carga plena a 4.000 RPM, o fluxo de ar rasga os dutos em formato NACA com um assobio metálico estridente. A força G lateral comprime o tórax contra os cintos de quatro pontos com brutalidade mecânica.",
-      "Enquanto a indústria se curva à automação elétrica e ao isolamento digital, o chassi tubular com painéis em composite mantém sua rigidez torcional intacta após décadas. Cada solda no chassi relata a obsessão da Scuderia por eficiência aerodinâmica pura e coeficientes de arrasto implacáveis. Trata-se de engenharia civil convertida em propulsão balística.",
-      "A experiência estática proporcionada na via pública transcende o mero fetichismo automotivo. O escapamento quádruplo em Inconel 625 exala o cheiro característico de óleo quente e gasolina de alta octanagem. É a prova física de que a verdadeira autoridade mecânica dispensa apresentações: ela ruge através de pressões de óleo e rotações puras."
-    ],
-    "content_paragraphs": [
-      "As portas em fibra de carbono cru revelam tramas visíveis sob a resina sem acabamento cosmético. Apenas metal, peso aliviado e a ausência absoluta de isolamento acústico definem o habitáculo. O monocoque expõe parafusos de titânio e cabos aparentes. É a telemetria nua.",
-      "Atrás dos bancos recobertos de tecido antichamas, o motor V8 biturbo de 2,9 litros trabalha com folgas rigorosas e tolerâncias de mícrons. Quando as turbinas IHI entram em carga plena a 4.000 RPM, o fluxo de ar rasga os dutos em formato NACA com um assobio metálico estridente. A força G lateral comprime o tórax contra os cintos de quatro pontos com brutalidade mecânica.",
-      "Enquanto a indústria se curva à automação elétrica e ao isolamento digital, o chassi tubular com painéis em composite mantém sua rigidez torcional intacta após décadas. Cada solda no chassi relata a obsessão da Scuderia por eficiência aerodinâmica pura e coeficientes de arrasto implacáveis. Trata-se de engenharia civil convertida em propulsão balística.",
-      "A experiência estática proporcionada na via pública transcende o mero fetichismo automotivo. O escapamento quádruplo em Inconel 625 exala o cheiro característico de óleo quente e gasolina de alta octanagem. É a prova física de que a verdadeira autoridade mecânica dispensa apresentações: ela ruge através de pressões de óleo e rotações puras."
-    ],
-    "specs": {
-      "motor": "V8 2.9L biturbo a 90 graus",
-      "potencia": "478 cv a 7.000 RPM",
-      "torque": "58,8 kgfm a 4.000 RPM",
-      "chassi": "Tubular em aço com reforços em composite",
-      "peso_a_seco": "1.235 kg",
-      "avaliacao_mercado": "$4.000.000 USD"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 92,
-    "ranking_score": 92,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-11T18:29:38.619Z",
-    "published_at": "2026-11-11T18:29:38.619Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFAyRHYzeFlyMkNiLTBjVFJ3UVp2Sm9ZR1czX3Jyam5uMWNOSGpoQ3VUTmJMelpNVzhVRkVZMDZjekZkZktaakFxaG5QRWtaODYxZllSX0V4V3RnUnVRTUF4bGliM3luV1A4R0JWQVlkdnN4dw?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAyRHYzeFlyMkNiLTBjVFJ3UVp2Sm9ZR1czX3Jyam5uMWNOSGpoQ3VUTmJMelpNVzhVRkVZMDZjekZkZktaakFxaG5QRWtaODYxZllSX0V4V3RnUnVRTUF4bGliM3luV1A4R0JWQVlkdnN4dw?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "SUPERCARROS",
+    "title": "Ferrari SP12 EC: A Obra-Prima Única de...",
+    "image": "https://images.unsplash.com/photo-1660326040484-fc0cb33d0b23?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "ferrari-sp12-ec-a-obra-prima-unica-de-us-47-milhoes-que-fundiu-a-arquitetura-da-512bb-com-o-v8-biturbo-7179"
+  },
+  {
+    "id": "film-2",
     "category": "DESTINOS",
     "title": "Lürssen Barcelona: O Ponto de Resposta...",
     "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=max&q=80&w=1400",
@@ -1435,7 +1442,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "lurssen-barcelona-o-ponto-de-resposta-rapida-247-com-equipe-volante-para-superiates-de-ate-525-pes-no-mediterraneo-8784"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "ARQUITETURA",
     "title": "Diamante Bulgari Rosa: Os 24 Quilates ...",
     "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=max&q=85&w=1800",
@@ -1443,7 +1450,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "diamante-bulgari-rosa-os-24-quilates-de-pureza-categorica-custodiados-pela-mesma-dinastia-desde-1950-2556"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "ARQUITETURA",
     "title": "Coroa Britânica: O Martelo de Genebra ...",
     "image": "https://images.unsplash.com/photo-1783408360163-3ad59ed27c25?auto=format&fit=max&q=80&w=1400",
@@ -1451,7 +1458,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "coroa-britanica-o-martelo-de-genebra-alcanca-42-milhoes-de-francos-com-diamantes-de-proveniencia-real-e-ouro-nativo-8386"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Ferrari: A Ascensão das Ações em Wall ...",
     "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
@@ -1459,20 +1466,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-a-ascensao-das-acoes-em-wall-street-e-a-soberania-inercial-do-v12-de-aspiracao-natural-2563"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "DESTINOS",
     "title": "Mercedes-Maybach Project Serie 1: O Me...",
     "image": "https://images.unsplash.com/photo-1614350391736-ed8619d63c06?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "mercedes-maybach-project-serie-1-o-megaiate-de-508-pes-com-assinatura-em-liga-naval-e-aporte-de-4-milhoes-de-dolares-por-cabine-1064"
-  },
-  {
-    "id": "film-6",
-    "category": "ARQUITETURA",
-    "title": "LaFerrari: O Monocoque Rosso Corsa de ...",
-    "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "laferrari-o-monocoque-rosso-corsa-de-963-cv-que-liderou-o-leilao-broad-arrow-zurique-2026-enquanto-o-mercado-rejeita-a-liquidez-efemera-0805"
   }
 ];
 

@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-superiates-de-elite-a-fortaleza--4214",
+    "slug": "superiates-de-elite-a-fortaleza-flutuante-de-14-modulos-de-comando-que-integra-sala-de-jogos-de-alta-fidelidade-3716",
+    "title": "Superiates de Elite: A Fortaleza Flutuante de 14 Módulos de Comando que Integra Sala de Jogos de Alta Fidelidade",
+    "image": "https://images.unsplash.com/photo-1562281302-809108fd533c?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVmpYRGVLcllfa3d0XzVGQmR4OGdFQ1pwNGU4RnVGWWEzc1ZmOUl4ZktUMlFhYTRLaU5Wem5JQzlPeGhKX2I2bGRKSVQ2ZGlraDJ2N0pnQnpIT1Byb1o2Z19NT0QxN1dKS200SURkeG5uMS1GNWxyaVdIekVMZk1kUnJiRDFvMnc?oc=5",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-17T22:10:34.212Z"
+  },
+  {
     "id": "art-bugatti-type-41-royale-a-escultu-0112",
     "slug": "bugatti-type-41-royale-a-escultura-de-bronze-de-rembrandt-que-decorava-o-radiador-do-carro-mais-caro-do-mundo-0095",
     "title": "Bugatti Type 41 Royale: A Escultura de Bronze de Rembrandt que Decorava o Radiador do Carro Mais Caro do Mundo",
