@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-bugatti-centodieci-os-us-9-milho-4101",
+    "slug": "bugatti-centodieci-os-us-9-milhoes-e-a-cirurgia-de-65-horas-em-molsheim-para-ressuscitar-o-w16-quadriturbo-3599",
+    "title": "Bugatti Centodieci: Os US$ 9 Milhões e a Cirurgia de 65 Horas em Molsheim para Ressuscitar o W16 Quadriturbo",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "17 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1766353134008-bb3b8b99ddd2?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "A rara obra-prima de tiragem de dez unidades cruza fronteiras rumo ao santuário alemão para uma intervenção cirúrgica de alta precisão em seu bloco de oito litros.",
+    "contentParagraphs": [
+      "A carroceria em fibra de carbono exposta corta a neblina europeia em um silêncio tenso. O Centodieci de Cristiano Ronaldo não está em solo ibérico. O hipercarro de nove milhões de dólares repousa sobre cavaletes em uma câmara estéril na Alemanha, longe de qualquer garagem comum. Trata-se de uma peregrinação obrigatória ao berço mecânico que deu origem à lenda moderna dos quadriturbos.",
+      "O coração destas dez unidades limitadas exige mais do que simples manutenção preventiva. O motor W16 de 8,0 litros e 1.600 cavalos de potência impõe protocolos de intervenção que desafiam a engenharia contemporânea. Os relatórios de oficina apontam para uma operação cirúrgica estimada em 65 horas de bancada. Engenheiros especialistas desmontam dutos de admissão em titânio e verificam tolerâncias de mícrons em pistões forjados para garantir a integridade térmica sob forças G extremas.",
+      "Cada componente do sistema de sobrealimentação opera em limites térmicos absurdos. O escapamento em Inconel incandescente e os radiadores dedicados ao resfriamento do óleo de transmissão exigem calibração micrométrica. A complexidade de alinhar quatro turbocompressores sequenciais transforma a simples troca de fluidos em uma operação de alta relojoaria mecânica aplicada à artilharia balística sobre rodas.",
+      "Enquanto colecionadores comuns acumulam estática em galpões climatizados, exemplares desta magnitude pagam o preço da verdadeira engenharia de pista. O retorno iminente aos Alpes não será apenas uma entrega logística, mas a reafirmação de que a combustão interna, quando levada ao seu ápice absoluto, exige devoção técnica e recursos industriais incomparáveis."
+    ],
+    "content_paragraphs": [
+      "A carroceria em fibra de carbono exposta corta a neblina europeia em um silêncio tenso. O Centodieci de Cristiano Ronaldo não está em solo ibérico. O hipercarro de nove milhões de dólares repousa sobre cavaletes em uma câmara estéril na Alemanha, longe de qualquer garagem comum. Trata-se de uma peregrinação obrigatória ao berço mecânico que deu origem à lenda moderna dos quadriturbos.",
+      "O coração destas dez unidades limitadas exige mais do que simples manutenção preventiva. O motor W16 de 8,0 litros e 1.600 cavalos de potência impõe protocolos de intervenção que desafiam a engenharia contemporânea. Os relatórios de oficina apontam para uma operação cirúrgica estimada em 65 horas de bancada. Engenheiros especialistas desmontam dutos de admissão em titânio e verificam tolerâncias de mícrons em pistões forjados para garantir a integridade térmica sob forças G extremas.",
+      "Cada componente do sistema de sobrealimentação opera em limites térmicos absurdos. O escapamento em Inconel incandescente e os radiadores dedicados ao resfriamento do óleo de transmissão exigem calibração micrométrica. A complexidade de alinhar quatro turbocompressores sequenciais transforma a simples troca de fluidos em uma operação de alta relojoaria mecânica aplicada à artilharia balística sobre rodas.",
+      "Enquanto colecionadores comuns acumulam estática em galpões climatizados, exemplares desta magnitude pagam o preço da verdadeira engenharia de pista. O retorno iminente aos Alpes não será apenas uma entrega logística, mas a reafirmação de que a combustão interna, quando levada ao seu ápice absoluto, exige devoção técnica e recursos industriais incomparáveis."
+    ],
+    "specs": {
+      "Motor": "W16 de 8,0 litros com 4 turbocompressores",
+      "Potencia": "1.600 cv a 7.000 rpm",
+      "Tiragem": "Edição limitada de 10 unidades mundiais",
+      "Tempo de Manutencao": "65 horas estimadas em bancada especializada",
+      "Material do Chassi": "Monocoque em carbo-titânio curado em autoclave"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 93,
+    "ranking_score": 93,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-17T15:05:34.098Z",
+    "published_at": "2026-11-17T15:05:34.098Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPck5LRE1oZGNycFdXanU2MHYyaEVXTVQ0ZmhVa0Uyd1RiZVJndG5jbkFOcE5pYUx4Zm9FSTByV01ReXNNbkQ5SEhhSkV4VFM1ZUJyandpb2VvU3RuZWozNjRHNWo5cVdCd2QwdHpIVElnSzZXRFM4TEdpMlp6dm5nTkpMRURWLTU0cDMtd0t0NGlNaGVGLVZGaDNFRnp4Rjd5?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPck5LRE1oZGNycFdXanU2MHYyaEVXTVQ0ZmhVa0Uyd1RiZVJndG5jbkFOcE5pYUx4Zm9FSTByV01ReXNNbkQ5SEhhSkV4VFM1ZUJyandpb2VvU3RuZWozNjRHNWo5cVdCd2QwdHpIVElnSzZXRFM4TEdpMlp6dm5nTkpMRURWLTU0cDMtd0t0NGlNaGVGLVZGaDNFRnp4Rjd5?oc=5"
+  },
+  {
     "id": "art-abu-dhabi-mega-marina-o-novo-pol-7951",
     "slug": "abu-dhabi-mega-marina-o-novo-polo-naval-de-300-bercos-e-a-engenharia-de-picheis-flutuantes-para-superiates-de-160-metros-7939",
     "title": "Abu Dhabi Mega Marina: O Novo Polo Naval de 300 Berços e a Engenharia de Picheis Flutuantes para Superiates de 160 Metros",
@@ -281,7 +333,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "17 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -309,10 +361,10 @@ export const ARTICLES = [
       "equipe_tecnica": "Engenheiros navais residentes"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 87,
@@ -1370,64 +1422,20 @@ export const ARTICLES = [
     "published_at": "2026-11-11T03:05:27.498Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxQWUJPMjJNLXZJVUpSYUFicFl3SnZhdDR2a2w5ci1RcVBDT0N3S1RjdURDOHRJX2pTQmt1cEc2bXBvcWJNeWp5UnZiNDFVREJ0Vkh6Tm9iZTJGVHZPMjZUSUdOWmxSVkJXSkpZeHFIbU1sTFpmOFRfbVVadWZucmlCZDVKNURyODdFUG5RSzE0VUN4WS12VEVFNFNFOWYxSzdFckVYV3NJd2hWaDAwUEx1SkJRdF9uaFYzNVVkOUVzUmhpbnUwWG1nLVR0ZlBnUmtjV1VybW9rM2xLR0xSLThaZFVNT1pKQWJvVXUyNnEtbTQyd0RFdVRiM2hDWkFxTnZydmlyVmo4NlM1dTBnUXVKb3F1WnJvRVZLNVdMNHN5OWo4SkpTU3V5V2RqRWE0dUhwVnNTSEF5MDlES1RyeTR0WXRncmk5MzRGZ3NYcHBJaGFzM2NyclRWOE1PTEQ1ZzR5Ulc2WkJiaHNyc1VoQTZlTXpaQWPSAfoCQVVfeXFMT05HR1NIWmdmR3lpQ1hfOW5SaEFxTWtGUWNKVnRnNFc2LUFJWEp0N25vSzhMLWlVbDlQb21DZUxNYTBoZU54M3NMczZ3elgwc21EbXk4ejMzM0pFMDNRZU9FZjV2bUUzdVh1a2VKc0pvcWxJekp2NXE1UXV2REJ6OERnZFhfaThWejZEeEtLQ29GYnJ6M1FQZVNpT29SQU41UnZNM1pjdWtScktPZ0hDd3FsTTJHREhIQWl4LUwwdXJ2TnJJc3NPVTd6LTVyaTlkTDhrUnZUQTJfNm4zRGlUNUVpT01pVjA4eUlGNlVVZ29LcHh0eUloSWd4eG42NmFMejVVLXNXLW94N1psTjJTUFZZSE9wMkQtWTVuNElCUk10M3B4a01mVXNMSHRURGswd1BOY0xPY2dsUEhDM1VUbEM4TlJkNkNaQzktdi1LbGxZOGhPdnlyZ2dXZUVJaGVkWXFNQmhqTEFsVklpLWoySTNMekpyV29vN1RB?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxQWUJPMjJNLXZJVUpSYUFicFl3SnZhdDR2a2w5ci1RcVBDT0N3S1RjdURDOHRJX2pTQmt1cEc2bXBvcWJNeWp5UnZiNDFVREJ0Vkh6Tm9iZTJGVHZPMjZUSUdOWmxSVkJXSkpZeHFIbU1sTFpmOFRfbVVadWZucmlCZDVKNURyODdFUG5RSzE0VUN4WS12VEVFNFNFOWYxSzdFckVYV3NJd2hWaDAwUEx1SkJRdF9uaFYzNVVkOUVzUmhpbnUwWG1nLVR0ZlBnUmtjV1VybW9rM2xLR0xSLThaZFVNT1pKQWJvVXUyNnEtbTQyd0RFdVRiM2hDWkFxTnZydmlyVmo4NlM1dTBnUXVKb3F1WnJvRVZLNVdMNHN5OWo4SkpTU3V5V2RqRWE0dUhwVnNTSEF5MDlES1RyeTR0WXRncmk5MzRGZ3NYcHBJaGFzM2NyclRWOE1PTEQ1ZzR5Ulc2WkJiaHNyc1VoQTZlTXpaQWPSAfoCQVVfeXFMT05HR1NIWmdmR3lpQ1hfOW5SaEFxTWtGUWNKVnRnNFc2LUFJWEp0N25vSzhMLWlVbDlQb21DZUxNYTBoZU54M3NMczZ3elgwc21EbXk4ejMzM0pFMDNRZU9FZjV2bUUzdVh1a2VKc0pvcWxJekp2NXE1UXV2REJ6OERnZFhfaThWejZEeEtLQ29GYnJ6M1FQZVNpT29SQU41UnZNM1pjdWtScktPZ0hDd3FsTTJHREhIQWl4LUwwdXJ2TnJJc3NPVTd6LTVyaTlkTDhrUnZUQTJfNm4zRGlUNUVpT01pVjA4eUlGNlVVZ29LcHh0eUloSWd4eG42NmFMejVVLXNXLW94N1psTjJTUFZZSE9wMkQtWTVuNElCUk10M3B4a01mVXNMSHRURGswd1BOY0xPY2dsUEhDM1VUbEM4TlJkNkNaQzktdi1LbGxZOGhPdnlyZ2dXZUVJaGVkWXFNQmhqTEFsVklpLWoySTNMekpyV29vN1RB?oc=5"
-  },
-  {
-    "id": "art-phillips-geneva-watch-auction-xx-7419",
-    "slug": "phillips-geneva-watch-auction-xxiv-112-milhoes-de-dolares-em-calibres-raros-sob-o-silencio-absoluto-da-vallee-de-joux-7407",
-    "title": "Phillips Geneva Watch Auction XXIV: 112 Milhões de Dólares em Calibres Raros Sob o Silêncio Absoluto da Vallée de Joux",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "category_slug": "relogios",
-    "authorSlug": "clara-meirelles",
-    "author_slug": "clara-meirelles",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "11 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "O leilão de Genebra consolida a soberania patrimonial de peças únicas, onde cada esmalte Grand Feu e ponte angulada à mão desafiam a volatilidade do mercado moderno com precisão milimétrica.",
-    "contentParagraphs": [
-      "O martelo desceu em Genebra para sacramentar 112 milhões de dólares em pura soberania mecânica. Não houve espaço para especulação efêmera. Colecionadores de quatro continentes disputaram lotes cujo valor reside inteiramente na complexidade invisível dos trens de rodagem. Cada ponte polida reflete uma arquitetura que ignora o tempo utilitário.",
-      "No centro das disputas mais intensas, relógios com calibres de manufatura equipados com sonnerie acústica afinada em Sol sustenido demonstraram o ápice da microengenharia. Tolerâncias de mícrons em espirais de balanço em silício coexistiram com caixas em ouro branco marteladas à mão. A precisão absoluta encontra-se no balanço perfeito entre a rigidez do aço e a delicadeza do esmalte vitrificado a oitocentos e vinte graus Celsius.",
-      "A liquidez destes ativos reflete um movimento claro de preservação dinástica. Enquanto mercados tradicionais oscilam, o patrimônio portável protegido por capas de couro Box Calf e custódia fiduciária firma-se como refúgio definitivo. Compradores institucionais e herdeiros de fortunas seculares reconhecem nestes mostradores uma imunidade temporal intransponível.",
-      "O resultado da vigésima quarta edição da Phillips em solo suíço reescreve a cartografia do luxo colecionável. O tempo mecânico deixa de ser medida para se tornar a mais duradoura forma de arte tangível. Resta aos ateliês de Le Brassus responder à demanda por peças que transformam o silêncio mineral em legado eterno."
-    ],
-    "content_paragraphs": [
-      "O martelo desceu em Genebra para sacramentar 112 milhões de dólares em pura soberania mecânica. Não houve espaço para especulação efêmera. Colecionadores de quatro continentes disputaram lotes cujo valor reside inteiramente na complexidade invisível dos trens de rodagem. Cada ponte polida reflete uma arquitetura que ignora o tempo utilitário.",
-      "No centro das disputas mais intensas, relógios com calibres de manufatura equipados com sonnerie acústica afinada em Sol sustenido demonstraram o ápice da microengenharia. Tolerâncias de mícrons em espirais de balanço em silício coexistiram com caixas em ouro branco marteladas à mão. A precisão absoluta encontra-se no balanço perfeito entre a rigidez do aço e a delicadeza do esmalte vitrificado a oitocentos e vinte graus Celsius.",
-      "A liquidez destes ativos reflete um movimento claro de preservação dinástica. Enquanto mercados tradicionais oscilam, o patrimônio portável protegido por capas de couro Box Calf e custódia fiduciária firma-se como refúgio definitivo. Compradores institucionais e herdeiros de fortunas seculares reconhecem nestes mostradores uma imunidade temporal intransponível.",
-      "O resultado da vigésima quarta edição da Phillips em solo suíço reescreve a cartografia do luxo colecionável. O tempo mecânico deixa de ser medida para se tornar a mais duradoura forma de arte tangível. Resta aos ateliês de Le Brassus responder à demanda por peças que transformam o silêncio mineral em legado eterno."
-    ],
-    "specs": {
-      "Faturamento Total": "USD 112.4 Milhões",
-      "Ateliês em Destaque": "Patek Philippe, Rolex, F.P. Journe",
-      "Técnica Predominante": "Esmalte Grand Feu a 820°C e Anglage Manual",
-      "Curadoria": "Phillips Watches Geneva XXIV",
-      "Localidade": "Hôtel La Réserve, Genebra"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 92,
-    "ranking_score": 92,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-11T01:23:07.419Z",
-    "published_at": "2026-11-11T01:23:07.419Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1eHVpdE43NnlUTHBodVQ5R2NRdENEMUlkVGFabnlSSTBYRlBPYkJkUmMwT2JjeG5UX0pQUmZfOWhmZzYwT1NFUXFWd0VsRGMzOHgxTDZfVGp2OUdIOFp1X2E4bmp2Yl9tc011YmtCVzk4XzU2OU1DRE1wS1JZSk0?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1eHVpdE43NnlUTHBodVQ5R2NRdENEMUlkVGFabnlSSTBYRlBPYkJkUmMwT2JjeG5UX0pQUmZfOWhmZzYwT1NFUXFWd0VsRGMzOHgxTDZfVGp2OUdIOFp1X2E4bmp2Yl9tc011YmtCVzk4XzU2OU1DRE1wS1JZSk0?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "ARQUITETURA",
+    "title": "Coroa Britânica: O Martelo de Genebra ...",
+    "image": "https://images.unsplash.com/photo-1783408360163-3ad59ed27c25?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "coroa-britanica-o-martelo-de-genebra-alcanca-42-milhoes-de-francos-com-diamantes-de-proveniencia-real-e-ouro-nativo-8386"
+  },
+  {
+    "id": "film-2",
     "category": "SUPERCARROS",
     "title": "Ferrari: A Ascensão das Ações em Wall ...",
     "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
@@ -1435,7 +1443,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-a-ascensao-das-acoes-em-wall-street-e-a-soberania-inercial-do-v12-de-aspiracao-natural-2563"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "DESTINOS",
     "title": "Mercedes-Maybach Project Serie 1: O Me...",
     "image": "https://images.unsplash.com/photo-1614350391736-ed8619d63c06?auto=format&fit=max&q=80&w=1400",
@@ -1443,7 +1451,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "mercedes-maybach-project-serie-1-o-megaiate-de-508-pes-com-assinatura-em-liga-naval-e-aporte-de-4-milhoes-de-dolares-por-cabine-1064"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "ARQUITETURA",
     "title": "LaFerrari: O Monocoque Rosso Corsa de ...",
     "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=max&q=80&w=1400",
@@ -1451,7 +1459,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "laferrari-o-monocoque-rosso-corsa-de-963-cv-que-liderou-o-leilao-broad-arrow-zurique-2026-enquanto-o-mercado-rejeita-a-liquidez-efemera-0805"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "RELOGIOS",
     "title": "Leilão Christie’s: A Nova Geração e a ...",
     "image": "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?auto=format&fit=max&q=80&w=1400",
@@ -1459,20 +1467,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "leilao-christies-a-nova-geracao-e-a-ascensao-dos-calibres-de-proveniencia-historica-em-recordes-de-liquidez-6398"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "SUPERCARROS",
     "title": "Ferrari F40: O Ícone de $4 Milhões e T...",
     "image": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "ferrari-f40-o-icone-de-4-milhoes-e-tubos-de-inconel-que-converteu-as-ruas-em-pista-de-testes-de-maranello-8607"
-  },
-  {
-    "id": "film-6",
-    "category": "ARQUITETURA",
-    "title": "Gooding Christie’s Geneva Sale 2026: 1...",
-    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "gooding-christies-geneva-sale-2026-142-milhoes-de-francos-suicos-e-o-triunfo-dos-chassis-conservados-em-silencio-mineral-3811"
   }
 ];
 

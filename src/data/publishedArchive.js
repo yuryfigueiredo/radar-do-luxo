@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-bugatti-centodieci-os-us-9-milho-4101",
+    "slug": "bugatti-centodieci-os-us-9-milhoes-e-a-cirurgia-de-65-horas-em-molsheim-para-ressuscitar-o-w16-quadriturbo-3599",
+    "title": "Bugatti Centodieci: Os US$ 9 Milhões e a Cirurgia de 65 Horas em Molsheim para Ressuscitar o W16 Quadriturbo",
+    "image": "https://images.unsplash.com/photo-1766353134008-bb3b8b99ddd2?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPck5LRE1oZGNycFdXanU2MHYyaEVXTVQ0ZmhVa0Uyd1RiZVJndG5jbkFOcE5pYUx4Zm9FSTByV01ReXNNbkQ5SEhhSkV4VFM1ZUJyandpb2VvU3RuZWozNjRHNWo5cVdCd2QwdHpIVElnSzZXRFM4TEdpMlp6dm5nTkpMRURWLTU0cDMtd0t0NGlNaGVGLVZGaDNFRnp4Rjd5?oc=5",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-17T15:05:34.098Z"
+  },
+  {
     "id": "art-abu-dhabi-mega-marina-o-novo-pol-7951",
     "slug": "abu-dhabi-mega-marina-o-novo-polo-naval-de-300-bercos-e-a-engenharia-de-picheis-flutuantes-para-superiates-de-160-metros-7939",
     "title": "Abu Dhabi Mega Marina: O Novo Polo Naval de 300 Berços e a Engenharia de Picheis Flutuantes para Superiates de 160 Metros",
