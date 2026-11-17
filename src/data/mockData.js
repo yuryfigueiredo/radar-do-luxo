@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-abu-dhabi-mega-marina-o-novo-pol-7951",
+    "slug": "abu-dhabi-mega-marina-o-novo-polo-naval-de-300-bercos-e-a-engenharia-de-picheis-flutuantes-para-superiates-de-160-metros-7939",
+    "title": "Abu Dhabi Mega Marina: O Novo Polo Naval de 300 Berços e a Engenharia de Picheis Flutuantes para Superiates de 160 Metros",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "17 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1621277224630-81d9af65e40c?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A capital dos Emirados Árabes Unidos reorganiza a geopolítica náutica global com berços dedicados, calados dragados a 9 metros e infraestrutura cirúrgica para colossos de aço e alumínio.",
+    "contentParagraphs": [
+      "O dinheiro recente busca o espetáculo efêmero. O capital soberano, contudo, exige calado profundo, caldeiras estabilizadas e atracadouros de precisão milimétrica. Abu Dhabi compreendeu essa máxima com brutalidade financeira. A península arábica não oferece apenas povejantes berços ao sol; entrega uma infraestrutura portuária moldada para absorver a frota mais pesada e exigente dos mares globais, ignorando o raso comodismo das marinas mediterrâneas tradicionais. Trata-se de uma ofensiva cirúrgica de engenharia civil voltada para a aristocracia náutica mundial.",
+      "Sob a supervisão de construtores navais e autoridades portuárias locais, os canais de acesso foram dragados a uma profundidade constante de nove metros. O assoalho marinho agora tolera mastodontes com cascos de deslocamento superior a 5.000 toneladas. Cada píer flutuante foi projetado para resistir a correntes de maré severas e ventos térmicos do Golfo Pérsico, ancorado por estacas de aço cravadas diretamente na rocha calcária do fundo marinho. Abastecimento de combustível de alta pureza por hidrantes subterrâneos, linhas de energia de alta tensão isoladas e conexões de fibra óptica de baixa latência formam a espinha dorsal invisível deste refúgio flutuante.",
+      "Enquanto Monaco sofre com a escassez crônica de espaço e portos saturados por embarcações de apoio, os Emirados redesenham a cartografia do luxo náutico. A proposta abandona o conceito de marina recreativa para adotar o rigor de uma base naval privada. Helipontos com certificação para pousos noturnos, alfândega privativa integrada diretamente ao píer e oficinas mecânicas com bancadas de usinagem CNC de cinco eixos operam 24 horas por dia. É a resposta implacável da engenharia costeira frente à inflação de tamanho dos superiates modernos.",
+      "O veredito é inequívoco. Abu Dhabi não está apenas atraindo o turismo de bilionários; está redefinindo o padrão de custódia e manutenção para cascos avaliados em centenas de milhões de dólares. Quando a superestrutura em alumínio de um colosso naval ruma para o Golfo, o proprietário não busca calmas praias. Ele exige a imunidade operacional de um dique seco disfarçado de oásis."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente busca o espetáculo efêmero. O capital soberano, contudo, exige calado profundo, caldeiras estabilizadas e atracadouros de precisão milimétrica. Abu Dhabi compreendeu essa máxima com brutalidade financeira. A península arábica não oferece apenas povejantes berços ao sol; entrega uma infraestrutura portuária moldada para absorver a frota mais pesada e exigente dos mares globais, ignorando o raso comodismo das marinas mediterrâneas tradicionais. Trata-se de uma ofensiva cirúrgica de engenharia civil voltada para a aristocracia náutica mundial.",
+      "Sob a supervisão de construtores navais e autoridades portuárias locais, os canais de acesso foram dragados a uma profundidade constante de nove metros. O assoalho marinho agora tolera mastodontes com cascos de deslocamento superior a 5.000 toneladas. Cada píer flutuante foi projetado para resistir a correntes de maré severas e ventos térmicos do Golfo Pérsico, ancorado por estacas de aço cravadas diretamente na rocha calcária do fundo marinho. Abastecimento de combustível de alta pureza por hidrantes subterrâneos, linhas de energia de alta tensão isoladas e conexões de fibra óptica de baixa latência formam a espinha dorsal invisível deste refúgio flutuante.",
+      "Enquanto Monaco sofre com a escassez crônica de espaço e portos saturados por embarcações de apoio, os Emirados redesenham a cartografia do luxo náutico. A proposta abandona o conceito de marina recreativa para adotar o rigor de uma base naval privada. Helipontos com certificação para pousos noturnos, alfândega privativa integrada diretamente ao píer e oficinas mecânicas com bancadas de usinagem CNC de cinco eixos operam 24 horas por dia. É a resposta implacável da engenharia costeira frente à inflação de tamanho dos superiates modernos.",
+      "O veredito é inequívoco. Abu Dhabi não está apenas atraindo o turismo de bilionários; está redefinindo o padrão de custódia e manutenção para cascos avaliados em centenas de milhões de dólares. Quando a superestrutura em alumínio de um colosso naval ruma para o Golfo, o proprietário não busca calmas praias. Ele exige a imunidade operacional de um dique seco disfarçado de oásis."
+    ],
+    "specs": {
+      "calado_maximo": "9 metros dragados",
+      "capacidade_bercos": "Até 160 metros de LOA",
+      "infraestrutura": "Píeres flutuantes com ancoragem em estacas de rocha",
+      "conectividade": "Fibra óptica de baixa latência e hidrantes subterrâneos",
+      "tiragem_estrategica": "Expansão portuária soberana"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 92,
+    "ranking_score": 92,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-17T11:11:27.949Z",
+    "published_at": "2026-11-17T11:11:27.949Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0JhMkNyTjE1Ymtva09RUUxlblpMOTN3N2MwdG5odUxudktoRTFTLTdsbE5SbG0tLVN3U01kRzVaRjJQc180c0dMd2xvTWFwbDhiQUNENDBxLW0tZnc0VXRVVjRzeWc4dVY2VzJMc0FET1NkeGZmdHJmUzR1WEpsR3FvUm1CX0Q2STk4RXZkdTdDQ3RVNWozNzhnc280akl6NHJvWnhlbjJIYjNVRXFUSzJjNHZWcnAyV1E?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0JhMkNyTjE1Ymtva09RUUxlblpMOTN3N2MwdG5odUxudktoRTFTLTdsbE5SbG0tLVN3U01kRzVaRjJQc180c0dMd2xvTWFwbDhiQUNENDBxLW0tZnc0VXRVVjRzeWc4dVY2VzJMc0FET1NkeGZmdHJmUzR1WEpsR3FvUm1CX0Q2STk4RXZkdTdDQ3RVNWozNzhnc280akl6NHJvWnhlbjJIYjNVRXFUSzJjNHZWcnAyV1E?oc=5"
+  },
+  {
     "id": "art-vincent-van-gogh-a-incognita-de--2338",
     "slug": "vincent-van-gogh-a-incognita-de-us-50-milhoes-em-uma-semana-de-leiloes-de-us-28-bilhoes-2328",
     "title": "Vincent van Gogh: A Incógnita de US$ 50 Milhões em uma Semana de Leilões de US$ 2,8 Bilhões",
@@ -1370,64 +1422,20 @@ export const ARTICLES = [
     "published_at": "2026-11-11T01:23:07.419Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1eHVpdE43NnlUTHBodVQ5R2NRdENEMUlkVGFabnlSSTBYRlBPYkJkUmMwT2JjeG5UX0pQUmZfOWhmZzYwT1NFUXFWd0VsRGMzOHgxTDZfVGp2OUdIOFp1X2E4bmp2Yl9tc011YmtCVzk4XzU2OU1DRE1wS1JZSk0?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1eHVpdE43NnlUTHBodVQ5R2NRdENEMUlkVGFabnlSSTBYRlBPYkJkUmMwT2JjeG5UX0pQUmZfOWhmZzYwT1NFUXFWd0VsRGMzOHgxTDZfVGp2OUdIOFp1X2E4bmp2Yl9tc011YmtCVzk4XzU2OU1DRE1wS1JZSk0?oc=5"
-  },
-  {
-    "id": "art-phillips-geneva-watch-auction-24-5088",
-    "slug": "phillips-geneva-watch-auction-24-recordes-historicos-e-o-marco-de-us-100-milhoes-em-manufatura-rara-5078",
-    "title": "Phillips Geneva Watch Auction: 24 Recordes Históricos e o Marco de US$ 100 Milhões em Manufatura Rara",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "category_slug": "relogios",
-    "authorSlug": "clara-meirelles",
-    "author_slug": "clara-meirelles",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "10 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "O leilão suíço reescreve a soberania patrimonial da alta relojoaria, superando a marca centenária de faturamento com calibres que desafiam a entropia temporal.",
-    "contentParagraphs": [
-      "O martelo desceu em Genebra com a precisão de um escape de tourbillon. Vinte e quatro recordes absolutos caíram na última sessão da Phillips, rompendo a barreira matemática dos cem milhões de dólares em transações. O tempo do luxo não é utilitário. Trata-se da mais nobre das telas mecânicas esculpidas por mãos humanas na Vallée de Joux.",
-      "Colecionadores globais disputaram calibres de manufatura com anglage executada à mão com sabugueiro silvestre e mostradores em esmalte Grand Feu vitrificados a 820°C. Cada lote representava horas infindables de microtecnologia onde tolerâncias de mícrons garantem imunidade temporal. Não há espaço para o efêmero quando a matéria-prima é aço temperado e ouro cinza.",
-      "A liquidez internacional migrou diretamente para refúgios de pulso com proveniência impecável e histórico documentado nos arquivos de Le Brassus. Enquanto o mercado comum consome ativos voláteis, a alta relojoaria consolida uma governança dinástica inabalável. O tique-taque mecânico tornou-se a moeda mais sólida contra a inflação dos bens de consumo em massa.",
-      "Este resultado histórico redefine o eixo gravitacional da curadoria museológica privada. O colecionador contemporâneo exige silêncio mineral e exclusividade matemática, rejeitando modismos em favor de peças que atravessam gerações. O leilão de Genebra não apenas vendeu relógios; estabeleceu o novo padrão ouro para o patrimônio global."
-    ],
-    "content_paragraphs": [
-      "O martelo desceu em Genebra com a precisão de um escape de tourbillon. Vinte e quatro recordes absolutos caíram na última sessão da Phillips, rompendo a barreira matemática dos cem milhões de dólares em transações. O tempo do luxo não é utilitário. Trata-se da mais nobre das telas mecânicas esculpidas por mãos humanas na Vallée de Joux.",
-      "Colecionadores globais disputaram calibres de manufatura com anglage executada à mão com sabugueiro silvestre e mostradores em esmalte Grand Feu vitrificados a 820°C. Cada lote representava horas infindables de microtecnologia onde tolerâncias de mícrons garantem imunidade temporal. Não há espaço para o efêmero quando a matéria-prima é aço temperado e ouro cinza.",
-      "A liquidez internacional migrou diretamente para refúgios de pulso com proveniência impecável e histórico documentado nos arquivos de Le Brassus. Enquanto o mercado comum consome ativos voláteis, a alta relojoaria consolida uma governança dinástica inabalável. O tique-taque mecânico tornou-se a moeda mais sólida contra a inflação dos bens de consumo em massa.",
-      "Este resultado histórico redefine o eixo gravitacional da curadoria museológica privada. O colecionador contemporâneo exige silêncio mineral e exclusividade matemática, rejeitando modismos em favor de peças que atravessam gerações. O leilão de Genebra não apenas vendeu relógios; estabeleceu o novo padrão ouro para o patrimônio global."
-    ],
-    "specs": {
-      "faturamento_total": "Ultrapassou US$ 100 Milhões",
-      "recordes_quebrados": "24 marcas históricas absolutas",
-      "ateliers_destacados": "Patek Philippe, Rolex, F.P. Journe e independentes da Vallée de Joux",
-      "local_do_evento": "Hôtel La Réserve, Genebra",
-      "foco_da_curadoria": "Calibres vintage de altíssima complicação e proveniência intocada"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 94,
-    "ranking_score": 94,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-10T18:26:45.085Z",
-    "published_at": "2026-11-10T18:26:45.085Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVlkxSWdpeHZ3d3NoVzNfNHNTWVJJVzBoZ2QtSHdIME9zeE9yMllINVV3aWVnb0Q1bjN0Q2ZYSGFjWWRVblpPVUp0NkFUTkdGdkx6ZUZfWGlJbmpTQXk2aTFkd2YxYXk4M2NxYUdWcHUzZ2xGOVVwd2ZTYl90Q19rTE5nRUI1UmRpMXVkOA?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVlkxSWdpeHZ3d3NoVzNfNHNTWVJJVzBoZ2QtSHdIME9zeE9yMllINVV3aWVnb0Q1bjN0Q2ZYSGFjWWRVblpPVUp0NkFUTkdGdkx6ZUZfWGlJbmpTQXk2aTFkd2YxYXk4M2NxYUdWcHUzZ2xGOVVwd2ZTYl90Q19rTE5nRUI1UmRpMXVkOA?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "SUPERCARROS",
+    "title": "Ferrari: A Ascensão das Ações em Wall ...",
+    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "ferrari-a-ascensao-das-acoes-em-wall-street-e-a-soberania-inercial-do-v12-de-aspiracao-natural-2563"
+  },
+  {
+    "id": "film-2",
     "category": "DESTINOS",
     "title": "Mercedes-Maybach Project Serie 1: O Me...",
     "image": "https://images.unsplash.com/photo-1614350391736-ed8619d63c06?auto=format&fit=max&q=80&w=1400",
@@ -1435,7 +1443,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "mercedes-maybach-project-serie-1-o-megaiate-de-508-pes-com-assinatura-em-liga-naval-e-aporte-de-4-milhoes-de-dolares-por-cabine-1064"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "ARQUITETURA",
     "title": "LaFerrari: O Monocoque Rosso Corsa de ...",
     "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=max&q=80&w=1400",
@@ -1443,7 +1451,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "laferrari-o-monocoque-rosso-corsa-de-963-cv-que-liderou-o-leilao-broad-arrow-zurique-2026-enquanto-o-mercado-rejeita-a-liquidez-efemera-0805"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "RELOGIOS",
     "title": "Leilão Christie’s: A Nova Geração e a ...",
     "image": "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?auto=format&fit=max&q=80&w=1400",
@@ -1451,7 +1459,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "leilao-christies-a-nova-geracao-e-a-ascensao-dos-calibres-de-proveniencia-historica-em-recordes-de-liquidez-6398"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "SUPERCARROS",
     "title": "Ferrari F40: O Ícone de $4 Milhões e T...",
     "image": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=max&q=80&w=1400",
@@ -1459,20 +1467,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-f40-o-icone-de-4-milhoes-e-tubos-de-inconel-que-converteu-as-ruas-em-pista-de-testes-de-maranello-8607"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "ARQUITETURA",
     "title": "Gooding Christie’s Geneva Sale 2026: 1...",
     "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "gooding-christies-geneva-sale-2026-142-milhoes-de-francos-suicos-e-o-triunfo-dos-chassis-conservados-em-silencio-mineral-3811"
-  },
-  {
-    "id": "film-6",
-    "category": "ARQUITETURA",
-    "title": "Coral Gables 50 Milhões: O Refúgio de ...",
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=85&w=1800",
-    "tag": "CURADORIA RADAR",
-    "slug": "coral-gables-50-milhoes-o-refugio-de-1200-metros-quadrados-com-linha-de-costa-privativa-7488"
   }
 ];
 
