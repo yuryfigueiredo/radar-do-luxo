@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-chapas-de-licenciamento-de-digit-7529",
+    "slug": "chapas-de-licenciamento-de-digito-unico-o-leilao-secreto-de-emblemas-de-aco-que-valem-mais-que-propriedades-na-costa-amalfitana-7519",
+    "title": "Chapas de Licenciamento de Dígito Único: O Leilão Secreto de Emblemas de Aço que Valem Mais que Propriedades na Costa Amalfitana",
+    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOT3F4bW9YNjZlLWhrRHlYeGlHYmFtNXpiOVhEWDI4SGg1RXlKcU5UT0xYaHozNU1RWm5GaG04dWlLZGxtUWRGVzlDQnBFa3FDUWpIMmFZMGdrWjJyLUxDTmhXZU1vZ05hSFhrdUNoVjFKTHpVT2Y1bHlXeG9saE1ya0J0MU53NDVfdmtLUkFTVy0ySS1EdW1wYkVFcjB4djg?oc=5",
+    "categorySlug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "publishedAt": "2026-11-17T03:05:27.529Z"
+  },
+  {
     "id": "art-superiates-de-39-milhoes-de-dola-0323",
     "slug": "superiates-de-39-milhoes-de-dolares-a-regra-de-seis-horas-que-expulsa-convidados-e-exige-disciplina-naval-absoluta-0313",
     "title": "Superiates de 3,9 Milhões de Dólares: A Regra de Seis Horas que Expulsa Convidados e Exige Disciplina Naval Absoluta",

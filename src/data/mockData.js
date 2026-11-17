@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-chapas-de-licenciamento-de-digit-7529",
+    "slug": "chapas-de-licenciamento-de-digito-unico-o-leilao-secreto-de-emblemas-de-aco-que-valem-mais-que-propriedades-na-costa-amalfitana-7519",
+    "title": "Chapas de Licenciamento de Dígito Único: O Leilão Secreto de Emblemas de Aço que Valem Mais que Propriedades na Costa Amalfitana",
+    "category": "Arquitetura",
+    "categorySlug": "arquitetura",
+    "category_slug": "arquitetura",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "17 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A soberania patrimonial encontra seu refúgio mais hermético no asfalto. Placas de identificação vehicular com tiragem numérica infinitesimal entram em leilão restrito, desafiando a inflação global e testando a solidez de fundos fiduciários.",
+    "contentParagraphs": [
+      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Em salas de arremate blindadas contra a volatilidade cambial, pedaços de metal prensado com numeração estritamente inferior a dez dígitos deixam de ser simples exigências burocráticas de trânsito para se tornarem ativos de custódia fiduciária comparáveis a barras de ouro puro armazenadas em cofres suíços.",
+      "A lógica que rege esta transação desafia a macroeconomia convencional. Enquanto os mercados acionários oscilam ao sabor de discursos geopolíticos e a liquidez digital evapora em milissegundos, uma placa com sequências numéricas primordiais opera como um título perpétuo de imunidade temporal e distinção aristocrática intransferível.",
+      "Compradores de alta estirpe não buscam apenas a ostentação efêmera de um automóvel exótico; eles disputam a posse definitiva de um índice numérico irrepetível que coroa a garagem de seus espólios familiares. Esta governança dinástica transforma o registro de circulação em um artefato museológico de valorização ascendente, blindado contra as intempéries dos ciclos econômicos globais.",
+      "No veredito implacável do Radar do Luxo, tais concessões não compõem a categoria de acessórios, mas sim o alicerce de portfólios que compreendem a escassez matemática como a última fronteira da exclusividade real. Quando o martelo descer sobre estes lotes de sete dígitos, o capital encontrará, mais uma vez, sua forma mais densa e inegociável."
+    ],
+    "content_paragraphs": [
+      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Em salas de arremate blindadas contra a volatilidade cambial, pedaços de metal prensado com numeração estritamente inferior a dez dígitos deixam de ser simples exigências burocráticas de trânsito para se tornarem ativos de custódia fiduciária comparáveis a barras de ouro puro armazenadas em cofres suíços.",
+      "A lógica que rege esta transação desafia a macroeconomia convencional. Enquanto os mercados acionários oscilam ao sabor de discursos geopolíticos e a liquidez digital evapora em milissegundos, uma placa com sequências numéricas primordiais opera como um título perpétuo de imunidade temporal e distinção aristocrática intransferível.",
+      "Compradores de alta estirpe não buscam apenas a ostentação efêmera de um automóvel exótico; eles disputam a posse definitiva de um índice numérico irrepetível que coroa a garagem de seus espólios familiares. Esta governança dinástica transforma o registro de circulação em um artefato museológico de valorização ascendente, blindado contra as intempéries dos ciclos econômicos globais.",
+      "No veredito implacável do Radar do Luxo, tais concessões não compõem a categoria de acessórios, mas sim o alicerce de portfólios que compreendem a escassez matemática como a última fronteira da exclusividade real. Quando o martelo descer sobre estes lotes de sete dígitos, o capital encontrará, mais uma vez, sua forma mais densa e inegociável."
+    ],
+    "specs": {
+      "Ativo": "Chapa de licenciamento de dígito único",
+      "Natureza do Ativo": "Refúgio de liquidez e custódia fiduciária",
+      "Tiragem": "Absoluta e matemática (item único)",
+      "Avaliação": "Patamar de sete dígitos em moeda forte",
+      "Destino Fiduciário": "Governança dinástica e acervos privados"
+    },
+    "status": "published",
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-17T03:05:27.529Z",
+    "published_at": "2026-11-17T03:05:27.529Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOT3F4bW9YNjZlLWhrRHlYeGlHYmFtNXpiOVhEWDI4SGg1RXlKcU5UT0xYaHozNU1RWm5GaG04dWlLZGxtUWRGVzlDQnBFa3FDUWpIMmFZMGdrWjJyLUxDTmhXZU1vZ05hSFhrdUNoVjFKTHpVT2Y1bHlXeG9saE1ya0J0MU53NDVfdmtLUkFTVy0ySS1EdW1wYkVFcjB4djg?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOT3F4bW9YNjZlLWhrRHlYeGlHYmFtNXpiOVhEWDI4SGg1RXlKcU5UT0xYaHozNU1RWm5GaG04dWlLZGxtUWRGVzlDQnBFa3FDUWpIMmFZMGdrWjJyLUxDTmhXZU1vZ05hSFhrdUNoVjFKTHpVT2Y1bHlXeG9saE1ya0J0MU53NDVfdmtLUkFTVy0ySS1EdW1wYkVFcjB4djg?oc=5"
+  },
+  {
     "id": "art-superiates-de-39-milhoes-de-dola-0323",
     "slug": "superiates-de-39-milhoes-de-dolares-a-regra-de-seis-horas-que-expulsa-convidados-e-exige-disciplina-naval-absoluta-0313",
     "title": "Superiates de 3,9 Milhões de Dólares: A Regra de Seis Horas que Expulsa Convidados e Exige Disciplina Naval Absoluta",
@@ -1371,64 +1423,20 @@ export const ARTICLES = [
     "published_at": "2026-11-10T15:10:53.898Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNVpoRlFaTXJGWFNNUTJ5Q1Z0cVZURmE4aF9oSkdld2dpUExVcTF3cGtNdFJ5bFhmNnpwV1NOejZjaHNVRzgwMGJHbzNzc2trZUNVdGVfRGJUeXJWMW83cmNva0VLZnRZVUVSWXJKakdTU19LUFhKTk12V3lJM1pqbUcwZ0hJVUNodEVzWjZ3ZURYVnBsNHEyblQwekpvR0NvWmlWR1hFc1hwWVNrWmVGNUpWcExvTWZOSjlnRTE4VTM?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNVpoRlFaTXJGWFNNUTJ5Q1Z0cVZURmE4aF9oSkdld2dpUExVcTF3cGtNdFJ5bFhmNnpwV1NOejZjaHNVRzgwMGJHbzNzc2trZUNVdGVfRGJUeXJWMW83cmNva0VLZnRZVUVSWXJKakdTU19LUFhKTk12V3lJM1pqbUcwZ0hJVUNodEVzWjZ3ZURYVnBsNHEyblQwekpvR0NvWmlWR1hFc1hwWVNrWmVGNUpWcExvTWZOSjlnRTE4VTM?oc=5"
-  },
-  {
-    "id": "art-estaleiros-da-tunisia-os-558-mil-2344",
-    "slug": "estaleiros-da-tunisia-os-558-milhoes-de-dolares-em-componentes-navais-que-cruzam-o-mediterraneo-com-tolerancia-de-microns-2331",
-    "title": "Estaleiros da Tunísia: Os 558 Milhões de Dólares em Componentes Navais que Cruzam o Mediterrâneo com Tolerância de Mícrons",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "10 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=max&q=85&w=1800",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Após fornecer estruturas críticas para o superiate de Cristiano Ronaldo, a indústria naval tunisiana consolida exportações recordes e redesenha o mapa mundial da arquitetura de alto desempenho.",
-    "contentParagraphs": [
-      "O Atlântico ruge na proa. Aço naval e ligas compostas enfrentam a salinidade com insolência. Nos estaleiros do norte africano, o silêncio do trabalho manual contrasta com o barulho dos blocos em usinagem CNC. Nenhuma margem de erro é permitida. Cada junção estrutural exige precisão absoluta.",
-      "A aliança entre a engenharia local e os construtores de superiates europeus atingiu 558 milhões de dólares em exportações. O marco foi impulsionado por fornecimentos de alta complexidade para o casco do superiate de Cristiano Ronaldo. Falamos de monocoques em carbo-titânio curados em autoclave a 6 bar e sistemas de exaustão em Inconel 625 capazes de resistir a pressões térmicas extremas sem perder a rigidez torcional.",
-      "A meta para 2030 é dobrar este volume de negócios. Os estaleiros tunisianos abandonaram a dependência histórica de trabalhos genéricos e assumiram o protagonismo nos cálculos de efeito solo, hidrodinâmica avançada e laminação a vácuo. A força G lateral suportada por estas embarcações em manobras de alta velocidade exige uma rigidez estrutural que poucos estaleiros no mundo conseguem certificar.",
-      "O mercado global de grandes iates exige anonimato e desempenho inegociável. A Tunísia respondeu com telemetria inercial aplicada ao casco e tolerâncias de mícrons que garantem imunidade estrutural contra as piores tempestades do Mediterrâneo. Não há espaço para excessos visuais quando a física dita a regra do jogo."
-    ],
-    "content_paragraphs": [
-      "O Atlântico ruge na proa. Aço naval e ligas compostas enfrentam a salinidade com insolência. Nos estaleiros do norte africano, o silêncio do trabalho manual contrasta com o barulho dos blocos em usinagem CNC. Nenhuma margem de erro é permitida. Cada junção estrutural exige precisão absoluta.",
-      "A aliança entre a engenharia local e os construtores de superiates europeus atingiu 558 milhões de dólares em exportações. O marco foi impulsionado por fornecimentos de alta complexidade para o casco do superiate de Cristiano Ronaldo. Falamos de monocoques em carbo-titânio curados em autoclave a 6 bar e sistemas de exaustão em Inconel 625 capazes de resistir a pressões térmicas extremas sem perder a rigidez torcional.",
-      "A meta para 2030 é dobrar este volume de negócios. Os estaleiros tunisianos abandonaram a dependência histórica de trabalhos genéricos e assumiram o protagonismo nos cálculos de efeito solo, hidrodinâmica avançada e laminação a vácuo. A força G lateral suportada por estas embarcações em manobras de alta velocidade exige uma rigidez estrutural que poucos estaleiros no mundo conseguem certificar.",
-      "O mercado global de grandes iates exige anonimato e desempenho inegociável. A Tunísia respondeu com telemetria inercial aplicada ao casco e tolerâncias de mícrons que garantem imunidade estrutural contra as piores tempestades do Mediterrâneo. Não há espaço para excessos visuais quando a física dita a regra do jogo."
-    ],
-    "specs": {
-      "volume_exportacoes": "US$ 558 milhões",
-      "meta_2030": "Crescimento de 100% (Dobro do volume atual)",
-      "materiais_criticos": "Ligas de Inconel 625 e carbo-titânio",
-      "pressao_autoclave": "6 bar",
-      "foco_industrial": "Estruturas e componentes para superiates"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 90,
-    "ranking_score": 90,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-10T11:10:02.343Z",
-    "published_at": "2026-11-10T11:10:02.343Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcW9yT2pJRUh4N3BKb21Oa2NDZDdTSk41U0oyY25oLWI2VmhWd09KcjhJa1pwLVE4OWxLS19ndHZzVnpseXZWTko1LUNsSHhrQXl5eDNVdXkyaFIwYVNvRUExTUFleHJhV2g3TG1GWWpiREZiQjFGUHpDV2gxTWNuSmdydnF2MTVBQXBGX0NnWjNVZXhuUnBSYzltOS1wa3ZVR3lBdnJxMTZReTRmMTd6a3dmbUxMVzI3SmpYd3BZRTZQTk5lc3JwazI1dkNOZFlOYXpHYWhB?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcW9yT2pJRUh4N3BKb21Oa2NDZDdTSk41U0oyY25oLWI2VmhWd09KcjhJa1pwLVE4OWxLS19ndHZzVnpseXZWTko1LUNsSHhrQXl5eDNVdXkyaFIwYVNvRUExTUFleHJhV2g3TG1GWWpiREZiQjFGUHpDV2gxTWNuSmdydnF2MTVBQXBGX0NnWjNVZXhuUnBSYzltOS1wa3ZVR3lBdnJxMTZReTRmMTd6a3dmbUxMVzI3SmpYd3BZRTZQTk5lc3JwazI1dkNOZFlOYXpHYWhB?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "ARQUITETURA",
+    "title": "LaFerrari: O Monocoque Rosso Corsa de ...",
+    "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "laferrari-o-monocoque-rosso-corsa-de-963-cv-que-liderou-o-leilao-broad-arrow-zurique-2026-enquanto-o-mercado-rejeita-a-liquidez-efemera-0805"
+  },
+  {
+    "id": "film-2",
     "category": "RELOGIOS",
     "title": "Leilão Christie’s: A Nova Geração e a ...",
     "image": "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?auto=format&fit=max&q=80&w=1400",
@@ -1436,7 +1444,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "leilao-christies-a-nova-geracao-e-a-ascensao-dos-calibres-de-proveniencia-historica-em-recordes-de-liquidez-6398"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Ferrari F40: O Ícone de $4 Milhões e T...",
     "image": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=max&q=80&w=1400",
@@ -1444,7 +1452,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-f40-o-icone-de-4-milhoes-e-tubos-de-inconel-que-converteu-as-ruas-em-pista-de-testes-de-maranello-8607"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "ARQUITETURA",
     "title": "Gooding Christie’s Geneva Sale 2026: 1...",
     "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
@@ -1452,7 +1460,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "gooding-christies-geneva-sale-2026-142-milhoes-de-francos-suicos-e-o-triunfo-dos-chassis-conservados-em-silencio-mineral-3811"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "ARQUITETURA",
     "title": "Coral Gables 50 Milhões: O Refúgio de ...",
     "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=85&w=1800",
@@ -1460,20 +1468,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "coral-gables-50-milhoes-o-refugio-de-1200-metros-quadrados-com-linha-de-costa-privativa-7488"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "RELOGIOS",
     "title": "Phillips Geneva Watch Auction XXIV: 11...",
     "image": "https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "phillips-geneva-watch-auction-xxiv-112-milhoes-de-dolares-em-calibres-raros-sob-o-silencio-absoluto-da-vallee-de-joux-7407"
-  },
-  {
-    "id": "film-6",
-    "category": "RELOGIOS",
-    "title": "Phillips Geneva Watch Auction: 24 Reco...",
-    "image": "https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "phillips-geneva-watch-auction-24-recordes-historicos-e-o-marco-de-us-100-milhoes-em-manufatura-rara-5078"
   }
 ];
 
