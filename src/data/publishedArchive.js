@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-superiate-de-110-metros-a-impone-2833",
+    "slug": "superiate-de-110-metros-a-imponencia-de-300-milhoes-de-dolares-ancorada-com-estabilizadores-de-giroscopio-ativo-2688",
+    "title": "Superiate de 110 Metros: A Imponência de 300 Milhões de Dólares ancorada com Estabilizadores de Giroscópio Ativo",
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVGpRV3dTMWpKM2NqMmNpRmRvOXA2bTNjV09kc2FvYXBrdzRyVlRKdjhtQ0h2Tm9wZmNMTjVQdk12WUVrVnlua0V0RUxGeGc1ZUdwVzB5Q0pEMUVNdG9QcEFlai03Z0lrT1V6X0RXSnJsS1B6bWp0ZDVCdjdFYnhJaVZWbUpfSndlSU1nVl95RGItSUxGTVhYaVRrOFNYUHAzZm5hekVDekhSaE9ES3hxc2F0QQ?oc=5",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-17T17:09:32.833Z"
+  },
+  {
     "id": "art-bugatti-centodieci-os-us-9-milho-4101",
     "slug": "bugatti-centodieci-os-us-9-milhoes-e-a-cirurgia-de-65-horas-em-molsheim-para-ressuscitar-o-w16-quadriturbo-3599",
     "title": "Bugatti Centodieci: Os US$ 9 Milhões e a Cirurgia de 65 Horas em Molsheim para Ressuscitar o W16 Quadriturbo",

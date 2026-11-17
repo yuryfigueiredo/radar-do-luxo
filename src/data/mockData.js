@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-superiate-de-110-metros-a-impone-2833",
+    "slug": "superiate-de-110-metros-a-imponencia-de-300-milhoes-de-dolares-ancorada-com-estabilizadores-de-giroscopio-ativo-2688",
+    "title": "Superiate de 110 Metros: A Imponência de 300 Milhões de Dólares ancorada com Estabilizadores de Giroscópio Ativo",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "17 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Uma estrutura de aço e alumínio de 300 milhões de dólares exige precisão balística. O colosso de 110 metros redefine a estabilidade inercial em águas profundas.",
+    "contentParagraphs": [
+      "A silhueta corta o horizonte de Auckland com a frieza de uma lâmina cirúrgica. Não é apenas uma embarcação; é um sistema de suporte à vida isolado, capaz de cruzar oceanos em silêncio absoluto. O casco de deslocamento total, esculpido para minimizar o coeficiente de arrasto hidrodinâmico, repousa sobre a superfície com a autoridade de quem ignora a física das marés.",
+      "Sob o convés principal, a engenharia naval atinge o ápice. Dois propulsores diesel-elétricos de última geração acionam hélices de passo variável, enquanto estabilizadores de aleta com controle de feedback em milissegundos neutralizam qualquer oscilação inercial. O monocoque, reforçado com anteparas de aço de alta resistência, garante que a integridade estrutural permaneça inalterada sob forças G laterais extremas em manobras de emergência.",
+      "O custo de 300 milhões de dólares reflete a complexidade da integração sistêmica. Cada centímetro de tubulação em Inconel 625 e cada sistema de tratamento de águas cinzas é monitorado por telemetria ininterrupta. Enquanto o mercado busca descartabilidade, este projeto prioriza a longevidade dos materiais nobres sob a corrosão salina, estabelecendo um novo padrão de imunidade técnica para ativos navais de alta liquidez.",
+      "A presença desta unidade em Auckland não é acidental, mas uma demonstração de soberania marítima. A engenharia naval, quando elevada a este patamar de complexidade, transcende o transporte para tornar-se uma arquitetura flutuante de refúgio. O veredito é claro: a excelência não aceita atalhos, apenas a precisão bruta da manufatura pesada operando sob o rigor da física."
+    ],
+    "content_paragraphs": [
+      "A silhueta corta o horizonte de Auckland com a frieza de uma lâmina cirúrgica. Não é apenas uma embarcação; é um sistema de suporte à vida isolado, capaz de cruzar oceanos em silêncio absoluto. O casco de deslocamento total, esculpido para minimizar o coeficiente de arrasto hidrodinâmico, repousa sobre a superfície com a autoridade de quem ignora a física das marés.",
+      "Sob o convés principal, a engenharia naval atinge o ápice. Dois propulsores diesel-elétricos de última geração acionam hélices de passo variável, enquanto estabilizadores de aleta com controle de feedback em milissegundos neutralizam qualquer oscilação inercial. O monocoque, reforçado com anteparas de aço de alta resistência, garante que a integridade estrutural permaneça inalterada sob forças G laterais extremas em manobras de emergência.",
+      "O custo de 300 milhões de dólares reflete a complexidade da integração sistêmica. Cada centímetro de tubulação em Inconel 625 e cada sistema de tratamento de águas cinzas é monitorado por telemetria ininterrupta. Enquanto o mercado busca descartabilidade, este projeto prioriza a longevidade dos materiais nobres sob a corrosão salina, estabelecendo um novo padrão de imunidade técnica para ativos navais de alta liquidez.",
+      "A presença desta unidade em Auckland não é acidental, mas uma demonstração de soberania marítima. A engenharia naval, quando elevada a este patamar de complexidade, transcende o transporte para tornar-se uma arquitetura flutuante de refúgio. O veredito é claro: a excelência não aceita atalhos, apenas a precisão bruta da manufatura pesada operando sob o rigor da física."
+    ],
+    "specs": {
+      "Comprimento": "110 metros",
+      "Valor de Mercado": "300 milhões de dólares",
+      "Propulsão": "Diesel-elétrica com hélices de passo variável",
+      "Estabilização": "Giroscópio ativo com feedback de milissegundos",
+      "Estrutura": "Aço de alta resistência e liga de alumínio naval"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "gemini:gemini-3.1-flash-lite",
+    "publishedAt": "2026-11-17T17:09:32.833Z",
+    "published_at": "2026-11-17T17:09:32.833Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVGpRV3dTMWpKM2NqMmNpRmRvOXA2bTNjV09kc2FvYXBrdzRyVlRKdjhtQ0h2Tm9wZmNMTjVQdk12WUVrVnlua0V0RUxGeGc1ZUdwVzB5Q0pEMUVNdG9QcEFlai03Z0lrT1V6X0RXSnJsS1B6bWp0ZDVCdjdFYnhJaVZWbUpfSndlSU1nVl95RGItSUxGTVhYaVRrOFNYUHAzZm5hekVDekhSaE9ES3hxc2F0QQ?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVGpRV3dTMWpKM2NqMmNpRmRvOXA2bTNjV09kc2FvYXBrdzRyVlRKdjhtQ0h2Tm9wZmNMTjVQdk12WUVrVnlua0V0RUxGeGc1ZUdwVzB5Q0pEMUVNdG9QcEFlai03Z0lrT1V6X0RXSnJsS1B6bWp0ZDVCdjdFYnhJaVZWbUpfSndlSU1nVl95RGItSUxGTVhYaVRrOFNYUHAzZm5hekVDekhSaE9ES3hxc2F0QQ?oc=5"
+  },
+  {
     "id": "art-bugatti-centodieci-os-us-9-milho-4101",
     "slug": "bugatti-centodieci-os-us-9-milhoes-e-a-cirurgia-de-65-horas-em-molsheim-para-ressuscitar-o-w16-quadriturbo-3599",
     "title": "Bugatti Centodieci: Os US$ 9 Milhões e a Cirurgia de 65 Horas em Molsheim para Ressuscitar o W16 Quadriturbo",
@@ -125,7 +177,7 @@ export const ARTICLES = [
     "authorSlug": "gabriel-fontes",
     "author_slug": "gabriel-fontes",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "17 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -153,10 +205,10 @@ export const ARTICLES = [
       "Material do Chassi": "Monocoque em carbo-titânio curado em autoclave"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 93,
@@ -1370,58 +1422,6 @@ export const ARTICLES = [
     "published_at": "2026-11-11T17:11:13.821Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMGJWSFUwVFBsYTB1S0tFZThvTGdKVkZ3bmJOUG9YZ2lQNGZHbVluc1FJZmlvUmJZeEFjaDlGVFY3VlBIOGJFRTA5cmU0YXFaS29CTzhRUkxlNm54bXlyTHp4aUVtWXZ5Y0Ztb25tUHN4cmF4dWtnNDBQNHpVUU1ydm9XUUhxeUNQRFdoWExCbVlacm91bmNCZHp4UE41WXM?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMGJWSFUwVFBsYTB1S0tFZThvTGdKVkZ3bmJOUG9YZ2lQNGZHbVluc1FJZmlvUmJZeEFjaDlGVFY3VlBIOGJFRTA5cmU0YXFaS29CTzhRUkxlNm54bXlyTHp4aUVtWXZ5Y0Ztb25tUHN4cmF4dWtnNDBQNHpVUU1ydm9XUUhxeUNQRFdoWExCbVlacm91bmNCZHp4UE41WXM?oc=5"
-  },
-  {
-    "id": "art-coral-gables-50-milhoes-o-refugi-7499",
-    "slug": "coral-gables-50-milhoes-o-refugio-de-1200-metros-quadrados-com-linha-de-costa-privativa-7488",
-    "title": "Coral Gables 50 Milhões: O Refúgio de 1.200 Metros Quadrados com Linha de Costa Privativa",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "11 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=85&w=1800",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Abel Tesfaye firma soberania patrimonial em uma península exclusiva da Flórida, consolidando um ativo de rara liquidez em meio ao travertino e à geometria brutalista das águas.",
-    "contentParagraphs": [
-      "O silêncio mineral que envolve Coral Gables não é um acidente geográfico; é uma imposição de classe. Ao assegurar este espólio de 50 milhões de dólares, o artista transcende a efemeridade das paradas musicais para abraçar a soberania patrimonial. O terreno, uma extensão de terra avançando sobre o Atlântico, funciona como uma fortaleza de privacidade absoluta. Aqui, o capital não busca ruído, mas a perenidade das fundações em solo rochoso.",
-      "A arquitetura da propriedade dialoga com a austeridade moderna, privilegiando vãos livres que ignoram a barreira entre o interior e a brisa salina. Estruturas em concreto aparente e vidro temperado de alta performance garantem a integridade térmica, enquanto a fachada, desenhada para resistir à severidade dos ventos tropicais, exibe uma geometria de precisão cirúrgica. Cada metro quadrado foi curado para assegurar que a manutenção do ativo seja tão invisível quanto necessária para a sua valorização contínua.",
-      "Em um mercado imobiliário saturado por especulação, este ativo destaca-se pela escassez matemática de sua localização. A posse de uma península privada em Coral Gables não é apenas uma transação, é um refúgio de liquidez imune aos ciclos de mercado. Enquanto a liquidez global oscila, a terra firme — especialmente aquela circundada por águas profundas — permanece como o derradeiro porto seguro para o patrimônio dinástico.",
-      "A aquisição reafirma a transição do capital volátil para a custódia fiduciária de bens tangíveis. Não se trata de moradia, mas de uma peça de engenharia habitacional que se valoriza através da exclusividade de seu perímetro. Henrique Vianna observa este movimento como a consolidação de uma estratégia de longo prazo, onde o conforto é apenas um subproduto de uma decisão financeira de precisão absoluta."
-    ],
-    "content_paragraphs": [
-      "O silêncio mineral que envolve Coral Gables não é um acidente geográfico; é uma imposição de classe. Ao assegurar este espólio de 50 milhões de dólares, o artista transcende a efemeridade das paradas musicais para abraçar a soberania patrimonial. O terreno, uma extensão de terra avançando sobre o Atlântico, funciona como uma fortaleza de privacidade absoluta. Aqui, o capital não busca ruído, mas a perenidade das fundações em solo rochoso.",
-      "A arquitetura da propriedade dialoga com a austeridade moderna, privilegiando vãos livres que ignoram a barreira entre o interior e a brisa salina. Estruturas em concreto aparente e vidro temperado de alta performance garantem a integridade térmica, enquanto a fachada, desenhada para resistir à severidade dos ventos tropicais, exibe uma geometria de precisão cirúrgica. Cada metro quadrado foi curado para assegurar que a manutenção do ativo seja tão invisível quanto necessária para a sua valorização contínua.",
-      "Em um mercado imobiliário saturado por especulação, este ativo destaca-se pela escassez matemática de sua localização. A posse de uma península privada em Coral Gables não é apenas uma transação, é um refúgio de liquidez imune aos ciclos de mercado. Enquanto a liquidez global oscila, a terra firme — especialmente aquela circundada por águas profundas — permanece como o derradeiro porto seguro para o patrimônio dinástico.",
-      "A aquisição reafirma a transição do capital volátil para a custódia fiduciária de bens tangíveis. Não se trata de moradia, mas de uma peça de engenharia habitacional que se valoriza através da exclusividade de seu perímetro. Henrique Vianna observa este movimento como a consolidação de uma estratégia de longo prazo, onde o conforto é apenas um subproduto de uma decisão financeira de precisão absoluta."
-    ],
-    "specs": {
-      "localizacao": "Coral Gables, Florida",
-      "valor_ativo": "USD 50.000.000",
-      "tipologia": "Mansão Waterfront em Península",
-      "custodia": "Patrimônio Privado",
-      "estilo_arquitetonico": "Brutalismo Contemporâneo"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 87,
-    "ranking_score": 87,
-    "engineSource": "gemini:gemini-3.1-flash-lite",
-    "publishedAt": "2026-11-11T03:05:27.498Z",
-    "published_at": "2026-11-11T03:05:27.498Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxQWUJPMjJNLXZJVUpSYUFicFl3SnZhdDR2a2w5ci1RcVBDT0N3S1RjdURDOHRJX2pTQmt1cEc2bXBvcWJNeWp5UnZiNDFVREJ0Vkh6Tm9iZTJGVHZPMjZUSUdOWmxSVkJXSkpZeHFIbU1sTFpmOFRfbVVadWZucmlCZDVKNURyODdFUG5RSzE0VUN4WS12VEVFNFNFOWYxSzdFckVYV3NJd2hWaDAwUEx1SkJRdF9uaFYzNVVkOUVzUmhpbnUwWG1nLVR0ZlBnUmtjV1VybW9rM2xLR0xSLThaZFVNT1pKQWJvVXUyNnEtbTQyd0RFdVRiM2hDWkFxTnZydmlyVmo4NlM1dTBnUXVKb3F1WnJvRVZLNVdMNHN5OWo4SkpTU3V5V2RqRWE0dUhwVnNTSEF5MDlES1RyeTR0WXRncmk5MzRGZ3NYcHBJaGFzM2NyclRWOE1PTEQ1ZzR5Ulc2WkJiaHNyc1VoQTZlTXpaQWPSAfoCQVVfeXFMT05HR1NIWmdmR3lpQ1hfOW5SaEFxTWtGUWNKVnRnNFc2LUFJWEp0N25vSzhMLWlVbDlQb21DZUxNYTBoZU54M3NMczZ3elgwc21EbXk4ejMzM0pFMDNRZU9FZjV2bUUzdVh1a2VKc0pvcWxJekp2NXE1UXV2REJ6OERnZFhfaThWejZEeEtLQ29GYnJ6M1FQZVNpT29SQU41UnZNM1pjdWtScktPZ0hDd3FsTTJHREhIQWl4LUwwdXJ2TnJJc3NPVTd6LTVyaTlkTDhrUnZUQTJfNm4zRGlUNUVpT01pVjA4eUlGNlVVZ29LcHh0eUloSWd4eG42NmFMejVVLXNXLW94N1psTjJTUFZZSE9wMkQtWTVuNElCUk10M3B4a01mVXNMSHRURGswd1BOY0xPY2dsUEhDM1VUbEM4TlJkNkNaQzktdi1LbGxZOGhPdnlyZ2dXZUVJaGVkWXFNQmhqTEFsVklpLWoySTNMekpyV29vN1RB?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxQWUJPMjJNLXZJVUpSYUFicFl3SnZhdDR2a2w5ci1RcVBDT0N3S1RjdURDOHRJX2pTQmt1cEc2bXBvcWJNeWp5UnZiNDFVREJ0Vkh6Tm9iZTJGVHZPMjZUSUdOWmxSVkJXSkpZeHFIbU1sTFpmOFRfbVVadWZucmlCZDVKNURyODdFUG5RSzE0VUN4WS12VEVFNFNFOWYxSzdFckVYV3NJd2hWaDAwUEx1SkJRdF9uaFYzNVVkOUVzUmhpbnUwWG1nLVR0ZlBnUmtjV1VybW9rM2xLR0xSLThaZFVNT1pKQWJvVXUyNnEtbTQyd0RFdVRiM2hDWkFxTnZydmlyVmo4NlM1dTBnUXVKb3F1WnJvRVZLNVdMNHN5OWo4SkpTU3V5V2RqRWE0dUhwVnNTSEF5MDlES1RyeTR0WXRncmk5MzRGZ3NYcHBJaGFzM2NyclRWOE1PTEQ1ZzR5Ulc2WkJiaHNyc1VoQTZlTXpaQWPSAfoCQVVfeXFMT05HR1NIWmdmR3lpQ1hfOW5SaEFxTWtGUWNKVnRnNFc2LUFJWEp0N25vSzhMLWlVbDlQb21DZUxNYTBoZU54M3NMczZ3elgwc21EbXk4ejMzM0pFMDNRZU9FZjV2bUUzdVh1a2VKc0pvcWxJekp2NXE1UXV2REJ6OERnZFhfaThWejZEeEtLQ29GYnJ6M1FQZVNpT29SQU41UnZNM1pjdWtScktPZ0hDd3FsTTJHREhIQWl4LUwwdXJ2TnJJc3NPVTd6LTVyaTlkTDhrUnZUQTJfNm4zRGlUNUVpT01pVjA4eUlGNlVVZ29LcHh0eUloSWd4eG42NmFMejVVLXNXLW94N1psTjJTUFZZSE9wMkQtWTVuNElCUk10M3B4a01mVXNMSHRURGswd1BOY0xPY2dsUEhDM1VUbEM4TlJkNkNaQzktdi1LbGxZOGhPdnlyZ2dXZUVJaGVkWXFNQmhqTEFsVklpLWoySTNMekpyV29vN1RB?oc=5"
   }
 ];
 
@@ -1429,13 +1429,21 @@ export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
     "category": "ARQUITETURA",
+    "title": "Diamante Bulgari Rosa: Os 24 Quilates ...",
+    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=max&q=85&w=1800",
+    "tag": "CURADORIA RADAR",
+    "slug": "diamante-bulgari-rosa-os-24-quilates-de-pureza-categorica-custodiados-pela-mesma-dinastia-desde-1950-2556"
+  },
+  {
+    "id": "film-2",
+    "category": "ARQUITETURA",
     "title": "Coroa Britânica: O Martelo de Genebra ...",
     "image": "https://images.unsplash.com/photo-1783408360163-3ad59ed27c25?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "coroa-britanica-o-martelo-de-genebra-alcanca-42-milhoes-de-francos-com-diamantes-de-proveniencia-real-e-ouro-nativo-8386"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "SUPERCARROS",
     "title": "Ferrari: A Ascensão das Ações em Wall ...",
     "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
@@ -1443,7 +1451,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-a-ascensao-das-acoes-em-wall-street-e-a-soberania-inercial-do-v12-de-aspiracao-natural-2563"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "DESTINOS",
     "title": "Mercedes-Maybach Project Serie 1: O Me...",
     "image": "https://images.unsplash.com/photo-1614350391736-ed8619d63c06?auto=format&fit=max&q=80&w=1400",
@@ -1451,7 +1459,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "mercedes-maybach-project-serie-1-o-megaiate-de-508-pes-com-assinatura-em-liga-naval-e-aporte-de-4-milhoes-de-dolares-por-cabine-1064"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "ARQUITETURA",
     "title": "LaFerrari: O Monocoque Rosso Corsa de ...",
     "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=max&q=80&w=1400",
@@ -1459,20 +1467,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "laferrari-o-monocoque-rosso-corsa-de-963-cv-que-liderou-o-leilao-broad-arrow-zurique-2026-enquanto-o-mercado-rejeita-a-liquidez-efemera-0805"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "RELOGIOS",
     "title": "Leilão Christie’s: A Nova Geração e a ...",
     "image": "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "leilao-christies-a-nova-geracao-e-a-ascensao-dos-calibres-de-proveniencia-historica-em-recordes-de-liquidez-6398"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Ferrari F40: O Ícone de $4 Milhões e T...",
-    "image": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "ferrari-f40-o-icone-de-4-milhoes-e-tubos-de-inconel-que-converteu-as-ruas-em-pista-de-testes-de-maranello-8607"
   }
 ];
 
