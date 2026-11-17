@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-superiates-de-39-milhoes-de-dola-0323",
+    "slug": "superiates-de-39-milhoes-de-dolares-a-regra-de-seis-horas-que-expulsa-convidados-e-exige-disciplina-naval-absoluta-0313",
+    "title": "Superiates de 3,9 Milhões de Dólares: A Regra de Seis Horas que Expulsa Convidados e Exige Disciplina Naval Absoluta",
+    "image": "https://images.unsplash.com/photo-1604737637145-48cc31d160eb?auto=format&fit=max&q=80&w=1400",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRVlCX1RQVV9icGViSEU3RDlWSVhncnVyNDBHMTdTSW1wSGVEVmVsamZLMW8tM0JqUFJvV19ISnRITExVcDB3cldYN0N0MzZYQkJVZ0VyY3RwNWhiTURDNEdQdEFPM05UZEdBUUw0Wnl2MG9jRzQ0TEFaUGdhN3V1ekFfTlZRbnRsTm55S29BZms0UjZQZ29UUEtldzlJdThFNUtDdDAwUHVHeXJQbU9QYXEwNUp1OVdDcDhONFEyRlZrcVRKalhfR2FQNkNkZUdpVVhiR01CY09DVUhhVWZSV25BV0VDd9IB5gFBVV95cUxPRVlCX1RQVV9icGViSEU3RDlWSVhncnVyNDBHMTdTSW1wSGVEVmVsamZLMW8tM0JqUFJvV19ISnRITExVcDB3cldYN0N0MzZYQkJVZ0VyY3RwNWhiTURDNEdQdEFPM05UZEdBUUw0Wnl2MG9jRzQ0TEFaUGdhN3V1ekFfTlZRbnRsTm55S29BZms0UjZQZ29UUEtldzlJdThFNUtDdDAwUHVHeXJQbU9QYXEwNUp1OVdDcDhONFEyRlZrcVRKalhfR2FQNkNkZUdpVVhiR01CY09DVUhhVWZSV25BV0VDdw?oc=5",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-17T01:23:50.322Z"
+  },
+  {
     "id": "art-feadship-pi-e-oceanco-koru-o-enc-4806",
     "slug": "feadship-pi-e-oceanco-koru-o-encontro-de-800-milhoes-de-dolares-em-aluminio-naval-e-aco-inoxidavel-na-silo-marina-4380",
     "title": "Feadship Pi e Oceanco Koru: O Encontro de 800 Milhões de Dólares em Alumínio Naval e Aço Inoxidável na Silo Marina",

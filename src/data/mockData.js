@@ -116,6 +116,58 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-superiates-de-39-milhoes-de-dola-0323",
+    "slug": "superiates-de-39-milhoes-de-dolares-a-regra-de-seis-horas-que-expulsa-convidados-e-exige-disciplina-naval-absoluta-0313",
+    "title": "Superiates de 3,9 Milhões de Dólares: A Regra de Seis Horas que Expulsa Convidados e Exige Disciplina Naval Absoluta",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "DESTAQUE MUNDIAL",
+    "date": "17 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://images.unsplash.com/photo-1604737637145-48cc31d160eb?auto=format&fit=max&q=80&w=1400",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Um mergulho na náutica de elite onde a alocação semanal de US$ 3,9 milhões não garante imunidade contra a manutenção técnica rigorosa, forçando o desembarque em alto-mar.",
+    "contentParagraphs": [
+      "A náutica de alta performance impõe leis físicas implacáveis aos seus proprietários. O contrato de afretamento semanal de 3,9 milhões de dólares não assegura apenas o luxo desmedido em áreas de convivência revestidas de teca birmanesa. Ele exige uma submissão estrita aos protocolos mecânicos que mantêm estruturas flutuantes de dezenas de metros operando com precisão cirúrgica em águas internacionais.",
+      "O casco corta as ondas com um coeficiente de arrasto milimetricamente calculado, enquanto geradores de alta potência operam em silêncio abafado por mantas de isolamento acústico em titânio. No entanto, mesmo os sistemas mais avançados de propulsão e estabilização giroscópica exigem intervenções humanas diretas que interrompem o fluxo de entretenimento a bordo. Uma janela exata de seis horas é imposta regularmente, obrigando o desembarque temporário para inspeções estruturais e purificação de tanques.",
+      "A engenharia naval de ponta não tolera negligência cosmética. Enquanto os convidados são conduzidos a tenders de apoio para explorar enseadas isoladas, equipes técnicas realizam diagnósticos profundos nos eixos de transmissão, calibração de flaps de controle e checagem de vedações hidrodinâmicas. A força G lateral experimentada nas curvas fechadas de cruzeiro exige que cada antepara suporte pressões monumentais, justificando a pausa cirúrgica em alto-mar.",
+      "Este é o verdadeiro preço da soberania oceânica. Longe do romantismo superficial de cruzeiros intermináveis, a elite global submete-se à tirania da manutenção preventiva, provando que o ápice da navegação moderna é ditado pelo rigor da mecânica pesada e não pelo capricho humano."
+    ],
+    "content_paragraphs": [
+      "A náutica de alta performance impõe leis físicas implacáveis aos seus proprietários. O contrato de afretamento semanal de 3,9 milhões de dólares não assegura apenas o luxo desmedido em áreas de convivência revestidas de teca birmanesa. Ele exige uma submissão estrita aos protocolos mecânicos que mantêm estruturas flutuantes de dezenas de metros operando com precisão cirúrgica em águas internacionais.",
+      "O casco corta as ondas com um coeficiente de arrasto milimetricamente calculado, enquanto geradores de alta potência operam em silêncio abafado por mantas de isolamento acústico em titânio. No entanto, mesmo os sistemas mais avançados de propulsão e estabilização giroscópica exigem intervenções humanas diretas que interrompem o fluxo de entretenimento a bordo. Uma janela exata de seis horas é imposta regularmente, obrigando o desembarque temporário para inspeções estruturais e purificação de tanques.",
+      "A engenharia naval de ponta não tolera negligência cosmética. Enquanto os convidados são conduzidos a tenders de apoio para explorar enseadas isoladas, equipes técnicas realizam diagnósticos profundos nos eixos de transmissão, calibração de flaps de controle e checagem de vedações hidrodinâmicas. A força G lateral experimentada nas curvas fechadas de cruzeiro exige que cada antepara suporte pressões monumentais, justificando a pausa cirúrgica em alto-mar.",
+      "Este é o verdadeiro preço da soberania oceânica. Longe do romantismo superficial de cruzeiros intermináveis, a elite global submete-se à tirania da manutenção preventiva, provando que o ápice da navegação moderna é ditado pelo rigor da mecânica pesada e não pelo capricho humano."
+    ],
+    "specs": {
+      "custo_semanal": "US$ 3.900.000",
+      "intervalo_manutencao": "A cada ciclo operacional crítico",
+      "materiais_casco": "Aço naval reforçado e ligas leves",
+      "sistemas_estabilizacao": "Giroscópios de alta capacidade",
+      "equipe_tecnica": "Engenheiros navais residentes"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 87,
+    "ranking_score": 87,
+    "engineSource": "gemini:gemini-flash-lite-latest",
+    "publishedAt": "2026-11-17T01:23:50.322Z",
+    "published_at": "2026-11-17T01:23:50.322Z",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRVlCX1RQVV9icGViSEU3RDlWSVhncnVyNDBHMTdTSW1wSGVEVmVsamZLMW8tM0JqUFJvV19ISnRITExVcDB3cldYN0N0MzZYQkJVZ0VyY3RwNWhiTURDNEdQdEFPM05UZEdBUUw0Wnl2MG9jRzQ0TEFaUGdhN3V1ekFfTlZRbnRsTm55S29BZms0UjZQZ29UUEtldzlJdThFNUtDdDAwUHVHeXJQbU9QYXEwNUp1OVdDcDhONFEyRlZrcVRKalhfR2FQNkNkZUdpVVhiR01CY09DVUhhVWZSV25BV0VDd9IB5gFBVV95cUxPRVlCX1RQVV9icGViSEU3RDlWSVhncnVyNDBHMTdTSW1wSGVEVmVsamZLMW8tM0JqUFJvV19ISnRITExVcDB3cldYN0N0MzZYQkJVZ0VyY3RwNWhiTURDNEdQdEFPM05UZEdBUUw0Wnl2MG9jRzQ0TEFaUGdhN3V1ekFfTlZRbnRsTm55S29BZms0UjZQZ29UUEtldzlJdThFNUtDdDAwUHVHeXJQbU9QYXEwNUp1OVdDcDhONFEyRlZrcVRKalhfR2FQNkNkZUdpVVhiR01CY09DVUhhVWZSV25BV0VDdw?oc=5",
+    "source_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRVlCX1RQVV9icGViSEU3RDlWSVhncnVyNDBHMTdTSW1wSGVEVmVsamZLMW8tM0JqUFJvV19ISnRITExVcDB3cldYN0N0MzZYQkJVZ0VyY3RwNWhiTURDNEdQdEFPM05UZEdBUUw0Wnl2MG9jRzQ0TEFaUGdhN3V1ekFfTlZRbnRsTm55S29BZms0UjZQZ29UUEtldzlJdThFNUtDdDAwUHVHeXJQbU9QYXEwNUp1OVdDcDhONFEyRlZrcVRKalhfR2FQNkNkZUdpVVhiR01CY09DVUhhVWZSV25BV0VDd9IB5gFBVV95cUxPRVlCX1RQVV9icGViSEU3RDlWSVhncnVyNDBHMTdTSW1wSGVEVmVsamZLMW8tM0JqUFJvV19ISnRITExVcDB3cldYN0N0MzZYQkJVZ0VyY3RwNWhiTURDNEdQdEFPM05UZEdBUUw0Wnl2MG9jRzQ0TEFaUGdhN3V1ekFfTlZRbnRsTm55S29BZms0UjZQZ29UUEtldzlJdThFNUtDdDAwUHVHeXJQbU9QYXEwNUp1OVdDcDhONFEyRlZrcVRKalhfR2FQNkNkZUdpVVhiR01CY09DVUhhVWZSV25BV0VDdw?oc=5"
+  },
+  {
     "id": "art-feadship-pi-e-oceanco-koru-o-enc-4806",
     "slug": "feadship-pi-e-oceanco-koru-o-encontro-de-800-milhoes-de-dolares-em-aluminio-naval-e-aco-inoxidavel-na-silo-marina-4380",
     "title": "Feadship Pi e Oceanco Koru: O Encontro de 800 Milhões de Dólares em Alumínio Naval e Aço Inoxidável na Silo Marina",
@@ -337,7 +389,7 @@ export const ARTICLES = [
     "authorSlug": "clara-meirelles",
     "author_slug": "clara-meirelles",
     "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
+    "badge": "CURADORIA RADAR",
     "date": "15 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
@@ -365,10 +417,10 @@ export const ARTICLES = [
       "moeda_base": "Franco Suíço (CHF)"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
+    "isHero": false,
+    "is_hero": false,
+    "isHeroSecondary": true,
+    "is_hero_secondary": true,
     "isPinnedHero": false,
     "is_pinned_hero": false,
     "rankingScore": 89,
@@ -1371,63 +1423,20 @@ export const ARTICLES = [
     "published_at": "2026-11-10T11:10:02.343Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcW9yT2pJRUh4N3BKb21Oa2NDZDdTSk41U0oyY25oLWI2VmhWd09KcjhJa1pwLVE4OWxLS19ndHZzVnpseXZWTko1LUNsSHhrQXl5eDNVdXkyaFIwYVNvRUExTUFleHJhV2g3TG1GWWpiREZiQjFGUHpDV2gxTWNuSmdydnF2MTVBQXBGX0NnWjNVZXhuUnBSYzltOS1wa3ZVR3lBdnJxMTZReTRmMTd6a3dmbUxMVzI3SmpYd3BZRTZQTk5lc3JwazI1dkNOZFlOYXpHYWhB?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcW9yT2pJRUh4N3BKb21Oa2NDZDdTSk41U0oyY25oLWI2VmhWd09KcjhJa1pwLVE4OWxLS19ndHZzVnpseXZWTko1LUNsSHhrQXl5eDNVdXkyaFIwYVNvRUExTUFleHJhV2g3TG1GWWpiREZiQjFGUHpDV2gxTWNuSmdydnF2MTVBQXBGX0NnWjNVZXhuUnBSYzltOS1wa3ZVR3lBdnJxMTZReTRmMTd6a3dmbUxMVzI3SmpYd3BZRTZQTk5lc3JwazI1dkNOZFlOYXpHYWhB?oc=5"
-  },
-  {
-    "id": "art-alta-joalheria-em-leilao-o-refug-7927",
-    "slug": "alta-joalheria-em-leilao-o-refugio-de-liquidez-de-us-85-milhoes-em-diamantes-type-iia-que-desafiam-a-inflacao-global-7916",
-    "title": "Alta Joalheria em Leilão: O Refúgio de Liquidez de US$ 85 Milhões em Diamantes Type IIa que Desafiam a Inflação Global",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "10 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A soberania patrimonial encontra seu porto seguro definitivo nos salões de Genebra. Gemas brutas sem traços de nitrogênio operam como covenants intransponíveis contra a volatilidade fiat.",
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Enquanto o capital especulativo consome-se em ativos efêmeros, os grandes leilões de alta joalheria em Genebra e Londres revelam uma rotação tectônica em direção a ativos de imunidade temporal comprovada.",
-      "A raridade extrema dita as regras da custódia fiduciária moderna. Um colar de diamantes Type IIa, purificados ao longo de eras geológicas e livres de qualquer impureza molecular mensurável, não representa mero adorno, mas uma reserva soberana de valor ancorada na física implacável da Terra.",
-      "A governança dinástica exige liquidez sem obsolescência. Peças históricas assinadas por casas centenárias operam com descorrelação quase absoluta frente aos mercados acionários, blindando fortunas familiares contra tempestades geopolíticas e ciclos inflacionários sistêmicos.",
-      "No tabuleiro dos grandes leilões, a posse de uma gema com procedência imaculada e certificação de ateliê consolida a verdadeira soberania patrimonial. O silêncio mineral destas pedras preciosas perpetua legados quando todo o resto reduz-se a poeira monetária."
-    ],
-    "content_paragraphs": [
-      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Enquanto o capital especulativo consome-se em ativos efêmeros, os grandes leilões de alta joalheria em Genebra e Londres revelam uma rotação tectônica em direção a ativos de imunidade temporal comprovada.",
-      "A raridade extrema dita as regras da custódia fiduciária moderna. Um colar de diamantes Type IIa, purificados ao longo de eras geológicas e livres de qualquer impureza molecular mensurável, não representa mero adorno, mas uma reserva soberana de valor ancorada na física implacável da Terra.",
-      "A governança dinástica exige liquidez sem obsolescência. Peças históricas assinadas por casas centenárias operam com descorrelação quase absoluta frente aos mercados acionários, blindando fortunas familiares contra tempestades geopolíticas e ciclos inflacionários sistêmicos.",
-      "No tabuleiro dos grandes leilões, a posse de uma gema com procedência imaculada e certificação de ateliê consolida a verdadeira soberania patrimonial. O silêncio mineral destas pedras preciosas perpetua legados quando todo o resto reduz-se a poeira monetária."
-    ],
-    "specs": {
-      "Ativo de Custódia": "Diamante Type IIa D-Flawless",
-      "Origem Geológica": "Minas Históricas de Golconda",
-      "Tiragem Física": "Peça Única Documentada",
-      "Cotação de Leilão": "US$ 38.4 Milhões"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 87,
-    "ranking_score": 87,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-10T01:19:27.927Z",
-    "published_at": "2026-11-10T01:19:27.927Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSWZUam1CNkszQk9jM1l0X0VGNWhtOWI0el9iUTFxTnF1SUE4UktNYzcweGVVRWc5Tm5uVVlfSTZEb1lJdkFfX1pfYm9EUEVWdEJlUVlCWFJhYy1RbWJ5NHZqay1qdVFOOUlGN3JTWWxReVQ0ZVJBcWNSODdETldCYk96SFNFVUFyaGlhMmVpZ3psVVlMMG5UYjE2OHJ5dw?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSWZUam1CNkszQk9jM1l0X0VGNWhtOWI0el9iUTFxTnF1SUE4UktNYzcweGVVRWc5Tm5uVVlfSTZEb1lJdkFfX1pfYm9EUEVWdEJlUVlCWFJhYy1RbWJ5NHZqay1qdVFOOUlGN3JTWWxReVQ0ZVJBcWNSODdETldCYk96SFNFVUFyaGlhMmVpZ3psVVlMMG5UYjE2OHJ5dw?oc=5"
   }
 ];
 
 export const FILMSTRIP_ITEMS = [
   {
     "id": "film-1",
+    "category": "RELOGIOS",
+    "title": "Leilão Christie’s: A Nova Geração e a ...",
+    "image": "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?auto=format&fit=max&q=80&w=1400",
+    "tag": "CURADORIA RADAR",
+    "slug": "leilao-christies-a-nova-geracao-e-a-ascensao-dos-calibres-de-proveniencia-historica-em-recordes-de-liquidez-6398"
+  },
+  {
+    "id": "film-2",
     "category": "SUPERCARROS",
     "title": "Ferrari F40: O Ícone de $4 Milhões e T...",
     "image": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=max&q=80&w=1400",
@@ -1435,7 +1444,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "ferrari-f40-o-icone-de-4-milhoes-e-tubos-de-inconel-que-converteu-as-ruas-em-pista-de-testes-de-maranello-8607"
   },
   {
-    "id": "film-2",
+    "id": "film-3",
     "category": "ARQUITETURA",
     "title": "Gooding Christie’s Geneva Sale 2026: 1...",
     "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=max&q=80&w=1400",
@@ -1443,7 +1452,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "gooding-christies-geneva-sale-2026-142-milhoes-de-francos-suicos-e-o-triunfo-dos-chassis-conservados-em-silencio-mineral-3811"
   },
   {
-    "id": "film-3",
+    "id": "film-4",
     "category": "ARQUITETURA",
     "title": "Coral Gables 50 Milhões: O Refúgio de ...",
     "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=max&q=85&w=1800",
@@ -1451,7 +1460,7 @@ export const FILMSTRIP_ITEMS = [
     "slug": "coral-gables-50-milhoes-o-refugio-de-1200-metros-quadrados-com-linha-de-costa-privativa-7488"
   },
   {
-    "id": "film-4",
+    "id": "film-5",
     "category": "RELOGIOS",
     "title": "Phillips Geneva Watch Auction XXIV: 11...",
     "image": "https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?auto=format&fit=max&q=80&w=1400",
@@ -1459,20 +1468,12 @@ export const FILMSTRIP_ITEMS = [
     "slug": "phillips-geneva-watch-auction-xxiv-112-milhoes-de-dolares-em-calibres-raros-sob-o-silencio-absoluto-da-vallee-de-joux-7407"
   },
   {
-    "id": "film-5",
+    "id": "film-6",
     "category": "RELOGIOS",
     "title": "Phillips Geneva Watch Auction: 24 Reco...",
     "image": "https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?auto=format&fit=max&q=80&w=1400",
     "tag": "CURADORIA RADAR",
     "slug": "phillips-geneva-watch-auction-24-recordes-historicos-e-o-marco-de-us-100-milhoes-em-manufatura-rara-5078"
-  },
-  {
-    "id": "film-6",
-    "category": "SUPERCARROS",
-    "title": "Bugatti Americas: Duas Décadas de Domí...",
-    "image": "https://images.unsplash.com/photo-1577735138919-91b6848511c8?auto=format&fit=max&q=80&w=1400",
-    "tag": "CURADORIA RADAR",
-    "slug": "bugatti-americas-duas-decadas-de-dominio-com-tolerancia-de-microns-e-v16-aspirado-3241"
   }
 ];
 
