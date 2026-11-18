@@ -656,7 +656,7 @@ export const ARTICLES = [
     "date": "16 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?auto=format&fit=max&q=80&w=1400",
+    "image": "https://www.newstalkzb.co.nz/media/no1nj1mm/download-2026-11-15t084716197.jpg?rmode=crop&v=1dd74ddf1b6daf0&height=395&width=635&quality=95&scale=both",
     "imageFocus": "center",
     "image_focus": "center",
     "excerpt": "A calmaria de Auckland foi subitamente quebrada pela atracação impecável do superiate Pi ao lado do colosso Koru, unindo duas filosofias distintas de engenharia naval em um único horizonte oceânico.",
@@ -692,8 +692,8 @@ export const ARTICLES = [
     "engineSource": "gemini:gemini-flash-lite-latest",
     "publishedAt": "2026-11-16T18:35:24.805Z",
     "published_at": "2026-11-16T18:35:24.805Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTVZQX2RyRWUyVG42ZDlVV2pxbXdxZkdPUXVXc1dwa0pKQTdhWXplLW5QbEFCU1prOTlXSklFLUZ0V3d1QUFIVUJpelVlb0oxQlN1OUpiRk9YRnVoUm5zeWVhRUVkQkNaN0o0Skd4Mmx5LWZ5clZpWGdXRm1aVE92VmozcEtpX3kxbmtlM1dKMklhWVd1VGZXamlhVmQ?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTVZQX2RyRWUyVG42ZDlVV2pxbXdxZkdPUXVXc1dwa0pKQTdhWXplLW5QbEFCU1prOTlXSklFLUZ0V3d1QUFIVUJpelVlb0oxQlN1OUpiRk9YRnVoUm5zeWVhRUVkQkNaN0o0Skd4Mmx5LWZ5clZpWGdXRm1aVE92VmozcEtpX3kxbmtlM1dKMklhWVd1VGZXamlhVmQ?oc=5"
+    "sourceUrl": "https://www.newstalkzb.co.nz/news/auckland/former-starbucks-boss-howard-schultz-s-superyacht-spotted-in-auckland/",
+    "source_url": "https://www.newstalkzb.co.nz/news/auckland/former-starbucks-boss-howard-schultz-s-superyacht-spotted-in-auckland/"
   },
   {
     "id": "art-safira-imperial-1997carat-de-cor-7415",
@@ -868,7 +868,7 @@ export const ARTICLES = [
     "date": "15 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=max&q=85&w=1800",
+    "image": "https://i2.res.24o.it/images2010/S24/Documenti/2026/11/12/Immagini/Ritagli/Christies,%20cinque%20F.P.%20Journe%20Ruthenium%20appartenuti%20a%20Michael%20Schumacher-Collage-U15783773665eWq-U15608666281rgX-1440x752@IlSole24Ore-Web.JPEG?r=1170x507",
     "imageFocus": "center",
     "image_focus": "center",
     "excerpt": "O recente leilão de alta relojoaria em Genebra redefinição os parâmetros de liquidez em moedas fortes, provando que os calibres de manufatura historicamente raros operam como refúgio definitivo contra a volatilidade global.",
@@ -903,8 +903,8 @@ export const ARTICLES = [
     "engineSource": "gemini:gemini-flash-lite-latest",
     "publishedAt": "2026-11-15T22:15:31.110Z",
     "published_at": "2026-11-15T22:15:31.110Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPOGN2dWRWeklkVFhoYVJBVXpEbVFzN2VpOUhxc3FmWWl3QmU5dUdrYVBOZ3BSZGxrYWNFQmFtMklWUHZTREZTU1JCRHJOYXJOZHU3ZW1SVWZrZGJZbVl4QXJZd3FSOFN6S3lWdHhwMkh4UUd1eFBjTEgtNWdSRjl6X1JHeXBwQVJDTEN1eTloVlJIMDROaFVSWm9DZmM5MnNjQVNVXzFIYXdRRjlzXy1JMTJBWGl6VzhzcnZSZ1ppYzhpMVVrQ09jWkpMOXRsS1FhTERjdEh6TTNWTWfSAdsBQVVfeXFMTzhjdnVkVnpJZFRYaGFSQVV6RG1RczdlaTlIcXNxZllpd0JlOXVHa2FQTmdwUmRsa2FjRUJhbTJJVlB2U0RGU1NSQkRyTmFyTmR1N2VtUlVma2RiWW1ZeEFyWXdxUjhTekt5VnR4cDJIeFFHdXhQY0xILTVnUkY5el9SR3lwcEFSQ0xDdXk5aFZSSDA0TmhVUlpvQ2ZjOTJzY0FTVV8xSGF3UUY5c18tSTEyQVhpelc4c3J2UmdaaWM4aTFVa0NPY1pKTDl0bEtRYUxEY3RIek0zVk1n?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPOGN2dWRWeklkVFhoYVJBVXpEbVFzN2VpOUhxc3FmWWl3QmU5dUdrYVBOZ3BSZGxrYWNFQmFtMklWUHZTREZTU1JCRHJOYXJOZHU3ZW1SVWZrZGJZbVl4QXJZd3FSOFN6S3lWdHhwMkh4UUd1eFBjTEgtNWdSRjl6X1JHeXBwQVJDTEN1eTloVlJIMDROaFVSWm9DZmM5MnNjQVNVXzFIYXdRRjlzXy1JMTJBWGl6VzhzcnZSZ1ppYzhpMVVrQ09jWkpMOXRsS1FhTERjdEh6TTNWTWfSAdsBQVVfeXFMTzhjdnVkVnpJZFRYaGFSQVV6RG1RczdlaTlIcXNxZllpd0JlOXVHa2FQTmdwUmRsa2FjRUJhbTJJVlB2U0RGU1NSQkRyTmFyTmR1N2VtUlVma2RiWW1ZeEFyWXdxUjhTekt5VnR4cDJIeFFHdXhQY0xILTVnUkY5el9SR3lwcEFSQ0xDdXk5aFZSSDA0TmhVUlpvQ2ZjOTJzY0FTVV8xSGF3UUY5c18tSTEyQVhpelc4c3J2UmdaaWM4aTFVa0NPY1pKTDl0bEtRYUxEY3RIek0zVk1n?oc=5"
+    "sourceUrl": "https://en.ilsole24ore.com/art/geneva-record-auctions-watch-sales-exceed-203-million-AJXyFJDC",
+    "source_url": "https://en.ilsole24ore.com/art/geneva-record-auctions-watch-sales-exceed-203-million-AJXyFJDC"
   },
   {
     "id": "art-keyvany-porroo-o-monstro-de-fibr-0750",

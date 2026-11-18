@@ -338,6 +338,13 @@ function sizeLabel({ width, height }) {
  * @returns {Promise<{url: string, origin: string, note: string, medida: boolean}>} `medida`
  *   é a promessa de que as dimensões foram lidas: só capa medida sobe ao herói.
  */
+/** URL sem a query de redimensionamento, quando é ela que encolhe a foto. */
+function semRedimensionadorDeQuery(url) {
+  if (!/[?&](?:r|resize|crop|width|height|w|h)=/i.test(url)) return '';
+  const base = String(url).split('?')[0];
+  return base && base !== url ? base : '';
+}
+
 export async function resolveCoverImage(sourceUrl, gallery = [], orcamentoFim = 0) {
   const source = String(sourceUrl || '').trim();
 
@@ -366,7 +373,19 @@ export async function resolveCoverImage(sourceUrl, gallery = [], orcamentoFim = 
     const check = await probe(source, deadline);
     if (!check.ok) return fromBank(gallery, `capa do feed indisponível (${check.reason})`);
     const motivo = motivoRejeicaoComoCapa(check);
-    if (motivo) return fromBank(gallery, `capa do feed rejeitada: ${motivo}`);
+    if (motivo) {
+      // O segundo redimensionador é a query, não o path: ?r=1170x507 (Il Sole 24 Ore) e
+      // ?width=635&height=395 (NZ Herald) entregam a versão estreita do MESMO arquivo.
+      // Duas matérias ficaram sem capa em 17/11 só por isso.
+      const limpa = semRedimensionadorDeQuery(source);
+      if (limpa) {
+        const promovida = await probe(limpa, deadline);
+        if (promovida.ok && !desqualificaComoCapa(promovida)) {
+          return { url: limpa, origin: 'origem', note: `query de redimensionamento removida (${sizeLabel(promovida)})`, medida: Boolean(promovida.width) };
+        }
+      }
+      return fromBank(gallery, `capa do feed rejeitada: ${motivo}`);
+    }
     return { url: source, origin: 'origem', note: `capa alcançada e é imagem (${sizeLabel(check)})`, medida: Boolean(check.width) };
   }
 

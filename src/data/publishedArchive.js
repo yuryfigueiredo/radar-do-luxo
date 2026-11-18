@@ -115,8 +115,8 @@ export const PUBLISHED_ARCHIVE = [
     "id": "art-feadship-pi-e-oceanco-koru-o-enc-4806",
     "slug": "feadship-pi-e-oceanco-koru-o-encontro-de-800-milhoes-de-dolares-em-aluminio-naval-e-aco-inoxidavel-na-silo-marina-4380",
     "title": "Feadship Pi e Oceanco Koru: O Encontro de 800 Milhões de Dólares em Alumínio Naval e Aço Inoxidável na Silo Marina",
-    "image": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?auto=format&fit=max&q=80&w=1400",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTVZQX2RyRWUyVG42ZDlVV2pxbXdxZkdPUXVXc1dwa0pKQTdhWXplLW5QbEFCU1prOTlXSklFLUZ0V3d1QUFIVUJpelVlb0oxQlN1OUpiRk9YRnVoUm5zeWVhRUVkQkNaN0o0Skd4Mmx5LWZ5clZpWGdXRm1aVE92VmozcEtpX3kxbmtlM1dKMklhWVd1VGZXamlhVmQ?oc=5",
+    "image": "https://www.newstalkzb.co.nz/media/no1nj1mm/download-2026-11-15t084716197.jpg?rmode=crop&v=1dd74ddf1b6daf0&height=395&width=635&quality=95&scale=both",
+    "sourceUrl": "https://www.newstalkzb.co.nz/news/auckland/former-starbucks-boss-howard-schultz-s-superyacht-spotted-in-auckland/",
     "categorySlug": "destinos",
     "authorSlug": "gabriel-fontes",
     "publishedAt": "2026-11-16T18:35:24.805Z"
@@ -155,8 +155,8 @@ export const PUBLISHED_ARCHIVE = [
     "id": "art-sothebys-genebra-o-leilao-histor-1110",
     "slug": "sothebys-genebra-o-leilao-historico-de-84-milhoes-de-francos-que-consagra-a-manufatura-independente-na-vallee-de-joux-0492",
     "title": "Sotheby's Genebra: O Leilão Histórico de 84 Milhões de Francos que Consagra a Manufatura Independente na Vallée de Joux",
-    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=max&q=85&w=1800",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPOGN2dWRWeklkVFhoYVJBVXpEbVFzN2VpOUhxc3FmWWl3QmU5dUdrYVBOZ3BSZGxrYWNFQmFtMklWUHZTREZTU1JCRHJOYXJOZHU3ZW1SVWZrZGJZbVl4QXJZd3FSOFN6S3lWdHhwMkh4UUd1eFBjTEgtNWdSRjl6X1JHeXBwQVJDTEN1eTloVlJIMDROaFVSWm9DZmM5MnNjQVNVXzFIYXdRRjlzXy1JMTJBWGl6VzhzcnZSZ1ppYzhpMVVrQ09jWkpMOXRsS1FhTERjdEh6TTNWTWfSAdsBQVVfeXFMTzhjdnVkVnpJZFRYaGFSQVV6RG1RczdlaTlIcXNxZllpd0JlOXVHa2FQTmdwUmRsa2FjRUJhbTJJVlB2U0RGU1NSQkRyTmFyTmR1N2VtUlVma2RiWW1ZeEFyWXdxUjhTekt5VnR4cDJIeFFHdXhQY0xILTVnUkY5el9SR3lwcEFSQ0xDdXk5aFZSSDA0TmhVUlpvQ2ZjOTJzY0FTVV8xSGF3UUY5c18tSTEyQVhpelc4c3J2UmdaaWM4aTFVa0NPY1pKTDl0bEtRYUxEY3RIek0zVk1n?oc=5",
+    "image": "https://i2.res.24o.it/images2010/S24/Documenti/2026/11/12/Immagini/Ritagli/Christies,%20cinque%20F.P.%20Journe%20Ruthenium%20appartenuti%20a%20Michael%20Schumacher-Collage-U15783773665eWq-U15608666281rgX-1440x752@IlSole24Ore-Web.JPEG?r=1170x507",
+    "sourceUrl": "https://en.ilsole24ore.com/art/geneva-record-auctions-watch-sales-exceed-203-million-AJXyFJDC",
     "categorySlug": "relogios",
     "authorSlug": "clara-meirelles",
     "publishedAt": "2026-11-15T22:15:31.110Z"
