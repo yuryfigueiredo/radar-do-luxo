@@ -920,7 +920,7 @@ export const ARTICLES = [
     "date": "15 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1635488591151-c7a12939669b?auto=format&fit=max&q=80&w=1400",
+    "image": "https://autodiscoveries.com/wp-content/uploads/2025/08/Ferrari-Welt-Premiere-Introducing-The-Keyvany-Porroo-scaled.jpg",
     "imageFocus": "bottom",
     "image_focus": "bottom",
     "excerpt": "Uma intervenção cirúrgica sobre a aerodinâmica italiana redefine o limite do excesso em solo árabe, unindo painéis de carbo-titânio bruto e uma cavalaria brutal.",
@@ -955,8 +955,8 @@ export const ARTICLES = [
     "engineSource": "gemini:gemini-flash-lite-latest",
     "publishedAt": "2026-11-15T15:05:40.747Z",
     "published_at": "2026-11-15T15:05:40.747Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0VSZWxsWVl2dWo0R09UaUQ2OElKTHc3SGdVU2pDRkFnem5NUzc2MzRILUhsN29GTHpMNVVHWUxsMzJoMllPTmRRcXRKaW0wODZ4LVhwS2phWkRMUk5XY2t0S0l2Qi1oaDA2QkdUTl9NU1oyUTBJeHEyUUFRSUlYRHpua2hrTVNROWdxQ29nMUdtM2UxbFptcFlRMHNJSmNObEVETFRCRm9MallZOVVJZzEzY295TmtxS0E?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0VSZWxsWVl2dWo0R09UaUQ2OElKTHc3SGdVU2pDRkFnem5NUzc2MzRILUhsN29GTHpMNVVHWUxsMzJoMllPTmRRcXRKaW0wODZ4LVhwS2phWkRMUk5XY2t0S0l2Qi1oaDA2QkdUTl9NU1oyUTBJeHEyUUFRSUlYRHpua2hrTVNROWdxQ29nMUdtM2UxbFptcFlRMHNJSmNObEVETFRCRm9MallZOVVJZzEzY295TmtxS0E?oc=5"
+    "sourceUrl": "https://autodiscoveries.com/ferrari-welt-premiere-introducing-the-keyvany-porroo",
+    "source_url": "https://autodiscoveries.com/ferrari-welt-premiere-introducing-the-keyvany-porroo"
   },
   {
     "id": "art-sailing-yacht-a-143-metros-de-ac-7137",

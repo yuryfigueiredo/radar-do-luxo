@@ -165,8 +165,8 @@ export const PUBLISHED_ARCHIVE = [
     "id": "art-keyvany-porroo-o-monstro-de-fibr-0750",
     "slug": "keyvany-porroo-o-monstro-de-fibra-de-carbono-forjada-com-1000-cavalos-inspirado-na-furia-de-maranello-em-dubai-0737",
     "title": "Keyvany Porroo: O Monstro de Fibra de Carbono Forjada com 1.000 Cavalos Inspirado na Furia de Maranello em Dubai",
-    "image": "https://images.unsplash.com/photo-1635488591151-c7a12939669b?auto=format&fit=max&q=80&w=1400",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0VSZWxsWVl2dWo0R09UaUQ2OElKTHc3SGdVU2pDRkFnem5NUzc2MzRILUhsN29GTHpMNVVHWUxsMzJoMllPTmRRcXRKaW0wODZ4LVhwS2phWkRMUk5XY2t0S0l2Qi1oaDA2QkdUTl9NU1oyUTBJeHEyUUFRSUlYRHpua2hrTVNROWdxQ29nMUdtM2UxbFptcFlRMHNJSmNObEVETFRCRm9MallZOVVJZzEzY295TmtxS0E?oc=5",
+    "image": "https://autodiscoveries.com/wp-content/uploads/2025/08/Ferrari-Welt-Premiere-Introducing-The-Keyvany-Porroo-scaled.jpg",
+    "sourceUrl": "https://autodiscoveries.com/ferrari-welt-premiere-introducing-the-keyvany-porroo",
     "categorySlug": "supercarros",
     "authorSlug": "gabriel-fontes",
     "publishedAt": "2026-11-15T15:05:40.747Z"
