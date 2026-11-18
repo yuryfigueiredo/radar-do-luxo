@@ -215,9 +215,21 @@ function corpoPaginaInicial() {
   // vê nenhuma matéria. Uma lista de endereços resolve e não tenta imitar o layout.
   const itens = publicadas
     .slice(0, 25)
-    .map((a) => `      <li><a href="/artigo/${esc(a.slug)}">${esc(a.title)}</a></li>`)
+    .map((a) => `      <li class="font-serif text-lg leading-snug"><a class="hover:text-lux-gold" href="/artigo/${esc(a.slug)}">${esc(a.title)}</a></li>`)
     .join('\n');
-  return ['<main>', '  <h1>Radar do Luxo — edição atual</h1>', '  <ul>', itens, '  </ul>', '</main>'].join('\n');
+  // Sem classe alguma, este corpo era a única parte do pré-render pintada crua: enquanto o
+  // bundle de ~1 MB não acabava de executar, o leitor em tema escuro via uma tela preta com
+  // vinte e cinco manchetes sem estilo, e lia isso como página de erro. Mesma medida e
+  // tipografia do corpo de "matéria não encontrada" — nenhuma identidade nova.
+  return [
+    '<main class="max-w-3xl mx-auto px-4 py-16">',
+    '  <h1 class="font-serif text-3xl font-bold mb-2">Radar do Luxo</h1>',
+    '  <p class="mb-8">Edição atual</p>',
+    '  <ul class="space-y-3">',
+    itens,
+    '  </ul>',
+    '</main>',
+  ].join('\n');
 }
 
 function sitemapXml() {

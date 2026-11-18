@@ -9,7 +9,20 @@ const LOCAL_STORAGE_DROPS_KEY = 'radar_custom_drops';
 const LOCAL_STORAGE_SUBSCRIBERS_KEY = 'radar_newsletter_subscribers';
 const LOCAL_STORAGE_CONCIERGE_KEY = 'radar_concierge_inquiries';
 const LOCAL_STORAGE_VERSION_KEY = 'radar_content_version';
-export const CURRENT_CONTENT_VERSION = 'v3.0_1794954034896';
+// O carimbo de conteúdo era um número batido à mão. Enquanto foi, cada leitor ficou preso
+// ao acervo que o navegador dele gravou: saía matéria nova, a capa continuava a mesma, e abrir
+// a manchete do dia dava tela escura de 404 — porque aquele slug não existia na lista velha.
+// Agora o valor é o dedo-duende do que vai no ar: publicar ou trocar uma capa muda o carimbo,
+// o armazenamento local é reconstruído a partir do acervo homologado e o que estava criado à
+// mão no painel (isUserCreated) sobrevive, como já sobrevivia na troca de versão manual.
+function carimboDoAcervo(list) {
+  const conteudo = (list || []).map((a) => `${a.slug}|${a.image}|${a.publishedAt || ''}|${a.isHero ? 1 : 0}`).join(';');
+  let h = 5381;
+  for (let i = 0; i < conteudo.length; i++) h = ((h << 5) + h + conteudo.charCodeAt(i)) >>> 0;
+  return `v3.${conteudo.length}_${h.toString(36)}`;
+}
+
+export const CURRENT_CONTENT_VERSION = carimboDoAcervo(ARTICLES);
 
 function slugifyArticlePart(value) {
   return String(value || '')
