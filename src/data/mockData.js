@@ -116,6 +116,63 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-ferrari-buyback-35591-acoes-e-118-do-capital-6284",
+    "slug": "ferrari-35591-acoes-a-eur-370-52-de-media-e-1-18-do-capital-recolhido-a-tesouraria-6284",
+    "title": "Ferrari: 35.591 Ações a € 370,52 de Média e 1,18% do Capital Recolhido à Tesouraria",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "18 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://ilgiornaleditalia.cdn.m33cloud.com/resizer/1200/628/true/2026_09_10/images_%2845%29-1789057829032.jpeg--ferrari__riacquistate_azioni_per_oltre__13_milioni_sulle_borse_di_milano_e_new_york_nella_tranche_da__250_milioni.jpeg?1790176506000",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Entre 9 e 13 de novembro, a Ferrari recomprou 35.591 ações ordinárias nas praças de Milão e Nova York por € 13.187.042,95, a preço médio de € 370,5162. A tesouraria da casa de Maranello chegou a 2.092.066 papéis — 1,18% do capital emitido — dentro da terceira tranche, de € 250 milhões, de um programa de € 3,5 bilhões até 2030.",
+    "contentParagraphs": [
+      "O comunicado saiu de Maranello em 16 de novembro, com a frieza de uma circular de tesouraria. Entre 9 e 13 daquele mês, a Ferrari N.V. comprou 35.591 ações ordinárias próprias na Euronext Milan e na New York Stock Exchange, por um desembolso de € 13.187.042,95, excluídas as taxas, a um preço médio de € 370,5162 por papel. Os números não nascem de estimativa de analista nem de nota de corretora: estão no relatório periódico que a companhia publica por obrigação, dia a dia, sob a terceira tranche de € 250 milhões do programa anunciado em 1º de setembro de 2026.",
+      "O detalhe diário é o que separa uma recompra de rotina de um gesto de vaidade. Em 9 e 10 de novembro, a casa levou 100 ações por dia — € 372,7285 e € 371,7760 de média. Em 11, foram 1.200 a € 374,6133. O volume só ganhou corpo em 12 e 13: 16.000 papéis em Milão a € 371,8621 e 6.141 em Nova York a US$ 407,0905; depois 6.200 a € 368,7042 e 5.850 a US$ 410,1963. Somados, os dois últimos dias respondem por 34.191 das 35.591 ações — 96% do total — e concentram o menor preço médio diário da semana na praça milanesa, no dia de maior volume. É execução de mandato, não corrida atrás de ocasião.",
+      "A conta acumulada da tranche, até 13 de novembro, chega a € 143.470.299,51 por 405.461 ações na EXM e a US$ 38.897.666,60 — € 34.123.943,35 pelo câmbio de referência do BCE de cada pregão — por 95.801 ações na NYSE. Pela aritmética do próprio relatório, restam cerca de € 72,4 milhões dos € 250 milhões da etapa. A tesouraria da companhia, líquida das ações cedidas sob o plano de incentivo, somava 2.092.066 ações ordinárias: 1,18% do capital emitido em ações ordinárias e 0,89% do capital social total quando se incluem as ações de voto especial.",
+      "Desde 5 de janeiro de 2026, início do programa plurianual de aproximadamente € 3,5 bilhões desenhado no Capital Markets Day de 2025, a Ferrari retirou do mercado 2.202.446 ações próprias, incluindo as transações de sell to cover, por € 688.351.548,07. É perto de um quinto da meta executado em pouco mais de dez meses, sem anúncio, sem dividendo extraordinário e sem a liturgia que costuma cercar operações desse porte. O saldo em tesouraria é menor que o total comprado porque o relatório o apresenta líquido das ações já atribuídas aos executivos sob o plano de incentivos.",
+      "Para quem mede uma casa pelo que ela exibe, a operação parece árida. É o contrário. Cada ação recomprada é um título que deixa de circular, um voto que deixa de ser disputado e uma linha de dividendos que a companhia não precisará pagar. O programa tem prazo — até 2030 —, duas praças — Milão e Nova York — e a condução de Benedetto Vigna, CEO da Ferrari. Nada disso é encenação: é contabilidade de longo prazo, a língua que uma casa industrial centenária fala quando quer sobreviver aos ciclos.",
+      "O próximo relatório semanal deve repetir o formato, e convém lê-lo com a régua certa. Não pelo volume, pequeno diante do capital total, mas pela constância: a casa compra quando o preço cede e compra quando sobe, com a cadência de quem cumpre um plano, não de quem persegue um gráfico. Enquanto o mercado trata o luxo como narrativa de trimestre, Maranello faz o oposto — reduz o número de vozes com direito a opinar sobre o próprio futuro, uma ação por vez, e registra cada uma delas em um documento público que qualquer um pode auditar."
+    ],
+    "content_paragraphs": [
+      "O comunicado saiu de Maranello em 16 de novembro, com a frieza de uma circular de tesouraria. Entre 9 e 13 daquele mês, a Ferrari N.V. comprou 35.591 ações ordinárias próprias na Euronext Milan e na New York Stock Exchange, por um desembolso de € 13.187.042,95, excluídas as taxas, a um preço médio de € 370,5162 por papel. Os números não nascem de estimativa de analista nem de nota de corretora: estão no relatório periódico que a companhia publica por obrigação, dia a dia, sob a terceira tranche de € 250 milhões do programa anunciado em 1º de setembro de 2026.",
+      "O detalhe diário é o que separa uma recompra de rotina de um gesto de vaidade. Em 9 e 10 de novembro, a casa levou 100 ações por dia — € 372,7285 e € 371,7760 de média. Em 11, foram 1.200 a € 374,6133. O volume só ganhou corpo em 12 e 13: 16.000 papéis em Milão a € 371,8621 e 6.141 em Nova York a US$ 407,0905; depois 6.200 a € 368,7042 e 5.850 a US$ 410,1963. Somados, os dois últimos dias respondem por 34.191 das 35.591 ações — 96% do total — e concentram o menor preço médio diário da semana na praça milanesa, no dia de maior volume. É execução de mandato, não corrida atrás de ocasião.",
+      "A conta acumulada da tranche, até 13 de novembro, chega a € 143.470.299,51 por 405.461 ações na EXM e a US$ 38.897.666,60 — € 34.123.943,35 pelo câmbio de referência do BCE de cada pregão — por 95.801 ações na NYSE. Pela aritmética do próprio relatório, restam cerca de € 72,4 milhões dos € 250 milhões da etapa. A tesouraria da companhia, líquida das ações cedidas sob o plano de incentivo, somava 2.092.066 ações ordinárias: 1,18% do capital emitido em ações ordinárias e 0,89% do capital social total quando se incluem as ações de voto especial.",
+      "Desde 5 de janeiro de 2026, início do programa plurianual de aproximadamente € 3,5 bilhões desenhado no Capital Markets Day de 2025, a Ferrari retirou do mercado 2.202.446 ações próprias, incluindo as transações de sell to cover, por € 688.351.548,07. É perto de um quinto da meta executado em pouco mais de dez meses, sem anúncio, sem dividendo extraordinário e sem a liturgia que costuma cercar operações desse porte. O saldo em tesouraria é menor que o total comprado porque o relatório o apresenta líquido das ações já atribuídas aos executivos sob o plano de incentivos.",
+      "Para quem mede uma casa pelo que ela exibe, a operação parece árida. É o contrário. Cada ação recomprada é um título que deixa de circular, um voto que deixa de ser disputado e uma linha de dividendos que a companhia não precisará pagar. O programa tem prazo — até 2030 —, duas praças — Milão e Nova York — e a condução de Benedetto Vigna, CEO da Ferrari. Nada disso é encenação: é contabilidade de longo prazo, a língua que uma casa industrial centenária fala quando quer sobreviver aos ciclos.",
+      "O próximo relatório semanal deve repetir o formato, e convém lê-lo com a régua certa. Não pelo volume, pequeno diante do capital total, mas pela constância: a casa compra quando o preço cede e compra quando sobe, com a cadência de quem cumpre um plano, não de quem persegue um gráfico. Enquanto o mercado trata o luxo como narrativa de trimestre, Maranello faz o oposto — reduz o número de vozes com direito a opinar sobre o próprio futuro, uma ação por vez, e registra cada uma delas em um documento público que qualquer um pode auditar."
+    ],
+    "specs": {
+      "Papéis da semana": "35.591 ações ordinárias — 23.600 na EXM e 11.991 na NYSE",
+      "Preço médio": "€ 370,5162 por ação (€ 371,1757 na EXM; US$ 408,6057 na NYSE)",
+      "Desembolso": "€ 13.187.042,95, excluídas as taxas",
+      "Tranche em curso": "€ 250 milhões — terceira etapa do programa de € 3,5 bilhões até 2030",
+      "Acumulado da tranche": "€ 143.470.299,51 na EXM (405.461 ações); US$ 38.897.666,60 na NYSE (95.801 ações)",
+      "Tesouraria em 13/11": "2.092.066 ações — 1,18% do capital emitido (0,89% com ações de voto especial)"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 88,
+    "ranking_score": 88,
+    "engineSource": "qoder:agente-editorial",
+    "publishedAt": "2026-11-18T15:25:39.000Z",
+    "published_at": "2026-11-18T15:25:39.000Z",
+    "sourceUrl": "https://www.theglobeandmail.com/investing/markets/stocks/RACE-N/pressreleases/8881879/ferrari-reports-eur13-2-million-share-buyback-purchases-through-nov-13/",
+    "source_url": "https://www.theglobeandmail.com/investing/markets/stocks/RACE-N/pressreleases/8881879/ferrari-reports-eur13-2-million-share-buyback-purchases-through-nov-13/"
+  },
+  {
     "id": "art-abu-dhabi-8-marinas-atracadouros-de-180-m-7431",
     "slug": "abu-dhabi-8-marinas-atracadouros-de-180-m-e-o-louvre-aberto-depois-da-hora-para-quem-chega-de-iate-7431",
     "title": "Abu Dhabi: 8 Marinas, Atracadouros de 180 m e o Louvre Aberto Depois da Hora para Quem Chega de Iate",
@@ -156,8 +213,8 @@ export const ARTICLES = [
       "Calendário": "Abu Dhabi International Boat Show, 19 a 22 de novembro de 2026"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
+    "isHero": false,
+    "is_hero": false,
     "isHeroSecondary": false,
     "is_hero_secondary": false,
     "isPinnedHero": false,
@@ -1378,58 +1435,6 @@ export const ARTICLES = [
     "sourceUrl": "https://royalwatcherblog.com/2026-11-08/christies-magnificent-jewels-10-november-2026/",
     "source_url": "https://royalwatcherblog.com/2026-11-08/christies-magnificent-jewels-10-november-2026/"
   },
-  {
-    "id": "art-ferrari-a-ascensao-das-acoes-em--2573",
-    "slug": "ferrari-a-ascensao-das-acoes-em-wall-street-e-a-soberania-inercial-do-v12-de-aspiracao-natural-2563",
-    "title": "Ferrari: A Ascensão das Ações em Wall Street e a Soberania Inercial do V12 de Aspiração Natural",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "12 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://unn.ua/img/2026/01/11/1768174805-2652-large.webp",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "Enquanto o mercado financeiro reavalia a resiliência patrimonial da marca de Maranello, a engenharia da Ferrari reafirma sua hegemonia através de tolerâncias de mícrons e fluxos de Venturi que desafiam a obsolescência programada do setor automotivo.",
-    "contentParagraphs": [
-      "O mercado financeiro reagiu com frieza calculada às oscilações recentes, ignorando ruídos macroeconômicos em favor da solidez de uma marca que transaciona status através de engenharia pura. A Ferrari não vende apenas veículos; ela liquida ativos de performance que retêm valor superior a qualquer índice de volatilidade, blindando seu patrimônio contra o descarte rápido de propulsores eletrificados.",
-      "Sob o capô, o que sustenta essa confiança é uma telemetria inercial inabalável. O V12 aspirado, operando com rotações que atingem o limite físico dos materiais, exige monocoques de carbo-titânio curados em autoclave a 6 bar para conter a torção do chassi sob carga lateral. O efeito solo é gerado por dutos de Venturi desenhados com precisão cirúrgica, convertendo cada Newton de pressão aerodinâmica em vetor de aderência absoluta no asfalto.",
-      "Não há concessões aos modismos de consumo. Enquanto competidores se perdem em telas táteis destinadas ao esquecimento, Maranello mantém seu foco na termodinâmica dos escapes em Inconel 625, capazes de suportar temperaturas extremas sem fadiga estrutural. É a arquitetura mecânica que dita o valor da ação, onde cada peça forjada é um contrato de fidelidade com o proprietário que busca a imutabilidade da física em vez da efemeridade do silício.",
-      "O investidor consciente compreende que a Ferrari detém a soberania sobre o desejo humano. Em um cenário de incertezas, a robustez de um motor aspirado, acoplado a uma transmissão de dupla embreagem com tempos de troca imperceptíveis, permanece como o refúgio mais sólido para o capital. A marca não apenas sobrevive ao tempo; ela o domina, impondo sua própria métrica de escassez e excelência mecânica."
-    ],
-    "content_paragraphs": [
-      "O mercado financeiro reagiu com frieza calculada às oscilações recentes, ignorando ruídos macroeconômicos em favor da solidez de uma marca que transaciona status através de engenharia pura. A Ferrari não vende apenas veículos; ela liquida ativos de performance que retêm valor superior a qualquer índice de volatilidade, blindando seu patrimônio contra o descarte rápido de propulsores eletrificados.",
-      "Sob o capô, o que sustenta essa confiança é uma telemetria inercial inabalável. O V12 aspirado, operando com rotações que atingem o limite físico dos materiais, exige monocoques de carbo-titânio curados em autoclave a 6 bar para conter a torção do chassi sob carga lateral. O efeito solo é gerado por dutos de Venturi desenhados com precisão cirúrgica, convertendo cada Newton de pressão aerodinâmica em vetor de aderência absoluta no asfalto.",
-      "Não há concessões aos modismos de consumo. Enquanto competidores se perdem em telas táteis destinadas ao esquecimento, Maranello mantém seu foco na termodinâmica dos escapes em Inconel 625, capazes de suportar temperaturas extremas sem fadiga estrutural. É a arquitetura mecânica que dita o valor da ação, onde cada peça forjada é um contrato de fidelidade com o proprietário que busca a imutabilidade da física em vez da efemeridade do silício.",
-      "O investidor consciente compreende que a Ferrari detém a soberania sobre o desejo humano. Em um cenário de incertezas, a robustez de um motor aspirado, acoplado a uma transmissão de dupla embreagem com tempos de troca imperceptíveis, permanece como o refúgio mais sólido para o capital. A marca não apenas sobrevive ao tempo; ela o domina, impondo sua própria métrica de escassez e excelência mecânica."
-    ],
-    "specs": {
-      "Arquitetura": "V12 aspirado de alta rotação",
-      "Chassi": "Monocoque em carbo-titânio (autoclave 6 bar)",
-      "Materiais": "Escapes em Inconel 625",
-      "Aerodinâmica": "Fluxo de Venturi de efeito solo",
-      "Tolerâncias": "Precisão de engenharia em mícrons"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 90,
-    "ranking_score": 90,
-    "engineSource": "gemini:gemini-3.1-flash-lite",
-    "publishedAt": "2026-11-12T18:25:32.573Z",
-    "published_at": "2026-11-12T18:25:32.573Z",
-    "sourceUrl": "https://unn.ua/en/news/ferrari-12cilindri-becomes-an-investment-object-first-units-resold-for-dollar700000",
-    "source_url": "https://unn.ua/en/news/ferrari-12cilindri-becomes-an-investment-object-first-units-resold-for-dollar700000"
-  }
 ];
 
 

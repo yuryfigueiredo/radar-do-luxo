@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-ferrari-buyback-35591-acoes-e-118-do-capital-6284",
+    "slug": "ferrari-35591-acoes-a-eur-370-52-de-media-e-1-18-do-capital-recolhido-a-tesouraria-6284",
+    "title": "Ferrari: 35.591 Ações a € 370,52 de Média e 1,18% do Capital Recolhido à Tesouraria",
+    "image": "https://ilgiornaleditalia.cdn.m33cloud.com/resizer/1200/628/true/2026_09_10/images_%2845%29-1789057829032.jpeg--ferrari__riacquistate_azioni_per_oltre__13_milioni_sulle_borse_di_milano_e_new_york_nella_tranche_da__250_milioni.jpeg?1790176506000",
+    "sourceUrl": "https://www.theglobeandmail.com/investing/markets/stocks/RACE-N/pressreleases/8881879/ferrari-reports-eur13-2-million-share-buyback-purchases-through-nov-13/",
+    "categorySlug": "supercarros",
+    "authorSlug": "henrique-vianna",
+    "publishedAt": "2026-11-18T15:25:39.000Z"
+  },
+  {
     "id": "art-abu-dhabi-8-marinas-atracadouros-de-180-m-7431",
     "slug": "abu-dhabi-8-marinas-atracadouros-de-180-m-e-o-louvre-aberto-depois-da-hora-para-quem-chega-de-iate-7431",
     "title": "Abu Dhabi: 8 Marinas, Atracadouros de 180 m e o Louvre Aberto Depois da Hora para Quem Chega de Iate",
