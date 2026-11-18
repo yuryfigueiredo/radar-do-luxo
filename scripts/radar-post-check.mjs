@@ -27,7 +27,7 @@ const { ARTICLES, AUTHORS } = await import(path.join(RAIZ, 'src/data/mockData.js
 const { PUBLISHED_ARCHIVE } = await import(path.join(RAIZ, 'src/data/publishedArchive.js'));
 const { BANNED_CLICHES, HOMOLOGATED_IMAGES } = await import(path.join(RAIZ, 'src/services/aiArticleGenerator.js'));
 const { checkArticleDuplicate } = await import(path.join(RAIZ, 'src/services/radarService.js'));
-const { resolveCoverImage } = await import(path.join(RAIZ, 'scripts/coverImageAudit.js'));
+const { resolveCoverImage, fotoJaUsada, chaveFoto } = await import(path.join(RAIZ, 'scripts/coverImageAudit.js'));
 
 const falhas = [];
 const porta = (nome, ok, motivo) => {
@@ -95,6 +95,16 @@ if (!semRede) {
   imgVeredito = `${audit.origin} · ${audit.note} · banco da vertical tem ${banco.length}`;
 }
 porta('imagem', imgOk, imgVeredito);
+
+// ── foto inédita: o site não reaproveita a própria imagem ───────────────────────
+// O teste de duplicata compara foto só dentro dos 25 que estão no ar, e com uma chave
+// que não casa asset próprio. Medido em 17/11: 21 das 25 matérias vivas usavam foto que
+// o histórico já tinha publicado em OUTRA matéria — o leitor vê o mesmo paredão repetido
+// em páginas diferentes. A régua é a mesma função que a repaginadora de fotos usa.
+const usada = fotoJaUsada(item.image, [...(PUBLISHED_ARCHIVE || []), ...ARTICLES.filter((a) => a.slug !== item.slug)], item.slug);
+porta('foto_nova', !usada.usada, usada.usada
+  ? `foto já publicada em ${usada.quantas} outra(s) matéria(s) (chave ${usada.chave}, primeira: ${String(usada.slug).slice(0, 46)}...)`
+  : `chave ${chaveFoto(item.image)} inédita nos ${(PUBLISHED_ARCHIVE || []).length} registros do histórico`);
 
 // ── janela: o acervo que o dedupe vê tem de caber nos 25 que o site serve ──────
 // A poda existia só no crawler de nuvem, agora inerte. Sem ela, a matéria escrita

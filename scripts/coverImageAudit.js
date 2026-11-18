@@ -410,3 +410,33 @@ export async function auditGalleryImages(gallery = [], limit = 8, orcamentoFim =
   // Nada aprovado: devolver vazio em vez de uma URL que a auditoria acabou de reprovar.
   return { url: '', origin: 'banco', note: `nenhuma das ${candidates.length} capas do banco passou na auditoria`, medida: false };
 }
+
+/**
+ * Chave de uma fotografia — o que identifica A FOTO, não o endereço em que ela está.
+ * Host diferente, query de redimensionamento e sufixo de miniatura do WordPress são a
+ * mesma imagem. Sem normalizar isso, o mesmo arquivo conta como três capas novas e o
+ * site republica foto sem que ninguém tenha decidido republicar.
+ */
+export function chaveFoto(url) {
+  const u = String(url || '').trim();
+  if (!u) return '';
+  const caminho = u.split('?')[0].replace(/^https?:\/\//i, '').replace(/^[^/]+\//, '/');
+  const id = caminho.match(/photo-[a-z0-9]{4,}-[a-z0-9]+/i) || caminho.match(/[^/]+\.(?:jpe?g|png|webp|gif|avif)$/i);
+  return String(id ? id[0] : caminho).replace(/[-_]\d{2,4}x\d{2,4}(?=\.\w{2,5}$)/i, '').toLowerCase();
+}
+
+/** A foto já saiu no site em OUTRA matéria? `registros` é o histórico + o acervo vivo. */
+export function fotoJaUsada(url, registros = [], excetoSlug = '') {
+  const k = chaveFoto(url);
+  if (!k) return { usada: false, quantas: 0, slug: '', chave: '' };
+  let n = 0;
+  let primeira = '';
+  for (const r of registros) {
+    const slug = (r && r.slug) || (typeof r === 'string' ? r : '');
+    if (excetoSlug && slug === excetoSlug) continue;
+    if (chaveFoto((r && r.image) || '') !== k) continue;
+    n += 1;
+    primeira = primeira || slug;
+  }
+  return { usada: n > 0, quantas: n, slug: primeira, chave: k };
+}
