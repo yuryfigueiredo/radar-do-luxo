@@ -448,7 +448,7 @@ export const ARTICLES = [
     "date": "17 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1621277224630-81d9af65e40c?auto=format&fit=max&q=80&w=1400",
+    "image": "https://bellingham-marine.com/wp-content/uploads/2024/04/Yas-Marina-8-1.jpg",
     "imageFocus": "center",
     "image_focus": "center",
     "excerpt": "A capital dos Emirados Árabes Unidos reorganiza a geopolítica náutica global com berços dedicados, calados dragados a 9 metros e infraestrutura cirúrgica para colossos de aço e alumínio.",
@@ -483,8 +483,8 @@ export const ARTICLES = [
     "engineSource": "gemini:gemini-flash-lite-latest",
     "publishedAt": "2026-11-17T11:11:27.949Z",
     "published_at": "2026-11-17T11:11:27.949Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0JhMkNyTjE1Ymtva09RUUxlblpMOTN3N2MwdG5odUxudktoRTFTLTdsbE5SbG0tLVN3U01kRzVaRjJQc180c0dMd2xvTWFwbDhiQUNENDBxLW0tZnc0VXRVVjRzeWc4dVY2VzJMc0FET1NkeGZmdHJmUzR1WEpsR3FvUm1CX0Q2STk4RXZkdTdDQ3RVNWozNzhnc280akl6NHJvWnhlbjJIYjNVRXFUSzJjNHZWcnAyV1E?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0JhMkNyTjE1Ymtva09RUUxlblpMOTN3N2MwdG5odUxudktoRTFTLTdsbE5SbG0tLVN3U01kRzVaRjJQc180c0dMd2xvTWFwbDhiQUNENDBxLW0tZnc0VXRVVjRzeWc4dVY2VzJMc0FET1NkeGZmdHJmUzR1WEpsR3FvUm1CX0Q2STk4RXZkdTdDQ3RVNWozNzhnc280akl6NHJvWnhlbjJIYjNVRXFUSzJjNHZWcnAyV1E?oc=5"
+    "sourceUrl": "https://www.bellingham-marine.com/project/yas-marina/",
+    "source_url": "https://www.bellingham-marine.com/project/yas-marina/"
   },
   {
     "id": "art-vincent-van-gogh-a-incognita-de--2338",
@@ -500,7 +500,7 @@ export const ARTICLES = [
     "date": "17 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=max&q=85&w=1800",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Vincent_van_Gogh_-_Les_canots_amarr%C3%A9s.jpg/1920px-Vincent_van_Gogh_-_Les_canots_amarr%C3%A9s.jpg",
     "imageFocus": "center",
     "image_focus": "center",
     "excerpt": "A soberania patrimonial enfrenta o teste da proveniência técnica enquanto o mercado global de arte atinge uma liquidez febril em Nova York.",
@@ -604,7 +604,7 @@ export const ARTICLES = [
     "date": "17 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1604737637145-48cc31d160eb?auto=format&fit=max&q=80&w=1400",
+    "image": "https://cdn.boatinternational.com/convert/files/2026/01/356e8190-ecac-11f0-94de-c90311bc9fb2-Breakthrough%20yacht%20report%20cover.jpg/r%5Bwidth%5D=1920/356e8190-ecac-11f0-94de-c90311bc9fb2-Breakthrough%20yacht%20report%20cover.jpg",
     "imageFocus": "center",
     "image_focus": "center",
     "excerpt": "Um mergulho na náutica de elite onde a alocação semanal de US$ 3,9 milhões não garante imunidade contra a manutenção técnica rigorosa, forçando o desembarque em alto-mar.",
@@ -639,8 +639,8 @@ export const ARTICLES = [
     "engineSource": "gemini:gemini-flash-lite-latest",
     "publishedAt": "2026-11-17T01:23:50.322Z",
     "published_at": "2026-11-17T01:23:50.322Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRVlCX1RQVV9icGViSEU3RDlWSVhncnVyNDBHMTdTSW1wSGVEVmVsamZLMW8tM0JqUFJvV19ISnRITExVcDB3cldYN0N0MzZYQkJVZ0VyY3RwNWhiTURDNEdQdEFPM05UZEdBUUw0Wnl2MG9jRzQ0TEFaUGdhN3V1ekFfTlZRbnRsTm55S29BZms0UjZQZ29UUEtldzlJdThFNUtDdDAwUHVHeXJQbU9QYXEwNUp1OVdDcDhONFEyRlZrcVRKalhfR2FQNkNkZUdpVVhiR01CY09DVUhhVWZSV25BV0VDd9IB5gFBVV95cUxPRVlCX1RQVV9icGViSEU3RDlWSVhncnVyNDBHMTdTSW1wSGVEVmVsamZLMW8tM0JqUFJvV19ISnRITExVcDB3cldYN0N0MzZYQkJVZ0VyY3RwNWhiTURDNEdQdEFPM05UZEdBUUw0Wnl2MG9jRzQ0TEFaUGdhN3V1ekFfTlZRbnRsTm55S29BZms0UjZQZ29UUEtldzlJdThFNUtDdDAwUHVHeXJQbU9QYXEwNUp1OVdDcDhONFEyRlZrcVRKalhfR2FQNkNkZUdpVVhiR01CY09DVUhhVWZSV25BV0VDdw?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRVlCX1RQVV9icGViSEU3RDlWSVhncnVyNDBHMTdTSW1wSGVEVmVsamZLMW8tM0JqUFJvV19ISnRITExVcDB3cldYN0N0MzZYQkJVZ0VyY3RwNWhiTURDNEdQdEFPM05UZEdBUUw0Wnl2MG9jRzQ0TEFaUGdhN3V1ekFfTlZRbnRsTm55S29BZms0UjZQZ29UUEtldzlJdThFNUtDdDAwUHVHeXJQbU9QYXEwNUp1OVdDcDhONFEyRlZrcVRKalhfR2FQNkNkZUdpVVhiR01CY09DVUhhVWZSV25BV0VDd9IB5gFBVV95cUxPRVlCX1RQVV9icGViSEU3RDlWSVhncnVyNDBHMTdTSW1wSGVEVmVsamZLMW8tM0JqUFJvV19ISnRITExVcDB3cldYN0N0MzZYQkJVZ0VyY3RwNWhiTURDNEdQdEFPM05UZEdBUUw0Wnl2MG9jRzQ0TEFaUGdhN3V1ekFfTlZRbnRsTm55S29BZms0UjZQZ29UUEtldzlJdThFNUtDdDAwUHVHeXJQbU9QYXEwNUp1OVdDcDhONFEyRlZrcVRKalhfR2FQNkNkZUdpVVhiR01CY09DVUhhVWZSV25BV0VDdw?oc=5"
+    "sourceUrl": "https://www.boatinternational.com/yachts/reports/feadship-breakthrough-hydrogen-powered-superyacht-for-charter",
+    "source_url": "https://www.boatinternational.com/yachts/reports/feadship-breakthrough-hydrogen-powered-superyacht-for-charter"
   },
   {
     "id": "art-feadship-pi-e-oceanco-koru-o-enc-4806",
@@ -709,7 +709,7 @@ export const ARTICLES = [
     "date": "16 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=max&q=85&w=1800",
+    "image": "https://sothebys-md.brightspotcdn.com/dims4/default/0b85d14/2147483647/strip/false/crop/2000x2000+0+0/resize/4096x4096!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fmedia-desk%2Fwebnative%2Fimages%2F9b%2F2f%2Fb1dc016f4e598e63a1631e8459f4%2Fge2609-dp9z5-t1-01.jpg",
     "imageFocus": "center",
     "image_focus": "center",
     "excerpt": "Lágrima azul de 199,7 carat, herdeira da dinastia Romanov, rompe o silêncio mineral dos leilões com avaliação de US$ 4,9 mi, consolidando soberania patrimonial em travertino romano navona.",
@@ -745,8 +745,8 @@ export const ARTICLES = [
     "engineSource": "openai:groq/openai/gpt-oss-120b",
     "publishedAt": "2026-11-16T15:06:17.415Z",
     "published_at": "2026-11-16T15:06:17.415Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNV1lFQXFzTmlWTUw1NENfcnY2TXRwRTNtZnFmUkdabk1rV1dxVVptbjRmdXFfNFRNWkQyVEQxb2dlOXFyZURPd3FVTnc2YWFLZno1N2MtZzVaQ25JSXRISmlrUWIxcGtZM0IzM2czc1N2R2RQSjlJeURBbUtUcmFJZ1Nnb1FCdw?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNV1lFQXFzTmlWTUw1NENfcnY2TXRwRTNtZnFmUkdabk1rV1dxVVptbjRmdXFfNFRNWkQyVEQxb2dlOXFyZURPd3FVTnc2YWFLZno1N2MtZzVaQ25JSXRISmlrUWIxcGtZM0IzM2czc1N2R2RQSjlJeURBbUtUcmFJZ1Nnb1FCdw?oc=5"
+    "sourceUrl": "https://www.sothebys.com/buy/56a1b776-7da6-48d5-8c40-961431470e95/lots/01a04331-c5e2-79ce-944e-ac372d6f79b5",
+    "source_url": "https://www.sothebys.com/buy/56a1b776-7da6-48d5-8c40-961431470e95/lots/01a04331-c5e2-79ce-944e-ac372d6f79b5"
   },
   {
     "id": "art-ferrari-f12tdf-os-brutais-us-383-4172",
@@ -815,7 +815,7 @@ export const ARTICLES = [
     "date": "16 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=max&q=80&w=1400",
+    "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261112-sapphire-rs-9764bf.jpg",
     "imageFocus": "center",
     "image_focus": "center",
     "excerpt": "A soberania patrimonial dos Romanov atinge novos patamares em leilão suíço, provando que ativos imperiais imunes à inflação exercem fascínio atemporal sobre family offices.",
@@ -851,8 +851,8 @@ export const ARTICLES = [
     "engineSource": "gemini:gemini-flash-lite-latest",
     "publishedAt": "2026-11-16T01:23:32.907Z",
     "published_at": "2026-11-16T01:23:32.907Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9tYWJTUDFUSDhZRXNjWTZYV2g3TWQ5SzBUOXpyQVZrSW5UVHZWbjhzc1VYb243Q2NOYWN5TFdPLWJRQVBCcWhkbm5BYWMtVXkwR2FvVldvZHpoZVd0c0F3LUQydjhQMUx4RC1JLWRVdmE4bUdxYTBV?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9tYWJTUDFUSDhZRXNjWTZYV2g3TWQ5SzBUOXpyQVZrSW5UVHZWbjhzc1VYb243Q2NOYWN5TFdPLWJRQVBCcWhkbm5BYWMtVXkwR2FvVldvZHpoZVd0c0F3LUQydjhQMUx4RC1JLWRVdmE4bUdxYTBV?oc=5"
+    "sourceUrl": "https://www.nbcnews.com/world/europe/romanov-sapphire-bracelet-russia-empress-mughal-empire-auction-rcna608936",
+    "source_url": "https://www.nbcnews.com/world/europe/romanov-sapphire-bracelet-russia-empress-mughal-empire-auction-rcna608936"
   },
   {
     "id": "art-sothebys-genebra-o-leilao-histor-1110",
@@ -972,7 +972,7 @@ export const ARTICLES = [
     "date": "14 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1783344422200-a5493824bcb9?auto=format&fit=max&q=80&w=1400",
+    "image": "https://media.delius-klasing.de/dk-wassersport/dpr_auto,fl_progressive,f_jpg,c_fill,g_face:center,h_675,w_1200/q_auto:eco/yacht/319191107-1_1cdbb7429772e17e8a9a2e48541929e5",
     "imageFocus": "center",
     "image_focus": "center",
     "excerpt": "A silhueta disruptiva de Philippe Starck enfrenta a imobilidade forçada em Trieste. O projeto de 600 milhões de dólares permanece como um monumento à engenharia de vanguarda e à incerteza geopolítica.",
@@ -1008,8 +1008,8 @@ export const ARTICLES = [
     "engineSource": "gemini:gemini-3.1-flash-lite",
     "publishedAt": "2026-11-14T18:34:47.136Z",
     "published_at": "2026-11-14T18:34:47.136Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxNWEJNNS01bFFrU3ZSV2dzZGJqd2R4TGpYZXJZcERLdXdzVlJCV0tmTmJ0WHpkcHFNY0UySkJGZkgwVUFHLU9mN2NuNmJTZzlGSlhtbFltRVRNM1J2T20yTWxNd2RBSWl5Tkk0SXBzSGd2aERPN3BWck1iVnFKWmVVNDV2TXhlRWRwdmVNbzdhUjFYdmJVYXQxeFRZZ0gxcjdYeG10Y3p6dzlmVmZhUFllam5YYVREMUhVS3NDYnk3ZzN0SVRBLW9mZDJ1TVdxUXM0UXhxQV8tTW5HZ0NJODlubVZrMExiUFB3cTIxTEh3T3pxcXNDNXFBWEJlMDExWUREaXktaWs1RFVheXFveWRxamMwdnl0Tmw0MWl2NVdaa3JTX0NoVmpTMDdyMFRfV3l1d3o2NFYzdzVrSmpDUzRfb21vWU5BRTQ0Sl9odlE3Q2IxeDRfcWZKTtIB3gJBVV95cUxPa1VCTVU5Rjh6ZEFLZThBNUE2U2FMVnlETy1aeHREOW9FTUV4TlcyZUk1NGtMYXhWYzFBeXVXYkZwY0NCTXVtelNEbmNzR2JwMjBERTN0SjVNb2xTZ0x3N2ZoSFhFQmxjaWFxVHoxUjJhRUNnMjlDTEF5Tkh0THowdkh6MVRhVEx1c2JpdlZPOEZHMHZaRUNxVnNPSF91VVRJaldBSURUVTRhQTh4TDNXemphbkFIOTJ5bmZtVDNTalFUbkI3YVAxQkhQcHI1MlliZ2d3Y1RlOFNibWNta2FHR2FsdTR3YUVCUTlpSWRVN3dlOWdUQ0NwQUdNXzNtUWUzNFE2LXdkVHZaRW9pTWRjN2xyYUNnY3Rpc1dwRnE3Vl9lMlFqM3ZtSzRZNVUtbm9rS2p6NnFjdmhGeDQyYndVSEtWMHNhOW1ZR3VFMEg3T1VveXEtZHNJOUlTNkEydw?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxNWEJNNS01bFFrU3ZSV2dzZGJqd2R4TGpYZXJZcERLdXdzVlJCV0tmTmJ0WHpkcHFNY0UySkJGZkgwVUFHLU9mN2NuNmJTZzlGSlhtbFltRVRNM1J2T20yTWxNd2RBSWl5Tkk0SXBzSGd2aERPN3BWck1iVnFKWmVVNDV2TXhlRWRwdmVNbzdhUjFYdmJVYXQxeFRZZ0gxcjdYeG10Y3p6dzlmVmZhUFllam5YYVREMUhVS3NDYnk3ZzN0SVRBLW9mZDJ1TVdxUXM0UXhxQV8tTW5HZ0NJODlubVZrMExiUFB3cTIxTEh3T3pxcXNDNXFBWEJlMDExWUREaXktaWs1RFVheXFveWRxamMwdnl0Tmw0MWl2NVdaa3JTX0NoVmpTMDdyMFRfV3l1d3o2NFYzdzVrSmpDUzRfb21vWU5BRTQ0Sl9odlE3Q2IxeDRfcWZKTtIB3gJBVV95cUxPa1VCTVU5Rjh6ZEFLZThBNUE2U2FMVnlETy1aeHREOW9FTUV4TlcyZUk1NGtMYXhWYzFBeXVXYkZwY0NCTXVtelNEbmNzR2JwMjBERTN0SjVNb2xTZ0x3N2ZoSFhFQmxjaWFxVHoxUjJhRUNnMjlDTEF5Tkh0THowdkh6MVRhVEx1c2JpdlZPOEZHMHZaRUNxVnNPSF91VVRJaldBSURUVTRhQTh4TDNXemphbkFIOTJ5bmZtVDNTalFUbkI3YVAxQkhQcHI1MlliZ2d3Y1RlOFNibWNta2FHR2FsdTR3YUVCUTlpSWRVN3dlOWdUQ0NwQUdNXzNtUWUzNFE2LXdkVHZaRW9pTWRjN2xyYUNnY3Rpc1dwRnE3Vl9lMlFqM3ZtSzRZNVUtbm9rS2p6NnFjdmhGeDQyYndVSEtWMHNhOW1ZR3VFMEg3T1VveXEtZHNJOUlTNkEydw?oc=5"
+    "sourceUrl": "https://www.yacht.de/en/yachts/superyachts/sailing-yacht-a-sailing-giant-remains-impounded/",
+    "source_url": "https://www.yacht.de/en/yachts/superyachts/sailing-yacht-a-sailing-giant-remains-impounded/"
   },
   {
     "id": "art-ferrari-250-gto-de-us-10-milhoes-3378",
@@ -1025,7 +1025,7 @@ export const ARTICLES = [
     "date": "14 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1661311928884-7e36f478109f?auto=format&fit=max&q=80&w=1400",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/1962_Ferrari_250_GTO_SP25.jpg/1280px-1962_Ferrari_250_GTO_SP25.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
     "imageFocus": "bottom",
     "image_focus": "bottom",
     "excerpt": "A aquisição de uma raridade histórica por valores astronômicos revela a ascensão de ativos cinéticos que operam fora da esfera pública, transformando o ato da posse em um exercício de governança patrimonial.",
@@ -1060,8 +1060,8 @@ export const ARTICLES = [
     "engineSource": "gemini:gemini-3.1-flash-lite",
     "publishedAt": "2026-11-14T15:15:43.378Z",
     "published_at": "2026-11-14T15:15:43.378Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQzJOVlZIR3E4azRiVU95amVGWXN1dHEwRmFLVC1kV2l4U2NOckktMlFvSXA5N0JYRFhSUEhyaHZWZTRyanNacEhxYUZaM3pCV0pra2RUTk9pMTdpQWdJV0FWanF4T19ZdXdraFhfcHgtRHp4Szk4TGtDVS1ySTRNSGFaTER4aDNqaE01bjM2bUpiblNVV1l5UnJB?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQzJOVlZIR3E4azRiVU95amVGWXN1dHEwRmFLVC1kV2l4U2NOckktMlFvSXA5N0JYRFhSUEhyaHZWZTRyanNacEhxYUZaM3pCV0pra2RUTk9pMTdpQWdJV0FWanF4T19ZdXdraFhfcHgtRHp4Szk4TGtDVS1ySTRNSGFaTER4aDNqaE01bjM2bUpiblNVV1l5UnJB?oc=5"
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ferrari_250_GTO",
+    "source_url": "https://en.wikipedia.org/wiki/Ferrari_250_GTO"
   },
   {
     "id": "art-perini-navi-bayesian-o-naufragio-3994",
@@ -1077,7 +1077,7 @@ export const ARTICLES = [
     "date": "14 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1781872324499-e51350ed640e?auto=format&fit=max&q=80&w=1400",
+    "image": "https://www.repstatic.it/content/nazionale/img/2026/11/13/163835495-87817a53-8304-41eb-8aa3-2837ec3c4bcc.jpg",
     "imageFocus": "center",
     "image_focus": "center",
     "excerpt": "Investigadores italianos concluem que falhas de projeto naval não causaram a tragédia que levou à morte de sete pessoas, incluindo o bilionário Mike Lynch, redirecionando o foco para a gestão de risco a bordo.",
@@ -1112,8 +1112,8 @@ export const ARTICLES = [
     "engineSource": "gemini:gemini-flash-lite-latest",
     "publishedAt": "2026-11-14T04:39:43.994Z",
     "published_at": "2026-11-14T04:39:43.994Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUmdGYmN4eTBILXN3VWg3T29yb0wwaURXZ3BKN21sNEFhVi1sX3RCSUVteGlGMmNNOXZlcnY4QVNUQWtzUjY5aDVuSU1OcDFGVnRfcjV6TF82ZVpKczl3eGhZbXM3ODdIR1pTUnZqbHc2T0hqNWZxcjFuSi11aTkybW14cWJxNF9MTDlQbTF6bWJscVgyeG1TWmpQdjRfMWxUejh5X05COHpicjRMeVNUZ2dnZ0ZOblpPdVRpTTYxSkM1QdIBxwFBVV95cUxNQlUyX05oTVJVenRrZ1V2RnYzeUVqQ191X0E5WWRiajQ2TjJNUFFZRmxIQ1pNbnpxLTUzTjVHcmhXLWlBNVBqTEhuNFVvNVgyX25DMjZOckdSdjhvVFFPME1NM2hlci1iV2tBcDZCUDQydjZHTlNidlV1ei1JWExXaGRQc2JrMWFwSGJDWmNUZEcxQkRjSkF3SEduVlJNQVo5UGpJZXAxWUMtUnJmbGpJWFNJcnkzUWNpdHpoeUVpSWhPRGdRZWJ3?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUmdGYmN4eTBILXN3VWg3T29yb0wwaURXZ3BKN21sNEFhVi1sX3RCSUVteGlGMmNNOXZlcnY4QVNUQWtzUjY5aDVuSU1OcDFGVnRfcjV6TF82ZVpKczl3eGhZbXM3ODdIR1pTUnZqbHc2T0hqNWZxcjFuSi11aTkybW14cWJxNF9MTDlQbTF6bWJscVgyeG1TWmpQdjRfMWxUejh5X05COHpicjRMeVNUZ2dnZ0ZOblpPdVRpTTYxSkM1QdIBxwFBVV95cUxNQlUyX05oTVJVenRrZ1V2RnYzeUVqQ191X0E5WWRiajQ2TjJNUFFZRmxIQ1pNbnpxLTUzTjVHcmhXLWlBNVBqTEhuNFVvNVgyX25DMjZOckdSdjhvVFFPME1NM2hlci1iV2tBcDZCUDQydjZHTlNidlV1ei1JWExXaGRQc2JrMWFwSGJDWmNUZEcxQkRjSkF3SEduVlJNQVo5UGpJZXAxWUMtUnJmbGpJWFNJcnkzUWNpdHpoeUVpSWhPRGdRZWJ3?oc=5"
+    "sourceUrl": "https://www.repubblica.it/en/europe/news/2026/11/13/news/bayesian_yacht_sinking_design_flaws-425721407/",
+    "source_url": "https://www.repubblica.it/en/europe/news/2026/11/13/news/bayesian_yacht_sinking_design_flaws-425721407/"
   },
   {
     "id": "art-ferrari-sp12-ec-a-obra-prima-uni-7247",
@@ -1181,7 +1181,7 @@ export const ARTICLES = [
     "date": "13 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=max&q=80&w=1400",
+    "image": "https://yachtway.com/news/content/images/size/w1200/2026/11/lt-lt-front.jpg",
     "imageFocus": "center",
     "image_focus": "center",
     "excerpt": "A soberania náutica exige intolerância absoluta ao tempo de inatividade. A Lürssen estabelece uma base permanente na Espanha com despacho aéreo imediato de engenheiros navais e ligas de Inconel.",
@@ -1216,8 +1216,8 @@ export const ARTICLES = [
     "engineSource": "gemini:gemini-flash-lite-latest",
     "publishedAt": "2026-11-13T18:29:29.499Z",
     "published_at": "2026-11-13T18:29:29.499Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYldvMWo5YVpGSGc0SHFkclV4X0NndnhuX0EwamNLb2k5d1g3bWkxanRiTkhkcjlXQWNmZjlldnBZV2JScVJVMkc4c0RFNzhjY1lfR0ZBVGh2bGpyOW4yRHEyUWlKcWs3cGRrS0lZMl9ZOWIyZV9ITXpHZm1IV2Uwbk9SVWw?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYldvMWo5YVpGSGc0SHFkclV4X0NndnhuX0EwamNLb2k5d1g3bWkxanRiTkhkcjlXQWNmZjlldnBZV2JScVJVMkc4c0RFNzhjY1lfR0ZBVGh2bGpyOW4yRHEyUWlKcWs3cGRrS0lZMl9ZOWIyZV9ITXpHZm1IV2Uwbk9SVWw?oc=5"
+    "sourceUrl": "https://yachtway.com/news/lurssen-opens-service-center-tarragona-spain/",
+    "source_url": "https://yachtway.com/news/lurssen-opens-service-center-tarragona-spain/"
   },
   {
     "id": "art-diamante-bulgari-rosa-os-24-quil-2565",
@@ -1337,7 +1337,7 @@ export const ARTICLES = [
     "date": "12 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=max&q=80&w=1400",
+    "image": "https://unn.ua/img/2026/01/11/1768174805-2652-large.webp",
     "imageFocus": "bottom",
     "image_focus": "bottom",
     "excerpt": "Enquanto o mercado financeiro reavalia a resiliência patrimonial da marca de Maranello, a engenharia da Ferrari reafirma sua hegemonia através de tolerâncias de mícrons e fluxos de Venturi que desafiam a obsolescência programada do setor automotivo.",
@@ -1372,8 +1372,8 @@ export const ARTICLES = [
     "engineSource": "gemini:gemini-3.1-flash-lite",
     "publishedAt": "2026-11-12T18:25:32.573Z",
     "published_at": "2026-11-12T18:25:32.573Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYW5pOTQxaE5SN3hPaloxQkF5dHExaEt0TVJBS0ZUSE9wWkc3UXZZdFNkLUprdmVvaHROYTNDQ3ZkUlVnbllhQ3dWQ2xTUUtzZE9JU2tiTjJyMy1RZS1yNkl4bGNLc3BwZllPVjl1RXBjNzVCUEVkaWlBblpua183MUJxeTY0REVIa0dtRk9VMWNOMXlLVGEyaUcyX05YTFJEOFd5SDFZTWhvUWZuczVwLW51TlhYMW9L?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYW5pOTQxaE5SN3hPaloxQkF5dHExaEt0TVJBS0ZUSE9wWkc3UXZZdFNkLUprdmVvaHROYTNDQ3ZkUlVnbllhQ3dWQ2xTUUtzZE9JU2tiTjJyMy1RZS1yNkl4bGNLc3BwZllPVjl1RXBjNzVCUEVkaWlBblpua183MUJxeTY0REVIa0dtRk9VMWNOMXlLVGEyaUcyX05YTFJEOFd5SDFZTWhvUWZuczVwLW51TlhYMW9L?oc=5"
+    "sourceUrl": "https://unn.ua/en/news/ferrari-12cilindri-becomes-an-investment-object-first-units-resold-for-dollar700000",
+    "source_url": "https://unn.ua/en/news/ferrari-12cilindri-becomes-an-investment-object-first-units-resold-for-dollar700000"
   },
   {
     "id": "art-mercedes-maybach-project-serie-1-1075",
@@ -1389,7 +1389,7 @@ export const ARTICLES = [
     "date": "12 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1614350391736-ed8619d63c06?auto=format&fit=max&q=80&w=1400",
+    "image": "https://www.yacht.com/wp-content/uploads/2026/01/maybach-ocean-club.webp",
     "imageFocus": "center",
     "image_focus": "center",
     "excerpt": "A incursão estática da divisão de ultra-luxo na arquitetura naval exige soberania financeira e engenharia de fluidos sem concessões para navegar.",
@@ -1424,8 +1424,8 @@ export const ARTICLES = [
     "engineSource": "gemini:gemini-flash-lite-latest",
     "publishedAt": "2026-11-12T11:17:41.075Z",
     "published_at": "2026-11-12T11:17:41.075Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNmNjWnJBTzdwcms2dTNENUpNMENSalhDUXExdXZDVVE3VVZSWHo4cG9xMWVxN1lZcmtKWGpibl9WYVE0YXZqUWZ5U29ISG45QkxGdmttaXlheFl2MlJzWE4tZV9qZnZWY3pJQlo1b0lSRF9xcFFZeGhzUWVCSnhqVA?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNmNjWnJBTzdwcms2dTNENUpNMENSalhDUXExdXZDVVE3VVZSWHo4cG9xMWVxN1lZcmtKWGpibl9WYVE0YXZqUWZ5U29ISG45QkxGdmttaXlheFl2MlJzWE4tZV9qZnZWY3pJQlo1b0lSRF9xcFFZeGhzUWVCSnhqVA?oc=5"
+    "sourceUrl": "https://www.yacht.com/mercedes-maybach-ocean-club-superyacht/",
+    "source_url": "https://www.yacht.com/mercedes-maybach-ocean-club-superyacht/"
   }
 ];
 
