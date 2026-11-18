@@ -458,9 +458,18 @@ export function getHomeSelection(articles) {
   }
   const identity = makeIdentity(list);
 
+  // Capa = ordem de publicação. `find(isHero)` elegia a primeira bandeira da lista,
+  // e o armazenamento do leitor guarda matérias que saíram do acervo carregando o
+  // isHero vivo: viravam a capa para sempre, em todo leitor que já voltou ao site,
+  // por mais matéria nova que o robô publicasse. Entre as marcadas como destaque,
+  // quem manda é a publicada mais recente; sem marca nenhuma, a mais recente.
+  // O pino manual do editor (AdminPage -> placement 'pin') continua em primeiro
+  // lugar e a importação 'para o feed, capa mantida' continua com a sua capa.
+  const comDestaque = list.filter(a => a.isHero || a.is_hero);
+  const porData = (a, b) => publicationTime(b) - publicationTime(a);
   const main = list.find(a => a.isPinnedHero || a.is_pinned_hero)
-    || list.find(a => a.isHero || a.is_hero)
-    || list[0];
+    || [...comDestaque].sort(porData)[0]
+    || [...list].sort(porData)[0];
 
   const strip = takeFresh(
     list.filter(a => a.isHeroSecondary || a.is_hero_secondary || a.isHero || a.is_hero),
