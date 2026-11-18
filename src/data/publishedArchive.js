@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-grotti-cheetah-os-seis-chassis-de-1-milhao-4417",
+    "slug": "grotti-cheetah-os-seis-chassis-de-1-milhao-cobram-onze-vezes-o-arremate-do-testarossa-que-imitam-4417",
+    "title": "Grotti Cheetah: Os Seis Chassis de £1 Milhão Cobram Onze Vezes o Arremate do Testarossa que Imitam",
+    "image": "https://www.thesupercarblog.com/wp-content/uploads/2026/11/GTA-6-Grotti-Cheetah-Ferrari-Testarossa-1.jpg",
+    "sourceUrl": "https://www.thesupercarblog.com/real-life-gta-6-grotti-cheetah-ferrari-testarossa-replica-on-sale-for-1m/",
+    "categorySlug": "supercarros",
+    "authorSlug": "henrique-vianna",
+    "publishedAt": "2026-11-18T00:55:44.989Z"
+  },
+  {
     "id": "art-superiates-de-elite-a-fortaleza--4214",
     "slug": "superiates-de-elite-a-fortaleza-flutuante-de-14-modulos-de-comando-que-integra-sala-de-jogos-de-alta-fidelidade-3716",
     "title": "Superiates de Elite: A Fortaleza Flutuante de 14 Módulos de Comando que Integra Sala de Jogos de Alta Fidelidade",

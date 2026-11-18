@@ -116,6 +116,61 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-grotti-cheetah-os-seis-chassis-de-1-milhao-4417",
+    "slug": "grotti-cheetah-os-seis-chassis-de-1-milhao-cobram-onze-vezes-o-arremate-do-testarossa-que-imitam-4417",
+    "title": "Grotti Cheetah: Os Seis Chassis de £1 Milhão Cobram Onze Vezes o Arremate do Testarossa que Imitam",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "henrique-vianna",
+    "author_slug": "henrique-vianna",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "17 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://www.thesupercarblog.com/wp-content/uploads/2026/11/GTA-6-Grotti-Cheetah-Ferrari-Testarossa-1.jpg",
+    "imageFocus": "bottom",
+    "image_focus": "bottom",
+    "excerpt": "A Corner Shop da Selfridges na Oxford Street põe à venda por £ 1.000.000 uma das seis réplicas que a Rockstar encomendou à West Coast Customs. Sem chassi certificado, sem escritura e sem arquivo de custódia, o objeto é precificado de seis a onze vezes acima do arremate do Testarossa que representa.",
+    "contentParagraphs": [
+      "Há uma assimetria que nenhum comitê de alocação conseguiria registrar em ata. Entre € 99.600 e € 175.400, um colecionador arremata hoje um Ferrari Testarossa autêntico: bloco Tipo F113 de 4,9 litros e doze cilindros opostos, 390 cv a 6.300 rpm, carroceria desenhada na Pininfarina e quatro décadas de caderno de custódia reconstruíveis por escritura. Por £ 1.000.000, cerca de € 1,1 milhão, a Selfridges oferece na Oxford Street um objeto sem número de chassi publicável, sem fábrica que o registre e sem arquivo que o testemunhe.",
+      "A peça é uma das seis réplicas físicas do Grotti Cheetah, o carro fictício de Grand Theft Auto VI, construídas na Califórnia pela West Coast Customs por encomenda da Rockstar. A coleção inclui ainda leituras reais de modelos de Lamborghini, McLaren, Chevrolet, Cadillac e Buick. Esta unidade foi trazida de Miami, veste pintura azul e rosa e conserva os faróis escamoteáveis que o desenho de 1984 consagrou — reverência mecânica a um carro que a casa de Maranello produziria por uma fração do valor pedido.",
+      "A operação tem janela: vinte dias. A Corner Shop da Selfridges ocupa o piso da Oxford Street de 9 a 28 de novembro, com moda assinada, mercadoria de tiragem limitada e o carro no centro. É um ativo cuja vitrine dura menos que o prazo de uma due diligence patrimonial séria, e cuja liquidez depende de um mercado secundário que ainda não existe — o primeiro exemplar à venda ainda não teve de provar que se revende.",
+      "O valor fiduciário de um bem histórico não reside na matéria, e sim na linhagem documental que o acompanha. Um Testarossa com ficha de chassi, histórico de propriedade ininterrupto e caderno de manutenção entra em praça com expectativa de liquidez em qualquer década do século. Uma réplica comissionada para publicidade de um lançamento de videogame tem um comprador provável e uma única temporada; depois do fechamento da loja, resta o objeto e o silêncio dos arquivos sobre ele.",
+      "O número que interessa não é o preço, é a razão: entre seis e onze vezes o topo do mercado do carro real que a cópia representa. Paga-se a diferença pela presença momentânea num ciclo de atenção que se extingue em 28 de novembro. Fortunas dinásticas não compram vitrine; compram aquilo que dispensa explicação depois que a loja fecha."
+    ],
+    "content_paragraphs": [
+      "Há uma assimetria que nenhum comitê de alocação conseguiria registrar em ata. Entre € 99.600 e € 175.400, um colecionador arremata hoje um Ferrari Testarossa autêntico: bloco Tipo F113 de 4,9 litros e doze cilindros opostos, 390 cv a 6.300 rpm, carroceria desenhada na Pininfarina e quatro décadas de caderno de custódia reconstruíveis por escritura. Por £ 1.000.000, cerca de € 1,1 milhão, a Selfridges oferece na Oxford Street um objeto sem número de chassi publicável, sem fábrica que o registre e sem arquivo que o testemunhe.",
+      "A peça é uma das seis réplicas físicas do Grotti Cheetah, o carro fictício de Grand Theft Auto VI, construídas na Califórnia pela West Coast Customs por encomenda da Rockstar. A coleção inclui ainda leituras reais de modelos de Lamborghini, McLaren, Chevrolet, Cadillac e Buick. Esta unidade foi trazida de Miami, veste pintura azul e rosa e conserva os faróis escamoteáveis que o desenho de 1984 consagrou — reverência mecânica a um carro que a casa de Maranello produziria por uma fração do valor pedido.",
+      "A operação tem janela: vinte dias. A Corner Shop da Selfridges ocupa o piso da Oxford Street de 9 a 28 de novembro, com moda assinada, mercadoria de tiragem limitada e o carro no centro. É um ativo cuja vitrine dura menos que o prazo de uma due diligence patrimonial séria, e cuja liquidez depende de um mercado secundário que ainda não existe — o primeiro exemplar à venda ainda não teve de provar que se revende.",
+      "O valor fiduciário de um bem histórico não reside na matéria, e sim na linhagem documental que o acompanha. Um Testarossa com ficha de chassi, histórico de propriedade ininterrupto e caderno de manutenção entra em praça com expectativa de liquidez em qualquer década do século. Uma réplica comissionada para publicidade de um lançamento de videogame tem um comprador provável e uma única temporada; depois do fechamento da loja, resta o objeto e o silêncio dos arquivos sobre ele.",
+      "O número que interessa não é o preço, é a razão: entre seis e onze vezes o topo do mercado do carro real que a cópia representa. Paga-se a diferença pela presença momentânea num ciclo de atenção que se extingue em 28 de novembro. Fortunas dinásticas não compram vitrine; compram aquilo que dispensa explicação depois que a loja fecha."
+    ],
+    "specs": {
+      "Objeto": "Grotti Cheetah — réplica física do veículo de Grand Theft Auto VI",
+      "Tiragem": "Seis unidades na coleção comissionada pela Rockstar",
+      "Manufatura": "West Coast Customs, Califórnia",
+      "Preço de vitrine": "£ 1.000.000 (cerca de € 1,1 milhão)",
+      "Janela na Selfridges": "9 a 28 de novembro, Oxford Street, Londres",
+      "Referência do carro real": "Testarossa arrematado entre € 99.600 e € 175.400"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 87,
+    "ranking_score": 87,
+    "engineSource": "qoder:agente-editorial",
+    "publishedAt": "2026-11-18T00:55:44.989Z",
+    "published_at": "2026-11-18T00:55:44.989Z",
+    "sourceUrl": "https://www.thesupercarblog.com/real-life-gta-6-grotti-cheetah-ferrari-testarossa-replica-on-sale-for-1m/",
+    "source_url": "https://www.thesupercarblog.com/real-life-gta-6-grotti-cheetah-ferrari-testarossa-replica-on-sale-for-1m/"
+  },
+  {
     "id": "art-superiates-de-elite-a-fortaleza--4214",
     "slug": "superiates-de-elite-a-fortaleza-flutuante-de-14-modulos-de-comando-que-integra-sala-de-jogos-de-alta-fidelidade-3716",
     "title": "Superiates de Elite: A Fortaleza Flutuante de 14 Módulos de Comando que Integra Sala de Jogos de Alta Fidelidade",
@@ -258,8 +313,8 @@ export const ARTICLES = [
       "Estrutura": "Aço de alta resistência e liga de alumínio naval"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
+    "isHero": false,
+    "is_hero": false,
     "isHeroSecondary": false,
     "is_hero_secondary": false,
     "isPinnedHero": false,
@@ -1370,58 +1425,6 @@ export const ARTICLES = [
     "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSlU5ZDhRQkk5b3NsMHlQMTUxOHAyUUxvYml4QVZtLUU1RFItcnlKSXhtTVJiR1NFWjNRVWJ6emcyaWg2bVFxNnUxaFo4RDI2YWFsZ0dSTWNKVVdjbTU3NEJrc1JTM3MwOXZUTThUMXlXeHd1X09rQUFTS1FlcVRteDB0TUxhSHg3UXF2RHFMRkNwTkFE?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSlU5ZDhRQkk5b3NsMHlQMTUxOHAyUUxvYml4QVZtLUU1RFItcnlKSXhtTVJiR1NFWjNRVWJ6emcyaWg2bVFxNnUxaFo4RDI2YWFsZ0dSTWNKVVdjbTU3NEJrc1JTM3MwOXZUTThUMXlXeHd1X09rQUFTS1FlcVRteDB0TUxhSHg3UXF2RHFMRkNwTkFE?oc=5"
   },
-  {
-    "id": "art-leilao-christies-a-nova-geracao--6413",
-    "slug": "leilao-christies-a-nova-geracao-e-a-ascensao-dos-calibres-de-proveniencia-historica-em-recordes-de-liquidez-6398",
-    "title": "Leilão Christie’s: A Nova Geração e a Ascensão dos Calibres de Proveniência Histórica em Recordes de Liquidez",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "category_slug": "relogios",
-    "authorSlug": "clara-meirelles",
-    "author_slug": "clara-meirelles",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "11 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "O mercado de alta relojoaria testemunha uma mudança tectônica: colecionadores emergentes abandonam a volatilidade digital em busca da solidez matemática dos calibres de manufatura.",
-    "contentParagraphs": [
-      "O silêncio do martelo na Christie’s não ecoou apenas o valor das transações, mas o peso de uma nova linhagem de custódia. Jovens colecionadores, antes deslumbrados pelo efêmero, agora voltam seus olhares para a Vallée de Joux. O tempo, para estes novos guardiões, não é uma medida utilitária. É um ativo de soberania patrimonial preservado sob o vidro de safira.",
-      "A análise técnica revela uma preferência por calibres de manufatura com anglage meticulosa, executada com buril de aço em pontes tratadas termicamente. Observamos uma busca incessante por peças com esmalte Grand Feu, cuja estabilidade cromática resiste aos séculos a 820°C. Cada engrenagem, polida à exaustão, atua como um refúgio de liquidez contra a inflação das moedas fiduciárias.",
-      "Historicamente, a aquisição de um cronógrafo de rara tiragem equivalia a um rito de passagem para a maturidade financeira. Hoje, a precocidade desta curadoria surpreende os veteranos do setor, que viam na alta relojoaria um refúgio exclusivo de herdeiros. A escassez matemática dos modelos apresentados em leilão atua como uma barreira natural contra a entrada de capital especulativo desprovido de cultura técnica.",
-      "O veredito é definitivo: a relojoaria de alta complexidade consolidou-se como o alicerce de qualquer portfólio que almeje a imunidade temporal. Enquanto o mundo se perde em telas táteis destinadas à obsolescência, o colecionador consciente investe na longevidade do linho encerado em cera virgem e na precisão dos balanços compensados. A história está sendo reescrita em décimos de milímetro."
-    ],
-    "content_paragraphs": [
-      "O silêncio do martelo na Christie’s não ecoou apenas o valor das transações, mas o peso de uma nova linhagem de custódia. Jovens colecionadores, antes deslumbrados pelo efêmero, agora voltam seus olhares para a Vallée de Joux. O tempo, para estes novos guardiões, não é uma medida utilitária. É um ativo de soberania patrimonial preservado sob o vidro de safira.",
-      "A análise técnica revela uma preferência por calibres de manufatura com anglage meticulosa, executada com buril de aço em pontes tratadas termicamente. Observamos uma busca incessante por peças com esmalte Grand Feu, cuja estabilidade cromática resiste aos séculos a 820°C. Cada engrenagem, polida à exaustão, atua como um refúgio de liquidez contra a inflação das moedas fiduciárias.",
-      "Historicamente, a aquisição de um cronógrafo de rara tiragem equivalia a um rito de passagem para a maturidade financeira. Hoje, a precocidade desta curadoria surpreende os veteranos do setor, que viam na alta relojoaria um refúgio exclusivo de herdeiros. A escassez matemática dos modelos apresentados em leilão atua como uma barreira natural contra a entrada de capital especulativo desprovido de cultura técnica.",
-      "O veredito é definitivo: a relojoaria de alta complexidade consolidou-se como o alicerce de qualquer portfólio que almeje a imunidade temporal. Enquanto o mundo se perde em telas táteis destinadas à obsolescência, o colecionador consciente investe na longevidade do linho encerado em cera virgem e na precisão dos balanços compensados. A história está sendo reescrita em décimos de milímetro."
-    ],
-    "specs": {
-      "Instituição": "Christie's Watches",
-      "Foco": "Calibres de manufatura e peças de alta complexidade",
-      "Perfil do Comprador": "Nova geração de colecionadores (High-Net-Worth Individuals)",
-      "Critério de Valor": "Proveniência, estado de conservação e raridade mecânica",
-      "Tendência": "Migração de ativos digitais para relojoaria de patrimônio"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "engineSource": "gemini:gemini-3.1-flash-lite",
-    "publishedAt": "2026-11-11T22:13:46.412Z",
-    "published_at": "2026-11-11T22:13:46.412Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVE1SdXc1UWt2VWRJa2RpMldic2FkYTBRd1hnYTNuLV80TUIybjBSdEh0a29aREFQZXY3RU4wSnhHNmJRU25HdTc3Mk5tOFZnaVo4aTBhUVpmZDJqNWxmUmlrQ1hGRGFENDJYSEJ4cVljamRxOWZwWDNQRmgtanpKb01ZM0FDTUhnVUtIWkk5MmtrNzRWTVE?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVE1SdXc1UWt2VWRJa2RpMldic2FkYTBRd1hnYTNuLV80TUIybjBSdEh0a29aREFQZXY3RU4wSnhHNmJRU25HdTc3Mk5tOFZnaVo4aTBhUVpmZDJqNWxmUmlrQ1hGRGFENDJYSEJ4cVljamRxOWZwWDNQRmgtanpKb01ZM0FDTUhnVUtIWkk5MmtrNzRWTVE?oc=5"
-  }
 ];
 
 export const FILMSTRIP_ITEMS = [
