@@ -116,6 +116,63 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-aruby-abeking-rasmussen-primeiro-de-serie-6217",
+    "slug": "aruby-abeking-rasmussen-primeiro-iate-de-serie-em-115-anos-70-metros-e-cinco-motores-diesel-eletricos-de-650-kw",
+    "title": "Aruby: O Primeiro Iate de Série em 115 Anos da Abeking & Rasmussen — 70 Metros, 1.770 GT e Cinco Motores Diesel-Elétricos de 650 kW",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "18 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://cdn.boatinternational.com/convert/files/2026/08/b8483460-9bbd-11f1-a019-f96d05b0f592-Aruby-exterior-light-blue.jpg/r%5Bwidth%5D=1920/b8483460-9bbd-11f1-a019-f96d05b0f592-Aruby-exterior-light-blue.jpg",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Depois de 115 anos de cascos exclusivos, a Abeking & Rasmussen põe na água o Aruby: 70 metros, 1.770 GT, propulsão diesel-elétrica com cinco motores de aproximadamente 650 kW em pod drives, bateria de 150 kWh para silêncio ao fundear e autonomia de 4.500 milhas náuticas a 12,5 nós.",
+    "contentParagraphs": [
+      "O estaleiro alemão Abeking & Rasmussen passou 115 anos fazendo exatamente o que cada armador pedia, um casco por vez, do zero. Em 2026, a casa inverte o próprio manual e apresenta o Aruby, seu primeiro iate de série: 70 metros de comprimento, arqueação bruta de aproximadamente 1.770 GT e uma plataforma pré-engenheirada que leva o comprador direto para a fase de construção. O argumento não é velocidade de cruzeiro nem salão maior; é tempo. 'Aruby é a nossa resposta ao desejo do armador moderno pela mais alta qualidade sem os prazos típicos de desenvolvimento', disse Till von Krause, diretor de vendas de iates do estaleiro. Em vez de montar um time de projeto do zero, o cliente compra um casco que já passou por meses de planejamento técnico.",
+      "Sob o convés, a arquitetura de propulsão é a parte que merece ser lida com calma. O Aruby trabalha com sistema diesel-elétrico 'future-fuel ready', acionando hélices em pod drives por meio de cinco motores principais de aproximadamente 650 kW cada. Um banco de baterias de 150 kWh garante operação silenciosa e sem emissões quando o iate está fundeado — o estado em que um casco deste porte passa a maior parte da vida. O conjunto entrega 12,5 nós de cruzeiro, 16 nós de máxima e autonomia de 4.500 milhas náuticas, com a casa de máquinas concentrada em um único nível para devolver volume ao hóspede. 'Toda decisão técnica no Aruby segue um princípio: desempenho com propósito', resume o diretor de operações Björn Schlüter.",
+      "A suíte do armador é a medida que separa este projeto de um conceito de vitrine. São 90 metros quadrados no convés principal ocupando os 12,3 metros de boca do casco, com escritório privativo na entrada, dois closets walk-in e dois balcões privativos — um de cada lado —, além de banheira independente numa casa de banho conjugada. Os demais hóspedes se distribuem por duas cabines duplas e duas twin no convés inferior, mais uma suíte VIP de 24 metros quadrados no convés da ponte, com balcão próprio e janelas de piso a teto. É layout de uso real, não de folheto: cada metro foi contado para que a circulação funcione no dia a dia e não apenas na foto aérea.",
+      "A vida a bordo foi organizada em torno de dois convés que trabalham em turnos opostos. No convés principal, a popa traz uma piscina de 2,4 por 5,2 metros ladeada por escadas que descem até a plataforma de banho ao nível do mar, onde o beach club funciona como academia, spa e área de massagem. No solário, uma piscina de spa voltada para a proa recebe a primeira luz do dia, e a mesa de jantar acomoda 12 pessoas. À noite, o convés da ponte vira cinema ao ar livre, com lounge rebaixado em volta de um firepit. 'O beach club é o centro natural da vida a bordo', definiu a designer Pascale Reymond. 'Fica logo atrás das cabines, o que permite passar da suíte para o mar sem desvio.'",
+      "O desenho externo e interno é assinatura do Reymond Langton Design, estúdio que trabalha com o estaleiro há 25 anos, enquanto a arquitetura naval foi desenvolvida inteiramente dentro de casa — combinação que explica a coerência do casco. O nome vem do rubi, pedra associada a 'força imensa e longevidade', e a metáfora orienta desde as linhas até a paleta de materiais. Na operação, a separação entre tripulação e hóspedes foi tratada como premissa: escada de serviço dedicada, despensas nos convés principal e superior, alojamento da tripulação à frente da ponte e cozinha no convés inferior. 'Aruby é um caminho turnkey para a propriedade. Pronto para construir, sem exigir experiência prévia em obra nova', disse Tamara Gramberg, responsável por marketing e gestão de vendas.",
+      "A leitura fria é que o estaleiro não lançou apenas um iate: publicou um método. Durante mais de um século, a Abeking & Rasmussen vendeu o casco único, ajustado ao milímetro do briefing de um armador. O Aruby vende a repetibilidade — a mesma plataforma para família, entretenimento e charter, com a promessa de cortar os meses de desenvolvimento inicial. O risco editorial é confundir padronização com perda de engenharia. Não é o caso: cinco motores de 650 kW em pod drives, 150 kWh de bateria e 4.500 milhas de autonomia são números de projeto, não de marketing. O que muda é quem paga a conta do ineditismo — e, pela primeira vez em 115 anos, esse custo deixa de cair sobre um único armador."
+    ],
+    "content_paragraphs": [
+      "O estaleiro alemão Abeking & Rasmussen passou 115 anos fazendo exatamente o que cada armador pedia, um casco por vez, do zero. Em 2026, a casa inverte o próprio manual e apresenta o Aruby, seu primeiro iate de série: 70 metros de comprimento, arqueação bruta de aproximadamente 1.770 GT e uma plataforma pré-engenheirada que leva o comprador direto para a fase de construção. O argumento não é velocidade de cruzeiro nem salão maior; é tempo. 'Aruby é a nossa resposta ao desejo do armador moderno pela mais alta qualidade sem os prazos típicos de desenvolvimento', disse Till von Krause, diretor de vendas de iates do estaleiro. Em vez de montar um time de projeto do zero, o cliente compra um casco que já passou por meses de planejamento técnico.",
+      "Sob o convés, a arquitetura de propulsão é a parte que merece ser lida com calma. O Aruby trabalha com sistema diesel-elétrico 'future-fuel ready', acionando hélices em pod drives por meio de cinco motores principais de aproximadamente 650 kW cada. Um banco de baterias de 150 kWh garante operação silenciosa e sem emissões quando o iate está fundeado — o estado em que um casco deste porte passa a maior parte da vida. O conjunto entrega 12,5 nós de cruzeiro, 16 nós de máxima e autonomia de 4.500 milhas náuticas, com a casa de máquinas concentrada em um único nível para devolver volume ao hóspede. 'Toda decisão técnica no Aruby segue um princípio: desempenho com propósito', resume o diretor de operações Björn Schlüter.",
+      "A suíte do armador é a medida que separa este projeto de um conceito de vitrine. São 90 metros quadrados no convés principal ocupando os 12,3 metros de boca do casco, com escritório privativo na entrada, dois closets walk-in e dois balcões privativos — um de cada lado —, além de banheira independente numa casa de banho conjugada. Os demais hóspedes se distribuem por duas cabines duplas e duas twin no convés inferior, mais uma suíte VIP de 24 metros quadrados no convés da ponte, com balcão próprio e janelas de piso a teto. É layout de uso real, não de folheto: cada metro foi contado para que a circulação funcione no dia a dia e não apenas na foto aérea.",
+      "A vida a bordo foi organizada em torno de dois convés que trabalham em turnos opostos. No convés principal, a popa traz uma piscina de 2,4 por 5,2 metros ladeada por escadas que descem até a plataforma de banho ao nível do mar, onde o beach club funciona como academia, spa e área de massagem. No solário, uma piscina de spa voltada para a proa recebe a primeira luz do dia, e a mesa de jantar acomoda 12 pessoas. À noite, o convés da ponte vira cinema ao ar livre, com lounge rebaixado em volta de um firepit. 'O beach club é o centro natural da vida a bordo', definiu a designer Pascale Reymond. 'Fica logo atrás das cabines, o que permite passar da suíte para o mar sem desvio.'",
+      "O desenho externo e interno é assinatura do Reymond Langton Design, estúdio que trabalha com o estaleiro há 25 anos, enquanto a arquitetura naval foi desenvolvida inteiramente dentro de casa — combinação que explica a coerência do casco. O nome vem do rubi, pedra associada a 'força imensa e longevidade', e a metáfora orienta desde as linhas até a paleta de materiais. Na operação, a separação entre tripulação e hóspedes foi tratada como premissa: escada de serviço dedicada, despensas nos convés principal e superior, alojamento da tripulação à frente da ponte e cozinha no convés inferior. 'Aruby é um caminho turnkey para a propriedade. Pronto para construir, sem exigir experiência prévia em obra nova', disse Tamara Gramberg, responsável por marketing e gestão de vendas.",
+      "A leitura fria é que o estaleiro não lançou apenas um iate: publicou um método. Durante mais de um século, a Abeking & Rasmussen vendeu o casco único, ajustado ao milímetro do briefing de um armador. O Aruby vende a repetibilidade — a mesma plataforma para família, entretenimento e charter, com a promessa de cortar os meses de desenvolvimento inicial. O risco editorial é confundir padronização com perda de engenharia. Não é o caso: cinco motores de 650 kW em pod drives, 150 kWh de bateria e 4.500 milhas de autonomia são números de projeto, não de marketing. O que muda é quem paga a conta do ineditismo — e, pela primeira vez em 115 anos, esse custo deixa de cair sobre um único armador."
+    ],
+    "specs": {
+      "Comprimento / Arqueação": "70 metros (229 pés) · aproximadamente 1.770 GT",
+      "Propulsão": "Diesel-elétrica 'future-fuel ready', pod drives, 5 motores de ~650 kW cada",
+      "Bateria / Fundeio": "150 kWh — operação silenciosa e sem emissões ao fundear",
+      "Desempenho": "12,5 nós de cruzeiro · 16 nós de máxima · 4.500 milhas náuticas",
+      "Suíte do armador": "90 m² sobre boca de 12,3 m, com dois balcões privativos",
+      "Estaleiro / Design": "Abeking & Rasmussen (Alemanha) · Reymond Langton Design · arquitetura naval em casa"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "qoder:agente-editorial",
+    "publishedAt": "2026-11-18T18:21:50.000Z",
+    "published_at": "2026-11-18T18:21:50.000Z",
+    "sourceUrl": "https://www.boatinternational.com/boat-presents/aruby-70m-series-yacht-abeking-rasmussen",
+    "source_url": "https://www.boatinternational.com/boat-presents/aruby-70m-series-yacht-abeking-rasmussen"
+  },
+  {
     "id": "art-ferrari-buyback-35591-acoes-e-118-do-capital-6284",
     "slug": "ferrari-35591-acoes-a-eur-370-52-de-media-e-1-18-do-capital-recolhido-a-tesouraria-6284",
     "title": "Ferrari: 35.591 Ações a € 370,52 de Média e 1,18% do Capital Recolhido à Tesouraria",
@@ -158,8 +215,8 @@ export const ARTICLES = [
       "Tesouraria em 13/11": "2.092.066 ações — 1,18% do capital emitido (0,89% com ações de voto especial)"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
+    "isHero": false,
+    "is_hero": false,
     "isHeroSecondary": false,
     "is_hero_secondary": false,
     "isPinnedHero": false,
@@ -1382,58 +1439,6 @@ export const ARTICLES = [
     "published_at": "2026-11-13T17:03:52.564Z",
     "sourceUrl": "https://press.christies.com/christies-presents-the-bulgari-pink/",
     "source_url": "https://press.christies.com/christies-presents-the-bulgari-pink/"
-  },
-  {
-    "id": "art-coroa-britanica-o-martelo-de-gen-8814",
-    "slug": "coroa-britanica-o-martelo-de-genebra-alcanca-42-milhoes-de-francos-com-diamantes-de-proveniencia-real-e-ouro-nativo-8386",
-    "title": "Coroa Britânica: O Martelo de Genebra Alcança 42 Milhões de Francos com Diamantes de Proveniência Real e Ouro Nativo",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "13 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://royalwatcherblog.com/wp-content/uploads/2026/11/8-.jpg",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A soberania patrimonial encontra refúgio em leilões de alta custódia onde a procedência dinástica dita o silêncio mineral dos ativos imunes.",
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nos salões blindados de Genebra, o linho das toalhas abafa o peso de fortunas seculares trocando de mãos. A procedência real não é mera vaidade estética; é a garantia absoluta de custódia fiduciária contra a erosão monetária.",
-      "Cada faceta dos diamantes do século XVIII carregados por Romanovs e monarcas Tudor carrega uma geometria de poder intraduzível. Historicamente, os martelos de leilão batem recordes não pela raridade da gema isolada, mas pelo rastro documental de quem a lapidou sob encomenda. O mercado absorve a história como o travertino romano absorve o calor do sol.",
-      "Family offices e fundações privadas disputam essas esferas de esmalte e platina buscando a imunidade temporal que apenas a linhagem sanguínea garante. Enquanto os índices globais oscilam ao sabor de crises sistêmicas, os cofres subterrâneos na Suíça guardam colares que resistiram a revoluções, guerras mundiais e reformas fiscais implacáveis.",
-      "A curadoria contemporânea exige rigor documental e discrição absoluta. O verdadeiro colecionador não compra adornos para uso efêmero; ele adquire parcelas atemporais de soberania patrimonial. O leilão de alta joalheria soberana consolida-se, portanto, como o mais seguro porto de abrigo para capitais que recusam o esquecimento."
-    ],
-    "content_paragraphs": [
-      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Nos salões blindados de Genebra, o linho das toalhas abafa o peso de fortunas seculares trocando de mãos. A procedência real não é mera vaidade estética; é a garantia absoluta de custódia fiduciária contra a erosão monetária.",
-      "Cada faceta dos diamantes do século XVIII carregados por Romanovs e monarcas Tudor carrega uma geometria de poder intraduzível. Historicamente, os martelos de leilão batem recordes não pela raridade da gema isolada, mas pelo rastro documental de quem a lapidou sob encomenda. O mercado absorve a história como o travertino romano absorve o calor do sol.",
-      "Family offices e fundações privadas disputam essas esferas de esmalte e platina buscando a imunidade temporal que apenas a linhagem sanguínea garante. Enquanto os índices globais oscilam ao sabor de crises sistêmicas, os cofres subterrâneos na Suíça guardam colares que resistiram a revoluções, guerras mundiais e reformas fiscais implacáveis.",
-      "A curadoria contemporânea exige rigor documental e discrição absoluta. O verdadeiro colecionador não compra adornos para uso efêmero; ele adquire parcelas atemporais de soberania patrimonial. O leilão de alta joalheria soberana consolida-se, portanto, como o mais seguro porto de abrigo para capitais que recusam o esquecimento."
-    ],
-    "specs": {
-      "proveniencia": "Dinastia Romanov / Coleção Privada Europeia",
-      "custodia": "Cofre Fiduciário Subterrâneo em Genebra",
-      "certificacao": "GIA & Análise Histórica de Proveniência",
-      "valoracao": "42.800.000 CHF (Martelo Final)",
-      "natureza_do_ativo": "Refúgio de Liquidez Dinástica"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-13T15:08:28.814Z",
-    "published_at": "2026-11-13T15:08:28.814Z",
-    "sourceUrl": "https://royalwatcherblog.com/2026-11-08/christies-magnificent-jewels-10-november-2026/",
-    "source_url": "https://royalwatcherblog.com/2026-11-08/christies-magnificent-jewels-10-november-2026/"
   },
 ];
 

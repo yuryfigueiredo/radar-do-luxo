@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-aruby-abeking-rasmussen-primeiro-de-serie-6217",
+    "slug": "aruby-abeking-rasmussen-primeiro-iate-de-serie-em-115-anos-70-metros-e-cinco-motores-diesel-eletricos-de-650-kw",
+    "title": "Aruby: O Primeiro Iate de Série em 115 Anos da Abeking & Rasmussen — 70 Metros, 1.770 GT e Cinco Motores Diesel-Elétricos de 650 kW",
+    "image": "https://cdn.boatinternational.com/convert/files/2026/08/b8483460-9bbd-11f1-a019-f96d05b0f592-Aruby-exterior-light-blue.jpg/r%5Bwidth%5D=1920/b8483460-9bbd-11f1-a019-f96d05b0f592-Aruby-exterior-light-blue.jpg",
+    "sourceUrl": "https://www.boatinternational.com/boat-presents/aruby-70m-series-yacht-abeking-rasmussen",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-18T18:21:50.000Z"
+  },
+  {
     "id": "art-ferrari-buyback-35591-acoes-e-118-do-capital-6284",
     "slug": "ferrari-35591-acoes-a-eur-370-52-de-media-e-1-18-do-capital-recolhido-a-tesouraria-6284",
     "title": "Ferrari: 35.591 Ações a € 370,52 de Média e 1,18% do Capital Recolhido à Tesouraria",
