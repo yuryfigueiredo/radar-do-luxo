@@ -417,6 +417,17 @@ export async function auditGalleryImages(gallery = [], limit = 8, orcamentoFim =
  * mesma imagem. Sem normalizar isso, o mesmo arquivo conta como três capas novas e o
  * site republica foto sem que ninguém tenha decidido republicar.
  */
+//_hosts de banco de imagem. Matéria de luxo tem foto do objeto: imprensa, leiloeiro,
+// estaleiro, fabricante, Wikimedia. Um host de banco só entrega "clima" — o prédio genérico,
+// o relógio genérico — e é isso que o leitor percebe como paredes repetidas.
+const HOSTS_DE_STOCK = [/images\.unsplash\.com$/i, /plus\.unsplash\.com$/i, /source\.unsplash\.com$/i, /images\.pexels\.com$/i, /cdn\.pixabay\.com$/i, /q\.pexels\.com$/i, /static\.vecteezy\.com$/i, /cdn\.stocksnap\.io$/i];
+
+/** A URL vem de banco de imagem genérica? */
+export function fotoDeStock(url) {
+  let h = ""; try { h = new URL(String(url)).hostname; } catch { return false; }
+  return HOSTS_DE_STOCK.some((re) => re.test(h));
+}
+
 export function chaveFoto(url) {
   const u = String(url || '').trim();
   if (!u) return '';

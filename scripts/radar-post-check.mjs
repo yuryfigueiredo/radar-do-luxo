@@ -27,7 +27,7 @@ const { ARTICLES, AUTHORS } = await import(path.join(RAIZ, 'src/data/mockData.js
 const { PUBLISHED_ARCHIVE } = await import(path.join(RAIZ, 'src/data/publishedArchive.js'));
 const { BANNED_CLICHES, HOMOLOGATED_IMAGES } = await import(path.join(RAIZ, 'src/services/aiArticleGenerator.js'));
 const { checkArticleDuplicate } = await import(path.join(RAIZ, 'src/services/radarService.js'));
-const { resolveCoverImage, fotoJaUsada, chaveFoto } = await import(path.join(RAIZ, 'scripts/coverImageAudit.js'));
+const { resolveCoverImage, fotoJaUsada, chaveFoto, fotoDeStock } = await import(path.join(RAIZ, 'scripts/coverImageAudit.js'));
 
 const falhas = [];
 const porta = (nome, ok, motivo) => {
@@ -91,8 +91,16 @@ let imgOk = true;
 if (!semRede) {
   const banco = HOMOLOGATED_IMAGES[item.categorySlug] || [];
   const audit = await resolveCoverImage(item.image, banco);
-  imgOk = Boolean(audit.medida) && audit.origin !== 'banco';
-  imgVeredito = `${audit.origin} · ${audit.note} · banco da vertical tem ${banco.length}`;
+  // origin 'banco' só aparece quando o próprio auditor cai no banco. Uma URL de banco copiada
+  // como se fosse a capa da fonte voltava medindo 'origem' e passava. Comparar pela chave da foto
+  // Pega pela chave (miniatura e arquivo inteiro são a mesma foto) e pelo host: 19 das 23 capas
+  // de banco vivas nem estavam na lista homologada — era stock avulsa escolhida a olho.
+  const chaveBanco = banco.map(chaveFoto).filter(Boolean);
+  const doBanco = chaveBanco.includes(chaveFoto(item.image)) || fotoDeStock(item.image);
+  imgOk = Boolean(audit.medida) && audit.origin !== 'banco' && !doBanco;
+  imgVeredito = doBanco
+    ? `capa é banco de imagem genérica (${new URL(item.image).host}) — a matéria pede a foto do objeto, não um fundo`
+    : `${audit.origin} · ${audit.note} · banco da vertical tem ${banco.length}`;
 }
 porta('imagem', imgOk, imgVeredito);
 

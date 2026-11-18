@@ -39,9 +39,10 @@ process.env.COVER_AUDIT_BUDGET_MS = process.env.COVER_AUDIT_BUDGET_MS || '12000'
 
 const { ARTICLES } = await import(path.join(RAIZ, 'src/data/mockData.js'));
 const { PUBLISHED_ARCHIVE } = await import(path.join(RAIZ, 'src/data/publishedArchive.js'));
-const { resolveCoverImage, fotoJaUsada, chaveFoto } = await import(path.join(RAIZ, 'scripts/coverImageAudit.js'));
+const { resolveCoverImage, fotoJaUsada, chaveFoto, fotoDeStock } = await import(path.join(RAIZ, 'scripts/coverImageAudit.js'));
 
 const tudo = [...(PUBLISHED_ARCHIVE || []), ...ARTICLES];
+const { HOMOLOGATED_IMAGES: HOMOLOGATED } = await import(path.join(RAIZ, src/services/aiArticleGenerator.js)).catch(() => ({}));
 const escolhidas = new Set();
 
 function candidatos(html, base) {
@@ -100,7 +101,11 @@ async function resolver(item) {
   return { item, status: `sem candidata (${vistos.length} testadas)`, usada };
 }
 
-const alvos = ARTICLES.filter((a) => (!soVertical || a.categorySlug === soVertical) && fotoJaUsada(a.image, tudo, a.slug).usada);
+// Alvo = o que a régua de hoje reprovaria: foto repetida OU banco de imagem genérica.
+// Medido em 17/11: das 23 capas do Unsplash, 19 nem estavam no banco homologado — era stock
+// avulso. Comparar só com a lista deixaria essas 19 no ar com o mesmo aspecto de banco.
+const reprovavel = (a) => fotoJaUsada(a.image, tudo, a.slug).usada || fotoDeStock(a.image) || (HOMOLOGATED?.[a.categorySlug] || []).map(chaveFoto).includes(chaveFoto(a.image));
+const alvos = ARTICLES.filter((a) => (!soVertical || a.categorySlug === soVertical) && reprovavel(a));
 console.log(`${alvos.length} matérias vivas com foto reaproveitada · modo ${aplica ? 'APLICANDO' : 'relatório (disco intocado)'}\n`);
 const resultados = [];
 for (let i = 0; i < alvos.length; i += CONC) {
