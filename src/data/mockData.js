@@ -535,8 +535,8 @@ export const ARTICLES = [
     "engineSource": "gemini:gemini-3.1-flash-lite",
     "publishedAt": "2026-11-17T04:49:52.337Z",
     "published_at": "2026-11-17T04:49:52.337Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbERpeUVvVjhEOGRQTjZHVkdIWnNQbnc1NU9ncnVlWFVQaFVyZUtIR1I3YllQdGtzdDR6NTZNdlhQTllsbmZkeDlhd3ZwVW5WWWZuUFhHeU5rSzZud00yOUdGMDh6U0lTYXZPVmdZT3JkVFJSSG9iZjJwNWpKeEFNbWZ5eGt5bGdlLTJQLWRySFBSLTZVblR6ZWpFUE1CSk9QMGF4RA?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbERpeUVvVjhEOGRQTjZHVkdIWnNQbnc1NU9ncnVlWFVQaFVyZUtIR1I3YllQdGtzdDR6NTZNdlhQTllsbmZkeDlhd3ZwVW5WWWZuUFhHeU5rSzZud00yOUdGMDh6U0lTYXZPVmdZT3JkVFJSSG9iZjJwNWpKeEFNbWZ5eGt5bGdlLTJQLWRySFBSLTZVblR6ZWpFUE1CSk9QMGF4RA?oc=5"
+    "sourceUrl": "https://www.artnews.com/art-news/news/van-gogh-painting-expected-to-hammer-for-record-price-at-christies-hong-kong-1234718606/",
+    "source_url": "https://www.artnews.com/art-news/news/van-gogh-painting-expected-to-hammer-for-record-price-at-christies-hong-kong-1234718606/"
   },
   {
     "id": "art-chapas-de-licenciamento-de-digit-7529",

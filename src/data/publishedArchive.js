@@ -86,7 +86,7 @@ export const PUBLISHED_ARCHIVE = [
     "slug": "vincent-van-gogh-a-incognita-de-us-50-milhoes-em-uma-semana-de-leiloes-de-us-28-bilhoes-2328",
     "title": "Vincent van Gogh: A Incógnita de US$ 50 Milhões em uma Semana de Leilões de US$ 2,8 Bilhões",
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Vincent_van_Gogh_-_Les_canots_amarr%C3%A9s.jpg/1920px-Vincent_van_Gogh_-_Les_canots_amarr%C3%A9s.jpg",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbERpeUVvVjhEOGRQTjZHVkdIWnNQbnc1NU9ncnVlWFVQaFVyZUtIR1I3YllQdGtzdDR6NTZNdlhQTllsbmZkeDlhd3ZwVW5WWWZuUFhHeU5rSzZud00yOUdGMDh6U0lTYXZPVmdZT3JkVFJSSG9iZjJwNWpKeEFNbWZ5eGt5bGdlLTJQLWRySFBSLTZVblR6ZWpFUE1CSk9QMGF4RA?oc=5",
+    "sourceUrl": "https://www.artnews.com/art-news/news/van-gogh-painting-expected-to-hammer-for-record-price-at-christies-hong-kong-1234718606/",
     "categorySlug": "arquitetura",
     "authorSlug": "henrique-vianna",
     "publishedAt": "2026-11-17T04:49:52.337Z"
