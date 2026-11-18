@@ -52,8 +52,13 @@ function candidatos(html, base) {
     let abs;
     try { abs = new URL(String(u).replace(/&amp;/g, '&'), base); } catch { return; }
     if (!/^https?:/.test(abs.href)) return;
+    // Redirector de query (?url=...) não é um arquivo: o proxy do Henry Ford respondeu 1920x1440
+    // numa passada e "banco" na seguinte. Capa que só às vezes é imagem vira capa quebrada no ar.
+    if (/[?&]url=/i.test(abs.href)) return;
     if (/\.(svg|ico)(\?|$)/i.test(abs.href)) return;
-    if (/gravatar|avatar|logo|sprite|placeholder|blank\.gif|favicon|emoji/i.test(abs.href)) return;
+    // Em 17/11 o recuperador escolheu para a matéria do SP12 EC o PNG "/brand/joyride-speed-script-v1.png":
+    // assinatura gráfica do site, 1983x793, mede como capa e passaria. Marca d'água e carimbo entram na lista.
+    if (/gravatar|avatar|logo|sprite|placeholder|blank\.gif|favicon|emoji|brand\/|watermark|stamp|\bartwork\b/i.test(abs.href)) return;
     out.push(abs.href);
   };
   push((html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)/i) || [])[1]);

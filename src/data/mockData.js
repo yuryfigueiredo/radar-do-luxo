@@ -291,7 +291,7 @@ export const ARTICLES = [
     "date": "17 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=max&q=85&w=1800",
+    "image": "https://www.thehenryford.org/images/thehenryfordlibraries/blog-images/thf90825.jpg?sfvrsn=58470582_0",
     "imageFocus": "bottom",
     "image_focus": "bottom",
     "excerpt": "O lendário elefante erguido, esculpido por Rembrandt Bugatti, emerge da sombra histórica em um leilão de raridades. Uma peça que transcende a ornamentação, consolidando a linhagem do Type 41 como o ápice da engenharia aristocrática.",
@@ -327,8 +327,8 @@ export const ARTICLES = [
     "engineSource": "gemini:gemini-3.1-flash-lite",
     "publishedAt": "2026-11-17T18:38:00.112Z",
     "published_at": "2026-11-17T18:38:00.112Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNclMwLXNPRVp5TUJ1aTJEcENHS2E2eHRjclc0QkRoMXdIRWtjel9hZFE1OXlYR2ZZd04tUW4zRHZVT1J0eGZ1RHVaSDV3czd3S01KOHVDdHRzWVVzZjRNdE9WY0hzLTRCZlFVcHBGU1JoR19NMVpQR1R5SFNlTG5iTXRKeEVxaE0?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNclMwLXNPRVp5TUJ1aTJEcENHS2E2eHRjclc0QkRoMXdIRWtjel9hZFE1OXlYR2ZZd04tUW4zRHZVT1J0eGZ1RHVaSDV3czd3S01KOHVDdHRzWVVzZjRNdE9WY0hzLTRCZlFVcHBGU1JoR19NMVpQR1R5SFNlTG5iTXRKeEVxaE0?oc=5"
+    "sourceUrl": "https://www.thehenryford.org/collections/explore/articles/1931-bugatti-type-41-royale-convertible-unmatched-style-and-luxury",
+    "source_url": "https://www.thehenryford.org/collections/explore/articles/1931-bugatti-type-41-royale-convertible-unmatched-style-and-luxury"
   },
   {
     "id": "art-superiate-de-110-metros-a-impone-2833",
@@ -396,7 +396,7 @@ export const ARTICLES = [
     "date": "17 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1766353134008-bb3b8b99ddd2?auto=format&fit=max&q=80&w=1400",
+    "image": "https://www.thesupercarblog.com/wp-content/uploads/2026/11/Bugatti-Centodieci-CR7-spotted-in-Germany-1.jpg",
     "imageFocus": "bottom",
     "image_focus": "bottom",
     "excerpt": "A rara obra-prima de tiragem de dez unidades cruza fronteiras rumo ao santuário alemão para uma intervenção cirúrgica de alta precisão em seu bloco de oito litros.",
@@ -431,8 +431,8 @@ export const ARTICLES = [
     "engineSource": "gemini:gemini-flash-lite-latest",
     "publishedAt": "2026-11-17T15:05:34.098Z",
     "published_at": "2026-11-17T15:05:34.098Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPck5LRE1oZGNycFdXanU2MHYyaEVXTVQ0ZmhVa0Uyd1RiZVJndG5jbkFOcE5pYUx4Zm9FSTByV01ReXNNbkQ5SEhhSkV4VFM1ZUJyandpb2VvU3RuZWozNjRHNWo5cVdCd2QwdHpIVElnSzZXRFM4TEdpMlp6dm5nTkpMRURWLTU0cDMtd0t0NGlNaGVGLVZGaDNFRnp4Rjd5?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPck5LRE1oZGNycFdXanU2MHYyaEVXTVQ0ZmhVa0Uyd1RiZVJndG5jbkFOcE5pYUx4Zm9FSTByV01ReXNNbkQ5SEhhSkV4VFM1ZUJyandpb2VvU3RuZWozNjRHNWo5cVdCd2QwdHpIVElnSzZXRFM4TEdpMlp6dm5nTkpMRURWLTU0cDMtd0t0NGlNaGVGLVZGaDNFRnp4Rjd5?oc=5"
+    "sourceUrl": "https://www.thesupercarblog.com/cristiano-ronaldos-bugatti-centodieci-spotted-in-germany/",
+    "source_url": "https://www.thesupercarblog.com/cristiano-ronaldos-bugatti-centodieci-spotted-in-germany/"
   },
   {
     "id": "art-abu-dhabi-mega-marina-o-novo-pol-7951",
@@ -552,7 +552,7 @@ export const ARTICLES = [
     "date": "17 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=max&q=85&w=1800",
+    "image": "https://static0.carbuzzimages.com/wordpress/wp-content/uploads/gallery-images/original/1197000/0/1197064.jpg?w=1600&h=900&fit=crop",
     "imageFocus": "center",
     "image_focus": "center",
     "excerpt": "A soberania patrimonial encontra seu refúgio mais hermético no asfalto. Placas de identificação vehicular com tiragem numérica infinitesimal entram em leilão restrito, desafiando a inflação global e testando a solidez de fundos fiduciários.",
@@ -587,8 +587,8 @@ export const ARTICLES = [
     "engineSource": "gemini:gemini-flash-lite-latest",
     "publishedAt": "2026-11-17T03:05:27.529Z",
     "published_at": "2026-11-17T03:05:27.529Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOT3F4bW9YNjZlLWhrRHlYeGlHYmFtNXpiOVhEWDI4SGg1RXlKcU5UT0xYaHozNU1RWm5GaG04dWlLZGxtUWRGVzlDQnBFa3FDUWpIMmFZMGdrWjJyLUxDTmhXZU1vZ05hSFhrdUNoVjFKTHpVT2Y1bHlXeG9saE1ya0J0MU53NDVfdmtLUkFTVy0ySS1EdW1wYkVFcjB4djg?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOT3F4bW9YNjZlLWhrRHlYeGlHYmFtNXpiOVhEWDI4SGg1RXlKcU5UT0xYaHozNU1RWm5GaG04dWlLZGxtUWRGVzlDQnBFa3FDUWpIMmFZMGdrWjJyLUxDTmhXZU1vZ05hSFhrdUNoVjFKTHpVT2Y1bHlXeG9saE1ya0J0MU53NDVfdmtLUkFTVy0ySS1EdW1wYkVFcjB4djg?oc=5"
+    "sourceUrl": "https://carbuzz.com/features/most-expensive-license-plates/",
+    "source_url": "https://carbuzz.com/features/most-expensive-license-plates/"
   },
   {
     "id": "art-superiates-de-39-milhoes-de-dola-0323",
@@ -1129,7 +1129,7 @@ export const ARTICLES = [
     "date": "14 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1660326040484-fc0cb33d0b23?auto=format&fit=max&q=80&w=1400",
+    "image": "https://www.thesupercarblog.com/wp-content/uploads/2018/09/Ferrari-SP12-EC-Eric-Clapton.jpg",
     "imageFocus": "bottom",
     "image_focus": "bottom",
     "excerpt": "Encomendada por Eric Clapton sob estrita supervisão de Maranello, esta unidade única redefine a exclusividade mecânica através de uma carroçaria modelada para honrar um ícone do passado.",
@@ -1164,8 +1164,8 @@ export const ARTICLES = [
     "engineSource": "gemini:gemini-flash-lite-latest",
     "publishedAt": "2026-11-14T03:53:47.247Z",
     "published_at": "2026-11-14T03:53:47.247Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxORy02ZGt3VnJVYnk3bGVWZUxxdHhCUTE2RGxjVjlIWVo2ZDlUMV9iYkd0akRnQ3VGc0Nvdlc1cUpxTkxZZnpIdm1sbkQ2LXJwZ0RBU3JCbkFZSUd4ZWMzR2ZmMk1heDVTaVdkbHFkOXhCUVpwYllkZ0ZTNHlwX2FOa0lLSlpaeW9pU0tHRURUWnhnbVRxQ2NjWDk5OWJJb0pHNXU4a0dMNG9EM2E1QWQwUkxvRWZ2QkY1NFAzeTJYdDYyc1RDTnV2N0VSNUY2VGZOZWgzd2lCRl84R1RLc0kyWG1OWldnZ0hYem5HX0lzY0tDMjVX0gGIAkFVX3lxTFBsbzFLdUc2YTVQZW9Ma1NfbVN6WkJGdnU0dENWVHNXVE4xSWx5MGJvYmxDdjhpci1lTzNsdV8teW91M3JRUzJ0dDg5NGUzVjB3Y3o4RDI4bjdIWlVCb1RSbnFkdUY1VEd0Ri1EUHJiNU1DUGkxUW1pWjdJYXBITXBSTEIxYVJCQUlVZVI4QXlZQjZUSlFlRnVZcXdVVDJ0b1ZpQjlkQ2VGM1dqOUo4VE1oZXZiRnBGa0t6R1FIS240cVVLWDg1a0p4ZGozZl9wM1hQbVFLUkRtX0ppbVd1N190cUFXckl5NlhQOWMzdFNZY1A4LVRKRUoxR05BWEJRaWYtYzVGdGk1NA?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxORy02ZGt3VnJVYnk3bGVWZUxxdHhCUTE2RGxjVjlIWVo2ZDlUMV9iYkd0akRnQ3VGc0Nvdlc1cUpxTkxZZnpIdm1sbkQ2LXJwZ0RBU3JCbkFZSUd4ZWMzR2ZmMk1heDVTaVdkbHFkOXhCUVpwYllkZ0ZTNHlwX2FOa0lLSlpaeW9pU0tHRURUWnhnbVRxQ2NjWDk5OWJJb0pHNXU4a0dMNG9EM2E1QWQwUkxvRWZ2QkY1NFAzeTJYdDYyc1RDTnV2N0VSNUY2VGZOZWgzd2lCRl84R1RLc0kyWG1OWldnZ0hYem5HX0lzY0tDMjVX0gGIAkFVX3lxTFBsbzFLdUc2YTVQZW9Ma1NfbVN6WkJGdnU0dENWVHNXVE4xSWx5MGJvYmxDdjhpci1lTzNsdV8teW91M3JRUzJ0dDg5NGUzVjB3Y3o4RDI4bjdIWlVCb1RSbnFkdUY1VEd0Ri1EUHJiNU1DUGkxUW1pWjdJYXBITXBSTEIxYVJCQUlVZVI4QXlZQjZUSlFlRnVZcXdVVDJ0b1ZpQjlkQ2VGM1dqOUo4VE1oZXZiRnBGa0t6R1FIS240cVVLWDg1a0p4ZGozZl9wM1hQbVFLUkRtX0ppbVd1N190cUFXckl5NlhQOWMzdFNZY1A4LVRKRUoxR05BWEJRaWYtYzVGdGk1NA?oc=5"
+    "sourceUrl": "https://www.thesupercarblog.com/eric-claptons-ferrari-sp12-ec-is-inspired-by-the-512-bb/",
+    "source_url": "https://www.thesupercarblog.com/eric-claptons-ferrari-sp12-ec-is-inspired-by-the-512-bb/"
   },
   {
     "id": "art-lurssen-barcelona-o-ponto-de-res-9500",
@@ -1233,7 +1233,7 @@ export const ARTICLES = [
     "date": "13 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=max&q=85&w=1800",
+    "image": "https://press.christies.com/wp-content/uploads/2026/10/0a65373f7218f0db29c8ca468c18f2bb-l.jpg.webp",
     "imageFocus": "center",
     "image_focus": "center",
     "excerpt": "A soberania patrimonial de uma gema em rosa intenso que atravessou sete décadas de volatilidade global sem jamais abandonar o cofre familiar original.",
@@ -1268,8 +1268,8 @@ export const ARTICLES = [
     "engineSource": "gemini:gemini-flash-lite-latest",
     "publishedAt": "2026-11-13T17:03:52.564Z",
     "published_at": "2026-11-13T17:03:52.564Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiggNBVV95cUxQSmo0QVpYLWRQZXJxdW5GWEV2NUo3UWREOVZJTm1ZYzd5em9LUTFnRFJYMWVOaXJ1M2FJN3hhR0xFSUlmRHlnNDg5ZjdLakY2S2Z2UlljZEYybS1MQ3JLcktnRnFZNEUwREVyTUZsODZWMl9OVkZiY1A5U3N6bGhBVmlKeHdWOThCam10SEZZdnN1NEhRVzhndU01OWV2dVFLSVlIMlFsZ3hzWHEzTjQzRWlHeDVVeVRLYnFqcHF3STVoVUs1WUlWTE5tWDlqSnBGTWpfNWNuaFVCU3gtdW4xTHFEREl6Ynh4ZTVXUmhKaGdXeEM5Zkx1QnNqb2MyenFtblY3cTA1M3JpbHhlMFRwS0ZtU3NXSTJLbXM4NlFfcUNQS05yeXZ2NHhYWHpfb0tNUS13emFDemlZOHlGRzBrelhjdHMwcmVMRjR5ZDM4UlpoYWRLLXB4RmozRFEySnBHSm96T01iVWFTN1hsdTFhQmc0TFhVa283N0FBcWY1S0xhQdIBhwNBVV95cUxONTV4SXBIN3VOaHFEN2lvUVpQdlJkUTl2N0MzZ183M1FKbjdOVkdkdTZCMzdsbk9mLVF3TVljbHBSeU9iMzBEZk1IRkFJYU9CZlhHaUluT3J1eV8yTTl0U1ZOemNxY1JrSmF3RVV1eDMzZTJWNnliQW9CNGhVWVZfenQtRDlQQlZVVXU0NmVCaE1USnUxcUxha21hZHNJY3ZoRUVtcTZFeVpQY2VGY2EyUmRzdnVSMDB6MG01MThrRTVTUWxORXhmd0l3R085WW9PdkFVb2FRazBVU1ZSM2VkbHBGZVljSEYzM1hWRXE5OUF1aFpHVHdHLUlUWWVEQnVIbDVfTmtmaWdkODF5TlpvY3pvbzNwY21HaDB0V1k0U2xpWkJrTEcwaEJ4SkZxQ3otdmxUSTR1ajFxVF9reUVXQUR3eXJqZHpaM0dSUXNqTjhxRG94MFR6aTIyRjBZaUViblBiaGJ3eGluX2RleF9jd0dqazA4SU9lTTZmMDFDTWJRb1pERVFZ?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMiggNBVV95cUxQSmo0QVpYLWRQZXJxdW5GWEV2NUo3UWREOVZJTm1ZYzd5em9LUTFnRFJYMWVOaXJ1M2FJN3hhR0xFSUlmRHlnNDg5ZjdLakY2S2Z2UlljZEYybS1MQ3JLcktnRnFZNEUwREVyTUZsODZWMl9OVkZiY1A5U3N6bGhBVmlKeHdWOThCam10SEZZdnN1NEhRVzhndU01OWV2dVFLSVlIMlFsZ3hzWHEzTjQzRWlHeDVVeVRLYnFqcHF3STVoVUs1WUlWTE5tWDlqSnBGTWpfNWNuaFVCU3gtdW4xTHFEREl6Ynh4ZTVXUmhKaGdXeEM5Zkx1QnNqb2MyenFtblY3cTA1M3JpbHhlMFRwS0ZtU3NXSTJLbXM4NlFfcUNQS05yeXZ2NHhYWHpfb0tNUS13emFDemlZOHlGRzBrelhjdHMwcmVMRjR5ZDM4UlpoYWRLLXB4RmozRFEySnBHSm96T01iVWFTN1hsdTFhQmc0TFhVa283N0FBcWY1S0xhQdIBhwNBVV95cUxONTV4SXBIN3VOaHFEN2lvUVpQdlJkUTl2N0MzZ183M1FKbjdOVkdkdTZCMzdsbk9mLVF3TVljbHBSeU9iMzBEZk1IRkFJYU9CZlhHaUluT3J1eV8yTTl0U1ZOemNxY1JrSmF3RVV1eDMzZTJWNnliQW9CNGhVWVZfenQtRDlQQlZVVXU0NmVCaE1USnUxcUxha21hZHNJY3ZoRUVtcTZFeVpQY2VGY2EyUmRzdnVSMDB6MG01MThrRTVTUWxORXhmd0l3R085WW9PdkFVb2FRazBVU1ZSM2VkbHBGZVljSEYzM1hWRXE5OUF1aFpHVHdHLUlUWWVEQnVIbDVfTmtmaWdkODF5TlpvY3pvbzNwY21HaDB0V1k0U2xpWkJrTEcwaEJ4SkZxQ3otdmxUSTR1ajFxVF9reUVXQUR3eXJqZHpaM0dSUXNqTjhxRG94MFR6aTIyRjBZaUViblBiaGJ3eGluX2RleF9jd0dqazA4SU9lTTZmMDFDTWJRb1pERVFZ?oc=5"
+    "sourceUrl": "https://press.christies.com/christies-presents-the-bulgari-pink/",
+    "source_url": "https://press.christies.com/christies-presents-the-bulgari-pink/"
   },
   {
     "id": "art-coroa-britanica-o-martelo-de-gen-8814",
@@ -1285,7 +1285,7 @@ export const ARTICLES = [
     "date": "13 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1783408360163-3ad59ed27c25?auto=format&fit=max&q=80&w=1400",
+    "image": "https://royalwatcherblog.com/wp-content/uploads/2026/11/8-.jpg",
     "imageFocus": "center",
     "image_focus": "center",
     "excerpt": "A soberania patrimonial encontra refúgio em leilões de alta custódia onde a procedência dinástica dita o silêncio mineral dos ativos imunes.",
@@ -1320,8 +1320,8 @@ export const ARTICLES = [
     "engineSource": "gemini:gemini-flash-lite-latest",
     "publishedAt": "2026-11-13T15:08:28.814Z",
     "published_at": "2026-11-13T15:08:28.814Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1KYUU1cnpJYTJQR0pOLWJlM2VUc2NOc2F4RDZUR0o2bktvTkNPMXMyUUlPUFh3N2gxY051eUZYWGdsYnF2VGNyZERNb1FhdTY3YzhxTmJfYks5bWRvOUNJZGo4NlhfZDR3MmQzemJSaVQ?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1KYUU1cnpJYTJQR0pOLWJlM2VUc2NOc2F4RDZUR0o2bktvTkNPMXMyUUlPUFh3N2gxY051eUZYWGdsYnF2VGNyZERNb1FhdTY3YzhxTmJfYks5bWRvOUNJZGo4NlhfZDR3MmQzemJSaVQ?oc=5"
+    "sourceUrl": "https://royalwatcherblog.com/2026-11-08/christies-magnificent-jewels-10-november-2026/",
+    "source_url": "https://royalwatcherblog.com/2026-11-08/christies-magnificent-jewels-10-november-2026/"
   },
   {
     "id": "art-ferrari-a-ascensao-das-acoes-em--2573",
