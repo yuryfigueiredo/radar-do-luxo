@@ -1480,5 +1480,15 @@ export const PUBLISHED_ARCHIVE = [
     "categorySlug": "arquitetura",
     "authorSlug": "henrique-vianna",
     "publishedAt": null
+  },
+  {
+    "id": "art-bayesian-184-pes-de-veleiro-virados-9214",
+    "slug": "bayesian-184-pes-de-veleiro-virados-por-80-mph-em-minutos-a-estabilidade-fora-de-requisito-e-o-teto-de-indenizacao-contestado-em-londres",
+    "title": "Bayesian: 184 Pés de Veleiro Virados por 80 mph em Minutos — a Estabilidade Fora de Requisito e o Teto de Indenização Contestado em Londres",
+    "image": "https://static.independent.co.uk/2026/05/01/10/01KCGDCRT1REXWS4S26KR90DFQ.jpg?trim=0,0,0,0&width=1200&height=800&crop=1200:800",
+    "sourceUrl": "https://www.independent.co.uk/news/world/europe/bayesian-super-yacht-sinking-italy-b3087324.html",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-18T22:30:43.000Z"
   }
 ];

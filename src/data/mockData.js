@@ -116,6 +116,63 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-bayesian-184-pes-de-veleiro-virados-9214",
+    "slug": "bayesian-184-pes-de-veleiro-virados-por-80-mph-em-minutos-a-estabilidade-fora-de-requisito-e-o-teto-de-indenizacao-contestado-em-londres",
+    "title": "Bayesian: 184 Pés de Veleiro Virados por 80 mph em Minutos — a Estabilidade Fora de Requisito e o Teto de Indenização Contestado em Londres",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "18 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://static.independent.co.uk/2026/05/01/10/01KCGDCRT1REXWS4S26KR90DFQ.jpg?trim=0,0,0,0&width=1200&height=800&crop=1200:800",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Sobreviventes do Bayesian contestam na High Court de Londres o pedido de Revtom Ltd e Camper & Nicholsons de limitar indenizações: os documentos da família alegam estabilidade fora de requisito num veleiro de 184 pés que virou sob rajadas de 80 mph e afundou em minutos diante de Porticello, com sete mortos — entre eles Mike Lynch e a filha Hannah, de 18 anos.",
+    "contentParagraphs": [
+      "O caso do Bayesian saiu do inquérito técnico e entrou na aritmética jurídica. Em documentos apresentados à High Court de Londres, os sobreviventes Charlotte Golunski e James Emslie sustentam que o veleiro de 184 pés — avaliado em £ 30 milhões — virou porque as características de estabilidade do casco se afastavam dos requisitos, e que quem operava a embarcação sabia disso antes de enfrentar o vento. O iate afundou em 19 de agosto de 2024, em minutos, diante do porto de Porticello, na Sicília, sob rajadas acima de 80 mph; sete pessoas morreram, entre elas o armador Mike Lynch e a filha Hannah, de 18 anos.",
+      "Nos autos, Matthew Chapman KC, advogado da família, afirma que os responsáveis 'sabiam ou provavelmente sabiam' que a estabilidade estava fora do requisito e, ainda assim, permitiram que o iate fosse operado 'nas condições meteorológicas que estavam previstas e foram encontradas no momento da perda'. A acusação vai além da negligência: os documentos falam em 'conhecimento efetivo' de que defeitos de projeto, construção e operação 'provavelmente resultariam em perda de vida', conduta que a família classifica como temerária — não como erro culposo comum. Para um casco de 56 metros, a estabilidade não é papel de homologação: é o número que diz até onde o barco inclina e volta.",
+      "O relato da evacuação é o trecho mais duro. A família alega que não foi avisada quando o tempo piorou, que ninguém distribuiu coletes salva-vidas e que não houve evacuação organizada — o casal diz ter sido deixado para 'buscar a própria segurança sozinho, com assistência muito limitada do capitão e da tripulação, que tinham a responsabilidade final' pela segurança a bordo. Os documentos questionam se o alarme e a iluminação de emergência funcionaram e se os botes foram lançados a tempo, e apontam que o capitão não foi acordado cedo o suficiente. A tripulação teria falhado em acompanhar a previsão, em recolher o iate ao porto de Porticello e em manter vigia adequada durante a noite.",
+      "A disputa imediata é processual e vale dinheiro. Revtom Ltd e Camper & Nicholsons International Ltd pedem à corte que limite o valor das indenizações por morte, ferimentos, danos ao iate e perdas decorrentes do afundamento. A defesa da família responde que as empresas não podem escapar da responsabilidade integral se a conduta temerária delas contribuiu para o desastre, e pede que a aplicação seja rejeitada ou adiada até que os registros de projeto, ensaios de segurança, manutenção e treinamento de tripulação sejam produzidos. Golunski e Emslie pretendem ainda mover ações por danos pessoais, enquanto a Promotoria italiana e o Marine Accident Investigation Branch, do Reino Unido, conduzem investigações paralelas.",
+      "A foto que abre esta matéria mostra o que sobrou do argumento: o casco azul do Bayesian içado por cabos de aço sob um guindaste de 2.200 toneladas, a carena exposta e coberta de limo. Um veleiro deste porte é uma alavanca: 184 pés de casco transformam cada rajada em momento de tombamento, e é o livro de estabilidade que define quantos graus o barco suporta antes de não voltar. Se a estabilidade estava fora do requisito, como afirmam os documentos, o problema não nasceu na noite da tempestade — nasceu na mesa de projeto e foi carregado por quem autorizou a saída.",
+      "O que a corte decide primeiro é se a limitação de responsabilidade pode ser julgada antes de toda a evidência, mas o mérito já está desenhado nos papéis: de um lado, um casco de 184 pés que afundou em minutos com 80 mph de vento; do outro, a alegação de que quem tinha o comando sabia da estabilidade fora de requisito e manteve o iate operando. Sete mortos, entre eles uma jovem de 18 anos, e uma família que saiu da água com a filha de um ano. A engenharia naval tem uma régua simples para isso: ou o casco volta ao prumo, ou não volta. A corte vai dizer quem responde pela segunda hipótese."
+    ],
+    "content_paragraphs": [
+      "O caso do Bayesian saiu do inquérito técnico e entrou na aritmética jurídica. Em documentos apresentados à High Court de Londres, os sobreviventes Charlotte Golunski e James Emslie sustentam que o veleiro de 184 pés — avaliado em £ 30 milhões — virou porque as características de estabilidade do casco se afastavam dos requisitos, e que quem operava a embarcação sabia disso antes de enfrentar o vento. O iate afundou em 19 de agosto de 2024, em minutos, diante do porto de Porticello, na Sicília, sob rajadas acima de 80 mph; sete pessoas morreram, entre elas o armador Mike Lynch e a filha Hannah, de 18 anos.",
+      "Nos autos, Matthew Chapman KC, advogado da família, afirma que os responsáveis 'sabiam ou provavelmente sabiam' que a estabilidade estava fora do requisito e, ainda assim, permitiram que o iate fosse operado 'nas condições meteorológicas que estavam previstas e foram encontradas no momento da perda'. A acusação vai além da negligência: os documentos falam em 'conhecimento efetivo' de que defeitos de projeto, construção e operação 'provavelmente resultariam em perda de vida', conduta que a família classifica como temerária — não como erro culposo comum. Para um casco de 56 metros, a estabilidade não é papel de homologação: é o número que diz até onde o barco inclina e volta.",
+      "O relato da evacuação é o trecho mais duro. A família alega que não foi avisada quando o tempo piorou, que ninguém distribuiu coletes salva-vidas e que não houve evacuação organizada — o casal diz ter sido deixado para 'buscar a própria segurança sozinho, com assistência muito limitada do capitão e da tripulação, que tinham a responsabilidade final' pela segurança a bordo. Os documentos questionam se o alarme e a iluminação de emergência funcionaram e se os botes foram lançados a tempo, e apontam que o capitão não foi acordado cedo o suficiente. A tripulação teria falhado em acompanhar a previsão, em recolher o iate ao porto de Porticello e em manter vigia adequada durante a noite.",
+      "A disputa imediata é processual e vale dinheiro. Revtom Ltd e Camper & Nicholsons International Ltd pedem à corte que limite o valor das indenizações por morte, ferimentos, danos ao iate e perdas decorrentes do afundamento. A defesa da família responde que as empresas não podem escapar da responsabilidade integral se a conduta temerária delas contribuiu para o desastre, e pede que a aplicação seja rejeitada ou adiada até que os registros de projeto, ensaios de segurança, manutenção e treinamento de tripulação sejam produzidos. Golunski e Emslie pretendem ainda mover ações por danos pessoais, enquanto a Promotoria italiana e o Marine Accident Investigation Branch, do Reino Unido, conduzem investigações paralelas.",
+      "A foto que abre esta matéria mostra o que sobrou do argumento: o casco azul do Bayesian içado por cabos de aço sob um guindaste de 2.200 toneladas, a carena exposta e coberta de limo. Um veleiro deste porte é uma alavanca: 184 pés de casco transformam cada rajada em momento de tombamento, e é o livro de estabilidade que define quantos graus o barco suporta antes de não voltar. Se a estabilidade estava fora do requisito, como afirmam os documentos, o problema não nasceu na noite da tempestade — nasceu na mesa de projeto e foi carregado por quem autorizou a saída.",
+      "O que a corte decide primeiro é se a limitação de responsabilidade pode ser julgada antes de toda a evidência, mas o mérito já está desenhado nos papéis: de um lado, um casco de 184 pés que afundou em minutos com 80 mph de vento; do outro, a alegação de que quem tinha o comando sabia da estabilidade fora de requisito e manteve o iate operando. Sete mortos, entre eles uma jovem de 18 anos, e uma família que saiu da água com a filha de um ano. A engenharia naval tem uma régua simples para isso: ou o casco volta ao prumo, ou não volta. A corte vai dizer quem responde pela segunda hipótese."
+    ],
+    "specs": {
+      "Embarcação": "Bayesian, veleiro de 184 pés (~56 m), avaliado em £ 30 milhões",
+      "Episódio": "Naufrágio em 19 de agosto de 2024, em minutos, diante de Porticello (Sicília), sob rajadas acima de 80 mph",
+      "Vítimas": "7 mortos — 6 convidados e 1 tripulante, incluindo Mike Lynch e Hannah Lynch, de 18 anos",
+      "Foro": "High Court de Londres — aplicação de limitação de responsabilidade de Revtom Ltd e Camper & Nicholsons International Ltd",
+      "Alegação central": "Estabilidade fora do requisito; ausência de alerta, de coletes e de evacuação organizada, segundo a defesa da família",
+      "Investigações": "Promotoria italiana e Marine Accident Investigation Branch (MAIB, Reino Unido)"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "qoder:agente-editorial",
+    "publishedAt": "2026-11-18T22:30:43.000Z",
+    "published_at": "2026-11-18T22:30:43.000Z",
+    "sourceUrl": "https://www.independent.co.uk/news/world/europe/bayesian-super-yacht-sinking-italy-b3087324.html",
+    "source_url": "https://www.independent.co.uk/news/world/europe/bayesian-super-yacht-sinking-italy-b3087324.html"
+  },
+  {
     "id": "art-aruby-abeking-rasmussen-primeiro-de-serie-6217",
     "slug": "aruby-abeking-rasmussen-primeiro-iate-de-serie-em-115-anos-70-metros-e-cinco-motores-diesel-eletricos-de-650-kw",
     "title": "Aruby: O Primeiro Iate de Série em 115 Anos da Abeking & Rasmussen — 70 Metros, 1.770 GT e Cinco Motores Diesel-Elétricos de 650 kW",
@@ -158,8 +215,8 @@ export const ARTICLES = [
       "Estaleiro / Design": "Abeking & Rasmussen (Alemanha) · Reymond Langton Design · arquitetura naval em casa"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
+    "isHero": false,
+    "is_hero": false,
     "isHeroSecondary": false,
     "is_hero_secondary": false,
     "isPinnedHero": false,
@@ -1387,58 +1444,6 @@ export const ARTICLES = [
     "published_at": "2026-11-13T18:29:29.499Z",
     "sourceUrl": "https://yachtway.com/news/lurssen-opens-service-center-tarragona-spain/",
     "source_url": "https://yachtway.com/news/lurssen-opens-service-center-tarragona-spain/"
-  },
-  {
-    "id": "art-diamante-bulgari-rosa-os-24-quil-2565",
-    "slug": "diamante-bulgari-rosa-os-24-quilates-de-pureza-categorica-custodiados-pela-mesma-dinastia-desde-1950-2556",
-    "title": "Diamante Bulgari Rosa: Os 24 Quilates de Pureza Categórica Custodiados pela Mesma Dinastia desde 1950",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "13 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://press.christies.com/wp-content/uploads/2026/10/0a65373f7218f0db29c8ca468c18f2bb-l.jpg.webp",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A soberania patrimonial de uma gema em rosa intenso que atravessou sete décadas de volatilidade global sem jamais abandonar o cofre familiar original.",
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Nas profundezas dos cofres suíços onde a luz jamais penetra, a permanência de um ativo físico desta magnitude desafia o frenesi dos mercados especulativos e impõe uma nova régua para a preservação de capitais multigeracionais.",
-      "Com exatos vinte e quatro quilates lapidados com rigor geométrico, este exemplar da alta joalheria assinada pela Bulgari carrega em sua rede cristalina a assinatura molecular do silêncio e da escassez absoluta, resistindo incólume às intempéries políticas e econômicas desde a década de 1950 sob a mesma custódia fiduciária.",
-      "A raridade de um diamante rosa com esta saturação cromática reside na deformação plástica anômala sofrida pela rede de carbono durante sua gênese tectônica, um capricho da geologia profunda que poucos ateliês no mundo possuem o discernimento histórico para cravar e eternizar em platina.",
-      "Ao retornar aos leilões internacionais em uma transação sigilosa e estratosférica, a gema reafirma sua imunidade temporal, provando que ativos tangíveis de proveniência imaculada continuam sendo o único refúgio inviolável contra a obsolescencia da moeda fiat."
-    ],
-    "content_paragraphs": [
-      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Nas profundezas dos cofres suíços onde a luz jamais penetra, a permanência de um ativo físico desta magnitude desafia o frenesi dos mercados especulativos e impõe uma nova régua para a preservação de capitais multigeracionais.",
-      "Com exatos vinte e quatro quilates lapidados com rigor geométrico, este exemplar da alta joalheria assinada pela Bulgari carrega em sua rede cristalina a assinatura molecular do silêncio e da escassez absoluta, resistindo incólume às intempéries políticas e econômicas desde a década de 1950 sob a mesma custódia fiduciária.",
-      "A raridade de um diamante rosa com esta saturação cromática reside na deformação plástica anômala sofrida pela rede de carbono durante sua gênese tectônica, um capricho da geologia profunda que poucos ateliês no mundo possuem o discernimento histórico para cravar e eternizar em platina.",
-      "Ao retornar aos leilões internacionais em uma transação sigilosa e estratosférica, a gema reafirma sua imunidade temporal, provando que ativos tangíveis de proveniência imaculada continuam sendo o único refúgio inviolável contra a obsolescencia da moeda fiat."
-    ],
-    "specs": {
-      "peso_da_gema": "24.59 quilates",
-      "classificacao_de_cor": "Fancy Intense Pink",
-      "proveniencia": "Coleção familiar privada (1950-2026)",
-      "ateliê_de_origem": "Bulgari High Jewelry",
-      "natureza_do_ativo": "Reserva de valor mineral imune"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 85,
-    "ranking_score": 85,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-13T17:03:52.564Z",
-    "published_at": "2026-11-13T17:03:52.564Z",
-    "sourceUrl": "https://press.christies.com/christies-presents-the-bulgari-pink/",
-    "source_url": "https://press.christies.com/christies-presents-the-bulgari-pink/"
   },
 ];
 
