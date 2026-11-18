@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-bugatti-type-37-1925-chassi-37102-4418",
+    "slug": "bugatti-type-37-de-1925-o-quarto-chassi-do-ano-zero-quase-meio-seculo-na-mesma-familia-vai-ao-leilao-de-paris-com-chao-de-650-mil-4418",
+    "title": "Bugatti Type 37 de 1925: O Quarto Chassi do Ano Zero, Quase Meio Século na Mesma Família, Vai ao Leilão de Paris com Chão de € 650 Mil",
+    "image": "https://media.zenfs.com/en/motorious_297/7695bf7091d8c193946fe5407818feae",
+    "sourceUrl": "https://www.motorious.com/articles/auction/oldest-surviving-bugatti-type-37-heads-to-broad-arrows-paris-auction-after-nearly-50-years-in-one-family/",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-18T01:36:29.842Z"
+  },
+  {
     "id": "art-grotti-cheetah-os-seis-chassis-de-1-milhao-4417",
     "slug": "grotti-cheetah-os-seis-chassis-de-1-milhao-cobram-onze-vezes-o-arremate-do-testarossa-que-imitam-4417",
     "title": "Grotti Cheetah: Os Seis Chassis de £1 Milhão Cobram Onze Vezes o Arremate do Testarossa que Imitam",

@@ -116,6 +116,61 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-bugatti-type-37-1925-chassi-37102-4418",
+    "slug": "bugatti-type-37-de-1925-o-quarto-chassi-do-ano-zero-quase-meio-seculo-na-mesma-familia-vai-ao-leilao-de-paris-com-chao-de-650-mil-4418",
+    "title": "Bugatti Type 37 de 1925: O Quarto Chassi do Ano Zero, Quase Meio Século na Mesma Família, Vai ao Leilão de Paris com Chão de € 650 Mil",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "17 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://media.zenfs.com/en/motorious_297/7695bf7091d8c193946fe5407818feae",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "O chassi 37102 é o último dos quatro Type 37 de 1925 e o mais antigo do modelo que se conhece. A cadeia documental — quase meio século numa única família, laudo Laugier no dossiê — vale mais que o metal: € 650.000 a € 850.000 no primeiro leilão da Broad Arrow em Paris.",
+    "contentParagraphs": [
+      "Existe uma distância física entre um carro velho e um carro preservado, e ela não está na pintura: está naquilo que ainda é de fábrica sob o tanque. A Broad Arrow colocou em catálogo o chassi 37102, quarto e último Type 37 construído em 1925 — o ano zero do modelo — e nenhuma outra unidade daquele ano é conhecida hoje. Avaliação anunciada: € 650.000 a € 850.000.",
+      "O Type 37 foi a resposta de Molsheim à categoria voiturette: mesmo porte e mesma filosofia de chassi do Type 35, mas no lugar do oito-em-linha um quatro-cilindros de 1,5 litro com comando no cabeçote, cerca de 60 cv. Foi decisão de engenharia e de caixa registradora ao mesmo tempo: mais barato de construir e de manter, entregue a particulares que corriam de verdade, assumindo o papel de pequena cilindrada que fora do Type 13 Brescia. Em 1927 apareceu o 37A, com compressora e algo em torno de 20 cv extras. A produção total do modelo gira perto de 210 unidades — número grande para um Bugatti de corrida, mínimo para quem procura um exemplar com esta procedência.",
+      "O que sustenta a avaliação não é o metal, é a cadeia documental. A casa descreve histórico de propriedade contínuo e documentado, um círculo pequeno de donos desde a entrega, e quase meio século nas mãos de uma única família. O laudo do especialista e historiador Pierre-Yves Laugier está arquivado no dossiê do lote. E o carro não foi conservado em vitrine: correu o Grand Prix de Monaco Historique, o Prescott Speed Hill Climb e o Klausenrennen Revival — três provas que exigem que ignição, freio e suspensão funcionem em sequência, e não apenas no dia da fotografia de catálogo.",
+      "O mercado recente dá a moldura do número. Um Type 37 de 1929 foi arrematado pela Bonhams em Knokke-Heist em outubro de 2023 por US$ 1.217.160, e um 1928 em configuração Grand Prix está registrado em US$ 747.500. No outro extremo, um 1926 vendido pela mesma Bonhams em 2011 por US$ 317.061 havia sido montado sobre chassi de Bugatti Club com mecânica original vinda de outro carro: dirigível, ofertado com honestidade, e precificado a um quinto do exemplar documentado. Em agosto de 2026, o chassi 37212 — um 1927 — não vendeu na praça da Broad Arrow em Ann Arbor contra um chão próximo de £ 415.800 a £ 491.400. É liquidez seletiva, num mercado clássico que a Hagerty mede em resfriamento.",
+      "A data pesa mais que o martelo: 3 de fevereiro de 2027, no The Peninsula Paris, a partir das 11h30 CET, na semana do Rétromobile, no primeiro leilão da casa na capital francesa. Um chassi de ano zero com cadeia ininterrupta é patrimônio mecânico no sentido estrito — não depende de ciclo de bateria, de atualização de firmware nem de licença de serviço para continuar existindo daqui a vinte anos. O catálogo, por ora, é parcimonioso: a própria Broad Arrow informa que detalhará condição mecânica e cosmética. É exatamente nesse vão entre a raridade testemunhada e a condição descrita que se decide se os € 850.000 do teto são linha de chegada ou simples ponto de partida da conversa."
+    ],
+    "content_paragraphs": [
+      "Existe uma distância física entre um carro velho e um carro preservado, e ela não está na pintura: está naquilo que ainda é de fábrica sob o tanque. A Broad Arrow colocou em catálogo o chassi 37102, quarto e último Type 37 construído em 1925 — o ano zero do modelo — e nenhuma outra unidade daquele ano é conhecida hoje. Avaliação anunciada: € 650.000 a € 850.000.",
+      "O Type 37 foi a resposta de Molsheim à categoria voiturette: mesmo porte e mesma filosofia de chassi do Type 35, mas no lugar do oito-em-linha um quatro-cilindros de 1,5 litro com comando no cabeçote, cerca de 60 cv. Foi decisão de engenharia e de caixa registradora ao mesmo tempo: mais barato de construir e de manter, entregue a particulares que corriam de verdade, assumindo o papel de pequena cilindrada que fora do Type 13 Brescia. Em 1927 apareceu o 37A, com compressora e algo em torno de 20 cv extras. A produção total do modelo gira perto de 210 unidades — número grande para um Bugatti de corrida, mínimo para quem procura um exemplar com esta procedência.",
+      "O que sustenta a avaliação não é o metal, é a cadeia documental. A casa descreve histórico de propriedade contínuo e documentado, um círculo pequeno de donos desde a entrega, e quase meio século nas mãos de uma única família. O laudo do especialista e historiador Pierre-Yves Laugier está arquivado no dossiê do lote. E o carro não foi conservado em vitrine: correu o Grand Prix de Monaco Historique, o Prescott Speed Hill Climb e o Klausenrennen Revival — três provas que exigem que ignição, freio e suspensão funcionem em sequência, e não apenas no dia da fotografia de catálogo.",
+      "O mercado recente dá a moldura do número. Um Type 37 de 1929 foi arrematado pela Bonhams em Knokke-Heist em outubro de 2023 por US$ 1.217.160, e um 1928 em configuração Grand Prix está registrado em US$ 747.500. No outro extremo, um 1926 vendido pela mesma Bonhams em 2011 por US$ 317.061 havia sido montado sobre chassi de Bugatti Club com mecânica original vinda de outro carro: dirigível, ofertado com honestidade, e precificado a um quinto do exemplar documentado. Em agosto de 2026, o chassi 37212 — um 1927 — não vendeu na praça da Broad Arrow em Ann Arbor contra um chão próximo de £ 415.800 a £ 491.400. É liquidez seletiva, num mercado clássico que a Hagerty mede em resfriamento.",
+      "A data pesa mais que o martelo: 3 de fevereiro de 2027, no The Peninsula Paris, a partir das 11h30 CET, na semana do Rétromobile, no primeiro leilão da casa na capital francesa. Um chassi de ano zero com cadeia ininterrupta é patrimônio mecânico no sentido estrito — não depende de ciclo de bateria, de atualização de firmware nem de licença de serviço para continuar existindo daqui a vinte anos. O catálogo, por ora, é parcimonioso: a própria Broad Arrow informa que detalhará condição mecânica e cosmética. É exatamente nesse vão entre a raridade testemunhada e a condição descrita que se decide se os € 850.000 do teto são linha de chegada ou simples ponto de partida da conversa."
+    ],
+    "specs": {
+      "Chassi": "37102 — quarto e último Type 37 de 1925, o mais antigo conhecido",
+      "Motor": "Quatro-cilindros 1,5 litro, comando no cabeçote, cerca de 60 cv",
+      "Tiragem do modelo": "Cerca de 210 unidades de Type 37, todas as séries",
+      "Procedência": "Molsheim, França — Bugatti, ano-zero do modelo",
+      "Praça": "The Paris Auction 2027 — 3 de fevereiro, The Peninsula Paris, 11h30 CET",
+      "Avaliação": "€ 650.000 a € 850.000"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 88,
+    "ranking_score": 88,
+    "engineSource": "qoder:agente-editorial",
+    "publishedAt": "2026-11-18T01:36:29.842Z",
+    "published_at": "2026-11-18T01:36:29.842Z",
+    "sourceUrl": "https://www.motorious.com/articles/auction/oldest-surviving-bugatti-type-37-heads-to-broad-arrows-paris-auction-after-nearly-50-years-in-one-family/",
+    "source_url": "https://www.motorious.com/articles/auction/oldest-surviving-bugatti-type-37-heads-to-broad-arrows-paris-auction-after-nearly-50-years-in-one-family/"
+  },
+  {
     "id": "art-grotti-cheetah-os-seis-chassis-de-1-milhao-4417",
     "slug": "grotti-cheetah-os-seis-chassis-de-1-milhao-cobram-onze-vezes-o-arremate-do-testarossa-que-imitam-4417",
     "title": "Grotti Cheetah: Os Seis Chassis de £1 Milhão Cobram Onze Vezes o Arremate do Testarossa que Imitam",
@@ -156,8 +211,8 @@ export const ARTICLES = [
       "Referência do carro real": "Testarossa arrematado entre € 99.600 e € 175.400"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
+    "isHero": false,
+    "is_hero": false,
     "isHeroSecondary": false,
     "is_hero_secondary": false,
     "isPinnedHero": false,
@@ -1371,60 +1426,7 @@ export const ARTICLES = [
     "published_at": "2026-11-12T11:17:41.075Z",
     "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNmNjWnJBTzdwcms2dTNENUpNMENSalhDUXExdXZDVVE3VVZSWHo4cG9xMWVxN1lZcmtKWGpibl9WYVE0YXZqUWZ5U29ISG45QkxGdmttaXlheFl2MlJzWE4tZV9qZnZWY3pJQlo1b0lSRF9xcFFZeGhzUWVCSnhqVA?oc=5",
     "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNmNjWnJBTzdwcms2dTNENUpNMENSalhDUXExdXZDVVE3VVZSWHo4cG9xMWVxN1lZcmtKWGpibl9WYVE0YXZqUWZ5U29ISG45QkxGdmttaXlheFl2MlJzWE4tZV9qZnZWY3pJQlo1b0lSRF9xcFFZeGhzUWVCSnhqVA?oc=5"
-  },
-  {
-    "id": "art-laferrari-o-monocoque-rosso-cors-1520",
-    "slug": "laferrari-o-monocoque-rosso-corsa-de-963-cv-que-liderou-o-leilao-broad-arrow-zurique-2026-enquanto-o-mercado-rejeita-a-liquidez-efemera-0805",
-    "title": "LaFerrari: O Monocoque Rosso Corsa de 963 cv que Liderou o Leilão Broad Arrow Zurique 2026 Enquanto o Mercado Rejeita a Liquidez Efêmera",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "12 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=max&q=80&w=1400",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A soberania patrimonial encontra seu teste definitivo no pregão suíço, onde a escassez matemática do cavalo-rampante prevalece sobre o silêncio forçado dos hipercarros de primeira geração.",
-    "contentParagraphs": [
-      "O martelo despencou em Zurique sob uma atmosfera de rigor absoluto. A praça financeira helvética assistiu a um leilão de alta tensão promovido pela Broad Arrow, revelando a frágil linha entre a imunidade temporal e a depreciação ordinária. O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Enquanto os colecionadores se digladiavam pelo ápice da engenharia de Maranello, o mercado exibia uma seletividade cirúrgica implacável com os espécimes de transição.",
-      "No topo da cadeia alimentar mecânica, a LaFerrari ostentou sua superioridade em fibra de carbono T800 curada em autoclave. Seu trem de força híbrido HY-KERS, acoplado ao V12 aspirado de 6,3 litros que grita até as 9.250 rotações por minuto, demonstrou resiliência fiduciária irrepreensível. A tolerância de mícrons em seus componentes e a pureza aerodinâmica ativa sem asas espalhafatosas confirmam sua posição como refúgio definitivo de valor entre os family offices mais exigentes do continente.",
-      "Em contrapartida, o panorama para outros ícones contemporâneos revelou fissuras na armadura da especulação. O Bugatti Veyron, pioneiro da era dos 1.001 cavalos com quatro turbocompressores, tropeçou na hora de alcançar sua estimativa conservadora pré-leilão. Custos de manutenção estratosféricos, troca obrigatória de conjuntos de rodas a cada 400 quilômetros e a saturação de exemplares no mercado secundário puniram severamente a liquidez da máquina de Molsheim, provando que a potência bruta sem pureza conceitual perece diante da inflação.",
-      "Este descompasso no leilão suíço dita a nova cartografia dos grandes leilões internacionais. Apenas a verdadeira soberania patrimonial, aquela respaldada por baixa quilometragem, histórico imaculado de custódia e ausência de concessões ao efêmero, sobrevive à volatilidade moderna. O V12 de Maranello continua a ser um templo de alta performance intocável, enquanto os hipercarros desprovidos de linhagem genética caminham inevitavelmente para a banalização."
-    ],
-    "content_paragraphs": [
-      "O martelo despencou em Zurique sob uma atmosfera de rigor absoluto. A praça financeira helvética assistiu a um leilão de alta tensão promovido pela Broad Arrow, revelando a frágil linha entre a imunidade temporal e a depreciação ordinária. O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Enquanto os colecionadores se digladiavam pelo ápice da engenharia de Maranello, o mercado exibia uma seletividade cirúrgica implacável com os espécimes de transição.",
-      "No topo da cadeia alimentar mecânica, a LaFerrari ostentou sua superioridade em fibra de carbono T800 curada em autoclave. Seu trem de força híbrido HY-KERS, acoplado ao V12 aspirado de 6,3 litros que grita até as 9.250 rotações por minuto, demonstrou resiliência fiduciária irrepreensível. A tolerância de mícrons em seus componentes e a pureza aerodinâmica ativa sem asas espalhafatosas confirmam sua posição como refúgio definitivo de valor entre os family offices mais exigentes do continente.",
-      "Em contrapartida, o panorama para outros ícones contemporâneos revelou fissuras na armadura da especulação. O Bugatti Veyron, pioneiro da era dos 1.001 cavalos com quatro turbocompressores, tropeçou na hora de alcançar sua estimativa conservadora pré-leilão. Custos de manutenção estratosféricos, troca obrigatória de conjuntos de rodas a cada 400 quilômetros e a saturação de exemplares no mercado secundário puniram severamente a liquidez da máquina de Molsheim, provando que a potência bruta sem pureza conceitual perece diante da inflação.",
-      "Este descompasso no leilão suíço dita a nova cartografia dos grandes leilões internacionais. Apenas a verdadeira soberania patrimonial, aquela respaldada por baixa quilometragem, histórico imaculado de custódia e ausência de concessões ao efêmero, sobrevive à volatilidade moderna. O V12 de Maranello continua a ser um templo de alta performance intocável, enquanto os hipercarros desprovidos de linhagem genética caminham inevitavelmente para a banalização."
-    ],
-    "specs": {
-      "chassi": "Monocoque em fibra de carbono T800 / T1000",
-      "motor": "V12 aspirado 6.262 cm³ + Motor Elétrico HY-KERS",
-      "potencia": "963 cv combinados a 9.000 RPM",
-      "transmissão": "Dupla embaixagem F1 de 7 velocidades",
-      "resultado_leilao": "Líder de faturamento Broad Arrow Zurique 2026",
-      "custodia": "Certificação Ferrari Classiche integral"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 92,
-    "ranking_score": 92,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-12T01:22:21.519Z",
-    "published_at": "2026-11-12T01:22:21.519Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSlU5ZDhRQkk5b3NsMHlQMTUxOHAyUUxvYml4QVZtLUU1RFItcnlKSXhtTVJiR1NFWjNRVWJ6emcyaWg2bVFxNnUxaFo4RDI2YWFsZ0dSTWNKVVdjbTU3NEJrc1JTM3MwOXZUTThUMXlXeHd1X09rQUFTS1FlcVRteDB0TUxhSHg3UXF2RHFMRkNwTkFE?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSlU5ZDhRQkk5b3NsMHlQMTUxOHAyUUxvYml4QVZtLUU1RFItcnlKSXhtTVJiR1NFWjNRVWJ6emcyaWg2bVFxNnUxaFo4RDI2YWFsZ0dSTWNKVVdjbTU3NEJrc1JTM3MwOXZUTThUMXlXeHd1X09rQUFTS1FlcVRteDB0TUxhSHg3UXF2RHFMRkNwTkFE?oc=5"
-  },
+  }
 ];
 
 export const FILMSTRIP_ITEMS = [
