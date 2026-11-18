@@ -762,7 +762,7 @@ export const ARTICLES = [
     "date": "16 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1650444684180-3f72abb15263?auto=format&fit=max&q=80&w=1400",
+    "image": "https://cdn.rmsothebys.com/a/3/c/e/1/1/a3ce11a03dc9ac9562313f4cc578621d5751bfeb.jpg",
     "imageFocus": "bottom",
     "image_focus": "bottom",
     "excerpt": "Um exemplar imaculado da Ferrari F12tdf atingiu US$ 3,83 milhões em leilão recente, reafirmando o valor intocável dos últimos motores V12 aspirados puros diante da maré digital.",
@@ -798,8 +798,8 @@ export const ARTICLES = [
     "engineSource": "gemini:gemini-flash-lite-latest",
     "publishedAt": "2026-11-16T11:19:34.172Z",
     "published_at": "2026-11-16T11:19:34.172Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ZNkZGbjVxZVF2UU9iR25vN09HdU02amVseW82aWdySGpsaklYZlRBLUJaWk5hTnhyTi1pTmpGZmlKT0M1NnBPZEhySnJKSElNLUgzWGFQU2RwSjdwNU5qYWR1cw?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ZNkZGbjVxZVF2UU9iR25vN09HdU02amVseW82aWdySGpsaklYZlRBLUJaWk5hTnhyTi1pTmpGZmlKT0M1NnBPZEhySnJKSElNLUgzWGFQU2RwSjdwNU5qYWR1cw?oc=5"
+    "sourceUrl": "https://rmsothebys.com/auctions/lf26/lots/r0036-2017-ferrari-f12tdf/",
+    "source_url": "https://rmsothebys.com/auctions/lf26/lots/r0036-2017-ferrari-f12tdf/"
   },
   {
     "id": "art-pulseira-de-safiras-dos-romanov--2908",

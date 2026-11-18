@@ -135,8 +135,8 @@ export const PUBLISHED_ARCHIVE = [
     "id": "art-ferrari-f12tdf-os-brutais-us-383-4172",
     "slug": "ferrari-f12tdf-os-brutais-us-383-milhoes-do-v12-aspirado-de-780-cv-que-consagraram-a-supremacia-da-inercia-mecanica-4160",
     "title": "Ferrari F12tdf: Os Brutais US$ 3,83 Milhões do V12 Aspirado de 780 cv que Consagraram a Supremacia da Inércia Mecânica",
-    "image": "https://images.unsplash.com/photo-1650444684180-3f72abb15263?auto=format&fit=max&q=80&w=1400",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ZNkZGbjVxZVF2UU9iR25vN09HdU02amVseW82aWdySGpsaklYZlRBLUJaWk5hTnhyTi1pTmpGZmlKT0M1NnBPZEhySnJKSElNLUgzWGFQU2RwSjdwNU5qYWR1cw?oc=5",
+    "image": "https://cdn.rmsothebys.com/a/3/c/e/1/1/a3ce11a03dc9ac9562313f4cc578621d5751bfeb.jpg",
+    "sourceUrl": "https://rmsothebys.com/auctions/lf26/lots/r0036-2017-ferrari-f12tdf/",
     "categorySlug": "supercarros",
     "authorSlug": "gabriel-fontes",
     "publishedAt": "2026-11-16T11:19:34.172Z"

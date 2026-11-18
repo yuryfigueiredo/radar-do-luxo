@@ -34,7 +34,7 @@ const MAPA = mapaArq ? JSON.parse(fs.readFileSync(mapaArq, 'utf8')) : {};
 const ehPerdida = (u) => !u || /news\.google\.com\/rss/i.test(u);
 const ehImagem = (u) => /\.(jpe?g|png|webp|avif)(\?|$)/i.test(u);
 const CONC = 4;
-const MAX_CANDIDATOS = 9;
+const MAX_CANDIDATOS = 14;
 process.env.COVER_AUDIT_BUDGET_MS = process.env.COVER_AUDIT_BUDGET_MS || '12000';
 
 const { ARTICLES } = await import(path.join(RAIZ, 'src/data/mockData.js'));
