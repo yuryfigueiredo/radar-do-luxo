@@ -59,8 +59,13 @@ if (process.argv.includes('--escolhe')) {
   }
   console.log(`pauta_id=${melhor.p.id}`);
   console.log(`nota=${melhor.nota}`);
-  console.log(`autor=${melhor.p.authorSlug}`);
-  console.log(`vertical=${melhor.p.categorySlug}`);
+  // Quem assina não é decidido aqui. O que a fila carrega é a etiqueta que o scout
+  // chupou na coleta; a autoridade é o analyzeEditorialContext, que o radar-voz.mjs
+  // consulta ao receber o título. Medido na primeira prova: a mesma pauta saiu
+  // gabriel-fontes por aqui e henrique-vianna por lá, e as duas respostas no mesmo
+  // brief é o tipo de régua dupla que já travou a capa.
+  console.log(`etiqueta_scout=${melhor.p.authorSlug}/${melhor.p.categorySlug}`);
+  console.log(`autor_em=radar-voz.mjs --pauta="<titulo_fonte>"`);
   console.log(`titulo_fonte=${melhor.p.originalTitle}`);
   console.log(`url=${melhor.p.sourceUrl}`);
   console.log(`idade_h=${melhor.idadeH.toFixed(1)}`);

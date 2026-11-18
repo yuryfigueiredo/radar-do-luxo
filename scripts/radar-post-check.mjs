@@ -14,6 +14,7 @@
  * saída: uma linha por porta, VERDE ou VERMELHO; exit 0 só com todas verdes.
  */
 import { execFileSync } from 'child_process';
+import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -77,8 +78,11 @@ const ficha = Object.entries(item.specs || {}).filter(([, v]) => String(v).trim(
 porta('ficha', ficha.length >= 4 && ficha.length <= 6, `${ficha.length} campos homologados (exigido 4 a 6)`);
 
 // ── data ───────────────────────────────────────────────────────────────────────
+// Duas bordas, não uma distância: publishedAt no futuro entra no ar como "daqui a
+// pouco" e desordena a capa, que é a ordem de publicação. Dois minutos de tolerância
+// é o desvio de relógio entre esta máquina e o instante gravado.
 const idade = Date.now() - new Date(item.publishedAt).getTime();
-porta('data', Number.isFinite(idade) && Math.abs(idade) < 3 * 3_600_000 && /\b(de|em|de)\b/.test(item.date),
+porta('data', Number.isFinite(idade) && idade > -120_000 && idade < 3 * 3_600_000 && /\b(de|em|de)\b/.test(item.date),
   `publishedAt=${item.publishedAt} (idade ${(idade / 60000).toFixed(0)}min) · date="${item.date}"`);
 
 // ── fotografia: 21:9/16:10 deitada, larga, alcançável ──────────────────────────
@@ -91,6 +95,15 @@ if (!semRede) {
   imgVeredito = `${audit.origin} · ${audit.note} · banco da vertical tem ${banco.length}`;
 }
 porta('imagem', imgOk, imgVeredito);
+
+// ── janela: o acervo que o dedupe vê tem de caber nos 25 que o site serve ──────
+// A poda existia só no crawler de nuvem, agora inerte. Sem ela, a matéria escrita
+// pelo agente no 26º lugar sai do ARTICLES mas continua no publishedArchive — e o
+// dedupe passa a comparar título contra uma lista que não é mais a lista publicada.
+// O número é lido de onde mora, para esta régua não ter duas versões.
+const fonteRegua = fs.readFileSync(path.join(RAIZ, 'scripts/autonomousCrawler.js'), 'utf8');
+const MAX_ITENS = Number((fonteRegua.match(/MAX_ARTICLES',\s*(\d+)/) || [])[1] || 25);
+porta('janela', ARTICLES.length <= MAX_ITENS, `${ARTICLES.length} itens em ARTICLES (máximo ${MAX_ITENS}, lido de autonomousCrawler.js) — o mais antigo sai da janela, não do publishedArchive`);
 
 // ── capa = ordem de publicação (regra do dono, abolida a nota mínima) ──────────
 const herois = ARTICLES.filter((a) => a.isHero || a.is_hero);
