@@ -185,8 +185,8 @@ export const PUBLISHED_ARCHIVE = [
     "id": "art-ferrari-250-gto-de-us-10-milhoes-3378",
     "slug": "ferrari-250-gto-de-us-10-milhoes-o-fetiche-de-engenharia-preso-em-uma-custodia-de-silencio-mineral-3369",
     "title": "Ferrari 250 GTO de US$ 10 Milhões: O Fetiche de Engenharia Preso em uma Custódia de Silêncio Mineral",
-    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/1962_Ferrari_250_GTO_SP25.jpg/1280px-1962_Ferrari_250_GTO_SP25.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Ferrari_250_GTO",
+    "image": "https://robbreport.com/wp-content/uploads/2018/06/1962-ferrari-250-gto-by-scaglietti_0.jpg",
+    "sourceUrl": "https://robbreport.com/motors/cars/gallery/1962-ferrari-250-gto-presented-by-rm-sothebys-2802638/",
     "categorySlug": "supercarros",
     "authorSlug": "gabriel-fontes",
     "publishedAt": "2026-11-14T15:15:43.378Z"

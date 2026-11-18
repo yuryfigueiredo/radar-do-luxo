@@ -10,6 +10,7 @@
  *   node scripts/radar-retrofoto.mjs                     # relatório (não toca no disco)
  *   node scripts/radar-retrofoto.mjs --mapa=/tmp/mapa.json
  *   node scripts/radar-retrofoto.mjs --mapa=/tmp/mapa.json --aplica
+ *   node scripts/radar-retrofoto.mjs --forcar=<slug> --mapa=/tmp/mapa.json   # troca mesmo passando na regua
  *
  * --mapa é {"<slug>": "<url do artigo real>"}. Existe porque 23 das 25 matérias vivas têm
  * sourceUrl gravada como token de RSS (news.google.com/rss/articles/...): a origem se perdeu
@@ -28,6 +29,10 @@ const UA = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Geck
 const argv = process.argv.slice(2);
 const aplica = argv.includes('--aplica');
 const soVertical = (argv.find((a) => a.startsWith('--vertical=')) || '').slice(11);
+// --forcar=slug1,slug2 mete o item no alvo mesmo passando na regua: uma capa pode ser tecnicamente
+// valida e ainda assim errada por outro motivo (licenca CC BY-SA num site sem campo de credito).
+// Sem isto o recuperador nao consegue trocar o que a regua nao reprova.
+const FORCAR = new Set((argv.find((a) => a.startsWith('--forcar=')) || '').slice(9).split(',').filter(Boolean));
 const limite = Number((argv.find((a) => a.startsWith('--limite=')) || '').slice(9) || 0);
 const mapaArq = (argv.find((a) => a.startsWith('--mapa=')) || '').slice(7);
 const MAPA = mapaArq ? JSON.parse(fs.readFileSync(mapaArq, 'utf8')) : {};
@@ -50,7 +55,7 @@ function candidatos(html, base) {
   const push = (u) => {
     if (!u) return;
     let abs;
-    try { abs = new URL(String(u).replace(/&amp;/g, '&'), base); } catch { return; }
+    try { abs = new URL(String(u).replace(/&amp;/gi, '&').replace(/&#0*38;/gi, '&'), base); } catch { return; }
     if (!/^https?:/.test(abs.href)) return;
     // Redirector de query (?url=...) não é um arquivo: o proxy do Henry Ford respondeu 1920x1440
     // numa passada e "banco" na seguinte. Capa que só às vezes é imagem vira capa quebrada no ar.
@@ -82,7 +87,7 @@ async function baixar(url) {
 
 async function resolver(item) {
   const usada = fotoJaUsada(item.image, tudo, item.slug);
-  if (!reprovavel(item)) return { item, status: 'ok', usada };
+  if (!reprovavel(item) && !FORCAR.has(item.slug)) return { item, status: 'ok', usada };
   const dada = MAPA[item.slug] || '';
   const fonte = ehImagem(dada) ? '' : (dada || (ehPerdida(item.sourceUrl) ? '' : item.sourceUrl));
   if (!fonte && !ehImagem(dada)) return { item, status: 'sem fonte (sourceUrl é token de RSS e o mapa não traz a página)', usada };
@@ -104,7 +109,7 @@ async function resolver(item) {
     const audit = await resolveCoverImage(cand, []);
     if (!audit.medida || audit.origin !== 'origem') continue;
     escolhidas.add(k);
-    return { item, status: 'nova', usada, escolhida: cand, novaFonte: pagina ? pagina.url : '', nota: audit.note };
+    return { item, status: 'nova', usada, escolhida: audit.url || cand, novaFonte: pagina ? pagina.url : '', nota: audit.note };
   }
   return { item, status: `sem candidata (${vistos.length} testadas)`, usada };
 }
@@ -116,12 +121,13 @@ const chavesBanco = (a) => (HOMOLOGATED?.[a.categorySlug] || []).map(chaveFoto);
 const reprovavel = (a) => fotoJaUsada(a.image, tudo, a.slug).usada || fotoDeStock(a.image) || chavesBanco(a).includes(chaveFoto(a.image));
 const motivo = (a) => {
   const u = fotoJaUsada(a.image, tudo, a.slug);
+  if (!reprovavel(a)) return 'forcada';
   if (u.usada) return `repetida ${String(u.quantas).padStart(2)}x`;
   if (chavesBanco(a).includes(chaveFoto(a.image))) return 'banco homologado';
   if (fotoDeStock(a.image)) return 'stock genérica';
   return 'ok';
 };
-const alvos = ARTICLES.filter((a) => (!soVertical || a.categorySlug === soVertical) && reprovavel(a));
+const alvos = ARTICLES.filter((a) => (!soVertical || a.categorySlug === soVertical) && (reprovavel(a) || FORCAR.has(a.slug)));
 console.log(`${alvos.length} matérias vivas com foto reaproveitada · modo ${aplica ? 'APLICANDO' : 'relatório (disco intocado)'}\n`);
 const resultados = [];
 for (let i = 0; i < alvos.length; i += CONC) {

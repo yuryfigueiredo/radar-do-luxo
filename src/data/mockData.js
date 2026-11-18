@@ -1025,7 +1025,7 @@ export const ARTICLES = [
     "date": "14 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
-    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/1962_Ferrari_250_GTO_SP25.jpg/1280px-1962_Ferrari_250_GTO_SP25.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    "image": "https://robbreport.com/wp-content/uploads/2018/06/1962-ferrari-250-gto-by-scaglietti_0.jpg",
     "imageFocus": "bottom",
     "image_focus": "bottom",
     "excerpt": "A aquisição de uma raridade histórica por valores astronômicos revela a ascensão de ativos cinéticos que operam fora da esfera pública, transformando o ato da posse em um exercício de governança patrimonial.",
@@ -1060,8 +1060,8 @@ export const ARTICLES = [
     "engineSource": "gemini:gemini-3.1-flash-lite",
     "publishedAt": "2026-11-14T15:15:43.378Z",
     "published_at": "2026-11-14T15:15:43.378Z",
-    "sourceUrl": "https://en.wikipedia.org/wiki/Ferrari_250_GTO",
-    "source_url": "https://en.wikipedia.org/wiki/Ferrari_250_GTO"
+    "sourceUrl": "https://robbreport.com/motors/cars/gallery/1962-ferrari-250-gto-presented-by-rm-sothebys-2802638/",
+    "source_url": "https://robbreport.com/motors/cars/gallery/1962-ferrari-250-gto-presented-by-rm-sothebys-2802638/"
   },
   {
     "id": "art-perini-navi-bayesian-o-naufragio-3994",
