@@ -1,0 +1,11 @@
+{
+  "timezone": "America/Sao_Paulo",
+  "check_hours": ["08:20", "12:20", "15:20", "19:20", "22:20"],
+  "max_publishes_per_day": 5,
+  "min_gap_minutes": 60,
+  "folga_minutos": 90,
+  "cron_qoder": "20 8,12,15,19,22 * * *",
+  "escritor": "agente-qoder",
+  "prova_nuvem_inerte": "/home/yury/.local/state/radar/radar-vps-inerte",
+  "_nota": "Fonte única da agenda: radar-slot.sh, radar-rodada.sh e radar-vigia.sh leem este arquivo; nenhum copia horário próprio. check_hours medido no histórico de origin/main (19:20=14 entregas, 22:20=13, 15:40=11, 08:20=11, 12:20=10 no horário local) e uniformizado no minuto :20 para que o cron do app e a régua não possam divergir. Minuto único = cron_qoder uma linha. Alarme perdido NÃO se repete: radar-slot.sh servida responde FORA_DA_JANELA depois da folga."
+}
