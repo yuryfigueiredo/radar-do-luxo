@@ -34,7 +34,7 @@ const MAPA = mapaArq ? JSON.parse(fs.readFileSync(mapaArq, 'utf8')) : {};
 const ehPerdida = (u) => !u || /news\.google\.com\/rss/i.test(u);
 const ehImagem = (u) => /\.(jpe?g|png|webp|avif)(\?|$)/i.test(u);
 const CONC = 4;
-const MAX_CANDIDATOS = 6;
+const MAX_CANDIDATOS = 9;
 process.env.COVER_AUDIT_BUDGET_MS = process.env.COVER_AUDIT_BUDGET_MS || '12000';
 
 const { ARTICLES } = await import(path.join(RAIZ, 'src/data/mockData.js'));
@@ -42,7 +42,7 @@ const { PUBLISHED_ARCHIVE } = await import(path.join(RAIZ, 'src/data/publishedAr
 const { resolveCoverImage, fotoJaUsada, chaveFoto, fotoDeStock } = await import(path.join(RAIZ, 'scripts/coverImageAudit.js'));
 
 const tudo = [...(PUBLISHED_ARCHIVE || []), ...ARTICLES];
-const { HOMOLOGATED_IMAGES: HOMOLOGATED } = await import(path.join(RAIZ, src/services/aiArticleGenerator.js)).catch(() => ({}));
+const { HOMOLOGATED_IMAGES: HOMOLOGATED } = await import(path.join(RAIZ, 'src/services/aiArticleGenerator.js')).catch(() => ({}));
 const escolhidas = new Set();
 
 function candidatos(html, base) {
@@ -60,7 +60,10 @@ function candidatos(html, base) {
   push((html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i) || [])[1]);
   push((html.match(/<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)/i) || [])[1]);
   for (const m of html.matchAll(/"image"\s*:\s*"([^"]{14,})"/g)) push(m[1].replace(/\\\//g, '/'));
-  for (const m of html.matchAll(/<img[^>]+src=["']([^"']+)["']/g)) push(m[1]);
+  for (const m of html.matchAll(/<img[^>]+(?:src|data-src|data-original|data-lazy-src)=["']([^"']+)["']/g)) push(m[1]);
+  // Galeria preguiçosa não tem src no HTML: o endereço vive em srcset, e o último termo de cada
+  // entrada é o arquivo maior. Sem isso, uma página com o iate em 2000 px devolvia "sem candidata".
+  for (const m of html.matchAll(/(?:srcset|data-srcset)=["']([^"']+)["']/g)) for (const parte of m[1].split(',')) push(parte.trim().split(/\s+/)[0]);
   return [...new Set(out)];
 }
 
@@ -74,7 +77,7 @@ async function baixar(url) {
 
 async function resolver(item) {
   const usada = fotoJaUsada(item.image, tudo, item.slug);
-  if (!usada.usada) return { item, status: 'ok', usada };
+  if (!reprovavel(item)) return { item, status: 'ok', usada };
   const dada = MAPA[item.slug] || '';
   const fonte = ehImagem(dada) ? '' : (dada || (ehPerdida(item.sourceUrl) ? '' : item.sourceUrl));
   if (!fonte && !ehImagem(dada)) return { item, status: 'sem fonte (sourceUrl é token de RSS e o mapa não traz a página)', usada };
@@ -104,7 +107,15 @@ async function resolver(item) {
 // Alvo = o que a régua de hoje reprovaria: foto repetida OU banco de imagem genérica.
 // Medido em 17/11: das 23 capas do Unsplash, 19 nem estavam no banco homologado — era stock
 // avulso. Comparar só com a lista deixaria essas 19 no ar com o mesmo aspecto de banco.
-const reprovavel = (a) => fotoJaUsada(a.image, tudo, a.slug).usada || fotoDeStock(a.image) || (HOMOLOGATED?.[a.categorySlug] || []).map(chaveFoto).includes(chaveFoto(a.image));
+const chavesBanco = (a) => (HOMOLOGATED?.[a.categorySlug] || []).map(chaveFoto);
+const reprovavel = (a) => fotoJaUsada(a.image, tudo, a.slug).usada || fotoDeStock(a.image) || chavesBanco(a).includes(chaveFoto(a.image));
+const motivo = (a) => {
+  const u = fotoJaUsada(a.image, tudo, a.slug);
+  if (u.usada) return `repetida ${String(u.quantas).padStart(2)}x`;
+  if (chavesBanco(a).includes(chaveFoto(a.image))) return 'banco homologado';
+  if (fotoDeStock(a.image)) return 'stock genérica';
+  return 'ok';
+};
 const alvos = ARTICLES.filter((a) => (!soVertical || a.categorySlug === soVertical) && reprovavel(a));
 console.log(`${alvos.length} matérias vivas com foto reaproveitada · modo ${aplica ? 'APLICANDO' : 'relatório (disco intocado)'}\n`);
 const resultados = [];
@@ -115,7 +126,7 @@ for (let i = 0; i < alvos.length; i += CONC) {
 }
 const trocas = new Map();
 for (const r of resultados) {
-  console.log(`${r.status === 'nova' ? 'TROCA ' : '  ---  '} ${r.item.categorySlug.padEnd(11)} reaproveitada ${String(r.usada.quantas).padStart(2)}x · ${r.item.title.slice(0, 46)}${r.status === 'nova' ? `\n           → ${r.escolhida.slice(0, 108)}\n             ${r.nota}` : `\n           ${r.status}`}`);
+  console.log(`${r.status === 'nova' ? 'TROCA ' : '  ---  '} ${r.item.categorySlug.padEnd(11)} ${motivo(r.item).padEnd(16)}· ${r.item.title.slice(0, 46)}${r.status === 'nova' ? `\n           → ${r.escolhida.slice(0, 108)}\n             ${r.nota}` : `\n           ${r.status}`}`);
   if (r.status === 'nova') trocas.set(r.item.slug, { image: r.escolhida, sourceUrl: r.novaFonte });
 }
 console.log(`\nresolvidas: ${trocas.size}/${resultados.length}`);
