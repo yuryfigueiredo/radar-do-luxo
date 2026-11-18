@@ -471,8 +471,13 @@ export function getHomeSelection(articles) {
     || [...comDestaque].sort(porData)[0]
     || [...list].sort(porData)[0];
 
+  // A faixa de baixo desconvoca pela mesma régua da capa: ordem cronológica a
+  // partir da matéria logo abaixo da mais recente. O filtro por isHeroSecondary
+  // era uma bandeira escrita uma única vez, quando a matéria era rebaixada de
+  // capa, e nunca era retirada: as quatro ficaram presas em 15-17/nov enquanto
+  // as matérias novas do dia eram empurradas para o feed.
   const strip = takeFresh(
-    list.filter(a => a.isHeroSecondary || a.is_hero_secondary || a.isHero || a.is_hero),
+    list.slice().sort(porData),
     HOME_HERO_STRIP_LIMIT,
     identity,
     identity.collect([main])
