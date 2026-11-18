@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-abu-dhabi-8-marinas-atracadouros-de-180-m-7431",
+    "slug": "abu-dhabi-8-marinas-atracadouros-de-180-m-e-o-louvre-aberto-depois-da-hora-para-quem-chega-de-iate-7431",
+    "title": "Abu Dhabi: 8 Marinas, Atracadouros de 180 m e o Louvre Aberto Depois da Hora para Quem Chega de Iate",
+    "image": "https://media.assettype.com/gulfnews/2026-11-16/i696q95j/Screenshot-2026-11-16-170735.png?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+    "sourceUrl": "https://www.arabianbusiness.com/business/transport/abu-dhabi-rolls-out-the-red-carpet-for-the-worlds-superyacht-owners",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-18T11:26:40.000Z"
+  },
+  {
     "id": "art-bugatti-type-37-1925-chassi-37102-4418",
     "slug": "bugatti-type-37-de-1925-o-quarto-chassi-do-ano-zero-quase-meio-seculo-na-mesma-familia-vai-ao-leilao-de-paris-com-chao-de-650-mil-4418",
     "title": "Bugatti Type 37 de 1925: O Quarto Chassi do Ano Zero, Quase Meio Século na Mesma Família, Vai ao Leilão de Paris com Chão de € 650 Mil",

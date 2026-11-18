@@ -116,6 +116,61 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-abu-dhabi-8-marinas-atracadouros-de-180-m-7431",
+    "slug": "abu-dhabi-8-marinas-atracadouros-de-180-m-e-o-louvre-aberto-depois-da-hora-para-quem-chega-de-iate-7431",
+    "title": "Abu Dhabi: 8 Marinas, Atracadouros de 180 m e o Louvre Aberto Depois da Hora para Quem Chega de Iate",
+    "category": "Destinos & Iates",
+    "categorySlug": "destinos",
+    "category_slug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "18 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://media.assettype.com/gulfnews/2026-11-16/i696q95j/Screenshot-2026-11-16-170735.png?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "O DCT Abu Dhabi publicou dois guias: o Waterfront Guide mapeia 8 marinas com berços para cascos de até 180 metros; o Charter Planning Guide desenha 7 dias de iate privado entre o Louvre fora de hora, o deserto de Al Dhafra e Sir Bani Yas.",
+    "contentParagraphs": [
+      "Abu Dhabi não está vendendo marina: está vendendo itinerário. O Department of Culture and Tourism (DCT Abu Dhabi) publicou dois guias — o Abu Dhabi Waterfront Guide e o Luxury Charter Planning Guide — dentro da Tourism Strategy 2030, o plano do emirado para disputar fatia do turismo de alto padrão. Um resolve onde o casco atraca; o outro resolve o que acontece nas horas em que ele fica parado.",
+      "A primeira fase do Waterfront Guide cobre oito marinas — Emirates Palace, Yas Marina, Yas Bay Waterfront, Hidd Al Saadiyat, Hudayriyat Island, Al Qana, InterContinental e Marsa Al Bateen — com coordenadas de navegação, especificações técnicas das instalações e a medida que decide a aproximação de um comandante: berços para embarcações de até 180 metros, superiates incluídos. É a faixa que separa a marina de recreio da infraestrutura de grande porte. O que o documento não traz, por ora, são os dois números que um capitão confere antes de abrir o motor: quantos berços de 180 metros existem em cada atracadouro e qual a cota de calado disponível.",
+      "O guia também costura o lado de terra — restaurantes à beira d'água, beach clubs, campos de golfe de campeonato, retiros de wellness, museus e galerias — e reúne para tripulação o que a burocracia costuma espalhar em endereços diferentes: procedimentos de entrada nos Emirados, autorizações de navegação, regras de segurança e os serviços digitais concentrados no AD Maritime Hub. Para quem comanda, é a diferença entre um porto e um destino.",
+      "O segundo documento opera em outra escala de casco. Estruturado em quatro pilares — Stay, Sail, Savour e Signature —, o Luxury Charter Planning Guide trabalha com iates de 18 a 43 metros, faixa que leva até 60 convidados durante o dia ou 12 em pernoite. O eixo é 'The Journey, Reimagined', um roteiro de sete dias que emenda charter privado a retiros em palácios, noites no deserto e restaurantes reconhecidos pelo Michelin. No programa entram visita privada ao Louvre Abu Dhabi fora do horário de visitação, tour conduzido por curador no Natural History Museum Abu Dhabi, masterclasses de caligrafia árabe e perfumaria, e um cruzeiro pelos habitats marinhos de Al Dhafra até Sir Bani Yas e suas reservas de animais em liberdade.",
+      "Haitham Ali Khamis, diretor interino de desenvolvimento de produto turístico do DCT Abu Dhabi, resume a lógica: conectar marinas, hotéis, restaurantes e patrimônio para que parceiros montem 'jornadas de cruzeiro de luxo o ano inteiro'. A execução tem calendário — o Abu Dhabi International Boat Show ocupa o emirado de 19 a 22 de novembro — e território: mais de 200 ilhas. A leitura fria é que a marina é capital fixo e o itinerário é produto; o emirado acaba de publicar o manual de ambos."
+    ],
+    "content_paragraphs": [
+      "Abu Dhabi não está vendendo marina: está vendendo itinerário. O Department of Culture and Tourism (DCT Abu Dhabi) publicou dois guias — o Abu Dhabi Waterfront Guide e o Luxury Charter Planning Guide — dentro da Tourism Strategy 2030, o plano do emirado para disputar fatia do turismo de alto padrão. Um resolve onde o casco atraca; o outro resolve o que acontece nas horas em que ele fica parado.",
+      "A primeira fase do Waterfront Guide cobre oito marinas — Emirates Palace, Yas Marina, Yas Bay Waterfront, Hidd Al Saadiyat, Hudayriyat Island, Al Qana, InterContinental e Marsa Al Bateen — com coordenadas de navegação, especificações técnicas das instalações e a medida que decide a aproximação de um comandante: berços para embarcações de até 180 metros, superiates incluídos. É a faixa que separa a marina de recreio da infraestrutura de grande porte. O que o documento não traz, por ora, são os dois números que um capitão confere antes de abrir o motor: quantos berços de 180 metros existem em cada atracadouro e qual a cota de calado disponível.",
+      "O guia também costura o lado de terra — restaurantes à beira d'água, beach clubs, campos de golfe de campeonato, retiros de wellness, museus e galerias — e reúne para tripulação o que a burocracia costuma espalhar em endereços diferentes: procedimentos de entrada nos Emirados, autorizações de navegação, regras de segurança e os serviços digitais concentrados no AD Maritime Hub. Para quem comanda, é a diferença entre um porto e um destino.",
+      "O segundo documento opera em outra escala de casco. Estruturado em quatro pilares — Stay, Sail, Savour e Signature —, o Luxury Charter Planning Guide trabalha com iates de 18 a 43 metros, faixa que leva até 60 convidados durante o dia ou 12 em pernoite. O eixo é 'The Journey, Reimagined', um roteiro de sete dias que emenda charter privado a retiros em palácios, noites no deserto e restaurantes reconhecidos pelo Michelin. No programa entram visita privada ao Louvre Abu Dhabi fora do horário de visitação, tour conduzido por curador no Natural History Museum Abu Dhabi, masterclasses de caligrafia árabe e perfumaria, e um cruzeiro pelos habitats marinhos de Al Dhafra até Sir Bani Yas e suas reservas de animais em liberdade.",
+      "Haitham Ali Khamis, diretor interino de desenvolvimento de produto turístico do DCT Abu Dhabi, resume a lógica: conectar marinas, hotéis, restaurantes e patrimônio para que parceiros montem 'jornadas de cruzeiro de luxo o ano inteiro'. A execução tem calendário — o Abu Dhabi International Boat Show ocupa o emirado de 19 a 22 de novembro — e território: mais de 200 ilhas. A leitura fria é que a marina é capital fixo e o itinerário é produto; o emirado acaba de publicar o manual de ambos."
+    ],
+    "specs": {
+      "Guias": "Abu Dhabi Waterfront Guide e Luxury Charter Planning Guide (DCT Abu Dhabi)",
+      "Marinas mapeadas": "8 — Emirates Palace, Yas, Yas Bay, Hidd Al Saadiyat, Hudayriyat, Al Qana, InterContinental e Marsa Al Bateen",
+      "Atracação máxima": "Cascos de até 180 metros, superiates incluídos",
+      "Charter privado": "Iates de 18 a 43 metros — 60 convidados de dia, 12 em pernoite",
+      "Roteiro-âncora": "'The Journey, Reimagined' — 7 dias em Stay, Sail, Savour e Signature",
+      "Calendário": "Abu Dhabi International Boat Show, 19 a 22 de novembro de 2026"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "qoder:agente-editorial",
+    "publishedAt": "2026-11-18T11:26:40.000Z",
+    "published_at": "2026-11-18T11:26:40.000Z",
+    "sourceUrl": "https://www.arabianbusiness.com/business/transport/abu-dhabi-rolls-out-the-red-carpet-for-the-worlds-superyacht-owners",
+    "source_url": "https://www.arabianbusiness.com/business/transport/abu-dhabi-rolls-out-the-red-carpet-for-the-worlds-superyacht-owners"
+  },
+  {
     "id": "art-bugatti-type-37-1925-chassi-37102-4418",
     "slug": "bugatti-type-37-de-1925-o-quarto-chassi-do-ano-zero-quase-meio-seculo-na-mesma-familia-vai-ao-leilao-de-paris-com-chao-de-650-mil-4418",
     "title": "Bugatti Type 37 de 1925: O Quarto Chassi do Ano Zero, Quase Meio Século na Mesma Família, Vai ao Leilão de Paris com Chão de € 650 Mil",
@@ -156,8 +211,8 @@ export const ARTICLES = [
       "Avaliação": "€ 650.000 a € 850.000"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
+    "isHero": false,
+    "is_hero": false,
     "isHeroSecondary": false,
     "is_hero_secondary": false,
     "isPinnedHero": false,
@@ -1374,60 +1429,9 @@ export const ARTICLES = [
     "published_at": "2026-11-12T18:25:32.573Z",
     "sourceUrl": "https://unn.ua/en/news/ferrari-12cilindri-becomes-an-investment-object-first-units-resold-for-dollar700000",
     "source_url": "https://unn.ua/en/news/ferrari-12cilindri-becomes-an-investment-object-first-units-resold-for-dollar700000"
-  },
-  {
-    "id": "art-mercedes-maybach-project-serie-1-1075",
-    "slug": "mercedes-maybach-project-serie-1-o-megaiate-de-508-pes-com-assinatura-em-liga-naval-e-aporte-de-4-milhoes-de-dolares-por-cabine-1064",
-    "title": "Mercedes-Maybach Project Serie 1: O Megaiate de 508 Pés com Assinatura em Liga Naval e Aporte de 4 Milhões de Dólares por Cabine",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "12 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://www.yacht.com/wp-content/uploads/2026/01/maybach-ocean-club.webp",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A incursão estática da divisão de ultra-luxo na arquitetura naval exige soberania financeira e engenharia de fluidos sem concessões para navegar.",
-    "contentParagraphs": [
-      "A água resiste. O casco corta. Cinzentos 155 metros de alumínio e compósitos avançados cortam as ondas com precisão geométrica inegociável. Cada linha externa reflete o código genético da aerodinâmica alemã adaptada à densidade salina do Atlântico Norte.",
-      "Sob a linha d'água, estabilizadores giroscópicos massivos neutralizam o rolamento lateral em mar aberto. Quatro milhões de dólares garantem acesso restrito a um clube náutico flutuante onde o silêncio acústico prevalece sobre o ronco dos motores marinheiros.",
-      "O casco recebe tratamento cerâmico multicamada aplicado em doca seca controlada. O sal não adere. A corrosão cede lugar à inércia mecânica pura enquanto o convés exibe teca burmese tratada à mão por artesãos especializados em marcenaria offshore.",
-      "A soberania sobre as águas profundas exige mais do que capital soberano. Exige a certeza matemática de que nenhuma tempestade conseguirá perturbar o crepúsculo a bordo de uma embarcação concebida para resistir a gerações."
-    ],
-    "content_paragraphs": [
-      "A água resiste. O casco corta. Cinzentos 155 metros de alumínio e compósitos avançados cortam as ondas com precisão geométrica inegociável. Cada linha externa reflete o código genético da aerodinâmica alemã adaptada à densidade salina do Atlântico Norte.",
-      "Sob a linha d'água, estabilizadores giroscópicos massivos neutralizam o rolamento lateral em mar aberto. Quatro milhões de dólares garantem acesso restrito a um clube náutico flutuante onde o silêncio acústico prevalece sobre o ronco dos motores marinheiros.",
-      "O casco recebe tratamento cerâmico multicamada aplicado em doca seca controlada. O sal não adere. A corrosão cede lugar à inércia mecânica pura enquanto o convés exibe teca burmese tratada à mão por artesãos especializados em marcenaria offshore.",
-      "A soberania sobre as águas profundas exige mais do que capital soberano. Exige a certeza matemática de que nenhuma tempestade conseguirá perturbar o crepúsculo a bordo de uma embarcação concebida para resistir a gerações."
-    ],
-    "specs": {
-      "Comprimento Total": "508 pés (155 metros)",
-      "Investimento de Acesso": "USD 4.000.000 por cota associativa",
-      "Material do Casco": "Liga de alumínio naval e compósitos",
-      "Estabilização": "Sistema giroscópico ativo de alta inércia",
-      "Propulsão": "Híbrida diesel-elétrica de baixa vibração"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 90,
-    "ranking_score": 90,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-12T11:17:41.075Z",
-    "published_at": "2026-11-12T11:17:41.075Z",
-    "sourceUrl": "https://www.yacht.com/mercedes-maybach-ocean-club-superyacht/",
-    "source_url": "https://www.yacht.com/mercedes-maybach-ocean-club-superyacht/"
   }
 ];
+
 
 export const FILMSTRIP_ITEMS = [
   {
