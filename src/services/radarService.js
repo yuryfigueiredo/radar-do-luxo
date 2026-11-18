@@ -474,7 +474,11 @@ export function checkArticleDuplicate(candidate, existingArticles = [], currentC
   const candidatePhotoId = getPhotoId(candidate.image);
   const candidateTitle = (candidate.title || '').trim().toLowerCase();
   const candidateSlug = (candidate.slug || '').trim().toLowerCase();
-  const candidateKeywords = extractKeywords(candidateTitle + ' ' + candidateSlug);
+  // O slug é derivado do título, então a mesma palavra aparecia duas vezes na lista: um único
+  // termo em comum ("bugatti") bastava para virar a "sobreposição de 2+ palavras" que a
+  // régua documenta. Medido em 17/11 — duas matérias de assuntos distintos bloqueadas por
+  // dividirem uma palavra. A desduplicação devolve ao teste a regra escrita.
+  const candidateKeywords = [...new Set(extractKeywords(candidateTitle + " " + candidateSlug))];
 
   const activeCapa = currentCapa || existingArticles.find(a => a && (a.isHero || a.is_hero));
 
