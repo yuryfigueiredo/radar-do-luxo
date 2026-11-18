@@ -239,7 +239,7 @@ export const ARTICLES = [
     "date": "17 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1562281302-809108fd533c?auto=format&fit=max&q=80&w=1400",
+    "image": "https://image.yachtbuyer.com/w1200/h630/qh/ca/m1/k0e56b39c/article/content/3288434/superyacht-under-way.jpg",
     "imageFocus": "center",
     "image_focus": "center",
     "excerpt": "Arquitetura naval radical que funde hidrodinâmica de casco displacement, telemetria inercial avançada e espaços imersivos de entretenimento para quatorze convidados em águas internacionais.",
@@ -274,8 +274,8 @@ export const ARTICLES = [
     "engineSource": "gemini:gemini-flash-lite-latest",
     "publishedAt": "2026-11-17T22:10:34.212Z",
     "published_at": "2026-11-17T22:10:34.212Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVmpYRGVLcllfa3d0XzVGQmR4OGdFQ1pwNGU4RnVGWWEzc1ZmOUl4ZktUMlFhYTRLaU5Wem5JQzlPeGhKX2I2bGRKSVQ2ZGlraDJ2N0pnQnpIT1Byb1o2Z19NT0QxN1dKS200SURkeG5uMS1GNWxyaVdIekVMZk1kUnJiRDFvMnc?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVmpYRGVLcllfa3d0XzVGQmR4OGdFQ1pwNGU4RnVGWWEzc1ZmOUl4ZktUMlFhYTRLaU5Wem5JQzlPeGhKX2I2bGRKSVQ2ZGlraDJ2N0pnQnpIT1Byb1o2Z19NT0QxN1dKS200SURkeG5uMS1GNWxyaVdIekVMZk1kUnJiRDFvMnc?oc=5"
+    "sourceUrl": "https://www.yachtbuyer.com/en/news/oceanco-delivers-111m-diesel-electric-superyacht-leviathan-for-gabe-newell",
+    "source_url": "https://www.yachtbuyer.com/en/news/oceanco-delivers-111m-diesel-electric-superyacht-leviathan-for-gabe-newell"
   },
   {
     "id": "art-bugatti-type-41-royale-a-escultu-0112",
@@ -344,7 +344,7 @@ export const ARTICLES = [
     "date": "17 de novembro de 2026",
     "readTime": "5 min de leitura",
     "read_time": "5 min de leitura",
-    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=max&q=80&w=1400",
+    "image": "https://image.yachtbuyer.com/w1200/h630/qh/ca/m1/k0a7f14b0/vessel/resource/2131845.jpg",
     "imageFocus": "center",
     "image_focus": "center",
     "excerpt": "Uma estrutura de aço e alumínio de 300 milhões de dólares exige precisão balística. O colosso de 110 metros redefine a estabilidade inercial em águas profundas.",
@@ -379,8 +379,8 @@ export const ARTICLES = [
     "engineSource": "gemini:gemini-3.1-flash-lite",
     "publishedAt": "2026-11-17T17:09:32.833Z",
     "published_at": "2026-11-17T17:09:32.833Z",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVGpRV3dTMWpKM2NqMmNpRmRvOXA2bTNjV09kc2FvYXBrdzRyVlRKdjhtQ0h2Tm9wZmNMTjVQdk12WUVrVnlua0V0RUxGeGc1ZUdwVzB5Q0pEMUVNdG9QcEFlai03Z0lrT1V6X0RXSnJsS1B6bWp0ZDVCdjdFYnhJaVZWbUpfSndlSU1nVl95RGItSUxGTVhYaVRrOFNYUHAzZm5hekVDekhSaE9ES3hxc2F0QQ?oc=5",
-    "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVGpRV3dTMWpKM2NqMmNpRmRvOXA2bTNjV09kc2FvYXBrdzRyVlRKdjhtQ0h2Tm9wZmNMTjVQdk12WUVrVnlua0V0RUxGeGc1ZUdwVzB5Q0pEMUVNdG9QcEFlai03Z0lrT1V6X0RXSnJsS1B6bWp0ZDVCdjdFYnhJaVZWbUpfSndlSU1nVl95RGItSUxGTVhYaVRrOFNYUHAzZm5hekVDekhSaE9ES3hxc2F0QQ?oc=5"
+    "sourceUrl": "https://www.yachtbuyer.com/en/fleet/ambassador-360-feadship",
+    "source_url": "https://www.yachtbuyer.com/en/fleet/ambassador-360-feadship"
   },
   {
     "id": "art-bugatti-centodieci-os-us-9-milho-4101",
