@@ -116,6 +116,63 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-koenigsegg-65-equity-partners-fatia-minoritaria-3174",
+    "slug": "koenigsegg-65-equity-partners-fatia-minoritaria-angelholm-fila-3-anos-3174",
+    "title": "Koenigsegg: 65 Equity Partners Compra Fatia Minoritária na Fábrica de Ängelholm, Onde a Fila de Pedidos Passa de 3 Anos",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "19 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://delivery2.objectic.io/ncDCPjqO3MTHdg7wODCN8l/AM0AL7jZa0n7/hee6SfaYoUz8158xm2HTGNE1vz6mR9ADk4oRt6pP.png?crop=16:9,smart&format=jpg&width=1920&quality=75",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "A 65 Equity Partners anunciou de Londres um investimento minoritário na Koenigsegg, com ações novas e venda secundária de papéis existentes; a Chieftain Capital acompanha, e Christian von Koenigsegg segue majoritário. O aporte financia a próxima fase da fábrica de Ängelholm — fila acima de 3 anos, receita de 1,76 bilhão de coroas suecas em 2025 — e prepara o terreno para uma eventual listagem.",
+    "contentParagraphs": [
+      "A 65 Equity Partners anunciou nesta quinta-feira, 19 de novembro, de Londres, um investimento minoritário na Koenigsegg Automotive. O comunicado não revela o valor nem a avaliação da operação, mas informa que a firma acaba de superar US$ 2 bilhões aportados em 19 investimentos desde sua criação, cinco anos atrás. Para a fabricante sueca, o negócio é o quarto da 65 Equity na Europa em 24 meses — e o primeiro no setor de hipercarros.",
+      "O alvo tem endereço e escala definidos: Ängelholm, no sudoeste da Suécia, onde a Koenigsegg monta carros em série curta desde que Christian von Koenigsegg fundou a empresa, em 1994. São cerca de 800 funcionários e uma carteira de pedidos que passa de três anos — cada carro é vendido antes de entrar em produção. A receita cresceu 80% ao ano em média desde 2022, segundo o comunicado da 65 Equity. Em 2025, o EFN reporta, com base no site Carup, receita de 1,76 bilhão de coroas suecas e lucro operacional de 115 milhões de coroas. São números de ateliê, não de montadora: a produção é baixa, o ciclo é longo e o caixa entra antes de a peça sair da bancada.",
+      "A mecânica da transação importa tanto quanto o valor que não foi divulgado. O aporte combina ações novas — capital que entra no caixa da empresa — com a venda secundária de papéis existentes, segundo o EFN. A Chieftain Capital Management, acionista atual, também injeta dinheiro novo. Christian von Koenigsegg permanece acionista majoritário e no comando. O comunicado da Koenigsegg diz que a 65 Equity vai usar sua rede global e sua experiência para apoiar a gestão na execução das ambições de crescimento e na avaliação de alternativas estratégicas futuras, incluindo uma eventual listagem em bolsa.",
+      "'Koenigsegg é uma empresa verdadeiramente excepcional, que combina uma marca globalmente reconhecida com engenharia pioneira, artesanato sem concessões e um compromisso incansável com a inovação', disse Alex Stirling, sócio e co-diretor de Europa da 65 Equity Partners. Pascal Heberling, que divide a mesma função, foi mais específico: cada vez mais fundadores e famílias querem capital para crescer e se internacionalizar sem entregar o controle nem comprometer a cultura que construíram. A pesquisa feita pela firma com o INSEAD, sobre mais de 19 mil empresas em nove países, sustenta o argumento: 26% das empresas familiares esperam buscar investimento externo nos próximos três a cinco anos, e apenas 3% preveem uma venda integral.",
+      "O histórico europeu da 65 Equity ajuda a ler o papel que ela quer ocupar. Nos últimos 24 meses, a firma investiu na Theop, consultoria de gestão de projetos imobiliários com operação na França, Espanha, Bélgica e Itália; na britânica Kee Safety, de sistemas de segurança; e, na Suíça, ao lado da família Braglia, no primeiro capital institucional da fusão entre HAS e Cerbios, que criou um grupo farmacêutico. Em todas, a lógica é a mesma: minoria, capital de longo prazo e controle nas mãos de quem já tocava a operação. É o oposto de uma aquisição — e é o tipo de cheque que uma fábrica de hipercarros, com ciclo de desenvolvimento medido em anos, consegue digerir.",
+      "Para quem mede a Koenigsegg pelo cronômetro, a notícia não muda a topologia do produto. O dinheiro novo financia a próxima fase de crescimento, o desenvolvimento técnico e a preparação para uma eventual abertura de capital — tarefas de bastidor, não de pista. A capa desta matéria mostra o CCGT1, o carro de competição da casa, branco, com a asa fixa sobre a carroçaria e a entrada de ar no teto: a mesma silhueta que a fábrica de Ängelholm constrói peça por peça. O dado a acompanhar nos próximos doze meses não é o valuation que ninguém divulgou, e sim a fila de pedidos — se ela continuar acima de três anos, o capital novo terá comprado tempo de engenharia, o único ativo que esse tipo de ateliê não consegue terceirizar."
+    ],
+    "content_paragraphs": [
+      "A 65 Equity Partners anunciou nesta quinta-feira, 19 de novembro, de Londres, um investimento minoritário na Koenigsegg Automotive. O comunicado não revela o valor nem a avaliação da operação, mas informa que a firma acaba de superar US$ 2 bilhões aportados em 19 investimentos desde sua criação, cinco anos atrás. Para a fabricante sueca, o negócio é o quarto da 65 Equity na Europa em 24 meses — e o primeiro no setor de hipercarros.",
+      "O alvo tem endereço e escala definidos: Ängelholm, no sudoeste da Suécia, onde a Koenigsegg monta carros em série curta desde que Christian von Koenigsegg fundou a empresa, em 1994. São cerca de 800 funcionários e uma carteira de pedidos que passa de três anos — cada carro é vendido antes de entrar em produção. A receita cresceu 80% ao ano em média desde 2022, segundo o comunicado da 65 Equity. Em 2025, o EFN reporta, com base no site Carup, receita de 1,76 bilhão de coroas suecas e lucro operacional de 115 milhões de coroas. São números de ateliê, não de montadora: a produção é baixa, o ciclo é longo e o caixa entra antes de a peça sair da bancada.",
+      "A mecânica da transação importa tanto quanto o valor que não foi divulgado. O aporte combina ações novas — capital que entra no caixa da empresa — com a venda secundária de papéis existentes, segundo o EFN. A Chieftain Capital Management, acionista atual, também injeta dinheiro novo. Christian von Koenigsegg permanece acionista majoritário e no comando. O comunicado da Koenigsegg diz que a 65 Equity vai usar sua rede global e sua experiência para apoiar a gestão na execução das ambições de crescimento e na avaliação de alternativas estratégicas futuras, incluindo uma eventual listagem em bolsa.",
+      "'Koenigsegg é uma empresa verdadeiramente excepcional, que combina uma marca globalmente reconhecida com engenharia pioneira, artesanato sem concessões e um compromisso incansável com a inovação', disse Alex Stirling, sócio e co-diretor de Europa da 65 Equity Partners. Pascal Heberling, que divide a mesma função, foi mais específico: cada vez mais fundadores e famílias querem capital para crescer e se internacionalizar sem entregar o controle nem comprometer a cultura que construíram. A pesquisa feita pela firma com o INSEAD, sobre mais de 19 mil empresas em nove países, sustenta o argumento: 26% das empresas familiares esperam buscar investimento externo nos próximos três a cinco anos, e apenas 3% preveem uma venda integral.",
+      "O histórico europeu da 65 Equity ajuda a ler o papel que ela quer ocupar. Nos últimos 24 meses, a firma investiu na Theop, consultoria de gestão de projetos imobiliários com operação na França, Espanha, Bélgica e Itália; na britânica Kee Safety, de sistemas de segurança; e, na Suíça, ao lado da família Braglia, no primeiro capital institucional da fusão entre HAS e Cerbios, que criou um grupo farmacêutico. Em todas, a lógica é a mesma: minoria, capital de longo prazo e controle nas mãos de quem já tocava a operação. É o oposto de uma aquisição — e é o tipo de cheque que uma fábrica de hipercarros, com ciclo de desenvolvimento medido em anos, consegue digerir.",
+      "Para quem mede a Koenigsegg pelo cronômetro, a notícia não muda a topologia do produto. O dinheiro novo financia a próxima fase de crescimento, o desenvolvimento técnico e a preparação para uma eventual abertura de capital — tarefas de bastidor, não de pista. A capa desta matéria mostra o CCGT1, o carro de competição da casa, branco, com a asa fixa sobre a carroçaria e a entrada de ar no teto: a mesma silhueta que a fábrica de Ängelholm constrói peça por peça. O dado a acompanhar nos próximos doze meses não é o valuation que ninguém divulgou, e sim a fila de pedidos — se ela continuar acima de três anos, o capital novo terá comprado tempo de engenharia, o único ativo que esse tipo de ateliê não consegue terceirizar."
+    ],
+    "specs": {
+      "Investidor": "65 Equity Partners (Londres), sócio minoritário com capital novo",
+      "Fundador": "Christian von Koenigsegg (1994), permanece acionista majoritário e no comando",
+      "Base": "Ängelholm, Suécia — produção em série curta, cerca de 800 funcionários",
+      "Receita 2025": "SEK 1,76 bilhão, com lucro operacional de SEK 115 milhões (Carup/EFN)",
+      "Carteira": "Fila de pedidos superior a 3 anos; carros vendidos antes da produção",
+      "Marco do fundo": "US$ 2 bilhões em 19 investimentos em 5 anos; 4º negócio europeu em 24 meses"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 94,
+    "ranking_score": 94,
+    "engineSource": "qoder:agente-editorial",
+    "publishedAt": "2026-11-19T11:26:00.000Z",
+    "published_at": "2026-11-19T11:26:00.000Z",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/65-equity-partners-marks-us2-billion-investment-milestone-as-it-announces-investment-in-swedish-hypercar-manufacturer-koenigsegg-automotive-302944466.html",
+    "source_url": "https://www.prnewswire.com/news-releases/65-equity-partners-marks-us2-billion-investment-milestone-as-it-announces-investment-in-swedish-hypercar-manufacturer-koenigsegg-automotive-302944466.html"
+  },
+  {
     "id": "art-cartier-london-tank-de-joan-collins-4823",
     "slug": "cartier-london-tank-de-joan-collins-o-relogio-de-ouro-de-1968-que-ron-kass-deu-em-1981-vai-a-leilao-na-bonhams-london",
     "title": "Cartier London Tank de Joan Collins: O Relógio de Ouro de 1968 Dado por Ron Kass em 1981 Vai a Leilão na Bonhams com Estimativa de £ 5.000 a £ 7.000",
@@ -158,8 +215,8 @@ export const ARTICLES = [
       "Outros destaques": "Três Omega Speedmaster vintage, Longines dos anos 1940, Patek Philippe Nautilus dos anos 80, Audemars Piguet Royal Oak dos anos 90 e dois Cartier Mystery Clock Art Déco"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
+    "isHero": false,
+    "is_hero": false,
     "isHeroSecondary": false,
     "is_hero_secondary": false,
     "isPinnedHero": false,
@@ -1397,58 +1454,6 @@ export const ARTICLES = [
     "published_at": "2026-11-14T04:39:43.994Z",
     "sourceUrl": "https://www.repubblica.it/en/europe/news/2026/11/13/news/bayesian_yacht_sinking_design_flaws-425721407/",
     "source_url": "https://www.repubblica.it/en/europe/news/2026/11/13/news/bayesian_yacht_sinking_design_flaws-425721407/"
-  },
-  {
-    "id": "art-ferrari-sp12-ec-a-obra-prima-uni-7247",
-    "slug": "ferrari-sp12-ec-a-obra-prima-unica-de-us-47-milhoes-que-fundiu-a-arquitetura-da-512bb-com-o-v8-biturbo-7179",
-    "title": "Ferrari SP12 EC: A Obra-Prima Única de US$ 4,7 Milhões que Fundiu a Arquitetura da 512BB com o V8 Biturbo",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "14 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://www.thesupercarblog.com/wp-content/uploads/2018/09/Ferrari-SP12-EC-Eric-Clapton.jpg",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "Encomendada por Eric Clapton sob estrita supervisão de Maranello, esta unidade única redefine a exclusividade mecânica através de uma carroçaria modelada para honrar um ícone do passado.",
-    "contentParagraphs": [
-      "O silêncio do asfalto cedeu espaço ao estampido mecânico. Eric Clapton exigiu a alma da 512BB em um chassi moderno. Maranello atendeu com uma escultura de US$ 4,7 milhões.",
-      "Sob a tampa traseira esculpida à mão, repousa um motor V8 biturbo ajustado com tolerâncias de mícrons. A força G lateral comprime o tórax enquanto o fluxo de Venturi cola o chassi ao solo com precisão cirúrgica.",
-      "Não há concessões estéticas gratuitas. Cada painel em alumínio e compósito foi forjado para canalizar ar diretamente para os radiadores, transformando a aerodinâmica em uma arma cinética implacável.",
-      "A SP12 EC permanece isolada no topo da raridade automotiva. Um monumento rodoviário onde o pedigree histórico do rock n' roll encontrou a engenharia mais intransigente da Itália."
-    ],
-    "content_paragraphs": [
-      "O silêncio do asfalto cedeu espaço ao estampido mecânico. Eric Clapton exigiu a alma da 512BB em um chassi moderno. Maranello atendeu com uma escultura de US$ 4,7 milhões.",
-      "Sob a tampa traseira esculpida à mão, repousa um motor V8 biturbo ajustado com tolerâncias de mícrons. A força G lateral comprime o tórax enquanto o fluxo de Venturi cola o chassi ao solo com precisão cirúrgica.",
-      "Não há concessões estéticas gratuitas. Cada painel em alumínio e compósito foi forjado para canalizar ar diretamente para os radiadores, transformando a aerodinâmica em uma arma cinética implacável.",
-      "A SP12 EC permanece isolada no topo da raridade automotiva. Um monumento rodoviário onde o pedigree histórico do rock n' roll encontrou a engenharia mais intransigente da Itália."
-    ],
-    "specs": {
-      "motorizacao": "V8 biturbo de 4.5 litros",
-      "chassi": "Monocoque em liga leve e alumínio",
-      "investimento": "US$ 4.700.000",
-      "tiragem": "Unidade única (One-Off)",
-      "aerodinamica": "Efeito solo otimizado por túnel de vento"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 98,
-    "ranking_score": 98,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-14T03:53:47.247Z",
-    "published_at": "2026-11-14T03:53:47.247Z",
-    "sourceUrl": "https://www.thesupercarblog.com/eric-claptons-ferrari-sp12-ec-is-inspired-by-the-512-bb/",
-    "source_url": "https://www.thesupercarblog.com/eric-claptons-ferrari-sp12-ec-is-inspired-by-the-512-bb/"
   },
 ];
 

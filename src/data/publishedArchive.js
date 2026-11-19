@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-koenigsegg-65-equity-partners-fatia-minoritaria-3174",
+    "slug": "koenigsegg-65-equity-partners-fatia-minoritaria-angelholm-fila-3-anos-3174",
+    "title": "Koenigsegg: 65 Equity Partners Compra Fatia Minoritária na Fábrica de Ängelholm, Onde a Fila de Pedidos Passa de 3 Anos",
+    "image": "https://delivery2.objectic.io/ncDCPjqO3MTHdg7wODCN8l/AM0AL7jZa0n7/hee6SfaYoUz8158xm2HTGNE1vz6mR9ADk4oRt6pP.png?crop=16:9,smart&format=jpg&width=1920&quality=75",
+    "sourceUrl": "https://www.prnewswire.com/news-releases/65-equity-partners-marks-us2-billion-investment-milestone-as-it-announces-investment-in-swedish-hypercar-manufacturer-koenigsegg-automotive-302944466.html",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-19T11:26:00.000Z"
+  },
+  {
     "id": "art-cartier-london-tank-de-joan-collins-4823",
     "slug": "cartier-london-tank-de-joan-collins-o-relogio-de-ouro-de-1968-que-ron-kass-deu-em-1981-vai-a-leilao-na-bonhams-london",
     "title": "Cartier London Tank de Joan Collins: O Relógio de Ouro de 1968 Dado por Ron Kass em 1981 Vai a Leilão na Bonhams com Estimativa de £ 5.000 a £ 7.000",
