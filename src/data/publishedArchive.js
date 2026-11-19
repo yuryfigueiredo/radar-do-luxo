@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-koenigsegg-acao-300-coroas-valua-marca-sueca-5826",
+    "slug": "koenigsegg-acao-a-300-coroas-valua-marca-sueca-em-eur-1-3-bilhao-cfo-ekdahl-listagem-dois-anos-5826",
+    "title": "Koenigsegg: Ação a 300 Coroas Valua a Marca Sueca em €1,3 Bilhão Enquanto o CFO Situa a Listagem a 'Pelo Menos Dois Anos'",
+    "image": "https://www.thesupercarblog.com/wp-content/uploads/2026/06/Koenigsegg-Sadairs-Spear-USA-2.jpg",
+    "sourceUrl": "https://www.thesupercarblog.com/koenigsegg-valued-at-e1-3-billion-as-hypercar-maker-considers-going-public/",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-19T18:23:01.000Z"
+  },
+  {
     "id": "art-koenigsegg-65-equity-partners-fatia-minoritaria-3174",
     "slug": "koenigsegg-65-equity-partners-fatia-minoritaria-angelholm-fila-3-anos-3174",
     "title": "Koenigsegg: 65 Equity Partners Compra Fatia Minoritária na Fábrica de Ängelholm, Onde a Fila de Pedidos Passa de 3 Anos",

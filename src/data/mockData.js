@@ -116,6 +116,63 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-koenigsegg-acao-300-coroas-valua-marca-sueca-5826",
+    "slug": "koenigsegg-acao-a-300-coroas-valua-marca-sueca-em-eur-1-3-bilhao-cfo-ekdahl-listagem-dois-anos-5826",
+    "title": "Koenigsegg: Ação a 300 Coroas Valua a Marca Sueca em €1,3 Bilhão Enquanto o CFO Situa a Listagem a 'Pelo Menos Dois Anos'",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "19 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://www.thesupercarblog.com/wp-content/uploads/2026/06/Koenigsegg-Sadairs-Spear-USA-2.jpg",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Koenigsegg vendeu € 20 milhões em ações novas e existentes à 65 Equity Partners, unidade da Temasek, a 300 coroas o papel — 57% acima das 191 coroas de 2024 — num valuation de € 1,3 bilhão. O CFO Johan Ekdahl diz que a operação traz um sócio, não caixa, e que uma listagem, se decidida, está a 'pelo menos dois anos' de distância.",
+    "contentParagraphs": [
+      "A Koenigsegg colocou um número no próprio volante. A emissão que cedeu pouco mais de 7% da empresa à 65 Equity Partners, unidade integral da Temasek, a investidora estatal de Singapura, foi precificada a 300 coroas suecas por ação, contra 191 coroas da rodada de 2024. São € 20 milhões em capital novo e um valuation de aproximadamente € 1,3 bilhão, ou US$ 1,4 bilhão, segundo a Bloomberg, que divulgou os termos nesta quinta-feira, 19 de novembro. Em dois anos, o papel subiu 57% — a aritmética mais direta que a fábrica de Ängelholm já publicou sobre o próprio valor.",
+      "A transação combina ações novas e papéis existentes. A Chieftain Capital Management, family office de Nova York que já era acionista, participou da oferta e ficará com uma fatia um pouco maior que a da 65 Equity; Alex Stirling, co-diretor de Europa da compradora, assume um assento no conselho. É o primeiro investimento da firma na Suécia — a mesma 65 Equity que gere cerca de US$ 4,2 bilhões, foi lançada pela Temasek em 2021 e já aportou na britânica Kee Safety e na francesa Theop. Para a Koenigsegg, é o segundo dono institucional em 32 anos de operação.",
+      "O CFO Johan Ekdahl, ex-Volvo Cars, enquadrou a operação com precisão de bancada: 'Trata-se primordialmente de trazer um bom parceiro como acionista minoritário para o futuro, não de levantar caixa.' A empresa, diz ele, financia investimentos e desenvolvimento de produto com o próprio fluxo de caixa; a emissão cria folga, não sobrevivência. Os números sustentam o tom. No ano passado, as vendas cresceram 24%, para SEK 1,76 bilhão — cerca de US$ 170 milhões —, e o lucro operacional mais que triplicou, para SEK 115 milhões. Com pouco mais de 800 funcionários, a Koenigsegg espera montar cerca de 70 carros em 2026.",
+      "O produto não mudou de escala: continua sendo o oposto de uma linha de montagem. O portfólio reúne o Sadair's Spear, de US$ 4 milhões, o CC850 de inspiração retrô e o Gemera, híbrido plug-in de 2.300 cavalos com quatro lugares para adultos. Um novo modelo está previsto para o ano que vem. A carteira de pedidos cobre mais de três anos — para Stirling, 'forte visibilidade' num mundo de incerteza —, e entre os clientes citados pela Bloomberg está Sam Altman, CEO da OpenAI, dono de um Regera. É uma base de receita com horizonte raro num setor de ciclos curtos.",
+      "A listagem, porém, não está no cronômetro curto. A empresa se converteu em public limited company em 2025, contratou Ekdahl e trata a abertura de capital como uma entre várias opções estratégicas. 'Estamos trabalhando para deixar a empresa pronta caso os donos decidam buscar uma listagem', disse o CFO. 'Não é algo que vá acontecer no curto prazo; se a decisão for tomada, estaria a pelo menos uns dois anos de distância.' Stirling segue a mesma régua: 'poderia fazer muito sentido, mas também existem outras opções.'",
+      "O que o mercado comprou, portanto, foi tempo e governança, não velocidade. A € 1,3 bilhão (US$ 1,4 bilhão) e uma receita de US$ 170 milhões, o múltiplo implícito é de cerca de oito vezes as vendas de 2025, para uma empresa que entrega menos de 100 carros por ano. É um prêmio que se paga com fila de pedidos, não com volume. A capa desta matéria mostra dois Koenigsegg no pátio da fábrica, sob o letreiro da marca; a fonte identifica o modelo em primeiro plano como o Sadair's Spear. Até 2028, os indicadores a acompanhar são três: a produção anual diante da meta de 70 unidades, a estreia do novo modelo e a distância entre a estrutura de public limited company e uma listagem de fato. O resto é ruído de pista."
+    ],
+    "content_paragraphs": [
+      "A Koenigsegg colocou um número no próprio volante. A emissão que cedeu pouco mais de 7% da empresa à 65 Equity Partners, unidade integral da Temasek, a investidora estatal de Singapura, foi precificada a 300 coroas suecas por ação, contra 191 coroas da rodada de 2024. São € 20 milhões em capital novo e um valuation de aproximadamente € 1,3 bilhão, ou US$ 1,4 bilhão, segundo a Bloomberg, que divulgou os termos nesta quinta-feira, 19 de novembro. Em dois anos, o papel subiu 57% — a aritmética mais direta que a fábrica de Ängelholm já publicou sobre o próprio valor.",
+      "A transação combina ações novas e papéis existentes. A Chieftain Capital Management, family office de Nova York que já era acionista, participou da oferta e ficará com uma fatia um pouco maior que a da 65 Equity; Alex Stirling, co-diretor de Europa da compradora, assume um assento no conselho. É o primeiro investimento da firma na Suécia — a mesma 65 Equity que gere cerca de US$ 4,2 bilhões, foi lançada pela Temasek em 2021 e já aportou na britânica Kee Safety e na francesa Theop. Para a Koenigsegg, é o segundo dono institucional em 32 anos de operação.",
+      "O CFO Johan Ekdahl, ex-Volvo Cars, enquadrou a operação com precisão de bancada: 'Trata-se primordialmente de trazer um bom parceiro como acionista minoritário para o futuro, não de levantar caixa.' A empresa, diz ele, financia investimentos e desenvolvimento de produto com o próprio fluxo de caixa; a emissão cria folga, não sobrevivência. Os números sustentam o tom. No ano passado, as vendas cresceram 24%, para SEK 1,76 bilhão — cerca de US$ 170 milhões —, e o lucro operacional mais que triplicou, para SEK 115 milhões. Com pouco mais de 800 funcionários, a Koenigsegg espera montar cerca de 70 carros em 2026.",
+      "O produto não mudou de escala: continua sendo o oposto de uma linha de montagem. O portfólio reúne o Sadair's Spear, de US$ 4 milhões, o CC850 de inspiração retrô e o Gemera, híbrido plug-in de 2.300 cavalos com quatro lugares para adultos. Um novo modelo está previsto para o ano que vem. A carteira de pedidos cobre mais de três anos — para Stirling, 'forte visibilidade' num mundo de incerteza —, e entre os clientes citados pela Bloomberg está Sam Altman, CEO da OpenAI, dono de um Regera. É uma base de receita com horizonte raro num setor de ciclos curtos.",
+      "A listagem, porém, não está no cronômetro curto. A empresa se converteu em public limited company em 2025, contratou Ekdahl e trata a abertura de capital como uma entre várias opções estratégicas. 'Estamos trabalhando para deixar a empresa pronta caso os donos decidam buscar uma listagem', disse o CFO. 'Não é algo que vá acontecer no curto prazo; se a decisão for tomada, estaria a pelo menos uns dois anos de distância.' Stirling segue a mesma régua: 'poderia fazer muito sentido, mas também existem outras opções.'",
+      "O que o mercado comprou, portanto, foi tempo e governança, não velocidade. A € 1,3 bilhão (US$ 1,4 bilhão) e uma receita de US$ 170 milhões, o múltiplo implícito é de cerca de oito vezes as vendas de 2025, para uma empresa que entrega menos de 100 carros por ano. É um prêmio que se paga com fila de pedidos, não com volume. A capa desta matéria mostra dois Koenigsegg no pátio da fábrica, sob o letreiro da marca; a fonte identifica o modelo em primeiro plano como o Sadair's Spear. Até 2028, os indicadores a acompanhar são três: a produção anual diante da meta de 70 unidades, a estreia do novo modelo e a distância entre a estrutura de public limited company e uma listagem de fato. O resto é ruído de pista."
+    ],
+    "specs": {
+      "Avaliação": "€ 1,3 bilhão (US$ 1,4 bilhão), na emissão a 300 coroas suecas por ação — ante 191 coroas em 2024",
+      "Aporte": "€ 20 milhões da 65 Equity Partners, unidade da Temasek; fatia pouco acima de 7%",
+      "Produção": "Cerca de 70 carros em 2026, menos de 100 por ano, em Ängelholm, Suécia",
+      "Receita 2025": "SEK 1,76 bilhão (US$ 170 milhões), alta de 24%; lucro operacional de SEK 115 milhões",
+      "Linha": "Sadair's Spear (US$ 4 milhões), CC850 e Gemera híbrido plug-in de 2.300 cv para quatro lugares",
+      "Listagem": "Public limited company desde 2025; IPO a 'pelo menos dois anos', segundo o CFO Johan Ekdahl"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 94,
+    "ranking_score": 94,
+    "engineSource": "qoder:agente-editorial",
+    "publishedAt": "2026-11-19T18:23:01.000Z",
+    "published_at": "2026-11-19T18:23:01.000Z",
+    "sourceUrl": "https://www.thesupercarblog.com/koenigsegg-valued-at-e1-3-billion-as-hypercar-maker-considers-going-public/",
+    "source_url": "https://www.thesupercarblog.com/koenigsegg-valued-at-e1-3-billion-as-hypercar-maker-considers-going-public/"
+  },
+  {
     "id": "art-koenigsegg-65-equity-partners-fatia-minoritaria-3174",
     "slug": "koenigsegg-65-equity-partners-fatia-minoritaria-angelholm-fila-3-anos-3174",
     "title": "Koenigsegg: 65 Equity Partners Compra Fatia Minoritária na Fábrica de Ängelholm, Onde a Fila de Pedidos Passa de 3 Anos",
@@ -158,8 +215,8 @@ export const ARTICLES = [
       "Marco do fundo": "US$ 2 bilhões em 19 investimentos em 5 anos; 4º negócio europeu em 24 meses"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
+    "isHero": false,
+    "is_hero": false,
     "isHeroSecondary": false,
     "is_hero_secondary": false,
     "isPinnedHero": false,
@@ -1402,59 +1459,7 @@ export const ARTICLES = [
     "published_at": "2026-11-14T15:15:43.378Z",
     "sourceUrl": "https://robbreport.com/motors/cars/gallery/1962-ferrari-250-gto-presented-by-rm-sothebys-2802638/",
     "source_url": "https://robbreport.com/motors/cars/gallery/1962-ferrari-250-gto-presented-by-rm-sothebys-2802638/"
-  },
-  {
-    "id": "art-perini-navi-bayesian-o-naufragio-3994",
-    "slug": "perini-navi-bayesian-o-naufragio-de-56-metros-atribuido-a-incompetencia-da-tripulacao-e-aos-erros-de-lideranca-humana-em-mar-aberto-3982",
-    "title": "Perini Navi Bayesian: O Naufrágio de 56 Metros Atribuído à Incompetência da Tripulação e aos Erros de Liderança Humana em Mar Aberto",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "14 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://www.repstatic.it/content/nazionale/img/2026/11/13/163835495-87817a53-8304-41eb-8aa3-2837ec3c4bcc.jpg",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Investigadores italianos concluem que falhas de projeto naval não causaram a tragédia que levou à morte de sete pessoas, incluindo o bilionário Mike Lynch, redirecionando o foco para a gestão de risco a bordo.",
-    "contentParagraphs": [
-      "A arquitetura naval de 56 metros não falhou na prancheta. O mastro de alumínio de 75 metros resistiu às cargas extremas até o ponto de ruptura iminente, mas a marinha italiana isolou o fator humano como o verdadeiro catalisador do desastre. A dinâmica de fluidos e os coeficientes de estabilidade intactos provaram que a embarcação possuía reservas estruturais adequadas para suportar rajadas severas, desde que manobrada sob protocolos rígidos de prontidão.",
-      "O monocoque em alumínio e a quilha retrátil operavam dentro das tolerâncias mecânicas calculadas pelos engenheiros de Viareggio. Contudo, a telemetria inercial e os registros de bordo revelaram portas estanques abertas e falhas críticas na avaliação do gradiente térmico da tormenta. Quando o vetor de vento atingiu o casco em ângulo desfavorável, a falta de reatividade tática da tripulação impediu o alívio oportuno das velas de estai e o fechamento hermético dos conveses inferiores.",
-      "A perda de controle sob ventos descendentes severos demonstra que a engenharia mais avançada do mundo não neutraliza a complacência operacional. O lastro móvel e os sistemas hidráulicos automatizados exigiam supervisão humana imediata para contrabalançar o torque gerado pela superestrutura imensa. Em vez de uma fatalidade decorrente de vício construtivo, os relatórios apontam para uma cadeia de decisões tardias no comando da ponte de comando.",
-      "Este veredito técnico redefine a responsabilidade jurídica e marítima em grandes iates de exploração oceânica. A soberania de um casco perfeitamente projetado perde sua eficácia defensiva quando a tripulação falha em interpretar os sinais precoces da atmosfera. A engenharia naval entrega a solidez estrutural, mas a sobrevivência em águas profundas continua dependendo exclusivamente da precisão cirúrgica de quem segura o timão."
-    ],
-    "content_paragraphs": [
-      "A arquitetura naval de 56 metros não falhou na prancheta. O mastro de alumínio de 75 metros resistiu às cargas extremas até o ponto de ruptura iminente, mas a marinha italiana isolou o fator humano como o verdadeiro catalisador do desastre. A dinâmica de fluidos e os coeficientes de estabilidade intactos provaram que a embarcação possuía reservas estruturais adequadas para suportar rajadas severas, desde que manobrada sob protocolos rígidos de prontidão.",
-      "O monocoque em alumínio e a quilha retrátil operavam dentro das tolerâncias mecânicas calculadas pelos engenheiros de Viareggio. Contudo, a telemetria inercial e os registros de bordo revelaram portas estanques abertas e falhas críticas na avaliação do gradiente térmico da tormenta. Quando o vetor de vento atingiu o casco em ângulo desfavorável, a falta de reatividade tática da tripulação impediu o alívio oportuno das velas de estai e o fechamento hermético dos conveses inferiores.",
-      "A perda de controle sob ventos descendentes severos demonstra que a engenharia mais avançada do mundo não neutraliza a complacência operacional. O lastro móvel e os sistemas hidráulicos automatizados exigiam supervisão humana imediata para contrabalançar o torque gerado pela superestrutura imensa. Em vez de uma fatalidade decorrente de vício construtivo, os relatórios apontam para uma cadeia de decisões tardias no comando da ponte de comando.",
-      "Este veredito técnico redefine a responsabilidade jurídica e marítima em grandes iates de exploração oceânica. A soberania de um casco perfeitamente projetado perde sua eficácia defensiva quando a tripulação falha em interpretar os sinais precoces da atmosfera. A engenharia naval entrega a solidez estrutural, mas a sobrevivência em águas profundas continua dependendo exclusivamente da precisão cirúrgica de quem segura o timão."
-    ],
-    "specs": {
-      "Comprimento Total": "56 metros",
-      "Material do Casco": "Alumínio",
-      "Altura do Mastro": "75 metros",
-      "Estaleiro Construtor": "Perini Navi",
-      "Investigação": "Conclusão Oficial Italiana de Acidentes Marítimos"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-14T04:39:43.994Z",
-    "published_at": "2026-11-14T04:39:43.994Z",
-    "sourceUrl": "https://www.repubblica.it/en/europe/news/2026/11/13/news/bayesian_yacht_sinking_design_flaws-425721407/",
-    "source_url": "https://www.repubblica.it/en/europe/news/2026/11/13/news/bayesian_yacht_sinking_design_flaws-425721407/"
-  },
+  }
 ];
 
 
