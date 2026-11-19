@@ -116,6 +116,63 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-cartier-london-tank-de-joan-collins-4823",
+    "slug": "cartier-london-tank-de-joan-collins-o-relogio-de-ouro-de-1968-que-ron-kass-deu-em-1981-vai-a-leilao-na-bonhams-london",
+    "title": "Cartier London Tank de Joan Collins: O Relógio de Ouro de 1968 Dado por Ron Kass em 1981 Vai a Leilão na Bonhams com Estimativa de £ 5.000 a £ 7.000",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "category_slug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "author_slug": "clara-meirelles",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "18 de novembro de 2026",
+    "readTime": "5 min de leitura",
+    "read_time": "5 min de leitura",
+    "image": "https://robbreport.com/wp-content/uploads/2026/11/joan-collins-cartier.jpg?w=1024",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Um Cartier London Tank de 1968, em ouro amarelo 18k, deixa a coleção de Joan Collins rumo à venda Fine Watches da Bonhams London, em 10 de dezembro, com estimativa de £ 5.000 a £ 7.000. O relógio foi presente de Ron Kass, ex-marido da atriz, no primeiro ano de Dynasty, em 1981 — e divide o catálogo com um Daytona 'SACO' avaliado em até £ 230.000.",
+    "contentParagraphs": [
+      "Na venda de Fine Watches da Bonhams London, marcada para 10 de dezembro, o lote de menor estimativa carrega a história mais longa. Trata-se de um Cartier Tank de 1968, em ouro amarelo de 18 quilates, que pertenceu a Joan Collins e chega ao martelo com estimativa de £ 5.000 a £ 7.000, algo entre US$ 6.600 e US$ 9.200. Num catálogo em que o relógio mais caro pede até £ 230.000, o Tank da atriz não disputa preço: disputa memória.",
+      "O Tank nasceu em 1917, do protótipo desenhado por Louis Cartier, e permanece o exercício mais disciplinado da relojoaria de forma: caixa retangular, quatro cantos que não perdoam erro de proporção, mostrador limpo. O exemplar de Collins não veio de Paris, e sim de Londres, da maison da New Bond Street. Os Tanks fabricados ali nos anos 1960 e 1970, sob a direção de Jean-Jacques Cartier, estão entre os mais cobiçados do mercado, exatamente pelos detalhes e pelas idiossincrasias que a produção seriada de outras praças não reproduz. Na foto que abre esta matéria, a caixa de ouro sustenta um mostrador claro de numerais romanos, a coroa traz o cabochão azul e a pulseira de couro marrom envelheceu sem disfarce.",
+      "A proveniência é o que separa este lote dos demais. Segundo a Bonhams, o relógio foi presente de Ron Kass, então marido de Collins, no primeiro ano de gravação de Dynasty, em 1981. A atriz, que em 1984 estrelaria o telefilme The Cartier Affair — a coincidência é dela, não do roteiro —, usava no pulso um objeto que já carregava duas décadas de evolução do modelo. Cada arranhão no ouro e cada marca no couro pertencem a uma cadeia documentada: quem deu, quando deu e por quê. É essa linhagem, e não o metal, que o comprador arremata em dezembro.",
+      "Do outro lado do catálogo está o oposto exato: um Rolex Cosmograph Daytona 'SACO', Referência 116578, apresentado em 2019, com caixa de ouro, bezel cravejado de safiras e mostrador de madrepérola com marcadores de diamante. O conjunto completo tem estimativa de £ 130.000 a £ 230.000, cerca de US$ 171.100 a US$ 302.800, e lidera a venda. Um é relógio de vestir pequeno; o outro, joia de pulso contemporânea. A Bonhams os coloca na mesma sala porque o mercado de dezembro não compra apenas tempo: compra as duas pontas de uma mesma tradição.",
+      "Ao redor dos dois polos, o catálogo desenha um mapa de décadas: um trio de Omega Speedmaster vintage, um Longines dos anos 1940, um Patek Philippe Nautilus dos anos 1980, um Audemars Piguet Royal Oak dos anos 1990 e dois Cartier Mystery Clock em estilo Art Déco. 'Estamos satisfeitos em apresentar nossa venda de Fine Watches de dezembro, reunindo uma seleção excepcional de relógios distinguidos por design, manufatura e sofisticação técnica', disse Jonathan Darracott, diretor global de relógios da Bonhams. A frase é de leiloeiro, mas descreve o que os lotes fazem: cada peça é uma data fixada em metal, e a venda as ordena cronologicamente.",
+      "A capa desta matéria justapõe as duas metades do lote: à esquerda, Joan Collins no auge dos anos 1980, cabelo volumoso e lantejoulas; à direita, o Tank isolado sobre fundo verde, com o mostrador intacto e a pulseira marcada pelo uso. Em 10 de dezembro, em Londres, o martelo vai fixar um número entre £ 5.000 e £ 7.000 para o objeto. O que não cabe na estimativa é o intervalo entre 1968 e 1981, entre a saída da New Bond Street e o pulso que filmava Dynasty. Quem arrematar o Tank não compra um relógio barato: compra o documento de que ele existiu."
+    ],
+    "content_paragraphs": [
+      "Na venda de Fine Watches da Bonhams London, marcada para 10 de dezembro, o lote de menor estimativa carrega a história mais longa. Trata-se de um Cartier Tank de 1968, em ouro amarelo de 18 quilates, que pertenceu a Joan Collins e chega ao martelo com estimativa de £ 5.000 a £ 7.000, algo entre US$ 6.600 e US$ 9.200. Num catálogo em que o relógio mais caro pede até £ 230.000, o Tank da atriz não disputa preço: disputa memória.",
+      "O Tank nasceu em 1917, do protótipo desenhado por Louis Cartier, e permanece o exercício mais disciplinado da relojoaria de forma: caixa retangular, quatro cantos que não perdoam erro de proporção, mostrador limpo. O exemplar de Collins não veio de Paris, e sim de Londres, da maison da New Bond Street. Os Tanks fabricados ali nos anos 1960 e 1970, sob a direção de Jean-Jacques Cartier, estão entre os mais cobiçados do mercado, exatamente pelos detalhes e pelas idiossincrasias que a produção seriada de outras praças não reproduz. Na foto que abre esta matéria, a caixa de ouro sustenta um mostrador claro de numerais romanos, a coroa traz o cabochão azul e a pulseira de couro marrom envelheceu sem disfarce.",
+      "A proveniência é o que separa este lote dos demais. Segundo a Bonhams, o relógio foi presente de Ron Kass, então marido de Collins, no primeiro ano de gravação de Dynasty, em 1981. A atriz, que em 1984 estrelaria o telefilme The Cartier Affair — a coincidência é dela, não do roteiro —, usava no pulso um objeto que já carregava duas décadas de evolução do modelo. Cada arranhão no ouro e cada marca no couro pertencem a uma cadeia documentada: quem deu, quando deu e por quê. É essa linhagem, e não o metal, que o comprador arremata em dezembro.",
+      "Do outro lado do catálogo está o oposto exato: um Rolex Cosmograph Daytona 'SACO', Referência 116578, apresentado em 2019, com caixa de ouro, bezel cravejado de safiras e mostrador de madrepérola com marcadores de diamante. O conjunto completo tem estimativa de £ 130.000 a £ 230.000, cerca de US$ 171.100 a US$ 302.800, e lidera a venda. Um é relógio de vestir pequeno; o outro, joia de pulso contemporânea. A Bonhams os coloca na mesma sala porque o mercado de dezembro não compra apenas tempo: compra as duas pontas de uma mesma tradição.",
+      "Ao redor dos dois polos, o catálogo desenha um mapa de décadas: um trio de Omega Speedmaster vintage, um Longines dos anos 1940, um Patek Philippe Nautilus dos anos 1980, um Audemars Piguet Royal Oak dos anos 1990 e dois Cartier Mystery Clock em estilo Art Déco. 'Estamos satisfeitos em apresentar nossa venda de Fine Watches de dezembro, reunindo uma seleção excepcional de relógios distinguidos por design, manufatura e sofisticação técnica', disse Jonathan Darracott, diretor global de relógios da Bonhams. A frase é de leiloeiro, mas descreve o que os lotes fazem: cada peça é uma data fixada em metal, e a venda as ordena cronologicamente.",
+      "A capa desta matéria justapõe as duas metades do lote: à esquerda, Joan Collins no auge dos anos 1980, cabelo volumoso e lantejoulas; à direita, o Tank isolado sobre fundo verde, com o mostrador intacto e a pulseira marcada pelo uso. Em 10 de dezembro, em Londres, o martelo vai fixar um número entre £ 5.000 e £ 7.000 para o objeto. O que não cabe na estimativa é o intervalo entre 1968 e 1981, entre a saída da New Bond Street e o pulso que filmava Dynasty. Quem arrematar o Tank não compra um relógio barato: compra o documento de que ele existiu."
+    ],
+    "specs": {
+      "Modelo": "Cartier London Tank, circa 1968, em ouro amarelo 18k",
+      "Procedência": "Coleção de Joan Collins; presente de Ron Kass em 1981, no primeiro ano de Dynasty (Bonhams)",
+      "Leilão": "Bonhams London, venda Fine Watches, 10 de dezembro de 2026",
+      "Estimativa": "£ 5.000 a £ 7.000 (cerca de US$ 6.600 a US$ 9.200)",
+      "Lote-líder": "Rolex Cosmograph Daytona 'SACO' Ref. 116578, 2019 — £ 130.000 a £ 230.000",
+      "Outros destaques": "Três Omega Speedmaster vintage, Longines dos anos 1940, Patek Philippe Nautilus dos anos 80, Audemars Piguet Royal Oak dos anos 90 e dois Cartier Mystery Clock Art Déco"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 89,
+    "ranking_score": 89,
+    "engineSource": "qoder:agente-editorial",
+    "publishedAt": "2026-11-19T01:25:19.000Z",
+    "published_at": "2026-11-19T01:25:19.000Z",
+    "sourceUrl": "https://robbreport.com/style/watch-collector/joan-collins-cartier-tank-auction-1238847688/",
+    "source_url": "https://robbreport.com/style/watch-collector/joan-collins-cartier-tank-auction-1238847688/"
+  },
+  {
     "id": "art-bayesian-184-pes-de-veleiro-virados-9214",
     "slug": "bayesian-184-pes-de-veleiro-virados-por-80-mph-em-minutos-a-estabilidade-fora-de-requisito-e-o-teto-de-indenizacao-contestado-em-londres",
     "title": "Bayesian: 184 Pés de Veleiro Virados por 80 mph em Minutos — a Estabilidade Fora de Requisito e o Teto de Indenização Contestado em Londres",
@@ -158,8 +215,8 @@ export const ARTICLES = [
       "Investigações": "Promotoria italiana e Marine Accident Investigation Branch (MAIB, Reino Unido)"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
+    "isHero": false,
+    "is_hero": false,
     "isHeroSecondary": false,
     "is_hero_secondary": false,
     "isPinnedHero": false,
@@ -1392,58 +1449,6 @@ export const ARTICLES = [
     "published_at": "2026-11-14T03:53:47.247Z",
     "sourceUrl": "https://www.thesupercarblog.com/eric-claptons-ferrari-sp12-ec-is-inspired-by-the-512-bb/",
     "source_url": "https://www.thesupercarblog.com/eric-claptons-ferrari-sp12-ec-is-inspired-by-the-512-bb/"
-  },
-  {
-    "id": "art-lurssen-barcelona-o-ponto-de-res-9500",
-    "slug": "lurssen-barcelona-o-ponto-de-resposta-rapida-247-com-equipe-volante-para-superiates-de-ate-525-pes-no-mediterraneo-8784",
-    "title": "Lürssen Barcelona: O Ponto de Resposta Rápida 24/7 com Equipe Volante para Superiates de Até 525 Pés no Mediterrâneo",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "13 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://yachtway.com/news/content/images/size/w1200/2026/11/lt-lt-front.jpg",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A soberania náutica exige intolerância absoluta ao tempo de inatividade. A Lürssen estabelece uma base permanente na Espanha com despacho aéreo imediato de engenheiros navais e ligas de Inconel.",
-    "contentParagraphs": [
-      "A imobilidade de um casco de quinhentos pés custa fortunas em silêncio forçado. Bilionários não negociam cronogramas náuticos quando o Mediterrâneo exige navegação implacável. A Lürssen respondeu a esta demanda matemática com a abertura de uma base de reparos permanente em território espanhol. Um centro logístico estratégico concebido puramente para eliminar a latência mecânica.",
-      "A operação funciona sob regime ininterrupto de vinte e quatro horas por dia, sete dias por semana. Especialistas em propulsão, sistemas hidráulicos e eletrônica de bordo partem via jatos dedicados para qualquer ponto do mar Mediterrâneo onde um superiate apresente falhas. A tolerância de mícrons nos eixos de transmissão exige intervenções cirúrgicas, executadas por metalurgistas com acesso imediato a estoques de peças brutas e ligas navais de alta resistência.",
-      "Sob o casco de um gigante de aço e alumínio, cada minuto de oscilação em uma âncora representa perda de pressão em circuitos críticos. O fluxo de Venturi em estabilizadores de grandes proporções e os sistemas de exaustão em Inconel 625 não toleram improvisos portuários. Esta nova infraestrutura em solo ibérico garante que os monocoques e as superestruturas monumentais recebam o mesmo padrão de cura e usinagem exigido nos estaleiros originais de Bremen e Hamburgo.",
-      "O oceano não concede trégua aos fracos, e a engenharia naval de elite tampouco tolera amadorismo logístico. Ao posicionar sua força de resposta rápida no coração da rota náutica europeia, o estaleiro alemão redefines os limites da manutenção preventiva e corretiva de alto nível. É a soberania técnica blindada contra qualquer imprevisto mecânico em alto-mar."
-    ],
-    "content_paragraphs": [
-      "A imobilidade de um casco de quinhentos pés custa fortunas em silêncio forçado. Bilionários não negociam cronogramas náuticos quando o Mediterrâneo exige navegação implacável. A Lürssen respondeu a esta demanda matemática com a abertura de uma base de reparos permanente em território espanhol. Um centro logístico estratégico concebido puramente para eliminar a latência mecânica.",
-      "A operação funciona sob regime ininterrupto de vinte e quatro horas por dia, sete dias por semana. Especialistas em propulsão, sistemas hidráulicos e eletrônica de bordo partem via jatos dedicados para qualquer ponto do mar Mediterrâneo onde um superiate apresente falhas. A tolerância de mícrons nos eixos de transmissão exige intervenções cirúrgicas, executadas por metalurgistas com acesso imediato a estoques de peças brutas e ligas navais de alta resistência.",
-      "Sob o casco de um gigante de aço e alumínio, cada minuto de oscilação em uma âncora representa perda de pressão em circuitos críticos. O fluxo de Venturi em estabilizadores de grandes proporções e os sistemas de exaustão em Inconel 625 não toleram improvisos portuários. Esta nova infraestrutura em solo ibérico garante que os monocoques e as superestruturas monumentais recebam o mesmo padrão de cura e usinagem exigido nos estaleiros originais de Bremen e Hamburgo.",
-      "O oceano não concede trégua aos fracos, e a engenharia naval de elite tampouco tolera amadorismo logístico. Ao posicionar sua força de resposta rápida no coração da rota náutica europeia, o estaleiro alemão redefines os limites da manutenção preventiva e corretiva de alto nível. É a soberania técnica blindada contra qualquer imprevisto mecânico em alto-mar."
-    ],
-    "specs": {
-      "Capacidade Máxima": "Embarcações de até 525 pés",
-      "Disponibilidade Operacional": "24 horas por dia, 7 dias por semana",
-      "Tempo de Despacho": "Imediato via equipe volante aerotransportada",
-      "Localização Estratégica": "Base permanente na Espanha",
-      "Escopo Técnico": "Reparos estruturais, propulsão e usinagem de alta precisão"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 92,
-    "ranking_score": 92,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-13T18:29:29.499Z",
-    "published_at": "2026-11-13T18:29:29.499Z",
-    "sourceUrl": "https://yachtway.com/news/lurssen-opens-service-center-tarragona-spain/",
-    "source_url": "https://yachtway.com/news/lurssen-opens-service-center-tarragona-spain/"
   },
 ];
 

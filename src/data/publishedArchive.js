@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-cartier-london-tank-de-joan-collins-4823",
+    "slug": "cartier-london-tank-de-joan-collins-o-relogio-de-ouro-de-1968-que-ron-kass-deu-em-1981-vai-a-leilao-na-bonhams-london",
+    "title": "Cartier London Tank de Joan Collins: O Relógio de Ouro de 1968 Dado por Ron Kass em 1981 Vai a Leilão na Bonhams com Estimativa de £ 5.000 a £ 7.000",
+    "image": "https://robbreport.com/wp-content/uploads/2026/11/joan-collins-cartier.jpg?w=1024",
+    "sourceUrl": "https://robbreport.com/style/watch-collector/joan-collins-cartier-tank-auction-1238847688/",
+    "categorySlug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "publishedAt": "2026-11-19T01:25:19.000Z"
+  },
+  {
     "id": "art-aruby-abeking-rasmussen-primeiro-de-serie-6217",
     "slug": "aruby-abeking-rasmussen-primeiro-iate-de-serie-em-115-anos-70-metros-e-cinco-motores-diesel-eletricos-de-650-kw",
     "title": "Aruby: O Primeiro Iate de Série em 115 Anos da Abeking & Rasmussen — 70 Metros, 1.770 GT e Cinco Motores Diesel-Elétricos de 650 kW",
