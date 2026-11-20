@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+      "id": "art-fp-journe-tourbillon-souscription-paris-7412",
+      "slug": "fp-journe-tourbillon-souverain-souscription-10-06-milhoes-paris-setimo-dos-20-de-platina-7412",
+      "title": "F.P. Journe Tourbillon Souverain 'Souscription': €10,06 Milhões em Paris e o Sétimo dos 20 de Platina",
+      "image": "https://robbreport.com/wp-content/uploads/2026/11/f-p-journe-tourbillon-souverain-souscription.jpg",
+      "sourceUrl": "https://robbreport.com/style/watch-collector/f-p-journe-most-expensive-watch-auctioned-france-1238851766/",
+      "categorySlug": "relogios",
+      "authorSlug": "clara-meirelles",
+      "publishedAt": "2026-11-20T22:21:28.000Z"
+  },
+  {
       "id": "art-ferrari-296-gts-sinistrado-airbags-pregao-wiri-4823",
       "slug": "ferrari-296-gts-sinistrado-610-kw-airbags-deflagrados-pregao-wiri-4823",
       "title": "Ferrari 296 GTS: 610 kW de Híbrido, Airbags Deflagrados e o Pregão de Wiri",

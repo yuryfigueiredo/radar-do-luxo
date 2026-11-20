@@ -116,6 +116,63 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+      "id": "art-fp-journe-tourbillon-souscription-paris-7412",
+      "slug": "fp-journe-tourbillon-souverain-souscription-10-06-milhoes-paris-setimo-dos-20-de-platina-7412",
+      "title": "F.P. Journe Tourbillon Souverain 'Souscription': €10,06 Milhões em Paris e o Sétimo dos 20 de Platina",
+      "category": "Alta Relojoaria",
+      "categorySlug": "relogios",
+      "category_slug": "relogios",
+      "authorSlug": "clara-meirelles",
+      "author_slug": "clara-meirelles",
+      "type": "article",
+      "badge": "CURADORIA RADAR",
+      "date": "20 de novembro de 2026",
+      "readTime": "5 min de leitura",
+      "read_time": "5 min de leitura",
+      "image": "https://robbreport.com/wp-content/uploads/2026/11/f-p-journe-tourbillon-souverain-souscription.jpg",
+      "imageFocus": "center",
+      "image_focus": "center",
+      "excerpt": "O Tourbillon Souverain à Remontoir d'Égalité 'Souscription' de 1999, ref. 00799T, em platina 950, saiu por € 10,06 milhões na Bonhams Fine Watches, em Paris — o relógio mais caro já levado a leilão na França e um recorde da F.P. Journe na casa. Estimado entre € 700 mil e € 1,2 milhão, é o sétimo dos 20 exemplares de platina da série original e nunca havia aparecido em pregão.",
+      "contentParagraphs": [
+          "€ 10,06 milhões. O martelo caiu nesta quinta-feira, 19 de novembro de 2026, sobre o Tourbillon Souverain à Remontoir d'Égalité 'Souscription' da F.P. Journe no pregão de relógios da Bonhams, em Paris — cerca de US$ 11,03 milhões. O valor transforma a peça no relógio mais caro já levado a leilão na França e no recorde da casa para a marca de François-Paul Journe. A estimativa publicada antes do pregão ficava entre € 700 mil e € 1,2 milhão.",
+          "O objeto é discreto como só a platina 950 sabe ser. A referência 00799T, de cerca de 1999, reúne no mesmo pulso o turbilhão e o remontoir d'égalité: o dispositivo de força constante que entrega ao escape um torque uniforme, sem as oscilações do fluxo da corda. Foi o Tourbillon Souverain, lançado em 1999, o primeiro relógio de pulso a somar as duas complicações, e a solução desenhada por Journe rendeu fama de um dos turbilhões mais precisos do mercado. A caixa é de platina, o movimento é de corda manual, e a peça inteira carrega a marca de quem resolve no metal o que outros resolvem na tela.",
+          "A história explica o ágio melhor que qualquer ficha técnica. O modelo foi vendido por subscrição: os clientes se comprometiam a comprar o relógio antes de vê-lo em metal, e esse dinheiro antecipado ajudou a financiar a produção de uma marca independente ainda frágil. Apenas 20 Souscriptions em platina foram fabricadas. O exemplar leiloado é o sétimo da série histórica e jamais havia passado por um pregão — três condições que, juntas, valem mais do que a soma das partes.",
+          "No mesmo dia, ao lado dele, a Bonhams levou o Chronomètre à Résonance 'Première Génération', de cerca de 2001, referência 105-01R: saiu por € 893.600, perto de US$ 979.500, acima de todas as estimativas. Dois relógios, uma tarde, e a mesma conclusão — o mercado não estava comprando um mostrador de platina, e sim a raridade documentada de uma casa que se construiu contra a lógica industrial.",
+          "Nem todos dentro da marca celebram o resultado. Pierre Halimi, há anos responsável pela F.P. Journe nas Américas, foi direto ao falar com a Robb Report no House of Robb, em Miami, em dezembro passado: 'Os preços são simplesmente estúpidos. Estão altos demais, e não estamos felizes com isso.' A preocupação é o revendedor: 'Traz um tipo de colecionador, ou de gente que compra como ativo, e só como ativo, e esse é o perigo, porque essas pessoas se interessam mais pelo preço do que pelo valor.' Por isso a casa insiste em colocar as peças com quem veste o relógio, não com quem o revende.",
+          "O recorde de Paris não nasceu isolado. Em maio, a Phillips leiloou nove F.P. Journe e anotou seis recordes mundiais; em junho, um Chronomètre à Résonance 'Souscription' fechou em US$ 13,92 milhões; neste mês, um 'Régence' chegou a US$ 10,6 milhões. Em dezembro, a Phillips Nova York leva quatro peças ultra-raras, três delas com estimativa alta de US$ 1,2 milhão. O que Paris mediu foi a distância entre o metal e a história: 20 exemplares, o sétimo da série, nunca visto em pregão. O preço é consequência — a raridade vem primeiro."
+      ],
+      "content_paragraphs": [
+          "€ 10,06 milhões. O martelo caiu nesta quinta-feira, 19 de novembro de 2026, sobre o Tourbillon Souverain à Remontoir d'Égalité 'Souscription' da F.P. Journe no pregão de relógios da Bonhams, em Paris — cerca de US$ 11,03 milhões. O valor transforma a peça no relógio mais caro já levado a leilão na França e no recorde da casa para a marca de François-Paul Journe. A estimativa publicada antes do pregão ficava entre € 700 mil e € 1,2 milhão.",
+          "O objeto é discreto como só a platina 950 sabe ser. A referência 00799T, de cerca de 1999, reúne no mesmo pulso o turbilhão e o remontoir d'égalité: o dispositivo de força constante que entrega ao escape um torque uniforme, sem as oscilações do fluxo da corda. Foi o Tourbillon Souverain, lançado em 1999, o primeiro relógio de pulso a somar as duas complicações, e a solução desenhada por Journe rendeu fama de um dos turbilhões mais precisos do mercado. A caixa é de platina, o movimento é de corda manual, e a peça inteira carrega a marca de quem resolve no metal o que outros resolvem na tela.",
+          "A história explica o ágio melhor que qualquer ficha técnica. O modelo foi vendido por subscrição: os clientes se comprometiam a comprar o relógio antes de vê-lo em metal, e esse dinheiro antecipado ajudou a financiar a produção de uma marca independente ainda frágil. Apenas 20 Souscriptions em platina foram fabricadas. O exemplar leiloado é o sétimo da série histórica e jamais havia passado por um pregão — três condições que, juntas, valem mais do que a soma das partes.",
+          "No mesmo dia, ao lado dele, a Bonhams levou o Chronomètre à Résonance 'Première Génération', de cerca de 2001, referência 105-01R: saiu por € 893.600, perto de US$ 979.500, acima de todas as estimativas. Dois relógios, uma tarde, e a mesma conclusão — o mercado não estava comprando um mostrador de platina, e sim a raridade documentada de uma casa que se construiu contra a lógica industrial.",
+          "Nem todos dentro da marca celebram o resultado. Pierre Halimi, há anos responsável pela F.P. Journe nas Américas, foi direto ao falar com a Robb Report no House of Robb, em Miami, em dezembro passado: 'Os preços são simplesmente estúpidos. Estão altos demais, e não estamos felizes com isso.' A preocupação é o revendedor: 'Traz um tipo de colecionador, ou de gente que compra como ativo, e só como ativo, e esse é o perigo, porque essas pessoas se interessam mais pelo preço do que pelo valor.' Por isso a casa insiste em colocar as peças com quem veste o relógio, não com quem o revende.",
+          "O recorde de Paris não nasceu isolado. Em maio, a Phillips leiloou nove F.P. Journe e anotou seis recordes mundiais; em junho, um Chronomètre à Résonance 'Souscription' fechou em US$ 13,92 milhões; neste mês, um 'Régence' chegou a US$ 10,6 milhões. Em dezembro, a Phillips Nova York leva quatro peças ultra-raras, três delas com estimativa alta de US$ 1,2 milhão. O que Paris mediu foi a distância entre o metal e a história: 20 exemplares, o sétimo da série, nunca visto em pregão. O preço é consequência — a raridade vem primeiro."
+      ],
+      "specs": {
+          "Referência": "00799T · Tourbillon Souverain à Remontoir d'Égalité 'Souscription', circa 1999",
+          "Caixa / Movimento": "Platina 950, corda manual, turbilhão com remontoir d'égalité",
+          "Resultado": "€ 10,06 milhões (cerca de US$ 11,03 milhões) na Bonhams Fine Watches, Paris, 19/11/2026",
+          "Estimativa": "€ 700.000 a € 1.200.000 — martelo muito acima do teto",
+          "Tiragem": "20 exemplares em platina; este é o sétimo da série histórica e nunca havia sido leiloado",
+          "Lote irmão": "Chronomètre à Résonance 'Première Génération', ref. 105-01R, circa 2001, € 893.600"
+      },
+      "status": "published",
+      "isHero": true,
+      "is_hero": true,
+      "isHeroSecondary": false,
+      "is_hero_secondary": false,
+      "isPinnedHero": false,
+      "is_pinned_hero": false,
+      "rankingScore": 88,
+      "ranking_score": 88,
+      "engineSource": "qoder:agente-editorial",
+      "publishedAt": "2026-11-20T22:21:28.000Z",
+      "published_at": "2026-11-20T22:21:28.000Z",
+      "sourceUrl": "https://robbreport.com/style/watch-collector/f-p-journe-most-expensive-watch-auctioned-france-1238851766/",
+      "source_url": "https://robbreport.com/style/watch-collector/f-p-journe-most-expensive-watch-auctioned-france-1238851766/"
+  },
+  {
       "id": "art-ferrari-296-gts-sinistrado-airbags-pregao-wiri-4823",
       "slug": "ferrari-296-gts-sinistrado-610-kw-airbags-deflagrados-pregao-wiri-4823",
       "title": "Ferrari 296 GTS: 610 kW de Híbrido, Airbags Deflagrados e o Pregão de Wiri",
@@ -158,8 +215,8 @@ export const ARTICLES = [
           "Registro": "Baixado (de-registered), WOF até 15/01/2027, vendido as is por seguradora"
       },
       "status": "published",
-      "isHero": true,
-      "is_hero": true,
+      "isHero": false,
+      "is_hero": false,
       "isHeroSecondary": false,
       "is_hero_secondary": false,
       "isPinnedHero": false,
@@ -1416,58 +1473,6 @@ export const ARTICLES = [
     "published_at": "2026-11-15T22:15:31.110Z",
     "sourceUrl": "https://en.ilsole24ore.com/art/geneva-record-auctions-watch-sales-exceed-203-million-AJXyFJDC",
     "source_url": "https://en.ilsole24ore.com/art/geneva-record-auctions-watch-sales-exceed-203-million-AJXyFJDC"
-  },
-  {
-    "id": "art-keyvany-porroo-o-monstro-de-fibr-0750",
-    "slug": "keyvany-porroo-o-monstro-de-fibra-de-carbono-forjada-com-1000-cavalos-inspirado-na-furia-de-maranello-em-dubai-0737",
-    "title": "Keyvany Porroo: O Monstro de Fibra de Carbono Forjada com 1.000 Cavalos Inspirado na Furia de Maranello em Dubai",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "15 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://autodiscoveries.com/wp-content/uploads/2025/08/Ferrari-Welt-Premiere-Introducing-The-Keyvany-Porroo-scaled.jpg",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "Uma intervenção cirúrgica sobre a aerodinâmica italiana redefine o limite do excesso em solo árabe, unindo painéis de carbo-titânio bruto e uma cavalaria brutal.",
-    "contentParagraphs": [
-      "As ruas de Dubai exigem audácia geométrica. O Keyvany Porroo responde a essa exigência com uma anatomia esculpida para rasgar o ar a trezentos quilômetros por hora, transformando a pureza original de Maranello em um exercício radical de brutalidade estética e funcionalidade aerodinâmica implacável.",
-      "Sob o capô, a engenharia alemã da preparadora elevou o motor biturbo a patamares absurdos. São exatamente 1.000 cavalos de potência entregues às quatro rodas através de um mapeamento eletrônico dedicado, enquanto o sistema de exaustão em Inconel 625 emite uma sinfonia metálica que desafia o silêncio estéril dos desertos ao redor.",
-      "Cada centímetro quadrado da carroceria foi substituído por painéis de fibra de carbono forjada exposta, curada em autoclaves de precisão milimétrica. O fluxo de Venturi sob o assoalho gera força descendente suficiente para colar o chassi ao asfalto mesmo quando a telemetria inercial registra forças G laterais extremas em curvas de alta velocidade.",
-      "Enquanto puristas choram a perda das linhas clássicas, colecionadores de ativos extremos disputam o direito de custódia desta peça única. Trata-se de uma escultura cinética que cospe fogo pelo escape e redefine o conceito de velocidade urbana para a elite global que habita os Emirados Árabes."
-    ],
-    "content_paragraphs": [
-      "As ruas de Dubai exigem audácia geométrica. O Keyvany Porroo responde a essa exigência com uma anatomia esculpida para rasgar o ar a trezentos quilômetros por hora, transformando a pureza original de Maranello em um exercício radical de brutalidade estética e funcionalidade aerodinâmica implacável.",
-      "Sob o capô, a engenharia alemã da preparadora elevou o motor biturbo a patamares absurdos. São exatamente 1.000 cavalos de potência entregues às quatro rodas através de um mapeamento eletrônico dedicado, enquanto o sistema de exaustão em Inconel 625 emite uma sinfonia metálica que desafia o silêncio estéril dos desertos ao redor.",
-      "Cada centímetro quadrado da carroceria foi substituído por painéis de fibra de carbono forjada exposta, curada em autoclaves de precisão milimétrica. O fluxo de Venturi sob o assoalho gera força descendente suficiente para colar o chassi ao asfalto mesmo quando a telemetria inercial registra forças G laterais extremas em curvas de alta velocidade.",
-      "Enquanto puristas choram a perda das linhas clássicas, colecionadores de ativos extremos disputam o direito de custódia desta peça única. Trata-se de uma escultura cinética que cospe fogo pelo escape e redefine o conceito de velocidade urbana para a elite global que habita os Emirados Árabes."
-    ],
-    "specs": {
-      "Motorizacao": "V8 Biturbo Preparado pela Keyvany",
-      "Potencia Maxima": "1.000 cv",
-      "Material da Carroceria": "Fibra de Carbono Forjada com Tratamento Autoclave",
-      "Sistema de Escape": "Inconel 625 de Alta Performance",
-      "Destino": "Exclusivo para o mercado de Dubai"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 88,
-    "ranking_score": 88,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-15T15:05:40.747Z",
-    "published_at": "2026-11-15T15:05:40.747Z",
-    "sourceUrl": "https://autodiscoveries.com/ferrari-welt-premiere-introducing-the-keyvany-porroo",
-    "source_url": "https://autodiscoveries.com/ferrari-welt-premiere-introducing-the-keyvany-porroo"
   },
 ];
 
