@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+      "id": "art-ferrari-296-gts-sinistrado-airbags-pregao-wiri-4823",
+      "slug": "ferrari-296-gts-sinistrado-610-kw-airbags-deflagrados-pregao-wiri-4823",
+      "title": "Ferrari 296 GTS: 610 kW de Híbrido, Airbags Deflagrados e o Pregão de Wiri",
+      "image": "https://autotrader.co.nz/wp-content/uploads/2026/11/crashed-ferrari-296-gts-turners-auction.jpg",
+      "sourceUrl": "https://autotrader.co.nz/news/crashed-ferrari-296-gts-up-for-auction-at-turners",
+      "categorySlug": "supercarros",
+      "authorSlug": "gabriel-fontes",
+      "publishedAt": "2026-11-20T18:25:54.000Z"
+  },
+  {
     "id": "art-f355-gts-de-clarkson-405-mil-birmingham-6175",
     "slug": "f355-gts-de-clarkson-405-mil-pela-placa-p199-ypl-e-o-recorde-mundial-em-birmingham-6175",
     "title": "F355 GTS de Clarkson: £405 Mil pela Placa P199 YPL e o Recorde Mundial em Birmingham",

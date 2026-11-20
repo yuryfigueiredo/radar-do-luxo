@@ -116,6 +116,63 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+      "id": "art-ferrari-296-gts-sinistrado-airbags-pregao-wiri-4823",
+      "slug": "ferrari-296-gts-sinistrado-610-kw-airbags-deflagrados-pregao-wiri-4823",
+      "title": "Ferrari 296 GTS: 610 kW de Híbrido, Airbags Deflagrados e o Pregão de Wiri",
+      "category": "Supercarros",
+      "categorySlug": "supercarros",
+      "category_slug": "supercarros",
+      "authorSlug": "gabriel-fontes",
+      "author_slug": "gabriel-fontes",
+      "type": "article",
+      "badge": "CURADORIA RADAR",
+      "date": "20 de novembro de 2026",
+      "readTime": "5 min de leitura",
+      "read_time": "5 min de leitura",
+      "image": "https://autotrader.co.nz/wp-content/uploads/2026/11/crashed-ferrari-296-gts-turners-auction.jpg",
+      "imageFocus": "center",
+      "image_focus": "center",
+      "excerpt": "O 296 GTS verde de 2024 que a Continental Cars anunciava por cerca de NZ$ 630 mil cruzou a Great South Rd em maio, levou um lado inteiro e entra nesta sexta no pregão de sinistrados da Turners, em Wiri: não liga, não tem inspeção, foi baixado do registro e os airbags já detonaram. Sob a carroceria, o V6 biturbo de 2.992 cc e o sistema plug-in de 610 kW continuam lá.",
+      "contentParagraphs": [
+          "Um Ferrari 296 GTS verde de 2024, vendido novo na Nova Zelândia, entra no pregão de veículos com perda total da Turners nesta sexta às 16h, na filial de Wiri, 133 Roscommon Road, Auckland, e fecha na noite de 30 de novembro. A loteadora vende o carro estritamente como está, em nome de uma seguradora, sob a referência 28451195. Na véspera da abertura, a página do lote marcava 7.126 visualizações e 137 listas de observação — movimento de quem está medindo peças, não nostalgia.",
+          "A ficha da casa resume o carro em poucas linhas, e três delas são clínicas: lateral direita com dano pesado, airbags deflagrados, veículo que não liga e não foi ligado desde o acidente, sem inspeção mecânica. O resto é configuração de fábrica: dois lugares, câmbio automático, tração em um eixo, híbrido plug-in a gasolina, 2.992 cc. É o V6 biturbo de 3,0 litros acoplado ao sistema plug-in que soma 610 kW e leva o conversível de zero a 100 km/h em 2,9 s quando tudo funciona.",
+          "O que interessa agora é o que deixou de funcionar. O painel de avarias aponta o lado direito inteiro — para-lama dianteiro, roda dianteira, porta e lateral traseira — mais os airbags detonados. Airbag deflagrado raramente viaja sozinho: vem com cinto pré-tensionado acionado e uma central que gravou o evento, e num híbrido a cadeia de alta tensão entra na lista de sistemas que precisam de bloqueio físico antes de qualquer tentativa de partida. Sem inspeção, ninguém separa o que é dano de impacto do que é corte de segurança. O carro não está apenas quebrado: está desligado por protocolo, e o novo dono vai precisar decidir em qual das duas condições vai gastar dinheiro.",
+          "O acidente tem endereço. Em maio, o carro era conduzido por um funcionário da Continental Cars Ferrari, que anunciava o 296 como seminovo por cerca de NZ$ 630 mil, quando cruzou a Great South Rd à direita, na porta da própria concessionária; um Toyota Aqua acertou a lateral. A polícia aplicou ao motorista da Ferrari advertência formal por não dar preferência, e o Aqua foi baixado como perda total. O 296 saiu do registro, e a Turners não garante que ele volte a ser certificado para rodar — a ressalva está impressa no anúncio, não é leitura de entrelinhas.",
+          "É aí que o lote deixa de ser curiosidade e vira aritmética. O carro custava cerca de NZ$ 630 mil na loja; o pregão parte de um valor que a casa não publica e aceita lance de quem compra a peça pelo que ela vale desmontada — o trem de força plug-in de 610 kW, a caixa, os freios, as rodas, o interior de dois lugares. Para quem restaura, o obstáculo é o documento: veículo baixado exige reinspeção e recertificação, e a loteadora não assume esse ônus. O número a acompanhar em 30 de novembro não é o martelo bruto, e sim a distância entre ele e os NZ$ 630 mil de tabela. É essa diferença que mostra se o mercado neozelandês trata um 296 GTS sinistrado como estoque de peças ou como projeto de restauração.",
+          "A capa desta matéria é a foto do lote em Wiri: o verde de fábrica, a porta arrancada, o para-lama pendurado, o painel exposto. Nada ali é estética. É o registro de um carro de 610 kW parado no pátio por causa de um cruzamento mal calculado a poucos metros da loja que o vendia. O V6 de 2.992 cc continua no lugar, os airbags já gastaram a única função que tinham, e a partir de 30 de novembro alguém vai decidir se ele volta a rodar ou termina repartido em caixas. Para o colecionador, é uma aula de custo de sinistro; para o mercado de peças, é uma oportunidade datada."
+      ],
+      "content_paragraphs": [
+          "Um Ferrari 296 GTS verde de 2024, vendido novo na Nova Zelândia, entra no pregão de veículos com perda total da Turners nesta sexta às 16h, na filial de Wiri, 133 Roscommon Road, Auckland, e fecha na noite de 30 de novembro. A loteadora vende o carro estritamente como está, em nome de uma seguradora, sob a referência 28451195. Na véspera da abertura, a página do lote marcava 7.126 visualizações e 137 listas de observação — movimento de quem está medindo peças, não nostalgia.",
+          "A ficha da casa resume o carro em poucas linhas, e três delas são clínicas: lateral direita com dano pesado, airbags deflagrados, veículo que não liga e não foi ligado desde o acidente, sem inspeção mecânica. O resto é configuração de fábrica: dois lugares, câmbio automático, tração em um eixo, híbrido plug-in a gasolina, 2.992 cc. É o V6 biturbo de 3,0 litros acoplado ao sistema plug-in que soma 610 kW e leva o conversível de zero a 100 km/h em 2,9 s quando tudo funciona.",
+          "O que interessa agora é o que deixou de funcionar. O painel de avarias aponta o lado direito inteiro — para-lama dianteiro, roda dianteira, porta e lateral traseira — mais os airbags detonados. Airbag deflagrado raramente viaja sozinho: vem com cinto pré-tensionado acionado e uma central que gravou o evento, e num híbrido a cadeia de alta tensão entra na lista de sistemas que precisam de bloqueio físico antes de qualquer tentativa de partida. Sem inspeção, ninguém separa o que é dano de impacto do que é corte de segurança. O carro não está apenas quebrado: está desligado por protocolo, e o novo dono vai precisar decidir em qual das duas condições vai gastar dinheiro.",
+          "O acidente tem endereço. Em maio, o carro era conduzido por um funcionário da Continental Cars Ferrari, que anunciava o 296 como seminovo por cerca de NZ$ 630 mil, quando cruzou a Great South Rd à direita, na porta da própria concessionária; um Toyota Aqua acertou a lateral. A polícia aplicou ao motorista da Ferrari advertência formal por não dar preferência, e o Aqua foi baixado como perda total. O 296 saiu do registro, e a Turners não garante que ele volte a ser certificado para rodar — a ressalva está impressa no anúncio, não é leitura de entrelinhas.",
+          "É aí que o lote deixa de ser curiosidade e vira aritmética. O carro custava cerca de NZ$ 630 mil na loja; o pregão parte de um valor que a casa não publica e aceita lance de quem compra a peça pelo que ela vale desmontada — o trem de força plug-in de 610 kW, a caixa, os freios, as rodas, o interior de dois lugares. Para quem restaura, o obstáculo é o documento: veículo baixado exige reinspeção e recertificação, e a loteadora não assume esse ônus. O número a acompanhar em 30 de novembro não é o martelo bruto, e sim a distância entre ele e os NZ$ 630 mil de tabela. É essa diferença que mostra se o mercado neozelandês trata um 296 GTS sinistrado como estoque de peças ou como projeto de restauração.",
+          "A capa desta matéria é a foto do lote em Wiri: o verde de fábrica, a porta arrancada, o para-lama pendurado, o painel exposto. Nada ali é estética. É o registro de um carro de 610 kW parado no pátio por causa de um cruzamento mal calculado a poucos metros da loja que o vendia. O V6 de 2.992 cc continua no lugar, os airbags já gastaram a única função que tinham, e a partir de 30 de novembro alguém vai decidir se ele volta a rodar ou termina repartido em caixas. Para o colecionador, é uma aula de custo de sinistro; para o mercado de peças, é uma oportunidade datada."
+      ],
+      "specs": {
+          "Motor": "V6 biturbo de 2.992 cc + híbrido plug-in a gasolina, 610 kW combinados",
+          "Prestação de fábrica": "0 a 100 km/h em 2,9 s; câmbio automático e tração em um eixo",
+          "Estado no lote": "Não liga, não foi ligado desde o acidente, sem inspeção mecânica",
+          "Avarias": "Lateral direita pesada: para-lama, roda dianteira, porta e traseira; airbags deflagrados",
+          "Pregão": "Turners Damaged Vehicles, 133 Roscommon Road, Wiri, Auckland — abre 20/11 às 16h, fecha 30/11",
+          "Registro": "Baixado (de-registered), WOF até 15/01/2027, vendido as is por seguradora"
+      },
+      "status": "published",
+      "isHero": true,
+      "is_hero": true,
+      "isHeroSecondary": false,
+      "is_hero_secondary": false,
+      "isPinnedHero": false,
+      "is_pinned_hero": false,
+      "rankingScore": 90,
+      "ranking_score": 90,
+      "engineSource": "qoder:agente-editorial",
+      "publishedAt": "2026-11-20T18:25:54.000Z",
+      "published_at": "2026-11-20T18:25:54.000Z",
+      "sourceUrl": "https://autotrader.co.nz/news/crashed-ferrari-296-gts-up-for-auction-at-turners",
+      "source_url": "https://autotrader.co.nz/news/crashed-ferrari-296-gts-up-for-auction-at-turners"
+  },
+  {
     "id": "art-f355-gts-de-clarkson-405-mil-birmingham-6175",
     "slug": "f355-gts-de-clarkson-405-mil-pela-placa-p199-ypl-e-o-recorde-mundial-em-birmingham-6175",
     "title": "F355 GTS de Clarkson: £405 Mil pela Placa P199 YPL e o Recorde Mundial em Birmingham",
@@ -158,8 +215,8 @@ export const ARTICLES = [
       "Estimativa": "£ 200.000 a £ 250.000, quase dobrada; recorde mundial em leilão ao vivo para o F355"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
+    "isHero": false,
+    "is_hero": false,
     "isHeroSecondary": false,
     "is_hero_secondary": false,
     "isPinnedHero": false,
@@ -1412,59 +1469,6 @@ export const ARTICLES = [
     "sourceUrl": "https://autodiscoveries.com/ferrari-welt-premiere-introducing-the-keyvany-porroo",
     "source_url": "https://autodiscoveries.com/ferrari-welt-premiere-introducing-the-keyvany-porroo"
   },
-  {
-    "id": "art-sailing-yacht-a-143-metros-de-ac-7137",
-    "slug": "sailing-yacht-a-143-metros-de-aco-e-vidro-em-custodia-judicial-no-mediterraneo-7125",
-    "title": "Sailing Yacht A: 143 Metros de Aço e Vidro em Custódia Judicial no Mediterrâneo",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "14 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://media.delius-klasing.de/dk-wassersport/dpr_auto,fl_progressive,f_jpg,c_fill,g_face:center,h_675,w_1200/q_auto:eco/yacht/319191107-1_1cdbb7429772e17e8a9a2e48541929e5",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A silhueta disruptiva de Philippe Starck enfrenta a imobilidade forçada em Trieste. O projeto de 600 milhões de dólares permanece como um monumento à engenharia de vanguarda e à incerteza geopolítica.",
-    "contentParagraphs": [
-      "O Sailing Yacht A não solicita atenção; ele a sequestra. Com seus 143 metros de comprimento, a embarcação desafia os cânones da arquitetura naval clássica ao substituir a elegância das linhas de flutuação por um volume bruto, quase militar. Sua proa invertida corta o mar com a frieza de um bisturi, enquanto o monocoque em aço de alta resistência, finalizado com tintas de base metálica, reflete a luz do Adriático como um espelho convexo distorcido.",
-      "Sob o convés, a engenharia atinge o ápice da complexidade hidrodinâmica. O sistema de propulsão diesel-elétrico híbrido é gerenciado por uma rede de telemetria inercial que monitora a estabilidade dinâmica em cada nó de velocidade. Seus três mastros em fibra de carbono, os maiores do mundo, operam através de um sistema automatizado de controle de carga, capazes de içar velas com área superior a um campo de futebol americano, mantendo tolerâncias de mícrons nos mecanismos de acionamento sob ventos de força 8.",
-      "A imobilidade atual em Trieste é uma anomalia estatística para uma máquina projetada para o movimento perpétuo. O custo de manutenção, avaliado em milhões de euros anuais, segue ativo, mesmo com a embarcação ancorada em um limbo jurídico. Enquanto o sistema de tratamento de águas negras e os geradores de dessalinização trabalham em ciclos de conservação, o iate torna-se uma peça de museu forçada, um gigante de 12.600 toneladas de deslocamento esperando por uma liberação que as leis internacionais ainda hesitam em conceder.",
-      "O veredito de Philippe Starck sobre a estética do projeto — frequentemente rotulado como o mais controverso do século — perde relevância diante da soberania da engenharia naval pura. O Sailing Yacht A não foi concebido para agradar o olhar comum, mas para dominar a física dos fluidos com audácia tecnológica. Seja pela sua silhueta polarizante ou pela complexidade de seus sistemas de bordo, ele permanece como o maior testemunho de que, no luxo extremo, a funcionalidade é apenas uma sugestão secundária."
-    ],
-    "content_paragraphs": [
-      "O Sailing Yacht A não solicita atenção; ele a sequestra. Com seus 143 metros de comprimento, a embarcação desafia os cânones da arquitetura naval clássica ao substituir a elegância das linhas de flutuação por um volume bruto, quase militar. Sua proa invertida corta o mar com a frieza de um bisturi, enquanto o monocoque em aço de alta resistência, finalizado com tintas de base metálica, reflete a luz do Adriático como um espelho convexo distorcido.",
-      "Sob o convés, a engenharia atinge o ápice da complexidade hidrodinâmica. O sistema de propulsão diesel-elétrico híbrido é gerenciado por uma rede de telemetria inercial que monitora a estabilidade dinâmica em cada nó de velocidade. Seus três mastros em fibra de carbono, os maiores do mundo, operam através de um sistema automatizado de controle de carga, capazes de içar velas com área superior a um campo de futebol americano, mantendo tolerâncias de mícrons nos mecanismos de acionamento sob ventos de força 8.",
-      "A imobilidade atual em Trieste é uma anomalia estatística para uma máquina projetada para o movimento perpétuo. O custo de manutenção, avaliado em milhões de euros anuais, segue ativo, mesmo com a embarcação ancorada em um limbo jurídico. Enquanto o sistema de tratamento de águas negras e os geradores de dessalinização trabalham em ciclos de conservação, o iate torna-se uma peça de museu forçada, um gigante de 12.600 toneladas de deslocamento esperando por uma liberação que as leis internacionais ainda hesitam em conceder.",
-      "O veredito de Philippe Starck sobre a estética do projeto — frequentemente rotulado como o mais controverso do século — perde relevância diante da soberania da engenharia naval pura. O Sailing Yacht A não foi concebido para agradar o olhar comum, mas para dominar a física dos fluidos com audácia tecnológica. Seja pela sua silhueta polarizante ou pela complexidade de seus sistemas de bordo, ele permanece como o maior testemunho de que, no luxo extremo, a funcionalidade é apenas uma sugestão secundária."
-    ],
-    "specs": {
-      "Comprimento": "143 metros",
-      "Deslocamento": "12.600 toneladas",
-      "Propulsão": "Híbrida Diesel-Elétrica",
-      "Mastros": "Fibra de Carbono (3 unidades)",
-      "Custo Estimado": "600 milhões de dólares",
-      "Design": "Philippe Starck"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "engineSource": "gemini:gemini-3.1-flash-lite",
-    "publishedAt": "2026-11-14T18:34:47.136Z",
-    "published_at": "2026-11-14T18:34:47.136Z",
-    "sourceUrl": "https://www.yacht.de/en/yachts/superyachts/sailing-yacht-a-sailing-giant-remains-impounded/",
-    "source_url": "https://www.yacht.de/en/yachts/superyachts/sailing-yacht-a-sailing-giant-remains-impounded/"
-  }
 ];
 
 
