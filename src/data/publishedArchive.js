@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+    "id": "art-f355-gts-de-clarkson-405-mil-birmingham-6175",
+    "slug": "f355-gts-de-clarkson-405-mil-pela-placa-p199-ypl-e-o-recorde-mundial-em-birmingham-6175",
+    "title": "F355 GTS de Clarkson: £405 Mil pela Placa P199 YPL e o Recorde Mundial em Birmingham",
+    "image": "https://www.thesupercarblog.com/wp-content/uploads/2026/11/jeremy-clarkson-s-1996-ferrari-f355-gts-2.jpg",
+    "sourceUrl": "https://www.thesupercarblog.com/clarksons-ferrari-not-only-finds-new-owner-but-also-sets-auction-record/",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-20T11:23:33.000Z"
+  },
+  {
     "id": "art-koenigsegg-acao-300-coroas-valua-marca-sueca-5826",
     "slug": "koenigsegg-acao-a-300-coroas-valua-marca-sueca-em-eur-1-3-bilhao-cfo-ekdahl-listagem-dois-anos-5826",
     "title": "Koenigsegg: Ação a 300 Coroas Valua a Marca Sueca em €1,3 Bilhão Enquanto o CFO Situa a Listagem a 'Pelo Menos Dois Anos'",

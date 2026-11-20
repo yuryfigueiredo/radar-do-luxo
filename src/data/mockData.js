@@ -116,6 +116,63 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-f355-gts-de-clarkson-405-mil-birmingham-6175",
+    "slug": "f355-gts-de-clarkson-405-mil-pela-placa-p199-ypl-e-o-recorde-mundial-em-birmingham-6175",
+    "title": "F355 GTS de Clarkson: £405 Mil pela Placa P199 YPL e o Recorde Mundial em Birmingham",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "20 de novembro de 2026",
+    "readTime": "6 min de leitura",
+    "read_time": "6 min de leitura",
+    "image": "https://www.thesupercarblog.com/wp-content/uploads/2026/11/jeremy-clarkson-s-1996-ferrari-f355-gts-2.jpg",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "Dezesseis meses depois de ficar sem comprador na RM Sotheby's, em Cliveden House, o F355 GTS de 1996 que Jeremy Clarkson comprou zero-quilômetro fechou em £ 405.000 na Iconic Auctioneers, no NEC Classic Motor Show, em Birmingham — quase o dobro da estimativa e recorde mundial em leilão ao vivo para o modelo. O V8 aspirado de 3,5 litros, a caixa manual de seis marchas com grade exposta e o cartão de garantia com o nome do primeiro dono explicam o ágio.",
+    "contentParagraphs": [
+      "£ 405 mil. Foi esse o martelo da Iconic Auctioneers no dia 14 de novembro de 2026, no salão NEC Classic Motor Show, em Birmingham, pelo Ferrari F355 GTS de 1996 que Jeremy Clarkson comprou novo. O valor quase dobrou a estimativa de £ 200 mil a £ 250 mil publicada antes do pregão e estabeleceu o recorde mundial em leilão ao vivo para o modelo, segundo a casa. O chassi é o ZFFXR42C000106175, com registro britânico P199 YPL, e o hodômetro marca cerca de 15.200 milhas desde zero.",
+      "Na traseira, o V8 de 3,5 litros aspirado é o motor original de fábrica, com números coincidentes, e entrega 380 cv. A caixa é a manual de seis marchas com grade exposta — a peça que separa esta unidade da maioria dos F355 que saíram de Maranello com o câmbio F1 automatizado. O conjunto está em Rosso Corsa sobre couro Crema, com bancos esportivos de encosto em carbono instalados desde zero. A papelada fecha o lote: a correspondência original do pedido foi a leilão junto com o cartão de garantia que identifica Clarkson como primeiro proprietário.",
+      "A procedência é o que se arrematou ali. Clarkson encomendou o carro novo e o recebeu em agosto de 1996, rodou cerca de 6.000 milhas e o entregou como prêmio de um concurso de leitores em 2000. Segundo a cobertura do próprio The Supercar Blog, é o único Ferrari que ele possuiu em nome próprio e o único que comprou zero-quilômetro. O carro passou por suas colunas e por programas de televisão, e ficou associado à declaração, feita em VHS, de que era o melhor carro do mundo de todos os tempos. Há ainda a história do teste de direção reprovado ao volante dele, publicada no The Sunday Times.",
+      "Em julho de 2025, o mesmo chassi foi a leilão na RM Sotheby's, em Cliveden House, com estimativa de £ 180 mil a £ 220 mil, e ficou sem venda. Entre uma praça e outra, recebeu revisões mecânicas leves e uma limpeza profunda, e voltou ao noticiário. O resultado em Birmingham mostra que a diferença não estava no metal: estava na praça, na data e no público certo para um F355 com nome de dono no documento.",
+      "Para medir o prêmio, basta olhar o mercado comum. Um F355 GTS manual de volante à direita em bom estado gira entre £ 120 mil e £ 150 mil, segundo a análise publicada pelo Ciclo Otto — patamar que transforma os £ 405 mil em um ágio de 170% a 200%, o que a publicação chama de imposto Clarkson. Não é um F355 melhor que os outros: é um carro com cadeia de custódia documentada, primeiro dono identificado no cartão de garantia e uma história televisiva que nenhum restaurador consegue fabricar.",
+      "O que o comprador levou foi um F355 que não precisou de atualização para valer o dobro. O V8 aspirado e a grade exposta já estavam lá desde 1996, e o preço foi pago pela linhagem, não pela potência. A capa desta matéria mostra o carro com a placa P199 YPL à vista, ainda no Rosso Corsa de fábrica. Para os próximos pregões, os números a acompanhar são três: quantos F355 GTS manuais aparecem com procedência fechada, a que preço fecham longe dos £ 150 mil de tabela e se o recorde de Birmingham será citado como piso ou como exceção."
+    ],
+    "content_paragraphs": [
+      "£ 405 mil. Foi esse o martelo da Iconic Auctioneers no dia 14 de novembro de 2026, no salão NEC Classic Motor Show, em Birmingham, pelo Ferrari F355 GTS de 1996 que Jeremy Clarkson comprou novo. O valor quase dobrou a estimativa de £ 200 mil a £ 250 mil publicada antes do pregão e estabeleceu o recorde mundial em leilão ao vivo para o modelo, segundo a casa. O chassi é o ZFFXR42C000106175, com registro britânico P199 YPL, e o hodômetro marca cerca de 15.200 milhas desde zero.",
+      "Na traseira, o V8 de 3,5 litros aspirado é o motor original de fábrica, com números coincidentes, e entrega 380 cv. A caixa é a manual de seis marchas com grade exposta — a peça que separa esta unidade da maioria dos F355 que saíram de Maranello com o câmbio F1 automatizado. O conjunto está em Rosso Corsa sobre couro Crema, com bancos esportivos de encosto em carbono instalados desde zero. A papelada fecha o lote: a correspondência original do pedido foi a leilão junto com o cartão de garantia que identifica Clarkson como primeiro proprietário.",
+      "A procedência é o que se arrematou ali. Clarkson encomendou o carro novo e o recebeu em agosto de 1996, rodou cerca de 6.000 milhas e o entregou como prêmio de um concurso de leitores em 2000. Segundo a cobertura do próprio The Supercar Blog, é o único Ferrari que ele possuiu em nome próprio e o único que comprou zero-quilômetro. O carro passou por suas colunas e por programas de televisão, e ficou associado à declaração, feita em VHS, de que era o melhor carro do mundo de todos os tempos. Há ainda a história do teste de direção reprovado ao volante dele, publicada no The Sunday Times.",
+      "Em julho de 2025, o mesmo chassi foi a leilão na RM Sotheby's, em Cliveden House, com estimativa de £ 180 mil a £ 220 mil, e ficou sem venda. Entre uma praça e outra, recebeu revisões mecânicas leves e uma limpeza profunda, e voltou ao noticiário. O resultado em Birmingham mostra que a diferença não estava no metal: estava na praça, na data e no público certo para um F355 com nome de dono no documento.",
+      "Para medir o prêmio, basta olhar o mercado comum. Um F355 GTS manual de volante à direita em bom estado gira entre £ 120 mil e £ 150 mil, segundo a análise publicada pelo Ciclo Otto — patamar que transforma os £ 405 mil em um ágio de 170% a 200%, o que a publicação chama de imposto Clarkson. Não é um F355 melhor que os outros: é um carro com cadeia de custódia documentada, primeiro dono identificado no cartão de garantia e uma história televisiva que nenhum restaurador consegue fabricar.",
+      "O que o comprador levou foi um F355 que não precisou de atualização para valer o dobro. O V8 aspirado e a grade exposta já estavam lá desde 1996, e o preço foi pago pela linhagem, não pela potência. A capa desta matéria mostra o carro com a placa P199 YPL à vista, ainda no Rosso Corsa de fábrica. Para os próximos pregões, os números a acompanhar são três: quantos F355 GTS manuais aparecem com procedência fechada, a que preço fecham longe dos £ 150 mil de tabela e se o recorde de Birmingham será citado como piso ou como exceção."
+    ],
+    "specs": {
+      "Motor": "V8 aspirado de 3,5 litros, 380 cv, motor original com números coincidentes",
+      "Câmbio": "Manual de seis marchas com grade exposta, não o F1 automatizado",
+      "Chassi / Placa": "ZFFXR42C000106175 · registro britânico P199 YPL",
+      "Quilometragem": "Cerca de 15.200 milhas desde zero (6.000 milhas com Clarkson)",
+      "Resultado": "£ 405.000 na Iconic Auctioneers, NEC Classic Motor Show, Birmingham, 14/11/2026",
+      "Estimativa": "£ 200.000 a £ 250.000, quase dobrada; recorde mundial em leilão ao vivo para o F355"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 95,
+    "ranking_score": 95,
+    "engineSource": "qoder:agente-editorial",
+    "publishedAt": "2026-11-20T11:23:33.000Z",
+    "published_at": "2026-11-20T11:23:33.000Z",
+    "sourceUrl": "https://www.thesupercarblog.com/clarksons-ferrari-not-only-finds-new-owner-but-also-sets-auction-record/",
+    "source_url": "https://www.thesupercarblog.com/clarksons-ferrari-not-only-finds-new-owner-but-also-sets-auction-record/"
+  },
+  {
     "id": "art-koenigsegg-acao-300-coroas-valua-marca-sueca-5826",
     "slug": "koenigsegg-acao-a-300-coroas-valua-marca-sueca-em-eur-1-3-bilhao-cfo-ekdahl-listagem-dois-anos-5826",
     "title": "Koenigsegg: Ação a 300 Coroas Valua a Marca Sueca em €1,3 Bilhão Enquanto o CFO Situa a Listagem a 'Pelo Menos Dois Anos'",
@@ -158,8 +215,8 @@ export const ARTICLES = [
       "Listagem": "Public limited company desde 2025; IPO a 'pelo menos dois anos', segundo o CFO Johan Ekdahl"
     },
     "status": "published",
-    "isHero": true,
-    "is_hero": true,
+    "isHero": false,
+    "is_hero": false,
     "isHeroSecondary": false,
     "is_hero_secondary": false,
     "isPinnedHero": false,
@@ -1407,58 +1464,6 @@ export const ARTICLES = [
     "published_at": "2026-11-14T18:34:47.136Z",
     "sourceUrl": "https://www.yacht.de/en/yachts/superyachts/sailing-yacht-a-sailing-giant-remains-impounded/",
     "source_url": "https://www.yacht.de/en/yachts/superyachts/sailing-yacht-a-sailing-giant-remains-impounded/"
-  },
-  {
-    "id": "art-ferrari-250-gto-de-us-10-milhoes-3378",
-    "slug": "ferrari-250-gto-de-us-10-milhoes-o-fetiche-de-engenharia-preso-em-uma-custodia-de-silencio-mineral-3369",
-    "title": "Ferrari 250 GTO de US$ 10 Milhões: O Fetiche de Engenharia Preso em uma Custódia de Silêncio Mineral",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "14 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://robbreport.com/wp-content/uploads/2018/06/1962-ferrari-250-gto-by-scaglietti_0.jpg",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "A aquisição de uma raridade histórica por valores astronômicos revela a ascensão de ativos cinéticos que operam fora da esfera pública, transformando o ato da posse em um exercício de governança patrimonial.",
-    "contentParagraphs": [
-      "A transação de quase 10 milhões de dólares por uma Ferrari 250 GTO não trata de mobilidade. Trata-se de uma soberania patrimonial imobilizada em um cofre com atmosfera controlada. O motor V12 de 3.0 litros, uma obra-prima de tolerâncias de mícrons dos anos 60, permanece em estado de conservação estática. Não há queima de combustível, apenas a preservação química da liga metálica contra a entropia do tempo.",
-      "Sob o capô, os carburadores Weber 38 DCN permanecem secos, protegidos de qualquer oxidação que o uso real inevitavelmente imporia. A telemetria inercial deste chassi é um mito historiográfico, uma memória de força G lateral que o proprietário atual jamais sentirá em suas mãos. A engenharia, aqui, foi elevada à categoria de investimento de alta liquidez, onde o valor reside na integridade absoluta dos componentes originais de fábrica.",
-      "O mercado de hipercarros clássicos deslocou-se para uma zona de exclusão. Colecionadores não buscam mais a adrenalina do efeito solo ou o ruído do escape em Inconel, mas sim a segurança de um ativo tangível imune à volatilidade das moedas fiduciárias. O carro tornou-se um documento de valor dinástico, um ativo que reside na fronteira entre a arte sacra e a engenharia naval de luxo, onde a manutenção é feita por curadores, não por mecânicos.",
-      "Resta a melancolia técnica de uma máquina projetada para o limite da física, agora condenada à imobilidade perpétua. A Ferrari 250 GTO é, simultaneamente, o ápice da engenharia mecânica do século XX e o prisioneiro mais caro do mercado global. A posse deste artefato não exige habilidades de pilotagem, mas uma disciplina férrea de custódia fiduciária que desafia a própria razão de existir do motor de combustão interna."
-    ],
-    "content_paragraphs": [
-      "A transação de quase 10 milhões de dólares por uma Ferrari 250 GTO não trata de mobilidade. Trata-se de uma soberania patrimonial imobilizada em um cofre com atmosfera controlada. O motor V12 de 3.0 litros, uma obra-prima de tolerâncias de mícrons dos anos 60, permanece em estado de conservação estática. Não há queima de combustível, apenas a preservação química da liga metálica contra a entropia do tempo.",
-      "Sob o capô, os carburadores Weber 38 DCN permanecem secos, protegidos de qualquer oxidação que o uso real inevitavelmente imporia. A telemetria inercial deste chassi é um mito historiográfico, uma memória de força G lateral que o proprietário atual jamais sentirá em suas mãos. A engenharia, aqui, foi elevada à categoria de investimento de alta liquidez, onde o valor reside na integridade absoluta dos componentes originais de fábrica.",
-      "O mercado de hipercarros clássicos deslocou-se para uma zona de exclusão. Colecionadores não buscam mais a adrenalina do efeito solo ou o ruído do escape em Inconel, mas sim a segurança de um ativo tangível imune à volatilidade das moedas fiduciárias. O carro tornou-se um documento de valor dinástico, um ativo que reside na fronteira entre a arte sacra e a engenharia naval de luxo, onde a manutenção é feita por curadores, não por mecânicos.",
-      "Resta a melancolia técnica de uma máquina projetada para o limite da física, agora condenada à imobilidade perpétua. A Ferrari 250 GTO é, simultaneamente, o ápice da engenharia mecânica do século XX e o prisioneiro mais caro do mercado global. A posse deste artefato não exige habilidades de pilotagem, mas uma disciplina férrea de custódia fiduciária que desafia a própria razão de existir do motor de combustão interna."
-    ],
-    "specs": {
-      "motor": "V12 longitudinal de 3.0 litros",
-      "alimentação": "6 carburadores Weber 38 DCN",
-      "transmissão": "Manual de 5 velocidades",
-      "conservação": "Custódia climática estática",
-      "valor_transacao": "Aprox. US$ 10.000.000"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 92,
-    "ranking_score": 92,
-    "engineSource": "gemini:gemini-3.1-flash-lite",
-    "publishedAt": "2026-11-14T15:15:43.378Z",
-    "published_at": "2026-11-14T15:15:43.378Z",
-    "sourceUrl": "https://robbreport.com/motors/cars/gallery/1962-ferrari-250-gto-presented-by-rm-sothebys-2802638/",
-    "source_url": "https://robbreport.com/motors/cars/gallery/1962-ferrari-250-gto-presented-by-rm-sothebys-2802638/"
   }
 ];
 
