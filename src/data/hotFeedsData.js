@@ -121,7 +121,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://robbreport.com/wp-content/uploads/2026/11/f-p-journe-tourbillon-souverain-souscription.jpg",
     "imageIsFallback": false,
-    "status": "available"
+    "status": "published"
   },
   {
     "id": "pauta-live-arquitetura-mwpb0ss5-1qvb",
