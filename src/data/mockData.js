@@ -116,6 +116,61 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+      "id": "art-liquid-ice-148-metros-150-toneladas-de-hidrogenio-liquido-2841",
+      "slug": "liquid-ice-148-metros-150-toneladas-de-hidrogenio-liquido-e-38-vezes-o-breakthrough-de-gates",
+      "title": "Liquid Ice: 148 Metros Ice-Class com 150 Toneladas de Hidrogênio Líquido e 38 Vezes o Breakthrough de Gates",
+      "category": "Destinos & Iates",
+      "categorySlug": "destinos",
+      "category_slug": "destinos",
+      "authorSlug": "gabriel-fontes",
+      "author_slug": "gabriel-fontes",
+      "type": "article",
+      "badge": "CURADORIA RADAR",
+      "date": "21 de novembro de 2026",
+      "readTime": "5 min de leitura",
+      "read_time": "5 min de leitura",
+      "image": "https://luxurylaunches.com/wp-content/uploads/2026/11/liquid-ice-yacht.jpg",
+      "imageFocus": "center",
+      "image_focus": "center",
+      "excerpt": "A Aria Yacht Design e a Janthina Naval Architects revelaram o Liquid Ice: 148 metros de casco ice-class com células a combustível, dois tanques de 150 toneladas de hidrogênio líquido e 13 MWh de bateria. A autonomia declarada é de 7.000 milhas náuticas — 38 vezes o hidrogênio utilizável do Breakthrough com apenas 25% a mais de comprimento, por um custo estimado de US$ 500 a 750 milhões.",
+      "contentParagraphs": [
+        "O Liquid Ice não é um casco que anuncia um número; é um número que anuncia um casco. A polonesa Aria Yacht Design e a alemã Janthina Naval Architects revelaram um conceito de 148 metros (487 pés) com casco ice-class e propulsão hidrogênio-elétrica que carrega 150 toneladas de hidrogênio líquido utilizável, armazenadas em dois tanques da SHZ Advanced Technologies, além de um banco de baterias de 13 MWh. A autonomia declarada é de 7.000 milhas náuticas. Spa, cinema, jardim de inverno: tudo o mais a bordo é consequência desse pacote de energia, não o contrário.",
+        "A régua é o Breakthrough. O Feadship de 118 metros encomendado por Bill Gates, avaliado em cerca de US$ 650 milhões, carrega aproximadamente quatro toneladas de hidrogênio utilizável. O Liquid Ice tem só 25% a mais de comprimento, mas 38 vezes o combustível, em 13.500 de arqueação bruta — cerca de 1,9 vez o casco holandês. É a diferença entre um sistema que alimenta comodidades e janelas curtas de operação e um sistema desenhado para cruzar oceanos sem queimar uma gota de diesel.",
+        "O hidrogênio líquido, a -253 °C, é uma planta criogênica antes de ser um tanque: exige isolamento, sistemas de transferência, segurança e mãos treinadas, e 150 toneladas dessa escala não cabem na lógica de um posto de marina. A arquitetura elétrica é o outro lado do problema. Células a combustível e baterias trabalham em paralelo na propulsão e nos sistemas de bordo; o banco de 13 MWh absorve as oscilações de demanda e permite tirar unidades de célula de serviço uma a uma, para manutenção, sem interromper o restante. A afirmação mais cara do projeto, porém, é outra: os projetistas dizem que a distribuição de pesos e o arranjo de volumes eliminam o sistema convencional de água de lastro. Quem já calculou estabilidade sabe o que isso vale em margem de flutuação — e sabe que a frase só se prova na prancha final.",
+        "Os números de desempenho fecham a conta. Máxima de 21 nós, cruzeiro de 12 nós, 7.000 milhas de autonomia. Divida o combustível pela distância e sobram cerca de 21 quilos de hidrogênio por milha náutica; a 12 nós, isso dá algo como 257 quilos por hora, ou perto de 8,6 MW de potência química a 33,3 kWh por quilo. O banco de 13 MWh entra como amortecedor entre a demanda instantânea e a resposta mais lenta das células — a mesma função de um volante de inércia elétrico, com a diferença de que aqui ele pesa toneladas e mora no duplo fundo.",
+        "No convés, a lista é de estação de pesquisa antes de ser de iate de recreio: laboratórios, sala de controle de missão e acomodação para até 12 pesquisadores, além de dois submersíveis, dois helicópteros, três tenders e seis jet skis. O helicóptero recolhe para um hangar sob o convés e libera a popa elevada para virar quadra de tênis ou cinema ao ar livre; spa, academia, beach club e paiol de brinquedos somam quase 1.000 metros quadrados, com salão em pé-direito duplo, lounge panorâmico e observatório de 270 graus na proa. O custo estimado de um build completo fica entre US$ 500 e 750 milhões. Não há armador, estaleiro nem data de entrega: é conceito, e o oceano ainda não assinou. Mas a lição de engenharia já está na mesa — no hidrogênio, o número que decide não é a piscina, é o quilo por milha."
+      ],
+      "content_paragraphs": [
+        "O Liquid Ice não é um casco que anuncia um número; é um número que anuncia um casco. A polonesa Aria Yacht Design e a alemã Janthina Naval Architects revelaram um conceito de 148 metros (487 pés) com casco ice-class e propulsão hidrogênio-elétrica que carrega 150 toneladas de hidrogênio líquido utilizável, armazenadas em dois tanques da SHZ Advanced Technologies, além de um banco de baterias de 13 MWh. A autonomia declarada é de 7.000 milhas náuticas. Spa, cinema, jardim de inverno: tudo o mais a bordo é consequência desse pacote de energia, não o contrário.",
+        "A régua é o Breakthrough. O Feadship de 118 metros encomendado por Bill Gates, avaliado em cerca de US$ 650 milhões, carrega aproximadamente quatro toneladas de hidrogênio utilizável. O Liquid Ice tem só 25% a mais de comprimento, mas 38 vezes o combustível, em 13.500 de arqueação bruta — cerca de 1,9 vez o casco holandês. É a diferença entre um sistema que alimenta comodidades e janelas curtas de operação e um sistema desenhado para cruzar oceanos sem queimar uma gota de diesel.",
+        "O hidrogênio líquido, a -253 °C, é uma planta criogênica antes de ser um tanque: exige isolamento, sistemas de transferência, segurança e mãos treinadas, e 150 toneladas dessa escala não cabem na lógica de um posto de marina. A arquitetura elétrica é o outro lado do problema. Células a combustível e baterias trabalham em paralelo na propulsão e nos sistemas de bordo; o banco de 13 MWh absorve as oscilações de demanda e permite tirar unidades de célula de serviço uma a uma, para manutenção, sem interromper o restante. A afirmação mais cara do projeto, porém, é outra: os projetistas dizem que a distribuição de pesos e o arranjo de volumes eliminam o sistema convencional de água de lastro. Quem já calculou estabilidade sabe o que isso vale em margem de flutuação — e sabe que a frase só se prova na prancha final.",
+        "Os números de desempenho fecham a conta. Máxima de 21 nós, cruzeiro de 12 nós, 7.000 milhas de autonomia. Divida o combustível pela distância e sobram cerca de 21 quilos de hidrogênio por milha náutica; a 12 nós, isso dá algo como 257 quilos por hora, ou perto de 8,6 MW de potência química a 33,3 kWh por quilo. O banco de 13 MWh entra como amortecedor entre a demanda instantânea e a resposta mais lenta das células — a mesma função de um volante de inércia elétrico, com a diferença de que aqui ele pesa toneladas e mora no duplo fundo.",
+        "No convés, a lista é de estação de pesquisa antes de ser de iate de recreio: laboratórios, sala de controle de missão e acomodação para até 12 pesquisadores, além de dois submersíveis, dois helicópteros, três tenders e seis jet skis. O helicóptero recolhe para um hangar sob o convés e libera a popa elevada para virar quadra de tênis ou cinema ao ar livre; spa, academia, beach club e paiol de brinquedos somam quase 1.000 metros quadrados, com salão em pé-direito duplo, lounge panorâmico e observatório de 270 graus na proa. O custo estimado de um build completo fica entre US$ 500 e 750 milhões. Não há armador, estaleiro nem data de entrega: é conceito, e o oceano ainda não assinou. Mas a lição de engenharia já está na mesa — no hidrogênio, o número que decide não é a piscina, é o quilo por milha."
+      ],
+      "specs": {
+        "Concepção": "Aria Yacht Design (Polônia) + Janthina Naval Architects (Alemanha) — conceito de explorer ice-class",
+        "Combustível": "150 t de hidrogênio líquido utilizável em dois tanques SHZ Advanced Technologies",
+        "Sistema de energia": "Células a combustível em paralelo com banco de baterias de 13 MWh",
+        "Autonomia e velocidade": "7.000 milhas náuticas; 21 nós de máxima e 12 nós de cruzeiro",
+        "Casco e porte": "148 m (487 ft) ice-class, 13.500 GT — cerca de 1,9× o Feadship Breakthrough de 118 m",
+        "Custo estimado": "US$ 500–750 milhões para build completo; sem armador, estaleiro ou entrega divulgados"
+      },
+      "status": "published",
+      "isHero": true,
+      "is_hero": true,
+      "isHeroSecondary": false,
+      "is_hero_secondary": false,
+      "isPinnedHero": false,
+      "is_pinned_hero": false,
+      "rankingScore": 87,
+      "ranking_score": 87,
+      "engineSource": "qoder:agente-editorial",
+      "publishedAt": "2026-11-21T18:24:32.000Z",
+      "published_at": "2026-11-21T18:24:32.000Z",
+      "sourceUrl": "https://luxurylaunches.com/transport/this-750-million-explorer-yacht-concept-carries-38-times-more-hydrogen-than-bill-gates-breakthrough-superyacht-cruise-7000-nautical-miles-on-fuel-cells-and-batteries-and-pack-two-helicopters-tw.php",
+      "source_url": "https://luxurylaunches.com/transport/this-750-million-explorer-yacht-concept-carries-38-times-more-hydrogen-than-bill-gates-breakthrough-superyacht-cruise-7000-nautical-miles-on-fuel-cells-and-batteries-and-pack-two-helicopters-tw.php"
+  },
+  {
       "id": "art-nomos-noir-series-tangente-33-ludwig-33-tetra-27-duw-4001-preto-e-ouro-2864",
       "slug": "nomos-noir-series-tangente-33-ludwig-33-tetra-27-duw-4001-preto-e-ouro-2864",
       "title": "Nomos Noir Series: Tangente 33 e Ludwig 33 de 6,6 mm e Tetra 27 de 6,4 mm com o Calibre DUW 4001 de 53 Horas",
@@ -156,8 +211,8 @@ export const ARTICLES = [
         "Coleção": "Seis referências em três modelos, parte permanente da coleção Nomos"
       },
       "status": "published",
-      "isHero": true,
-      "is_hero": true,
+      "isHero": false,
+      "is_hero": false,
       "isHeroSecondary": false,
       "is_hero_secondary": false,
       "isPinnedHero": false,
@@ -1426,59 +1481,6 @@ export const ARTICLES = [
     "published_at": "2026-11-16T18:35:24.805Z",
     "sourceUrl": "https://www.newstalkzb.co.nz/news/auckland/former-starbucks-boss-howard-schultz-s-superyacht-spotted-in-auckland/",
     "source_url": "https://www.newstalkzb.co.nz/news/auckland/former-starbucks-boss-howard-schultz-s-superyacht-spotted-in-auckland/"
-  },
-  {
-    "id": "art-safira-imperial-1997carat-de-cor-7415",
-    "slug": "safira-imperial-1997carat-de-corte-dodecaedrico-da-casa-romanov-7156",
-    "title": "Safira Imperial: 199,7‑Carat de Corte Dodecaédrico da Casa Romanov",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "16 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://sothebys-md.brightspotcdn.com/dims4/default/0b85d14/2147483647/strip/false/crop/2000x2000+0+0/resize/4096x4096!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fmedia-desk%2Fwebnative%2Fimages%2F9b%2F2f%2Fb1dc016f4e598e63a1631e8459f4%2Fge2609-dp9z5-t1-01.jpg",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Lágrima azul de 199,7 carat, herdeira da dinastia Romanov, rompe o silêncio mineral dos leilões com avaliação de US$ 4,9 mi, consolidando soberania patrimonial em travertino romano navona.",
-    "contentParagraphs": [
-      "A pedra chegou ao leilão como um sussurro de história. Um brilho que atravessa séculos, refletindo a luz como se fosse o próprio átrio de um palácio czarista.",
-      "A safira, lapidada em corte dodecaédrico, exibe tolerância de mícrons que beira o limite da transparência cristalina; sua densidade de 4,02 g/cm³ gera um peso inercial que, ao ser segurado, impõe ao colecionista uma sensação de gravidade quase física, como se o tempo fosse comprimido em cada faceta, e a avaliação em dólares, 4,9 mi, traduz‑se em refúgio de liquidez para quem detém imunidade temporal.",
-      "Historicamente, a gema pertencia ao grande duque Sergei Alexandrovich, membro da família Romanov, cuja custódia fiduciária foi mantida em cofres de aço inoxidável em Moscou até a Revolução de 1917; a sua re‑emergência no mercado internacional demonstra que o patrimônio dinástico, quando bem guardado, transcende o ruído da moeda corrente, oferecendo um silêncio mineral que só os grandes leiloeiros podem ouvir.",
-      "Em síntese, a aquisição reafirma que o verdadeiro valor reside na soberania patrimonial, não na efemeridade do brilho; a safira se torna um farol de governança dinástica, um ponto de ancoragem para quem busca travertino romano navona como pano de fundo de sua colecção, e o leilão, um marco de custódia que reverbera no futuro da alta joalheria."
-    ],
-    "content_paragraphs": [
-      "A pedra chegou ao leilão como um sussurro de história. Um brilho que atravessa séculos, refletindo a luz como se fosse o próprio átrio de um palácio czarista.",
-      "A safira, lapidada em corte dodecaédrico, exibe tolerância de mícrons que beira o limite da transparência cristalina; sua densidade de 4,02 g/cm³ gera um peso inercial que, ao ser segurado, impõe ao colecionista uma sensação de gravidade quase física, como se o tempo fosse comprimido em cada faceta, e a avaliação em dólares, 4,9 mi, traduz‑se em refúgio de liquidez para quem detém imunidade temporal.",
-      "Historicamente, a gema pertencia ao grande duque Sergei Alexandrovich, membro da família Romanov, cuja custódia fiduciária foi mantida em cofres de aço inoxidável em Moscou até a Revolução de 1917; a sua re‑emergência no mercado internacional demonstra que o patrimônio dinástico, quando bem guardado, transcende o ruído da moeda corrente, oferecendo um silêncio mineral que só os grandes leiloeiros podem ouvir.",
-      "Em síntese, a aquisição reafirma que o verdadeiro valor reside na soberania patrimonial, não na efemeridade do brilho; a safira se torna um farol de governança dinástica, um ponto de ancoragem para quem busca travertino romano navona como pano de fundo de sua colecção, e o leilão, um marco de custódia que reverbera no futuro da alta joalheria."
-    ],
-    "specs": {
-      "peso": "199,7 carat",
-      "corte": "dodecaédrico polido a 0,02 mm de tolerância",
-      "origem": "Casa Romanov, Rússia",
-      "avaliação": "US$ 4,9 milhões",
-      "material_do_cofre_original": "aço inoxidável 316L",
-      "densidade": "4,02 g/cm³"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "engineSource": "openai:groq/openai/gpt-oss-120b",
-    "publishedAt": "2026-11-16T15:06:17.415Z",
-    "published_at": "2026-11-16T15:06:17.415Z",
-    "sourceUrl": "https://www.sothebys.com/buy/56a1b776-7da6-48d5-8c40-961431470e95/lots/01a04331-c5e2-79ce-944e-ac372d6f79b5",
-    "source_url": "https://www.sothebys.com/buy/56a1b776-7da6-48d5-8c40-961431470e95/lots/01a04331-c5e2-79ce-944e-ac372d6f79b5"
   },
 ];
 

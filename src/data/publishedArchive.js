@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+      "id": "art-liquid-ice-148-metros-150-toneladas-de-hidrogenio-liquido-2841",
+      "slug": "liquid-ice-148-metros-150-toneladas-de-hidrogenio-liquido-e-38-vezes-o-breakthrough-de-gates",
+      "title": "Liquid Ice: 148 Metros Ice-Class com 150 Toneladas de Hidrogênio Líquido e 38 Vezes o Breakthrough de Gates",
+      "image": "https://luxurylaunches.com/wp-content/uploads/2026/11/liquid-ice-yacht.jpg",
+      "sourceUrl": "https://luxurylaunches.com/transport/this-750-million-explorer-yacht-concept-carries-38-times-more-hydrogen-than-bill-gates-breakthrough-superyacht-cruise-7000-nautical-miles-on-fuel-cells-and-batteries-and-pack-two-helicopters-tw.php",
+      "categorySlug": "destinos",
+      "authorSlug": "gabriel-fontes",
+      "publishedAt": "2026-11-21T18:24:32.000Z"
+  },
+  {
       "id": "art-nomos-noir-series-tangente-33-ludwig-33-tetra-27-duw-4001-preto-e-ouro-2864",
       "slug": "nomos-noir-series-tangente-33-ludwig-33-tetra-27-duw-4001-preto-e-ouro-2864",
       "title": "Nomos Noir Series: Tangente 33 e Ludwig 33 de 6,6 mm e Tetra 27 de 6,4 mm com o Calibre DUW 4001 de 53 Horas",
