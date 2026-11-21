@@ -116,6 +116,60 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+      "id": "art-cadillac-v8-turbo-2-1-litros-2030-us-155-milhoes-motor-1-6-cancelado-6381",
+      "slug": "cadillac-v8-turbo-2-1-litros-2030-us-155-milhoes-motor-1-6-cancelado-6381",
+      "title": "Cadillac: V8 Turbo de 2,1 Litros Para 2030 e os US$ 155 Milhões Já Enterrados no Motor 1.6",
+      "category": "Supercarros",
+      "categorySlug": "supercarros",
+      "category_slug": "supercarros",
+      "authorSlug": "gabriel-fontes",
+      "author_slug": "gabriel-fontes",
+      "type": "article",
+      "badge": "CURADORIA RADAR",
+      "date": "20 de novembro de 2026",
+      "readTime": "5 min de leitura",
+      "read_time": "5 min de leitura",
+      "image": "https://files.speedweek.com/images/c_crop,x_0,y_0,w_1200,h_600/c_fill,f_auto,q_auto,w_1200,h_630/2026/11/20/l6xinw7idkoebh5v3kty/0000-v8",
+      "imageFocus": "center",
+      "image_focus": "center",
+      "excerpt": "A FIA fechou por unanimidade, na noite de 20 de novembro de 2026, o pacote técnico da motorização de 2030: um V8 turbo de 2,1 litros com hibridização limitada, mais leve, mais simples e mais barato que o 1.6 híbrido atual. A Cadillac muda de rota — segue cliente Ferrari por mais uma temporada e adia o motor próprio, depois de gastar US$ 155 milhões na divisão de motores da GM.",
+      "contentParagraphs": [
+          "A FIA confirmou na noite de 20 de novembro de 2026 que o arcabouço técnico da unidade de potência da Fórmula 1 a partir de 2030 foi acordado por unanimidade entre a federação, a Formula One Management, as equipes e os fabricantes de motores. O desenho é um V8 turbo de 2,1 litros com hibridização limitada — mais leve, mais simples e mais barato que o 1.6 híbrido que corre hoje. O texto final vai ao Conselho Mundial de Automobilismo da FIA na reunião de Xangai, em dezembro.",
+          "A ressalva está no som, e ela é de termodinâmica, não de gosto. Para um V8 soar como os aspirados de antigamente, o turbo teria de ser banido — e alguns fabricantes se opuseram a isso, do mesmo modo que se recusaram a abandonar a hibridização. O resultado é direto: volta o V8, não volta o ronco do aspirado. É a diferença entre a entrega imediata de um motor que respira sozinho e um compressor soprando a mistura pela garganta antes que a chama chegue à câmara.",
+          "O pacote não fica no motor. A FIA quer casar o V8 a um chassi mais leve e ágil, com peso maior na pilotagem e na qualidade da corrida. Para quem lê telemetria, é o reconhecimento de que a corrida nasce da resposta mecânica ao piloto — do diferencial que entrega torque na saída de curva, do trambulador que obedece ao toque — e não de uma camada de software entre o pé direito e o asfalto.",
+          "A decisão pegou a General Motors no meio do caminho. Os americanos planejavam colocar sua própria unidade de potência na pista em 2029, sob o regulamento atual. Mantido o plano, seria um motor desenhado para durar exatamente uma temporada — milhões e milhões em investimento para um único ano, o que não faz sentido. Dan Towriss, diretor-gerente da equipe Cadillac, confirmou a mudança de rota: nada de motor 1.6 em 2029; a equipe fica mais um ano como cliente da Ferrari e só então migra para o V8 em 2030.",
+          "O custo dessa curva já tem número. Towriss confirmou que montar a divisão de motores da GM custou US$ 155 milhões; ele não disse quantos milhões foram gastos no planejamento do 1.6 litro que nunca verá a luz. Protótipos desses motores já giram nas bancadas da GM no novo centro de motores de corrida em Concord, na Carolina do Norte, onde trabalham mais de 300 profissionais qualificados — uma estrutura erguida para um regulamento que a FIA acaba de aposentar."
+      ],
+      "content_paragraphs": [
+          "A FIA confirmou na noite de 20 de novembro de 2026 que o arcabouço técnico da unidade de potência da Fórmula 1 a partir de 2030 foi acordado por unanimidade entre a federação, a Formula One Management, as equipes e os fabricantes de motores. O desenho é um V8 turbo de 2,1 litros com hibridização limitada — mais leve, mais simples e mais barato que o 1.6 híbrido que corre hoje. O texto final vai ao Conselho Mundial de Automobilismo da FIA na reunião de Xangai, em dezembro.",
+          "A ressalva está no som, e ela é de termodinâmica, não de gosto. Para um V8 soar como os aspirados de antigamente, o turbo teria de ser banido — e alguns fabricantes se opuseram a isso, do mesmo modo que se recusaram a abandonar a hibridização. O resultado é direto: volta o V8, não volta o ronco do aspirado. É a diferença entre a entrega imediata de um motor que respira sozinho e um compressor soprando a mistura pela garganta antes que a chama chegue à câmara.",
+          "O pacote não fica no motor. A FIA quer casar o V8 a um chassi mais leve e ágil, com peso maior na pilotagem e na qualidade da corrida. Para quem lê telemetria, é o reconhecimento de que a corrida nasce da resposta mecânica ao piloto — do diferencial que entrega torque na saída de curva, do trambulador que obedece ao toque — e não de uma camada de software entre o pé direito e o asfalto.",
+          "A decisão pegou a General Motors no meio do caminho. Os americanos planejavam colocar sua própria unidade de potência na pista em 2029, sob o regulamento atual. Mantido o plano, seria um motor desenhado para durar exatamente uma temporada — milhões e milhões em investimento para um único ano, o que não faz sentido. Dan Towriss, diretor-gerente da equipe Cadillac, confirmou a mudança de rota: nada de motor 1.6 em 2029; a equipe fica mais um ano como cliente da Ferrari e só então migra para o V8 em 2030.",
+          "O custo dessa curva já tem número. Towriss confirmou que montar a divisão de motores da GM custou US$ 155 milhões; ele não disse quantos milhões foram gastos no planejamento do 1.6 litro que nunca verá a luz. Protótipos desses motores já giram nas bancadas da GM no novo centro de motores de corrida em Concord, na Carolina do Norte, onde trabalham mais de 300 profissionais qualificados — uma estrutura erguida para um regulamento que a FIA acaba de aposentar."
+      ],
+      "specs": {
+          "Motorização 2030": "V8 turbo de 2,1 litros, com hibridização limitada",
+          "Acordo": "Pacote técnico aprovado por unanimidade em 20/11/2026 (FIA, FOM, equipes e fabricantes); quadro final ao Conselho Mundial, em Xangai, em dezembro",
+          "Cadillac / GM": "Motor próprio de 1,6 litro cancelado para 2029; cliente Ferrari por mais uma temporada e estreia do V8 em 2030",
+          "Investimento": "US$ 155 milhões na divisão de motores da GM (Dan Towriss), sem divulgar o gasto no 1,6 litro",
+          "Fábrica": "Centro de motores de corrida em Concord, Carolina do Norte, com mais de 300 trabalhadores"
+      },
+      "status": "published",
+      "isHero": true,
+      "is_hero": true,
+      "isHeroSecondary": false,
+      "is_hero_secondary": false,
+      "isPinnedHero": false,
+      "is_pinned_hero": false,
+      "rankingScore": 92,
+      "ranking_score": 92,
+      "engineSource": "qoder:agente-editorial",
+      "publishedAt": "2026-11-21T01:22:44.000Z",
+      "published_at": "2026-11-21T01:22:44.000Z",
+      "sourceUrl": "https://www.speedweek.com/en/a/formula-1/cadillac-to-continue-with-ferrari-millions-down-the-drain-due-to-v8-engines-for-2030",
+      "source_url": "https://www.speedweek.com/en/a/formula-1/cadillac-to-continue-with-ferrari-millions-down-the-drain-due-to-v8-engines-for-2030"
+  },
+  {
       "id": "art-fp-journe-tourbillon-souscription-paris-7412",
       "slug": "fp-journe-tourbillon-souverain-souscription-10-06-milhoes-paris-setimo-dos-20-de-platina-7412",
       "title": "F.P. Journe Tourbillon Souverain 'Souscription': €10,06 Milhões em Paris e o Sétimo dos 20 de Platina",
@@ -158,8 +212,8 @@ export const ARTICLES = [
           "Lote irmão": "Chronomètre à Résonance 'Première Génération', ref. 105-01R, circa 2001, € 893.600"
       },
       "status": "published",
-      "isHero": true,
-      "is_hero": true,
+      "isHero": false,
+      "is_hero": false,
       "isHeroSecondary": false,
       "is_hero_secondary": false,
       "isPinnedHero": false,
@@ -1421,58 +1475,6 @@ export const ARTICLES = [
     "published_at": "2026-11-16T01:23:32.907Z",
     "sourceUrl": "https://www.nbcnews.com/world/europe/romanov-sapphire-bracelet-russia-empress-mughal-empire-auction-rcna608936",
     "source_url": "https://www.nbcnews.com/world/europe/romanov-sapphire-bracelet-russia-empress-mughal-empire-auction-rcna608936"
-  },
-  {
-    "id": "art-sothebys-genebra-o-leilao-histor-1110",
-    "slug": "sothebys-genebra-o-leilao-historico-de-84-milhoes-de-francos-que-consagra-a-manufatura-independente-na-vallee-de-joux-0492",
-    "title": "Sotheby's Genebra: O Leilão Histórico de 84 Milhões de Francos que Consagra a Manufatura Independente na Vallée de Joux",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "category_slug": "relogios",
-    "authorSlug": "clara-meirelles",
-    "author_slug": "clara-meirelles",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "15 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://i2.res.24o.it/images2010/S24/Documenti/2026/11/12/Immagini/Ritagli/Christies,%20cinque%20F.P.%20Journe%20Ruthenium%20appartenuti%20a%20Michael%20Schumacher-Collage-U15783773665eWq-U15608666281rgX-1440x752@IlSole24Ore-Web.JPEG?r=1170x507",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "O recente leilão de alta relojoaria em Genebra redefinição os parâmetros de liquidez em moedas fortes, provando que os calibres de manufatura historicamente raros operam como refúgio definitivo contra a volatilidade global.",
-    "contentParagraphs": [
-      "O salão de arremates da Sotheby's em Genebra silenciou-se. Apenas o tique-taque distante de um cronômetro de precisão pontuava a atmosfera enquanto o martelo despencava sobre mais um lote histórico. Não se tratava de uma simples transação comercial. Estávamos diante da consolidação de uma soberania patrimonial onde cada ponte chanfrada à mão e cada esmalte Grand Feu a 820°C operam como ativos de imune volatilidade, distantes dos ruídos dos mercados convencionais.",
-      "No centro das disputas entre colecionadores institucionais e fundações privadas, calibres complexos com sonnerie acústica afinada em Sol sustenido e tourbillons bi-axiais atingiram cotações astronômicas. A exigência técnica superou a mera ostentação estética. O mercado global de alta relojoaria agora premia a tolerância de mícrons e a paciência secular dos mestres relojoeiros, que passam meses debruçados sobre um único componente utilizando apenas o buril de aço e o sabugueiro silvestre para o polimento dos rubis.",
-      "Enquanto moedas fiduciárias tradicionais sofrem com pressões inflacionárias crônicas, as peças arrematadas em Genebra demonstraram uma imunidade temporal incomparável. Famílias dinásticas e family offices buscam nestes micro-mecanismos a verdadeira materialização do valor duradouro. A liquidez migrou de forma cirúrgica para a alta relojoaria independente, elegendo os raros exemplares produzidos nas montanhas suíças como a mais nobre reserva de valor da atualidade.",
-      "O resultado histórico deste leilão não representa uma exceção sazonal, mas sim uma mudança estrutural na curadoria de grandes patrimônios. O tempo do luxo não é utilitário; é a tela mecânica definitiva onde a engenhosidade humana desafia a entropia. Para o verdadeiro colecionador, possuir estas obras-primas é assegurar um fragmento indestrutível da história da mecânica de precisão para as próximas gerações."
-    ],
-    "content_paragraphs": [
-      "O salão de arremates da Sotheby's em Genebra silenciou-se. Apenas o tique-taque distante de um cronômetro de precisão pontuava a atmosfera enquanto o martelo despencava sobre mais um lote histórico. Não se tratava de uma simples transação comercial. Estávamos diante da consolidação de uma soberania patrimonial onde cada ponte chanfrada à mão e cada esmalte Grand Feu a 820°C operam como ativos de imune volatilidade, distantes dos ruídos dos mercados convencionais.",
-      "No centro das disputas entre colecionadores institucionais e fundações privadas, calibres complexos com sonnerie acústica afinada em Sol sustenido e tourbillons bi-axiais atingiram cotações astronômicas. A exigência técnica superou a mera ostentação estética. O mercado global de alta relojoaria agora premia a tolerância de mícrons e a paciência secular dos mestres relojoeiros, que passam meses debruçados sobre um único componente utilizando apenas o buril de aço e o sabugueiro silvestre para o polimento dos rubis.",
-      "Enquanto moedas fiduciárias tradicionais sofrem com pressões inflacionárias crônicas, as peças arrematadas em Genebra demonstraram uma imunidade temporal incomparável. Famílias dinásticas e family offices buscam nestes micro-mecanismos a verdadeira materialização do valor duradouro. A liquidez migrou de forma cirúrgica para a alta relojoaria independente, elegendo os raros exemplares produzidos nas montanhas suíças como a mais nobre reserva de valor da atualidade.",
-      "O resultado histórico deste leilão não representa uma exceção sazonal, mas sim uma mudança estrutural na curadoria de grandes patrimônios. O tempo do luxo não é utilitário; é a tela mecânica definitiva onde a engenhosidade humana desafia a entropia. Para o verdadeiro colecionador, possuir estas obras-primas é assegurar um fragmento indestrutível da história da mecânica de precisão para as próximas gerações."
-    ],
-    "specs": {
-      "volume_total_leilao": "CHF 84.2 Milhões",
-      "ateliês_destacados": "Independentes da Vallée de Joux e Genebra",
-      "técnica_dominante": "Esmalte Grand Feu e Sonnerie Acústica",
-      "curadoria": "Sotheby's Geneva Watch Division",
-      "moeda_base": "Franco Suíço (CHF)"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-15T22:15:31.110Z",
-    "published_at": "2026-11-15T22:15:31.110Z",
-    "sourceUrl": "https://en.ilsole24ore.com/art/geneva-record-auctions-watch-sales-exceed-203-million-AJXyFJDC",
-    "source_url": "https://en.ilsole24ore.com/art/geneva-record-auctions-watch-sales-exceed-203-million-AJXyFJDC"
   },
 ];
 

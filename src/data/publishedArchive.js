@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+      "id": "art-cadillac-v8-turbo-2-1-litros-2030-us-155-milhoes-motor-1-6-cancelado-6381",
+      "slug": "cadillac-v8-turbo-2-1-litros-2030-us-155-milhoes-motor-1-6-cancelado-6381",
+      "title": "Cadillac: V8 Turbo de 2,1 Litros Para 2030 e os US$ 155 Milhões Já Enterrados no Motor 1.6",
+      "image": "https://files.speedweek.com/images/c_crop,x_0,y_0,w_1200,h_600/c_fill,f_auto,q_auto,w_1200,h_630/2026/11/20/l6xinw7idkoebh5v3kty/0000-v8",
+      "sourceUrl": "https://www.speedweek.com/en/a/formula-1/cadillac-to-continue-with-ferrari-millions-down-the-drain-due-to-v8-engines-for-2030",
+      "categorySlug": "supercarros",
+      "authorSlug": "gabriel-fontes",
+      "publishedAt": "2026-11-21T01:22:44.000Z"
+  },
+  {
       "id": "art-fp-journe-tourbillon-souscription-paris-7412",
       "slug": "fp-journe-tourbillon-souverain-souscription-10-06-milhoes-paris-setimo-dos-20-de-platina-7412",
       "title": "F.P. Journe Tourbillon Souverain 'Souscription': €10,06 Milhões em Paris e o Sétimo dos 20 de Platina",
