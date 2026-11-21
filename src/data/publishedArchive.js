@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+      "id": "art-roger-w-smith-series-7-calendario-anual-turbilhao-40-mm-duas-pecas-por-ano-5162",
+      "slug": "roger-w-smith-series-7-calendario-anual-turbilhao-40-mm-duas-pecas-por-ano-5162",
+      "title": "Roger W. Smith Series 7: Calendário Anual e Turbilhão de 40 mm com Escape Co-Axial a Duas Peças por Ano",
+      "image": "https://hodinkee.imgix.net/uploads/images/8ca685ea-dfd0-4836-b76f-604c15a4f586/RWSSeriesSevenFront.jpg?ixlib=rails-1.1.0&fm=jpg&q=80&w=2400",
+      "sourceUrl": "https://www.hodinkee.com/articles/the-roger-w-smith-series-7-annual-calendar-tourbillon",
+      "categorySlug": "relogios",
+      "authorSlug": "clara-meirelles",
+      "publishedAt": "2026-11-21T11:28:04.000Z"
+  },
+  {
       "id": "art-cadillac-v8-turbo-2-1-litros-2030-us-155-milhoes-motor-1-6-cancelado-6381",
       "slug": "cadillac-v8-turbo-2-1-litros-2030-us-155-milhoes-motor-1-6-cancelado-6381",
       "title": "Cadillac: V8 Turbo de 2,1 Litros Para 2030 e os US$ 155 Milhões Já Enterrados no Motor 1.6",

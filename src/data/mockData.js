@@ -116,6 +116,61 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+      "id": "art-roger-w-smith-series-7-calendario-anual-turbilhao-40-mm-duas-pecas-por-ano-5162",
+      "slug": "roger-w-smith-series-7-calendario-anual-turbilhao-40-mm-duas-pecas-por-ano-5162",
+      "title": "Roger W. Smith Series 7: Calendário Anual e Turbilhão de 40 mm com Escape Co-Axial a Duas Peças por Ano",
+      "category": "Alta Relojoaria",
+      "categorySlug": "relogios",
+      "category_slug": "relogios",
+      "authorSlug": "clara-meirelles",
+      "author_slug": "clara-meirelles",
+      "type": "article",
+      "badge": "CURADORIA RADAR",
+      "date": "21 de novembro de 2026",
+      "readTime": "5 min de leitura",
+      "read_time": "5 min de leitura",
+      "image": "https://hodinkee.imgix.net/uploads/images/8ca685ea-dfd0-4836-b76f-604c15a4f586/RWSSeriesSevenFront.jpg?ixlib=rails-1.1.0&fm=jpg&q=80&w=2400",
+      "imageFocus": "center",
+      "image_focus": "center",
+      "excerpt": "Na noite de 20 de novembro, em Londres, Roger W. Smith desvendou o Series 7 nos 25 anos da marca: calendário anual, turbilhão e escape co-axial numa caixa de 40 mm, com o primeiro segundeiro central da casa. São cerca de duas peças por ano, por encomenda direta ao ateliê, e o preço não foi divulgado.",
+      "contentParagraphs": [
+        "A cena não podia ser mais inglesa: um jantar em Londres, na noite de 20 de novembro de 2026, com colecionadores e amigos da casa, e uma peça guardada até o último copo. Roger W. Smith comemorava 25 anos de oficina na Ilha de Man e apresentou o Series 7 — calendário anual, turbilhão e escape co-axial sob a mesma arquitetura. É a primeira vez que a marca reúne as três coisas num relógio de pulso, e não por acaso: o turbilhão fica simetricamente entre os dois barriletes, na posição técnica das 9 horas, acionando indiretamente o segundeiro central. O eixo é a obra de George Daniels; o desenho é o de um homem que passou duas décadas e meia separando o essencial do decorativo.",
+        "O calendário é o primeiro 'inteligente' de Smith: acerta os meses de 30 e 31 dias e só pede correção em fevereiro — e a correção mora em botões recuados na própria caixa, o que exige a unha ou a ponta de uma ferramenta, nunca o descuido do pulso. É também o primeiro segundeiro central da casa, homenagem direta ao Millennium de Daniels, o relógio que Smith construiu sob instrução do mestre a partir de um ETA 2892 fortemente modificado, com escape co-axial instalado. O mostrador abandonou a simetria: horas e minutos deslocados para o alto, a data num submostrador inferior e o mês numa abertura às 12 horas. Nos ponteiros, as espadas tridimensionais de sempre; no segundeiro central, um contrapeso redondo, e não o 'T' curvo do Millennium.",
+        "O verso é onde a casa cobra o preço da paciência. Granulado inglês, ângulos de 90 graus nas bordas das pontes empilhadas — uma reverência ao segundo relógio de Smith e, por tabela, à construção em degraus dos cronômetros marinhos de Henri Motel —, gravação manual e granulado nos dois barriletes. Sob o mostrador, o mínimo possível de pontes e alavancas, misturando polimento negro espelhado a escovados verticais e circulares. O calibre bate a 3 Hz, guarda 48 horas de corda manual e não informa no comunicado qual geração do escape co-axial carrega: a casa migrou para a versão MK2 de roda única, e o turbilhão talvez peça uma escala menor do que a habitual. A caixa mede 40 mm por 14,6 mm, em ouro rosa, amarelo, branco ou platina, com personalização por encomenda.",
+        "O Series 7 não é edição limitada, mas a aritmética da bancada é mais restritiva que qualquer número cunhado: cerca de duas peças por ano, pela complexidade do movimento, com os dois primeiros protótipos em platina (número 1) e ouro rosa (número 2). A pulseira é de jacaré, a resistência à água não foi revelada e o relógio não traz certificado de cronômetro — decisões de oficina, não de catálogo. Preço também não divulgado; quem encomenda, negocia direto com o ateliê. O anúncio veio junto com outra marca: a entrega do 200º relógio de Smith, um Series 6 com gravação especial.",
+        "O mercado, porém, já sabe o que a bancada vale. O Millennium pessoal de Smith, o único duplamente assinado por ele e Daniels, foi vendido por mais de US$ 2,4 milhões na Sotheby's em 2023; o Smith nº 2, calendário perpétuo com turbilhão que financiou a abertura da própria oficina, alcançou US$ 4,9 milhões na Phillips de Nova York no mesmo ano. Diante disso, duas peças anuais parecem pouco — e são. É exatamente o ponto: num mercado em que a produção pode ser comprimida por software e a tiragem inflada por planilha, a casa de Roger Smith continua medindo o tempo pela mão que o monta, não pelo calendário de lançamentos."
+      ],
+      "content_paragraphs": [
+        "A cena não podia ser mais inglesa: um jantar em Londres, na noite de 20 de novembro de 2026, com colecionadores e amigos da casa, e uma peça guardada até o último copo. Roger W. Smith comemorava 25 anos de oficina na Ilha de Man e apresentou o Series 7 — calendário anual, turbilhão e escape co-axial sob a mesma arquitetura. É a primeira vez que a marca reúne as três coisas num relógio de pulso, e não por acaso: o turbilhão fica simetricamente entre os dois barriletes, na posição técnica das 9 horas, acionando indiretamente o segundeiro central. O eixo é a obra de George Daniels; o desenho é o de um homem que passou duas décadas e meia separando o essencial do decorativo.",
+        "O calendário é o primeiro 'inteligente' de Smith: acerta os meses de 30 e 31 dias e só pede correção em fevereiro — e a correção mora em botões recuados na própria caixa, o que exige a unha ou a ponta de uma ferramenta, nunca o descuido do pulso. É também o primeiro segundeiro central da casa, homenagem direta ao Millennium de Daniels, o relógio que Smith construiu sob instrução do mestre a partir de um ETA 2892 fortemente modificado, com escape co-axial instalado. O mostrador abandonou a simetria: horas e minutos deslocados para o alto, a data num submostrador inferior e o mês numa abertura às 12 horas. Nos ponteiros, as espadas tridimensionais de sempre; no segundeiro central, um contrapeso redondo, e não o 'T' curvo do Millennium.",
+        "O verso é onde a casa cobra o preço da paciência. Granulado inglês, ângulos de 90 graus nas bordas das pontes empilhadas — uma reverência ao segundo relógio de Smith e, por tabela, à construção em degraus dos cronômetros marinhos de Henri Motel —, gravação manual e granulado nos dois barriletes. Sob o mostrador, o mínimo possível de pontes e alavancas, misturando polimento negro espelhado a escovados verticais e circulares. O calibre bate a 3 Hz, guarda 48 horas de corda manual e não informa no comunicado qual geração do escape co-axial carrega: a casa migrou para a versão MK2 de roda única, e o turbilhão talvez peça uma escala menor do que a habitual. A caixa mede 40 mm por 14,6 mm, em ouro rosa, amarelo, branco ou platina, com personalização por encomenda.",
+        "O Series 7 não é edição limitada, mas a aritmética da bancada é mais restritiva que qualquer número cunhado: cerca de duas peças por ano, pela complexidade do movimento, com os dois primeiros protótipos em platina (número 1) e ouro rosa (número 2). A pulseira é de jacaré, a resistência à água não foi revelada e o relógio não traz certificado de cronômetro — decisões de oficina, não de catálogo. Preço também não divulgado; quem encomenda, negocia direto com o ateliê. O anúncio veio junto com outra marca: a entrega do 200º relógio de Smith, um Series 6 com gravação especial.",
+        "O mercado, porém, já sabe o que a bancada vale. O Millennium pessoal de Smith, o único duplamente assinado por ele e Daniels, foi vendido por mais de US$ 2,4 milhões na Sotheby's em 2023; o Smith nº 2, calendário perpétuo com turbilhão que financiou a abertura da própria oficina, alcançou US$ 4,9 milhões na Phillips de Nova York no mesmo ano. Diante disso, duas peças anuais parecem pouco — e são. É exatamente o ponto: num mercado em que a produção pode ser comprimida por software e a tiragem inflada por planilha, a casa de Roger Smith continua medindo o tempo pela mão que o monta, não pelo calendário de lançamentos."
+      ],
+      "specs": {
+        "Calibre": "Turbilhão com escape co-axial, corda manual, 3 Hz (21.600 A/h) e 48 h de reserva",
+        "Complicações": "Calendário anual com ajuste apenas em fevereiro (botões recuados na caixa) e segundeiro central",
+        "Caixa": "40 mm × 14,6 mm em ouro rosa, amarelo, branco ou platina, com personalização",
+        "Mostrador": "Off-center, data em submostrador inferior e mês em abertura às 12 h; ponteiros em espada tridimensionais",
+        "Produção": "Sem edição limitada, por encomenda direta; cerca de duas peças por ano (protótipos em platina e ouro rosa)",
+        "Procedência": "Roger W. Smith, Ilha de Man — lançamento em Londres, 20/11/2026, nos 25 anos da marca"
+      },
+      "status": "published",
+      "isHero": true,
+      "is_hero": true,
+      "isHeroSecondary": false,
+      "is_hero_secondary": false,
+      "isPinnedHero": false,
+      "is_pinned_hero": false,
+      "rankingScore": 85,
+      "ranking_score": 85,
+      "engineSource": "qoder:agente-editorial",
+      "publishedAt": "2026-11-21T11:28:04.000Z",
+      "published_at": "2026-11-21T11:28:04.000Z",
+      "sourceUrl": "https://www.hodinkee.com/articles/the-roger-w-smith-series-7-annual-calendar-tourbillon",
+      "source_url": "https://www.hodinkee.com/articles/the-roger-w-smith-series-7-annual-calendar-tourbillon"
+  },
+  {
       "id": "art-cadillac-v8-turbo-2-1-litros-2030-us-155-milhoes-motor-1-6-cancelado-6381",
       "slug": "cadillac-v8-turbo-2-1-litros-2030-us-155-milhoes-motor-1-6-cancelado-6381",
       "title": "Cadillac: V8 Turbo de 2,1 Litros Para 2030 e os US$ 155 Milhões Já Enterrados no Motor 1.6",
@@ -155,8 +210,8 @@ export const ARTICLES = [
           "Fábrica": "Centro de motores de corrida em Concord, Carolina do Norte, com mais de 300 trabalhadores"
       },
       "status": "published",
-      "isHero": true,
-      "is_hero": true,
+      "isHero": false,
+      "is_hero": false,
       "isHeroSecondary": false,
       "is_hero_secondary": false,
       "isPinnedHero": false,
@@ -1422,59 +1477,6 @@ export const ARTICLES = [
     "published_at": "2026-11-16T11:19:34.172Z",
     "sourceUrl": "https://rmsothebys.com/auctions/lf26/lots/r0036-2017-ferrari-f12tdf/",
     "source_url": "https://rmsothebys.com/auctions/lf26/lots/r0036-2017-ferrari-f12tdf/"
-  },
-  {
-    "id": "art-pulseira-de-safiras-dos-romanov--2908",
-    "slug": "pulseira-de-safiras-dos-romanov-o-lote-dinastico-de-genebra-que-superou-estimativas-em-chf-42-milhoes-e-silenciou-o-mercado-de-liquidez-volatil-2448",
-    "title": "Pulseira de Safiras dos Romanov: O Lote Dinástico de Genebra que Superou Estimativas em CHF 4,2 Milhões e Silenciou o Mercado de Liquidez Volátil",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "16 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261112-sapphire-rs-9764bf.jpg",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A soberania patrimonial dos Romanov atinge novos patamares em leilão suíço, provando que ativos imperiais imunes à inflação exercem fascínio atemporal sobre family offices.",
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Sob os lustres suntuosos de Genebra, uma pulseira de safiras e diamantes outrora pertencente à dinastia Romanov subiu ao pódio dos leilões internacionais, superando largamente as estimativas conservadoras das casas de custódia fiduciária. Não se trata apenas de uma joia, mas de um refúgio de liquidez tangível.",
-      "A manufatura imperial russa do século XIX emprega técnicas de cravação em prata sobre ouro que desafiam o desgaste temporal. Cada safira do Ceilão exibe inclusões rutiladas específicas, atestando origem geográfica inquestionável. A montagem estrutural resistiu a dois séculos de turbulência geopolítica sem perder a rigidez dos feixes articulados.",
-      "Enquanto os mercados acionários oscilam ao sabor de conjecturas macroeconômicas diárias, ativos com proveniência dinástica comprovada operam sob regras próprias de valorização. A custódia fiduciária destas relíquias garante que o capital soberano permaneça imune à desvalorização cambial sistêmica. É a arquitetura financeira dos czares adaptada ao século XXI.",
-      "A arrematação por um colecionador privado de Genebra consolida uma tendência irreversível. O verdadeiro luxo reside na posse de artefatos que carregam cicatrizes históricas e pureza mineral insubstituível. A pulseira Romanov recolhe-se agora ao silêncio definitivo de um cofre blindado, aguardando o próximo ciclo secular."
-    ],
-    "content_paragraphs": [
-      "O dinheiro recente faz ruído. O patrimônio dinástico busca o silêncio mineral. Sob os lustres suntuosos de Genebra, uma pulseira de safiras e diamantes outrora pertencente à dinastia Romanov subiu ao pódio dos leilões internacionais, superando largamente as estimativas conservadoras das casas de custódia fiduciária. Não se trata apenas de uma joia, mas de um refúgio de liquidez tangível.",
-      "A manufatura imperial russa do século XIX emprega técnicas de cravação em prata sobre ouro que desafiam o desgaste temporal. Cada safira do Ceilão exibe inclusões rutiladas específicas, atestando origem geográfica inquestionável. A montagem estrutural resistiu a dois séculos de turbulência geopolítica sem perder a rigidez dos feixes articulados.",
-      "Enquanto os mercados acionários oscilam ao sabor de conjecturas macroeconômicas diárias, ativos com proveniência dinástica comprovada operam sob regras próprias de valorização. A custódia fiduciária destas relíquias garante que o capital soberano permaneça imune à desvalorização cambial sistêmica. É a arquitetura financeira dos czares adaptada ao século XXI.",
-      "A arrematação por um colecionador privado de Genebra consolida uma tendência irreversível. O verdadeiro luxo reside na posse de artefatos que carregam cicatrizes históricas e pureza mineral insubstituível. A pulseira Romanov recolhe-se agora ao silêncio definitivo de um cofre blindado, aguardando o próximo ciclo secular."
-    ],
-    "specs": {
-      "proveniência": "Casa Imperial Romanov",
-      "pedras centrais": "Safiras do Ceilão sem aquecimento térmico",
-      "materiais": "Prata imperial, ouro amarelo de 18k e diamantes lapidação roseta",
-      "local do leilão": "Genebra, Suíça",
-      "avaliação final": "Superou estimativas conservadoras em CHF 4.200.000",
-      "custódia": "Família Imperial / Acervo Privado Fiduciário"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-16T01:23:32.907Z",
-    "published_at": "2026-11-16T01:23:32.907Z",
-    "sourceUrl": "https://www.nbcnews.com/world/europe/romanov-sapphire-bracelet-russia-empress-mughal-empire-auction-rcna608936",
-    "source_url": "https://www.nbcnews.com/world/europe/romanov-sapphire-bracelet-russia-empress-mughal-empire-auction-rcna608936"
   },
 ];
 
