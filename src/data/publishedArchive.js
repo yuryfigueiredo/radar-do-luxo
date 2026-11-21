@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+      "id": "art-chiron-a-141-km-h-na-e34-o-ce-3594",
+      "slug": "chiron-a-141-km-h-na-e34-o-ceo-belga-de-aalst-com-multa-de-1400-e-cinco-condenacoes",
+      "title": "Chiron a 141 km/h na E34: O CEO Belga de Aalst com Multa de € 1.400, 60 Dias de Suspensão e Cinco Condenações Anteriores",
+      "image": "https://luxurylaunches.com/wp-content/uploads/2026/11/bugatti-chiron.jpg",
+      "sourceUrl": "https://luxurylaunches.com/transport/ceo-overspeeding-in-a-bugatti-chiron-11212026.php",
+      "categorySlug": "supercarros",
+      "authorSlug": "gabriel-fontes",
+      "publishedAt": "2026-11-21T22:22:50.000Z"
+  },
+  {
       "id": "art-liquid-ice-148-metros-150-toneladas-de-hidrogenio-liquido-2841",
       "slug": "liquid-ice-148-metros-150-toneladas-de-hidrogenio-liquido-e-38-vezes-o-breakthrough-de-gates",
       "title": "Liquid Ice: 148 Metros Ice-Class com 150 Toneladas de Hidrogênio Líquido e 38 Vezes o Breakthrough de Gates",

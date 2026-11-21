@@ -116,6 +116,61 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+      "id": "art-chiron-a-141-km-h-na-e34-o-ce-3594",
+      "slug": "chiron-a-141-km-h-na-e34-o-ceo-belga-de-aalst-com-multa-de-1400-e-cinco-condenacoes",
+      "title": "Chiron a 141 km/h na E34: O CEO Belga de Aalst com Multa de € 1.400, 60 Dias de Suspensão e Cinco Condenações Anteriores",
+      "category": "Supercarros",
+      "categorySlug": "supercarros",
+      "category_slug": "supercarros",
+      "authorSlug": "gabriel-fontes",
+      "author_slug": "gabriel-fontes",
+      "type": "article",
+      "badge": "CURADORIA RADAR",
+      "date": "21 de novembro de 2026",
+      "readTime": "5 min de leitura",
+      "read_time": "5 min de leitura",
+      "image": "https://luxurylaunches.com/wp-content/uploads/2026/11/bugatti-chiron.jpg",
+      "imageFocus": "center",
+      "image_focus": "center",
+      "excerpt": "Um radar na E34, perto de Assenede, flagrou um Bugatti Chiron de US$ 3 milhões a 141 km/h numa via de 90 km/h, em novembro de 2025. O CEO de uma empresa de Aalst justificou a pressa com uma ligação da mãe; o tribunal de polícia considerou as cinco condenações anteriores e aplicou € 1.400 de multa e 60 dias de suspensão — metade em sursis de três anos, deixando € 800 e 30 dias imediatos.",
+      "contentParagraphs": [
+        "A câmera da E34, na altura de Assenede, na Flandres Oriental belga, registrou 141 km/h em novembro de 2025. A via autoriza 90. O carro era um Bugatti Chiron avaliado em US$ 3 milhões; o condutor, o CEO de uma empresa sediada em Aalst. O excedente medido: 51 km/h, ou 57% acima do permitido. Para quem lê telemetria, o número frio diz mais que o susto — a 141 km/h o Chiron percorre 39,2 metros por segundo; a 90 km/h, 25. São 14 metros de estrada consumidos a mais a cada segundo, e nenhum chassi projetado para o limite do possível negocia esse delta com uma placa de trânsito.",
+        "A justificativa veio pelo advogado, diante do tribunal de polícia: o empresário recebera uma ligação da mãe pouco antes da viagem e soubera que ela não estava se sentindo bem. “Minha mãe não estava se sentindo bem”, resumiu. O relato não indica que ele a levava a um hospital nem que ela estivesse dentro do carro; os relatos disponíveis também não estabelecem se ele viajava sozinho no Chiron. A conta de tempo, ainda assim, não fecha: a 141 km/h, um quilômetro é vencido em 25,5 segundos; a 90 km/h, em 40. A pressa devolve 14,5 segundos por quilômetro — e cobra 51 km/h de margem de erro em cada curva da E34.",
+        "O que agravou o caso não estava no velocímetro, e sim no registro: o CEO já somava cinco condenações de trânsito anteriores, de natureza não divulgada. Não era o primeiro deslize de alguém surpreendido pela própria máquina; o histórico foi considerado no julgamento, o que torna a ocorrência mais difícil de tratar como um lapso isolado. Em tribunal, cinco condenações funcionam como um segundo radar: mostram o padrão que a foto única esconde.",
+        "A sentença foi montada em duas camadas. A multa de € 1.400 (cerca de US$ 1.540) vem acompanhada de 60 dias de proibição de dirigir. Metade de cada pena ficou suspensa por três anos: na prática, o empresário paga € 800 (cerca de US$ 880) e entrega a carteira por 30 dias imediatamente; os € 600 (cerca de US$ 660) restantes e os outros 30 dias de cassação só se tornam exigíveis se a suspensão for revogada no período. O juiz não perdoou metade da pena — deu três anos de prazo para o condutor provar que não reincide. O CEO não compareceu à audiência; o advogado informou que ele estava no exterior a negócios.",
+        "O Chiron alcança velocidades muito além do que qualquer via pública autoriza, e 141 km/h, pelos padrões do próprio projeto, é uma fração modesta do que o conjunto entrega. A estrada, contudo, não lê a ficha técnica. Na E34, o único dado que a engenharia do hipercarro não controla é a placa de 90 km/h — e foi ela que converteu uma ligação de família em cinco condenações somadas, € 1.400 de multa e trinta dias sem carta. A termodinâmica pode ser impecável; na via pública, a aritmética que decide é a do limite."
+      ],
+      "content_paragraphs": [
+        "A câmera da E34, na altura de Assenede, na Flandres Oriental belga, registrou 141 km/h em novembro de 2025. A via autoriza 90. O carro era um Bugatti Chiron avaliado em US$ 3 milhões; o condutor, o CEO de uma empresa sediada em Aalst. O excedente medido: 51 km/h, ou 57% acima do permitido. Para quem lê telemetria, o número frio diz mais que o susto — a 141 km/h o Chiron percorre 39,2 metros por segundo; a 90 km/h, 25. São 14 metros de estrada consumidos a mais a cada segundo, e nenhum chassi projetado para o limite do possível negocia esse delta com uma placa de trânsito.",
+        "A justificativa veio pelo advogado, diante do tribunal de polícia: o empresário recebera uma ligação da mãe pouco antes da viagem e soubera que ela não estava se sentindo bem. “Minha mãe não estava se sentindo bem”, resumiu. O relato não indica que ele a levava a um hospital nem que ela estivesse dentro do carro; os relatos disponíveis também não estabelecem se ele viajava sozinho no Chiron. A conta de tempo, ainda assim, não fecha: a 141 km/h, um quilômetro é vencido em 25,5 segundos; a 90 km/h, em 40. A pressa devolve 14,5 segundos por quilômetro — e cobra 51 km/h de margem de erro em cada curva da E34.",
+        "O que agravou o caso não estava no velocímetro, e sim no registro: o CEO já somava cinco condenações de trânsito anteriores, de natureza não divulgada. Não era o primeiro deslize de alguém surpreendido pela própria máquina; o histórico foi considerado no julgamento, o que torna a ocorrência mais difícil de tratar como um lapso isolado. Em tribunal, cinco condenações funcionam como um segundo radar: mostram o padrão que a foto única esconde.",
+        "A sentença foi montada em duas camadas. A multa de € 1.400 (cerca de US$ 1.540) vem acompanhada de 60 dias de proibição de dirigir. Metade de cada pena ficou suspensa por três anos: na prática, o empresário paga € 800 (cerca de US$ 880) e entrega a carteira por 30 dias imediatamente; os € 600 (cerca de US$ 660) restantes e os outros 30 dias de cassação só se tornam exigíveis se a suspensão for revogada no período. O juiz não perdoou metade da pena — deu três anos de prazo para o condutor provar que não reincide. O CEO não compareceu à audiência; o advogado informou que ele estava no exterior a negócios.",
+        "O Chiron alcança velocidades muito além do que qualquer via pública autoriza, e 141 km/h, pelos padrões do próprio projeto, é uma fração modesta do que o conjunto entrega. A estrada, contudo, não lê a ficha técnica. Na E34, o único dado que a engenharia do hipercarro não controla é a placa de 90 km/h — e foi ela que converteu uma ligação de família em cinco condenações somadas, € 1.400 de multa e trinta dias sem carta. A termodinâmica pode ser impecável; na via pública, a aritmética que decide é a do limite."
+      ],
+      "specs": {
+        "Velocidade registrada": "141 km/h em via de 90 km/h na E34 — 51 km/h acima do limite, cerca de 57% mais rápido",
+        "Veículo": "Bugatti Chiron avaliado em US$ 3 milhões, flagrado por radar em novembro de 2025",
+        "Condenações anteriores": "Cinco condenações de trânsito no histórico, de natureza não divulgada",
+        "Penalidade aplicada": "Multa de € 1.400 (cerca de US$ 1.540) e 60 dias de proibição de dirigir",
+        "Sursis de três anos": "Metade suspensa: € 800 (cerca de US$ 880) e 30 dias de cassação imediatos; € 600 (cerca de US$ 660) e outros 30 dias condicionais",
+        "Jurisdição": "Tribunal de polícia — E34, Assenede, Flandres Oriental, Bélgica; CEO de empresa sediada em Aalst"
+      },
+      "status": "published",
+      "isHero": true,
+      "is_hero": true,
+      "isHeroSecondary": false,
+      "is_hero_secondary": false,
+      "isPinnedHero": false,
+      "is_pinned_hero": false,
+      "rankingScore": 88,
+      "ranking_score": 88,
+      "engineSource": "qoder:agente-editorial",
+      "publishedAt": "2026-11-21T22:22:50.000Z",
+      "published_at": "2026-11-21T22:22:50.000Z",
+      "sourceUrl": "https://luxurylaunches.com/transport/ceo-overspeeding-in-a-bugatti-chiron-11212026.php",
+      "source_url": "https://luxurylaunches.com/transport/ceo-overspeeding-in-a-bugatti-chiron-11212026.php"
+  },
+  {
       "id": "art-liquid-ice-148-metros-150-toneladas-de-hidrogenio-liquido-2841",
       "slug": "liquid-ice-148-metros-150-toneladas-de-hidrogenio-liquido-e-38-vezes-o-breakthrough-de-gates",
       "title": "Liquid Ice: 148 Metros Ice-Class com 150 Toneladas de Hidrogênio Líquido e 38 Vezes o Breakthrough de Gates",
@@ -156,8 +211,8 @@ export const ARTICLES = [
         "Custo estimado": "US$ 500–750 milhões para build completo; sem armador, estaleiro ou entrega divulgados"
       },
       "status": "published",
-      "isHero": true,
-      "is_hero": true,
+      "isHero": false,
+      "is_hero": false,
       "isHeroSecondary": false,
       "is_hero_secondary": false,
       "isPinnedHero": false,
@@ -1428,59 +1483,6 @@ export const ARTICLES = [
     "published_at": "2026-11-17T01:23:50.322Z",
     "sourceUrl": "https://www.boatinternational.com/yachts/reports/feadship-breakthrough-hydrogen-powered-superyacht-for-charter",
     "source_url": "https://www.boatinternational.com/yachts/reports/feadship-breakthrough-hydrogen-powered-superyacht-for-charter"
-  },
-  {
-    "id": "art-feadship-pi-e-oceanco-koru-o-enc-4806",
-    "slug": "feadship-pi-e-oceanco-koru-o-encontro-de-800-milhoes-de-dolares-em-aluminio-naval-e-aco-inoxidavel-na-silo-marina-4380",
-    "title": "Feadship Pi e Oceanco Koru: O Encontro de 800 Milhões de Dólares em Alumínio Naval e Aço Inoxidável na Silo Marina",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "16 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://www.newstalkzb.co.nz/media/no1nj1mm/download-2026-11-15t084716197.jpg?rmode=crop&v=1dd74ddf1b6daf0&height=395&width=635&quality=95&scale=both",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A calmaria de Auckland foi subitamente quebrada pela atracação impecável do superiate Pi ao lado do colosso Koru, unindo duas filosofias distintas de engenharia naval em um único horizonte oceânico.",
-    "contentParagraphs": [
-      "As águas da Silo Marina receberam um alinhamento de ativos flutuantes que redefine a arquitetura naval contemporânea. O colosso Koru, avaliado em quinhentos milhões de dólares, encontrava-se isolado há semanas. A monotonia portuária foi desfeita com a chegada cirúrgica do Feadship Pi, uma obra-prima de trezentos milhões de dólares com assinatura de Howard Schultz. Dois cascos monumentais agora compartilham o mesmo cais na Nova Zelândia, erguendo-se como fortalezas metálicas contra o vento sul.",
-      "Sob a linha d'água, a engenharia de ambos os navios revela a busca absoluta por tolerâncias de mícrons. O Pi ostenta uma superestrutura em alumínio leve e um casco em aço naval desenhado para cortar o oceano com resistência hidrodinâmica mínima. Enquanto isso, o Koru domina o espaço com seus mastros monumentais e um monocoque otimizado para navegação transoceânica à vela, exigindo sistemas complexos de tarelagem e guinchos hidráulicos operados sob imensa tensão mecânica.",
-      "A convergência desses dois gigantes transcende a mera ostentação portuária. Representa a interseção entre o savoir-faire holandês na construção customizada da Feadship e a ousadia oceânica da Oceanco. Cada centímetro quadrado de cobertura em teca e cada junta de solda inspecionada por ultrassom atestam a obsesão de seus comitentes pela perfeição estrutural, criando um refúgio de mobilidade soberana longe dos centros financeiros tradicionais.",
-      "No silêncio das docas neozelandesas, estes cascos multimilionários consolidam uma nova era para a náutica de grande porte. Não há concessões ao supérfluo quando se opera no limiar da engenharia naval de ponta. O encontro fortuito em Auckland prova que, para o topo da pirâmide global, o oceano continua sendo o único território onde a lei física é escrita exclusivamente pelo metal e pela maré."
-    ],
-    "content_paragraphs": [
-      "As águas da Silo Marina receberam um alinhamento de ativos flutuantes que redefine a arquitetura naval contemporânea. O colosso Koru, avaliado em quinhentos milhões de dólares, encontrava-se isolado há semanas. A monotonia portuária foi desfeita com a chegada cirúrgica do Feadship Pi, uma obra-prima de trezentos milhões de dólares com assinatura de Howard Schultz. Dois cascos monumentais agora compartilham o mesmo cais na Nova Zelândia, erguendo-se como fortalezas metálicas contra o vento sul.",
-      "Sob a linha d'água, a engenharia de ambos os navios revela a busca absoluta por tolerâncias de mícrons. O Pi ostenta uma superestrutura em alumínio leve e um casco em aço naval desenhado para cortar o oceano com resistência hidrodinâmica mínima. Enquanto isso, o Koru domina o espaço com seus mastros monumentais e um monocoque otimizado para navegação transoceânica à vela, exigindo sistemas complexos de tarelagem e guinchos hidráulicos operados sob imensa tensão mecânica.",
-      "A convergência desses dois gigantes transcende a mera ostentação portuária. Representa a interseção entre o savoir-faire holandês na construção customizada da Feadship e a ousadia oceânica da Oceanco. Cada centímetro quadrado de cobertura em teca e cada junta de solda inspecionada por ultrassom atestam a obsesão de seus comitentes pela perfeição estrutural, criando um refúgio de mobilidade soberana longe dos centros financeiros tradicionais.",
-      "No silêncio das docas neozelandesas, estes cascos multimilionários consolidam uma nova era para a náutica de grande porte. Não há concessões ao supérfluo quando se opera no limiar da engenharia naval de ponta. O encontro fortuito em Auckland prova que, para o topo da pirâmide global, o oceano continua sendo o único território onde a lei física é escrita exclusivamente pelo metal e pela maré."
-    ],
-    "specs": {
-      "Comprimento Total Koru": "127 metros",
-      "Comprimento Total Pi": "77 metros",
-      "Estaleiro Construtor Koru": "Oceanco (Holanda)",
-      "Estaleiro Construtor Pi": "Feadship (Holanda)",
-      "Avaliação Combinada": "$800 milhões de dólares",
-      "Localização da Atracação": "Silo Marina, Auckland, Nova Zelândia"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 92,
-    "ranking_score": 92,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-16T18:35:24.805Z",
-    "published_at": "2026-11-16T18:35:24.805Z",
-    "sourceUrl": "https://www.newstalkzb.co.nz/news/auckland/former-starbucks-boss-howard-schultz-s-superyacht-spotted-in-auckland/",
-    "source_url": "https://www.newstalkzb.co.nz/news/auckland/former-starbucks-boss-howard-schultz-s-superyacht-spotted-in-auckland/"
   },
 ];
 
