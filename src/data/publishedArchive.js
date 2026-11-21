@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+      "id": "art-nomos-noir-series-tangente-33-ludwig-33-tetra-27-duw-4001-preto-e-ouro-2864",
+      "slug": "nomos-noir-series-tangente-33-ludwig-33-tetra-27-duw-4001-preto-e-ouro-2864",
+      "title": "Nomos Noir Series: Tangente 33 e Ludwig 33 de 6,6 mm e Tetra 27 de 6,4 mm com o Calibre DUW 4001 de 53 Horas",
+      "image": "https://monochrome-watches.com/app/uploads/2026/11/nomos-noir-series-tangente-ludwig-tertra-hand-wound-steel-or-gold-review-13.jpg",
+      "sourceUrl": "https://monochrome-watches.com/nomos-noir-series-tangente-ludwig-tertra-hand-wound-steel-or-gold-review-price/",
+      "categorySlug": "relogios",
+      "authorSlug": "clara-meirelles",
+      "publishedAt": "2026-11-21T15:25:17.000Z"
+  },
+  {
       "id": "art-roger-w-smith-series-7-calendario-anual-turbilhao-40-mm-duas-pecas-por-ano-5162",
       "slug": "roger-w-smith-series-7-calendario-anual-turbilhao-40-mm-duas-pecas-por-ano-5162",
       "title": "Roger W. Smith Series 7: Calendário Anual e Turbilhão de 40 mm com Escape Co-Axial a Duas Peças por Ano",

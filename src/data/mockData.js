@@ -116,6 +116,61 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+      "id": "art-nomos-noir-series-tangente-33-ludwig-33-tetra-27-duw-4001-preto-e-ouro-2864",
+      "slug": "nomos-noir-series-tangente-33-ludwig-33-tetra-27-duw-4001-preto-e-ouro-2864",
+      "title": "Nomos Noir Series: Tangente 33 e Ludwig 33 de 6,6 mm e Tetra 27 de 6,4 mm com o Calibre DUW 4001 de 53 Horas",
+      "category": "Alta Relojoaria",
+      "categorySlug": "relogios",
+      "category_slug": "relogios",
+      "authorSlug": "clara-meirelles",
+      "author_slug": "clara-meirelles",
+      "type": "article",
+      "badge": "CURADORIA RADAR",
+      "date": "21 de novembro de 2026",
+      "readTime": "5 min de leitura",
+      "read_time": "5 min de leitura",
+      "image": "https://monochrome-watches.com/app/uploads/2026/11/nomos-noir-series-tangente-ludwig-tertra-hand-wound-steel-or-gold-review-13.jpg",
+      "imageFocus": "center",
+      "image_focus": "center",
+      "excerpt": "A Nomos veste o preto e o ouro em seis referências permanentes: Tangente 33 e Ludwig 33 em caixas de 32,8 mm por 6,6 mm, Tetra 27 em 27,5 mm quadrados por 6,4 mm, com mostrador preto galvanizado e ponteiros em ouro. Por dentro, o calibre manual DUW 4001 guarda 53 horas; no aço, a série começa em € 1.940.",
+      "contentParagraphs": [
+        "A Nomos construiu a reputação sobre um paradoxo: caixas compactas, mostrador prateado e a discrição de quem prefere o essencial bauhausiano ao brilho. A série Noir inverte o gesto sem trair o princípio. Não é a primeira vez que a casa de Glashütte trabalha o ouro — Tangente Gold e Ludwig Gold vieram antes —, mas a sub-coleção acrescenta caixas ainda mais compactas, movimento de corda manual e a escolha entre ouro amarelo 18k e aço. São seis referências em três modelos, Tangente 33, Ludwig 33 e Tetra 27, as variantes menores de três dos seus pilares, agora em coleção permanente. É um smoking alemão, e o corte é o que a casa domina: nenhuma proporção inflada para caber no mostruário.",
+        "O desenho separa as três famílias com precisão de régua. Tangente 33 e Ludwig 33 dividem o mesmo 32,8 mm de diâmetro e 6,6 mm de espessura, mas não a silhueta: o Tangente mantém as linhas retas, as alças anguladas e o perfil em tambor do vocabulário bauhausiano; o Ludwig curva as alças e arredonda a caixa, mais tradicional na leitura. O Tetra 27 é o extremo: 27,5 por 27,5 mm, apenas 6,4 mm de altura e um quadrado puro. Todos resistem a 30 metros e trazem safira no topo. Nos modelos de aço, o fundo pode ser fechado ou de safira; nas versões em ouro amarelo 18k, o fundo é sempre transparente — a casa não esconde o movimento quando o metal já é o argumento.",
+        "O mostrador é a parte em que a série Noir se explica. O disco preto galvanizado recebe impressão branca e trilhos finos, com numerais arábicos no Tangente e no Tetra e romanos no Ludwig — a mesma gramática de sempre, agora sobre fundo escuro. Os ponteiros em ouro dão o contraste que a legibilidade exige, e os pequenos segundos às 6 horas mantêm o pulso visível: o segundo que se move é a única informação animada de um relógio mecânico, e aqui ele ganha um palco discreto. Nenhum pixel, apenas metal sobre metal.",
+        "Sob o fundo — sempre visível nas versões de ouro —, a série inteira usa o mesmo calibre. O DUW 4001 é de corda manual e fabricação própria, evolução do Alpha que a Nomos desenvolveu a partir do Peseux 7001. Traz o Swing System com espiral azul e a regulagem DUW, guarda 53 horas de reserva, tem stop-seconds e é ajustado em seis posições. O acabamento segue o catecismo de Glashütte: listras finas, parafusos azulados, roda de catraca e roda de coroa com sunburst de Glashütte, gravações em tom de ouro. A pulseira muda com o metal: couro Horween Genuine Shell Cordovan preto nas versões em ouro, veludo antracite nas de aço.",
+        "O preço é onde a série Noir se posiciona com clareza. No aço, a porta de entrada é € 1.940, no Ludwig 33 noir; o Tangente 33 noir sai por € 1.980 e o Tetra 27 noir por € 2.160. No ouro amarelo 18k, os mesmos três sobem para € 9.500, € 9.600 e € 9.800, na mesma ordem. São seis referências que entram na coleção permanente, não num calendário de lançamentos. Para uma casa que fez do mostrador prateado a sua assinatura, vestir o preto com ouro e manter o calibre manual é menos uma virada de estilo do que uma declaração de método: o tempo continua sendo dado por uma mola, não por uma bateria."
+      ],
+      "content_paragraphs": [
+        "A Nomos construiu a reputação sobre um paradoxo: caixas compactas, mostrador prateado e a discrição de quem prefere o essencial bauhausiano ao brilho. A série Noir inverte o gesto sem trair o princípio. Não é a primeira vez que a casa de Glashütte trabalha o ouro — Tangente Gold e Ludwig Gold vieram antes —, mas a sub-coleção acrescenta caixas ainda mais compactas, movimento de corda manual e a escolha entre ouro amarelo 18k e aço. São seis referências em três modelos, Tangente 33, Ludwig 33 e Tetra 27, as variantes menores de três dos seus pilares, agora em coleção permanente. É um smoking alemão, e o corte é o que a casa domina: nenhuma proporção inflada para caber no mostruário.",
+        "O desenho separa as três famílias com precisão de régua. Tangente 33 e Ludwig 33 dividem o mesmo 32,8 mm de diâmetro e 6,6 mm de espessura, mas não a silhueta: o Tangente mantém as linhas retas, as alças anguladas e o perfil em tambor do vocabulário bauhausiano; o Ludwig curva as alças e arredonda a caixa, mais tradicional na leitura. O Tetra 27 é o extremo: 27,5 por 27,5 mm, apenas 6,4 mm de altura e um quadrado puro. Todos resistem a 30 metros e trazem safira no topo. Nos modelos de aço, o fundo pode ser fechado ou de safira; nas versões em ouro amarelo 18k, o fundo é sempre transparente — a casa não esconde o movimento quando o metal já é o argumento.",
+        "O mostrador é a parte em que a série Noir se explica. O disco preto galvanizado recebe impressão branca e trilhos finos, com numerais arábicos no Tangente e no Tetra e romanos no Ludwig — a mesma gramática de sempre, agora sobre fundo escuro. Os ponteiros em ouro dão o contraste que a legibilidade exige, e os pequenos segundos às 6 horas mantêm o pulso visível: o segundo que se move é a única informação animada de um relógio mecânico, e aqui ele ganha um palco discreto. Nenhum pixel, apenas metal sobre metal.",
+        "Sob o fundo — sempre visível nas versões de ouro —, a série inteira usa o mesmo calibre. O DUW 4001 é de corda manual e fabricação própria, evolução do Alpha que a Nomos desenvolveu a partir do Peseux 7001. Traz o Swing System com espiral azul e a regulagem DUW, guarda 53 horas de reserva, tem stop-seconds e é ajustado em seis posições. O acabamento segue o catecismo de Glashütte: listras finas, parafusos azulados, roda de catraca e roda de coroa com sunburst de Glashütte, gravações em tom de ouro. A pulseira muda com o metal: couro Horween Genuine Shell Cordovan preto nas versões em ouro, veludo antracite nas de aço.",
+        "O preço é onde a série Noir se posiciona com clareza. No aço, a porta de entrada é € 1.940, no Ludwig 33 noir; o Tangente 33 noir sai por € 1.980 e o Tetra 27 noir por € 2.160. No ouro amarelo 18k, os mesmos três sobem para € 9.500, € 9.600 e € 9.800, na mesma ordem. São seis referências que entram na coleção permanente, não num calendário de lançamentos. Para uma casa que fez do mostrador prateado a sua assinatura, vestir o preto com ouro e manter o calibre manual é menos uma virada de estilo do que uma declaração de método: o tempo continua sendo dado por uma mola, não por uma bateria."
+      ],
+      "specs": {
+        "Calibre": "DUW 4001, corda manual e fabricação própria — evolução do Alpha, com Swing System e espiral azul",
+        "Reserva de Marcha": "53 horas, com stop-seconds e ajuste em 6 posições",
+        "Caixas": "Tangente 33 e Ludwig 33 em 32,8 × 6,6 mm; Tetra 27 em 27,5 × 27,5 × 6,4 mm — aço ou ouro amarelo 18k",
+        "Mostrador": "Preto galvanizado com impressão branca, ponteiros em ouro e pequenos segundos às 6 h",
+        "Preços": "€ 1.940 (Ludwig, aço) a € 9.800 (Tetra, ouro); Tangente € 1.980 / € 9.600 e Tetra € 2.160 / € 9.800",
+        "Coleção": "Seis referências em três modelos, parte permanente da coleção Nomos"
+      },
+      "status": "published",
+      "isHero": true,
+      "is_hero": true,
+      "isHeroSecondary": false,
+      "is_hero_secondary": false,
+      "isPinnedHero": false,
+      "is_pinned_hero": false,
+      "rankingScore": 85,
+      "ranking_score": 85,
+      "engineSource": "qoder:agente-editorial",
+      "publishedAt": "2026-11-21T15:25:17.000Z",
+      "published_at": "2026-11-21T15:25:17.000Z",
+      "sourceUrl": "https://monochrome-watches.com/nomos-noir-series-tangente-ludwig-tertra-hand-wound-steel-or-gold-review-price/",
+      "source_url": "https://monochrome-watches.com/nomos-noir-series-tangente-ludwig-tertra-hand-wound-steel-or-gold-review-price/"
+  },
+  {
       "id": "art-roger-w-smith-series-7-calendario-anual-turbilhao-40-mm-duas-pecas-por-ano-5162",
       "slug": "roger-w-smith-series-7-calendario-anual-turbilhao-40-mm-duas-pecas-por-ano-5162",
       "title": "Roger W. Smith Series 7: Calendário Anual e Turbilhão de 40 mm com Escape Co-Axial a Duas Peças por Ano",
@@ -156,8 +211,8 @@ export const ARTICLES = [
         "Procedência": "Roger W. Smith, Ilha de Man — lançamento em Londres, 20/11/2026, nos 25 anos da marca"
       },
       "status": "published",
-      "isHero": true,
-      "is_hero": true,
+      "isHero": false,
+      "is_hero": false,
       "isHeroSecondary": false,
       "is_hero_secondary": false,
       "isPinnedHero": false,
@@ -1424,59 +1479,6 @@ export const ARTICLES = [
     "published_at": "2026-11-16T15:06:17.415Z",
     "sourceUrl": "https://www.sothebys.com/buy/56a1b776-7da6-48d5-8c40-961431470e95/lots/01a04331-c5e2-79ce-944e-ac372d6f79b5",
     "source_url": "https://www.sothebys.com/buy/56a1b776-7da6-48d5-8c40-961431470e95/lots/01a04331-c5e2-79ce-944e-ac372d6f79b5"
-  },
-  {
-    "id": "art-ferrari-f12tdf-os-brutais-us-383-4172",
-    "slug": "ferrari-f12tdf-os-brutais-us-383-milhoes-do-v12-aspirado-de-780-cv-que-consagraram-a-supremacia-da-inercia-mecanica-4160",
-    "title": "Ferrari F12tdf: Os Brutais US$ 3,83 Milhões do V12 Aspirado de 780 cv que Consagraram a Supremacia da Inércia Mecânica",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "16 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://cdn.rmsothebys.com/a/3/c/e/1/1/a3ce11a03dc9ac9562313f4cc578621d5751bfeb.jpg",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "Um exemplar imaculado da Ferrari F12tdf atingiu US$ 3,83 milhões em leilão recente, reafirmando o valor intocável dos últimos motores V12 aspirados puros diante da maré digital.",
-    "contentParagraphs": [
-      "A marca de US$ 3,83 milhões cravada pelo F12tdf não representa mero apetite especulativo. Trata-se de uma contagem estritamente matemática fundamentada na escassez absoluta de blocos V12 que giram a 8.900 RPM sem a muleta elétrica de turbocompressores. Quando o eixo traseiro esterçante do sistema Virtual Short Wheelbase 2 começa a transferir a massa dinamicamente pelas curvas de alta, o chassi transmite a força G lateral com uma ferocidade cirúrgica que nenhum motor híbrido consegue replicar.",
-      "Sob o capô dianteiro-central reside a obra-prima em alumínio e ligas especiais: um motor aspirado de 6.262 centímetros cúbicos que respira por dutos de admissão variáveis derivados da Fórmula 1. Cada pistão forjado opera com tolerâncias de mícrons enquanto o escape em Inconel expulsa gases com uma frequência acústica que desafia as normais ambientais modernas. A força é descarregada no asfalto através de uma transmissão de dupla embreagem de sete marchas recalibrada para trocas trinta porcento mais rápidas, colando o piloto ao encosto em frações de segundo.",
-      "Enquanto o mercado se curva à obsolescência programada das telas táteis e painéis OLED destinados ao descarte em meia década, o colecionador sênior busca refúgio em monocoques rígidos e comandos puramente analógicos. O sucesso estrondoso deste exemplar no duPont REGISTRY Live ecoa diretamente na valorização implacável que antecede os leilões da herdeira espiritual 812 Competizione. Não há concessões ao conforto artificial; cada fibra de carbono exposta no habitáculo ecoa o compromisso absoluto com a aerodinâmica de efeito solo e a pureza de pilotagem.",
-      "O veredito de pista e mercado é definitivo. A F12tdf consolida-se como um dos pilares inabaláveis da custódia fiduciária automotiva, onde a combustão pura atinge o seu ápice estético e balístico. Quem comanda este bólido compreende que o verdadeiro luxo mecânico reside na resistência intransigente ao silêncio imposto pela eletrificação em massa."
-    ],
-    "content_paragraphs": [
-      "A marca de US$ 3,83 milhões cravada pelo F12tdf não representa mero apetite especulativo. Trata-se de uma contagem estritamente matemática fundamentada na escassez absoluta de blocos V12 que giram a 8.900 RPM sem a muleta elétrica de turbocompressores. Quando o eixo traseiro esterçante do sistema Virtual Short Wheelbase 2 começa a transferir a massa dinamicamente pelas curvas de alta, o chassi transmite a força G lateral com uma ferocidade cirúrgica que nenhum motor híbrido consegue replicar.",
-      "Sob o capô dianteiro-central reside a obra-prima em alumínio e ligas especiais: um motor aspirado de 6.262 centímetros cúbicos que respira por dutos de admissão variáveis derivados da Fórmula 1. Cada pistão forjado opera com tolerâncias de mícrons enquanto o escape em Inconel expulsa gases com uma frequência acústica que desafia as normais ambientais modernas. A força é descarregada no asfalto através de uma transmissão de dupla embreagem de sete marchas recalibrada para trocas trinta porcento mais rápidas, colando o piloto ao encosto em frações de segundo.",
-      "Enquanto o mercado se curva à obsolescência programada das telas táteis e painéis OLED destinados ao descarte em meia década, o colecionador sênior busca refúgio em monocoques rígidos e comandos puramente analógicos. O sucesso estrondoso deste exemplar no duPont REGISTRY Live ecoa diretamente na valorização implacável que antecede os leilões da herdeira espiritual 812 Competizione. Não há concessões ao conforto artificial; cada fibra de carbono exposta no habitáculo ecoa o compromisso absoluto com a aerodinâmica de efeito solo e a pureza de pilotagem.",
-      "O veredito de pista e mercado é definitivo. A F12tdf consolida-se como um dos pilares inabaláveis da custódia fiduciária automotiva, onde a combustão pura atinge o seu ápice estético e balístico. Quem comanda este bólido compreende que o verdadeiro luxo mecânico reside na resistência intransigente ao silêncio imposto pela eletrificação em massa."
-    ],
-    "specs": {
-      "motor": "V12 aspirado a 65° de 6.262 cc",
-      "potencia": "780 cv a 8.500 RPM",
-      "torque": "71,9 kgfm a 6.750 RPM",
-      "transmissao": "F1 de dupla embreagem com 7 marchas",
-      "peso_a_seco": "1.415 kg",
-      "resultado_leilao": "US$ 3.830.000"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 92,
-    "ranking_score": 92,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-16T11:19:34.172Z",
-    "published_at": "2026-11-16T11:19:34.172Z",
-    "sourceUrl": "https://rmsothebys.com/auctions/lf26/lots/r0036-2017-ferrari-f12tdf/",
-    "source_url": "https://rmsothebys.com/auctions/lf26/lots/r0036-2017-ferrari-f12tdf/"
   },
 ];
 
