@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+      "id": "art-ferrari-275-nart-spider-mcqueen-chassi-10453-4821",
+      "slug": "ferrari-275-nart-spider-de-steve-mcqueen-us-18-9-milhoes-pelo-chassi-10453-o-sexto-dos-dez-construidos",
+      "title": "Ferrari 275 NART Spider de Steve McQueen: US$ 18,9 Milhões pelo Chassi 10453, o Sexto dos Dez Construídos",
+      "image": "https://media.media-web-prod.hagerty.com/media/wp-content/uploads/2026/11/9dab11470456758cbce9352afecc21bf-l.webp",
+      "sourceUrl": "https://www.hagerty.com/media/news/steve-mcqueens-ferrari-nart-spider-sells-for-18-9m/",
+      "categorySlug": "supercarros",
+      "authorSlug": "gabriel-fontes",
+      "publishedAt": "2026-11-22T01:27:40.000Z"
+  },
+  {
       "id": "art-chiron-a-141-km-h-na-e34-o-ce-3594",
       "slug": "chiron-a-141-km-h-na-e34-o-ceo-belga-de-aalst-com-multa-de-1400-e-cinco-condenacoes",
       "title": "Chiron a 141 km/h na E34: O CEO Belga de Aalst com Multa de € 1.400, 60 Dias de Suspensão e Cinco Condenações Anteriores",

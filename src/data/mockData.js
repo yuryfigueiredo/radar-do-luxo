@@ -116,6 +116,61 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+      "id": "art-ferrari-275-nart-spider-mcqueen-chassi-10453-4821",
+      "slug": "ferrari-275-nart-spider-de-steve-mcqueen-us-18-9-milhoes-pelo-chassi-10453-o-sexto-dos-dez-construidos",
+      "title": "Ferrari 275 NART Spider de Steve McQueen: US$ 18,9 Milhões pelo Chassi 10453, o Sexto dos Dez Construídos",
+      "category": "Supercarros",
+      "categorySlug": "supercarros",
+      "category_slug": "supercarros",
+      "authorSlug": "gabriel-fontes",
+      "author_slug": "gabriel-fontes",
+      "type": "article",
+      "badge": "CURADORIA RADAR",
+      "date": "21 de novembro de 2026",
+      "readTime": "5 min de leitura",
+      "read_time": "5 min de leitura",
+      "image": "https://media.media-web-prod.hagerty.com/media/wp-content/uploads/2026/11/9dab11470456758cbce9352afecc21bf-l.webp",
+      "imageFocus": "center",
+      "image_focus": "center",
+      "excerpt": "O 275 GTB/4*S NART Spider de 1967 entregue novo a Steve McQueen — chassi 10453, o sexto dos dez construídos — fechou em US$ 18.925.000 na Gooding Christie's de Nova York, com martelo de US$ 17,2 milhões dentro da estimativa de US$ 15 a 20 milhões. O carro que o ator repintou, desmontou de para-choques e remendou depois de uma batida na Pacific Coast Highway saiu cerca de 31% abaixo dos US$ 27,5 milhões de outra unidade vendida em 2013.",
+      "contentParagraphs": [
+        "O pregão abriu em US$ 10 milhões e subiu devagar até o martelo de US$ 17,2 milhões, dentro da estimativa de US$ 15 milhões a US$ 20 milhões publicada pela Gooding Christie's. Somado o prêmio do comprador — US$ 1,725 milhão de ágio sobre o martelo —, o 275 GTB/4*S NART Spider de 1967 fechou em US$ 18.925.000, na semana em que Nova York recebeu a primeira edição local da Retromobile. Pela contagem da Hagerty, é o 31º carro mais caro já vendido em leilão. O dado que interessa a quem lê mercado como telemetria, porém, não é o total: é a distância entre essa cifra e os US$ 27,5 milhões pagos por outro NART Spider em 2013.",
+        "O 275 GTB nasceu em 1964 e saiu de linha em 1968: carroceria Scaglietti, V12 Colombo de 3,3 litros, câmbio transaxle de cinco marchas, versões de nariz curto e longo, alumínio e o quatro-comandos que estreou no fim de 1966. A Ferrari não planejava conversível nenhum — o 275 GTS de fábrica era outro carro, de desenho mais conservador. Foi Luigi Chinetti, distribuidor da marca em Nova York e dono da North American Racing Team, quem convenceu a fábrica a liberar um lote de GTB/4 sem teto em Scaglietti; ele vendia as unidades pela própria concessionária, com o emblema NART na traseira. Chinetti calculava 25 exemplares. Saíram 10. O chassi 10453 é o sexto — entregue no outono de 1967, Blu Sera sobre couro Connolly preto.",
+        "McQueen, que personalizava quase tudo o que dirigia, não gostou do tom: repintou o carro num azul metálico diferente, removeu os para-choques, instalou um bocal externo de abastecimento rápido e um retrovisor menor de rally, e mandou reestofar os bancos com outra costura. Pouco depois, segundo a Gooding Christie's, um caminhão o acertou por trás na Pacific Coast Highway e o empurrou contra o carro da frente, com dano nas duas pontas da carroceria. O reparo veio com repintura no mesmo azul metálico, para-lamas alargados e traseira flip-tail. O registro, diz a casa de leilões, não estabelece com que frequência McQueen dirigiu o carro nem quando exatamente ele saiu de suas mãos; em 1971, já pertencia a outro dono californiano. O atual comprou-o de um revendedor de Long Island em 1985, e desde então o carro se manteve em condição largamente preservada.",
+        "A conta de 2013 é a régua: a outra unidade que foi a leilão naquele ano fez US$ 27,5 milhões — era carro de dono único, sem histórico de acidente, sem modificações e com restauração completa. O azul desta semana ficou cerca de 31% abaixo, US$ 8,575 milhões mais barato, mesmo carregando a assinatura de McQueen. O prêmio de celebridade existe, mas é seletivo: o cupê 275 do ator fez US$ 5,4 milhões em 2023, quase US$ 2 milhões acima do valor de condição nº 1 do guia da Hagerty na época. Ferrari antiga está mole neste ano, enquanto os modelos modernos batem recordes. McQueen morreu há 46 anos; 'Le Mans' completou 55.",
+        "O que US$ 18,9 milhões compraram é um V12 aspirado de 3,3 litros, cinco marchas e uma carroceria Scaglietti que a fábrica nunca quis oferecer com o teto cortado. O primeiro chassi terminou em segundo na classe em Sebring, em 1967, foi capa da 'Road & Track' — que o chamou de 'o carro esportivo mais satisfatório do mundo' —, e outro NART Spider apareceu em 'The Thomas Crown Affair', de 1968, com McQueen no elenco. O chassi 10453 custou mais que muitos hipercarros híbridos novos, com toda a eletrônica embarcada, e não vai precisar de atualização de firmware para voltar a andar daqui a cinquenta anos. Mecânica analógica não é nostalgia: é o único ativo do pregão que envelhece sem perder calibração."
+      ],
+      "content_paragraphs": [
+        "O pregão abriu em US$ 10 milhões e subiu devagar até o martelo de US$ 17,2 milhões, dentro da estimativa de US$ 15 milhões a US$ 20 milhões publicada pela Gooding Christie's. Somado o prêmio do comprador — US$ 1,725 milhão de ágio sobre o martelo —, o 275 GTB/4*S NART Spider de 1967 fechou em US$ 18.925.000, na semana em que Nova York recebeu a primeira edição local da Retromobile. Pela contagem da Hagerty, é o 31º carro mais caro já vendido em leilão. O dado que interessa a quem lê mercado como telemetria, porém, não é o total: é a distância entre essa cifra e os US$ 27,5 milhões pagos por outro NART Spider em 2013.",
+        "O 275 GTB nasceu em 1964 e saiu de linha em 1968: carroceria Scaglietti, V12 Colombo de 3,3 litros, câmbio transaxle de cinco marchas, versões de nariz curto e longo, alumínio e o quatro-comandos que estreou no fim de 1966. A Ferrari não planejava conversível nenhum — o 275 GTS de fábrica era outro carro, de desenho mais conservador. Foi Luigi Chinetti, distribuidor da marca em Nova York e dono da North American Racing Team, quem convenceu a fábrica a liberar um lote de GTB/4 sem teto em Scaglietti; ele vendia as unidades pela própria concessionária, com o emblema NART na traseira. Chinetti calculava 25 exemplares. Saíram 10. O chassi 10453 é o sexto — entregue no outono de 1967, Blu Sera sobre couro Connolly preto.",
+        "McQueen, que personalizava quase tudo o que dirigia, não gostou do tom: repintou o carro num azul metálico diferente, removeu os para-choques, instalou um bocal externo de abastecimento rápido e um retrovisor menor de rally, e mandou reestofar os bancos com outra costura. Pouco depois, segundo a Gooding Christie's, um caminhão o acertou por trás na Pacific Coast Highway e o empurrou contra o carro da frente, com dano nas duas pontas da carroceria. O reparo veio com repintura no mesmo azul metálico, para-lamas alargados e traseira flip-tail. O registro, diz a casa de leilões, não estabelece com que frequência McQueen dirigiu o carro nem quando exatamente ele saiu de suas mãos; em 1971, já pertencia a outro dono californiano. O atual comprou-o de um revendedor de Long Island em 1985, e desde então o carro se manteve em condição largamente preservada.",
+        "A conta de 2013 é a régua: a outra unidade que foi a leilão naquele ano fez US$ 27,5 milhões — era carro de dono único, sem histórico de acidente, sem modificações e com restauração completa. O azul desta semana ficou cerca de 31% abaixo, US$ 8,575 milhões mais barato, mesmo carregando a assinatura de McQueen. O prêmio de celebridade existe, mas é seletivo: o cupê 275 do ator fez US$ 5,4 milhões em 2023, quase US$ 2 milhões acima do valor de condição nº 1 do guia da Hagerty na época. Ferrari antiga está mole neste ano, enquanto os modelos modernos batem recordes. McQueen morreu há 46 anos; 'Le Mans' completou 55.",
+        "O que US$ 18,9 milhões compraram é um V12 aspirado de 3,3 litros, cinco marchas e uma carroceria Scaglietti que a fábrica nunca quis oferecer com o teto cortado. O primeiro chassi terminou em segundo na classe em Sebring, em 1967, foi capa da 'Road & Track' — que o chamou de 'o carro esportivo mais satisfatório do mundo' —, e outro NART Spider apareceu em 'The Thomas Crown Affair', de 1968, com McQueen no elenco. O chassi 10453 custou mais que muitos hipercarros híbridos novos, com toda a eletrônica embarcada, e não vai precisar de atualização de firmware para voltar a andar daqui a cinquenta anos. Mecânica analógica não é nostalgia: é o único ativo do pregão que envelhece sem perder calibração."
+      ],
+      "specs": {
+        "Nome e chassi": "Ferrari 275 GTB/4*S NART Spider 1967 — chassi 10453, o sexto dos 10 construídos",
+        "Arremate": "US$ 18.925.000 com prêmio; martelo de US$ 17,2 milhões (lance inicial de US$ 10 milhões)",
+        "Estimativa": "US$ 15 a 20 milhões — Gooding Christie's, Nova York, semana da Retromobile New York de 2026",
+        "Mecânica": "V12 Colombo de 3,3 litros, câmbio transaxle de cinco marchas, carroceria Scaglietti",
+        "Procedência": "Entregue novo a Steve McQueen no outono de 1967 em Blu Sera; modificado pelo ator e reparado após batida na Pacific Coast Highway",
+        "Comparável": "Outro NART Spider: US$ 27,5 milhões em 2013; cupê 275 de McQueen: US$ 5,4 milhões em 2023"
+      },
+      "status": "published",
+      "isHero": true,
+      "is_hero": true,
+      "isHeroSecondary": false,
+      "is_hero_secondary": false,
+      "isPinnedHero": false,
+      "is_pinned_hero": false,
+      "rankingScore": 85,
+      "ranking_score": 85,
+      "engineSource": "qoder:agente-editorial",
+      "publishedAt": "2026-11-22T01:27:40.000Z",
+      "published_at": "2026-11-22T01:27:40.000Z",
+      "sourceUrl": "https://www.hagerty.com/media/news/steve-mcqueens-ferrari-nart-spider-sells-for-18-9m/",
+      "source_url": "https://www.hagerty.com/media/news/steve-mcqueens-ferrari-nart-spider-sells-for-18-9m/"
+  },
+  {
       "id": "art-chiron-a-141-km-h-na-e34-o-ce-3594",
       "slug": "chiron-a-141-km-h-na-e34-o-ceo-belga-de-aalst-com-multa-de-1400-e-cinco-condenacoes",
       "title": "Chiron a 141 km/h na E34: O CEO Belga de Aalst com Multa de € 1.400, 60 Dias de Suspensão e Cinco Condenações Anteriores",
@@ -156,8 +211,8 @@ export const ARTICLES = [
         "Jurisdição": "Tribunal de polícia — E34, Assenede, Flandres Oriental, Bélgica; CEO de empresa sediada em Aalst"
       },
       "status": "published",
-      "isHero": true,
-      "is_hero": true,
+      "isHero": false,
+      "is_hero": false,
       "isHeroSecondary": false,
       "is_hero_secondary": false,
       "isPinnedHero": false,
@@ -1431,58 +1486,6 @@ export const ARTICLES = [
     "published_at": "2026-11-17T03:05:27.529Z",
     "sourceUrl": "https://carbuzz.com/features/most-expensive-license-plates/",
     "source_url": "https://carbuzz.com/features/most-expensive-license-plates/"
-  },
-  {
-    "id": "art-superiates-de-39-milhoes-de-dola-0323",
-    "slug": "superiates-de-39-milhoes-de-dolares-a-regra-de-seis-horas-que-expulsa-convidados-e-exige-disciplina-naval-absoluta-0313",
-    "title": "Superiates de 3,9 Milhões de Dólares: A Regra de Seis Horas que Expulsa Convidados e Exige Disciplina Naval Absoluta",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "17 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://cdn.boatinternational.com/convert/files/2026/01/356e8190-ecac-11f0-94de-c90311bc9fb2-Breakthrough%20yacht%20report%20cover.jpg/r%5Bwidth%5D=1920/356e8190-ecac-11f0-94de-c90311bc9fb2-Breakthrough%20yacht%20report%20cover.jpg",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Um mergulho na náutica de elite onde a alocação semanal de US$ 3,9 milhões não garante imunidade contra a manutenção técnica rigorosa, forçando o desembarque em alto-mar.",
-    "contentParagraphs": [
-      "A náutica de alta performance impõe leis físicas implacáveis aos seus proprietários. O contrato de afretamento semanal de 3,9 milhões de dólares não assegura apenas o luxo desmedido em áreas de convivência revestidas de teca birmanesa. Ele exige uma submissão estrita aos protocolos mecânicos que mantêm estruturas flutuantes de dezenas de metros operando com precisão cirúrgica em águas internacionais.",
-      "O casco corta as ondas com um coeficiente de arrasto milimetricamente calculado, enquanto geradores de alta potência operam em silêncio abafado por mantas de isolamento acústico em titânio. No entanto, mesmo os sistemas mais avançados de propulsão e estabilização giroscópica exigem intervenções humanas diretas que interrompem o fluxo de entretenimento a bordo. Uma janela exata de seis horas é imposta regularmente, obrigando o desembarque temporário para inspeções estruturais e purificação de tanques.",
-      "A engenharia naval de ponta não tolera negligência cosmética. Enquanto os convidados são conduzidos a tenders de apoio para explorar enseadas isoladas, equipes técnicas realizam diagnósticos profundos nos eixos de transmissão, calibração de flaps de controle e checagem de vedações hidrodinâmicas. A força G lateral experimentada nas curvas fechadas de cruzeiro exige que cada antepara suporte pressões monumentais, justificando a pausa cirúrgica em alto-mar.",
-      "Este é o verdadeiro preço da soberania oceânica. Longe do romantismo superficial de cruzeiros intermináveis, a elite global submete-se à tirania da manutenção preventiva, provando que o ápice da navegação moderna é ditado pelo rigor da mecânica pesada e não pelo capricho humano."
-    ],
-    "content_paragraphs": [
-      "A náutica de alta performance impõe leis físicas implacáveis aos seus proprietários. O contrato de afretamento semanal de 3,9 milhões de dólares não assegura apenas o luxo desmedido em áreas de convivência revestidas de teca birmanesa. Ele exige uma submissão estrita aos protocolos mecânicos que mantêm estruturas flutuantes de dezenas de metros operando com precisão cirúrgica em águas internacionais.",
-      "O casco corta as ondas com um coeficiente de arrasto milimetricamente calculado, enquanto geradores de alta potência operam em silêncio abafado por mantas de isolamento acústico em titânio. No entanto, mesmo os sistemas mais avançados de propulsão e estabilização giroscópica exigem intervenções humanas diretas que interrompem o fluxo de entretenimento a bordo. Uma janela exata de seis horas é imposta regularmente, obrigando o desembarque temporário para inspeções estruturais e purificação de tanques.",
-      "A engenharia naval de ponta não tolera negligência cosmética. Enquanto os convidados são conduzidos a tenders de apoio para explorar enseadas isoladas, equipes técnicas realizam diagnósticos profundos nos eixos de transmissão, calibração de flaps de controle e checagem de vedações hidrodinâmicas. A força G lateral experimentada nas curvas fechadas de cruzeiro exige que cada antepara suporte pressões monumentais, justificando a pausa cirúrgica em alto-mar.",
-      "Este é o verdadeiro preço da soberania oceânica. Longe do romantismo superficial de cruzeiros intermináveis, a elite global submete-se à tirania da manutenção preventiva, provando que o ápice da navegação moderna é ditado pelo rigor da mecânica pesada e não pelo capricho humano."
-    ],
-    "specs": {
-      "custo_semanal": "US$ 3.900.000",
-      "intervalo_manutencao": "A cada ciclo operacional crítico",
-      "materiais_casco": "Aço naval reforçado e ligas leves",
-      "sistemas_estabilizacao": "Giroscópios de alta capacidade",
-      "equipe_tecnica": "Engenheiros navais residentes"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 87,
-    "ranking_score": 87,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-17T01:23:50.322Z",
-    "published_at": "2026-11-17T01:23:50.322Z",
-    "sourceUrl": "https://www.boatinternational.com/yachts/reports/feadship-breakthrough-hydrogen-powered-superyacht-for-charter",
-    "source_url": "https://www.boatinternational.com/yachts/reports/feadship-breakthrough-hydrogen-powered-superyacht-for-charter"
   },
 ];
 
