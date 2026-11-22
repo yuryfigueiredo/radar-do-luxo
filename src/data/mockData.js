@@ -116,6 +116,61 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+      "id": "art-perini-navi-admiral-sri-florenca-220-milhoes-7416",
+      "slug": "perini-navi-e-admiral-por-220-milhoes-a-sri-vence-em-florenca-e-barra-a-oferta-de-hong-kong",
+      "title": "Perini Navi e Admiral por €220 milhões: a SRI vence em Florença e barra a oferta de €250 milhões de Hong Kong",
+      "category": "Destinos & Iates",
+      "categorySlug": "destinos",
+      "category_slug": "destinos",
+      "authorSlug": "gabriel-fontes",
+      "author_slug": "gabriel-fontes",
+      "type": "article",
+      "badge": "CURADORIA RADAR",
+      "date": "22 de novembro de 2026",
+      "readTime": "5 min de leitura",
+      "read_time": "5 min de leitura",
+      "image": "https://image.yachtbuyer.com/w1200/h630/qh/ca/m1/kddc78e9a/article/content/3794810/the-italian-sea-group-sign.jpg",
+      "imageFocus": "center",
+      "image_focus": "center",
+      "excerpt": "O Tribunal de Florença homologou em 16 de novembro a oferta de €220 milhões (cerca de US$ 242 milhões) da SRI Global pela The Italian Sea Group. Com a Azimut|Benetti parada em €210 milhões, o lance vencedor levou Admiral, Tecnomar, Perini Navi e Picchiotti — enquanto €250 milhões de Hong Kong e €221 milhões do Grupo Palumbo ficaram fora do pregão por prazo e comprovação de fundos.",
+      "contentParagraphs": [
+        "O Tribunal de Florença homologou na segunda-feira, 16 de novembro, a oferta de €220 milhões — cerca de US$ 242 milhões ao câmbio daquele dia — da SRI Global pela The Italian Sea Group (TISG). O leilão judicial foi montado para uma disputa de dois: a SRI entrou com os €220 milhões como lance de abertura, os incrementos ficaram fixados em €3 milhões e a única concorrente habilitada, a Azimut|Benetti, não passou dos €210 milhões que já havia ofertado. Nenhuma proposta superior apareceu no pregão. Para quem lê a operação como telemetria de capital, o dado que decide não é o preço final: é o desenho — o maior lance elegível levou quatro marcas e quatro estaleiros italianos sem precisar subir a mão.",
+        "A cronologia explica por que o lance mais alto não ganhou. O tribunal abriu a disputa em agosto, oferecendo à venda as marcas, os estaleiros ou a companhia inteira. No prazo de ofertas vinculantes, em outubro, recebeu cinco propostas; apenas duas cobriam a empresa completa — a da SRI Global e a da Azimut|Benetti. Em novembro, o Grupo Palumbo apresentou €221 milhões, com plano de retomar a operação de imediato, e teve a proposta recusada na audiência de 11 de novembro por chegar fora do prazo; segundo o jornal La Stampa, a empresa pediu adiamento e reservou-se o direito de agir judicialmente. Em 15 de novembro, véspera do leilão, a T.I.S.G. Asia Investment Holding, de Hong Kong, anunciou €250 milhões — 13,6% acima do lance vencedor. A corte não a admitiu: submissão tardia, evidência insuficiente de fundos disponíveis e estrutura societária pouco clara, conforme os relatos da imprensa italiana. O prêmio de €30 milhões nunca entrou no pregão.",
+        "O comprador é uma firma de assessoria financeira e investimento, divisão do SRI Group Global, controlada por Giulio Gallazzi, com 52%, e pela Finvacchi, veículo de investimento de Bernardo Vacchi, com os 48% restantes. O resultado foi certificado pelo notário nomeado pelo tribunal, Vincenzo Gunnella, na presença dos comissários judiciais, e Gallazzi e Vacchi acompanharam a sessão ao lado do presidente da TISG, Saverio Schiavone, e do CEO Giovanni Costantino. A proposta da SRI havia sido escolhida em 2 de novembro como base da reestruturação, depois da avaliação das cinco ofertas vinculantes. A ela, a holding soma um aporte adicional de €40 milhões para reativar a operação, o que eleva o compromisso reportado a €260 milhões. A SRI não divulgou comunicado sobre o resultado.",
+        "O que está em jogo é a continuidade industrial de um perfil raro na Riviera: a proposta cobre o negócio operacional inteiro, incluindo as instalações italianas e turcas, as marcas e a carpintaria Celi, mantendo o conjunto sob um único dono. Entram no pacote a Admiral, a Tecnomar, a Perini Navi e a Picchiotti, com os estaleiros de Marina di Carrara, La Spezia, Viareggio e Terni. O conselho de administração se reúne em 23 de novembro para votar o pedido de autorização judicial do arrendamento do negócio e do contrato preliminar de compra e venda com a SRI. O arrendamento pode começar no início de dezembro, com prazo inicial de cinco meses e possibilidade de prorrogação por mais três; a transferência definitiva dos ativos vem depois. O cronograma depende da comprovação dos recursos do comprador, do aval das autoridades portuárias donas dos terrenos e de acordos com os sindicatos, e há nova audiência marcada para 23 de dezembro. A SRI pretende manter cerca de 500 empregados diretos; a reestruturação atinge cerca de 2.000 postos quando se conta a cadeia de fornecedores.",
+        "Os números que explicam a urgência estão no balanço: a TISG fechou 2025 com prejuízo líquido de €170,9 milhões, contra lucro de €33,9 milhões em 2024, e receita de €295,1 milhões, 27% menor. No plano de reestruturação protocolado em 2 de novembro, credores com garantia recebem integralmente; credores quirografários recuperam cerca de 10% dos créditos; credores subordinados e acionistas não recebem nada, e a companhia listada entra em liquidação após a homologação judicial. A operação tem um nome apontado para o comando: Vincenzo Poerio, que deixou a Tankoa Yachts neste mês e foi CEO da Benetti por 25 anos, até 2018; a Megayacht News registra que ele confirmou o convite à imprensa italiana, embora a nomeação ainda não tenha sido anunciada formalmente. Para o comprador, os €220 milhões não compram só o passivo e as marcas: compram a possibilidade de manter os cascos em construção sob o mesmo teto. A lição de engenharia financeira do leilão é seca: o lance de €250 milhões que não entrou no pregão mostra que o tribunal não precificou o número mais alto, e sim a certeza admissível."
+      ],
+      "content_paragraphs": [
+        "O Tribunal de Florença homologou na segunda-feira, 16 de novembro, a oferta de €220 milhões — cerca de US$ 242 milhões ao câmbio daquele dia — da SRI Global pela The Italian Sea Group (TISG). O leilão judicial foi montado para uma disputa de dois: a SRI entrou com os €220 milhões como lance de abertura, os incrementos ficaram fixados em €3 milhões e a única concorrente habilitada, a Azimut|Benetti, não passou dos €210 milhões que já havia ofertado. Nenhuma proposta superior apareceu no pregão. Para quem lê a operação como telemetria de capital, o dado que decide não é o preço final: é o desenho — o maior lance elegível levou quatro marcas e quatro estaleiros italianos sem precisar subir a mão.",
+        "A cronologia explica por que o lance mais alto não ganhou. O tribunal abriu a disputa em agosto, oferecendo à venda as marcas, os estaleiros ou a companhia inteira. No prazo de ofertas vinculantes, em outubro, recebeu cinco propostas; apenas duas cobriam a empresa completa — a da SRI Global e a da Azimut|Benetti. Em novembro, o Grupo Palumbo apresentou €221 milhões, com plano de retomar a operação de imediato, e teve a proposta recusada na audiência de 11 de novembro por chegar fora do prazo; segundo o jornal La Stampa, a empresa pediu adiamento e reservou-se o direito de agir judicialmente. Em 15 de novembro, véspera do leilão, a T.I.S.G. Asia Investment Holding, de Hong Kong, anunciou €250 milhões — 13,6% acima do lance vencedor. A corte não a admitiu: submissão tardia, evidência insuficiente de fundos disponíveis e estrutura societária pouco clara, conforme os relatos da imprensa italiana. O prêmio de €30 milhões nunca entrou no pregão.",
+        "O comprador é uma firma de assessoria financeira e investimento, divisão do SRI Group Global, controlada por Giulio Gallazzi, com 52%, e pela Finvacchi, veículo de investimento de Bernardo Vacchi, com os 48% restantes. O resultado foi certificado pelo notário nomeado pelo tribunal, Vincenzo Gunnella, na presença dos comissários judiciais, e Gallazzi e Vacchi acompanharam a sessão ao lado do presidente da TISG, Saverio Schiavone, e do CEO Giovanni Costantino. A proposta da SRI havia sido escolhida em 2 de novembro como base da reestruturação, depois da avaliação das cinco ofertas vinculantes. A ela, a holding soma um aporte adicional de €40 milhões para reativar a operação, o que eleva o compromisso reportado a €260 milhões. A SRI não divulgou comunicado sobre o resultado.",
+        "O que está em jogo é a continuidade industrial de um perfil raro na Riviera: a proposta cobre o negócio operacional inteiro, incluindo as instalações italianas e turcas, as marcas e a carpintaria Celi, mantendo o conjunto sob um único dono. Entram no pacote a Admiral, a Tecnomar, a Perini Navi e a Picchiotti, com os estaleiros de Marina di Carrara, La Spezia, Viareggio e Terni. O conselho de administração se reúne em 23 de novembro para votar o pedido de autorização judicial do arrendamento do negócio e do contrato preliminar de compra e venda com a SRI. O arrendamento pode começar no início de dezembro, com prazo inicial de cinco meses e possibilidade de prorrogação por mais três; a transferência definitiva dos ativos vem depois. O cronograma depende da comprovação dos recursos do comprador, do aval das autoridades portuárias donas dos terrenos e de acordos com os sindicatos, e há nova audiência marcada para 23 de dezembro. A SRI pretende manter cerca de 500 empregados diretos; a reestruturação atinge cerca de 2.000 postos quando se conta a cadeia de fornecedores.",
+        "Os números que explicam a urgência estão no balanço: a TISG fechou 2025 com prejuízo líquido de €170,9 milhões, contra lucro de €33,9 milhões em 2024, e receita de €295,1 milhões, 27% menor. No plano de reestruturação protocolado em 2 de novembro, credores com garantia recebem integralmente; credores quirografários recuperam cerca de 10% dos créditos; credores subordinados e acionistas não recebem nada, e a companhia listada entra em liquidação após a homologação judicial. A operação tem um nome apontado para o comando: Vincenzo Poerio, que deixou a Tankoa Yachts neste mês e foi CEO da Benetti por 25 anos, até 2018; a Megayacht News registra que ele confirmou o convite à imprensa italiana, embora a nomeação ainda não tenha sido anunciada formalmente. Para o comprador, os €220 milhões não compram só o passivo e as marcas: compram a possibilidade de manter os cascos em construção sob o mesmo teto. A lição de engenharia financeira do leilão é seca: o lance de €250 milhões que não entrou no pregão mostra que o tribunal não precificou o número mais alto, e sim a certeza admissível."
+      ],
+      "specs": {
+        "Arrematação": "€220 milhões (cerca de US$ 242 milhões) pela SRI Global — homologada pelo Tribunal de Florença em 16 de novembro de 2026",
+        "Leilão": "Limitado a SRI Global e Azimut|Benetti, com incrementos de €3 milhões; a Azimut|Benetti permaneceu nos €210 milhões",
+        "Lances barrados": "Grupo Palumbo: €221 milhões, recusado em 11 de novembro por prazo; T.I.S.G. Asia (Hong Kong): €250 milhões, não admitido",
+        "Ativos": "Marcas Admiral, Tecnomar, Perini Navi e Picchiotti; estaleiros de Marina di Carrara, La Spezia, Viareggio e Terni, mais instalações turcas",
+        "Controle da SRI Global": "Giulio Gallazzi (52%) e Finvacchi, de Bernardo Vacchi (48%); aporte adicional de €40 milhões, total reportado de €260 milhões",
+        "Emprego": "Cerca de 500 empregados diretos mantidos; cerca de 2.000 postos afetados quando se inclui a cadeia de fornecedores"
+      },
+      "status": "published",
+      "isHero": true,
+      "is_hero": true,
+      "isHeroSecondary": false,
+      "is_hero_secondary": false,
+      "isPinnedHero": false,
+      "is_pinned_hero": false,
+      "rankingScore": 87,
+      "ranking_score": 87,
+      "engineSource": "qoder:agente-editorial",
+      "publishedAt": "2026-11-22T15:31:40.000Z",
+      "published_at": "2026-11-22T15:31:40.000Z",
+      "sourceUrl": "https://www.yachtbuyer.com/en/news/sri-global-wins-euro-220m-bid-for-the-italian-sea-group-as-rival-offers-are-excluded",
+      "source_url": "https://www.yachtbuyer.com/en/news/sri-global-wins-euro-220m-bid-for-the-italian-sea-group-as-rival-offers-are-excluded"
+  },
+  {
       "id": "art-ferrari-275-nart-spider-mcqueen-chassi-10453-4821",
       "slug": "ferrari-275-nart-spider-de-steve-mcqueen-us-18-9-milhoes-pelo-chassi-10453-o-sexto-dos-dez-construidos",
       "title": "Ferrari 275 NART Spider de Steve McQueen: US$ 18,9 Milhões pelo Chassi 10453, o Sexto dos Dez Construídos",
@@ -156,8 +211,8 @@ export const ARTICLES = [
         "Comparável": "Outro NART Spider: US$ 27,5 milhões em 2013; cupê 275 de McQueen: US$ 5,4 milhões em 2023"
       },
       "status": "published",
-      "isHero": true,
-      "is_hero": true,
+      "isHero": false,
+      "is_hero": false,
       "isHeroSecondary": false,
       "is_hero_secondary": false,
       "isPinnedHero": false,
@@ -1434,58 +1489,6 @@ export const ARTICLES = [
     "published_at": "2026-11-17T04:49:52.337Z",
     "sourceUrl": "https://www.artnews.com/art-news/news/van-gogh-painting-expected-to-hammer-for-record-price-at-christies-hong-kong-1234718606/",
     "source_url": "https://www.artnews.com/art-news/news/van-gogh-painting-expected-to-hammer-for-record-price-at-christies-hong-kong-1234718606/"
-  },
-  {
-    "id": "art-chapas-de-licenciamento-de-digit-7529",
-    "slug": "chapas-de-licenciamento-de-digito-unico-o-leilao-secreto-de-emblemas-de-aco-que-valem-mais-que-propriedades-na-costa-amalfitana-7519",
-    "title": "Chapas de Licenciamento de Dígito Único: O Leilão Secreto de Emblemas de Aço que Valem Mais que Propriedades na Costa Amalfitana",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "17 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://static0.carbuzzimages.com/wordpress/wp-content/uploads/gallery-images/original/1197000/0/1197064.jpg?w=1600&h=900&fit=crop",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A soberania patrimonial encontra seu refúgio mais hermético no asfalto. Placas de identificação vehicular com tiragem numérica infinitesimal entram em leilão restrito, desafiando a inflação global e testando a solidez de fundos fiduciários.",
-    "contentParagraphs": [
-      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Em salas de arremate blindadas contra a volatilidade cambial, pedaços de metal prensado com numeração estritamente inferior a dez dígitos deixam de ser simples exigências burocráticas de trânsito para se tornarem ativos de custódia fiduciária comparáveis a barras de ouro puro armazenadas em cofres suíços.",
-      "A lógica que rege esta transação desafia a macroeconomia convencional. Enquanto os mercados acionários oscilam ao sabor de discursos geopolíticos e a liquidez digital evapora em milissegundos, uma placa com sequências numéricas primordiais opera como um título perpétuo de imunidade temporal e distinção aristocrática intransferível.",
-      "Compradores de alta estirpe não buscam apenas a ostentação efêmera de um automóvel exótico; eles disputam a posse definitiva de um índice numérico irrepetível que coroa a garagem de seus espólios familiares. Esta governança dinástica transforma o registro de circulação em um artefato museológico de valorização ascendente, blindado contra as intempéries dos ciclos econômicos globais.",
-      "No veredito implacável do Radar do Luxo, tais concessões não compõem a categoria de acessórios, mas sim o alicerce de portfólios que compreendem a escassez matemática como a última fronteira da exclusividade real. Quando o martelo descer sobre estes lotes de sete dígitos, o capital encontrará, mais uma vez, sua forma mais densa e inegociável."
-    ],
-    "content_paragraphs": [
-      "O dinheiro recente faz ruído; o patrimônio dinástico busca o silêncio mineral. Em salas de arremate blindadas contra a volatilidade cambial, pedaços de metal prensado com numeração estritamente inferior a dez dígitos deixam de ser simples exigências burocráticas de trânsito para se tornarem ativos de custódia fiduciária comparáveis a barras de ouro puro armazenadas em cofres suíços.",
-      "A lógica que rege esta transação desafia a macroeconomia convencional. Enquanto os mercados acionários oscilam ao sabor de discursos geopolíticos e a liquidez digital evapora em milissegundos, uma placa com sequências numéricas primordiais opera como um título perpétuo de imunidade temporal e distinção aristocrática intransferível.",
-      "Compradores de alta estirpe não buscam apenas a ostentação efêmera de um automóvel exótico; eles disputam a posse definitiva de um índice numérico irrepetível que coroa a garagem de seus espólios familiares. Esta governança dinástica transforma o registro de circulação em um artefato museológico de valorização ascendente, blindado contra as intempéries dos ciclos econômicos globais.",
-      "No veredito implacável do Radar do Luxo, tais concessões não compõem a categoria de acessórios, mas sim o alicerce de portfólios que compreendem a escassez matemática como a última fronteira da exclusividade real. Quando o martelo descer sobre estes lotes de sete dígitos, o capital encontrará, mais uma vez, sua forma mais densa e inegociável."
-    ],
-    "specs": {
-      "Ativo": "Chapa de licenciamento de dígito único",
-      "Natureza do Ativo": "Refúgio de liquidez e custódia fiduciária",
-      "Tiragem": "Absoluta e matemática (item único)",
-      "Avaliação": "Patamar de sete dígitos em moeda forte",
-      "Destino Fiduciário": "Governança dinástica e acervos privados"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-17T03:05:27.529Z",
-    "published_at": "2026-11-17T03:05:27.529Z",
-    "sourceUrl": "https://carbuzz.com/features/most-expensive-license-plates/",
-    "source_url": "https://carbuzz.com/features/most-expensive-license-plates/"
   },
 ];
 

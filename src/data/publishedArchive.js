@@ -1610,5 +1610,15 @@ export const PUBLISHED_ARCHIVE = [
     "categorySlug": "destinos",
     "authorSlug": "gabriel-fontes",
     "publishedAt": "2026-11-18T22:30:43.000Z"
+  },
+  {
+    "id": "art-perini-navi-admiral-sri-florenca-220-milhoes-7416",
+    "slug": "perini-navi-e-admiral-por-220-milhoes-a-sri-vence-em-florenca-e-barra-a-oferta-de-hong-kong",
+    "title": "Perini Navi e Admiral por €220 milhões: a SRI vence em Florença e barra a oferta de €250 milhões de Hong Kong",
+    "image": "https://image.yachtbuyer.com/w1200/h630/qh/ca/m1/kddc78e9a/article/content/3794810/the-italian-sea-group-sign.jpg",
+    "sourceUrl": "https://www.yachtbuyer.com/en/news/sri-global-wins-euro-220m-bid-for-the-italian-sea-group-as-rival-offers-are-excluded",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-22T15:31:40.000Z"
   }
 ];
