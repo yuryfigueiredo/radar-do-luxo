@@ -1620,5 +1620,15 @@ export const PUBLISHED_ARCHIVE = [
     "categorySlug": "destinos",
     "authorSlug": "gabriel-fontes",
     "publishedAt": "2026-11-22T15:31:40.000Z"
+  },
+  {
+    "id": "art-brellum-pilot-39-power-reserve-cosc-46-pecas-4837",
+    "slug": "brellum-pilot-39-power-reserve-39-mm-cosc-e-46-pecas-a-chf-3-390",
+    "title": "Brellum Pilot 39 Power Reserve: 39 mm, COSC e 46 peças a CHF 3.390",
+    "image": "https://monochrome-watches.com/app/uploads/2026/11/Brellum-Pilot-39-Power-Reserve-Black-DLC-Chronometer-review-1.jpg",
+    "sourceUrl": "https://monochrome-watches.com/brellums-pilot-39-power-reserve-black-dlc-chronograph-more-compact-aviation-chronograph-review-price/",
+    "categorySlug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "publishedAt": "2026-11-23T01:27:01.000Z"
   }
 ];

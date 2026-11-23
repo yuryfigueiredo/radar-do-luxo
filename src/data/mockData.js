@@ -116,6 +116,61 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+      "id": "art-brellum-pilot-39-power-reserve-cosc-46-pecas-4837",
+      "slug": "brellum-pilot-39-power-reserve-39-mm-cosc-e-46-pecas-a-chf-3-390",
+      "title": "Brellum Pilot 39 Power Reserve: 39 mm, COSC e 46 peças a CHF 3.390",
+      "category": "Alta Relojoaria",
+      "categorySlug": "relogios",
+      "category_slug": "relogios",
+      "authorSlug": "clara-meirelles",
+      "author_slug": "clara-meirelles",
+      "type": "article",
+      "badge": "CURADORIA RADAR",
+      "date": "22 de novembro de 2026",
+      "readTime": "5 min de leitura",
+      "read_time": "5 min de leitura",
+      "image": "https://monochrome-watches.com/app/uploads/2026/11/Brellum-Pilot-39-Power-Reserve-Black-DLC-Chronometer-review-1.jpg",
+      "imageFocus": "center",
+      "image_focus": "center",
+      "excerpt": "A Brellum levou o cronógrafo Pilot ao seu caixote Duobox de 39 mm pela primeira vez — aço com DLC preto, 11,7 mm de espessura sem os cristais, mostrador em vários níveis com reserva de marcha às 3h, calibre BR-750 RM (base Valjoux 7750) certificado COSC e 46 horas de corda. São 46 peças numeradas, a CHF 3.390 com impostos, vendidas exclusivamente pelo site da marca.",
+      "contentParagraphs": [
+        "A Brellum escolheu o fim de novembro para fazer o que a coleção Pilot ainda não havia feito: encolher o cronógrafo de cabine ao caixote Duobox de 39 mm. O Pilot 39 Power Reserve Black DLC Chronometer, apresentado esta semana e analisado pela Monochrome Watches em 20 de novembro, é a primeira referência da casa suíça independente — de produção anual limitada e vendas exclusivas pelo próprio site, brellum.swiss — a adotar essa medida na linha de aviação. O preço vem declarado sem rodeios: CHF 3.390 com impostos, CHF 3.135 para exportação sem eles, numa edição de 46 peças numeradas.",
+        "A ficha começa pela caixa, porque é ela que muda o caráter. São 39 mm de diâmetro por 11,7 mm de espessura sem os cristais — 15,2 mm de altura total —, com 48 mm de entre-lug e 21 mm de largura de alça. O aço é o mesmo do Duobox de 39 mm, aqui revestido de DLC preto na caixa, na coroa e nos botões, para um preto uniforme. O cristal frontal é safira em caixa; o fundo é outro safira, abaulado, deixando o calibre à vista. Ambos levam tratamento antirreflexo, com proteção UV adicional do lado do mostrador. A vedação é de 100 metros, o que mantém o relógio no terreno dos cronógrafos esportivos de uso diário.",
+        "O mostrador é onde a lógica de instrumento fica visível. A base preta é construída em vários níveis e recebe Super-LumiNova nos índices, nas marcações e nos ponteiros. Os pequenos segundos moram às 9h, o contador de 30 minutos às 12h e o totalizador de 12 horas às 6h — a arquitetura clássica do cronógrafo de aviação, agora em escala menor, com o ponteiro central dos segundos do cronógrafo pintado em listras. A janela de data é integrada ao desenho (no modelo de 42 mm, ela ficava às 3h), e o indicador de reserva de marcha ocupa justamente as 3h. Lido de relance, o conjunto repete a hierarquia de um painel: tempo corrente de um lado, medição do outro, autonomia à vista.",
+        "Por dentro, o BR-750 RM automático parte do Valjoux 7750, o cronógrafo suíço mais longevo, e é certificado cronômetro pela COSC. Gira a 28.800 alternâncias por hora, guarda 46 horas de reserva e usa sistema anti-choque Incabloc, balanço Glucydur e espiral em liga Nivarox. O acabamento segue o repertório tradicional: Côtes de Genève, perlage e parafusos azulados. O rotor é preto e carrega o número individual de cada exemplar, de 01/46 a 46/46 — um detalhe que casa com a tiragem. O relógio sai com bracelete de aço revestido de DLC preto, e uma pulseira de couro de bezerro preto, feita à mão, com fivela de aço, vem incluída.",
+        "A operação da Brellum é a de sempre: poucas peças, venda direta, preço publicado. São 46 unidades, com numeração individual exposta no rotor, o que transforma cada exemplar em item de série fechada — e explica por que a marca limita a produção anual em vez de perseguir volume. O que o Pilot 39 não faz é inventar uma complicação nova: ele reorganiza o que a casa já sabe fazer num diâmetro que a coleção Pilot não tinha, com preto DLC e um ponto de entrada em franco suíço. Para quem coleciona cronógrafos de aviação com caixa compacta, o dado que conta não é o mostrador em vários níveis, e sim os 39 mm — medida rara nessa família e, agora, finalmente disponível."
+      ],
+      "content_paragraphs": [
+        "A Brellum escolheu o fim de novembro para fazer o que a coleção Pilot ainda não havia feito: encolher o cronógrafo de cabine ao caixote Duobox de 39 mm. O Pilot 39 Power Reserve Black DLC Chronometer, apresentado esta semana e analisado pela Monochrome Watches em 20 de novembro, é a primeira referência da casa suíça independente — de produção anual limitada e vendas exclusivas pelo próprio site, brellum.swiss — a adotar essa medida na linha de aviação. O preço vem declarado sem rodeios: CHF 3.390 com impostos, CHF 3.135 para exportação sem eles, numa edição de 46 peças numeradas.",
+        "A ficha começa pela caixa, porque é ela que muda o caráter. São 39 mm de diâmetro por 11,7 mm de espessura sem os cristais — 15,2 mm de altura total —, com 48 mm de entre-lug e 21 mm de largura de alça. O aço é o mesmo do Duobox de 39 mm, aqui revestido de DLC preto na caixa, na coroa e nos botões, para um preto uniforme. O cristal frontal é safira em caixa; o fundo é outro safira, abaulado, deixando o calibre à vista. Ambos levam tratamento antirreflexo, com proteção UV adicional do lado do mostrador. A vedação é de 100 metros, o que mantém o relógio no terreno dos cronógrafos esportivos de uso diário.",
+        "O mostrador é onde a lógica de instrumento fica visível. A base preta é construída em vários níveis e recebe Super-LumiNova nos índices, nas marcações e nos ponteiros. Os pequenos segundos moram às 9h, o contador de 30 minutos às 12h e o totalizador de 12 horas às 6h — a arquitetura clássica do cronógrafo de aviação, agora em escala menor, com o ponteiro central dos segundos do cronógrafo pintado em listras. A janela de data é integrada ao desenho (no modelo de 42 mm, ela ficava às 3h), e o indicador de reserva de marcha ocupa justamente as 3h. Lido de relance, o conjunto repete a hierarquia de um painel: tempo corrente de um lado, medição do outro, autonomia à vista.",
+        "Por dentro, o BR-750 RM automático parte do Valjoux 7750, o cronógrafo suíço mais longevo, e é certificado cronômetro pela COSC. Gira a 28.800 alternâncias por hora, guarda 46 horas de reserva e usa sistema anti-choque Incabloc, balanço Glucydur e espiral em liga Nivarox. O acabamento segue o repertório tradicional: Côtes de Genève, perlage e parafusos azulados. O rotor é preto e carrega o número individual de cada exemplar, de 01/46 a 46/46 — um detalhe que casa com a tiragem. O relógio sai com bracelete de aço revestido de DLC preto, e uma pulseira de couro de bezerro preto, feita à mão, com fivela de aço, vem incluída.",
+        "A operação da Brellum é a de sempre: poucas peças, venda direta, preço publicado. São 46 unidades, com numeração individual exposta no rotor, o que transforma cada exemplar em item de série fechada — e explica por que a marca limita a produção anual em vez de perseguir volume. O que o Pilot 39 não faz é inventar uma complicação nova: ele reorganiza o que a casa já sabe fazer num diâmetro que a coleção Pilot não tinha, com preto DLC e um ponto de entrada em franco suíço. Para quem coleciona cronógrafos de aviação com caixa compacta, o dado que conta não é o mostrador em vários níveis, e sim os 39 mm — medida rara nessa família e, agora, finalmente disponível."
+      ],
+      "specs": {
+        "Calibre": "Brellum BR-750 RM automático, base Valjoux 7750, certificado cronômetro COSC, 28.800 alt/h e 46 h de reserva",
+        "Caixa": "Aço com revestimento DLC preto, 39 mm × 11,7 mm sem cristais (15,2 mm total), entre-lug de 48 mm e alça de 21 mm",
+        "Mostrador": "Preto em vários níveis, Super-LumiNova; pequenos segundos às 9h, 30 min às 12h, 12 h às 6h, data integrada e reserva de marcha às 3h",
+        "Ajuste interno": "Anti-choque Incabloc, balanço Glucydur, espiral Nivarox; Côtes de Genève, perlage e parafusos azulados",
+        "Tiragem": "Edição limitada de 46 peças numeradas no rotor, de 01/46 a 46/46; bracelete DLC e pulseira de couro de bezerro incluídas",
+        "Preço": "CHF 3.390 com impostos; CHF 3.135 para exportação — venda exclusiva em brellum.swiss"
+      },
+      "status": "published",
+      "isHero": true,
+      "is_hero": true,
+      "isHeroSecondary": false,
+      "is_hero_secondary": false,
+      "isPinnedHero": false,
+      "is_pinned_hero": false,
+      "rankingScore": 83,
+      "ranking_score": 83,
+      "engineSource": "qoder:agente-editorial",
+      "publishedAt": "2026-11-23T01:27:01.000Z",
+      "published_at": "2026-11-23T01:27:01.000Z",
+      "sourceUrl": "https://monochrome-watches.com/brellums-pilot-39-power-reserve-black-dlc-chronograph-more-compact-aviation-chronograph-review-price/",
+      "source_url": "https://monochrome-watches.com/brellums-pilot-39-power-reserve-black-dlc-chronograph-more-compact-aviation-chronograph-review-price/"
+  },
+  {
       "id": "art-perini-navi-admiral-sri-florenca-220-milhoes-7416",
       "slug": "perini-navi-e-admiral-por-220-milhoes-a-sri-vence-em-florenca-e-barra-a-oferta-de-hong-kong",
       "title": "Perini Navi e Admiral por €220 milhões: a SRI vence em Florença e barra a oferta de €250 milhões de Hong Kong",
@@ -156,8 +211,8 @@ export const ARTICLES = [
         "Emprego": "Cerca de 500 empregados diretos mantidos; cerca de 2.000 postos afetados quando se inclui a cadeia de fornecedores"
       },
       "status": "published",
-      "isHero": true,
-      "is_hero": true,
+      "isHero": false,
+      "is_hero": false,
       "isHeroSecondary": false,
       "is_hero_secondary": false,
       "isPinnedHero": false,
@@ -1437,59 +1492,7 @@ export const ARTICLES = [
     "published_at": "2026-11-17T11:11:27.949Z",
     "sourceUrl": "https://www.bellingham-marine.com/project/yas-marina/",
     "source_url": "https://www.bellingham-marine.com/project/yas-marina/"
-  },
-  {
-    "id": "art-vincent-van-gogh-a-incognita-de--2338",
-    "slug": "vincent-van-gogh-a-incognita-de-us-50-milhoes-em-uma-semana-de-leiloes-de-us-28-bilhoes-2328",
-    "title": "Vincent van Gogh: A Incógnita de US$ 50 Milhões em uma Semana de Leilões de US$ 2,8 Bilhões",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "category_slug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "author_slug": "henrique-vianna",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "17 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Vincent_van_Gogh_-_Les_canots_amarr%C3%A9s.jpg/1920px-Vincent_van_Gogh_-_Les_canots_amarr%C3%A9s.jpg",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A soberania patrimonial enfrenta o teste da proveniência técnica enquanto o mercado global de arte atinge uma liquidez febril em Nova York.",
-    "contentParagraphs": [
-      "O silêncio mineral das salas de leilão foi rompido por um ruído de incerteza técnica. No centro da semana de negociações de 2,8 bilhões de dólares, uma tela atribuída a Vincent van Gogh carrega o peso de uma dúvida que desafia a governança dinástica dos grandes colecionadores. O valor não reside apenas na pincelada, mas na imutabilidade da história que a sustenta.",
-      "A análise espectroscópica e a cartografia da procedência são os únicos baluartes contra a volatilidade do mercado. Enquanto o capital institucional busca refúgio de liquidez em ativos tangíveis, a falha em confirmar a autenticidade de uma peça de tal magnitude expõe o risco inerente à curadoria apressada. O mercado de arte, longe de ser um ambiente de especulação pura, exige a precisão milimétrica de um relógio de alta complicação.",
-      "Patrimônio não se constrói com a pressa do capital recente, mas com a custódia fiduciária que atravessa gerações. A dúvida sobre o Van Gogh em questão funciona como uma barreira de entrada para o investidor amador, enquanto os family offices buscam o conforto do travertino romano navona e das obras com pedigree inquestionável. A liquidez é soberana, mas a reputação é a única moeda que não sofre desvalorização cambial.",
-      "Ao final desta semana, os livros contábeis registrarão números astronômicos, mas a verdadeira medida do sucesso não será o volume transacionado. Será a capacidade de cada adquirente em distinguir o valor intrínseco da ruína estética. O Radar do Luxo permanece imune ao ruído, observando a movimentação de ativos que, antes de serem bens, são extensões da própria soberania de seus detentores."
-    ],
-    "content_paragraphs": [
-      "O silêncio mineral das salas de leilão foi rompido por um ruído de incerteza técnica. No centro da semana de negociações de 2,8 bilhões de dólares, uma tela atribuída a Vincent van Gogh carrega o peso de uma dúvida que desafia a governança dinástica dos grandes colecionadores. O valor não reside apenas na pincelada, mas na imutabilidade da história que a sustenta.",
-      "A análise espectroscópica e a cartografia da procedência são os únicos baluartes contra a volatilidade do mercado. Enquanto o capital institucional busca refúgio de liquidez em ativos tangíveis, a falha em confirmar a autenticidade de uma peça de tal magnitude expõe o risco inerente à curadoria apressada. O mercado de arte, longe de ser um ambiente de especulação pura, exige a precisão milimétrica de um relógio de alta complicação.",
-      "Patrimônio não se constrói com a pressa do capital recente, mas com a custódia fiduciária que atravessa gerações. A dúvida sobre o Van Gogh em questão funciona como uma barreira de entrada para o investidor amador, enquanto os family offices buscam o conforto do travertino romano navona e das obras com pedigree inquestionável. A liquidez é soberana, mas a reputação é a única moeda que não sofre desvalorização cambial.",
-      "Ao final desta semana, os livros contábeis registrarão números astronômicos, mas a verdadeira medida do sucesso não será o volume transacionado. Será a capacidade de cada adquirente em distinguir o valor intrínseco da ruína estética. O Radar do Luxo permanece imune ao ruído, observando a movimentação de ativos que, antes de serem bens, são extensões da própria soberania de seus detentores."
-    ],
-    "specs": {
-      "volume_semanal_estimado": "US$ 2,8 bilhões",
-      "foco_analitico": "Proveniência e análise espectroscópica",
-      "risco_identificado": "Incerteza de atribuição autoral",
-      "ativo_principal": "Pintura atribuída a Vincent van Gogh",
-      "natureza_do_mercado": "Leilão de alta liquidez institucional"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 85,
-    "ranking_score": 85,
-    "engineSource": "gemini:gemini-3.1-flash-lite",
-    "publishedAt": "2026-11-17T04:49:52.337Z",
-    "published_at": "2026-11-17T04:49:52.337Z",
-    "sourceUrl": "https://www.artnews.com/art-news/news/van-gogh-painting-expected-to-hammer-for-record-price-at-christies-hong-kong-1234718606/",
-    "source_url": "https://www.artnews.com/art-news/news/van-gogh-painting-expected-to-hammer-for-record-price-at-christies-hong-kong-1234718606/"
-  },
+  }
 ];
 
 
