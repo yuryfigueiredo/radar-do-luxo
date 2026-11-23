@@ -116,6 +116,63 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+      "id": "art-patek-3452-1-dual-time-cottier-65-anos-6147",
+      "slug": "patek-3452-1-dual-time-louis-cottier-65-anos-de-cofre-christies-dezembro",
+      "title": "Patek Philippe 3452/1 Dual Time: Louis Cottier, 1961 e os 65 Anos de Cofre que a Christie's Reabre em Dezembro",
+      "category": "Alta Relojoaria",
+      "categorySlug": "relogios",
+      "category_slug": "relogios",
+      "authorSlug": "clara-meirelles",
+      "author_slug": "clara-meirelles",
+      "type": "article",
+      "badge": "CURADORIA RADAR",
+      "date": "23 de novembro de 2026",
+      "readTime": "6 min de leitura",
+      "read_time": "6 min de leitura",
+      "image": "https://robbreport.com/wp-content/uploads/2026/11/patek-philippe-dual-time-reference-3452_1.jpg",
+      "imageFocus": "center",
+      "image_focus": "center",
+      "excerpt": "Escondido desde 1961 na família do primeiro dono, o Patek Philippe 3452/1 Dual Time desenhado por Louis Cottier chega à Christie's de Nova York em 4 de dezembro, na mesma semana em que a Sotheby's leva a leilão o Voutilainen GMT 6 de titânio (US$ 1–2 milhões) e a Phillips põe na mesa o Daytona de Vic Elford, ex-coleção de Jerry Seinfeld.",
+      "contentParagraphs": [
+        "Numa única semana de dezembro, as três maiores casas de leilão do mundo medem forças sobre o mesmo veludo: dezenas de milhões de dólares em relógios trocam de pulso entre Christie's, Sotheby's e Phillips. O calendário se abre com a venda online da Christie's, The New York Edit, entre 2 e 11 de dezembro, e com a sessão presencial de Important Watches em Nova York no dia 4 — a mesma data em que a Phillips leva o Kyobai, sua edição japonesa, a Hong Kong. A Phillips New York Watch Auction ocupa 5 e 6; a Sotheby's responde com Important Watches em Nova York no dia 7, com Shapes of Cartier em Abu Dhabi no dia 9 e com a venda online de Fine Watches fechando no mesmo 9. Em sete dias, o mercado inteiro será escrito e reescrito à mão.",
+        "O lote que os especialistas não conseguem calar é o Patek Philippe ref. 3452/1 Dual Time, de 1961, que a Christie's leva a Nova York no dia 4. O mostrador duplo — dois fusos sob o mesmo caixilho — é obra de Louis Cottier, em ouro branco e ouro amarelo, e traz uma condição que o mercado raramente vê: nunca passou por um pregão. John Reardon, cofundador da Collectability, diz que o relógio 'nunca foi visto antes' e que o fato de reaparecer agora, saído da família do primeiro dono depois de 65 anos, 'está fazendo ondas no mundo da relojoaria'. Eric Wind, dono da Wind Vintage e ex-especialista da Christie's, confirma que a peça permaneceu com a família desde 1961 — o ano em que o dono a comprou — e 'parece estar em condição soberba', mesmo que não seja exatamente o seu tipo de relógio.",
+        "Reardon lê a semana como capítulos do mesmo livro. Em Hong Kong, a Phillips oferece um Patek ref. 2499J de primeira série, de 1952, com caixa Wenger e uma pátina intocada por décadas — 'um sonho que se torna verdade' para a comunidade que coleciona a marca. Em Nova York, a Sotheby's apresenta um ref. 3974J em ouro amarelo que carrega repetição de minutos e calendário perpétuo automático numa caixa de 36 mm, feita pelo falecido Jean Pierre Hagmann, um dos nomes mais respeitados da grande complicação suíça. Entre os dois, o 3452/1 de Cottier faz o papel do achado que ninguém esperava ver.",
+        "Na Sotheby's de Nova York, o topo do catálogo de 7 de dezembro é uma peça única em titânio, o Voutilainen GMT 6, estimado entre US$ 1 milhão e US$ 2 milhões. 'É de uma oficina de 13 pessoas que faz cerca de 50 relógios por ano', diz Geoff Hess, chefe global de relógios e vice-presidente sênior da casa; para ele, 'Voutilainens nesse nível nunca foram vistos antes'. Ao lado das formas, Mike Nouveau, o dealer que a internet apelidou de rei do WatchTok, aponta um Audemars Piguet ref. 5194BC em ouro branco, de cerca de 1965, com bracelete combinando e vendido pela Gübelin, estimado em US$ 30 mil a US$ 60 mil, e um Cartier London octogonal em ouro amarelo de 1971, entre US$ 20 mil e US$ 40 mil — um desenho que ele nunca tinha visto. Na Phillips de Nova York, o dealer ainda destaca o Patek ref. 1463 'Tasti Tondi' em ouro rosa, entre US$ 200 mil e US$ 400 mil, sem aparecer em leilão desde 2000.",
+        "Paul Altieri, fundador da Bob's Watches, concentra o olhar em quatro Rolex da Phillips, nos dias 5 e 6. O primeiro é o 6241 John Player Special, lote 27, estimado entre US$ 600 mil e US$ 1,2 milhão: preto e ouro, com a originalidade de mostrador que os colecionadores de Daytona passam anos caçando. O 8171 Padellone em aço, lote 71, entre US$ 60 mil e US$ 120 mil, é um calendário triplo com fase da lua que, segundo a Phillips, apareceu num leilão de espólio em Vermont e conserva o mostrador original sem restauro há mais de 70 anos. O 6239 Vic Elford Daytona, lote 26, entre US$ 100 mil e US$ 200 mil, foi entregue ao piloto pela vitória nas 24 Horas de Daytona de 1968 — o primeiro Daytona documentado dado a um vencedor de corrida — e depois passou pela coleção de Jerry Seinfeld; Eric Wind avisa que o ponteiro central dos segundos foi substituído, mas que a proveniência pesa mais que a ressalva. E o 6238 Pre-Daytona, lote 69, entre US$ 15 mil e US$ 30 mil, é o dorminhoco: um cronógrafo que sempre viveu à sombra do irmão famoso.",
+        "O que se paga nessa semana não é o metal, mas o tempo que ninguém consegue comprimir: 70 anos de um mostrador que nenhuma mão repintou, 65 anos de um cofre familiar que ninguém abriu, uma tarde de 1968 em Daytona que virou história gravada numa carcaça de aço. Entre a poeira de um leilão de espólio em Vermont e o titânio de uma peça única, as três casas oferecem a mesma mercadoria — a mão humana que se recusa a se apressar. É essa recusa que se arremata em dezembro, e é por isso que o preço de um relógio mecânico nunca coube inteiro numa planilha."
+      ],
+      "content_paragraphs": [
+        "Numa única semana de dezembro, as três maiores casas de leilão do mundo medem forças sobre o mesmo veludo: dezenas de milhões de dólares em relógios trocam de pulso entre Christie's, Sotheby's e Phillips. O calendário se abre com a venda online da Christie's, The New York Edit, entre 2 e 11 de dezembro, e com a sessão presencial de Important Watches em Nova York no dia 4 — a mesma data em que a Phillips leva o Kyobai, sua edição japonesa, a Hong Kong. A Phillips New York Watch Auction ocupa 5 e 6; a Sotheby's responde com Important Watches em Nova York no dia 7, com Shapes of Cartier em Abu Dhabi no dia 9 e com a venda online de Fine Watches fechando no mesmo 9. Em sete dias, o mercado inteiro será escrito e reescrito à mão.",
+        "O lote que os especialistas não conseguem calar é o Patek Philippe ref. 3452/1 Dual Time, de 1961, que a Christie's leva a Nova York no dia 4. O mostrador duplo — dois fusos sob o mesmo caixilho — é obra de Louis Cottier, em ouro branco e ouro amarelo, e traz uma condição que o mercado raramente vê: nunca passou por um pregão. John Reardon, cofundador da Collectability, diz que o relógio 'nunca foi visto antes' e que o fato de reaparecer agora, saído da família do primeiro dono depois de 65 anos, 'está fazendo ondas no mundo da relojoaria'. Eric Wind, dono da Wind Vintage e ex-especialista da Christie's, confirma que a peça permaneceu com a família desde 1961 — o ano em que o dono a comprou — e 'parece estar em condição soberba', mesmo que não seja exatamente o seu tipo de relógio.",
+        "Reardon lê a semana como capítulos do mesmo livro. Em Hong Kong, a Phillips oferece um Patek ref. 2499J de primeira série, de 1952, com caixa Wenger e uma pátina intocada por décadas — 'um sonho que se torna verdade' para a comunidade que coleciona a marca. Em Nova York, a Sotheby's apresenta um ref. 3974J em ouro amarelo que carrega repetição de minutos e calendário perpétuo automático numa caixa de 36 mm, feita pelo falecido Jean Pierre Hagmann, um dos nomes mais respeitados da grande complicação suíça. Entre os dois, o 3452/1 de Cottier faz o papel do achado que ninguém esperava ver.",
+        "Na Sotheby's de Nova York, o topo do catálogo de 7 de dezembro é uma peça única em titânio, o Voutilainen GMT 6, estimado entre US$ 1 milhão e US$ 2 milhões. 'É de uma oficina de 13 pessoas que faz cerca de 50 relógios por ano', diz Geoff Hess, chefe global de relógios e vice-presidente sênior da casa; para ele, 'Voutilainens nesse nível nunca foram vistos antes'. Ao lado das formas, Mike Nouveau, o dealer que a internet apelidou de rei do WatchTok, aponta um Audemars Piguet ref. 5194BC em ouro branco, de cerca de 1965, com bracelete combinando e vendido pela Gübelin, estimado em US$ 30 mil a US$ 60 mil, e um Cartier London octogonal em ouro amarelo de 1971, entre US$ 20 mil e US$ 40 mil — um desenho que ele nunca tinha visto. Na Phillips de Nova York, o dealer ainda destaca o Patek ref. 1463 'Tasti Tondi' em ouro rosa, entre US$ 200 mil e US$ 400 mil, sem aparecer em leilão desde 2000.",
+        "Paul Altieri, fundador da Bob's Watches, concentra o olhar em quatro Rolex da Phillips, nos dias 5 e 6. O primeiro é o 6241 John Player Special, lote 27, estimado entre US$ 600 mil e US$ 1,2 milhão: preto e ouro, com a originalidade de mostrador que os colecionadores de Daytona passam anos caçando. O 8171 Padellone em aço, lote 71, entre US$ 60 mil e US$ 120 mil, é um calendário triplo com fase da lua que, segundo a Phillips, apareceu num leilão de espólio em Vermont e conserva o mostrador original sem restauro há mais de 70 anos. O 6239 Vic Elford Daytona, lote 26, entre US$ 100 mil e US$ 200 mil, foi entregue ao piloto pela vitória nas 24 Horas de Daytona de 1968 — o primeiro Daytona documentado dado a um vencedor de corrida — e depois passou pela coleção de Jerry Seinfeld; Eric Wind avisa que o ponteiro central dos segundos foi substituído, mas que a proveniência pesa mais que a ressalva. E o 6238 Pre-Daytona, lote 69, entre US$ 15 mil e US$ 30 mil, é o dorminhoco: um cronógrafo que sempre viveu à sombra do irmão famoso.",
+        "O que se paga nessa semana não é o metal, mas o tempo que ninguém consegue comprimir: 70 anos de um mostrador que nenhuma mão repintou, 65 anos de um cofre familiar que ninguém abriu, uma tarde de 1968 em Daytona que virou história gravada numa carcaça de aço. Entre a poeira de um leilão de espólio em Vermont e o titânio de uma peça única, as três casas oferecem a mesma mercadoria — a mão humana que se recusa a se apressar. É essa recusa que se arremata em dezembro, e é por isso que o preço de um relógio mecânico nunca coube inteiro numa planilha."
+      ],
+      "specs": {
+        "Calendário": "Christie's NY 4/dez e on-line 2–11; Phillips Hong Kong 4/dez e NY 5–6; Sotheby's NY 7/dez, Abu Dhabi 9/dez e on-line até 9/dez",
+        "Lote de abertura": "Patek Philippe 3452/1 Dual Time, 1961, ouro branco e amarelo, por Louis Cottier — Christie's Nova York",
+        "Peça única independente": "Voutilainen GMT 6 em titânio, estimativa US$ 1–2 milhões — Sotheby's Nova York, 7/dez",
+        "Rolex de corrida": "6239 Vic Elford Daytona, prêmio das 24 Horas de Daytona de 1968, US$ 100–200 mil, ex-coleção Jerry Seinfeld",
+        "Maior estimativa Rolex": "6241 John Player Special, lote 27, US$ 600 mil–1,2 milhão — Phillips Nova York",
+        "Casas em disputa": "Christie's, Sotheby's e Phillips, frente a frente numa única semana de dezembro"
+      },
+      "status": "published",
+      "isHero": true,
+      "is_hero": true,
+      "isHeroSecondary": false,
+      "is_hero_secondary": false,
+      "isPinnedHero": false,
+      "is_pinned_hero": false,
+      "rankingScore": 88,
+      "ranking_score": 88,
+      "engineSource": "qoder:agente-editorial",
+      "publishedAt": "2026-11-23T18:22:00.000Z",
+      "published_at": "2026-11-23T18:22:00.000Z",
+      "sourceUrl": "https://robbreport.com/style/watch-collector/watches-insiders-december-blockbuster-auctions-1238846757/",
+      "source_url": "https://robbreport.com/style/watch-collector/watches-insiders-december-blockbuster-auctions-1238846757/"
+  },
+  {
       "id": "art-nausicaa-114-2-metros-sete-paineis-de-vidro-de-1050-kg-6382",
       "slug": "nausicaa-114-2-metros-sete-paineis-de-vidro-de-1050-kg-e-a-galeria-no-lugar-do-salao",
       "title": "Nausicaä: 114,2 Metros, Sete Painéis de Vidro de 1.050 kg e a Galeria que Substituiu o Salão de Maezawa",
@@ -158,8 +215,8 @@ export const ARTICLES = [
         "Autonomia e casco": "5.500 milhas náuticas a 13 nós, velocidade máxima de 17 nós; casco de aço certificado Ice Class 1D"
       },
       "status": "published",
-      "isHero": true,
-      "is_hero": true,
+      "isHero": false,
+      "is_hero": false,
       "isHeroSecondary": false,
       "is_hero_secondary": false,
       "isPinnedHero": false,
@@ -1445,58 +1502,6 @@ export const ARTICLES = [
     "published_at": "2026-11-17T17:09:32.833Z",
     "sourceUrl": "https://www.yachtbuyer.com/en/fleet/ambassador-360-feadship",
     "source_url": "https://www.yachtbuyer.com/en/fleet/ambassador-360-feadship"
-  },
-  {
-    "id": "art-bugatti-centodieci-os-us-9-milho-4101",
-    "slug": "bugatti-centodieci-os-us-9-milhoes-e-a-cirurgia-de-65-horas-em-molsheim-para-ressuscitar-o-w16-quadriturbo-3599",
-    "title": "Bugatti Centodieci: Os US$ 9 Milhões e a Cirurgia de 65 Horas em Molsheim para Ressuscitar o W16 Quadriturbo",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "17 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://www.thesupercarblog.com/wp-content/uploads/2026/11/Bugatti-Centodieci-CR7-spotted-in-Germany-1.jpg",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "A rara obra-prima de tiragem de dez unidades cruza fronteiras rumo ao santuário alemão para uma intervenção cirúrgica de alta precisão em seu bloco de oito litros.",
-    "contentParagraphs": [
-      "A carroceria em fibra de carbono exposta corta a neblina europeia em um silêncio tenso. O Centodieci de Cristiano Ronaldo não está em solo ibérico. O hipercarro de nove milhões de dólares repousa sobre cavaletes em uma câmara estéril na Alemanha, longe de qualquer garagem comum. Trata-se de uma peregrinação obrigatória ao berço mecânico que deu origem à lenda moderna dos quadriturbos.",
-      "O coração destas dez unidades limitadas exige mais do que simples manutenção preventiva. O motor W16 de 8,0 litros e 1.600 cavalos de potência impõe protocolos de intervenção que desafiam a engenharia contemporânea. Os relatórios de oficina apontam para uma operação cirúrgica estimada em 65 horas de bancada. Engenheiros especialistas desmontam dutos de admissão em titânio e verificam tolerâncias de mícrons em pistões forjados para garantir a integridade térmica sob forças G extremas.",
-      "Cada componente do sistema de sobrealimentação opera em limites térmicos absurdos. O escapamento em Inconel incandescente e os radiadores dedicados ao resfriamento do óleo de transmissão exigem calibração micrométrica. A complexidade de alinhar quatro turbocompressores sequenciais transforma a simples troca de fluidos em uma operação de alta relojoaria mecânica aplicada à artilharia balística sobre rodas.",
-      "Enquanto colecionadores comuns acumulam estática em galpões climatizados, exemplares desta magnitude pagam o preço da verdadeira engenharia de pista. O retorno iminente aos Alpes não será apenas uma entrega logística, mas a reafirmação de que a combustão interna, quando levada ao seu ápice absoluto, exige devoção técnica e recursos industriais incomparáveis."
-    ],
-    "content_paragraphs": [
-      "A carroceria em fibra de carbono exposta corta a neblina europeia em um silêncio tenso. O Centodieci de Cristiano Ronaldo não está em solo ibérico. O hipercarro de nove milhões de dólares repousa sobre cavaletes em uma câmara estéril na Alemanha, longe de qualquer garagem comum. Trata-se de uma peregrinação obrigatória ao berço mecânico que deu origem à lenda moderna dos quadriturbos.",
-      "O coração destas dez unidades limitadas exige mais do que simples manutenção preventiva. O motor W16 de 8,0 litros e 1.600 cavalos de potência impõe protocolos de intervenção que desafiam a engenharia contemporânea. Os relatórios de oficina apontam para uma operação cirúrgica estimada em 65 horas de bancada. Engenheiros especialistas desmontam dutos de admissão em titânio e verificam tolerâncias de mícrons em pistões forjados para garantir a integridade térmica sob forças G extremas.",
-      "Cada componente do sistema de sobrealimentação opera em limites térmicos absurdos. O escapamento em Inconel incandescente e os radiadores dedicados ao resfriamento do óleo de transmissão exigem calibração micrométrica. A complexidade de alinhar quatro turbocompressores sequenciais transforma a simples troca de fluidos em uma operação de alta relojoaria mecânica aplicada à artilharia balística sobre rodas.",
-      "Enquanto colecionadores comuns acumulam estática em galpões climatizados, exemplares desta magnitude pagam o preço da verdadeira engenharia de pista. O retorno iminente aos Alpes não será apenas uma entrega logística, mas a reafirmação de que a combustão interna, quando levada ao seu ápice absoluto, exige devoção técnica e recursos industriais incomparáveis."
-    ],
-    "specs": {
-      "Motor": "W16 de 8,0 litros com 4 turbocompressores",
-      "Potencia": "1.600 cv a 7.000 rpm",
-      "Tiragem": "Edição limitada de 10 unidades mundiais",
-      "Tempo de Manutencao": "65 horas estimadas em bancada especializada",
-      "Material do Chassi": "Monocoque em carbo-titânio curado em autoclave"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": true,
-    "is_hero_secondary": true,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 93,
-    "ranking_score": 93,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-17T15:05:34.098Z",
-    "published_at": "2026-11-17T15:05:34.098Z",
-    "sourceUrl": "https://www.thesupercarblog.com/cristiano-ronaldos-bugatti-centodieci-spotted-in-germany/",
-    "source_url": "https://www.thesupercarblog.com/cristiano-ronaldos-bugatti-centodieci-spotted-in-germany/"
   }
 ];
 

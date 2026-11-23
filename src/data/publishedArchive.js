@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+      "id": "art-patek-3452-1-dual-time-cottier-65-anos-6147",
+      "slug": "patek-3452-1-dual-time-louis-cottier-65-anos-de-cofre-christies-dezembro",
+      "title": "Patek Philippe 3452/1 Dual Time: Louis Cottier, 1961 e os 65 Anos de Cofre que a Christie's Reabre em Dezembro",
+      "image": "https://robbreport.com/wp-content/uploads/2026/11/patek-philippe-dual-time-reference-3452_1.jpg",
+      "sourceUrl": "https://robbreport.com/style/watch-collector/watches-insiders-december-blockbuster-auctions-1238846757/",
+      "categorySlug": "relogios",
+      "authorSlug": "clara-meirelles",
+      "publishedAt": "2026-11-23T18:22:00.000Z"
+  },
+  {
       "id": "art-nausicaa-114-2-metros-sete-paineis-de-vidro-de-1050-kg-6382",
       "slug": "nausicaa-114-2-metros-sete-paineis-de-vidro-de-1050-kg-e-a-galeria-no-lugar-do-salao",
       "title": "Nausicaä: 114,2 Metros, Sete Painéis de Vidro de 1.050 kg e a Galeria que Substituiu o Salão de Maezawa",
