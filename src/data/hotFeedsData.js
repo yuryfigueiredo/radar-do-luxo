@@ -69,7 +69,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://robbreport.com/wp-content/uploads/2026/11/patek-philippe-dual-time-reference-3452_1.jpg",
     "imageIsFallback": false,
-    "status": "available"
+    "status": "published"
   },
   {
     "id": "pauta-live-destinos-mwtewvd8-i9pv",
