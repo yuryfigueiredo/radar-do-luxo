@@ -19,7 +19,7 @@ import { calculateEditorialScore } from '../services/rankingEngine.js';
 
 export const INITIAL_HOT_PAUTAS = [
   {
-    "id": "pauta-live-destinos-mwrqwdmz-nskj",
+    "id": "pauta-live-destinos-mwskwqo1-hqbw",
     "source": "Google News Superyachts",
     "sourceCategory": "Destinos & Iates",
     "badgeColor": "border-purple-500/40 text-purple-400 bg-purple-500/10",
@@ -33,19 +33,19 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Abu Dhabi targets billionaire tourists with superyacht push TravelMole",
     "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBNR1hqSDVxOERnWGdYd24yM2xOM2czWFB2Z1NvZG5RaDBtS294S0Q0Y2kxSUp6Zi1ZRDJIUjNqMU95VTlKWHd3TEtFejdMNzB0Q0VpbmZYUlFWUlJvRUhXX19zdXRhWDYweE1KeHNRTVNRZkFSU2ZDRQ?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-22T11:20:12.299Z",
+    "createdAt": "2026-11-23T01:20:17.665Z",
     "validityHours": 24,
     "specsPreview": {
       "categoria": "Superiate Transoceânico",
       "engenharia": "Casco de aço naval e compósitos",
       "curadoria": "Gabriel Fontes"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1783408360163-3ad59ed27c25?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
     "status": "duplicate"
   },
   {
-    "id": "pauta-live-destinos-mwrqwdkh-ptsg",
+    "id": "pauta-live-destinos-mwskwqmn-jcv2",
     "source": "Google News Superyachts",
     "sourceCategory": "Destinos & Iates",
     "badgeColor": "border-purple-500/40 text-purple-400 bg-purple-500/10",
@@ -59,19 +59,19 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Most superyacht crews quit within nine months, but Gabe Newell's stay over four years, and one look inside his $500 million Leviathan, where staff get the main deck and five-star cabins, explains why Luxurylaunches",
     "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPclFQTkd5aVNZcjREdFBtQjlyaVpsTDBEOU5EMWNsbWFPbUwtYUhMdmVIY3dITUQ2RHBSTHNmTlRIci1qOXphT0h2SXI4VnBaTTd1VXYyeFFwMWs1SjRDb1AwclZTZ3RxeTdRQVZmOXZOSDBDaC1MYWU0eE5lQ1RlckwzSGpUSHN5aUZFMQ?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-22T11:20:12.209Z",
+    "createdAt": "2026-11-23T01:20:17.615Z",
     "validityHours": 24,
     "specsPreview": {
       "categoria": "Superiate Transoceânico",
       "engenharia": "Casco de aço naval e compósitos",
       "curadoria": "Gabriel Fontes"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1783344422200-a5493824bcb9?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "duplicate"
+    "status": "available"
   },
   {
-    "id": "pauta-live-arquitetura-mwrqwdmn-hfok",
+    "id": "pauta-live-arquitetura-mwskwqps-wnlg",
     "source": "Google News Superyachts",
     "sourceCategory": "Arquitetura",
     "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
@@ -85,7 +85,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "SRI Global Wins Auction for The Italian Sea Group Megayacht News",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNc1JLSDVLdFRta1VGMnAySmNCQnRKZVAtcl9faGNUZjBNN0F5NENHbjN5WUV5TllMMnlocHM4amp6cHIwWEFqdThCcmZwYThaQ1VRNlE4UlJsOEsxel9iVU1pengxbjlfUXBOYkVDdDViVHc3amVIcDNwbTlJZHVvWm9B?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-22T11:20:12.287Z",
+    "createdAt": "2026-11-23T01:20:17.728Z",
     "validityHours": 24,
     "specsPreview": {
       "mercado": "Grandes Leilões Internacionais",
@@ -93,12 +93,38 @@ export const INITIAL_HOT_PAUTAS = [
       "perfil": "Family Offices & Colecionadores",
       "curadoria": "Henrique Vianna"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1562281302-809108fd533c?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1783408360163-3ad59ed27c25?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "published"
+    "status": "duplicate"
   },
   {
-    "id": "pauta-live-relogios-mwrqwdg7-a9ge",
+    "id": "pauta-live-supercarros-mwskwqea-yqje",
+    "source": "Google News Motors (Ferrari/Bugatti)",
+    "sourceCategory": "Supercarros",
+    "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "rankingScore": 86,
+    "rankingTier": "B",
+    "originalTitle": "Ferrari’s New V6 Supercar Ditches Hybrid Power for the Street - Autoblog",
+    "suggestedHook": "Hipercarros: Ferrari’s New V6 Supercar Ditches Hybrid Power for the Street",
+    "summary": "Ferrari’s New V6 Supercar Ditches Hybrid Power for the Street Autoblog",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaHBLVnBwM08yWTNXUEJPM09sMTVZT1M3WHVycFduUDFoZnpVWFVxQm42cFpUVmhoUTNnMlc4OHJsWUFscUhvc2tZNmxkRkotWDgtVGF4cDE5eXVzM2xyRjB4M01KcEdxMWs1M0YwcUtsT09Ta0hrOHRHX2R2R01ya3NFZGdESko0UWJ2S09aTi1KMUFi?oc=5",
+    "publishedTime": "Detectado ao vivo nas últimas 24h",
+    "createdAt": "2026-11-23T01:20:17.314Z",
+    "validityHours": 24,
+    "specsPreview": {
+      "categoria": "Hipercarro de Colecionismo",
+      "telemetria": "Calibração de pista",
+      "curadoria": "Gabriel Fontes"
+    },
+    "suggestedImage": "https://images.unsplash.com/photo-1610880709844-b97111a986f7?auto=format&fit=crop&q=80&w=1400",
+    "imageIsFallback": true,
+    "status": "available"
+  },
+  {
+    "id": "pauta-live-relogios-mwskwqan-wtce",
     "source": "Monochrome Watches",
     "sourceCategory": "Alta Relojoaria",
     "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
@@ -112,7 +138,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Did you know that we have mapped virtually 100% of the surface of the Moon, yet have only mapped about 27% of our ocean floors? Scientists estimate that an astounding 2 million or more underwater creatures have yet to be discovered; such is the vastness of the world’s oceans. And if ever you were planning […]",
     "sourceUrl": "https://monochrome-watches.com/buying-guide-titan-certina-doxa-zrc-omega-panerai-dive-watches-500m-review-specs-price/",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-22T11:20:12.055Z",
+    "createdAt": "2026-11-23T01:20:17.183Z",
     "validityHours": 24,
     "specsPreview": {
       "calibre": "Mecânico de alta complicação",
@@ -125,7 +151,7 @@ export const INITIAL_HOT_PAUTAS = [
     "status": "available"
   },
   {
-    "id": "pauta-live-arquitetura-mwrqwdqs-1ym7",
+    "id": "pauta-live-arquitetura-mwskwqut-0vwy",
     "source": "Sotheby's & Christie's Auctions",
     "sourceCategory": "Arquitetura",
     "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
@@ -139,7 +165,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Sotheby’s $39.8 Million Jewelry Sale Reveals What Collectors Value Most Forbes",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTFViQlFlbzJER3lJRUJySXhkd2hhSnV5OVlMMm0tSVpZTE5OZkQxcmF4RDVWUzEtV1hXaXlaaTA1bnFqUDFDYVpYN196NkwtQXVFR0lLeHBzQXJ0X2s2VEstS2lOa1BXSF9wNlE0NmZBWFVNTnJQQWYwQkRZZy1EYjRtTHc3bVJCcDVHcVUwdTVnbEF0VkVYdlNaRXJlTThPYkRZWExGM1JNY3dJUGhoS1Z0aEdpbTYtc1hWNlFsNHkzRDg?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-22T11:20:12.436Z",
+    "createdAt": "2026-11-23T01:20:17.909Z",
     "validityHours": 24,
     "specsPreview": {
       "mercado": "Grandes Leilões Internacionais",
@@ -147,12 +173,12 @@ export const INITIAL_HOT_PAUTAS = [
       "perfil": "Family Offices & Colecionadores",
       "curadoria": "Henrique Vianna"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
     "status": "available"
   },
   {
-    "id": "pauta-live-arquitetura-mwrqwdqa-e66f",
+    "id": "pauta-live-arquitetura-mwskwqtq-j5ka",
     "source": "Google News Architecture & Mansions",
     "sourceCategory": "Arquitetura",
     "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
@@ -166,7 +192,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Christian Candy: Inside His Billion-Pound Property Empire, Net Worth, Wife and Luxury Lifestyle ukwisdom.co.uk",
     "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE10eklCM29mREtJbzJhRGFQdGpDWGJiSHpGSk9sTndDSXJJbFVqZ0lFQ3hSOGQ3ZllNTDBGOEhxNTRSdlUzVVd5S3dNN2w3dlkzY2Z5UjFMY04yRVBUdXpTajU4WGlzaUE5NEtuanl0UnNzYklfX1JZ?oc=5",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-22T11:20:12.418Z",
+    "createdAt": "2026-11-23T01:20:17.870Z",
     "validityHours": 24,
     "specsPreview": {
       "mercado": "Grandes Leilões Internacionais",
@@ -174,12 +200,12 @@ export const INITIAL_HOT_PAUTAS = [
       "perfil": "Family Offices & Colecionadores",
       "curadoria": "Henrique Vianna"
     },
-    "suggestedImage": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1400",
+    "suggestedImage": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
     "status": "available"
   },
   {
-    "id": "pauta-live-relogios-mwrqwdgv-8bf9",
+    "id": "pauta-live-relogios-mwskwqc1-wppv",
     "source": "Monochrome Watches",
     "sourceCategory": "Alta Relojoaria",
     "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
@@ -193,7 +219,7 @@ export const INITIAL_HOT_PAUTAS = [
     "summary": "Independent Swiss brand Brellum, a specialist in chronographs with a capped yearly production, adds a new reference to its aviation-inspired Pilot collection and, for the first time, presents the model in its 39mm Duobox case, offering a more compact take on its cockpit-instrument-inspired chronograph. The new Pilot",
     "sourceUrl": "https://monochrome-watches.com/brellums-pilot-39-power-reserve-black-dlc-chronograph-more-compact-aviation-chronograph-review-price/",
     "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-22T11:20:12.079Z",
+    "createdAt": "2026-11-23T01:20:17.233Z",
     "validityHours": 24,
     "specsPreview": {
       "calibre": "Mecânico de alta complicação",
@@ -202,6 +228,85 @@ export const INITIAL_HOT_PAUTAS = [
       "estilo": "Peça de Colecionador"
     },
     "suggestedImage": "https://monochrome-watches.com/app/uploads/2026/11/Brellum-Pilot-39-Power-Reserve-Black-DLC-Chronometer-review-1-600x237.jpg",
+    "imageIsFallback": false,
+    "status": "published"
+  },
+  {
+    "id": "pauta-live-supercarros-mwskwqd4-z3o5",
+    "source": "Google News Motors (Ferrari/Bugatti)",
+    "sourceCategory": "Supercarros",
+    "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "rankingScore": 82,
+    "rankingTier": "B",
+    "originalTitle": "Ferrari boss labels Las Vegas collision between Leclerc, Hamilton 'unacceptable' - ESPN",
+    "suggestedHook": "Hipercarros: Ferrari boss labels Las Vegas collision between Leclerc, Hamilton 'unacceptable'",
+    "summary": "Ferrari boss labels Las Vegas collision between Leclerc, Hamilton 'unacceptable' ESPN",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWVQtdWI0TmtMRV81bjJPRHo5Q2taeDFOTEJPajVIc1JuTndneDZ5QVY5MG9UUmZ6dlF5ZGd4UkI1bjBkU05lT3FLNDdac0lfb0h4aGZlQlg5YUR2OWVYZTNZUUllSUozQXlLcW01dHdCdHVQSGw2c05KUDhQVjA2MmN4bGZvelBiNmVrcHRlei13eDZHRklQOXVFR2w5S1F2UjVCRDFtT1haUno0cW9BQ0d3TQ?oc=5",
+    "publishedTime": "Detectado ao vivo nas últimas 24h",
+    "createdAt": "2026-11-23T01:20:17.272Z",
+    "validityHours": 24,
+    "specsPreview": {
+      "categoria": "Hipercarro de Colecionismo",
+      "telemetria": "Calibração de pista",
+      "curadoria": "Gabriel Fontes"
+    },
+    "suggestedImage": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80&w=1400",
+    "imageIsFallback": true,
+    "status": "available"
+  },
+  {
+    "id": "pauta-live-supercarros-mwskwqdx-hc17",
+    "source": "Google News Motors (Ferrari/Bugatti)",
+    "sourceCategory": "Supercarros",
+    "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "rankingScore": 82,
+    "rankingTier": "B",
+    "originalTitle": "Hamilton and His Future at Ferrari: “There Are No Conversations” - Yahoo Sports",
+    "suggestedHook": "Hamilton and His Future at Ferrari: “There Are No Conversations”",
+    "summary": "Hamilton and His Future at Ferrari: “There Are No Conversations” Yahoo Sports",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMExCN2p5cmpOSTdoTS11WC1DZmN3UE9ySEU3LXRkS3NsOG1BX3RfbmZSbHYtZElvWEJUQ0J6MjdJZk4waXJ5T0lDRnc0enpvb0U1MG9MOHp6NHYtUTE2Ql9HNW13VUxabUFrQ0NJbGc4TzJVT3dyQmxEMWFuR1VCbkZhTU1obS0yQ3I5T1JrdnNJNHM?oc=5",
+    "publishedTime": "Detectado ao vivo nas últimas 24h",
+    "createdAt": "2026-11-23T01:20:17.301Z",
+    "validityHours": 24,
+    "specsPreview": {
+      "categoria": "Hipercarro de Colecionismo",
+      "telemetria": "Calibração de pista",
+      "curadoria": "Gabriel Fontes"
+    },
+    "suggestedImage": "https://images.unsplash.com/photo-1731770758454-9d283a702306?auto=format&fit=crop&q=80&w=1400",
+    "imageIsFallback": true,
+    "status": "available"
+  },
+  {
+    "id": "pauta-live-relogios-mwskwq9x-r8db",
+    "source": "Hodinkee",
+    "sourceCategory": "Alta Relojoaria",
+    "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
+    "category": "Alta Relojoaria",
+    "categorySlug": "relogios",
+    "authorSlug": "clara-meirelles",
+    "rankingScore": 82,
+    "rankingTier": "B",
+    "originalTitle": "Dispatch: The Patek Philippe Museum Celebrates 25 Years",
+    "suggestedHook": "Dispatch: The Patek Philippe Museum Celebrates 25 Years",
+    "summary": "A quarter century after Philippe Stern opened its doors, his son marks the milestone with a tribute to the founder and a look back at 50 years of the Nautilus.",
+    "sourceUrl": "https://www.hodinkee.com/articles/the-patek-philippe-museum-celebrates-25-years",
+    "publishedTime": "Detectado ao vivo nas últimas 24h",
+    "createdAt": "2026-11-23T01:20:17.157Z",
+    "validityHours": 24,
+    "specsPreview": {
+      "calibre": "Mecânico de alta complicação",
+      "acabamento": "Tradição artesanal suíça",
+      "curadoria": "Mesa de Alta Horologia",
+      "estilo": "Peça de Colecionador"
+    },
+    "suggestedImage": "https://hodinkee.imgix.net/uploads/articles/dd7ef2c8-92cc-4060-82da-2b571f0f4629/1st-Floor_Patek-Philippe-Collection_5.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=2000",
     "imageIsFallback": false,
     "status": "available"
   },
@@ -229,32 +334,6 @@ export const INITIAL_HOT_PAUTAS = [
       "estilo": "Peça de Colecionador"
     },
     "suggestedImage": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&q=80&w=1400",
-    "imageIsFallback": true,
-    "status": "available"
-  },
-  {
-    "id": "pauta-live-supercarros-mwrqwdhi-krv3",
-    "source": "Google News Motors (Ferrari/Bugatti)",
-    "sourceCategory": "Supercarros",
-    "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "rankingScore": 82,
-    "rankingTier": "B",
-    "originalTitle": "Ferrari boss Frederic Vasseur blames Charles Leclerc for 'unacceptable' collision with Lewis Hamilton in Las Vegas GP - Sky Sports",
-    "suggestedHook": "Ferrari boss Frederic Vasseur blames Charles Leclerc for 'unacceptable' collision with Lewis Hamilton in Las Vegas GP",
-    "summary": "Ferrari boss Frederic Vasseur blames Charles Leclerc for 'unacceptable' collision with Lewis Hamilton in Las Vegas GP Sky Sports",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQc3F0ZGx2dXN4UVhOVW1vbkh0YnZNZFVpV0stYUVKT3puM1pJbV9kazdxYi1YUUVCeGdycnFQWHRoSjhUN0NqMFJQbzUtc1JnMzdhZ0hfQkJRZjR3NmVmMUZRQ2otZGE4Qy1ma3liUGtCd3doU0d1VzZFTkpFRkdWeVZIVXphMi1vVjdhbkE5cFpsME93NWNfaTJFNWNwMW1HMlZORnNtUWlXWjhiWEZtSGQtcFVOMDZpMXB5cHRvci1tZUw2aTNzanJ1OVJwYjlSM0ZfNGhnUF96YUgyY082Z1VsWVMwRjZSNmpxNXVYVQ?oc=5",
-    "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-22T11:20:12.102Z",
-    "validityHours": 24,
-    "specsPreview": {
-      "categoria": "Hipercarro de Colecionismo",
-      "telemetria": "Calibração de pista",
-      "curadoria": "Gabriel Fontes"
-    },
-    "suggestedImage": "https://images.unsplash.com/photo-1660326040484-fc0cb33d0b23?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
     "status": "available"
   },
@@ -308,113 +387,6 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://images.unsplash.com/photo-1731770758454-9d283a702306?auto=format&fit=crop&q=80&w=1400",
     "imageIsFallback": true,
-    "status": "available"
-  },
-  {
-    "id": "pauta-live-supercarros-mwr5grn5-kyuu",
-    "source": "Google News Motors (Ferrari/Bugatti)",
-    "sourceCategory": "Supercarros",
-    "badgeColor": "border-amber-500/40 text-amber-400 bg-amber-500/10",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "rankingScore": 86,
-    "rankingTier": "B",
-    "originalTitle": "Ferrari’s new hardcore supercar ditches the 296’s most controversial feature - Car Magazine",
-    "suggestedHook": "Hipercarros: Ferrari’s new hardcore supercar ditches the 296’s most controversial feature",
-    "summary": "Ferrari’s new hardcore supercar ditches the 296’s most controversial feature Car Magazine",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaVNqOGRoV2d1TnpYUmNxVEhjRDhCSkxMZjZBaVRJQUdURVdPMTVQMlU2WWpRc1NGcWxzZ1REelhlQUlYLTJtamxOMzdjQjZVQTViQjk5ZzRSbVlrdC1CTU84QkxjZGE5UEVKS2xieTVXbHJJblMwalA2X3dySFlNQmdvRkgyTEZXdDhXekRjeUowb1R2NjZBb2xBN0phaWxGZEhPVm9fYnZkRGs?oc=5",
-    "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-22T01:20:12.017Z",
-    "validityHours": 24,
-    "specsPreview": {
-      "categoria": "Hipercarro de Colecionismo",
-      "telemetria": "Calibração de pista",
-      "curadoria": "Gabriel Fontes"
-    },
-    "suggestedImage": "https://images.unsplash.com/photo-1552176625-e47ff529b595?auto=format&fit=crop&q=80&w=1400",
-    "imageIsFallback": true,
-    "status": "available"
-  },
-  {
-    "id": "pauta-live-arquitetura-mwr5grxi-yp9s",
-    "source": "Sotheby's & Christie's Auctions",
-    "sourceCategory": "Arquitetura",
-    "badgeColor": "border-sky-500/40 text-sky-400 bg-sky-500/10",
-    "category": "Arquitetura",
-    "categorySlug": "arquitetura",
-    "authorSlug": "henrique-vianna",
-    "rankingScore": 86,
-    "rankingTier": "B",
-    "originalTitle": "Romanov Sapphire Sells for $4.9 Million at Sotheby's Geneva - Haute Living",
-    "suggestedHook": "Patrimônio & Leilões: Romanov Sapphire É Arrematado por $4.9 Million at Sotheby's Geneva",
-    "summary": "Romanov Sapphire Sells for $4.9 Million at Sotheby's Geneva Haute Living",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM29QOGUxb2duRGtUUWgyZ2k5VjZvUDctdzdKdnVWZUlRQXNzajF4WjVwZmFiMFBmRXlVYjlmR0V1NWlCUnRFMzRmV2dxR2JjbEx5Q1ItTE5wOFZrU2ZsNFJlZndHNzZIaHhVbndLUHVLRnJyNDZpaEtVd0NIbzROVml5VVpmTlZzZXM1dlZQT1ZfSC1n?oc=5",
-    "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-22T01:20:12.390Z",
-    "validityHours": 24,
-    "specsPreview": {
-      "mercado": "Grandes Leilões Internacionais",
-      "custodia": "Refúgio de Liquidez Soberana",
-      "perfil": "Family Offices & Colecionadores",
-      "curadoria": "Henrique Vianna"
-    },
-    "suggestedImage": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&q=80&w=1400",
-    "imageIsFallback": true,
-    "status": "available"
-  },
-  {
-    "id": "pauta-live-relogios-mwr5grje-86sm",
-    "source": "Hodinkee",
-    "sourceCategory": "Alta Relojoaria",
-    "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "authorSlug": "clara-meirelles",
-    "rankingScore": 82,
-    "rankingTier": "B",
-    "originalTitle": "Dispatch: The Patek Philippe Museum Celebrates 25 Years",
-    "suggestedHook": "Dispatch: The Patek Philippe Museum Celebrates 25 Years",
-    "summary": "A quarter century after Philippe Stern opened its doors, his son marks the milestone with a tribute to the founder and a look back at 50 years of the Nautilus.",
-    "sourceUrl": "https://www.hodinkee.com/articles/the-patek-philippe-museum-celebrates-25-years",
-    "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-22T01:20:11.882Z",
-    "validityHours": 24,
-    "specsPreview": {
-      "calibre": "Mecânico de alta complicação",
-      "acabamento": "Tradição artesanal suíça",
-      "curadoria": "Mesa de Alta Horologia",
-      "estilo": "Peça de Colecionador"
-    },
-    "suggestedImage": "https://hodinkee.imgix.net/uploads/articles/dd7ef2c8-92cc-4060-82da-2b571f0f4629/1st-Floor_Patek-Philippe-Collection_5.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=2000",
-    "imageIsFallback": false,
-    "status": "available"
-  },
-  {
-    "id": "pauta-live-relogios-mwr5grjz-5i2v",
-    "source": "Monochrome Watches",
-    "sourceCategory": "Alta Relojoaria",
-    "badgeColor": "border-emerald-500/40 text-emerald-400 bg-emerald-500/10",
-    "category": "Alta Relojoaria",
-    "categorySlug": "relogios",
-    "authorSlug": "clara-meirelles",
-    "rankingScore": 82,
-    "rankingTier": "B",
-    "originalTitle": "The Petrolhead Corner – The Mechatronik M SEC, The 1980s Super-Coupe Reborn",
-    "suggestedHook": "Alta Relojoaria: The Petrolhead Corner – The Mechatronik M SEC, The 1980s Super",
-    "summary": "If, like me, you were around in the 1980s and early 1990s, the era wasn’t always known to be refined or subtle. It was a time of flaunting your wealth and success, the era of Wall Street ‘golden boys’, Miami Vice, and the boom of technology. Just go over some of the cars that were […]",
-    "sourceUrl": "https://monochrome-watches.com/the-petrolhead-corner-mechatronik-m-sec-mercedes-benz-w126-restomod-v8-specs/",
-    "publishedTime": "Detectado ao vivo nas últimas 24h",
-    "createdAt": "2026-11-22T01:20:11.903Z",
-    "validityHours": 24,
-    "specsPreview": {
-      "calibre": "Mecânico de alta complicação",
-      "acabamento": "Tradição artesanal suíça",
-      "curadoria": "Mesa de Alta Horologia",
-      "estilo": "Peça de Colecionador"
-    },
-    "suggestedImage": "https://monochrome-watches.com/app/uploads/2026/11/Mechatronik-M-SEC-Mercedes-Benz-W126-SEC-restomod-Featured-600x237.jpg",
-    "imageIsFallback": false,
     "status": "available"
   }
 ];
