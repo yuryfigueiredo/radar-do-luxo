@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+      "id": "art-miami-vice-ferrari-daytona-falso-5072",
+      "slug": "miami-vice-ferrari-daytona-falso-que-escondia-um-corvette-c3-v8-5-7-de-180-cv-e-o-segundo-freio-dos-dubles",
+      "title": "Miami Vice: o Ferrari Daytona Falso que Escondia um Corvette C3, V8 5.7 de 180 cv e o Segundo Freio dos Dublês",
+      "image": "https://s1.cdn.autoevolution.com/images/news/gallery/jay-leno-drives-the-corvette-that-fooled-millions-as-a-ferrari-on-miami-vice_7.jpg",
+      "sourceUrl": "https://www.autoevolution.com/news/jay-leno-drives-the-corvette-that-fooled-millions-as-a-ferrari-on-miami-vice-278879.html",
+      "categorySlug": "supercarros",
+      "authorSlug": "gabriel-fontes",
+      "publishedAt": "2026-11-23T22:26:43.000Z"
+  },
+  {
       "id": "art-patek-3452-1-dual-time-cottier-65-anos-6147",
       "slug": "patek-3452-1-dual-time-louis-cottier-65-anos-de-cofre-christies-dezembro",
       "title": "Patek Philippe 3452/1 Dual Time: Louis Cottier, 1961 e os 65 Anos de Cofre que a Christie's Reabre em Dezembro",

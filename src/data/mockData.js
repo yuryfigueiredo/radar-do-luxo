@@ -116,6 +116,63 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+      "id": "art-miami-vice-ferrari-daytona-falso-5072",
+      "slug": "miami-vice-ferrari-daytona-falso-que-escondia-um-corvette-c3-v8-5-7-de-180-cv-e-o-segundo-freio-dos-dubles",
+      "title": "Miami Vice: o Ferrari Daytona Falso que Escondia um Corvette C3, V8 5.7 de 180 cv e o Segundo Freio dos Dublês",
+      "category": "Supercarros",
+      "categorySlug": "supercarros",
+      "category_slug": "supercarros",
+      "authorSlug": "gabriel-fontes",
+      "author_slug": "gabriel-fontes",
+      "type": "article",
+      "badge": "CURADORIA RADAR",
+      "date": "23 de novembro de 2026",
+      "readTime": "6 min de leitura",
+      "read_time": "6 min de leitura",
+      "image": "https://s1.cdn.autoevolution.com/images/news/gallery/jay-leno-drives-the-corvette-that-fooled-millions-as-a-ferrari-on-miami-vice_7.jpg",
+      "imageFocus": "center",
+      "image_focus": "center",
+      "excerpt": "Construído por Tom McBurnie sobre um chassi de Corvette C3 de 98 polegadas de entre-eixos, com fibra moldada de um Daytona Spyder de 1972, o conversível que Don Johnson dirigiu em Miami Vice nunca foi uma Ferrari. O V8 350 de 180 hp, o segundo pedal de freio dos dublês e uma conta de US$ 640 mil em tribunais explicam por que ele enganou milhões de espectadores.",
+      "contentParagraphs": [
+        "Em uma tarde de sol em Los Angeles, o conversível preto que Don Johnson dirigiu nas duas primeiras temporadas de Miami Vice voltou às ruas com Jay Leno ao volante e Tom McBurnie no banco do passageiro — o homem que construiu o carro. Sob o capô, o V8 de 350 polegadas cúbicas (5,7 litros) entrega 180 hp, ou 182 cv métricos: números de Corvette, não de Maranello. O carro que a série mandou explodir com um míssil Stinger na estreia da terceira temporada nunca foi destruído; está inteiro, polido, como convidado na garagem de Leno.",
+        "A origem do corpo está num balcão de revendedor de exóticos em Newport Beach, no início dos anos 1980. Tom McBurnie, construtor de kit cars, foi até Al Mardikian negociar réplicas de Shelby Cobra; o preço não agradou. Na saída, McBurnie viu um Daytona Spyder branco de 1972 em consignação e o tomou emprestado por um ano — sem que o dono soubesse — para tirar moldes de fibra de vidro da carroceria. Passou meses reajustando volumes até o corpo caber no chassi do Corvette C3. Mardikian exibiu uma réplica pronta no Balboa Bay Club; a notícia chegou a Michael Mann, criador da série, que quis o carro para Sonny Crockett. A conversão preta de fibra de vidro passou a fazer o papel de um Daytona autêntico.",
+        "A escolha não foi estética, foi de logística. Daytonas verdadeiras eram raríssimas e caras nos anos 1980, e a Ferrari North America recusou o pedido da produção, amparada numa política interna que proibia ceder ou doar carros para televisão. A equipe partiu para o chassi da terceira geração do Corvette, com os primeiros carros de cena montados sobre modelos de 1976 e 1981. Adaptar a silhueta exigiu cirurgia: carroceria de fibra de vidro com nariz em plexiglass preto, portas e para-brisa mais estreitos que os do original. O motivo é aritmética pura. O Daytona real tinha 94,5 polegadas de entre-eixos (2.400 mm); o Corvette, 98 polegadas (2.489 mm). São 89 milímetros a mais de chassi que a fibra precisou disfarçar.",
+        "Por dentro, a farsa foi maquiada com couro Connolly tan e carpete de lã Wilton preto, mas os bancos altos do Corvette ficaram no lugar dos assentos baixos com encostos separados do Daytona. As maçanetas expostas com fechadura embutida e a traseira mais plana também denunciam o C3 a quem olha de perto. Para os dublês, a equipe de stunts instalou um segundo pedal de freio no poço do motorista, ligado apenas ao eixo traseiro: travava as rodas de trás sob comando e mantinha as dianteiras livres para esterçar. No áudio, os editores de som descartavam o registro de fábrica do V8 americano nas cenas de direção e o substituíam por dublagens de um V12 Ferrari genuíno. Na segunda temporada, as réplicas ganharam frente mais lisa, capas de farol fumê, emblemas reposicionados e acabamento de para-brisa equivalente.",
+        "A Ferrari não aceitou o acordo tácito. Moveu ação por violação de marca e por semelhança e, ao fim, ofereceu dois Testarossa de 1986 com uma condição: as Daytonas falsas sairiam de cena. Os produtores aceitaram e escreveram a troca no roteiro. Na estreia da terceira temporada, no episódio When Irish Eyes Are Crying, o Daytona preto de Crockett é atingido por um míssil Stinger e dá lugar ao Testarossa branco. Havia uma terceira réplica em construção pelo fabricante Carl Roberts, abandonada quando o acordo saiu. Uma das réplicas da série foi para um colecionador privado; o carro de cena apareceu no filme Speed Zone, de 1989, e foi restaurado para exposição no Volo Auto Museum. O conversível que a TV 'destruiu' é o mesmo que Leno agora dirige.",
+        "O efeito comercial foi imediato e desproporcional. A operação de McBurnie saltou de uma oficina pequena com funcionários de meio período para 55 pessoas, vendendo dezenas de carros completos e centenas de kits de carroceria. Ele não vendia os emblemas do cavalino; os clientes compravam por conta própria e colavam na frente. A Ferrari enxergou ameaça à exclusividade da marca e processou a McBurnie Coachcraft na justiça federal, sob o Lanham Act, alegando trade dress: a silhueta do Daytona seria distintiva o bastante para que copiá-la, por si, violasse a propriedade intelectual. McBurnie argumentou que suas réplicas eram como litografias, que só ampliavam a fama do original — e o preço de um Daytona usado saltou de cerca de US$ 100 mil a US$ 150 mil para mais de US$ 1,5 milhão em poucos anos. Michael Mann testemunhou a seu favor. A defesa custou US$ 640 mil. Em 28 de abril de 1989, um incêndio devastou a oficina em Santee, na Califórnia; um mês depois, uma liminar federal proibiu a fabricação de réplicas do Daytona, e com ela terminou a McBurnie Coachcraft. O que resta é a lição de engenharia: 89 milímetros de entre-eixos, um viés de freio traseiro para dublês e um V12 tocado em pós-produção bastaram para enganar milhões de espectadores. O carro nunca teve o motor certo; tinha a geometria certa."
+      ],
+      "content_paragraphs": [
+        "Em uma tarde de sol em Los Angeles, o conversível preto que Don Johnson dirigiu nas duas primeiras temporadas de Miami Vice voltou às ruas com Jay Leno ao volante e Tom McBurnie no banco do passageiro — o homem que construiu o carro. Sob o capô, o V8 de 350 polegadas cúbicas (5,7 litros) entrega 180 hp, ou 182 cv métricos: números de Corvette, não de Maranello. O carro que a série mandou explodir com um míssil Stinger na estreia da terceira temporada nunca foi destruído; está inteiro, polido, como convidado na garagem de Leno.",
+        "A origem do corpo está num balcão de revendedor de exóticos em Newport Beach, no início dos anos 1980. Tom McBurnie, construtor de kit cars, foi até Al Mardikian negociar réplicas de Shelby Cobra; o preço não agradou. Na saída, McBurnie viu um Daytona Spyder branco de 1972 em consignação e o tomou emprestado por um ano — sem que o dono soubesse — para tirar moldes de fibra de vidro da carroceria. Passou meses reajustando volumes até o corpo caber no chassi do Corvette C3. Mardikian exibiu uma réplica pronta no Balboa Bay Club; a notícia chegou a Michael Mann, criador da série, que quis o carro para Sonny Crockett. A conversão preta de fibra de vidro passou a fazer o papel de um Daytona autêntico.",
+        "A escolha não foi estética, foi de logística. Daytonas verdadeiras eram raríssimas e caras nos anos 1980, e a Ferrari North America recusou o pedido da produção, amparada numa política interna que proibia ceder ou doar carros para televisão. A equipe partiu para o chassi da terceira geração do Corvette, com os primeiros carros de cena montados sobre modelos de 1976 e 1981. Adaptar a silhueta exigiu cirurgia: carroceria de fibra de vidro com nariz em plexiglass preto, portas e para-brisa mais estreitos que os do original. O motivo é aritmética pura. O Daytona real tinha 94,5 polegadas de entre-eixos (2.400 mm); o Corvette, 98 polegadas (2.489 mm). São 89 milímetros a mais de chassi que a fibra precisou disfarçar.",
+        "Por dentro, a farsa foi maquiada com couro Connolly tan e carpete de lã Wilton preto, mas os bancos altos do Corvette ficaram no lugar dos assentos baixos com encostos separados do Daytona. As maçanetas expostas com fechadura embutida e a traseira mais plana também denunciam o C3 a quem olha de perto. Para os dublês, a equipe de stunts instalou um segundo pedal de freio no poço do motorista, ligado apenas ao eixo traseiro: travava as rodas de trás sob comando e mantinha as dianteiras livres para esterçar. No áudio, os editores de som descartavam o registro de fábrica do V8 americano nas cenas de direção e o substituíam por dublagens de um V12 Ferrari genuíno. Na segunda temporada, as réplicas ganharam frente mais lisa, capas de farol fumê, emblemas reposicionados e acabamento de para-brisa equivalente.",
+        "A Ferrari não aceitou o acordo tácito. Moveu ação por violação de marca e por semelhança e, ao fim, ofereceu dois Testarossa de 1986 com uma condição: as Daytonas falsas sairiam de cena. Os produtores aceitaram e escreveram a troca no roteiro. Na estreia da terceira temporada, no episódio When Irish Eyes Are Crying, o Daytona preto de Crockett é atingido por um míssil Stinger e dá lugar ao Testarossa branco. Havia uma terceira réplica em construção pelo fabricante Carl Roberts, abandonada quando o acordo saiu. Uma das réplicas da série foi para um colecionador privado; o carro de cena apareceu no filme Speed Zone, de 1989, e foi restaurado para exposição no Volo Auto Museum. O conversível que a TV 'destruiu' é o mesmo que Leno agora dirige.",
+        "O efeito comercial foi imediato e desproporcional. A operação de McBurnie saltou de uma oficina pequena com funcionários de meio período para 55 pessoas, vendendo dezenas de carros completos e centenas de kits de carroceria. Ele não vendia os emblemas do cavalino; os clientes compravam por conta própria e colavam na frente. A Ferrari enxergou ameaça à exclusividade da marca e processou a McBurnie Coachcraft na justiça federal, sob o Lanham Act, alegando trade dress: a silhueta do Daytona seria distintiva o bastante para que copiá-la, por si, violasse a propriedade intelectual. McBurnie argumentou que suas réplicas eram como litografias, que só ampliavam a fama do original — e o preço de um Daytona usado saltou de cerca de US$ 100 mil a US$ 150 mil para mais de US$ 1,5 milhão em poucos anos. Michael Mann testemunhou a seu favor. A defesa custou US$ 640 mil. Em 28 de abril de 1989, um incêndio devastou a oficina em Santee, na Califórnia; um mês depois, uma liminar federal proibiu a fabricação de réplicas do Daytona, e com ela terminou a McBurnie Coachcraft. O que resta é a lição de engenharia: 89 milímetros de entre-eixos, um viés de freio traseiro para dublês e um V12 tocado em pós-produção bastaram para enganar milhões de espectadores. O carro nunca teve o motor certo; tinha a geometria certa."
+      ],
+      "specs": {
+        "Chassi e carroceria": "Corvette C3 (1976 e 1981 nos carros de cena) sob carroceria de fibra de vidro moldada de um Daytona Spyder de 1972, com nariz em plexiglass preto",
+        "Entre-eixos": "98 pol (2.489 mm) do Corvette contra 94,5 pol (2.400 mm) do Daytona real — 89 mm de diferença escondidos na fibra",
+        "Motor": "V8 de 350 pol³ (5,7 L) com 180 hp, ou 182 cv métricos",
+        "Cabine": "Couro Connolly tan e carpete de lã Wilton preto, com os bancos altos do Corvette no lugar dos assentos baixos do Daytona",
+        "Dublês e som": "Segundo pedal de freio ligado só ao eixo traseiro e áudio dublado com um V12 Ferrari genuíno",
+        "Desfecho": "US$ 640 mil em custos de defesa no processo de trade dress, incêndio em 28/04/1989 em Santee e liminar que encerrou a McBurnie Coachcraft"
+      },
+      "status": "published",
+      "isHero": true,
+      "is_hero": true,
+      "isHeroSecondary": false,
+      "is_hero_secondary": false,
+      "isPinnedHero": false,
+      "is_pinned_hero": false,
+      "rankingScore": 88,
+      "ranking_score": 88,
+      "engineSource": "qoder:agente-editorial",
+      "publishedAt": "2026-11-23T22:26:43.000Z",
+      "published_at": "2026-11-23T22:26:43.000Z",
+      "sourceUrl": "https://www.autoevolution.com/news/jay-leno-drives-the-corvette-that-fooled-millions-as-a-ferrari-on-miami-vice-278879.html",
+      "source_url": "https://www.autoevolution.com/news/jay-leno-drives-the-corvette-that-fooled-millions-as-a-ferrari-on-miami-vice-278879.html"
+  },
+  {
       "id": "art-patek-3452-1-dual-time-cottier-65-anos-6147",
       "slug": "patek-3452-1-dual-time-louis-cottier-65-anos-de-cofre-christies-dezembro",
       "title": "Patek Philippe 3452/1 Dual Time: Louis Cottier, 1961 e os 65 Anos de Cofre que a Christie's Reabre em Dezembro",
@@ -158,8 +215,8 @@ export const ARTICLES = [
         "Casas em disputa": "Christie's, Sotheby's e Phillips, frente a frente numa única semana de dezembro"
       },
       "status": "published",
-      "isHero": true,
-      "is_hero": true,
+      "isHero": false,
+      "is_hero": false,
       "isHeroSecondary": false,
       "is_hero_secondary": false,
       "isPinnedHero": false,
@@ -1450,58 +1507,6 @@ export const ARTICLES = [
     "published_at": "2026-11-17T18:38:00.112Z",
     "sourceUrl": "https://www.thehenryford.org/collections/explore/articles/1931-bugatti-type-41-royale-convertible-unmatched-style-and-luxury",
     "source_url": "https://www.thehenryford.org/collections/explore/articles/1931-bugatti-type-41-royale-convertible-unmatched-style-and-luxury"
-  },
-  {
-    "id": "art-superiate-de-110-metros-a-impone-2833",
-    "slug": "superiate-de-110-metros-a-imponencia-de-300-milhoes-de-dolares-ancorada-com-estabilizadores-de-giroscopio-ativo-2688",
-    "title": "Superiate de 110 Metros: A Imponência de 300 Milhões de Dólares ancorada com Estabilizadores de Giroscópio Ativo",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "DESTAQUE MUNDIAL",
-    "date": "17 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://image.yachtbuyer.com/w1200/h630/qh/ca/m1/k0a7f14b0/vessel/resource/2131845.jpg",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Uma estrutura de aço e alumínio de 300 milhões de dólares exige precisão balística. O colosso de 110 metros redefine a estabilidade inercial em águas profundas.",
-    "contentParagraphs": [
-      "A silhueta corta o horizonte de Auckland com a frieza de uma lâmina cirúrgica. Não é apenas uma embarcação; é um sistema de suporte à vida isolado, capaz de cruzar oceanos em silêncio absoluto. O casco de deslocamento total, esculpido para minimizar o coeficiente de arrasto hidrodinâmico, repousa sobre a superfície com a autoridade de quem ignora a física das marés.",
-      "Sob o convés principal, a engenharia naval atinge o ápice. Dois propulsores diesel-elétricos de última geração acionam hélices de passo variável, enquanto estabilizadores de aleta com controle de feedback em milissegundos neutralizam qualquer oscilação inercial. O monocoque, reforçado com anteparas de aço de alta resistência, garante que a integridade estrutural permaneça inalterada sob forças G laterais extremas em manobras de emergência.",
-      "O custo de 300 milhões de dólares reflete a complexidade da integração sistêmica. Cada centímetro de tubulação em Inconel 625 e cada sistema de tratamento de águas cinzas é monitorado por telemetria ininterrupta. Enquanto o mercado busca descartabilidade, este projeto prioriza a longevidade dos materiais nobres sob a corrosão salina, estabelecendo um novo padrão de imunidade técnica para ativos navais de alta liquidez.",
-      "A presença desta unidade em Auckland não é acidental, mas uma demonstração de soberania marítima. A engenharia naval, quando elevada a este patamar de complexidade, transcende o transporte para tornar-se uma arquitetura flutuante de refúgio. O veredito é claro: a excelência não aceita atalhos, apenas a precisão bruta da manufatura pesada operando sob o rigor da física."
-    ],
-    "content_paragraphs": [
-      "A silhueta corta o horizonte de Auckland com a frieza de uma lâmina cirúrgica. Não é apenas uma embarcação; é um sistema de suporte à vida isolado, capaz de cruzar oceanos em silêncio absoluto. O casco de deslocamento total, esculpido para minimizar o coeficiente de arrasto hidrodinâmico, repousa sobre a superfície com a autoridade de quem ignora a física das marés.",
-      "Sob o convés principal, a engenharia naval atinge o ápice. Dois propulsores diesel-elétricos de última geração acionam hélices de passo variável, enquanto estabilizadores de aleta com controle de feedback em milissegundos neutralizam qualquer oscilação inercial. O monocoque, reforçado com anteparas de aço de alta resistência, garante que a integridade estrutural permaneça inalterada sob forças G laterais extremas em manobras de emergência.",
-      "O custo de 300 milhões de dólares reflete a complexidade da integração sistêmica. Cada centímetro de tubulação em Inconel 625 e cada sistema de tratamento de águas cinzas é monitorado por telemetria ininterrupta. Enquanto o mercado busca descartabilidade, este projeto prioriza a longevidade dos materiais nobres sob a corrosão salina, estabelecendo um novo padrão de imunidade técnica para ativos navais de alta liquidez.",
-      "A presença desta unidade em Auckland não é acidental, mas uma demonstração de soberania marítima. A engenharia naval, quando elevada a este patamar de complexidade, transcende o transporte para tornar-se uma arquitetura flutuante de refúgio. O veredito é claro: a excelência não aceita atalhos, apenas a precisão bruta da manufatura pesada operando sob o rigor da física."
-    ],
-    "specs": {
-      "Comprimento": "110 metros",
-      "Valor de Mercado": "300 milhões de dólares",
-      "Propulsão": "Diesel-elétrica com hélices de passo variável",
-      "Estabilização": "Giroscópio ativo com feedback de milissegundos",
-      "Estrutura": "Aço de alta resistência e liga de alumínio naval"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "engineSource": "gemini:gemini-3.1-flash-lite",
-    "publishedAt": "2026-11-17T17:09:32.833Z",
-    "published_at": "2026-11-17T17:09:32.833Z",
-    "sourceUrl": "https://www.yachtbuyer.com/en/fleet/ambassador-360-feadship",
-    "source_url": "https://www.yachtbuyer.com/en/fleet/ambassador-360-feadship"
   }
 ];
 
