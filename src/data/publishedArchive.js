@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+      "id": "art-nausicaa-114-2-metros-sete-paineis-de-vidro-de-1050-kg-6382",
+      "slug": "nausicaa-114-2-metros-sete-paineis-de-vidro-de-1050-kg-e-a-galeria-no-lugar-do-salao",
+      "title": "Nausicaä: 114,2 Metros, Sete Painéis de Vidro de 1.050 kg e a Galeria que Substituiu o Salão de Maezawa",
+      "image": "https://cdn.boatinternational.com/files/2026/10/07a823b0-c037-11f1-8630-bd053495f667-Nausicaa_Exterior-%C2%A9Jarmo-Pohjaniemi-Bahamas.jpg",
+      "sourceUrl": "https://www.boatinternational.com/yachts/news/lurssen-project-cosmos-nausicaa-superyacht-interiors-marc-newson",
+      "categorySlug": "destinos",
+      "authorSlug": "henrique-vianna",
+      "publishedAt": "2026-11-23T15:27:15.000Z"
+  },
+  {
       "id": "art-ferrari-275-nart-spider-mcqueen-chassi-10453-4821",
       "slug": "ferrari-275-nart-spider-de-steve-mcqueen-us-18-9-milhoes-pelo-chassi-10453-o-sexto-dos-dez-construidos",
       "title": "Ferrari 275 NART Spider de Steve McQueen: US$ 18,9 Milhões pelo Chassi 10453, o Sexto dos Dez Construídos",

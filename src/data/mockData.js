@@ -116,6 +116,63 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+      "id": "art-nausicaa-114-2-metros-sete-paineis-de-vidro-de-1050-kg-6382",
+      "slug": "nausicaa-114-2-metros-sete-paineis-de-vidro-de-1050-kg-e-a-galeria-no-lugar-do-salao",
+      "title": "Nausicaä: 114,2 Metros, Sete Painéis de Vidro de 1.050 kg e a Galeria que Substituiu o Salão de Maezawa",
+      "category": "Destinos & Iates",
+      "categorySlug": "destinos",
+      "category_slug": "destinos",
+      "authorSlug": "henrique-vianna",
+      "author_slug": "henrique-vianna",
+      "type": "article",
+      "badge": "CURADORIA RADAR",
+      "date": "23 de novembro de 2026",
+      "readTime": "6 min de leitura",
+      "read_time": "6 min de leitura",
+      "image": "https://cdn.boatinternational.com/files/2026/10/07a823b0-c037-11f1-8630-bd053495f667-Nausicaa_Exterior-%C2%A9Jarmo-Pohjaniemi-Bahamas.jpg",
+      "imageFocus": "center",
+      "image_focus": "center",
+      "excerpt": "Entregue em maio de 2026, o Nausicaä de 114,2 metros abre hoje o interior que a Lürssen manteve fechado: sete painéis de vidro de 1.050 kg cada formam a cúpula de 56 m², um átrio de dois níveis ocupa o lugar do salão principal como galeria de arte e a propulsão diesel-elétrica de cinco motores traz, a pedido do armador, a provisão para células a combustível de metanol.",
+      "contentParagraphs": [
+        "A Lürssen abriu hoje a primeira vista interna do Nausicaä, o casco de 114,2 metros que deixou os galpões de construção em maio de 2026 e que a imprensa náutica vem acompanhando desde o lançamento ao mar, em agosto de 2025. Encomendado pelo empresário japonês Yusaku Maezawa, o iate de seis conveses foi desenhado por inteiro — exterior e interior — pelo australiano Marc Newson, mais conhecido na vela pelo Solaris de 139,7 metros. A entrega veio depois de quatro anos de construção, iniciados em janeiro de 2022 segundo a base BOATPro, com boca de 21,1 metros, calado de 4,9 metros e arqueação bruta de 6.593 GT.",
+        "O ponto de partida do exterior não foi um iate, mas um porta-aviões. Newson conta que buscou 'esse formato: grande, largo, funcional, baixo e plano', e que a arquitetura convencional em degraus, a que ele chama de 'bolo de casamento', nunca o atraiu. O resultado é um perfil de explorador de linhas contínuas, com proa quadrada em balanço e volumes internos generosos no lugar dos terraços escalonados. O casco de aço é certificado Ice Class 1D, o que permite navegação em gelo leve e, segundo o estaleiro, abre os cinco oceanos e os sete continentes; a autonomia declarada é de 5.500 milhas náuticas a 13 nós de cruzeiro, com velocidade máxima de 17 nós.",
+        "O interior abandona a hierarquia dos salões em série. Newson propôs eliminar um convés inteiro — 'quantos salões e salas de jantar um barco realmente precisa?' — e o armador aceitou. No lugar do salão principal, ergue-se um átrio de dois níveis com teto de seis metros, dedicado a galeria: peças encomendadas revestem as paredes e uma escultura da dupla Elmgreen & Dragset ocupa o vão circular de pé-direito duplo. O piso foi reforçado para, quando a exposição sair, receber uma coleção de automóveis antigos. No átrio superior, voltado ao convívio, convivem um bar de sushi, mesa de tênis de mesa e sofás embutidos. A paleta de verdes suaves, água e creme vem acompanhada de influências japonesas: paredes de reboco tradicional, detalhes em cedro-vermelho, uma onsen de hinoki e banheiros com pedra extraída do lago Towada.",
+        "A cúpula de vidro que coroa o perfil é a peça de engenharia mais exposta do projeto. São 56 metros quadrados de gabinete privado do armador, ligados a um terraço, cobertos por sete painéis de vidro espesso curvados a quente sob medida — cada um com 3.000 por 2.800 milímetros, 62 milímetros de espessura e 1.050 quilos —, capazes de garantir vista de 360 graus e 3,15 metros de pé-direito. Quatro toldos bronzeados em forma de pétala correm num trilho circular para dosar a luz. O tema se estende numa faixa contínua de vidro que envolve todo o convés superior, termina na proa sob um heliponto certificado e abriga um lounge de observação de 19 metros de largura, com tela de cinema que desce do teto.",
+        "A popa também foi reorganizada em função do uso. O convés aberto de 18 metros traz uma piscina funda o bastante para mergulho, jacuzzi e assentos num amarelo vivo, cor que a maioria dos armadores evitaria. Dali sai um dique seco com sistema de trenó de 16 toneladas que lança e recolhe o sportsfish de 12,5 metros em menos de 30 minutos; recolhidos os trilhos, o poço se converte em terraço de teca abrigado. A frota de apoio inclui um limo tender de 11 metros, um RIB de tripulação de 9,1 metros, dois barcos de resgate de 6,2 metros e um submarino Triton para seis pessoas, único no gênero, também desenhado por Newson. Perto do beach club ficam uma sauna de hóspedes e uma sala de preparo de sushi em funcionamento; no convés principal, um simulador de golfe com arquibancada em estilo cinema.",
+        "A praça de máquinas é diesel-elétrica: cinco motores — dois principais e três auxiliares — acionam pods azimutais totalmente elétricos, e o banco de baterias de até 2 MW sustenta toda a carga hoteleira no pico, permitindo operação silenciosa e sem emissões locais por períodos prolongados. A pedido do armador, o Nausicaä traz ainda a provisão para um sistema de célula a combustível que converte metanol em hidrogênio para gerar eletricidade — a primeira integração do tipo no estaleiro. Sete cabines acomodam o armador e seis hóspedes, com a suíte principal ocupando a seção de popa do convés da ponte; 43 tripulantes se distribuem por 27 cabines, às quais se somam duas cabines para até quatro funcionários. São números de um navio, não de um brinquedo de verão: 6.593 toneladas de arqueação que a Lürssen entrega com a discrição de quem sabe que o verdadeiro lastro de um casco é a engenharia que não aparece nas fotos."
+      ],
+      "content_paragraphs": [
+        "A Lürssen abriu hoje a primeira vista interna do Nausicaä, o casco de 114,2 metros que deixou os galpões de construção em maio de 2026 e que a imprensa náutica vem acompanhando desde o lançamento ao mar, em agosto de 2025. Encomendado pelo empresário japonês Yusaku Maezawa, o iate de seis conveses foi desenhado por inteiro — exterior e interior — pelo australiano Marc Newson, mais conhecido na vela pelo Solaris de 139,7 metros. A entrega veio depois de quatro anos de construção, iniciados em janeiro de 2022 segundo a base BOATPro, com boca de 21,1 metros, calado de 4,9 metros e arqueação bruta de 6.593 GT.",
+        "O ponto de partida do exterior não foi um iate, mas um porta-aviões. Newson conta que buscou 'esse formato: grande, largo, funcional, baixo e plano', e que a arquitetura convencional em degraus, a que ele chama de 'bolo de casamento', nunca o atraiu. O resultado é um perfil de explorador de linhas contínuas, com proa quadrada em balanço e volumes internos generosos no lugar dos terraços escalonados. O casco de aço é certificado Ice Class 1D, o que permite navegação em gelo leve e, segundo o estaleiro, abre os cinco oceanos e os sete continentes; a autonomia declarada é de 5.500 milhas náuticas a 13 nós de cruzeiro, com velocidade máxima de 17 nós.",
+        "O interior abandona a hierarquia dos salões em série. Newson propôs eliminar um convés inteiro — 'quantos salões e salas de jantar um barco realmente precisa?' — e o armador aceitou. No lugar do salão principal, ergue-se um átrio de dois níveis com teto de seis metros, dedicado a galeria: peças encomendadas revestem as paredes e uma escultura da dupla Elmgreen & Dragset ocupa o vão circular de pé-direito duplo. O piso foi reforçado para, quando a exposição sair, receber uma coleção de automóveis antigos. No átrio superior, voltado ao convívio, convivem um bar de sushi, mesa de tênis de mesa e sofás embutidos. A paleta de verdes suaves, água e creme vem acompanhada de influências japonesas: paredes de reboco tradicional, detalhes em cedro-vermelho, uma onsen de hinoki e banheiros com pedra extraída do lago Towada.",
+        "A cúpula de vidro que coroa o perfil é a peça de engenharia mais exposta do projeto. São 56 metros quadrados de gabinete privado do armador, ligados a um terraço, cobertos por sete painéis de vidro espesso curvados a quente sob medida — cada um com 3.000 por 2.800 milímetros, 62 milímetros de espessura e 1.050 quilos —, capazes de garantir vista de 360 graus e 3,15 metros de pé-direito. Quatro toldos bronzeados em forma de pétala correm num trilho circular para dosar a luz. O tema se estende numa faixa contínua de vidro que envolve todo o convés superior, termina na proa sob um heliponto certificado e abriga um lounge de observação de 19 metros de largura, com tela de cinema que desce do teto.",
+        "A popa também foi reorganizada em função do uso. O convés aberto de 18 metros traz uma piscina funda o bastante para mergulho, jacuzzi e assentos num amarelo vivo, cor que a maioria dos armadores evitaria. Dali sai um dique seco com sistema de trenó de 16 toneladas que lança e recolhe o sportsfish de 12,5 metros em menos de 30 minutos; recolhidos os trilhos, o poço se converte em terraço de teca abrigado. A frota de apoio inclui um limo tender de 11 metros, um RIB de tripulação de 9,1 metros, dois barcos de resgate de 6,2 metros e um submarino Triton para seis pessoas, único no gênero, também desenhado por Newson. Perto do beach club ficam uma sauna de hóspedes e uma sala de preparo de sushi em funcionamento; no convés principal, um simulador de golfe com arquibancada em estilo cinema.",
+        "A praça de máquinas é diesel-elétrica: cinco motores — dois principais e três auxiliares — acionam pods azimutais totalmente elétricos, e o banco de baterias de até 2 MW sustenta toda a carga hoteleira no pico, permitindo operação silenciosa e sem emissões locais por períodos prolongados. A pedido do armador, o Nausicaä traz ainda a provisão para um sistema de célula a combustível que converte metanol em hidrogênio para gerar eletricidade — a primeira integração do tipo no estaleiro. Sete cabines acomodam o armador e seis hóspedes, com a suíte principal ocupando a seção de popa do convés da ponte; 43 tripulantes se distribuem por 27 cabines, às quais se somam duas cabines para até quatro funcionários. São números de um navio, não de um brinquedo de verão: 6.593 toneladas de arqueação que a Lürssen entrega com a discrição de quem sabe que o verdadeiro lastro de um casco é a engenharia que não aparece nas fotos."
+      ],
+      "specs": {
+        "Estaleiro e entrega": "Lürssen (Alemanha), 114,2 m; construção desde janeiro de 2022, lançamento em agosto de 2025 e entrega em maio de 2026",
+        "Arquitetura": "Marc Newson, exterior e interior; seis conveses, boca de 21,1 m, calado de 4,9 m e 6.593 GT",
+        "Propulsão": "Diesel-elétrica de cinco motores (2 principais + 3 auxiliares), pods azimutais elétricos e bateria de até 2 MW",
+        "Energia a bordo": "Provisão para célula a combustível de metanol, instalada a pedido do armador — a primeira do estaleiro",
+        "Cúpula de vidro": "56 m², sete painéis de 3.000 × 2.800 mm, 62 mm de espessura e 1.050 kg cada; vista de 360° e 3,15 m de pé-direito",
+        "Autonomia e casco": "5.500 milhas náuticas a 13 nós, velocidade máxima de 17 nós; casco de aço certificado Ice Class 1D"
+      },
+      "status": "published",
+      "isHero": true,
+      "is_hero": true,
+      "isHeroSecondary": false,
+      "is_hero_secondary": false,
+      "isPinnedHero": false,
+      "is_pinned_hero": false,
+      "rankingScore": 92,
+      "ranking_score": 92,
+      "engineSource": "qoder:agente-editorial",
+      "publishedAt": "2026-11-23T15:27:15.000Z",
+      "published_at": "2026-11-23T15:27:15.000Z",
+      "sourceUrl": "https://www.boatinternational.com/yachts/news/lurssen-project-cosmos-nausicaa-superyacht-interiors-marc-newson",
+      "source_url": "https://www.boatinternational.com/yachts/news/lurssen-project-cosmos-nausicaa-superyacht-interiors-marc-newson"
+  },
+  {
       "id": "art-brellum-pilot-39-power-reserve-cosc-46-pecas-4837",
       "slug": "brellum-pilot-39-power-reserve-39-mm-cosc-e-46-pecas-a-chf-3-390",
       "title": "Brellum Pilot 39 Power Reserve: 39 mm, COSC e 46 peças a CHF 3.390",
@@ -156,8 +213,8 @@ export const ARTICLES = [
         "Preço": "CHF 3.390 com impostos; CHF 3.135 para exportação — venda exclusiva em brellum.swiss"
       },
       "status": "published",
-      "isHero": true,
-      "is_hero": true,
+      "isHero": false,
+      "is_hero": false,
       "isHeroSecondary": false,
       "is_hero_secondary": false,
       "isPinnedHero": false,
@@ -1440,58 +1497,6 @@ export const ARTICLES = [
     "published_at": "2026-11-17T15:05:34.098Z",
     "sourceUrl": "https://www.thesupercarblog.com/cristiano-ronaldos-bugatti-centodieci-spotted-in-germany/",
     "source_url": "https://www.thesupercarblog.com/cristiano-ronaldos-bugatti-centodieci-spotted-in-germany/"
-  },
-  {
-    "id": "art-abu-dhabi-mega-marina-o-novo-pol-7951",
-    "slug": "abu-dhabi-mega-marina-o-novo-polo-naval-de-300-bercos-e-a-engenharia-de-picheis-flutuantes-para-superiates-de-160-metros-7939",
-    "title": "Abu Dhabi Mega Marina: O Novo Polo Naval de 300 Berços e a Engenharia de Picheis Flutuantes para Superiates de 160 Metros",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "17 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://bellingham-marine.com/wp-content/uploads/2024/04/Yas-Marina-8-1.jpg",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A capital dos Emirados Árabes Unidos reorganiza a geopolítica náutica global com berços dedicados, calados dragados a 9 metros e infraestrutura cirúrgica para colossos de aço e alumínio.",
-    "contentParagraphs": [
-      "O dinheiro recente busca o espetáculo efêmero. O capital soberano, contudo, exige calado profundo, caldeiras estabilizadas e atracadouros de precisão milimétrica. Abu Dhabi compreendeu essa máxima com brutalidade financeira. A península arábica não oferece apenas povejantes berços ao sol; entrega uma infraestrutura portuária moldada para absorver a frota mais pesada e exigente dos mares globais, ignorando o raso comodismo das marinas mediterrâneas tradicionais. Trata-se de uma ofensiva cirúrgica de engenharia civil voltada para a aristocracia náutica mundial.",
-      "Sob a supervisão de construtores navais e autoridades portuárias locais, os canais de acesso foram dragados a uma profundidade constante de nove metros. O assoalho marinho agora tolera mastodontes com cascos de deslocamento superior a 5.000 toneladas. Cada píer flutuante foi projetado para resistir a correntes de maré severas e ventos térmicos do Golfo Pérsico, ancorado por estacas de aço cravadas diretamente na rocha calcária do fundo marinho. Abastecimento de combustível de alta pureza por hidrantes subterrâneos, linhas de energia de alta tensão isoladas e conexões de fibra óptica de baixa latência formam a espinha dorsal invisível deste refúgio flutuante.",
-      "Enquanto Monaco sofre com a escassez crônica de espaço e portos saturados por embarcações de apoio, os Emirados redesenham a cartografia do luxo náutico. A proposta abandona o conceito de marina recreativa para adotar o rigor de uma base naval privada. Helipontos com certificação para pousos noturnos, alfândega privativa integrada diretamente ao píer e oficinas mecânicas com bancadas de usinagem CNC de cinco eixos operam 24 horas por dia. É a resposta implacável da engenharia costeira frente à inflação de tamanho dos superiates modernos.",
-      "O veredito é inequívoco. Abu Dhabi não está apenas atraindo o turismo de bilionários; está redefinindo o padrão de custódia e manutenção para cascos avaliados em centenas de milhões de dólares. Quando a superestrutura em alumínio de um colosso naval ruma para o Golfo, o proprietário não busca calmas praias. Ele exige a imunidade operacional de um dique seco disfarçado de oásis."
-    ],
-    "content_paragraphs": [
-      "O dinheiro recente busca o espetáculo efêmero. O capital soberano, contudo, exige calado profundo, caldeiras estabilizadas e atracadouros de precisão milimétrica. Abu Dhabi compreendeu essa máxima com brutalidade financeira. A península arábica não oferece apenas povejantes berços ao sol; entrega uma infraestrutura portuária moldada para absorver a frota mais pesada e exigente dos mares globais, ignorando o raso comodismo das marinas mediterrâneas tradicionais. Trata-se de uma ofensiva cirúrgica de engenharia civil voltada para a aristocracia náutica mundial.",
-      "Sob a supervisão de construtores navais e autoridades portuárias locais, os canais de acesso foram dragados a uma profundidade constante de nove metros. O assoalho marinho agora tolera mastodontes com cascos de deslocamento superior a 5.000 toneladas. Cada píer flutuante foi projetado para resistir a correntes de maré severas e ventos térmicos do Golfo Pérsico, ancorado por estacas de aço cravadas diretamente na rocha calcária do fundo marinho. Abastecimento de combustível de alta pureza por hidrantes subterrâneos, linhas de energia de alta tensão isoladas e conexões de fibra óptica de baixa latência formam a espinha dorsal invisível deste refúgio flutuante.",
-      "Enquanto Monaco sofre com a escassez crônica de espaço e portos saturados por embarcações de apoio, os Emirados redesenham a cartografia do luxo náutico. A proposta abandona o conceito de marina recreativa para adotar o rigor de uma base naval privada. Helipontos com certificação para pousos noturnos, alfândega privativa integrada diretamente ao píer e oficinas mecânicas com bancadas de usinagem CNC de cinco eixos operam 24 horas por dia. É a resposta implacável da engenharia costeira frente à inflação de tamanho dos superiates modernos.",
-      "O veredito é inequívoco. Abu Dhabi não está apenas atraindo o turismo de bilionários; está redefinindo o padrão de custódia e manutenção para cascos avaliados em centenas de milhões de dólares. Quando a superestrutura em alumínio de um colosso naval ruma para o Golfo, o proprietário não busca calmas praias. Ele exige a imunidade operacional de um dique seco disfarçado de oásis."
-    ],
-    "specs": {
-      "calado_maximo": "9 metros dragados",
-      "capacidade_bercos": "Até 160 metros de LOA",
-      "infraestrutura": "Píeres flutuantes com ancoragem em estacas de rocha",
-      "conectividade": "Fibra óptica de baixa latência e hidrantes subterrâneos",
-      "tiragem_estrategica": "Expansão portuária soberana"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 92,
-    "ranking_score": 92,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-17T11:11:27.949Z",
-    "published_at": "2026-11-17T11:11:27.949Z",
-    "sourceUrl": "https://www.bellingham-marine.com/project/yas-marina/",
-    "source_url": "https://www.bellingham-marine.com/project/yas-marina/"
   }
 ];
 
