@@ -116,6 +116,63 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+      "id": "art-ferrari-296-challenge-stradale-evo-670-8412",
+      "slug": "ferrari-296-challenge-stradale-e-evo-670-e-700-hp-sem-eletrificacao",
+      "title": "Ferrari 296 Challenge Stradale e Evo: 670 e 700 hp sem eletrificação, e 0,8 s mais rápido em Mugello",
+      "category": "Supercarros",
+      "categorySlug": "supercarros",
+      "category_slug": "supercarros",
+      "authorSlug": "gabriel-fontes",
+      "author_slug": "gabriel-fontes",
+      "type": "article",
+      "badge": "CURADORIA RADAR",
+      "date": "24 de novembro de 2026",
+      "readTime": "6 min de leitura",
+      "read_time": "6 min de leitura",
+      "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/11/IE-Photo-97.jpg",
+      "imageFocus": "center",
+      "image_focus": "center",
+      "excerpt": "A Ferrari apresentou no Finali Mondiali, em Barcelona, a 296 Challenge Stradale de 670 hp e a 296 Challenge Evo de 700 hp, ambas sem o sistema híbrido do 296 de série que soma 820 hp. A versão de rua pesa 308 libras menos que o GTB e gera 1.360 libras de downforce a 155 mph; a de competição baixa 0,8 s a volta em Mugello.",
+      "contentParagraphs": [
+        "A Ferrari revelou no sábado, no Finali Mondiali em Barcelona, duas versões do 296 que dispensam o sistema híbrido do carro de série: a 296 Challenge Stradale, homologada para rua, e a 296 Challenge Evo, atualização do modelo que disputa a série de amadores da marca há dois anos. O 296 padrão soma o V-6 aos motores elétricos e chega a 820 hp combinados. Sem eles, a Stradale entrega 670 hp e a Evo, 700 hp. A Ferrari diz que o corte serve a uma ligação mais direta entre motorista e carro; na prática, os motores elétricos que ajudavam a reduzir o atraso do turbo saem de cena, e a potência passa a ser medida apenas na combustão.",
+        "A conta da Stradale é de massa e pressão aerodinâmica. O carro pesa 308 libras — cerca de 140 kg — menos que o 296 GTB de série, e o pacote gera 1.360 libras de downforce, ou aproximadamente 617 kg, a 155 mph (249 km/h). A receita repete a da 360 Challenge Stradale de 2003, que combinava carroceria mais leve e chassi mais rígido. No visual, um para-choque dianteiro com asa reprojetada para aderência, um inserto grande no capô com saídas de ar do radiador e uma asa traseira ajustável. Dentro, cintos de competição de colo e ombro, ainda que o carro siga legal para as ruas.",
+        "Duas opções mostram o quanto a Ferrari aceitou tirar do carro. Haverá um escape de uso exclusivo em pista, que pode ser instalado ou removido em concessionárias autorizadas, e uma configuração de interior despojada que suprime parte do revestimento e deixa o chassi exposto — segundo a marca, a primeira vez que uma especificação assim é oferecida num modelo de produção. Para quem lê o carro pela balança, é a admissão de um princípio simples: couro, isolamento e acabamento são massa que não gera aderência.",
+        "Sob a pele, o V-6 foi recalibrado para entregar mais torque em baixa rotação, e a transmissão de dupla embreagem de oito marchas recebeu ajustes para sustentar o torque sob carga pesada e operar mais suavemente em giros baixos. Suspensão com acerto dedicado e freios carbono-cerâmicos completam o conjunto. A ficha de rua não foi esquecida: controle de cruzeiro adaptativo e alerta de sonolência seguem no equipamento, lembrando que este é um carro de competição que precisa passar pela homologação.",
+        "A Challenge Evo é o décimo modelo de corrida da linhagem Challenge e se aproxima do GT3 Evo da marca, com aerodinâmica, freios e gerenciamento de motor revisados. A Ferrari mede 12% mais downforce e 4% menos arrasto que o antecessor, com asa traseira de ângulo de ataque 4% maior e mais opções de ajuste para o piloto. Em Mugello, na configuração de máximo downforce, a volta fica 0,8 segundo mais rápida que a do 296 Challenge atual. Os dois carros calçam Pirelli P Zero R e P Zero Trofeo RS.",
+        "O calendário separa os modelos por um trimestre e cerca de US$ 80 mil. A Evo chega no primeiro trimestre de 2027, com preço próximo de US$ 400 mil; a Stradale vem no segundo trimestre, a partir de aproximadamente US$ 320 mil. A série Challenge ganha provas de resistência de 40 minutos na próxima temporada. Para uma marca que no 296 de série usa os motores elétricos para cortar o atraso do turbo e somar 820 hp, o recado é direto: na pista, a conta fecha sem eles."
+      ],
+      "content_paragraphs": [
+        "A Ferrari revelou no sábado, no Finali Mondiali em Barcelona, duas versões do 296 que dispensam o sistema híbrido do carro de série: a 296 Challenge Stradale, homologada para rua, e a 296 Challenge Evo, atualização do modelo que disputa a série de amadores da marca há dois anos. O 296 padrão soma o V-6 aos motores elétricos e chega a 820 hp combinados. Sem eles, a Stradale entrega 670 hp e a Evo, 700 hp. A Ferrari diz que o corte serve a uma ligação mais direta entre motorista e carro; na prática, os motores elétricos que ajudavam a reduzir o atraso do turbo saem de cena, e a potência passa a ser medida apenas na combustão.",
+        "A conta da Stradale é de massa e pressão aerodinâmica. O carro pesa 308 libras — cerca de 140 kg — menos que o 296 GTB de série, e o pacote gera 1.360 libras de downforce, ou aproximadamente 617 kg, a 155 mph (249 km/h). A receita repete a da 360 Challenge Stradale de 2003, que combinava carroceria mais leve e chassi mais rígido. No visual, um para-choque dianteiro com asa reprojetada para aderência, um inserto grande no capô com saídas de ar do radiador e uma asa traseira ajustável. Dentro, cintos de competição de colo e ombro, ainda que o carro siga legal para as ruas.",
+        "Duas opções mostram o quanto a Ferrari aceitou tirar do carro. Haverá um escape de uso exclusivo em pista, que pode ser instalado ou removido em concessionárias autorizadas, e uma configuração de interior despojada que suprime parte do revestimento e deixa o chassi exposto — segundo a marca, a primeira vez que uma especificação assim é oferecida num modelo de produção. Para quem lê o carro pela balança, é a admissão de um princípio simples: couro, isolamento e acabamento são massa que não gera aderência.",
+        "Sob a pele, o V-6 foi recalibrado para entregar mais torque em baixa rotação, e a transmissão de dupla embreagem de oito marchas recebeu ajustes para sustentar o torque sob carga pesada e operar mais suavemente em giros baixos. Suspensão com acerto dedicado e freios carbono-cerâmicos completam o conjunto. A ficha de rua não foi esquecida: controle de cruzeiro adaptativo e alerta de sonolência seguem no equipamento, lembrando que este é um carro de competição que precisa passar pela homologação.",
+        "A Challenge Evo é o décimo modelo de corrida da linhagem Challenge e se aproxima do GT3 Evo da marca, com aerodinâmica, freios e gerenciamento de motor revisados. A Ferrari mede 12% mais downforce e 4% menos arrasto que o antecessor, com asa traseira de ângulo de ataque 4% maior e mais opções de ajuste para o piloto. Em Mugello, na configuração de máximo downforce, a volta fica 0,8 segundo mais rápida que a do 296 Challenge atual. Os dois carros calçam Pirelli P Zero R e P Zero Trofeo RS.",
+        "O calendário separa os modelos por um trimestre e cerca de US$ 80 mil. A Evo chega no primeiro trimestre de 2027, com preço próximo de US$ 400 mil; a Stradale vem no segundo trimestre, a partir de aproximadamente US$ 320 mil. A série Challenge ganha provas de resistência de 40 minutos na próxima temporada. Para uma marca que no 296 de série usa os motores elétricos para cortar o atraso do turbo e somar 820 hp, o recado é direto: na pista, a conta fecha sem eles."
+      ],
+      "specs": {
+        "Motor": "V-6 da 296 sem os motores elétricos do híbrido: 670 hp na Challenge Stradale e 700 hp na Challenge Evo (o 296 de série soma 820 hp)",
+        "Massa e aerodinâmica": "Challenge Stradale 308 lb (cerca de 140 kg) mais leve que o 296 GTB; 1.360 lb de downforce a 155 mph (cerca de 617 kg a 249 km/h)",
+        "Transmissão e chassi": "Dupla embreagem de oito marchas recalibrada, suspensão com acerto dedicado e freios carbono-cerâmicos",
+        "Mugello": "Challenge Evo 0,8 s mais rápida que o 296 Challenge atual no máximo downforce; 12% mais downforce e 4% menos arrasto",
+        "Preços e prazos": "Evo no primeiro trimestre de 2027 por cerca de US$ 400 mil; Stradale no segundo trimestre, a partir de cerca de US$ 320 mil",
+        "Estreia": "Apresentados no sábado no Finali Mondiali, em Barcelona, na Espanha"
+      },
+      "status": "published",
+      "isHero": true,
+      "is_hero": true,
+      "isHeroSecondary": false,
+      "is_hero_secondary": false,
+      "isPinnedHero": false,
+      "is_pinned_hero": false,
+      "rankingScore": 89,
+      "ranking_score": 89,
+      "engineSource": "qoder:agente-editorial",
+      "publishedAt": "2026-11-24T18:22:00.000Z",
+      "published_at": "2026-11-24T18:22:00.000Z",
+      "sourceUrl": "https://interestingengineering.com/photo-story/ferrari-unveils-two-new-296-supercars",
+      "source_url": "https://interestingengineering.com/photo-story/ferrari-unveils-two-new-296-supercars"
+  },
+  {
       "id": "art-top-marques-monaco-2027-galeria-1000-m2-7394",
       "slug": "top-marques-monaco-2027-1000-m2-de-galeria-certificada-para-hipercarros-usados-no-grimaldi-forum",
       "title": "Top Marques Monaco 2027: 1.000 m² de Galeria Certificada para Hipercarros Usados no Grimaldi Forum",
@@ -156,8 +213,8 @@ export const ARTICLES = [
         "Ingressos": "Venda aberta esta semana; oferta early-bird na Black Friday, 27 de novembro, no site do evento"
       },
       "status": "published",
-      "isHero": true,
-      "is_hero": true,
+      "isHero": false,
+      "is_hero": false,
       "isHeroSecondary": false,
       "is_hero_secondary": false,
       "isPinnedHero": false,
@@ -1458,58 +1515,6 @@ export const ARTICLES = [
     "sourceUrl": "https://www.thesupercarblog.com/real-life-gta-6-grotti-cheetah-ferrari-testarossa-replica-on-sale-for-1m/",
     "source_url": "https://www.thesupercarblog.com/real-life-gta-6-grotti-cheetah-ferrari-testarossa-replica-on-sale-for-1m/"
   },
-  {
-    "id": "art-superiates-de-elite-a-fortaleza--4214",
-    "slug": "superiates-de-elite-a-fortaleza-flutuante-de-14-modulos-de-comando-que-integra-sala-de-jogos-de-alta-fidelidade-3716",
-    "title": "Superiates de Elite: A Fortaleza Flutuante de 14 Módulos de Comando que Integra Sala de Jogos de Alta Fidelidade",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "17 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://image.yachtbuyer.com/w1200/h630/qh/ca/m1/k0e56b39c/article/content/3288434/superyacht-under-way.jpg",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Arquitetura naval radical que funde hidrodinâmica de casco displacement, telemetria inercial avançada e espaços imersivos de entretenimento para quatorze convidados em águas internacionais.",
-    "contentParagraphs": [
-      "O aço naval de alta resistência corta as ondas do Atlântico Norte com precisão cirúrgica. Não há concessões à mediocridade neste projeto de engenharia flutuante. A superestrutura em ligas de alumínio e compósitos avançados foi desenhada em túnel de vento hidrodinâmico para mitigar o arrasto parasita. O casco displacement abriga salas de comando de última geração. Cada antepara foi isolada acusticamente com barreiras viscoelásticas multicamadas. O resultado é um silêncio sepulcral que contrasta com a violência cinetica do oceano lá fora.",
-      "No coração desta cidadela náutica, a sala de jogos opera como um centro de processamento tático e entretenimento de ultra-alta fidelidade. Telas modulares de micro-LED ocupam painéis inteiros, calibradas para eliminar qualquer latência de resposta. Quatorze estações ergonômicas, usinadas em blocos maciços de titânio aeroespacial e revestidas em couro de curtimento vegetal, recebem tripulantes e convidados para simulações gráficas em tempo real. Os processadores de última geração operam refrigerados a líquido diretamente pelo sistema de circulação de água salgada dessalinizada.",
-      "A estabilização giroscópica de três eixos neutraliza o balanço do mar, garantindo que a força G lateral da embarcação não interfira na precisão dos comandos visuais. Motores diesel-elétricos de arquitetura modular fornecem gigawatts de energia contínua. Os geradores isolados em câmaras flutuantes operam sem vibração perceptível no piso de teca maciça. A exaustão subaquática abafa o ronco mecânico, preservando a acústica impecável dos ambientes internos onde o processamento digital encontra o isolamento térmico e sonoro absoluto.",
-      "Esta embarcação redefine a soberania em alto-mar ao fundir a brutalidade estrutural naval com a vanguarda do entretenimento imersivo. Enquanto magnatas buscam refúgios terrestres convencionais, o comando desta frota privada transforma o oceano em um laboratório de computação de alta performance. É a engenharia aplicada à soberania absoluta, onde o silêncio do casco encontra a adrenalina dos universos virtuais mais complexos já concebidos pela engenharia de software."
-    ],
-    "content_paragraphs": [
-      "O aço naval de alta resistência corta as ondas do Atlântico Norte com precisão cirúrgica. Não há concessões à mediocridade neste projeto de engenharia flutuante. A superestrutura em ligas de alumínio e compósitos avançados foi desenhada em túnel de vento hidrodinâmico para mitigar o arrasto parasita. O casco displacement abriga salas de comando de última geração. Cada antepara foi isolada acusticamente com barreiras viscoelásticas multicamadas. O resultado é um silêncio sepulcral que contrasta com a violência cinetica do oceano lá fora.",
-      "No coração desta cidadela náutica, a sala de jogos opera como um centro de processamento tático e entretenimento de ultra-alta fidelidade. Telas modulares de micro-LED ocupam painéis inteiros, calibradas para eliminar qualquer latência de resposta. Quatorze estações ergonômicas, usinadas em blocos maciços de titânio aeroespacial e revestidas em couro de curtimento vegetal, recebem tripulantes e convidados para simulações gráficas em tempo real. Os processadores de última geração operam refrigerados a líquido diretamente pelo sistema de circulação de água salgada dessalinizada.",
-      "A estabilização giroscópica de três eixos neutraliza o balanço do mar, garantindo que a força G lateral da embarcação não interfira na precisão dos comandos visuais. Motores diesel-elétricos de arquitetura modular fornecem gigawatts de energia contínua. Os geradores isolados em câmaras flutuantes operam sem vibração perceptível no piso de teca maciça. A exaustão subaquática abafa o ronco mecânico, preservando a acústica impecável dos ambientes internos onde o processamento digital encontra o isolamento térmico e sonoro absoluto.",
-      "Esta embarcação redefine a soberania em alto-mar ao fundir a brutalidade estrutural naval com a vanguarda do entretenimento imersivo. Enquanto magnatas buscam refúgios terrestres convencionais, o comando desta frota privada transforma o oceano em um laboratório de computação de alta performance. É a engenharia aplicada à soberania absoluta, onde o silêncio do casco encontra a adrenalina dos universos virtuais mais complexos já concebidos pela engenharia de software."
-    ],
-    "specs": {
-      "Comprimento Total": "Mais de 100 metros",
-      "Casco": "Aço naval de alta resistência com superestrutura em alumínio",
-      "Propulsão": "Sistema híbrido diesel-elétrico de última geração",
-      "Estabilização": "Giroscópios de três eixos de alta capacidade",
-      "Capacidade de Tripulação e Convidados": "Até 14 estações simultâneas na sala de jogos imersiva"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "engineSource": "gemini:gemini-flash-lite-latest",
-    "publishedAt": "2026-11-17T22:10:34.212Z",
-    "published_at": "2026-11-17T22:10:34.212Z",
-    "sourceUrl": "https://www.yachtbuyer.com/en/news/oceanco-delivers-111m-diesel-electric-superyacht-leviathan-for-gabe-newell",
-    "source_url": "https://www.yachtbuyer.com/en/news/oceanco-delivers-111m-diesel-electric-superyacht-leviathan-for-gabe-newell"
-  }
 ];
 
 

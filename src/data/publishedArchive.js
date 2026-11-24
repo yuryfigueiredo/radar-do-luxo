@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+      "id": "art-ferrari-296-challenge-stradale-evo-670-8412",
+      "slug": "ferrari-296-challenge-stradale-e-evo-670-e-700-hp-sem-eletrificacao",
+      "title": "Ferrari 296 Challenge Stradale e Evo: 670 e 700 hp sem eletrificação, e 0,8 s mais rápido em Mugello",
+      "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/11/IE-Photo-97.jpg",
+      "sourceUrl": "https://interestingengineering.com/photo-story/ferrari-unveils-two-new-296-supercars",
+      "categorySlug": "supercarros",
+      "authorSlug": "gabriel-fontes",
+      "publishedAt": "2026-11-24T18:22:00.000Z"
+  },
+  {
       "id": "art-top-marques-monaco-2027-galeria-1000-m2-7394",
       "slug": "top-marques-monaco-2027-1000-m2-de-galeria-certificada-para-hipercarros-usados-no-grimaldi-forum",
       "title": "Top Marques Monaco 2027: 1.000 m² de Galeria Certificada para Hipercarros Usados no Grimaldi Forum",
