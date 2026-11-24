@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+      "id": "art-holthinrichs-ornament-heritage-gravados-a-mao-6900",
+      "slug": "holthinrichs-signature-ornament-heritage-100-relogios-de-titanio-com-mostradores-gravados-a-mao-a-6900",
+      "title": "Holthinrichs Signature Ornament Heritage: 100 Relógios de Titânio com Mostradores Gravados à Mão em Seis Horas, a € 6.900",
+      "image": "https://monochrome-watches.com/app/uploads/2026/11/Holthinrichs-Signature-Ornament-Heritage-Hand-Engraved-Review-1.jpg",
+      "sourceUrl": "https://monochrome-watches.com/holthinrichs-signature-ornament-heritage-hand-engraved-collection-new-hand-applied-dial-textures-review-price/",
+      "categorySlug": "relogios",
+      "authorSlug": "clara-meirelles",
+      "publishedAt": "2026-11-24T22:20:00.000Z"
+  },
+  {
       "id": "art-ferrari-296-challenge-stradale-evo-670-8412",
       "slug": "ferrari-296-challenge-stradale-e-evo-670-e-700-hp-sem-eletrificacao",
       "title": "Ferrari 296 Challenge Stradale e Evo: 670 e 700 hp sem eletrificação, e 0,8 s mais rápido em Mugello",
