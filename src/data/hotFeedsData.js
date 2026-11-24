@@ -69,7 +69,7 @@ export const INITIAL_HOT_PAUTAS = [
     },
     "suggestedImage": "https://monochrome-watches.com/app/uploads/2026/11/Holthinrichs-Signature-Ornament-Heritage-Hand-Engraved-Review-1-600x237.jpg",
     "imageIsFallback": false,
-    "status": "available"
+    "status": "published"
   },
   {
     "id": "pauta-live-destinos-mwv0s7zz-rq23",
