@@ -116,6 +116,61 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+      "id": "art-top-marques-monaco-2027-galeria-1000-m2-7394",
+      "slug": "top-marques-monaco-2027-1000-m2-de-galeria-certificada-para-hipercarros-usados-no-grimaldi-forum",
+      "title": "Top Marques Monaco 2027: 1.000 m² de Galeria Certificada para Hipercarros Usados no Grimaldi Forum",
+      "category": "Supercarros",
+      "categorySlug": "supercarros",
+      "category_slug": "supercarros",
+      "authorSlug": "henrique-vianna",
+      "author_slug": "henrique-vianna",
+      "type": "article",
+      "badge": "CURADORIA RADAR",
+      "date": "23 de novembro de 2026",
+      "readTime": "5 min de leitura",
+      "read_time": "5 min de leitura",
+      "image": "https://cdn.boatinternational.com/convert/files/2026/11/c75293f0-e74a-11f1-8e2e-6d10e4fb66f9-Top%20Marques%20showroom.png/r%5Bwidth%5D=1920/c75293f0-e74a-11f1-8e2e-6d10e4fb66f9-Top%20Marques%20showroom.webp",
+      "imageFocus": "center",
+      "image_focus": "center",
+      "excerpt": "O Top Marques Monaco abre a 22ª edição de 5 a 9 de maio de 2027 no Grimaldi Forum com mais de 260 veículos, contra 235 em 2026, e estreia uma galeria de 1.000 m² dentro da recém-inaugurada Diaghilev Gallery para supercarros e hipercarros usados recentes — a maior edição da história do salão.",
+      "contentParagraphs": [
+        "O Grimaldi Forum receberá de 5 a 9 de maio de 2027 a vigésima segunda edição do Top Marques Monaco, e o número escolhido para anunciá-la não é um lançamento: são 1.000 metros quadrados de carros com dono anterior. É o Certified Supercar Gallery, espaço dedicado a supercarros usados recentes e hipercarros, que levará o salão a exibir mais de 260 veículos — contra 235 na edição de 2026 — e a registrar a maior edição de sua história. O crescimento, portanto, vem do mercado secundário, não do primeiro.",
+        "A galeria ocupa a recém-inaugurada Diaghilev Gallery, dentro do próprio Grimaldi Forum, e chega com uma proposta incomum para um salão de novidades: o carro já usado, apresentado com curadoria e posto à venda. Emeric Garcia, diretor do evento, resume a lógica em uma frase que interessa a quem adquire patrimônio e não brinquedo: \"Com o Certified Supercar Gallery, passamos a ter uma oferta verdadeiramente completa de supercarros exclusivos para comprar. Um colecionador pode passar um dia no nosso evento e sair tendo comprado o carro dos seus sonhos — é uma experiência rara, e uma que trabalhamos duro para construir.\"",
+        "A escolha não nasce no vácuo. Em 2026, o salão estreou o Luxury Tuners Hall, espaço para construtores sob medida e preparadores de luxo, que retorna em 2027. Com ele, o Top Marques passou a exibir o carro exótico em três estados distintos: o novo, o personalizado e, agora, o usado com procedência declarada. É a arquitetura de um mercado maduro, em que o valor não está apenas na estreia, mas na custódia contínua de uma peça que atravessa décadas sem perder o registro de origem.",
+        "O calendário comercial também se antecipa. Os ingressos para a edição de 2027 abrem ainda esta semana, com uma oferta early-bird lançada na Black Friday, 27 de novembro, no site do evento. Quem pretende avaliar um carro no salão terá, portanto, sete meses para fazer o que o mercado secundário exige: conferir o histórico, confrontar a quilometragem documentada e confirmar a linhagem de manutenção antes de qualquer assinatura.",
+        "Medido com frieza, o anúncio diz menos sobre Mônaco do que sobre o próprio mercado. Um salão que exibe mais de 260 veículos e reserva 1.000 metros quadrados para carros de segunda mão não apenas amplia área: admite que o objeto de desejo já circulou. Para o colecionador de formação patrimonial, é essa a notícia que importa. Um hipercarro recente, com histórico rastreável e venda intermediada por um salão de reputação, deixa de ser objeto de consumo e volta a ser o que sempre foi no fundo: um ativo com certidão de passagem. O Top Marques decide, em 2027, colocar essa certidão à mostra no Grimaldi Forum."
+      ],
+      "content_paragraphs": [
+        "O Grimaldi Forum receberá de 5 a 9 de maio de 2027 a vigésima segunda edição do Top Marques Monaco, e o número escolhido para anunciá-la não é um lançamento: são 1.000 metros quadrados de carros com dono anterior. É o Certified Supercar Gallery, espaço dedicado a supercarros usados recentes e hipercarros, que levará o salão a exibir mais de 260 veículos — contra 235 na edição de 2026 — e a registrar a maior edição de sua história. O crescimento, portanto, vem do mercado secundário, não do primeiro.",
+        "A galeria ocupa a recém-inaugurada Diaghilev Gallery, dentro do próprio Grimaldi Forum, e chega com uma proposta incomum para um salão de novidades: o carro já usado, apresentado com curadoria e posto à venda. Emeric Garcia, diretor do evento, resume a lógica em uma frase que interessa a quem adquire patrimônio e não brinquedo: \"Com o Certified Supercar Gallery, passamos a ter uma oferta verdadeiramente completa de supercarros exclusivos para comprar. Um colecionador pode passar um dia no nosso evento e sair tendo comprado o carro dos seus sonhos — é uma experiência rara, e uma que trabalhamos duro para construir.\"",
+        "A escolha não nasce no vácuo. Em 2026, o salão estreou o Luxury Tuners Hall, espaço para construtores sob medida e preparadores de luxo, que retorna em 2027. Com ele, o Top Marques passou a exibir o carro exótico em três estados distintos: o novo, o personalizado e, agora, o usado com procedência declarada. É a arquitetura de um mercado maduro, em que o valor não está apenas na estreia, mas na custódia contínua de uma peça que atravessa décadas sem perder o registro de origem.",
+        "O calendário comercial também se antecipa. Os ingressos para a edição de 2027 abrem ainda esta semana, com uma oferta early-bird lançada na Black Friday, 27 de novembro, no site do evento. Quem pretende avaliar um carro no salão terá, portanto, sete meses para fazer o que o mercado secundário exige: conferir o histórico, confrontar a quilometragem documentada e confirmar a linhagem de manutenção antes de qualquer assinatura.",
+        "Medido com frieza, o anúncio diz menos sobre Mônaco do que sobre o próprio mercado. Um salão que exibe mais de 260 veículos e reserva 1.000 metros quadrados para carros de segunda mão não apenas amplia área: admite que o objeto de desejo já circulou. Para o colecionador de formação patrimonial, é essa a notícia que importa. Um hipercarro recente, com histórico rastreável e venda intermediada por um salão de reputação, deixa de ser objeto de consumo e volta a ser o que sempre foi no fundo: um ativo com certidão de passagem. O Top Marques decide, em 2027, colocar essa certidão à mostra no Grimaldi Forum."
+      ],
+      "specs": {
+        "Edição e datas": "22ª edição, de 5 a 9 de maio de 2027, no Grimaldi Forum, em Mônaco",
+        "Nova galeria": "Certified Supercar Gallery, 1.000 m² dedicados a supercarros usados recentes e hipercarros",
+        "Localização interna": "Dentro da recém-inaugurada Diaghilev Gallery, no Grimaldi Forum",
+        "Acervo do salão": "Mais de 260 veículos em 2027, contra 235 na edição de 2026",
+        "Antecedente": "Luxury Tuners Hall, estreado em 2026 para construtores sob medida, retorna em 2027",
+        "Ingressos": "Venda aberta esta semana; oferta early-bird na Black Friday, 27 de novembro, no site do evento"
+      },
+      "status": "published",
+      "isHero": true,
+      "is_hero": true,
+      "isHeroSecondary": false,
+      "is_hero_secondary": false,
+      "isPinnedHero": false,
+      "is_pinned_hero": false,
+      "rankingScore": 87,
+      "ranking_score": 87,
+      "engineSource": "qoder:agente-editorial",
+      "publishedAt": "2026-11-24T01:22:55.000Z",
+      "published_at": "2026-11-24T01:22:55.000Z",
+      "sourceUrl": "https://www.boatinternational.com/luxury-yacht-life/top-marques-monaco-unveils-new-supercar-gallery-22nd-edition-show",
+      "source_url": "https://www.boatinternational.com/luxury-yacht-life/top-marques-monaco-unveils-new-supercar-gallery-22nd-edition-show"
+  },
+  {
       "id": "art-miami-vice-ferrari-daytona-falso-5072",
       "slug": "miami-vice-ferrari-daytona-falso-que-escondia-um-corvette-c3-v8-5-7-de-180-cv-e-o-segundo-freio-dos-dubles",
       "title": "Miami Vice: o Ferrari Daytona Falso que Escondia um Corvette C3, V8 5.7 de 180 cv e o Segundo Freio dos Dublês",
@@ -158,8 +213,8 @@ export const ARTICLES = [
         "Desfecho": "US$ 640 mil em custos de defesa no processo de trade dress, incêndio em 28/04/1989 em Santee e liminar que encerrou a McBurnie Coachcraft"
       },
       "status": "published",
-      "isHero": true,
-      "is_hero": true,
+      "isHero": false,
+      "is_hero": false,
       "isHeroSecondary": false,
       "is_hero_secondary": false,
       "isPinnedHero": false,
@@ -1454,59 +1509,6 @@ export const ARTICLES = [
     "published_at": "2026-11-17T22:10:34.212Z",
     "sourceUrl": "https://www.yachtbuyer.com/en/news/oceanco-delivers-111m-diesel-electric-superyacht-leviathan-for-gabe-newell",
     "source_url": "https://www.yachtbuyer.com/en/news/oceanco-delivers-111m-diesel-electric-superyacht-leviathan-for-gabe-newell"
-  },
-  {
-    "id": "art-bugatti-type-41-royale-a-escultu-0112",
-    "slug": "bugatti-type-41-royale-a-escultura-de-bronze-de-rembrandt-que-decorava-o-radiador-do-carro-mais-caro-do-mundo-0095",
-    "title": "Bugatti Type 41 Royale: A Escultura de Bronze de Rembrandt que Decorava o Radiador do Carro Mais Caro do Mundo",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "17 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://www.thehenryford.org/images/thehenryfordlibraries/blog-images/thf90825.jpg?sfvrsn=58470582_0",
-    "imageFocus": "bottom",
-    "image_focus": "bottom",
-    "excerpt": "O lendário elefante erguido, esculpido por Rembrandt Bugatti, emerge da sombra histórica em um leilão de raridades. Uma peça que transcende a ornamentação, consolidando a linhagem do Type 41 como o ápice da engenharia aristocrática.",
-    "contentParagraphs": [
-      "O bronze possui memória. Esta escultura de elefante, concebida por Rembrandt Bugatti, não é apenas um adorno de radiador; é o testemunho da simbiose entre a plasticidade orgânica e o rigor mecânico que definia a casa de Molsheim. A peça evoca a imponência estática de um Type 41 Royale, o veículo de 6,5 metros de comprimento que desafiou a física e a economia da década de 1920.",
-      "Sob a ótica da engenharia de precisão, o Royale era um monstro de 12,7 litros movido por um motor de oito cilindros em linha, operando com tolerâncias de mícrons que fariam inveja às máquinas de usinagem contemporâneas. Enquanto o propulsor destilava potência bruta para mover um chassi de três toneladas, o elefante de bronze, posicionado no topo da grade frontal, enfrentava o fluxo de ar, tornando-se uma sentinela de metal contra o arrasto aerodinâmico.",
-      "A raridade desta peça é absoluta. Com apenas seis unidades do Type 41 Royale produzidas, cada detalhe associado a estes veículos funciona como um ativo de refúgio, imune à volatilidade de mercado. O peso do bronze, a pátina acumulada pelo tempo e a linhagem artística de Rembrandt conferem a este objeto uma liquidez que poucos artefatos de engenharia conseguem sustentar em leilões de alta voltagem.",
-      "Adquirir este elefante é possuir um fragmento da soberania mecânica que Ettore Bugatti impôs ao século XX. Em uma era de componentes descartáveis, a permanência desta escultura é um lembrete visceral de que a engenharia de elite não se destina apenas ao movimento, mas à posteridade. O martelo que cairá sobre este lote selará não apenas uma transação, mas a custódia de um legado inestimável."
-    ],
-    "content_paragraphs": [
-      "O bronze possui memória. Esta escultura de elefante, concebida por Rembrandt Bugatti, não é apenas um adorno de radiador; é o testemunho da simbiose entre a plasticidade orgânica e o rigor mecânico que definia a casa de Molsheim. A peça evoca a imponência estática de um Type 41 Royale, o veículo de 6,5 metros de comprimento que desafiou a física e a economia da década de 1920.",
-      "Sob a ótica da engenharia de precisão, o Royale era um monstro de 12,7 litros movido por um motor de oito cilindros em linha, operando com tolerâncias de mícrons que fariam inveja às máquinas de usinagem contemporâneas. Enquanto o propulsor destilava potência bruta para mover um chassi de três toneladas, o elefante de bronze, posicionado no topo da grade frontal, enfrentava o fluxo de ar, tornando-se uma sentinela de metal contra o arrasto aerodinâmico.",
-      "A raridade desta peça é absoluta. Com apenas seis unidades do Type 41 Royale produzidas, cada detalhe associado a estes veículos funciona como um ativo de refúgio, imune à volatilidade de mercado. O peso do bronze, a pátina acumulada pelo tempo e a linhagem artística de Rembrandt conferem a este objeto uma liquidez que poucos artefatos de engenharia conseguem sustentar em leilões de alta voltagem.",
-      "Adquirir este elefante é possuir um fragmento da soberania mecânica que Ettore Bugatti impôs ao século XX. Em uma era de componentes descartáveis, a permanência desta escultura é um lembrete visceral de que a engenharia de elite não se destina apenas ao movimento, mas à posteridade. O martelo que cairá sobre este lote selará não apenas uma transação, mas a custódia de um legado inestimável."
-    ],
-    "specs": {
-      "Escultor": "Rembrandt Bugatti",
-      "Material": "Bronze fundido",
-      "Aplicação": "Adorno de radiador do Type 41 Royale",
-      "Produção do veículo": "6 unidades chassis",
-      "Motor do Royale": "12.7L I8 aspirado",
-      "Peso do veículo": "Aprox. 3.000 kg"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "engineSource": "gemini:gemini-3.1-flash-lite",
-    "publishedAt": "2026-11-17T18:38:00.112Z",
-    "published_at": "2026-11-17T18:38:00.112Z",
-    "sourceUrl": "https://www.thehenryford.org/collections/explore/articles/1931-bugatti-type-41-royale-convertible-unmatched-style-and-luxury",
-    "source_url": "https://www.thehenryford.org/collections/explore/articles/1931-bugatti-type-41-royale-convertible-unmatched-style-and-luxury"
   }
 ];
 

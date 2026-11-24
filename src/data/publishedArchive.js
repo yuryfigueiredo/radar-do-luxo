@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+      "id": "art-top-marques-monaco-2027-galeria-1000-m2-7394",
+      "slug": "top-marques-monaco-2027-1000-m2-de-galeria-certificada-para-hipercarros-usados-no-grimaldi-forum",
+      "title": "Top Marques Monaco 2027: 1.000 m² de Galeria Certificada para Hipercarros Usados no Grimaldi Forum",
+      "image": "https://cdn.boatinternational.com/convert/files/2026/11/c75293f0-e74a-11f1-8e2e-6d10e4fb66f9-Top%20Marques%20showroom.png/r%5Bwidth%5D=1920/c75293f0-e74a-11f1-8e2e-6d10e4fb66f9-Top%20Marques%20showroom.webp",
+      "sourceUrl": "https://www.boatinternational.com/luxury-yacht-life/top-marques-monaco-unveils-new-supercar-gallery-22nd-edition-show",
+      "categorySlug": "supercarros",
+      "authorSlug": "henrique-vianna",
+      "publishedAt": "2026-11-24T01:22:55.000Z"
+  },
+  {
       "id": "art-miami-vice-ferrari-daytona-falso-5072",
       "slug": "miami-vice-ferrari-daytona-falso-que-escondia-um-corvette-c3-v8-5-7-de-180-cv-e-o-segundo-freio-dos-dubles",
       "title": "Miami Vice: o Ferrari Daytona Falso que Escondia um Corvette C3, V8 5.7 de 180 cv e o Segundo Freio dos Dublês",
