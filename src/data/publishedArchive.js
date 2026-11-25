@@ -12,6 +12,16 @@
 
 export const PUBLISHED_ARCHIVE = [
   {
+      "id": "art-venus-30-toneladas-diesel-las-palmas-7428",
+      "slug": "venus-257-pes-30-toneladas-de-diesel-em-las-palmas-e-tanque-de-145-600-litros",
+      "title": "Venus: 30 Toneladas de Diesel em 3,5 Horas e 145.600 Litros de Tanque no Iate de 257 Pés de Laurene Powell Jobs",
+      "image": "https://luxurylaunches.com/wp-content/uploads/2026/11/superyacht-venus.jpeg",
+      "sourceUrl": "https://luxurylaunches.com/transport/steve-jobs-venus-superyacht-tops-up-tank-at-spain-11242026.php",
+      "categorySlug": "destinos",
+      "authorSlug": "gabriel-fontes",
+      "publishedAt": "2026-11-25T01:22:37.000Z"
+  },
+  {
       "id": "art-holthinrichs-ornament-heritage-gravados-a-mao-6900",
       "slug": "holthinrichs-signature-ornament-heritage-100-relogios-de-titanio-com-mostradores-gravados-a-mao-a-6900",
       "title": "Holthinrichs Signature Ornament Heritage: 100 Relógios de Titânio com Mostradores Gravados à Mão em Seis Horas, a € 6.900",

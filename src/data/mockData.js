@@ -116,6 +116,63 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+      "id": "art-venus-30-toneladas-diesel-las-palmas-7428",
+      "slug": "venus-257-pes-30-toneladas-de-diesel-em-las-palmas-e-tanque-de-145-600-litros",
+      "title": "Venus: 30 Toneladas de Diesel em 3,5 Horas e 145.600 Litros de Tanque no Iate de 257 Pés de Laurene Powell Jobs",
+      "category": "Destinos & Iates",
+      "categorySlug": "destinos",
+      "category_slug": "destinos",
+      "authorSlug": "gabriel-fontes",
+      "author_slug": "gabriel-fontes",
+      "type": "article",
+      "badge": "CURADORIA RADAR",
+      "date": "24 de novembro de 2026",
+      "readTime": "6 min de leitura",
+      "read_time": "6 min de leitura",
+      "image": "https://luxurylaunches.com/wp-content/uploads/2026/11/superyacht-venus.jpeg",
+      "imageFocus": "center",
+      "image_focus": "center",
+      "excerpt": "O iate de 257 pés que Steve Jobs encomendou e não chegou a conhecer atracou no Muelle Sanapú, em Las Palmas, em 18 de novembro: 30 toneladas métricas de diesel marítimo — cerca de 9.300 galões, um quarto de um tanque de 145.600 litros — custaram de US$ 40 mil a US$ 45 mil. O destino seguinte, segundo a fonte, é Palm Beach.",
+      "contentParagraphs": [
+        "O Venus atracou no Muelle Sanapú, ao lado do aquário Poema del Mar, no porto de Las Palmas de Gran Canaria, na quarta-feira, 18 de novembro, e ficou pouco mais de três horas e meia. Não era turismo: era diesel. O casco de 257 pés — cerca de 78 metros — chegou de Gibraltar no encerramento da temporada do Mediterrâneo, recebeu 30 toneladas métricas de diesel marítimo, ou cerca de 9.300 galões norte-americanos, e partiu. A rádio espanhola Cadena SER registrou tripulantes polindo e aplicando primer nos conveses; na hora em que a Luxurylaunches publicou a matéria, o rastreamento do MarineTraffic ainda mostrava o iate nas águas de Las Palmas.",
+        "A conta do abastecimento é a parte que interessa. O tanque do Venus tem 145.600 litros, ou 38.463 galões, e a publicação informa autonomia de 5.000 milhas náuticas a 12 nós. As 30 toneladas representam cerca de um quarto dessa capacidade. Pelos preços de diesel marítimo em Las Palmas naquela semana, o complemento saiu entre US$ 40 mil e US$ 45 mil; encher o tanque até a borda custaria perto de US$ 170 mil. Para traduzir o valor, a matéria recorre a 31 a 35 iPhones 18 Pro Max — uma régua que mede melhor o noticiário de consumo do que a escala do casco.",
+        "A aritmética da própria publicação não fecha. Um quarto de tanque, na autonomia declarada de 5.000 milhas náuticas a 12 nós, cobre cerca de 1.250 milhas — menos de metade das 4.000 milhas da viagem até a Flórida anunciadas no título. Ou o Venus volta a abastecer no caminho, ou o combustível tomado 'só para chegar em casa' é figura de estilo. O que os números garantem é o essencial: 30 toneladas, a 12 nós, valem um quarto de alcance, não uma travessia.",
+        "O barco em si carrega a história que o alimenta. Foi encomendado por Steve Jobs, com desenho de Philippe Starck, e o fundador da Apple morreu antes do lançamento — nunca pisou no convés. Laurene Powell Jobs herdou o casco e o levou do Mediterrâneo à Austrália. As janelas assinatura de 40 pés, contínuas ao longo do costado, dão ao Venus a silhueta de uma loja da Apple flutuante; na ponte, sete iMacs de 27 polegadas ficavam alinhados, um gesto de Cupertino no meio do Atlântico. Vidro desse porte é peso, inércia e carga térmica: cada janela de 40 pés exige estrutura que a sustente, e é aí que o desenho deixa de ser cosmético e vira conta de engenharia.",
+        "O custo de manter tudo isso é a parte que o abastecimento de Las Palmas mal arranha. Segundo a publicação, o Venus exige de US$ 10 milhões a US$ 12 milhões por ano para operar — cerca de US$ 1 milhão por mês, ou US$ 33 mil por dia. Diante disso, uma fatura de US$ 45 mil de diesel é menos de um dia e meio de operação. Laurene Powell Jobs, fundadora da Emerson Collective, tem fortuna estimada em US$ 16 bilhões; o iate de US$ 120 milhões que ela herdou é, na escala do balanço, item de patrimônio, não de fluxo.",
+        "O que sobra depois da conta é o ponto que interessa a quem mede cascos. O Venus queima diesel marítimo, tem tanque de 145,6 mil litros, autonomia declarada em milhas náuticas e uma parada de três horas e meia para encher um quarto do tanque. O iate do homem que pôs um computador no bolso do mundo viaja a 12 nós queimando óleo, e o próximo compromisso registrado é Palm Beach, na Flórida. A elegância, aqui, é a mesma de sempre: quilogramas de combustível, litros de tanque e uma rota traçada sobre água salgada."
+      ],
+      "content_paragraphs": [
+        "O Venus atracou no Muelle Sanapú, ao lado do aquário Poema del Mar, no porto de Las Palmas de Gran Canaria, na quarta-feira, 18 de novembro, e ficou pouco mais de três horas e meia. Não era turismo: era diesel. O casco de 257 pés — cerca de 78 metros — chegou de Gibraltar no encerramento da temporada do Mediterrâneo, recebeu 30 toneladas métricas de diesel marítimo, ou cerca de 9.300 galões norte-americanos, e partiu. A rádio espanhola Cadena SER registrou tripulantes polindo e aplicando primer nos conveses; na hora em que a Luxurylaunches publicou a matéria, o rastreamento do MarineTraffic ainda mostrava o iate nas águas de Las Palmas.",
+        "A conta do abastecimento é a parte que interessa. O tanque do Venus tem 145.600 litros, ou 38.463 galões, e a publicação informa autonomia de 5.000 milhas náuticas a 12 nós. As 30 toneladas representam cerca de um quarto dessa capacidade. Pelos preços de diesel marítimo em Las Palmas naquela semana, o complemento saiu entre US$ 40 mil e US$ 45 mil; encher o tanque até a borda custaria perto de US$ 170 mil. Para traduzir o valor, a matéria recorre a 31 a 35 iPhones 18 Pro Max — uma régua que mede melhor o noticiário de consumo do que a escala do casco.",
+        "A aritmética da própria publicação não fecha. Um quarto de tanque, na autonomia declarada de 5.000 milhas náuticas a 12 nós, cobre cerca de 1.250 milhas — menos de metade das 4.000 milhas da viagem até a Flórida anunciadas no título. Ou o Venus volta a abastecer no caminho, ou o combustível tomado 'só para chegar em casa' é figura de estilo. O que os números garantem é o essencial: 30 toneladas, a 12 nós, valem um quarto de alcance, não uma travessia.",
+        "O barco em si carrega a história que o alimenta. Foi encomendado por Steve Jobs, com desenho de Philippe Starck, e o fundador da Apple morreu antes do lançamento — nunca pisou no convés. Laurene Powell Jobs herdou o casco e o levou do Mediterrâneo à Austrália. As janelas assinatura de 40 pés, contínuas ao longo do costado, dão ao Venus a silhueta de uma loja da Apple flutuante; na ponte, sete iMacs de 27 polegadas ficavam alinhados, um gesto de Cupertino no meio do Atlântico. Vidro desse porte é peso, inércia e carga térmica: cada janela de 40 pés exige estrutura que a sustente, e é aí que o desenho deixa de ser cosmético e vira conta de engenharia.",
+        "O custo de manter tudo isso é a parte que o abastecimento de Las Palmas mal arranha. Segundo a publicação, o Venus exige de US$ 10 milhões a US$ 12 milhões por ano para operar — cerca de US$ 1 milhão por mês, ou US$ 33 mil por dia. Diante disso, uma fatura de US$ 45 mil de diesel é menos de um dia e meio de operação. Laurene Powell Jobs, fundadora da Emerson Collective, tem fortuna estimada em US$ 16 bilhões; o iate de US$ 120 milhões que ela herdou é, na escala do balanço, item de patrimônio, não de fluxo.",
+        "O que sobra depois da conta é o ponto que interessa a quem mede cascos. O Venus queima diesel marítimo, tem tanque de 145,6 mil litros, autonomia declarada em milhas náuticas e uma parada de três horas e meia para encher um quarto do tanque. O iate do homem que pôs um computador no bolso do mundo viaja a 12 nós queimando óleo, e o próximo compromisso registrado é Palm Beach, na Flórida. A elegância, aqui, é a mesma de sempre: quilogramas de combustível, litros de tanque e uma rota traçada sobre água salgada."
+      ],
+      "specs": {
+        "Casco / Dimensão": "257 pés (cerca de 78 m), com janelas assinatura de 40 pés ao longo do costado",
+        "Tanque / Combustível": "Diesel marítimo; tanque de 145.600 litros (38.463 galões)",
+        "Autonomia": "5.000 milhas náuticas a 12 nós com o tanque cheio",
+        "Abastecimento em Las Palmas": "30 toneladas métricas (~9.300 galões), cerca de um quarto do tanque, em ~3,5 h atracado no Muelle Sanapú",
+        "Custo do diesel": "US$ 40 mil a US$ 45 mil pelo complemento; cerca de US$ 170 mil o tanque cheio",
+        "Procedência / Comando": "Encomendado por Steve Jobs, desenho de Philippe Starck; hoje de Laurene Powell Jobs (Emerson Collective, US$ 16 bi); destino seguinte Palm Beach, Flórida"
+      },
+      "status": "published",
+      "isHero": true,
+      "is_hero": true,
+      "isHeroSecondary": false,
+      "is_hero_secondary": false,
+      "isPinnedHero": false,
+      "is_pinned_hero": false,
+      "rankingScore": 89,
+      "ranking_score": 89,
+      "engineSource": "qoder:agente-editorial",
+      "publishedAt": "2026-11-25T01:22:37.000Z",
+      "published_at": "2026-11-25T01:22:37.000Z",
+      "sourceUrl": "https://luxurylaunches.com/transport/steve-jobs-venus-superyacht-tops-up-tank-at-spain-11242026.php",
+      "source_url": "https://luxurylaunches.com/transport/steve-jobs-venus-superyacht-tops-up-tank-at-spain-11242026.php"
+  },
+  {
       "id": "art-holthinrichs-ornament-heritage-gravados-a-mao-6900",
       "slug": "holthinrichs-signature-ornament-heritage-100-relogios-de-titanio-com-mostradores-gravados-a-mao-a-6900",
       "title": "Holthinrichs Signature Ornament Heritage: 100 Relógios de Titânio com Mostradores Gravados à Mão em Seis Horas, a € 6.900",
@@ -158,8 +215,8 @@ export const ARTICLES = [
         "Tiragem / Preço": "Quatro edições de 25 peças (100 no total), € 6.900 sem impostos; 30 primeiras entregues antes de junho de 2027"
       },
       "status": "published",
-      "isHero": true,
-      "is_hero": true,
+      "isHero": false,
+      "is_hero": false,
       "isHeroSecondary": false,
       "is_hero_secondary": false,
       "isPinnedHero": false,
@@ -1462,63 +1519,7 @@ export const ARTICLES = [
     "sourceUrl": "https://www.arabianbusiness.com/business/transport/abu-dhabi-rolls-out-the-red-carpet-for-the-worlds-superyacht-owners",
     "source_url": "https://www.arabianbusiness.com/business/transport/abu-dhabi-rolls-out-the-red-carpet-for-the-worlds-superyacht-owners"
   },
-  {
-    "id": "art-bugatti-type-37-1925-chassi-37102-4418",
-    "slug": "bugatti-type-37-de-1925-o-quarto-chassi-do-ano-zero-quase-meio-seculo-na-mesma-familia-vai-ao-leilao-de-paris-com-chao-de-650-mil-4418",
-    "title": "Bugatti Type 37 de 1925: O Quarto Chassi do Ano Zero, Quase Meio Século na Mesma Família, Vai ao Leilão de Paris com Chão de € 650 Mil",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "17 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://media.zenfs.com/en/motorious_297/7695bf7091d8c193946fe5407818feae",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "O chassi 37102 é o último dos quatro Type 37 de 1925 e o mais antigo do modelo que se conhece. A cadeia documental — quase meio século numa única família, laudo Laugier no dossiê — vale mais que o metal: € 650.000 a € 850.000 no primeiro leilão da Broad Arrow em Paris.",
-    "contentParagraphs": [
-      "Existe uma distância física entre um carro velho e um carro preservado, e ela não está na pintura: está naquilo que ainda é de fábrica sob o tanque. A Broad Arrow colocou em catálogo o chassi 37102, quarto e último Type 37 construído em 1925 — o ano zero do modelo — e nenhuma outra unidade daquele ano é conhecida hoje. Avaliação anunciada: € 650.000 a € 850.000.",
-      "O Type 37 foi a resposta de Molsheim à categoria voiturette: mesmo porte e mesma filosofia de chassi do Type 35, mas no lugar do oito-em-linha um quatro-cilindros de 1,5 litro com comando no cabeçote, cerca de 60 cv. Foi decisão de engenharia e de caixa registradora ao mesmo tempo: mais barato de construir e de manter, entregue a particulares que corriam de verdade, assumindo o papel de pequena cilindrada que fora do Type 13 Brescia. Em 1927 apareceu o 37A, com compressora e algo em torno de 20 cv extras. A produção total do modelo gira perto de 210 unidades — número grande para um Bugatti de corrida, mínimo para quem procura um exemplar com esta procedência.",
-      "O que sustenta a avaliação não é o metal, é a cadeia documental. A casa descreve histórico de propriedade contínuo e documentado, um círculo pequeno de donos desde a entrega, e quase meio século nas mãos de uma única família. O laudo do especialista e historiador Pierre-Yves Laugier está arquivado no dossiê do lote. E o carro não foi conservado em vitrine: correu o Grand Prix de Monaco Historique, o Prescott Speed Hill Climb e o Klausenrennen Revival — três provas que exigem que ignição, freio e suspensão funcionem em sequência, e não apenas no dia da fotografia de catálogo.",
-      "O mercado recente dá a moldura do número. Um Type 37 de 1929 foi arrematado pela Bonhams em Knokke-Heist em outubro de 2023 por US$ 1.217.160, e um 1928 em configuração Grand Prix está registrado em US$ 747.500. No outro extremo, um 1926 vendido pela mesma Bonhams em 2011 por US$ 317.061 havia sido montado sobre chassi de Bugatti Club com mecânica original vinda de outro carro: dirigível, ofertado com honestidade, e precificado a um quinto do exemplar documentado. Em agosto de 2026, o chassi 37212 — um 1927 — não vendeu na praça da Broad Arrow em Ann Arbor contra um chão próximo de £ 415.800 a £ 491.400. É liquidez seletiva, num mercado clássico que a Hagerty mede em resfriamento.",
-      "A data pesa mais que o martelo: 3 de fevereiro de 2027, no The Peninsula Paris, a partir das 11h30 CET, na semana do Rétromobile, no primeiro leilão da casa na capital francesa. Um chassi de ano zero com cadeia ininterrupta é patrimônio mecânico no sentido estrito — não depende de ciclo de bateria, de atualização de firmware nem de licença de serviço para continuar existindo daqui a vinte anos. O catálogo, por ora, é parcimonioso: a própria Broad Arrow informa que detalhará condição mecânica e cosmética. É exatamente nesse vão entre a raridade testemunhada e a condição descrita que se decide se os € 850.000 do teto são linha de chegada ou simples ponto de partida da conversa."
-    ],
-    "content_paragraphs": [
-      "Existe uma distância física entre um carro velho e um carro preservado, e ela não está na pintura: está naquilo que ainda é de fábrica sob o tanque. A Broad Arrow colocou em catálogo o chassi 37102, quarto e último Type 37 construído em 1925 — o ano zero do modelo — e nenhuma outra unidade daquele ano é conhecida hoje. Avaliação anunciada: € 650.000 a € 850.000.",
-      "O Type 37 foi a resposta de Molsheim à categoria voiturette: mesmo porte e mesma filosofia de chassi do Type 35, mas no lugar do oito-em-linha um quatro-cilindros de 1,5 litro com comando no cabeçote, cerca de 60 cv. Foi decisão de engenharia e de caixa registradora ao mesmo tempo: mais barato de construir e de manter, entregue a particulares que corriam de verdade, assumindo o papel de pequena cilindrada que fora do Type 13 Brescia. Em 1927 apareceu o 37A, com compressora e algo em torno de 20 cv extras. A produção total do modelo gira perto de 210 unidades — número grande para um Bugatti de corrida, mínimo para quem procura um exemplar com esta procedência.",
-      "O que sustenta a avaliação não é o metal, é a cadeia documental. A casa descreve histórico de propriedade contínuo e documentado, um círculo pequeno de donos desde a entrega, e quase meio século nas mãos de uma única família. O laudo do especialista e historiador Pierre-Yves Laugier está arquivado no dossiê do lote. E o carro não foi conservado em vitrine: correu o Grand Prix de Monaco Historique, o Prescott Speed Hill Climb e o Klausenrennen Revival — três provas que exigem que ignição, freio e suspensão funcionem em sequência, e não apenas no dia da fotografia de catálogo.",
-      "O mercado recente dá a moldura do número. Um Type 37 de 1929 foi arrematado pela Bonhams em Knokke-Heist em outubro de 2023 por US$ 1.217.160, e um 1928 em configuração Grand Prix está registrado em US$ 747.500. No outro extremo, um 1926 vendido pela mesma Bonhams em 2011 por US$ 317.061 havia sido montado sobre chassi de Bugatti Club com mecânica original vinda de outro carro: dirigível, ofertado com honestidade, e precificado a um quinto do exemplar documentado. Em agosto de 2026, o chassi 37212 — um 1927 — não vendeu na praça da Broad Arrow em Ann Arbor contra um chão próximo de £ 415.800 a £ 491.400. É liquidez seletiva, num mercado clássico que a Hagerty mede em resfriamento.",
-      "A data pesa mais que o martelo: 3 de fevereiro de 2027, no The Peninsula Paris, a partir das 11h30 CET, na semana do Rétromobile, no primeiro leilão da casa na capital francesa. Um chassi de ano zero com cadeia ininterrupta é patrimônio mecânico no sentido estrito — não depende de ciclo de bateria, de atualização de firmware nem de licença de serviço para continuar existindo daqui a vinte anos. O catálogo, por ora, é parcimonioso: a própria Broad Arrow informa que detalhará condição mecânica e cosmética. É exatamente nesse vão entre a raridade testemunhada e a condição descrita que se decide se os € 850.000 do teto são linha de chegada ou simples ponto de partida da conversa."
-    ],
-    "specs": {
-      "Chassi": "37102 — quarto e último Type 37 de 1925, o mais antigo conhecido",
-      "Motor": "Quatro-cilindros 1,5 litro, comando no cabeçote, cerca de 60 cv",
-      "Tiragem do modelo": "Cerca de 210 unidades de Type 37, todas as séries",
-      "Procedência": "Molsheim, França — Bugatti, ano-zero do modelo",
-      "Praça": "The Paris Auction 2027 — 3 de fevereiro, The Peninsula Paris, 11h30 CET",
-      "Avaliação": "€ 650.000 a € 850.000"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 88,
-    "ranking_score": 88,
-    "engineSource": "qoder:agente-editorial",
-    "publishedAt": "2026-11-18T01:36:29.842Z",
-    "published_at": "2026-11-18T01:36:29.842Z",
-    "sourceUrl": "https://www.motorious.com/articles/auction/oldest-surviving-bugatti-type-37-heads-to-broad-arrows-paris-auction-after-nearly-50-years-in-one-family/",
-    "source_url": "https://www.motorious.com/articles/auction/oldest-surviving-bugatti-type-37-heads-to-broad-arrows-paris-auction-after-nearly-50-years-in-one-family/"
-  },
 ];
-
 
 export const FILMSTRIP_ITEMS = [
   {
