@@ -1700,5 +1700,15 @@ export const PUBLISHED_ARCHIVE = [
     "categorySlug": "relogios",
     "authorSlug": "clara-meirelles",
     "publishedAt": "2026-11-23T01:27:01.000Z"
+  },
+  {
+    "id": "art-o3-109-metros-proa-quebra-gelo-gibraltar-3847",
+    "slug": "o3-109-metros-de-proa-quebra-gelo-em-gibraltar-com-300-milhoes-estimados-e-8-anos-de-obra-sem-dono-confirmado",
+    "title": "O3: 109 Metros de Proa Quebra-Gelo em Gibraltar, € 300 Milhões Estimados e 8 Anos de Obra sem Dono Confirmado",
+    "image": "https://www.theolivepress.es/wp-content/uploads/2026/11/o3-superyacht-gibraltar-2.jpg",
+    "sourceUrl": "https://www.theolivepress.es/spain-news/2026-11-25/superyacht-docks-in-gibraltar-warner-music-billionaire/",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-26T22:26:00.000Z"
   }
 ];
