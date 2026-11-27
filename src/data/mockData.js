@@ -116,6 +116,61 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+      "id": "art-feadship-love-7975-metros-portsmouth-6312",
+      "slug": "feadship-love-7975-metros-2450-gt-quatro-caterpillar-c32-1470-hp-project-716-portsmouth",
+      "title": "Feadship Love: 79,75 Metros, 2.450 GT e Quatro Caterpillar C32 de 1.470 hp Após Quatro Anos como Project 716",
+      "category": "Destinos & Iates",
+      "categorySlug": "destinos",
+      "category_slug": "destinos",
+      "authorSlug": "gabriel-fontes",
+      "author_slug": "gabriel-fontes",
+      "type": "article",
+      "badge": "CURADORIA RADAR",
+      "date": "27 de novembro de 2026",
+      "readTime": "5 min de leitura",
+      "read_time": "5 min de leitura",
+      "image": "https://image.yachtbuyer.com/w1440/h755/qh/ca/k0e532645/cms/photo/3726613.jpg",
+      "imageFocus": "center",
+      "image_focus": "center",
+      "excerpt": "A Feadship entregou a Love — 79,75 metros, casco de aço, superestrutura de alumínio e 2.450 GT de volume interno — depois de mais de quatro anos de obra sob o codinome Project 716. A arquitetura naval e o exterior são da Studio De Voogt, os interiores da Sinot Yacht Architecture & Design, e a propulsão é diesel-elétrica com pod drives movidos por quatro Caterpillar C32 de 1.470 hp cada. Pelo AIS citado na apuração, o iate saiu de IJmuiden em 22 de novembro e chegou a Portsmouth, no Reino Unido, em 23 de novembro, já com a bandeira das Ilhas Cayman no registro e velocidade máxima, cruzeiro e autonomia ainda não divulgados.",
+      "contentParagraphs": [
+      "A Feadship entregou a Love — 79,75 metros de comprimento, casco de aço, superestrutura de alumínio e aproximadamente 2.450 GT de volume interno — depois de uma obra de mais de quatro anos que correu sob o codinome Project 716. O exterior e a arquitetura naval são da Studio De Voogt; os interiores, da Sinot Yacht Architecture & Design. Pelos dados de AIS citados na apuração, o iate deixou IJmuiden, na Holanda, em 22 de novembro e atracou em Portsmouth, no Reino Unido, no dia seguinte. É o primeiro deslocamento registrado da embarcação como bem entregue, e não como ativo de estaleiro.",
+      "O dado mais revelador da ficha é como a energia chega à água: propulsão diesel-elétrica com pod drives, alimentada por quatro Caterpillar C32 de 1.470 hp cada. Não há linha de eixo ligando motor a hélice — os motores geram, os pods empurram, e é o giro do pod que faz o leme. Num casco de deslocamento de 2.450 GT, trocar o comando mecânico direto por essa cadeia é decisão com preço: entra o silêncio de um grupo motor desacoplado da estrutura e o empuxo posicionado onde o casco precisa, sai a resposta imediata de uma engrenagem transmitida ao convés. A Feadship escreveu essa escolha no projeto antes de o iate ter nome pintado.",
+      "A geometria contraria o hábito dos 80 metros que buscam presença por altura. São 13,5 metros de boca para 79,75 de comprimento — razão de 5,9 para um — e 3,3 metros de calado, números de casco de deslocamento clássico, administrados por ângulo de entrada na água em vez de planeio. A proa é quase vertical e incomumente alta, o tombadel dianteiro é largo e limpo, e os conveses superiores recuam degrau a degrau na direção da popa, com uma área social ampla baixa, junto à água. Três faixas contínuas de vidro escuro atravessam a superestrutura para fragmentar a leitura horizontal dos 2.450 GT. São quatro níveis externos de convés, em teca, com classificação Lloyd's Register.",
+      "A obra correu em duas cidades holandesas e longe do público, como a própria ficha registra. O casco de aço e o alumínio do sobrecasco foram montados no Scheepswerf Slob, em Papendrecht, e apareceram em 29 de abril de 2025; seguiram para o estaleiro Koninklijke De Vries, em Aalsmeer, onde a Love foi finalizada e lançada em agosto de 2026. O nome só ficou visível no fim de setembro, quando ela desceu para Rotterdam. As provas começaram em outubro — 12 de outubro na altura do Maasvlakte e, dois dias depois, manobras entre IJmuiden e Zandvoort — e a entrega veio em novembro. O casco havia sido vendido em 2022, ainda sem acabamento.",
+      "A Love entra num fluxo que a Feadship vem cadenciando: o Milky Way de 90 metros, entregue em 2026 com De Voogt no exterior e RWD nos interiores, e o Moonrise de 101 metros, de 2025, com Studio De Voogt e Rémi Tessier, saíram na frente dela, e o MarketWatch contava 18 iates do estaleiro no caderno de pedidos. Da Love, os números que seguem fechados são justamente os que se procuraria primeiro numa leitura de desempenho — velocidade máxima, velocidade de cruzeiro, autonomia e capacidade de hóspedes não foram publicados, e os detalhes dos interiores da Sinot nunca chegaram ao público durante a construção. O registro aberto mais preciso disponível é a bandeira: Ilhas Cayman. Setenta e nove metros e setenta e cinco centímetros de aço, 5.880 hp instalados, e o que se conhece dele é o casco."
+    ],
+      "content_paragraphs": [
+      "A Feadship entregou a Love — 79,75 metros de comprimento, casco de aço, superestrutura de alumínio e aproximadamente 2.450 GT de volume interno — depois de uma obra de mais de quatro anos que correu sob o codinome Project 716. O exterior e a arquitetura naval são da Studio De Voogt; os interiores, da Sinot Yacht Architecture & Design. Pelos dados de AIS citados na apuração, o iate deixou IJmuiden, na Holanda, em 22 de novembro e atracou em Portsmouth, no Reino Unido, no dia seguinte. É o primeiro deslocamento registrado da embarcação como bem entregue, e não como ativo de estaleiro.",
+      "O dado mais revelador da ficha é como a energia chega à água: propulsão diesel-elétrica com pod drives, alimentada por quatro Caterpillar C32 de 1.470 hp cada. Não há linha de eixo ligando motor a hélice — os motores geram, os pods empurram, e é o giro do pod que faz o leme. Num casco de deslocamento de 2.450 GT, trocar o comando mecânico direto por essa cadeia é decisão com preço: entra o silêncio de um grupo motor desacoplado da estrutura e o empuxo posicionado onde o casco precisa, sai a resposta imediata de uma engrenagem transmitida ao convés. A Feadship escreveu essa escolha no projeto antes de o iate ter nome pintado.",
+      "A geometria contraria o hábito dos 80 metros que buscam presença por altura. São 13,5 metros de boca para 79,75 de comprimento — razão de 5,9 para um — e 3,3 metros de calado, números de casco de deslocamento clássico, administrados por ângulo de entrada na água em vez de planeio. A proa é quase vertical e incomumente alta, o tombadel dianteiro é largo e limpo, e os conveses superiores recuam degrau a degrau na direção da popa, com uma área social ampla baixa, junto à água. Três faixas contínuas de vidro escuro atravessam a superestrutura para fragmentar a leitura horizontal dos 2.450 GT. São quatro níveis externos de convés, em teca, com classificação Lloyd's Register.",
+      "A obra correu em duas cidades holandesas e longe do público, como a própria ficha registra. O casco de aço e o alumínio do sobrecasco foram montados no Scheepswerf Slob, em Papendrecht, e apareceram em 29 de abril de 2025; seguiram para o estaleiro Koninklijke De Vries, em Aalsmeer, onde a Love foi finalizada e lançada em agosto de 2026. O nome só ficou visível no fim de setembro, quando ela desceu para Rotterdam. As provas começaram em outubro — 12 de outubro na altura do Maasvlakte e, dois dias depois, manobras entre IJmuiden e Zandvoort — e a entrega veio em novembro. O casco havia sido vendido em 2022, ainda sem acabamento.",
+      "A Love entra num fluxo que a Feadship vem cadenciando: o Milky Way de 90 metros, entregue em 2026 com De Voogt no exterior e RWD nos interiores, e o Moonrise de 101 metros, de 2025, com Studio De Voogt e Rémi Tessier, saíram na frente dela, e o MarketWatch contava 18 iates do estaleiro no caderno de pedidos. Da Love, os números que seguem fechados são justamente os que se procuraria primeiro numa leitura de desempenho — velocidade máxima, velocidade de cruzeiro, autonomia e capacidade de hóspedes não foram publicados, e os detalhes dos interiores da Sinot nunca chegaram ao público durante a construção. O registro aberto mais preciso disponível é a bandeira: Ilhas Cayman. Setenta e nove metros e setenta e cinco centímetros de aço, 5.880 hp instalados, e o que se conhece dele é o casco."
+    ],
+      "specs": {
+      "Casco / Volume": "Aço naval com superestrutura de alumínio — 2.450 GT de arqueação bruta, classificação Lloyd's Register",
+      "Dimensões": "79,75 m (261'8\") de comprimento, boca de 13,5 m (44'3\"), calado de 3,3 m (10'10\")",
+      "Propulsão": "Diesel-elétrica com pod drives: quatro Caterpillar C32 de 1.470 hp cada — 5.880 hp instalados",
+      "Estaleiro / Obra": "Casco no Scheepswerf Slob (Papendrecht), acabamento na Koninklijke De Vries (Aalsmeer); lançamento em agosto de 2026",
+      "Projeto": "Exterior e arquitetura naval da Studio De Voogt; interiores da Sinot Yacht Architecture & Design",
+      "Entrega / Rota": "Novembro de 2026 — IJmuiden em 22 de novembro, Portsmouth (Reino Unido) em 23; bandeira das Ilhas Cayman"
+    },
+      "status": "published",
+      "isHero": true,
+      "is_hero": true,
+      "isHeroSecondary": false,
+      "is_hero_secondary": false,
+      "isPinnedHero": false,
+      "is_pinned_hero": false,
+      "rankingScore": 89,
+      "ranking_score": 89,
+      "engineSource": "qoder:agente-editorial",
+      "publishedAt": "2026-11-27T22:26:00.000Z",
+      "published_at": "2026-11-27T22:26:00.000Z",
+      "sourceUrl": "https://www.yachtbuyer.com/en-us/news/80m-feadship-superyacht-love-delivered",
+      "source_url": "https://www.yachtbuyer.com/en-us/news/80m-feadship-superyacht-love-delivered"
+  },
+  {
       "id": "art-bugatti-bolide-r0016-115-km-795019-4731",
       "slug": "bugatti-bolide-r0016-115-km-chassi-795019-w16-1578-cv-martelo-louvre-sem-registro",
       "title": "Bugatti Bolide R0016: 115 km, W16 de 1.578 cv e o Martelo do Louvre que Vem com Recibo de Venda, Não com Registro",
@@ -156,8 +211,8 @@ export const ARTICLES = [
         "Encargos / Total": "VAT aplicado sobre martelo e prêmio do comprador em conjunto — pode elevar o total acima de US$ 6.000.000"
       },
       "status": "published",
-      "isHero": true,
-      "is_hero": true,
+      "isHero": false,
+      "is_hero": false,
       "isHeroSecondary": false,
       "is_hero_secondary": false,
       "isPinnedHero": false,
@@ -1457,63 +1512,6 @@ export const ARTICLES = [
     "published_at": "2026-11-19T01:25:19.000Z",
     "sourceUrl": "https://robbreport.com/style/watch-collector/joan-collins-cartier-tank-auction-1238847688/",
     "source_url": "https://robbreport.com/style/watch-collector/joan-collins-cartier-tank-auction-1238847688/"
-  },
-  {
-    "id": "art-bayesian-184-pes-de-veleiro-virados-9214",
-    "slug": "bayesian-184-pes-de-veleiro-virados-por-80-mph-em-minutos-a-estabilidade-fora-de-requisito-e-o-teto-de-indenizacao-contestado-em-londres",
-    "title": "Bayesian: 184 Pés de Veleiro Virados por 80 mph em Minutos — a Estabilidade Fora de Requisito e o Teto de Indenização Contestado em Londres",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "18 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://static.independent.co.uk/2026/05/01/10/01KCGDCRT1REXWS4S26KR90DFQ.jpg?trim=0,0,0,0&width=1200&height=800&crop=1200:800",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Sobreviventes do Bayesian contestam na High Court de Londres o pedido de Revtom Ltd e Camper & Nicholsons de limitar indenizações: os documentos da família alegam estabilidade fora de requisito num veleiro de 184 pés que virou sob rajadas de 80 mph e afundou em minutos diante de Porticello, com sete mortos — entre eles Mike Lynch e a filha Hannah, de 18 anos.",
-    "contentParagraphs": [
-      "O caso do Bayesian saiu do inquérito técnico e entrou na aritmética jurídica. Em documentos apresentados à High Court de Londres, os sobreviventes Charlotte Golunski e James Emslie sustentam que o veleiro de 184 pés — avaliado em £ 30 milhões — virou porque as características de estabilidade do casco se afastavam dos requisitos, e que quem operava a embarcação sabia disso antes de enfrentar o vento. O iate afundou em 19 de agosto de 2024, em minutos, diante do porto de Porticello, na Sicília, sob rajadas acima de 80 mph; sete pessoas morreram, entre elas o armador Mike Lynch e a filha Hannah, de 18 anos.",
-      "Nos autos, Matthew Chapman KC, advogado da família, afirma que os responsáveis 'sabiam ou provavelmente sabiam' que a estabilidade estava fora do requisito e, ainda assim, permitiram que o iate fosse operado 'nas condições meteorológicas que estavam previstas e foram encontradas no momento da perda'. A acusação vai além da negligência: os documentos falam em 'conhecimento efetivo' de que defeitos de projeto, construção e operação 'provavelmente resultariam em perda de vida', conduta que a família classifica como temerária — não como erro culposo comum. Para um casco de 56 metros, a estabilidade não é papel de homologação: é o número que diz até onde o barco inclina e volta.",
-      "O relato da evacuação é o trecho mais duro. A família alega que não foi avisada quando o tempo piorou, que ninguém distribuiu coletes salva-vidas e que não houve evacuação organizada — o casal diz ter sido deixado para 'buscar a própria segurança sozinho, com assistência muito limitada do capitão e da tripulação, que tinham a responsabilidade final' pela segurança a bordo. Os documentos questionam se o alarme e a iluminação de emergência funcionaram e se os botes foram lançados a tempo, e apontam que o capitão não foi acordado cedo o suficiente. A tripulação teria falhado em acompanhar a previsão, em recolher o iate ao porto de Porticello e em manter vigia adequada durante a noite.",
-      "A disputa imediata é processual e vale dinheiro. Revtom Ltd e Camper & Nicholsons International Ltd pedem à corte que limite o valor das indenizações por morte, ferimentos, danos ao iate e perdas decorrentes do afundamento. A defesa da família responde que as empresas não podem escapar da responsabilidade integral se a conduta temerária delas contribuiu para o desastre, e pede que a aplicação seja rejeitada ou adiada até que os registros de projeto, ensaios de segurança, manutenção e treinamento de tripulação sejam produzidos. Golunski e Emslie pretendem ainda mover ações por danos pessoais, enquanto a Promotoria italiana e o Marine Accident Investigation Branch, do Reino Unido, conduzem investigações paralelas.",
-      "A foto que abre esta matéria mostra o que sobrou do argumento: o casco azul do Bayesian içado por cabos de aço sob um guindaste de 2.200 toneladas, a carena exposta e coberta de limo. Um veleiro deste porte é uma alavanca: 184 pés de casco transformam cada rajada em momento de tombamento, e é o livro de estabilidade que define quantos graus o barco suporta antes de não voltar. Se a estabilidade estava fora do requisito, como afirmam os documentos, o problema não nasceu na noite da tempestade — nasceu na mesa de projeto e foi carregado por quem autorizou a saída.",
-      "O que a corte decide primeiro é se a limitação de responsabilidade pode ser julgada antes de toda a evidência, mas o mérito já está desenhado nos papéis: de um lado, um casco de 184 pés que afundou em minutos com 80 mph de vento; do outro, a alegação de que quem tinha o comando sabia da estabilidade fora de requisito e manteve o iate operando. Sete mortos, entre eles uma jovem de 18 anos, e uma família que saiu da água com a filha de um ano. A engenharia naval tem uma régua simples para isso: ou o casco volta ao prumo, ou não volta. A corte vai dizer quem responde pela segunda hipótese."
-    ],
-    "content_paragraphs": [
-      "O caso do Bayesian saiu do inquérito técnico e entrou na aritmética jurídica. Em documentos apresentados à High Court de Londres, os sobreviventes Charlotte Golunski e James Emslie sustentam que o veleiro de 184 pés — avaliado em £ 30 milhões — virou porque as características de estabilidade do casco se afastavam dos requisitos, e que quem operava a embarcação sabia disso antes de enfrentar o vento. O iate afundou em 19 de agosto de 2024, em minutos, diante do porto de Porticello, na Sicília, sob rajadas acima de 80 mph; sete pessoas morreram, entre elas o armador Mike Lynch e a filha Hannah, de 18 anos.",
-      "Nos autos, Matthew Chapman KC, advogado da família, afirma que os responsáveis 'sabiam ou provavelmente sabiam' que a estabilidade estava fora do requisito e, ainda assim, permitiram que o iate fosse operado 'nas condições meteorológicas que estavam previstas e foram encontradas no momento da perda'. A acusação vai além da negligência: os documentos falam em 'conhecimento efetivo' de que defeitos de projeto, construção e operação 'provavelmente resultariam em perda de vida', conduta que a família classifica como temerária — não como erro culposo comum. Para um casco de 56 metros, a estabilidade não é papel de homologação: é o número que diz até onde o barco inclina e volta.",
-      "O relato da evacuação é o trecho mais duro. A família alega que não foi avisada quando o tempo piorou, que ninguém distribuiu coletes salva-vidas e que não houve evacuação organizada — o casal diz ter sido deixado para 'buscar a própria segurança sozinho, com assistência muito limitada do capitão e da tripulação, que tinham a responsabilidade final' pela segurança a bordo. Os documentos questionam se o alarme e a iluminação de emergência funcionaram e se os botes foram lançados a tempo, e apontam que o capitão não foi acordado cedo o suficiente. A tripulação teria falhado em acompanhar a previsão, em recolher o iate ao porto de Porticello e em manter vigia adequada durante a noite.",
-      "A disputa imediata é processual e vale dinheiro. Revtom Ltd e Camper & Nicholsons International Ltd pedem à corte que limite o valor das indenizações por morte, ferimentos, danos ao iate e perdas decorrentes do afundamento. A defesa da família responde que as empresas não podem escapar da responsabilidade integral se a conduta temerária delas contribuiu para o desastre, e pede que a aplicação seja rejeitada ou adiada até que os registros de projeto, ensaios de segurança, manutenção e treinamento de tripulação sejam produzidos. Golunski e Emslie pretendem ainda mover ações por danos pessoais, enquanto a Promotoria italiana e o Marine Accident Investigation Branch, do Reino Unido, conduzem investigações paralelas.",
-      "A foto que abre esta matéria mostra o que sobrou do argumento: o casco azul do Bayesian içado por cabos de aço sob um guindaste de 2.200 toneladas, a carena exposta e coberta de limo. Um veleiro deste porte é uma alavanca: 184 pés de casco transformam cada rajada em momento de tombamento, e é o livro de estabilidade que define quantos graus o barco suporta antes de não voltar. Se a estabilidade estava fora do requisito, como afirmam os documentos, o problema não nasceu na noite da tempestade — nasceu na mesa de projeto e foi carregado por quem autorizou a saída.",
-      "O que a corte decide primeiro é se a limitação de responsabilidade pode ser julgada antes de toda a evidência, mas o mérito já está desenhado nos papéis: de um lado, um casco de 184 pés que afundou em minutos com 80 mph de vento; do outro, a alegação de que quem tinha o comando sabia da estabilidade fora de requisito e manteve o iate operando. Sete mortos, entre eles uma jovem de 18 anos, e uma família que saiu da água com a filha de um ano. A engenharia naval tem uma régua simples para isso: ou o casco volta ao prumo, ou não volta. A corte vai dizer quem responde pela segunda hipótese."
-    ],
-    "specs": {
-      "Embarcação": "Bayesian, veleiro de 184 pés (~56 m), avaliado em £ 30 milhões",
-      "Episódio": "Naufrágio em 19 de agosto de 2024, em minutos, diante de Porticello (Sicília), sob rajadas acima de 80 mph",
-      "Vítimas": "7 mortos — 6 convidados e 1 tripulante, incluindo Mike Lynch e Hannah Lynch, de 18 anos",
-      "Foro": "High Court de Londres — aplicação de limitação de responsabilidade de Revtom Ltd e Camper & Nicholsons International Ltd",
-      "Alegação central": "Estabilidade fora do requisito; ausência de alerta, de coletes e de evacuação organizada, segundo a defesa da família",
-      "Investigações": "Promotoria italiana e Marine Accident Investigation Branch (MAIB, Reino Unido)"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "engineSource": "qoder:agente-editorial",
-    "publishedAt": "2026-11-18T22:30:43.000Z",
-    "published_at": "2026-11-18T22:30:43.000Z",
-    "sourceUrl": "https://www.independent.co.uk/news/world/europe/bayesian-super-yacht-sinking-italy-b3087324.html",
-    "source_url": "https://www.independent.co.uk/news/world/europe/bayesian-super-yacht-sinking-italy-b3087324.html"
   }
 
 ];

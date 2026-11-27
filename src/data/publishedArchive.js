@@ -1730,5 +1730,15 @@ export const PUBLISHED_ARCHIVE = [
     "categorySlug": "supercarros",
     "authorSlug": "gabriel-fontes",
     "publishedAt": "2026-11-27T18:24:30.000Z"
+  },
+  {
+    "id": "art-feadship-love-7975-metros-portsmouth-6312",
+    "slug": "feadship-love-7975-metros-2450-gt-quatro-caterpillar-c32-1470-hp-project-716-portsmouth",
+    "title": "Feadship Love: 79,75 Metros, 2.450 GT e Quatro Caterpillar C32 de 1.470 hp Após Quatro Anos como Project 716",
+    "image": "https://image.yachtbuyer.com/w1440/h755/qh/ca/k0e532645/cms/photo/3726613.jpg",
+    "sourceUrl": "https://www.yachtbuyer.com/en-us/news/80m-feadship-superyacht-love-delivered",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-27T22:26:00.000Z"
   }
 ];
