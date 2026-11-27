@@ -1710,5 +1710,15 @@ export const PUBLISHED_ARCHIVE = [
     "categorySlug": "destinos",
     "authorSlug": "gabriel-fontes",
     "publishedAt": "2026-11-26T22:26:00.000Z"
+  },
+  {
+    "id": "art-bold-853-metros-silveryachts-jersey-4193",
+    "slug": "bold-853-comprimento-1551-gt-eur-89-000-000-pedido-guido-krass-jersey",
+    "title": "Bold: 85,3 de Comprimento, 1.551 GT e € 89.000.000 de Pedido — o Iate de Quem Fundou o Próprio Estaleiro",
+    "image": "https://jerseyeveningpost.com/wp-content/uploads/2026/11/yacht.jpeg",
+    "sourceUrl": "https://jerseyeveningpost.com/news/2026/11/26/superyacht-worth-75-million-spotted-in-elizabeth-harbour/",
+    "categorySlug": "destinos",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-27T01:27:01.000Z"
   }
 ];
