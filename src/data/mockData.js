@@ -116,6 +116,61 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+      "id": "art-bugatti-bolide-r0016-115-km-795019-4731",
+      "slug": "bugatti-bolide-r0016-115-km-chassi-795019-w16-1578-cv-martelo-louvre-sem-registro",
+      "title": "Bugatti Bolide R0016: 115 km, W16 de 1.578 cv e o Martelo do Louvre que Vem com Recibo de Venda, Não com Registro",
+      "category": "Supercarros",
+      "categorySlug": "supercarros",
+      "category_slug": "supercarros",
+      "authorSlug": "gabriel-fontes",
+      "author_slug": "gabriel-fontes",
+      "type": "article",
+      "badge": "CURADORIA RADAR",
+      "date": "27 de novembro de 2026",
+      "readTime": "5 min de leitura",
+      "read_time": "5 min de leitura",
+      "image": "https://luxurylaunches.com/wp-content/uploads/2026/11/bugatti-bolide.jpeg",
+      "imageFocus": "center",
+      "image_focus": "center",
+      "excerpt": "O Bolide de ano-modelo 2025 com chassi VF9SX0V06RM795019 marca 115 quilômetros no odômetro — pouco mais de 70 milhas — e a RM Sotheby's o listou como Lote R0016, avaliado entre US$ 4,4 milhões e US$ 4,7 milhões, para o pregão das Les Salles du Carrousel, o espaço de eventos sob o Palácio do Louvre. O W16 de 8,0 litros com quatro turbocompressores entrega 1.578 cv. O que complica o lance é a papelada: o lote vem apenas com bill of sale, sem documentação de registro convencional, só pode ser vendido para exportação e uso comercial, e o VAT incide sobre martelo e prêmio do comprador juntos — o que pode levar o total acima de US$ 6 milhões.",
+      "contentParagraphs": [
+        "Cento e quinze quilômetros é o que o odômetro marca — pouco mais de 70 milhas — no Bugatti Bolide de ano-modelo 2025 que a RM Sotheby's listou como Lote R0016, chassi VF9SX0V06RM795019, com avaliação entre US$ 4,4 milhões e US$ 4,7 milhões. O martelo cai em Paris, nas Les Salles du Carrousel, o espaço de eventos encostado sob o Palácio do Louvre. A fonte descreve o carro como hipercarro desenvolvido para circuito, não para uso diário, e é essa condição que explica quase tudo que vem depois na ficha do lote.",
+        "O primeiro obstáculo está no papel, não na máquina. O Bolide vem com bill of sale — recibo de venda — e sem documentação de registro convencional. A casa especifica ainda que ele só pode ser vendido para exportação e trade, e que comprador privado precisa contatar a RM Sotheby's diretamente. Para um objeto concebido e construído para pista, a ausência de registro é coerente com a natureza do bem. Para quem imaginava dirigir o carro até a própria garagem, é a parte do contrato que dinheiro nenhum resolve sozinha.",
+        "A segunda trava é fiscal, e é ela que empurra o número para cima. O VAT incide sobre o preço do martelo e sobre o prêmio do comprador em conjunto, o que — para quem não consegue recuperar o imposto — pode levar o total acima de US$ 6 milhões. A conta a partir dos próprios números publicados: sobre um martelo de US$ 4,7 milhões, passar de US$ 6 milhões exige mais de 27% somando prêmio e imposto. A distância entre arrematar por 4,7 e pagar 6 não é humores de mercado; é estrutura de alíquota, e ela existe porque a venda corre sob regra de exportação.",
+        "A máquina em si é a razão do assédio: W16 de 8,0 litros com quatro turbocompressores entregando 1.578 cv, tratado pela fonte como um dos carros de pista mais potentes já construídos pela marca francesa. Carroceria moldada para gerar downforce enorme, construção leve e cockpit de inspiração de corrida — a descrição compara o resultado a um protótipo de competição, não a um hipercarro convencional. As 72 fotografias já publicadas mostram pintura preta, elementos de iluminação brancos em X, a inscrição W16.4 na asa traseira e decalques de parceiros; por dentro, acabamento branco e o nome Bolide bordado nos encostos de cabeça. Aparecem ainda malas sob medida, cases de proteção e pneus slick sobre carrinhos — inventário de caminhão de corrida, não de garagem.",
+        "O palco tem memória, e ela serve de régua. Quando a RM Sotheby's mudou o pregão de Paris para as Les Salles du Carrousel, em 2023, o Chiron Profilée único foi arrematado por US$ 10,8 milhões, então recorde para um carro novo vendido em leilão. Um outro Bolide fez aproximadamente US$ 4,4 milhões no pregão de Paris de 2026. O leilão de fevereiro acontece dentro da 51ª edição do Rétromobile. O que a fonte ainda não entregou é a descrição escrita do lote, em preparação na data da publicação: há 72 fotografias e um número de chassi, mas o relatório técnico que sustentaria a avaliação, por ora, ninguém leu."
+      ],
+      "content_paragraphs": [
+        "Cento e quinze quilômetros é o que o odômetro marca — pouco mais de 70 milhas — no Bugatti Bolide de ano-modelo 2025 que a RM Sotheby's listou como Lote R0016, chassi VF9SX0V06RM795019, com avaliação entre US$ 4,4 milhões e US$ 4,7 milhões. O martelo cai em Paris, nas Les Salles du Carrousel, o espaço de eventos encostado sob o Palácio do Louvre. A fonte descreve o carro como hipercarro desenvolvido para circuito, não para uso diário, e é essa condição que explica quase tudo que vem depois na ficha do lote.",
+        "O primeiro obstáculo está no papel, não na máquina. O Bolide vem com bill of sale — recibo de venda — e sem documentação de registro convencional. A casa especifica ainda que ele só pode ser vendido para exportação e trade, e que comprador privado precisa contatar a RM Sotheby's diretamente. Para um objeto concebido e construído para pista, a ausência de registro é coerente com a natureza do bem. Para quem imaginava dirigir o carro até a própria garagem, é a parte do contrato que dinheiro nenhum resolve sozinha.",
+        "A segunda trava é fiscal, e é ela que empurra o número para cima. O VAT incide sobre o preço do martelo e sobre o prêmio do comprador em conjunto, o que — para quem não consegue recuperar o imposto — pode levar o total acima de US$ 6 milhões. A conta a partir dos próprios números publicados: sobre um martelo de US$ 4,7 milhões, passar de US$ 6 milhões exige mais de 27% somando prêmio e imposto. A distância entre arrematar por 4,7 e pagar 6 não é humores de mercado; é estrutura de alíquota, e ela existe porque a venda corre sob regra de exportação.",
+        "A máquina em si é a razão do assédio: W16 de 8,0 litros com quatro turbocompressores entregando 1.578 cv, tratado pela fonte como um dos carros de pista mais potentes já construídos pela marca francesa. Carroceria moldada para gerar downforce enorme, construção leve e cockpit de inspiração de corrida — a descrição compara o resultado a um protótipo de competição, não a um hipercarro convencional. As 72 fotografias já publicadas mostram pintura preta, elementos de iluminação brancos em X, a inscrição W16.4 na asa traseira e decalques de parceiros; por dentro, acabamento branco e o nome Bolide bordado nos encostos de cabeça. Aparecem ainda malas sob medida, cases de proteção e pneus slick sobre carrinhos — inventário de caminhão de corrida, não de garagem.",
+        "O palco tem memória, e ela serve de régua. Quando a RM Sotheby's mudou o pregão de Paris para as Les Salles du Carrousel, em 2023, o Chiron Profilée único foi arrematado por US$ 10,8 milhões, então recorde para um carro novo vendido em leilão. Um outro Bolide fez aproximadamente US$ 4,4 milhões no pregão de Paris de 2026. O leilão de fevereiro acontece dentro da 51ª edição do Rétromobile. O que a fonte ainda não entregou é a descrição escrita do lote, em preparação na data da publicação: há 72 fotografias e um número de chassi, mas o relatório técnico que sustentaria a avaliação, por ora, ninguém leu."
+      ],
+      "specs": {
+        "Propulsão / Potência": "W16 de 8,0 litros com quatro turbocompressores — 1.578 cv",
+        "Chassi / Quilometragem": "VF9SX0V06RM795019, ano-modelo 2025, com 115 km (pouco mais de 70 milhas) no odômetro",
+        "Lote / Avaliação": "R0016, RM Sotheby's — US$ 4.400.000 a US$ 4.700.000",
+        "Praça / Calendário": "Les Salles du Carrousel, sob o Palácio do Louvre, Paris; pregão de fevereiro durante a 51ª edição do Rétromobile",
+        "Documentação / Condição": "Somente bill of sale, sem registro convencional; venda restrita a exportação e trade, com comprador privado tratado diretamente pela casa",
+        "Encargos / Total": "VAT aplicado sobre martelo e prêmio do comprador em conjunto — pode elevar o total acima de US$ 6.000.000"
+      },
+      "status": "published",
+      "isHero": true,
+      "is_hero": true,
+      "isHeroSecondary": false,
+      "is_hero_secondary": false,
+      "isPinnedHero": false,
+      "is_pinned_hero": false,
+      "rankingScore": 91,
+      "ranking_score": 91,
+      "engineSource": "qoder:agente-editorial",
+      "publishedAt": "2026-11-27T18:24:30.000Z",
+      "published_at": "2026-11-27T18:24:30.000Z",
+      "sourceUrl": "https://luxurylaunches.com/auctions/bugatti-bolide-under-the-hammer-in-louvre-11272026.php",
+      "source_url": "https://luxurylaunches.com/auctions/bugatti-bolide-under-the-hammer-in-louvre-11272026.php"
+  },
+  {
       "id": "art-bold-853-metros-silveryachts-jersey-4193",
       "slug": "bold-853-comprimento-1551-gt-eur-89-000-000-pedido-guido-krass-jersey",
       "title": "Bold: 85,3 de Comprimento, 1.551 GT e € 89.000.000 de Pedido — o Iate de Quem Fundou o Próprio Estaleiro",
@@ -156,8 +211,8 @@ export const ARTICLES = [
         "Preço anunciado": "€ 89.000.000 de pedido (≈ £ 75.374.550, conversão da fonte) — 168º no ranking mundial de tamanho"
       },
       "status": "published",
-      "isHero": true,
-      "is_hero": true,
+      "isHero": false,
+      "is_hero": false,
       "isHeroSecondary": false,
       "is_hero_secondary": false,
       "isPinnedHero": false,
@@ -1459,64 +1514,8 @@ export const ARTICLES = [
     "published_at": "2026-11-18T22:30:43.000Z",
     "sourceUrl": "https://www.independent.co.uk/news/world/europe/bayesian-super-yacht-sinking-italy-b3087324.html",
     "source_url": "https://www.independent.co.uk/news/world/europe/bayesian-super-yacht-sinking-italy-b3087324.html"
-  },
-  {
-    "id": "art-aruby-abeking-rasmussen-primeiro-de-serie-6217",
-    "slug": "aruby-abeking-rasmussen-primeiro-iate-de-serie-em-115-anos-70-metros-e-cinco-motores-diesel-eletricos-de-650-kw",
-    "title": "Aruby: O Primeiro Iate de Série em 115 Anos da Abeking & Rasmussen — 70 Metros, 1.770 GT e Cinco Motores Diesel-Elétricos de 650 kW",
-    "category": "Destinos & Iates",
-    "categorySlug": "destinos",
-    "category_slug": "destinos",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "18 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://cdn.boatinternational.com/convert/files/2026/08/b8483460-9bbd-11f1-a019-f96d05b0f592-Aruby-exterior-light-blue.jpg/r%5Bwidth%5D=1920/b8483460-9bbd-11f1-a019-f96d05b0f592-Aruby-exterior-light-blue.jpg",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "Depois de 115 anos de cascos exclusivos, a Abeking & Rasmussen põe na água o Aruby: 70 metros, 1.770 GT, propulsão diesel-elétrica com cinco motores de aproximadamente 650 kW em pod drives, bateria de 150 kWh para silêncio ao fundear e autonomia de 4.500 milhas náuticas a 12,5 nós.",
-    "contentParagraphs": [
-      "O estaleiro alemão Abeking & Rasmussen passou 115 anos fazendo exatamente o que cada armador pedia, um casco por vez, do zero. Em 2026, a casa inverte o próprio manual e apresenta o Aruby, seu primeiro iate de série: 70 metros de comprimento, arqueação bruta de aproximadamente 1.770 GT e uma plataforma pré-engenheirada que leva o comprador direto para a fase de construção. O argumento não é velocidade de cruzeiro nem salão maior; é tempo. 'Aruby é a nossa resposta ao desejo do armador moderno pela mais alta qualidade sem os prazos típicos de desenvolvimento', disse Till von Krause, diretor de vendas de iates do estaleiro. Em vez de montar um time de projeto do zero, o cliente compra um casco que já passou por meses de planejamento técnico.",
-      "Sob o convés, a arquitetura de propulsão é a parte que merece ser lida com calma. O Aruby trabalha com sistema diesel-elétrico 'future-fuel ready', acionando hélices em pod drives por meio de cinco motores principais de aproximadamente 650 kW cada. Um banco de baterias de 150 kWh garante operação silenciosa e sem emissões quando o iate está fundeado — o estado em que um casco deste porte passa a maior parte da vida. O conjunto entrega 12,5 nós de cruzeiro, 16 nós de máxima e autonomia de 4.500 milhas náuticas, com a casa de máquinas concentrada em um único nível para devolver volume ao hóspede. 'Toda decisão técnica no Aruby segue um princípio: desempenho com propósito', resume o diretor de operações Björn Schlüter.",
-      "A suíte do armador é a medida que separa este projeto de um conceito de vitrine. São 90 metros quadrados no convés principal ocupando os 12,3 metros de boca do casco, com escritório privativo na entrada, dois closets walk-in e dois balcões privativos — um de cada lado —, além de banheira independente numa casa de banho conjugada. Os demais hóspedes se distribuem por duas cabines duplas e duas twin no convés inferior, mais uma suíte VIP de 24 metros quadrados no convés da ponte, com balcão próprio e janelas de piso a teto. É layout de uso real, não de folheto: cada metro foi contado para que a circulação funcione no dia a dia e não apenas na foto aérea.",
-      "A vida a bordo foi organizada em torno de dois convés que trabalham em turnos opostos. No convés principal, a popa traz uma piscina de 2,4 por 5,2 metros ladeada por escadas que descem até a plataforma de banho ao nível do mar, onde o beach club funciona como academia, spa e área de massagem. No solário, uma piscina de spa voltada para a proa recebe a primeira luz do dia, e a mesa de jantar acomoda 12 pessoas. À noite, o convés da ponte vira cinema ao ar livre, com lounge rebaixado em volta de um firepit. 'O beach club é o centro natural da vida a bordo', definiu a designer Pascale Reymond. 'Fica logo atrás das cabines, o que permite passar da suíte para o mar sem desvio.'",
-      "O desenho externo e interno é assinatura do Reymond Langton Design, estúdio que trabalha com o estaleiro há 25 anos, enquanto a arquitetura naval foi desenvolvida inteiramente dentro de casa — combinação que explica a coerência do casco. O nome vem do rubi, pedra associada a 'força imensa e longevidade', e a metáfora orienta desde as linhas até a paleta de materiais. Na operação, a separação entre tripulação e hóspedes foi tratada como premissa: escada de serviço dedicada, despensas nos convés principal e superior, alojamento da tripulação à frente da ponte e cozinha no convés inferior. 'Aruby é um caminho turnkey para a propriedade. Pronto para construir, sem exigir experiência prévia em obra nova', disse Tamara Gramberg, responsável por marketing e gestão de vendas.",
-      "A leitura fria é que o estaleiro não lançou apenas um iate: publicou um método. Durante mais de um século, a Abeking & Rasmussen vendeu o casco único, ajustado ao milímetro do briefing de um armador. O Aruby vende a repetibilidade — a mesma plataforma para família, entretenimento e charter, com a promessa de cortar os meses de desenvolvimento inicial. O risco editorial é confundir padronização com perda de engenharia. Não é o caso: cinco motores de 650 kW em pod drives, 150 kWh de bateria e 4.500 milhas de autonomia são números de projeto, não de marketing. O que muda é quem paga a conta do ineditismo — e, pela primeira vez em 115 anos, esse custo deixa de cair sobre um único armador."
-    ],
-    "content_paragraphs": [
-      "O estaleiro alemão Abeking & Rasmussen passou 115 anos fazendo exatamente o que cada armador pedia, um casco por vez, do zero. Em 2026, a casa inverte o próprio manual e apresenta o Aruby, seu primeiro iate de série: 70 metros de comprimento, arqueação bruta de aproximadamente 1.770 GT e uma plataforma pré-engenheirada que leva o comprador direto para a fase de construção. O argumento não é velocidade de cruzeiro nem salão maior; é tempo. 'Aruby é a nossa resposta ao desejo do armador moderno pela mais alta qualidade sem os prazos típicos de desenvolvimento', disse Till von Krause, diretor de vendas de iates do estaleiro. Em vez de montar um time de projeto do zero, o cliente compra um casco que já passou por meses de planejamento técnico.",
-      "Sob o convés, a arquitetura de propulsão é a parte que merece ser lida com calma. O Aruby trabalha com sistema diesel-elétrico 'future-fuel ready', acionando hélices em pod drives por meio de cinco motores principais de aproximadamente 650 kW cada. Um banco de baterias de 150 kWh garante operação silenciosa e sem emissões quando o iate está fundeado — o estado em que um casco deste porte passa a maior parte da vida. O conjunto entrega 12,5 nós de cruzeiro, 16 nós de máxima e autonomia de 4.500 milhas náuticas, com a casa de máquinas concentrada em um único nível para devolver volume ao hóspede. 'Toda decisão técnica no Aruby segue um princípio: desempenho com propósito', resume o diretor de operações Björn Schlüter.",
-      "A suíte do armador é a medida que separa este projeto de um conceito de vitrine. São 90 metros quadrados no convés principal ocupando os 12,3 metros de boca do casco, com escritório privativo na entrada, dois closets walk-in e dois balcões privativos — um de cada lado —, além de banheira independente numa casa de banho conjugada. Os demais hóspedes se distribuem por duas cabines duplas e duas twin no convés inferior, mais uma suíte VIP de 24 metros quadrados no convés da ponte, com balcão próprio e janelas de piso a teto. É layout de uso real, não de folheto: cada metro foi contado para que a circulação funcione no dia a dia e não apenas na foto aérea.",
-      "A vida a bordo foi organizada em torno de dois convés que trabalham em turnos opostos. No convés principal, a popa traz uma piscina de 2,4 por 5,2 metros ladeada por escadas que descem até a plataforma de banho ao nível do mar, onde o beach club funciona como academia, spa e área de massagem. No solário, uma piscina de spa voltada para a proa recebe a primeira luz do dia, e a mesa de jantar acomoda 12 pessoas. À noite, o convés da ponte vira cinema ao ar livre, com lounge rebaixado em volta de um firepit. 'O beach club é o centro natural da vida a bordo', definiu a designer Pascale Reymond. 'Fica logo atrás das cabines, o que permite passar da suíte para o mar sem desvio.'",
-      "O desenho externo e interno é assinatura do Reymond Langton Design, estúdio que trabalha com o estaleiro há 25 anos, enquanto a arquitetura naval foi desenvolvida inteiramente dentro de casa — combinação que explica a coerência do casco. O nome vem do rubi, pedra associada a 'força imensa e longevidade', e a metáfora orienta desde as linhas até a paleta de materiais. Na operação, a separação entre tripulação e hóspedes foi tratada como premissa: escada de serviço dedicada, despensas nos convés principal e superior, alojamento da tripulação à frente da ponte e cozinha no convés inferior. 'Aruby é um caminho turnkey para a propriedade. Pronto para construir, sem exigir experiência prévia em obra nova', disse Tamara Gramberg, responsável por marketing e gestão de vendas.",
-      "A leitura fria é que o estaleiro não lançou apenas um iate: publicou um método. Durante mais de um século, a Abeking & Rasmussen vendeu o casco único, ajustado ao milímetro do briefing de um armador. O Aruby vende a repetibilidade — a mesma plataforma para família, entretenimento e charter, com a promessa de cortar os meses de desenvolvimento inicial. O risco editorial é confundir padronização com perda de engenharia. Não é o caso: cinco motores de 650 kW em pod drives, 150 kWh de bateria e 4.500 milhas de autonomia são números de projeto, não de marketing. O que muda é quem paga a conta do ineditismo — e, pela primeira vez em 115 anos, esse custo deixa de cair sobre um único armador."
-    ],
-    "specs": {
-      "Comprimento / Arqueação": "70 metros (229 pés) · aproximadamente 1.770 GT",
-      "Propulsão": "Diesel-elétrica 'future-fuel ready', pod drives, 5 motores de ~650 kW cada",
-      "Bateria / Fundeio": "150 kWh — operação silenciosa e sem emissões ao fundear",
-      "Desempenho": "12,5 nós de cruzeiro · 16 nós de máxima · 4.500 milhas náuticas",
-      "Suíte do armador": "90 m² sobre boca de 12,3 m, com dois balcões privativos",
-      "Estaleiro / Design": "Abeking & Rasmussen (Alemanha) · Reymond Langton Design · arquitetura naval em casa"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 89,
-    "ranking_score": 89,
-    "engineSource": "qoder:agente-editorial",
-    "publishedAt": "2026-11-18T18:21:50.000Z",
-    "published_at": "2026-11-18T18:21:50.000Z",
-    "sourceUrl": "https://www.boatinternational.com/boat-presents/aruby-70m-series-yacht-abeking-rasmussen",
-    "source_url": "https://www.boatinternational.com/boat-presents/aruby-70m-series-yacht-abeking-rasmussen"
-  },
+  }
+
 ];
 
 export const FILMSTRIP_ITEMS = [

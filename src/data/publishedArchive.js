@@ -1720,5 +1720,15 @@ export const PUBLISHED_ARCHIVE = [
     "categorySlug": "destinos",
     "authorSlug": "gabriel-fontes",
     "publishedAt": "2026-11-27T01:27:01.000Z"
+  },
+  {
+    "id": "art-bugatti-bolide-r0016-115-km-795019-4731",
+    "slug": "bugatti-bolide-r0016-115-km-chassi-795019-w16-1578-cv-martelo-louvre-sem-registro",
+    "title": "Bugatti Bolide R0016: 115 km, W16 de 1.578 cv e o Martelo do Louvre que Vem com Recibo de Venda, Não com Registro",
+    "image": "https://luxurylaunches.com/wp-content/uploads/2026/11/bugatti-bolide.jpeg",
+    "sourceUrl": "https://luxurylaunches.com/auctions/bugatti-bolide-under-the-hammer-in-louvre-11272026.php",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-27T18:24:30.000Z"
   }
 ];
