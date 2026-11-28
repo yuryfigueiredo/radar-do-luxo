@@ -1740,5 +1740,15 @@ export const PUBLISHED_ARCHIVE = [
     "categorySlug": "destinos",
     "authorSlug": "gabriel-fontes",
     "publishedAt": "2026-11-27T22:26:00.000Z"
+  },
+  {
+    "id": "art-laferrari-chassi-199743-abu-dhabi-5537",
+    "slug": "laferrari-199743-963-cv-v12-6-3-aspirado-2940-km-bateria-nova-rm-sothebys-abu-dhabi",
+    "title": "LaFerrari 199743: 963 cv de V12 6.3 Aspirado, 2.940 km e Bateria Nova na RM Sotheby's de Abu Dhabi",
+    "image": "https://sportscardigest.com/wp-content/uploads/2026/11/2014-Ferrari-LaFerrari_1551928-scaled.jpg",
+    "sourceUrl": "https://sportscardigest.com/rare-2014-ferrari-laferrari-estimated-at-5-5-million/",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-28T01:20:00.000Z"
   }
 ];
