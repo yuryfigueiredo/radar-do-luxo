@@ -1750,5 +1750,15 @@ export const PUBLISHED_ARCHIVE = [
     "categorySlug": "supercarros",
     "authorSlug": "gabriel-fontes",
     "publishedAt": "2026-11-28T01:20:00.000Z"
+  },
+  {
+    "id": "art-ford-gt41-7300-km-aragon-dinamometro-7148",
+    "slug": "ford-gt41-7300-km-24-horas-30-aragon-v8-5-4-dinamometro-motor-trocado-2h30",
+    "title": "Ford GT41: 7.300 km, 24 Horas das 30 Previstas em Aragón e um V8 5,4 que Só Tinha Girado em Dinamômetro",
+    "image": "https://www.lemans.org/assets/fileuploads/6b/05/6b055bdb05692.jpg",
+    "sourceUrl": "https://www.24h-lemans.com/en/news/what-did-ford-learn-from-the-30-hour-hypercar-test-at-motorland-aragon-61202",
+    "categorySlug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "publishedAt": "2026-11-28T11:34:00.000Z"
   }
 ];

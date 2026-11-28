@@ -116,6 +116,63 @@ export const WEEKLY_DROPS = [
 
 export const ARTICLES = [
   {
+    "id": "art-ford-gt41-7300-km-aragon-dinamometro-7148",
+    "slug": "ford-gt41-7300-km-24-horas-30-aragon-v8-5-4-dinamometro-motor-trocado-2h30",
+    "title": "Ford GT41: 7.300 km, 24 Horas das 30 Previstas em Aragón e um V8 5,4 que Só Tinha Girado em Dinamômetro",
+    "category": "Supercarros",
+    "categorySlug": "supercarros",
+    "category_slug": "supercarros",
+    "authorSlug": "gabriel-fontes",
+    "author_slug": "gabriel-fontes",
+    "type": "article",
+    "badge": "CURADORIA RADAR",
+    "date": "28 de novembro de 2026",
+    "readTime": "6 min de leitura",
+    "read_time": "6 min de leitura",
+    "image": "https://www.lemans.org/assets/fileuploads/6b/05/6b055bdb05692.jpg",
+    "imageFocus": "center",
+    "image_focus": "center",
+    "excerpt": "MotorLand Aragón devolveu à Ford Racing mais de 7.300 quilômetros entre dois carros e 24 das 30 horas previstas, com uma falha de refrigeração que forçou a troca do V8 5,4 aspirado às 2h30 da madrugada. Antes disso, a especificação nova do motor só havia rodado em dinamômetro. Dan Sayers diz que o Hypercar está 95% definido, que a homologação vem em dezembro e que Sebring é o filtro seguinte.",
+    "contentParagraphs": [
+      "A Ford Racing levou o GT41 a MotorLand Aragón com uma meta que não é cronometragem: trinta horas seguidas de pista. O saldo medido no fim da atividade foi de mais de 7.300 quilômetros acumulados entre os dois carros empregados — um no teste de resistência, o outro em desenvolvimento de desempenho e controles — e mais de 24 das 30 horas previstas efetivamente rodadas. Uma falha no sistema de arrefecimento provocou interrupções não planejadas e forçou a troca do motor às 2h30 da madrugada. Dan Sayers, gerente do programa Hypercar, classificou a estreia em endurance como muito bem-sucedida e registrou o que a equipe considerou decisivo: nenhuma falha que preocupe o time.",
+      "Um teste de trinta horas não mede velocidade. Mede o que não aparece em fotografia. O chassi Oreca já tinha histórico em ambiente de competição, mas a orquestração entre o motor projetado pela Ford, a carroceria e uma quantidade de componentes específicos era terreno desconhecido: chicotes, fiação e roteamento precisam funcionar em harmonia por muitas horas seguidas. Nenhuma das inspeções intermediárias previstas apontou desvio, e o que os dados apontaram foi calor — o ponto fraco foi refrigeração. É assim que um programa de resistência aprende, por exceção, nunca por recorde.",
+      "A segunda lição veio do compartimento do motor. O carro recebeu uma especificação nova do V8 5,4 litros aspirado, projetado e desenvolvido internamente, com mais potência e massa reduzida, combinação que altera o desempenho global do conjunto. Antes de girar pela primeira vez em um autódromo, essa versão havia cumprido trinta horas em dinamômetro de powertrain. Sayers admite que foi um risco e explica de onde veio a disposição de correr esse risco: projeto contínuo ao longo de dezoito meses a dois anos e um cronograma condensado, que não permite aguardar validação perfeita para então acelerar. Manter aspiração natural num grid de motores sobrealimentados é decisão de engenharia assumida publicamente pela fábrica.",
+      "O conhecimento vindo da Fórmula 1 não foi transplantado pronto. A colaboração com a Red Bull serviu para observar a interação entre as partes do conjunto elétrico — software, gestão de híbrido, processos de manufatura e método de desenvolvimento — e aplicar esse aprendizado ao programa de endurance, sem transferência direta de tecnologia. Em paralelo, nos Estados Unidos, um carro específico avança em túnel de vento para a homologação aerodinâmica, enquanto os carros de pista recebem os ajustes que o laboratório aprova. Sayers afirma que o protótipo está 95% definido e a homologação está marcada para dezembro. É esse diálogo entre banco de ensaio e asfalto que congela a definição técnica de um Hypercar.",
+      "A agenda depois de Aragón foi anunciada com critério estrutural, não por conveniência de calendário. A Ford Racing vai a Sebring na metade de dezembro, circuito escolhido exatamente pelo concreto ondulado que expõe fraqueza mecânica e estrutural em suspensão, chassi e fixações; o objetivo declarado da sessão não é tempo, é revelação. Um segundo teste de 30 horas está programado para janeiro. A apresentação pública do carro estava marcada para a quinta-feira, 26 de novembro de 2026 — o programa congelou a definição em 95% depois de uma troca de motor de madrugada, não antes de ela acontecer.",
+      "O julgamento acontece em junho. A 95ª edição das 24 Horas de Le Mans vai de 9 a 13 de junho de 2027, quinta etapa do Mundial de Endurance, e o grid reúne Aston Martin, BMW, Cadillac, Ferrari, Genesis, McLaren e Toyota. De um lado, sete fabricantes com anos de Hypercar acumulados; do outro, um carro 95% definido, um V8 aspirado mais leve e mais potente que só pisou em pista depois de esgotar trinta horas de dinamômetro. A contagem de 24 horas não aceita narração: aceita refrigeração estável, chicote íntegro e um motor que atravessa a madrugada sem pedir substituição às 2h30."
+    ],
+    "content_paragraphs": [
+      "A Ford Racing levou o GT41 a MotorLand Aragón com uma meta que não é cronometragem: trinta horas seguidas de pista. O saldo medido no fim da atividade foi de mais de 7.300 quilômetros acumulados entre os dois carros empregados — um no teste de resistência, o outro em desenvolvimento de desempenho e controles — e mais de 24 das 30 horas previstas efetivamente rodadas. Uma falha no sistema de arrefecimento provocou interrupções não planejadas e forçou a troca do motor às 2h30 da madrugada. Dan Sayers, gerente do programa Hypercar, classificou a estreia em endurance como muito bem-sucedida e registrou o que a equipe considerou decisivo: nenhuma falha que preocupe o time.",
+      "Um teste de trinta horas não mede velocidade. Mede o que não aparece em fotografia. O chassi Oreca já tinha histórico em ambiente de competição, mas a orquestração entre o motor projetado pela Ford, a carroceria e uma quantidade de componentes específicos era terreno desconhecido: chicotes, fiação e roteamento precisam funcionar em harmonia por muitas horas seguidas. Nenhuma das inspeções intermediárias previstas apontou desvio, e o que os dados apontaram foi calor — o ponto fraco foi refrigeração. É assim que um programa de resistência aprende, por exceção, nunca por recorde.",
+      "A segunda lição veio do compartimento do motor. O carro recebeu uma especificação nova do V8 5,4 litros aspirado, projetado e desenvolvido internamente, com mais potência e massa reduzida, combinação que altera o desempenho global do conjunto. Antes de girar pela primeira vez em um autódromo, essa versão havia cumprido trinta horas em dinamômetro de powertrain. Sayers admite que foi um risco e explica de onde veio a disposição de correr esse risco: projeto contínuo ao longo de dezoito meses a dois anos e um cronograma condensado, que não permite aguardar validação perfeita para então acelerar. Manter aspiração natural num grid de motores sobrealimentados é decisão de engenharia assumida publicamente pela fábrica.",
+      "O conhecimento vindo da Fórmula 1 não foi transplantado pronto. A colaboração com a Red Bull serviu para observar a interação entre as partes do conjunto elétrico — software, gestão de híbrido, processos de manufatura e método de desenvolvimento — e aplicar esse aprendizado ao programa de endurance, sem transferência direta de tecnologia. Em paralelo, nos Estados Unidos, um carro específico avança em túnel de vento para a homologação aerodinâmica, enquanto os carros de pista recebem os ajustes que o laboratório aprova. Sayers afirma que o protótipo está 95% definido e a homologação está marcada para dezembro. É esse diálogo entre banco de ensaio e asfalto que congela a definição técnica de um Hypercar.",
+      "A agenda depois de Aragón foi anunciada com critério estrutural, não por conveniência de calendário. A Ford Racing vai a Sebring na metade de dezembro, circuito escolhido exatamente pelo concreto ondulado que expõe fraqueza mecânica e estrutural em suspensão, chassi e fixações; o objetivo declarado da sessão não é tempo, é revelação. Um segundo teste de 30 horas está programado para janeiro. A apresentação pública do carro estava marcada para a quinta-feira, 26 de novembro de 2026 — o programa congelou a definição em 95% depois de uma troca de motor de madrugada, não antes de ela acontecer.",
+      "O julgamento acontece em junho. A 95ª edição das 24 Horas de Le Mans vai de 9 a 13 de junho de 2027, quinta etapa do Mundial de Endurance, e o grid reúne Aston Martin, BMW, Cadillac, Ferrari, Genesis, McLaren e Toyota. De um lado, sete fabricantes com anos de Hypercar acumulados; do outro, um carro 95% definido, um V8 aspirado mais leve e mais potente que só pisou em pista depois de esgotar trinta horas de dinamômetro. A contagem de 24 horas não aceita narração: aceita refrigeração estável, chicote íntegro e um motor que atravessa a madrugada sem pedir substituição às 2h30."
+    ],
+    "specs": {
+      "Motor / Especificação": "V8 5,4 litros aspirado, nova especificação, projetado e desenvolvido internamente pela Ford Racing, com potência maior e massa reduzida",
+      "Endurance / Aragón": "Mais de 7.300 km acumulados entre os dois carros e 24 das 30 horas previstas; troca de motor às 2h30 por falha no sistema de arrefecimento",
+      "Validação / Dinamômetro": "30 horas em banco de powertrain antes da primeira volta em autódromo, admitidas por Dan Sayers como risco de cronograma",
+      "Próximos / Filtros": "Sebring na metade de dezembro, pelo concreto ondulado, e um segundo teste de 30 horas programado para janeiro",
+      "Homologação / Estado": "Carro 95% definido, com homologação prevista para dezembro e um segundo carro em túnel de vento nos Estados Unidos",
+      "Estreia / 2027": "95ª edição das 24 Horas de Le Mans entre 9 e 13 de junho de 2027, quinta etapa do FIA World Endurance Championship"
+    },
+    "status": "published",
+    "isHero": true,
+    "is_hero": true,
+    "isHeroSecondary": false,
+    "is_hero_secondary": false,
+    "isPinnedHero": false,
+    "is_pinned_hero": false,
+    "rankingScore": 86,
+    "ranking_score": 86,
+    "engineSource": "qoder:agente-editorial",
+    "publishedAt": "2026-11-28T11:34:00.000Z",
+    "published_at": "2026-11-28T11:34:00.000Z",
+    "sourceUrl": "https://www.24h-lemans.com/en/news/what-did-ford-learn-from-the-30-hour-hypercar-test-at-motorland-aragon-61202",
+    "source_url": "https://www.24h-lemans.com/en/news/what-did-ford-learn-from-the-30-hour-hypercar-test-at-motorland-aragon-61202"
+},
+  {
       "id": "art-laferrari-chassi-199743-abu-dhabi-5537",
       "slug": "laferrari-199743-963-cv-v12-6-3-aspirado-2940-km-bateria-nova-rm-sothebys-abu-dhabi",
       "title": "LaFerrari 199743: 963 cv de V12 6.3 Aspirado, 2.940 km e Bateria Nova na RM Sotheby's de Abu Dhabi",
@@ -158,8 +215,8 @@ export const ARTICLES = [
       "Estimativa / Praça": "US$ 5.000.000 a US$ 5.500.000 — RM Sotheby's, Abu Dhabi Collectors' Week 2026, com 2.940 km"
     },
       "status": "published",
-      "isHero": true,
-      "is_hero": true,
+      "isHero": false,
+      "is_hero": false,
       "isHeroSecondary": false,
       "is_hero_secondary": false,
       "isPinnedHero": false,
@@ -1455,63 +1512,6 @@ export const ARTICLES = [
     "published_at": "2026-11-19T18:23:01.000Z",
     "sourceUrl": "https://www.thesupercarblog.com/koenigsegg-valued-at-e1-3-billion-as-hypercar-maker-considers-going-public/",
     "source_url": "https://www.thesupercarblog.com/koenigsegg-valued-at-e1-3-billion-as-hypercar-maker-considers-going-public/"
-  },
-  {
-    "id": "art-koenigsegg-65-equity-partners-fatia-minoritaria-3174",
-    "slug": "koenigsegg-65-equity-partners-fatia-minoritaria-angelholm-fila-3-anos-3174",
-    "title": "Koenigsegg: 65 Equity Partners Compra Fatia Minoritária na Fábrica de Ängelholm, Onde a Fila de Pedidos Passa de 3 Anos",
-    "category": "Supercarros",
-    "categorySlug": "supercarros",
-    "category_slug": "supercarros",
-    "authorSlug": "gabriel-fontes",
-    "author_slug": "gabriel-fontes",
-    "type": "article",
-    "badge": "CURADORIA RADAR",
-    "date": "19 de novembro de 2026",
-    "readTime": "5 min de leitura",
-    "read_time": "5 min de leitura",
-    "image": "https://delivery2.objectic.io/ncDCPjqO3MTHdg7wODCN8l/AM0AL7jZa0n7/hee6SfaYoUz8158xm2HTGNE1vz6mR9ADk4oRt6pP.png?crop=16:9,smart&format=jpg&width=1920&quality=75",
-    "imageFocus": "center",
-    "image_focus": "center",
-    "excerpt": "A 65 Equity Partners anunciou de Londres um investimento minoritário na Koenigsegg, com ações novas e venda secundária de papéis existentes; a Chieftain Capital acompanha, e Christian von Koenigsegg segue majoritário. O aporte financia a próxima fase da fábrica de Ängelholm — fila acima de 3 anos, receita de 1,76 bilhão de coroas suecas em 2025 — e prepara o terreno para uma eventual listagem.",
-    "contentParagraphs": [
-      "A 65 Equity Partners anunciou nesta quinta-feira, 19 de novembro, de Londres, um investimento minoritário na Koenigsegg Automotive. O comunicado não revela o valor nem a avaliação da operação, mas informa que a firma acaba de superar US$ 2 bilhões aportados em 19 investimentos desde sua criação, cinco anos atrás. Para a fabricante sueca, o negócio é o quarto da 65 Equity na Europa em 24 meses — e o primeiro no setor de hipercarros.",
-      "O alvo tem endereço e escala definidos: Ängelholm, no sudoeste da Suécia, onde a Koenigsegg monta carros em série curta desde que Christian von Koenigsegg fundou a empresa, em 1994. São cerca de 800 funcionários e uma carteira de pedidos que passa de três anos — cada carro é vendido antes de entrar em produção. A receita cresceu 80% ao ano em média desde 2022, segundo o comunicado da 65 Equity. Em 2025, o EFN reporta, com base no site Carup, receita de 1,76 bilhão de coroas suecas e lucro operacional de 115 milhões de coroas. São números de ateliê, não de montadora: a produção é baixa, o ciclo é longo e o caixa entra antes de a peça sair da bancada.",
-      "A mecânica da transação importa tanto quanto o valor que não foi divulgado. O aporte combina ações novas — capital que entra no caixa da empresa — com a venda secundária de papéis existentes, segundo o EFN. A Chieftain Capital Management, acionista atual, também injeta dinheiro novo. Christian von Koenigsegg permanece acionista majoritário e no comando. O comunicado da Koenigsegg diz que a 65 Equity vai usar sua rede global e sua experiência para apoiar a gestão na execução das ambições de crescimento e na avaliação de alternativas estratégicas futuras, incluindo uma eventual listagem em bolsa.",
-      "'Koenigsegg é uma empresa verdadeiramente excepcional, que combina uma marca globalmente reconhecida com engenharia pioneira, artesanato sem concessões e um compromisso incansável com a inovação', disse Alex Stirling, sócio e co-diretor de Europa da 65 Equity Partners. Pascal Heberling, que divide a mesma função, foi mais específico: cada vez mais fundadores e famílias querem capital para crescer e se internacionalizar sem entregar o controle nem comprometer a cultura que construíram. A pesquisa feita pela firma com o INSEAD, sobre mais de 19 mil empresas em nove países, sustenta o argumento: 26% das empresas familiares esperam buscar investimento externo nos próximos três a cinco anos, e apenas 3% preveem uma venda integral.",
-      "O histórico europeu da 65 Equity ajuda a ler o papel que ela quer ocupar. Nos últimos 24 meses, a firma investiu na Theop, consultoria de gestão de projetos imobiliários com operação na França, Espanha, Bélgica e Itália; na britânica Kee Safety, de sistemas de segurança; e, na Suíça, ao lado da família Braglia, no primeiro capital institucional da fusão entre HAS e Cerbios, que criou um grupo farmacêutico. Em todas, a lógica é a mesma: minoria, capital de longo prazo e controle nas mãos de quem já tocava a operação. É o oposto de uma aquisição — e é o tipo de cheque que uma fábrica de hipercarros, com ciclo de desenvolvimento medido em anos, consegue digerir.",
-      "Para quem mede a Koenigsegg pelo cronômetro, a notícia não muda a topologia do produto. O dinheiro novo financia a próxima fase de crescimento, o desenvolvimento técnico e a preparação para uma eventual abertura de capital — tarefas de bastidor, não de pista. A capa desta matéria mostra o CCGT1, o carro de competição da casa, branco, com a asa fixa sobre a carroçaria e a entrada de ar no teto: a mesma silhueta que a fábrica de Ängelholm constrói peça por peça. O dado a acompanhar nos próximos doze meses não é o valuation que ninguém divulgou, e sim a fila de pedidos — se ela continuar acima de três anos, o capital novo terá comprado tempo de engenharia, o único ativo que esse tipo de ateliê não consegue terceirizar."
-    ],
-    "content_paragraphs": [
-      "A 65 Equity Partners anunciou nesta quinta-feira, 19 de novembro, de Londres, um investimento minoritário na Koenigsegg Automotive. O comunicado não revela o valor nem a avaliação da operação, mas informa que a firma acaba de superar US$ 2 bilhões aportados em 19 investimentos desde sua criação, cinco anos atrás. Para a fabricante sueca, o negócio é o quarto da 65 Equity na Europa em 24 meses — e o primeiro no setor de hipercarros.",
-      "O alvo tem endereço e escala definidos: Ängelholm, no sudoeste da Suécia, onde a Koenigsegg monta carros em série curta desde que Christian von Koenigsegg fundou a empresa, em 1994. São cerca de 800 funcionários e uma carteira de pedidos que passa de três anos — cada carro é vendido antes de entrar em produção. A receita cresceu 80% ao ano em média desde 2022, segundo o comunicado da 65 Equity. Em 2025, o EFN reporta, com base no site Carup, receita de 1,76 bilhão de coroas suecas e lucro operacional de 115 milhões de coroas. São números de ateliê, não de montadora: a produção é baixa, o ciclo é longo e o caixa entra antes de a peça sair da bancada.",
-      "A mecânica da transação importa tanto quanto o valor que não foi divulgado. O aporte combina ações novas — capital que entra no caixa da empresa — com a venda secundária de papéis existentes, segundo o EFN. A Chieftain Capital Management, acionista atual, também injeta dinheiro novo. Christian von Koenigsegg permanece acionista majoritário e no comando. O comunicado da Koenigsegg diz que a 65 Equity vai usar sua rede global e sua experiência para apoiar a gestão na execução das ambições de crescimento e na avaliação de alternativas estratégicas futuras, incluindo uma eventual listagem em bolsa.",
-      "'Koenigsegg é uma empresa verdadeiramente excepcional, que combina uma marca globalmente reconhecida com engenharia pioneira, artesanato sem concessões e um compromisso incansável com a inovação', disse Alex Stirling, sócio e co-diretor de Europa da 65 Equity Partners. Pascal Heberling, que divide a mesma função, foi mais específico: cada vez mais fundadores e famílias querem capital para crescer e se internacionalizar sem entregar o controle nem comprometer a cultura que construíram. A pesquisa feita pela firma com o INSEAD, sobre mais de 19 mil empresas em nove países, sustenta o argumento: 26% das empresas familiares esperam buscar investimento externo nos próximos três a cinco anos, e apenas 3% preveem uma venda integral.",
-      "O histórico europeu da 65 Equity ajuda a ler o papel que ela quer ocupar. Nos últimos 24 meses, a firma investiu na Theop, consultoria de gestão de projetos imobiliários com operação na França, Espanha, Bélgica e Itália; na britânica Kee Safety, de sistemas de segurança; e, na Suíça, ao lado da família Braglia, no primeiro capital institucional da fusão entre HAS e Cerbios, que criou um grupo farmacêutico. Em todas, a lógica é a mesma: minoria, capital de longo prazo e controle nas mãos de quem já tocava a operação. É o oposto de uma aquisição — e é o tipo de cheque que uma fábrica de hipercarros, com ciclo de desenvolvimento medido em anos, consegue digerir.",
-      "Para quem mede a Koenigsegg pelo cronômetro, a notícia não muda a topologia do produto. O dinheiro novo financia a próxima fase de crescimento, o desenvolvimento técnico e a preparação para uma eventual abertura de capital — tarefas de bastidor, não de pista. A capa desta matéria mostra o CCGT1, o carro de competição da casa, branco, com a asa fixa sobre a carroçaria e a entrada de ar no teto: a mesma silhueta que a fábrica de Ängelholm constrói peça por peça. O dado a acompanhar nos próximos doze meses não é o valuation que ninguém divulgou, e sim a fila de pedidos — se ela continuar acima de três anos, o capital novo terá comprado tempo de engenharia, o único ativo que esse tipo de ateliê não consegue terceirizar."
-    ],
-    "specs": {
-      "Investidor": "65 Equity Partners (Londres), sócio minoritário com capital novo",
-      "Fundador": "Christian von Koenigsegg (1994), permanece acionista majoritário e no comando",
-      "Base": "Ängelholm, Suécia — produção em série curta, cerca de 800 funcionários",
-      "Receita 2025": "SEK 1,76 bilhão, com lucro operacional de SEK 115 milhões (Carup/EFN)",
-      "Carteira": "Fila de pedidos superior a 3 anos; carros vendidos antes da produção",
-      "Marco do fundo": "US$ 2 bilhões em 19 investimentos em 5 anos; 4º negócio europeu em 24 meses"
-    },
-    "status": "published",
-    "isHero": false,
-    "is_hero": false,
-    "isHeroSecondary": false,
-    "is_hero_secondary": false,
-    "isPinnedHero": false,
-    "is_pinned_hero": false,
-    "rankingScore": 94,
-    "ranking_score": 94,
-    "engineSource": "qoder:agente-editorial",
-    "publishedAt": "2026-11-19T11:26:00.000Z",
-    "published_at": "2026-11-19T11:26:00.000Z",
-    "sourceUrl": "https://www.prnewswire.com/news-releases/65-equity-partners-marks-us2-billion-investment-milestone-as-it-announces-investment-in-swedish-hypercar-manufacturer-koenigsegg-automotive-302944466.html",
-    "source_url": "https://www.prnewswire.com/news-releases/65-equity-partners-marks-us2-billion-investment-milestone-as-it-announces-investment-in-swedish-hypercar-manufacturer-koenigsegg-automotive-302944466.html"
   }
 
 ];
